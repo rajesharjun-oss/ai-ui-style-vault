@@ -1,0 +1,268 @@
+{
+ "name": "AI Product Generation",
+ "slug": "ai-product-generation",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#020108",
+ "token": "--color-ink-black",
+ "role": "Primary text, borders, icon strokes - near-black carries all body and heading copy"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#333333",
+ "token": "--color-charcoal",
+ "role": "Dominant border color across the entire interface, card outlines, dividers"
+ },
+ {
+ "name": "Steel",
+ "value": "#5d5c61",
+ "token": "--color-steel",
+ "role": "Secondary borders, muted icon fills, tertiary structural lines"
+ },
+ {
+ "name": "Pewter",
+ "value": "#818084",
+ "token": "--color-pewter",
+ "role": "Muted helper text, secondary link text, subdued metadata"
+ },
+ {
+ "name": "Ash",
+ "value": "#d7d7d6",
+ "token": "--color-ash",
+ "role": "Subtle background washes, low-contrast surface differentiation"
+ },
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Card surfaces, image backgrounds, inverted text on dark regions"
+ },
+ {
+ "name": "Paper",
+ "value": "#f7f7f7",
+ "token": "--color-paper",
+ "role": "Page background - the dominant canvas tone behind all content"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "SF Pro Display",
+ "token": "--font-sf-pro-display",
+ "role": "Sole typeface across the system - display headlines reach 100px at weight 400 with -3.1% tracking, subheadings at 53px weight 500 with -2% tracking, body at 15-17px weight 400. The choice to use weight 400-500 even at display sizes (rather than going bold) is signature: the type commands attention through scale and tightness, not weight. Substitute: Inter, or any geometric grotesque with strong x-height and tight default tracking."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.25",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.5",
+ "-0.135px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "17px",
+ "1.5",
+ "-0.153px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "27px",
+ "1.15",
+ "-0.351px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "43px",
+ "1.05",
+ "-0.645px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "53px",
+ "1",
+ "-1.06px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "100px",
+ "0.94",
+ "-3.1px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "80px",
+ "cardPadding": "27px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "172",
+ "172px",
+ "`--spacing-172`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "7px"
+ ],
+ [
+ "badges",
+ "1.3px"
+ ],
+ [
+ "images",
+ "27px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "featureCards",
+ "40px"
+ ],
+ [
+ "imageContainers",
+ "20px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Display Headline",
+ "role": "Hero and section titles at editorial scale"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Mid-page section introductions"
+ },
+ {
+ "name": "Pill Button (Primary Ghost)",
+ "role": "Call-to-action and navigation links"
+ },
+ {
+ "name": "Feature Card",
+ "role": "Container for product shots and video previews"
+ },
+ {
+ "name": "Image Tile",
+ "role": "Product photography thumbnail in grid"
+ },
+ {
+ "name": "Section Tag Badge",
+ "role": "Small contextual label above sections"
+ },
+ {
+ "name": "Product Card Header",
+ "role": "Label strip on AI-generated output tiles"
+ },
+ {
+ "name": "Sidebar Nav Item",
+ "role": "Left-edge \u0027What you can do\u0027 navigation"
+ },
+ {
+ "name": "Media Player Strip",
+ "role": "Top bar of the app preview window"
+ },
+ {
+ "name": "Expand/Action Floating Button",
+ "role": "Bottom-right interactive control on sections"
+ },
+ {
+ "name": "Highlighted Inline Word",
+ "role": "Editorial emphasis within running text"
+ },
+ {
+ "name": "Split Section (Text + Visual)",
+ "role": "Primary content section layout"
+ },
+ {
+ "name": "Image Gallery Grid",
+ "role": "Product photography collection"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #020108 for all primary text and heading copy - never substitute a softer gray for headlines",
+ "Apply the orange inline highlight pattern (one word in #fd7b03 within an otherwise #020108 sentence) for editorial emphasis in headlines and subheadings",
+ "Reach for display sizes of 73-100px at weight 400 - let scale carry authority, not weight",
+ "Use -0.02em to -0.031em letter-spacing on all text 27px and above; keep tracking normal at 15px and below",
+ "Set border-radius to 9999px for all buttons, links, and pill elements - 7px for cards, 20-27px for images",
+ "Keep the page background #f7f7f7 and card surfaces #ffffff or #f7f7f7 - rely on the two-tone surface step, never on shadow",
+ "Use 27px padding inside cards and 20px gaps between elements; 80px between major sections"
+ ],
+ "doNot": [
+ "Do not introduce a second chromatic accent - the system is monochrome with a single orange highlight, and adding color dilutes the editorial discipline",
+ "Do not use bold or weight 600+ for headlines - weight 400-500 at large sizes is the signature; going heavy breaks the cover-type feel",
+ "Do not apply box-shadows to cards, buttons, or images - the system is entirely flat; elevation must be communicated through tonal surface steps",
+ "Do not use background colors on text spans, underlines, or pills for emphasis - color swap on a word within running text is the only emphasis pattern",
+ "Do not use the gradient system for large hero backgrounds or section fills - gradients are for accent strokes and small decorative elements only",
+ "Do not introduce more than two border-radius values per component type - 9999px is exclusively for buttons, 7px exclusively for cards, 20-27px exclusively for images",
+ "Do not use fully saturated primaries (pure red, pure green, pure blue) anywhere - the palette\u0027s chromatic notes all carry warmth or desaturation"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/186775da-7568-49e5-8110-4fd0bbc7bbe3",
+ "referenceSite": "https://fourmula.ai",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T00:15:10.683Z",
+ "articleModifiedAt": "2026-06-05T04:20:48.948Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d2ec599b-0c38-4ab6-a670-d483152f35ad.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f256b1ed-e517-4f25-a449-b1195142f247.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/c51c1022-99f4-4b5e-bde2-dc6f9f2f64d8.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/790cb678-e5d0-442d-a9ad-6378fb755ff3.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0ac53a8d-e21e-4c7c-95ef-cb9b1fa438a2.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ }
+}

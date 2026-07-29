@@ -1,0 +1,124 @@
+{
+  "name": "Raycast",
+  "slug": "raycast",
+  "source": {
+    "provider": "refero",
+    "url": "https://styles.refero.design/style/3b6a17f0-3bdf-418c-a95e-0b89e5a8b2f8",
+    "referenceUrl": "https://raycast.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "dark",
+  "color": {
+    "voidBlack": { "value": "#040506", "role": "page canvas" },
+    "ink": { "value": "#07080a", "role": "card and mockup surface" },
+    "obsidian": { "value": "#111214", "role": "recessed field surface" },
+    "graphite": { "value": "#1b1c1e", "role": "badge and compact fill" },
+    "slate": { "value": "#2f3031", "role": "dark button label and border" },
+    "iron": { "value": "#454647", "role": "text on neutral filled buttons" },
+    "smoke": { "value": "#6a6b6c", "role": "muted copy and metadata" },
+    "ash": { "value": "#9c9c9d", "role": "secondary labels and captions" },
+    "mist": { "value": "#e6e6e6", "role": "neutral action fill" },
+    "pureWhite": { "value": "#ffffff", "role": "primary text" },
+    "coralPulse": { "value": "#ff6363", "role": "brand and hero accent" },
+    "emberHush": { "value": "#452324", "role": "warm accent tint" },
+    "electricSky": { "value": "#63a1ff", "role": "hero blue mid-tone" },
+    "cobaltEdge": { "value": "#143ca3", "role": "hero deep blue" },
+    "deepSpace": { "value": "#02193b", "role": "hero darkest blue" },
+    "infoBlue": { "value": "#56c2ff", "role": "decorative highlight wash" },
+    "successGreen": { "value": "#59d499", "role": "decorative highlight wash" }
+  },
+  "typography": {
+    "fontFamilies": {
+      "inter": "Inter, system-ui, -apple-system, \"Helvetica Neue\", Arial, sans-serif",
+      "geistMono": "GeistMono, \"JetBrains Mono\", Menlo, Monaco, Courier, monospace",
+      "sfProText": "\"SF Pro Text\", system-ui, -apple-system, \"Helvetica Neue\", Arial, sans-serif",
+      "sfPro": "\"SF Pro\", system-ui, -apple-system, \"Helvetica Neue\", Arial, sans-serif"
+    },
+    "scale": {
+      "eyebrow": { "size": "11px", "weight": 500, "lineHeight": 0.91, "letterSpacing": "0.8px" },
+      "body": { "size": "16px", "weight": 400, "lineHeight": 1.15, "letterSpacing": "0" },
+      "bodyLg": { "size": "18px", "weight": 400, "lineHeight": 1.15, "letterSpacing": "0" },
+      "subheading": { "size": "20px", "weight": 500, "lineHeight": 1.2, "letterSpacing": "0.2px" },
+      "headingSm": { "size": "24px", "weight": 500, "lineHeight": 1.15, "letterSpacing": "0" },
+      "heading": { "size": "32px", "weight": 500, "lineHeight": 1.15, "letterSpacing": "0" },
+      "headingLg": { "size": "56px", "weight": 400, "lineHeight": 1.17, "letterSpacing": "0.22px" },
+      "display": { "size": "64px", "weight": 600, "lineHeight": 1.1, "letterSpacing": "0" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "scale": {
+      "8": "8px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "56": "56px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "120": "120px",
+      "224": "224px"
+    },
+    "layout": {
+      "maxWidth": "1200px",
+      "sectionGap": "80-120px",
+      "cardPadding": "24px",
+      "elementGap": "8-16px"
+    }
+  },
+  "radius": {
+    "badges": "6px",
+    "inputs": "8px",
+    "buttons": "8px",
+    "cards": "16px",
+    "largeCards": "20px",
+    "pills": "9999px",
+    "iconContainers": "99999px"
+  },
+  "shadow": {
+    "key": "rgba(255, 255, 255, 0.05) 0 1px 0 0 inset, rgba(255, 255, 255, 0.25) 0 0 0 1px, rgba(0, 0, 0, 0.2) 0 -1px 0 0 inset",
+    "download": "rgba(0, 0, 0, 0.03) 0 7px 3px 0, rgba(0, 0, 0, 0.25) 0 4px 4px 0",
+    "insetHighlight": "rgba(255, 255, 255, 0.1) 0 1px 0 0 inset"
+  },
+  "surfaces": {
+    "canvas": "#040506",
+    "card": "#07080a",
+    "recessed": "#111214",
+    "badge": "#1b1c1e",
+    "accentTint": "#452324"
+  },
+  "components": {
+    "glassNavigationBar": {
+      "border": "1px solid #363739",
+      "radius": "8px",
+      "backdropBlur": "48px",
+      "background": "transparent dark fill"
+    },
+    "neutralFilledButton": {
+      "background": "#e6e6e6",
+      "color": "#454647",
+      "radius": "8px",
+      "padding": "8px 12px",
+      "font": "Inter 13-14px 500"
+    },
+    "featureCardWithKeyShadow": {
+      "radius": "16px",
+      "padding": "24px",
+      "shadow": "{shadow.key}"
+    },
+    "insetInputField": {
+      "radius": "8px",
+      "background": "rgba(255,255,255,0.05)",
+      "text": "#ffffff",
+      "placeholder": "#9c9c9d"
+    },
+    "footerMetaStrip": {
+      "font": "GeistMono 12px",
+      "color": "#6a6b6c",
+      "separator": "vertical pipe"
+    }
+  }
+}
+

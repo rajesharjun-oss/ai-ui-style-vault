@@ -1,0 +1,217 @@
+{
+  "id": "cc43cfe3-195b-4081-b586-c42db054a466",
+  "name": "Micro",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/cc43cfe3-195b-4081-b586-c42db054a466",
+  "referenceUrl": "https://www.micro.so",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Sunrise productivity workspace with blue-to-teal hero gradient, warm paper canvas, editorial display type, and compact white product surfaces.",
+  "bestFor": [
+    "productivity workspaces",
+    "personal CRM tools",
+    "AI inboxes",
+    "task systems",
+    "context graphs",
+    "product-led landing pages"
+  ],
+  "tags": [
+    "light",
+    "productivity",
+    "warm-paper",
+    "blue-teal-gradient",
+    "pastel-washes",
+    "editorial-display",
+    "product-led",
+    "context-graph",
+    "compact-ui",
+    "white-cards",
+    "hairline-borders"
+  ],
+  "colors": {
+    "brand": {
+      "azureAction": {
+        "value": "#518bdb",
+        "gradient": "linear-gradient(to right in oklab, rgb(81, 139, 219) 0%, rgb(54, 186, 184) 100%)",
+        "token": "--color-azure-action",
+        "role": "Primary CTA, focused links, active states, key icon accents, and hero gradient start."
+      },
+      "tealPulse": {
+        "value": "#36bab8",
+        "token": "--color-teal-pulse",
+        "role": "Teal text accent, tags, emphasized phrases, and hero gradient end."
+      }
+    },
+    "accent": {
+      "mintWash": {
+        "value": "#cbfbf1",
+        "token": "--color-mint-wash",
+        "role": "Soft pastel feature-card and highlight surface."
+      },
+      "peachWash": {
+        "value": "#f8ebd8",
+        "token": "--color-peach-wash",
+        "role": "Warm pastel surface tint."
+      },
+      "lavenderWash": {
+        "value": "#ede9fe",
+        "token": "--color-lavender-wash",
+        "role": "Alternate pastel feature block."
+      },
+      "tealMist": {
+        "value": "#cff2ef",
+        "token": "--color-teal-mist",
+        "role": "Subtle teal-tinted surface."
+      },
+      "coralMarker": {
+        "value": "#ed6d68",
+        "token": "--color-coral-marker",
+        "role": "Red text or category marker accent."
+      },
+      "amberMarker": {
+        "value": "#e5a057",
+        "token": "--color-amber-marker",
+        "role": "Warm icon category accent."
+      },
+      "orchidMarker": {
+        "value": "#bf89cd",
+        "token": "--color-orchid-marker",
+        "role": "Purple category accent and graph edge marker."
+      },
+      "forestEdge": {
+        "value": "#1a3a12",
+        "token": "--color-forest-edge",
+        "role": "Deep botanical mockup border."
+      },
+      "signalGreen": {
+        "value": "#3a6b2a",
+        "token": "--color-signal-green",
+        "role": "Supporting green wash and emphasis."
+      },
+      "liveLime": {
+        "value": "#7efa55",
+        "token": "--color-live-lime",
+        "role": "Supporting green wash and decorative band."
+      }
+    },
+    "neutrals": {
+      "inkBlack": "#221f1c",
+      "slateEdge": "#27272a",
+      "stoneGray": "#797267",
+      "pebble": "#8c8a88",
+      "paperWhite": "#f5f5f5",
+      "pureWhite": "#ffffff"
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "perfectlyNineties",
+      "primary": "haffer",
+      "code": "ui-monospace"
+    },
+    "scale": {
+      "eyebrow": {
+        "fontSize": "10px",
+        "lineHeight": "1.4",
+        "letterSpacing": "1px"
+      },
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "1.4"
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": "1.5"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.5"
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "lineHeight": "1.5"
+      },
+      "headingSm": {
+        "fontSize": "24px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.6px"
+      },
+      "heading": {
+        "fontSize": "30px",
+        "lineHeight": "1.25",
+        "letterSpacing": "0.6px"
+      },
+      "headingLg": {
+        "fontSize": "48px",
+        "lineHeight": "1.2",
+        "letterSpacing": "0.96px"
+      },
+      "display": {
+        "fontSize": "72px",
+        "lineHeight": "1",
+        "letterSpacing": "1.44px"
+      },
+      "heroMark": {
+        "fontSize": "96px",
+        "lineHeight": "1",
+        "letterSpacing": "-2.4px"
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "16px",
+    "elementGap": "8px",
+    "scalePx": [4, 8, 12, 16, 20, 24, 32, 40, 48, 52, 64, 80, 96, 128, 192, 240]
+  },
+  "radii": {
+    "pills": "9999px",
+    "inputs": "8px",
+    "buttons": "8px",
+    "navPills": "8px",
+    "smallCards": "14px",
+    "largeCards": "18px",
+    "featureBlocks": "18px"
+  },
+  "components": [
+    "Dark Filled Button",
+    "White Filled Button",
+    "Ghost Text Button",
+    "Pill Nav Tab",
+    "Product Card",
+    "Context Graph Node",
+    "Soft Pastel Feature Block",
+    "Search / Prompt Input",
+    "Sidebar Nav Item",
+    "Badge / Tag",
+    "Logo Strip",
+    "Floating Audio Player",
+    "Hero Product Mockup Container",
+    "Section Eyebrow Pill"
+  ],
+  "guidance": {
+    "do": [
+      "Use the blue-to-teal gradient only on the hero.",
+      "Set display headlines in perfectlyNineties or a chunky editorial substitute.",
+      "Set body and product UI in haffer or a neutral sans.",
+      "Use 8px radius for buttons, inputs, and nav.",
+      "Use 14px radius for product rows and 18px for feature blocks and graph nodes.",
+      "Keep product surfaces white with 1px borders and subtle shadows.",
+      "Use pastel washes for marketing feature blocks.",
+      "Color icons categorically with the named marker palette."
+    ],
+    "dont": [
+      "Do not repeat the gradient sky outside the hero.",
+      "Do not use the display face for body text, nav, buttons, or product UI.",
+      "Do not skip 1px borders on product cards.",
+      "Do not use 4px radius for feature cards or marketing blocks.",
+      "Do not introduce new chromatic accents beyond the named marker palette.",
+      "Do not center body copy inside product UI.",
+      "Do not use pure black for text."
+    ]
+  }
+}
+

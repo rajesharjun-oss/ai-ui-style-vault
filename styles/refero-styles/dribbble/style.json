@@ -1,0 +1,322 @@
+{
+    "id":  "b8ce0a90-40c6-4518-940c-8c97ccf9c1a0",
+    "name":  "Dribbble",
+    "slug":  "dribbble",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/b8ce0a90-40c6-4518-940c-8c97ccf9c1a0",
+                   "referenceSite":  "https://dribbble.com",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-02-10T10:54:18.000Z",
+                   "articleModifiedAt":  "2026-06-05T05:18:12.682Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/0173a914-17a6-4730-9bf1-ec20e6c36318.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/23133bca-7553-4ba5-9c9f-aa4adf1e06da.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/4edabb80-9b1f-4541-b006-9af82633a443.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/a0f6fda1-4310-4a50-9962-f69346963250.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/cf13d02d-fb61-498d-a742-f989b1fa17d3.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "Design",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "Design",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "gallery wall at design week a quiet white room where one magenta spotlight circles each piece",
+    "summary":  "Explore Dribbble\u0027s light Design design system: Dribbble Pink #ea4c89, Midnight Ink #0d0c22 colors, Mona Sans typography, and DESIGN.md for AI agents.",
+    "colors":  [
+                   {
+                       "name":  "Dribbble Pink",
+                       "value":  "#ea4c89",
+                       "token":  "--color-dribbble-pink",
+                       "role":  "Brand signature accent search submit button, PRO badge, logo mark, active heart, hover pulses one vivid magenta against the monochrome canvas makes the brand unmistakable at any size"
+                   },
+                   {
+                       "name":  "Midnight Ink",
+                       "value":  "#0d0c22",
+                       "token":  "--color-midnight-ink",
+                       "role":  "Primary text, filled primary buttons, dark surface fills, icon strokes a near-black with a cool blue undertone that reads warmer than pure black against white"
+                   },
+                   {
+                       "name":  "Deep Plum",
+                       "value":  "#060318",
+                       "token":  "--color-deep-plum",
+                       "role":  "Navigation bar fill, darkest text tokens, logo wordmark slightly cooler and deeper than Midnight Ink for the fixed header band"
+                   },
+                   {
+                       "name":  "Charcoal Plum",
+                       "value":  "#3d3d4e",
+                       "token":  "--color-charcoal-plum",
+                       "role":  "Supporting neutral for secondary UI, dividers, and muted labels. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Smoke",
+                       "value":  "#6e6d7a",
+                       "token":  "--color-smoke",
+                       "role":  "Secondary/muted body text, helper labels, view-count and heart-count numbers carries the dense meta layer beneath thumbnails"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#9e9ea7",
+                       "token":  "--color-fog",
+                       "role":  "Tertiary text, placeholder text, disabled icons, checkbox idle state the lightest readable neutral"
+                   },
+                   {
+                       "name":  "Mist",
+                       "value":  "#f3f3f6",
+                       "token":  "--color-mist",
+                       "role":  "Soft surface fill, input field backgrounds, hover wells, secondary panels the only off-white surface that sits above the page canvas"
+                   },
+                   {
+                       "name":  "Frost Border",
+                       "value":  "#e2e8f2",
+                       "token":  "--color-frost-border",
+                       "role":  "Hairline borders, divider lines, input outlines, card edges on hover a cool-tinted off-white that reads as a boundary, not a fill"
+                   },
+                   {
+                       "name":  "Muted Plum",
+                       "value":  "#524b63",
+                       "token":  "--color-muted-plum",
+                       "role":  "Lower-emphasis dark text, link hover in dense lists, designer name secondary line a washed dark for tertiary copy on white"
+                   },
+                   {
+                       "name":  "Slate Edge",
+                       "value":  "#3a3546",
+                       "token":  "--color-slate-edge",
+                       "role":  "Faint dark surfaces, tag backgrounds, low-key dark UI wells bridges the gap between the deep nav black and the lighter grays"
+                   },
+                   {
+                       "name":  "Paper",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper",
+                       "role":  "Page canvas, card surfaces, button text on dark fills, input text the dominant surface of the entire product"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Mona Sans Sole typeface across the product Mona Sans is a custom geometric humanist sans drawn by GitHub, used for everything from 9px meta labels to 48px hero headlines. Its openness keeps dense 4-column grids readable, and the 450/500 mid-weights carry the designer\u0027s brand without shouting `--font-mona-sans`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "1.38",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "13px",
+                                             "1.38",
+                                             "",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "14px",
+                                             "1.38",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "body-lg",
+                                             "16px",
+                                             "1.38",
+                                             "",
+                                             "--text-body-lg"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "48px",
+                                             "1.3",
+                                             "",
+                                             "--text-heading-sm"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "compact",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "36",
+                                      "36px",
+                                      "--spacing-36"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "44",
+                                      "44px",
+                                      "--spacing-44"
+                                  ],
+                                  [
+                                      "72",
+                                      "72px",
+                                      "--spacing-72"
+                                  ],
+                                  [
+                                      "220",
+                                      "220px",
+                                      "--spacing-220"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1280px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "40px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "12px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "8px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "cards",
+                                    "8px"
+                                ],
+                                [
+                                    "badges",
+                                    "12px"
+                                ],
+                                [
+                                    "inputs",
+                                    "12px"
+                                ],
+                                [
+                                    "buttons",
+                                    "8px"
+                                ],
+                                [
+                                    "thumbnails",
+                                    "8px"
+                                ],
+                                [
+                                    "hero-feature",
+                                    "16px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Filled Dark CTA",
+                           "role":  "Primary action button (Log in, Sign up, Start a Project Brief)"
+                       },
+                       {
+                           "name":  "Ghost Navigation Button",
+                           "role":  "Secondary text link in the nav band"
+                       },
+                       {
+                           "name":  "Dribbble Pink Search Submit",
+                           "role":  "Search action button the only persistent pink element on most pages"
+                       },
+                       {
+                           "name":  "Search Input",
+                           "role":  "Primary search field in the hero"
+                       },
+                       {
+                           "name":  "Category Pill",
+                           "role":  "Popular-tag filter chip below the search bar"
+                       },
+                       {
+                           "name":  "Filter Tab",
+                           "role":  "Category navigation in the content band (Discover, Animation, Branding, etc.)"
+                       },
+                       {
+                           "name":  "Filter Dropdown Trigger",
+                           "role":  "\u0027Popular\u0027 and \u0027Filters\u0027 selectors"
+                       },
+                       {
+                           "name":  "Shot Thumbnail Card",
+                           "role":  "Single piece of design work in the discovery grid"
+                       },
+                       {
+                           "name":  "PRO Badge",
+                           "role":  "Marks paying/designer-tier accounts next to usernames"
+                       },
+                       {
+                           "name":  "Hero Showcase Device",
+                           "role":  "Large featured-work frame in the hero column"
+                       },
+                       {
+                           "name":  "Start a Project Brief Card",
+                           "role":  "Inline call-to-action band between hero and grid"
+                       },
+                       {
+                           "name":  "Top Navigation Bar",
+                           "role":  "Fixed dark band at the top of every page"
+                       }
+                   ],
+    "dos":  [
+                "Use #ea4c89 only for brand-anchored moments: search submit, PRO badge, logo mark, heart-fill, and one-per-page highlight. Never paint a large surface pink.",
+                "Set filled primary buttons to #0d0c22 fill, white text, 8px radius, 10px 18px padding, Mona Sans 14px weight 600.",
+                "Build the navigation as a 64px tall #060318 band with white text in Mona Sans 14px weight 500 never add a shadow or border beneath it.",
+                "Use Mona Sans at 48px weight 700 with line-height 1.08 for hero headlines; let the work below it provide the visual weight.",
+                "Keep the 4-column thumbnail grid on a pure white canvas with 8px image radius and 12px meta gap no card backgrounds, no shadows, no dividers between tiles.",
+                "Render the PRO badge as #ea4c89 fill, white text, 4px radius, 9px weight 700 uppercase, inline with the designer name.",
+                "Maintain 40px between content bands and 8px between meta items in the shot card the rhythm should feel dense but breathable."
+            ],
+    "donts":  [
+                  "Don\u0027t use #ea4c89 for body text, icons, borders, or large fills it loses its meaning when overused.",
+                  "Don\u0027t add drop shadows to cards, buttons, or the navigation the system relies on color contrast and 8px radii for hierarchy.",
+                  "Don\u0027t use any color other than Midnight Ink or Deep Plum for filled dark buttons avoid #3d3d4 for primary CTAs.",
+                  "Don\u0027t apply radii above 16px to standard UI thumbnails are 8px, hero frames are 16px, and anything rounder reads as wrong.",
+                  "Don\u0027t introduce a second accent color the palette is monochrome plus one magenta, and a second accent will dilute the brand signal.",
+                  "Don\u0027t set body copy below 12px or above 16px the system compresses information at 1314px and reserves 48px for the hero only.",
+                  "Don\u0027t decorate the dark navigation with gradients, glows, or transparency keep it a flat #060318 band."
+              ]
+}

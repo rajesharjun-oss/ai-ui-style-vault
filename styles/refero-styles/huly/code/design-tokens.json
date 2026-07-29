@@ -1,0 +1,113 @@
+{
+  "name": "Huly",
+  "source": "Refero Styles",
+  "url": "https://styles.refero.design/style/d018e81d-6bb6-4445-86d7-39fd6be7e74d",
+  "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+  "colors": {
+    "obsidianCanvas": "#303236",
+    "void": "#090a0c",
+    "charcoalCard": "#111111",
+    "slateEdge": "#4a4b50",
+    "ironVeil": "#6b6c6d",
+    "smoke": "#95979e",
+    "ash": "#a9a9aa",
+    "frost": "#d1d1d1",
+    "linen": "#e5e5e7",
+    "snow": "#ffffff",
+    "electricIris": "#5683da",
+    "emberPulse": "#ff8964",
+    "molasses": "#5a250a"
+  },
+  "surfaces": {
+    "obsidianCanvas": "#303236",
+    "void": "#090a0c",
+    "charcoalCard": "#111111",
+    "lightCanvas": "#ffffff",
+    "linen": "#f6f6f6"
+  },
+  "typography": {
+    "fonts": {
+      "inter": {
+        "token": "--font-inter",
+        "substitutes": ["DM Sans", "IBM Plex Sans"],
+        "weights": [300, 400, 500, 600, 700],
+        "role": "Functional UI text, body, nav, buttons, lists, captions, and small headings."
+      },
+      "esbuild": {
+        "token": "--font-esbuild",
+        "substitutes": ["Sora", "General Sans"],
+        "weights": [400, 500, 600],
+        "role": "Display-only hero headlines, section openers, and major feature titles."
+      }
+    },
+    "scale": {
+      "caption": { "size": "11px", "lineHeight": 1.38, "letterSpacing": "-0.1px" },
+      "body": { "size": "14px", "lineHeight": 1.5, "letterSpacing": "-0.14px" },
+      "bodyLg": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "-0.16px" },
+      "subheading": { "size": "18px", "lineHeight": 1.5, "letterSpacing": "-0.36px" },
+      "headingSm": { "size": "22px", "lineHeight": 1.25, "letterSpacing": "normal" },
+      "heading": { "size": "24px", "lineHeight": 1.25, "letterSpacing": "-0.48px" },
+      "displaySm": { "size": "32px", "lineHeight": 1, "letterSpacing": "-1.6px" },
+      "display": { "size": "80px", "lineHeight": 0.9, "letterSpacing": "-4px" }
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "density": "comfortable",
+    "scale": [
+      "4px",
+      "8px",
+      "12px",
+      "16px",
+      "20px",
+      "24px",
+      "28px",
+      "32px",
+      "36px",
+      "40px",
+      "64px",
+      "160px",
+      "180px",
+      "240px"
+    ],
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "96px",
+      "cardPadding": "24px",
+      "elementGap": "12px"
+    }
+  },
+  "radii": {
+    "inputs": "4px",
+    "cards": "12px",
+    "panels": "30px",
+    "tags": "9999px",
+    "buttons": "9999px"
+  },
+  "shadows": {
+    "md": "rgba(0, 0, 0, 0.35) 0px 4px 16px 0px",
+    "subtle": "rgba(255, 255, 255, 0.4) 0px 0px 0px 6px",
+    "sm": "rgba(0, 0, 0, 0.15) 0px 4px 6px 0px",
+    "xl": "rgba(0, 0, 0, 0.5) 0px 6px 25px 0px"
+  },
+  "rules": {
+    "do": [
+      "Use full pill radius for buttons, tags, and pill controls.",
+      "Reserve Esbuild for display moments at 28px and above.",
+      "Choose dark or light surface mode before composing a section.",
+      "Use Electric Iris for the single most important action per screen.",
+      "Use Ember Pulse as warm punctuation in tags, dots, and gradient stops.",
+      "Use aurora gradients as narrow beams or localized glows.",
+      "Alternate dark and light bands with generous vertical rhythm."
+    ],
+    "dont": [
+      "Do not use sharp corners on buttons or tags.",
+      "Do not apply the aurora gradient as a full-surface background.",
+      "Do not introduce a third accent color.",
+      "Do not rely on heavy shadows for dark-card elevation.",
+      "Do not use Esbuild below 28px or in body copy.",
+      "Do not ship low-contrast dark or light text combinations."
+    ]
+  }
+}
+

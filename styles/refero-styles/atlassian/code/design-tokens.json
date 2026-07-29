@@ -1,0 +1,84 @@
+{
+  "name": "Atlassian",
+  "slug": "atlassian",
+  "sourceUrl": "https://styles.refero.design/style/c08ebca5-87d4-4c19-a5d7-ae5e670dae11",
+  "referenceSite": "https://www.atlassian.com",
+  "tokens": {
+    "color": {
+      "atlassianBlue": { "value": "#0052cc", "role": "primary CTA, brand action, active nav, selected state" },
+      "brightBlue": { "value": "#0065ff", "role": "links, hover states, product highlights, emphasis" },
+      "navy": { "value": "#172b4d", "role": "headings, strong text, primary navigation" },
+      "slate": { "value": "#42526e", "role": "body copy, secondary labels, inactive text" },
+      "cloud": { "value": "#f4f5f7", "role": "page bands, card backgrounds, separators" },
+      "white": { "value": "#ffffff", "role": "main page surface and card fill" },
+      "purple": { "value": "#6554c0", "role": "icon tiles, charts, product family accents" },
+      "teal": { "value": "#00b8d9", "role": "workflow accents, illustration details, status" },
+      "green": { "value": "#36b37e", "role": "success states and healthy status chips" },
+      "yellow": { "value": "#ffc400", "role": "warning, highlights, confetti accents" },
+      "red": { "value": "#ff5630", "role": "error states and urgent badges" }
+    },
+    "font": {
+      "family": {
+        "display": "Charlie Display, Inter, Arial, sans-serif",
+        "text": "Charlie Text, Inter, Arial, sans-serif"
+      },
+      "weight": {
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      }
+    },
+    "text": {
+      "caption": { "size": "12px", "lineHeight": "1.4", "weight": 500, "tracking": "0.01em" },
+      "bodySmall": { "size": "14px", "lineHeight": "1.45", "weight": 400, "tracking": "0" },
+      "body": { "size": "16px", "lineHeight": "1.5", "weight": 400, "tracking": "0" },
+      "bodyLarge": { "size": "18px", "lineHeight": "1.5", "weight": 400, "tracking": "0" },
+      "cardTitle": { "size": "22px", "lineHeight": "1.25", "weight": 600, "tracking": "-0.01em" },
+      "sectionHeading": { "size": "40px", "lineHeight": "1.12", "weight": 700, "tracking": "-0.02em" },
+      "heroHeading": { "size": "56px", "lineHeight": "1.04", "weight": 700, "tracking": "-0.02em" }
+    },
+    "radius": {
+      "button": "999px",
+      "buttonCompact": "8px",
+      "card": "16px",
+      "image": "20px",
+      "input": "8px",
+      "chip": "999px",
+      "section": "24px"
+    },
+    "spacing": {
+      "unit": "4px",
+      "pageMaxWidth": "1200px",
+      "sectionGap": "96px",
+      "cardPadding": "24px",
+      "elementGap": "16px",
+      "heroPaddingMin": "80px",
+      "heroPaddingMax": "120px"
+    }
+  },
+  "componentRecipes": {
+    "primaryCta": {
+      "background": "atlassianBlue",
+      "color": "white",
+      "radius": "999px or 8px",
+      "padding": "12px 20px",
+      "font": "Charlie Text 14px to 16px 600"
+    },
+    "featureCard": {
+      "background": "white",
+      "border": "1px solid cloud",
+      "radius": "16px",
+      "padding": "24px",
+      "titleColor": "navy",
+      "bodyColor": "slate"
+    },
+    "productScreenshotFrame": {
+      "background": "white",
+      "border": "1px solid cloud",
+      "radius": "20px",
+      "shadow": "soft and sparing",
+      "content": "product screenshot or workflow visual"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@theme {
+  --color-forest-ink: #07503f;
+  --color-vivid-lime: #e8fe85;
+  --color-bone: #f1efdf;
+  --color-pure-white: #ffffff;
+  --color-ash-gray: #efefef;
+  --color-charcoal: #212529;
+  --color-graphite: #353535;
+  --color-pewter: #6d6d6d;
+  --color-sky-card: #b2cee7;
+  --color-peach-card: #fceace;
+  --color-sage-card: #e6ecd5;
+  --color-moss: #c3cda7;
+
+  --font-inter: Inter, "DM Sans", Helvetica, Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-reckless: Reckless, "Cormorant Garamond", "GT Sectra", "Source Serif Pro", ui-serif, serif;
+  --font-reckless-light: RecklessLight, "Cormorant Garamond Light", "Source Serif ExtraLight", ui-serif, serif;
+
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-subheading: 24px;
+  --text-heading-sm: 37px;
+  --text-heading: 45px;
+  --text-heading-lg: 57px;
+  --text-display: 80px;
+
+  --radius-cards: 20px;
+  --radius-links: 26px;
+  --radius-hero-cards: 30px;
+  --radius-inputs: 33px;
+  --radius-buttons: 100px;
+  --radius-nav-pills: 110px;
+
+  --spacing-section: 50px;
+  --spacing-page-max: 1200px;
+  --spacing-card: 30px;
+  --spacing-element: 8px;
+}
+
+@utility arva-surface {
+  background: var(--color-bone);
+  color: var(--color-charcoal);
+  font-family: var(--font-inter);
+}
+
+@utility arva-heading {
+  color: var(--color-charcoal);
+  font-family: var(--font-reckless);
+  font-size: var(--text-heading-lg);
+  line-height: 1.06;
+  font-weight: 300;
+  letter-spacing: -0.022px;
+}
+
+@utility arva-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-buttons);
+  background: var(--color-forest-ink);
+  color: var(--color-pure-white);
+  padding: 10px 24px;
+  font-family: var(--font-inter);
+  font-size: var(--text-body-sm);
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}

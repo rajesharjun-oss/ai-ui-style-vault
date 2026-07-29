@@ -1,0 +1,118 @@
+:root {
+  /* Colors */
+  --color-ink-black: #000000;
+  --color-paper-white: #ffffff;
+  --color-graphite: #686562;
+  --color-signal-orange: #ff4500;
+  --color-blue-gray-mist: #c5d3e8;
+  --color-sky-tint: #c4edff;
+  --color-lavender-mist: #e2e9f3;
+  --color-faint-slate: #f8fafc;
+  --color-cream-wash: #fffde6;
+
+  /* Surfaces */
+  --surface-canvas: #ffffff;
+  --surface-logo-strip: #f8fafc;
+  --surface-feature-card: #e2e9f3;
+  --surface-code-card: #c5d3e8;
+  --surface-footer: #ff4500;
+
+  /* Typography */
+  --font-plain: "plain", Inter, Geist, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-gtplanar: "gtPlanar", "GT America", "Inter Tight", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-gtstandardmono: "gtStandardMono", "JetBrains Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-caption: 14px;
+  --leading-caption: 1.2;
+  --tracking-caption: 0.6px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: 0.11px;
+  --text-subheading: 24px;
+  --leading-subheading: 1.3;
+  --tracking-subheading: -0.12px;
+  --text-heading: 34px;
+  --leading-heading: 1.15;
+  --tracking-heading: -0.68px;
+  --text-heading-lg: 45px;
+  --leading-heading-lg: 1.1;
+  --tracking-heading-lg: -0.9px;
+  --text-display: 189px;
+  --leading-display: 1;
+  --tracking-display: -9.45px;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-60: 60px;
+  --spacing-96: 96px;
+  --spacing-224: 224px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap-min: 64px;
+  --section-gap-max: 96px;
+  --card-padding-min: 16px;
+  --card-padding-max: 24px;
+  --element-gap-min: 8px;
+  --element-gap-max: 16px;
+
+  /* Radius */
+  --radius-cards: 4px;
+  --radius-browser-mockups: 3px;
+  --radius-buttons: 50px;
+  --radius-tags: 999px;
+  --radius-highlight: 2px;
+}
+
+.browserbase-style-shell {
+  background: var(--surface-canvas);
+  color: var(--color-ink-black);
+  font-family: var(--font-plain);
+}
+
+.browserbase-style-display {
+  color: var(--color-ink-black);
+  font-family: var(--font-gtplanar);
+  font-feature-settings: "ss05" 1;
+  font-size: var(--text-heading-lg);
+  font-weight: 500;
+  line-height: var(--leading-heading-lg);
+  letter-spacing: var(--tracking-heading-lg);
+}
+
+.browserbase-style-pill {
+  background: var(--color-ink-black);
+  border: 0;
+  border-radius: var(--radius-buttons);
+  color: var(--color-paper-white);
+  font-family: var(--font-plain);
+  font-size: var(--text-body);
+  font-weight: 500;
+  line-height: 1;
+  padding: 8px 21px;
+}
+
+.browserbase-style-highlight {
+  background: var(--color-signal-orange);
+  border-radius: var(--radius-highlight);
+  color: var(--color-ink-black);
+  display: inline-block;
+  padding: 2px 6px;
+}
+
+.browserbase-style-card {
+  background: var(--surface-feature-card);
+  border: 1px solid var(--color-lavender-mist);
+  border-radius: var(--radius-cards);
+  box-shadow: none;
+  padding: var(--spacing-24);
+}

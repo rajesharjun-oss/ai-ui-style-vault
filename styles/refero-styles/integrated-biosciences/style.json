@@ -1,0 +1,61 @@
+{
+  "name": "Integrated Biosciences",
+  "slug": "integrated-biosciences",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/80099f79-72b7-4367-b2e9-6a3d4a3e9e6a",
+    "styleId": "80099f79-72b7-4367-b2e9-6a3d4a3e9e6a",
+    "referenceSite": "https://www.integratedbio.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "dark",
+  "summary": "A dark scientific editorial system with black laboratory surfaces, one lime signal color, single-family geometric sans typography, square geometry, hairline borders, and evidence-style imagery.",
+  "personality": [
+    "scientific",
+    "precise",
+    "clinical",
+    "minimal",
+    "technical",
+    "research-led"
+  ],
+  "bestFor": [
+    "biotech websites",
+    "life-science startups",
+    "research dashboards",
+    "clinical AI tools",
+    "scientific data products"
+  ],
+  "coreMoves": [
+    "Use a black canvas with flat dark panels.",
+    "Use lime as the only accent and only for signal.",
+    "Keep all corners square.",
+    "Use one geometric sans family across display, body, labels, and controls.",
+    "Organize the interface with 1px rules and strict grids.",
+    "Use scientific evidence imagery instead of lifestyle visuals."
+  ],
+  "colors": {
+    "bioSignal": "#cef79e",
+    "void": "#000000",
+    "labBlack": "#0c0c0c",
+    "graphite": "#1a1a1a",
+    "carbon": "#222222",
+    "slate": "#363636",
+    "rule": "#424242",
+    "mist": "#9f9f9f",
+    "softWhite": "#f4f4f4",
+    "pureWhite": "#ffffff"
+  },
+  "typography": {
+    "primary": {
+      "family": "Aspekta",
+      "fallback": "Inter",
+      "weights": [400],
+      "sizes": ["11px", "13px", "16px", "20px", "36px", "56px", "76px"],
+      "tracking": "0 to 0.16em"
+    }
+  },
+  "shape": {
+    "radius": "0px",
+    "borderWidth": "1px"
+  }
+}
+

@@ -1,0 +1,124 @@
+{
+  "name": "Sequel",
+  "slug": "sequel",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/1bd3b2ba-9ad9-44ed-9130-03f9d94de821",
+    "style_id": "1bd3b2ba-9ad9-44ed-9130-03f9d94de821",
+    "reference_site": "https://sequel.co",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "dark",
+  "mood": "private screening after dark with a single warm lamp",
+  "summary": "A pure-black cinematic system for private membership and founder networks, using Lamp Cream as the only warm action color, warm portraiture, frosted glass badges, VisueltPro typography, and a restrained Bradford italic accent.",
+  "use_cases": [
+    "Private membership networks",
+    "Founder communities",
+    "Family-office brands",
+    "Premium media",
+    "Member stories",
+    "Invite-only products",
+    "High-trust advisory sites"
+  ],
+  "colors": {
+    "lamp_cream": "#f5f5f0",
+    "void_black": "#000000",
+    "charcoal": "#202020",
+    "graphite": "#333333",
+    "smoke": "#999999",
+    "pure_white": "#ffffff"
+  },
+  "typography": {
+    "primary_font": "VisueltPro",
+    "primary_fallback": "Inter, Satoshi, General Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "accent_font": "Bradford",
+    "accent_fallback": "Canela, Tiempos Headline, GT Super, Georgia, serif",
+    "weights": [300, 400, 500],
+    "features": "\"ss01\" 1, \"cv11\" 1",
+    "scale": {
+      "label_sm": {
+        "size": "11px",
+        "line_height": "1.5",
+        "letter_spacing": "0.55px",
+        "weight": 500
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.5",
+        "letter_spacing": "0",
+        "weight": 400
+      },
+      "body_lg": {
+        "size": "20px",
+        "line_height": "1.5",
+        "letter_spacing": "0",
+        "weight": 400
+      },
+      "subheading": {
+        "size": "30px",
+        "line_height": "1.2",
+        "letter_spacing": "-0.75px",
+        "weight": 500
+      },
+      "heading": {
+        "size": "54px",
+        "line_height": "1.2",
+        "letter_spacing": "0",
+        "weight": 300
+      },
+      "heading_lg": {
+        "size": "57px",
+        "line_height": "1",
+        "letter_spacing": "-2.85px",
+        "weight": 500
+      },
+      "display": {
+        "size": "128px",
+        "line_height": "1",
+        "letter_spacing": "-3.2px",
+        "weight": 500
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "density": "comfortable",
+    "page_max_width": "1200px",
+    "section_gap": "96px to 120px",
+    "card_padding": "0px",
+    "element_gap": "16px"
+  },
+  "radius": {
+    "cards": "10px",
+    "media": "10px",
+    "buttons": "9999px",
+    "badges": "9999px",
+    "chips": "9999px",
+    "inputs": "0px",
+    "play_button": "50%"
+  },
+  "components": [
+    "Primary Filled Pill Button",
+    "Ghost Outline Pill Button",
+    "Frosted Glass Badge",
+    "Elevated Card",
+    "Cinematic Media Card",
+    "Video Play Button",
+    "Section Display Heading",
+    "Italic Serif Accent Word",
+    "Top Navigation",
+    "Hero Gradient Overlay"
+  ],
+  "rules": [
+    "Use pure black as the page canvas.",
+    "Use Lamp Cream exclusively for primary filled actions.",
+    "Use no chromatic accent colors.",
+    "Use pill geometry for buttons, badges, chips, and controls.",
+    "Use 10px radius for media and cards.",
+    "Use Charcoal tonal surfaces instead of card shadows.",
+    "Reserve Bradford italic for one emotional word inside a heading.",
+    "Use uppercase positive tracking for badges and metadata.",
+    "Use negative tracking for display type at 57px and above.",
+    "Use only a media readability scrim as a gradient."
+  ]
+}

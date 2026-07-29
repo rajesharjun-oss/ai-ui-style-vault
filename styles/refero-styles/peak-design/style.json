@@ -1,0 +1,95 @@
+{
+  "name": "Peak Design",
+  "slug": "peak-design",
+  "source_url": "https://styles.refero.design/style/6f3fb64d-d4c9-4ec1-86a1-7983e5180985",
+  "style_id": "6f3fb64d-d4c9-4ec1-86a1-7983e5180985",
+  "reference_site": "https://peakdesign.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A gallery-grade monochrome commerce style with split dark/light editorial panels, studio product photography, Exposure-style display serif headlines, Geist body text, uppercase Bryant-style labels, flat product cards, hairline borders, and rare Ember Red emphasis.",
+  "personality": [
+    "premium",
+    "commerce",
+    "gallery",
+    "monochrome",
+    "engineered",
+    "editorial"
+  ],
+  "colors": {
+    "carbonInk": "#1a211e",
+    "paperWhite": "#ffffff",
+    "trueBlack": "#000000",
+    "obsidian": "#0c0c0c",
+    "fog": "#eef1f0",
+    "mist": "#e0e0e0",
+    "graphite": "#606562",
+    "ashBorder": "#cccfcd",
+    "slate": "#363537",
+    "pewter": "#4e4e4e",
+    "emberRed": "#cc2e39"
+  },
+  "typography": {
+    "body": "Geist, Inter, Sohne, Helvetica Neue, system-ui, sans-serif",
+    "display": "Exposure-style serif, Playfair Display, GT Super, Tiempos Headline, Georgia, serif",
+    "label": "Bryant-style condensed sans, Druk Wide, Inter Display Bold, Neue Haas Grotesk Display Bold, sans-serif",
+    "mono": "Geist Mono, JetBrains Mono, IBM Plex Mono, monospace",
+    "bodyWeights": [400, 600, 700],
+    "displayWeights": [400],
+    "labelWeights": [700],
+    "sizesPx": [14, 16, 24, 32, 40, 48, 80],
+    "rules": [
+      "Use Exposure-style serif only for display headlines.",
+      "Use Geist for body, product text, forms, and footer.",
+      "Use Bryant-style condensed uppercase for nav, filters, buttons, and eyebrows.",
+      "Never set Bryant-style labels in mixed case."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 4,
+    "maxWidthPx": 1440,
+    "sectionGapPx": 80,
+    "cardPaddingPx": 24,
+    "elementGapPx": 24,
+    "scalePx": [4, 8, 12, 16, 20, 24, 32, 40, 48, 64]
+  },
+  "radius": {
+    "navPx": 4,
+    "inputsPx": 4,
+    "buttonsPx": 4,
+    "cardsPx": 8,
+    "imagesPx": 8,
+    "roundedButtonsPx": 32,
+    "badgesPx": 9999,
+    "filterPillsPx": 9999
+  },
+  "components": [
+    "announcement bar",
+    "primary navigation",
+    "category filter bar",
+    "product card",
+    "new badge",
+    "hero split panel",
+    "filled button on dark",
+    "outlined button on dark",
+    "ghost button on light",
+    "carousel pagination dots",
+    "search field",
+    "section heading block",
+    "navigation icon button"
+  ],
+  "avoid": [
+    "colored UI backgrounds",
+    "decorative gradients",
+    "shadows",
+    "serif body text",
+    "mixed-case Bryant labels",
+    "repeated Ember Red accents",
+    "rounded cards above 8px",
+    "centered product descriptions",
+    "illustrations",
+    "3D renders",
+    "abstract graphics"
+  ]
+}
+

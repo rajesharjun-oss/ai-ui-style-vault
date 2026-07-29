@@ -1,0 +1,210 @@
+{
+  "name": "Ease Health",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/e9f5e976-53f7-42f5-a882-4e63b3c2f734",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "color": {
+    "forestInk": {
+      "value": "#0f3e17",
+      "type": "color"
+    },
+    "sageMist": {
+      "value": "#b1dbb8",
+      "type": "color"
+    },
+    "keylimeWash": {
+      "value": "#e1f4df",
+      "type": "color"
+    },
+    "mintVeil": {
+      "value": "#cfe7d3",
+      "type": "color"
+    },
+    "slateHush": {
+      "value": "#b6ced5",
+      "type": "color"
+    },
+    "creamPaper": {
+      "value": "#fffefc",
+      "type": "color"
+    },
+    "charcoal": {
+      "value": "#222222",
+      "type": "color"
+    },
+    "borderMist": {
+      "value": "#efeeeb",
+      "type": "color"
+    },
+    "forestShadow": {
+      "value": "#0c2f10",
+      "type": "color"
+    }
+  },
+  "font": {
+    "faireOctave": {
+      "value": "Faire Octave",
+      "type": "fontFamily"
+    },
+    "suisseIntl": {
+      "value": "Suisse Intl",
+      "type": "fontFamily"
+    },
+    "displayFallback": {
+      "value": "Cormorant Garamond, Playfair Display, serif",
+      "type": "fontFamily"
+    },
+    "bodyFallback": {
+      "value": "Inter, Soehne, Helvetica Neue, sans-serif",
+      "type": "fontFamily"
+    }
+  },
+  "fontWeight": {
+    "light": {
+      "value": 300,
+      "type": "fontWeight"
+    },
+    "regular": {
+      "value": 400,
+      "type": "fontWeight"
+    },
+    "semibold": {
+      "value": 600,
+      "type": "fontWeight"
+    }
+  },
+  "fontSize": {
+    "caption": {
+      "value": "10px",
+      "type": "dimension"
+    },
+    "body": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "subheading": {
+      "value": "18px",
+      "type": "dimension"
+    },
+    "headingSmall": {
+      "value": "23px",
+      "type": "dimension"
+    },
+    "heading": {
+      "value": "40px",
+      "type": "dimension"
+    },
+    "headingLarge": {
+      "value": "56px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "74px",
+      "type": "dimension"
+    }
+  },
+  "lineHeight": {
+    "caption": {
+      "value": "1.61",
+      "type": "number"
+    },
+    "body": {
+      "value": "1.5",
+      "type": "number"
+    },
+    "subheading": {
+      "value": "1.3",
+      "type": "number"
+    },
+    "headingSmall": {
+      "value": "1.5",
+      "type": "number"
+    },
+    "heading": {
+      "value": "1.35",
+      "type": "number"
+    },
+    "headingLarge": {
+      "value": "1.2",
+      "type": "number"
+    },
+    "display": {
+      "value": "1.05",
+      "type": "number"
+    }
+  },
+  "letterSpacing": {
+    "heading": {
+      "value": "-0.4px",
+      "type": "dimension"
+    },
+    "headingLarge": {
+      "value": "-1.68px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "-2.22px",
+      "type": "dimension"
+    },
+    "eyebrow": {
+      "value": "0.08em",
+      "type": "dimension"
+    }
+  },
+  "radius": {
+    "nav": {
+      "value": "7px",
+      "type": "dimension"
+    },
+    "cards": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "badges": {
+      "value": "999px",
+      "type": "dimension"
+    },
+    "buttons": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "sections": {
+      "value": "9999px",
+      "type": "dimension"
+    }
+  },
+  "space": {
+    "base": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "elementGap": {
+      "value": "14-21px",
+      "type": "dimension"
+    },
+    "cardPadding": {
+      "value": "28-42px",
+      "type": "dimension"
+    },
+    "sectionGap": {
+      "value": "64-96px",
+      "type": "dimension"
+    },
+    "maxWidth": {
+      "value": "1200px",
+      "type": "dimension"
+    }
+  },
+  "shadow": {
+    "card": {
+      "value": "none",
+      "type": "shadow"
+    },
+    "panel": {
+      "value": "none",
+      "type": "shadow"
+    }
+  }
+}
+

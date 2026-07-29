@@ -1,0 +1,84 @@
+@theme {
+  --font-superwhisper-sans: "Inter", system-ui, sans-serif;
+  --font-superwhisper-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-superwhisper-obsidian: #030712;
+  --color-superwhisper-deep-space: #0a0f1c;
+  --color-superwhisper-charcoal-glass: #111827;
+  --color-superwhisper-slate-border: #1f2937;
+  --color-superwhisper-iron: #374151;
+  --color-superwhisper-cool-gray: #9ca3af;
+  --color-superwhisper-mist: #e5e7eb;
+  --color-superwhisper-white: #ffffff;
+  --color-superwhisper-electric-violet: #8b5cf6;
+  --color-superwhisper-neon-teal: #22d3ee;
+  --color-superwhisper-aurora-cyan: #06b6d4;
+  --color-superwhisper-indigo-glow: #6366f1;
+  --color-superwhisper-pink-pulse: #ec4899;
+  --color-superwhisper-success-mint: #34d399;
+  --color-superwhisper-amber-signal: #fbbf24;
+
+  --radius-superwhisper-pill: 9999px;
+  --radius-superwhisper-card: 20px;
+  --radius-superwhisper-panel: 24px;
+  --radius-superwhisper-input: 14px;
+  --radius-superwhisper-transcript: 16px;
+
+  --spacing-superwhisper-1: 4px;
+  --spacing-superwhisper-2: 8px;
+  --spacing-superwhisper-3: 12px;
+  --spacing-superwhisper-4: 16px;
+  --spacing-superwhisper-5: 20px;
+  --spacing-superwhisper-6: 24px;
+  --spacing-superwhisper-8: 32px;
+  --spacing-superwhisper-20: 80px;
+  --spacing-superwhisper-24: 96px;
+  --spacing-superwhisper-28: 112px;
+  --spacing-superwhisper-max: 1200px;
+
+  --text-superwhisper-mono-label: 12px;
+  --text-superwhisper-mono-label--line-height: 1.33;
+  --text-superwhisper-ui: 14px;
+  --text-superwhisper-ui--line-height: 1.43;
+  --text-superwhisper-body: 16px;
+  --text-superwhisper-body--line-height: 1.6;
+  --text-superwhisper-transcript: 17px;
+  --text-superwhisper-transcript--line-height: 1.65;
+  --text-superwhisper-card-title: 20px;
+  --text-superwhisper-card-title--line-height: 1.3;
+  --text-superwhisper-section: 36px;
+  --text-superwhisper-section--line-height: 1.1;
+  --text-superwhisper-hero: 64px;
+  --text-superwhisper-hero--line-height: 0.98;
+}
+
+@utility superwhisper-page {
+  background:
+    radial-gradient(circle at 20% 0%, rgba(139, 92, 246, 0.16), transparent 32%),
+    radial-gradient(circle at 80% 10%, rgba(34, 211, 238, 0.12), transparent 30%),
+    var(--color-superwhisper-obsidian);
+  color: var(--color-superwhisper-mist);
+  font-family: var(--font-superwhisper-sans);
+}
+
+@utility superwhisper-gradient-button {
+  border-radius: var(--radius-superwhisper-pill);
+  background: linear-gradient(135deg, var(--color-superwhisper-electric-violet), var(--color-superwhisper-indigo-glow), var(--color-superwhisper-neon-teal));
+  color: var(--color-superwhisper-white);
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow:
+    0 0 40px rgba(139, 92, 246, 0.28),
+    0 0 64px rgba(34, 211, 238, 0.18);
+}
+
+@utility superwhisper-glass-card {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-superwhisper-card);
+  background: rgba(17, 24, 39, 0.78);
+  box-shadow:
+    0 24px 80px rgba(0, 0, 0, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+}

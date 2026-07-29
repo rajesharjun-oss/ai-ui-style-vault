@@ -1,0 +1,114 @@
+{
+  "name": "Hyperstudio",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/8eb9c53e-d69c-497a-b640-610856cf3a60",
+  "theme": "dark",
+  "tokens": {
+    "color": {
+      "obsidian": { "value": "#03050c", "css": "--color-obsidian", "type": "color" },
+      "deepNavy": { "value": "#060918", "css": "--color-deep-navy", "type": "color" },
+      "steelInk": { "value": "#0b0b0b", "css": "--color-steel-ink", "type": "color" },
+      "paper": { "value": "#ffffff", "css": "--color-paper", "type": "color" },
+      "mutedWhite": { "value": "#ffffffb3", "css": "--color-muted-white", "type": "color" },
+      "softWhite": { "value": "#ffffff99", "css": "--color-soft-white", "type": "color" },
+      "faintLine": { "value": "#ffffff2b", "css": "--color-faint-line", "type": "color" },
+      "translucentWhite": { "value": "#ffffff40", "css": "--color-translucent-white", "type": "color" },
+      "compassGold": { "value": "#b49c46", "css": "--color-compass-gold", "type": "color" },
+      "pulseGreen": { "value": "#98ff38", "css": "--color-pulse-green", "type": "color" }
+    },
+    "surface": {
+      "obsidianCanvas": { "value": "#03050c", "css": "--surface-obsidian-canvas", "type": "color" },
+      "deepNavyBand": { "value": "#060918", "css": "--surface-deep-navy-band", "type": "color" },
+      "steelInkPanel": { "value": "#0b0b0b", "css": "--surface-steel-ink-panel", "type": "color" },
+      "faintGrid": { "value": "#ffffff2b", "css": "--surface-faint-grid", "type": "color" }
+    },
+    "font": {
+      "family": {
+        "aeonik": {
+          "value": "\"Aeonik\", Inter, \"Neue Haas Grotesk\", Satoshi, ui-sans-serif, system-ui, sans-serif",
+          "css": "--font-aeonik",
+          "type": "fontFamily"
+        }
+      },
+      "weight": {
+        "regular": { "value": 400, "css": "--font-weight-regular", "type": "fontWeight" },
+        "medium": { "value": 500, "css": "--font-weight-medium", "type": "fontWeight" }
+      }
+    },
+    "typography": {
+      "caption": { "fontSize": "12px", "lineHeight": 1.5, "fontWeight": 500, "letterSpacing": "-0.12px", "css": "--text-caption" },
+      "bodySm": { "fontSize": "14px", "lineHeight": 1.42, "fontWeight": 400, "letterSpacing": "-0.14px", "css": "--text-body-sm" },
+      "body": { "fontSize": "16px", "lineHeight": 1.25, "fontWeight": 400, "letterSpacing": "-0.16px", "css": "--text-body" },
+      "subheading": { "fontSize": "18px", "lineHeight": 1.33, "fontWeight": 400, "letterSpacing": "-0.18px", "css": "--text-subheading" },
+      "headingSm": { "fontSize": "24px", "lineHeight": 1.25, "fontWeight": 400, "letterSpacing": "-0.48px", "css": "--text-heading-sm" },
+      "heading": { "fontSize": "30px", "lineHeight": 1.07, "fontWeight": 400, "letterSpacing": "-0.6px", "css": "--text-heading" },
+      "headingLg": { "fontSize": "38px", "lineHeight": 1.03, "fontWeight": 400, "letterSpacing": "-0.76px", "css": "--text-heading-lg" },
+      "display": { "fontSize": "67px", "lineHeight": 1.01, "fontWeight": 400, "letterSpacing": "-1.34px", "css": "--text-display" }
+    },
+    "spacing": {
+      "unit": { "value": "4px", "css": "--spacing-unit", "type": "dimension" },
+      "scale": {
+        "4": { "value": "4px", "css": "--spacing-4", "type": "dimension" },
+        "8": { "value": "8px", "css": "--spacing-8", "type": "dimension" },
+        "12": { "value": "12px", "css": "--spacing-12", "type": "dimension" },
+        "16": { "value": "16px", "css": "--spacing-16", "type": "dimension" },
+        "18": { "value": "18px", "css": "--spacing-18", "type": "dimension" },
+        "24": { "value": "24px", "css": "--spacing-24", "type": "dimension" },
+        "36": { "value": "36px", "css": "--spacing-36", "type": "dimension" },
+        "40": { "value": "40px", "css": "--spacing-40", "type": "dimension" },
+        "48": { "value": "48px", "css": "--spacing-48", "type": "dimension" },
+        "64": { "value": "64px", "css": "--spacing-64", "type": "dimension" },
+        "96": { "value": "96px", "css": "--spacing-96", "type": "dimension" },
+        "144": { "value": "144px", "css": "--spacing-144", "type": "dimension" }
+      }
+    },
+    "layout": {
+      "pageMaxWidth": { "value": "1200px", "css": "--page-max-width", "type": "dimension" },
+      "sectionGap": { "value": "96px", "css": "--section-gap", "type": "dimension" },
+      "cardPadding": { "value": "24px", "css": "--card-padding", "type": "dimension" },
+      "elementGap": { "value": "8px", "css": "--element-gap", "type": "dimension" },
+      "heroPaddingY": { "value": "144px", "css": "--hero-padding-y", "type": "dimension" }
+    },
+    "radius": {
+      "cards": { "value": "0px", "css": "--radius-cards", "type": "dimension" },
+      "gridPanels": { "value": "0px", "css": "--radius-grid-panels", "type": "dimension" },
+      "navItems": { "value": "8px", "css": "--radius-nav-items", "type": "dimension" },
+      "buttons": { "value": "9999px", "css": "--radius-buttons", "type": "dimension" }
+    },
+    "border": {
+      "faintLine": { "value": "1px solid #ffffff2b", "css": "--border-faint-line", "type": "border" },
+      "translucentWhite": { "value": "1px solid #ffffff40", "css": "--border-translucent-white", "type": "border" }
+    }
+  },
+  "componentRecipes": {
+    "primaryPillCta": {
+      "background": "#ffffff",
+      "color": "#03050c",
+      "radius": "9999px",
+      "padding": "10px 18px",
+      "fontSize": "14px",
+      "fontWeight": 500,
+      "shadow": "none"
+    },
+    "borderedGridCard": {
+      "background": "transparent or #060918",
+      "border": "1px solid #ffffff2b",
+      "radius": "0px",
+      "padding": "36-48px",
+      "shadow": "none"
+    },
+    "signalDot": {
+      "background": "#98ff38",
+      "size": "6-8px",
+      "radius": "9999px"
+    },
+    "emailInput": {
+      "background": "transparent or #0b0b0b",
+      "color": "#ffffff",
+      "border": "1px solid #ffffff2b",
+      "radius": "9999px",
+      "padding": "12px 18px"
+    }
+  }
+}
+

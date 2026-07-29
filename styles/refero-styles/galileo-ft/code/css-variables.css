@@ -1,0 +1,162 @@
+:root {
+  /* Colors */
+  --color-void-navy: #03081a;
+  --color-deep-indigo: #020626;
+  --color-inkline-violet: #292f66;
+  --color-dusk-iris: #4d5499;
+  --color-mist-lilac: #7a83cc;
+  --color-quartz-lavender: #aab1f2;
+  --color-glacier-white: #f5f6ff;
+  --color-pure-white: #ffffff;
+  --color-pulse-cobalt: #3d50fc;
+  --color-signal-teal: #05e0e0;
+  --color-cyan-teal: #05cee0;
+  --color-gradient-teal-blue-start: #05a1c9;
+  --color-gradient-teal-blue-end: #3d50fc;
+  --gradient-teal-blue: linear-gradient(90deg, #05a1c9 0%, #3d50fc 100%);
+
+  /* Semantic colors */
+  --color-background: var(--color-void-navy);
+  --color-surface: var(--color-deep-indigo);
+  --color-surface-light: var(--color-pure-white);
+  --color-border: var(--color-inkline-violet);
+  --color-border-muted: var(--color-dusk-iris);
+  --color-text: var(--color-pure-white);
+  --color-text-secondary: var(--color-quartz-lavender);
+  --color-text-tertiary: var(--color-mist-lilac);
+  --color-action-primary: var(--color-pulse-cobalt);
+
+  /* Typography */
+  --font-times: Times, "Times New Roman", serif;
+  --font-plain: Plain, "Inter Light", "Neue Haas Grotesk Display Thin", "Untitled Sans Light", system-ui, sans-serif;
+  --font-plain-light: "Plain Light", "Inter Light", "Untitled Sans Light", system-ui, sans-serif;
+  --font-plain-ultralight: "Plain Ultralight", "Inter ExtraLight", "Neue Haas Grotesk Display Thin", system-ui, sans-serif;
+  --font-plain-ultrathin: "Plain Ultrathin", "Inter Thin", "Neue Haas Grotesk Display Thin", system-ui, sans-serif;
+
+  --text-eyebrow: 10px;
+  --leading-eyebrow: 1.2;
+  --tracking-eyebrow: 2.5px;
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.3;
+  --text-subheading: 28px;
+  --leading-subheading: 1.3;
+  --tracking-subheading: -0.56px;
+  --text-heading-sm: 42px;
+  --leading-heading-sm: 1.1;
+  --tracking-heading-sm: -0.84px;
+  --text-heading: 56px;
+  --leading-heading: 1.1;
+  --tracking-heading: -1.12px;
+  --text-heading-lg: 83px;
+  --leading-heading-lg: 1;
+  --tracking-heading-lg: -1.66px;
+  --text-display: 147px;
+  --leading-display: 0.8;
+  --tracking-display: -2.94px;
+
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-52: 52px;
+  --spacing-64: 64px;
+  --spacing-104: 104px;
+  --spacing-196: 196px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 64px;
+  --card-padding: 32px;
+  --element-gap: 9px;
+
+  /* Radius */
+  --radius-tags: 17px;
+  --radius-cards: 35px;
+  --radius-inputs: 35px;
+  --radius-buttons: 48px;
+
+  /* Surfaces */
+  --surface-void-canvas: #03081a;
+  --surface-deep-indigo-card: #020626;
+  --surface-light-content-surface: #ffffff;
+}
+
+.galileo-style {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-plain);
+}
+
+.galileo-hero-title {
+  color: var(--color-text);
+  font-family: var(--font-plain-ultrathin);
+  font-size: clamp(3.5rem, 8vw, var(--text-heading-lg));
+  font-weight: var(--font-weight-thin);
+  line-height: var(--leading-heading-lg);
+  letter-spacing: var(--tracking-heading-lg);
+}
+
+.galileo-eyebrow {
+  color: var(--color-text-secondary);
+  font-size: var(--text-eyebrow);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--leading-eyebrow);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+}
+
+.galileo-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 14px 22px;
+  border: 0;
+  border-radius: var(--radius-buttons);
+  background: var(--color-action-primary);
+  color: var(--color-pure-white);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-light);
+  line-height: 1;
+  box-shadow: none;
+}
+
+.galileo-button-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 14px 22px;
+  border: 1px solid var(--color-pure-white);
+  border-radius: var(--radius-buttons);
+  background: transparent;
+  color: var(--color-pure-white);
+  box-shadow: none;
+}
+
+.galileo-card-dark {
+  padding: var(--card-padding);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-cards);
+  background: var(--color-surface);
+  box-shadow: none;
+}
+
+.galileo-link {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-text-secondary);
+}
+
+.galileo-announcement {
+  background: var(--gradient-teal-blue);
+  color: var(--color-pure-white);
+}
+

@@ -1,0 +1,196 @@
+{
+  "name": "Frame.io",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/30c3aa18-4323-4448-8ddd-3ca933fe5780",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "color": {
+    "carbonVellum": {
+      "value": "#fcfcfc",
+      "type": "color"
+    },
+    "obsidian": {
+      "value": "#0a0a13",
+      "type": "color"
+    },
+    "pitch": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "void": {
+      "value": "#040407",
+      "type": "color"
+    },
+    "graphite": {
+      "value": "#08080c",
+      "type": "color"
+    },
+    "smoke": {
+      "value": "#757580",
+      "type": "color"
+    },
+    "ash": {
+      "value": "#a3a3b3",
+      "type": "color"
+    },
+    "charcoal": {
+      "value": "#2a2a32",
+      "type": "color"
+    },
+    "irisGlow": {
+      "value": "#6199f6",
+      "type": "color"
+    },
+    "twilight": {
+      "value": "#4f4f80",
+      "type": "color"
+    },
+    "specterLilac": {
+      "value": "#dedfee",
+      "type": "color"
+    }
+  },
+  "font": {
+    "frameGothic": {
+      "value": "FrameGothic",
+      "type": "fontFamily"
+    },
+    "neueMachinaInktrap": {
+      "value": "NeueMachinaInktrap",
+      "type": "fontFamily"
+    },
+    "arial": {
+      "value": "Arial",
+      "type": "fontFamily"
+    },
+    "times": {
+      "value": "Times",
+      "type": "fontFamily"
+    }
+  },
+  "fontSize": {
+    "caption": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "bodySmall": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "body": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "subheading": {
+      "value": "18px",
+      "type": "dimension"
+    },
+    "headingSmall": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "heading": {
+      "value": "38px",
+      "type": "dimension"
+    },
+    "headingLarge": {
+      "value": "48px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "80px",
+      "type": "dimension"
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "value": 400,
+      "type": "fontWeight"
+    },
+    "medium": {
+      "value": 500,
+      "type": "fontWeight"
+    },
+    "semibold": {
+      "value": 600,
+      "type": "fontWeight"
+    }
+  },
+  "radius": {
+    "nav": {
+      "value": "100px",
+      "type": "dimension"
+    },
+    "cards": {
+      "value": "10px",
+      "type": "dimension"
+    },
+    "pills": {
+      "value": "100px",
+      "type": "dimension"
+    },
+    "buttons": {
+      "value": "100px",
+      "type": "dimension"
+    },
+    "dividers": {
+      "value": "1px",
+      "type": "dimension"
+    },
+    "featureCards": {
+      "value": "24px",
+      "type": "dimension"
+    }
+  },
+  "space": {
+    "base": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "elementGap": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "cardPadding": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "sectionGap": {
+      "value": "80px",
+      "type": "dimension"
+    },
+    "maxWidth": {
+      "value": "1280px",
+      "type": "dimension"
+    }
+  },
+  "gradient": {
+    "hero": {
+      "value": "linear-gradient(195deg, #0a0010 0%, #02000a 48%, #0c1d32 100%)",
+      "type": "gradient"
+    },
+    "radialGlow": {
+      "value": "radial-gradient(circle at 50% 100%, rgba(0, 11, 53, 0.7), rgba(10, 10, 19, 0) 60%)",
+      "type": "gradient"
+    },
+    "section": {
+      "value": "radial-gradient(circle at 0% 0%, #0e0f20 0%, #0c0c19 48%, #000000 100%)",
+      "type": "gradient"
+    }
+  },
+  "shadow": {
+    "productFrame": {
+      "value": "inset 0 0 0 1px #4f4f80, 0 0 60px rgba(79, 79, 128, 0.15)",
+      "type": "shadow"
+    },
+    "videoPlayer": {
+      "value": "0 24px 48px rgba(0, 0, 0, 0.5)",
+      "type": "shadow"
+    },
+    "buttons": {
+      "value": "none",
+      "type": "shadow"
+    }
+  }
+}
+

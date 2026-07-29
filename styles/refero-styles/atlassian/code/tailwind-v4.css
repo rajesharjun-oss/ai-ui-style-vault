@@ -1,0 +1,67 @@
+@theme {
+  --color-atlassian-blue: #0052cc;
+  --color-bright-blue: #0065ff;
+  --color-navy: #172b4d;
+  --color-slate: #42526e;
+  --color-cloud: #f4f5f7;
+  --color-white: #ffffff;
+  --color-purple: #6554c0;
+  --color-teal: #00b8d9;
+  --color-green: #36b37e;
+  --color-yellow: #ffc400;
+  --color-red: #ff5630;
+
+  --font-display: "Charlie Display", Inter, Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-text: "Charlie Text", Inter, Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-body-lg: 18px;
+  --text-card-title: 22px;
+  --text-section-heading: 40px;
+  --text-hero-heading: 56px;
+
+  --radius-button: 999px;
+  --radius-button-compact: 8px;
+  --radius-card: 16px;
+  --radius-image: 20px;
+  --radius-input: 8px;
+  --radius-chip: 999px;
+  --radius-section: 24px;
+
+  --spacing-unit: 4px;
+  --spacing-section: 96px;
+  --spacing-page-max: 1200px;
+  --spacing-card: 24px;
+  --spacing-element: 16px;
+}
+
+@utility atlassian-hero-heading {
+  color: var(--color-navy);
+  font-family: var(--font-display);
+  font-size: var(--text-hero-heading);
+  line-height: 1.04;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+@utility atlassian-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-button);
+  background: var(--color-atlassian-blue);
+  color: var(--color-white);
+  padding: 12px 20px;
+  font-family: var(--font-text);
+  font-size: var(--text-body-sm);
+  font-weight: 600;
+}
+
+@utility atlassian-card {
+  border: 1px solid var(--color-cloud);
+  border-radius: var(--radius-card);
+  background: var(--color-white);
+  padding: var(--spacing-card);
+}

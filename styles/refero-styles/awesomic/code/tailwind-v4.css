@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cosmica", "DM Sans", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-awesomic-obsidian: #09090b;
+  --color-awesomic-graphite: #18181b;
+  --color-awesomic-slate: #27272a;
+  --color-awesomic-iron: #3f3f46;
+  --color-awesomic-steel: #52525b;
+  --color-awesomic-fog: #71717a;
+  --color-awesomic-ash: #a1a1aa;
+  --color-awesomic-mist: #d4d4d8;
+  --color-awesomic-cloud: #ececee;
+  --color-awesomic-paper: #f4f4f5;
+  --color-awesomic-snow: #ffffff;
+  --color-awesomic-ember: #ff5a00;
+  --color-awesomic-magenta-spark: #fe45e2;
+
+  --radius-awesomic-control: 14px;
+  --radius-awesomic-badge: 12px;
+  --radius-awesomic-card: 36px;
+  --radius-awesomic-icon: 40px;
+  --radius-awesomic-photo: 48px;
+  --radius-awesomic-photo-lg: 64px;
+  --radius-awesomic-pill: 10000px;
+
+  --spacing-awesomic-1: 4px;
+  --spacing-awesomic-2: 8px;
+  --spacing-awesomic-3: 12px;
+  --spacing-awesomic-4: 16px;
+  --spacing-awesomic-5: 20px;
+  --spacing-awesomic-6: 24px;
+  --spacing-awesomic-7: 28px;
+  --spacing-awesomic-8: 32px;
+  --spacing-awesomic-9: 36px;
+  --spacing-awesomic-10: 40px;
+  --spacing-awesomic-12: 48px;
+  --spacing-awesomic-16: 64px;
+  --spacing-awesomic-17: 68px;
+  --spacing-awesomic-20: 80px;
+  --spacing-awesomic-30: 120px;
+
+  --text-awesomic-caption: 12px;
+  --text-awesomic-caption--line-height: 1.64;
+  --text-awesomic-body: 15px;
+  --text-awesomic-body--line-height: 1.45;
+  --text-awesomic-body-lg: 18px;
+  --text-awesomic-body-lg--line-height: 1.45;
+  --text-awesomic-subheading: 20px;
+  --text-awesomic-subheading--line-height: 1.5;
+  --text-awesomic-heading-sm: 32px;
+  --text-awesomic-heading-sm--line-height: 1.5;
+  --text-awesomic-heading: 40px;
+  --text-awesomic-heading--line-height: 1.28;
+  --text-awesomic-heading-lg: 56px;
+  --text-awesomic-heading-lg--line-height: 1.28;
+  --text-awesomic-display: 64px;
+  --text-awesomic-display--line-height: 1.12;
+}
+
+@layer components {
+  .awesomic-page {
+    @apply min-h-screen bg-awesomic-paper text-awesomic-graphite font-sans;
+  }
+
+  .awesomic-container {
+    @apply mx-auto w-[min(calc(100%-48px),1200px)];
+  }
+
+  .awesomic-display {
+    @apply m-0 text-awesomic-obsidian text-awesomic-display font-semibold tracking-normal;
+  }
+
+  .awesomic-section {
+    @apply py-awesomic-20;
+  }
+
+  .awesomic-card {
+    @apply rounded-awesomic-card border border-awesomic-cloud bg-awesomic-snow p-awesomic-7 shadow-none;
+  }
+
+  .awesomic-category-card {
+    @apply overflow-hidden rounded-awesomic-card border border-awesomic-cloud bg-awesomic-snow shadow-none;
+  }
+
+  .awesomic-category-card-media {
+    @apply block aspect-[16/10] w-full object-cover;
+  }
+
+  .awesomic-category-card-body {
+    @apply grid gap-awesomic-2 p-awesomic-7;
+  }
+
+  .awesomic-button-primary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-awesomic-control bg-awesomic-obsidian px-awesomic-4 py-awesomic-3 text-sm font-normal text-awesomic-snow no-underline;
+    border: 1.5px solid #2c2e34;
+  }
+
+  .awesomic-button-ghost {
+    @apply inline-flex min-h-11 items-center justify-center rounded-awesomic-pill border border-awesomic-iron bg-awesomic-snow px-awesomic-5 py-awesomic-3 text-sm font-normal text-awesomic-iron no-underline;
+  }
+
+  .awesomic-tag {
+    @apply inline-flex min-h-6 items-center rounded-awesomic-badge border border-awesomic-cloud px-awesomic-2 py-awesomic-1 text-awesomic-caption font-normal text-awesomic-graphite;
+  }
+
+  .awesomic-tag-filled {
+    @apply border-awesomic-iron bg-awesomic-iron text-[#fafafa];
+  }
+
+  .awesomic-tag-accent {
+    @apply border-awesomic-ember bg-awesomic-ember text-awesomic-snow;
+  }
+}

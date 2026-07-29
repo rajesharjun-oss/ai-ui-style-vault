@@ -1,0 +1,121 @@
+:root {
+  --color-lamp-cream: #f5f5f0;
+  --color-void-black: #000000;
+  --color-charcoal: #202020;
+  --color-graphite: #333333;
+  --color-smoke: #999999;
+  --color-pure-white: #ffffff;
+
+  --font-sans: "VisueltPro", "Inter", "Satoshi", "General Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif-accent: "Bradford", "Canela", "Tiempos Headline", "GT Super", Georgia, serif;
+  --font-features: "ss01" 1, "cv11" 1;
+
+  --text-label-sm: 11px;
+  --text-body: 16px;
+  --text-body-lg: 20px;
+  --text-subheading: 30px;
+  --text-heading: 54px;
+  --text-heading-lg: 57px;
+  --text-display: 128px;
+
+  --leading-tight: 1;
+  --leading-heading: 1.2;
+  --leading-body: 1.5;
+
+  --tracking-label: 0.55px;
+  --tracking-smallcaps: 0.05em;
+  --tracking-caption: 0.08em;
+  --tracking-subheading: -0.75px;
+  --tracking-heading-lg: -2.85px;
+  --tracking-display: -3.2px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-30: 120px;
+
+  --max-page: 1200px;
+  --radius-card: 10px;
+  --radius-pill: 9999px;
+  --radius-input: 0px;
+  --radius-circle: 50%;
+
+  --shadow-lg: rgba(0, 0, 0, 0.15) 0px 4px 20px 0px;
+  --shadow-xl: rgba(0, 0, 0, 0.35) 0px 10px 30px 0px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.sequel-surface {
+  background: var(--color-void-black);
+  color: var(--color-pure-white);
+  font-family: var(--font-sans);
+  font-feature-settings: var(--font-features);
+}
+
+.sequel-primary-button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-lamp-cream);
+  color: var(--color-void-black);
+  padding: 0 var(--space-6);
+  font-size: var(--text-body);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.sequel-ghost-button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-pure-white);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-pure-white);
+  padding: 0 var(--space-5);
+  font-size: var(--text-body);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.sequel-glass-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-pill);
+  background: rgba(200, 200, 200, 0.1);
+  color: var(--color-pure-white);
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-label-sm);
+  font-weight: 500;
+  letter-spacing: var(--tracking-smallcaps);
+  text-transform: uppercase;
+  backdrop-filter: blur(20px) saturate(1.4);
+  box-shadow: var(--shadow-xl);
+}
+
+.sequel-display {
+  color: var(--color-pure-white);
+  font-family: var(--font-sans);
+  font-size: clamp(57px, 8vw, 128px);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.sequel-serif-accent {
+  font-family: var(--font-serif-accent);
+  font-style: italic;
+  font-weight: 500;
+}

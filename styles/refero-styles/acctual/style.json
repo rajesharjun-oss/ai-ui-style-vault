@@ -1,0 +1,84 @@
+{
+  "name": "Acctual",
+  "slug": "acctual",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/aeefc294-a8f7-443d-b76a-538dddc29afe",
+    "styleId": "aeefc294-a8f7-443d-b76a-538dddc29afe",
+    "referenceSite": "https://acctual.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "light",
+  "summary": "A bright invoice-product system with white paper surfaces, near-black pill CTAs, Open Runde-style compressed typography, electric-blue functional accents, rounded cards, and layered invoice mockups.",
+  "personality": [
+    "paper-like",
+    "financial",
+    "confident",
+    "rounded",
+    "clean",
+    "friendly"
+  ],
+  "bestFor": [
+    "invoicing products",
+    "payments SaaS",
+    "billing workflows",
+    "finance operations tools",
+    "freelancer and agency finance apps"
+  ],
+  "coreMoves": [
+    "Keep the page canvas pure white.",
+    "Use Midnight dark fills for primary CTAs.",
+    "Reserve Electric Blue for checkmarks, rates, eyebrows, and inline highlights.",
+    "Use Open Runde weight 600 with tight tracking for headings.",
+    "Use 100px pill controls and a clear radius hierarchy.",
+    "Stack invoice mockup cards with subtle rotation and overlap.",
+    "Keep feature cards flat and reserve elevation for invoice mockups and testimonials."
+  ],
+  "colors": {
+    "electricBlue": "#0098f2",
+    "iris": "#6c56fc",
+    "magenta": "#f200ca",
+    "leaf": "#5d9c06",
+    "coral": "#ff6363",
+    "ice": "#cfeafa",
+    "lavender": "#e1e0fc",
+    "blush": "#f6d2f4",
+    "carbon": "#0f0f0f",
+    "midnight": "#0d111b",
+    "ink": "#1e1e1e",
+    "smoke": "#666666",
+    "fog": "#8d8d8d",
+    "ash": "#999999",
+    "concrete": "#afb0b1",
+    "mist": "#ccd1da",
+    "snow": "#f7fafc",
+    "softSurface": "#fafafa",
+    "paper": "#ffffff"
+  },
+  "typography": {
+    "primary": {
+      "family": "Open Runde",
+      "fallback": "Inter",
+      "weights": [500, 600],
+      "sizes": ["11px", "14px", "16px", "20px", "22px", "24px", "32px", "40px", "48px", "64px"],
+      "displayTracking": "-0.03em",
+      "bodyTracking": "-0.02em",
+      "eyebrowTracking": "0.02em"
+    },
+    "caption": {
+      "family": "Caveat",
+      "fallback": "Dancing Script",
+      "weights": [600],
+      "sizes": ["16px", "24px"],
+      "usage": "testimonial attributions only"
+    }
+  },
+  "shape": {
+    "cards": "16px",
+    "images": "20px",
+    "largeCards": "32px",
+    "tags": "100px",
+    "buttons": "100px",
+    "icons": "888px"
+  }
+}
+

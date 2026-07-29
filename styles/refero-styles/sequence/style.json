@@ -1,0 +1,119 @@
+{
+  "id": "707a9081-3d1d-4a0b-b1aa-b58b3fab09af",
+  "name": "Sequence",
+  "slug": "sequence",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/707a9081-3d1d-4a0b-b1aa-b58b3fab09af",
+  "referenceSite": "https://www.sequencehq.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "finance editorial",
+    "near-white blueprint paper",
+    "compact grayscale product chrome",
+    "single violet annotation",
+    "hairline precision"
+  ],
+  "summary": "A light fintech product system with white and cool-gray surfaces, TWK Lausanne UI typography, a single Moderat Serif display headline, product screenshot cards, and one violet primary action pulse.",
+  "useWhen": [
+    "Fintech marketing pages",
+    "Billing and revenue tooling",
+    "Contracts or invoice products",
+    "Enterprise SaaS product pages",
+    "API-adjacent B2B tools"
+  ],
+  "avoidWhen": [
+    "Playful consumer apps",
+    "Photo-led editorial sites",
+    "Dark cinematic product launches",
+    "Interfaces requiring many semantic colors",
+    "Maximal visual identity systems"
+  ],
+  "colors": {
+    "violetPulse": "#a565ff",
+    "indigoInk": "#5e5cff",
+    "lavenderWash": "#ebebff",
+    "irisGlow": "#e0c9ff",
+    "ledgerGreen": "#2e7317",
+    "paperWhite": "#ffffff",
+    "bone": "#f7f7f7",
+    "fog": "#f1f1f1",
+    "silver": "#efefef",
+    "marble": "#fff6df",
+    "graphite": "#1d1d20",
+    "slate": "#42424a",
+    "iron": "#505050",
+    "steel": "#757575",
+    "smoke": "#92939e",
+    "ash": "#e5e7eb",
+    "mist": "#d1d9e4",
+    "oliveGray": "#808076",
+    "noir": "#000000"
+  },
+  "typography": {
+    "primary": {
+      "family": "TWK Lausanne",
+      "fallback": "Inter",
+      "weights": [300, 400, 500, 600, 700],
+      "sizes": ["8px", "9px", "10px", "11px", "12px", "13px", "14px", "15px", "16px", "18px", "24px"],
+      "lineHeight": "1.0-2.0",
+      "letterSpacing": "normal to -0.003em"
+    },
+    "display": {
+      "family": "Moderat Serif",
+      "fallback": "GT Sectra",
+      "weights": [300, 400],
+      "sizes": ["40px", "46px"],
+      "lineHeight": "1.0",
+      "letterSpacing": "-0.025em"
+    },
+    "mono": {
+      "family": "SF Mono",
+      "fallback": "JetBrains Mono",
+      "weights": [400],
+      "sizes": ["10px"],
+      "lineHeight": "1.5-1.8"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "40px", "48px", "52px", "56px", "64px", "80px", "96px", "160px"]
+  },
+  "shape": {
+    "cardRadius": "8px",
+    "badgeRadius": "9999px",
+    "inputRadius": "4px",
+    "buttonRadius": "9999px",
+    "largePanelRadius": "16px",
+    "shadow": "thin rings and tight offset shadows"
+  },
+  "components": [
+    "primary action button",
+    "secondary action button",
+    "navigation link",
+    "display headline block",
+    "product feature card",
+    "product screenshot card",
+    "input field",
+    "integration logo tile",
+    "status badge",
+    "announcement bar",
+    "logo lockup",
+    "section header",
+    "customer logo strip"
+  ],
+  "implementationRules": [
+    "Use Violet Pulse only for the single filled primary CTA per screen.",
+    "Use Ash 1px borders as the default structural line.",
+    "Use TWK Lausanne for almost all UI and text.",
+    "Use Moderat Serif only for the largest display h1.",
+    "Use product UI mockups instead of photography.",
+    "Use 9999px radius for buttons and badges.",
+    "Use 8px cards and 4px inputs.",
+    "Build depth with hairline rings, tight shadows, and soft violet washes."
+  ]
+}

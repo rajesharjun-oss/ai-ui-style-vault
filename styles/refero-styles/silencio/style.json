@@ -1,0 +1,275 @@
+{
+    "id":  "e67ac20e-6497-4756-b7e2-17859a794fb6",
+    "name":  "Silencio",
+    "slug":  "silencio",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/e67ac20e-6497-4756-b7e2-17859a794fb6",
+                   "referenceSite":  "https://silencio.es",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-02-27T09:21:05.000Z",
+                   "articleModifiedAt":  "2026-06-05T02:59:30.989Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/0988d9f0-17ca-439c-8c05-54e089fff8d6.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/d1fe25bd-e0e7-4844-bae7-bdc7e6a1e995.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/08962566-b8d9-40be-8b6a-64a29b82ed0c.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/38f5a95f-8963-4f31-8893-1bdea6e10f90.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/aaf8a36b-60cc-4a8f-96e3-6d0982069736.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "Design",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "Design",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "white room with floating artifacts. A warm-paper gallery vitrine where every element earns its space against negative volume, and silence is a deliberate design material.",
+    "summary":  "Explore Silencio\u0027s light Design design system: Ink Black #000000, Paper Warm Gray #dbdad9 colors, HaasR, HaasT typography, and DESIGN.md for AI agents.",
+    "colors":  [
+                   {
+                       "name":  "Ink Black",
+                       "value":  "#000000",
+                       "token":  "--color-ink-black",
+                       "role":  "Primary text, iconography, hairline rules, table borders the only high-contrast element on the page"
+                   },
+                   {
+                       "name":  "Paper Warm Gray",
+                       "value":  "#dbdad9",
+                       "token":  "--color-paper-warm-gray",
+                       "role":  "Card surfaces, soft fills, the single chromatic departure from pure white, gentle gradient origin"
+                   },
+                   {
+                       "name":  "Graphite Border",
+                       "value":  "#808080",
+                       "token":  "--color-graphite-border",
+                       "role":  "Subtle table dividers and secondary rule lines used when #000000 would feel too heavy"
+                   },
+                   {
+                       "name":  "Bleach White",
+                       "value":  "#ffffff",
+                       "token":  "--color-bleach-white",
+                       "role":  "Supporting palette color for small decorative accents when the core palette needs contrast."
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "HaasR Workhorse grotesque for body, subheadings, and mid-size headings. Weight 100 is used for restraint in body contexts; 700 sparingly for emphasis. The single most-used face carries the page. `--font-haasr`",
+                                     "HaasT Display-only face at 141px with tightened leading (0.90). Used for hero statements and singular set-pieces the only moment typography shouts, and it shouts at full volume against pure white. `--font-haast`",
+                                     "PT Mono Metadata, spec labels, catalog tags the typographic equivalent of a printed museum label. Appears at 11px only; functions as a quiet signature rather than informational copy. `--font-pt-mono`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.4",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "22px",
+                                             "1.1",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "39px",
+                                             "1",
+                                             "",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "58px",
+                                             "0.9",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "display",
+                                             "141px",
+                                             "0.9",
+                                             "",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "7",
+                                      "7px",
+                                      "--spacing-7"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "14",
+                                      "14px",
+                                      "--spacing-14"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "17",
+                                      "17px",
+                                      "--spacing-17"
+                                  ],
+                                  [
+                                      "22",
+                                      "22px",
+                                      "--spacing-22"
+                                  ],
+                                  [
+                                      "29",
+                                      "29px",
+                                      "--spacing-29"
+                                  ],
+                                  [
+                                      "43",
+                                      "43px",
+                                      "--spacing-43"
+                                  ],
+                                  [
+                                      "72",
+                                      "72px",
+                                      "--spacing-72"
+                                  ],
+                                  [
+                                      "144",
+                                      "144px",
+                                      "--spacing-144"
+                                  ],
+                                  [
+                                      "173",
+                                      "173px",
+                                      "--spacing-173"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1440px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "43px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "29px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "7px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "tags",
+                                    "9999px"
+                                ],
+                                [
+                                    "cards",
+                                    "7.2px"
+                                ],
+                                [
+                                    "buttons",
+                                    "129.6px"
+                                ],
+                                [
+                                    "surfaces",
+                                    "43.2px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Pill Button",
+                           "role":  "Primary interactive element"
+                       },
+                       {
+                           "name":  "Ghost Link",
+                           "role":  "Inline navigation and content links"
+                       },
+                       {
+                           "name":  "Paper Card",
+                           "role":  "Grouped content surface"
+                       },
+                       {
+                           "name":  "Display Headline",
+                           "role":  "Hero and section set-pieces"
+                       },
+                       {
+                           "name":  "Museum Label",
+                           "role":  "Metadata, catalog tags, object captions"
+                       },
+                       {
+                           "name":  "Hairline Divider",
+                           "role":  "Section separation"
+                       },
+                       {
+                           "name":  "Table Rule",
+                           "role":  "Data and catalog row separation"
+                       },
+                       {
+                           "name":  "Floating Product Showcase",
+                           "role":  "Primary visual carrier"
+                       },
+                       {
+                           "name":  "Centered Statement Block",
+                           "role":  "Editorial copy placement"
+                       },
+                       {
+                           "name":  "Micro Caption",
+                           "role":  "Image credit, footnote, and ancillary copy"
+                       },
+                       {
+                           "name":  "Navigation Anchor",
+                           "role":  "Top-level menu items"
+                       }
+                   ],
+    "dos":  [
+                "Use the full 141px HaasT weight 100 for display headlines it is the only moment this system is allowed to be loud",
+                "Reach for #dbdad9 as the only chromatic surface departure; every other surface stays #ffffff or #000000",
+                "Separate content with 1px #000000 hairlines, not padding, not shadows, not color blocks",
+                "Pair every display headline with a PT Mono 11px museum label directly beneath it",
+                "Use radius 7.2px for cards and 129.6px for buttons do not interpolate intermediate values",
+                "Set lineHeight at 0.90 for any type at 39px or above; tight leading is a signature, not an accident",
+                "Let product photography float on pure white with no frame, no caption box, and no drop shadow"
+            ],
+    "donts":  [
+                  "Never introduce a chromatic color the palette ends at #000000, #dbdad9, #808080, and #ffffff",
+                  "Never use drop shadows for elevation; the gradient #dbdad9 #ffffff is the only depth the system allows",
+                  "Never set type above 141px or below 9px the 132px range is the entire expressive spectrum",
+                  "Never use #0000ee or any default browser link color links are #000000, no exception",
+                  "Never fill a button with color; the pill is always transparent with a 1px #000000 border",
+                  "Never center body text in paragraphs; only display statements and labels earn centered alignment",
+                  "Never use shadows, blurs, or glows on photographs or product imagery"
+              ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Fold",
+  "slug": "fold",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/4d1d50ff-18b8-4acf-a356-48eb5c414711",
+    "styleId": "4d1d50ff-18b8-4acf-a356-48eb5c414711",
+    "referenceSite": "https://fold.money",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "light",
+  "summary": "A bright spacious fintech style with cool fog canvas, deep navy poster typography, white cards with navy-tinted shadows, pill controls, Electric Blue link accents, and crisp 3D-style lifestyle object illustrations.",
+  "personality": [
+    "poster-like",
+    "fintech",
+    "spacious",
+    "confident",
+    "geometric",
+    "bright"
+  ],
+  "bestFor": [
+    "fintech apps",
+    "consumer banking",
+    "spending analytics",
+    "personal finance",
+    "app landing pages"
+  ],
+  "coreMoves": [
+    "Use Fog White as the page canvas.",
+    "Use Midnight Navy for text and filled buttons.",
+    "Use white cards with navy-tinted shadows.",
+    "Use the 100px compressed hero headline.",
+    "Use 12px cards and 9999px interactive pills.",
+    "Keep Electric Blue to links and tiny accents.",
+    "Use Voltage Yellow as a rare highlight only.",
+    "Use crisp 3D-style object illustrations."
+  ],
+  "colors": {
+    "midnightNavy": "#20294c",
+    "cornflowerSteel": "#375390",
+    "abyss": "#042939",
+    "hyacinth": "#788dba",
+    "electricBlue": "#459af8",
+    "voltageYellow": "#ffff00",
+    "dusk": "#676b89",
+    "smoke": "#979db5",
+    "silverLining": "#c7cbdb",
+    "mistGray": "#dddfe9",
+    "fogWhite": "#f0f1f5",
+    "pureWhite": "#ffffff"
+  },
+  "typography": {
+    "primary": {
+      "family": "GT Walsheim Pro",
+      "fallback": "Inter",
+      "weights": [400, 600, 700],
+      "sizes": ["10px", "14px", "16px", "17px", "18px", "20px", "24px", "26px", "32px", "64px", "100px"],
+      "heroTracking": "-0.125em",
+      "headingTracking": "-0.040em",
+      "labelTracking": "0.025em to 0.040em"
+    },
+    "secondary": {
+      "family": "GT America",
+      "fallback": "Inter",
+      "weights": [400, 500],
+      "sizes": ["24px", "42px"]
+    }
+  },
+  "shape": {
+    "cards": "12px",
+    "images": "16px",
+    "nav": "24px",
+    "panels": "24px",
+    "buttons": "9999px",
+    "tags": "9999px"
+  }
+}
+

@@ -1,0 +1,289 @@
+{
+ "name": "The1",
+ "slug": "the1",
+ "colors": [
+ {
+ "name": "The Green",
+ "value": "#027b49",
+ "token": "--color-the-green",
+ "role": "Full-bleed identity block for The Green property and any place or section it owns - deep forest green reads as architectural paint, not decoration"
+ },
+ {
+ "name": "The Pink",
+ "value": "#f19ec8",
+ "token": "--color-the-pink",
+ "role": "Red wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+ },
+ {
+ "name": "The Red",
+ "value": "#fa4d43",
+ "token": "--color-the-red",
+ "role": "Full-bleed identity block and dramatic section background - vermillion red carries the most visual weight and anchors expanded menu states and signature moments"
+ },
+ {
+ "name": "The Yellow",
+ "value": "#fbb833",
+ "token": "--color-the-yellow",
+ "role": "Yellow wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+ },
+ {
+ "name": "Concrete",
+ "value": "#d9d9d9",
+ "token": "--color-concrete",
+ "role": "Page canvas and primary surface - the light gray ground every screen sits on, treated as a material (concrete, drywall) rather than a neutral"
+ },
+ {
+ "name": "Iron",
+ "value": "#1f1f1f",
+ "token": "--color-iron",
+ "role": "Primary text, pill button fills, and most structural borders - near-black rather than pure black, softer on the concrete canvas while keeping max contrast"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "Hairline borders, icon strokes, and occasional deep accents where maximum bite is needed against the colored blocks"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "KH Teka",
+ "token": "--font-kh-teka",
+ "role": "Primary display and heading face - the entire brand voice. Custom condensed sans set at 215px for the hero with letter-spacing -0.06em and line-height 0.70 so descenders kiss the next line and the word reads as a single architectural mass. Same family drops to 60px and 26px for sub-moments and 15-18px for in-line labels, always retaining negative tracking. This single family does every visible word on the site."
+ },
+ {
+ "name": "System sans-serif",
+ "token": "--font-system-sans-serif",
+ "role": "Utility micro-copy only - availability text, small annotations, fine print. Used sparingly so KH Teka remains the brand voice."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-sm",
+ "18px",
+ "1.1",
+ "-0.03px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "26px",
+ "1",
+ "-0.03px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "60px",
+ "0.8",
+ "-0.03px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "215px",
+ "0.7",
+ "-0.06px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "40px",
+ "cardPadding": "0px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "130",
+ "130px",
+ "`--spacing-130`"
+ ],
+ [
+ "170",
+ "170px",
+ "`--spacing-170`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "100px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "buttons",
+ "100px"
+ ],
+ [
+ "menuButton",
+ "100px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill Button",
+ "role": "Primary interactive control for \u0027Learn more\u0027 and \u0027Contact us\u0027 - the only button pattern on the site"
+ },
+ {
+ "name": "Hamburger Menu Trigger",
+ "role": "Top-right menu opener on every page"
+ },
+ {
+ "name": "Property Identity Card",
+ "role": "Full-bleed color-bloc card introducing each property (The Green, The Pink, The Yellow, The Red)"
+ },
+ {
+ "name": "Status Dot",
+ "role": "Wayfinding marker next to each property name"
+ },
+ {
+ "name": "Hairline Section Divider",
+ "role": "Structural break between major page sections"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Hero and section-anchor type - the signature visual element"
+ },
+ {
+ "name": "Brand Wordmark",
+ "role": "Persistent top-left identity mark"
+ },
+ {
+ "name": "Expanded Menu Panel",
+ "role": "Full-viewport overlay when the hamburger is activated"
+ },
+ {
+ "name": "Inline Text Link",
+ "role": "Quiet navigational link in header and card footers"
+ },
+ {
+ "name": "In-Text CTA Pair",
+ "role": "Header pattern: a question phrase followed by a pill button"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set every headline in KH Teka weight 400 with letter-spacing -0.06em at 60px and above, -0.03em at 60px and below; the negative tracking is the brand voice",
+ "Use line-height 0.70-0.80 on display type (60px+) so descenders of one line touch the ascenders of the next - the type forms a wall, not a paragraph",
+ "Reserve the four chromatic colors (#027b49, #f19ec8, #fa4d43, #fbb833) as full-bleed identity blocks for properties or named places; never use them for inline accents, icons, or text",
+ "Use #1f1f1f near-black for all body text, borders, and pill-button fills rather than pure #000000; the softer black feels of-a-piece with the concrete canvas",
+ "Let the four brand colors sit edge-to-edge with no card padding, no border, and no shadow - the color block is the component",
+ "Pair every dark Pill Button (border-radius 100px, fill #1f1f1f) with a leading text question in the same line, so the button reads as an answer not an action",
+ "Use 8-10px colored dots in the property\u0027s identity color as inline wayfinding marks next to its name"
+ ],
+ "doNot": [
+ "Do not assign the four chromatic colors to statuses (success/error/warning/info) - they are a fixed identity set, not a semantic palette",
+ "Do not add box-shadows, gradients, or any elevation to cards, buttons, or images - the system is ruthlessly flat",
+ "Do not introduce a second display typeface; KH Teka is the only voice and must own every visible word",
+ "Do not round card corners - properties and sections are full-bleed rectangles; rounding is reserved exclusively for pills (100px) and the hamburger circle",
+ "Do not use a line-height above 1.20 anywhere; display type must be crushed to 0.70-0.80, never relaxed to 1.4-1.6 \u0027for readability\u0027",
+ "Do not use #027b49, #f19ec8, #fa4d43, or #fbb833 for body text, fine print, or button fills - they are surface colors, not content colors",
+ "Do not wrap the hero display type in a max-width container that breaks it across lines naturally; let the headline run full-bleed and break on its own terms"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/04d2e256-61b0-4184-a834-e36c15d09ea5",
+ "referenceSite": "https://the1.amsterdam",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:54:35.309Z",
+ "articleModifiedAt": "2026-06-03T19:28:42.225Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/dc2f4aea-3777-424f-aea4-be49c08833b6.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/541e261f-7a1c-455c-9717-2ea8d718363d.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ceeef56a-e799-46e4-9ebd-12d8478c9a09.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/0bd55f7e-e2da-4011-922c-b57557323b2f.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/70100f10-8899-4c5c-999b-b887229f3a77.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "dope.security",
+  "source": {
+    "type": "refero-styles",
+    "url": "https://styles.refero.design/style/e1f18a7e-5af1-46b3-8f89-bce6c78b80d4",
+    "referenceUrl": "https://dope.security",
+    "capturedOn": "2026-07-28"
+  },
+  "theme": "dark",
+  "colors": {
+    "nearBlack": { "value": "#090909", "css": "--color-near-black" },
+    "iron": { "value": "#423738", "css": "--color-iron" },
+    "graphite": { "value": "#474747", "css": "--color-graphite" },
+    "ash": { "value": "#6b6b6b", "css": "--color-ash" },
+    "steel": { "value": "#828384", "css": "--color-steel" },
+    "softWhite": { "value": "#f0f0f0", "css": "--color-soft-white" },
+    "almostWhite": { "value": "#f7f9fa", "css": "--color-almost-white" },
+    "signalViolet": { "value": "#af50ff", "css": "--color-signal-violet" },
+    "lavenderMist": { "value": "#e1bdff", "css": "--color-lavender-mist" },
+    "frostedNav": { "value": "rgba(51, 50, 72, 0.7)", "css": "--color-frosted-nav" },
+    "pinkWash": { "value": "rgba(237, 195, 196, 0.05)", "css": "--color-pink-wash" }
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": {
+        "value": "Whyte Inktrap",
+        "css": "--font-whyte-inktrap",
+        "fallback": "Inter, General Sans, system-ui, sans-serif"
+      },
+      "mono": {
+        "value": "Whyte Inktrap Mono",
+        "css": "--font-whyte-inktrap-mono",
+        "fallback": "JetBrains Mono, IBM Plex Mono, ui-monospace, monospace"
+      },
+      "display": {
+        "value": "GrandSlang",
+        "css": "--font-grandslang",
+        "fallback": "Tiempos Headline, Lora Italic, Georgia, serif"
+      }
+    },
+    "fontWeights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "scale": {
+      "caption": { "fontSize": "10px", "lineHeight": 1, "letterSpacing": "1.8px" },
+      "bodySm": { "fontSize": "14px", "lineHeight": 1.5, "letterSpacing": "0" },
+      "body": { "fontSize": "16px", "lineHeight": 1.5, "letterSpacing": "0" },
+      "subheading": { "fontSize": "20px", "lineHeight": 1, "letterSpacing": "-0.2px" },
+      "headingSm": { "fontSize": "32px", "lineHeight": 1.2, "letterSpacing": "-0.32px" },
+      "heading": { "fontSize": "48px", "lineHeight": 1.2, "letterSpacing": "-0.48px" },
+      "headingLg": { "fontSize": "64px", "lineHeight": 1.2, "letterSpacing": "-0.64px" },
+      "sectionStamp": { "fontSize": "74px", "lineHeight": 0.9, "letterSpacing": "14.8px" },
+      "display": { "fontSize": "88px", "lineHeight": 0.8, "letterSpacing": "-2.64px" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "120px",
+    "cardPadding": "40px",
+    "elementGap": "16px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "32px", "40px", "48px", "64px", "72px", "80px", "96px", "128px", "136px", "160px"]
+  },
+  "radii": {
+    "smallControls": "6px",
+    "buttons": "8px",
+    "cards": "19.2px",
+    "pills": "1584px"
+  },
+  "shadows": {
+    "navHairline": "rgba(16, 24, 40, 0.05) 0px 1px 2px 0px"
+  },
+  "componentRecipes": {
+    "heroBoardingPass": {
+      "layout": "Split 55/45 hero with atmospheric image and translucent pass card",
+      "card": "19.2px radius, rgba(237,195,196,0.05) fill, 1px rgba(247,249,250,0.2) border, 40px padding",
+      "cta": "1584px radius, 20px 32px padding"
+    },
+    "stampedSectionHeading": {
+      "font": "Whyte Inktrap Mono 74px 400",
+      "letterSpacing": "0.2em",
+      "textTransform": "uppercase",
+      "color": "#f0f0f0"
+    },
+    "filledActionButton": {
+      "background": "#090909",
+      "border": "1px solid #f7f9fa",
+      "radius": "8px",
+      "padding": "16px",
+      "font": "Whyte Inktrap 16px 400",
+      "color": "#f7f9fa"
+    },
+    "ghostPillButton": {
+      "background": "rgba(237,195,196,0.05)",
+      "border": "none",
+      "radius": "1584px",
+      "padding": "20px 32px",
+      "color": "#f7f9fa"
+    },
+    "frostedNav": {
+      "background": "rgba(51, 50, 72, 0.7)",
+      "backdropFilter": "blur(10px)",
+      "borderBottom": "1px solid #6b6b6b"
+    }
+  }
+}

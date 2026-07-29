@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@theme {
+  --font-shadcn-sans: "Geist", "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-shadcn-mono: "Geist Mono", "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --color-shadcn-ink: #09090b;
+  --color-shadcn-canvas: #ffffff;
+  --color-shadcn-panel: #fafafa;
+  --color-shadcn-muted-surface: #f4f4f5;
+  --color-shadcn-border: #e4e4e7;
+  --color-shadcn-muted-foreground: #71717b;
+  --color-shadcn-subtle-foreground: #a1a1aa;
+  --color-shadcn-destructive: #e7000b;
+  --color-shadcn-destructive-soft: #ffe2e2;
+
+  --text-shadcn-caption: 12px;
+  --text-shadcn-caption--line-height: 16px;
+  --text-shadcn-body-sm: 14px;
+  --text-shadcn-body-sm--line-height: 20px;
+  --text-shadcn-body: 16px;
+  --text-shadcn-body--line-height: 24px;
+  --text-shadcn-subheading: 18px;
+  --text-shadcn-subheading--line-height: 28px;
+  --text-shadcn-heading-sm: 24px;
+  --text-shadcn-heading-sm--line-height: 32px;
+  --text-shadcn-heading: 30px;
+  --text-shadcn-heading--line-height: 36px;
+  --text-shadcn-heading-lg: 36px;
+  --text-shadcn-heading-lg--line-height: 40px;
+  --text-shadcn-display: 48px;
+  --text-shadcn-display--line-height: 48px;
+
+  --spacing-shadcn-4: 4px;
+  --spacing-shadcn-8: 8px;
+  --spacing-shadcn-12: 12px;
+  --spacing-shadcn-16: 16px;
+  --spacing-shadcn-20: 20px;
+  --spacing-shadcn-24: 24px;
+  --spacing-shadcn-32: 32px;
+  --spacing-shadcn-40: 40px;
+  --spacing-shadcn-48: 48px;
+  --spacing-shadcn-64: 64px;
+
+  --radius-shadcn-tiny: 8px;
+  --radius-shadcn-control: 18px;
+  --radius-shadcn-card: 24px;
+  --radius-shadcn-pill: 9999px;
+}
+
+@layer components {
+  .shadcn-page {
+    @apply min-h-screen bg-shadcn-canvas text-shadcn-ink font-shadcn-sans;
+  }
+
+  .shadcn-container {
+    @apply mx-auto;
+    width: min(calc(100% - 48px), 1400px);
+  }
+
+  .shadcn-section {
+    @apply py-shadcn-64;
+  }
+
+  .shadcn-card {
+    @apply rounded-shadcn-card border border-shadcn-border bg-shadcn-canvas p-shadcn-24 shadow-none;
+  }
+
+  .shadcn-panel {
+    @apply rounded-shadcn-card border border-shadcn-border bg-shadcn-muted-surface p-shadcn-24 shadow-none;
+  }
+
+  .shadcn-heading {
+    @apply m-0 font-shadcn-sans text-shadcn-heading font-semibold tracking-normal text-shadcn-ink;
+  }
+
+  .shadcn-body {
+    @apply font-shadcn-sans text-shadcn-body-sm font-normal tracking-normal text-shadcn-muted-foreground;
+  }
+
+  .shadcn-button {
+    @apply inline-flex min-h-9 items-center justify-center rounded-shadcn-control px-shadcn-16 py-shadcn-8 font-shadcn-sans text-shadcn-body-sm font-medium no-underline transition-colors duration-150 ease-in-out;
+  }
+
+  .shadcn-button-primary {
+    @apply border-0 bg-shadcn-ink text-shadcn-canvas;
+  }
+
+  .shadcn-button-secondary {
+    @apply border-0 bg-shadcn-muted-surface text-shadcn-ink;
+  }
+
+  .shadcn-button-outline {
+    @apply border border-shadcn-border bg-shadcn-canvas text-shadcn-ink;
+  }
+
+  .shadcn-button-ghost {
+    @apply border-0 bg-transparent px-shadcn-12 text-shadcn-ink hover:bg-shadcn-muted-surface;
+  }
+
+  .shadcn-button-destructive {
+    @apply border-0 bg-shadcn-destructive text-shadcn-canvas;
+  }
+
+  .shadcn-input {
+    @apply min-h-9 w-full rounded-shadcn-control border border-shadcn-border bg-shadcn-canvas px-shadcn-12 py-shadcn-8 font-shadcn-sans text-shadcn-body-sm font-normal text-shadcn-ink placeholder:text-shadcn-muted-foreground;
+  }
+
+  .shadcn-badge {
+    @apply inline-flex min-h-[22px] items-center rounded-shadcn-pill border border-shadcn-border bg-shadcn-muted-surface px-[10px] py-[2px] font-shadcn-sans text-shadcn-caption font-medium text-shadcn-ink;
+  }
+
+  .shadcn-command {
+    @apply overflow-hidden rounded-shadcn-card border border-shadcn-border bg-shadcn-canvas;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  }
+
+  .shadcn-command-row {
+    @apply grid min-h-10 grid-cols-[1fr_auto] items-center rounded-shadcn-tiny px-shadcn-12 py-shadcn-8 font-shadcn-sans text-shadcn-body-sm font-normal text-shadcn-ink;
+  }
+
+  .shadcn-kbd {
+    @apply rounded-shadcn-tiny border border-shadcn-border bg-shadcn-panel px-[6px] py-[2px] font-shadcn-mono text-shadcn-caption font-medium text-shadcn-muted-foreground;
+  }
+
+  .shadcn-tabs {
+    @apply inline-flex gap-shadcn-4 rounded-shadcn-control bg-shadcn-muted-surface p-shadcn-4;
+  }
+
+  .shadcn-tab {
+    @apply rounded-[14px] border-0 bg-transparent px-shadcn-12 py-[6px] font-shadcn-sans text-shadcn-body-sm font-medium text-shadcn-muted-foreground;
+  }
+
+  .shadcn-tab-active {
+    @apply bg-shadcn-canvas text-shadcn-ink;
+  }
+}

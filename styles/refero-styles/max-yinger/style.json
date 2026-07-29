@@ -1,0 +1,91 @@
+{
+  "name": "Max Yinger",
+  "slug": "max-yinger",
+  "source": "refero",
+  "source_url": "https://styles.refero.design/style/a7891223-a93e-4731-a1aa-4079f1ee928b",
+  "style_id": "a7891223-a93e-4731-a1aa-4079f1ee928b",
+  "reference_url": "https://yinger.dev",
+  "captured_at": "2026-07-28",
+  "theme": "dark",
+  "summary": "Compact midnight engineer-terminal style with warm carbon background, bone-white text, 12px telemetry labels, 80px blocky display readouts, corner-anchored layout, transparent pill social links, and a single rose-lit 3D hero artifact.",
+  "keywords": [
+    "portfolio",
+    "creative engineering",
+    "terminal",
+    "dark",
+    "3d artifact",
+    "corner anchored",
+    "telemetry",
+    "compact",
+    "monochrome",
+    "bone white",
+    "realtime"
+  ],
+  "colors": {
+    "midnight_carbon": "#12130f",
+    "bone_glow": "#e4dfda",
+    "charcoal_vein": "#3c3c38",
+    "rose_quartz_bloom": "#f5c2c8"
+  },
+  "typography": {
+    "telemetry": "Arbeit Technik",
+    "telemetry_fallback": "JetBrains Mono, IBM Plex Mono, ui-monospace, monospace",
+    "display": "Inline VF",
+    "display_fallback": "Departure Mono, VT323, monospace",
+    "body": "Arbeit Contrast",
+    "body_fallback": "Inter, Sohne, Untitled Sans, system-ui, sans-serif",
+    "traits": [
+      "12px technical labels",
+      "80px compressed display",
+      "single weight 400",
+      "very low line heights",
+      "corner-anchored typography"
+    ]
+  },
+  "layout": {
+    "density": "compact",
+    "base_unit": "4px",
+    "section_gap": "64px",
+    "card_padding": "12px",
+    "element_gap": "4px",
+    "composition": "full-bleed edge-to-edge page with wordmark top-left, time and bio bottom-left, social pills bottom-right, and 3D artifact centered"
+  },
+  "radius": {
+    "buttons": "9999px",
+    "tags": "9999px",
+    "links": "2px",
+    "cards": "0px"
+  },
+  "components": [
+    "Pill Link Button",
+    "Underlined Inline Link",
+    "Telemetry Label",
+    "Digital Time Readout",
+    "Masthead Wordmark",
+    "3D Hero Artifact",
+    "Cluster Card",
+    "Performance Annotation"
+  ],
+  "rules": {
+    "do": [
+      "Use Bone Glow for text and Midnight Carbon for the page background.",
+      "Use full pill radius on interactive social buttons and tags.",
+      "Use 2px radius only for underlined inline links.",
+      "Use 4px element gaps and 12px cluster padding.",
+      "Use Inline VF-style display at 80px with compressed line-height.",
+      "Use Arbeit Technik-style 12px labels with -0.6px tracking.",
+      "Push content to viewport corners and edges."
+    ],
+    "dont": [
+      "Do not introduce new accent colors.",
+      "Do not use Rose Quartz Bloom on UI controls.",
+      "Do not use box shadows or drop shadows.",
+      "Do not use line-height above 1.25.",
+      "Do not center content in a max-width container.",
+      "Do not use visible borders on cards or content clusters.",
+      "Do not use bold or semibold weights.",
+      "Do not use pure white or pure black."
+    ]
+  }
+}
+

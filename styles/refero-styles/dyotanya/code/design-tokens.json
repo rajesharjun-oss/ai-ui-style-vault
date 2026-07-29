@@ -1,0 +1,124 @@
+{
+  "name": "Dyotanya",
+  "slug": "dyotanya",
+  "theme": "light",
+  "source": "https://styles.refero.design/style/1b13360a-cdca-4798-969d-57ebb20a3b30",
+  "referenceSite": "https://dyotanya.com/en",
+  "color": {
+    "warmPaper": {
+      "value": "#f5f5f3",
+      "type": "color",
+      "role": "Warm off-white page canvas"
+    },
+    "inkBlack": {
+      "value": "#000000",
+      "type": "color",
+      "role": "Primary text, line art, borders, and icon strokes"
+    },
+    "charcoal": {
+      "value": "#333333",
+      "type": "color",
+      "role": "Hard offset shadows and dark surfaces"
+    },
+    "pureWhite": {
+      "value": "#ffffff",
+      "type": "color",
+      "role": "Card surfaces and button fills"
+    },
+    "dustySky": {
+      "value": "#81aed9",
+      "type": "color",
+      "role": "Decorative borders, inputs, and soft action fills"
+    },
+    "cobaltWash": {
+      "value": "#55a1ea",
+      "type": "color",
+      "role": "Brighter blue interactive state"
+    },
+    "coralLink": {
+      "value": "#ff8562",
+      "type": "color",
+      "role": "Inline link text only"
+    }
+  },
+  "font": {
+    "simeiz": {
+      "value": "Simeiz, Playfair Display, DM Serif Display, Georgia, serif",
+      "type": "fontFamily",
+      "role": "Display and heading serif"
+    },
+    "manrope": {
+      "value": "Manrope, Inter, DM Sans, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Functional UI, labels, captions, buttons, and support copy"
+    },
+    "times": {
+      "value": "Times, Times New Roman, serif",
+      "type": "fontFamily",
+      "role": "Plain serif fallback"
+    },
+    "suisseIntl": {
+      "value": "Suisse Intl, Arial, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Small alternate UI details"
+    }
+  },
+  "size": {
+    "caption": {
+      "value": "12px",
+      "lineHeight": "1.2"
+    },
+    "bodySm": {
+      "value": "14px",
+      "lineHeight": "1.2"
+    },
+    "body": {
+      "value": "16px",
+      "lineHeight": "1.56"
+    },
+    "bodyLg": {
+      "value": "18px",
+      "lineHeight": "1.55"
+    },
+    "subheading": {
+      "value": "24px",
+      "lineHeight": "1.35"
+    },
+    "headingSm": {
+      "value": "30px",
+      "lineHeight": "1.33"
+    },
+    "heading": {
+      "value": "48px",
+      "lineHeight": "1"
+    },
+    "display": {
+      "value": "80px",
+      "lineHeight": "1"
+    }
+  },
+  "spacing": {
+    "5": "5px",
+    "10": "10px",
+    "12": "12px",
+    "15": "15px",
+    "20": "20px",
+    "22": "22px",
+    "48": "48px",
+    "sectionGap": "80px",
+    "maxWidth": "1200px",
+    "elementGap": "10px to 20px"
+  },
+  "radius": {
+    "bodyDetail": "1.5px",
+    "cards": "20px to 30px",
+    "inputs": "30px",
+    "buttons": "30px",
+    "pills": "3000px",
+    "images": "120px"
+  },
+  "shadow": {
+    "cardHard": "5px -5px 0 0 #333333",
+    "buttonHard": "4px -4px 0 0 #333333"
+  }
+}

@@ -1,0 +1,49 @@
+@theme {
+  /* Colors */
+  --color-void-black: #000000;
+  --color-star-white: #f0f0fa;
+  --color-dim-steel: #545457;
+  --color-dark-gunmetal: #404040;
+
+  /* Typography */
+  --font-d-din: "D-DIN", Barlow, "DIN Next Condensed", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-d-din-bold: "D-DIN-Bold", "Barlow", "DIN Next LT Pro Bold", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 10px;
+  --leading-caption: 1.5;
+  --tracking-caption: 0.09em;
+  --text-body-sm: 12px;
+  --leading-body-sm: 1.5;
+  --tracking-body-sm: 0.10em;
+  --text-body: 13px;
+  --leading-body: 1.7;
+  --tracking-body: 0.10em;
+  --text-body-lg: 16px;
+  --leading-body-lg: 1.5;
+  --tracking-body-lg: 0.10em;
+  --text-section-headline: 48px;
+  --leading-section-headline: 1;
+  --tracking-section-headline: 0.02em;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-13: 13px;
+  --spacing-15: 15px;
+  --spacing-18: 18px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-30: 30px;
+  --spacing-40: 40px;
+  --spacing-60: 60px;
+
+  /* Radius */
+  --radius-nav: 4px;
+  --radius-cards: 4px;
+  --radius-buttons: 4px;
+  --radius-pill: 32px;
+}

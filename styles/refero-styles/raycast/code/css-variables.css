@@ -1,0 +1,166 @@
+:root {
+  /* Colors */
+  --color-void-black: #040506;
+  --color-ink: #07080a;
+  --color-obsidian: #111214;
+  --color-graphite: #1b1c1e;
+  --color-slate: #2f3031;
+  --color-iron: #454647;
+  --color-smoke: #6a6b6c;
+  --color-ash: #9c9c9d;
+  --color-mist: #e6e6e6;
+  --color-pure-white: #ffffff;
+  --color-coral-pulse: #ff6363;
+  --color-ember-hush: #452324;
+  --color-electric-sky: #63a1ff;
+  --color-cobalt-edge: #143ca3;
+  --color-deep-space: #02193b;
+  --color-info-blue: #56c2ff;
+  --color-success-green: #59d499;
+
+  /* Semantic colors */
+  --color-background: var(--color-void-black);
+  --color-surface: var(--color-ink);
+  --color-surface-recessed: var(--color-obsidian);
+  --color-border: #363739;
+  --color-text: var(--color-pure-white);
+  --color-text-secondary: var(--color-ash);
+  --color-text-muted: var(--color-smoke);
+  --color-action-fill: var(--color-mist);
+  --color-action-text: var(--color-iron);
+  --color-brand-accent: var(--color-coral-pulse);
+
+  /* Typography */
+  --font-inter: Inter, system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-geistmono: GeistMono, "JetBrains Mono", Menlo, Monaco, Courier, monospace;
+  --font-sf-pro-text: "SF Pro Text", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-sf-pro: "SF Pro", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+
+  --text-eyebrow: 11px;
+  --leading-eyebrow: 0.91;
+  --tracking-eyebrow: 0.8px;
+  --text-body: 16px;
+  --leading-body: 1.15;
+  --text-body-lg: 18px;
+  --leading-body-lg: 1.15;
+  --text-subheading: 20px;
+  --leading-subheading: 1.2;
+  --tracking-subheading: 0.2px;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.15;
+  --text-heading: 32px;
+  --leading-heading: 1.15;
+  --text-heading-lg: 56px;
+  --leading-heading-lg: 1.17;
+  --tracking-heading-lg: 0.22px;
+  --text-display: 64px;
+  --leading-display: 1.1;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 8px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-120: 120px;
+  --spacing-224: 224px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap-min: 80px;
+  --section-gap-max: 120px;
+  --card-padding: 24px;
+  --element-gap-min: 8px;
+  --element-gap-max: 16px;
+
+  /* Radius */
+  --radius-badges: 6px;
+  --radius-inputs: 8px;
+  --radius-buttons: 8px;
+  --radius-cards: 16px;
+  --radius-large-cards: 20px;
+  --radius-pills: 9999px;
+  --radius-icon-containers: 99999px;
+
+  /* Signature shadows */
+  --shadow-key:
+    rgba(255, 255, 255, 0.05) 0 1px 0 0 inset,
+    rgba(255, 255, 255, 0.25) 0 0 0 1px,
+    rgba(0, 0, 0, 0.2) 0 -1px 0 0 inset;
+  --shadow-download:
+    rgba(0, 0, 0, 0.03) 0 7px 3px 0,
+    rgba(0, 0, 0, 0.25) 0 4px 4px 0;
+  --shadow-inset-highlight: rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
+
+  /* Surfaces */
+  --surface-canvas: #040506;
+  --surface-card: #07080a;
+  --surface-recessed: #111214;
+  --surface-badge: #1b1c1e;
+  --surface-accent-tint: #452324;
+}
+
+.raycast-style {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-inter);
+}
+
+.raycast-nav {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-buttons);
+  background: color-mix(in srgb, var(--color-void-black) 70%, transparent);
+  backdrop-filter: blur(48px);
+}
+
+.raycast-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: var(--radius-buttons);
+  background: var(--color-action-fill);
+  color: var(--color-action-text);
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+  box-shadow: var(--shadow-download);
+}
+
+.raycast-card {
+  border-radius: var(--radius-cards);
+  padding: var(--card-padding);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-key);
+}
+
+.raycast-input {
+  border: 0;
+  border-radius: var(--radius-inputs);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-text);
+  padding: 8px 12px;
+}
+
+.raycast-meta {
+  color: var(--color-text-muted);
+  font-family: var(--font-geistmono);
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0.017em;
+}
+

@@ -1,0 +1,160 @@
+{
+  "id": "fe8cdcf9-c850-4d52-be07-5ad269bf9ebf",
+  "name": "Caldera",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/fe8cdcf9-c850-4d52-be07-5ad269bf9ebf",
+  "referenceUrl": "https://caldera.xyz",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Volcanic infrastructure on warm pumice paper, with huge compressed black headlines, ember-orange actions, violet halftone developer graphics, and sulfur signal tags.",
+  "bestFor": [
+    "blockchain infrastructure",
+    "developer platforms",
+    "rollup tooling",
+    "network dashboards",
+    "protocol launch pages",
+    "technical product sites"
+  ],
+  "tags": [
+    "light",
+    "volcanic",
+    "infrastructure",
+    "web3",
+    "developer-platform",
+    "orange-accent",
+    "violet-halftone",
+    "sulfur-tags",
+    "large-radius",
+    "compressed-headlines",
+    "dm-sans",
+    "pp-neue-montreal"
+  ],
+  "colors": {
+    "lavaBlack": { "value": "#000000", "token": "--color-lava-black", "role": "Primary text, logos, nav labels, icon strokes, and high-contrast borders." },
+    "obsidian": { "value": "#111111", "token": "--color-obsidian", "role": "Dark footer panels, modal backdrops, and inverted cards." },
+    "basalt": { "value": "#212121", "token": "--color-basalt", "role": "Secondary dark text and deep UI surfaces." },
+    "charcoal": { "value": "#343434", "token": "--color-charcoal", "role": "Muted text, dark border states, and disabled controls." },
+    "ash": { "value": "#6c6c6c", "token": "--color-ash", "role": "Secondary body copy, captions, helper labels, and muted metadata." },
+    "stone": { "value": "#b6b0aa", "token": "--color-stone", "role": "Hairline dividers, disabled borders, and quiet graphic strokes." },
+    "pumice": { "value": "#e3ded8", "token": "--color-pumice", "role": "Main page background and warm neutral section surfaces." },
+    "chalk": { "value": "#f2ede7", "token": "--color-chalk", "role": "Cards, inputs, light chips, and slightly raised surfaces." },
+    "steam": { "value": "#ffffff", "token": "--color-steam", "role": "Rare white highlights and contrast text on saturated surfaces." },
+    "emberOrange": { "value": "#ff6828", "token": "--color-ember-orange", "role": "Primary CTA, active tags, key borders, illustration heat, and focus states." },
+    "moltenCoral": { "value": "#ff7b54", "token": "--color-molten-coral", "role": "Hover accents and softer orange fills." },
+    "violetRift": { "value": "#6c35ff", "token": "--color-violet-rift", "role": "Halftone hero graphics, developer nodes, and secondary action highlights." },
+    "deepViolet": { "value": "#2d165f", "token": "--color-deep-violet", "role": "Dark purple shadow field and contrast for violet graphics." },
+    "sulfur": { "value": "#e8ff50", "token": "--color-sulfur", "role": "Small tags, network badges, and notification sparks." },
+    "signalBlue": { "value": "#1c69ff", "token": "--color-signal-blue", "role": "Rare link or network state highlight." }
+  },
+  "typography": {
+    "families": {
+      "display": "PP Neue Montreal",
+      "body": "DM Sans"
+    },
+    "fallbacks": {
+      "display": "Arial Narrow, Helvetica Neue Condensed, Inter Tight, sans-serif",
+      "body": "Inter, system-ui, sans-serif"
+    },
+    "weights": {
+      "display": 530,
+      "body": 500,
+      "semibold": 600
+    },
+    "rules": [
+      "Use PP Neue Montreal-style compressed sans for large display headings.",
+      "Use DM Sans for all body and UI text.",
+      "Keep display tracking tight.",
+      "Use medium-weight body text.",
+      "Do not use serif or monospace type unless product content requires code."
+    ],
+    "scale": {
+      "micro": { "size": "14px", "lineHeight": 1.1, "letterSpacing": "0", "token": "--text-micro" },
+      "body": { "size": "16px", "lineHeight": 1.25, "letterSpacing": "0", "token": "--text-body" },
+      "bodyLg": { "size": "24px", "lineHeight": 1.15, "letterSpacing": "0", "token": "--text-body-lg" },
+      "heading": { "size": "48px", "lineHeight": 1.05, "letterSpacing": "-1.44px", "token": "--text-heading" },
+      "display": { "size": "128px", "lineHeight": 0.95, "letterSpacing": "-5.76px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1280px",
+    "sectionGap": "160px",
+    "cardPadding": "40px",
+    "elementGap": "16px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "56": "56px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "120": "120px",
+      "160": "160px",
+      "200": "200px"
+    }
+  },
+  "radii": {
+    "buttons": "40px",
+    "inputs": "32px",
+    "cards": "40px",
+    "chips": "800px",
+    "modals": "48px",
+    "heroVisual": "56px"
+  },
+  "shadows": {
+    "card": "rgba(0, 0, 0, 0.12) 0px 12px 40px -20px",
+    "button": "rgba(0, 0, 0, 0.16) 0px 6px 16px -8px"
+  },
+  "components": [
+    { "name": "Primary Pill Button", "recipe": "Ember Orange fill, Lava Black or Steam text, 40px radius, DM Sans 16px/600, generous horizontal padding." },
+    { "name": "Secondary Outline Button", "recipe": "Transparent or Chalk fill, 1px Lava Black border, 40px radius, Lava Black text." },
+    { "name": "Rounded Card", "recipe": "Chalk or Pumice fill, 1px Lava Black or Stone border, 40px radius, 40px padding." },
+    { "name": "Hero Halftone Panel", "recipe": "Violet Rift and Deep Violet halftone geometry over Pumice or Chalk, paired with huge black headline and orange CTA." },
+    { "name": "Network Badge", "recipe": "Sulfur fill, Lava Black text, 800px radius, small DM Sans label." },
+    { "name": "Input", "recipe": "Chalk fill, Stone border, 32px radius, 16px DM Sans text, Ember focus border." },
+    { "name": "Process Diagram", "recipe": "Thin Lava Black strokes, circular nodes, occasional Violet or Ember fill, short DM Sans labels." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Pumice as the broad canvas.",
+      "Make headlines very large and tightly tracked.",
+      "Use Ember Orange as the primary action color.",
+      "Keep Violet Rift in graphic and developer-diagram contexts.",
+      "Use Sulfur only for small tags and signal marks.",
+      "Use 40px rounded cards and buttons.",
+      "Keep graphics flat and technical."
+    ],
+    "dont": [
+      "Do not use pure white as the main background.",
+      "Do not add extra saturated accent colors.",
+      "Do not use small 8px SaaS cards.",
+      "Do not use glassmorphism or glowing gradients.",
+      "Do not use generic blockchain coin imagery.",
+      "Do not make every accent violet.",
+      "Do not use serif type."
+    ]
+  },
+  "imagery": {
+    "style": "Flat halftone fields, technical node diagrams, network maps, protocol illustrations, and thin black line art.",
+    "rules": [
+      "Use violet halftone visuals in the hero.",
+      "Use orange and sulfur sparingly for highlights.",
+      "Avoid generic coin imagery.",
+      "Avoid glossy 3D crypto objects.",
+      "Avoid lifestyle stock photography."
+    ]
+  },
+  "layout": {
+    "structure": "Wide 1280px centered layout with a poster-like hero, large rounded panels, warm paper sections, and oversized spacing.",
+    "navigation": "Simple top nav with black labels, rounded action control, and warm neutral background.",
+    "sectionRhythm": "Use 160px section gaps and 40px card padding."
+  }
+}

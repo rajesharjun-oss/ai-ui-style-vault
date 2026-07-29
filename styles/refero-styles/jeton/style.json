@@ -1,0 +1,311 @@
+{
+  "id": "1f32d914-6fdd-4692-b4fc-fcee2c414766",
+  "name": "Jeton",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/1f32d914-6fdd-4692-b4fc-fcee2c414766",
+  "referenceUrl": "https://www.jeton.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Editorial fintech on warm marble, with a near-white canvas, searing orange-red emphasis, warm near-black text, tight oversized headlines, and spacious rounded cards.",
+  "bestFor": [
+    "editorial fintech",
+    "banking tools",
+    "payment infrastructure",
+    "money movement",
+    "personal finance",
+    "premium financial dashboards",
+    "wallet products"
+  ],
+  "tags": [
+    "light",
+    "fintech",
+    "editorial",
+    "white-canvas",
+    "orange-accent",
+    "warm-ink",
+    "oversized-type",
+    "rounded-cards",
+    "single-accent",
+    "pastel-feature-cards",
+    "geometric-ui"
+  ],
+  "colors": {
+    "signalOrange": {
+      "value": "#f73b20",
+      "token": "--color-signal-orange",
+      "role": "Primary brand accent for links, icons, key headings, and main emphasis."
+    },
+    "brandOrangeTint": {
+      "value": "#f84d35",
+      "token": "--color-brand-orange-tint",
+      "role": "Softer orange variant for small brand indicators and secondary brand details."
+    },
+    "inkRoast": {
+      "value": "#360802",
+      "token": "--color-ink-roast",
+      "role": "Warm near-black for body copy, headings, inputs, and editorial text."
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "token": "--color-paper-white",
+      "role": "Dominant page canvas and card surface."
+    },
+    "carbonBlack": {
+      "value": "#000000",
+      "token": "--color-carbon-black",
+      "role": "Utility icon color, compact labels, and rare meta details."
+    },
+    "ashGrey": {
+      "value": "#ababab",
+      "token": "--color-ash-grey",
+      "role": "Disabled, placeholder, divider, and low-emphasis details."
+    },
+    "sandWash": {
+      "value": "#e7dcdb",
+      "token": "--color-sand-wash",
+      "role": "Warm neutral wash for subtle separation."
+    },
+    "linenBlush": {
+      "value": "#fdedea",
+      "token": "--color-linen-blush",
+      "role": "Pale orange-tinted surface for inputs, rows, highlights, and soft cards."
+    },
+    "citrusWash": {
+      "value": "#f5ffbb",
+      "token": "--color-citrus-wash",
+      "role": "Pale yellow-green highlight surface."
+    },
+    "mintWash": {
+      "value": "#bcffbb",
+      "token": "--color-mint-wash",
+      "role": "Soft green wash for emphasis, funding, and positive moments."
+    },
+    "coralRed": {
+      "value": "#fb2d54",
+      "token": "--color-coral-red",
+      "role": "Exchange or currency category accent."
+    },
+    "cobaltBlue": {
+      "value": "#477ee9",
+      "token": "--color-cobalt-blue",
+      "role": "Send or transfer category accent."
+    },
+    "emeraldGreen": {
+      "value": "#34c771",
+      "token": "--color-emerald-green",
+      "role": "Add, funding, or positive category accent."
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "Sequel Sans",
+      "fallback": "Inter, Manrope, DM Sans, ui-sans-serif, system-ui"
+    },
+    "weights": {
+      "regular": 400,
+      "book": 450,
+      "medium": 500
+    },
+    "rules": [
+      "Use one geometric grotesque family across the UI.",
+      "Use scale and tight leading for hierarchy rather than heavier weights.",
+      "Keep display tracking around 0.01em and small text tracking around 0.03em."
+    ],
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "lineHeight": 1.5,
+        "letterSpacing": "0.36px",
+        "token": "--text-caption"
+      },
+      "bodySm": {
+        "size": "14px",
+        "lineHeight": 1.4,
+        "letterSpacing": "0.42px",
+        "token": "--text-body-sm"
+      },
+      "body": {
+        "size": "16px",
+        "lineHeight": 1,
+        "letterSpacing": "0",
+        "token": "--text-body"
+      },
+      "subheading": {
+        "size": "23px",
+        "lineHeight": 1.2,
+        "letterSpacing": "0.23px",
+        "token": "--text-subheading"
+      },
+      "headingSm": {
+        "size": "33px",
+        "lineHeight": 1.2,
+        "letterSpacing": "0.33px",
+        "token": "--text-heading-sm"
+      },
+      "heading": {
+        "size": "44px",
+        "lineHeight": 1.2,
+        "letterSpacing": "0.44px",
+        "token": "--text-heading"
+      },
+      "headingLg": {
+        "size": "72px",
+        "lineHeight": 1,
+        "letterSpacing": "0.72px",
+        "token": "--text-heading-lg"
+      },
+      "display": {
+        "size": "106px",
+        "lineHeight": 1,
+        "letterSpacing": "0",
+        "token": "--text-display"
+      },
+      "displayXl": {
+        "size": "110px",
+        "lineHeight": 1,
+        "letterSpacing": "1.1px",
+        "token": "--text-display-xl"
+      },
+      "displayHero": {
+        "size": "155px",
+        "lineHeight": 0.9,
+        "letterSpacing": "1.55px",
+        "token": "--text-display-hero"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "16px",
+    "elementGap": "8px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "48": "48px",
+      "56": "56px",
+      "160": "160px"
+    }
+  },
+  "radii": {
+    "links": "8px",
+    "buttons": "12px",
+    "cards": "16px",
+    "inputs": "16px",
+    "nav": "84px",
+    "pills": "9999px"
+  },
+  "shadows": {
+    "lg": {
+      "token": "--shadow-lg",
+      "value": "rgba(247, 59, 32, 0.1) 0px 8px 24px 0px, rgba(247, 59, 32, 0.05) 0px 2px 8px 0px",
+      "role": "Floating warm glass panel shadow."
+    },
+    "md": {
+      "token": "--shadow-md",
+      "value": "rgba(0, 0, 0, 0.05) 0px -4px 16px 0px",
+      "role": "Inverted content-card lift."
+    }
+  },
+  "surfaces": {
+    "canvas": {
+      "value": "#ffffff",
+      "role": "Dominant page background."
+    },
+    "cardSurface": {
+      "value": "#ffffff",
+      "role": "White card background."
+    },
+    "orangeTint": {
+      "value": "#fdedea",
+      "role": "Warm highlighted content and input surface."
+    },
+    "frostedGlass": {
+      "value": "#ffffff1a",
+      "role": "Translucent floating overlay."
+    },
+    "categoryTint": {
+      "value": "#f73b200d",
+      "role": "Subtle brand-tinted category card."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Pill Button",
+      "role": "Main action",
+      "recipe": "Signal Orange fill, white text, 12px radius, 8px vertical and 16px horizontal padding, 14px type, weight 450, 0.03em tracking."
+    },
+    {
+      "name": "Ghost Text Link",
+      "role": "Inline or secondary action",
+      "recipe": "No fill, Signal Orange text, 8px radius, 8px padding, optional arrow indicator."
+    },
+    {
+      "name": "White Ghost Button",
+      "role": "Action over light/glass context",
+      "recipe": "Transparent surface, white text, 1px white border, 84px radius, 16px horizontal padding."
+    },
+    {
+      "name": "Feature Category Card",
+      "role": "Feature group card",
+      "recipe": "Pastel-tinted background, 16px radius, large geometric icon, category heading, and one category accent."
+    },
+    {
+      "name": "Floating Input Field",
+      "role": "Warm editorial form field",
+      "recipe": "Orange alpha background, Ink Roast text, 16px radius, generous icon padding, minimal border."
+    },
+    {
+      "name": "Top Navigation Bar",
+      "role": "Primary site navigation",
+      "recipe": "Logo left, nav center, toggle and CTA right, 14-16px type, pill controls, optional backdrop blur."
+    }
+  ],
+  "guidelines": {
+    "do": [
+      "Use oversized display type with 0.9-1.0 leading.",
+      "Keep Signal Orange as the main accent.",
+      "Use category accents only inside feature cards.",
+      "Use 16px rounding for cards and inputs.",
+      "Separate sections with whitespace.",
+      "Use warm-tinted surfaces with Ink Roast text."
+    ],
+    "dont": [
+      "Do not add a second typeface.",
+      "Do not use 600+ weights.",
+      "Do not add heavy shadows to text or buttons.",
+      "Do not use pure black for body text.",
+      "Do not multiply accent colors in one component.",
+      "Do not use sharp interactive corners."
+    ]
+  },
+  "imagery": {
+    "style": "Typography-first, geometric, abstract, product-adjacent, and warm.",
+    "notes": [
+      "Use abstract fintech/product visuals instead of lifestyle photography.",
+      "Simple geometric icons should carry category meaning.",
+      "If product imagery appears, use tight crops and warm grading."
+    ],
+    "suggestedFilter": "sepia(0.4) hue-rotate(329deg) contrast(1.1) saturate(2.2)"
+  },
+  "layout": {
+    "container": "1200px centered max width",
+    "hero": "Large left-aligned editorial headline with extreme whitespace and a small orange CTA.",
+    "sections": "Full-width bands separated by 80px or more; mostly white with occasional warm/pastel tint.",
+    "grids": "Spacious two or three column cards; avoid dense matrix layouts.",
+    "rhythm": "Headline, short copy, whitespace, geometric card or input, repeat."
+  },
+  "preview": {
+    "imageHost": "images.refero.design",
+    "downloaded": false,
+    "note": "Refero exposes preview imagery, but local download was not captured in this environment."
+  }
+}
+

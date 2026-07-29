@@ -1,0 +1,99 @@
+{
+  "name": "Amrit Palace",
+  "source": {
+    "type": "refero-styles",
+    "url": "https://styles.refero.design/style/b753dfda-cbe1-41e4-b341-b98d69c8422f",
+    "referenceUrl": "https://amritpalace.com",
+    "capturedOn": "2026-07-28"
+  },
+  "theme": "light",
+  "colors": {
+    "parchment": { "value": "#d8cbb8", "css": "--color-parchment" },
+    "linen": { "value": "#bfb4a3", "css": "--color-linen" },
+    "warmStone": { "value": "#b6ab9c", "css": "--color-warm-stone" },
+    "walnut": { "value": "#978e81", "css": "--color-walnut" },
+    "espresso": { "value": "#615b53", "css": "--color-espresso" },
+    "onyxWarm": { "value": "#2c2c2c", "css": "--color-onyx-warm" },
+    "midnightRoast": { "value": "#292622", "css": "--color-midnight-roast" },
+    "saffronGlow": { "value": "#d49653", "css": "--color-saffron-glow" }
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": {
+        "value": "TT Ramillas Variable",
+        "css": "--font-tt-ramillas-variable",
+        "fallback": "Cormorant Garamond, Playfair Display, DM Serif Display, serif"
+      },
+      "body": {
+        "value": "Satoshi",
+        "css": "--font-satoshi",
+        "fallback": "Inter, DM Sans, Manrope, system-ui, sans-serif"
+      }
+    },
+    "fontWeights": {
+      "light": 300,
+      "medium": 500,
+      "bold": 700
+    },
+    "scale": {
+      "caption": { "fontSize": "13px", "lineHeight": 1.3, "letterSpacing": "-0.143px" },
+      "body": { "fontSize": "15px", "lineHeight": 1.4, "letterSpacing": "-0.15px" },
+      "bodyLg": { "fontSize": "26px", "lineHeight": 1.2, "letterSpacing": "-0.156px" },
+      "subheading": { "fontSize": "42px", "lineHeight": 1, "letterSpacing": "-1.68px" },
+      "headingSm": { "fontSize": "50px", "lineHeight": 0.9, "letterSpacing": "-1.5px" },
+      "heading": { "fontSize": "65px", "lineHeight": 0.85, "letterSpacing": "-2.6px" },
+      "headingLg": { "fontSize": "69px", "lineHeight": 0.9, "letterSpacing": "-2.76px" },
+      "display": { "fontSize": "115px", "lineHeight": 0.8, "letterSpacing": "-4.6px" }
+    }
+  },
+  "spacing": {
+    "pageMaxWidth": "1440px",
+    "sectionGap": "120px to 160px",
+    "cardPadding": "28px",
+    "elementGap": "12px to 16px",
+    "scale": ["4px", "5px", "6px", "7px", "8px", "10px", "12px", "16px", "17px", "20px", "24px", "28px", "32px", "42px", "92px", "206px"]
+  },
+  "radii": {
+    "cards": "0px",
+    "sections": "0px",
+    "imageContainers": "0px",
+    "tags": "3px",
+    "inputs": "3px",
+    "buttons": "3px"
+  },
+  "shadows": {
+    "none": "none"
+  },
+  "componentRecipes": {
+    "ghostOutlinedButton": {
+      "background": "transparent",
+      "border": "1px solid currentColor",
+      "radius": "3px",
+      "font": "Satoshi 14px 500 uppercase",
+      "padding": "20px 28px",
+      "shadow": "none"
+    },
+    "editorialSectionHeading": {
+      "font": "TT Ramillas Variable 50px to 115px 300",
+      "textTransform": "uppercase",
+      "letterSpacing": "-0.0400em to -0.0300em",
+      "lineHeight": "0.8 to 0.9"
+    },
+    "testimonialCard": {
+      "background": "#d8cbb8",
+      "radius": "0px",
+      "border": "none",
+      "shadow": "none",
+      "stars": "#d49653",
+      "body": "Satoshi 14px 500 #2c2c2c"
+    },
+    "sectionDivider": {
+      "borderTop": "1px solid #b6ab9c"
+    },
+    "navigationBar": {
+      "background": "transparent",
+      "linkFont": "Satoshi 14px 500 uppercase",
+      "controlRadius": "3px"
+    }
+  }
+}

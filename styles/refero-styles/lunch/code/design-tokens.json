@@ -1,0 +1,80 @@
+{
+  "name": "LUNCH",
+  "slug": "lunch",
+  "color": {
+    "lilacVeil": { "value": "#b8aad0", "role": "Announcement bar, footer band, sold-out text, rare brand punctuation" },
+    "inkBlack": { "value": "#000000", "role": "Text, nav, underlines, borders, linework, product metadata" },
+    "warmParchment": { "value": "#f4f1e4", "role": "Editorial and product-section background after the hero" },
+    "ivoryMist": { "value": "#fcfaf1", "role": "Warm light surface variant and product panels" }
+  },
+  "font": {
+    "goodSans": {
+      "value": "\"Good Sans\", Sohne, Inter, \"Untitled Sans\", Arial, sans-serif",
+      "weights": [400, 700],
+      "usage": "Navigation, body copy, product metadata, links, prices, labels, and normal headings"
+    },
+    "redaction": {
+      "value": "Redaction, \"GT Sectra Display\", \"Domaine Display\", Georgia, serif",
+      "weights": [700],
+      "usage": "Hero wordmark only"
+    }
+  },
+  "size": {
+    "caption": "12px",
+    "body": "16px",
+    "subheading": "24px",
+    "heading": "32px",
+    "display": "72px"
+  },
+  "lineHeight": {
+    "caption": 1,
+    "body": 1.8,
+    "subheading": 1.8,
+    "heading": 1.8,
+    "display": 1.8
+  },
+  "letterSpacing": {
+    "caption": "0.6px",
+    "body": "0.08px",
+    "subheading": "0.12px",
+    "heading": "0.16px",
+    "display": "0.144px"
+  },
+  "fontWeight": {
+    "regular": 400,
+    "bold": 700
+  },
+  "space": {
+    "unit": "4px",
+    "5": "5px",
+    "10": "10px",
+    "15": "15px",
+    "20": "20px",
+    "30": "30px",
+    "60": "60px",
+    "80": "80px"
+  },
+  "layout": {
+    "pageMaxWidth": "1280px",
+    "sectionGapMin": "60px",
+    "sectionGapMax": "80px",
+    "elementGapMin": "20px",
+    "elementGapMax": "30px",
+    "productGridGap": "5px",
+    "introMaxWidthMin": "600px",
+    "introMaxWidthMax": "700px"
+  },
+  "radius": {
+    "cards": "0px",
+    "badges": "0px",
+    "images": "0px",
+    "buttons": "0px"
+  },
+  "surfaces": {
+    "editorialCanvas": "#f4f1e4",
+    "heroVoid": "#000000",
+    "ivoryMist": "#fcfaf1",
+    "brandWhisper": "#b8aad0"
+  }
+}
+

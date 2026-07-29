@@ -1,0 +1,174 @@
+:root {
+  /* Colors */
+  --color-obsidian: #000000;
+  --color-paper: #ffffff;
+  --color-inkstone: #181818;
+  --color-felt-gray: #6d6d6d;
+  --color-slate-pill: #636363;
+  --color-ash-mist: #9a9a9a;
+  --color-pewter: #808080;
+  --color-iridescent-fade: #a52d25;
+  --gradient-iridescent-fade: linear-gradient(90deg, rgb(160, 224, 171), rgb(255, 172, 46) 50%, rgb(165, 45, 37));
+
+  /* Typography */
+  --font-roobert: "Roobert", Inter, "Sohne", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-raleway: "Raleway", Montserrat, Jost, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-system-ui: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 12px;
+  --leading-caption: 1.19;
+  --text-body-sm: 16px;
+  --leading-body-sm: 1.15;
+  --text-body: 18px;
+  --leading-body: 1.21;
+  --text-subheading: 39px;
+  --leading-subheading: 1.19;
+  --text-subheading-lg: 45px;
+  --leading-subheading-lg: 1.15;
+  --text-heading-sm: 54px;
+  --leading-heading-sm: 1.39;
+  --text-heading: 78px;
+  --leading-heading: 1.1;
+  --text-heading-lg: 94px;
+  --leading-heading-lg: 0.76;
+  --text-display: 225px;
+  --leading-display: 1.25;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-28: 28px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-68: 68px;
+  --spacing-152: 152px;
+
+  /* Layout */
+  --page-max-width: 1078px;
+  --section-gap: 46px;
+  --card-padding: 34px;
+  --element-gap: 14px;
+
+  /* Radius */
+  --radius-tags: 75px;
+  --radius-buttons: 75px;
+  --radius-cards: 0px;
+  --radius-images: 0px;
+  --radius-inputs: 0px;
+  --radius-links: 0px;
+
+  /* Motion */
+  --ease-monopo: cubic-bezier(0.19, 1, 0.22, 1);
+  --duration-monopo-slow: 1.25s;
+  --duration-monopo-medium: 0.8s;
+  --duration-monopo-micro: 0.4s;
+
+  /* Surfaces */
+  --surface-paper: #ffffff;
+  --surface-slate-pill: #636363;
+  --surface-obsidian: #000000;
+  --surface-ash-mist: #9a9a9a;
+}
+
+.monopo-shell {
+  background: var(--color-paper);
+  color: var(--color-obsidian);
+  font-family: var(--font-roobert);
+}
+
+.monopo-container {
+  max-width: var(--page-max-width);
+  margin-inline: auto;
+  padding-inline: var(--spacing-28);
+}
+
+.monopo-hero {
+  align-items: center;
+  background: var(--gradient-iridescent-fade);
+  color: var(--color-paper);
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.monopo-display {
+  color: inherit;
+  font-family: var(--font-roobert);
+  font-size: clamp(72px, 17vw, var(--text-display));
+  font-weight: var(--font-weight-regular);
+  letter-spacing: 0;
+  line-height: var(--leading-display);
+}
+
+.monopo-whisper-heading {
+  color: inherit;
+  font-family: var(--font-roobert);
+  font-size: clamp(48px, 8vw, var(--text-heading));
+  font-weight: var(--font-weight-light);
+  line-height: var(--leading-heading);
+}
+
+.monopo-pill {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--color-obsidian);
+  border-radius: var(--radius-buttons);
+  color: var(--color-obsidian);
+  display: inline-flex;
+  font-family: var(--font-roobert);
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-weight-regular);
+  justify-content: center;
+  line-height: 1;
+  padding: 11px 33px;
+  transition: color var(--duration-monopo-medium) var(--ease-monopo), border-color var(--duration-monopo-medium) var(--ease-monopo), transform var(--duration-monopo-slow) var(--ease-monopo);
+}
+
+.monopo-pill[data-surface="dark"] {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--color-paper);
+}
+
+.monopo-pill[data-variant="filled-neutral"] {
+  background: rgba(55, 55, 55, 0.78);
+  border-color: var(--color-paper);
+  color: var(--color-paper);
+}
+
+.monopo-link {
+  background: none;
+  border: 0;
+  border-radius: var(--radius-links);
+  color: inherit;
+  font-family: var(--font-roobert);
+  font-size: 12px;
+  font-weight: var(--font-weight-regular);
+  text-decoration: none;
+}
+
+.monopo-project-row {
+  background: transparent;
+  border-radius: var(--radius-cards);
+  box-shadow: none;
+  color: var(--color-obsidian);
+}
+
+.monopo-project-row img {
+  border-radius: var(--radius-images);
+  display: block;
+  width: 100%;
+}
+
+.monopo-footer-copy {
+  color: var(--color-felt-gray);
+  font-family: var(--font-roobert);
+  font-size: 11px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.36;
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Metaview",
+  "source": {
+    "type": "refero-styles",
+    "url": "https://styles.refero.design/style/f99856e1-3627-4624-a811-f6053a978b62",
+    "referenceUrl": "https://metaview.ai",
+    "capturedOn": "2026-07-28"
+  },
+  "theme": "dark",
+  "colors": {
+    "deepForest": { "value": "#000a06", "css": "--color-deep-forest" },
+    "pineBark": { "value": "#0a1a14", "css": "--color-pine-bark" },
+    "charcoal": { "value": "#161818", "css": "--color-charcoal" },
+    "abyssalIndigo": { "value": "#01051b", "css": "--color-abyssal-indigo" },
+    "paperWhite": { "value": "#ffffff", "css": "--color-paper-white" },
+    "ashGray": { "value": "#5e6262", "css": "--color-ash-gray" },
+    "smoke": { "value": "#828282", "css": "--color-smoke" },
+    "silver": { "value": "#d9d9d9", "css": "--color-silver" },
+    "pureBlack": { "value": "#000000", "css": "--color-pure-black" },
+    "electricMint": { "value": "#7affb4", "css": "--color-electric-mint" },
+    "mintWhisper": { "value": "#e3ffef", "css": "--color-mint-whisper" },
+    "bioluminescentBloom": {
+      "value": "radial-gradient(circle, rgba(0, 100, 70, 0.4) 0%, rgba(0, 60, 40, 0.2) 30%, rgba(0, 30, 20, 0.08) 55%, rgba(0, 0, 0, 0) 75%)",
+      "css": "--gradient-bioluminescent-bloom"
+    },
+    "pineToAbyss": {
+      "value": "linear-gradient(rgb(15, 58, 43) 0%, rgb(0, 10, 7) 100%)",
+      "css": "--gradient-pine-to-abyss"
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": {
+        "value": "Euclid Circular A",
+        "css": "--font-euclid-circular-a",
+        "fallback": "Inter, DM Sans, Space Grotesk, system-ui, sans-serif"
+      },
+      "code": {
+        "value": "Onsite SemiMono",
+        "css": "--font-onsite-semimono",
+        "fallback": "JetBrains Mono, IBM Plex Mono, Geist Mono, ui-monospace, monospace"
+      }
+    },
+    "fontWeights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": 1.48, "letterSpacing": "0.12px" },
+      "bodySm": { "fontSize": "14px", "lineHeight": 1.42, "letterSpacing": "0.14px" },
+      "body": { "fontSize": "16px", "lineHeight": 1.5, "letterSpacing": "-0.16px" },
+      "subheading": { "fontSize": "20px", "lineHeight": 1.34, "letterSpacing": "-0.4px" },
+      "headingSm": { "fontSize": "28px", "lineHeight": 1.2, "letterSpacing": "-0.56px" },
+      "heading": { "fontSize": "36px", "lineHeight": 1.16, "letterSpacing": "-1.08px" },
+      "headingLg": { "fontSize": "48px", "lineHeight": 1.1, "letterSpacing": "-1.92px" },
+      "display": { "fontSize": "68px", "lineHeight": 1.04, "letterSpacing": "-4.08px" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": ["8px", "16px", "24px", "32px", "40px", "48px", "56px", "80px", "112px"]
+  },
+  "radii": {
+    "icons": "4px",
+    "inputs": "8px",
+    "nested": "8px",
+    "cards": "16px",
+    "badges": "100px",
+    "buttons": "999px"
+  },
+  "shadows": {
+    "subtle": "rgba(0, 0, 0, 0.02) 0px 3px 3px 0px, rgba(0, 0, 0, 0.01) 0px 7px 7px 0px, rgba(0, 0, 0, 0.01) 0px 14px 14px 0px, rgba(0, 0, 0, 0.01) 0px 25px 24px 0px",
+    "insetHairline": "rgba(1, 5, 27, 0.06) 0px 0px 0px 1px inset"
+  },
+  "componentRecipes": {
+    "pillPrimaryButton": {
+      "background": "#7affb4",
+      "color": "#000a06",
+      "radius": "999px",
+      "padding": "8px 16px",
+      "font": "Euclid Circular A 14px 500"
+    },
+    "outlinedGhostButton": {
+      "background": "transparent",
+      "border": "1px solid #ffffff",
+      "color": "#ffffff",
+      "radius": "999px",
+      "padding": "8px 16px",
+      "font": "Euclid Circular A 14px 500"
+    },
+    "featureCard": {
+      "background": "#0a1a14",
+      "border": "1px solid #01051b",
+      "radius": "16px",
+      "padding": "24px",
+      "heading": "20px 500 #ffffff",
+      "body": "16px 400 #5e6262"
+    },
+    "productShowcaseCard": {
+      "backdrop": "radial-gradient(circle, rgba(0, 100, 70, 0.4) 0%, rgba(0, 60, 40, 0.2) 30%, rgba(0, 30, 20, 0.08) 55%, rgba(0, 0, 0, 0) 75%)",
+      "background": "#0a1a14",
+      "border": "1px solid #01051b",
+      "radius": "16px",
+      "padding": "24px"
+    },
+    "filterChip": {
+      "height": "28px",
+      "border": "1px solid #01051b",
+      "radius": "4px",
+      "font": "Euclid Circular A 12px 500",
+      "countFont": "Onsite SemiMono 12px 400"
+    }
+  }
+}

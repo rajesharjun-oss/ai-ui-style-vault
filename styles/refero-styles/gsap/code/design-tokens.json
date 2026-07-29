@@ -1,0 +1,95 @@
+{
+  "name": "GSAP",
+  "sourceUrl": "https://styles.refero.design/style/00537a20-e99e-4ef2-b119-c6f532c44cc9",
+  "referenceUrl": "https://gsap.com",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "color": {
+    "justBlack": { "value": "#0e100f", "type": "color" },
+    "offBlack": { "value": "#191919", "type": "color" },
+    "surface25": { "value": "#42433d", "type": "color" },
+    "surface50": { "value": "#7c7c6f", "type": "color" },
+    "surfaceCream": { "value": "#fffce1", "type": "color" },
+    "gsapGreen": { "value": "#0ae448", "type": "color" },
+    "lightGreen": { "value": "#abff84", "type": "color" },
+    "coreGreen": { "value": "#dfffd1", "type": "color" },
+    "orangey": { "value": "#ff8709", "type": "color" },
+    "pink": { "value": "#fec5fb", "type": "color" },
+    "lilac": { "value": "#9d95ff", "type": "color" },
+    "blue": { "value": "#00bae2", "type": "color" },
+    "lipstickPink": { "value": "#f100cb", "type": "color" }
+  },
+  "gradient": {
+    "shockinglyGreen": { "value": "linear-gradient(114.41deg, #0ae448 20.74%, #abff84 65.5%)", "type": "gradient" },
+    "orangeCrush": { "value": "linear-gradient(135deg, #ff8709 0%, #ffd166 100%)", "type": "gradient" },
+    "summerFair": { "value": "linear-gradient(135deg, #fec5fb 0%, #f100cb 100%)", "type": "gradient" },
+    "purpleHaze": { "value": "linear-gradient(135deg, #9d95ff 0%, #fec5fb 100%)", "type": "gradient" },
+    "skyfall": { "value": "linear-gradient(135deg, #00bae2 0%, #9d95ff 100%)", "type": "gradient" }
+  },
+  "font": {
+    "mori": { "value": "Mori, Inter Tight, Sohne, DM Sans, system-ui, sans-serif", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "regular": { "value": 400, "type": "fontWeight" },
+    "semibold": { "value": 600, "type": "fontWeight" }
+  },
+  "fontSize": {
+    "caption": { "value": "14px", "type": "fontSize" },
+    "bodySm": { "value": "16px", "type": "fontSize" },
+    "body": { "value": "19px", "type": "fontSize" },
+    "bodyLg": { "value": "23px", "type": "fontSize" },
+    "subheading": { "value": "34px", "type": "fontSize" },
+    "headingSm": { "value": "44px", "type": "fontSize" },
+    "heading": { "value": "66px", "type": "fontSize" },
+    "headingLg": { "value": "101px", "type": "fontSize" },
+    "display": { "value": "224px", "type": "fontSize" }
+  },
+  "lineHeight": {
+    "caption": { "value": 1.4, "type": "lineHeight" },
+    "bodySm": { "value": 1.15, "type": "lineHeight" },
+    "body": { "value": 1.15, "type": "lineHeight" },
+    "bodyLg": { "value": 1.38, "type": "lineHeight" },
+    "subheading": { "value": 1.2, "type": "lineHeight" },
+    "headingSm": { "value": 1.2, "type": "lineHeight" },
+    "heading": { "value": 1.2, "type": "lineHeight" },
+    "headingLg": { "value": 1, "type": "lineHeight" },
+    "display": { "value": 0.9, "type": "lineHeight" }
+  },
+  "letterSpacing": {
+    "caption": { "value": "-0.14px", "type": "letterSpacing" },
+    "bodySm": { "value": "-0.16px", "type": "letterSpacing" },
+    "body": { "value": "-0.19px", "type": "letterSpacing" },
+    "bodyLg": { "value": "-0.23px", "type": "letterSpacing" },
+    "subheading": { "value": "-0.34px", "type": "letterSpacing" },
+    "headingSm": { "value": "-0.44px", "type": "letterSpacing" },
+    "heading": { "value": "-0.66px", "type": "letterSpacing" },
+    "headingLg": { "value": "-1.11px", "type": "letterSpacing" },
+    "display": { "value": "-4.48px", "type": "letterSpacing" }
+  },
+  "spacing": {
+    "8": { "value": "8px", "type": "dimension" },
+    "12": { "value": "12px", "type": "dimension" },
+    "16": { "value": "16px", "type": "dimension" },
+    "20": { "value": "20px", "type": "dimension" },
+    "24": { "value": "24px", "type": "dimension" },
+    "32": { "value": "32px", "type": "dimension" },
+    "76": { "value": "76px", "type": "dimension" },
+    "96": { "value": "96px", "type": "dimension" },
+    "108": { "value": "108px", "type": "dimension" }
+  },
+  "radius": {
+    "cards": { "value": "8px", "type": "borderRadius" },
+    "smallTags": { "value": "8px", "type": "borderRadius" },
+    "buttons": { "value": "100px", "type": "borderRadius" },
+    "pills": { "value": "9999px", "type": "borderRadius" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1280px", "type": "dimension" },
+    "sectionGap": { "value": "80px", "type": "dimension" },
+    "cardPadding": { "value": "24px", "type": "dimension" },
+    "elementGap": { "value": "16px", "type": "dimension" }
+  },
+  "shadow": {
+    "none": { "value": "none", "type": "boxShadow" }
+  }
+}

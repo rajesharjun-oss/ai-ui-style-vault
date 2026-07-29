@@ -1,0 +1,86 @@
+{
+  "name": "MindMarket",
+  "slug": "mindmarket",
+  "color": {
+    "freshGrass": { "value": "#8ed462", "role": "Navigation strokes, card borders, toggle fills, decorative highlights" },
+    "skyPop": { "value": "#2ba0ff", "role": "Illustration accent, card border accent, small icon dots" },
+    "coralPop": { "value": "#ff705d", "role": "Tags, focused UI edges, service-level action buttons, illustration accent" },
+    "sunshinePop": { "value": "#f5e211", "role": "Footer highlight and warm illustration accent" },
+    "pureInk": { "value": "#000000", "role": "Icon fills and maximum-contrast details" },
+    "inkBlack": { "value": "#2c2e2a", "role": "Primary text, icons, nav borders, dominant hairlines" },
+    "stoneGray": { "value": "#80827f", "role": "Muted body text and secondary link borders" },
+    "hairlineMist": { "value": "#d5d5d4", "role": "Subtle nav dividers and low-contrast borders" },
+    "sandstone": { "value": "#e0dbce", "role": "Recessed or secondary surface tone" },
+    "creamPaper": { "value": "#f5f1e4", "role": "Dominant page background and soft card surface" },
+    "pureWhite": { "value": "#ffffff", "role": "Elevated cards, floating nav, inset content blocks" }
+  },
+  "font": {
+    "inter": {
+      "value": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "weights": [400, 500],
+      "usage": "All text from micro labels to display headlines"
+    }
+  },
+  "size": {
+    "bodySm": "15px",
+    "bodyLg": "18px",
+    "subheading": "20px",
+    "headingSm": "30px",
+    "heading": "53px",
+    "headingLg": "81px",
+    "display": "140px",
+    "displayLg": "144px"
+  },
+  "lineHeight": {
+    "bodySm": 1.5,
+    "bodyLg": 1.5,
+    "subheading": 1.25,
+    "headingSm": 1.2,
+    "heading": 1.15,
+    "headingLg": 1.2,
+    "display": 0.95,
+    "displayLg": 0.95
+  },
+  "letterSpacing": {
+    "heading": "-2.12px",
+    "headingLg": "-4.86px",
+    "display": "-8.4px",
+    "displayLg": "-8.64px",
+    "displayEm": "-0.06em",
+    "headingEm": "-0.04em"
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500
+  },
+  "space": {
+    "unit": "4px",
+    "4": "4px",
+    "20": "20px",
+    "60": "60px",
+    "136": "136px",
+    "216": "216px"
+  },
+  "layout": {
+    "pageMaxWidth": "1200px",
+    "sectionGapMin": "80px",
+    "sectionGapMax": "120px",
+    "cardPaddingMin": "20px",
+    "cardPaddingMax": "21px",
+    "elementGapMin": "17px",
+    "elementGapMax": "21px"
+  },
+  "radius": {
+    "small": "10px",
+    "nav": "50px",
+    "cards": "50px",
+    "buttons": "50px",
+    "illustrationContainers": "63.75px"
+  },
+  "surfaces": {
+    "creamPaper": "#f5f1e4",
+    "pureWhite": "#ffffff",
+    "sandstone": "#e0dbce"
+  }
+}
+

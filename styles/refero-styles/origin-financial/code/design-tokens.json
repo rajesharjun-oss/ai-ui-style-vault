@@ -1,0 +1,90 @@
+{
+  "name": "Origin Financial",
+  "slug": "origin-financial",
+  "color": {
+    "irisGleam": { "value": "#847dff", "role": "Primary chromatic accent and category panel color" },
+    "cyanSignal": { "value": "#00b3dd", "role": "Chart lines, sparklines, and forecasting signals" },
+    "paleIris": { "value": "#d1c9ff", "role": "Soft violet panel and category wash" },
+    "deepIris": { "value": "#4b49aa", "role": "Dark violet panels and hover surfaces" },
+    "orchidBloom": { "value": "#dd90d8", "role": "Spending and lifestyle category panel" },
+    "periwinkle": { "value": "#90b8f0", "role": "Advisory and planning category panel" },
+    "void": { "value": "#000000", "role": "True black controls and text on white CTAs" },
+    "abyss": { "value": "#090a0b", "role": "Deep section tone" },
+    "obsidian": { "value": "#0f1011", "role": "Primary page canvas" },
+    "graphite": { "value": "#2e2e2e", "role": "Dark product panels and raised surfaces" },
+    "steel": { "value": "#3f4041", "role": "Hover and pressed secondary surfaces" },
+    "fog": { "value": "#6a6b6b", "role": "Muted and disabled text" },
+    "ash": { "value": "#9f9fa0", "role": "Body text and descriptions" },
+    "silver": { "value": "#cacaca", "role": "Inverted stat cards and light panels" },
+    "cloud": { "value": "#f5f5f7", "role": "Soft white heading text" },
+    "pure": { "value": "#ffffff", "role": "Primary text and CTA fill" }
+  },
+  "font": {
+    "display": {
+      "value": "\"Lyon Display\", \"DM Serif Display\", \"Playfair Display\", Georgia, serif",
+      "weight": 300,
+      "usage": "Hero and section display statements"
+    },
+    "sans": {
+      "value": "\"Suisse Intl\", Inter, \"Geist Sans\", Arial, sans-serif",
+      "weights": [300, 400],
+      "usage": "Body, controls, descriptions, nav"
+    },
+    "mono": {
+      "value": "\"Roboto Mono\", \"SFMono-Regular\", Consolas, monospace",
+      "weights": [400, 500],
+      "usage": "Labels, badges, compact data"
+    }
+  },
+  "size": {
+    "monoLabel": "12px",
+    "bodySm": "14px",
+    "body": "16px",
+    "subheading": "18px",
+    "headingLg": "38px",
+    "displaySm": "80px",
+    "display": "96px"
+  },
+  "lineHeight": {
+    "displayTight": 0.9,
+    "display": 1,
+    "body": 1.5,
+    "bodyLoose": 1.67,
+    "label": 2
+  },
+  "space": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "8": "32px",
+    "10": "40px",
+    "12": "48px",
+    "15": "60px",
+    "17": "68px",
+    "20": "80px",
+    "25": "100px",
+    "30": "120px",
+    "35": "140px"
+  },
+  "radius": {
+    "control": "8px",
+    "device": "16px",
+    "card": "30px",
+    "pill": "9999px"
+  },
+  "shadow": {
+    "lg": "rgba(0, 0, 0, 0.2) 0px 18px 20px 0px"
+  },
+  "gradient": {
+    "darkChrome": "linear-gradient(135deg, rgb(43, 43, 44), rgb(19, 19, 19))",
+    "skyAtmosphere": "linear-gradient(rgb(15, 16, 17), rgb(19, 29, 39) 18%, rgb(26, 71, 136) 37%, rgb(64, 138, 193) 69%, rgb(64, 138, 193) 102%)"
+  },
+  "motion": {
+    "fastState": "0.2s ease",
+    "atmosphericReveal": "2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)"
+  }
+}
+

@@ -1,0 +1,93 @@
+{
+  "id": "db451eca-8de6-43a9-a5d5-35271befdffd",
+  "name": "Amplemarket",
+  "slug": "amplemarket",
+  "sourceUrl": "https://styles.refero.design/style/db451eca-8de6-43a9-a5d5-35271befdffd",
+  "referenceSite": "https://www.amplemarket.com",
+  "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/687b6703-a095-45ab-a973-81589b06a886.jpg",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "sunlit workspace with scattered confetti",
+  "industry": ["SaaS", "sales automation", "AI", "productivity", "outbound operations"],
+  "summary": "A light SaaS style with Canvas White and Cream Wash surfaces, Ink text, Phoenix Orange brand accent, Midnight Indigo and Charcoal dark bands, Labil Grotesk Variable throughout, 8px buttons, 12px cards, flat pastel taxonomy tiles, and restrained elevation.",
+  "colors": {
+    "phoenixOrange": "#e8400d",
+    "midnightIndigo": "#10054d",
+    "charcoal": "#272625",
+    "ink": "#111111",
+    "canvasWhite": "#ffffff",
+    "creamWash": "#f6f5f3",
+    "ash": "#6d6c6b",
+    "stone": "#b1b1af",
+    "pearl": "#ecebea",
+    "petalPink": "#ffd7f0",
+    "mintGreen": "#b7efb2",
+    "canaryYellow": "#ffef99",
+    "softViolet": "#e2ddfd",
+    "aqua": "#99fff9",
+    "indigoDeep": "#2e2460"
+  },
+  "typography": {
+    "primary": "Labil Grotesk Variable",
+    "fallback": "Inter, DM Sans, General Sans Variable, Arial",
+    "weights": [400, 500, 700, 900],
+    "bodyWeight": 400,
+    "headingWeight": 400,
+    "displayWeight": 900,
+    "displayTransform": "uppercase",
+    "fontFeatureSettings": ["ss02", "ss01"],
+    "letterSpacing": "0 at body; negative tracking at display sizes, down to -0.05em at 56px"
+  },
+  "shape": {
+    "buttonRadius": "8px",
+    "cardRadius": "12px",
+    "inputRadius": "12px",
+    "badgeRadius": "9999px",
+    "smallRadius": "4px"
+  },
+  "layout": {
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "80px to 120px",
+    "cardPadding": "20px",
+    "elementGap": "8px to 12px",
+    "model": "centered light SaaS page with white and cream sections, flat pastel category card grids, dark testimonial/footer bands, sticky nav, and dark-framed video/product media"
+  },
+  "elevation": {
+    "shadows": "very subtle only on featured cards",
+    "borders": "1px rgba(17,17,17,0.08) hairlines or insets",
+    "depth": "flat color tiles, alternating surfaces, dark bands, and minimal ambient shadows"
+  },
+  "components": [
+    "primary filled button",
+    "ghost navigation button",
+    "neutral filled button",
+    "white pill badge",
+    "email capture input",
+    "pastel category card",
+    "dark testimonial card",
+    "light feature card",
+    "logo grid card",
+    "sticky navigation bar",
+    "hero video container",
+    "dark section panel"
+  ],
+  "dos": [
+    "Use Labil Grotesk Variable weight 400 for headings up to 56px.",
+    "Reserve weight 900 uppercase display type for 84px poster moments.",
+    "Use pastel cards as flat category fills, not decoration.",
+    "Use 8px radius on buttons and 12px radius on cards and inputs.",
+    "Use Ink for primary filled action buttons and Charcoal for dark testimonial/footer surfaces.",
+    "Apply stronger negative tracking as type gets larger.",
+    "Alternate white and cream sections with occasional dark panels."
+  ],
+  "donts": [
+    "Do not use medium or bold weights for regular large headings.",
+    "Do not add shadows to pastel category cards.",
+    "Do not use the pastel palette as gradients.",
+    "Do not set card radius above 12px or button radius below 8px.",
+    "Do not use pure black when Ink is intended.",
+    "Do not add drop shadows to standard white cards.",
+    "Do not use color as random decoration inside dark sections."
+  ]
+}

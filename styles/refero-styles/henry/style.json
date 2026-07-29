@@ -1,0 +1,94 @@
+{
+  "name": "Henry",
+  "slug": "henry",
+  "source": "refero",
+  "source_url": "https://styles.refero.design/style/ff4b9eff-dc0b-4886-bd65-c2f5e9069318",
+  "style_id": "ff4b9eff-dc0b-4886-bd65-c2f5e9069318",
+  "reference_url": "https://henry.codes",
+  "captured_at": "2026-07-28",
+  "theme": "mixed",
+  "summary": "Warm monochrome editorial broadside style with cream Paper, warm Ink, massive Louize and Manuka display type, tight Neue Montreal UI text, 12px-only radius, full-bleed section inversions, no accents, and no shadows.",
+  "keywords": [
+    "editorial",
+    "broadside",
+    "monochrome",
+    "warm paper",
+    "typography",
+    "portfolio",
+    "zine",
+    "full bleed",
+    "serif display",
+    "condensed masthead",
+    "no accent"
+  ],
+  "colors": {
+    "paper": "#fafafa",
+    "headline_ink": "#2a2722",
+    "sepia": "#3e3b36",
+    "ash": "#666666",
+    "midstone": "#9f9f9f",
+    "pebble": "#b3b3b3",
+    "hairline": "#eeeeee"
+  },
+  "typography": {
+    "ui_body": "Neue Montreal",
+    "ui_body_fallback": "Inter, Sohne, General Sans, system-ui, sans-serif",
+    "display_serif": "Louize Display",
+    "display_serif_fallback": "Fraunces, GT Sectra, Lyon Display, Georgia, serif",
+    "short_serif": "Louize",
+    "masthead": "Manuka",
+    "masthead_fallback": "Druk, Condor, Antonio, Impact, sans-serif",
+    "traits": [
+      "massive display typography",
+      "tight negative UI tracking",
+      "editorial serif prose blocks",
+      "ultra-condensed masthead stamps"
+    ]
+  },
+  "layout": {
+    "density": "comfortable",
+    "base_unit": "4px",
+    "section_gap": "64-96px",
+    "card_padding": "16px",
+    "element_gap": "16px",
+    "composition": "full-bleed Paper and Ink editorial bands with type-led hero, ticker strips, and halftone plate imagery"
+  },
+  "radius": {
+    "cards": "12px",
+    "buttons": "12px",
+    "tags": "12px"
+  },
+  "components": [
+    "Masthead Display Headline",
+    "Stamped Display Section Header",
+    "Top Ticker Banner",
+    "Inverted Editorial Letter",
+    "Nav Link Uppercase",
+    "Section Divider Rule",
+    "Brand Ticker Strip",
+    "Coming Soon Tag",
+    "Coordinate Footer",
+    "Hero Halftone Plate",
+    "Footnotes And Meta Line"
+  ],
+  "rules": {
+    "do": [
+      "Use Louize Display at 77px or larger for section-defining headlines.",
+      "Use Neue Montreal for UI and body with tight negative tracking.",
+      "Alternate Paper and Ink as full-bleed bands.",
+      "Use 12px as the only radius.",
+      "Use Manuka only for very large mastheads.",
+      "Let most of the page remain empty Paper or Ink."
+    ],
+    "dont": [
+      "Do not introduce chromatic accent colors.",
+      "Do not create filled colored CTAs.",
+      "Do not use shadows, glow, gradients, blur, or elevation.",
+      "Do not use oversized Louize Display for long body copy.",
+      "Do not use any radius other than 12px.",
+      "Do not break the Paper/Ink binary with gray panels or tinted sections.",
+      "Do not center-align Neue Montreal body copy."
+    ]
+  }
+}
+

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --font-relate-inter: Inter, "DM Sans", Geist, Manrope, Arial, sans-serif;
+  --font-relate-secondary: Pretendard, Inter, Arial, sans-serif;
+  --font-relate-mono: "Roboto Mono", "JetBrains Mono", "Geist Mono", monospace;
+
+  --color-relate-royal-signal: #145aff;
+  --color-relate-cobalt-glow: #3b82f6;
+  --color-relate-mint-win: #16ca2e;
+  --color-relate-coral-lost: #f26052;
+  --color-relate-amber-pending: #ffa64d;
+  --color-relate-azure-focus: #0099ff;
+  --color-relate-midnight-ink: #020520;
+  --color-relate-graphite-body: #14141e;
+  --color-relate-slate-caption: #374151;
+  --color-relate-ash-helper: #6b7280;
+  --color-relate-stone-divider: #e2e8f0;
+  --color-relate-lavender-wash: #f0f4fe;
+  --color-relate-fog-surface: #f1f5f9;
+  --color-relate-snow-canvas: #fcfcfc;
+  --color-relate-white-card: #ffffff;
+
+  --text-relate-caption: 12px;
+  --leading-relate-caption: 1.2;
+  --text-relate-body-sm: 14px;
+  --leading-relate-body-sm: 1.43;
+  --text-relate-body: 16px;
+  --leading-relate-body: 1.63;
+  --text-relate-subheading: 20px;
+  --leading-relate-subheading: 1.4;
+  --tracking-relate-subheading: -0.16px;
+  --text-relate-heading-sm: 22px;
+  --leading-relate-heading-sm: 1.4;
+  --tracking-relate-heading-sm: -0.2px;
+  --text-relate-heading: 40px;
+  --leading-relate-heading: 1.05;
+  --tracking-relate-heading: -1.48px;
+  --text-relate-heading-lg: 56px;
+  --leading-relate-heading-lg: 1.05;
+  --tracking-relate-heading-lg: -1.51px;
+  --text-relate-display: 80px;
+  --leading-relate-display: 1.05;
+  --tracking-relate-display: -1.52px;
+
+  --spacing-relate-4: 4px;
+  --spacing-relate-6: 6px;
+  --spacing-relate-8: 8px;
+  --spacing-relate-9: 9px;
+  --spacing-relate-10: 10px;
+  --spacing-relate-11: 11px;
+  --spacing-relate-12: 12px;
+  --spacing-relate-16: 16px;
+  --spacing-relate-20: 20px;
+  --spacing-relate-24: 24px;
+  --spacing-relate-28: 28px;
+  --spacing-relate-32: 32px;
+  --spacing-relate-36: 36px;
+  --spacing-relate-40: 40px;
+  --spacing-relate-52: 52px;
+  --spacing-relate-72: 72px;
+  --spacing-relate-max: 1200px;
+
+  --radius-relate-inner-card: 8px;
+  --radius-relate-input: 12px;
+  --radius-relate-pipeline-card: 16px;
+  --radius-relate-container: 40px;
+  --radius-relate-pill: 9999px;
+}
+
+@utility relate-container {
+  width: min(100% - 32px, var(--spacing-relate-max));
+  margin-inline: auto;
+}
+
+@utility relate-display {
+  color: var(--color-relate-midnight-ink);
+  font-family: var(--font-relate-inter);
+  font-size: clamp(48px, 7vw, var(--text-relate-display));
+  font-weight: 600;
+  line-height: var(--leading-relate-display);
+  letter-spacing: var(--tracking-relate-display);
+}
+
+@utility relate-pill {
+  border-radius: var(--radius-relate-pill);
+}
+
+@utility relate-feature-card {
+  border-radius: var(--radius-relate-container);
+  background: var(--color-relate-snow-canvas);
+  box-shadow: rgba(0, 0, 0, 0.082) 0 0.36px 1.8px -1.4px, rgba(0, 0, 0, 0.07) 0 1.37px 6.87px -2.8px, rgba(0, 0, 0, 0.016) 0 6px 30px -4.25px;
+}
+
+@utility relate-deal-card {
+  border-radius: var(--radius-relate-inner-card);
+  background: var(--color-relate-white-card);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 4px -2px;
+}
+

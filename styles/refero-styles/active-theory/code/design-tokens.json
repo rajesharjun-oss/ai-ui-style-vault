@@ -1,0 +1,239 @@
+{
+  "name": "Active Theory",
+  "slug": "active-theory",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/3416bd14-96bb-4c23-bd01-b2ea178ba5ce",
+    "productUrl": "https://activetheory.net"
+  },
+  "theme": {
+    "mode": "dark",
+    "summary": "Cosmic void command deck where the rendered WebGL world is the interface.",
+    "principles": [
+      "Use pure black as the only canvas color.",
+      "Let the 3D scene carry color, depth, and spectacle.",
+      "Keep UI chrome translucent, outlined, and minimal.",
+      "Reserve Dusk Violet for one dominant CTA.",
+      "Use geometric sans for chrome and Times serif for prose."
+    ]
+  },
+  "colors": {
+    "brand": {
+      "duskViolet": {
+        "value": "#343755",
+        "token": "--color-dusk-violet",
+        "role": "Primary action fill and the only chromatic UI accent"
+      }
+    },
+    "neutral": {
+      "voidBlack": {
+        "value": "#000000",
+        "token": "--color-void-black",
+        "role": "Page canvas, immersive background, dark stacked surfaces"
+      },
+      "ghostWhite": {
+        "value": "#ffffff",
+        "token": "--color-ghost-white",
+        "role": "Primary text, icon strokes, high-contrast labels"
+      },
+      "ashBorder": {
+        "value": "#4d4d4d",
+        "token": "--color-ash-border",
+        "role": "Card borders, divider hairlines, low-weight separators"
+      },
+      "smoke": {
+        "value": "#808080",
+        "token": "--color-smoke",
+        "role": "Muted borders on ghost buttons and secondary chrome"
+      },
+      "fog": {
+        "value": "#999999",
+        "token": "--color-fog",
+        "role": "Medium-contrast outlines and structural separators"
+      },
+      "paleMist": {
+        "value": "#c6c6c6",
+        "token": "--color-pale-mist",
+        "role": "Tertiary text, default links, low-priority metadata"
+      }
+    },
+    "alphaSurfaces": {
+      "translucentOverlay": {
+        "value": "rgba(0,0,0,0.5)",
+        "token": "--surface-translucent-overlay",
+        "role": "Cookie banners, modal scrims, tooltip panels"
+      },
+      "frostedGlass": {
+        "value": "rgba(255,255,255,0.1)",
+        "token": "--surface-frosted-glass",
+        "role": "Ghost button fill, hover wash, subtle glass surface"
+      },
+      "ghostBorder": {
+        "value": "rgba(255,255,255,0.6)",
+        "token": "--border-ghost",
+        "role": "Ghost nav button outlines"
+      }
+    }
+  },
+  "surfaces": {
+    "canvas": "#000000",
+    "translucentOverlay": "rgba(0,0,0,0.5)",
+    "frostedGlass": "rgba(255,255,255,0.1)"
+  },
+  "typography": {
+    "fontFamilies": {
+      "chrome": {
+        "name": "nbarchitekt",
+        "fallbacks": ["Space Grotesk", "Inter", "system-ui", "sans-serif"],
+        "role": "Navigation, buttons, micro-labels, link text, technical chrome"
+      },
+      "prose": {
+        "name": "Times",
+        "fallbacks": ["Times New Roman", "Georgia", "serif"],
+        "role": "Body copy, prose, card descriptions, editorial content"
+      },
+      "legal": {
+        "name": "Arial",
+        "fallbacks": ["Helvetica", "system-ui", "sans-serif"],
+        "role": "Cookie consent and compliance micro-copy"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "bold": 700
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "10px",
+        "lineHeight": 3,
+        "fontWeight": 400
+      },
+      "bodySm": {
+        "fontSize": "12px",
+        "lineHeight": 1.5,
+        "fontWeight": 400
+      },
+      "microUi": {
+        "fontSize": "13px",
+        "lineHeight": 1.2,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "14px",
+        "lineHeight": 1.2,
+        "fontWeight": 700
+      },
+      "prose": {
+        "fontSize": "16px",
+        "lineHeight": 1.88,
+        "fontWeight": 400
+      }
+    },
+    "letterSpacing": "normal"
+  },
+  "spacing": {
+    "density": "compact",
+    "sectionGap": "48px",
+    "cardPadding": "28px",
+    "elementGap": "6px",
+    "scale": ["4px", "6px", "12px", "13px", "14px", "16px", "18px", "28px", "32px", "48px"]
+  },
+  "shape": {
+    "radii": {
+      "inputs": "5px",
+      "ghostButtons": "5px",
+      "cards": "12px",
+      "tags": "500px",
+      "pillButtons": "500px"
+    },
+    "borders": {
+      "card": "1px solid #4d4d4d",
+      "ghostButton": "2px solid rgba(255,255,255,0.6)"
+    },
+    "effects": {
+      "overlayBlur": "backdrop-filter: blur(4px)",
+      "shadows": "none"
+    }
+  },
+  "components": {
+    "ghostNavigationButton": {
+      "background": "transparent",
+      "border": "2px solid rgba(255,255,255,0.6)",
+      "radius": "5px",
+      "padding": "1px 6px",
+      "font": "10px to 12px nbarchitekt 400 uppercase",
+      "color": "#ffffff",
+      "placement": "floating top-right over black canvas"
+    },
+    "pillPrimaryButton": {
+      "background": "#343755",
+      "color": "#ffffff",
+      "radius": "500px",
+      "padding": "4px 18px",
+      "font": "14px nbarchitekt 700",
+      "usage": "singular dominant CTA"
+    },
+    "translucentCookieBanner": {
+      "background": "rgba(0,0,0,0.5)",
+      "backdropFilter": "blur(4px)",
+      "radius": "12px",
+      "padding": "16px 28px 32px",
+      "shadow": "none",
+      "body": "16px Times, line-height 1.88, #ffffff",
+      "links": "#c6c6c6"
+    },
+    "ghostProjectCard": {
+      "background": "transparent or rgba(0,0,0,0.5)",
+      "border": "1px solid #4d4d4d",
+      "radius": "12px",
+      "padding": "28px",
+      "shadow": "none",
+      "title": "14px nbarchitekt 700 #ffffff",
+      "description": "16px Times 1.88 #ffffff"
+    },
+    "fullViewportImmersiveHero": {
+      "canvas": "#000000",
+      "layout": "no visible max-width container",
+      "visual": "centered WebGL or 3D portal/geometric composition",
+      "chrome": "floating ghost nav and minimal overlays"
+    },
+    "inlineTextLink": {
+      "color": "#c6c6c6",
+      "hover": "#ffffff",
+      "decoration": "optional subtle underline or none"
+    }
+  },
+  "layout": {
+    "hero": "Full-bleed immersive canvas with central WebGL composition and floating ghost navigation",
+    "sections": "Translucent overlays on black rather than white content sections",
+    "imagery": "Rendered real-time 3D, particle fields, geometric portals, wireframes, aurora glows, shader-driven visuals"
+  },
+  "motion": {
+    "uiHover": "0.2s to 0.4s ease-out",
+    "overlayFade": "0.3s to 0.5s ease",
+    "sceneTransition": "0.8s to 9s ease or linear",
+    "rules": [
+      "Favor opacity fades.",
+      "Keep UI feedback quiet and quick.",
+      "Let scene-level movement feel cinematic and unhurried.",
+      "Do not add snappy app-like motion."
+    ]
+  },
+  "do": [
+    "Use #000000 as the only canvas color.",
+    "Use #343755 only for singular dominant CTAs.",
+    "Use 500px radius for pill controls and tags.",
+    "Use Times at 16px and line-height 1.88 for body copy.",
+    "Use 1px #4d4d4d borders to define cards.",
+    "Use backdrop-filter: blur(4px) for overlay panels.",
+    "Let the 3D scene carry color, light, and spectacle."
+  ],
+  "dont": [
+    "Do not introduce new chromatic accents.",
+    "Do not use box shadows on UI elements.",
+    "Do not use solid white or solid gray card backgrounds.",
+    "Do not set body text in nbarchitekt.",
+    "Do not use UI gradients.",
+    "Do not let chrome compete with the rendered world."
+  ]
+}

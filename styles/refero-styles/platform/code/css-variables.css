@@ -1,0 +1,107 @@
+:root {
+  --platform-color-lamp-black: #000000;
+  --platform-color-graphite: #808080;
+  --platform-color-iron-gray: #aaaaaa;
+  --platform-color-smoke-gray: #b3b3b3;
+  --platform-color-concrete-gray: #cccccc;
+  --platform-color-ash-gray: #dddddd;
+  --platform-color-bone-white: #ffffff;
+
+  --platform-font-sans: "MediumLLWeb", "Sohne", "Inter", "Neue Haas Grotesk", Arial, sans-serif;
+
+  --platform-text-caption: 12px;
+  --platform-text-body-sm: 15px;
+  --platform-text-subheading: 20px;
+  --platform-text-heading: 48px;
+  --platform-text-display: 72px;
+
+  --platform-leading-caption: 1.2;
+  --platform-leading-body-sm: 1.2;
+  --platform-leading-subheading: 1.15;
+  --platform-leading-heading: 1.15;
+  --platform-leading-display: 1;
+
+  --platform-tracking-caption: 0.01em;
+  --platform-tracking-body-sm: 0.01em;
+  --platform-tracking-subheading: 0.01em;
+  --platform-tracking-heading: 0.02em;
+  --platform-tracking-display: 0.02em;
+
+  --platform-space-4: 4px;
+  --platform-space-5: 5px;
+  --platform-space-6: 6px;
+  --platform-space-7: 7px;
+  --platform-space-8: 8px;
+  --platform-space-9: 9px;
+  --platform-space-10: 10px;
+  --platform-space-11: 11px;
+  --platform-space-13: 13px;
+  --platform-space-17: 17px;
+  --platform-space-18: 18px;
+  --platform-space-20: 20px;
+  --platform-space-30: 30px;
+  --platform-space-36: 36px;
+  --platform-space-72: 72px;
+  --platform-space-122: 122px;
+
+  --platform-max-width: 1280px;
+  --platform-section-gap: 72px;
+  --platform-card-padding: 30px;
+  --platform-element-gap: 10px;
+
+  --platform-radius-none: 0px;
+  --platform-border-structural: 1px solid #000000;
+  --platform-border-divider: 1px solid #dddddd;
+}
+
+.platform-page {
+  min-height: 100vh;
+  background: var(--platform-color-bone-white);
+  color: var(--platform-color-lamp-black);
+  font-family: var(--platform-font-sans);
+  font-feature-settings: "tnum" on;
+}
+
+.platform-container {
+  width: min(100% - 40px, var(--platform-max-width));
+  margin-inline: auto;
+}
+
+.platform-display {
+  color: var(--platform-color-lamp-black);
+  font-size: clamp(48px, 8vw, var(--platform-text-display));
+  font-weight: 400;
+  line-height: var(--platform-leading-display);
+  letter-spacing: var(--platform-tracking-display);
+}
+
+.platform-nav {
+  border-bottom: var(--platform-border-structural);
+  background: var(--platform-color-bone-white);
+  border-radius: var(--platform-radius-none);
+}
+
+.platform-artwork-card {
+  border: var(--platform-border-structural);
+  border-radius: var(--platform-radius-none);
+  background: var(--platform-color-bone-white);
+  box-shadow: none;
+}
+
+.platform-artwork-card img {
+  display: block;
+  width: 100%;
+  border-radius: var(--platform-radius-none);
+}
+
+.platform-link {
+  color: var(--platform-color-lamp-black);
+  font: 400 var(--platform-text-body-sm) / var(--platform-leading-body-sm) var(--platform-font-sans);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.platform-section-band {
+  border-bottom: var(--platform-border-structural);
+  background: var(--platform-color-ash-gray);
+}

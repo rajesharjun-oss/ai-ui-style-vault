@@ -1,0 +1,44 @@
+@theme {
+  --color-caution-yellow: #fff313;
+  --color-midnight-steel: #000000;
+  --color-industrial-white: #eeeeee;
+  --color-carbon: #333333;
+  --color-gunmetal: #4b4b4b;
+  --color-aluminum: #afafaf;
+
+  --font-univers-next-pro: "Univers Next Pro", Inter, "Neue Haas Grotesk", "Helvetica Neue", Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-micro: 10px;
+  --text-micro--line-height: 1.2;
+  --text-caption: 12px;
+  --text-caption--line-height: 1.2;
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 1.2;
+  --text-body: 16px;
+  --text-body--line-height: 1.2;
+  --text-body--letter-spacing: -0.02em;
+  --text-heading: 24px;
+  --text-heading--line-height: 1.17;
+  --text-heading--letter-spacing: -0.48px;
+  --text-heading-lg: 36px;
+  --text-heading-lg--line-height: 1.13;
+  --text-heading-lg--letter-spacing: -1.44px;
+  --text-display: 64px;
+  --text-display--line-height: 1;
+  --text-display--letter-spacing: -2.56px;
+
+  --spacing-4: 4px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-36: 36px;
+  --spacing-60: 60px;
+  --spacing-120: 120px;
+  --spacing-200: 200px;
+
+  --radius-nav: 6px;
+  --radius-card: 9px;
+  --radius-image: 16px;
+  --radius-button: 6px;
+  --radius-section: 24px;
+}

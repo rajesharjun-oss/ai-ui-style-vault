@@ -1,0 +1,139 @@
+{
+  "name": "WRITER",
+  "slug": "writer",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/ddd9ffaa-d831-4cb4-a5bf-a1efce421dca",
+    "style_id": "ddd9ffaa-d831-4cb4-a5bf-a1efce421dca",
+    "reference_site": "https://writer.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "editorial AI atelier on a white marble newsroom canvas",
+  "summary": "A polished enterprise AI system with a Pure White editorial canvas, Poppins display headlines, one Orchid word highlight, pill controls, CanelaDeck serif body accents, 12px cards, light borders, and alternating white and Obsidian resource sections.",
+  "use_cases": [
+    "Enterprise AI",
+    "Agent platforms",
+    "Writing tools",
+    "AI governance",
+    "Knowledge systems",
+    "Productivity suites",
+    "Content operations"
+  ],
+  "colors": {
+    "orchid_accent": "#a95ef8",
+    "iris_brand": "#5551ff",
+    "lavender_wash": "#e4e9ff",
+    "cobalt_spark": "#007aff",
+    "ink_black": "#000000",
+    "pure_white": "#ffffff",
+    "obsidian": "#27272b",
+    "graphite": "#2d2d2d",
+    "slate": "#666666",
+    "ash": "#bdbdbd",
+    "fog": "#d2d4d7",
+    "mist": "#e4e7ed",
+    "privacy_banner_gradient": "linear-gradient(50deg, #f7c8ed 50px, #e5ecff 130px, #e5ecff 100%)"
+  },
+  "typography": {
+    "primary_font": "Poppins",
+    "primary_fallback": "Inter, DM Sans, Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "serif_accent_font": "CanelaDeck",
+    "serif_accent_fallback": "Playfair Display, DM Serif Display, Lora, serif",
+    "weights": [400, 500, 600, 700],
+    "features": "\"clig\" 0, \"liga\" 0",
+    "scale": {
+      "caption": {
+        "size": "11px",
+        "line_height": "1.5",
+        "letter_spacing": "0.143px",
+        "weight": 500
+      },
+      "body_sm": {
+        "size": "14px",
+        "line_height": "1.55",
+        "letter_spacing": "0",
+        "weight": 600
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.5",
+        "letter_spacing": "0",
+        "weight": 400
+      },
+      "subheading": {
+        "size": "20px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.2px",
+        "weight": 600
+      },
+      "heading_sm": {
+        "size": "25px",
+        "line_height": "1.25",
+        "letter_spacing": "-0.4px",
+        "weight": 500
+      },
+      "heading": {
+        "size": "40px",
+        "line_height": "1.2",
+        "letter_spacing": "-0.8px",
+        "weight": 500
+      },
+      "heading_lg": {
+        "size": "44px",
+        "line_height": "1.15",
+        "letter_spacing": "-0.88px",
+        "weight": 500
+      },
+      "display": {
+        "size": "64px",
+        "line_height": "1",
+        "letter_spacing": "-1.98px",
+        "weight": 500
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "density": "comfortable",
+    "page_max_width": "1200px",
+    "section_gap": "80px to 120px",
+    "card_padding": "24px",
+    "element_gap": "12px to 16px"
+  },
+  "radius": {
+    "cards": "12px",
+    "icons": "12px",
+    "buttons": "60px",
+    "inputs": "72px",
+    "large_pills": "82px"
+  },
+  "components": [
+    "Primary Pill Button",
+    "Accent Pill Button",
+    "Ghost Outlined Button",
+    "Pill Email Input",
+    "Hero Display Headline",
+    "Eyebrow Label",
+    "Feature Card",
+    "Agent Output Card",
+    "Trust Logo Bar",
+    "Dark Resource Section",
+    "Floating Action Card",
+    "Navigation Bar",
+    "Announcement Banner",
+    "Back-To-Top Control"
+  ],
+  "rules": [
+    "Highlight exactly one word per display headline in Orchid Accent.",
+    "Do not use Orchid Accent outside headline word highlights.",
+    "Use Iris Brand for at most one or two high-attention elements per viewport.",
+    "Use 60px radius on buttons and 72px radius on email inputs.",
+    "Use 12px radius on cards, images, and icons.",
+    "Keep body text between 14px and 18px.",
+    "Use wide tracking only at label and caption scale.",
+    "Do not add drop shadows to cards or buttons.",
+    "Use Obsidian, not full black, for large dark background fills.",
+    "Do not introduce new accent colors beyond Orchid, Iris, Lavender, and Cobalt."
+  ]
+}

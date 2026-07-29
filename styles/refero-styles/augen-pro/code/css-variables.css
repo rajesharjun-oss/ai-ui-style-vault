@@ -1,0 +1,89 @@
+:root {
+  /* Colors */
+  --color-off-black: #0f1012;
+  --color-pure-black: #020201;
+  --color-steel-gray: #5e5e5e;
+  --color-ash-gray: #8f8f8f;
+  --color-off-white: #f2f2f4;
+  --color-pure-white: #fdfdfd;
+  --color-signal-blue: #0071e3;
+
+  /* Typography */
+  --font-pp-neue-montreal: "PP Neue Montreal", "Inter", "General Sans",
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  --font-weight-w350: 350;
+  --font-weight-regular: 400;
+  --tracking-tight-system: -0.0200em;
+  --font-features-pp-neue: "ss01" on, "ss02" on, "cv01" on, "cv11" on;
+
+  --text-caption: 10px;
+  --leading-caption: 12px;
+  --tracking-caption: -0.2px;
+  --text-micro: 12px;
+  --leading-micro: 14.4px;
+  --tracking-micro: -0.24px;
+  --text-button-label: 13px;
+  --leading-button-label: 15.6px;
+  --tracking-button-label: -0.26px;
+  --text-small-body: 14px;
+  --leading-small-body: 16.8px;
+  --tracking-small-body: -0.28px;
+  --text-body: 16px;
+  --leading-body: 19.2px;
+  --tracking-body: -0.32px;
+  --text-subheading: 18px;
+  --leading-subheading: 21.6px;
+  --tracking-subheading: -0.36px;
+  --text-heading: 27px;
+  --leading-heading: 32.4px;
+  --tracking-heading: -0.54px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-10: 10px;
+  --spacing-11: 11px;
+  --spacing-22: 22px;
+  --spacing-30: 30px;
+  --spacing-34: 34px;
+  --spacing-35: 35px;
+  --spacing-50: 50px;
+  --spacing-69: 69px;
+  --spacing-94: 94px;
+  --spacing-113: 113px;
+  --spacing-130: 130px;
+  --spacing-144: 144px;
+  --spacing-220: 220px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap-min: 90px;
+  --section-gap-max: 100px;
+  --card-padding: 69px;
+  --element-gap: 6px;
+
+  /* Border Radius */
+  --radius-sm: 1.8px;
+  --radius-lg: 10px;
+  --radius-3xl: 26px;
+  --radius-full: 54px;
+  --radius-full-2: 63px;
+  --radius-full-3: 9999px;
+  --radius-buttons: 26px;
+  --radius-nav-pills: 10px;
+  --radius-large-cards: 54px;
+  --radius-tags-and-links: 9999px;
+  --radius-body-containers: 63px;
+  --radius-hairline-elements: 1.8px;
+
+  /* Borders */
+  --border-hairline: 0.5px solid rgba(0, 0, 0, 0.06);
+  --border-hairline-soft: 0.5px solid rgba(0, 0, 0, 0.04);
+  --border-interactive: 0.5px solid #0071e3;
+
+  /* Surfaces */
+  --surface-page-canvas: #f2f2f4;
+  --surface-elevated-panel: #fdfdfd;
+  --surface-dark-surface: #0f1012;
+}

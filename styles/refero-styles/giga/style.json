@@ -1,0 +1,352 @@
+{
+    "id":  "607e0dbf-e2fc-45c9-b939-946b8981c156",
+    "name":  "Giga",
+    "slug":  "giga",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/607e0dbf-e2fc-45c9-b939-946b8981c156",
+                   "referenceSite":  "https://giga.ai",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-04-30T00:22:31.071Z",
+                   "articleModifiedAt":  "2026-07-03T10:50:25.966Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/e914f332-d05d-4a7d-995c-666312d448ed.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/1ab88d75-accf-40cb-9230-2b374ddf89bf.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/d67c69d8-d884-4e89-b89a-c5d5e51f125e.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/a592089c-73fe-44b3-aaab-4d2e4e9767d7.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/b4939d8a-125c-4dd1-a514-bd8c472c29ab.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "dark",
+                           "category":  "AI",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "AI",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Midnight horizon above matte obsidian",
+    "summary":  "Explore Giga\u0027s dark AI design system: Obsidian #000000, Onyx #0f0d0d colors, gigaSansText, emilioDisplay typography, and DESIGN.md for AI agents.",
+    "colors":  [
+                   {
+                       "name":  "Obsidian",
+                       "value":  "#000000",
+                       "token":  "--color-obsidian",
+                       "role":  "Deepest background, hero image overlay, footer canvas, shadow base pure black creates cinematic depth behind atmospheric photography"
+                   },
+                   {
+                       "name":  "Onyx",
+                       "value":  "#0f0d0d",
+                       "token":  "--color-onyx",
+                       "role":  "Primary page canvas (--bg), card surface, default button fill the warm-tinted near-black that grounds the entire interface"
+                   },
+                   {
+                       "name":  "Charcoal",
+                       "value":  "#171615",
+                       "token":  "--color-charcoal",
+                       "role":  "Raised surface, dark button background (--button-dark-bg), elevated cards one step lighter than the canvas to signal depth without drawing attention"
+                   },
+                   {
+                       "name":  "Graphite",
+                       "value":  "#262828",
+                       "token":  "--color-graphite",
+                       "role":  "Stepped feature panels, image containers, secondary surface layer visible in side-by-side comparison modules"
+                   },
+                   {
+                       "name":  "Void",
+                       "value":  "#050404",
+                       "token":  "--color-void",
+                       "role":  "Near-black used in box-shadow tints and image depth effects effectively black but with a barely-warm undertone matching Onyx"
+                   },
+                   {
+                       "name":  "Paper",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper",
+                       "role":  "Primary text, icons, light button text, filled button surface (--primary) pure white on near-black achieves 19:1 contrast, the highest readable tier"
+                   },
+                   {
+                       "name":  "Ash",
+                       "value":  "#878686",
+                       "token":  "--color-ash",
+                       "role":  "Secondary body text, descriptive copy, helper labels sits at ~50% luminance, legible without competing with headlines"
+                   },
+                   {
+                       "name":  "Smoke",
+                       "value":  "#6f6e6e",
+                       "token":  "--color-smoke",
+                       "role":  "Tertiary text, decorative fills, disabled states, muted metadata low-contrast informational layer"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#939292",
+                       "token":  "--color-fog",
+                       "role":  "Mid-tone body text, inline labels, muted paragraph text the readable middle gray for longer descriptions"
+                   },
+                   {
+                       "name":  "Ember Red",
+                       "value":  "#fe2c02",
+                       "token":  "--color-ember-red",
+                       "role":  "Saturated accent for highlight cards and feature panels the single chromatic punctuation in an otherwise monochrome system, evokes urgency and warmth without aggression"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "gigaSansText Body text, buttons, navigation, links the workhorse. Weight 400 for paragraphs, 500 for button labels and emphasis. 16px at 1.5 line-height is the readable default; 14px at 1.43 handles dense UI chrome. `--font-gigasanstext`",
+                                     "emilioDisplay Display headlines the signature voice. Ultra-light weight at 48-66px with tight -0.02em to -0.03em tracking creates a film-title-card feel. Most enterprise brands shout with 700-weight headlines; Giga whispers with 300, which is the entire personality in one choice. `--font-emiliodisplay`",
+                                     "gigaSansDisplay Section subheadings, feature card titles, prominent UI labels bridges the gap between whisper-thin display and body text. Weight 500 at 22px carries mid-importance statements. `--font-gigasansdisplay`",
+                                     "interText Large numerical and functional headings 44px with -0.03em tracking for stat callouts and mid-level headings. Acts as a contrast voice to the emilioDisplay serif displays. `--font-intertext`",
+                                     "geistMono Micro-labels, badges, tags, version markers, uppercase metadata always uppercase with +0.007em to +0.009em tracking. The 11-12px range with 2.0+ line-height creates spacious technical annotations. `--font-geistmono`",
+                                     "interDisplay interDisplay detected in extracted data but not described by AI `--font-interdisplay`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "2",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "1.43",
+                                             "",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.5",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "22px",
+                                             "1.5",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "30px",
+                                             "1.33",
+                                             "",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "48px",
+                                             "1.3",
+                                             "-0.96px",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "60px",
+                                             "1.2",
+                                             "-1.8px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "66px",
+                                             "1.2",
+                                             "-1.98px",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "44",
+                                      "44px",
+                                      "--spacing-44"
+                                  ],
+                                  [
+                                      "48",
+                                      "48px",
+                                      "--spacing-48"
+                                  ],
+                                  [
+                                      "60",
+                                      "60px",
+                                      "--spacing-60"
+                                  ],
+                                  [
+                                      "64",
+                                      "64px",
+                                      "--spacing-64"
+                                  ],
+                                  [
+                                      "96",
+                                      "96px",
+                                      "--spacing-96"
+                                  ],
+                                  [
+                                      "112",
+                                      "112px",
+                                      "--spacing-112"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1280px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80-120px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "20px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "20px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "cards",
+                                    "16px"
+                                ],
+                                [
+                                    "chips",
+                                    "6px"
+                                ],
+                                [
+                                    "input",
+                                    "6px"
+                                ],
+                                [
+                                    "badges",
+                                    "9999px"
+                                ],
+                                [
+                                    "images",
+                                    "12px"
+                                ],
+                                [
+                                    "buttons",
+                                    "9999px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Pill Button (Dark Fill)",
+                           "role":  "Primary navigation and CTA surface"
+                       },
+                       {
+                           "name":  "Pill Button (Light Fill)",
+                           "role":  "High-emphasis CTA the only solid-white button in the system"
+                       },
+                       {
+                           "name":  "Ghost Navigation Button",
+                           "role":  "Minimal nav link styling"
+                       },
+                       {
+                           "name":  "Glass Badge Pill",
+                           "role":  "Announcement chip floating over photography"
+                       },
+                       {
+                           "name":  "Translucent Card",
+                           "role":  "Content card floating over dark/photographic backgrounds"
+                       },
+                       {
+                           "name":  "Solid Card",
+                           "role":  "High-contrast content module on canvas"
+                       },
+                       {
+                           "name":  "Video Preview Card",
+                           "role":  "Floating media player with metadata"
+                       },
+                       {
+                           "name":  "Logo Strip",
+                           "role":  "Social proof band partner/customer logos"
+                       },
+                       {
+                           "name":  "Atmospheric Hero Section",
+                           "role":  "Full-bleed cinematic opening"
+                       },
+                       {
+                           "name":  "Stepped Feature Panel",
+                           "role":  "Side-by-side comparison or feature showcase module"
+                       },
+                       {
+                           "name":  "Uppercase Mono Label",
+                           "role":  "Section eyebrow / category tag"
+                       },
+                       {
+                           "name":  "Stat Callout",
+                           "role":  "Large numerical proof point"
+                       }
+                   ],
+    "dos":  [
+                "Use weight 300 emilioDisplay at 48-66px for all primary headlines the whisper-thin display is the brand\u0027s signature voice",
+                "Apply 9999px border-radius to all buttons, badges, tags, and interactive pills nothing rectangular should be clickable",
+                "Set page background to #0f0d0d (Onyx) as default; use #000000 only for full-bleed photography containers and footer",
+                "Use #ffffff for all primary text and icons on dark surfaces the 19:1 contrast is the readable standard, don\u0027t step down from it",
+                "Place uppercase 11-12px geistMono labels with +0.009em tracking above section titles as technical eyebrows",
+                "Use Ember Red (#fe2c02) only on a single accent card per viewport it is punctuation, not chrome",
+                "Set body text at 16px gigaSansText weight 400 with 1.5 line-height for all paragraphs and descriptive copy"
+            ],
+    "donts":  [
+                  "Don\u0027t use weight 600+ for headlines the system whispers at 300, shouting breaks the entire atmosphere",
+                  "Don\u0027t add drop shadows to cards depth comes from surface color stepping (#0f0d0d #171615 #262828), not elevation",
+                  "Don\u0027t use rectangular buttons or sharp corners on any interactive element all controls are pills",
+                  "Don\u0027t apply the Ember Red accent to more than one element per section overuse destroys its impact",
+                  "Don\u0027t use #000000 as page background use #0f0d0d; pure black is reserved for photographic backdrops",
+                  "Don\u0027t use chromatic colors for text white and grays only for typography; color is surface-only",
+                  "Don\u0027t mix serif and sans at the same hierarchy level emilioDisplay is for display, gigaSansText for everything else, never both at body size"
+              ]
+}

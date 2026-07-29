@@ -1,0 +1,116 @@
+{
+  "name": "Supahub",
+  "slug": "supahub",
+  "source": "https://styles.refero.design/style/a6d39bad-6e32-462e-afce-67c9cb76cf40",
+  "tokens": {
+    "color": {
+      "voltageViolet": { "value": "#862fe7", "type": "color" },
+      "ultraViolet": { "value": "#5f259e", "type": "color" },
+      "lavenderMist": { "value": "#ad6df4", "type": "color" },
+      "orchidWash": { "value": "#bd8ff0", "type": "color" },
+      "magentaSpark": { "value": "#ff5fe4", "type": "color" },
+      "hotPinkRay": { "value": "#e22ba4", "type": "color" },
+      "amberPulse": { "value": "#dc5f05", "type": "color" },
+      "midnightInk": { "value": "#111827", "type": "color" },
+      "graphite": { "value": "#3f4654", "type": "color" },
+      "slate": { "value": "#6b7589", "type": "color" },
+      "pureWhite": { "value": "#ffffff", "type": "color" },
+      "fog": { "value": "#f1f5f9", "type": "color" },
+      "mist": { "value": "#d8e0ea", "type": "color" },
+      "mintWash": { "value": "#d6fcf4", "type": "color" },
+      "lavenderField": { "value": "#ebdafd", "type": "color" }
+    },
+    "gradient": {
+      "violetOrb": { "value": "radial-gradient(circle at 0 -50%, rgba(255, 255, 255, 0) 15%, rgba(152, 26, 249, 0.4) 38%, rgba(255, 255, 255, 0) 65%)", "type": "gradient" },
+      "pinkOrb": { "value": "linear-gradient(214deg, rgba(255, 255, 255, 0), rgba(255, 52, 143, 0.3) 25%, rgba(255, 255, 255, 0) 71%)", "type": "gradient" },
+      "amberOrb": { "value": "radial-gradient(circle at 0 -50%, rgba(255, 255, 255, 0) 15%, rgba(249, 167, 26, 0.4) 38%, rgba(255, 255, 255, 0) 65%)", "type": "gradient" }
+    },
+    "fontFamily": {
+      "display": { "value": "Bricolage Grotesque, Space Grotesk, Inter, system-ui, sans-serif", "type": "fontFamily" },
+      "body": { "value": "Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif", "type": "fontFamily" }
+    },
+    "fontSize": {
+      "caption": { "value": "12px", "type": "dimension" },
+      "bodySmall": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "subheading": { "value": "20px", "type": "dimension" },
+      "headingSmall": { "value": "24px", "type": "dimension" },
+      "heading": { "value": "32px", "type": "dimension" },
+      "display": { "value": "56px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "caption": { "value": "1.5", "type": "number" },
+      "bodySmall": { "value": "1.6", "type": "number" },
+      "body": { "value": "1.75", "type": "number" },
+      "subheading": { "value": "1.5", "type": "number" },
+      "headingSmall": { "value": "1.3", "type": "number" },
+      "heading": { "value": "1.2", "type": "number" },
+      "display": { "value": "1", "type": "number" }
+    },
+    "letterSpacing": {
+      "caption": { "value": "1.2px", "type": "dimension" },
+      "displayTight": { "value": "-0.025em", "type": "dimension" },
+      "headingSmall": { "value": "-0.6px", "type": "dimension" },
+      "heading": { "value": "-0.8px", "type": "dimension" },
+      "display": { "value": "-1.4px", "type": "dimension" }
+    },
+    "space": {
+      "base": { "value": "4px", "type": "dimension" },
+      "cardPadding": { "value": "24px", "type": "dimension" },
+      "buttonPaddingY": { "value": "16px", "type": "dimension" },
+      "buttonPaddingX": { "value": "24px", "type": "dimension" },
+      "featureBandY": { "value": "80px", "type": "dimension" },
+      "contentMaxWidth": { "value": "1200px", "type": "dimension" },
+      "displayMaxWidth": { "value": "720px", "type": "dimension" }
+    },
+    "radius": {
+      "nav": { "value": "8px", "type": "dimension" },
+      "button": { "value": "12px", "type": "dimension" },
+      "image": { "value": "16px", "type": "dimension" },
+      "card": { "value": "24px", "type": "dimension" },
+      "featuredCard": { "value": "40px", "type": "dimension" },
+      "pill": { "value": "9999px", "type": "dimension" }
+    },
+    "border": {
+      "mist": { "value": "1px solid #d8e0ea", "type": "border" },
+      "violet": { "value": "1px solid #862fe7", "type": "border" },
+      "dark": { "value": "1px solid #111827", "type": "border" }
+    },
+    "shadow": {
+      "buttonInset": { "value": "rgba(11, 61, 121, 0.16) 0 0 0 1px inset", "type": "shadow" },
+      "productPreview": { "value": "0 20px 40px rgba(124, 58, 237, 0.15)", "type": "shadow" }
+    }
+  },
+  "componentRecipes": {
+    "primaryCta": {
+      "background": "{color.voltageViolet}",
+      "color": "{color.pureWhite}",
+      "border": "{border.violet}",
+      "radius": "{radius.button}",
+      "padding": "16px 24px",
+      "fontFamily": "{fontFamily.body}",
+      "fontWeight": 600,
+      "shadow": "{shadow.buttonInset}"
+    },
+    "ghostButton": {
+      "background": "transparent",
+      "color": "{color.midnightInk}",
+      "border": "{border.dark}",
+      "radius": "{radius.button}",
+      "padding": "16px 24px"
+    },
+    "testimonialCard": {
+      "background": "{color.pureWhite}",
+      "border": "{border.mist}",
+      "radius": "{radius.card}",
+      "padding": "{space.cardPadding}"
+    },
+    "productPreview": {
+      "background": "{color.pureWhite}",
+      "radius": "{radius.image}",
+      "shadow": "{shadow.productPreview}",
+      "behind": "{gradient.violetOrb}"
+    }
+  }
+}
+

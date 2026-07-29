@@ -1,0 +1,87 @@
+{
+  "name": "Calendly.com",
+  "slug": "calendly-com",
+  "source_url": "https://styles.refero.design/style/9946887b-ffa9-4276-af81-ae6352795afb",
+  "style_id": "9946887b-ffa9-4276-af81-ae6352795afb",
+  "reference_site": "https://calendly.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A calm light scheduling SaaS style with Cloud canvas, Ink Navy typography, Signal Blue primary CTAs, rounded white product cards, blue-tinted shadows, and decorative magenta or cyan blobs behind booking UI mockups.",
+  "personality": [
+    "scheduling",
+    "light-saas",
+    "calm",
+    "navy",
+    "rounded",
+    "product-first"
+  ],
+  "colors": {
+    "inkNavy": "#0b3558",
+    "signalBlue": "#006bff",
+    "deepCobalt": "#004eba",
+    "slateGray": "#476788",
+    "mistGray": "#a6bbd1",
+    "hairline": "#d4e0ed",
+    "pebble": "#f0f3f8",
+    "cloud": "#f8f9fb",
+    "paper": "#ffffff",
+    "carbon": "#0a0a0a",
+    "coralMagenta": "#e55cff",
+    "skyCyan": "#0099ff"
+  },
+  "typography": {
+    "primary": "Gilroy, Manrope, Inter, system-ui, sans-serif",
+    "weights": [400, 500, 600, 700],
+    "sizesPx": [12, 14, 16, 18, 20, 24, 28, 38, 50, 68, 80],
+    "rules": [
+      "Use Gilroy-style typography for the entire interface.",
+      "Use 700 for 50px to 80px hero and section headlines.",
+      "Use 600 for buttons and subheads.",
+      "Use 400 for normal body copy.",
+      "Keep letter spacing normal."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 8,
+    "maxWidthPx": 1200,
+    "sectionGapPx": "48-64",
+    "cardPaddingPx": 24,
+    "elementGapPx": "8-16",
+    "scalePx": [8, 16, 24, 32, 40, 48, 56, 64, 72, 96]
+  },
+  "radius": {
+    "smallPx": 4,
+    "inputsPx": 8,
+    "buttonsPx": 8,
+    "productCardsPx": 16,
+    "cardsPx": 24,
+    "badgesPx": 9999
+  },
+  "components": [
+    "primary CTA button",
+    "dark CTA button",
+    "ghost text link",
+    "outlined white button",
+    "social sign-in button",
+    "elevated product card",
+    "feature accordion item",
+    "pill badge",
+    "trust logo strip",
+    "booking widget card",
+    "section header block",
+    "footer"
+  ],
+  "avoid": [
+    "pure black body text",
+    "neutral black shadows",
+    "magenta or cyan UI fills",
+    "pill-shaped buttons",
+    "undersized headings",
+    "Deep Cobalt CTA fills",
+    "background gradients",
+    "photography",
+    "crowded grids"
+  ]
+}
+

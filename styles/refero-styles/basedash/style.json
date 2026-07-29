@@ -1,0 +1,66 @@
+{
+  "id": "77b723ca-9583-4349-9b5e-2ef8b4fde002",
+  "name": "Basedash",
+  "slug": "basedash",
+  "sourceUrl": "https://styles.refero.design/style/77b723ca-9583-4349-9b5e-2ef8b4fde002",
+  "referenceSite": "https://www.basedash.com",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "midnight data terminal with frosted type",
+  "industry": ["data tools", "internal tools", "database workflow", "analytics"],
+  "summary": "A pure-black data-product style with white pill CTAs, tight Inter UI typography, a restrained serif display voice, and sparse violet plus mint data accents.",
+  "colors": {
+    "voidBlack": "#000000",
+    "carbonCard": "#050607",
+    "graphite": "#333333",
+    "steelGray": "#808080",
+    "ashGray": "#b3b3b3",
+    "boneWhite": "#e8eaee",
+    "ghostWhite": "#ffffff",
+    "lavenderPulse": "#9984d8",
+    "mintSignal": "#3fcb7f"
+  },
+  "typography": {
+    "ui": "Inter",
+    "display": "Alpha Lyrae",
+    "displayFallback": "Cormorant Garamond, EB Garamond, PT Serif",
+    "quote": "Iowan Old Style",
+    "quoteFallback": "Source Serif Pro Light, Lora, Palatino",
+    "tracking": "tight functional UI tracking, around -0.03em"
+  },
+  "shape": {
+    "buttonRadius": "6px",
+    "cardRadius": "16px",
+    "pillRadius": "999px"
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "heroCopyMaxWidth": "640px",
+    "sectionGap": "80px to 120px",
+    "navHeight": "64px"
+  },
+  "components": [
+    "filled white primary button",
+    "ghost text button",
+    "transparent top navigation",
+    "centered hero stack",
+    "dashboard mockup frame",
+    "open testimonial quote",
+    "integration logo grid",
+    "dark product card"
+  ],
+  "dos": [
+    "Use white filled buttons for primary actions.",
+    "Reserve violet and mint for data, focus, and state.",
+    "Use serif display type only for major headings.",
+    "Let product screenshots and dashboard mockups provide the visual drama.",
+    "Keep dark surfaces almost flat and minimally bordered."
+  ],
+  "donts": [
+    "Do not make violet the primary CTA color.",
+    "Do not use lifestyle photography or decorative illustrations.",
+    "Do not add full-background neon gradients.",
+    "Do not overuse the display serif in functional UI.",
+    "Do not use heavy shadows on dark cards."
+  ]
+}

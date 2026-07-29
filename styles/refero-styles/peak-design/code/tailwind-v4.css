@@ -1,0 +1,57 @@
+@theme {
+  --color-carbon-ink: #1a211e;
+  --color-paper-white: #ffffff;
+  --color-true-black: #000000;
+  --color-obsidian: #0c0c0c;
+  --color-fog: #eef1f0;
+  --color-mist: #e0e0e0;
+  --color-graphite: #606562;
+  --color-ash-border: #cccfcd;
+  --color-slate: #363537;
+  --color-pewter: #4e4e4e;
+  --color-ember-red: #cc2e39;
+
+  --font-body: Geist, Inter, Sohne, "Helvetica Neue", system-ui, sans-serif;
+  --font-display: "Exposure-style serif", "Playfair Display", "GT Super", "Tiempos Headline", Georgia, serif;
+  --font-label: "Bryant-style condensed sans", "Druk Wide", "Inter Display", "Neue Haas Grotesk Display", system-ui, sans-serif;
+  --font-mono: "Geist Mono", "JetBrains Mono", "IBM Plex Mono", monospace;
+
+  --text-caption: 14px;
+  --leading-caption: 1;
+  --tracking-caption: 0;
+  --text-button-label: 16px;
+  --leading-button-label: 1.1;
+  --tracking-button-label: 0.91px;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.2;
+  --tracking-heading-sm: 0.91px;
+  --text-heading: 32px;
+  --leading-heading: 1.2;
+  --tracking-heading: 0;
+  --text-heading-lg: 48px;
+  --leading-heading-lg: 1.1;
+  --tracking-heading-lg: -1.2px;
+  --text-display: 80px;
+  --leading-display: 1.1;
+  --tracking-display: -2px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+
+  --radius-nav: 4px;
+  --radius-input: 4px;
+  --radius-button: 4px;
+  --radius-card: 8px;
+  --radius-image: 8px;
+  --radius-rounded-button: 32px;
+  --radius-pill: 9999px;
+}
+

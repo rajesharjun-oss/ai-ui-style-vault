@@ -1,0 +1,59 @@
+@theme {
+  --color-night-violet: #0a0118;
+  --color-void-plum: #0c0616;
+  --color-soft-quartz: #ffffff;
+  --color-muted-steel: #d2d0dd;
+  --color-ash-lilac: #9b96b0;
+  --color-dim-fog: #85808c;
+  --color-ultraviolet-core: #713dff;
+  --color-lilac-beam: #b7a4fb;
+  --color-horizon-glow: #8562ff;
+
+  --font-primary: "Inter V", Inter, system-ui, sans-serif;
+  --font-display: "Rebond Grotesque", Sora, Inter, system-ui, sans-serif;
+
+  --text-caption: 14px;
+  --leading-caption: 16px;
+  --tracking-caption: -0.28px;
+  --text-body: 16px;
+  --leading-body: 21px;
+  --tracking-body: -0.16px;
+  --text-subheading: 18px;
+  --leading-subheading: 28px;
+  --tracking-subheading: -0.36px;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 36px;
+  --tracking-heading-sm: -0.48px;
+  --text-utility-heading: 28px;
+  --leading-utility-heading: 48px;
+  --tracking-utility-heading: 2.24px;
+  --text-heading-lg: 56px;
+  --leading-heading-lg: 74px;
+  --tracking-heading-lg: -1.12px;
+  --text-display: 72px;
+  --leading-display: 80px;
+  --tracking-display: -1.44px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-108: 108px;
+  --spacing-112: 112px;
+  --spacing-120: 120px;
+  --spacing-124: 124px;
+
+  --radius-input: 0px;
+  --radius-overlay-card: 10px;
+  --radius-card: 16px;
+  --radius-pill: 999px;
+}
+

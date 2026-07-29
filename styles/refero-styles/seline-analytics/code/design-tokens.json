@@ -1,0 +1,91 @@
+{
+  "name": "Seline Analytics",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/7967c6d9-e50c-42b5-b4d1-74003ba41781",
+  "theme": "light",
+  "tokens": {
+    "color": {
+      "stoneCanvas": { "value": "#fafaf9", "css": "--color-stone-canvas", "type": "color" },
+      "pureWhite": { "value": "#ffffff", "css": "--color-pure-white", "type": "color" },
+      "stoneBorder": { "value": "#e8e6e5", "css": "--color-stone-border", "type": "color" },
+      "stoneMuted": { "value": "#d6d3d1", "css": "--color-stone-muted", "type": "color" },
+      "ashGray": { "value": "#a8a29e", "css": "--color-ash-gray", "type": "color" },
+      "warmGray": { "value": "#78716c", "css": "--color-warm-gray", "type": "color" },
+      "inkBlack": { "value": "#0c0a09", "css": "--color-ink-black", "type": "color" },
+      "soot": { "value": "#1c1917", "css": "--color-soot", "type": "color" },
+      "skyWash": { "value": "#c1e1f7", "css": "--color-sky-wash", "type": "color" },
+      "cyanSignal": { "value": "#3ba6f1", "css": "--color-cyan-signal", "type": "color" },
+      "cyanEdge": { "value": "#3398e1", "css": "--color-cyan-edge", "type": "color" }
+    },
+    "surface": {
+      "canvas": { "value": "#fafaf9", "css": "--surface-canvas", "type": "color" },
+      "card": { "value": "#ffffff", "css": "--surface-card", "type": "color" },
+      "floatingPreview": { "value": "#ffffff", "css": "--surface-floating-preview", "type": "color" },
+      "invertedSection": { "value": "#1c1917", "css": "--surface-inverted-section", "type": "color" }
+    },
+    "font": {
+      "family": {
+        "roobert": { "value": "\"Roobert\", \"Inter Tight\", Satoshi, ui-sans-serif, system-ui, sans-serif", "css": "--font-roobert", "type": "fontFamily" },
+        "inter": { "value": "\"Inter\", ui-sans-serif, system-ui, sans-serif", "css": "--font-inter", "type": "fontFamily" }
+      },
+      "weight": {
+        "regular": { "value": 400, "css": "--font-weight-regular", "type": "fontWeight" },
+        "medium": { "value": 500, "css": "--font-weight-medium", "type": "fontWeight" },
+        "semibold": { "value": 600, "css": "--font-weight-semibold", "type": "fontWeight" }
+      }
+    },
+    "typography": {
+      "caption": { "fontSize": "10px", "lineHeight": 2.3, "fontWeight": 400, "letterSpacing": "0", "css": "--text-caption" },
+      "bodySm": { "fontSize": "14px", "lineHeight": 1.64, "fontWeight": 400, "letterSpacing": "0.056px", "css": "--text-body-sm" },
+      "bodyLg": { "fontSize": "16px", "lineHeight": 1.69, "fontWeight": 400, "letterSpacing": "0.048px", "css": "--text-body-lg" },
+      "subheading": { "fontSize": "20px", "lineHeight": 1.2, "fontWeight": 400, "letterSpacing": "-0.1px", "css": "--text-subheading" },
+      "headingSm": { "fontSize": "32px", "lineHeight": 1.25, "fontWeight": 400, "letterSpacing": "-0.8px", "css": "--text-heading-sm" },
+      "display": { "fontSize": "52px", "lineHeight": 1.12, "fontWeight": 400, "letterSpacing": "-1.092px", "css": "--text-display" }
+    },
+    "spacing": {
+      "unit": { "value": "4px", "css": "--spacing-unit", "type": "dimension" },
+      "scale": {
+        "4": { "value": "4px", "css": "--spacing-4", "type": "dimension" },
+        "8": { "value": "8px", "css": "--spacing-8", "type": "dimension" },
+        "12": { "value": "12px", "css": "--spacing-12", "type": "dimension" },
+        "16": { "value": "16px", "css": "--spacing-16", "type": "dimension" },
+        "24": { "value": "24px", "css": "--spacing-24", "type": "dimension" },
+        "32": { "value": "32px", "css": "--spacing-32", "type": "dimension" },
+        "40": { "value": "40px", "css": "--spacing-40", "type": "dimension" },
+        "48": { "value": "48px", "css": "--spacing-48", "type": "dimension" },
+        "64": { "value": "64px", "css": "--spacing-64", "type": "dimension" },
+        "80": { "value": "80px", "css": "--spacing-80", "type": "dimension" },
+        "96": { "value": "96px", "css": "--spacing-96", "type": "dimension" },
+        "160": { "value": "160px", "css": "--spacing-160", "type": "dimension" }
+      }
+    },
+    "layout": {
+      "pageMaxWidth": { "value": "1200px", "css": "--page-max-width", "type": "dimension" },
+      "sectionGap": { "value": "96px", "css": "--section-gap", "type": "dimension" },
+      "cardPadding": { "value": "24px", "css": "--card-padding", "type": "dimension" },
+      "elementGap": { "value": "8px", "css": "--element-gap", "type": "dimension" }
+    },
+    "radius": {
+      "tags": { "value": "9999px", "css": "--radius-tags", "type": "dimension" },
+      "cards": { "value": "10px", "css": "--radius-cards", "type": "dimension" },
+      "icons": { "value": "4px", "css": "--radius-icons", "type": "dimension" },
+      "inputs": { "value": "6px", "css": "--radius-inputs", "type": "dimension" },
+      "buttons": { "value": "9999px", "css": "--radius-buttons", "type": "dimension" },
+      "featureCard": { "value": "16px", "css": "--radius-feature-card", "type": "dimension" }
+    },
+    "shadow": {
+      "md": { "value": "rgba(0, 0, 0, 0.05) 0px 4px 16px 0px", "css": "--shadow-md", "type": "shadow" },
+      "sm": { "value": "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px", "css": "--shadow-sm", "type": "shadow" },
+      "subtle": { "value": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px", "css": "--shadow-subtle", "type": "shadow" },
+      "xl": { "value": "rgba(17, 12, 46, 0.12) 0px 12px 45px 0px", "css": "--shadow-xl", "type": "shadow" }
+    }
+  },
+  "componentRecipes": {
+    "primaryCtaButton": { "background": "#3ba6f1", "color": "#ffffff", "border": "1px solid #3398e1", "radius": "9999px", "padding": "8px 16px", "fontWeight": 500 },
+    "secondaryGhostButton": { "background": "transparent", "color": "#0c0a09", "border": "1px solid #e8e6e5", "radius": "9999px", "padding": "8px 16px", "fontWeight": 400 },
+    "flatContentCard": { "background": "#ffffff", "border": "1px solid #e8e6e5", "radius": "10px", "padding": "24px", "shadow": "rgba(0, 0, 0, 0.05) 0px 4px 16px 0px" },
+    "floatingDashboardPreview": { "background": "#ffffff", "radius": "16px", "padding": "8px", "shadow": "rgba(17, 12, 46, 0.12) 0px 12px 45px 0px", "filter": "grayscale(1) contrast(0.94)" },
+    "highlightedTextSpan": { "color": "#3398e1", "background": "#c1e1f7", "radius": "9999px", "maxPerHeadline": 1 }
+  }
+}
+

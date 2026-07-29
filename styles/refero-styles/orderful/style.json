@@ -1,0 +1,112 @@
+{
+  "id": "d95a35c2-d3f7-49e7-9ba7-282d52d3211d",
+  "name": "Orderful",
+  "slug": "orderful",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/d95a35c2-d3f7-49e7-9ba7-282d52d3211d",
+    "referenceSite": "https://www.orderful.com",
+    "capturedAt": "2026-07-29",
+    "publishedAt": "2026-05-07T02:05:34.121Z",
+    "articleModifiedAt": "2026-06-03T16:41:38.497Z",
+    "media": {
+      "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/bcaef480-8821-4074-bf56-e3a8dec73b7a.jpg",
+      "socialPreviewImage": "https://images.refero.design/styles/refero.design/image/697fbb6a-b586-4dfc-b189-7570806efae4.jpg",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/84a69342-05a3-48fc-8080-fc9be614bf01.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/c98b1b62-bdf7-4bf3-88d7-1228e45c158f.mp4",
+      "detailVideo": "https://images.refero.design/styles/refero.design/video/c2a48140-71d1-477b-94af-0b19a824450e.mp4"
+    }
+  },
+  "classification": {
+    "theme": "light",
+    "industry": ["SaaS", "logistics", "B2B", "EDI", "enterprise operations"],
+    "mood": ["industrial", "precise", "operational", "monochrome", "confident"],
+    "bestFor": ["enterprise SaaS homepages", "logistics dashboards", "EDI product pages", "B2B operations sites", "case-study pages", "command-center interfaces"]
+  },
+  "summary": "A light industrial command-deck style with matte vellum canvas, white cards, universal 8px geometry, telegraf typography, sparse shadows, and one vermillion action signal.",
+  "colors": {
+    "vermillionSignal": { "value": "#e42b0c", "gradient": "linear-gradient(94deg, rgb(255, 2, 1) -33.85%, rgb(255, 120, 2) -1.54%, rgb(255, 2, 1) 73.55%)", "role": "Primary action fill, selected conversion moments, connector nodes" },
+    "inkBlack": { "value": "#000000", "role": "Hairline borders, logo marks, high-contrast icon strokes" },
+    "carbon": { "value": "#1f1f1f", "role": "Dark product UI panels, inverted feature panels, footer surface" },
+    "slate900": { "value": "#101828", "role": "Display and heading text" },
+    "slate700": { "value": "#364153", "role": "Navigation text, active nav items, secondary headings" },
+    "slate600": { "value": "#4a5565", "role": "Body copy, subtext, icon strokes, eyebrow labels" },
+    "steel": { "value": "#676767", "role": "Subdued heading text and testimonial attributions" },
+    "iron": { "value": "#8a8a8a", "role": "Tertiary helper text and decorative dividers" },
+    "mist": { "value": "#99a1af", "role": "Icon borders, muted labels, disabled states" },
+    "cloud": { "value": "#d4d4d4", "role": "Button borders, input borders, section dividers" },
+    "frost": { "value": "#e5e7eb", "role": "Card hairline borders and subtle container edges" },
+    "paper": { "value": "#ffffff", "role": "Card surfaces, button text on dark fills, content canvas" },
+    "vellum": { "value": "#f5f5f5", "role": "Primary page canvas and matte-paper background" }
+  },
+  "typography": {
+    "primaryFamily": "telegraf",
+    "secondaryFamily": "modernGothic",
+    "primarySubstitute": "Inter, Sohne, or Suisse Int'l",
+    "secondarySubstitute": "Inter at light weight",
+    "weights": [100, 300, 400, 500, 600, 700],
+    "scale": {
+      "micro": { "fontSize": "12px", "lineHeight": "1.5", "letterSpacing": "0.3px", "fontWeight": 500 },
+      "caption": { "fontSize": "14px", "lineHeight": "1.43", "fontWeight": 400 },
+      "bodySmall": { "fontSize": "16px", "lineHeight": "1.5", "fontWeight": 400 },
+      "body": { "fontSize": "18px", "lineHeight": "1.5", "fontWeight": 400 },
+      "bodyLarge": { "fontSize": "20px", "lineHeight": "1.43", "fontWeight": 400 },
+      "subheading": { "fontSize": "24px", "lineHeight": "1.38", "fontWeight": 400 },
+      "headingSmall": { "fontSize": "30px", "lineHeight": "1.33", "fontWeight": 400 },
+      "heading": { "fontSize": "48px", "lineHeight": "1.2", "letterSpacing": "-1.2px", "fontWeight": 300 },
+      "headingLarge": { "fontSize": "60px", "lineHeight": "1", "letterSpacing": "-1.5px", "fontWeight": 300 },
+      "display": { "fontSize": "72px", "lineHeight": "1", "letterSpacing": "-2.16px", "fontWeight": 300 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "24px to 32px",
+    "elementGap": "16px",
+    "scale": ["8px", "16px", "24px", "32px", "40px", "48px", "64px", "80px", "96px"]
+  },
+  "shape": {
+    "navRadius": "8px",
+    "tagRadius": "8px",
+    "cardRadius": "8px",
+    "imageRadius": "8px",
+    "inputRadius": "8px",
+    "buttonRadius": "8px"
+  },
+  "elevation": {
+    "subtle": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "guidance": "Use sparingly; most separation should come from borders, surfaces, and spacing."
+  },
+  "components": {
+    "vermillionFilledActionButton": "Primary CTA with #e42b0c background, white uppercase text, 8px radius, and trailing arrow.",
+    "sunsetGradientNavButton": "Top-nav-only conversion button with Sunset Flux gradient and white uppercase text.",
+    "carbonDarkActionButton": "Secondary read-next action with Carbon background, white text, and 8px radius.",
+    "outlinedNavPill": "Eyebrow or current-page indicator with 1px Cloud border, transparent fill, 8px radius, uppercase 12px label.",
+    "featureCard": "White card with 8px radius, 1px Frost border, 32px padding, icon, heading, body, and muted link.",
+    "heroProductVisualTile": "White product tile containing dark inner panels, vermillion connector nodes, and retailer brand grid.",
+    "testimonialCard": "White quote card with 40px padding, thin pull quote, headshot, and metric row.",
+    "statBlock": "60px thin metric number with 14px muted label, no card chrome.",
+    "logoStrip": "White trust band with grayscale logos arranged like a printed masthead.",
+    "navigationBar": "Sticky white 64px nav with Frost divider, uppercase nav items, ghost login, and gradient CTA.",
+    "chatWidget": "Bottom-right white floating card with vermillion avatar and mini-CTA chips.",
+    "textInputField": "White input with Cloud border, 8px radius, 48px height, and no glow."
+  },
+  "dos": [
+    "Use Vermillion only for filled primary actions and conversion signals.",
+    "Set display headlines at 48px to 72px with tight negative tracking.",
+    "Apply 8px radius uniformly across core UI.",
+    "Keep shadows to a small two-layer stack.",
+    "Use Slate 900 for display and heading text.",
+    "Use 16px to 18px body text with 1.5 line height.",
+    "Use uppercase 12px eyebrows with 0.3px tracking."
+  ],
+  "donts": [
+    "Do not use 4px, 6px, 12px, or pill radii for core UI.",
+    "Do not set display text in weight 700.",
+    "Do not use Vermillion on non-action decorative surfaces.",
+    "Do not use body text below 14px.",
+    "Do not introduce a second saturated color.",
+    "Do not use letter-spacing values outside the defined range.",
+    "Do not place Carbon cards on Paper without clear emphasis reason."
+  ]
+}

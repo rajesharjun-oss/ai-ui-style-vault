@@ -1,0 +1,86 @@
+{
+  "id": "05053a60-1964-4154-9d58-ebdf6352ed3a",
+  "name": "WHOOP",
+  "slug": "whoop",
+  "theme": "mixed",
+  "sourceUrl": "https://styles.refero.design/style/05053a60-1964-4154-9d58-ebdf6352ed3a",
+  "referenceSite": "https://whoop.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "performance laboratory at midnight",
+    "clinical white lab sections",
+    "black theatrical hero",
+    "single violet pulse",
+    "athletic data premium"
+  ],
+  "summary": "A split-canvas performance style with black theatrical sections, white clinical content sections, huge Proxima Nova display type, fully pill-shaped actions, 24px flat cards, athlete photography, and one Pulse Violet accent.",
+  "useWhen": [
+    "Fitness and health products",
+    "Biometric analytics",
+    "Performance coaching",
+    "Wearable hardware",
+    "Premium subscription lifestyle products"
+  ],
+  "avoidWhen": [
+    "Dense admin dashboards",
+    "Playful illustrated apps",
+    "Pastel consumer products",
+    "Text-heavy editorial sites",
+    "Products needing many accent colors"
+  ],
+  "colors": {
+    "pulseViolet": "#4a53ff",
+    "obsidian": "#000000",
+    "carbon": "#191919",
+    "fogGray": "#808080",
+    "ash": "#999999",
+    "hairline": "#e5e7eb",
+    "labMist": "#f3f5f9",
+    "paperWhite": "#ffffff"
+  },
+  "typography": {
+    "display": {
+      "family": "Proxima Nova",
+      "fallback": "Montserrat",
+      "weights": [400],
+      "sizes": ["120px"],
+      "lineHeight": "0.71",
+      "letterSpacing": "-4.8px"
+    },
+    "headings": {
+      "family": "Proxima Nova",
+      "fallback": "Montserrat",
+      "weights": [500, 600, 700],
+      "sizes": ["24px", "32px", "35px", "50px"],
+      "lineHeight": "0.8-1.13",
+      "letterSpacing": "-0.72px to -2px"
+    },
+    "body": {
+      "family": "Proxima Nova",
+      "fallback": "Montserrat",
+      "weights": [400, 500, 600],
+      "sizes": ["14px", "15px", "16px", "19px", "20px"],
+      "lineHeight": "1.29-1.59",
+      "letterSpacing": "0.1em for uppercase labels, -0.48px to -0.6px for body"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "80-120px",
+    "cardPadding": "24-32px",
+    "elementGap": "15-24px",
+    "scale": ["5px", "8px", "10px", "12px", "15px", "16px", "20px", "24px", "25px", "30px", "33px", "36px", "38px", "40px", "50px", "92px"]
+  },
+  "shape": {
+    "smallElements": "8px",
+    "cards": "24px",
+    "images": "24px",
+    "mediumRounded": "30px",
+    "pills": "300px",
+    "buttons": "300px"
+  },
+  "imagery": {
+    "notes": "Use full-bleed athlete and recovery photography: running, swimming, sleep, bodies in motion, natural light, and white data overlays. Avoid abstract illustration and 3D renders."
+  }
+}

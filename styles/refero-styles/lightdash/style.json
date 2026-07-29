@@ -1,0 +1,83 @@
+{
+  "id": "d0f65d12-a8e6-4631-99f7-bb7cdcd5b6c5",
+  "name": "Lightdash",
+  "slug": "lightdash",
+  "sourceUrl": "https://styles.refero.design/style/d0f65d12-a8e6-4631-99f7-bb7cdcd5b6c5",
+  "referenceSite": "https://lightdash.com",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "lavender console on paper",
+  "industry": ["analytics", "business intelligence", "data tooling", "developer tools"],
+  "summary": "A warm light analytics style with slate text, one violet action accent, pale lavender support surfaces, Britti Sans display headings, Inter UI text, product screenshot cards, tabbed panels, code snippets, and connector grids.",
+  "colors": {
+    "electricViolet": "#6e56cf",
+    "periwinkle": "#b8b8ff",
+    "mistViolet": "#f5f4ff",
+    "slateInk": "#121217",
+    "graphite": "#2d2b35",
+    "pebble": "#6d6875",
+    "ash": "#8c8796",
+    "lineGray": "#e5e1eb",
+    "cloud": "#f7f5fb",
+    "paper": "#fffdf8",
+    "pureWhite": "#ffffff",
+    "codeNavy": "#1f2937"
+  },
+  "typography": {
+    "display": "Britti Sans",
+    "ui": "Inter",
+    "code": "JetBrains Mono",
+    "displayWeight": 700,
+    "heroDisplay": "72px",
+    "heroLineHeight": "0.98",
+    "bodyRange": "16px to 18px"
+  },
+  "shape": {
+    "buttonRadius": "8px",
+    "inputRadius": "8px",
+    "cardRadius": "12px",
+    "largePanelRadius": "16px",
+    "pillRadius": "999px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1180px",
+    "sectionGap": "72px to 96px",
+    "cardPadding": "24px to 32px",
+    "elementGap": "12px to 20px"
+  },
+  "elevation": {
+    "cardShadow": "0 18px 50px rgba(31, 41, 55, 0.10)",
+    "panelShadow": "0 8px 24px rgba(31, 41, 55, 0.08)",
+    "focusRing": "0 0 0 3px rgba(110, 86, 207, 0.22)"
+  },
+  "components": [
+    "primary CTA button",
+    "secondary button",
+    "top navigation",
+    "hero product frame",
+    "dashboard screenshot card",
+    "feature card",
+    "tabbed comparison panel",
+    "code block",
+    "connector logo grid",
+    "metric tile"
+  ],
+  "dos": [
+    "Use Electric Violet for action, active state, and focus.",
+    "Keep violet sparse.",
+    "Use Britti Sans only for large display headings.",
+    "Use Inter for functional UI.",
+    "Frame product screenshots in white cards with light borders.",
+    "Use 8px controls and 12px cards."
+  ],
+  "donts": [
+    "Do not make the page a purple gradient system.",
+    "Do not use violet for body text.",
+    "Do not use Britti Sans for paragraphs or nav.",
+    "Do not default to dark mode.",
+    "Do not add lifestyle photography or mascots.",
+    "Do not over-round cards."
+  ]
+}

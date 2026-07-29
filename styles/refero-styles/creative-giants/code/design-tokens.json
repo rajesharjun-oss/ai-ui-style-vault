@@ -1,0 +1,108 @@
+{
+  "name": "Creative Giants",
+  "slug": "creative-giants",
+  "sourceUrl": "https://styles.refero.design/style/ff8f39ee-a10e-4a9d-a94d-6993c6084060",
+  "referenceSite": "https://www.creativegiants.art",
+  "theme": "light",
+  "colors": {
+    "bone-white": "#fffef7",
+    "ink-black": "#000000",
+    "graphite": "#666666",
+    "ash": "#aaaaaa",
+    "charcoal-scale": "#4d4c4a",
+    "magenta-bloom": "#8a0467",
+    "forest-teal": "#03624c",
+    "powder-blue": "#a5c8eb",
+    "candy-pink": "#ffacea",
+    "mint-wash": "#a5ebd6",
+    "navy-ink": "#101731",
+    "signal-yellow": "#ffd001"
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "\"Switzer\", \"Inter\", \"Sohne\", Arial, sans-serif"
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400
+    },
+    "fontSize": {
+      "caption": "12px",
+      "body-sm": "14px",
+      "body": "16px",
+      "body-lg": "18px",
+      "subheading": "20px",
+      "heading-sm": "34px",
+      "heading": "54px",
+      "poster": "64px",
+      "display": "84px"
+    },
+    "lineHeight": {
+      "caption": "1.43",
+      "body": "1.4",
+      "heading-sm": "1.25",
+      "tight": "1"
+    },
+    "letterSpacing": {
+      "small": "-0.018em",
+      "heading-sm": "-0.02em",
+      "heading": "-0.023em",
+      "poster": "-0.027em",
+      "display": "-0.04em"
+    }
+  },
+  "spacing": {
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "48": "48px",
+    "64": "64px",
+    "80": "80px",
+    "112": "112px"
+  },
+  "layout": {
+    "sectionGap": "64px",
+    "cardPadding": "24px",
+    "elementGap": "8px"
+  },
+  "radius": {
+    "card": "0px",
+    "image": "0px",
+    "button": "1440px",
+    "tag": "1440px",
+    "pill": "1440px"
+  },
+  "shadow": {
+    "none": "none",
+    "subtle-outline": "rgba(255, 255, 255, 0.2) 0px 0px 0px 1px"
+  },
+  "components": {
+    "pill-menu-button": {
+      "background": "{colors.ink-black}",
+      "text": "{colors.bone-white}",
+      "radius": "{radius.pill}",
+      "padding": "12px 24px",
+      "shadow": "none"
+    },
+    "display-poster-headline": {
+      "fontSize": "{typography.fontSize.display}",
+      "fontWeight": "{typography.fontWeight.light}",
+      "lineHeight": "{typography.lineHeight.tight}",
+      "letterSpacing": "{typography.letterSpacing.display}"
+    },
+    "project-card": {
+      "background": "transparent",
+      "radius": "{radius.card}",
+      "shadow": "none",
+      "border": "none"
+    },
+    "tag-pill": {
+      "background": "transparent",
+      "text": "{colors.ink-black}",
+      "border": "1px solid {colors.ash}",
+      "radius": "{radius.pill}",
+      "padding": "8px 12px"
+    }
+  }
+}

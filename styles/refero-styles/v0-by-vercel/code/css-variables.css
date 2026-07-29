@@ -1,0 +1,123 @@
+:root {
+  --v0-font-sans: "GeistSans", "Inter", system-ui, sans-serif;
+  --v0-font-mono: "GeistMono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --v0-color-paper-white: #ffffff;
+  --v0-color-canvas: #fafafa;
+  --v0-color-line: #eaeaea;
+  --v0-color-subtext: #666666;
+  --v0-color-icon: #7d7d7d;
+  --v0-color-ink: #171717;
+  --v0-color-onyx: #000000;
+
+  --v0-radius-chip: 6px;
+  --v0-radius-button: 8px;
+  --v0-radius-card: 12px;
+  --v0-radius-input: 12px;
+  --v0-radius-pill: 9999px;
+
+  --v0-space-1: 4px;
+  --v0-space-2: 8px;
+  --v0-space-3: 12px;
+  --v0-space-4: 16px;
+  --v0-space-6: 24px;
+  --v0-space-8: 32px;
+  --v0-space-12: 48px;
+  --v0-space-24: 96px;
+  --v0-max-width: 1440px;
+
+  --v0-shadow-template-card:
+    0 0 0 1px rgba(0, 0, 0, 0.08),
+    0 2px 1px rgba(0, 0, 0, 0.04);
+  --v0-shadow-popover: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.v0-page {
+  min-height: 100%;
+  background: var(--v0-color-canvas);
+  color: var(--v0-color-ink);
+  font-family: var(--v0-font-sans);
+  font-feature-settings: "zero" 1, "ss09" 1, "ss05" 1;
+}
+
+.v0-display {
+  color: var(--v0-color-ink);
+  font-family: var(--v0-font-sans);
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -2.88px;
+}
+
+.v0-body {
+  color: var(--v0-color-subtext);
+  font-family: var(--v0-font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.v0-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: var(--v0-radius-button);
+  background: var(--v0-color-ink);
+  color: var(--v0-color-paper-white);
+  font-family: var(--v0-font-sans);
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.v0-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 4px 8px;
+  border: 1px solid var(--v0-color-line);
+  border-radius: var(--v0-radius-chip);
+  background: transparent;
+  color: var(--v0-color-subtext);
+  font-family: var(--v0-font-sans);
+  font-size: 13px;
+}
+
+.v0-filter-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--v0-radius-pill);
+  background: var(--v0-color-paper-white);
+  color: var(--v0-color-ink);
+  font-family: var(--v0-font-sans);
+  font-size: 14px;
+}
+
+.v0-prompt-input {
+  width: 100%;
+  border: 1px solid var(--v0-color-line);
+  border-radius: var(--v0-radius-input);
+  background: var(--v0-color-paper-white);
+  color: var(--v0-color-ink);
+  font-family: var(--v0-font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 16px;
+}
+
+.v0-prompt-input::placeholder {
+  color: var(--v0-color-subtext);
+}
+
+.v0-template-card {
+  overflow: hidden;
+  border-radius: var(--v0-radius-card);
+  background: var(--v0-color-paper-white);
+  box-shadow: var(--v0-shadow-template-card);
+}

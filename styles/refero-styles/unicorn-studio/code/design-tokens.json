@@ -1,0 +1,108 @@
+{
+  "name": "Unicorn Studio",
+  "slug": "unicorn-studio",
+  "color": {
+    "lavenderBeam": { "value": "#ab8ff1", "role": "Link underlines, focus states, accent strokes, aurora highlight" },
+    "irisGlow": { "value": "#8960f0", "role": "Link hover, deeper aurora endpoint, violet emphasis" },
+    "void": { "value": "#08080a", "role": "Page canvas and deepest surface" },
+    "charcoal": { "value": "#0d0d12", "role": "Section backgrounds, panels, modals" },
+    "graphite": { "value": "#17171c", "role": "Card surfaces and nested containers" },
+    "slate": { "value": "#25252d", "role": "Elevated surface fill and hover states" },
+    "iron": { "value": "#31313a", "role": "Dividers, secondary UI, key-line shadow" },
+    "ash": { "value": "#62626f", "role": "Muted helper text and inactive icons" },
+    "fog": { "value": "#8b8e9c", "role": "Secondary text, placeholders, icon strokes" },
+    "pearl": { "value": "#aeaac0", "role": "Primary body text, card borders, dominant foreground" },
+    "chalk": { "value": "#dad7de", "role": "Bright display text, borders, cream CTA fills" }
+  },
+  "gradient": {
+    "webglAurora": "radial-gradient(circle, rgb(142, 108, 228), rgb(114, 79, 201))"
+  },
+  "font": {
+    "display": {
+      "value": "\"Overused Grotesk\", \"Inter Tight\", \"General Sans\", Inter, sans-serif",
+      "weights": [400, 500],
+      "usage": "Main headings and display moments"
+    },
+    "secondaryDisplay": {
+      "value": "Sprat, Migra, \"Editorial New\", Georgia, serif",
+      "weights": [500],
+      "usage": "Rare editorial display moments"
+    },
+    "ui": {
+      "value": "-apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif",
+      "weights": [400, 500, 600],
+      "usage": "Body, navigation, buttons, forms, cards, and normal UI"
+    }
+  },
+  "size": {
+    "caption": "13px",
+    "body": "16px",
+    "subheading": "18px",
+    "headingSm": "26px",
+    "heading": "32px",
+    "headingLg": "48px",
+    "display": "64px",
+    "displayXl": "215px"
+  },
+  "lineHeight": {
+    "caption": 1.4,
+    "body": 1.4,
+    "subheading": 1.4,
+    "heading": 1,
+    "display": 0.99
+  },
+  "letterSpacing": {
+    "caption": "-0.13px",
+    "body": "-0.16px",
+    "subheading": "-0.18px",
+    "headingSm": "-0.78px",
+    "heading": "-1.28px",
+    "headingLg": "-1.92px",
+    "display": "-4.03px",
+    "displayEm": "-0.063em",
+    "headingEm": "-0.040em",
+    "smallHeadingEm": "-0.030em"
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600
+  },
+  "space": {
+    "5": "5px",
+    "6": "6px",
+    "8": "8px",
+    "10": "10px",
+    "12": "12px",
+    "14": "14px",
+    "15": "15px",
+    "18": "18px",
+    "19": "19px",
+    "20": "20px",
+    "30": "30px",
+    "40": "40px",
+    "60": "60px",
+    "96": "96px",
+    "100": "100px",
+    "118": "118px"
+  },
+  "layout": {
+    "pageMaxWidth": "1200px",
+    "sectionGap": "96px",
+    "cardPadding": "30px",
+    "elementGapMin": "18px",
+    "elementGapMax": "20px"
+  },
+  "radius": {
+    "tags": "3px",
+    "inputs": "3px",
+    "buttons": "3px",
+    "cards": "10px"
+  },
+  "shadow": {
+    "sm": "rgba(0, 0, 0, 0.25) 0px 1px 4px 0px",
+    "floating": "rgba(0, 0, 0, 0.4) 0px 2px 4px -1.5px",
+    "keyline": "rgb(49, 49, 58) 0px -1px 0px 0px"
+  }
+}
+

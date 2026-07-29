@@ -1,0 +1,230 @@
+{
+    "name":  "Ciridae",
+    "theme":  "dark",
+    "colors":  [
+                   {
+                       "name":  "Ember Rust",
+                       "value":  "#cc6437",
+                       "token":  "--color-ember-rust",
+                       "role":  "Accent strokes, icon linework, small text highlights the only chromatic color in an otherwise monochrome system, appearing as a hairline pulse rather than a fill"
+                   },
+                   {
+                       "name":  "Void Black",
+                       "value":  "#0b0b0b",
+                       "token":  "--color-void-black",
+                       "role":  "Primary page canvas and section backgrounds; the foundation of the entire system"
+                   },
+                   {
+                       "name":  "Charcoal Surface",
+                       "value":  "#272a2a",
+                       "token":  "--color-charcoal-surface",
+                       "role":  "Card and panel backgrounds on dark sections one step lighter than the canvas to create surface separation without shadow"
+                   },
+                   {
+                       "name":  "Bone",
+                       "value":  "#edebe7",
+                       "token":  "--color-bone",
+                       "role":  "Light section backgrounds and off-white surfaces where the system flips from dark to bright"
+                   },
+                   {
+                       "name":  "Bone Darker",
+                       "value":  "#dfddd9",
+                       "token":  "--color-bone-darker",
+                       "role":  "Subtle variant of Bone for layered light surfaces and warm-tinted off-white elements"
+                   },
+                   {
+                       "name":  "Pure White",
+                       "value":  "#ffffff",
+                       "token":  "--color-pure-white",
+                       "role":  "All body and heading text, ghost button borders, nav elements the dominant foreground color at 19.7:1 contrast on Void Black"
+                   },
+                   {
+                       "name":  "Abyss",
+                       "value":  "#050505",
+                       "token":  "--color-abyss",
+                       "role":  "Elevated bar backgrounds (top news strip) one shade darker than the main canvas to push the bar forward"
+                   },
+                   {
+                       "name":  "Steel",
+                       "value":  "#484848",
+                       "token":  "--color-steel",
+                       "role":  "Mid-tone border for secondary solid buttons where Pure White would be too stark"
+                   },
+                   {
+                       "name":  "Ash",
+                       "value":  "#cecece",
+                       "token":  "--color-ash",
+                       "role":  "Hairline borders for pill badges and numbered markers lighter than Steel to read as fine detail against the dark canvas"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Pragmatica Cond Primary display and UI typeface narrow condensed uppercase at 14px for body, 20px for section labels, 32px for hero wordmark. The extreme narrowness and all-caps setting at 14px body size is the system\u0027s most signature choice: body text reads as a whisper of architectural type, not conventional prose. Substitute with Oswald or Barlow Condensed if Pragmatica Cond is unavailable. `--font-pragmatica-cond`",
+                                     "Pragmatica Secondary body typeface used for longer-form prose passages (e.g. the \u0027AI Operating System\u0027 card description at 24px, paragraph text at 15px). Slightly wider than Pragmatica Cond for reading comfort in extended blocks, but still 400 weight no bold ever. Substitute with Inter or Shne. `--font-pragmatica`",
+                                     "Roboto Mono Monospace micro-type for the top news bar ticker (\u0027NEWS JUN 15, 2026 CRUCIBLE EARLY ACCESS IS NOW OPEN\u0027). The only place monospace appears, creating a clear functional distinction: this is system data, not brand voice. `--font-roboto-mono`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "11px",
+                                             "1.1",
+                                             "-0.22px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "1.43",
+                                             "-0.28px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "20px",
+                                             "1",
+                                             "-0.4px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "24px",
+                                             "1.2",
+                                             "-0.48px",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "32px",
+                                             "1.05",
+                                             "-0.64px",
+                                             "--text-heading-lg"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "5",
+                                      "5px",
+                                      "--spacing-5"
+                                  ],
+                                  [
+                                      "7",
+                                      "7px",
+                                      "--spacing-7"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "11",
+                                      "11px",
+                                      "--spacing-11"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "18",
+                                      "18px",
+                                      "--spacing-18"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "30",
+                                      "30px",
+                                      "--spacing-30"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "65",
+                                      "65px",
+                                      "--spacing-65"
+                                  ],
+                                  [
+                                      "80",
+                                      "80px",
+                                      "--spacing-80"
+                                  ],
+                                  [
+                                      "100",
+                                      "100px",
+                                      "--spacing-100"
+                                  ],
+                                  [
+                                      "122",
+                                      "122px",
+                                      "--spacing-122"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1400px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "32px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "16-20px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "nav",
+                      "1440px"
+                  ],
+                  [
+                      "cards",
+                      "10px"
+                  ],
+                  [
+                      "badges",
+                      "1440px"
+                  ],
+                  [
+                      "buttons",
+                      "1440px"
+                  ],
+                  [
+                      "news-bar-button",
+                      "0px"
+                  ]
+              ]
+}

@@ -1,0 +1,137 @@
+{
+  "name": "Wispr Flow",
+  "slug": "wispr-flow",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/ac53825c-1e06-4ae0-8489-cace5c5e0339",
+    "style_id": "ac53825c-1e06-4ae0-8489-cace5c5e0339",
+    "reference_site": "https://wisprflow.ai",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "mixed",
+  "mood": "cream broadsheet, dark velvet chambers",
+  "summary": "A warm editorial software system with cream canvas, dark rounded chambers, regular-weight Eb Garamond display type, Figtree UI controls, lavender primary actions, forest teal badges, 2px ink borders, and no shadows.",
+  "use_cases": [
+    "Voice products",
+    "AI assistants",
+    "Dictation tools",
+    "Productivity software",
+    "Editorial SaaS pages",
+    "Creator tools"
+  ],
+  "colors": {
+    "lavender_whisper": "#f0d7ff",
+    "forest_ink": "#034f46",
+    "ember_glow": "#ffa946",
+    "vast_ink": "#1a1a1a",
+    "charcoal": "#222222",
+    "fog": "#8a8a80",
+    "lumen_stone": "#e4e4d0",
+    "lumen_cream": "#ffffeb",
+    "pure_white": "#ffffff"
+  },
+  "typography": {
+    "display_font": "Eb Garamond",
+    "body_font": "Figtree",
+    "display_weights": [400],
+    "body_weights": [400, 500, 600, 700],
+    "scale": {
+      "caption": {
+        "size": "14px",
+        "line_height": "1.3",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Figtree"
+      },
+      "body_sm": {
+        "size": "16px",
+        "line_height": "1.3",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Figtree"
+      },
+      "body": {
+        "size": "20px",
+        "line_height": "1.3",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Figtree"
+      },
+      "subheading": {
+        "size": "24px",
+        "line_height": "1.3",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Figtree"
+      },
+      "heading_sm": {
+        "size": "32px",
+        "line_height": "1.3",
+        "letter_spacing": "-0.96px",
+        "weight": 400,
+        "font": "Eb Garamond"
+      },
+      "heading": {
+        "size": "48px",
+        "line_height": "0.95",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Eb Garamond"
+      },
+      "heading_lg": {
+        "size": "64px",
+        "line_height": "0.95",
+        "letter_spacing": "-1.92px",
+        "weight": 400,
+        "font": "Eb Garamond"
+      },
+      "display": {
+        "size": "120px",
+        "line_height": "0.85",
+        "letter_spacing": "-3.6px",
+        "weight": 400,
+        "font": "Eb Garamond"
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "8px",
+    "density": "comfortable",
+    "page_max_width": "1200px",
+    "section_gap": "64px to 96px",
+    "card_padding": "32px",
+    "element_gap": "8px to 16px"
+  },
+  "radius": {
+    "inputs": "12px",
+    "buttons": "12px",
+    "cards": "32px",
+    "badges": "9999px",
+    "sections": "40px to 80px"
+  },
+  "components": [
+    "Primary CTA Button",
+    "Outlined Secondary Button",
+    "Ghost Text Button",
+    "Floating Navigation Pill",
+    "Cream Content Card",
+    "Dark Feature Card",
+    "Teal Status Badge",
+    "Platform Pill Badge",
+    "Dark Square Badge",
+    "Waveform Visualizer",
+    "Phone Mockup",
+    "Section Container",
+    "Hand-Drawn Underline Accent"
+  ],
+  "rules": [
+    "Use Lavender Whisper as the sole primary action color.",
+    "Use Eb Garamond weight 400 for display headlines.",
+    "Apply 2px Vast Ink borders to interactive elements.",
+    "Alternate cream and dark sections page-wide.",
+    "Keep standard cards at 32px radius.",
+    "Use 40px to 80px radius on dark chambers.",
+    "Avoid all card shadows.",
+    "Do not introduce out-of-palette action colors."
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "48e5de76-05d5-4c4e-a269-c7c245b291ec",
+  "name": "Stripe",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/48e5de76-05d5-4c4e-a269-c7c245b291ec",
+  "referenceUrl": "https://stripe.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Cool-white global commerce ledger with deep navy type, weight-300 sohne-var typography, precision 4px geometry, hairline dividers, dense product modules, and one indigo action color.",
+  "bestFor": [
+    "fintech",
+    "payments",
+    "infrastructure SaaS",
+    "developer platforms",
+    "API products",
+    "enterprise dashboards",
+    "marketplaces",
+    "global operations tools"
+  ],
+  "tags": [
+    "light",
+    "fintech",
+    "payments",
+    "infrastructure",
+    "developer-platform",
+    "cool-white",
+    "deep-navy",
+    "indigo-action",
+    "data-rich",
+    "4px-radius",
+    "hairline-dividers",
+    "no-shadows"
+  ],
+  "colors": {
+    "deepNavy": { "value": "#0a2540", "token": "--color-deep-navy", "role": "Primary text, dark panels, footer anchors, and code headings." },
+    "slateLedger": { "value": "#425466", "token": "--color-slate-ledger", "role": "Body copy, navigation labels, and secondary headings." },
+    "blueGray": { "value": "#6b7c93", "token": "--color-blue-gray", "role": "Muted body copy, metadata, captions, and helper labels." },
+    "borderMist": { "value": "#e6ebf1", "token": "--color-border-mist", "role": "Hairline dividers, card borders, and section rules." },
+    "gridLine": { "value": "#d6dee8", "token": "--color-grid-line", "role": "Charts, table rules, and subtle grid structure." },
+    "cloudLedger": { "value": "#f5f7fb", "token": "--color-cloud-ledger", "role": "Page background and pale section canvas." },
+    "paperWhite": { "value": "#ffffff", "token": "--color-paper-white", "role": "Card, panel, terminal, and nav surfaces." },
+    "indigoAction": { "value": "#635bff", "token": "--color-indigo-action", "role": "Primary CTA, active links, arrows, and selected states." },
+    "cyanAccent": { "value": "#00d4ff", "token": "--color-cyan-accent", "role": "Small chart accents and data sparks only." },
+    "greenLedger": { "value": "#00a86b", "token": "--color-green-ledger", "role": "Positive status, growth indicators, and accepted payments." },
+    "amberNotice": { "value": "#f6a609", "token": "--color-amber-notice", "role": "Warnings, small badges, and narrow status strips." }
+  },
+  "typography": {
+    "families": {
+      "primary": "sohne-var"
+    },
+    "fallbacks": {
+      "primary": "Inter, system-ui, Helvetica Neue, sans-serif",
+      "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "rules": [
+      "Use sohne-var-style type for the full interface.",
+      "Set large headings at weight 300.",
+      "Keep body text at weight 300 to 400.",
+      "Use weight 500 for buttons and nav actions.",
+      "Do not introduce serif or expressive display fonts."
+    ],
+    "scale": {
+      "caption": { "size": "13px", "lineHeight": 1.54, "letterSpacing": "0.2px", "token": "--text-caption" },
+      "bodySm": { "size": "15px", "lineHeight": 1.6, "letterSpacing": "0", "token": "--text-body-sm" },
+      "body": { "size": "16px", "lineHeight": 1.56, "letterSpacing": "0", "token": "--text-body" },
+      "bodyLg": { "size": "17px", "lineHeight": 1.73, "letterSpacing": "0", "token": "--text-body-lg" },
+      "headingSm": { "size": "24px", "lineHeight": 1.25, "letterSpacing": "-0.24px", "token": "--text-heading-sm" },
+      "heading": { "size": "31px", "lineHeight": 1.23, "letterSpacing": "-0.31px", "token": "--text-heading" },
+      "headingLg": { "size": "51px", "lineHeight": 1.08, "letterSpacing": "-1.53px", "token": "--text-heading-lg" },
+      "display": { "size": "56px", "lineHeight": 1.07, "letterSpacing": "-1.68px", "token": "--text-display" },
+      "displayXl": { "size": "82px", "lineHeight": 1, "letterSpacing": "-2.46px", "token": "--text-display-xl" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1080px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px"
+    }
+  },
+  "radii": {
+    "cards": "4px",
+    "buttons": "4px",
+    "inputs": "4px",
+    "pills": "999px",
+    "codePanels": "4px"
+  },
+  "shadows": {
+    "none": "Use dividers, borders, grids, and contrast instead of box-shadow."
+  },
+  "components": [
+    { "name": "Indigo Primary Button", "recipe": "Indigo Action fill, Paper White text, 4px radius, 8px 16px padding, sohne-var 15px/500, optional right arrow." },
+    { "name": "Navy Secondary Button", "recipe": "Deep Navy fill, Paper White text, 4px radius, same size as primary." },
+    { "name": "Ghost Text Link", "recipe": "Transparent, Deep Navy or Indigo text, no border, 15px/500, small arrow icon." },
+    { "name": "Top Navigation", "recipe": "Paper White or transparent nav over Cloud Ledger, logo left, compact center links, paired right CTAs." },
+    { "name": "Hero Ledger Block", "recipe": "Two-column hero with display heading, short body copy, paired CTA buttons, and right-side product mockup." },
+    { "name": "Product Mockup Card", "recipe": "Paper White surface, 4px radius, 1px Border Mist border, no shadow, dense internal chart/table/code content." },
+    { "name": "Data Table", "recipe": "Paper White or transparent rows, 1px Border Mist dividers, 13px to 14px text, Blue Gray metadata, Deep Navy values." },
+    { "name": "Code Panel", "recipe": "Deep Navy or Paper White panel, 4px radius, muted line numbers, indigo/cyan syntax accents." },
+    { "name": "Metric Tile", "recipe": "Paper White, 4px radius, 1px Border Mist border, 13px caption, 31px value, optional Green Ledger delta." },
+    { "name": "Globe Or Map Panel", "recipe": "Cool blue-gray map/grid visualization with hairline grid and tiny Indigo or Cyan nodes." },
+    { "name": "Payment Method Strip", "recipe": "Horizontal icon row, Paper White background, Border Mist separators, Deep Navy labels, muted captions." },
+    { "name": "Footer Infrastructure Grid", "recipe": "Deep Navy footer or Cloud Ledger sitemap with tight link columns and muted links." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use sohne-var at weight 300 for large headings and most body text.",
+      "Use Indigo Action for the main CTA and active states.",
+      "Keep 4px radius on cards, buttons, inputs, and code panels.",
+      "Use hairline dividers and table rules to create structure.",
+      "Use Deep Navy for text and dark infrastructure panels.",
+      "Use Cloud Ledger as the main cool-white page background.",
+      "Keep data and product modules dense but aligned.",
+      "Use small arrows on links and action buttons."
+    ],
+    "dont": [
+      "Do not add card shadows.",
+      "Do not use a multicolor marketing palette.",
+      "Do not make indigo a full-page background.",
+      "Do not use rounded SaaS cards above 4px.",
+      "Do not use expressive serif or display fonts.",
+      "Do not use stock photography as primary imagery.",
+      "Do not make body text heavier than 400.",
+      "Do not add decorative gradients behind sections."
+    ]
+  }
+}

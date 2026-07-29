@@ -1,0 +1,160 @@
+{
+  "id": "b753dfda-cbe1-41e4-b341-b98d69c8422f",
+  "name": "Amrit Palace",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/b753dfda-cbe1-41e4-b341-b98d69c8422f",
+  "referenceUrl": "https://amritpalace.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Spiced parchment gallery with candlelit dining photography, sparse saffron punctuation, sharp geometry, and whisper-weight serif headings.",
+  "bestFor": [
+    "restaurant sites",
+    "fine-dining menus",
+    "hospitality pages",
+    "venue portfolios",
+    "catering pages",
+    "editorial food content"
+  ],
+  "tags": [
+    "light",
+    "restaurant",
+    "fine-dining",
+    "parchment",
+    "saffron-accent",
+    "sharp-corners",
+    "tt-ramillas",
+    "satoshi",
+    "editorial",
+    "food-photography",
+    "hairline-dividers"
+  ],
+  "colors": {
+    "parchment": { "value": "#d8cbb8", "token": "--color-parchment", "role": "Page canvas and primary card surfaces." },
+    "linen": { "value": "#bfb4a3", "token": "--color-linen", "role": "Secondary section tone and subtle surface layering." },
+    "warmStone": { "value": "#b6ab9c", "token": "--color-warm-stone", "role": "Hairline borders and 1px section dividers." },
+    "walnut": { "value": "#978e81", "token": "--color-walnut", "role": "Muted helper text, captions, and metadata." },
+    "espresso": { "value": "#615b53", "token": "--color-espresso", "role": "Secondary body text and subhead copy." },
+    "onyxWarm": { "value": "#2c2c2c", "token": "--color-onyx-warm", "role": "Primary text, navigation, headings, and dark fills." },
+    "midnightRoast": { "value": "#292622", "token": "--color-midnight-roast", "role": "Deep dark overlay for hero and atmospheric photography." },
+    "saffronGlow": { "value": "#d49653", "token": "--color-saffron-glow", "role": "Sole chromatic accent for stars, active states, featured tags, and decorative punctuation." }
+  },
+  "typography": {
+    "families": {
+      "display": "TT Ramillas Variable",
+      "body": "Satoshi"
+    },
+    "fallbacks": {
+      "display": "Cormorant Garamond, Playfair Display, DM Serif Display, serif",
+      "body": "Inter, DM Sans, Manrope, system-ui, sans-serif"
+    },
+    "weights": {
+      "light": 300,
+      "medium": 500,
+      "bold": 700
+    },
+    "rules": [
+      "Use TT Ramillas Variable for all display and section headings.",
+      "Keep serif headings at weight 300.",
+      "Use uppercase and tight negative tracking on headings 50px and above.",
+      "Use Satoshi for nav, body, buttons, labels, and captions.",
+      "Do not use pure black text."
+    ],
+    "scale": {
+      "caption": { "size": "13px", "lineHeight": 1.3, "letterSpacing": "-0.143px", "token": "--text-caption" },
+      "body": { "size": "15px", "lineHeight": 1.4, "letterSpacing": "-0.15px", "token": "--text-body" },
+      "bodyLg": { "size": "26px", "lineHeight": 1.2, "letterSpacing": "-0.156px", "token": "--text-body-lg" },
+      "subheading": { "size": "42px", "lineHeight": 1, "letterSpacing": "-1.68px", "token": "--text-subheading" },
+      "headingSm": { "size": "50px", "lineHeight": 0.9, "letterSpacing": "-1.5px", "token": "--text-heading-sm" },
+      "heading": { "size": "65px", "lineHeight": 0.85, "letterSpacing": "-2.6px", "token": "--text-heading" },
+      "headingLg": { "size": "69px", "lineHeight": 0.9, "letterSpacing": "-2.76px", "token": "--text-heading-lg" },
+      "display": { "size": "115px", "lineHeight": 0.8, "letterSpacing": "-4.6px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "pageMaxWidth": "1440px",
+    "sectionGap": "120px to 160px",
+    "cardPadding": "28px",
+    "elementGap": "12px to 16px",
+    "scale": {
+      "4": "4px",
+      "5": "5px",
+      "6": "6px",
+      "7": "7px",
+      "8": "8px",
+      "10": "10px",
+      "12": "12px",
+      "16": "16px",
+      "17": "17px",
+      "20": "20px",
+      "24": "24px",
+      "28": "28px",
+      "32": "32px",
+      "42": "42px",
+      "92": "92px",
+      "206": "206px"
+    }
+  },
+  "radii": {
+    "cards": "0px",
+    "sections": "0px",
+    "imageContainers": "0px",
+    "tags": "3px",
+    "inputs": "3px",
+    "buttons": "3px"
+  },
+  "shadows": {
+    "none": "none"
+  },
+  "components": [
+    { "name": "Ghost Outlined Button", "recipe": "Transparent fill, 1px context border, Satoshi 14px/500 uppercase, 3px radius, generous padding, no shadow." },
+    { "name": "Text Link Button", "recipe": "Satoshi 13-15px uppercase text-only link, underline on hover, no background or border." },
+    { "name": "Hero Wordmark Display", "recipe": "Satoshi 199px/500 uppercase, line-height 0.8, tight tracking, Parchment text over dark photo." },
+    { "name": "Editorial Section Heading", "recipe": "TT Ramillas Variable 50-115px, weight 300, uppercase, tight tracking, compressed line height." },
+    { "name": "Testimonial Card", "recipe": "Parchment surface, 0px radius, no border, no shadow, saffron stars, Satoshi body, Walnut author." },
+    { "name": "Image Overlay Container", "recipe": "Full-viewport photo with dark Midnight Roast overlay and Parchment text." },
+    { "name": "Star Rating Display", "recipe": "Five Saffron stars, Satoshi score, compact source label, optional floating widget." },
+    { "name": "Menu Item Card", "recipe": "Transparent sharp container, food image, dish name, compact description, 16px internal spacing." },
+    { "name": "Navigation Bar", "recipe": "Transparent over hero, Satoshi uppercase links, small logo, right-side action links and square 3px icon buttons." },
+    { "name": "Section Divider Rule", "recipe": "1px Warm Stone horizontal rule across section." },
+    { "name": "Caption Label", "recipe": "Satoshi 12-13px/500 uppercase with tight negative tracking." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use TT Ramillas Variable at weight 300 for section headings.",
+      "Use uppercase tight tracking on headings 50px and above.",
+      "Use Saffron Glow only 2-3 times per fold.",
+      "Keep cards, sections, and images at 0px radius.",
+      "Use 3px radius only for buttons, tags, and controls.",
+      "Use Warm Stone 1px dividers as editorial rules.",
+      "Lead with dark full-bleed photography, then shift into parchment content.",
+      "Keep body copy at 13px to 16px Satoshi."
+    ],
+    "dont": [
+      "Do not round card corners.",
+      "Do not add shadows or elevation.",
+      "Do not introduce a second chromatic accent.",
+      "Do not center body paragraphs.",
+      "Do not use filled chromatic buttons.",
+      "Do not use pure black for text.",
+      "Do not add gradients; atmosphere comes from photography.",
+      "Do not bold the TT Ramillas serif headings."
+    ]
+  },
+  "imagery": {
+    "style": "Dark, warm, candlelit restaurant interiors and editorial food still-lifes.",
+    "rules": [
+      "Use full-bleed atmospheric photography in the hero.",
+      "Use table-height dining interiors and food in sharp focus.",
+      "Keep imagery warm, dim, and slightly cinematic.",
+      "Avoid people/lifestyle shots.",
+      "Avoid abstract graphics.",
+      "Avoid CSS gradients as atmosphere."
+    ]
+  },
+  "layout": {
+    "structure": "Full-bleed sections with parchment editorial spreads and dark photographic bookends.",
+    "navigation": "Transparent floating nav over hero, no background bar.",
+    "sectionRhythm": "120px to 160px section gaps, left-aligned editorial columns, horizontal testimonial rows."
+  }
+}

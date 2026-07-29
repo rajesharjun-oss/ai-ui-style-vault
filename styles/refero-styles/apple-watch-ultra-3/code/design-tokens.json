@@ -1,0 +1,187 @@
+{
+  "name": "Apple Watch Ultra 3",
+  "theme": "mixed",
+  "colors": {
+    "appleBlue": {
+      "value": "#0071e3",
+      "role": "Primary CTA fill and only filled chromatic button"
+    },
+    "linkBlue": {
+      "value": "#0066cc",
+      "role": "Text links and inline learn-more actions on light surfaces"
+    },
+    "haloBlue": {
+      "value": "#2997ff",
+      "role": "Link and accent text on dark surfaces"
+    },
+    "signalOrange": {
+      "value": "#f56900",
+      "role": "Category eyebrows and activity labels"
+    },
+    "irisViolet": {
+      "value": "#8668ff",
+      "role": "Secondary product-category accent"
+    },
+    "reefTeal": {
+      "value": "#00a1b3",
+      "role": "Tertiary product-category accent"
+    },
+    "pureBlack": {
+      "value": "#000000",
+      "role": "Hero and feature stage background"
+    },
+    "carbon": {
+      "value": "#111111",
+      "role": "Subtle elevated dark surface and badge background"
+    },
+    "obsidian": {
+      "value": "#1d1d1f",
+      "role": "Primary dark canvas and text on light sections"
+    },
+    "graphite": {
+      "value": "#333336",
+      "role": "Secondary surfaces, nav dividers, and dark controls"
+    },
+    "smoke": {
+      "value": "#424245",
+      "role": "Hairline borders and low-contrast dividers"
+    },
+    "platinum": {
+      "value": "#86868b",
+      "role": "Muted body text, descriptions, and captions"
+    },
+    "silverMist": {
+      "value": "#cccccc",
+      "role": "Nav borders, button outlines, and inactive chrome"
+    },
+    "frostWhite": {
+      "value": "#f5f5f7",
+      "role": "Text on dark surfaces and soft light section tint"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Light section surfaces and text on filled blue buttons"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sfProDisplay": {
+        "value": "\"SF Pro Display\", \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      },
+      "sfProText": {
+        "value": "\"SF Pro Text\", \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      }
+    },
+    "fontWeight": {
+      "regular": 400,
+      "semibold": 600,
+      "bold": 700
+    },
+    "features": {
+      "numr": "\"numr\""
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "10px",
+        "lineHeight": "1.83",
+        "letterSpacing": "-0.37px",
+        "fontWeight": 400,
+        "fontFamily": "SF Pro Text"
+      },
+      "body": {
+        "fontSize": "14px",
+        "lineHeight": "1.43",
+        "letterSpacing": "-0.22px",
+        "fontWeight": 400,
+        "fontFamily": "SF Pro Text"
+      },
+      "headingSm": {
+        "fontSize": "19px",
+        "lineHeight": "1.21",
+        "letterSpacing": "-0.28px",
+        "fontWeight": 600,
+        "fontFamily": "SF Pro Display"
+      },
+      "heading": {
+        "fontSize": "24px",
+        "lineHeight": "1.17",
+        "letterSpacing": "-0.24px",
+        "fontWeight": 600,
+        "fontFamily": "SF Pro Display"
+      },
+      "headingLg": {
+        "fontSize": "32px",
+        "lineHeight": "1.14",
+        "letterSpacing": "-0.32px",
+        "fontWeight": 700,
+        "fontFamily": "SF Pro Display"
+      },
+      "statement": {
+        "fontSize": "44px",
+        "lineHeight": "1",
+        "letterSpacing": "-0.44px",
+        "fontWeight": 400,
+        "fontFamily": "SF Pro Text"
+      },
+      "display": {
+        "fontSize": "56px",
+        "lineHeight": "1.07",
+        "letterSpacing": "-0.84px",
+        "fontWeight": 600,
+        "fontFamily": "SF Pro Display"
+      },
+      "hero": {
+        "fontSize": "80px",
+        "lineHeight": "1.05",
+        "letterSpacing": "-0.24px",
+        "fontWeight": 600,
+        "fontFamily": "SF Pro Display"
+      }
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "density": "comfortable",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "28": "28px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "60": "60px",
+      "76": "76px",
+      "80": "80px",
+      "96": "96px",
+      "104": "104px",
+      "160": "160px"
+    },
+    "layout": {
+      "pageMaxWidth": "1440px",
+      "sectionGap": "88px to 120px",
+      "cardPadding": "28px",
+      "elementGap": "10px to 12px"
+    }
+  },
+  "radius": {
+    "links": "10px",
+    "cards": "28px",
+    "buttons": "36px",
+    "nav": "980px",
+    "pill": "980px"
+  },
+  "shadow": {
+    "none": "No shadows; use surface contrast and product photography"
+  },
+  "surfaces": {
+    "pureBlackStage": "#000000",
+    "carbon": "#111111",
+    "obsidianStage": "#1d1d1f",
+    "paperDetailBand": "#ffffff",
+    "frostBand": "#f5f5f7"
+  }
+}

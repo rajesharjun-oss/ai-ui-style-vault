@@ -1,0 +1,141 @@
+:root {
+  --posthog-font-brand: "Open Runde", "Inter Tight", "DM Sans", system-ui, sans-serif;
+  --posthog-font-ui: "IBM Plex Sans Variable", "IBM Plex Sans", "Inter", system-ui, sans-serif;
+  --posthog-font-code: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --posthog-color-sandy-desk: #e1d7c2;
+  --posthog-color-paper-white: #ffffff;
+  --posthog-color-cream-paper: #fdfdf8;
+  --posthog-color-soft-linen: #eeefe9;
+  --posthog-color-pale-stone: #e5e7e0;
+  --posthog-color-deep-moss: #23251d;
+  --posthog-color-olive-char: #4d4f46;
+  --posthog-color-sage-gray: #65675e;
+  --posthog-color-ash-green: #9ea096;
+  --posthog-color-faded-pewter: #b3b3af;
+  --posthog-color-warm-mist: #bfc1b7;
+  --posthog-color-signal-blue: #2f80fa;
+  --posthog-color-amber-glow: #eb9d2a;
+  --posthog-color-dark-amber: #cd8407;
+  --posthog-color-burnished-gold: #b17816;
+  --posthog-color-marigold: #f1a82c;
+  --posthog-color-flame-orange: #f54e00;
+  --posthog-color-moss-green: #6aa84f;
+
+  --posthog-radius-card: 4px;
+  --posthog-radius-input: 4px;
+  --posthog-radius-button: 4px;
+  --posthog-radius-window: 6px;
+  --posthog-radius-tag: 9999px;
+
+  --posthog-space-1: 4px;
+  --posthog-space-2: 8px;
+  --posthog-space-3: 12px;
+  --posthog-space-4: 16px;
+  --posthog-space-8: 32px;
+  --posthog-space-12: 48px;
+  --posthog-window-max-width: 958px;
+  --posthog-sidebar-width: 80px;
+}
+
+.posthog-page {
+  min-height: 100%;
+  background: var(--posthog-color-sandy-desk);
+  color: var(--posthog-color-deep-moss);
+  font-family: var(--posthog-font-brand);
+}
+
+.posthog-body {
+  color: var(--posthog-color-olive-char);
+  font-family: var(--posthog-font-brand);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.posthog-heading {
+  color: var(--posthog-color-deep-moss);
+  font-family: var(--posthog-font-brand);
+  font-size: 24px;
+  line-height: 1.33;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+.posthog-window {
+  max-width: var(--posthog-window-max-width);
+  border: 1px solid var(--posthog-color-warm-mist);
+  border-radius: var(--posthog-radius-window);
+  background: var(--posthog-color-paper-white);
+  box-shadow: none;
+}
+
+.posthog-titlebar {
+  min-height: 36px;
+  border-bottom: 1px solid var(--posthog-color-warm-mist);
+  background: var(--posthog-color-paper-white);
+  backdrop-filter: blur(8px);
+  font-family: var(--posthog-font-ui);
+  font-size: 13px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.posthog-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: var(--posthog-radius-button);
+  background: var(--posthog-color-amber-glow);
+  color: var(--posthog-color-deep-moss);
+  font-family: var(--posthog-font-ui);
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.posthog-cta:hover {
+  background: var(--posthog-color-dark-amber);
+}
+
+.posthog-outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 6px 12px;
+  border: 1.5px solid var(--posthog-color-burnished-gold);
+  border-radius: var(--posthog-radius-button);
+  background: transparent;
+  color: var(--posthog-color-burnished-gold);
+  font-family: var(--posthog-font-ui);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.posthog-card {
+  border: 1px solid var(--posthog-color-warm-mist);
+  border-radius: var(--posthog-radius-card);
+  background: var(--posthog-color-paper-white);
+  box-shadow: none;
+  padding: 16px;
+}
+
+.posthog-card:hover {
+  background: var(--posthog-color-soft-linen);
+}
+
+.posthog-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  padding: 2px 8px;
+  border-radius: var(--posthog-radius-tag);
+  font-family: var(--posthog-font-ui);
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+}

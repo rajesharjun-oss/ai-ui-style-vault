@@ -1,0 +1,117 @@
+:root {
+  --color-carbon-vellum: #fcfcfc;
+  --color-obsidian: #0a0a13;
+  --color-pitch: #000000;
+  --color-void: #040407;
+  --color-graphite: #08080c;
+  --color-smoke: #757580;
+  --color-ash: #a3a3b3;
+  --color-charcoal: #2a2a32;
+  --color-iris-glow: #6199f6;
+  --color-twilight: #4f4f80;
+  --color-specter-lilac: #dedfee;
+
+  --font-times: "Times", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-framegothic: "FrameGothic", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-neuemachinainktrap: "NeueMachinaInktrap", "Space Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-arial: Arial, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 12px;
+  --leading-caption: 1.45;
+  --tracking-caption: 0.72px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.45;
+  --tracking-body: 0.16px;
+  --text-subheading: 18px;
+  --leading-subheading: 1.3;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.25;
+  --tracking-heading-sm: -0.72px;
+  --text-heading: 38px;
+  --leading-heading: 1.04;
+  --tracking-heading: -1.33px;
+  --text-heading-lg: 48px;
+  --leading-heading-lg: 1.02;
+  --tracking-heading-lg: -1.92px;
+  --text-display: 80px;
+  --leading-display: 0.96;
+  --tracking-display: -3.6px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  --spacing-unit: 8px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-144: 144px;
+  --spacing-160: 160px;
+  --spacing-176: 176px;
+
+  --page-max-width: 1280px;
+  --section-gap: 80px;
+  --card-padding: 24px;
+  --element-gap: 24px;
+
+  --radius-sm: 1px;
+  --radius-lg: 10px;
+  --radius-3xl: 24px;
+  --radius-full: 100px;
+  --radius-nav: 100px;
+  --radius-cards: 10px;
+  --radius-pills: 100px;
+  --radius-buttons: 100px;
+  --radius-dividers: 1px;
+  --radius-featurecards: 24px;
+
+  --surface-cosmic-canvas: #0a0a13;
+  --surface-nav-veil: #040407;
+  --surface-product-surface: #08080c;
+  --surface-card-halo: #181826;
+
+  --gradient-hero: linear-gradient(195deg, #0a0010 0%, #02000a 48%, #0c1d32 100%);
+  --gradient-radial-glow: radial-gradient(circle at 50% 100%, rgba(0, 11, 53, 0.7), rgba(10, 10, 19, 0) 60%);
+  --gradient-section: radial-gradient(circle at 0% 0%, #0e0f20 0%, #0c0c19 48%, #000000 100%);
+  --shadow-product-frame: inset 0 0 0 1px #4f4f80, 0 0 60px rgba(79, 79, 128, 0.15);
+  --shadow-video-player: 0 24px 48px rgba(0, 0, 0, 0.5);
+}
+
+.frameio-page {
+  background: var(--color-obsidian);
+  background-image: var(--gradient-hero), var(--gradient-radial-glow);
+  color: var(--color-carbon-vellum);
+  font-family: var(--font-framegothic);
+}
+
+.frameio-pill {
+  border-radius: var(--radius-pills);
+  font-family: var(--font-framegothic);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.frameio-product-frame {
+  background: var(--surface-product-surface);
+  border: 1px solid var(--color-twilight);
+  border-radius: var(--radius-cards);
+  box-shadow: var(--shadow-product-frame);
+}
+
+.frameio-eyebrow {
+  color: var(--color-iris-glow);
+  font-family: var(--font-neuemachinainktrap);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+

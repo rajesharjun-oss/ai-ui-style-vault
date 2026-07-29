@@ -1,0 +1,125 @@
+:root {
+  --amaterasu-color-cosmic-violet: #1b2978;
+  --amaterasu-color-twilight-indigo: #19366c;
+  --amaterasu-color-aurora-teal: #75cdd6;
+  --amaterasu-color-polar-white: #ffffff;
+  --amaterasu-color-obsidian: #000000;
+  --amaterasu-color-silver-slate: #7488a5;
+  --amaterasu-color-cerulean-mist: #579dc0;
+  --amaterasu-color-storm-shadow: #466187;
+  --amaterasu-gradient-cyan-glow: radial-gradient(at 5.62% 33.12%, rgb(255, 255, 255) 30%, rgb(132, 205, 238) 100%);
+  --amaterasu-gradient-violet-wash: linear-gradient(174deg, rgb(42, 57, 142) 5%, rgb(85, 102, 197) 100%);
+
+  --amaterasu-font-body: "TWKLausanne-250", Inter, Manrope, Arial, Helvetica, sans-serif;
+  --amaterasu-font-display: "TWKLausanne-200", "Inter Tight", Manrope, Arial, Helvetica, sans-serif;
+  --amaterasu-font-label: "NeoSansPro-Medium", "Space Grotesk", Inter, Arial, Helvetica, sans-serif;
+
+  --amaterasu-text-label-size: 10px;
+  --amaterasu-text-label-line: 1.5;
+  --amaterasu-text-label-tracking: 0.16em;
+
+  --amaterasu-text-body-size: 16px;
+  --amaterasu-text-body-line: 1.2;
+  --amaterasu-text-body-large-size: 20px;
+  --amaterasu-text-body-large-line: 1.4;
+  --amaterasu-text-statement-size: 26px;
+  --amaterasu-text-statement-line: 1.23;
+  --amaterasu-text-heading-size: 40px;
+  --amaterasu-text-heading-line: 1.13;
+
+  --amaterasu-text-display-size: clamp(50px, 7vw, 80px);
+  --amaterasu-text-display-line: 1;
+  --amaterasu-text-display-tracking: -0.025em;
+
+  --amaterasu-width-content: 1200px;
+  --amaterasu-width-copy: 560px;
+  --amaterasu-space-hero: clamp(40px, 6vw, 60px);
+  --amaterasu-space-section: clamp(96px, 10vw, 120px);
+  --amaterasu-space-element: 24px;
+  --amaterasu-space-label: 16px;
+
+  --amaterasu-radius-pill: 9999px;
+  --amaterasu-radius-card: 0px;
+  --amaterasu-border-violet: 1px solid var(--amaterasu-color-cosmic-violet);
+  --amaterasu-border-slate: 1px solid var(--amaterasu-color-silver-slate);
+}
+
+.amaterasu-page {
+  background: var(--amaterasu-color-obsidian);
+  color: var(--amaterasu-color-polar-white);
+  font-family: var(--amaterasu-font-body);
+}
+
+.amaterasu-rail {
+  width: min(100% - 48px, var(--amaterasu-width-content));
+  margin-inline: auto;
+}
+
+.amaterasu-display {
+  font-family: var(--amaterasu-font-display);
+  font-size: var(--amaterasu-text-display-size);
+  line-height: var(--amaterasu-text-display-line);
+  letter-spacing: var(--amaterasu-text-display-tracking);
+  font-weight: 400;
+}
+
+.amaterasu-label {
+  font-family: var(--amaterasu-font-label);
+  font-size: var(--amaterasu-text-label-size);
+  line-height: var(--amaterasu-text-label-line);
+  letter-spacing: var(--amaterasu-text-label-tracking);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.amaterasu-outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 18px;
+  border: var(--amaterasu-border-violet);
+  border-radius: var(--amaterasu-radius-pill);
+  background: transparent;
+  color: var(--amaterasu-color-cosmic-violet);
+  font: 400 12px / 1.2 var(--amaterasu-font-label);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: none;
+  transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+}
+
+.amaterasu-outline-button:hover,
+.amaterasu-outline-button:focus-visible {
+  background: var(--amaterasu-color-cosmic-violet);
+  color: var(--amaterasu-color-polar-white);
+}
+
+.amaterasu-hero {
+  min-height: 90vh;
+  background-color: var(--amaterasu-color-obsidian);
+  background-size: cover;
+  background-position: center;
+}
+
+.amaterasu-atmospheric-panel {
+  background: var(--amaterasu-gradient-cyan-glow);
+  color: var(--amaterasu-color-cosmic-violet);
+  box-shadow: none;
+}
+
+.amaterasu-violet-panel {
+  background: var(--amaterasu-gradient-violet-wash);
+  color: var(--amaterasu-color-polar-white);
+  box-shadow: none;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --amaterasu-text-display-size: 52px;
+    --amaterasu-text-display-tracking: -0.033em;
+    --amaterasu-space-section: 72px;
+  }
+}
+

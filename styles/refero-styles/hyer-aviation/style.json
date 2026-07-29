@@ -1,0 +1,142 @@
+{
+  "id": "f61cf515-ccd5-4494-bdd1-be9fe4d7258c",
+  "name": "Hyer Aviation",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/f61cf515-ccd5-4494-bdd1-be9fe4d7258c",
+  "referenceUrl": "https://www.flyhyer.com",
+  "capturedOn": "2026-07-28",
+  "theme": "mixed",
+  "mood": "Luxury aviation editorial with enormous tight-tracked headlines, monochrome white and ink structure, one clay focal accent, pill actions, hard-edged cards, and sculptural aircraft imagery.",
+  "bestFor": [
+    "aviation",
+    "luxury travel",
+    "concierge services",
+    "premium logistics",
+    "destination products",
+    "high-end booking experiences"
+  ],
+  "tags": [
+    "mixed",
+    "luxury",
+    "aviation",
+    "editorial",
+    "monochrome",
+    "pill-buttons",
+    "hard-edged-cards",
+    "huge-type",
+    "clay-accent",
+    "no-shadows",
+    "product-hero"
+  ],
+  "colors": {
+    "deepInk": { "value": "#000d10", "token": "--color-deep-ink", "role": "Primary text, footer, filled buttons, icon strokes, and brand structure." },
+    "pureWhite": { "value": "#ffffff", "token": "--color-pure-white", "role": "Page canvas, white content bands, card surfaces, and text on dark buttons." },
+    "coolAsh": { "value": "#8e8e95", "token": "--color-cool-ash", "role": "Secondary body copy, nav items, helper labels, and muted links." },
+    "pebble": { "value": "#d5d3d4", "token": "--color-pebble", "role": "Hairline dividers, borders, and subtle section edges." },
+    "midnightHull": { "value": "#0f0f1c", "token": "--color-midnight-hull", "role": "Full-bleed dark sections and support bands." },
+    "charcoalDeck": { "value": "#151623", "token": "--color-charcoal-deck", "role": "Dark panels and deeper section layers." },
+    "clayEmber": { "value": "#bc7155", "token": "--color-clay-ember", "role": "One featured card, one highlighted offering, or a small decorative focal fill." }
+  },
+  "typography": {
+    "families": {
+      "display": "HelveticaNowDisplay",
+      "fallback": "sans-serif"
+    },
+    "fallbacks": {
+      "display": "Neue Haas Grotesk Display, Inter, Helvetica Neue, system-ui, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "bold": 700
+    },
+    "rules": [
+      "Use HelveticaNowDisplay-style type across the entire system.",
+      "Use weight 700 for headlines from 23px upward.",
+      "Use weight 400 for 18px body copy.",
+      "Tighten tracking sharply at display and hero sizes.",
+      "Keep body text at 18px with 1.61 line-height."
+    ],
+    "scale": {
+      "caption": { "size": "17px", "lineHeight": 1, "letterSpacing": "0", "token": "--text-caption" },
+      "body": { "size": "18px", "lineHeight": 1.61, "letterSpacing": "0", "token": "--text-body" },
+      "nav": { "size": "20px", "lineHeight": 1, "letterSpacing": "0", "token": "--text-nav" },
+      "subheading": { "size": "23px", "lineHeight": 1, "letterSpacing": "-0.23px", "token": "--text-subheading" },
+      "headingSm": { "size": "30px", "lineHeight": 1, "letterSpacing": "0", "token": "--text-heading-sm" },
+      "heading": { "size": "37px", "lineHeight": 1, "letterSpacing": "-0.37px", "token": "--text-heading" },
+      "headingLg": { "size": "52px", "lineHeight": 1, "letterSpacing": "-0.52px", "token": "--text-heading-lg" },
+      "display": { "size": "63px", "lineHeight": 1, "letterSpacing": "-1.26px", "token": "--text-display" },
+      "displayXl": { "size": "131px", "lineHeight": 1, "letterSpacing": "-2.62px", "token": "--text-display-xl" },
+      "hero": { "size": "187px", "lineHeight": 0.8, "letterSpacing": "-3.74px", "token": "--text-hero" }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "22px",
+    "elementGap": "16px",
+    "scale": {
+      "11": "11px",
+      "13": "13px",
+      "15": "15px",
+      "16": "16px",
+      "17": "17px",
+      "21": "21px",
+      "22": "22px",
+      "23": "23px",
+      "31": "31px",
+      "34": "34px",
+      "38": "38px",
+      "52": "52px",
+      "53": "53px",
+      "59": "59px",
+      "68": "68px",
+      "119": "119px"
+    }
+  },
+  "radii": {
+    "nav": "1000px",
+    "buttons": "1000px",
+    "decorative": "45px",
+    "heroPanels": "0px",
+    "iconButtons": "100%"
+  },
+  "shadows": {
+    "none": "Cards and buttons rely on surface color contrast and hairline borders, not box-shadow."
+  },
+  "components": [
+    { "name": "Filled Dark Pill Button", "recipe": "Deep Ink fill, Pure White text, 1000px radius, 15px 22px 16px padding, HelveticaNowDisplay 17px/700." },
+    { "name": "Ghost White Pill Button", "recipe": "Transparent fill, Pure White text, 1px white border, 1000px radius, used on dark or image-heavy contexts." },
+    { "name": "Circular Icon Button", "recipe": "Deep Ink circular hit area with white icon, used for compact menu or navigation affordances." },
+    { "name": "Featured Clay Card", "recipe": "Clay Ember fill, Pure White text, 0px radius, 53px 59px padding, used once per page." },
+    { "name": "Standard White Card", "recipe": "Pure White fill, 0px radius, no shadow, structured by whitespace and Pebble hairlines." },
+    { "name": "Hero Wordmark", "recipe": "Oversized Deep Ink wordmark around 131px, weight 700, tight tracking, flush-left." },
+    { "name": "Hero Headline", "recipe": "60px to 63px, weight 700, line-height 1.0, tight tracking, Deep Ink, ending with a period." },
+    { "name": "Section Headline", "recipe": "37px to 52px, weight 700, line-height 1.0, tight tracking, stacked lines." },
+    { "name": "Feature Block", "recipe": "23px bold title, 18px Cool Ash body at 1.61 line-height, Pebble hairline rule, arranged in a 2x2 grid." },
+    { "name": "Dark Content Section", "recipe": "Full-bleed Midnight Hull or Charcoal Deck background with right-aligned white content." },
+    { "name": "Footer Terminal", "recipe": "Deep Ink full-bleed footer with oversized white wordmark and Cool Ash link columns." },
+    { "name": "Top Navigation", "recipe": "Transparent over hero with 20px nav links and circular icon action." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use huge display type with tight tracking.",
+      "Use Deep Ink as the structural text, CTA, icon, and footer color.",
+      "Reserve Clay Ember for one featured card or one focal offer.",
+      "Use 1000px radius for every button and nav pill.",
+      "Keep body copy at 18px with 1.61 leading.",
+      "Alternate white sections with dark midnight bands.",
+      "End the main hero headline with a period."
+    ],
+    "dont": [
+      "Do not add shadows to cards or buttons.",
+      "Do not introduce extra accent colors.",
+      "Do not use Deep Ink as a light-section page background.",
+      "Do not round the featured clay card.",
+      "Do not set body copy below 18px.",
+      "Do not use thin or light headings.",
+      "Do not place two Clay Ember feature blocks in one viewport."
+    ]
+  }
+}

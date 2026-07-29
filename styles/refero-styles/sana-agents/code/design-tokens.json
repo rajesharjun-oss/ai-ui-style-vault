@@ -1,0 +1,171 @@
+{
+    "name":  "Sana Agents",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Ink Black",
+                       "value":  "#0a1217",
+                       "token":  "--color-ink-black",
+                       "role":  "Primary text, dark card surfaces, sign-up panel, filled primary buttons on light backgrounds"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Light supporting surface for subtle backgrounds and section separation. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Frost Wash",
+                       "value":  "#e4eff7",
+                       "token":  "--color-frost-wash",
+                       "role":  "Soft tinted surface for light product cards and secondary panels the only chromatic step between paper white and ink black"
+                   },
+                   {
+                       "name":  "Stone Gray",
+                       "value":  "#85898b",
+                       "token":  "--color-stone-gray",
+                       "role":  "Muted helper text, footer labels, and desaturated secondary copy"
+                   },
+                   {
+                       "name":  "Obsidian",
+                       "value":  "#000000",
+                       "token":  "--color-obsidian",
+                       "role":  "Hairline borders, nav text, and input outlines where the sharpest contrast edge is required"
+                   },
+                   {
+                       "name":  "Electric Lime",
+                       "value":  "#cdfe00",
+                       "token":  "--color-electric-lime",
+                       "role":  "Green supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Sana Serif Hero display headline only. A weight-400 serif at 72px is the system\u0027s signature move: most AI brands shout with bold sans, Sana whispers with editorial type and lets the scale carry authority. The serif counterforms and bracket serifs give the wordmark a literary, humanist quality absent from typical product UI. `--font-sana-serif`",
+                                     "Sana Sans All UI, body, navigation, buttons, and subheadings. The 450 weight is a distinctive mid-step between regular and medium used for button labels and nav links instead of jumping to 500, producing quieter emphasis. Tabular numerals (tnum) and lining figures (lnum) are always on, giving all numeric data a consistent grid. `--font-sana-sans`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "13px",
+                                             "1.5",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.43",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "heading",
+                                             "20px",
+                                             "1.2",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "display",
+                                             "72px",
+                                             "1.1",
+                                             "",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "18",
+                                      "18px",
+                                      "--spacing-18"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "25",
+                                      "25px",
+                                      "--spacing-25"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "62",
+                                      "62px",
+                                      "--spacing-62"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "64px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "24-32px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "8-16px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "cards",
+                      "24px"
+                  ],
+                  [
+                      "inputs",
+                      "24px"
+                  ],
+                  [
+                      "buttons",
+                      "9999px"
+                  ]
+              ]
+}

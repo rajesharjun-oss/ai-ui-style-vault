@@ -1,0 +1,107 @@
+{
+  "name": "Athletics",
+  "slug": "athletics",
+  "sourceUrl": "https://styles.refero.design/style/fd36c7c7-4f8c-4d2a-9346-72e3d8403f01",
+  "referenceSite": "https://athleticsnyc.com",
+  "theme": "dark",
+  "colors": {
+    "obsidian": "#000000",
+    "charcoal": "#1d1d1d",
+    "ash": "#d6d5d0",
+    "paper-white": "#ffffff"
+  },
+  "typography": {
+    "fontFamily": {
+      "display": "\"Feature Deck\", \"GT Sectra Display Light\", \"Canela\", \"Domaine Display Thin\", serif",
+      "body": "\"Sohne\", \"Inter\", \"Neue Haas Grotesk\", \"Untitled Sans\", Arial, sans-serif"
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400
+    },
+    "fontSize": {
+      "body-sm": "16px",
+      "functional": "17px",
+      "subheading": "22px",
+      "heading": "72px",
+      "heading-lg": "82px",
+      "display": "116px"
+    },
+    "lineHeight": {
+      "body-sm": "1.5",
+      "functional": "1.3",
+      "subheading": "1.3",
+      "heading": "1.1",
+      "heading-lg": "1.05",
+      "display": "1.05"
+    },
+    "letterSpacing": {
+      "heading": "-0.009em",
+      "heading-lg": "-0.009em",
+      "display": "-0.018em"
+    }
+  },
+  "spacing": {
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "48": "48px",
+    "64": "64px",
+    "128": "128px",
+    "144": "144px"
+  },
+  "layout": {
+    "maxWidth": "1440px",
+    "sectionGap": "128px to 144px",
+    "cardPadding": "24px",
+    "elementGap": "24px to 32px"
+  },
+  "radius": {
+    "card": "8px",
+    "image": "8px",
+    "tag": "9999px",
+    "button": "9999px"
+  },
+  "elevation": {
+    "shadow": "none",
+    "surfaceShift": "#000000 to #1d1d1d",
+    "hairline": "1px solid #d6d5d0"
+  },
+  "components": {
+    "top-navigation-bar": {
+      "background": "transparent or {colors.obsidian}",
+      "border": "none",
+      "shadow": "none",
+      "text": "{colors.paper-white}",
+      "fontFamily": "{typography.fontFamily.body}"
+    },
+    "display-headline": {
+      "fontFamily": "{typography.fontFamily.display}",
+      "fontSize": "{typography.fontSize.display}",
+      "fontWeight": "{typography.fontWeight.light}",
+      "lineHeight": "{typography.lineHeight.display}",
+      "letterSpacing": "{typography.letterSpacing.display}",
+      "text": "{colors.paper-white}"
+    },
+    "specialty-tag": {
+      "background": "{colors.paper-white}",
+      "text": "{colors.obsidian}",
+      "radius": "{radius.tag}",
+      "padding": "8px 16px",
+      "shadow": "none"
+    },
+    "pill-button": {
+      "background": "{colors.paper-white}",
+      "text": "{colors.obsidian}",
+      "radius": "{radius.button}",
+      "padding": "12px 24px",
+      "shadow": "none"
+    },
+    "form-input": {
+      "background": "transparent or {colors.charcoal}",
+      "borderBottom": "1px solid {colors.ash}",
+      "text": "{colors.paper-white}",
+      "radius": "0px"
+    }
+  }
+}

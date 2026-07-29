@@ -1,0 +1,122 @@
+:root {
+  /* Colors */
+  --color-black-void: #000000;
+  --color-paper-white: #ffffff;
+  --color-smoke: #4d4d4d;
+  --color-crimson-heat: #b62b1a;
+
+  /* Typography */
+  --font-saans: Saans, Inter, Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-default: 380;
+  --font-weight-editorial: 570;
+  --font-weight-black: 790;
+
+  --text-micro-ui: 12px;
+  --leading-micro-ui: 1.14;
+  --tracking-ui: 0.05em;
+  --tracking-ui-tight: 0.6px;
+
+  --text-small-ui: 14px;
+  --leading-small-ui: 1.2;
+  --text-body: 16px;
+  --leading-body: 1.43;
+  --tracking-body: 0.8px;
+  --text-large-ui: 18px;
+  --text-utility-large: 20px;
+
+  --text-display-sm: 47px;
+  --text-display-md: 79px;
+  --text-display-lg: 106px;
+  --text-display-hero: 130px;
+  --text-display-max: 245px;
+  --leading-display-min: 1;
+  --leading-display-hero: 1.08;
+  --leading-display-max: 1.14;
+  --tracking-display: -0.025em;
+  --tracking-display-hero: -3.25px;
+
+  /* Spacing */
+  --spacing-10: 10px;
+  --spacing-11: 11px;
+  --spacing-15: 15px;
+  --spacing-19: 19px;
+  --spacing-20: 20px;
+  --spacing-23: 23px;
+  --spacing-27: 27px;
+  --spacing-30: 30px;
+  --spacing-36: 36px;
+  --spacing-38: 38px;
+  --spacing-60: 60px;
+  --spacing-63: 63px;
+  --spacing-108: 108px;
+  --spacing-150: 150px;
+  --spacing-172: 172px;
+
+  /* Shape */
+  --hairline: 1px;
+  --radius-body-card: 8px;
+  --radius-button-pill: 70px;
+  --radius-circular-frame: 594px;
+}
+
+.tsi-surface {
+  background: var(--color-black-void);
+  color: var(--color-paper-white);
+  font-family: var(--font-saans);
+}
+
+.tsi-nav {
+  border-top: var(--hairline) solid var(--color-paper-white);
+  color: var(--color-paper-white);
+  font: 380 var(--text-micro-ui) / var(--leading-micro-ui) var(--font-saans);
+  letter-spacing: var(--tracking-ui-tight);
+  text-transform: uppercase;
+}
+
+.tsi-ghost-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-10);
+  border: var(--hairline) solid var(--color-paper-white);
+  border-radius: var(--radius-button-pill);
+  background: transparent;
+  color: var(--color-paper-white);
+  padding: var(--spacing-10) var(--spacing-20);
+  font: 380 var(--text-micro-ui) / var(--leading-micro-ui) var(--font-saans);
+  letter-spacing: var(--tracking-ui-tight);
+  text-transform: uppercase;
+}
+
+.tsi-active-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--color-paper-white);
+}
+
+.tsi-display {
+  color: var(--color-paper-white);
+  font-family: var(--font-saans);
+  font-size: var(--text-display-hero);
+  font-weight: var(--font-weight-light);
+  line-height: var(--leading-display-hero);
+  letter-spacing: var(--tracking-display-hero);
+}
+
+.tsi-body-card {
+  border: var(--hairline) solid var(--color-smoke);
+  border-radius: var(--radius-body-card);
+  background: transparent;
+  color: var(--color-paper-white);
+  padding: var(--spacing-20);
+  font: 380 var(--text-body) / var(--leading-body) var(--font-saans);
+  letter-spacing: var(--tracking-body);
+}
+
+.tsi-hero-image {
+  width: 100vw;
+  min-height: 90vh;
+  border-radius: 0;
+  object-fit: cover;
+}

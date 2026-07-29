@@ -1,0 +1,95 @@
+{
+  "name": "ClickUp",
+  "slug": "clickup",
+  "source_url": "https://styles.refero.design/style/efcb73cb-b84a-4ae7-9a2b-e1116f79f130",
+  "style_id": "efcb73cb-b84a-4ae7-9a2b-e1116f79f130",
+  "reference_site": "https://www.clickup.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A light productivity-dashboard style with white canvas, heavy Plus Jakarta Sans headlines, black pill CTAs, violet identity badges, blue interactive accents, dense product screenshots, and one controlled conic-gradient border effect.",
+  "personality": [
+    "productive",
+    "dashboard-native",
+    "bold",
+    "dense",
+    "pill-heavy",
+    "high-contrast"
+  ],
+  "colors": {
+    "signalWhite": "#ffffff",
+    "inkBlack": "#202020",
+    "onyx": "#090c1d",
+    "carbon": "#2a2a2a",
+    "slate": "#646464",
+    "ash": "#838383",
+    "fog": "#b3b3b3",
+    "cloud": "#d4d4d4",
+    "bone": "#e8e8e8",
+    "plaster": "#e9ebf0",
+    "mercury": "#eeeeee",
+    "mist": "#f8f9fa",
+    "brandViolet": "#6647f0",
+    "signalBlue": "#0091ff",
+    "mint": "#6ee7b7",
+    "emerald": "#00c07a",
+    "tealTag": "#16c0a4"
+  },
+  "typography": {
+    "display": "Plus Jakarta Sans, Inter, General Sans, Arial, sans-serif",
+    "body": "Inter, system-ui, Arial, sans-serif",
+    "mono": "Sometype Mono, JetBrains Mono, IBM Plex Mono, monospace",
+    "weights": [400, 500, 600, 650, 700, 800],
+    "sizesPx": [8, 10, 12, 14, 15, 16, 17, 18, 19, 20, 24, 34, 40, 42, 48, 52, 56, 60, 76, 80],
+    "rules": [
+      "Use Plus Jakarta Sans at 650 to 800 for display text.",
+      "Use -0.04em tracking on display text 48px and larger.",
+      "Use Inter for body and small UI.",
+      "Use Sometype Mono for uppercase tracking-wide labels."
+    ]
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnitPx": 4,
+    "maxWidthPx": 1200,
+    "sectionGapPx": 80,
+    "cardPaddingPx": 28,
+    "elementGapPx": 12,
+    "scalePx": [4, 8, 12, 16, 20, 24, 28, 32, 40, 48, 52, 56, 72, 80, 100]
+  },
+  "radius": {
+    "inputsPx": 9,
+    "cardsPx": 12,
+    "imagesPx": 16,
+    "largeCardsPx": 20,
+    "tagsPx": 100,
+    "badgesPx": 9999,
+    "buttonsPx": 9999
+  },
+  "components": [
+    "filled dark CTA button",
+    "ghost outline button",
+    "nav pill button",
+    "feature tag pill",
+    "product screenshot card",
+    "stat callout card",
+    "dark feature card",
+    "trust badge strip",
+    "rounded avatar cluster",
+    "award badge",
+    "conic gradient border element",
+    "checkmark list item",
+    "status pill"
+  ],
+  "avoid": [
+    "pure black for large fills",
+    "violet primary CTA fills",
+    "Inter display headings",
+    "positive body tracking",
+    "multiple conic animations in one viewport",
+    "decorative gradients on normal cards",
+    "lifestyle photography",
+    "stock people photos",
+    "deep shadow stacking"
+  ]
+}
+

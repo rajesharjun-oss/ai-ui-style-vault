@@ -1,0 +1,98 @@
+{
+  "id": "1bcae895-2245-4d33-aa43-1c1e80719554",
+  "name": "Family",
+  "slug": "family",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/1bcae895-2245-4d33-aa43-1c1e80719554",
+  "referenceSite": "https://family.co",
+  "capturedAt": "2026-07-28",
+  "category": "Crypto",
+  "mood": [
+    "storybook spread on cream parchment",
+    "flat crypto product calm",
+    "pressed paper cards",
+    "hand-drawn illustration accents",
+    "compact pill CTAs"
+  ],
+  "summary": "A light crypto/product design system with cream canvas, warm charcoal text, custom display type, Inter UI copy, 10px inset-border cards, dark and sand pill CTAs, ember orange inline links, blue action text, and playful flat illustration clusters.",
+  "useWhen": [
+    "Crypto wallet websites",
+    "Consumer fintech onboarding",
+    "Friendly product landing pages",
+    "Feature grids with illustrations",
+    "Trustworthy apps that need charm"
+  ],
+  "avoidWhen": [
+    "Dense trading terminals",
+    "Dark cyberpunk crypto pages",
+    "Glossy gradient marketing",
+    "Enterprise dashboards",
+    "Minimal monochrome editorial pages"
+  ],
+  "colors": {
+    "creamCanvas": "#fbfaf9",
+    "stoneSurface": "#f2f0ed",
+    "stoneBorder": "#e5d5c3",
+    "pureWhite": "#ffffff",
+    "sandPill": "#f6f4ef",
+    "inkBlack": "#121212",
+    "headingCharcoal": "#343433",
+    "bodyBrown": "#474645",
+    "mutedGray": "#7e7e7d",
+    "emberOrange": "#ff3e00",
+    "linkBlue": "#0086fc",
+    "skyBlue": "#64c6ff",
+    "altBlue": "#00b2ff",
+    "grassGreen": "#00c978",
+    "mint": "#00ca48",
+    "sunYellow": "#ffcd6c",
+    "gold": "#d48f00",
+    "honey": "#ffbb26",
+    "coralPink": "#ff58ae",
+    "plumViolet": "#9f4fff",
+    "alertRed": "#ff2b3a"
+  },
+  "typography": {
+    "display": {
+      "family": "Family",
+      "fallback": "Inter",
+      "weights": [500],
+      "sizes": ["44px", "68px"],
+      "lineHeight": "53px to 75px",
+      "letterSpacing": "-0.88px to -2.1px"
+    },
+    "body": {
+      "family": "Inter",
+      "fallback": "ui-sans-serif",
+      "weights": [400, 500, 600],
+      "sizes": ["12px", "15px", "17px", "19px", "23px"],
+      "lineHeight": "19px to 27px",
+      "letterSpacing": "-0.01px to -0.44px"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "80-120px",
+    "cardPadding": "32px",
+    "elementGap": "8-12px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "36px", "48px", "60px", "76px", "80px", "92px", "96px", "104px"]
+  },
+  "shape": {
+    "small": "2px",
+    "badges": "6px",
+    "nav": "10px",
+    "cards": "10px",
+    "largePanels": "17px-24px",
+    "buttons": "32px",
+    "illustration": "40px-72px",
+    "pills": "9999px"
+  },
+  "imagery": {
+    "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/d95bb1df-d2af-4d12-a4b7-0d8d7e3aae6b.jpg",
+    "thumbnail": "https://images.refero.design/styles/refero.design/image/793ecc9b-5ba6-4914-9e92-e7491119fd11.jpg",
+    "previewVideo": "https://images.refero.design/styles/refero.design/video/ee58fbf0-1329-48ad-ae8d-1a2631e94416.mp4",
+    "notes": "Use flat hand-drawn mascot clusters, confetti shapes, accent fills, and warm paper surfaces. Illustrations frame centered text rather than competing with it."
+  }
+}

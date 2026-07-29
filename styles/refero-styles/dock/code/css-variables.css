@@ -1,0 +1,132 @@
+:root {
+  --dock-font-brand: "Roobert", "Inter", "Plus Jakarta Sans", system-ui, sans-serif;
+  --dock-font-ui: "Product Sans", "Google Sans", "Inter", system-ui, sans-serif;
+
+  --dock-color-velvet-ink: #16042c;
+  --dock-color-paper-cream: #fcf8ed;
+  --dock-color-ivory-card: #fffdf8;
+  --dock-color-hairline-beige: #e8dcc8;
+  --dock-color-warm-gray: #776f64;
+  --dock-color-soft-tan: #c9bda6;
+  --dock-color-electric-cobalt: #385bff;
+  --dock-color-cobalt-hover: #2748e8;
+  --dock-color-dark-cobalt: #1530b8;
+  --dock-color-pale-blue: #eef2ff;
+  --dock-color-morning-mist: #f6f0e4;
+  --dock-color-pure-white: #ffffff;
+
+  --dock-radius-pill: 9999px;
+  --dock-radius-card: 24px;
+  --dock-radius-screenshot: 18px;
+  --dock-radius-input: 12px;
+
+  --dock-space-1: 4px;
+  --dock-space-2: 8px;
+  --dock-space-3: 12px;
+  --dock-space-4: 16px;
+  --dock-space-6: 24px;
+  --dock-space-8: 32px;
+  --dock-space-12: 48px;
+  --dock-space-16: 64px;
+  --dock-space-24: 96px;
+  --dock-space-32: 128px;
+  --dock-max-width: 1280px;
+
+  --dock-shadow-product:
+    0 24px 64px rgba(22, 4, 44, 0.08),
+    0 8px 24px rgba(22, 4, 44, 0.06);
+  --dock-shadow-card-hover: 0 12px 32px rgba(22, 4, 44, 0.06);
+}
+
+.dock-page {
+  min-height: 100%;
+  background: var(--dock-color-paper-cream);
+  color: var(--dock-color-velvet-ink);
+  font-family: var(--dock-font-brand);
+}
+
+.dock-hero-title {
+  color: var(--dock-color-velvet-ink);
+  font-family: var(--dock-font-brand);
+  font-size: clamp(42px, 7vw, 64px);
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.dock-body {
+  color: var(--dock-color-warm-gray);
+  font-family: var(--dock-font-brand);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.dock-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 14px 24px;
+  border: 0;
+  border-radius: var(--dock-radius-pill);
+  background: var(--dock-color-electric-cobalt);
+  color: var(--dock-color-pure-white);
+  font-family: var(--dock-font-ui);
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(56, 91, 255, 0.25);
+}
+
+.dock-primary-button:hover {
+  background: var(--dock-color-cobalt-hover);
+}
+
+.dock-outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 14px 24px;
+  border: 1px solid var(--dock-color-hairline-beige);
+  border-radius: var(--dock-radius-pill);
+  background: transparent;
+  color: var(--dock-color-velvet-ink);
+  font-family: var(--dock-font-ui);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dock-card {
+  border: 1px solid var(--dock-color-hairline-beige);
+  border-radius: var(--dock-radius-card);
+  background: var(--dock-color-ivory-card);
+  padding: var(--dock-space-8);
+}
+
+.dock-card:hover {
+  box-shadow: var(--dock-shadow-card-hover);
+}
+
+.dock-screenshot-card {
+  overflow: hidden;
+  border: 1px solid var(--dock-color-hairline-beige);
+  border-radius: var(--dock-radius-card);
+  background: var(--dock-color-ivory-card);
+  padding: var(--dock-space-4);
+  box-shadow: var(--dock-shadow-product);
+}
+
+.dock-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 12px;
+  border-radius: var(--dock-radius-pill);
+  background: var(--dock-color-pale-blue);
+  color: var(--dock-color-electric-cobalt);
+  font-family: var(--dock-font-ui);
+  font-size: 14px;
+  font-weight: 500;
+}

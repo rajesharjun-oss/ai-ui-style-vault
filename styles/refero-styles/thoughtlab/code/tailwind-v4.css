@@ -1,0 +1,65 @@
+@theme {
+  --color-black-void: #000000;
+  --color-white: #ffffff;
+  --color-crimson-signal: #ff0000;
+  --color-white-mist: rgba(255,255,255,0.70);
+  --color-white-hairline: rgba(255,255,255,0.10);
+  --color-deep-gray: #121212;
+  --color-mid-gray: #333333;
+  --color-void-card: rgba(0,0,0,0);
+  --color-glass-edge: rgba(255,255,255,0.20);
+
+  --font-sui: Sui, Inter, "Helvetica Neue", Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-input: 15px;
+  --text-button: 16px;
+  --text-nav: 18px;
+  --text-card-title: 30px;
+  --text-section-heading: 78px;
+  --text-display: 182px;
+  --text-mega-display: 319px;
+
+  --radius-button: 0px;
+  --radius-card: 0px;
+  --radius-input: 0px;
+  --radius-image: 0px;
+  --radius-section: 0px;
+
+  --spacing-unit: 4px;
+  --spacing-section: 150px;
+  --spacing-page-max: 1200px;
+  --spacing-card: 24px;
+  --spacing-element: 12px;
+}
+
+@utility thoughtlab-surface {
+  background: var(--color-black-void);
+  color: var(--color-white);
+  font-family: var(--font-sui);
+}
+
+@utility thoughtlab-display {
+  color: var(--color-white);
+  font-family: var(--font-sui);
+  font-size: var(--text-display);
+  line-height: 0.82;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+
+@utility thoughtlab-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  background: var(--color-crimson-signal);
+  color: var(--color-white);
+  padding: 14px 22px;
+  font-family: var(--font-sui);
+  font-size: var(--text-button);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Limon",
+  "version": "2026-07-28",
+  "colors": {
+    "blackOlive": {
+      "value": "#1d0b0d",
+      "role": "Page background, hero canvas, footer, and primary dark surface"
+    },
+    "forestInk": {
+      "value": "#103b15",
+      "role": "Text, links, dividers, and botanical dark accents on cream"
+    },
+    "lemonZest": {
+      "value": "#f7ea48",
+      "role": "Filled CTA, display accent on dark, and highlight punctuation"
+    },
+    "warmCream": {
+      "value": "#fcf9f0",
+      "role": "Light content sections, menu panels, and editorial body sections"
+    },
+    "sageMist": {
+      "value": "#dbe2dc",
+      "role": "Hairline dividers, subtle borders, and muted accents"
+    },
+    "pureWhite": {
+      "value": "#ffffff",
+      "role": "Icon strokes, active nav outline, and punctuation on dark"
+    }
+  },
+  "font": {
+    "primary": "VenusCom, DM Sans, Outfit, Plus Jakarta Sans, Arial, sans-serif",
+    "icon": "Font Awesome 6 Free, Arial, sans-serif",
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": 1.45,
+      "letterSpacing": "0.84px"
+    },
+    "bodySm": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1.37,
+      "letterSpacing": "0.64px"
+    },
+    "body": {
+      "fontSize": "19px",
+      "fontWeight": 400,
+      "lineHeight": 1.3,
+      "letterSpacing": "0.57px"
+    },
+    "bodyLg": {
+      "fontSize": "20px",
+      "fontWeight": 400,
+      "lineHeight": 1.25,
+      "letterSpacing": "0.4px"
+    },
+    "subheading": {
+      "fontSize": "26px",
+      "fontWeight": 300,
+      "lineHeight": 1.2,
+      "letterSpacing": "0.52px"
+    },
+    "headingSm": {
+      "fontSize": "30px",
+      "fontWeight": 500,
+      "lineHeight": 1.15,
+      "letterSpacing": "0.9px"
+    },
+    "heading": {
+      "fontSize": "36px",
+      "fontWeight": 500,
+      "lineHeight": 1.15,
+      "letterSpacing": "1.08px"
+    },
+    "headingLg": {
+      "fontSize": "46px",
+      "fontWeight": 300,
+      "lineHeight": 1.1,
+      "letterSpacing": "1.84px"
+    },
+    "display": {
+      "fontSize": "68px",
+      "fontWeight": 400,
+      "lineHeight": 1.01,
+      "letterSpacing": "4.08px"
+    },
+    "displayXl": {
+      "fontSize": "75px",
+      "fontWeight": 400,
+      "lineHeight": 1,
+      "letterSpacing": "4.5px"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "unit": "4px",
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "30": "30px",
+    "40": "40px",
+    "60": "60px",
+    "120": "120px",
+    "maxWidth": "1200px",
+    "sectionGap": "60px",
+    "cardPadding": "30px",
+    "elementGap": "15px to 20px"
+  },
+  "radius": {
+    "cards": "0px",
+    "badges": "1px",
+    "inputs": "1px",
+    "buttons": "1px",
+    "circular": "40px"
+  },
+  "surfaces": {
+    "blackOliveCanvas": "#1d0b0d",
+    "warmCreamPanel": "#fcf9f0",
+    "forestInkSurface": "#103b15",
+    "lemonZestAccent": "#f7ea48"
+  },
+  "elevation": {
+    "cards": "none",
+    "buttons": "none",
+    "images": "none",
+    "rule": "Use color contrast, type scale, and image scale instead of depth."
+  },
+  "motion": {
+    "style": "minimal",
+    "allowed": ["hover underline", "subtle color shift"],
+    "avoid": ["drop shadow animation", "glow animation", "heavy image scale"]
+  }
+}
+

@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-midnight: #000000;
+  --color-charcoal-canvas: #0d0d0f;
+  --color-graphite-base: #232529;
+  --color-cool-stone: #2b2f33;
+  --color-ghost-ink: #d8eaff;
+  --color-muted-ash: #6c757f;
+  --color-subtle-grey: #565e66;
+  --color-pale-slate: #565657;
+  --color-electric-blue: #1f58f2;
+  --color-ignition-orange: #ff4105;
+
+  --font-monument: "Monument", Montserrat, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Mono", "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-caption: 10px;
+  --text-caption--line-height: 0.8;
+  --text-caption--letter-spacing: 0.16px;
+  --text-body: 14px;
+  --text-body--line-height: 1.5;
+  --text-body--letter-spacing: 0.06px;
+  --text-heading: 24px;
+  --text-heading--line-height: 1.24;
+  --text-heading--letter-spacing: -0.01px;
+  --text-heading-lg: 64px;
+  --text-heading-lg--line-height: 1.46;
+  --text-heading-lg--letter-spacing: -0.03em;
+  --text-display: 96px;
+  --text-display--line-height: 1.5;
+  --text-display--letter-spacing: -0.03em;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-80: 80px;
+  --spacing-100: 100px;
+  --spacing-148: 148px;
+  --spacing-200: 200px;
+  --spacing-240: 240px;
+
+  --radius-links: 8px;
+  --radius-cards: 16px;
+  --radius-large-cards: 24px;
+  --radius-buttons: 0px;
+  --radius-navigation: 0px;
+}
+
+@layer components {
+  .atlantic-page {
+    @apply min-h-screen bg-deep-midnight text-ghost-ink font-mono;
+  }
+
+  .atlantic-section {
+    @apply bg-deep-midnight px-24 py-100 md:px-80;
+  }
+
+  .atlantic-display {
+    @apply font-monument text-display font-normal leading-[1.5] tracking-[var(--text-display--letter-spacing)] text-ghost-ink;
+  }
+
+  .atlantic-body {
+    @apply font-mono text-body font-normal leading-[1.5] tracking-[var(--text-body--letter-spacing)] text-muted-ash;
+  }
+
+  .atlantic-card {
+    @apply rounded-[16px] bg-cool-stone p-24 shadow-none;
+  }
+
+  .atlantic-hero-card {
+    @apply rounded-[24px] bg-charcoal-canvas px-100 py-148 shadow-none;
+  }
+
+  .atlantic-outline-button {
+    @apply inline-flex items-center justify-center rounded-none border border-ghost-ink bg-transparent px-16 py-12 font-monument text-[16px] font-normal leading-none text-ghost-ink;
+  }
+
+  .atlantic-text-accent {
+    @apply rounded-none border-0 bg-transparent font-monument font-normal text-ignition-orange;
+  }
+
+  .atlantic-link {
+    @apply font-mono text-body tracking-[var(--text-body--letter-spacing)] text-electric-blue no-underline;
+  }
+}

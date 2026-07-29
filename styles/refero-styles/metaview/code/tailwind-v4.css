@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-forest: #000a06;
+  --color-pine-bark: #0a1a14;
+  --color-charcoal: #161818;
+  --color-abyssal-indigo: #01051b;
+  --color-paper-white: #ffffff;
+  --color-ash-gray: #5e6262;
+  --color-smoke: #828282;
+  --color-silver: #d9d9d9;
+  --color-pure-black: #000000;
+  --color-electric-mint: #7affb4;
+  --color-mint-whisper: #e3ffef;
+
+  --font-euclid-circular-a: "Euclid Circular A", Inter, "DM Sans", "Space Grotesk", system-ui, sans-serif;
+  --font-onsite-semimono: "Onsite SemiMono", "JetBrains Mono", "IBM Plex Mono", "Geist Mono", ui-monospace, monospace;
+
+  --text-caption: 12px;
+  --text-caption--line-height: 1.48;
+  --text-caption--letter-spacing: 0.12px;
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 1.42;
+  --text-body-sm--letter-spacing: 0.14px;
+  --text-body: 16px;
+  --text-body--line-height: 1.5;
+  --text-body--letter-spacing: -0.16px;
+  --text-subheading: 20px;
+  --text-subheading--line-height: 1.34;
+  --text-subheading--letter-spacing: -0.4px;
+  --text-heading-sm: 28px;
+  --text-heading-sm--line-height: 1.2;
+  --text-heading-sm--letter-spacing: -0.56px;
+  --text-heading: 36px;
+  --text-heading--line-height: 1.16;
+  --text-heading--letter-spacing: -1.08px;
+  --text-heading-lg: 48px;
+  --text-heading-lg--line-height: 1.1;
+  --text-heading-lg--letter-spacing: -1.92px;
+  --text-display: 68px;
+  --text-display--line-height: 1.04;
+  --text-display--letter-spacing: -4.08px;
+
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-80: 80px;
+  --spacing-112: 112px;
+
+  --radius-icons: 4px;
+  --radius-inputs: 8px;
+  --radius-nested: 8px;
+  --radius-cards: 16px;
+  --radius-badges: 100px;
+  --radius-buttons: 999px;
+
+  --shadow-subtle: rgba(0, 0, 0, 0.02) 0px 3px 3px 0px, rgba(0, 0, 0, 0.01) 0px 7px 7px 0px, rgba(0, 0, 0, 0.01) 0px 14px 14px 0px, rgba(0, 0, 0, 0.01) 0px 25px 24px 0px;
+  --shadow-inset-hairline: rgba(1, 5, 27, 0.06) 0px 0px 0px 1px inset;
+}
+
+@layer components {
+  .metaview-page {
+    @apply min-h-screen bg-deep-forest text-paper-white font-euclid-circular-a;
+  }
+
+  .metaview-wrap {
+    @apply mx-auto max-w-[1200px] px-24;
+  }
+
+  .metaview-display {
+    @apply font-euclid-circular-a text-display font-light leading-[1.04] tracking-[var(--text-display--letter-spacing)] text-paper-white;
+  }
+
+  .metaview-card {
+    @apply rounded-[16px] border border-abyssal-indigo bg-pine-bark p-24 shadow-subtle;
+  }
+
+  .metaview-primary-button {
+    @apply inline-flex items-center justify-center gap-8 rounded-[999px] bg-electric-mint px-16 py-8 text-body-sm font-medium leading-none text-deep-forest shadow-inset-hairline;
+  }
+
+  .metaview-ghost-button {
+    @apply inline-flex items-center justify-center gap-8 rounded-[999px] border border-paper-white bg-transparent px-16 py-8 text-body-sm font-medium leading-none text-paper-white;
+  }
+
+  .metaview-tab-active {
+    @apply rounded-[100px] bg-mint-whisper px-12 py-4 text-caption font-medium text-deep-forest;
+  }
+
+  .metaview-tab {
+    @apply rounded-[100px] bg-transparent px-12 py-4 text-caption font-medium text-paper-white/60;
+  }
+
+  .metaview-mono {
+    @apply font-onsite-semimono text-caption tracking-[0.01em];
+  }
+}

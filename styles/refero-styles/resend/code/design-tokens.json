@@ -1,0 +1,318 @@
+{
+  "name": "Resend",
+  "slug": "resend",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/0d914ef0-fa84-4c60-a9aa-cef0b5eb6e5d",
+    "productUrl": "https://resend.com"
+  },
+  "theme": {
+    "mode": "dark",
+    "summary": "Black velvet developer platform with violet code light and email-infrastructure precision.",
+    "principles": [
+      "Keep the canvas almost black.",
+      "Use white text and graphite borders for hierarchy.",
+      "Use violet only for code-related emphasis and active developer states.",
+      "Treat code panels and email previews as primary imagery.",
+      "Keep developer UI compact and precise."
+    ]
+  },
+  "colors": {
+    "brand": {
+      "codeViolet": {
+        "value": "#8b5cf6",
+        "token": "--color-code-violet",
+        "role": "Code identifiers, active developer states, focused highlights"
+      }
+    },
+    "darkNeutral": {
+      "blackVelvet": {
+        "value": "#070707",
+        "token": "--color-black-velvet",
+        "role": "Page canvas and deepest background"
+      },
+      "carbon": {
+        "value": "#0b0b0b",
+        "token": "--color-carbon",
+        "role": "Secondary black surface"
+      },
+      "panel": {
+        "value": "#111111",
+        "token": "--color-panel",
+        "role": "Cards, nav, command surfaces"
+      },
+      "raisedPanel": {
+        "value": "#151515",
+        "token": "--color-raised-panel",
+        "role": "Code panels and elevated cards"
+      },
+      "graphite": {
+        "value": "#1f1f1f",
+        "token": "--color-graphite",
+        "role": "Hover panels and secondary surfaces"
+      },
+      "border": {
+        "value": "#2a2a2a",
+        "token": "--color-border",
+        "role": "Hairline card borders and dividers"
+      },
+      "borderStrong": {
+        "value": "#3a3a3a",
+        "token": "--color-border-strong",
+        "role": "Active card borders and code panel outlines"
+      }
+    },
+    "text": {
+      "white": {
+        "value": "#ffffff",
+        "token": "--color-white",
+        "role": "Primary text and CTA text"
+      },
+      "bodyGray": {
+        "value": "#b4b4b4",
+        "token": "--color-body-gray",
+        "role": "Body copy on dark"
+      },
+      "mutedGray": {
+        "value": "#8f8f8f",
+        "token": "--color-muted-gray",
+        "role": "Captions, helper text, muted metadata"
+      },
+      "disabledGray": {
+        "value": "#5f5f5f",
+        "token": "--color-disabled-gray",
+        "role": "Disabled copy and inactive controls"
+      }
+    },
+    "semantic": {
+      "successGreen": {
+        "value": "#22c55e",
+        "token": "--color-success-green",
+        "role": "Delivered status, success, healthy state"
+      },
+      "warningAmber": {
+        "value": "#f59e0b",
+        "token": "--color-warning-amber",
+        "role": "Warning and pending state"
+      },
+      "dangerRed": {
+        "value": "#ef4444",
+        "token": "--color-danger-red",
+        "role": "Failed email, destructive action, error state"
+      },
+      "infoBlue": {
+        "value": "#3b82f6",
+        "token": "--color-info-blue",
+        "role": "Rare info state or docs note"
+      }
+    }
+  },
+  "surfaces": {
+    "page": "#070707",
+    "panel": "#111111",
+    "raised": "#151515",
+    "hover": "#1f1f1f"
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": {
+        "name": "Domaine Display",
+        "fallbacks": ["Georgia", "serif"],
+        "role": "Hero headlines and major marketing display"
+      },
+      "mono": {
+        "name": "Commit Mono",
+        "fallbacks": ["JetBrains Mono", "SFMono-Regular", "Consolas", "monospace"],
+        "role": "Code, terminal, API keys, syntax, command rows"
+      },
+      "sans": {
+        "name": "Sans",
+        "fallbacks": ["Inter", "system-ui", "sans-serif"],
+        "role": "UI, body, nav, buttons, labels, docs copy"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500
+    },
+    "scale": {
+      "codeXs": {
+        "fontSize": "11px",
+        "lineHeight": 1.45,
+        "fontWeight": 400
+      },
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": 1.33,
+        "fontWeight": 500
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": 1.5,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": 1.5,
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "18px",
+        "lineHeight": 1.56,
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "lineHeight": 1.4,
+        "fontWeight": 500
+      },
+      "headingSm": {
+        "fontSize": "30px",
+        "lineHeight": 1.2,
+        "fontWeight": 500
+      },
+      "heading": {
+        "fontSize": "48px",
+        "lineHeight": 1.08,
+        "fontWeight": 500
+      },
+      "display": {
+        "fontSize": "72px",
+        "lineHeight": 1,
+        "fontWeight": 500
+      }
+    },
+    "letterSpacing": "normal"
+  },
+  "spacing": {
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "96px",
+    "cardPadding": "24px",
+    "elementGap": "12px",
+    "scale": ["4px", "6px", "8px", "12px", "16px", "20px", "24px", "32px", "48px", "64px", "96px"]
+  },
+  "shape": {
+    "radii": {
+      "tinyControls": "6px",
+      "buttons": "8px",
+      "cardsAndCodePanels": "12px",
+      "pills": "999px"
+    },
+    "border": {
+      "default": "1px solid #2a2a2a",
+      "strong": "1px solid #3a3a3a"
+    },
+    "elevation": {
+      "normalCards": "none",
+      "overlay": "0 16px 48px rgba(0,0,0,0.35)"
+    }
+  },
+  "components": {
+    "primaryCTA": {
+      "background": "#ffffff",
+      "color": "#070707",
+      "radius": "8px",
+      "padding": "10px 16px",
+      "font": "14px sans 500",
+      "usage": "main conversion action"
+    },
+    "darkSecondaryButton": {
+      "background": "#111111",
+      "color": "#ffffff",
+      "border": "1px solid #2a2a2a",
+      "radius": "8px",
+      "padding": "10px 16px"
+    },
+    "codePanel": {
+      "background": "#111111 or #151515",
+      "border": "1px solid #2a2a2a",
+      "radius": "12px",
+      "padding": "20px to 24px",
+      "font": "Commit Mono",
+      "accent": "violet syntax identifiers",
+      "shadow": "none or overlay shadow for hero artifact"
+    },
+    "terminalRow": {
+      "background": "transparent",
+      "prompt": "muted gray or violet",
+      "text": "13px Commit Mono",
+      "lineHeight": 1.5,
+      "spacing": "compact vertical rhythm"
+    },
+    "emailPreviewCard": {
+      "background": "#ffffff inside dark frame, or dark preview shell with white email body",
+      "frame": "#111111 with 1px #2a2a2a border",
+      "radius": "12px",
+      "header": "compact dark toolbar or metadata row",
+      "content": "white email surface for contrast"
+    },
+    "apiKeyRow": {
+      "background": "#111111",
+      "border": "1px solid #2a2a2a",
+      "radius": "8px",
+      "keyText": "Commit Mono muted gray",
+      "action": "copy icon/button at right"
+    },
+    "statusBadge": {
+      "background": "#151515",
+      "color": "semantic state color or muted gray",
+      "border": "1px solid #2a2a2a",
+      "radius": "999px",
+      "padding": "4px 10px",
+      "font": "12px sans 500"
+    },
+    "navigationBar": {
+      "background": "transparent or rgba(7,7,7,0.86)",
+      "text": "muted gray, 14px sans",
+      "cta": "white primary button",
+      "border": "optional 1px solid #1f1f1f",
+      "backdrop": "subtle blur only if sticky"
+    },
+    "docsCard": {
+      "background": "#111111",
+      "border": "1px solid #2a2a2a",
+      "radius": "12px",
+      "padding": "24px",
+      "title": "white sans",
+      "description": "muted gray",
+      "footer": "code label or link in violet"
+    }
+  },
+  "layout": {
+    "patterns": [
+      "Hero with Domaine headline, short sans subhead, CTA row, and code/email artifact",
+      "Code panel beside email preview",
+      "API key and DNS setup rows",
+      "Feature cards with docs-like descriptions",
+      "Email status dashboard with delivered, bounced, and failed states",
+      "Docs section with code snippets and copy buttons",
+      "Footer with compact monochrome links"
+    ],
+    "imagery": "Code snippets, email templates, inbox previews, DNS records, API logs, terminal commands, and dashboard cards"
+  },
+  "motion": {
+    "duration": "150ms to 200ms",
+    "easing": "ease",
+    "usage": "Quick hover and focus transitions; subtle readable code animations"
+  },
+  "do": [
+    "Use black velvet surfaces and graphite borders.",
+    "Use white as the main CTA color.",
+    "Use violet only for code and developer-oriented states.",
+    "Use Domaine Display for hero headlines.",
+    "Use Commit Mono for code, terminal, API keys, and syntax.",
+    "Use email previews and code snippets as primary visuals.",
+    "Keep developer UI compact and precise.",
+    "Use 12px cards and code panels."
+  ],
+  "dont": [
+    "Do not use violet as a full hero background.",
+    "Do not add rainbow syntax everywhere.",
+    "Do not use playful illustrations or lifestyle photography.",
+    "Do not use large rounded consumer cards.",
+    "Do not add bright gradients.",
+    "Do not use serif display inside dense UI.",
+    "Do not make docs or API rows visually loud."
+  ]
+}

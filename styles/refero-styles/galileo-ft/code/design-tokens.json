@@ -1,0 +1,110 @@
+{
+  "name": "Galileo-ft",
+  "slug": "galileo-ft",
+  "source": {
+    "provider": "refero",
+    "url": "https://styles.refero.design/style/10a77cbd-7847-4e1b-a09e-447ebad0f7c6",
+    "referenceUrl": "https://www.galileo-ft.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "dark",
+  "color": {
+    "voidNavy": { "value": "#03081a", "role": "page canvas" },
+    "deepIndigo": { "value": "#020626", "role": "card and panel surface" },
+    "inklineViolet": { "value": "#292f66", "role": "hairline border" },
+    "duskIris": { "value": "#4d5499", "role": "muted border" },
+    "mistLilac": { "value": "#7a83cc", "role": "tertiary text" },
+    "quartzLavender": { "value": "#aab1f2", "role": "secondary text and link border" },
+    "glacierWhite": { "value": "#f5f6ff", "role": "light surface" },
+    "pureWhite": { "value": "#ffffff", "role": "primary text" },
+    "pulseCobalt": { "value": "#3d50fc", "role": "primary action" },
+    "signalTeal": { "value": "#05e0e0", "role": "supporting signal" },
+    "cyanTeal": { "value": "#05cee0", "role": "decorative gradient origin" }
+  },
+  "gradient": {
+    "tealBlue": {
+      "value": "linear-gradient(90deg, #05a1c9 0%, #3d50fc 100%)",
+      "role": "full-bleed announcement and brand banners"
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "times": "Times, \"Times New Roman\", serif",
+      "plain": "Plain, \"Inter Light\", \"Neue Haas Grotesk Display Thin\", \"Untitled Sans Light\", system-ui, sans-serif",
+      "plainLight": "\"Plain Light\", \"Inter Light\", \"Untitled Sans Light\", system-ui, sans-serif",
+      "plainUltralight": "\"Plain Ultralight\", \"Inter ExtraLight\", \"Neue Haas Grotesk Display Thin\", system-ui, sans-serif",
+      "plainUltrathin": "\"Plain Ultrathin\", \"Inter Thin\", \"Neue Haas Grotesk Display Thin\", system-ui, sans-serif"
+    },
+    "scale": {
+      "eyebrow": { "size": "10px", "weight": 400, "lineHeight": 1.2, "letterSpacing": "2.5px" },
+      "caption": { "size": "12px", "weight": 300, "lineHeight": 1.5, "letterSpacing": "0" },
+      "body": { "size": "16px", "weight": 300, "lineHeight": 1.3, "letterSpacing": "0" },
+      "subheading": { "size": "28px", "weight": 100, "lineHeight": 1.3, "letterSpacing": "-0.56px" },
+      "headingSm": { "size": "42px", "weight": 100, "lineHeight": 1.1, "letterSpacing": "-0.84px" },
+      "heading": { "size": "56px", "weight": 100, "lineHeight": 1.1, "letterSpacing": "-1.12px" },
+      "headingLg": { "size": "83px", "weight": 100, "lineHeight": 1, "letterSpacing": "-1.66px" },
+      "display": { "size": "147px", "weight": 100, "lineHeight": 0.8, "letterSpacing": "-2.94px" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "scale": {
+      "4": "4px",
+      "16": "16px",
+      "20": "20px",
+      "52": "52px",
+      "64": "64px",
+      "104": "104px",
+      "196": "196px"
+    },
+    "layout": {
+      "maxWidth": "1200px",
+      "sectionGap": "64px",
+      "cardPadding": "32px",
+      "elementGap": "9px"
+    }
+  },
+  "radius": {
+    "tags": "17px",
+    "cards": "35px",
+    "inputs": "35px",
+    "buttons": "48px"
+  },
+  "surfaces": {
+    "voidCanvas": "#03081a",
+    "deepIndigoCard": "#020626",
+    "lightContentSurface": "#ffffff"
+  },
+  "components": {
+    "primaryFilledButton": {
+      "background": "#3d50fc",
+      "color": "#ffffff",
+      "radius": "48px",
+      "padding": "14px 22px",
+      "shadow": "none"
+    },
+    "darkCard": {
+      "background": "#020626",
+      "border": "1px solid #292f66",
+      "radius": "35px",
+      "padding": "32px",
+      "shadow": "none"
+    },
+    "tabPill": {
+      "activeBackground": "#3d50fc",
+      "inactiveBorder": "1px solid #4d5499",
+      "radius": "17px",
+      "padding": "14px 22px"
+    },
+    "outlinedLink": {
+      "color": "#aab1f2",
+      "borderBottom": "1px solid #aab1f2",
+      "textDecoration": "none"
+    },
+    "announcementBar": {
+      "background": "{gradient.tealBlue.value}",
+      "color": "#ffffff"
+    }
+  }
+}
+

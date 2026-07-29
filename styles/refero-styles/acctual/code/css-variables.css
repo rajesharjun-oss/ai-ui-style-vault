@@ -1,0 +1,93 @@
+:root {
+  --acctual-color-electric-blue: #0098f2;
+  --acctual-color-iris: #6c56fc;
+  --acctual-color-magenta: #f200ca;
+  --acctual-color-leaf: #5d9c06;
+  --acctual-color-coral: #ff6363;
+  --acctual-color-ice: #cfeafa;
+  --acctual-color-lavender: #e1e0fc;
+  --acctual-color-blush: #f6d2f4;
+
+  --acctual-color-carbon: #0f0f0f;
+  --acctual-color-midnight: #0d111b;
+  --acctual-color-ink: #1e1e1e;
+  --acctual-color-smoke: #666666;
+  --acctual-color-fog: #8d8d8d;
+  --acctual-color-ash: #999999;
+  --acctual-color-concrete: #afb0b1;
+  --acctual-color-mist: #ccd1da;
+  --acctual-color-snow: #f7fafc;
+  --acctual-color-soft-surface: #fafafa;
+  --acctual-color-paper: #ffffff;
+
+  --acctual-font-open-runde: "Open Runde", Inter, "DM Sans", Outfit, Arial, sans-serif;
+  --acctual-font-caveat: Caveat, "Dancing Script", Kalam, cursive;
+  --acctual-font-system-small: "SF Pro Text", Inter, system-ui, sans-serif;
+
+  --acctual-text-eyebrow: 11px;
+  --acctual-text-body-sm: 14px;
+  --acctual-text-body: 16px;
+  --acctual-text-body-lg: 22px;
+  --acctual-text-subheading: 24px;
+  --acctual-text-heading-sm: 32px;
+  --acctual-text-heading: 40px;
+  --acctual-text-heading-lg: 48px;
+  --acctual-text-display: 64px;
+
+  --acctual-leading-eyebrow: 1.62;
+  --acctual-leading-body-sm: 1.43;
+  --acctual-leading-body: 1.5;
+  --acctual-leading-body-lg: 1.29;
+  --acctual-leading-subheading: 1.33;
+  --acctual-leading-heading-sm: 1.25;
+  --acctual-leading-heading: 1.2;
+  --acctual-leading-heading-lg: 1.17;
+  --acctual-leading-display: 1.13;
+
+  --acctual-tracking-eyebrow: 0.22px;
+  --acctual-tracking-body-sm: -0.28px;
+  --acctual-tracking-body: -0.32px;
+  --acctual-tracking-subheading: -0.72px;
+  --acctual-tracking-heading-sm: -0.96px;
+  --acctual-tracking-heading: -1.2px;
+  --acctual-tracking-heading-lg: -1.44px;
+  --acctual-tracking-display: -1.92px;
+
+  --acctual-weight-regular: 400;
+  --acctual-weight-medium: 500;
+  --acctual-weight-semibold: 600;
+
+  --acctual-space-unit: 4px;
+  --acctual-space-4: 4px;
+  --acctual-space-8: 8px;
+  --acctual-space-12: 12px;
+  --acctual-space-16: 16px;
+  --acctual-space-20: 20px;
+  --acctual-space-24: 24px;
+  --acctual-space-28: 28px;
+  --acctual-space-32: 32px;
+  --acctual-space-36: 36px;
+  --acctual-space-40: 40px;
+  --acctual-space-48: 48px;
+  --acctual-space-64: 64px;
+  --acctual-space-80: 80px;
+  --acctual-space-96: 96px;
+
+  --acctual-page-max-width: 1200px;
+  --acctual-section-gap: 96px;
+  --acctual-card-padding: 24px;
+  --acctual-element-gap: 12px;
+
+  --acctual-radius-lg: 10px;
+  --acctual-radius-card: 16px;
+  --acctual-radius-image: 20px;
+  --acctual-radius-large-card: 32px;
+  --acctual-radius-pill: 100px;
+  --acctual-radius-icon: 888px;
+
+  --acctual-shadow-subtle: rgba(10, 13, 20, 0.03) 0px 1px 2px 0px;
+  --acctual-shadow-button: rgb(36, 38, 40) 0px 0px 0px 1px, rgba(27, 28, 29, 0.48) 0px 1px 2px 0px;
+  --acctual-shadow-elevated-card: rgba(0, 0, 0, 0.05) 0px 1.78px 8px 0px, rgba(0, 0, 0, 0.04) 0px 0.89px 2.67px 0px;
+  --acctual-shadow-soft-card: rgba(0, 0, 0, 0.06) 0px 2px 3px -1px;
+}
+

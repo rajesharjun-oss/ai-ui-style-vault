@@ -1,0 +1,186 @@
+{
+  "name": "Clyde",
+  "slug": "clyde",
+  "sourceUrl": "https://styles.refero.design/style/39098e34-b911-4ad3-bcb5-ee80a392cd95",
+  "referenceSite": "https://joinclyde.com",
+  "theme": "dark",
+  "tokens": {
+    "color": {
+      "obsidian": {
+        "value": "#000000",
+        "role": "Main dark canvas, dark borders, inverted UI"
+      },
+      "char": {
+        "value": "#1a1a1a",
+        "role": "Near-black edge and subtle dark surface layer"
+      },
+      "slate": {
+        "value": "#7d7d7d",
+        "role": "Mid-gray controls, active filters, muted fills"
+      },
+      "bone": {
+        "value": "#f6f6f4",
+        "role": "Warm text, light surface, ghost borders"
+      },
+      "paper": {
+        "value": "#ffffff",
+        "role": "Inner product-image containers and bright cards"
+      },
+      "solstice": {
+        "value": "#ff8400",
+        "role": "Center stop of decorative Solstice Gradient"
+      }
+    },
+    "gradient": {
+      "solstice": {
+        "value": "linear-gradient(90deg, #feed7a 0%, #ff8400 48.96%, #df91f7 100%)",
+        "role": "Decorative 3D shape and limited product accent"
+      }
+    },
+    "font": {
+      "display": {
+        "family": "Recoleta",
+        "fallback": "GT Super",
+        "weights": [400],
+        "features": ["clig", "liga"]
+      },
+      "primary": {
+        "family": "Oldschool Grotesk",
+        "fallback": "Inter",
+        "weights": [300, 400],
+        "features": ["clig", "liga"]
+      },
+      "annotation": {
+        "family": "Times system fallback",
+        "fallback": "Georgia",
+        "weights": [400]
+      }
+    },
+    "typography": {
+      "bodySmall": {
+        "fontSize": "15px",
+        "fontWeight": "300-400",
+        "lineHeight": 1.6,
+        "letterSpacing": "0.15px"
+      },
+      "body": {
+        "fontSize": "16px",
+        "fontWeight": "300-400",
+        "lineHeight": "1.4-1.6",
+        "letterSpacing": "-0.16px"
+      },
+      "bodyLarge": {
+        "fontSize": "21px",
+        "fontWeight": 300,
+        "lineHeight": 1.3,
+        "letterSpacing": "-0.42px"
+      },
+      "subheading": {
+        "fontSize": "36px",
+        "fontWeight": 400,
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.36px"
+      },
+      "headingSmall": {
+        "fontSize": "47px",
+        "fontWeight": 400,
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.94px"
+      },
+      "heading": {
+        "fontSize": "61px",
+        "fontWeight": 400,
+        "lineHeight": 1.1,
+        "letterSpacing": "-1.22px"
+      },
+      "headingLarge": {
+        "fontSize": "80px",
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": "-2.4px"
+      },
+      "display": {
+        "fontSize": "125px",
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": "-3.75px"
+      }
+    },
+    "spacing": {
+      "unit": "4px",
+      "scale": {
+        "20": "20px",
+        "24": "24px",
+        "44": "44px",
+        "64": "64px",
+        "80": "80px",
+        "92": "92px",
+        "100": "100px",
+        "144": "144px"
+      },
+      "layout": {
+        "maxWidth": "1200px",
+        "sectionGap": "80px",
+        "cardPadding": "24px",
+        "elementGap": "20px"
+      }
+    },
+    "radius": {
+      "inputs": "4px",
+      "links": "12px",
+      "cards": "16px",
+      "largePanels": "38px",
+      "tags": "100px",
+      "buttons": "100px"
+    },
+    "shadow": {
+      "default": "none"
+    },
+    "surface": {
+      "canvas": "#000000",
+      "light": "#f6f6f4",
+      "paper": "#ffffff",
+      "char": "#1a1a1a",
+      "slate": "#7d7d7d"
+    }
+  },
+  "components": {
+    "announcementBar": {
+      "background": "#f6f6f4",
+      "text": "#000000",
+      "paddingY": "12px"
+    },
+    "heroDisplay": {
+      "background": "#000000",
+      "text": "#f6f6f4",
+      "headingSize": "80px-125px",
+      "accent": "Solstice Gradient decorative shape"
+    },
+    "filledPillButton": {
+      "background": "#000000",
+      "text": "#f6f6f4",
+      "radius": "100px",
+      "padding": "20px 28px"
+    },
+    "ghostPillButton": {
+      "background": "transparent",
+      "text": "#f6f6f4",
+      "border": "1px solid #f6f6f4",
+      "radius": "100px",
+      "padding": "20px 28px"
+    },
+    "productProtectionCard": {
+      "background": "#f6f6f4",
+      "text": "#000000",
+      "radius": "16px",
+      "padding": "24px",
+      "innerContainer": "#ffffff"
+    },
+    "caseStudyCard": {
+      "background": "#1a1a1a",
+      "text": "#f6f6f4",
+      "radius": "16px",
+      "padding": "24px"
+    }
+  }
+}

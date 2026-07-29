@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --font-clickup-display: "Plus Jakarta Sans", Inter, "General Sans", Arial, sans-serif;
+  --font-clickup-body: Inter, system-ui, Arial, sans-serif;
+  --font-clickup-mono: "Sometype Mono", "JetBrains Mono", "IBM Plex Mono", monospace;
+
+  --color-clickup-signal-white: #ffffff;
+  --color-clickup-ink-black: #202020;
+  --color-clickup-onyx: #090c1d;
+  --color-clickup-carbon: #2a2a2a;
+  --color-clickup-slate: #646464;
+  --color-clickup-ash: #838383;
+  --color-clickup-fog: #b3b3b3;
+  --color-clickup-cloud: #d4d4d4;
+  --color-clickup-bone: #e8e8e8;
+  --color-clickup-plaster: #e9ebf0;
+  --color-clickup-mercury: #eeeeee;
+  --color-clickup-mist: #f8f9fa;
+  --color-clickup-brand-violet: #6647f0;
+  --color-clickup-signal-blue: #0091ff;
+  --color-clickup-mint: #6ee7b7;
+  --color-clickup-emerald: #00c07a;
+  --color-clickup-teal-tag: #16c0a4;
+
+  --text-clickup-body-sm: 14px;
+  --leading-clickup-body-sm: 1.5;
+  --tracking-clickup-body-sm: -0.01px;
+  --text-clickup-body: 16px;
+  --leading-clickup-body: 1.5;
+  --tracking-clickup-body: -0.01px;
+  --text-clickup-subheading: 20px;
+  --leading-clickup-subheading: 1.5;
+  --tracking-clickup-subheading: -0.02px;
+  --text-clickup-heading-sm: 34px;
+  --leading-clickup-heading-sm: 1.2;
+  --tracking-clickup-heading-sm: -0.04em;
+  --text-clickup-heading: 48px;
+  --leading-clickup-heading: 1.25;
+  --tracking-clickup-heading: -0.035em;
+  --text-clickup-heading-lg: 60px;
+  --leading-clickup-heading-lg: 1.1;
+  --tracking-clickup-heading-lg: -0.035em;
+  --text-clickup-display: 80px;
+  --leading-clickup-display: 1.2;
+  --tracking-clickup-display: -0.04em;
+
+  --spacing-clickup-4: 4px;
+  --spacing-clickup-8: 8px;
+  --spacing-clickup-12: 12px;
+  --spacing-clickup-16: 16px;
+  --spacing-clickup-20: 20px;
+  --spacing-clickup-24: 24px;
+  --spacing-clickup-28: 28px;
+  --spacing-clickup-32: 32px;
+  --spacing-clickup-40: 40px;
+  --spacing-clickup-48: 48px;
+  --spacing-clickup-52: 52px;
+  --spacing-clickup-56: 56px;
+  --spacing-clickup-72: 72px;
+  --spacing-clickup-80: 80px;
+  --spacing-clickup-100: 100px;
+  --spacing-clickup-max: 1200px;
+
+  --radius-clickup-input: 9px;
+  --radius-clickup-card: 12px;
+  --radius-clickup-image: 16px;
+  --radius-clickup-large-card: 20px;
+  --radius-clickup-tag: 100px;
+  --radius-clickup-pill: 9999px;
+}
+
+@utility clickup-container {
+  width: min(100% - 32px, var(--spacing-clickup-max));
+  margin-inline: auto;
+}
+
+@utility clickup-display {
+  color: var(--color-clickup-onyx);
+  font-family: var(--font-clickup-display);
+  font-size: clamp(48px, 7vw, var(--text-clickup-display));
+  font-weight: 700;
+  line-height: var(--leading-clickup-display);
+  letter-spacing: var(--tracking-clickup-display);
+}
+
+@utility clickup-pill {
+  border-radius: var(--radius-clickup-pill);
+}
+
+@utility clickup-card {
+  border: 1px solid var(--color-clickup-bone);
+  border-radius: var(--radius-clickup-card);
+  background: var(--color-clickup-mist);
+}
+
+@utility clickup-conic-border {
+  background: conic-gradient(from 90deg, #7d5be7 19%, #bc3fda 28%, #fa24ce 37%, #fb49a5 45%, #fc6d7b 52%, #fd8461 55%, #fd9a46 58%, #f687c6 65%, #a3a0e0 80%, #4fb9fa 95%, #0091ff 100%);
+  padding: 2px;
+}
+

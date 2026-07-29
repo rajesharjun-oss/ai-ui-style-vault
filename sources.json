@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "name": "Refero Styles",
+      "slug": "refero-styles",
+      "url": "https://styles.refero.design/",
+      "captureMode": "manual-review",
+      "defaultLicenseStatus": "inspiration-only-unless-explicitly-licensed",
+      "recommendedArtifacts": [
+        "DESIGN.md",
+        "Tailwind v4 tokens when available",
+        "CSS variables when available",
+        "Design tokens when available",
+        "source link",
+        "AI implementation prompt",
+        "manual notes"
+      ]
+    },
+    {
+      "name": "shadcn/ui",
+      "slug": "shadcn-ui",
+      "url": "https://ui.shadcn.com/",
+      "captureMode": "open-source-reference",
+      "defaultLicenseStatus": "check-project-license",
+      "recommendedArtifacts": [
+        "component links",
+        "block links",
+        "usage notes",
+        "license notes"
+      ]
+    },
+    {
+      "name": "Figma Community",
+      "slug": "figma-community",
+      "url": "https://www.figma.com/community",
+      "captureMode": "license-review-required",
+      "defaultLicenseStatus": "varies-by-file",
+      "recommendedArtifacts": [
+        "file link",
+        "creator",
+        "license notes",
+        "tags",
+        "AI usage notes"
+      ]
+    }
+  ]
+}
+

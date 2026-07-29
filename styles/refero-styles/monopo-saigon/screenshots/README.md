@@ -1,0 +1,7 @@
+# Screenshots
+
+No local screenshots were downloaded for this capture.
+
+Source reference:
+
+https://styles.refero.design/style/3e52dd36-6ab1-48c6-bc40-47ef6d33abc2

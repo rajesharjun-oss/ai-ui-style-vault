@@ -1,0 +1,69 @@
+@theme {
+  --font-epic-display: "Sang Bleu", Georgia, serif;
+  --font-epic-ui: "Inter", system-ui, sans-serif;
+
+  --color-epic-void: #110329;
+  --color-epic-midnight-plum: #1b0642;
+  --color-epic-cosmic-violet: #532fbc;
+  --color-epic-astral-blue: #2d4fa8;
+  --color-epic-lunar-lilac: #cfc1ff;
+  --color-epic-nebula-lavender: #dbc9ff;
+  --color-epic-star-mist: #f4efff;
+  --color-epic-galactic-gold: #bc994e;
+  --color-epic-ember: #e3562d;
+  --color-epic-signal-green: #3c8900;
+
+  --radius-epic-menu: 0px;
+  --radius-epic-panel: 16px;
+  --radius-epic-button: 28px;
+  --radius-epic-chip: 9999px;
+
+  --spacing-epic-1: 4px;
+  --spacing-epic-2: 8px;
+  --spacing-epic-3: 12px;
+  --spacing-epic-5: 20px;
+  --spacing-epic-8: 32px;
+  --spacing-epic-12: 50px;
+  --spacing-epic-20: 80px;
+  --spacing-epic-30: 120px;
+  --spacing-epic-max: 1200px;
+
+  --text-epic-micro: 11px;
+  --text-epic-micro--line-height: 1.2;
+  --text-epic-caption: 13px;
+  --text-epic-caption--line-height: 1.45;
+  --text-epic-body: 16px;
+  --text-epic-body--line-height: 1.6;
+  --text-epic-statement: 42px;
+  --text-epic-statement--line-height: 1;
+  --text-epic-hero: 80px;
+  --text-epic-hero--line-height: 0.95;
+  --text-epic-monumental: 120px;
+  --text-epic-monumental--line-height: 0.9;
+}
+
+@utility epic-page {
+  background: var(--color-epic-void);
+  color: var(--color-epic-lunar-lilac);
+  font-family: var(--font-epic-ui);
+}
+
+@utility epic-hero-title {
+  color: var(--color-epic-star-mist);
+  font-family: var(--font-epic-display);
+  font-size: clamp(56px, 11vw, var(--text-epic-monumental));
+  line-height: var(--text-epic-monumental--line-height);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+@utility epic-cta {
+  border-radius: var(--radius-epic-button);
+  border: 1px solid rgba(244, 239, 255, 0.22);
+  background: var(--color-epic-cosmic-violet);
+  color: var(--color-epic-star-mist);
+  padding: 10px 22px;
+  font-family: var(--font-epic-ui);
+  font-size: 14px;
+  font-weight: 600;
+}

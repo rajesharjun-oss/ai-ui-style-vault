@@ -1,0 +1,97 @@
+@theme {
+  --color-phoenix-orange: #e8400d;
+  --color-midnight-indigo: #10054d;
+  --color-charcoal: #272625;
+  --color-ink: #111111;
+  --color-canvas-white: #ffffff;
+  --color-cream-wash: #f6f5f3;
+  --color-ash: #6d6c6b;
+  --color-stone: #b1b1af;
+  --color-pearl: #ecebea;
+  --color-petal-pink: #ffd7f0;
+  --color-mint-green: #b7efb2;
+  --color-canary-yellow: #ffef99;
+  --color-soft-violet: #e2ddfd;
+  --color-aqua: #99fff9;
+  --color-indigo-deep: #2e2460;
+
+  --font-labil: "Labil Grotesk Variable", Inter, "DM Sans", "General Sans Variable", Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-eyebrow: 10px;
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-body-lg: 20px;
+  --text-subheading: 28px;
+  --text-heading-sm: 36px;
+  --text-heading: 44px;
+  --text-heading-lg: 56px;
+  --text-display: 84px;
+
+  --radius-button: 8px;
+  --radius-card: 12px;
+  --radius-input: 12px;
+  --radius-badge: 9999px;
+  --radius-small: 4px;
+
+  --spacing-element: 12px;
+  --spacing-card: 20px;
+  --spacing-section: 96px;
+  --spacing-page-max: 1200px;
+}
+
+@utility amplemarket-page {
+  background: var(--color-canvas-white);
+  color: var(--color-ink);
+  font-family: var(--font-labil);
+}
+
+@utility amplemarket-hero-wash {
+  background: radial-gradient(386.06% 162.79% at 3.77% -12.1%, var(--color-phoenix-orange) 0%, #ffeed8 31.14%, #d0b2ff 81.98%);
+}
+
+@utility amplemarket-heading {
+  color: var(--color-ink);
+  font-family: var(--font-labil);
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+@utility amplemarket-display {
+  color: var(--color-ink);
+  font-family: var(--font-labil);
+  font-size: var(--text-display);
+  font-weight: 900;
+  letter-spacing: -2.52px;
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+@utility amplemarket-card {
+  background: var(--color-canvas-white);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: var(--radius-card);
+  padding: var(--spacing-card);
+}
+
+@utility amplemarket-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-ink);
+  color: var(--color-canvas-white);
+  padding: 12px 16px;
+  font-family: var(--font-labil);
+  font-size: var(--text-body);
+  font-weight: 400;
+}
+
+@utility amplemarket-pastel-card {
+  border: 0;
+  border-radius: var(--radius-card);
+  padding: 16px 20px;
+  box-shadow: none;
+}

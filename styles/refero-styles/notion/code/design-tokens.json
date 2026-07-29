@@ -1,0 +1,343 @@
+{
+  "name": "Notion",
+  "slug": "notion",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/2bf4c61f-de10-4614-ba1b-20c0453bd2a9",
+    "productUrl": "https://notion.so"
+  },
+  "theme": {
+    "mode": "light",
+    "summary": "Warm paper notebook under afternoon sun.",
+    "principles": [
+      "Use warm off-white as the page canvas.",
+      "Use white cards with hairline borders instead of shadows.",
+      "Reserve blue for the single primary action.",
+      "Use accent hues for feature cards, highlight pills, and decorative marks.",
+      "Use tight display typography and sparse editorial serif moments."
+    ]
+  },
+  "colors": {
+    "brand": {
+      "notionBlue": {
+        "value": "#0075de",
+        "token": "--color-notion-blue",
+        "role": "Primary CTA fill, active accent, filled action buttons"
+      }
+    },
+    "neutral": {
+      "inkBlack": {
+        "value": "#000000",
+        "token": "--color-ink-black",
+        "role": "Primary text and alpha-based hierarchy"
+      },
+      "charcoal": {
+        "value": "#111111",
+        "token": "--color-charcoal",
+        "role": "Soft dark text variant"
+      },
+      "graphite": {
+        "value": "#615d59",
+        "token": "--color-graphite",
+        "role": "Warm body text"
+      },
+      "slate": {
+        "value": "#696969",
+        "token": "--color-slate",
+        "role": "Card body text and secondary content"
+      },
+      "stone": {
+        "value": "#757575",
+        "token": "--color-stone",
+        "role": "Muted nav, helper text, disabled labels"
+      },
+      "paperWarmth": {
+        "value": "#f6f5f4",
+        "token": "--color-paper-warmth",
+        "role": "Page canvas and hero background"
+      },
+      "pureWhite": {
+        "value": "#ffffff",
+        "token": "--color-pure-white",
+        "role": "Card surfaces and elevated panels"
+      }
+    },
+    "accent": {
+      "skyTint": {
+        "value": "#e6f3fe",
+        "token": "--color-sky-tint",
+        "role": "Ghost CTA background and soft blue hover states"
+      },
+      "marigold": {
+        "value": "#ffb110",
+        "token": "--color-marigold",
+        "role": "Hero pills, warm callouts, feature-card background"
+      },
+      "coral": {
+        "value": "#f64932",
+        "token": "--color-coral",
+        "role": "Decorative feature cards and warm highlight variation"
+      },
+      "saffron": {
+        "value": "#e89d01",
+        "token": "--color-saffron",
+        "role": "Secondary warm panel fill"
+      },
+      "vermillion": {
+        "value": "#e32d14",
+        "token": "--color-vermillion",
+        "role": "Deep coral accent panel"
+      },
+      "mocha": {
+        "value": "#b18164",
+        "token": "--color-mocha",
+        "role": "Earthy warm accent panel"
+      },
+      "signalBlue": {
+        "value": "#097fe8",
+        "token": "--color-signal-blue",
+        "role": "Decorative blue card and mark accent"
+      },
+      "skyWash": {
+        "value": "#62aef0",
+        "token": "--color-sky-wash",
+        "role": "Light blue accent panel and airy highlight"
+      },
+      "midnightInk": {
+        "value": "#02093a",
+        "token": "--color-midnight-ink",
+        "role": "Dark feature card and inverted panel"
+      }
+    }
+  },
+  "surfaces": {
+    "pageCanvas": "#f6f5f4",
+    "cardSurface": "#ffffff",
+    "accentCardSurface": "#ffb110",
+    "darkCardSurface": "#02093a"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": {
+        "name": "NotionInter",
+        "fallbacks": ["Inter", "system-ui", "sans-serif"],
+        "role": "Primary sans for UI, body, nav, cards, and display"
+      },
+      "editorial": {
+        "name": "Lyon Text",
+        "fallbacks": ["Source Serif Pro", "Georgia", "serif"],
+        "role": "Sparse editorial intros and body moments"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": 1.33,
+        "letterSpacing": "0.12px",
+        "fontWeight": 400
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": 1.43,
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": 1.5,
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "lineHeight": 1,
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "headingSm": {
+        "fontSize": "22px",
+        "lineHeight": 1.27,
+        "letterSpacing": "-0.242px",
+        "fontWeight": 700
+      },
+      "heading": {
+        "fontSize": "40px",
+        "lineHeight": 1.5,
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "headingLg": {
+        "fontSize": "48px",
+        "lineHeight": 1.5,
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "displaySm": {
+        "fontSize": "54px",
+        "lineHeight": 1.04,
+        "letterSpacing": "-1.89px",
+        "fontWeight": 700
+      },
+      "display": {
+        "fontSize": "72px",
+        "lineHeight": 1.21,
+        "letterSpacing": "-2.016px",
+        "fontWeight": 500
+      },
+      "displayLg": {
+        "fontSize": "96px",
+        "lineHeight": 1.04,
+        "letterSpacing": "-4.608px",
+        "fontWeight": 600
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1440px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "36px", "64px", "80px"]
+  },
+  "shape": {
+    "radii": {
+      "small": "4px",
+      "buttons": "8px",
+      "cards": "12px",
+      "pills": "9999px"
+    },
+    "border": {
+      "hairline": "1px solid rgba(0,0,0,0.08)"
+    },
+    "elevation": {
+      "contentCards": "none",
+      "nav": "0 0.7px 1.462px rgba(0,0,0,0.015), 0 3px 9px rgba(0,0,0,0.03)",
+      "productMockup": "0 4px 12px rgba(0,0,0,0.1)"
+    }
+  },
+  "components": {
+    "primaryCTAButton": {
+      "background": "#0075de",
+      "color": "#ffffff",
+      "radius": "8px",
+      "padding": "6px 15px",
+      "font": "14px NotionInter 500"
+    },
+    "ghostCTAButton": {
+      "background": "#e6f3fe",
+      "color": "#0075de",
+      "radius": "8px",
+      "padding": "6px 15px",
+      "font": "14px NotionInter 500"
+    },
+    "ghostTextButton": {
+      "background": "transparent",
+      "color": "rgba(0,0,0,0.95)",
+      "radius": "8px",
+      "padding": "6px 15px"
+    },
+    "outlinedTextButton": {
+      "background": "transparent",
+      "color": "rgba(0,0,0,0.9)",
+      "border": "1px solid rgba(0,0,0,0.9)",
+      "radius": "4px",
+      "padding": "5px 10px"
+    },
+    "mutedNavLink": {
+      "background": "transparent",
+      "color": "rgba(0,0,0,0.54)",
+      "radius": "8px",
+      "padding": "12px 16px",
+      "hover": "darken text toward #000000"
+    },
+    "pillTag": {
+      "background": "accent fill",
+      "color": "#000000 or #ffffff",
+      "radius": "9999px",
+      "padding": "4px 12px"
+    },
+    "heroHighlightPill": {
+      "background": "#ffb110, #f64932, or peach variant",
+      "color": "#000000",
+      "radius": "9999px",
+      "padding": "8px 24px",
+      "placement": "inline within display headline"
+    },
+    "whiteFeatureCard": {
+      "background": "#ffffff",
+      "border": "1px solid rgba(0,0,0,0.08)",
+      "radius": "12px",
+      "padding": "24px",
+      "shadow": "none"
+    },
+    "accentFeatureCard": {
+      "background": "#ffb110, #f64932, #62aef0, #e6f3fe, or #02093a",
+      "radius": "12px",
+      "padding": "24px",
+      "border": "none"
+    },
+    "kanbanTaskCard": {
+      "background": "#ffffff",
+      "border": "1px solid rgba(0,0,0,0.08)",
+      "radius": "8px",
+      "padding": "8px 12px",
+      "font": "14px NotionInter 500"
+    },
+    "avatarCharacterMark": {
+      "size": "40px to 48px",
+      "shape": "circle",
+      "border": "2px accent border",
+      "fill": "#ffffff",
+      "role": "decorative punctuation"
+    }
+  },
+  "motion": {
+    "duration": "200ms",
+    "easing": "ease",
+    "springUse": "character marks and hero elements only"
+  },
+  "imagery": {
+    "style": "Illustration-first and product-mockup-led, no lifestyle photography",
+    "rules": [
+      "Use product UI mockups for real visuals.",
+      "Use decorative character marks and hand-drawn accents as punctuation.",
+      "Avoid stock photos, glossy 3D renders, and gradients."
+    ]
+  },
+  "layout": {
+    "maxWidth": "1440px",
+    "hero": "Centered stack with character marks, large headline, highlight pill, subhead, CTA row, and product UI mockup",
+    "sections": [
+      "White card grids on warm canvas",
+      "Colored accent feature panels",
+      "Two-column text plus product panel rows",
+      "Greyscale logo wall"
+    ]
+  },
+  "do": [
+    "Use #f6f5f4 as the page canvas and #ffffff for cards.",
+    "Reserve #0075de for the main filled action.",
+    "Apply negative tracking to display sizes.",
+    "Use 1px rgba(0,0,0,0.08) borders instead of card shadows.",
+    "Use 12px card radius, 8px button radius, and 9999px pills.",
+    "Use accent colors for feature-card backgrounds.",
+    "Keep motion near 200ms ease."
+  ],
+  "dont": [
+    "Do not use pure white as the page background.",
+    "Do not add shadows to normal content cards.",
+    "Do not use multiple chromatic filled button colors.",
+    "Do not use full-opacity black for every text layer.",
+    "Do not use Lyon Text for UI labels or navigation.",
+    "Do not use rectangular card radius above 12px.",
+    "Do not use gradients as the core surface treatment."
+  ]
+}

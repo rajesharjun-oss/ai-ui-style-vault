@@ -1,0 +1,62 @@
+@theme {
+  --color-eggshell: #fdfcfc;
+  --color-warm-taupe: #f5f3f1;
+  --color-stone: #ebe8e4;
+  --color-ink: #000000;
+  --color-graphite: #44403b;
+  --color-smoke: #777169;
+  --color-ash: #a59f97;
+  --color-violet-spark: #0447ff;
+  --color-ember-orange: #ff4704;
+
+  --font-waldenburg: "Waldenburg", Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-inter: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-geist-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-96: 96px;
+  --spacing-160: 160px;
+
+  --radius-eleven-button: 9999px;
+  --radius-eleven-card: 20px;
+  --radius-eleven-large-card: 24px;
+
+  --shadow-eleven-subtle: rgba(0, 0, 0, 0.4) 0px 0px 1px 0px, rgba(0, 0, 0, 0.04) 0px 1px 1px 0px, rgba(0, 0, 0, 0.04) 0px 2px 4px 0px;
+}
+
+@utility eleven-page {
+  background: var(--color-eggshell);
+  color: var(--color-ink);
+  font-family: var(--font-inter);
+}
+
+@utility eleven-heading {
+  font-family: var(--font-waldenburg);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+@utility eleven-feature-card {
+  background: var(--color-warm-taupe);
+  border-radius: 20px;
+  box-shadow: none;
+  padding: 32px;
+}
+
+@utility eleven-pill {
+  border-radius: 9999px;
+}
+

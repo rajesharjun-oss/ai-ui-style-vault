@@ -1,0 +1,346 @@
+{
+    "id":  "369ac603-c1e9-4231-9369-a198493f8e47",
+    "name":  "Hyper Foundation",
+    "slug":  "hyper-foundation",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/369ac603-c1e9-4231-9369-a198493f8e47",
+                   "referenceSite":  "https://hyperliquid.xyz",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-05-07T12:16:40.461Z",
+                   "articleModifiedAt":  "2026-06-03T19:20:38.028Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/8422260f-9965-4f5a-892a-b058cbace612.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/b689977d-636e-45af-a0cb-315c8260452f.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/5b54ed32-06a1-469d-bcae-f95d7e23f775.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/d14e3826-db7e-4101-b110-0d6f2569fba2.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/3d3a3f45-9c44-43ff-874e-68572895e42d.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "dark",
+                           "category":  "Crypto",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "Crypto",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Living emerald sanctuary a deep forest vault where a single luminous mint glow breathes through organic, shadowed forms.",
+    "summary":  "Explore Hyper Foundation\u0027s dark Crypto design system: Forest Depths #072724, Midnight Tide #0f3933 colors, Teodor, Inter typography, and DESIGN.md for AI...",
+    "colors":  [
+                   {
+                       "name":  "Forest Depths",
+                       "value":  "#072724",
+                       "token":  "--color-forest-depths",
+                       "role":  "Page canvas, hero background, deep surface layer the dominant dark field that everything else floats on"
+                   },
+                   {
+                       "name":  "Midnight Tide",
+                       "value":  "#0f3933",
+                       "token":  "--color-midnight-tide",
+                       "role":  "Primary text on canvas, strong borders, secondary surface tint readable white-space-equivalent for dark mode"
+                   },
+                   {
+                       "name":  "Shadow Teal",
+                       "value":  "#23524c",
+                       "token":  "--color-shadow-teal",
+                       "role":  "Elevated surface, card fills, subtle borders one step lighter than the canvas for layer separation"
+                   },
+                   {
+                       "name":  "Charcoal Hairline",
+                       "value":  "#2c2e33",
+                       "token":  "--color-charcoal-hairline",
+                       "role":  "Subtle dividers and default 1px borders across cards, images, and icons almost invisible on the dark canvas, used for structural quietness"
+                   },
+                   {
+                       "name":  "Abyss Green",
+                       "value":  "#122d28",
+                       "token":  "--color-abyss-green",
+                       "role":  "Decorative background blob deepest atmospheric tint behind organic hero shapes"
+                   },
+                   {
+                       "name":  "Deep Lagoon",
+                       "value":  "#1c3f38",
+                       "token":  "--color-deep-lagoon",
+                       "role":  "Decorative mid-tone blob in the hero atmosphere, sits between canvas and surface"
+                   },
+                   {
+                       "name":  "Mist Gray",
+                       "value":  "#b0c5c1",
+                       "token":  "--color-mist-gray",
+                       "role":  "Muted body text, secondary descriptions, captions desaturated enough to recede behind the mint accent"
+                   },
+                   {
+                       "name":  "Pure Light",
+                       "value":  "#ffffff",
+                       "token":  "--color-pure-light",
+                       "role":  "Headline text on dark canvas, high-contrast text inside mint-filled buttons"
+                   },
+                   {
+                       "name":  "Mint Glow",
+                       "value":  "#97fcd7",
+                       "token":  "--color-mint-glow",
+                       "role":  "Green text accent for links, tags, and emphasized short phrases. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Teal Pulse",
+                       "value":  "#33998c",
+                       "token":  "--color-teal-pulse",
+                       "role":  "Mid-saturation teal for SVG strokes, secondary decorative accents, hover/transition states between dark surface and mint highlight"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Teodor Display and editorial headlines, brand statements, section titles. Custom serif with sharp contrast between thick and thin strokes; at 90px with 0.75 leading it creates a magazine-cover authority that is the signature typographic gesture of the site. Subheading scale at 24px carries the same character into smaller contexts. `--font-teodor`",
+                                     "Inter Body copy, UI labels, navigation, buttons, captions. The weight 300 default across most sizes keeps the interface quiet against the display serif the contrast between Teodor\u0027s editorial presence and Inter\u0027s whisper-light functional text is a defining rhythm of the system. `--font-inter`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "1.5",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "16px",
+                                             "1.5",
+                                             "",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "20px",
+                                             "1.3",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "24px",
+                                             "1.5",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "28px",
+                                             "1.3",
+                                             "",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "35px",
+                                             "1",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "55px",
+                                             "1",
+                                             "",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "90px",
+                                             "0.75",
+                                             "",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "9",
+                                      "9px",
+                                      "--spacing-9"
+                                  ],
+                                  [
+                                      "14",
+                                      "14px",
+                                      "--spacing-14"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "30",
+                                      "30px",
+                                      "--spacing-30"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "37",
+                                      "37px",
+                                      "--spacing-37"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "50",
+                                      "50px",
+                                      "--spacing-50"
+                                  ],
+                                  [
+                                      "90",
+                                      "90px",
+                                      "--spacing-90"
+                                  ],
+                                  [
+                                      "100",
+                                      "100px",
+                                      "--spacing-100"
+                                  ],
+                                  [
+                                      "113",
+                                      "113px",
+                                      "--spacing-113"
+                                  ],
+                                  [
+                                      "160",
+                                      "160px",
+                                      "--spacing-160"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80-100px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "20-24px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "24px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "tags",
+                                    "60px"
+                                ],
+                                [
+                                    "cards",
+                                    "12px"
+                                ],
+                                [
+                                    "buttons",
+                                    "60px"
+                                ],
+                                [
+                                    "largePills",
+                                    "37px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Pill Primary Button",
+                           "role":  "Main call-to-action (e.g. Start Trading, Launch App)"
+                       },
+                       {
+                           "name":  "Pill Ghost Button",
+                           "role":  "Secondary action (e.g. Start Building)"
+                       },
+                       {
+                           "name":  "Navigation Pill",
+                           "role":  "Top-right primary nav action (Launch App)"
+                       },
+                       {
+                           "name":  "Top Navigation Bar",
+                           "role":  "Global header"
+                       },
+                       {
+                           "name":  "Brand Mark / Logo Glyph",
+                           "role":  "Standalone brand icon (butterfly/dumbbell shape)"
+                       },
+                       {
+                           "name":  "Logo Lockup",
+                           "role":  "Brand identifier in nav and footer"
+                       },
+                       {
+                           "name":  "Hero Section",
+                           "role":  "Above-the-fold brand statement"
+                       },
+                       {
+                           "name":  "Glow Card",
+                           "role":  "Featured content surface with elevated emphasis"
+                       },
+                       {
+                           "name":  "Standard Card",
+                           "role":  "Default content surface"
+                       },
+                       {
+                           "name":  "Section Headline Block",
+                           "role":  "Section introduction"
+                       },
+                       {
+                           "name":  "Tag / Chip",
+                           "role":  "Inline labels, category markers, status indicators"
+                       }
+                   ],
+    "dos":  [
+                "Use Mint Glow (#97fcd7) as the only fully saturated color on any screen restrict it to one CTA, one brand mark, or one highlight per viewport.",
+                "Set display headlines in Teodor weight 400 at 90px with 0.75 line-height; this tight leading is the signature editorial gesture.",
+                "Set body and UI text in Inter weight 300 by default; reserve weight 400 for interactive controls and emphasis.",
+                "Use 60px border-radius for every button, tag, and pill element sharp corners would feel off-system.",
+                "Express elevation with the mint outer-glow shadow on cards, never with gray drop-shadow stacks.",
+                "Build backgrounds from organic, softly-edged shapes in Abyss Green, Deep Lagoon, and Shadow Teal layered over Forest Depths never flat solid fills for hero regions.",
+                "Keep paragraph text in Mist Gray (#b0c5c1), reserving Pure Light for headlines only this is what makes the typography feel layered rather than uniformly white."
+            ],
+    "donts":  [
+                  "Do not introduce any new saturated hue the entire chromatic vocabulary is mint; adding red, blue, or yellow breaks the rarified atmosphere.",
+                  "Do not use box-shadow with gray or black tones; the only allowed shadow color is the mint glow rgba(151,252,215,0.4).",
+                  "Do not set Teodor below 24px its editorial detail collapses at small sizes and Inter should take over.",
+                  "Do not use square or 4px corner radii on interactive elements; the system is defined by 60px pill geometry.",
+                  "Do not place mint text directly on the Forest Depths canvas at small sizes without enough weight mint on dark needs at least 16px / 400 weight to read.",
+                  "Do not use the Charcoal Hairline (#2c2e33) as a visible decorative border it is for near-invisible structural hairlines only.",
+                  "Do not center-align body paragraphs; keep body text left-aligned to maintain the editorial reading rhythm."
+              ]
+}

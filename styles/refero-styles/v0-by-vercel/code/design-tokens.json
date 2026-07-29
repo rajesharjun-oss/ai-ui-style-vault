@@ -1,0 +1,79 @@
+{
+  "name": "v0 by Vercel",
+  "slug": "v0-by-vercel",
+  "sourceUrl": "https://styles.refero.design/style/50aa2b8e-4760-4379-a3c1-59b65d8576a7",
+  "referenceSite": "https://v0.dev",
+  "tokens": {
+    "color": {
+      "paperWhite": { "value": "#ffffff", "type": "color" },
+      "canvas": { "value": "#fafafa", "type": "color" },
+      "line": { "value": "#eaeaea", "type": "color" },
+      "subtext": { "value": "#666666", "type": "color" },
+      "icon": { "value": "#7d7d7d", "type": "color" },
+      "ink": { "value": "#171717", "type": "color" },
+      "onyx": { "value": "#000000", "type": "color" }
+    },
+    "font": {
+      "sans": {
+        "value": "\"GeistSans\", \"Inter\", system-ui, sans-serif",
+        "type": "fontFamily"
+      },
+      "mono": {
+        "value": "\"GeistMono\", \"IBM Plex Mono\", ui-monospace, monospace",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "technical": { "value": "10px", "type": "dimension" },
+      "smallUi": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "sectionHeading": { "value": "32px", "type": "dimension" },
+      "display": { "value": "48px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "technical": { "value": "1.5", "type": "number" },
+      "smallUi": { "value": "1.4", "type": "number" },
+      "body": { "value": "1.5", "type": "number" },
+      "sectionHeading": { "value": "1.17", "type": "number" },
+      "display": { "value": "1", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "normal": { "value": "0", "type": "dimension" },
+      "sectionHeading": { "value": "-1.28px", "type": "dimension" },
+      "display": { "value": "-2.88px", "type": "dimension" }
+    },
+    "radius": {
+      "chip": { "value": "6px", "type": "dimension" },
+      "button": { "value": "8px", "type": "dimension" },
+      "card": { "value": "12px", "type": "dimension" },
+      "input": { "value": "12px", "type": "dimension" },
+      "pill": { "value": "9999px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "4": { "value": "16px", "type": "dimension" },
+      "6": { "value": "24px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "12": { "value": "48px", "type": "dimension" },
+      "24": { "value": "96px", "type": "dimension" },
+      "maxWidth": { "value": "1440px", "type": "dimension" }
+    },
+    "shadow": {
+      "templateCard": {
+        "value": "0 0 0 1px rgba(0,0,0,0.08), 0 2px 1px rgba(0,0,0,0.04)",
+        "type": "shadow"
+      },
+      "modalPopover": {
+        "value": "0 25px 50px -12px rgba(0,0,0,0.25)",
+        "type": "shadow"
+      }
+    }
+  }
+}

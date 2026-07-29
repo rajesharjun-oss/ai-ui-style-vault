@@ -1,0 +1,177 @@
+{
+  "name": "Eindhoven Design District",
+  "slug": "eindhoven-design-district",
+  "sourceUrl": "https://styles.refero.design/style/c90b584e-de5b-4971-9e13-8ab991bd96c0",
+  "referenceSite": "https://www.eindhovendesigndistrict.com",
+  "theme": "light",
+  "tokens": {
+    "color": {
+      "canvasWhite": {
+        "value": "#ffffff",
+        "role": "Page background, cards, ghost button fill"
+      },
+      "inkBlack": {
+        "value": "#000000",
+        "role": "Primary text, borders, icons, dark display areas"
+      },
+      "ashGray": {
+        "value": "#e8e8e8",
+        "role": "Secondary card surface and subtle section break"
+      },
+      "silverThread": {
+        "value": "#bfbfbf",
+        "role": "Fine lines, quiet borders, low-emphasis text"
+      },
+      "focusRed": {
+        "value": "#ff0000",
+        "role": "Content emphasis and decorative accent"
+      },
+      "blushPink": {
+        "value": "#ffc2eb",
+        "role": "Decorative featured-section block"
+      },
+      "electricBlue": {
+        "value": "#0f26ed",
+        "role": "Decorative high-energy block"
+      }
+    },
+    "font": {
+      "primary": {
+        "family": "Helvetica Now",
+        "fallback": "Inter",
+        "weights": [400, 600]
+      }
+    },
+    "typography": {
+      "caption": {
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.47,
+        "letterSpacing": "0.15px"
+      },
+      "body": {
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": "1.31-1.4",
+        "letterSpacing": "0.005px"
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "lineHeight": "1.31-1.47",
+        "letterSpacing": "-0.004px"
+      },
+      "bodyLarge": {
+        "fontSize": "19px",
+        "fontWeight": 400,
+        "lineHeight": 1.47,
+        "letterSpacing": "-0.017px"
+      },
+      "heading": {
+        "fontSize": "23px",
+        "fontWeight": 600,
+        "lineHeight": "1.0-1.15",
+        "letterSpacing": "-0.02em"
+      },
+      "headingLarge": {
+        "fontSize": "35px",
+        "fontWeight": 600,
+        "lineHeight": 1,
+        "letterSpacing": "-0.024em"
+      },
+      "display": {
+        "fontSize": "46px",
+        "fontWeight": 600,
+        "lineHeight": 0.93,
+        "letterSpacing": "-0.03em"
+      },
+      "displayLarge": {
+        "fontSize": "50px",
+        "fontWeight": 600,
+        "lineHeight": "0.93-1.0",
+        "letterSpacing": "-0.05em"
+      }
+    },
+    "spacing": {
+      "density": "spacious",
+      "scale": {
+        "8": "8px",
+        "10": "10px",
+        "12": "12px",
+        "15": "15px",
+        "16": "16px",
+        "18": "18px",
+        "19": "19px",
+        "20": "20px",
+        "21": "21px",
+        "25": "25px",
+        "27": "27px",
+        "30": "30px",
+        "35": "35px",
+        "40": "40px",
+        "50": "50px",
+        "100": "100px"
+      },
+      "layout": {
+        "maxWidth": "1200px",
+        "sectionGap": "35px",
+        "cardPadding": "20px",
+        "elementGap": "20px"
+      }
+    },
+    "radius": {
+      "cards": "0px",
+      "images": "0px",
+      "buttons": "500px",
+      "tags": "500px",
+      "iconButtons": "100%"
+    },
+    "shadow": {
+      "default": "none"
+    },
+    "surface": {
+      "canvasWhite": "#ffffff",
+      "ashGray": "#e8e8e8",
+      "inkBlack": "#000000"
+    }
+  },
+  "components": {
+    "ghostButton": {
+      "background": "transparent or #ffffff",
+      "text": "#000000",
+      "border": "1px solid #000000",
+      "radius": "500px",
+      "padding": "1px 15px"
+    },
+    "primaryActionButton": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "border": "1px solid #000000",
+      "radius": "500px",
+      "padding": "18px 35px 21px"
+    },
+    "iconButton": {
+      "background": "#ffffff",
+      "border": "1px solid #000000",
+      "radius": "100%",
+      "iconStyle": "simple monochrome outline"
+    },
+    "articleCard": {
+      "background": "transparent",
+      "radius": "0px",
+      "border": "none",
+      "shadow": "none"
+    },
+    "grayBackgroundCard": {
+      "background": "#e8e8e8",
+      "radius": "0px",
+      "border": "none",
+      "shadow": "none"
+    },
+    "rectangularImageBlock": {
+      "radius": "0px",
+      "shadow": "none",
+      "mask": "none"
+    }
+  }
+}

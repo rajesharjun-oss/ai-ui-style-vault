@@ -1,0 +1,187 @@
+:root {
+  /* Colors */
+  --color-near-black: #090909;
+  --color-iron: #423738;
+  --color-graphite: #474747;
+  --color-ash: #6b6b6b;
+  --color-steel: #828384;
+  --color-soft-white: #f0f0f0;
+  --color-almost-white: #f7f9fa;
+  --color-signal-violet: #af50ff;
+  --color-lavender-mist: #e1bdff;
+  --color-frosted-nav: rgba(51, 50, 72, 0.7);
+  --color-pink-wash: rgba(237, 195, 196, 0.05);
+
+  /* Typography */
+  --font-whyte-inktrap: "Whyte Inktrap", Inter, "General Sans", system-ui, sans-serif;
+  --font-whyte-inktrap-mono: "Whyte Inktrap Mono", "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+  --font-grandslang: "GrandSlang", "Tiempos Headline", "Lora Italic", Georgia, serif;
+
+  --text-caption: 10px;
+  --leading-caption: 1;
+  --tracking-caption: 1.8px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --text-subheading: 20px;
+  --leading-subheading: 1;
+  --tracking-subheading: -0.2px;
+  --text-heading-sm: 32px;
+  --leading-heading-sm: 1.2;
+  --tracking-heading-sm: -0.32px;
+  --text-heading: 48px;
+  --leading-heading: 1.2;
+  --tracking-heading: -0.48px;
+  --text-heading-lg: 64px;
+  --leading-heading-lg: 1.2;
+  --tracking-heading-lg: -0.64px;
+  --text-section-stamp: 74px;
+  --leading-section-stamp: 0.9;
+  --tracking-section-stamp: 14.8px;
+  --text-display: 88px;
+  --leading-display: 0.8;
+  --tracking-display: -2.64px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-128: 128px;
+  --spacing-136: 136px;
+  --spacing-160: 160px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 120px;
+  --card-padding: 40px;
+  --element-gap: 16px;
+
+  /* Radius */
+  --radius-small-controls: 6px;
+  --radius-buttons: 8px;
+  --radius-cards: 19.2px;
+  --radius-pills: 1584px;
+
+  /* Shadows */
+  --shadow-nav-hairline: rgba(16, 24, 40, 0.05) 0px 1px 2px 0px;
+}
+
+.dope-shell {
+  background: var(--color-near-black);
+  color: var(--color-almost-white);
+  font-family: var(--font-whyte-inktrap);
+}
+
+.dope-container {
+  max-width: var(--page-max-width);
+  margin-inline: auto;
+  padding-inline: var(--spacing-24);
+}
+
+.dope-frosted-nav {
+  background: var(--color-frosted-nav);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-ash);
+  box-shadow: var(--shadow-nav-hairline);
+}
+
+.dope-grand-display {
+  color: var(--color-almost-white);
+  font-family: var(--font-grandslang);
+  font-size: clamp(64px, 11vw, 146px);
+  font-style: italic;
+  font-weight: var(--font-weight-regular);
+  letter-spacing: -0.03em;
+  line-height: 0.85;
+}
+
+.dope-display {
+  color: var(--color-almost-white);
+  font-family: var(--font-whyte-inktrap);
+  font-size: clamp(48px, 8vw, var(--text-display));
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+}
+
+.dope-section-stamp {
+  color: var(--color-soft-white);
+  font-family: var(--font-whyte-inktrap-mono);
+  font-size: clamp(40px, 7vw, var(--text-section-stamp));
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--tracking-section-stamp);
+  line-height: var(--leading-section-stamp);
+  text-transform: uppercase;
+}
+
+.dope-body {
+  color: var(--color-almost-white);
+  font-family: var(--font-whyte-inktrap);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-light);
+  line-height: var(--leading-body);
+}
+
+.dope-card {
+  background: var(--color-pink-wash);
+  border: 1px solid rgba(247, 249, 250, 0.2);
+  border-radius: var(--radius-cards);
+  box-shadow: none;
+  padding: var(--card-padding);
+}
+
+.dope-action-button {
+  align-items: center;
+  background: var(--color-near-black);
+  border: 1px solid var(--color-almost-white);
+  border-radius: var(--radius-buttons);
+  color: var(--color-almost-white);
+  display: inline-flex;
+  font-family: var(--font-whyte-inktrap);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-regular);
+  justify-content: center;
+  line-height: 1;
+  padding: var(--spacing-16);
+}
+
+.dope-pill {
+  background: var(--color-pink-wash);
+  border: 0;
+  border-radius: var(--radius-pills);
+  color: var(--color-almost-white);
+  display: inline-flex;
+  font-family: var(--font-whyte-inktrap);
+  font-size: var(--text-body);
+  padding: var(--spacing-20) var(--spacing-32);
+}
+
+.dope-violet-card {
+  background: var(--color-signal-violet);
+  border-radius: var(--radius-cards);
+  color: var(--color-almost-white);
+  padding: var(--card-padding);
+}
+
+.dope-hairline {
+  border-color: rgba(247, 249, 250, 0.16);
+  border-style: solid;
+  border-width: 1px 0 0;
+}

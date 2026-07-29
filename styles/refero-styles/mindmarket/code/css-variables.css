@@ -1,0 +1,69 @@
+:root {
+  --mindmarket-color-fresh-grass: #8ed462;
+  --mindmarket-color-sky-pop: #2ba0ff;
+  --mindmarket-color-coral-pop: #ff705d;
+  --mindmarket-color-sunshine-pop: #f5e211;
+  --mindmarket-color-pure-ink: #000000;
+  --mindmarket-color-ink-black: #2c2e2a;
+  --mindmarket-color-stone-gray: #80827f;
+  --mindmarket-color-hairline-mist: #d5d5d4;
+  --mindmarket-color-sandstone: #e0dbce;
+  --mindmarket-color-cream-paper: #f5f1e4;
+  --mindmarket-color-pure-white: #ffffff;
+
+  --mindmarket-font-inter: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --mindmarket-text-body-sm: 15px;
+  --mindmarket-text-body-lg: 18px;
+  --mindmarket-text-subheading: 20px;
+  --mindmarket-text-heading-sm: 30px;
+  --mindmarket-text-heading: 53px;
+  --mindmarket-text-heading-lg: 81px;
+  --mindmarket-text-display: 140px;
+  --mindmarket-text-display-lg: 144px;
+
+  --mindmarket-leading-body-sm: 1.5;
+  --mindmarket-leading-body-lg: 1.5;
+  --mindmarket-leading-subheading: 1.25;
+  --mindmarket-leading-heading-sm: 1.2;
+  --mindmarket-leading-heading: 1.15;
+  --mindmarket-leading-heading-lg: 1.2;
+  --mindmarket-leading-display: 0.95;
+  --mindmarket-leading-display-lg: 0.95;
+
+  --mindmarket-tracking-heading: -2.12px;
+  --mindmarket-tracking-heading-lg: -4.86px;
+  --mindmarket-tracking-display: -8.4px;
+  --mindmarket-tracking-display-lg: -8.64px;
+  --mindmarket-tracking-display-em: -0.06em;
+  --mindmarket-tracking-heading-em: -0.04em;
+
+  --mindmarket-weight-regular: 400;
+  --mindmarket-weight-medium: 500;
+
+  --mindmarket-space-unit: 4px;
+  --mindmarket-space-4: 4px;
+  --mindmarket-space-20: 20px;
+  --mindmarket-space-60: 60px;
+  --mindmarket-space-136: 136px;
+  --mindmarket-space-216: 216px;
+
+  --mindmarket-page-max-width: 1200px;
+  --mindmarket-section-gap-min: 80px;
+  --mindmarket-section-gap-max: 120px;
+  --mindmarket-card-padding-min: 20px;
+  --mindmarket-card-padding-max: 21px;
+  --mindmarket-element-gap-min: 17px;
+  --mindmarket-element-gap-max: 21px;
+
+  --mindmarket-radius-small: 10px;
+  --mindmarket-radius-nav: 50px;
+  --mindmarket-radius-cards: 50px;
+  --mindmarket-radius-buttons: 50px;
+  --mindmarket-radius-illustration-containers: 63.75px;
+
+  --mindmarket-surface-cream-paper: #f5f1e4;
+  --mindmarket-surface-pure-white: #ffffff;
+  --mindmarket-surface-sandstone: #e0dbce;
+}
+

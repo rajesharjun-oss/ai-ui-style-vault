@@ -1,0 +1,81 @@
+:root {
+  --portal-color-signal-blue: #007aff;
+  --portal-color-ink-black: #000000;
+  --portal-color-graphite: #3e3e3e;
+  --portal-color-smoke: #636363;
+  --portal-color-paper-white: #ffffff;
+  --portal-color-ash-mist: #f7f7f7;
+  --portal-color-hero-blue: #4a7ff2;
+  --portal-color-hero-violet: #7b7ed8;
+  --portal-color-hero-mauve: #c98ab5;
+  --portal-color-hero-coral: #e8a87c;
+
+  --portal-gradient-dusk: linear-gradient(180deg, #4a7ff2 0%, #7b7ed8 30%, #c98ab5 65%, #e8a87c 100%);
+
+  --portal-font-display: "Perfectly Nineties Regular", "Playfair Display", "DM Serif Display", Recoleta, Georgia, serif;
+  --portal-font-ui: Inter, "SF Pro Text", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --portal-text-micro: 10px;
+  --portal-text-caption: 12px;
+  --portal-text-body-sm: 14px;
+  --portal-text-body: 16px;
+  --portal-text-heading-sm: 18px;
+  --portal-text-heading: 36px;
+  --portal-text-display: 48px;
+
+  --portal-leading-micro: 1.2;
+  --portal-leading-caption: 1.2;
+  --portal-leading-body-sm: 1.3;
+  --portal-leading-body: 1.35;
+  --portal-leading-heading-sm: 1.35;
+  --portal-leading-display: 1;
+
+  --portal-tracking-micro: -0.2px;
+  --portal-tracking-caption: -0.24px;
+  --portal-tracking-body-sm: -0.28px;
+  --portal-tracking-body: -0.32px;
+  --portal-tracking-heading-sm: -0.36px;
+
+  --portal-weight-regular: 400;
+  --portal-weight-medium: 500;
+  --portal-weight-semibold: 600;
+
+  --portal-space-4: 4px;
+  --portal-space-5: 5px;
+  --portal-space-6: 6px;
+  --portal-space-8: 8px;
+  --portal-space-10: 10px;
+  --portal-space-12: 12px;
+  --portal-space-14: 14px;
+  --portal-space-16: 16px;
+  --portal-space-20: 20px;
+  --portal-space-24: 24px;
+  --portal-space-36: 36px;
+  --portal-space-40: 40px;
+  --portal-space-45: 45px;
+  --portal-space-60: 60px;
+  --portal-space-80: 80px;
+  --portal-space-100: 100px;
+
+  --portal-page-max-width: 1200px;
+  --portal-section-gap-min: 80px;
+  --portal-section-gap-max: 120px;
+  --portal-card-padding: 20px;
+  --portal-element-gap: 10px;
+  --portal-reading-width-min: 640px;
+  --portal-reading-width-max: 720px;
+
+  --portal-radius-nav: 22px;
+  --portal-radius-card-min: 22px;
+  --portal-radius-card-max: 30px;
+  --portal-radius-badge: 50px;
+  --portal-radius-image-min: 30px;
+  --portal-radius-image-max: 40px;
+  --portal-radius-button: 50px;
+  --portal-radius-inner-screen: 16px;
+
+  --portal-shadow-glow-ring: rgb(247, 247, 247) 0px 0px 0px 5px;
+  --portal-shadow-outline-ring: rgb(247, 247, 247) 0px 0px 0px 1px;
+  --portal-shadow-button: rgb(255, 255, 255) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.15) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) 0px 3px 2px 0px;
+}
+

@@ -1,0 +1,162 @@
+:root {
+  --supahub-color-voltage-violet: #862fe7;
+  --supahub-color-ultra-violet: #5f259e;
+  --supahub-color-lavender-mist: #ad6df4;
+  --supahub-color-orchid-wash: #bd8ff0;
+  --supahub-color-magenta-spark: #ff5fe4;
+  --supahub-color-hot-pink-ray: #e22ba4;
+  --supahub-color-amber-pulse: #dc5f05;
+  --supahub-color-midnight-ink: #111827;
+  --supahub-color-graphite: #3f4654;
+  --supahub-color-slate: #6b7589;
+  --supahub-color-pure-white: #ffffff;
+  --supahub-color-fog: #f1f5f9;
+  --supahub-color-mist: #d8e0ea;
+  --supahub-color-mint-wash: #d6fcf4;
+  --supahub-color-lavender-field: #ebdafd;
+
+  --supahub-gradient-violet-orb: radial-gradient(circle at 0 -50%, rgba(255, 255, 255, 0) 15%, rgba(152, 26, 249, 0.4) 38%, rgba(255, 255, 255, 0) 65%);
+  --supahub-gradient-pink-orb: linear-gradient(214deg, rgba(255, 255, 255, 0), rgba(255, 52, 143, 0.3) 25%, rgba(255, 255, 255, 0) 71%);
+  --supahub-gradient-amber-orb: radial-gradient(circle at 0 -50%, rgba(255, 255, 255, 0) 15%, rgba(249, 167, 26, 0.4) 38%, rgba(255, 255, 255, 0) 65%);
+
+  --supahub-font-display: "Bricolage Grotesque", "Space Grotesk", Inter, system-ui, sans-serif;
+  --supahub-font-body: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --supahub-text-caption-size: 12px;
+  --supahub-text-caption-line: 1.5;
+  --supahub-text-caption-tracking: 1.2px;
+  --supahub-text-body-sm-size: 14px;
+  --supahub-text-body-sm-line: 1.6;
+  --supahub-text-body-size: 16px;
+  --supahub-text-body-line: 1.75;
+  --supahub-text-subheading-size: 20px;
+  --supahub-text-subheading-line: 1.5;
+  --supahub-text-heading-sm-size: 24px;
+  --supahub-text-heading-sm-line: 1.3;
+  --supahub-text-heading-sm-tracking: -0.6px;
+  --supahub-text-heading-size: 32px;
+  --supahub-text-heading-line: 1.2;
+  --supahub-text-heading-tracking: -0.8px;
+  --supahub-text-display-size: clamp(40px, 6vw, 56px);
+  --supahub-text-display-line: 1;
+  --supahub-text-display-tracking: -1.4px;
+
+  --supahub-space-4: 4px;
+  --supahub-space-8: 8px;
+  --supahub-space-12: 12px;
+  --supahub-space-16: 16px;
+  --supahub-space-20: 20px;
+  --supahub-space-24: 24px;
+  --supahub-space-32: 32px;
+  --supahub-space-40: 40px;
+  --supahub-space-48: 48px;
+  --supahub-space-64: 64px;
+  --supahub-space-80: 80px;
+  --supahub-space-96: 96px;
+  --supahub-space-128: 128px;
+  --supahub-width-page: 1200px;
+  --supahub-width-display: 720px;
+
+  --supahub-radius-nav: 8px;
+  --supahub-radius-button: 12px;
+  --supahub-radius-image: 16px;
+  --supahub-radius-card: 24px;
+  --supahub-radius-featured-card: 40px;
+  --supahub-radius-pill: 9999px;
+  --supahub-border-mist: 1px solid var(--supahub-color-mist);
+  --supahub-shadow-button-inset: rgba(11, 61, 121, 0.16) 0 0 0 1px inset;
+  --supahub-shadow-product-preview: 0 20px 40px rgba(124, 58, 237, 0.15);
+}
+
+.supahub-page {
+  background: var(--supahub-color-pure-white);
+  color: var(--supahub-color-midnight-ink);
+  font-family: var(--supahub-font-body);
+}
+
+.supahub-rail {
+  width: min(100% - 40px, var(--supahub-width-page));
+  margin-inline: auto;
+}
+
+.supahub-display {
+  max-width: var(--supahub-width-display);
+  font-family: var(--supahub-font-display);
+  font-size: var(--supahub-text-display-size);
+  line-height: var(--supahub-text-display-line);
+  letter-spacing: var(--supahub-text-display-tracking);
+  font-weight: 600;
+}
+
+.supahub-eyebrow {
+  color: var(--supahub-color-voltage-violet);
+  font: 700 12px / 1.5 var(--supahub-font-body);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.supahub-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 16px 24px;
+  border: 1px solid var(--supahub-color-voltage-violet);
+  border-radius: var(--supahub-radius-button);
+  background: var(--supahub-color-voltage-violet);
+  color: var(--supahub-color-pure-white);
+  font: 600 16px / 1.2 var(--supahub-font-body);
+  text-decoration: none;
+  box-shadow: var(--supahub-shadow-button-inset);
+}
+
+.supahub-primary-button:hover,
+.supahub-primary-button:focus-visible {
+  background: var(--supahub-color-ultra-violet);
+  border-color: var(--supahub-color-ultra-violet);
+}
+
+.supahub-ghost-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 16px 24px;
+  border: 1px solid var(--supahub-color-midnight-ink);
+  border-radius: var(--supahub-radius-button);
+  background: transparent;
+  color: var(--supahub-color-midnight-ink);
+  font: 600 16px / 1.2 var(--supahub-font-body);
+  text-decoration: none;
+}
+
+.supahub-testimonial-card {
+  border: var(--supahub-border-mist);
+  border-radius: var(--supahub-radius-card);
+  background: var(--supahub-color-pure-white);
+  padding: var(--supahub-space-24);
+}
+
+.supahub-product-preview {
+  position: relative;
+  border-radius: var(--supahub-radius-image);
+  background: var(--supahub-color-pure-white);
+  box-shadow: var(--supahub-shadow-product-preview);
+}
+
+.supahub-product-preview::before {
+  content: "";
+  position: absolute;
+  inset: -80px;
+  z-index: -1;
+  background: var(--supahub-gradient-violet-orb);
+  pointer-events: none;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --supahub-text-display-size: 42px;
+    --supahub-text-display-tracking: -1px;
+  }
+}
+

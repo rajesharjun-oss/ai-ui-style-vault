@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bone-white: #fafffa;
+  --color-press-black: #121613;
+  --color-typesetter-ink: #000000;
+  --color-slate-verdant: #232924;
+  --color-newsprint-gray: #516254;
+  --color-muted-sage: #c8d2c8;
+  --color-highlighter-green: #2bee4b;
+  --color-shadow-moss: #93b799;
+  --color-echo-green: #c4e4c9;
+
+  --font-twk-lausanne: "TWK Lausanne", "Inter", "Sohne", "Neue Haas Grotesk", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-pp-mondwest: "PP Mondwest", "GT Sectra", "Tiempos Headline", "Recoleta", serif;
+  --font-editorial-new: "Editorial New", "GT Super", "Domaine Display", "Canela", serif;
+  --font-times: "Times", "Times New Roman", serif;
+
+  --text-caption: 11px;
+  --text-body-sm: 14px;
+  --text-body: 18px;
+  --text-subheading: 60px;
+  --text-heading-sm: 72px;
+  --text-heading: 96px;
+  --text-heading-lg: 155px;
+  --text-display: 295px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-15: 15px;
+  --spacing-20: 20px;
+  --spacing-25: 25px;
+  --spacing-30: 30px;
+  --spacing-32: 32px;
+  --spacing-35: 35px;
+  --spacing-40: 40px;
+  --spacing-45: 45px;
+  --spacing-50: 50px;
+  --spacing-55: 55px;
+  --spacing-60: 60px;
+  --spacing-80: 80px;
+  --spacing-120: 120px;
+  --spacing-190: 190px;
+  --spacing-page: 1400px;
+
+  --radius-button: 5px;
+  --radius-pill: 10px;
+  --radius-image: 14px;
+  --radius-round: 9999px;
+
+  --shadow-new-form-lg: rgba(16, 94, 29, 0.45) 1px 8px 20px 0px;
+  --shadow-new-form-lg-2: rgba(18, 146, 39, 0.25) 1px 8px 20px 0px;
+}
+
+@layer base {
+  .new-form {
+    background: var(--color-bone-white);
+    color: var(--color-typesetter-ink);
+    font-family: var(--font-twk-lausanne);
+  }
+}
+
+@layer components {
+  .new-form-display {
+    @apply font-pp-mondwest text-heading font-normal leading-[0.9] tracking-[-0.04em] text-press-black md:text-display;
+  }
+
+  .new-form-label {
+    @apply font-twk-lausanne text-caption font-[550] uppercase leading-[1.1] tracking-[0.01em] text-typesetter-ink;
+  }
+
+  .new-form-action {
+    @apply inline-flex items-center justify-center rounded-button border-0 bg-highlighter-green px-30 py-20 font-twk-lausanne text-caption font-[550] uppercase tracking-[0.01em] text-typesetter-ink shadow-new-form-lg;
+  }
+
+  .new-form-photo {
+    @apply rounded-image;
+    filter: grayscale(1) saturate(1) invert(0.27) sepia(0.07) saturate(10.67) hue-rotate(80deg) brightness(1.02) contrast(0.83);
+  }
+
+  .new-form-dark-section {
+    @apply bg-press-black text-bone-white;
+  }
+
+  .new-form-green-band {
+    @apply bg-highlighter-green text-bone-white;
+  }
+}

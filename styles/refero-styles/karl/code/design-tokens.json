@@ -1,0 +1,222 @@
+{
+  "name": "Karl",
+  "slug": "karl",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/dd8b7191-a992-4dab-88f8-f67e8819b461",
+    "productUrl": "https://karlgonsalves.com"
+  },
+  "theme": {
+    "mode": "light",
+    "summary": "Pop-up storybook diorama on a sunny yellow canvas.",
+    "principles": [
+      "Use full-bleed Signal Yellow as the page canvas.",
+      "Use Globe Azure as a circular focal surface.",
+      "Use flat illustration instead of conventional UI density.",
+      "Use Changa One for expressive text and Arial only for navigation.",
+      "Keep all depth flat and layer-based, with no shadows or gradients."
+    ]
+  },
+  "colors": {
+    "brand": {
+      "signalYellow": {
+        "value": "#ffe600",
+        "token": "--color-signal-yellow",
+        "role": "Full-bleed page and section canvas"
+      },
+      "globeAzure": {
+        "value": "#007fff",
+        "token": "--color-globe-azure",
+        "role": "Hero globe and circular focal surface"
+      }
+    },
+    "accent": {
+      "roofCoral": {
+        "value": "#ef3b2c",
+        "token": "--color-roof-coral",
+        "role": "Illustration-only roof and detail color"
+      }
+    },
+    "neutral": {
+      "charcoalInk": {
+        "value": "#333333",
+        "token": "--color-charcoal-ink",
+        "role": "Nav text, active nav rule, dark text, illustration linework"
+      },
+      "cloudWhite": {
+        "value": "#ffffff",
+        "token": "--color-cloud-white",
+        "role": "Display text on blue, clouds, windows, white illustration elements"
+      }
+    }
+  },
+  "surfaces": {
+    "sunnySky": {
+      "value": "#ffe600",
+      "purpose": "Full-page and full-section background"
+    },
+    "globeSphere": {
+      "value": "#007fff",
+      "purpose": "Circular focal surface behind white display type"
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": {
+        "name": "Changa One",
+        "fallbacks": ["Bowlby One", "Lilita One", "Sniglet", "system-ui", "sans-serif"],
+        "role": "Expressive display and headline face"
+      },
+      "nav": {
+        "name": "Arial",
+        "fallbacks": ["Helvetica", "Inter", "system-ui", "sans-serif"],
+        "role": "Top navigation only"
+      }
+    },
+    "weights": {
+      "regular": 400
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "20px",
+        "lineHeightRatio": 1.67,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "lineHeightRatio": 1.43,
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "lineHeightRatio": 1.25,
+        "fontWeight": 400
+      },
+      "headingSm": {
+        "fontSize": "32px",
+        "lineHeight": "32px",
+        "lineHeightRatio": 1,
+        "fontWeight": 400
+      },
+      "heading": {
+        "fontSize": "50px",
+        "lineHeight": "40px",
+        "lineHeightRatio": 0.8,
+        "fontWeight": 400
+      },
+      "display": {
+        "fontSize": "75px",
+        "lineHeight": "54px",
+        "lineHeightRatio": 0.72,
+        "fontWeight": 400
+      }
+    },
+    "letterSpacing": "normal"
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "sectionGap": "45px",
+    "cardPadding": "0px",
+    "elementGap": "20px",
+    "navLinkPadding": "10px 20px",
+    "scale": ["10px", "20px", "45px"]
+  },
+  "shape": {
+    "radii": {
+      "cards": "0px",
+      "globe": "1440px",
+      "pills": "0px",
+      "buttons": "0px"
+    },
+    "activeNavRule": {
+      "width": "20px",
+      "height": "1px",
+      "color": "#333333"
+    },
+    "elevation": "none"
+  },
+  "components": {
+    "topCenteredNav": {
+      "role": "Primary navigation",
+      "font": "14px/20px Arial 400",
+      "textTransform": "uppercase",
+      "color": "#333333",
+      "padding": "10px 20px",
+      "container": "none",
+      "background": "transparent"
+    },
+    "activeNavLink": {
+      "inherits": "topCenteredNav",
+      "indicator": "20px centered #333333 bottom rule",
+      "avoid": ["background fill", "font weight change", "color change"]
+    },
+    "fullBleedIllustratedHero": {
+      "background": "#ffe600",
+      "height": "100vh",
+      "content": "Flat vector houses, clouds, blue globe, and display text",
+      "avoid": ["photo frames", "overlays", "cards", "shadows", "gradients"]
+    },
+    "circularGlobeSurface": {
+      "background": "#007fff",
+      "radius": "1440px",
+      "placement": "bottom center, often partly off-screen",
+      "role": "Hero focal surface and display text backing"
+    },
+    "curvedDisplayHeadline": {
+      "font": "75px/54px Changa One 400",
+      "color": "#ffffff",
+      "placement": "On Globe Azure, optionally rotated to follow the arc",
+      "effects": "none"
+    },
+    "selfIntroStatement": {
+      "font": "50px/40px Changa One 400",
+      "color": "#ffffff",
+      "placement": "Floating directly on the illustrated scene",
+      "effects": "none"
+    },
+    "illustrationLayers": {
+      "sky": "#ffe600",
+      "globe": "#007fff",
+      "cloudsAndWindows": "#ffffff",
+      "roofAccent": "#ef3b2c",
+      "linework": "#333333"
+    }
+  },
+  "imagery": {
+    "style": "Flat vector cartoon illustration",
+    "subjects": ["canal houses", "puffy clouds", "blue globe", "simple windows", "chunky outlines"],
+    "rules": [
+      "Use original illustration.",
+      "Keep scenes full-bleed and unframed.",
+      "Do not use photography, screenshots, stock art, or icon grids."
+    ]
+  },
+  "layout": {
+    "sectionModel": "Full viewport illustrated scenes",
+    "maxWidth": "none",
+    "transitions": "hard cuts",
+    "contentModel": "Floating signage over illustration",
+    "avoid": ["traditional cards", "feature columns", "neutral bands", "centered marketing columns"]
+  },
+  "do": [
+    "Use #ffe600 as the unbroken section background.",
+    "Use Changa One at weight 400 with tight display leading.",
+    "Use 1440px radius only for circles and ovals.",
+    "Use 14px Arial nav links with 10px 20px padding.",
+    "Use a 20px #333333 bottom rule for the active nav item.",
+    "Place white display text directly on blue or yellow fields.",
+    "Create depth through stacked illustration layers."
+  ],
+  "dont": [
+    "Do not add a white or neutral page background behind the yellow.",
+    "Do not apply shadows, glows, blurs, gradients, or glass effects.",
+    "Do not use small card or button radii.",
+    "Do not introduce a second expressive font.",
+    "Do not use coral for UI chrome, links, buttons, or borders.",
+    "Do not create conventional cards, dense grids, or neutral dividers."
+  ]
+}

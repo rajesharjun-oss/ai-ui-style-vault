@@ -1,0 +1,146 @@
+{
+  "name": "Compound",
+  "version": "2026-07-28",
+  "colors": {
+    "ink": {
+      "value": "#171717",
+      "role": "Primary text, wordmark, filled buttons, and navigation emphasis"
+    },
+    "paper": {
+      "value": "#ffffff",
+      "role": "Page canvas, cards, and product preview background"
+    },
+    "graphiteHairline": {
+      "value": "#e5e7eb",
+      "role": "Borders, dividers, card edges, and input borders"
+    },
+    "vellum": {
+      "value": "#f3f3f3",
+      "role": "Secondary surfaces, publication logo cards, and hover washes"
+    },
+    "slate": {
+      "value": "#6f6f6f",
+      "role": "Secondary text, metadata, labels, and muted icons"
+    },
+    "pewter": {
+      "value": "#5e5e5e",
+      "role": "Helper text and emphasized secondary copy"
+    },
+    "ash": {
+      "value": "#a0a0a0",
+      "role": "Tertiary text, disabled text, and placeholders"
+    },
+    "carbon": {
+      "value": "#222222",
+      "role": "Icon and decorative vector strokes"
+    },
+    "stone": {
+      "value": "#c7c7c7",
+      "role": "Abstract 3D forms and pale decorative depth"
+    },
+    "creamNotice": {
+      "value": "#ffe9bf",
+      "role": "Top announcement bar only"
+    }
+  },
+  "font": {
+    "primary": {
+      "family": "Monument Grotesk, Inter, General Sans, Sohne, system-ui, sans-serif",
+      "weights": {
+        "regular": 400
+      },
+      "features": "\"kern\""
+    }
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "12px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "0"
+    },
+    "bodySm": {
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": 1.43,
+      "letterSpacing": "0"
+    },
+    "body": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "0"
+    },
+    "subheading": {
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "lineHeight": 1.38,
+      "letterSpacing": "0"
+    },
+    "headingSm": {
+      "fontSize": "36px",
+      "fontWeight": 400,
+      "lineHeight": 1.25,
+      "letterSpacing": "0"
+    },
+    "heading": {
+      "fontSize": "48px",
+      "fontWeight": 400,
+      "lineHeight": 1.11,
+      "letterSpacing": "0"
+    },
+    "headingLg": {
+      "fontSize": "60px",
+      "fontWeight": 400,
+      "lineHeight": 1.1,
+      "letterSpacing": "0"
+    },
+    "display": {
+      "fontSize": "72px",
+      "fontWeight": 400,
+      "lineHeight": 1,
+      "letterSpacing": "0"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "unit": "8px",
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "48": "48px",
+    "56": "56px",
+    "64": "64px",
+    "80": "80px",
+    "112": "112px",
+    "128": "128px",
+    "160": "160px",
+    "176": "176px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "8px"
+  },
+  "radius": {
+    "smallCards": "8px",
+    "cards": "20px",
+    "largeCards": "24px",
+    "listItems": "28px",
+    "buttons": "9999px",
+    "icons": "9999px"
+  },
+  "shadows": {
+    "productPreview": "rgba(207, 207, 207, 0.01) 0px 132px 53px 0px, rgba(207, 207, 207, 0.05) 0px 74px 44px 0px, rgba(207, 207, 207, 0.09) 0px 33px 33px 0px, rgba(207, 207, 207, 0.10) 0px 8px 18px 0px",
+    "listContainer": "rgba(194, 194, 194, 0.01) 0px 168px 67px 0px, rgba(194, 194, 194, 0.05) 0px 94px 57px 0px, rgba(194, 194, 194, 0.09) 0px 42px 42px 0px, rgba(194, 194, 194, 0.10) 0px 10px 23px 0px",
+    "linkLift": "rgba(0, 0, 0, 0.01) 0px 128px 51px 0px, rgba(0, 0, 0, 0.02) 0px 72px 43px 0px, rgba(0, 0, 0, 0.03) 0px 32px 32px 0px, rgba(0, 0, 0, 0.04) 0px 8px 18px 0px",
+    "rule": "Keep shadow opacity at or below 0.10."
+  },
+  "imagery": {
+    "primary": "Translucent gray abstract 3D ribbon plus embedded product dashboard preview",
+    "secondary": "Grayscale publication logos",
+    "avoid": ["photography", "lifestyle imagery", "human figures", "colorful illustrations"]
+  }
+}
+

@@ -1,0 +1,176 @@
+{
+  "name": "Officevibe",
+  "theme": "light",
+  "colors": {
+    "inkNavy": {
+      "value": "#0c1754",
+      "role": "Display headings, dark feature cards, footer, and editorial body color"
+    },
+    "electricCobalt": {
+      "value": "#2545ff",
+      "role": "Filled action buttons, active links, and most important icon"
+    },
+    "lavenderMist": {
+      "value": "#eaebf8",
+      "role": "Tinted badges and soft cobalt highlight washes"
+    },
+    "charcoal": {
+      "value": "#171417",
+      "role": "Primary text, nav text, and icon strokes"
+    },
+    "graphite": {
+      "value": "#222222",
+      "role": "Secondary text, ghost button text, and inactive nav labels"
+    },
+    "stone": {
+      "value": "#969696",
+      "role": "Helper text, placeholder content, and metadata"
+    },
+    "smoke": {
+      "value": "#cccccc",
+      "role": "Input borders, disabled states, and neutral dividers"
+    },
+    "creamBorder": {
+      "value": "#f0e9e1",
+      "role": "Hairline dividers, card borders, and warm section separators"
+    },
+    "warmCanvas": {
+      "value": "#f9f8f6",
+      "role": "Page background and soft surface fills"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Cards, nav, inputs, and button text on blue"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "martinaplantijn": {
+        "value": "\"Martinaplantijn\", \"GT Super Display\", \"Tiempos Text\", Georgia, serif"
+      },
+      "abcfavoritvariable": {
+        "value": "\"Abcfavoritvariable\", \"ABC Diatype\", \"Inter Tight\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      },
+      "inter": {
+        "value": "\"Inter\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      }
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "features": {
+      "brand": "\"ss01\", \"ss04\""
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "1.4",
+        "letterSpacing": "normal",
+        "fontWeight": 400,
+        "fontFamily": "Inter"
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": "1.6",
+        "letterSpacing": "normal",
+        "fontWeight": 400,
+        "fontFamily": "Inter"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.6",
+        "letterSpacing": "normal",
+        "fontWeight": 400,
+        "fontFamily": "Inter"
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "lineHeight": "1.4",
+        "letterSpacing": "normal",
+        "fontWeight": 400,
+        "fontFamily": "Inter"
+      },
+      "headingSm": {
+        "fontSize": "24px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.48px",
+        "fontWeight": 400,
+        "fontFamily": "Abcfavoritvariable"
+      },
+      "heading": {
+        "fontSize": "32px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.64px",
+        "fontWeight": 400,
+        "fontFamily": "Abcfavoritvariable"
+      },
+      "headingLg": {
+        "fontSize": "40px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.8px",
+        "fontWeight": 400,
+        "fontFamily": "Abcfavoritvariable"
+      },
+      "display": {
+        "fontSize": "48px",
+        "lineHeight": "1.1",
+        "letterSpacing": "-2.4px",
+        "fontWeight": 400,
+        "fontFamily": "Martinaplantijn"
+      },
+      "displayLg": {
+        "fontSize": "64px",
+        "lineHeight": "1",
+        "letterSpacing": "-3.2px",
+        "fontWeight": 400,
+        "fontFamily": "Martinaplantijn"
+      }
+    }
+  },
+  "spacing": {
+    "unit": "8px",
+    "density": "comfortable",
+    "scale": {
+      "8": "8px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "56": "56px",
+      "64": "64px",
+      "80": "80px",
+      "128": "128px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "80px",
+      "cardPadding": "32px",
+      "elementGap": "24px"
+    }
+  },
+  "radius": {
+    "cards": "16px",
+    "badges": "16px",
+    "inputs": "16px",
+    "images": "24px",
+    "buttons": "100px"
+  },
+  "borders": {
+    "cream": "1px solid #f0e9e1",
+    "smoke": "1px solid #cccccc",
+    "cobalt": "1.5px solid #2545ff"
+  },
+  "shadow": {
+    "dashboard": "rgba(12, 23, 84, 0.08) 0 4px 24px 0",
+    "chat": "rgba(12, 23, 84, 0.12) 0 12px 32px 0"
+  },
+  "surfaces": {
+    "warmCanvas": "#f9f8f6",
+    "paperWhite": "#ffffff",
+    "inkNavy": "#0c1754",
+    "lavenderMist": "#eaebf8"
+  }
+}

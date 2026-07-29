@@ -1,0 +1,82 @@
+{
+  "name": "Tally Forms",
+  "slug": "tally-forms",
+  "sourceUrl": "https://styles.refero.design/style/4e3aa524-b146-416c-907f-382c079ea80c",
+  "referenceSite": "https://tally.so",
+  "tokens": {
+    "color": {
+      "graphiteInk": { "value": "#37352f", "type": "color" },
+      "paper": { "value": "#ffffff", "type": "color" },
+      "warmPaper": { "value": "#f7f6f3", "type": "color" },
+      "lineGray": { "value": "#e9e9e7", "type": "color" },
+      "mistGray": { "value": "#ebebec", "type": "color" },
+      "softGray": { "value": "#787774", "type": "color" },
+      "actionBlue": { "value": "#0b6bcb", "type": "color" },
+      "blueTint": { "value": "#eaf3ff", "type": "color" },
+      "sunYellow": { "value": "#ffeaa7", "type": "color" },
+      "warmOrange": { "value": "#f5a623", "type": "color" },
+      "electricMagenta": { "value": "#f81ce5", "type": "color" },
+      "limePop": { "value": "#c3ff43", "type": "color" },
+      "softPurple": { "value": "#8b5cf6", "type": "color" }
+    },
+    "font": {
+      "sans": {
+        "value": "\"Inter\", system-ui, sans-serif",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "micro": { "value": "12px", "type": "dimension" },
+      "ui": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "bodyLarge": { "value": "18px", "type": "dimension" },
+      "cardTitle": { "value": "24px", "type": "dimension" },
+      "sectionHeading": { "value": "42px", "type": "dimension" },
+      "hero": { "value": "64px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "micro": { "value": "1.33", "type": "number" },
+      "ui": { "value": "1.43", "type": "number" },
+      "body": { "value": "1.6", "type": "number" },
+      "bodyLarge": { "value": "1.47", "type": "number" },
+      "cardTitle": { "value": "1.25", "type": "number" },
+      "sectionHeading": { "value": "1.06", "type": "number" },
+      "hero": { "value": "1.04", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" },
+      "bold": { "value": "700", "type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "normal": { "value": "0", "type": "dimension" },
+      "bodyLarge": { "value": "-0.01em", "type": "dimension" },
+      "cardTitle": { "value": "-0.02em", "type": "dimension" },
+      "sectionHeading": { "value": "-0.04em", "type": "dimension" },
+      "hero": { "value": "-0.04em", "type": "dimension" }
+    },
+    "radius": {
+      "control": { "value": "7px", "type": "dimension" },
+      "card": { "value": "10px", "type": "dimension" },
+      "doodle": { "value": "9999px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "8px", "type": "dimension" },
+      "2": { "value": "16px", "type": "dimension" },
+      "3": { "value": "24px", "type": "dimension" },
+      "4": { "value": "32px", "type": "dimension" },
+      "6": { "value": "48px", "type": "dimension" },
+      "8": { "value": "64px", "type": "dimension" },
+      "10": { "value": "80px", "type": "dimension" },
+      "12": { "value": "96px", "type": "dimension" },
+      "maxWidth": { "value": "1200px", "type": "dimension" }
+    },
+    "shadow": {
+      "card": {
+        "value": "0 1px 1px rgba(0,0,0,0.12), 0 3px 9px rgba(61,59,53,0.10)",
+        "type": "shadow"
+      }
+    }
+  }
+}

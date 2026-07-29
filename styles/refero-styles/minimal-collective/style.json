@@ -1,0 +1,77 @@
+{
+  "id": "94c15607-2f19-4dc4-9aec-2b40f28b754f",
+  "name": "Minimal Collective",
+  "slug": "minimal-collective",
+  "sourceUrl": "https://styles.refero.design/style/94c15607-2f19-4dc4-9aec-2b40f28b754f",
+  "referenceSite": "https://minimalcollective.digital",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "stark editorial black with gallery restraint",
+  "industry": ["design studio", "creative agency", "digital portfolio"],
+  "summary": "A severe black-gallery editorial style using pure black, white, muted gray, PolySans regular, huge tightly tracked type, hairline dividers, ghost pill controls, square overlapping photography, and no chromatic accent.",
+  "colors": {
+    "black": "#000000",
+    "white": "#ffffff",
+    "ash": "#a3a3a3",
+    "line": "#2b2b2b"
+  },
+  "typography": {
+    "primary": "PolySans",
+    "fallback": "Suisse Int'l, Neue Haas Grotesk, Inter, Arial",
+    "weights": [400],
+    "displayWeight": 400,
+    "uiWeight": 400,
+    "displayTracking": "-0.06em",
+    "headingTracking": "-0.04em",
+    "labelTracking": "0.12em"
+  },
+  "shape": {
+    "buttonRadius": "999px",
+    "badgeRadius": "999px",
+    "cardRadius": "0px",
+    "imageRadius": "0px",
+    "inputRadius": "0px",
+    "sectionRadius": "0px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "spacious",
+    "maxWidth": "1440px",
+    "sectionGap": "120px",
+    "cardPadding": "0px",
+    "elementGap": "24px",
+    "model": "black editorial canvas with sparse nav, oversized type, overlapping image compositions, hairline dividers, and no card stack"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "none",
+    "depth": "overlap, contrast, scale, and hairline structure"
+  },
+  "components": [
+    "minimal top navigation",
+    "giant hero headline",
+    "overlapping editorial image stack",
+    "ghost pill button",
+    "category badge",
+    "case study row",
+    "image mosaic",
+    "hairline divider",
+    "corner footer navigation"
+  ],
+  "dos": [
+    "Use only black, white, and muted gray.",
+    "Use one regular sans weight across the system.",
+    "Make display typography enormous and tightly tracked.",
+    "Use hairline dividers instead of shadows.",
+    "Use square image crops and intentional overlap.",
+    "Keep copy short, sparse, and editorial."
+  ],
+  "donts": [
+    "Do not add a colored CTA or accent hue.",
+    "Do not use gradients, glows, or soft shadows.",
+    "Do not create rounded card stacks.",
+    "Do not use playful icons or illustrations.",
+    "Do not use multiple font families.",
+    "Do not fill the page with dense controls or dashboard UI."
+  ]
+}

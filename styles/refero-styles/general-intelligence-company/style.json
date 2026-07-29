@@ -1,0 +1,92 @@
+{
+  "name": "General Intelligence Company",
+  "slug": "general-intelligence-company",
+  "source_url": "https://styles.refero.design/style/34baa524-5d5b-4165-bbab-d01f05e6d6b9",
+  "style_id": "34baa524-5d5b-4165-bbab-d01f05e6d6b9",
+  "reference_site": "https://www.generalintelligencecompany.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A warm editorial AI-company style with parchment canvas, custom serif display typography, compact sans UI text, green-tinted hairline borders, frosted pill navigation, atmospheric illustrations, and a single blue outline accent.",
+  "personality": [
+    "editorial",
+    "literary",
+    "research",
+    "warm",
+    "restrained",
+    "atmospheric"
+  ],
+  "colors": {
+    "parchment": "#fefffc",
+    "paper": "#ffffff",
+    "linen": "#f9faf7",
+    "inkBlack": "#171717",
+    "graphite": "#2c2c2c",
+    "charcoal": "#444141",
+    "ash": "#646464",
+    "fog": "#b4b8b4",
+    "mist": "#dee2de",
+    "twilight": "#282834",
+    "dusk": "#1f1f29",
+    "signalBlue": "#41a1cf",
+    "cerulean": "#0081c0"
+  },
+  "typography": {
+    "display": "ppmondwest, Fraunces, Recoleta, GT Sectra, serif",
+    "primary": "af, Inter, Geist, Sohne, system-ui, sans-serif",
+    "displayWeights": [400, 500],
+    "uiWeights": [400, 500, 600, 700],
+    "sizesPx": [13, 15, 16, 18, 27, 40, 48, 54],
+    "features": {
+      "display": "\"liga\" 0"
+    },
+    "rules": [
+      "Use the display serif for headings 27px and above.",
+      "Keep display weights light at 400 or 500.",
+      "Use the sans for body, labels, navigation, and controls.",
+      "Use 1.1 line height for display and 1.5 for body."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 4,
+    "maxWidthPx": 1200,
+    "sectionGapPx": "32-64",
+    "editorialGapPx": "64-96",
+    "cardPaddingPx": 16,
+    "elementGapPx": "8-12",
+    "scalePx": [4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80]
+  },
+  "radius": {
+    "buttonsPx": "4 or 8",
+    "cardsPx": "12 or 16",
+    "largeSurfacesPx": 24,
+    "navPillPx": 50
+  },
+  "components": [
+    "frosted navigation pill",
+    "primary outlined CTA",
+    "secondary outlined button",
+    "filled dark button",
+    "ghost text link",
+    "frosted hero overlay card",
+    "white content card",
+    "atmospheric illustration card",
+    "diagram card",
+    "paper-form input field",
+    "cookie consent banner",
+    "editorial footer"
+  ],
+  "avoid": [
+    "pure black text",
+    "blue filled primary buttons",
+    "extra accent colors",
+    "button shadows",
+    "heavy display font weights",
+    "translucent body text",
+    "radii above 24px except nav pills",
+    "stock photography",
+    "glossy 3D art",
+    "crowded dashboard density"
+  ]
+}
+

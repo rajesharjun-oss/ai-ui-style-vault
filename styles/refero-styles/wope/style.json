@@ -1,0 +1,87 @@
+{
+  "name": "Wope",
+  "slug": "wope",
+  "source_url": "https://styles.refero.design/style/3882ed21-8ef8-4bc9-b125-7791c0f136bb",
+  "style_id": "3882ed21-8ef8-4bc9-b125-7791c0f136bb",
+  "reference_site": "https://wope.com",
+  "captured_at": "2026-07-28",
+  "theme": "dark",
+  "summary": "A dark violet product-site style with Night Violet canvas, ultraviolet underlighting, glass pill controls, translucent borders, Rebond Grotesque headlines, Inter V UI text, embedded screenshot frames, and depth built from glow instead of shadow.",
+  "personality": [
+    "dark",
+    "violet",
+    "luminous",
+    "product-first",
+    "technical",
+    "premium-saas"
+  ],
+  "colors": {
+    "nightViolet": "#0a0118",
+    "voidPlum": "#0c0616",
+    "softQuartz": "#ffffff",
+    "mutedSteel": "#d2d0dd",
+    "ashLilac": "#9b96b0",
+    "dimFog": "#85808c",
+    "ultravioletCore": "#713dff",
+    "lilacBeam": "#b7a4fb",
+    "horizonGlow": "#8562ff",
+    "glassWhite04": "rgba(255, 255, 255, 0.04)",
+    "glassWhite10": "rgba(255, 255, 255, 0.10)"
+  },
+  "typography": {
+    "primary": "Inter V, Inter, system-ui, sans-serif",
+    "display": "Rebond Grotesque, Sora, Inter, system-ui, sans-serif",
+    "primaryWeights": [400, 500, 700],
+    "displayWeights": [700],
+    "sizesPx": [14, 16, 18, 20, 24, 28, 56, 72],
+    "rules": [
+      "Use Rebond Grotesque only for hero and section headlines.",
+      "Use Inter V for navigation, body, controls, badges, inputs, and smaller headings.",
+      "Use Ash Lilac for support text and Soft Quartz for primary content.",
+      "Use wide positive tracking only for utility-style labels."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 4,
+    "maxWidthPx": 1248,
+    "sectionGapPx": 108,
+    "majorBandPaddingPx": 124,
+    "cardPaddingPx": 28,
+    "elementGapPx": 16,
+    "scalePx": [4, 8, 12, 16, 20, 24, 28, 32, 40, 64, 80, 96, 108, 112, 120, 124]
+  },
+  "radius": {
+    "inputsPx": 0,
+    "overlayCardsPx": 10,
+    "cardsPx": 16,
+    "buttonsPx": 999,
+    "badgesPx": 999
+  },
+  "components": [
+    "primary glass CTA pill",
+    "header outline pill button",
+    "text navigation pill",
+    "hero trial badge",
+    "feature surface card",
+    "frosted info card",
+    "overlay mini card",
+    "product screenshot frame",
+    "header bar",
+    "borderless input field",
+    "logo rail",
+    "section block"
+  ],
+  "avoid": [
+    "bright non-violet accents",
+    "square buttons",
+    "light opaque cards",
+    "conventional black drop shadows",
+    "Rebond Grotesque body text",
+    "single-tone text hierarchy",
+    "boxed rectangular inputs",
+    "heavy stock photography",
+    "illustration-heavy scenes"
+  ]
+}
+

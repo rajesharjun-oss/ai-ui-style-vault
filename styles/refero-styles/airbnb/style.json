@@ -1,0 +1,91 @@
+{
+  "name": "Airbnb",
+  "slug": "airbnb",
+  "source_url": "https://styles.refero.design/style/c2325884-4391-4688-85cd-e143f5107517",
+  "style_id": "c2325884-4391-4688-85cd-e143f5107517",
+  "reference_site": "https://www.airbnb.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A white-canvas travel marketplace style with photo-first listing cards, compact Airbnb Cereal typography, Rausch coral action punctuation, pill search controls, flat card rows, and soft shadows only for overlays.",
+  "personality": [
+    "travel",
+    "marketplace",
+    "photo-first",
+    "rounded",
+    "compact",
+    "quiet"
+  ],
+  "colors": {
+    "rausch": "#ff385c",
+    "rausch600": "#e00b41",
+    "hof": "#222222",
+    "foggy": "#6a6a6a",
+    "grey500": "#c1c1c1",
+    "deco": "#dddddd",
+    "bebe": "#ebebeb",
+    "faint": "#f7f7f7",
+    "white": "#ffffff"
+  },
+  "typography": {
+    "primary": "Airbnb Cereal VF, Circular, Inter, DM Sans, system-ui, sans-serif",
+    "weights": [400, 500, 600, 700],
+    "sizesPx": [11, 12, 13, 14, 16, 20, 21, 22, 28],
+    "features": "\"salt\" on",
+    "rules": [
+      "Use 14px/400 body text as the content backbone.",
+      "Use 16px/500 for UI labels.",
+      "Use 22px/500 with -0.02em tracking for section titles.",
+      "Reserve 700 for page titles and card title emphasis."
+    ]
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnitPx": 4,
+    "maxWidthPx": 1440,
+    "desktopPaddingPx": 40,
+    "sectionGapPx": 48,
+    "cardPaddingPx": 12,
+    "elementGapPx": 12,
+    "scalePx": [4, 8, 12, 16, 20, 24, 28, 32, 40, 44, 48]
+  },
+  "radius": {
+    "inputsPx": 8,
+    "ghostButtonsPx": 8,
+    "cardsPx": 12,
+    "imagesPx": 12,
+    "searchBarPx": 9999,
+    "badgesPx": 9999,
+    "buttonsPx": 9999,
+    "avatarsPx": 9999
+  },
+  "components": [
+    "floating search bar",
+    "property listing card",
+    "guest favorite badge",
+    "wishlist heart button",
+    "top navigation bar",
+    "circular nav button",
+    "pill navigation tab",
+    "section title with arrow",
+    "carousel arrow button",
+    "ghost outline button",
+    "filled inverse button",
+    "category icon button",
+    "footer column link",
+    "social icon link",
+    "language currency selector"
+  ],
+  "avoid": [
+    "additional accent colors",
+    "shadows on listing cards",
+    "body text below 12px",
+    "inconsistent card radii",
+    "borders on listing cards",
+    "Rausch on headings or decorative text",
+    "bold body metadata",
+    "illustrations",
+    "3D renders",
+    "abstract graphics"
+  ]
+}
+

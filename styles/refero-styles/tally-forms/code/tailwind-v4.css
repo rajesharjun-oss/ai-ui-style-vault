@@ -1,0 +1,77 @@
+@theme {
+  --font-tally-sans: "Inter", system-ui, sans-serif;
+
+  --color-tally-graphite-ink: #37352f;
+  --color-tally-paper: #ffffff;
+  --color-tally-warm-paper: #f7f6f3;
+  --color-tally-line-gray: #e9e9e7;
+  --color-tally-mist-gray: #ebebec;
+  --color-tally-soft-gray: #787774;
+  --color-tally-action-blue: #0b6bcb;
+  --color-tally-blue-tint: #eaf3ff;
+  --color-tally-sun-yellow: #ffeaa7;
+  --color-tally-warm-orange: #f5a623;
+  --color-tally-electric-magenta: #f81ce5;
+  --color-tally-lime-pop: #c3ff43;
+  --color-tally-soft-purple: #8b5cf6;
+
+  --radius-tally-control: 7px;
+  --radius-tally-card: 10px;
+  --radius-tally-doodle: 9999px;
+
+  --spacing-tally-1: 8px;
+  --spacing-tally-2: 16px;
+  --spacing-tally-3: 24px;
+  --spacing-tally-4: 32px;
+  --spacing-tally-6: 48px;
+  --spacing-tally-8: 64px;
+  --spacing-tally-10: 80px;
+  --spacing-tally-12: 96px;
+  --spacing-tally-max: 1200px;
+
+  --text-tally-micro: 12px;
+  --text-tally-micro--line-height: 1.33;
+  --text-tally-ui: 14px;
+  --text-tally-ui--line-height: 1.43;
+  --text-tally-body: 16px;
+  --text-tally-body--line-height: 1.6;
+  --text-tally-card-title: 24px;
+  --text-tally-card-title--line-height: 1.25;
+  --text-tally-section: 42px;
+  --text-tally-section--line-height: 1.06;
+  --text-tally-hero: 64px;
+  --text-tally-hero--line-height: 1.04;
+}
+
+@utility tally-page {
+  background: var(--color-tally-paper);
+  color: var(--color-tally-graphite-ink);
+  font-family: var(--font-tally-sans);
+}
+
+@utility tally-hero-title {
+  color: var(--color-tally-graphite-ink);
+  font-size: clamp(42px, 7vw, var(--text-tally-hero));
+  line-height: var(--text-tally-hero--line-height);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+@utility tally-primary-button {
+  border-radius: var(--radius-tally-control);
+  background: var(--color-tally-action-blue);
+  color: var(--color-tally-paper);
+  padding: 8px 14px;
+  font-size: var(--text-tally-body);
+  font-weight: 500;
+}
+
+@utility tally-card {
+  border: 1px solid var(--color-tally-line-gray);
+  border-radius: var(--radius-tally-card);
+  background: var(--color-tally-paper);
+  padding: 24px;
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.12),
+    0 3px 9px rgba(61, 59, 53, 0.10);
+}

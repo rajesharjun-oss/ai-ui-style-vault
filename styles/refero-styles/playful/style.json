@@ -1,0 +1,81 @@
+{
+  "id": "f93ac72e-73b2-4b2c-80eb-351ddfa56f4d",
+  "name": "Playful",
+  "slug": "playful",
+  "sourceUrl": "https://styles.refero.design/style/f93ac72e-73b2-4b2c-80eb-351ddfa56f4d",
+  "referenceSite": "https://www.playful.so",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "sunlit paper notebook with hot-pink highlighter",
+  "industry": ["AI apps", "consumer productivity", "creative tools", "playful product"],
+  "summary": "A warm cream product style with Hot Magenta as the only accent, Inter-only typography, heavy italic display headlines, 44px soft cards, 99px pill controls, deep card-only shadows, and illustration-led app tiles.",
+  "colors": {
+    "hotMagenta": "#ff2e95",
+    "inkBlack": "#000000",
+    "oatCanvas": "#f6f2ee",
+    "softInk": "#111111",
+    "slate": "#0f172a",
+    "charcoal": "#414040",
+    "stone": "#848383",
+    "paperWhite": "#ffffff",
+    "warmMist": "#e8e5e0",
+    "sand": "#e2dcd6",
+    "driftwood": "#c3c1bf",
+    "midnight": "#202126"
+  },
+  "typography": {
+    "primary": "Inter",
+    "fallback": "Arial, ui-sans-serif, system-ui",
+    "weights": [400, 500, 600, 700, 900],
+    "displayStyle": "italic",
+    "displayRange": "70px to 79px",
+    "letterSpacing": "-0.002em",
+    "features": ["ss01", "cv11"]
+  },
+  "shape": {
+    "tagRadius": "999px",
+    "cardRadius": "44px",
+    "imageRadius": "16px",
+    "inputRadius": "99px",
+    "buttonRadius": "99px"
+  },
+  "layout": {
+    "density": "spacious",
+    "maxWidth": "1200px",
+    "sectionGap": "113px",
+    "cardPadding": "24px",
+    "elementGap": "10px to 16px"
+  },
+  "elevation": {
+    "cardShadow": "0 32px 80px rgba(0, 0, 0, 0.22), 0 2px 8px rgba(0, 0, 0, 0.08)",
+    "usage": "cards and tiles only"
+  },
+  "components": [
+    "primary pill CTA",
+    "email input composite",
+    "editorial display headline",
+    "app tile card",
+    "FAQ accordion card",
+    "category navigation bar",
+    "logo wordmark",
+    "gradient highlight section",
+    "hero subtext",
+    "two-column FAQ layout"
+  ],
+  "dos": [
+    "Use Oat Canvas as the page background.",
+    "Reserve Hot Magenta for primary action, logo, links, and small accents.",
+    "Set display headlines in heavy italic Inter.",
+    "Use 44px cards and 99px pill controls.",
+    "Apply shadows only to cards and app tiles.",
+    "Use illustration-led app tiles instead of photography."
+  ],
+  "donts": [
+    "Do not use upright bold display headlines.",
+    "Do not introduce additional accent colors.",
+    "Do not use pure white as the full-page background.",
+    "Do not use sharp 0px to 4px radii for cards or buttons.",
+    "Do not place white cards directly on white.",
+    "Do not use shadows on text, buttons, icons, or inputs."
+  ]
+}

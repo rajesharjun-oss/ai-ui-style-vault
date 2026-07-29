@@ -1,0 +1,83 @@
+{
+  "name": "(dot)connect",
+  "slug": "dotconnect",
+  "source_url": "https://styles.refero.design/style/981d90e9-7be3-497f-a899-52a0a9ec16f4",
+  "style_id": "981d90e9-7be3-497f-a899-52a0a9ec16f4",
+  "reference_site": "https://dotconnect.vc",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A warm off-white Swiss engineering style with near-black text, one ember-orange accent, blue outline-only secondary actions, huge tightly tracked Aeonik typography, soft rounded components, and border-driven flat surfaces.",
+  "personality": [
+    "architectural",
+    "swiss",
+    "technical",
+    "precise",
+    "text-led",
+    "premium"
+  ],
+  "colors": {
+    "boneCanvas": "#fcfbf8",
+    "charcoalInk": "#001011",
+    "smokeVeil": "#0f1e1f",
+    "ashLayer": "#ededea",
+    "mistBorder": "#c1c4c2",
+    "ember": "#fd5321",
+    "signalBlue": "#007aff"
+  },
+  "typography": {
+    "primary": "AeonikPro, Inter, Satoshi, General Sans, Arial, sans-serif",
+    "display": "DotConnect, AeonikPro, Inter, Satoshi, General Sans, Arial, sans-serif",
+    "weights": [400, 500],
+    "sizesPx": [16, 18, 19, 21, 24, 32, 36, 72, 73, 101],
+    "features": "\"dlig\" on, \"ss02\" on, \"ss08\" on",
+    "rules": [
+      "Use weights 400 and 500 only.",
+      "Use negative tracking at display sizes.",
+      "Use slight positive tracking at body sizes.",
+      "Do not set body text below 16px or above 21px."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 8,
+    "maxWidthPx": 1200,
+    "sectionGapPx": 96,
+    "cardPaddingPx": [24, 32],
+    "elementGapPx": 24,
+    "scalePx": [8, 16, 24, 32, 48, 64, 72, 80, 96, 160]
+  },
+  "radius": {
+    "badgesPx": 8,
+    "cardsPx": 20,
+    "imagesPx": 20,
+    "buttonsPx": 24,
+    "linksPx": 44,
+    "pillsPx": 48
+  },
+  "components": [
+    "filled ember CTA",
+    "arrow pill button",
+    "ghost outlined action",
+    "offer card",
+    "case study card",
+    "section header",
+    "top navigation",
+    "carousel navigation",
+    "badge tag",
+    "text hero",
+    "3D render feature block"
+  ],
+  "avoid": [
+    "shadows",
+    "drop shadows",
+    "glows",
+    "decorative gradients",
+    "blue filled actions",
+    "multiple ember accents per viewport",
+    "right-aligned body paragraphs",
+    "photography",
+    "lifestyle imagery",
+    "body type under 16px"
+  ]
+}
+

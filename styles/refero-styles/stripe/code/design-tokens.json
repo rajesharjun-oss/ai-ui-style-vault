@@ -1,0 +1,90 @@
+{
+  "name": "Stripe",
+  "sourceUrl": "https://styles.refero.design/style/48e5de76-05d5-4c4e-a269-c7c245b291ec",
+  "referenceUrl": "https://stripe.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "color": {
+    "deepNavy": { "value": "#0a2540", "type": "color" },
+    "slateLedger": { "value": "#425466", "type": "color" },
+    "blueGray": { "value": "#6b7c93", "type": "color" },
+    "borderMist": { "value": "#e6ebf1", "type": "color" },
+    "gridLine": { "value": "#d6dee8", "type": "color" },
+    "cloudLedger": { "value": "#f5f7fb", "type": "color" },
+    "paperWhite": { "value": "#ffffff", "type": "color" },
+    "indigoAction": { "value": "#635bff", "type": "color" },
+    "cyanAccent": { "value": "#00d4ff", "type": "color" },
+    "greenLedger": { "value": "#00a86b", "type": "color" },
+    "amberNotice": { "value": "#f6a609", "type": "color" }
+  },
+  "font": {
+    "sohneVar": { "value": "sohne-var, Inter, system-ui, Helvetica Neue, sans-serif", "type": "fontFamily" },
+    "mono": { "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "light": { "value": 300, "type": "fontWeight" },
+    "regular": { "value": 400, "type": "fontWeight" },
+    "medium": { "value": 500, "type": "fontWeight" },
+    "semibold": { "value": 600, "type": "fontWeight" }
+  },
+  "fontSize": {
+    "caption": { "value": "13px", "type": "fontSize" },
+    "bodySm": { "value": "15px", "type": "fontSize" },
+    "body": { "value": "16px", "type": "fontSize" },
+    "bodyLg": { "value": "17px", "type": "fontSize" },
+    "headingSm": { "value": "24px", "type": "fontSize" },
+    "heading": { "value": "31px", "type": "fontSize" },
+    "headingLg": { "value": "51px", "type": "fontSize" },
+    "display": { "value": "56px", "type": "fontSize" },
+    "displayXl": { "value": "82px", "type": "fontSize" }
+  },
+  "lineHeight": {
+    "caption": { "value": 1.54, "type": "lineHeight" },
+    "bodySm": { "value": 1.6, "type": "lineHeight" },
+    "body": { "value": 1.56, "type": "lineHeight" },
+    "bodyLg": { "value": 1.73, "type": "lineHeight" },
+    "headingSm": { "value": 1.25, "type": "lineHeight" },
+    "heading": { "value": 1.23, "type": "lineHeight" },
+    "headingLg": { "value": 1.08, "type": "lineHeight" },
+    "display": { "value": 1.07, "type": "lineHeight" },
+    "displayXl": { "value": 1, "type": "lineHeight" }
+  },
+  "letterSpacing": {
+    "caption": { "value": "0.2px", "type": "letterSpacing" },
+    "headingSm": { "value": "-0.24px", "type": "letterSpacing" },
+    "heading": { "value": "-0.31px", "type": "letterSpacing" },
+    "headingLg": { "value": "-1.53px", "type": "letterSpacing" },
+    "display": { "value": "-1.68px", "type": "letterSpacing" },
+    "displayXl": { "value": "-2.46px", "type": "letterSpacing" }
+  },
+  "spacing": {
+    "4": { "value": "4px", "type": "dimension" },
+    "8": { "value": "8px", "type": "dimension" },
+    "12": { "value": "12px", "type": "dimension" },
+    "16": { "value": "16px", "type": "dimension" },
+    "20": { "value": "20px", "type": "dimension" },
+    "24": { "value": "24px", "type": "dimension" },
+    "32": { "value": "32px", "type": "dimension" },
+    "40": { "value": "40px", "type": "dimension" },
+    "48": { "value": "48px", "type": "dimension" },
+    "64": { "value": "64px", "type": "dimension" },
+    "80": { "value": "80px", "type": "dimension" },
+    "96": { "value": "96px", "type": "dimension" }
+  },
+  "radius": {
+    "cards": { "value": "4px", "type": "borderRadius" },
+    "buttons": { "value": "4px", "type": "borderRadius" },
+    "inputs": { "value": "4px", "type": "borderRadius" },
+    "pills": { "value": "999px", "type": "borderRadius" },
+    "codePanels": { "value": "4px", "type": "borderRadius" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1080px", "type": "dimension" },
+    "sectionGap": { "value": "80px", "type": "dimension" },
+    "cardPadding": { "value": "24px", "type": "dimension" },
+    "elementGap": { "value": "16px", "type": "dimension" }
+  },
+  "shadow": {
+    "none": { "value": "none", "type": "boxShadow" }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "id": "21cfe0c1-778d-4613-9f47-a5718eb929b3",
+  "name": "Auros",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/21cfe0c1-778d-4613-9f47-a5718eb929b3",
+  "referenceUrl": "https://auros.global",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Abyss-black trading terminal with blue/cyan aurora glow, glass panels, dense market data, and live signal semantics.",
+  "bestFor": [
+    "trading platforms",
+    "fintech dashboards",
+    "market-data tools",
+    "liquidity monitoring",
+    "crypto infrastructure",
+    "quant analytics",
+    "command centers"
+  ],
+  "tags": [
+    "dark",
+    "fintech",
+    "trading",
+    "terminal",
+    "market-data",
+    "aurora-cyan",
+    "electro-blue",
+    "pulse-green",
+    "glass-panels",
+    "ticker-rails",
+    "mono-data",
+    "dashboard"
+  ],
+  "colors": {
+    "brand": {
+      "electroBlue": {
+        "value": "#0066ff",
+        "token": "--color-electro-blue",
+        "role": "Primary CTA, active navigation, hero beam, trading highlight glow."
+      },
+      "auroraCyan": {
+        "value": "#00d8ff",
+        "token": "--color-aurora-cyan",
+        "role": "Secondary gradient stop, hover highlight, chart pulse, data glow."
+      },
+      "pulseGreen": {
+        "value": "#39ff88",
+        "token": "--color-pulse-green",
+        "role": "Gain state, live indicator, liquidity signal, success feedback."
+      }
+    },
+    "neutrals": {
+      "abyss": "#02030a",
+      "terminalBlack": "#07080f",
+      "carbonGlass": "#0d111a",
+      "graphite": "#151824",
+      "gridline": "#2b3040",
+      "mutedSteel": "#6f7890",
+      "softSilver": "#aeb7c9",
+      "lunarWhite": "#f7fbff"
+    },
+    "accents": {
+      "magnetarViolet": "#7c3cff",
+      "solarGold": "#ffd166",
+      "riskRed": "#ff4d6d"
+    }
+  },
+  "typography": {
+    "families": {
+      "sans": "Satoshi",
+      "mono": "Space Mono"
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "1.45",
+        "fontWeight": 500,
+        "letterSpacing": "0.08em"
+      },
+      "data": {
+        "fontSize": "13px",
+        "lineHeight": "1.5",
+        "fontWeight": 500,
+        "letterSpacing": "0.03em"
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": "1.6",
+        "fontWeight": 400,
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.65",
+        "fontWeight": 400,
+        "letterSpacing": "0"
+      },
+      "lead": {
+        "fontSize": "20px",
+        "lineHeight": "1.55",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em"
+      },
+      "h3": {
+        "fontSize": "28px",
+        "lineHeight": "1.18",
+        "fontWeight": 600,
+        "letterSpacing": "-0.03em"
+      },
+      "h2": {
+        "fontSize": "44px",
+        "lineHeight": "1.08",
+        "fontWeight": 600,
+        "letterSpacing": "-0.05em"
+      },
+      "h1": {
+        "fontSize": "72px",
+        "lineHeight": "0.96",
+        "fontWeight": 700,
+        "letterSpacing": "-0.07em"
+      },
+      "display": {
+        "fontSize": "104px",
+        "lineHeight": "0.9",
+        "fontWeight": 700,
+        "letterSpacing": "-0.08em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "baseUnit": "4px",
+    "maxWidth": "1280px",
+    "sectionGap": "120px",
+    "cardPadding": "32px",
+    "elementGap": "16px",
+    "scalePx": [4, 6, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 120]
+  },
+  "radii": {
+    "pill": "999px",
+    "card": "28px",
+    "tile": "18px",
+    "terminal": "12px",
+    "circle": "50%"
+  },
+  "effects": {
+    "shadowDeep": "0 32px 120px rgba(0, 0, 0, 0.55)",
+    "glowBlue": "0 0 72px rgba(0, 102, 255, 0.38)",
+    "glowCyan": "0 0 64px rgba(0, 216, 255, 0.32)",
+    "glowViolet": "0 0 80px rgba(124, 60, 255, 0.28)",
+    "innerGlass": "inset 0 1px 0 rgba(255, 255, 255, 0.06)"
+  },
+  "components": [
+    "Glow Pill CTA",
+    "Secondary Glass Pill",
+    "Market Ticker Rail",
+    "Terminal Panel",
+    "Liquidity Metric Card",
+    "Global Map Node",
+    "Data Table Row",
+    "Chart Tooltip",
+    "Nav Capsule",
+    "Orbital/Aurora Visual Layer"
+  ],
+  "guidance": {
+    "do": [
+      "Use abyss-black backgrounds with blue and cyan reserved for focal action and data signal.",
+      "Use oversized tight headings for hero and editorial moments.",
+      "Use pill geometry for CTAs, nav chips, and ticker rails.",
+      "Pair Satoshi for headings and UI with Space Mono for trading data.",
+      "Layer translucent dark panels over controlled glow.",
+      "Keep green and red tied to financial meaning.",
+      "Keep dashboards dense, calm, and divided by fine lines.",
+      "Use map or network imagery as luminous infrastructure."
+    ],
+    "dont": [
+      "Do not add warm orange accents beyond controlled gold metric emphasis.",
+      "Do not turn the aurora gradient into a full-page wash.",
+      "Do not set body copy in the mono font.",
+      "Do not add light theme sections.",
+      "Do not over-round major cards into blob shapes.",
+      "Do not use generic blue-and-white SaaS card layouts.",
+      "Do not overanimate dashboards.",
+      "Do not use lifestyle photography as the main visual language."
+    ]
+  }
+}
+

@@ -1,0 +1,99 @@
+{
+  "name": "Henry",
+  "slug": "henry",
+  "source": {
+    "provider": "refero",
+    "url": "https://styles.refero.design/style/ff4b9eff-dc0b-4886-bd65-c2f5e9069318",
+    "referenceUrl": "https://henry.codes",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "mixed",
+  "color": {
+    "paper": { "value": "#fafafa", "role": "cream-white canvas and inverted type" },
+    "headlineInk": { "value": "#2a2722", "role": "primary text and dark section surface" },
+    "sepia": { "value": "#3e3b36", "role": "strong secondary warm ink" },
+    "ash": { "value": "#666666", "role": "muted text and secondary borders" },
+    "midstone": { "value": "#9f9f9f", "role": "muted borders and dark-section rules" },
+    "pebble": { "value": "#b3b3b3", "role": "inactive nav and quiet borders" },
+    "hairline": { "value": "#eeeeee", "role": "subtle borders on Paper" }
+  },
+  "typography": {
+    "fontFamilies": {
+      "neueMontreal": "\"Neue Montreal\", Inter, Sohne, \"General Sans\", system-ui, sans-serif",
+      "louizeDisplay": "\"Louize Display\", Fraunces, \"GT Sectra\", \"Lyon Display\", Georgia, serif",
+      "louize": "Louize, Fraunces, \"GT Sectra\", Georgia, serif",
+      "manuka": "Manuka, Druk, Condor, Antonio, Impact, sans-serif"
+    },
+    "scale": {
+      "caption": { "size": "12px", "weight": 400, "lineHeight": 1.5, "letterSpacing": "-0.12px" },
+      "body": { "size": "16px", "weight": 400, "lineHeight": 1.5, "letterSpacing": "-0.16px" },
+      "subheading": { "size": "20px", "weight": 400, "lineHeight": 1.3, "letterSpacing": "-0.2px" },
+      "headingSm": { "size": "24px", "weight": 400, "lineHeight": 1.2, "letterSpacing": "-0.24px" },
+      "heading": { "size": "32px", "weight": 400, "lineHeight": 1.1, "letterSpacing": "-0.32px" },
+      "headingLg": { "size": "77px", "weight": 400, "lineHeight": 0.9, "letterSpacing": "0" },
+      "display": { "size": "132px", "weight": 400, "lineHeight": 0.8, "letterSpacing": "0" },
+      "displayXl": { "size": "371px", "weight": 400, "lineHeight": 0.75, "letterSpacing": "0" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "64": "64px",
+      "80": "80px",
+      "224": "224px"
+    },
+    "layout": {
+      "sectionGap": "64-96px",
+      "cardPadding": "16px",
+      "elementGap": "16px"
+    }
+  },
+  "radius": {
+    "tags": "12px",
+    "cards": "12px",
+    "buttons": "12px"
+  },
+  "surfaces": {
+    "paper": "#fafafa",
+    "ink": "#2a2722"
+  },
+  "components": {
+    "mastheadDisplayHeadline": {
+      "font": "{typography.fontFamilies.louizeDisplay}",
+      "size": "116-132px",
+      "lineHeight": "0.8",
+      "colorRule": "Ink on Paper or Paper on Ink"
+    },
+    "stampedDisplaySectionHeader": {
+      "font": "{typography.fontFamilies.manuka}",
+      "size": "226-371px",
+      "lineHeight": "0.75-0.8",
+      "textTransform": "uppercase"
+    },
+    "invertedEditorialLetter": {
+      "background": "#2a2722",
+      "text": "#fafafa",
+      "bodyFont": "{typography.fontFamilies.louizeDisplay}",
+      "alignment": "center"
+    },
+    "comingSoonTag": {
+      "radius": "12px",
+      "border": "1px solid currentColor",
+      "background": "transparent",
+      "padding": "4px 8px"
+    },
+    "sectionDividerRule": {
+      "height": "1px",
+      "width": "100%",
+      "color": "currentColor"
+    }
+  }
+}
+

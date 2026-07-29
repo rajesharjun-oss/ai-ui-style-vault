@@ -1,0 +1,247 @@
+{
+ "id": "03e03554-d7aa-40da-9764-79320ecfa1d0",
+ "name": "OHZI Interactive Studio / Dive into digital magic.",
+ "slug": "ohzi-interactive-studio-dive-into-digital-magic",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/03e03554-d7aa-40da-9764-79320ecfa1d0",
+ "referenceSite": "https://ohzi.io",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T02:24:01.347Z",
+ "articleModifiedAt": "2026-06-03T19:35:15.944Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/e8ad18d2-6f55-486d-ae91-6d5368b7e7eb.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/abcc776c-9c48-4816-a0b4-74b54391ae82.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/22c6dadd-10e0-45f0-b152-3110ea7ad3b7.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8ddce8f1-b591-4b50-991e-cf2b7cb8ab58.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/a7546dc3-de03-490c-bab0-3d1194b4e03b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/0924bb48-33c8-46a9-be74-4f3af7e95e66.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "A glowing cube suspended in a dark gallery",
+ "summary": "Explore OHZI Interactive Studio / Dive into digital magic.\u0027s dark Agency design system: Pure White #ffffff, Void Black #000000 colors, Unbounded typography,...",
+ "colors": [
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary text, icon strokes, hairline borders, outlined button frame - the only foreground color on the dark canvas, used at full opacity for headlines and at 1px hairline weight for UI structure"
+ },
+ {
+ "name": "Void Black",
+ "value": "#000000",
+ "token": "--color-void-black",
+ "role": "Deep background fill, SVG icon bases - the absolute floor of the visual hierarchy, used for full-bleed canvas and asset fills"
+ },
+ {
+ "name": "Carbon",
+ "value": "#111111",
+ "token": "--color-carbon",
+ "role": "Heading text on light sections, deep surface layer - near-black with a whisper of warmth, used where #000000 would feel too flat"
+ },
+ {
+ "name": "Fog",
+ "value": "#f5f5f7",
+ "token": "--color-fog",
+ "role": "Secondary text, subtle panel surfaces, light-section borders - cool-tinted off-white that softens transitions on inverted sections"
+ },
+ {
+ "name": "Ash",
+ "value": "#cfcfcf",
+ "token": "--color-ash",
+ "role": "Muted helper text, disabled states, tertiary borders - the mid-gray for elements that should recede"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Unbounded",
+ "token": "--font-unbounded",
+ "role": "Sole typeface for everything - headlines, body, buttons, nav. Its geometric, slightly squared character with wide-aperture letterforms reads as digital-native and architectural. Weight 100 for display text creates a near-wireframe quality that feels holographic against the dark background."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.2",
+ "2.63px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.2",
+ "3.01px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.2",
+ "2.38px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "2.66px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.2",
+ "2.61px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.2",
+ "2.27px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "38px",
+ "1.2",
+ "2.55px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "80-120px",
+ "cardPadding": "24-40px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "21",
+ "21px",
+ "`--spacing-21`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "badges",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Ghost CTA Button",
+ "role": "Primary action trigger"
+ },
+ {
+ "name": "Brand Lockup",
+ "role": "Top-left identity mark"
+ },
+ {
+ "name": "Hamburger Menu Trigger",
+ "role": "Navigation toggle"
+ },
+ {
+ "name": "Hero Headline",
+ "role": "Page title"
+ },
+ {
+ "name": "Hero Subtext",
+ "role": "Supporting description"
+ },
+ {
+ "name": "3D Hero Object",
+ "role": "Central visual anchor"
+ },
+ {
+ "name": "Cookie Consent Banner",
+ "role": "Compliance overlay"
+ }
+ ],
+ "dos": [
+ "Use Unbounded exclusively - never substitute a secondary typeface, the single-family discipline is the identity",
+ "Apply positive letter-spacing to all text; never collapse tracking below 0.067em even at display sizes",
+ "Keep all UI elements at 0px border-radius - sharp corners are non-negotiable and echo the 3D geometry",
+ "Let the 3D scene be the sole source of color and light; UI stays pure grayscale (#ffffff, #f5f5f7, #cfcfcf, #111111, #000000)",
+ "Use 1px hairline borders for all structural elements - buttons, dividers, card frames",
+ "Center-align hero content and maintain generous vertical breathing room (80-120px between sections)",
+ "Pair weight 600-700 for headlines with weight 100-400 for body to create a weight-contrast hierarchy that replaces color contrast"
+ ],
+ "donts": [
+ "Never introduce accent colors, gradients, or chromatic buttons - the system is deliberately achromatic",
+ "Never use border-radius on buttons, cards, inputs, or images - the sharp geometry is load-bearing",
+ "Never apply shadows, glows, or blur effects to UI elements - depth belongs to the 3D scene only",
+ "Never use negative letter-spacing or tight tracking - the wide-open spacing is the typographic signature",
+ "Never fill buttons with solid color - always use the transparent ghost-button treatment with a 1px stroke frame",
+ "Never use more than one typeface or mix serif/sans - Unbounded is the sole voice",
+ "Never crowd the central viewport with UI - the 3D object needs negative space to breathe"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Void Canvas | `#000000` | Full-bleed page background - the dark gallery floor |\n| 2 | Carbon Panel | `#111111` | Inverted-section surfaces, heading backgrounds where depth is needed |\n| 3 | Fog Surface | `#f5f5f7` | Light-mode content sections that alternate with the dark hero |",
+ "elevation": "No shadows, no glows, no blur. Depth is created entirely through the 3D scene\u0027s own lighting and the reflective floor effect. UI elements sit flat against the void - any elevation would compete with the central 3D object.",
+ "imagery": "Imagery is exclusively 3D-rendered geometric objects (cubes, prisms, abstract forms) floating in a dark void with reflective floor effects. No photography, no illustration, no flat icons. The 3D renders provide all chromatic content - they glow, refract, and cast reflections. UI icons (hamburger, dismiss X, logo mark) are minimal thin-stroke line geometry in #ffffff. The visual density is extremely low: one hero object, lots of void. This is an imagery-light site where a single rendered artifact carries the entire visual weight.",
+ "layout": "Full-bleed dark canvas with no max-width constraint. Hero is a single full-viewport section: the 3D object sits dead-center, headline and subtext are centered directly above or overlapping the object, and the CTA button sits below. Navigation is minimal - a brand lockup top-left and hamburger top-right, both floating over the void with no background or container. Vertical rhythm is spacious, with 80-120px between distinct content blocks. The page likely scrolls to reveal additional sections (about, work, contact) that may alternate to lighter surfaces, but the dominant impression is of a single dark room with one illuminated object."
+}

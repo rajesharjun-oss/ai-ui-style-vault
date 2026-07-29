@@ -1,0 +1,260 @@
+{
+ "id": "34534515-c044-4d37-940d-44352d62ee44",
+ "name": "Ashton Bespoke",
+ "slug": "ashton-bespoke",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/34534515-c044-4d37-940d-44352d62ee44",
+ "referenceSite": "https://www.ashtonbespoke.co.uk",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:55:58.668Z",
+ "articleModifiedAt": "2026-06-03T17:50:22.835Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/79cc38f1-f834-43d1-b947-50726c3bd5e3.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ccabb2ca-067b-4e8d-b80f-468a29be1f7a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/c8756d6e-a930-457d-8b38-80c19c8083fa.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/21725069-7ffa-4067-9e7a-7e5aaea8978b.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5b780940-7c1c-4922-876c-50d8360f0f6c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/47d1b3cd-93b0-4d96-8a96-89e4489912cd.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Stone cathedral of craftsmanship - warm parchment surface, one whisper of burgundy, letterspaced serif that breathes.",
+ "summary": "Explore Ashton Bespoke\u0027s light Other design system: Burnt Wine #38141b, Ink Stone #262626 colors, Arial, Legquinne VF typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Burnt Wine",
+ "value": "#38141b",
+ "token": "--color-burnt-wine",
+ "role": "Footer background, sectional dark bands, atmospheric accent - the sole chromatic note in an otherwise achromatic palette, used sparingly to anchor gravity"
+ },
+ {
+ "name": "Ink Stone",
+ "value": "#262626",
+ "token": "--color-ink-stone",
+ "role": "Primary text, hairline borders, image frames, nav links - the structural near-black that defines every edge and label"
+ },
+ {
+ "name": "Warm Parchment",
+ "value": "#e0ded8",
+ "token": "--color-warm-parchment",
+ "role": "Dominant page canvas, section backgrounds, card surfaces - warm stone tone that gives the site its gallery-like, hand-made feel"
+ },
+ {
+ "name": "White",
+ "value": "#ffffff",
+ "token": "--color-white",
+ "role": "Elevated surfaces, inverted text on dark sections, nav text over imagery, subtle highlight washes"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Body text fallback - sparse usage suggests it appears in long-form paragraphs where readability supersedes brand expression"
+ },
+ {
+ "name": "Legquinne VF",
+ "token": "--font-legquinne-vf",
+ "role": "Display and heading serif - the single voice of the brand. Variable font allows optical weight tuning per context. Custom typeface; no system equivalent."
+ },
+ {
+ "name": "Basis Grotesque Pro",
+ "token": "--font-basis-grotesque-pro",
+ "role": "Navigation links, small caps-style captions, and compact body labels - the quiet supporting sans that stays out of the serif\u0027s way"
+ },
+ {
+ "name": "Basisgrotesquepro 500",
+ "token": "--font-basisgrotesquepro-500",
+ "role": "Basisgrotesquepro 500 - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "15px",
+ "1.1",
+ "0.32px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.1",
+ "0.54px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "46px",
+ "1.1",
+ "1.01px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1.1",
+ "1.86px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "120px",
+ "cardPadding": "32px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "4px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Full-Bleed Cinematic Hero",
+ "role": "Opening statement section"
+ },
+ {
+ "name": "Monogram Brand Mark",
+ "role": "Brand identity anchor"
+ },
+ {
+ "name": "Editorial Statement Block",
+ "role": "Centered mission/manifesto display"
+ },
+ {
+ "name": "Split Image-Text Section",
+ "role": "Two-column editorial layout"
+ },
+ {
+ "name": "Transparent Top Navigation",
+ "role": "Site navigation"
+ },
+ {
+ "name": "Hairline-Bordered Image Frame",
+ "role": "Image presentation"
+ },
+ {
+ "name": "Wine Footer",
+ "role": "Closing section"
+ },
+ {
+ "name": "Underlined Inline Link",
+ "role": "Text-level navigation"
+ },
+ {
+ "name": "Section Anchor Tag",
+ "role": "Section divider indicator"
+ }
+ ],
+ "dos": [
+ "Set headlines in Legquinne VF (or Cormorant Garamond) at 32-60px with tracking between 0.017em and 0.031em - the wide letter-spacing is signature, not optional",
+ "Use #e0ded8 as the dominant canvas for at least 60% of the page; it is the brand\u0027s defining surface",
+ "Reserve #38141b exclusively for the footer or at most one dark section per page - its power depends on scarcity",
+ "Keep interfaces borderless or use 1px solid #262626 hairlines only; never apply shadows, gradients, or rounded corners larger than 4px to UI elements",
+ "Let photographs be full-bleed or edge-to-edge with no decorative frame beyond a 1px border; the image is the component",
+ "Use generous vertical rhythm: 80-120px between sections, 24-32px between text blocks - editorial spacing, not app spacing",
+ "Pair the serif display with Basis Grotesque Pro for all navigation, labels, and captions; never substitute a slab or geometric sans"
+ ],
+ "donts": [
+ "Do not introduce bright or saturated colors - the palette is deliberately achromatic with one wine note",
+ "Do not apply border-radius larger than 4px to cards, images, or buttons; the editorial feel requires sharp geometry",
+ "Do not use shadows, glows, or blur effects on any UI element; depth comes from photography and spacing, not elevation",
+ "Do not set the serif below 24px or above 60px - the typeface is designed for display scale, not body or billboard",
+ "Do not center body paragraphs or use justified text; body copy is left-aligned at line-height 1.40",
+ "Do not add icons, badges, tags, or decorative elements; the site is typographic and photographic, not symbolic",
+ "Do not use button fills or background colors on interactive elements; links are text-only with underlines"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Parchment Canvas | `#e0ded8` | Primary page background - warm stone field that dominates most sections |\n| 2 | White Surface | `#ffffff` | Elevated blocks, card surfaces, contrast breaks within parchment sections |\n| 3 | Wine Ground | `#38141b` | Footer and dark band backgrounds - rare inversion that signals end of page |",
+ "elevation": "The design intentionally avoids all shadows and depth effects. Flatness is the philosophy - surfaces are distinguished by color (parchment white wine) and whitespace, never by elevation. The only depth cue permitted is a 1px solid #262626 hairline border for image framing.",
+ "imagery": "Photography is the primary visual language. Full-bleed workshop imagery dominates the hero and key sections - close-cropped hands-on-tools shots, material textures (raw timber, leather, metal), and process documentation. The aesthetic is high-key warm and editorial: natural light, shallow depth of field, muted earth tones, no lifestyle staging. Images are always presented edge-to-edge or with a 1px ink border, never rounded or masked. The mood is documentary-craftsman, not luxury-catalogue. There is no illustration, no 3D rendering, no abstract graphics - the work itself is the only visual that matters.",
+ "layout": "Full-bleed editorial layout with no max-width container. The hero is a full-viewport video or still image with a single centered serif headline. Subsequent sections are split-screen (50/50 text + image), centered statement blocks on parchment, and occasional full-width image breaks. The navigation is transparent and floats over the hero, then settles into parchment sections. Vertical rhythm is dramatic: 80-120px between sections, with most sections breathing through 40-60% of their height as negative space. The grid is implicit - no visible columns, no card grids, no pricing tables. Information density is low: one headline, one image, two or three short paragraphs per section. The site reads top-to-bottom like a magazine spread."
+}

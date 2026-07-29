@@ -1,0 +1,154 @@
+{
+  "name": "Playful",
+  "slug": "playful",
+  "theme": "light",
+  "source": "https://styles.refero.design/style/f93ac72e-73b2-4b2c-80eb-351ddfa56f4d",
+  "referenceSite": "https://www.playful.so",
+  "color": {
+    "hotMagenta": {
+      "value": "#ff2e95",
+      "type": "color",
+      "role": "Primary CTA, logo mark, links, and accent strokes"
+    },
+    "inkBlack": {
+      "value": "#000000",
+      "type": "color",
+      "role": "Main heading text, button text, heavy borders, dark nav band"
+    },
+    "oatCanvas": {
+      "value": "#f6f2ee",
+      "type": "color",
+      "role": "Page background and warm cream surface"
+    },
+    "softInk": {
+      "value": "#111111",
+      "type": "color",
+      "role": "Body text and headings on light surfaces"
+    },
+    "slate": {
+      "value": "#0f172a",
+      "type": "color",
+      "role": "Secondary copy and muted body text"
+    },
+    "charcoal": {
+      "value": "#414040",
+      "type": "color",
+      "role": "Form states, badge text, neutral UI feedback"
+    },
+    "stone": {
+      "value": "#848383",
+      "type": "color",
+      "role": "Icon strokes, helper text, subtle dividers"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "type": "color",
+      "role": "Card surfaces and elevated panels"
+    },
+    "warmMist": {
+      "value": "#e8e5e0",
+      "type": "color",
+      "role": "Hairline borders and dividers"
+    },
+    "sand": {
+      "value": "#e2dcd6",
+      "type": "color",
+      "role": "Secondary borders on warm surfaces"
+    },
+    "driftwood": {
+      "value": "#c3c1bf",
+      "type": "color",
+      "role": "Muted fills and shadow-adjacent tones"
+    },
+    "midnight": {
+      "value": "#202126",
+      "type": "color",
+      "role": "Deep heading variant"
+    }
+  },
+  "font": {
+    "inter": {
+      "value": "Inter, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Primary typeface for all UI and display"
+    },
+    "arial": {
+      "value": "Arial, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "System fallback for input and button contexts"
+    }
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700,
+    "black": 900
+  },
+  "size": {
+    "caption": {
+      "value": "13px",
+      "lineHeight": "1.4",
+      "letterSpacing": "-0.026px"
+    },
+    "body": {
+      "value": "16px",
+      "lineHeight": "1.5",
+      "letterSpacing": "-0.032px"
+    },
+    "bodyLg": {
+      "value": "18px",
+      "lineHeight": "1.5",
+      "letterSpacing": "-0.036px"
+    },
+    "subheading": {
+      "value": "26px",
+      "lineHeight": "1.23",
+      "letterSpacing": "-0.052px"
+    },
+    "headingSm": {
+      "value": "30px",
+      "lineHeight": "1.2",
+      "letterSpacing": "-0.06px"
+    },
+    "display": {
+      "value": "79px",
+      "lineHeight": "1",
+      "letterSpacing": "-0.158px",
+      "fontStyle": "italic"
+    }
+  },
+  "spacing": {
+    "4": "4px",
+    "5": "5px",
+    "8": "8px",
+    "10": "10px",
+    "12": "12px",
+    "14": "14px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "25": "25px",
+    "26": "26px",
+    "30": "30px",
+    "32": "32px",
+    "36": "36px",
+    "60": "60px",
+    "180": "180px",
+    "sectionGap": "113px",
+    "maxWidth": "1200px",
+    "cardPadding": "24px",
+    "elementGap": "10px to 16px"
+  },
+  "radius": {
+    "tags": "999px",
+    "cards": "44px",
+    "images": "16px",
+    "inputs": "99px",
+    "buttons": "99px"
+  },
+  "shadow": {
+    "card": "0 32px 80px rgba(0, 0, 0, 0.22), 0 2px 8px rgba(0, 0, 0, 0.08)",
+    "usage": "cards, FAQ rows, and app tiles only"
+  }
+}

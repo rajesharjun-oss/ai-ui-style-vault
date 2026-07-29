@@ -1,0 +1,181 @@
+:root {
+  --dotconnect-bone-canvas: #fcfbf8;
+  --dotconnect-charcoal-ink: #001011;
+  --dotconnect-smoke-veil: #0f1e1f;
+  --dotconnect-ash-layer: #ededea;
+  --dotconnect-mist-border: #c1c4c2;
+  --dotconnect-ember: #fd5321;
+  --dotconnect-signal-blue: #007aff;
+
+  --dotconnect-font-primary: AeonikPro, Inter, Satoshi, "General Sans", Arial, sans-serif;
+  --dotconnect-font-display: DotConnect, AeonikPro, Inter, Satoshi, "General Sans", Arial, sans-serif;
+  --dotconnect-font-features: "dlig" on, "ss02" on, "ss08" on;
+
+  --dotconnect-text-caption: 16px;
+  --dotconnect-leading-caption: 1.5;
+  --dotconnect-tracking-caption: 0.16px;
+  --dotconnect-text-body: 18px;
+  --dotconnect-leading-body: 1.4;
+  --dotconnect-tracking-body: 0.18px;
+  --dotconnect-text-body-dense: 19px;
+  --dotconnect-leading-body-dense: 1.67;
+  --dotconnect-tracking-body-dense: 0.19px;
+  --dotconnect-text-subheading: 24px;
+  --dotconnect-leading-subheading: 1.4;
+  --dotconnect-tracking-subheading: -0.29px;
+  --dotconnect-text-heading-sm: 32px;
+  --dotconnect-leading-heading-sm: 1.1;
+  --dotconnect-tracking-heading-sm: -0.38px;
+  --dotconnect-text-heading: 36px;
+  --dotconnect-leading-heading: 1.1;
+  --dotconnect-tracking-heading: -0.72px;
+  --dotconnect-text-heading-lg: 72px;
+  --dotconnect-leading-heading-lg: 0.9;
+  --dotconnect-tracking-heading-lg: -1.8px;
+  --dotconnect-text-display: 101px;
+  --dotconnect-leading-display: 0.8;
+  --dotconnect-tracking-display: -2.53px;
+
+  --dotconnect-spacing-unit: 8px;
+  --dotconnect-spacing-8: 8px;
+  --dotconnect-spacing-16: 16px;
+  --dotconnect-spacing-24: 24px;
+  --dotconnect-spacing-32: 32px;
+  --dotconnect-spacing-48: 48px;
+  --dotconnect-spacing-64: 64px;
+  --dotconnect-spacing-72: 72px;
+  --dotconnect-spacing-80: 80px;
+  --dotconnect-spacing-96: 96px;
+  --dotconnect-spacing-160: 160px;
+
+  --dotconnect-page-max-width: 1200px;
+  --dotconnect-section-gap: 96px;
+  --dotconnect-card-padding: 24px;
+  --dotconnect-element-gap: 24px;
+
+  --dotconnect-radius-badge: 8px;
+  --dotconnect-radius-card: 20px;
+  --dotconnect-radius-image: 20px;
+  --dotconnect-radius-button: 24px;
+  --dotconnect-radius-link: 44px;
+  --dotconnect-radius-pill: 48px;
+
+  --dotconnect-border: 1px solid var(--dotconnect-mist-border);
+}
+
+.dotconnect-theme {
+  min-height: 100vh;
+  background: var(--dotconnect-bone-canvas);
+  color: var(--dotconnect-charcoal-ink);
+  font-family: var(--dotconnect-font-primary);
+  font-feature-settings: var(--dotconnect-font-features);
+}
+
+.dotconnect-container {
+  width: min(100% - 32px, var(--dotconnect-page-max-width));
+  margin-inline: auto;
+}
+
+.dotconnect-display {
+  margin: 0;
+  color: var(--dotconnect-charcoal-ink);
+  font-family: var(--dotconnect-font-display);
+  font-size: clamp(56px, 8vw, var(--dotconnect-text-display));
+  font-weight: 500;
+  line-height: var(--dotconnect-leading-display);
+  letter-spacing: var(--dotconnect-tracking-display);
+}
+
+.dotconnect-body {
+  color: var(--dotconnect-smoke-veil);
+  font-family: var(--dotconnect-font-primary);
+  font-size: var(--dotconnect-text-body);
+  font-weight: 400;
+  line-height: var(--dotconnect-leading-body);
+  letter-spacing: var(--dotconnect-tracking-body);
+}
+
+.dotconnect-button-ember,
+.dotconnect-button-outline,
+.dotconnect-arrow-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--dotconnect-font-primary);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  text-decoration: none;
+  transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.dotconnect-button-ember {
+  border: 0;
+  border-radius: var(--dotconnect-radius-button);
+  background: var(--dotconnect-ember);
+  color: var(--dotconnect-bone-canvas);
+  padding: 8px 24px;
+}
+
+.dotconnect-button-outline {
+  border: 1px solid var(--dotconnect-signal-blue);
+  border-radius: var(--dotconnect-radius-button);
+  background: transparent;
+  color: var(--dotconnect-signal-blue);
+  padding: 12px 24px;
+}
+
+.dotconnect-arrow-pill {
+  gap: 12px;
+  border: 0;
+  border-radius: var(--dotconnect-radius-link);
+  background: var(--dotconnect-charcoal-ink);
+  color: var(--dotconnect-bone-canvas);
+  padding: 6px 20px 6px 6px;
+}
+
+.dotconnect-arrow-pill-icon {
+  display: inline-grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border-radius: 9999px;
+  background: var(--dotconnect-bone-canvas);
+  color: var(--dotconnect-charcoal-ink);
+}
+
+.dotconnect-card {
+  border: var(--dotconnect-border);
+  border-radius: var(--dotconnect-radius-card);
+  background: var(--dotconnect-bone-canvas);
+  padding: 32px;
+  box-shadow: none;
+}
+
+.dotconnect-badge {
+  border: var(--dotconnect-border);
+  border-radius: var(--dotconnect-radius-badge);
+  background: var(--dotconnect-bone-canvas);
+  color: var(--dotconnect-smoke-veil);
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.dotconnect-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: var(--dotconnect-border);
+  padding-bottom: 16px;
+  color: var(--dotconnect-charcoal-ink);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dotconnect-visual-interlude {
+  display: grid;
+  min-height: 420px;
+  place-items: center;
+  background: var(--dotconnect-bone-canvas);
+}
+

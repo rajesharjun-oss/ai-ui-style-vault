@@ -1,0 +1,74 @@
+@theme {
+  --color-pure-black: #000000;
+  --color-scale-white: #ffffff;
+  --color-signal-green: #19d27f;
+  --color-model-blue: #3f7dff;
+  --color-data-violet: #7b61ff;
+  --color-near-black: #050505;
+  --color-graphite: #111111;
+  --color-steel: #333333;
+  --color-ash: #6f6f6f;
+  --color-mist: #e6e6e6;
+  --color-cloud: #f6f6f6;
+  --color-paper: #fafafa;
+  --color-warning-amber: #ffb547;
+  --color-error-red: #ff5a5f;
+  --color-success-green: #19d27f;
+
+  --font-suisse-intl: "Suisse Intl", Inter, "Helvetica Neue", Arial, sans-serif;
+  --font-suisse-intl-mono: "Suisse Intl Mono", "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --tracking-caption: 0.06em;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.55;
+  --text-body: 16px;
+  --leading-body: 1.6;
+  --text-lead: 20px;
+  --leading-lead: 1.45;
+  --tracking-lead: -0.01em;
+  --text-heading-sm: 28px;
+  --leading-heading-sm: 1.18;
+  --tracking-heading-sm: -0.03em;
+  --text-heading: 48px;
+  --leading-heading: 1.05;
+  --tracking-heading: -0.05em;
+  --text-display: 72px;
+  --leading-display: 0.96;
+  --tracking-display: -0.06em;
+
+  --radius-buttons: 999px;
+  --radius-cards: 16px;
+  --radius-panels: 12px;
+  --radius-inputs: 8px;
+  --radius-chips: 999px;
+
+  --shadow-scale-product: 0 16px 48px rgba(0, 0, 0, 0.08);
+}
+
+@utility scale-hero-overlay {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.82) 100%);
+}
+
+@utility scale-wireframe-bg {
+  background-color: #000000;
+  background-image: radial-gradient(circle at center, rgba(63, 125, 255, 0.22), rgba(0, 0, 0, 0) 60%);
+}
+
+@utility scale-card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+@utility scale-cta {
+  background: #000000;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 20px;
+}
+

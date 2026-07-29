@@ -1,0 +1,181 @@
+{
+    "name":  "Silencio",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Ink Black",
+                       "value":  "#000000",
+                       "token":  "--color-ink-black",
+                       "role":  "Primary text, iconography, hairline rules, table borders the only high-contrast element on the page"
+                   },
+                   {
+                       "name":  "Paper Warm Gray",
+                       "value":  "#dbdad9",
+                       "token":  "--color-paper-warm-gray",
+                       "role":  "Card surfaces, soft fills, the single chromatic departure from pure white, gentle gradient origin"
+                   },
+                   {
+                       "name":  "Graphite Border",
+                       "value":  "#808080",
+                       "token":  "--color-graphite-border",
+                       "role":  "Subtle table dividers and secondary rule lines used when #000000 would feel too heavy"
+                   },
+                   {
+                       "name":  "Bleach White",
+                       "value":  "#ffffff",
+                       "token":  "--color-bleach-white",
+                       "role":  "Supporting palette color for small decorative accents when the core palette needs contrast."
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "HaasR Workhorse grotesque for body, subheadings, and mid-size headings. Weight 100 is used for restraint in body contexts; 700 sparingly for emphasis. The single most-used face carries the page. `--font-haasr`",
+                                     "HaasT Display-only face at 141px with tightened leading (0.90). Used for hero statements and singular set-pieces the only moment typography shouts, and it shouts at full volume against pure white. `--font-haast`",
+                                     "PT Mono Metadata, spec labels, catalog tags the typographic equivalent of a printed museum label. Appears at 11px only; functions as a quiet signature rather than informational copy. `--font-pt-mono`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.4",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "22px",
+                                             "1.1",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "39px",
+                                             "1",
+                                             "",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "58px",
+                                             "0.9",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "display",
+                                             "141px",
+                                             "0.9",
+                                             "",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "7",
+                                      "7px",
+                                      "--spacing-7"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "14",
+                                      "14px",
+                                      "--spacing-14"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "17",
+                                      "17px",
+                                      "--spacing-17"
+                                  ],
+                                  [
+                                      "22",
+                                      "22px",
+                                      "--spacing-22"
+                                  ],
+                                  [
+                                      "29",
+                                      "29px",
+                                      "--spacing-29"
+                                  ],
+                                  [
+                                      "43",
+                                      "43px",
+                                      "--spacing-43"
+                                  ],
+                                  [
+                                      "72",
+                                      "72px",
+                                      "--spacing-72"
+                                  ],
+                                  [
+                                      "144",
+                                      "144px",
+                                      "--spacing-144"
+                                  ],
+                                  [
+                                      "173",
+                                      "173px",
+                                      "--spacing-173"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1440px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "43px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "29px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "7px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "tags",
+                      "9999px"
+                  ],
+                  [
+                      "cards",
+                      "7.2px"
+                  ],
+                  [
+                      "buttons",
+                      "129.6px"
+                  ],
+                  [
+                      "surfaces",
+                      "43.2px"
+                  ]
+              ]
+}

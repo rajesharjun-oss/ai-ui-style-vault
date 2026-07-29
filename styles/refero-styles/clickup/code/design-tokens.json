@@ -1,0 +1,186 @@
+{
+  "name": "ClickUp",
+  "version": "2026-07-28",
+  "colors": {
+    "signalWhite": {
+      "value": "#ffffff",
+      "role": "Page canvas, cards, and light button fills"
+    },
+    "inkBlack": {
+      "value": "#202020",
+      "role": "Primary CTA fill, heading text, and main UI copy"
+    },
+    "onyx": {
+      "value": "#090c1d",
+      "role": "Maximum-scale display text and stat numbers"
+    },
+    "carbon": {
+      "value": "#2a2a2a",
+      "role": "Borders, dark text on light fills, and dividers"
+    },
+    "slate": {
+      "value": "#646464",
+      "role": "Secondary body text, nav labels, and icon fills"
+    },
+    "ash": {
+      "value": "#838383",
+      "role": "Tertiary text, disabled states, and metadata"
+    },
+    "fog": {
+      "value": "#b3b3b3",
+      "role": "Subtle card borders, dividers, and placeholders"
+    },
+    "cloud": {
+      "value": "#d4d4d4",
+      "role": "Hairline borders, dashed dividers, and input outlines"
+    },
+    "bone": {
+      "value": "#e8e8e8",
+      "role": "Default border color"
+    },
+    "plaster": {
+      "value": "#e9ebf0",
+      "role": "Large neutral section band"
+    },
+    "mercury": {
+      "value": "#eeeeee",
+      "role": "Neutral chips and soft badge surfaces"
+    },
+    "mist": {
+      "value": "#f8f9fa",
+      "role": "Light card surface and secondary action fill"
+    },
+    "brandViolet": {
+      "value": "#6647f0",
+      "role": "Brand badges, product identity marks, and short status labels"
+    },
+    "signalBlue": {
+      "value": "#0091ff",
+      "role": "Links, outline action borders, checkmarks, and active tag text"
+    },
+    "mint": {
+      "value": "#6ee7b7",
+      "role": "Green done-state surface and text accent"
+    },
+    "emerald": {
+      "value": "#00c07a",
+      "role": "Green outline, focused edge, and positive divider"
+    },
+    "tealTag": {
+      "value": "#16c0a4",
+      "role": "Teal state badge accent"
+    }
+  },
+  "gradients": {
+    "rainbowConic": "conic-gradient(from 90deg, #7d5be7 19%, #bc3fda 28%, #fa24ce 37%, #fb49a5 45%, #fc6d7b 52%, #fd8461 55%, #fd9a46 58%, #f687c6 65%, #a3a0e0 80%, #4fb9fa 95%, #0091ff 100%)",
+    "primary": "linear-gradient(83deg, rgba(64, 221, 255, 1) -5%, rgba(118, 18, 250, 1) 51%, rgba(250, 18, 227, 1) 125%)",
+    "darkFade": "linear-gradient(#111111 24%, #000000)"
+  },
+  "font": {
+    "display": "Plus Jakarta Sans, Inter, General Sans, Arial, sans-serif",
+    "body": "Inter, system-ui, Arial, sans-serif",
+    "mono": "Sometype Mono, JetBrains Mono, IBM Plex Mono, monospace",
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "displaySemibold": 650,
+      "bold": 700,
+      "extrabold": 800
+    }
+  },
+  "typeScale": {
+    "bodySm": {
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "-0.01px"
+    },
+    "body": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "-0.01px"
+    },
+    "subheading": {
+      "fontSize": "20px",
+      "fontWeight": 500,
+      "lineHeight": 1.5,
+      "letterSpacing": "-0.02px"
+    },
+    "headingSm": {
+      "fontSize": "34px",
+      "fontWeight": 650,
+      "lineHeight": 1.2,
+      "letterSpacing": "-0.04em"
+    },
+    "heading": {
+      "fontSize": "48px",
+      "fontWeight": 650,
+      "lineHeight": 1.25,
+      "letterSpacing": "-0.035em"
+    },
+    "headingLg": {
+      "fontSize": "60px",
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.035em"
+    },
+    "display": {
+      "fontSize": "80px",
+      "fontWeight": 700,
+      "lineHeight": 1.2,
+      "letterSpacing": "-0.04em"
+    },
+    "monoLabel": {
+      "fontSize": "10px to 12px",
+      "fontWeight": 400,
+      "lineHeight": "1.2 to 2.0",
+      "letterSpacing": "0.06em to 0.08em"
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "unit": "4px",
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "28": "28px",
+    "32": "32px",
+    "40": "40px",
+    "48": "48px",
+    "52": "52px",
+    "56": "56px",
+    "72": "72px",
+    "80": "80px",
+    "100": "100px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "28px",
+    "elementGap": "12px"
+  },
+  "radius": {
+    "inputs": "9px",
+    "cards": "12px",
+    "images": "16px",
+    "largeCards": "20px",
+    "tags": "100px",
+    "badges": "9999px",
+    "buttons": "9999px"
+  },
+  "shadows": {
+    "subtle": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "product": "rgba(18, 43, 165, 0.04) multi-step soft lift",
+    "rule": "Most surfaces stay flat; use shadow sparingly for product screenshots."
+  },
+  "motion": {
+    "fast": "150ms",
+    "default": "450ms",
+    "ease": "cubic-bezier(0.33, 1, 0.68, 1)",
+    "signature": "One rotating conic-gradient border per viewport at most"
+  }
+}
+

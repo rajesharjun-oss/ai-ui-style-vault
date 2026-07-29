@@ -1,0 +1,140 @@
+{
+  "name": "Supabase",
+  "slug": "supabase",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/632249f1-fd78-4c77-9b34-7bae37ff3e9b",
+    "style_id": "632249f1-fd78-4c77-9b34-7bae37ff3e9b",
+    "reference_site": "https://supabase.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "dark",
+  "industry": "devtools",
+  "mood": "midnight code editor with phosphor green caret",
+  "summary": "A dark developer-tool system with an Obsidian canvas, grayscale surfaces, one phosphor green accent, Circular typography, Source Code Pro snippets, pill buttons, 16px cards, 8px inputs, and border-only elevation.",
+  "use_cases": [
+    "Developer tools",
+    "Database platforms",
+    "API products",
+    "Infrastructure dashboards",
+    "Observability pages",
+    "Docs-driven launches",
+    "Technical SaaS marketing"
+  ],
+  "colors": {
+    "phosphor_green": "#3ecf8e",
+    "mint_pulse": "#00c573",
+    "forest_depth": "#1f4b37",
+    "midnight_emerald": "#006239",
+    "snow": "#fafafa",
+    "silver_mist": "#b4b4b4",
+    "smoke": "#898989",
+    "graphite": "#4d4d4d",
+    "slate": "#393939",
+    "charcoal": "#2e2e2e",
+    "ash": "#242424",
+    "obsidian": "#121212",
+    "void": "#0d0d0d"
+  },
+  "typography": {
+    "primary_font": "Circular",
+    "code_font": "Source Code Pro",
+    "fallback": "Inter, Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "weights": [400, 500],
+    "letter_spacing": "-0.007em",
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.084px",
+        "weight": 400,
+        "font": "Circular"
+      },
+      "body_sm": {
+        "size": "14px",
+        "line_height": "1.43",
+        "letter_spacing": "-0.098px",
+        "weight": 400,
+        "font": "Circular"
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.112px",
+        "weight": 400,
+        "font": "Circular"
+      },
+      "subheading": {
+        "size": "18px",
+        "line_height": "1.38",
+        "letter_spacing": "-0.126px",
+        "weight": 400,
+        "font": "Circular"
+      },
+      "heading_sm": {
+        "size": "24px",
+        "line_height": "1.33",
+        "letter_spacing": "-0.168px",
+        "weight": 500,
+        "font": "Circular"
+      },
+      "heading": {
+        "size": "36px",
+        "line_height": "1.2",
+        "letter_spacing": "-0.252px",
+        "weight": 400,
+        "font": "Circular"
+      },
+      "display": {
+        "size": "72px",
+        "line_height": "1",
+        "letter_spacing": "-0.504px",
+        "weight": 400,
+        "font": "Circular"
+      },
+      "code": {
+        "size": "12px",
+        "line_height": "1.33",
+        "letter_spacing": "0.1em",
+        "weight": 400,
+        "font": "Source Code Pro"
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "page_max_width": "1200px",
+    "section_gap": "64px to 96px",
+    "card_padding": "24px",
+    "element_gap": "8px to 16px"
+  },
+  "radius": {
+    "buttons": "9999px",
+    "tags": "9999px",
+    "cards": "16px",
+    "inputs": "8px"
+  },
+  "components": [
+    "Pill Primary Button",
+    "Pill Ghost Button",
+    "GitHub Stars Pill",
+    "Feature Card",
+    "Product Showcase Card",
+    "Testimonial Card",
+    "Announcement Pill",
+    "Logo Cloud Item",
+    "Top Navigation Bar",
+    "Input Field"
+  ],
+  "rules": [
+    "Use Phosphor Green only for CTA, logo, active, focus, and emphasized keyword moments.",
+    "Keep the page canvas at Obsidian.",
+    "Separate surfaces with 1px Charcoal borders.",
+    "Use no card shadows.",
+    "Keep buttons and tags fully pill-shaped.",
+    "Keep cards at 16px radius and inputs at 8px radius.",
+    "Use Circular weights 400 and 500 only.",
+    "Use Source Code Pro only for code-like fragments.",
+    "Avoid all non-green chromatic accents."
+  ]
+}

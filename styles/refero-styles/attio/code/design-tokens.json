@@ -1,0 +1,405 @@
+{
+ "name": "Attio",
+ "slug": "attio",
+ "colors": [
+ {
+ "name": "Page Canvas",
+ "value": "#ffffff",
+ "token": "--color-page-canvas",
+ "role": "Primary page background, card surfaces, button backgrounds"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#1c1d1f",
+ "token": "--color-ink-black",
+ "role": "Primary heading and body text, logo mark"
+ },
+ {
+ "name": "Graphite",
+ "value": "#232529",
+ "token": "--color-graphite",
+ "role": "Dark surface text, dark filled button background"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#101113",
+ "token": "--color-obsidian",
+ "role": "Deepest text and dark surface fills"
+ },
+ {
+ "name": "Carbon",
+ "value": "#2e3238",
+ "token": "--color-carbon",
+ "role": "Secondary dark text, nav states, button text on light fills"
+ },
+ {
+ "name": "Slate 500",
+ "value": "#505967",
+ "token": "--color-slate-500",
+ "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Slate 600",
+ "value": "#6f7988",
+ "token": "--color-slate-600",
+ "role": "Muted body text, secondary descriptions"
+ },
+ {
+ "name": "Slate 700",
+ "value": "#8f99a8",
+ "token": "--color-slate-700",
+ "role": "Tertiary headings, captions, low-emphasis text"
+ },
+ {
+ "name": "Fog 400",
+ "value": "#9fa1a7",
+ "token": "--color-fog-400",
+ "role": "Placeholder text, disabled states, subtle icons"
+ },
+ {
+ "name": "Mist 300",
+ "value": "#b5bdc9",
+ "token": "--color-mist-300",
+ "role": "Muted body text, secondary copy"
+ },
+ {
+ "name": "Cloud 200",
+ "value": "#cad0d9",
+ "token": "--color-cloud-200",
+ "role": "Hairline borders on cards, input borders, dividers"
+ },
+ {
+ "name": "Cloud 100",
+ "value": "#d3d8df",
+ "token": "--color-cloud-100",
+ "role": "Card borders, surface boundaries"
+ },
+ {
+ "name": "Mist 50",
+ "value": "#e4e7ec",
+ "token": "--color-mist-50",
+ "role": "Primary border color, dividers, subtle backgrounds, button borders"
+ },
+ {
+ "name": "Haze",
+ "value": "#eeeff1",
+ "token": "--color-haze",
+ "role": "Subtle background fills, section bands, inset borders"
+ },
+ {
+ "name": "Paper",
+ "value": "#f4f5f6",
+ "token": "--color-paper",
+ "role": "Alternate surface background, subtle elevated panels"
+ },
+ {
+ "name": "Cobalt Core",
+ "value": "#266df0",
+ "token": "--color-cobalt-core",
+ "role": "Primary brand accent - link text, focus rings, active states, highlighted icons, gradient midtone"
+ },
+ {
+ "name": "Cobalt Bright",
+ "value": "#407ff2",
+ "token": "--color-cobalt-bright",
+ "role": "Secondary accent, hover states, decorative strokes in illustrations"
+ },
+ {
+ "name": "Cobalt Soft",
+ "value": "#538bf3",
+ "token": "--color-cobalt-soft",
+ "role": "Violet wash for highlight backgrounds, decorative bands, and soft emphasis behind content."
+ },
+ {
+ "name": "Periwinkle",
+ "value": "#bad0fa",
+ "token": "--color-periwinkle",
+ "role": "Decorative card borders, subtle blue-tinted surface outlines"
+ },
+ {
+ "name": "Ice Wash",
+ "value": "#e4edff",
+ "token": "--color-ice-wash",
+ "role": "Soft blue-tinted background, highlight washes, button box-shadow tints"
+ },
+ {
+ "name": "Onyx Footer",
+ "value": "#000000",
+ "token": "--color-onyx-footer",
+ "role": "Footer background, dark section backgrounds, high-contrast text on light"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "UI body - used for all body text, buttons, nav, links, card content, footers, icons. Weight 500 is the default for nearly all UI text (buttons, nav, body), giving Attio a slightly heavier, more confident UI voice than typical 400-only systems. Activated \u0027ss03\u0027 alternates give the text a distinctive geometric character."
+ },
+ {
+ "name": "InterDisplay",
+ "token": "--font-interdisplay",
+ "role": "Marketing headlines and display copy - weight 600 exclusively for large hero and section headings, with tight tracking (-0.015em to -0.02em) and near-1.0 line-heights creating dramatic, compact display blocks. The 56px size with -0.015em tracking is the signature hero voice. Activates \u0027ss03\u0027 and \u0027calt\u0027 for the same alternate character as Inter body."
+ },
+ {
+ "name": "TiemposText",
+ "token": "--font-tiempostext",
+ "role": "Editorial pull-quote and testimonial headings - a humanist serif that breaks the sans-serif system to create warmth and editorial weight. Used sparingly for quoted customer voices. This serif/sans contrast is the single most distinctive typographic choice in the system."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.42",
+ "-0.22px",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "16px",
+ "1.38",
+ "-0.16px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.3",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.19",
+ "-0.32px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.1",
+ "-0.4px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1.07",
+ "-0.84px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "64px",
+ "1",
+ "-1.28px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "80-120px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tabs",
+ "10px"
+ ],
+ [
+ "cards",
+ "11-14px"
+ ],
+ [
+ "badges",
+ "7px"
+ ],
+ [
+ "inputs",
+ "10px"
+ ],
+ [
+ "buttons",
+ "10px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Filled Button",
+ "role": "Main conversion action"
+ },
+ {
+ "name": "Secondary Outline Button",
+ "role": "Companion action beside primary"
+ },
+ {
+ "name": "Ghost Text Button",
+ "role": "Tertiary inline action"
+ },
+ {
+ "name": "Dark Inverted Button",
+ "role": "Action on dark surfaces"
+ },
+ {
+ "name": "Tab Bar",
+ "role": "Section navigation"
+ },
+ {
+ "name": "Product Screenshot Card",
+ "role": "Product visual showcase"
+ },
+ {
+ "name": "Feature Card",
+ "role": "Content card with description"
+ },
+ {
+ "name": "Logo Strip",
+ "role": "Social proof / customer logos"
+ },
+ {
+ "name": "Eyebrow Pill / Tag",
+ "role": "Section category label"
+ },
+ {
+ "name": "New Badge",
+ "role": "Status indicator"
+ },
+ {
+ "name": "Promo Banner",
+ "role": "Top-of-page announcement"
+ },
+ {
+ "name": "Chat Input Field",
+ "role": "AI query input"
+ },
+ {
+ "name": "Sidebar Navigation",
+ "role": "In-product navigation"
+ },
+ {
+ "name": "Footer",
+ "role": "Site-wide footer"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #266df0 (Cobalt Core) as the single accent for all interactive highlights, active states, and link text - never introduce additional saturated colors",
+ "Set display headlines in InterDisplay weight 600 at 40-64px with tracking -0.015em to -0.02em and line-height 1.0-1.1",
+ "Use 10px border-radius for all buttons and inputs, 7px for tags and badges, 11-14px for cards",
+ "Apply blue-tinted shadows at very low opacity (rgba(28, 40, 64, 0.04) to rgba(28, 40, 64, 0.1)) - never use warm-gray or pure-black shadows",
+ "Use Inter weight 500 as the default UI weight, not 400 - the slightly heavier weight is the system\u0027s default voice",
+ "Activate \u0027ss03\u0027 on all Inter and InterDisplay text for the alternate geometric character",
+ "Keep the max-width at 1440px and maintain 80-120px vertical gaps between major sections"
+ ],
+ "doNot": [
+ "Don\u0027t use rounded buttons with radius above 12px - the 10px radius is part of the system identity",
+ "Don\u0027t introduce secondary accent colors, gradients on buttons, or decorative color - one blue accent is the rule",
+ "Don\u0027t use TiemposText for anything other than testimonial pull-quote headings - the serif/sans contrast is earned by rarity",
+ "Don\u0027t use Inter weight 400 as a default - weight 500 carries the UI voice",
+ "Don\u0027t apply shadows warmer than rgba(28, 40, 64, ...) - the blue-tinted shadow is deliberate, not neutral",
+ "Don\u0027t use letter-spacing wider than 0 for body or heading text - the system is consistently tight-tracked",
+ "Don\u0027t place the cobalt accent on filled backgrounds in body copy - it belongs to links, icons, and small interactive moments"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/08c8700c-f278-42bc-812e-f60dc6ce996e",
+ "referenceSite": "https://attio.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-02-15T11:19:49.000Z",
+ "articleModifiedAt": "2026-07-03T03:43:47.574Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/53500141-c640-4810-99d2-3c5c50ab7956.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c5e60f24-f27c-47c9-b238-fa902ca0f163.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1c210bcf-2264-4e84-8360-9e3333c8e876.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/7a02e499-e2a2-4232-8dd4-057847e5db98.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/fc7852fd-b4c7-4423-a540-3146397b68ac.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/69b6e59d-2745-4f84-8967-8956b89e0394.png"
+ }
+ }
+}

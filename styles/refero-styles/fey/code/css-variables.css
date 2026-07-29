@@ -1,0 +1,85 @@
+:root {
+  --fey-color-white: #ffffff;
+  --fey-color-ink: #0b0b0b;
+  --fey-color-charcoal: #191919;
+  --fey-color-obsidian: #131313;
+  --fey-color-graphite: #868f97;
+  --fey-color-mist: #cccccc;
+  --fey-color-smoke: #525252;
+  --fey-color-pale: #e6e6e6;
+  --fey-color-ash: #999999;
+  --fey-color-ember: #ffa16c;
+  --fey-color-signal: #479ffa;
+  --fey-color-growth: #4ebe96;
+  --fey-color-abyss: #000000;
+  --fey-color-frost: #b6d6ff;
+  --fey-color-volt: #d6fe51;
+
+  --fey-font-primary: "Calibre", Inter, Satoshi, "General Sans", Arial, sans-serif;
+
+  --fey-text-caption: 10px;
+  --fey-text-body: 14px;
+  --fey-text-heading-sm: 18px;
+  --fey-text-heading: 24px;
+  --fey-text-heading-lg: 26px;
+  --fey-text-display: 48px;
+  --fey-text-display-lg: 54px;
+
+  --fey-radius-card: 16px;
+  --fey-radius-icon: 6px;
+  --fey-radius-small: 10px;
+  --fey-radius-pill: 99px;
+  --fey-radius-featured: 275px;
+
+  --fey-space-element: 16px;
+  --fey-space-section: 64px;
+  --fey-space-card: 24px;
+  --fey-page-max: 1200px;
+
+  --fey-shadow-product: rgba(0, 0, 0, 0.8) 0px 0px 44px 0px;
+  --fey-shadow-action: rgba(0, 0, 0, 0.85) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 0px 14px 0px;
+  --fey-shadow-featured: rgba(0, 0, 0, 0.5) 0px 0px 35px 0px;
+}
+
+.fey-page {
+  background: var(--fey-color-ink);
+  color: var(--fey-color-white);
+  font-family: var(--fey-font-primary);
+}
+
+.fey-display {
+  color: var(--fey-color-white);
+  font-family: var(--fey-font-primary);
+  font-size: var(--fey-text-display);
+  font-weight: 700;
+  letter-spacing: -0.08em;
+  line-height: 1.1;
+}
+
+.fey-product-card {
+  background: var(--fey-color-charcoal);
+  border-radius: var(--fey-radius-card);
+  box-shadow: var(--fey-shadow-product);
+  padding: var(--fey-space-card);
+}
+
+.fey-pill-control {
+  align-items: center;
+  border-radius: var(--fey-radius-pill);
+  display: inline-flex;
+  font-family: var(--fey-font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.fey-primary-action {
+  background: var(--fey-color-ink);
+  box-shadow: var(--fey-shadow-action);
+  color: var(--fey-color-white);
+}
+
+.fey-status-growth {
+  background: var(--fey-color-growth);
+  color: var(--fey-color-white);
+}

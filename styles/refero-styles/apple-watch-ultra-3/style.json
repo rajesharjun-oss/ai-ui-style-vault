@@ -1,0 +1,144 @@
+{
+  "name": "Apple Watch Ultra 3",
+  "slug": "apple-watch-ultra-3",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/da7e5084-9e5d-4eb2-bb10-4c2d7733a56e",
+    "style_id": "da7e5084-9e5d-4eb2-bb10-4c2d7733a56e",
+    "reference_site": "https://www.apple.com/apple-watch-ultra-3",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "mixed",
+  "mood": "obsidian gallery vitrine",
+  "summary": "A cinematic hardware page style with pure-black stages, white detail bands, SF Pro typography, one Apple Blue CTA, category color labels, huge product photography, 28px cards, 36px buttons, 980px nav pills, and no shadows.",
+  "use_cases": [
+    "Premium hardware launches",
+    "Wearable product pages",
+    "Luxury device showcases",
+    "Sports-tech product stories",
+    "Consumer electronics marketing",
+    "Cinematic ecommerce pages"
+  ],
+  "colors": {
+    "apple_blue": "#0071e3",
+    "link_blue": "#0066cc",
+    "halo_blue": "#2997ff",
+    "signal_orange": "#f56900",
+    "iris_violet": "#8668ff",
+    "reef_teal": "#00a1b3",
+    "pure_black": "#000000",
+    "carbon": "#111111",
+    "obsidian": "#1d1d1f",
+    "graphite": "#333336",
+    "smoke": "#424245",
+    "platinum": "#86868b",
+    "silver_mist": "#cccccc",
+    "frost_white": "#f5f5f7",
+    "paper_white": "#ffffff"
+  },
+  "typography": {
+    "display_font": "SF Pro Display",
+    "body_font": "SF Pro Text",
+    "fallback": "Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "display_weights": [600, 700],
+    "body_weights": [400, 600],
+    "features": ["numr"],
+    "scale": {
+      "caption": {
+        "size": "10px",
+        "line_height": "1.83",
+        "letter_spacing": "-0.37px",
+        "weight": 400,
+        "font": "SF Pro Text"
+      },
+      "body": {
+        "size": "14px",
+        "line_height": "1.43",
+        "letter_spacing": "-0.22px",
+        "weight": 400,
+        "font": "SF Pro Text"
+      },
+      "heading_sm": {
+        "size": "19px",
+        "line_height": "1.21",
+        "letter_spacing": "-0.28px",
+        "weight": 600,
+        "font": "SF Pro Display"
+      },
+      "heading": {
+        "size": "24px",
+        "line_height": "1.17",
+        "letter_spacing": "-0.24px",
+        "weight": 600,
+        "font": "SF Pro Display"
+      },
+      "heading_lg": {
+        "size": "32px",
+        "line_height": "1.14",
+        "letter_spacing": "-0.32px",
+        "weight": 700,
+        "font": "SF Pro Display"
+      },
+      "statement": {
+        "size": "44px",
+        "line_height": "1",
+        "letter_spacing": "-0.44px",
+        "weight": 400,
+        "font": "SF Pro Text"
+      },
+      "display": {
+        "size": "56px",
+        "line_height": "1.07",
+        "letter_spacing": "-0.84px",
+        "weight": 600,
+        "font": "SF Pro Display"
+      },
+      "hero": {
+        "size": "80px",
+        "line_height": "1.05",
+        "letter_spacing": "-0.24px",
+        "weight": 600,
+        "font": "SF Pro Display"
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "density": "comfortable",
+    "page_max_width": "1440px",
+    "section_gap": "88px to 120px",
+    "card_padding": "28px",
+    "element_gap": "10px to 12px"
+  },
+  "radius": {
+    "links": "10px",
+    "cards": "28px",
+    "buttons": "36px",
+    "nav": "980px",
+    "pill": "980px"
+  },
+  "components": [
+    "Hero Stage",
+    "Primary CTA Button",
+    "Ghost Price Label",
+    "Category Eyebrow Tag",
+    "Feature Card Dark Stage",
+    "Light Section Content Block",
+    "Top Navigation Bar",
+    "Promo Banner",
+    "Section Headline Dark",
+    "Inline Feature Link",
+    "Product Spec Tile"
+  ],
+  "rules": [
+    "Use Apple Blue as the only filled chromatic CTA.",
+    "Keep one filled chromatic button per viewport.",
+    "Use 28px radius for photo cards and content containers.",
+    "Use 36px radius for standard buttons.",
+    "Use 980px radius for nav and pill chips.",
+    "Alternate Pure Black feature stages and Paper White detail bands.",
+    "Use Signal Orange only for category eyebrows.",
+    "Use huge product imagery without hero card chrome.",
+    "Do not use shadows or gradients."
+  ]
+}

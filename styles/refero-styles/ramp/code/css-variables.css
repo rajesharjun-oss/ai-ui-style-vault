@@ -1,0 +1,139 @@
+:root {
+  --ramp-highlighter-yellow: #e4f222;
+  --ramp-ink: #0c0a08;
+  --ramp-obsidian: #1a1919;
+  --ramp-ash: #6d6c6b;
+  --ramp-smoke: #d3d3d3;
+  --ramp-hairline: #e5e7eb;
+  --ramp-bone: #f4f2f0;
+  --ramp-paper: #ffffff;
+
+  --ramp-font: "lausanne", Inter, "IBM Plex Sans", Sohne, Arial, sans-serif;
+  --ramp-font-weight: 400;
+  --ramp-feature-settings: "ss01";
+
+  --ramp-max-width: 1200px;
+  --ramp-section-gap: 96px;
+  --ramp-card-padding: 20px;
+
+  --ramp-radius-button: 6px;
+  --ramp-radius-input: 10px;
+  --ramp-radius-wash-card: 12px;
+  --ramp-radius-card: 16px;
+
+  --ramp-border: 1px solid var(--ramp-hairline);
+  --ramp-nav-inset: rgba(255, 255, 255, 0.6) 0 0 2px 0 inset;
+}
+
+.ramp-theme {
+  min-height: 100vh;
+  background: var(--ramp-bone);
+  color: var(--ramp-ink);
+  font-family: var(--ramp-font);
+  font-weight: var(--ramp-font-weight);
+  font-feature-settings: var(--ramp-feature-settings);
+}
+
+.ramp-container {
+  width: min(100% - 32px, var(--ramp-max-width));
+  margin-inline: auto;
+}
+
+.ramp-display {
+  margin: 0;
+  font-size: clamp(40px, 6vw, 64px);
+  line-height: 1;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.ramp-micro-label {
+  font-size: 10px;
+  line-height: 2.2;
+  letter-spacing: 0.018em;
+  text-transform: uppercase;
+  color: var(--ramp-ash);
+}
+
+.ramp-button-primary,
+.ramp-button-outline,
+.ramp-button-ghost {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--ramp-radius-button);
+  font-family: var(--ramp-font);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: background-color 320ms ease-out, border-color 320ms ease-out, color 320ms ease-out;
+}
+
+.ramp-button-primary {
+  border: 0;
+  background: var(--ramp-highlighter-yellow);
+  color: var(--ramp-ink);
+  padding: 12px 20px;
+}
+
+.ramp-button-outline {
+  border: 1px solid var(--ramp-ink);
+  background: transparent;
+  color: var(--ramp-ink);
+  padding: 12px;
+}
+
+.ramp-button-ghost {
+  border: 0;
+  background: transparent;
+  color: var(--ramp-ink);
+  padding: 12px;
+}
+
+.ramp-button-ghost:hover {
+  background: var(--ramp-bone);
+}
+
+.ramp-card {
+  border: var(--ramp-border);
+  border-radius: var(--ramp-radius-card);
+  background: var(--ramp-paper);
+  padding: var(--ramp-card-padding);
+  box-shadow: none;
+}
+
+.ramp-wash-card {
+  border-radius: var(--ramp-radius-wash-card);
+  background: var(--ramp-bone);
+  padding: 24px;
+}
+
+.ramp-input {
+  min-height: 44px;
+  border: 1px solid rgba(33, 33, 33, 0.1);
+  border-radius: var(--ramp-radius-input);
+  background: var(--ramp-paper);
+  color: var(--ramp-ink);
+  padding: 0 16px 0 24px;
+  font: 400 16px/1.5 var(--ramp-font);
+}
+
+.ramp-counter-band {
+  background: var(--ramp-obsidian);
+  color: var(--ramp-paper);
+  padding-block: 40px;
+}
+
+.ramp-counter-value {
+  color: var(--ramp-paper);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.ramp-nav {
+  border-bottom: var(--ramp-border);
+  background: var(--ramp-paper);
+  box-shadow: var(--ramp-nav-inset);
+}
+

@@ -1,0 +1,131 @@
+{
+  "name": "(dot)connect",
+  "version": "2026-07-28",
+  "colors": {
+    "boneCanvas": {
+      "value": "#fcfbf8",
+      "role": "Page background, card surface, and light text on dark controls"
+    },
+    "charcoalInk": {
+      "value": "#001011",
+      "role": "Primary text, headings, dominant borders, and dark action fill"
+    },
+    "smokeVeil": {
+      "value": "#0f1e1f",
+      "role": "Secondary text, body-level borders, and dark surface moments"
+    },
+    "ashLayer": {
+      "value": "#ededea",
+      "role": "Flat elevated surface, subtle hover fill, and card background"
+    },
+    "mistBorder": {
+      "value": "#c1c4c2",
+      "role": "Hairline borders, dividers, and section separators"
+    },
+    "ember": {
+      "value": "#fd5321",
+      "role": "Rare brand punctuation, header CTA, and high-intent conversion cue"
+    },
+    "signalBlue": {
+      "value": "#007aff",
+      "role": "Ghost-outline secondary action stroke and text only"
+    }
+  },
+  "font": {
+    "primary": "AeonikPro, Inter, Satoshi, General Sans, Arial, sans-serif",
+    "display": "DotConnect, AeonikPro, Inter, Satoshi, General Sans, Arial, sans-serif",
+    "weights": {
+      "regular": 400,
+      "medium": 500
+    },
+    "features": "\"dlig\" on, \"ss02\" on, \"ss08\" on"
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "0.16px"
+    },
+    "body": {
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "lineHeight": 1.4,
+      "letterSpacing": "0.18px"
+    },
+    "bodyDense": {
+      "fontSize": "19px",
+      "fontWeight": 500,
+      "lineHeight": 1.67,
+      "letterSpacing": "0.19px"
+    },
+    "subheading": {
+      "fontSize": "24px",
+      "fontWeight": 500,
+      "lineHeight": 1.4,
+      "letterSpacing": "-0.29px"
+    },
+    "headingSm": {
+      "fontSize": "32px",
+      "fontWeight": 500,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.38px"
+    },
+    "heading": {
+      "fontSize": "36px",
+      "fontWeight": 500,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.72px"
+    },
+    "headingLg": {
+      "fontSize": "72px",
+      "fontWeight": 500,
+      "lineHeight": 0.9,
+      "letterSpacing": "-1.8px"
+    },
+    "display": {
+      "fontSize": "101px",
+      "fontWeight": 500,
+      "lineHeight": 0.8,
+      "letterSpacing": "-2.53px"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "unit": "8px",
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "48": "48px",
+    "64": "64px",
+    "72": "72px",
+    "80": "80px",
+    "96": "96px",
+    "160": "160px",
+    "maxWidth": "1200px",
+    "sectionGap": "96px",
+    "cardPadding": "24px to 32px",
+    "elementGap": "24px"
+  },
+  "radius": {
+    "badges": "8px",
+    "cards": "20px",
+    "images": "20px",
+    "buttons": "24px",
+    "links": "44px",
+    "pills": "48px"
+  },
+  "borders": {
+    "hairline": "1px solid #c1c4c2"
+  },
+  "elevation": {
+    "allSurfaces": "none",
+    "rule": "Use borders and tonal surface changes instead of shadows."
+  },
+  "motion": {
+    "allowed": ["color", "border-color", "opacity"],
+    "avoid": ["hover lift", "glow", "blur", "drop shadow"]
+  }
+}
+

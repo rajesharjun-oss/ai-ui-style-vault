@@ -1,0 +1,81 @@
+{
+  "name": "Hungry Tiger",
+  "slug": "hungry-tiger",
+  "source_url": "https://styles.refero.design/style/47f15da7-8905-45b3-bcab-06a4277c6168",
+  "style_id": "47f15da7-8905-45b3-bcab-06a4277c6168",
+  "reference_site": "https://www.eathungrytiger.com",
+  "captured_at": "2026-07-28",
+  "theme": "dark",
+  "summary": "A maximalist condiment poster style with ember-rust canvas, tiger-gold accent, huge Salmond display typography, pill controls, dotted dividers, warm-brown surfaces, and raw product jar photography.",
+  "personality": [
+    "maximalist",
+    "poster",
+    "condiment",
+    "warm",
+    "loud",
+    "spice-label"
+  ],
+  "colors": {
+    "tigerGold": "#faae33",
+    "emberRust": "#823513",
+    "saffronGlow": "#9f531b",
+    "chiliRed": "#d1255c",
+    "charredClove": "#281006",
+    "darkSpice": "#402011",
+    "cardamomBrown": "#6b2e12"
+  },
+  "typography": {
+    "display": "Salmond, Druk Wide, Antonio, Bebas Neue, Inter, sans-serif",
+    "body": "Graphikx, Inter, Geist, Untitled Sans, sans-serif",
+    "weights": [400, 500, 700],
+    "sizesPx": [11, 12, 13, 14, 18, 29, 42, 43, 65, 68, 72, 101, 130, 144, 195, 213],
+    "rules": [
+      "Use Salmond as the dominant typeface.",
+      "Use Graphikx only for 13px functional microcopy.",
+      "Use huge display type at 130px to 213px.",
+      "Tighten tracking as size increases.",
+      "Do not introduce another display face."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "maxWidthPx": 1440,
+    "sectionGapPx": [80, 120],
+    "cardPaddingPx": [12, 16],
+    "elementGapPx": 10,
+    "scalePx": [4, 6, 8, 9, 10, 12, 14, 16, 17, 20, 24, 26, 28, 32, 42, 192]
+  },
+  "radius": {
+    "cardsPx": 6,
+    "badgesPx": 9999,
+    "inputsPx": 9999,
+    "buttonsPx": 9999,
+    "iconsPx": 9999
+  },
+  "components": [
+    "ghost outline button",
+    "filled primary button",
+    "ghost borderless button",
+    "pill badge",
+    "alert badge",
+    "pill input field",
+    "surface card",
+    "product bottle showcase",
+    "botanical watermark layer",
+    "dotted divider",
+    "iconography set"
+  ],
+  "avoid": [
+    "secondary display typeface",
+    "box shadows",
+    "drop shadows",
+    "glow effects",
+    "gradients",
+    "framed product photography",
+    "rounded product cards",
+    "cool neutrals",
+    "body copy over 18px",
+    "alternating solid section backgrounds"
+  ]
+}
+

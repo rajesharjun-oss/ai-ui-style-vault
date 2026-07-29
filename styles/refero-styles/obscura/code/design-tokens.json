@@ -1,0 +1,107 @@
+{
+  "name": "Obscura",
+  "slug": "obscura",
+  "source": "https://styles.refero.design/style/c445eb73-e403-4a00-8b90-f454c9181fd6",
+  "tokens": {
+    "color": {
+      "signalOrange": { "value": "#ff5e24", "type": "color" },
+      "emberCrust": { "value": "#6c3200", "type": "color" },
+      "cloudMist": { "value": "#e3f1fe", "type": "color" },
+      "graphiteInk": { "value": "#232629", "type": "color" },
+      "paperWhite": { "value": "#ffffff", "type": "color" },
+      "slatePencil": { "value": "#5c6066", "type": "color" },
+      "ashMist": { "value": "#989ea4", "type": "color" },
+      "blushShadow": { "value": "#dbced0", "type": "color" },
+      "midnightInk": { "value": "#101828", "type": "color" }
+    },
+    "fontFamily": {
+      "display": { "value": "Jersey 10, Press Start 2P, VT323, Pixelify Sans, monospace", "type": "fontFamily" },
+      "body": { "value": "Manrope Variable, Manrope, Inter, Plus Jakarta Sans, DM Sans, system-ui, sans-serif", "type": "fontFamily" }
+    },
+    "fontSize": {
+      "caption": { "value": "12px", "type": "dimension" },
+      "bodySmall": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "subheading": { "value": "18px", "type": "dimension" },
+      "headingSmall": { "value": "36px", "type": "dimension" },
+      "heading": { "value": "48px", "type": "dimension" },
+      "headingLarge": { "value": "60px", "type": "dimension" },
+      "display": { "value": "96px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "caption": { "value": "1.5", "type": "number" },
+      "bodySmall": { "value": "1.43", "type": "number" },
+      "body": { "value": "1.5", "type": "number" },
+      "subheading": { "value": "1.56", "type": "number" },
+      "headingSmall": { "value": "1.11", "type": "number" },
+      "heading": { "value": "0.85", "type": "number" },
+      "headingLarge": { "value": "0.85", "type": "number" },
+      "display": { "value": "0.8", "type": "number" }
+    },
+    "letterSpacing": {
+      "headingSmall": { "value": "-0.9px", "type": "dimension" },
+      "heading": { "value": "-1.2px", "type": "dimension" },
+      "headingLarge": { "value": "-1.5px", "type": "dimension" },
+      "display": { "value": "-3px", "type": "dimension" }
+    },
+    "space": {
+      "base": { "value": "8px", "type": "dimension" },
+      "element": { "value": "16px", "type": "dimension" },
+      "cardPadding": { "value": "16px", "type": "dimension" },
+      "section": { "value": "48px", "type": "dimension" },
+      "contentMaxWidth": { "value": "1200px", "type": "dimension" },
+      "copyMaxWidth": { "value": "560px", "type": "dimension" }
+    },
+    "radius": {
+      "control": { "value": "6px", "type": "dimension" },
+      "card": { "value": "12px", "type": "dimension" },
+      "cardLarge": { "value": "16px", "type": "dimension" },
+      "image": { "value": "24px", "type": "dimension" },
+      "featurePanel": { "value": "32px", "type": "dimension" }
+    },
+    "border": {
+      "cloud": { "value": "1px solid #e3f1fe", "type": "border" },
+      "orange": { "value": "1px solid #ff5e24", "type": "border" }
+    },
+    "shadow": {
+      "featureCard": {
+        "value": "rgba(15, 34, 52, 0.01) 0 27px 11px 0, rgba(15, 34, 52, 0.03) 0 15px 9px 0, rgba(15, 34, 52, 0.05) 0 7px 7px 0, rgba(15, 34, 52, 0.06) 0 2px 4px 0",
+        "type": "shadow"
+      },
+      "orangeRing": {
+        "value": "inset 0 0 0 1px #ff5e24, 0 0 0 1px rgba(255, 94, 36, 0.16)",
+        "type": "shadow"
+      }
+    }
+  },
+  "componentRecipes": {
+    "primaryCta": {
+      "background": "{color.signalOrange}",
+      "color": "{color.midnightInk}",
+      "border": "{border.orange}",
+      "radius": "{radius.control}",
+      "padding": "8px 16px",
+      "fontFamily": "{fontFamily.body}",
+      "fontWeight": 500,
+      "shadow": "{shadow.orangeRing}"
+    },
+    "featureCard": {
+      "background": "{color.paperWhite}",
+      "border": "{border.cloud}",
+      "radius": "{radius.card}",
+      "padding": "{space.cardPadding}",
+      "shadow": "{shadow.featureCard}"
+    },
+    "hero": {
+      "background": "{color.cloudMist}",
+      "headlineFamily": "{fontFamily.display}",
+      "bodyFamily": "{fontFamily.body}",
+      "accent": "{color.signalOrange}"
+    },
+    "footer": {
+      "background": "{color.emberCrust}",
+      "color": "{color.paperWhite}"
+    }
+  }
+}
+

@@ -1,0 +1,151 @@
+{
+    "name":  "Programa",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Ink Black",
+                       "value":  "#1a1a1a",
+                       "token":  "--color-ink-black",
+                       "role":  "Primary text, all borders, icon strokes, logo, divider lines, button outlines the structural ink that defines every shape on the page"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Page canvas, card surfaces, text on dark fills, input fields"
+                   },
+                   {
+                       "name":  "Fog Gray",
+                       "value":  "#f4f4f4",
+                       "token":  "--color-fog-gray",
+                       "role":  "Soft section background, alternate surface, and quiet card fill"
+                   },
+                   {
+                       "name":  "Ash Gray",
+                       "value":  "#a3a3a3",
+                       "token":  "--color-ash-gray",
+                       "role":  "Muted secondary text, inactive links, placeholder copy, tertiary metadata"
+                   },
+                   {
+                       "name":  "Highlighter Yellow",
+                       "value":  "#fbff2b",
+                       "token":  "--color-highlighter-yellow",
+                       "role":  "Primary action background, focus highlights, tag fills the single chromatic accent that makes interactive elements feel switched on against the monochrome system"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Neue Haas Grotesk Text The single typeface carries every voice on the site nav, body, headings, buttons, inputs. Weight 400 is the default for body and nav; weight 500 is reserved for emphasized inline labels (e.g. \u0027Last Updated:\u0027) and section opens. The choice of a neo-grotesque with consistent -0.03em tracking at every size creates optical tightness even at 42px, avoiding the airy looseness most sans-serifs default to. This is a Swiss-tool typeface, not a personality typeface restraint is the signature. `--font-neue-haas-grotesk-text`",
+                                     "neue-haas-grotesk-text neue-haas-grotesk-text detected in extracted data but not described by AI `--font-neue-haas-grotesk-text`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "14px",
+                                             "1.4",
+                                             "-0.42px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "16px",
+                                             "1.4",
+                                             "-0.48px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "20px",
+                                             "1.4",
+                                             "-0.6px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "24px",
+                                             "1.2",
+                                             "-0.72px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "42px",
+                                             "1.1",
+                                             "-1.26px",
+                                             "--text-heading"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "6px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "36",
+                                      "36px",
+                                      "--spacing-36"
+                                  ],
+                                  [
+                                      "48",
+                                      "48px",
+                                      "--spacing-48"
+                                  ],
+                                  [
+                                      "96",
+                                      "96px",
+                                      "--spacing-96"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "96px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "16px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "12px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "nav",
+                      "10px"
+                  ],
+                  [
+                      "cards",
+                      "16px"
+                  ],
+                  [
+                      "inputs",
+                      "10px"
+                  ],
+                  [
+                      "buttons",
+                      "10px"
+                  ]
+              ]
+}

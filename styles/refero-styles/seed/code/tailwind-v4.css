@@ -1,0 +1,92 @@
+@theme {
+  --color-seed-forest-depths: #1c3a13;
+  --color-seed-lime-pulse: #d3fa99;
+  --color-seed-sage-moss: #757c5d;
+  --color-seed-olive-gold: #9f995b;
+  --color-seed-eucalyptus: #698e79;
+  --color-seed-ink: #000000;
+  --color-seed-pewter: #666666;
+  --color-seed-ash: #b3b3b3;
+  --color-seed-frosted-glass: #c4c7c4;
+  --color-seed-warm-stone: #eeeee9;
+  --color-seed-snow-white: #fcfcf7;
+
+  --font-seed-sans: "Seed Sans", "Inter", "General Sans", Arial, sans-serif;
+  --font-seed-mono: "Seed Sans Mono", "JetBrains Mono", "IBM Plex Mono", monospace;
+
+  --text-seed-micro: 10px;
+  --text-seed-label: 12px;
+  --text-seed-caption: 14px;
+  --text-seed-body-sm: 16px;
+  --text-seed-body: 18px;
+  --text-seed-subheading: 24px;
+  --text-seed-heading-sm: 32px;
+  --text-seed-heading: 36px;
+  --text-seed-heading-lg: 40px;
+  --text-seed-display: 48px;
+
+  --radius-seed-input: 8px;
+  --radius-seed-card: 16px;
+  --radius-seed-card-lg: 32px;
+  --radius-seed-pill: 1000px;
+
+  --spacing-seed-1: 8px;
+  --spacing-seed-2: 16px;
+  --spacing-seed-3: 24px;
+  --spacing-seed-4: 32px;
+  --spacing-seed-5: 40px;
+  --spacing-seed-6: 48px;
+  --spacing-seed-7: 56px;
+  --spacing-seed-8: 64px;
+  --spacing-seed-10: 80px;
+  --spacing-seed-12: 96px;
+  --spacing-seed-16: 128px;
+}
+
+@layer components {
+  .seed-page {
+    background: var(--color-seed-snow-white);
+    color: var(--color-seed-forest-depths);
+    font-family: var(--font-seed-sans);
+    font-feature-settings: "ss05" on;
+  }
+
+  .seed-container {
+    width: min(100% - 48px, 1200px);
+    margin-inline: auto;
+  }
+
+  .seed-display {
+    font-size: var(--text-seed-display);
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: -0.72px;
+  }
+
+  .seed-button-primary {
+    display: inline-flex;
+    min-height: 52px;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-seed-pill);
+    background: var(--color-seed-forest-depths);
+    color: var(--color-seed-snow-white);
+    padding: 16px 24px;
+    font-size: var(--text-seed-body-sm);
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .seed-sale-badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: var(--radius-seed-pill);
+    background: var(--color-seed-lime-pulse);
+    color: var(--color-seed-forest-depths);
+    padding: 6px 8px;
+    font-size: var(--text-seed-label);
+    font-weight: 500;
+    line-height: 1;
+  }
+}

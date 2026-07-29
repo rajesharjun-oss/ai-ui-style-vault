@@ -1,0 +1,67 @@
+{
+  "name": "LUNCH",
+  "slug": "lunch",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/cd3fbf9d-8d35-411b-9e69-89a03018b677",
+    "styleId": "cd3fbf9d-8d35-411b-9e69-89a03018b677",
+    "referenceSite": "https://lunchconcept.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "mixed",
+  "summary": "A fashion-editorial commerce system with a dark full-bleed hero, one chrome wordmark spectacle, warm parchment catalog sections, sharp product photography, text-link interactions, and lilac used only as quiet brand punctuation.",
+  "personality": [
+    "editorial",
+    "fashion",
+    "cinematic",
+    "restrained",
+    "catalog-like",
+    "art-directed"
+  ],
+  "bestFor": [
+    "fashion concept stores",
+    "boutique ecommerce",
+    "editorial lookbooks",
+    "product galleries",
+    "designer catalogs"
+  ],
+  "coreMoves": [
+    "Use a full-bleed dark photographic hero.",
+    "Use one oversized hero wordmark as the only typographic spectacle.",
+    "Switch post-hero content to warm parchment.",
+    "Make all interactions underlined text links.",
+    "Keep images and cards at 0px radius.",
+    "Use Lilac Veil only for announcement, footer, and sold-out state.",
+    "Let photography do the visual work."
+  ],
+  "colors": {
+    "lilacVeil": "#b8aad0",
+    "inkBlack": "#000000",
+    "warmParchment": "#f4f1e4",
+    "ivoryMist": "#fcfaf1"
+  },
+  "typography": {
+    "goodSans": {
+      "family": "Good Sans",
+      "fallback": "Sohne",
+      "weights": [400, 700],
+      "sizes": ["12px", "16px", "24px", "32px"],
+      "lineHeights": ["1", "1.8"],
+      "letterSpacing": "0.005em to 0.013em"
+    },
+    "redaction": {
+      "family": "Redaction",
+      "fallback": "GT Sectra Display Bold",
+      "weights": [700],
+      "sizes": ["72px"],
+      "lineHeights": ["1.8"],
+      "usage": "hero wordmark only"
+    }
+  },
+  "shape": {
+    "cards": "0px",
+    "badges": "0px",
+    "images": "0px",
+    "buttons": "0px"
+  }
+}
+

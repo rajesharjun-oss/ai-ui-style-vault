@@ -1,0 +1,83 @@
+{
+  "name": "Nofilter.space",
+  "slug": "nofilter-space",
+  "source": "https://styles.refero.design/style/4235ebdc-a070-46ef-abbf-692151449bea",
+  "referenceSite": "https://www.nofilter.space",
+  "theme": "light",
+  "color": {
+    "paper": { "value": "#ffffff", "role": "full page background and card surface" },
+    "ink": { "value": "#333333", "role": "primary text, borders, hairlines, checkbox strokes" },
+    "carbon": { "value": "#000000", "role": "rare emphasis stroke and strongest text" }
+  },
+  "font": {
+    "primary": {
+      "family": "pragmatica",
+      "fallback": "Helvetica Neue, Arial, Inter, sans-serif",
+      "weights": [400],
+      "usage": "nav, filters, wordmark, headlines, meta, and body"
+    }
+  },
+  "text": {
+    "nav": { "size": "12px", "lineHeight": "1.2", "weight": 400 },
+    "meta": { "size": "12px", "lineHeight": "1.2", "weight": 400 },
+    "body": { "size": "14px", "lineHeight": "1.4", "weight": 400 },
+    "headline": { "size": "24px", "lineHeight": "1.14", "weight": 400 },
+    "featured": { "size": "30px", "lineHeight": "1.14", "weight": 400 },
+    "wordmark": { "size": "35px", "lineHeight": "1.14", "weight": 400 }
+  },
+  "space": {
+    "sidePadding": "35px",
+    "gridRowGap": "30px",
+    "gridColumnGap": "30px",
+    "wordmarkBottomMargin": "40px",
+    "contentGroupGap": "40px to 60px",
+    "featuredCardPadding": "35px",
+    "filterGroupGap": "20px"
+  },
+  "radius": {
+    "cards": "0px",
+    "images": "0px",
+    "featuredCards": "0px"
+  },
+  "border": {
+    "default": "1px solid #333333",
+    "checkboxSize": "12px"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "none",
+    "blur": "none",
+    "method": "1px borders, whitespace, and typographic hierarchy"
+  },
+  "component": {
+    "topNavBar": {
+      "background": "#ffffff",
+      "border": "none",
+      "shadow": "none",
+      "leftLinks": ["FEED", "ABOUT"],
+      "rightFilters": ["WORDS", "PROJECTS", "REPORTAGE"],
+      "font": "12px pragmatica weight 400 #333333"
+    },
+    "wordmarkHeader": {
+      "text": "NOFILTER. SPACE",
+      "font": "35px pragmatica weight 400",
+      "color": "#333333",
+      "lineHeight": "1.14",
+      "marginBottom": "40px"
+    },
+    "editorialImageCard": {
+      "imageRadius": "0px",
+      "border": "none",
+      "shadow": "none",
+      "headline": "24px pragmatica #333333",
+      "meta": "12px pragmatica #333333"
+    },
+    "borderedFeaturedCard": {
+      "background": "#ffffff",
+      "border": "1px solid #333333",
+      "radius": "0px",
+      "padding": "35px",
+      "headline": "30px pragmatica #333333"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "21 TSI",
+  "slug": "21-tsi",
+  "theme": "dark",
+  "source": "https://styles.refero.design/style/7b28c99e-ed17-451b-a39e-bd4722bc43f5",
+  "referenceSite": "https://21tsi.com",
+  "color": {
+    "blackVoid": {
+      "value": "#000000",
+      "type": "color",
+      "role": "Page canvas and deepest black sections"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "type": "color",
+      "role": "Primary text, hairlines, ghost button borders, and primitive UI shapes"
+    },
+    "smoke": {
+      "value": "#4d4d4d",
+      "type": "color",
+      "role": "Muted card borders and secondary structural lines"
+    },
+    "crimsonHeat": {
+      "value": "#b62b1a",
+      "type": "color",
+      "role": "Photographic atmosphere only, not a UI fill"
+    }
+  },
+  "font": {
+    "saans": {
+      "value": "Saans, Inter, Manrope, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Only typeface for all UI, body, navigation, and display"
+    }
+  },
+  "fontWeight": {
+    "light": 300,
+    "default": 380,
+    "editorial": 570,
+    "black": 790
+  },
+  "size": {
+    "microUi": {
+      "value": "12px",
+      "lineHeight": "1.14",
+      "letterSpacing": "0.6px"
+    },
+    "smallUi": {
+      "value": "14px",
+      "lineHeight": "1.2",
+      "letterSpacing": "0.05em"
+    },
+    "body": {
+      "value": "16px",
+      "lineHeight": "1.43",
+      "letterSpacing": "0.8px"
+    },
+    "largeUi": {
+      "value": "18px",
+      "lineHeight": "1.2",
+      "letterSpacing": "0.05em"
+    },
+    "utilityLarge": {
+      "value": "20px",
+      "lineHeight": "1.2",
+      "letterSpacing": "0.05em"
+    },
+    "displaySmall": {
+      "value": "47px",
+      "lineHeight": "1.0 to 1.14",
+      "letterSpacing": "-0.025em"
+    },
+    "displayMedium": {
+      "value": "79px",
+      "lineHeight": "1.0 to 1.14",
+      "letterSpacing": "-0.025em"
+    },
+    "displayLarge": {
+      "value": "106px",
+      "lineHeight": "1.0 to 1.14",
+      "letterSpacing": "-0.025em"
+    },
+    "displayHero": {
+      "value": "130px",
+      "lineHeight": "1.08",
+      "letterSpacing": "-3.25px"
+    },
+    "displayMax": {
+      "value": "245px",
+      "lineHeight": "1.0",
+      "letterSpacing": "-0.025em"
+    }
+  },
+  "spacing": {
+    "10": "10px",
+    "11": "11px",
+    "15": "15px",
+    "19": "19px",
+    "20": "20px",
+    "23": "23px",
+    "27": "27px",
+    "30": "30px",
+    "36": "36px",
+    "38": "38px",
+    "60": "60px",
+    "63": "63px",
+    "108": "108px",
+    "150": "150px",
+    "172": "172px"
+  },
+  "radius": {
+    "bodyCard": "8px",
+    "buttonPill": "70px",
+    "circularFrame": "594px"
+  },
+  "stroke": {
+    "hairline": "1px",
+    "active": "#ffffff",
+    "muted": "#4d4d4d"
+  },
+  "elevation": {
+    "shadows": "none",
+    "glow": "none",
+    "blur": "none"
+  }
+}

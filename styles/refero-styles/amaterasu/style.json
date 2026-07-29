@@ -1,0 +1,122 @@
+{
+  "id": "01b3bfc1-95df-425f-9b7a-15cff09adc5f",
+  "name": "Amaterasu",
+  "slug": "amaterasu",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/01b3bfc1-95df-425f-9b7a-15cff09adc5f",
+    "referenceSite": "https://amaterasu.ai",
+    "capturedAt": "2026-07-28",
+    "publishedAt": "2026-05-10T23:14:38.468Z",
+    "modifiedAt": "2026-05-10T23:14:38.468Z",
+    "media": {
+      "primaryThumbnail": "https://images.refero.design/styles/refero.design/image/1916f900-76a6-4767-8fbd-b3748c965ec0.jpg",
+      "detailScreenshot": "https://images.refero.design/styles/refero.design/image/8dca280b-5e0d-49ff-bc92-53ca468ea91f.jpg",
+      "icon": "https://images.refero.design/styles/refero.design/image/8b43ffac-6c84-46a7-80bb-754ac4e8d4c2.png"
+    }
+  },
+  "classification": {
+    "theme": "dark",
+    "industry": ["AI", "cinematic brand site", "wellness technology", "research product"],
+    "mood": ["celestial", "clinical", "cinematic", "quiet", "teal atmosphere"],
+    "bestFor": ["AI product pages", "research brands", "wellness technology", "premium dark landing pages"]
+  },
+  "summary": "A dark cinematic AI style with a full-bleed teal-lit hero, polar-white text, cosmic-violet outlined controls, whisper-light display typography, wide-tracked uppercase labels, and no shadows.",
+  "colors": {
+    "cosmicViolet": {
+      "value": "#1b2978",
+      "role": "Primary brand ink, outlined button borders, heading text on light surfaces"
+    },
+    "twilightIndigo": {
+      "value": "#19366c",
+      "role": "Secondary violet borders and gradient origins"
+    },
+    "auroraTeal": {
+      "value": "#75cdd6",
+      "role": "Atmospheric teal pulled from hero photography"
+    },
+    "cyanGlow": {
+      "value": "radial-gradient(at 5.62% 33.12%, rgb(255, 255, 255) 30%, rgb(132, 205, 238) 100%)",
+      "role": "Directional teal light for atmospheric panels"
+    },
+    "cosmicVioletWash": {
+      "value": "linear-gradient(174deg, rgb(42, 57, 142) 5%, rgb(85, 102, 197) 100%)",
+      "role": "Decorative violet atmospheric panel"
+    },
+    "polarWhite": {
+      "value": "#ffffff",
+      "role": "Primary text on dark surfaces and light panel surface"
+    },
+    "obsidian": {
+      "value": "#000000",
+      "role": "Deepest contrast and text on light surfaces"
+    },
+    "silverSlate": {
+      "value": "#7488a5",
+      "role": "Subtle decorative lines and secondary UI elements"
+    },
+    "ceruleanMist": {
+      "value": "#579dc0",
+      "role": "Decorative SVG stroke and illustration accents"
+    },
+    "stormShadow": {
+      "value": "#466187",
+      "role": "Muted focus-ring shadows and hover glows"
+    }
+  },
+  "typography": {
+    "bodyFamily": "TWKLausanne-250",
+    "displayFamily": "TWKLausanne-200",
+    "labelFamily": "NeoSansPro-Medium",
+    "fallbackStack": "Inter, Manrope, Arial, Helvetica, sans-serif",
+    "scale": {
+      "labelMicro": { "fontSize": "10px", "lineHeight": "1.5-3.0", "letterSpacing": "0.16em-0.32em", "fontWeight": 400, "textTransform": "uppercase" },
+      "labelLarge": { "fontSize": "20px", "lineHeight": "1.2", "letterSpacing": "0", "fontWeight": 400 },
+      "body": { "fontSize": "16px", "lineHeight": "1.2", "letterSpacing": "0", "fontWeight": 400 },
+      "bodyLarge": { "fontSize": "20px", "lineHeight": "1.4", "letterSpacing": "0", "fontWeight": 400 },
+      "statement": { "fontSize": "26px", "lineHeight": "1.23", "letterSpacing": "0", "fontWeight": 400 },
+      "subheading": { "fontSize": "24px", "lineHeight": "1.2", "letterSpacing": "0", "fontWeight": 700 },
+      "midHeading": { "fontSize": "40px", "lineHeight": "1.13", "letterSpacing": "0", "fontWeight": 400 },
+      "displaySmall": { "fontSize": "50px", "lineHeight": "1", "letterSpacing": "-0.040em", "fontWeight": 400 },
+      "displayMedium": { "fontSize": "60px", "lineHeight": "1", "letterSpacing": "-0.033em", "fontWeight": 400 },
+      "displayLarge": { "fontSize": "80px", "lineHeight": "1", "letterSpacing": "-0.025em", "fontWeight": 400 }
+    }
+  },
+  "spacing": {
+    "contentMaxWidth": "1200px",
+    "heroNegativeSpace": "40-60px",
+    "sectionGap": "96-120px",
+    "elementGap": "24px",
+    "labelGap": "16px",
+    "pillPadding": "10px 18px"
+  },
+  "shape": {
+    "pillRadius": "9999px",
+    "visualPillRadius": "20px",
+    "borderWidth": "1px",
+    "cardRadius": "0px",
+    "shadow": "none"
+  },
+  "components": {
+    "hero": "Full-bleed teal-lit dark portrait with white whisper display text.",
+    "outlinedPrimaryAction": "Transparent pill CTA with #1b2978 border and text.",
+    "labelNav": "NeoSans-style uppercase micro labels with extreme tracking.",
+    "atmosphericPanel": "Dark or light panel using cyan glow or violet wash gradients.",
+    "lineIcon": "Thin decorative SVG stroke in cerulean or silver slate.",
+    "lightSection": "Polar-white surface with cosmic-violet heading ink and obsidian text."
+  },
+  "dos": [
+    "Use teal as photographic atmosphere.",
+    "Use #1b2978 as the only structural UI ink.",
+    "Keep display type light and tightly tracked.",
+    "Use outlined pill actions instead of filled buttons.",
+    "Use zero box shadows."
+  ],
+  "donts": [
+    "Do not use teal as a CTA or text color.",
+    "Do not add heavy filled CTAs.",
+    "Do not add card shadows or modal glows.",
+    "Do not use bold hero type.",
+    "Do not build a busy dashboard layout."
+  ]
+}
+

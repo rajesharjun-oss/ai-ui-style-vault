@@ -1,0 +1,167 @@
+{
+  "id": "f99856e1-3627-4624-a811-f6053a978b62",
+  "name": "Metaview",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/f99856e1-3627-4624-a811-f6053a978b62",
+  "referenceUrl": "https://metaview.ai",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Bioluminescent control room: a near-black green-tinted AI product surface lit by a single living mint signal.",
+  "bestFor": [
+    "AI recruiting tools",
+    "agent dashboards",
+    "product-led SaaS",
+    "dark control panels",
+    "chat interfaces",
+    "technical conversion pages"
+  ],
+  "tags": [
+    "dark",
+    "ai-product",
+    "recruiting",
+    "control-room",
+    "electric-mint",
+    "bioluminescent",
+    "euclid-circular",
+    "semimono",
+    "product-mockup",
+    "pill-buttons",
+    "dark-saas"
+  ],
+  "colors": {
+    "deepForest": { "value": "#000a06", "token": "--color-deep-forest", "role": "Page background, hero canvas, sections, and footer." },
+    "pineBark": { "value": "#0a1a14", "token": "--color-pine-bark", "role": "Cards, product mockup containers, nested panels, and dark secondary buttons." },
+    "charcoal": { "value": "#161818", "token": "--color-charcoal", "role": "Elevated card surface, modals, popovers, and overlaid containers." },
+    "abyssalIndigo": { "value": "#01051b", "token": "--color-abyssal-indigo", "role": "Borders, outlined action edges, linked labels, and lightweight interactive emphasis." },
+    "paperWhite": { "value": "#ffffff", "token": "--color-paper-white", "role": "Primary text, inverted button text, icons, and dark-theme reading copy." },
+    "ashGray": { "value": "#5e6262", "token": "--color-ash-gray", "role": "Muted body text, helper copy, and secondary descriptions." },
+    "smoke": { "value": "#828282", "token": "--color-smoke", "role": "Tertiary text and subdued labels." },
+    "silver": { "value": "#d9d9d9", "token": "--color-silver", "role": "Light borders, dividers, and hairline rules on mid-tone surfaces." },
+    "pureBlack": { "value": "#000000", "token": "--color-pure-black", "role": "Maximum contrast text, outline borders, and baseline dark value." },
+    "electricMint": { "value": "#7affb4", "token": "--color-electric-mint", "role": "Primary CTA, selected navigation, active tabs, and live status indicators." },
+    "mintWhisper": { "value": "#e3ffef", "token": "--color-mint-whisper", "role": "Pale selected-tab backgrounds, decorative borders, and subtle highlight washes." },
+    "bioluminescentBloom": {
+      "value": "radial-gradient(circle, rgba(0, 100, 70, 0.4) 0%, rgba(0, 60, 40, 0.2) 30%, rgba(0, 30, 20, 0.08) 55%, rgba(0, 0, 0, 0) 75%)",
+      "token": "--gradient-bioluminescent-bloom",
+      "role": "Full-bleed product showcase atmosphere only."
+    },
+    "pineToAbyss": {
+      "value": "linear-gradient(rgb(15, 58, 43) 0%, rgb(0, 10, 7) 100%)",
+      "token": "--gradient-pine-to-abyss",
+      "role": "Footer and secondary atmospheric transitions."
+    }
+  },
+  "typography": {
+    "families": {
+      "primary": "Euclid Circular A",
+      "code": "Onsite SemiMono"
+    },
+    "fallbacks": {
+      "primary": "Inter, DM Sans, Space Grotesk, system-ui, sans-serif",
+      "code": "JetBrains Mono, IBM Plex Mono, Geist Mono, ui-monospace, monospace"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "rules": [
+      "Use Euclid Circular A-style type for all main UI.",
+      "Use weight 300 for display headlines.",
+      "Use tight negative tracking on large sizes.",
+      "Use positive tracking on small labels.",
+      "Use Onsite SemiMono for counts, metrics, IDs, and technical micro-copy."
+    ],
+    "scale": {
+      "caption": { "size": "12px", "lineHeight": 1.48, "letterSpacing": "0.12px", "token": "--text-caption" },
+      "bodySm": { "size": "14px", "lineHeight": 1.42, "letterSpacing": "0.14px", "token": "--text-body-sm" },
+      "body": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "-0.16px", "token": "--text-body" },
+      "subheading": { "size": "20px", "lineHeight": 1.34, "letterSpacing": "-0.4px", "token": "--text-subheading" },
+      "headingSm": { "size": "28px", "lineHeight": 1.2, "letterSpacing": "-0.56px", "token": "--text-heading-sm" },
+      "heading": { "size": "36px", "lineHeight": 1.16, "letterSpacing": "-1.08px", "token": "--text-heading" },
+      "headingLg": { "size": "48px", "lineHeight": 1.1, "letterSpacing": "-1.92px", "token": "--text-heading-lg" },
+      "display": { "size": "68px", "lineHeight": 1.04, "letterSpacing": "-4.08px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "8px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": {
+      "8": "8px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "56": "56px",
+      "80": "80px",
+      "112": "112px"
+    }
+  },
+  "radii": {
+    "icons": "4px",
+    "inputs": "8px",
+    "nested": "8px",
+    "cards": "16px",
+    "badges": "100px",
+    "buttons": "999px"
+  },
+  "shadows": {
+    "subtle": "rgba(0, 0, 0, 0.02) 0px 3px 3px 0px, rgba(0, 0, 0, 0.01) 0px 7px 7px 0px, rgba(0, 0, 0, 0.01) 0px 14px 14px 0px, rgba(0, 0, 0, 0.01) 0px 25px 24px 0px",
+    "insetHairline": "rgba(1, 5, 27, 0.06) 0px 0px 0px 1px inset"
+  },
+  "components": [
+    { "name": "Pill Primary Button", "recipe": "Electric Mint fill, Deep Forest text, 999px radius, 8px by 16px padding, Euclid 14px/500." },
+    { "name": "Outlined Ghost Button", "recipe": "Transparent fill, 1px Paper White border, Paper White text, 999px radius, 8px by 16px padding, Euclid 14px/500." },
+    { "name": "Dark Secondary Button", "recipe": "Pine Bark fill, 1px Abyssal Indigo border, Paper White text, 16px radius, 8px by 16px padding." },
+    { "name": "Top Navigation Bar", "recipe": "Deep Forest background, 80px tall, wordmark left, nav center, sign-in and CTAs right, no shadow." },
+    { "name": "Hero Section", "recipe": "Deep Forest canvas, centered 1200px stack, 68px weight-300 headline, Ash Gray paragraph, mint CTA plus ghost CTA." },
+    { "name": "Product Showcase Card", "recipe": "Bioluminescent Bloom backdrop, Pine Bark card, 1px Abyssal Indigo border, 16px radius, 24px padding." },
+    { "name": "Side Icon Nav Rail", "recipe": "Vertical tab stack, Mint Whisper active item, Ash Gray inactive labels, 4px active radius." },
+    { "name": "Chat Interface Panel", "recipe": "Pine Bark panel, 8px input, Abyssal border, circular submit button, SemiMono counts." },
+    { "name": "Tab Pill Group", "recipe": "100px pill tabs, Mint Whisper active background, Deep Forest active text, Paper White inactive text." },
+    { "name": "Filter Bar", "recipe": "28px chips, 4px radius, Abyssal border, SemiMono counts." },
+    { "name": "Feature Card", "recipe": "Pine Bark card, Abyssal border, 16px radius, 24px padding, mint or white icon." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Electric Mint only for primary CTA, active tab, and live status indicators.",
+      "Set display headlines at weight 300 with tight negative tracking.",
+      "Use 999px radius for buttons and tab pills.",
+      "Use 16px radius for cards and 8px for inputs.",
+      "Use Bioluminescent Bloom only behind product mockup sections.",
+      "Render counts, metrics, IDs, and technical labels in Onsite SemiMono.",
+      "Pair each mint CTA with a ghost secondary button."
+    ],
+    "dont": [
+      "Do not use 600 or 700 for display headlines.",
+      "Do not apply Electric Mint to large surfaces or body text.",
+      "Do not use drop shadows for card elevation.",
+      "Do not introduce new accent colors or gradients.",
+      "Do not use Ash Gray for headings above 16px.",
+      "Do not use non-pill buttons for main actions.",
+      "Do not use light card surfaces on the dark canvas."
+    ]
+  },
+  "imagery": {
+    "style": "Product screenshots and realistic product mockups over a green radial bloom.",
+    "rules": [
+      "Use product UI as the primary visual element.",
+      "Use Bioluminescent Bloom only behind showcase sections.",
+      "Avoid lifestyle photography.",
+      "Avoid stock illustration.",
+      "Avoid 3D renders.",
+      "Keep icons monoline, geometric, and utilitarian."
+    ]
+  },
+  "layout": {
+    "structure": "1200px centered content with full-bleed atmospheric product sections.",
+    "navigation": "Announcement strip above an 80px Deep Forest nav.",
+    "sectionRhythm": "80px section gaps with seamless dark-canvas flow."
+  }
+}

@@ -1,0 +1,82 @@
+:root {
+  --quizlet-color-iris-bolt: #4255ff;
+  --quizlet-color-ink-charcoal: #282e3e;
+  --quizlet-color-deep-indigo: #2e3856;
+  --quizlet-color-slate-veil: #586380;
+  --quizlet-color-fog-mist: #939bb4;
+  --quizlet-color-pure-black: #000000;
+  --quizlet-color-chalk-canvas: #f6f7fb;
+  --quizlet-color-paper-white: #ffffff;
+  --quizlet-color-lilac-wash: #edefff;
+  --quizlet-color-mist-border: #d9dde8;
+  --quizlet-color-feature-pastel: #dbdfff;
+
+  --quizlet-shadow-raised: rgba(40, 46, 62, 0.1) 0px 4px 16px 0px;
+  --quizlet-shadow-button: rgba(40, 46, 62, 0.1) 0px 2px 4px 0px;
+  --quizlet-shadow-icon-inset: rgba(0, 0, 0, 0.3) 0px 0px 1px 0px inset;
+
+  --quizlet-font-primary: "hurme_no2-webfont", "Hurme Geometric Sans", Inter, Arial, Helvetica, sans-serif;
+
+  --quizlet-text-caption: 12px;
+  --quizlet-text-body-sm: 14px;
+  --quizlet-text-body: 16px;
+  --quizlet-text-subheading: 20px;
+  --quizlet-text-heading-sm: 24px;
+  --quizlet-text-heading: 32px;
+  --quizlet-text-display: 44px;
+
+  --quizlet-radius-pill: 200px;
+  --quizlet-radius-card: 8px;
+  --quizlet-radius-feature: 24px;
+  --quizlet-radius-utility: 4px;
+  --quizlet-size-carousel-arrow: 40px;
+
+  --quizlet-space-element: 8px;
+  --quizlet-space-study-card: 16px;
+  --quizlet-space-card: 24px;
+  --quizlet-space-section: 80px;
+  --quizlet-page-max: 1200px;
+}
+
+.quizlet-page {
+  background: var(--quizlet-color-chalk-canvas);
+  color: var(--quizlet-color-ink-charcoal);
+  font-family: var(--quizlet-font-primary);
+}
+
+.quizlet-card {
+  background: var(--quizlet-color-paper-white);
+  border: 1px solid var(--quizlet-color-mist-border);
+  border-radius: var(--quizlet-radius-card);
+  padding: var(--quizlet-space-study-card);
+}
+
+.quizlet-primary-button {
+  align-items: center;
+  background: var(--quizlet-color-iris-bolt);
+  border: 0;
+  border-radius: var(--quizlet-radius-pill);
+  box-shadow: var(--quizlet-shadow-button);
+  color: var(--quizlet-color-paper-white);
+  display: inline-flex;
+  font-family: var(--quizlet-font-primary);
+  font-size: var(--quizlet-text-body);
+  font-weight: 600;
+  justify-content: center;
+  padding: 10px 24px;
+}
+
+.quizlet-search {
+  background: var(--quizlet-color-chalk-canvas);
+  border: 0;
+  border-radius: var(--quizlet-radius-pill);
+  color: var(--quizlet-color-ink-charcoal);
+  font-family: var(--quizlet-font-primary);
+  padding: 8px 16px;
+}
+
+.quizlet-feature-card {
+  background: var(--quizlet-color-feature-pastel);
+  border-radius: var(--quizlet-radius-feature);
+  padding: var(--quizlet-space-card);
+}

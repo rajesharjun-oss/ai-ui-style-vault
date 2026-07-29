@@ -1,0 +1,118 @@
+:root {
+  --superhuman-color-midnight-wine: #421d24;
+  --superhuman-color-royal-violet: #714cb6;
+  --superhuman-color-lilac-mist: #d4c7ff;
+  --superhuman-color-deep-lagoon: #0c4243;
+  --superhuman-color-ink-charcoal: #292827;
+  --superhuman-color-stone-gray: #666666;
+  --superhuman-color-soft-mist: #e3e3e2;
+  --superhuman-color-warm-parchment: #f2f0eb;
+  --superhuman-color-paper-white: #ffffff;
+
+  --superhuman-font-sans: "Super Sans VF", "Inter", "Sohne", "General Sans", Arial, sans-serif;
+
+  --superhuman-text-caption: 12px;
+  --superhuman-text-body-sm: 14px;
+  --superhuman-text-body: 16px;
+  --superhuman-text-label-bold: 19px;
+  --superhuman-text-subheading: 26px;
+  --superhuman-text-heading-sm: 28px;
+  --superhuman-text-heading-lg: 49px;
+  --superhuman-text-display: 64px;
+
+  --superhuman-leading-caption: 1.5;
+  --superhuman-leading-body-sm: 1.5;
+  --superhuman-leading-body: 1.2;
+  --superhuman-leading-label-bold: 1.5;
+  --superhuman-leading-subheading: 1.3;
+  --superhuman-leading-heading-sm: 1.14;
+  --superhuman-leading-heading-lg: 1.2;
+  --superhuman-leading-display: 0.96;
+
+  --superhuman-tracking-heading-sm: -0.62px;
+  --superhuman-tracking-heading-lg: -1.32px;
+  --superhuman-tracking-display: -1.8px;
+
+  --superhuman-space-1: 4px;
+  --superhuman-space-2: 8px;
+  --superhuman-space-3: 12px;
+  --superhuman-space-4: 16px;
+  --superhuman-space-5: 20px;
+  --superhuman-space-6: 24px;
+  --superhuman-space-7: 28px;
+  --superhuman-space-8: 32px;
+  --superhuman-space-9: 36px;
+  --superhuman-space-10: 40px;
+  --superhuman-space-12: 48px;
+  --superhuman-space-16: 64px;
+  --superhuman-space-20: 80px;
+  --superhuman-space-24: 96px;
+
+  --superhuman-max-width: 1200px;
+  --superhuman-section-gap-min: 64px;
+  --superhuman-section-gap-max: 96px;
+  --superhuman-card-padding: 16px;
+  --superhuman-element-gap: 8px;
+
+  --superhuman-radius-tab: 8px;
+  --superhuman-radius-small-button: 8px;
+  --superhuman-radius-card: 16px;
+  --superhuman-radius-button: 16px;
+  --superhuman-radius-floating-card: 16px;
+  --superhuman-radius-pill: 999px;
+
+  --superhuman-shadow-subtle-inset: rgb(113, 76, 182) 0px 0px 0px 1px inset;
+}
+
+.superhuman-page {
+  min-height: 100vh;
+  background: var(--superhuman-color-warm-parchment);
+  color: var(--superhuman-color-ink-charcoal);
+  font-family: var(--superhuman-font-sans);
+  font-feature-settings: "ss01" on, "tnum" on;
+}
+
+.superhuman-container {
+  width: min(100% - 48px, var(--superhuman-max-width));
+  margin-inline: auto;
+}
+
+.superhuman-display {
+  font-size: clamp(49px, 7vw, var(--superhuman-text-display));
+  font-weight: 540;
+  line-height: var(--superhuman-leading-display);
+  letter-spacing: var(--superhuman-tracking-display);
+}
+
+.superhuman-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  border: 0;
+  border-radius: var(--superhuman-radius-button);
+  background: var(--superhuman-color-midnight-wine);
+  color: var(--superhuman-color-paper-white);
+  padding: 0 12px;
+  font: 460 var(--superhuman-text-body) / 1 var(--superhuman-font-sans);
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.superhuman-floating-card {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--superhuman-radius-floating-card);
+  background: rgba(255, 255, 255, 0.85);
+  padding: 16px;
+  box-shadow: none;
+}
+
+.superhuman-link {
+  color: var(--superhuman-color-royal-violet);
+  font-weight: 460;
+  text-decoration: none;
+}
+
+.superhuman-link:hover {
+  text-decoration: underline;
+}

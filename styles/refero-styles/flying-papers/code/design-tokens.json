@@ -1,0 +1,158 @@
+{
+  "name": "Flying Papers",
+  "theme": "light",
+  "colors": {
+    "duskViolet": {
+      "value": "#8584bd",
+      "role": "Full page canvas and hero stage"
+    },
+    "hiVisYellow": {
+      "value": "#f4ed36",
+      "role": "Outlined actions, linked labels, and strongest accent"
+    },
+    "butteryYellow": {
+      "value": "#f9cc73",
+      "role": "Secondary display text and softer borders"
+    },
+    "lilacShadow": {
+      "value": "#61609a",
+      "role": "Nested blocks on the violet stage"
+    },
+    "bubblegumPink": {
+      "value": "#f8c1ba",
+      "role": "Decorative card and confetti accent"
+    },
+    "matchaCream": {
+      "value": "#b5c995",
+      "role": "Dusty sage decorative card accent"
+    },
+    "magentaPunch": {
+      "value": "#ac4f98",
+      "role": "Standout accent card surface"
+    },
+    "firecrackerRed": {
+      "value": "#c94245",
+      "role": "Red wash for highlight blocks"
+    },
+    "boneWhite": {
+      "value": "#f9f5f2",
+      "role": "Light cards, cream buttons, and reverse text"
+    },
+    "inkBlack": {
+      "value": "#1a1a1a",
+      "role": "Body text, card borders, and text on cream"
+    },
+    "pureBlack": {
+      "value": "#000000",
+      "role": "Hard outlines, mascot strokes, and text on yellow"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "obviouslyVariable": {
+        "value": "\"ObviouslyVariable\", \"Founders Grotesk Condensed\", \"Knockout\", \"Druk Wide\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      },
+      "degularVariable": {
+        "value": "\"DegularVariable\", \"Inter\", \"IBM Plex Sans\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      },
+      "bergenMonoRegular": {
+        "value": "\"bergen_monoregular\", \"JetBrains Mono\", \"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+      },
+      "degularDisplayBold": {
+        "value": "\"DegularDisplay-Bold\", \"Degular Bold\", \"Sohne Bold\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      }
+    },
+    "fontWeight": {
+      "regular": 400,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800,
+      "black": 900
+    },
+    "features": {
+      "noCalt": "\"calt\" 0"
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "10px",
+        "lineHeight": "1",
+        "letterSpacing": "normal",
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1",
+        "letterSpacing": "0.8px",
+        "fontWeight": 700
+      },
+      "bodyLg": {
+        "fontSize": "18px",
+        "lineHeight": "0.9",
+        "letterSpacing": "0.36px",
+        "fontWeight": 800
+      },
+      "subheading": {
+        "fontSize": "30px",
+        "lineHeight": "0.9",
+        "letterSpacing": "0.6px",
+        "fontWeight": 800
+      },
+      "headingSm": {
+        "fontSize": "100px",
+        "lineHeight": "0.9",
+        "letterSpacing": "2px",
+        "fontWeight": 900
+      },
+      "heading": {
+        "fontSize": "149px",
+        "lineHeight": "0.85",
+        "letterSpacing": "2.98px",
+        "fontWeight": 900
+      },
+      "headingLg": {
+        "fontSize": "184px",
+        "lineHeight": "0.85",
+        "letterSpacing": "3.68px",
+        "fontWeight": 900
+      },
+      "display": {
+        "fontSize": "341px",
+        "lineHeight": "0.8",
+        "letterSpacing": "6.82px",
+        "fontWeight": 900
+      }
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "density": "comfortable",
+    "scale": {
+      "16": "16px",
+      "20": "20px",
+      "40": "40px",
+      "60": "60px",
+      "80": "80px",
+      "160": "160px"
+    },
+    "layout": {
+      "sectionGap": "40px",
+      "cardPadding": "17px",
+      "elementGap": "17px"
+    }
+  },
+  "radius": {
+    "cards": "6px",
+    "tags": "100px",
+    "buttons": "100px"
+  },
+  "shadow": {
+    "none": "No elevation; use flat paint surfaces only"
+  },
+  "surfaces": {
+    "duskVioletStage": "#8584bd",
+    "boneWhiteCard": "#f9f5f2",
+    "lilacShadowBlock": "#61609a",
+    "hiVisYellowSurface": "#f4ed36",
+    "accentPaintCard": "#f8c1ba"
+  }
+}

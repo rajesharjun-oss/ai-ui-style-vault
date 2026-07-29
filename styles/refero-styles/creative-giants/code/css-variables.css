@@ -1,0 +1,108 @@
+:root {
+  --creative-giants-color-bone-white: #fffef7;
+  --creative-giants-color-ink-black: #000000;
+  --creative-giants-color-graphite: #666666;
+  --creative-giants-color-ash: #aaaaaa;
+  --creative-giants-color-charcoal-scale: #4d4c4a;
+  --creative-giants-color-magenta-bloom: #8a0467;
+  --creative-giants-color-forest-teal: #03624c;
+  --creative-giants-color-powder-blue: #a5c8eb;
+  --creative-giants-color-candy-pink: #ffacea;
+  --creative-giants-color-mint-wash: #a5ebd6;
+  --creative-giants-color-navy-ink: #101731;
+  --creative-giants-color-signal-yellow: #ffd001;
+
+  --creative-giants-font-sans: "Switzer", "Inter", "Sohne", Arial, sans-serif;
+
+  --creative-giants-text-caption: 12px;
+  --creative-giants-text-body-sm: 14px;
+  --creative-giants-text-body: 16px;
+  --creative-giants-text-body-lg: 18px;
+  --creative-giants-text-subheading: 20px;
+  --creative-giants-text-heading-sm: 34px;
+  --creative-giants-text-heading: 54px;
+  --creative-giants-text-poster: 64px;
+  --creative-giants-text-display: 84px;
+
+  --creative-giants-leading-caption: 1.43;
+  --creative-giants-leading-body: 1.4;
+  --creative-giants-leading-heading-sm: 1.25;
+  --creative-giants-leading-tight: 1;
+
+  --creative-giants-tracking-small: -0.018em;
+  --creative-giants-tracking-heading-sm: -0.02em;
+  --creative-giants-tracking-heading: -0.023em;
+  --creative-giants-tracking-poster: -0.027em;
+  --creative-giants-tracking-display: -0.04em;
+
+  --creative-giants-space-1: 8px;
+  --creative-giants-space-2: 16px;
+  --creative-giants-space-3: 24px;
+  --creative-giants-space-4: 32px;
+  --creative-giants-space-6: 48px;
+  --creative-giants-space-8: 64px;
+  --creative-giants-space-10: 80px;
+  --creative-giants-space-14: 112px;
+
+  --creative-giants-section-gap: 64px;
+  --creative-giants-card-padding: 24px;
+  --creative-giants-element-gap: 8px;
+
+  --creative-giants-radius-none: 0px;
+  --creative-giants-radius-pill: 1440px;
+
+  --creative-giants-shadow-none: none;
+  --creative-giants-shadow-subtle-outline: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px;
+}
+
+.creative-giants-page {
+  min-height: 100vh;
+  background: var(--creative-giants-color-bone-white);
+  color: var(--creative-giants-color-ink-black);
+  font-family: var(--creative-giants-font-sans);
+}
+
+.creative-giants-display {
+  font-size: clamp(54px, 8vw, var(--creative-giants-text-display));
+  font-weight: 300;
+  line-height: var(--creative-giants-leading-tight);
+  letter-spacing: var(--creative-giants-tracking-display);
+}
+
+.creative-giants-menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--creative-giants-radius-pill);
+  background: var(--creative-giants-color-ink-black);
+  color: var(--creative-giants-color-bone-white);
+  padding: 12px 24px;
+  font: 400 var(--creative-giants-text-body) / 1 var(--creative-giants-font-sans);
+}
+
+.creative-giants-tag {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--creative-giants-color-ash);
+  border-radius: var(--creative-giants-radius-pill);
+  background: transparent;
+  color: var(--creative-giants-color-ink-black);
+  padding: 8px 12px;
+  font: 400 var(--creative-giants-text-caption) / 1 var(--creative-giants-font-sans);
+  text-transform: uppercase;
+}
+
+.creative-giants-card {
+  border: 0;
+  border-radius: var(--creative-giants-radius-none);
+  background: transparent;
+  box-shadow: var(--creative-giants-shadow-none);
+}
+
+.creative-giants-image {
+  display: block;
+  width: 100%;
+  border-radius: var(--creative-giants-radius-none);
+  box-shadow: var(--creative-giants-shadow-none);
+}

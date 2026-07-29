@@ -1,0 +1,115 @@
+@theme {
+  --color-xai-jet-ink: #0a0a0a;
+  --color-xai-charcoal: #151515;
+  --color-xai-slate: #3b3b3b;
+  --color-xai-steel: #545454;
+  --color-xai-fog: #858585;
+  --color-xai-pewter: #9d9d9d;
+  --color-xai-dove: #d5d9e2;
+  --color-xai-sand: #f2ede5;
+  --color-xai-cream: #f9f8f6;
+  --color-xai-paper: #ffffff;
+  --color-xai-ember: #ff5f57;
+  --color-xai-sunbeam: #ffbd2e;
+  --color-xai-sprout: #28c840;
+
+  --font-xai-sans: "universalSans", "Inter", system-ui, sans-serif;
+  --font-xai-display: "universalSansDisplay", "Sohne", "GT America", "Inter Display", sans-serif;
+  --font-xai-mono: "GeistMono", "Geist Mono", "JetBrains Mono", monospace;
+
+  --text-xai-caption: 12px;
+  --text-xai-body-sm: 14px;
+  --text-xai-body: 16px;
+  --text-xai-utility: 18px;
+  --text-xai-heading-sm: 24px;
+  --text-xai-subheading: 30px;
+  --text-xai-heading: 48px;
+  --text-xai-heading-lg: 60px;
+  --text-xai-display: 72px;
+
+  --radius-xai-input: 6px;
+  --radius-xai-small-card: 8px;
+  --radius-xai-terminal: 12px;
+  --radius-xai-card: 16px;
+  --radius-xai-pill: 9999px;
+
+  --spacing-xai-1: 4px;
+  --spacing-xai-2: 8px;
+  --spacing-xai-3: 12px;
+  --spacing-xai-4: 16px;
+  --spacing-xai-5: 20px;
+  --spacing-xai-6: 24px;
+  --spacing-xai-8: 32px;
+  --spacing-xai-10: 40px;
+  --spacing-xai-12: 48px;
+  --spacing-xai-16: 64px;
+  --spacing-xai-24: 96px;
+  --spacing-xai-36: 144px;
+}
+
+@layer components {
+  .xai-page {
+    background: var(--color-xai-paper);
+    color: var(--color-xai-jet-ink);
+    font-family: var(--font-xai-sans);
+  }
+
+  .xai-container {
+    width: min(100% - 48px, 1200px);
+    margin-inline: auto;
+  }
+
+  .xai-display {
+    font-family: var(--font-xai-display);
+    font-size: clamp(48px, 7vw, var(--text-xai-display));
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+
+  .xai-button-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: var(--radius-xai-pill);
+    background: var(--color-xai-jet-ink);
+    color: var(--color-xai-paper);
+    padding: 12px 20px;
+    font-size: var(--text-xai-body-sm);
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  .xai-card-cream {
+    border: 0;
+    border-radius: var(--radius-xai-card);
+    background: var(--color-xai-cream);
+    box-shadow: none;
+  }
+
+  .xai-terminal {
+    border-radius: var(--radius-xai-terminal);
+    background: var(--color-xai-charcoal);
+    color: var(--color-xai-paper);
+    font-family: var(--font-xai-mono);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.65;
+    letter-spacing: -0.01em;
+  }
+
+  .xai-beta-pill {
+    display: inline-flex;
+    align-items: center;
+    border-radius: var(--radius-xai-pill);
+    background: var(--color-xai-sand);
+    color: var(--color-xai-jet-ink);
+    padding: 2px 8px;
+    font-size: var(--text-xai-caption);
+    font-weight: 500;
+    line-height: 1;
+  }
+}

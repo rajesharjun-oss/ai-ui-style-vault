@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+@theme {
+  --font-dub-display: "Satoshi", "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-dub-ui: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-dub-electric-blue: #0066ff;
+  --color-dub-midnight: #0a0a0a;
+  --color-dub-snow: #ffffff;
+  --color-dub-rice-paper: #fafafa;
+  --color-dub-porcelain: #f5f5f5;
+  --color-dub-mist: #f4f4f5;
+  --color-dub-cloud: #e5e5e5;
+  --color-dub-ash: #a3a3a3;
+  --color-dub-graphite: #737373;
+  --color-dub-charcoal: #525252;
+  --color-dub-steel: #262626;
+  --color-dub-growth-green: #16a34a;
+  --color-dub-warning-amber: #f59e0b;
+  --color-dub-danger-red: #ef4444;
+  --color-dub-purple-flux: #8b5cf6;
+
+  --text-dub-caption: 12px;
+  --text-dub-caption--line-height: 1.33;
+  --text-dub-body-sm: 14px;
+  --text-dub-body-sm--line-height: 1.5;
+  --text-dub-body: 16px;
+  --text-dub-body--line-height: 1.5;
+  --text-dub-body-lg: 18px;
+  --text-dub-body-lg--line-height: 1.56;
+  --text-dub-subheading: 20px;
+  --text-dub-subheading--line-height: 1.4;
+  --text-dub-heading-sm: 30px;
+  --text-dub-heading-sm--line-height: 1.2;
+  --text-dub-heading: 48px;
+  --text-dub-heading--line-height: 1.08;
+  --text-dub-display: 72px;
+  --text-dub-display--line-height: 1;
+
+  --spacing-dub-2: 2px;
+  --spacing-dub-4: 4px;
+  --spacing-dub-6: 6px;
+  --spacing-dub-8: 8px;
+  --spacing-dub-10: 10px;
+  --spacing-dub-12: 12px;
+  --spacing-dub-14: 14px;
+  --spacing-dub-16: 16px;
+  --spacing-dub-20: 20px;
+  --spacing-dub-24: 24px;
+  --spacing-dub-32: 32px;
+  --spacing-dub-40: 40px;
+  --spacing-dub-48: 48px;
+  --spacing-dub-64: 64px;
+  --spacing-dub-80: 80px;
+  --spacing-dub-96: 96px;
+
+  --radius-dub-button: 24px;
+  --radius-dub-card: 16px;
+  --radius-dub-input: 12px;
+  --radius-dub-badge: 9999px;
+}
+
+@layer components {
+  .dub-page {
+    @apply min-h-screen bg-dub-snow text-dub-midnight font-dub-ui;
+  }
+
+  .dub-container {
+    @apply mx-auto;
+    width: min(calc(100% - 48px), 1200px);
+  }
+
+  .dub-section {
+    @apply py-dub-80;
+  }
+
+  .dub-section-muted {
+    @apply bg-dub-rice-paper;
+  }
+
+  .dub-display {
+    @apply m-0 font-dub-display text-dub-display font-bold tracking-normal text-dub-midnight;
+  }
+
+  .dub-heading {
+    @apply m-0 font-dub-display text-dub-heading font-bold tracking-normal text-dub-steel;
+  }
+
+  .dub-body {
+    @apply font-dub-ui text-dub-body font-normal text-dub-graphite;
+  }
+
+  .dub-card {
+    @apply rounded-dub-card border border-dub-cloud bg-dub-snow p-dub-24 shadow-none;
+  }
+
+  .dub-pricing-card {
+    @apply rounded-dub-card border border-dub-cloud bg-dub-snow p-dub-32 shadow-none;
+  }
+
+  .dub-button-primary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-dub-button border-0 bg-dub-electric-blue px-dub-24 py-dub-12 font-dub-ui text-dub-body-sm font-semibold text-dub-snow no-underline transition-colors duration-200 ease-in-out;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .dub-button-secondary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-dub-button border border-dub-cloud bg-dub-snow px-dub-24 py-dub-12 font-dub-ui text-dub-body-sm font-semibold text-dub-midnight no-underline transition-colors duration-200 ease-in-out;
+  }
+
+  .dub-icon-button {
+    @apply inline-flex h-10 w-10 items-center justify-center rounded-dub-badge border border-dub-cloud bg-dub-snow text-dub-graphite hover:bg-dub-rice-paper;
+  }
+
+  .dub-feature-pill {
+    @apply inline-flex items-center gap-dub-6 rounded-dub-badge bg-dub-porcelain px-dub-12 py-dub-6 font-dub-ui text-[13px] font-medium text-dub-charcoal;
+  }
+
+  .dub-feature-pill-dot {
+    @apply h-[6px] w-[6px] rounded-dub-badge bg-dub-electric-blue;
+  }
+
+  .dub-input {
+    @apply min-h-10 w-full rounded-dub-input border border-dub-cloud bg-dub-snow px-dub-14 py-dub-10 font-dub-ui text-dub-body-sm font-normal text-dub-midnight placeholder:text-dub-ash;
+  }
+
+  .dub-table-row {
+    @apply grid min-h-12 items-center border-b border-dub-cloud bg-dub-snow font-dub-ui text-dub-body-sm font-normal text-dub-midnight hover:bg-dub-rice-paper;
+  }
+
+  .dub-chart-card {
+    @apply rounded-dub-card border border-dub-cloud bg-dub-snow p-dub-24 shadow-none;
+  }
+
+  .dub-nav {
+    @apply min-h-16 border-b border-dub-cloud;
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(12px);
+  }
+
+  .dub-nav-link {
+    @apply font-dub-ui text-dub-body-sm font-medium text-dub-charcoal no-underline;
+  }
+
+  .dub-nav-link-active,
+  .dub-link {
+    @apply text-dub-electric-blue;
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "monopo saigon",
+  "source": {
+    "type": "refero-styles",
+    "url": "https://styles.refero.design/style/3e52dd36-6ab1-48c6-bc40-47ef6d33abc2",
+    "referenceUrl": "https://monopo.vn",
+    "capturedOn": "2026-07-28"
+  },
+  "theme": "light",
+  "colors": {
+    "obsidian": { "value": "#000000", "css": "--color-obsidian" },
+    "paper": { "value": "#ffffff", "css": "--color-paper" },
+    "inkstone": { "value": "#181818", "css": "--color-inkstone" },
+    "slatePill": { "value": "#636363", "css": "--color-slate-pill" },
+    "feltGray": { "value": "#6d6d6d", "css": "--color-felt-gray" },
+    "pewter": { "value": "#808080", "css": "--color-pewter" },
+    "ashMist": { "value": "#9a9a9a", "css": "--color-ash-mist" },
+    "iridescentFade": {
+      "value": "linear-gradient(90deg, rgb(160, 224, 171), rgb(255, 172, 46) 50%, rgb(165, 45, 37))",
+      "css": "--gradient-iridescent-fade"
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": {
+        "value": "Roobert",
+        "css": "--font-roobert",
+        "fallback": "Inter, Sohne, ui-sans-serif, system-ui, sans-serif"
+      },
+      "displayAccent": {
+        "value": "Raleway",
+        "css": "--font-raleway",
+        "fallback": "Montserrat, Jost, ui-sans-serif, system-ui, sans-serif"
+      },
+      "micro": {
+        "value": "system-ui",
+        "css": "--font-system-ui",
+        "fallback": "ui-sans-serif, system-ui, sans-serif"
+      }
+    },
+    "fontWeights": {
+      "light": 300,
+      "regular": 400,
+      "semibold": 600
+    },
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": 1.19, "letterSpacing": "0" },
+      "bodySm": { "fontSize": "16px", "lineHeight": 1.15, "letterSpacing": "0" },
+      "body": { "fontSize": "18px", "lineHeight": 1.21, "letterSpacing": "0" },
+      "subheading": { "fontSize": "39px", "lineHeight": 1.19, "letterSpacing": "0" },
+      "subheadingLg": { "fontSize": "45px", "lineHeight": 1.15, "letterSpacing": "0" },
+      "headingSm": { "fontSize": "54px", "lineHeight": 1.39, "letterSpacing": "0" },
+      "heading": { "fontSize": "78px", "lineHeight": 1.1, "letterSpacing": "0" },
+      "headingLg": { "fontSize": "94px", "lineHeight": 0.76, "letterSpacing": "0" },
+      "display": { "fontSize": "225px", "lineHeight": 1.25, "letterSpacing": "0" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "pageMaxWidth": "1078px",
+    "sectionGap": "46px",
+    "cardPadding": "34px",
+    "elementGap": "14px",
+    "scale": ["8px", "12px", "28px", "40px", "48px", "64px", "68px", "152px"]
+  },
+  "radii": {
+    "buttons": "75px",
+    "tags": "75px",
+    "cards": "0px",
+    "images": "0px",
+    "inputs": "0px",
+    "links": "0px"
+  },
+  "shadows": {
+    "none": "none"
+  },
+  "motion": {
+    "curve": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "slow": "1.25s",
+    "medium": "0.8s",
+    "micro": "0.4s"
+  },
+  "componentRecipes": {
+    "ghostPillButtonDark": {
+      "background": "transparent",
+      "border": "1px solid rgba(255, 255, 255, 0.3)",
+      "radius": "75px",
+      "font": "Roobert 16px 400",
+      "color": "#ffffff",
+      "padding": "11px 33px"
+    },
+    "ghostPillButtonLight": {
+      "background": "transparent",
+      "border": "1px solid #000000",
+      "radius": "75px",
+      "font": "Roobert 16px 400",
+      "color": "#000000",
+      "padding": "11px 33px"
+    },
+    "filledNeutralPill": {
+      "background": "rgba(55, 55, 55, 0.78)",
+      "border": "1px solid #ffffff",
+      "radius": "75px",
+      "font": "Roobert 16px 400",
+      "color": "#ffffff"
+    },
+    "projectRow": {
+      "background": "transparent",
+      "border": "none",
+      "radius": "0px",
+      "shadow": "none",
+      "imageRadius": "0px"
+    },
+    "topNavigation": {
+      "height": "66px",
+      "background": "transparent",
+      "shadow": "none",
+      "font": "Roobert 11-16px 400"
+    }
+  }
+}

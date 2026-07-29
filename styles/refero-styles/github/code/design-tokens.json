@@ -1,0 +1,244 @@
+{
+  "name": "GitHub",
+  "slug": "github",
+  "sourceUrl": "https://styles.refero.design/style/c3ceca5c-d329-4559-b947-016172941ba2",
+  "referenceSite": "https://github.com",
+  "theme": "dark",
+  "tokens": {
+    "color": {
+      "deepVoid": {
+        "value": "#0d1117",
+        "role": "Page canvas, sections, footer"
+      },
+      "abyss": {
+        "value": "#000000",
+        "role": "Hero canvas and terminal surfaces"
+      },
+      "carbon": {
+        "value": "#090d0a",
+        "role": "Near-black button surface"
+      },
+      "obsidian": {
+        "value": "#151a22",
+        "role": "Elevated controls and inputs"
+      },
+      "slateEdge": {
+        "value": "#21262d",
+        "role": "Hairline borders and dividers"
+      },
+      "iron": {
+        "value": "#3d4145",
+        "role": "Subtle elevated surface"
+      },
+      "fog": {
+        "value": "#484f58",
+        "role": "Stronger dividers"
+      },
+      "moss": {
+        "value": "#7c8980",
+        "role": "Tertiary headings"
+      },
+      "mercury": {
+        "value": "#818b98",
+        "role": "Muted borders"
+      },
+      "ash": {
+        "value": "#9ea0a2",
+        "role": "Reduced-contrast strokes"
+      },
+      "pearl": {
+        "value": "#a4aea6",
+        "role": "Body copy and muted nav"
+      },
+      "snow": {
+        "value": "#ffffff",
+        "role": "Primary text and button text"
+      },
+      "terminalGreen": {
+        "value": "#08872b",
+        "role": "Single primary CTA fill"
+      },
+      "phosphor": {
+        "value": "#5fed83",
+        "role": "Green wash and soft emphasis"
+      },
+      "canopy": {
+        "value": "#0d3024",
+        "role": "Green-gray supporting accent"
+      },
+      "ultraviolet": {
+        "value": "#8c93fb",
+        "role": "Featured card border"
+      },
+      "sky": {
+        "value": "#8dd6ff",
+        "role": "Link text and icon accents"
+      },
+      "cobalt": {
+        "value": "#1f6feb",
+        "role": "Rare marketing accent"
+      }
+    },
+    "font": {
+      "primary": {
+        "family": "Mona Sans",
+        "fallback": "Inter",
+        "weights": [400, 425, 440, 460, 480, 500, 600, 800],
+        "features": ["ss01", "cv11"]
+      },
+      "mono": {
+        "family": "Mona Sans Mono",
+        "fallback": "JetBrains Mono",
+        "weights": [400, 480, 500]
+      }
+    },
+    "typography": {
+      "caption": {
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "letterSpacing": "0.18px"
+      },
+      "bodySmall": {
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "normal"
+      },
+      "body": {
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "normal"
+      },
+      "bodyLarge": {
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0.18px"
+      },
+      "subheading": {
+        "fontSize": "22px",
+        "fontWeight": 480,
+        "lineHeight": 1.4,
+        "letterSpacing": "normal"
+      },
+      "headingSmall": {
+        "fontSize": "24px",
+        "fontWeight": 600,
+        "lineHeight": 1.5,
+        "letterSpacing": "normal"
+      },
+      "heading": {
+        "fontSize": "40px",
+        "fontWeight": 460,
+        "lineHeight": 1.2,
+        "letterSpacing": "normal"
+      },
+      "headingLarge": {
+        "fontSize": "48px",
+        "fontWeight": 800,
+        "lineHeight": 1,
+        "letterSpacing": "normal"
+      },
+      "display": {
+        "fontSize": "64px",
+        "fontWeight": 425,
+        "lineHeight": 1.08,
+        "letterSpacing": "-2.24px"
+      },
+      "monoLabel": {
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "letterSpacing": "0.015em",
+        "textTransform": "uppercase"
+      }
+    },
+    "spacing": {
+      "unit": "4px",
+      "scale": {
+        "4": "4px",
+        "8": "8px",
+        "12": "12px",
+        "16": "16px",
+        "20": "20px",
+        "24": "24px",
+        "28": "28px",
+        "32": "32px",
+        "40": "40px",
+        "44": "44px",
+        "48": "48px",
+        "64": "64px",
+        "80": "80px",
+        "96": "96px"
+      },
+      "layout": {
+        "maxWidth": "1200px",
+        "sectionGapMin": "64px",
+        "sectionGapMax": "96px",
+        "cardPadding": "24px",
+        "elementGapMin": "16px",
+        "elementGapMax": "24px"
+      }
+    },
+    "radius": {
+      "inputs": "6px",
+      "buttons": "6px",
+      "images": "16px",
+      "cards": "24px",
+      "pillButtons": "60px",
+      "tags": "9999px"
+    },
+    "surface": {
+      "void": "#0d1117",
+      "abyss": "#000000",
+      "carbon": "#151a22",
+      "iron": "#3d4145",
+      "glass": "rgba(255, 255, 255, 0.06)",
+      "frost": "rgba(255, 255, 255, 0.2)"
+    },
+    "shadow": {
+      "default": "none",
+      "elevation": "translucency, backdrop blur, and 1px borders"
+    }
+  },
+  "components": {
+    "primaryCtaButton": {
+      "background": "#08872b",
+      "text": "#ffffff",
+      "radius": "6px",
+      "padding": "6px 20px",
+      "font": "Mona Sans 16px weight 400"
+    },
+    "pillButton": {
+      "background": "transparent",
+      "text": "#ffffff",
+      "border": "1px solid rgba(255, 255, 255, 0.3)",
+      "radius": "60px",
+      "padding": "8px 16px"
+    },
+    "glassSurfaceCard": {
+      "background": "rgba(255, 255, 255, 0.06-0.2)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)",
+      "radius": "24px",
+      "backdropFilter": "blur(20px)",
+      "shadow": "none"
+    },
+    "featuredCard": {
+      "background": "rgba(255, 255, 255, 0.06)",
+      "border": "1px solid #8c93fb",
+      "radius": "24px"
+    },
+    "emailInputField": {
+      "background": "transparent or #151a22",
+      "border": "1px solid #21262d",
+      "radius": "6px-8px",
+      "placeholder": "#a4aea6"
+    },
+    "heroGradientBanner": {
+      "background": "radial violet gradient",
+      "filter": "blur(60px)"
+    }
+  }
+}

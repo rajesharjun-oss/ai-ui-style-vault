@@ -1,0 +1,276 @@
+{
+  "id": "7088d695-362b-4e09-b325-fa8136d4f350",
+  "name": "Duolingo",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/7088d695-362b-4e09-b325-fa8136d4f350",
+  "referenceUrl": "https://duolingo.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Playful classroom mascot on white paper, with rounded display type, saturated green progress language, Spark Blue links, sticker-like controls, and illustration-led sections.",
+  "bestFor": [
+    "education apps",
+    "language learning",
+    "playful onboarding",
+    "consumer SaaS",
+    "progress apps",
+    "youth-friendly learning tools"
+  ],
+  "tags": [
+    "light",
+    "education",
+    "language-learning",
+    "playful",
+    "storybook",
+    "white-paper",
+    "green-accent",
+    "blue-links",
+    "rounded-type",
+    "sticker-buttons",
+    "thick-borders",
+    "mascot-illustration",
+    "consumer-app"
+  ],
+  "colors": {
+    "eagerGreen": {
+      "value": "#58cc02",
+      "token": "--color-eager-green",
+      "role": "Green accent for progress, display headings, primary CTA fills, and footer band."
+    },
+    "storybookGreen": {
+      "value": "#d7ffb8",
+      "token": "--color-storybook-green",
+      "role": "Soft green wash for highlighted labels and light surface tints."
+    },
+    "sparkBlue": {
+      "value": "#1cb0f6",
+      "token": "--color-spark-blue",
+      "role": "Interactive links and outlined secondary CTAs."
+    },
+    "freshLeaf": {
+      "value": "#a5ed6e",
+      "token": "--color-fresh-leaf",
+      "role": "Secondary green link tone for footer or green-band contexts."
+    },
+    "nightInk": {
+      "value": "#000437",
+      "token": "--color-night-ink",
+      "role": "Deep violet-blue accent for emphasis text and dark surfaces."
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "token": "--color-paper-white",
+      "role": "Page canvas, card surfaces, and text on green or dark fills."
+    },
+    "charcoal": {
+      "value": "#4b4b4b",
+      "token": "--color-charcoal",
+      "role": "Hero headings and primary dark copy."
+    },
+    "pencilGray": {
+      "value": "#777777",
+      "token": "--color-pencil-gray",
+      "role": "Body paragraphs and secondary descriptive text."
+    },
+    "fadedGray": {
+      "value": "#afafaf",
+      "token": "--color-faded-gray",
+      "role": "Button borders, disabled states, and low-emphasis nav labels."
+    }
+  },
+  "typography": {
+    "families": {
+      "feather": "feather",
+      "featherFallback": "Feather Bold, Nunito Black, rounded extra-bold sans, ui-sans-serif, system-ui",
+      "duolingoSans": "duolingo-sans",
+      "duolingoSansFallback": "DIN Next, Inter, Nunito Sans, ui-sans-serif, system-ui"
+    },
+    "weights": {
+      "medium": 500,
+      "bold": 700
+    },
+    "rules": [
+      "Use Feather-style rounded display only at 48px and above.",
+      "Use duolingo-sans style typography for body, nav, labels, subheadings, and links.",
+      "Reserve uppercase 15px with 0.0530em tracking for nav labels and language pills.",
+      "Keep body copy gray at 17px and weight 500."
+    ],
+    "scale": {
+      "caption": {
+        "size": "13px",
+        "lineHeight": 1.23,
+        "fontWeight": 700,
+        "letterSpacing": "0",
+        "token": "--text-caption"
+      },
+      "navLabel": {
+        "size": "15px",
+        "lineHeight": 1.33,
+        "fontWeight": 700,
+        "letterSpacing": "0.795px",
+        "token": "--text-nav-label"
+      },
+      "body": {
+        "size": "17px",
+        "lineHeight": 1.18,
+        "fontWeight": 500,
+        "letterSpacing": "0",
+        "token": "--text-body"
+      },
+      "subheading": {
+        "size": "19px",
+        "lineHeight": 1.4,
+        "fontWeight": 700,
+        "letterSpacing": "0",
+        "token": "--text-subheading"
+      },
+      "headingSm": {
+        "size": "32px",
+        "lineHeight": 1.2,
+        "fontWeight": 700,
+        "letterSpacing": "0",
+        "token": "--text-heading-sm"
+      },
+      "heading": {
+        "size": "48px",
+        "lineHeight": 1.2,
+        "fontWeight": 700,
+        "letterSpacing": "-0.96px",
+        "token": "--text-heading"
+      },
+      "display": {
+        "size": "64px",
+        "lineHeight": 1.2,
+        "fontWeight": 700,
+        "letterSpacing": "-1.28px",
+        "token": "--text-display"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80-120px",
+    "sectionHeight": "800-900px",
+    "cardPadding": "16-24px",
+    "elementGap": "12px",
+    "bodyMaxWidth": "480px",
+    "footerVerticalPadding": "48px",
+    "scale": {
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "120": "120px"
+    }
+  },
+  "radii": {
+    "links": "12px",
+    "buttons": "12px",
+    "navItems": "12px",
+    "pills": "12px"
+  },
+  "borders": {
+    "outlinedControl": {
+      "value": "2px solid #afafaf",
+      "role": "Sticker-like border for outlined buttons, language pills, and nav-item controls."
+    }
+  },
+  "surfaces": {
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Page canvas and default section surface."
+    },
+    "storybookGreen": {
+      "value": "#d7ffb8",
+      "role": "Soft highlighted tint."
+    },
+    "eagerGreen": {
+      "value": "#58cc02",
+      "role": "Footer band and primary CTA fill."
+    },
+    "nightInk": {
+      "value": "#000437",
+      "role": "Deep accent surface for dark emphasis."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary CTA Button",
+      "role": "Filled green conversion button",
+      "recipe": "Eager Green fill, Paper White uppercase 15px/700 text, 0.0530em tracking, 12px radius, 16px horizontal padding, no shadow."
+    },
+    {
+      "name": "Outlined Account Button",
+      "role": "Secondary CTA",
+      "recipe": "Transparent fill, Spark Blue 14px/700 text, 12px radius, 16px horizontal padding, 2px Faded Gray border."
+    },
+    {
+      "name": "Nav Language Pill",
+      "role": "Header language selector",
+      "recipe": "Transparent fill, Pencil Gray uppercase 15px/700 text, 0.0530em tracking, 12px radius, 10px vertical and 16px horizontal padding, 2px Faded Gray border."
+    },
+    {
+      "name": "Section Headline",
+      "role": "Marketing section title",
+      "recipe": "Feather-style 48-64px rounded display, weight 700, line-height 1.2, -0.0200em tracking, Eager Green."
+    },
+    {
+      "name": "Body Paragraph",
+      "role": "Marketing copy",
+      "recipe": "Duolingo-sans style 17px/500 text, line-height 1.18, Pencil Gray, max width around 480px."
+    },
+    {
+      "name": "Footer Background",
+      "role": "Full-width closing band",
+      "recipe": "Eager Green fill, Paper White headers, Fresh Leaf or Storybook Green links, generous 48px vertical padding."
+    }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Eager Green for progress and CTA moments.",
+      "Use Spark Blue for interactive links and secondary CTAs.",
+      "Keep body text Pencil Gray at 17px and weight 500.",
+      "Use 12px radius on all controls.",
+      "Use 2px borders on outlined controls.",
+      "Pair text blocks with one large flat illustration.",
+      "Keep the page mostly white."
+    ],
+    "dont": [
+      "Do not put colored text inside body paragraphs.",
+      "Do not use sharp corners.",
+      "Do not add gradients, shadows, or glass effects.",
+      "Do not use display type below 48px.",
+      "Do not apply illustration-only colors to UI chrome.",
+      "Do not stretch green into dense small text."
+    ]
+  },
+  "imagery": {
+    "style": "Flat storybook mascot and character illustration with rounded geometry and bold outlines.",
+    "rules": [
+      "Use illustration instead of photography.",
+      "Place one large illustration beside text in each section.",
+      "Keep illustration-only secondary colors out of UI chrome.",
+      "Do not put illustrations inside cards or panels."
+    ]
+  },
+  "layout": {
+    "container": "1200px centered max width",
+    "sections": "Single-column full-width sections, generally 800-900px tall, with 80-120px vertical breathing room.",
+    "composition": "Text-left and illustration-right rhythm with headline, paragraph, CTA, illustration, repeat.",
+    "footer": "Full-bleed Eager Green band spanning page width.",
+    "avoid": "No dense card grids or multi-column feature dashboards."
+  },
+  "preview": {
+    "imageHost": "images.refero.design",
+    "downloaded": false,
+    "note": "Refero exposes preview imagery, but local download was not captured in this environment."
+  }
+}
+

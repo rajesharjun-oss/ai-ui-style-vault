@@ -1,0 +1,252 @@
+{
+    "name":  "Hyper Foundation",
+    "theme":  "dark",
+    "colors":  [
+                   {
+                       "name":  "Forest Depths",
+                       "value":  "#072724",
+                       "token":  "--color-forest-depths",
+                       "role":  "Page canvas, hero background, deep surface layer the dominant dark field that everything else floats on"
+                   },
+                   {
+                       "name":  "Midnight Tide",
+                       "value":  "#0f3933",
+                       "token":  "--color-midnight-tide",
+                       "role":  "Primary text on canvas, strong borders, secondary surface tint readable white-space-equivalent for dark mode"
+                   },
+                   {
+                       "name":  "Shadow Teal",
+                       "value":  "#23524c",
+                       "token":  "--color-shadow-teal",
+                       "role":  "Elevated surface, card fills, subtle borders one step lighter than the canvas for layer separation"
+                   },
+                   {
+                       "name":  "Charcoal Hairline",
+                       "value":  "#2c2e33",
+                       "token":  "--color-charcoal-hairline",
+                       "role":  "Subtle dividers and default 1px borders across cards, images, and icons almost invisible on the dark canvas, used for structural quietness"
+                   },
+                   {
+                       "name":  "Abyss Green",
+                       "value":  "#122d28",
+                       "token":  "--color-abyss-green",
+                       "role":  "Decorative background blob deepest atmospheric tint behind organic hero shapes"
+                   },
+                   {
+                       "name":  "Deep Lagoon",
+                       "value":  "#1c3f38",
+                       "token":  "--color-deep-lagoon",
+                       "role":  "Decorative mid-tone blob in the hero atmosphere, sits between canvas and surface"
+                   },
+                   {
+                       "name":  "Mist Gray",
+                       "value":  "#b0c5c1",
+                       "token":  "--color-mist-gray",
+                       "role":  "Muted body text, secondary descriptions, captions desaturated enough to recede behind the mint accent"
+                   },
+                   {
+                       "name":  "Pure Light",
+                       "value":  "#ffffff",
+                       "token":  "--color-pure-light",
+                       "role":  "Headline text on dark canvas, high-contrast text inside mint-filled buttons"
+                   },
+                   {
+                       "name":  "Mint Glow",
+                       "value":  "#97fcd7",
+                       "token":  "--color-mint-glow",
+                       "role":  "Green text accent for links, tags, and emphasized short phrases. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Teal Pulse",
+                       "value":  "#33998c",
+                       "token":  "--color-teal-pulse",
+                       "role":  "Mid-saturation teal for SVG strokes, secondary decorative accents, hover/transition states between dark surface and mint highlight"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Teodor Display and editorial headlines, brand statements, section titles. Custom serif with sharp contrast between thick and thin strokes; at 90px with 0.75 leading it creates a magazine-cover authority that is the signature typographic gesture of the site. Subheading scale at 24px carries the same character into smaller contexts. `--font-teodor`",
+                                     "Inter Body copy, UI labels, navigation, buttons, captions. The weight 300 default across most sizes keeps the interface quiet against the display serif the contrast between Teodor\u0027s editorial presence and Inter\u0027s whisper-light functional text is a defining rhythm of the system. `--font-inter`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "1.5",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "16px",
+                                             "1.5",
+                                             "",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "20px",
+                                             "1.3",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "24px",
+                                             "1.5",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "28px",
+                                             "1.3",
+                                             "",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "35px",
+                                             "1",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "55px",
+                                             "1",
+                                             "",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "90px",
+                                             "0.75",
+                                             "",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "9",
+                                      "9px",
+                                      "--spacing-9"
+                                  ],
+                                  [
+                                      "14",
+                                      "14px",
+                                      "--spacing-14"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "30",
+                                      "30px",
+                                      "--spacing-30"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "37",
+                                      "37px",
+                                      "--spacing-37"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "50",
+                                      "50px",
+                                      "--spacing-50"
+                                  ],
+                                  [
+                                      "90",
+                                      "90px",
+                                      "--spacing-90"
+                                  ],
+                                  [
+                                      "100",
+                                      "100px",
+                                      "--spacing-100"
+                                  ],
+                                  [
+                                      "113",
+                                      "113px",
+                                      "--spacing-113"
+                                  ],
+                                  [
+                                      "160",
+                                      "160px",
+                                      "--spacing-160"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80-100px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "20-24px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "24px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "tags",
+                      "60px"
+                  ],
+                  [
+                      "cards",
+                      "12px"
+                  ],
+                  [
+                      "buttons",
+                      "60px"
+                  ],
+                  [
+                      "largePills",
+                      "37px"
+                  ]
+              ]
+}

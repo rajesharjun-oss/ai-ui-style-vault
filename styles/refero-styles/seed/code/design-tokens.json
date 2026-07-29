@@ -1,0 +1,106 @@
+{
+  "name": "Seed",
+  "slug": "seed",
+  "sourceUrl": "https://styles.refero.design/style/cd723d5a-e7ea-4e4c-a3bb-6cf56e05057a",
+  "referenceSite": "https://seed.com",
+  "theme": "light",
+  "colors": {
+    "forest-depths": "#1c3a13",
+    "lime-pulse": "#d3fa99",
+    "sage-moss": "#757c5d",
+    "olive-gold": "#9f995b",
+    "eucalyptus": "#698e79",
+    "ink": "#000000",
+    "pewter": "#666666",
+    "ash": "#b3b3b3",
+    "frosted-glass": "#c4c7c4",
+    "warm-stone": "#eeeee9",
+    "snow-white": "#fcfcf7"
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "\"Seed Sans\", \"Inter\", \"General Sans\", Arial, sans-serif",
+      "mono": "\"Seed Sans Mono\", \"JetBrains Mono\", \"IBM Plex Mono\", monospace"
+    },
+    "fontFeatureSettings": "\"ss05\" on",
+    "fontWeight": {
+      "light": 300,
+      "book": 350,
+      "regular": 400,
+      "medium": 500
+    },
+    "fontSize": {
+      "micro": "10px",
+      "label": "12px",
+      "caption": "14px",
+      "body-sm": "16px",
+      "body": "18px",
+      "subheading": "24px",
+      "heading-sm": "32px",
+      "heading": "36px",
+      "heading-lg": "40px",
+      "display": "48px"
+    },
+    "lineHeight": {
+      "tight": "1",
+      "display": "1.1",
+      "subheading": "1.2",
+      "body": "1.3",
+      "caption": "1.4",
+      "comfortable": "1.5"
+    },
+    "letterSpacing": {
+      "body": "-0.18px",
+      "subheading": "-0.48px",
+      "heading": "-0.54px",
+      "heading-lg": "-0.4px",
+      "display": "-0.72px"
+    }
+  },
+  "spacing": {
+    "1": "8px",
+    "2": "16px",
+    "3": "24px",
+    "4": "32px",
+    "5": "40px",
+    "6": "48px",
+    "7": "56px",
+    "8": "64px",
+    "10": "80px",
+    "12": "96px",
+    "16": "128px"
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "16px",
+    "elementGap": "8px"
+  },
+  "radius": {
+    "input": "8px",
+    "card": "16px",
+    "card-lg": "32px",
+    "pill": "1000px"
+  },
+  "components": {
+    "button-primary": {
+      "background": "{colors.forest-depths}",
+      "text": "{colors.snow-white}",
+      "radius": "{radius.pill}",
+      "padding": "16px 24px",
+      "shadow": "none"
+    },
+    "sale-badge": {
+      "background": "{colors.lime-pulse}",
+      "text": "{colors.forest-depths}",
+      "radius": "{radius.pill}",
+      "padding": "6px 8px"
+    },
+    "product-card": {
+      "background": "transparent",
+      "radius": "{radius.card}",
+      "shadow": "none",
+      "border": "none"
+    }
+  }
+}

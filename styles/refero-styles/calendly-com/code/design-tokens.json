@@ -1,0 +1,171 @@
+{
+  "name": "Calendly.com",
+  "version": "2026-07-28",
+  "colors": {
+    "inkNavy": {
+      "value": "#0b3558",
+      "role": "Primary text, headings, icons, dark CTA fills, and nav links"
+    },
+    "signalBlue": {
+      "value": "#006bff",
+      "role": "Primary CTA fill, active nav, selected states, and link accents"
+    },
+    "deepCobalt": {
+      "value": "#004eba",
+      "role": "Badge text and informational labels"
+    },
+    "slateGray": {
+      "value": "#476788",
+      "role": "Secondary copy, helper text, and muted labels"
+    },
+    "mistGray": {
+      "value": "#a6bbd1",
+      "role": "Disabled text, inactive feature labels, and light icon strokes"
+    },
+    "hairline": {
+      "value": "#d4e0ed",
+      "role": "Card borders, input borders, dividers, and underlines"
+    },
+    "pebble": {
+      "value": "#f0f3f8",
+      "role": "Badge backgrounds, input fills, subtle dividers, and hover washes"
+    },
+    "cloud": {
+      "value": "#f8f9fb",
+      "role": "Page canvas, footer, and secondary surface"
+    },
+    "paper": {
+      "value": "#ffffff",
+      "role": "Cards, elevated panels, and text on dark fills"
+    },
+    "carbon": {
+      "value": "#0a0a0a",
+      "role": "Logo glyphs and pure-black fallback only"
+    },
+    "coralMagenta": {
+      "value": "#e55cff",
+      "role": "Decorative blob behind product cards"
+    },
+    "skyCyan": {
+      "value": "#0099ff",
+      "role": "Decorative blob and accent wash partner"
+    }
+  },
+  "font": {
+    "primary": {
+      "family": "Gilroy, Manrope, Inter, system-ui, sans-serif",
+      "weights": {
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      }
+    }
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "12px",
+      "fontWeight": 500,
+      "lineHeight": 1.5,
+      "letterSpacing": "0"
+    },
+    "bodySm": {
+      "fontSize": "14px",
+      "fontWeight": 500,
+      "lineHeight": 1.4,
+      "letterSpacing": "0"
+    },
+    "body": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1,
+      "letterSpacing": "0"
+    },
+    "button": {
+      "fontSize": "18px",
+      "fontWeight": 600,
+      "lineHeight": 1.6,
+      "letterSpacing": "0"
+    },
+    "bodyLg": {
+      "fontSize": "20px",
+      "fontWeight": 500,
+      "lineHeight": 1.4,
+      "letterSpacing": "0"
+    },
+    "subheadingSm": {
+      "fontSize": "24px",
+      "fontWeight": 600,
+      "lineHeight": 1.4,
+      "letterSpacing": "0"
+    },
+    "subheading": {
+      "fontSize": "28px",
+      "fontWeight": 600,
+      "lineHeight": 1.4,
+      "letterSpacing": "0"
+    },
+    "headingSm": {
+      "fontSize": "38px",
+      "fontWeight": 700,
+      "lineHeight": 1.21,
+      "letterSpacing": "0"
+    },
+    "heading": {
+      "fontSize": "50px",
+      "fontWeight": 700,
+      "lineHeight": 1.2,
+      "letterSpacing": "0"
+    },
+    "headingLg": {
+      "fontSize": "68px",
+      "fontWeight": 700,
+      "lineHeight": 1.2,
+      "letterSpacing": "0"
+    },
+    "display": {
+      "fontSize": "80px",
+      "fontWeight": 700,
+      "lineHeight": 1.2,
+      "letterSpacing": "0"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "unit": "8px",
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "48": "48px",
+    "56": "56px",
+    "64": "64px",
+    "72": "72px",
+    "96": "96px",
+    "maxWidth": "1200px",
+    "sectionGap": "48px to 64px",
+    "cardPadding": "24px",
+    "elementGap": "8px to 16px"
+  },
+  "radius": {
+    "small": "4px",
+    "inputs": "8px",
+    "buttons": "8px",
+    "productCards": "16px",
+    "cards": "24px",
+    "badges": "9999px"
+  },
+  "shadows": {
+    "elevatedProductCard": "rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.08) 0px 30px 50px 0px",
+    "linkCard": "rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 4px 10px 0px, rgba(71, 103, 136, 0.05) 0px 10px 20px 0px",
+    "button": "rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.06) 0px 15px 30px 0px",
+    "rule": "Use blue-tinted shadows, never neutral black shadows."
+  },
+  "imagery": {
+    "primary": "Product screenshots and booking widget UI on white cards",
+    "decorative": ["coral magenta blob", "sky cyan blob"],
+    "avoid": ["photography", "lifestyle imagery", "full-page gradients"]
+  }
+}
+

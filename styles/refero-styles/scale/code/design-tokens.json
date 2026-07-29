@@ -1,0 +1,170 @@
+{
+  "name": "Scale",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/e81d4724-9615-4159-8678-cef35f986cab",
+  "capturedOn": "2026-07-28",
+  "theme": "mixed",
+  "color": {
+    "pureBlack": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "scaleWhite": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "signalGreen": {
+      "value": "#19d27f",
+      "type": "color"
+    },
+    "modelBlue": {
+      "value": "#3f7dff",
+      "type": "color"
+    },
+    "dataViolet": {
+      "value": "#7b61ff",
+      "type": "color"
+    },
+    "nearBlack": {
+      "value": "#050505",
+      "type": "color"
+    },
+    "graphite": {
+      "value": "#111111",
+      "type": "color"
+    },
+    "steel": {
+      "value": "#333333",
+      "type": "color"
+    },
+    "ash": {
+      "value": "#6f6f6f",
+      "type": "color"
+    },
+    "mist": {
+      "value": "#e6e6e6",
+      "type": "color"
+    },
+    "cloud": {
+      "value": "#f6f6f6",
+      "type": "color"
+    },
+    "paper": {
+      "value": "#fafafa",
+      "type": "color"
+    },
+    "warningAmber": {
+      "value": "#ffb547",
+      "type": "color"
+    },
+    "errorRed": {
+      "value": "#ff5a5f",
+      "type": "color"
+    }
+  },
+  "font": {
+    "suisseIntl": {
+      "value": "Suisse Intl",
+      "type": "fontFamily"
+    },
+    "suisseIntlMono": {
+      "value": "Suisse Intl Mono",
+      "type": "fontFamily"
+    }
+  },
+  "fontSize": {
+    "caption": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "bodySmall": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "body": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "lead": {
+      "value": "20px",
+      "type": "dimension"
+    },
+    "headingSmall": {
+      "value": "28px",
+      "type": "dimension"
+    },
+    "heading": {
+      "value": "48px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "72px",
+      "type": "dimension"
+    }
+  },
+  "radius": {
+    "buttons": {
+      "value": "999px",
+      "type": "dimension"
+    },
+    "cards": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "panels": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "inputs": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "chips": {
+      "value": "999px",
+      "type": "dimension"
+    }
+  },
+  "space": {
+    "base": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "elementGap": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "cardPadding": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "sectionGap": {
+      "value": "96px",
+      "type": "dimension"
+    },
+    "maxWidth": {
+      "value": "1280px",
+      "type": "dimension"
+    }
+  },
+  "border": {
+    "light": {
+      "value": "1px solid #e6e6e6",
+      "type": "border"
+    },
+    "dark": {
+      "value": "1px solid rgba(255, 255, 255, 0.14)",
+      "type": "border"
+    }
+  },
+  "gradient": {
+    "heroOverlay": {
+      "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.82) 100%)",
+      "type": "gradient"
+    },
+    "wireframe": {
+      "value": "radial-gradient(circle at center, rgba(63, 125, 255, 0.22), rgba(0, 0, 0, 0) 60%)",
+      "type": "gradient"
+    }
+  }
+}
+

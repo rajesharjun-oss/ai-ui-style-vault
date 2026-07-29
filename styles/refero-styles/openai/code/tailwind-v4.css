@@ -1,0 +1,64 @@
+@theme {
+  --font-openai: "OpenAI Sans", "Inter", "Sohne", system-ui, sans-serif;
+
+  --color-openai-obsidian: #000000;
+  --color-openai-graphite: #666666;
+  --color-openai-smoke: #8f8f8f;
+  --color-openai-paper: #ffffff;
+  --color-openai-ash: #f1f1f1;
+  --color-openai-hairline: rgba(0, 0, 0, 0.12);
+  --color-openai-whisper: rgba(0, 0, 0, 0.04);
+
+  --radius-openai-pill: 9999px;
+  --radius-openai-card: 6px;
+  --radius-openai-utility: 4px;
+
+  --spacing-openai-1: 4px;
+  --spacing-openai-2: 8px;
+  --spacing-openai-3: 12px;
+  --spacing-openai-4: 16px;
+  --spacing-openai-5: 20px;
+  --spacing-openai-6: 24px;
+  --spacing-openai-8: 32px;
+  --spacing-openai-12: 48px;
+  --spacing-openai-16: 64px;
+  --spacing-openai-max: 1200px;
+
+  --text-openai-label: 13px;
+  --text-openai-label--line-height: 1.51;
+  --text-openai-ui: 14px;
+  --text-openai-ui--line-height: 1.4;
+  --text-openai-body: 17px;
+  --text-openai-body--line-height: 1.65;
+  --text-openai-subhead: 22px;
+  --text-openai-subhead--line-height: 1.26;
+  --text-openai-section: 28px;
+  --text-openai-section--line-height: 1.21;
+  --text-openai-display: 48px;
+  --text-openai-display--line-height: 1.16;
+}
+
+@utility openai-page {
+  background: var(--color-openai-paper);
+  color: var(--color-openai-obsidian);
+  font-family: var(--font-openai);
+  font-feature-settings: "calt" 1, "liga" 1;
+}
+
+@utility openai-display {
+  font-size: clamp(36px, 6vw, var(--text-openai-display));
+  line-height: var(--text-openai-display--line-height);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+@utility openai-cta {
+  border-radius: var(--radius-openai-pill);
+  background: var(--color-openai-obsidian);
+  color: var(--color-openai-paper);
+  border: 1px solid var(--color-openai-obsidian);
+  padding: 8px 20px;
+  font-size: var(--text-openai-ui);
+  line-height: var(--text-openai-ui--line-height);
+  font-weight: 500;
+}

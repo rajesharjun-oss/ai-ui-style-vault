@@ -1,0 +1,137 @@
+:root {
+  /* Colors */
+  --color-velvet-wine: #260212;
+  --color-burgundy-stage: #4f0423;
+  --color-impossible-red: #e10600;
+  --color-blush-highlight: #ffc7c6;
+  --color-butcher-black: #000000;
+  --color-bone-white: #ffffff;
+
+  /* Typography */
+  --font-sans-meat: "sans-meat", "Druk Wide", Impact, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body-fallback: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 10px;
+  --leading-caption: 1.4;
+  --tracking-caption: 0.02px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.4;
+  --tracking-body-sm: 0.02px;
+  --text-body: 18px;
+  --leading-body: 1.4;
+  --tracking-body: 0.02px;
+  --text-subheading: 24px;
+  --leading-subheading: 1.15;
+  --tracking-subheading: 0.02px;
+  --text-heading-sm: 32px;
+  --leading-heading-sm: 1.1;
+  --tracking-heading-sm: 0.02px;
+  --text-heading: 48px;
+  --leading-heading: 0.9;
+  --tracking-heading: 0.02px;
+  --text-heading-lg: 103px;
+  --leading-heading-lg: 0.75;
+  --tracking-heading-lg: 0.03px;
+  --text-display: 160px;
+  --leading-display: 0.73;
+  --tracking-display: 0.06px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-68: 68px;
+  --spacing-80: 80px;
+  --spacing-100: 100px;
+  --spacing-148: 148px;
+
+  /* Layout */
+  --page-max-width: 1280px;
+  --section-gap-min: 40px;
+  --section-gap-max: 64px;
+  --card-padding-min: 16px;
+  --card-padding-max: 24px;
+  --element-gap-min: 6px;
+  --element-gap-max: 16px;
+
+  /* Radius */
+  --radius-nav: 15px;
+  --radius-card: 12px;
+  --radius-button: 15px;
+  --radius-toggle: 15px;
+  --radius-feature-card: 38px;
+}
+
+.impossible-surface {
+  background: var(--color-velvet-wine);
+  color: var(--color-bone-white);
+  font-family: var(--font-sans-meat);
+}
+
+.impossible-display {
+  color: var(--color-impossible-red);
+  font: 700 var(--text-display) / var(--leading-display) var(--font-sans-meat);
+  letter-spacing: var(--tracking-display);
+  text-transform: uppercase;
+}
+
+.impossible-primary-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--element-gap-min);
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-impossible-red);
+  color: var(--color-bone-white);
+  padding: 10px 14px;
+  font: 500 var(--text-body-sm) / var(--leading-body-sm) var(--font-sans-meat);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.impossible-ghost-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--element-gap-min);
+  border: 1px solid var(--color-bone-white);
+  border-radius: var(--radius-button);
+  background: transparent;
+  color: var(--color-bone-white);
+  padding: 10px 14px;
+  font: 500 var(--text-body-sm) / var(--leading-body-sm) var(--font-sans-meat);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.impossible-card {
+  border: 1px solid var(--color-butcher-black);
+  border-radius: var(--radius-card);
+  background: var(--color-burgundy-stage);
+  box-shadow: none;
+}
+
+.impossible-filter-pill {
+  border-radius: var(--radius-toggle);
+  padding: 10px 16px;
+  color: var(--color-blush-highlight);
+  background: transparent;
+  font: 500 var(--text-body-sm) / var(--leading-body-sm) var(--font-sans-meat);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.impossible-filter-pill[data-active="true"] {
+  color: var(--color-bone-white);
+  background: var(--color-impossible-red);
+}

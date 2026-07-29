@@ -1,0 +1,135 @@
+:root {
+  --dylan-color-cinder-black: #161616;
+  --dylan-color-bone-white: #f7f7f7;
+  --dylan-color-concrete-mist: #efefee;
+  --dylan-color-ember-orange: #f7601b;
+  --dylan-color-utility-gray: #777777;
+  --dylan-color-ash-line: #d5d5d5;
+  --dylan-color-deep-field: #000000;
+
+  --dylan-font-display: "Tilt Warp", "ABC Gravity", "Die Grotesk B", Impact, sans-serif;
+  --dylan-font-body: "Sohne", Inter, Arial, Helvetica, sans-serif;
+
+  --dylan-text-mega-size: clamp(84px, 20vw, 288px);
+  --dylan-text-mega-line: 0.85;
+  --dylan-text-mega-tracking: clamp(-14.4px, -1vw, -4px);
+
+  --dylan-text-display-size: clamp(76px, 12vw, 144px);
+  --dylan-text-display-line: 0.88;
+  --dylan-text-display-tracking: -0.05em;
+
+  --dylan-text-headline-size: clamp(48px, 7vw, 76px);
+  --dylan-text-headline-line: 0.92;
+  --dylan-text-headline-tracking: -0.04em;
+
+  --dylan-text-title-size: 44px;
+  --dylan-text-title-line: 1;
+  --dylan-text-title-tracking: -1.76px;
+
+  --dylan-text-body-size: 18px;
+  --dylan-text-body-line: 1.35;
+  --dylan-text-body-tracking: -0.36px;
+
+  --dylan-text-meta-size: 12px;
+  --dylan-text-meta-line: 1.2;
+  --dylan-text-meta-tracking: 0.24px;
+
+  --dylan-space-base: 6px;
+  --dylan-space-element: 18px;
+  --dylan-space-card: 24px;
+  --dylan-space-section: 144px;
+  --dylan-width-content: 1200px;
+
+  --dylan-radius-sharp: 0px;
+  --dylan-radius-pill: 9999px;
+  --dylan-border-strong: 1px solid var(--dylan-color-cinder-black);
+  --dylan-border-subtle: 1px solid var(--dylan-color-ash-line);
+}
+
+.dylan-page {
+  background: var(--dylan-color-concrete-mist);
+  color: var(--dylan-color-cinder-black);
+  font-family: var(--dylan-font-body);
+}
+
+.dylan-rail {
+  width: min(100% - 36px, var(--dylan-width-content));
+  margin-inline: auto;
+}
+
+.dylan-mega {
+  font-family: var(--dylan-font-display);
+  font-size: var(--dylan-text-mega-size);
+  line-height: var(--dylan-text-mega-line);
+  letter-spacing: var(--dylan-text-mega-tracking);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.dylan-headline {
+  font-family: var(--dylan-font-display);
+  font-size: var(--dylan-text-headline-size);
+  line-height: var(--dylan-text-headline-line);
+  letter-spacing: var(--dylan-text-headline-tracking);
+  font-weight: 400;
+}
+
+.dylan-meta {
+  color: var(--dylan-color-utility-gray);
+  font-size: var(--dylan-text-meta-size);
+  line-height: var(--dylan-text-meta-line);
+  letter-spacing: var(--dylan-text-meta-tracking);
+  text-transform: uppercase;
+}
+
+.dylan-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 8px 14px;
+  border: var(--dylan-border-strong);
+  border-radius: var(--dylan-radius-pill);
+  background: transparent;
+  color: var(--dylan-color-cinder-black);
+  font: 400 13px / 1.2 var(--dylan-font-body);
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.dylan-pill:hover,
+.dylan-pill:focus-visible {
+  background: var(--dylan-color-ember-orange);
+  border-color: var(--dylan-color-ember-orange);
+  color: var(--dylan-color-cinder-black);
+}
+
+.dylan-project-card {
+  border-radius: var(--dylan-radius-sharp);
+  background: var(--dylan-color-bone-white);
+  border: var(--dylan-border-strong);
+  padding: var(--dylan-space-card);
+  box-shadow: none;
+}
+
+.dylan-media {
+  display: block;
+  width: 100%;
+  border-radius: var(--dylan-radius-sharp);
+  object-fit: cover;
+}
+
+.dylan-dark-panel {
+  background: var(--dylan-color-deep-field);
+  color: var(--dylan-color-bone-white);
+}
+
+@media (max-width: 760px) {
+  :root {
+    --dylan-space-section: 84px;
+    --dylan-text-title-size: 34px;
+  }
+}
+

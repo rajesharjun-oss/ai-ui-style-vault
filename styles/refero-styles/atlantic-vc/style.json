@@ -1,0 +1,148 @@
+{
+  "id": "6f365ecd-a040-4533-88c1-3f60fe062632",
+  "name": "Atlantic.vc",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/6f365ecd-a040-4533-88c1-3f60fe062632",
+  "referenceUrl": "https://atlantic.vc",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Midnight command center with deep black surfaces, blue-white readouts, orange ignition edges, Monument display type, and spaced mono copy.",
+  "bestFor": [
+    "venture capital sites",
+    "frontier technology portfolios",
+    "data rooms",
+    "command-center dashboards",
+    "speculative technology pages",
+    "dark editorial product sites"
+  ],
+  "tags": [
+    "dark",
+    "venture",
+    "command-center",
+    "electric-blue",
+    "ignition-orange",
+    "monument",
+    "mono",
+    "outlined-cta",
+    "full-bleed",
+    "technical",
+    "high-contrast"
+  ],
+  "colors": {
+    "deepMidnight": { "value": "#000000", "token": "--color-deep-midnight", "role": "Page background and immersive section surface." },
+    "charcoalCanvas": { "value": "#0d0d0f", "token": "--color-charcoal-canvas", "role": "Recessed card and section background." },
+    "graphiteBase": { "value": "#232529", "token": "--color-graphite-base", "role": "Selected body sections and intermediate panels." },
+    "coolStone": { "value": "#2b2f33", "token": "--color-cool-stone", "role": "Elevated cards and distinct content blocks." },
+    "ghostInk": { "value": "#d8eaff", "token": "--color-ghost-ink", "role": "Primary text, link text, navigation, and outlined button borders." },
+    "mutedAsh": { "value": "#6c757f", "token": "--color-muted-ash", "role": "Secondary text, helper copy, and neutral link borders." },
+    "subtleGrey": { "value": "#565e66", "token": "--color-subtle-grey", "role": "Decorative borders and lower-emphasis body text." },
+    "paleSlate": { "value": "#565657", "token": "--color-pale-slate", "role": "Dark separators and elevated-surface borders." },
+    "electricBlue": { "value": "#1f58f2", "token": "--color-electric-blue", "role": "Highlight terms, interactive states, small decorative bands, and blue readouts." },
+    "ignitionOrange": { "value": "#ff4105", "token": "--color-ignition-orange", "role": "Action text, tag outlines, dividers, focused edges, and icon accents." }
+  },
+  "typography": {
+    "families": {
+      "display": "Monument",
+      "mono": "Mono"
+    },
+    "fallbacks": {
+      "display": "Montserrat, ui-sans-serif, system-ui, sans-serif",
+      "mono": "Space Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    },
+    "weights": {
+      "regular": 400
+    },
+    "rules": [
+      "Use Monument-style type for headlines, navigation, and prominent text.",
+      "Use Mono-style type for body, labels, and code-like details.",
+      "Keep Monument at 400 weight.",
+      "Use negative tracking on large Monument headings.",
+      "Use generous positive tracking on Mono body and caption text."
+    ],
+    "scale": {
+      "caption": { "size": "10px", "lineHeight": 0.8, "letterSpacing": "0.16px", "token": "--text-caption" },
+      "body": { "size": "14px", "lineHeight": 1.5, "letterSpacing": "0.06px", "token": "--text-body" },
+      "heading": { "size": "24px", "lineHeight": 1.24, "letterSpacing": "-0.01px", "token": "--text-heading" },
+      "headingLg": { "size": "64px", "lineHeight": 1.46, "letterSpacing": "-0.03em", "token": "--text-heading-lg" },
+      "display": { "size": "96px", "lineHeight": 1.5, "letterSpacing": "-0.03em", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "none",
+    "sectionGap": "50px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "80": "80px",
+      "100": "100px",
+      "148": "148px",
+      "200": "200px",
+      "240": "240px"
+    }
+  },
+  "radii": {
+    "buttons": "0px",
+    "navigation": "0px",
+    "links": "8px",
+    "cards": "16px",
+    "largeCards": "24px"
+  },
+  "shadows": {
+    "none": "none"
+  },
+  "components": [
+    { "name": "Ghost Navigation Link", "recipe": "Transparent background, no border, no radius, Monument 400, Ghost Ink text." },
+    { "name": "Outlined Action Button", "recipe": "Transparent fill, 1px Ghost Ink border, Ghost Ink text, 0px radius, Monument 16px." },
+    { "name": "Text Accent Button", "recipe": "Transparent background, no border, 0px radius, Monument text in Ignition Orange." },
+    { "name": "Standard Card", "recipe": "Cool Stone or Charcoal Canvas surface, 16px radius, no heavy border, no shadow, restrained padding." },
+    { "name": "Hero Large Card", "recipe": "Charcoal Canvas surface, 24px radius, large internal padding around 150px vertical and 110px horizontal." },
+    { "name": "Company Grid", "recipe": "Full-bleed or horizontal logo grid on dark surfaces with Ghost Ink labels and subtle blue/noise treatment." },
+    { "name": "Sticky Top Bar", "recipe": "Minimal sticky dark nav with sparse links and orange or outlined action, no filled CTA." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use dark backgrounds only.",
+      "Prioritize Ghost Ink for primary text and interactive outlines.",
+      "Use Electric Blue for key terms, readouts, and small interactive states.",
+      "Use Ignition Orange for action edges, tags, dividers, and focused UI.",
+      "Use Monument for display and navigation.",
+      "Use Mono for body, labels, and technical copy.",
+      "Keep CTAs outlined or text-accented.",
+      "Use 16px cards and 24px large cards."
+    ],
+    "dont": [
+      "Do not use light page backgrounds.",
+      "Do not add bold colors beyond Electric Blue and Ignition Orange.",
+      "Do not use heavy shadows or excessive elevation.",
+      "Do not change the specified tracking character of Monument and Mono.",
+      "Do not use large filled buttons.",
+      "Do not round buttons.",
+      "Do not force a strict page-level max width."
+    ]
+  },
+  "imagery": {
+    "style": "Product and tech visuals, partner logos, abstract digital noise, blue-toned textures, and structured headshot grids.",
+    "rules": [
+      "Use dark abstract technology visuals.",
+      "Use company/logo grids as product proof.",
+      "Keep icons minimal and outlined.",
+      "Use Electric Blue and Ignition Orange only as small icon or edge accents.",
+      "Avoid bright lifestyle imagery.",
+      "Avoid generic colorful gradients."
+    ]
+  },
+  "layout": {
+    "structure": "Full-bleed dark sections with generous inner padding and implied columns rather than one strict page max-width.",
+    "navigation": "Sticky minimal top bar with sparse links and outlined or orange text action.",
+    "sectionRhythm": "Fluid 50px to 100px vertical spacing with centered stacks and horizontal grids."
+  }
+}

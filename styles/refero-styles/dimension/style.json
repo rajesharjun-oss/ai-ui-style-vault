@@ -1,0 +1,150 @@
+{
+  "id": "fbcf9cbb-7c6b-449d-862a-bce521a8ab1d",
+  "name": "Dimension",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/fbcf9cbb-7c6b-449d-862a-bce521a8ab1d",
+  "referenceUrl": "https://www.dimension.dev",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Dusk-lit dark AI workspace with matte-black canvas, frosted glass panels, 9999px pill controls, medium-weight DM Sans hero type, warm gray copy, and a single violet glow used only in gradients.",
+  "bestFor": [
+    "AI workspaces",
+    "developer tools",
+    "productivity apps",
+    "agent platforms",
+    "collaboration tools",
+    "integration hubs",
+    "dark product landing pages"
+  ],
+  "tags": [
+    "dark",
+    "ai-workspace",
+    "frosted-glass",
+    "pill-controls",
+    "matte-black",
+    "dm-sans",
+    "geist",
+    "violet-glow",
+    "warm-to-cool-gradient",
+    "hairline-borders",
+    "no-shadows"
+  ],
+  "colors": {
+    "inkBlack": { "value": "#000000", "token": "--color-ink-black", "role": "Icon strokes, SVG fills, and deep contrast details on light surfaces." },
+    "voidCanvas": { "value": "#0a0a0a", "token": "--color-void-canvas", "role": "Primary page background and dark UI shell." },
+    "graphite": { "value": "#161616", "token": "--color-graphite", "role": "Elevated dark surface for nav, panels, modals, and cards." },
+    "slate": { "value": "#686868", "token": "--color-slate", "role": "Muted text, metadata, timestamps, and quiet links." },
+    "smoke": { "value": "#b2b2b2", "token": "--color-smoke", "role": "Disabled text and idle integration labels." },
+    "ash": { "value": "#c2c2c2", "token": "--color-ash", "role": "Secondary body text, helper copy, and de-emphasized labels." },
+    "frostedGlass": { "value": "#d4d4d4", "token": "--color-frosted-glass", "role": "Translucent panel fill at 10 percent opacity over dark surfaces." },
+    "hairline": { "value": "#e5e5e5", "token": "--color-hairline", "role": "1px borders on dark-surface controls and glass panels." },
+    "bone": { "value": "#ededed", "token": "--color-bone", "role": "Primary readable text on dark surfaces, softer than pure white." },
+    "snowWhite": { "value": "#ffffff", "token": "--color-snow-white", "role": "Primary CTA fill, strong headline text, and inverted card surfaces." },
+    "duskViolet": { "value": "#6b62f2", "token": "--color-dusk-violet", "role": "The only chromatic accent; use at partial opacity in glow or gradient washes only." }
+  },
+  "typography": {
+    "families": {
+      "primary": "DM Sans",
+      "secondary": "Geist",
+      "ui": "system-ui"
+    },
+    "fallbacks": {
+      "primary": "Inter, system-ui, sans-serif",
+      "secondary": "Inter, system-ui, sans-serif",
+      "ui": "system-ui, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "rules": [
+      "Use DM Sans for display, body, navigation, buttons, and most UI.",
+      "Set hero display type at weight 500, not bold.",
+      "Use Geist for feature headings and product-aware editorial sections.",
+      "Use tighter tracking at 72px and 40px display sizes.",
+      "Do not use 700 or heavier for hero text."
+    ],
+    "scale": {
+      "caption": { "size": "13px", "lineHeight": 1.5, "letterSpacing": "0.33px", "token": "--text-caption" },
+      "body": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-body" },
+      "subheading": { "size": "18px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-subheading" },
+      "headingSm": { "size": "24px", "lineHeight": 1.33, "letterSpacing": "0", "token": "--text-heading-sm" },
+      "heading": { "size": "36px", "lineHeight": 1.11, "letterSpacing": "0", "token": "--text-heading" },
+      "headingLg": { "size": "48px", "lineHeight": 1, "letterSpacing": "0", "token": "--text-heading-lg" },
+      "display": { "size": "72px", "lineHeight": 1, "letterSpacing": "-2.52px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "64px to 80px",
+    "cardPadding": "28px",
+    "elementGap": "8px to 16px",
+    "scale": {
+      "4": "4px",
+      "6": "6px",
+      "8": "8px",
+      "10": "10px",
+      "12": "12px",
+      "14": "14px",
+      "16": "16px",
+      "20": "20px",
+      "22": "22px",
+      "24": "24px",
+      "28": "28px",
+      "32": "32px",
+      "40": "40px",
+      "44": "44px",
+      "48": "48px",
+      "56": "56px"
+    }
+  },
+  "radii": {
+    "icons": "4px",
+    "ui": "10px",
+    "cards": "24px",
+    "largeCards": "40px",
+    "panels": "42px",
+    "buttons": "9999px"
+  },
+  "shadows": {
+    "subtle": "rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset"
+  },
+  "components": [
+    { "name": "White Pill CTA", "recipe": "Snow White fill, Graphite text, 9999px radius, 8px vertical and 12px horizontal padding, DM Sans 14px to 16px." },
+    { "name": "Ghost Nav Button", "recipe": "Transparent fill, reduced-opacity white text, 1px Hairline border, 9999px radius, 6px vertical and 14px horizontal padding." },
+    { "name": "Floating Frosted Nav", "recipe": "Graphite or translucent Graphite, 19px asymmetric radius, 4px backdrop blur, 1px Hairline border, compact pill links." },
+    { "name": "Hairline Ghost Button", "recipe": "Transparent fill, Bone or Smoke text, 1px Hairline border, 10px radius, tight 8px padding." },
+    { "name": "Frosted Glass Feature Card", "recipe": "Frosted Glass at 10 percent opacity over Void Canvas, 24px radius, translucent Hairline border, no shadow, optional 4px backdrop blur." },
+    { "name": "Gradient Hero Panel", "recipe": "Warm amber/coral to cobalt atmosphere, 72px DM Sans display text, compact bullet list, white pill CTA, product mockup." },
+    { "name": "Numbered Accordion Row", "recipe": "Bone title left, Ash two-digit number right, no background, no card shell, 20px row rhythm." },
+    { "name": "Bulleted Feature Row", "recipe": "Small monochrome icon, 16px DM Sans Bone text, 12px gap, no background." },
+    { "name": "Device Mockup Frame", "recipe": "Large product frame with 40px top corners and 0px bottom corners; screenshot bleeds to edges." },
+    { "name": "Status Banner Pill", "recipe": "Dark or translucent top announcement pill, 9999px radius, icon, text, arrow, compact spacing." },
+    { "name": "Section Header", "recipe": "Geist 32px/600 or 36px/500 in Bone, followed by 18px supporting text in Ash." },
+    { "name": "Icon Glyph", "recipe": "Monochrome geometric icon, 16px to 20px, 1.5px stroke, optional 4px squircle container." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use 9999px radius for primary buttons, nav links, and pill tags.",
+      "Set display headlines in DM Sans 72px, weight 500, with -2.52px tracking.",
+      "Use Bone for readable text instead of pure white body copy.",
+      "Use 1px Hairline borders on dark-surface controls.",
+      "Apply warm-to-cool gradients only to hero or spotlight sections.",
+      "Keep element gaps between 8px and 16px.",
+      "Use Dusk Violet only in gradient washes or glows.",
+      "Use translucency and backdrop blur for depth."
+    ],
+    "dont": [
+      "Do not use box-shadow for elevation.",
+      "Do not introduce additional brand colors.",
+      "Do not use Dusk Violet as a solid fill, text color, button, or card background.",
+      "Do not use 700 or heavier hero typography.",
+      "Do not place large white cards directly on Void Canvas unless they are product mockups.",
+      "Do not make every card frosted; reserve glass for feature panels and navigation.",
+      "Do not add photographic hero imagery."
+    ]
+  }
+}

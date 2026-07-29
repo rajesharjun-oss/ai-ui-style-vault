@@ -1,0 +1,161 @@
+:root {
+  /* Colors */
+  --color-forest-ink: #07503f;
+  --color-vivid-lime: #e8fe85;
+  --color-bone: #f1efdf;
+  --color-pure-white: #ffffff;
+  --color-ash-gray: #efefef;
+  --color-charcoal: #212529;
+  --color-graphite: #353535;
+  --color-pewter: #6d6d6d;
+  --color-sky-card: #b2cee7;
+  --color-peach-card: #fceace;
+  --color-sage-card: #e6ecd5;
+  --color-moss: #c3cda7;
+
+  /* Typography */
+  --font-inter: Inter, "DM Sans", Helvetica, Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-reckless: Reckless, "Cormorant Garamond", "GT Sectra", "Source Serif Pro", ui-serif, serif;
+  --font-reckless-light: RecklessLight, "Cormorant Garamond Light", "Source Serif ExtraLight", ui-serif, serif;
+
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --tracking-caption: 0.025px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.5;
+  --tracking-body-sm: 0.025px;
+  --text-body: 16px;
+  --leading-body: 1.52;
+  --tracking-body: -0.022px;
+  --text-subheading: 24px;
+  --leading-subheading: 1.24;
+  --tracking-subheading: -0.012px;
+  --text-heading-sm: 37px;
+  --leading-heading-sm: 1.22;
+  --tracking-heading-sm: -0.012px;
+  --text-heading: 45px;
+  --leading-heading: 1.06;
+  --tracking-heading: -0.012px;
+  --text-heading-lg: 57px;
+  --leading-heading-lg: 1.06;
+  --tracking-heading-lg: -0.022px;
+  --text-display: 80px;
+  --leading-display: 1;
+  --tracking-display: -2.96px;
+
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-9: 9px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-15: 15px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-27: 27px;
+  --spacing-30: 30px;
+  --spacing-38: 38px;
+  --spacing-40: 40px;
+  --spacing-50: 50px;
+  --spacing-64: 64px;
+  --spacing-193: 193px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 50px;
+  --card-padding: 30px;
+  --element-gap: 8px;
+
+  /* Radius */
+  --radius-cards: 20px;
+  --radius-links: 26px;
+  --radius-hero-cards: 30px;
+  --radius-inputs: 33px;
+  --radius-buttons: 100px;
+  --radius-nav-pills: 110px;
+}
+
+.arva-surface {
+  background: var(--color-bone);
+  color: var(--color-charcoal);
+  font-family: var(--font-inter);
+}
+
+.arva-forest-band {
+  background: var(--color-forest-ink);
+  color: var(--color-pure-white);
+}
+
+.arva-marquee {
+  background: var(--color-vivid-lime);
+  color: var(--color-charcoal);
+  font: 500 13px / 1.2 var(--font-inter);
+}
+
+.arva-heading {
+  color: var(--color-charcoal);
+  font: 300 var(--text-heading-lg) / var(--leading-heading-lg) var(--font-reckless);
+  letter-spacing: var(--tracking-heading-lg);
+}
+
+.arva-hero-heading {
+  color: var(--color-pure-white);
+  font: 300 var(--text-display) / var(--leading-display) var(--font-reckless);
+  letter-spacing: var(--tracking-display);
+}
+
+.arva-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-buttons);
+  background: var(--color-forest-ink);
+  color: var(--color-pure-white);
+  padding: var(--spacing-10) var(--spacing-24);
+  font: 600 var(--text-body-sm) / 1 var(--font-inter);
+  letter-spacing: 0.025em;
+}
+
+.arva-outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-buttons);
+  background: transparent;
+  color: currentColor;
+  padding: var(--spacing-10) var(--spacing-24);
+  font: 500 var(--text-body-sm) / 1 var(--font-inter);
+  letter-spacing: 0.025em;
+}
+
+.arva-card {
+  border-radius: var(--radius-cards);
+  background: var(--color-pure-white);
+  padding: var(--card-padding);
+  box-shadow: none;
+}
+
+.arva-input {
+  border: 1px solid var(--color-moss);
+  border-radius: var(--radius-inputs);
+  background: var(--color-pure-white);
+  color: var(--color-charcoal);
+  padding: var(--spacing-12) var(--spacing-20);
+  font: 400 var(--text-body) / var(--leading-body) var(--font-inter);
+}
+
+.arva-input:focus {
+  border-color: var(--color-forest-ink);
+  outline: 2px solid var(--color-moss);
+  outline-offset: 2px;
+}

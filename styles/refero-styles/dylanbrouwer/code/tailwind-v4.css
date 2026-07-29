@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dylan-cinder: #161616;
+  --color-dylan-bone: #f7f7f7;
+  --color-dylan-concrete: #efefee;
+  --color-dylan-ember: #f7601b;
+  --color-dylan-utility: #777777;
+  --color-dylan-ash: #d5d5d5;
+  --color-dylan-deep: #000000;
+
+  --font-dylan-display: "Tilt Warp", "ABC Gravity", "Die Grotesk B", Impact, sans-serif;
+  --font-dylan-body: "Sohne", Inter, Arial, Helvetica, sans-serif;
+
+  --spacing-dylan-base: 6px;
+  --spacing-dylan-element: 18px;
+  --spacing-dylan-card: 24px;
+  --spacing-dylan-section: 144px;
+
+  --radius-dylan-sharp: 0px;
+  --radius-dylan-pill: 9999px;
+
+  --text-dylan-meta: 12px;
+  --text-dylan-meta--line-height: 1.2;
+  --text-dylan-nav: 13px;
+  --text-dylan-nav--line-height: 1.2;
+  --text-dylan-body: 18px;
+  --text-dylan-body--line-height: 1.35;
+  --text-dylan-title: 44px;
+  --text-dylan-title--line-height: 1;
+  --text-dylan-headline: 76px;
+  --text-dylan-headline--line-height: 0.92;
+  --text-dylan-display: 144px;
+  --text-dylan-display--line-height: 0.88;
+  --text-dylan-mega: 288px;
+  --text-dylan-mega--line-height: 0.85;
+}
+
+@utility dylan-rail {
+  width: min(100% - 36px, 1200px);
+  margin-inline: auto;
+}
+
+@utility dylan-mega {
+  font-family: var(--font-dylan-display);
+  font-size: clamp(84px, 20vw, 288px);
+  line-height: 0.85;
+  letter-spacing: clamp(-14.4px, -1vw, -4px);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@utility dylan-headline {
+  font-family: var(--font-dylan-display);
+  font-size: clamp(48px, 7vw, 76px);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+}
+
+@utility dylan-meta {
+  color: var(--color-dylan-utility);
+  font-size: var(--text-dylan-meta);
+  line-height: 1.2;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+
+@utility dylan-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 8px 14px;
+  border: 1px solid var(--color-dylan-cinder);
+  border-radius: var(--radius-dylan-pill);
+  color: var(--color-dylan-cinder);
+  font-family: var(--font-dylan-body);
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+}
+
+@utility dylan-project-card {
+  border: 1px solid var(--color-dylan-cinder);
+  border-radius: var(--radius-dylan-sharp);
+  background: var(--color-dylan-bone);
+  padding: var(--spacing-dylan-card);
+  box-shadow: none;
+}
+

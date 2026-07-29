@@ -1,0 +1,147 @@
+:root {
+  /* Colors */
+  --color-midnight-ink: #00052e;
+  --color-signal-blue: #0428cb;
+  --color-arc-cyan: #34fcff;
+  --color-halo-violet: #afb4db;
+  --color-carbon: #222222;
+  --color-slate-body: #4f5166;
+  --color-mist: #8185a0;
+  --color-silver-border: #dbdcdf;
+  --color-white: #ffffff;
+  --color-radial-blue: #06105a;
+
+  /* Typography */
+  --font-f37-bolton: "F37 Bolton", Sohne, Inter, "Helvetica Neue", Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-open-sauce: "Open Sauce Sans", Inter, Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+  --font-ibm-plex-mono: "IBM Plex Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --text-data-micro: 11px;
+  --leading-data-micro: 1.2;
+  --tracking-data-micro: 0.091em;
+  --text-caption: 12px;
+  --leading-caption: 1.35;
+  --tracking-caption: 0.077em;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.55;
+  --text-body-lg: 18px;
+  --leading-body-lg: 1.45;
+  --text-card-title: 24px;
+  --leading-card-title: 1.15;
+  --tracking-card-title: -0.012em;
+  --text-section-heading: 54px;
+  --leading-section-heading: 1.02;
+  --tracking-section-heading: -0.019em;
+  --text-hero-heading: 86px;
+  --leading-hero-heading: 0.95;
+  --tracking-hero-heading: -0.022em;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-unit: 8px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-120: 120px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 80px;
+  --card-padding: 24px;
+  --element-gap: 16px;
+
+  /* Radius */
+  --radius-tags: 4px;
+  --radius-images: 4px;
+  --radius-cards: 8px;
+  --radius-buttons: 8px;
+  --radius-inputs: 8px;
+}
+
+.ameba-surface {
+  background: var(--color-midnight-ink);
+  color: var(--color-white);
+  font-family: var(--font-open-sauce);
+}
+
+.ameba-hero {
+  background:
+    radial-gradient(circle at 50% 35%, var(--color-radial-blue) 0%, var(--color-midnight-ink) 58%);
+  color: var(--color-white);
+}
+
+.ameba-heading {
+  color: var(--color-white);
+  font: 300 var(--text-section-heading) / var(--leading-section-heading) var(--font-f37-bolton);
+  letter-spacing: var(--tracking-section-heading);
+}
+
+.ameba-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-buttons);
+  background: var(--color-signal-blue);
+  color: var(--color-white);
+  padding: 12px 18px;
+  font: 600 var(--text-body-sm) / 1 var(--font-open-sauce);
+}
+
+.ameba-card-dark {
+  border: 1px solid rgb(255 255 255 / 0.08);
+  border-radius: var(--radius-cards);
+  background: var(--color-midnight-ink);
+  color: var(--color-white);
+  padding: var(--card-padding);
+  box-shadow: none;
+}
+
+.ameba-product-surface {
+  border: 1px solid var(--color-silver-border);
+  border-radius: var(--radius-cards);
+  background: var(--color-white);
+  color: var(--color-carbon);
+  box-shadow: none;
+}
+
+.ameba-data-badge {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color-silver-border);
+  border-radius: var(--radius-tags);
+  color: var(--color-slate-body);
+  padding: 4px 8px;
+  font: 600 var(--text-data-micro) / var(--leading-data-micro) var(--font-ibm-plex-mono);
+  letter-spacing: var(--tracking-data-micro);
+  text-transform: uppercase;
+}
+
+.ameba-input {
+  border: 1px solid var(--color-silver-border);
+  border-radius: var(--radius-inputs);
+  background: var(--color-white);
+  color: var(--color-carbon);
+  padding: 12px 14px;
+  font: 400 var(--text-body-sm) / var(--leading-body-sm) var(--font-open-sauce);
+}
+
+.ameba-input:focus {
+  border-color: var(--color-signal-blue);
+  outline: 0;
+}

@@ -1,0 +1,142 @@
+{
+  "id": "fd36c7c7-4f8c-4d2a-9346-72e3d8403f01",
+  "name": "Athletics",
+  "slug": "athletics",
+  "theme": "dark",
+  "sourceUrl": "https://styles.refero.design/style/fd36c7c7-4f8c-4d2a-9346-72e3d8403f01",
+  "referenceSite": "https://athleticsnyc.com",
+  "capturedAt": "2026-07-28",
+  "mood": "monograph on black velvet",
+  "summary": "Dark creative-studio editorial system with Obsidian canvas, Charcoal surfaces, Paper White text, Ash hairlines, huge Feature Deck 300 serif headlines, Sohne functional text, pill tags/buttons, and no chromatic UI color.",
+  "useWhen": [
+    "Creative studio portfolios",
+    "Brand agency websites",
+    "Editorial case-study pages",
+    "Service pages that rely on typography and dark negative space"
+  ],
+  "avoidWhen": [
+    "Colorful SaaS products",
+    "Dense dashboards",
+    "Light ecommerce pages",
+    "Interfaces needing many status colors or utility components"
+  ],
+  "colors": {
+    "obsidian": {
+      "value": "#000000",
+      "role": "Base page canvas, deepest section backgrounds, footer, hero"
+    },
+    "charcoal": {
+      "value": "#1d1d1d",
+      "role": "Elevated section surfaces, card backgrounds, input fields"
+    },
+    "ash": {
+      "value": "#d6d5d0",
+      "role": "Hairline borders, dividers, input outlines, card edges"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Display text, body text, icon strokes, form controls on dark surfaces"
+    }
+  },
+  "typography": {
+    "displayFamily": "Feature Deck",
+    "displayFallbackFamilies": [
+      "GT Sectra Display Light",
+      "Canela",
+      "Domaine Display Thin",
+      "serif"
+    ],
+    "bodyFamily": "Sohne",
+    "bodyFallbackFamilies": [
+      "Inter",
+      "Neue Haas Grotesk",
+      "Untitled Sans",
+      "Arial",
+      "sans-serif"
+    ],
+    "weights": [
+      300,
+      400
+    ],
+    "scale": {
+      "bodySmall": {
+        "size": "16px",
+        "weight": 400,
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "functional": {
+        "size": "17px",
+        "weight": 300,
+        "lineHeight": "1.3",
+        "letterSpacing": "0"
+      },
+      "subheading": {
+        "size": "22px",
+        "weight": 300,
+        "lineHeight": "1.3",
+        "letterSpacing": "0"
+      },
+      "heading": {
+        "size": "72px",
+        "weight": 300,
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.009em"
+      },
+      "headingLarge": {
+        "size": "82px",
+        "weight": 300,
+        "lineHeight": "1.05",
+        "letterSpacing": "-0.009em"
+      },
+      "display": {
+        "size": "116px",
+        "weight": 300,
+        "lineHeight": "1.05",
+        "letterSpacing": "-0.018em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "8px",
+    "maxWidth": "1440px",
+    "sectionGap": "128px to 144px",
+    "cardPadding": "24px",
+    "elementGap": "24px to 32px",
+    "scale": [
+      "16px",
+      "24px",
+      "32px",
+      "48px",
+      "64px",
+      "128px",
+      "144px"
+    ]
+  },
+  "shape": {
+    "cardRadius": "8px",
+    "imageRadius": "8px",
+    "tagRadius": "9999px",
+    "buttonRadius": "9999px"
+  },
+  "elevation": {
+    "shadows": "none",
+    "surfaceShift": "#000000 to #1d1d1d",
+    "hairline": "1px solid #d6d5d0"
+  },
+  "components": [
+    "Top navigation bar",
+    "Hero mark and display headline",
+    "Two-column section opener",
+    "Specialty tag",
+    "Service index list",
+    "Hairline divider",
+    "Pill button",
+    "Form input"
+  ],
+  "imagery": {
+    "direction": "Moody editorial photography, image-filled A mark, full-bleed dark case-study images, color only inside photographic assets.",
+    "avoid": "Decorative illustration, abstract graphics, icon-heavy layouts, colored UI surfaces, gradients behind text."
+  }
+}

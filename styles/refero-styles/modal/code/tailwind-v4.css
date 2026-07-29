@@ -1,0 +1,76 @@
+@theme {
+  --color-modal-lime-pulse: #7fee64;
+  --color-modal-phosphor-white: #ddffdc;
+  --color-modal-mint-frost: #def0dd;
+  --color-modal-sage-60: #8cab87;
+  --color-modal-sage-40: #677d64;
+  --color-modal-moss-70: #9cbf93;
+  --color-modal-moss-80: #aed2a4;
+  --color-modal-fern-link: #859984;
+  --color-modal-deep-fern: #697368;
+
+  --color-modal-void-black: #000000;
+  --color-modal-ground-iron: #181818;
+  --color-modal-charcoal-rust: #231c1c;
+  --color-modal-carbon-veil: #212525;
+  --color-modal-phosphor-blue-black: #1f2a33;
+  --color-modal-pine-15: #3e4a3c;
+  --color-modal-circuit-border: #485346;
+
+  --font-modal-display: Goga, "Inter Tight", "Space Grotesk", Inter, sans-serif;
+  --font-modal-ui: "Inter Variable", Inter, system-ui, sans-serif;
+  --font-modal-mono: "Fira Mono", "JetBrains Mono", ui-monospace, monospace;
+
+  --text-modal-caption: 12px;
+  --text-modal-body-sm: 14px;
+  --text-modal-body: 16px;
+  --text-modal-subheading: 20px;
+  --text-modal-heading-sm: 24px;
+  --text-modal-heading: 30px;
+  --text-modal-heading-lg: 42px;
+  --text-modal-display: 64px;
+
+  --leading-modal-caption: 1.33;
+  --leading-modal-body-sm: 1.43;
+  --leading-modal-body: 1.5;
+  --leading-modal-subheading: 1.5;
+  --leading-modal-heading-sm: 1.3;
+  --leading-modal-heading: 1.2;
+  --leading-modal-heading-lg: 1.05;
+  --leading-modal-display: 1;
+
+  --tracking-modal-caption: 0.6px;
+  --tracking-modal-body-sm: -0.364px;
+  --tracking-modal-body: -0.352px;
+  --tracking-modal-subheading: -0.36px;
+  --tracking-modal-heading-sm: -0.312px;
+  --tracking-modal-heading: -0.36px;
+  --tracking-modal-heading-lg: -0.336px;
+  --tracking-modal-display: -0.448px;
+
+  --spacing-modal-4: 4px;
+  --spacing-modal-8: 8px;
+  --spacing-modal-12: 12px;
+  --spacing-modal-16: 16px;
+  --spacing-modal-20: 20px;
+  --spacing-modal-24: 24px;
+  --spacing-modal-28: 28px;
+  --spacing-modal-32: 32px;
+  --spacing-modal-36: 36px;
+  --spacing-modal-40: 40px;
+  --spacing-modal-48: 48px;
+  --spacing-modal-56: 56px;
+  --spacing-modal-64: 64px;
+  --spacing-modal-96: 96px;
+  --spacing-modal-128: 128px;
+  --spacing-modal-160: 160px;
+
+  --radius-modal-card: 8px;
+  --radius-modal-input: 8px;
+  --radius-modal-button: 12px;
+  --radius-modal-pill: 9999px;
+  --radius-modal-icon: 0px;
+
+  --shadow-modal-nav: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;
+}
+

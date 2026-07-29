@@ -1,0 +1,126 @@
+:root {
+  --color-sunrise-coral: #fc5f2b;
+  --gradient-coral-glow: linear-gradient(88deg, #fc5f2b, #ff8b64 90%, #ffffff);
+  --color-pure-black: #000000;
+  --color-carbon-black: #18181b;
+  --color-zinc-gray: #71717a;
+  --color-ash-gray: #a1a1aa;
+  --color-mist-gray: #e4e4e7;
+  --color-fog-gray: #f4f4f5;
+  --color-paper-white: #ffffff;
+
+  --font-sans: "NB International Pro", "Inter Tight", "General Sans", "Switzer", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "NB International Mono Pro", "JetBrains Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-caption: 11px;
+  --text-body: 15px;
+  --text-body-lg: 17px;
+  --text-subheading: 19px;
+  --text-heading-sm: 22px;
+  --text-heading: 30px;
+  --text-heading-lg: 45px;
+  --text-display: 66px;
+
+  --leading-display: 1;
+  --leading-heading-lg: 1.13;
+  --leading-heading: 1.2;
+  --leading-heading-sm: 1.25;
+  --leading-body-lg: 1.4;
+  --leading-body: 1.5;
+
+  --tracking-caption: -0.005em;
+  --tracking-body: -0.005em;
+  --tracking-body-lg: -0.009em;
+  --tracking-subheading: -0.009em;
+  --tracking-heading-sm: -0.012em;
+  --tracking-heading: -0.013em;
+  --tracking-heading-lg: -0.015em;
+  --tracking-display: -0.025em;
+
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-11: 11px;
+  --space-16: 16px;
+  --space-19: 19px;
+  --space-24: 24px;
+  --space-28: 28px;
+  --space-60: 60px;
+  --space-75: 75px;
+
+  --max-page: 1200px;
+  --radius-small-card: 5px;
+  --radius-icon: 7.5px;
+  --radius-card: 15px;
+  --radius-nav: 15px;
+  --radius-pill: 9999px;
+  --shadow-subtle: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px;
+}
+
+.superpower-surface {
+  background: var(--color-paper-white);
+  color: var(--color-carbon-black);
+  font-family: var(--font-sans);
+  letter-spacing: var(--tracking-body);
+}
+
+.superpower-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-19);
+  border-radius: var(--radius-nav);
+  background: var(--color-carbon-black);
+  color: var(--color-paper-white);
+  padding: 12px var(--space-19);
+}
+
+.superpower-display {
+  color: var(--color-paper-white);
+  font-family: var(--font-sans);
+  font-size: clamp(45px, 7vw, 66px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: var(--tracking-display);
+}
+
+.superpower-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-sunrise-coral);
+  color: var(--color-paper-white);
+  padding: 15px 28px;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: var(--tracking-body-lg);
+  line-height: 1;
+}
+
+.superpower-card {
+  border: 1px solid var(--color-mist-gray);
+  border-radius: var(--radius-card);
+  background: var(--color-paper-white);
+  color: var(--color-carbon-black);
+  padding: var(--space-19);
+  box-shadow: none;
+}
+
+.superpower-membership-card {
+  border-radius: var(--radius-card);
+  background: var(--gradient-coral-glow);
+  color: var(--color-paper-white);
+  padding: var(--space-24);
+}
+
+.superpower-trust-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+  color: var(--color-zinc-gray);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.4;
+}

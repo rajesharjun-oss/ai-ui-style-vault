@@ -1,0 +1,131 @@
+{
+  "name": "Flying Papers",
+  "slug": "flying-papers",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/7d254296-6817-487a-a58c-4d5eca89cbf3",
+    "style_id": "7d254296-6817-487a-a58c-4d5eca89cbf3",
+    "reference_site": "https://www.flyingpapers.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "Saturday morning cartoon confessional",
+  "summary": "A flat violet poster system with extreme display type, cartoon mascot illustration, 6px paint cards, 100px pill actions, and saturated confetti accent colors.",
+  "use_cases": [
+    "Brand microsites",
+    "Character-led landing pages",
+    "Youth culture campaigns",
+    "Editorial launches",
+    "Playful age gates",
+    "Candy-colored product stories"
+  ],
+  "colors": {
+    "dusk_violet": "#8584bd",
+    "hi_vis_yellow": "#f4ed36",
+    "buttery_yellow": "#f9cc73",
+    "lilac_shadow": "#61609a",
+    "bubblegum_pink": "#f8c1ba",
+    "matcha_cream": "#b5c995",
+    "magenta_punch": "#ac4f98",
+    "firecracker_red": "#c94245",
+    "bone_white": "#f9f5f2",
+    "ink_black": "#1a1a1a",
+    "pure_black": "#000000"
+  },
+  "typography": {
+    "display_font": "ObviouslyVariable",
+    "ui_font": "DegularVariable",
+    "mono_font": "bergen_monoregular",
+    "cta_font": "DegularDisplay-Bold",
+    "weights": [400, 600, 700, 800, 900],
+    "features": {
+      "font_feature_settings": "\"calt\" 0"
+    },
+    "scale": {
+      "caption": {
+        "size": "10px",
+        "line_height": "1",
+        "letter_spacing": "normal",
+        "weight": 400
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1",
+        "letter_spacing": "0.8px",
+        "weight": 700
+      },
+      "body_lg": {
+        "size": "18px",
+        "line_height": "0.9",
+        "letter_spacing": "0.36px",
+        "weight": 800
+      },
+      "subheading": {
+        "size": "30px",
+        "line_height": "0.9",
+        "letter_spacing": "0.6px",
+        "weight": 800
+      },
+      "heading_sm": {
+        "size": "100px",
+        "line_height": "0.9",
+        "letter_spacing": "2px",
+        "weight": 900
+      },
+      "heading": {
+        "size": "149px",
+        "line_height": "0.85",
+        "letter_spacing": "2.98px",
+        "weight": 900
+      },
+      "heading_lg": {
+        "size": "184px",
+        "line_height": "0.85",
+        "letter_spacing": "3.68px",
+        "weight": 900
+      },
+      "display": {
+        "size": "341px",
+        "line_height": "0.8",
+        "letter_spacing": "6.82px",
+        "weight": 900
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "density": "comfortable",
+    "section_gap": "40px",
+    "card_padding": "17px",
+    "element_gap": "17px"
+  },
+  "radius": {
+    "cards": "6px",
+    "tags": "100px",
+    "buttons": "100px"
+  },
+  "components": [
+    "Gate Pill Button",
+    "Outlined Display Button",
+    "Underline Text Link",
+    "Hero Display Headline",
+    "Brand Wordmark",
+    "Mascot Illustration",
+    "Confetti Card",
+    "Dark Text Card",
+    "Color Swatch Card",
+    "Top Nav Bar",
+    "Mono Label Tag",
+    "Footer Block"
+  ],
+  "rules": [
+    "Keep the full page on Dusk Violet.",
+    "Use one huge display headline per screen.",
+    "Use one mascot illustration per hero composition.",
+    "Use Hi-Vis Yellow as an outlined action, not a filled CTA.",
+    "Keep cards flat, shadowless, and 6px radius.",
+    "Keep buttons and tags at 100px radius.",
+    "Use accent colors one card at a time.",
+    "Disable contextual alternates on display type."
+  ]
+}

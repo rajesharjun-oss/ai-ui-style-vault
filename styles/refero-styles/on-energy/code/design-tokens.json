@@ -1,0 +1,110 @@
+{
+  "name": "ON.energy",
+  "slug": "on-energy",
+  "theme": "mixed",
+  "source": "https://styles.refero.design/style/31e00a99-6946-4f07-829a-b0904a39a20d",
+  "referenceSite": "https://on.energy",
+  "color": {
+    "cautionYellow": {
+      "value": "#fff313",
+      "type": "color",
+      "role": "CTA fill, full yellow sections, accent borders, small emphasis"
+    },
+    "midnightSteel": {
+      "value": "#000000",
+      "type": "color",
+      "role": "Dark hero, nav background, text on yellow, black canvas"
+    },
+    "industrialWhite": {
+      "value": "#eeeeee",
+      "type": "color",
+      "role": "Light section backgrounds, text on dark, news surfaces"
+    },
+    "carbon": {
+      "value": "#333333",
+      "type": "color",
+      "role": "Dark nav pills, cards, and elevated dark surfaces without shadow"
+    },
+    "gunmetal": {
+      "value": "#4b4b4b",
+      "type": "color",
+      "role": "Hairline borders, dividers, dark structural lines"
+    },
+    "aluminum": {
+      "value": "#afafaf",
+      "type": "color",
+      "role": "Muted body text on dark backgrounds and footer text"
+    }
+  },
+  "font": {
+    "universNextPro": {
+      "value": "Univers Next Pro, Inter, Neue Haas Grotesk, Helvetica Neue, Arial, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Only font for display, headings, body, nav, UI, and buttons"
+    }
+  },
+  "fontWeight": {
+    "light": 300,
+    "regular": 400
+  },
+  "size": {
+    "micro": {
+      "value": "10px",
+      "lineHeight": "1.2"
+    },
+    "caption": {
+      "value": "12px",
+      "lineHeight": "1.2"
+    },
+    "bodySm": {
+      "value": "14px",
+      "lineHeight": "1.2"
+    },
+    "body": {
+      "value": "16px",
+      "lineHeight": "1.2",
+      "letterSpacing": "-0.02em"
+    },
+    "heading": {
+      "value": "24px",
+      "lineHeight": "1.17",
+      "letterSpacing": "-0.48px"
+    },
+    "headingLg": {
+      "value": "36px",
+      "lineHeight": "1.13",
+      "letterSpacing": "-1.44px"
+    },
+    "display": {
+      "value": "64px",
+      "lineHeight": "1",
+      "letterSpacing": "-2.56px"
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "4": "4px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "36": "36px",
+    "60": "60px",
+    "120": "120px",
+    "200": "200px",
+    "sectionGap": "120px",
+    "cardPadding": "24px",
+    "elementGap": "16px"
+  },
+  "radius": {
+    "nav": "6px",
+    "cards": "9px",
+    "images": "16px",
+    "buttons": "6px",
+    "sections": "24px"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "none",
+    "glow": "none"
+  }
+}

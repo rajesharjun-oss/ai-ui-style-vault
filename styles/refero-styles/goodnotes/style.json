@@ -1,0 +1,356 @@
+{
+ "id": "c7fe6b78-9ce3-4d69-a3f0-b8310c779e7a",
+ "name": "Goodnotes",
+ "slug": "goodnotes",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/c7fe6b78-9ce3-4d69-a3f0-b8310c779e7a",
+ "referenceSite": "https://www.goodnotes.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-11T13:17:05.983Z",
+ "articleModifiedAt": "2026-06-05T08:17:03.049Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/2ea3f31d-a80e-40e7-a1d1-c1a765abe8e0.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/77774c7e-2307-4261-8662-a71115e74907.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ba1e39b7-897f-4f68-bf54-08480c59d032.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/881329e1-15f0-4caf-8d14-2b3aac9e86af.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/338c12c9-e158-4217-9783-9022b9295fed.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/95fc171c-785c-4b5d-99b4-bf41ca059cdf.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Productivity",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Productivity",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Paper-white command canvas - a blank notebook page where every tool snap into place without decoration.",
+ "summary": "Explore Goodnotes\u0027s light Productivity design system: Pure Canvas #ffffff, Midnight Ink #000000 colors, Roobert, Font Awesome 6 Brands typography, and...",
+ "colors": [
+ {
+ "name": "Pure Canvas",
+ "value": "#ffffff",
+ "token": "--color-pure-canvas",
+ "role": "Page background, card backgrounds, button text on cyan CTA"
+ },
+ {
+ "name": "Midnight Ink",
+ "value": "#000000",
+ "token": "--color-midnight-ink",
+ "role": "Primary headlines, body text, borders on UI chrome"
+ },
+ {
+ "name": "Deep Charcoal",
+ "value": "#1e1e1e",
+ "token": "--color-deep-charcoal",
+ "role": "Ghost button text and borders, secondary headings, icon strokes"
+ },
+ {
+ "name": "Graphite",
+ "value": "#111213",
+ "token": "--color-graphite",
+ "role": "Dark nav backgrounds, dark section surfaces, link text in dark contexts"
+ },
+ {
+ "name": "Slate",
+ "value": "#565656",
+ "token": "--color-slate",
+ "role": "Body copy on cards, secondary descriptive text"
+ },
+ {
+ "name": "Fog",
+ "value": "#888889",
+ "token": "--color-fog",
+ "role": "Muted helper text, captions, de-emphasised labels"
+ },
+ {
+ "name": "Ash",
+ "value": "#666666",
+ "token": "--color-ash",
+ "role": "Tertiary text, subtle UI labels"
+ },
+ {
+ "name": "Steel",
+ "value": "#333333",
+ "token": "--color-steel",
+ "role": "Badge text, mid-weight secondary content"
+ },
+ {
+ "name": "Border Medium",
+ "value": "#e8e8e8",
+ "token": "--color-border-medium",
+ "role": "Tab underlines, nav separators, light hairline dividers"
+ },
+ {
+ "name": "Border Soft",
+ "value": "#bebebe",
+ "token": "--color-border-soft",
+ "role": "Card outlines, modal borders, container edges"
+ },
+ {
+ "name": "Aqua Spark",
+ "value": "#57d2ee",
+ "token": "--color-aqua-spark",
+ "role": "Blue action color for filled buttons, selected navigation states, and focused conversion moments."
+ },
+ {
+ "name": "Teal Deep",
+ "value": "#45bfdb",
+ "token": "--color-teal-deep",
+ "role": "Brand surface wash, teal background sections"
+ },
+ {
+ "name": "Cyan Mist",
+ "value": "#bcedf8",
+ "token": "--color-cyan-mist",
+ "role": "Outlined button borders, soft teal ring accents"
+ },
+ {
+ "name": "Cyan Text",
+ "value": "#6dd9f2",
+ "token": "--color-cyan-text",
+ "role": "Blue outline accent for tags, dividers, and focused UI edges."
+ },
+ {
+ "name": "Sky Link",
+ "value": "#0299e0",
+ "token": "--color-sky-link",
+ "role": "Hyperlinks and underline accents in body copy"
+ },
+ {
+ "name": "Highlighter Yellow",
+ "value": "#f2e6b3",
+ "token": "--color-highlighter-yellow",
+ "role": "Text highlight wash - mimics physical highlighter pen on note-taking UI screenshots"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Roobert",
+ "token": "--font-roobert",
+ "role": "Single-font system - every piece of UI copy, from 10px captions to 48px hero headlines, is Roobert. The rounded geometric forms mirror the tablet/handwriting brand; weight 700 at 48px with -0.05em tracking creates dense, close-set display text that reads like a confident pencil stroke rather than a digital shout."
+ },
+ {
+ "name": "Font Awesome 6 Brands",
+ "token": "--font-font-awesome-6-brands",
+ "role": "Social/brand icon glyph set used in badges and footer; monochromatic, no resizing"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.6",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.38",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.25",
+ "-0.35px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.2",
+ "-0.48px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.11",
+ "-1.68px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "48px",
+ "1",
+ "-2.4px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "10px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "links",
+ "4px"
+ ],
+ [
+ "inputs",
+ "10px"
+ ],
+ [
+ "buttons",
+ "10px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary CTA Button (Aqua Fill)",
+ "role": "Main conversion action - \"Start Free\""
+ },
+ {
+ "name": "Ghost Navigation Button",
+ "role": "Dropdown triggers in top navigation (Product, Built For, Resources)"
+ },
+ {
+ "name": "Teal Tinted Feature Button",
+ "role": "Tab or section-switch controls within feature sections"
+ },
+ {
+ "name": "White Content Card",
+ "role": "Feature and benefit cards in grid sections"
+ },
+ {
+ "name": "Tab Navigation Strip",
+ "role": "In-page content switcher (Whiteboard / PDF Annotation / Documents / Notebooks)"
+ },
+ {
+ "name": "Product UI Screenshot Card",
+ "role": "Product showcase: embedded screenshot of the Goodnotes app interface"
+ },
+ {
+ "name": "Logo Marquee Strip",
+ "role": "Social-proof partner/customer logos in horizontal scrolling ticker"
+ },
+ {
+ "name": "Highlighter Text Accent",
+ "role": "Inline emphasis within body copy, mimicking physical highlighter pen"
+ },
+ {
+ "name": "\"Learn More\" Text Link",
+ "role": "Secondary navigation within feature sections"
+ },
+ {
+ "name": "Section Heading Block",
+ "role": "Top of each page section - centered or left-aligned headline + subtext"
+ }
+ ],
+ "dos": [
+ "Use #57d2ee exclusively for the primary filled CTA button - no other UI element should share this fill color, keeping it as the sole chromatic action signal.",
+ "Apply Roobert at weight 700 with letter-spacing -0.05em (-2.4px) for all 48px display headlines; tighten tracking proportionally down the scale to -0.016em at 20-22px.",
+ "Define card and container edges with 0.5-1px solid #bebebe or #e8e8e8 borders - never use box-shadow for surface elevation.",
+ "Use 10px border-radius universally across buttons, cards, inputs, and UI chrome; reserve 4px only for focus/link rings.",
+ "Keep body copy at #565656 or #666666 on white cards - reserve #000000 for headings and primary labels only.",
+ "Use #f2e6b3 as an inline background highlight on emphasized text spans - apply it flat (no radius) to mirror a physical highlighter stroke.",
+ "Separate section content with 80px vertical gaps on desktop; use 24px element gap within card grids and between grouped UI elements."
+ ],
+ "donts": [
+ "Never add box-shadow to cards, modals, or buttons - all surface separation must come from borders, not elevation.",
+ "Never use a second chromatic fill color for buttons; ghost (#1e1e1 border) and tinted-teal (rgba(87,210,238,0.1)) variants must stay visually subordinate to the cyan CTA.",
+ "Never set headline letter-spacing to 0 or positive values at sizes above 24px - the negative tracking is the signature of the display voice.",
+ "Never substitute a different typeface for Roobert; if the custom font fails to load, fall back to Plus Jakarta Sans or DM Sans - not Inter or system-ui.",
+ "Never use #0299e0 (Sky Link) as a button fill or a section color - it is reserved for inline hyperlinks and \"Learn more\" text in white-background contexts only.",
+ "Never apply the teal tinted button (rgba(87,210,238,0.1)) with a border-radius - it is a 0px radius tab control, not a pill or rounded button.",
+ "Never center-align body copy paragraphs beyond 600px width - long centered text breaks readability; left-align body text in two-column feature sections."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Page Canvas | `#ffffff` | Default page background; all sections begin here |\n| 2 | Card Surface | `#ffffff` | Elevated cards defined by #bebebe or #e8e8e8 border (0.5-1px solid), not shadow |\n| 3 | Warm Off-White | `#f6f5ee` | Alternate section background per CSS token --_color---background-warm; used for warm-tinted feature bands |\n| 4 | Dark Shell | `#111213` | Dark nav bar, dark footer sections, full-bleed dark feature blocks |\n| 5 | Teal Wash | `#45bfdb` | Brand-colored surface for feature callouts and highlighted section bands |",
+ "elevation": "Goodnotes uses zero box-shadow throughout. Elevation is expressed purely through borders: cards sit on white with a 0.5-1px solid #bebebe or #e8e8e8 outline. This makes the UI feel like paper stacked on paper - no depth illusion, just crisp-edged layering consistent with the notebook metaphor.",
+ "imagery": "Goodnotes uses contained product UI screenshots as the primary visual device - no lifestyle photography, no abstract illustration. Screenshots are shown as overlapping layered document stacks (strategic expansion proposal v1/v2/v3 effect) or as a single dominant app view inside a rounded-card frame. On the handwriting section, a tablet-canvas screenshot with actual hand-drawn strokes, arrows, and annotations appears at roughly 40% of the section width. Illustration is absent; all visual complexity is offloaded to the real product UI. Icons (toolbar actions) are filled, compact, and monochromatic at 15-20px - no outlined or multicolor icon style. Partner/customer logos in the marquee strip are black-on-white, unglamoured. The overall density is image-moderate: one large product screenshot per section, surrounded by generous white space, with text doing explanatory work rather than decorative imagery.",
+ "layout": "Max-width 1200px centered on a white canvas. The hero is a centered-headline layout: large Roobert 700 headline, one sentence of subtext, and a single cyan CTA button, with a tabbed product screenshot panel directly below spanning ~70% of content width. Below the hero, a horizontal logo marquee runs full-bleed with a subtle overflow mask. Feature sections follow a 2-column text-left / product-right alternating pattern at desktop widths, switching to centered stacks at mobile. The \"Built for any kind of work\" and AI sections use full-width tab controls (0px radius) as in-section navigation, with content panels that swap beneath them. Sections are separated by 80px vertical gaps with no visual dividers - white space is the only separator. A 3-column card grid appears in the tools/features section. Navigation is a sticky top bar with logo left, nav links center-right, and the cyan CTA pinned to the far right."
+}

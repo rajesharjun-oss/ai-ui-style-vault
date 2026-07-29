@@ -1,0 +1,98 @@
+{
+  "name": "Fold",
+  "slug": "fold",
+  "color": {
+    "midnightNavy": { "value": "#20294c", "role": "Primary text, hero headlines, filled buttons, fintech authority" },
+    "cornflowerSteel": { "value": "#375390", "role": "Borders, icon strokes, secondary text, structural elements" },
+    "abyss": { "value": "#042939", "role": "Deep illustration borders and dark image frames" },
+    "hyacinth": { "value": "#788dba", "role": "Rare outlined action border and ghost button edge" },
+    "electricBlue": { "value": "#459af8", "role": "Inline links, active nav, tiny accent dots" },
+    "voltageYellow": { "value": "#ffff00", "role": "Rare highlight card or callout" },
+    "dusk": { "value": "#676b89", "role": "Secondary headings and mid-weight body" },
+    "smoke": { "value": "#979db5", "role": "Captions, inverse labels, light text on dark surfaces" },
+    "silverLining": { "value": "#c7cbdb", "role": "Hairline borders and muted separators" },
+    "mistGray": { "value": "#dddfe9", "role": "Subtle borders, nested surfaces, soft washes" },
+    "fogWhite": { "value": "#f0f1f5", "role": "Page canvas, nav backdrop, subtle card fills" },
+    "pureWhite": { "value": "#ffffff", "role": "Card surfaces, button text on dark fills, elevated panels" }
+  },
+  "font": {
+    "primary": {
+      "value": "\"GT Walsheim Pro\", Inter, Switzer, Satoshi, \"General Sans\", sans-serif",
+      "weights": [400, 600, 700],
+      "usage": "Main UI, copy, headings, buttons, labels, and hero display"
+    },
+    "secondary": {
+      "value": "\"GT America\", Inter, \"Sohne\", \"NB International Pro\", sans-serif",
+      "weights": [400, 500],
+      "usage": "Rare compressed heading or display moments"
+    }
+  },
+  "size": {
+    "tag": "10px",
+    "caption": "14px",
+    "bodySm": "16px",
+    "body": "18px",
+    "subheading": "24px",
+    "headingSm": "32px",
+    "heading": "42px",
+    "headingLg": "64px",
+    "display": "100px"
+  },
+  "lineHeight": {
+    "tag": 1.2,
+    "caption": 1.43,
+    "bodySm": 1.5,
+    "body": 1.41,
+    "subheading": 1.33,
+    "headingSm": 1.18,
+    "heading": 1,
+    "headingLg": 0.85,
+    "display": 0.91
+  },
+  "letterSpacing": {
+    "tag": "0.4px",
+    "caption": "0.35px",
+    "body": "-0.54px",
+    "subheading": "-0.72px",
+    "headingSm": "-0.96px",
+    "heading": "-1.68px",
+    "headingLg": "-2.56px",
+    "display": "-12.5px",
+    "displayEm": "-0.125em"
+  },
+  "fontWeight": {
+    "regular": 400,
+    "semibold": 600,
+    "bold": 700
+  },
+  "space": {
+    "unit": "8px",
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "48": "48px"
+  },
+  "layout": {
+    "pageMaxWidth": "1200px",
+    "sectionGap": "48px",
+    "cardPadding": "24px",
+    "elementGap": "8px"
+  },
+  "radius": {
+    "cards": "12px",
+    "images": "16px",
+    "nav": "24px",
+    "panels": "24px",
+    "tags": "9999px",
+    "buttons": "9999px"
+  },
+  "shadow": {
+    "xl": "rgba(32, 41, 76, 0.12) 0px 9px 25px 0px",
+    "md": "rgba(32, 41, 76, 0.12) 0px 6px 16px 0px, rgba(32, 41, 76, 0.09) 0px 1px 5px 0px",
+    "nested": "rgba(32, 41, 76, 0.07) 0px 4px 11px 0px, rgba(32, 41, 76, 0.12) 0px 1px 3px 0px",
+    "button": "rgba(32, 41, 76, 0.1) 0px 1px 4px 0px",
+    "highlightEdge": "rgba(255, 255, 255, 0.53) 0px 1px 0px 0px"
+  }
+}
+

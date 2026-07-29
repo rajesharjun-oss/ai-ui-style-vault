@@ -1,0 +1,82 @@
+{
+  "id": "c9c5be5a-aaa1-4338-9681-8378d2e24fbd",
+  "name": "Lamborghini.com",
+  "slug": "lamborghini-com",
+  "sourceUrl": "https://styles.refero.design/style/c9c5be5a-aaa1-4338-9681-8378d2e24fbd",
+  "referenceSite": "https://www.lamborghini.com",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "black showroom with giallo shock",
+  "industry": ["automotive", "luxury", "performance cars"],
+  "summary": "A hard-edged automotive showroom style built from pure black, white, one yellow action color, uppercase condensed typography, zero-radius geometry, full-bleed car imagery, black navigation, spec strips, and sharp editorial sections.",
+  "colors": {
+    "nero": "#000000",
+    "bianco": "#ffffff",
+    "giallo": "#ffc700",
+    "concrete": "#f2f2f2",
+    "silver": "#b0b0b0",
+    "graphite": "#4d4d4d"
+  },
+  "typography": {
+    "primary": "LamboType",
+    "fallback": "Arial Narrow, Inter Condensed, Helvetica Neue Condensed, Arial",
+    "weights": [300, 400, 700],
+    "displayWeight": 700,
+    "bodyWeight": 400,
+    "uiCase": "uppercase",
+    "uiTracking": "0.05em",
+    "navTracking": "0.04em",
+    "displayTracking": "0.01em"
+  },
+  "shape": {
+    "navRadius": "0px",
+    "cardRadius": "0px",
+    "imageRadius": "0px",
+    "buttonRadius": "0px",
+    "inputRadius": "0px",
+    "sectionRadius": "0px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "compact",
+    "maxWidth": "1440px",
+    "sectionGap": "80px to 120px",
+    "cardPadding": "20px to 32px",
+    "elementGap": "8px to 16px",
+    "model": "full-bleed automotive media, black product bands, edge-to-edge spec strips, and square editorial grids"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "black image overlays only when required for text legibility",
+    "depth": "photography, scale, contrast, and hard section breaks"
+  },
+  "components": [
+    "top black navigation",
+    "yellow primary CTA",
+    "outline ghost button",
+    "full-bleed hero video or image",
+    "hero display text",
+    "model tile",
+    "vehicle spec strip",
+    "news or story card",
+    "configurator panel",
+    "footer mega block",
+    "icon button"
+  ],
+  "dos": [
+    "Use uppercase condensed typography for nav, CTAs, labels, and major product names.",
+    "Use 0px radius on every functional and media element.",
+    "Reserve Giallo for the most important action and small active accents.",
+    "Let real automotive imagery or video carry the emotional weight.",
+    "Use silver for secondary labels, captions, metadata, and inactive states.",
+    "Organize pages with black product sections and white or concrete editorial bands."
+  ],
+  "donts": [
+    "Do not use rounded corners.",
+    "Do not add soft shadows, glow effects, or decorative blur backgrounds.",
+    "Do not introduce pastel support colors or extra accent hues.",
+    "Do not build the page as nested SaaS cards.",
+    "Do not use lowercase navigation or CTA labels.",
+    "Do not replace product media with abstract illustrations."
+  ]
+}

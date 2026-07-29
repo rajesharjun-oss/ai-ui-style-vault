@@ -1,0 +1,199 @@
+:root {
+  --limon-black-olive: #1d0b0d;
+  --limon-forest-ink: #103b15;
+  --limon-lemon-zest: #f7ea48;
+  --limon-warm-cream: #fcf9f0;
+  --limon-sage-mist: #dbe2dc;
+  --limon-pure-white: #ffffff;
+
+  --limon-font-primary: VenusCom, "DM Sans", Outfit, "Plus Jakarta Sans", Arial, sans-serif;
+  --limon-font-icon: "Font Awesome 6 Free", Arial, sans-serif;
+
+  --limon-text-caption: 14px;
+  --limon-leading-caption: 1.45;
+  --limon-tracking-caption: 0.84px;
+  --limon-text-body-sm: 16px;
+  --limon-leading-body-sm: 1.37;
+  --limon-tracking-body-sm: 0.64px;
+  --limon-text-body: 19px;
+  --limon-leading-body: 1.3;
+  --limon-tracking-body: 0.57px;
+  --limon-text-body-lg: 20px;
+  --limon-leading-body-lg: 1.25;
+  --limon-tracking-body-lg: 0.4px;
+  --limon-text-subheading: 26px;
+  --limon-leading-subheading: 1.2;
+  --limon-tracking-subheading: 0.52px;
+  --limon-text-heading-sm: 30px;
+  --limon-leading-heading-sm: 1.15;
+  --limon-tracking-heading-sm: 0.9px;
+  --limon-text-heading: 36px;
+  --limon-leading-heading: 1.15;
+  --limon-tracking-heading: 1.08px;
+  --limon-text-heading-lg: 46px;
+  --limon-leading-heading-lg: 1.1;
+  --limon-tracking-heading-lg: 1.84px;
+  --limon-text-display: 68px;
+  --limon-leading-display: 1.01;
+  --limon-tracking-display: 4.08px;
+  --limon-text-display-xl: 75px;
+  --limon-leading-display-xl: 1;
+  --limon-tracking-display-xl: 4.5px;
+
+  --limon-spacing-unit: 4px;
+  --limon-spacing-4: 4px;
+  --limon-spacing-8: 8px;
+  --limon-spacing-12: 12px;
+  --limon-spacing-16: 16px;
+  --limon-spacing-20: 20px;
+  --limon-spacing-30: 30px;
+  --limon-spacing-40: 40px;
+  --limon-spacing-60: 60px;
+  --limon-spacing-120: 120px;
+
+  --limon-page-max-width: 1200px;
+  --limon-section-gap: 60px;
+  --limon-card-padding: 30px;
+  --limon-element-gap-min: 15px;
+  --limon-element-gap-max: 20px;
+
+  --limon-radius-card: 0px;
+  --limon-radius-badge: 1px;
+  --limon-radius-input: 1px;
+  --limon-radius-button: 1px;
+  --limon-radius-circular: 40px;
+}
+
+.limon-theme {
+  min-height: 100vh;
+  background: var(--limon-black-olive);
+  color: var(--limon-warm-cream);
+  font-family: var(--limon-font-primary);
+}
+
+.limon-container {
+  width: min(100% - 32px, var(--limon-page-max-width));
+  margin-inline: auto;
+}
+
+.limon-nav {
+  min-height: 80px;
+  background: var(--limon-black-olive);
+  color: var(--limon-warm-cream);
+}
+
+.limon-wordmark {
+  color: var(--limon-warm-cream);
+  font-size: var(--limon-text-heading-lg);
+  font-weight: 500;
+  line-height: var(--limon-leading-heading-lg);
+  letter-spacing: var(--limon-tracking-heading-lg);
+  text-transform: uppercase;
+}
+
+.limon-nav-link {
+  color: var(--limon-warm-cream);
+  font-size: var(--limon-text-body-sm);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.limon-nav-link-active {
+  border: 1px solid var(--limon-pure-white);
+  border-radius: var(--limon-radius-badge);
+  padding: 5px 6px;
+}
+
+.limon-display {
+  margin: 0;
+  color: var(--limon-lemon-zest);
+  font-size: clamp(46px, 7vw, var(--limon-text-display-xl));
+  font-weight: 400;
+  line-height: var(--limon-leading-display-xl);
+  letter-spacing: var(--limon-tracking-display-xl);
+  text-transform: uppercase;
+}
+
+.limon-subline {
+  color: var(--limon-warm-cream);
+  font-size: var(--limon-text-body-lg);
+  font-weight: 400;
+  line-height: var(--limon-leading-body-lg);
+  letter-spacing: var(--limon-tracking-body-lg);
+}
+
+.limon-cream-section {
+  background: var(--limon-warm-cream);
+  color: var(--limon-forest-ink);
+}
+
+.limon-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--limon-radius-button);
+  background: var(--limon-lemon-zest);
+  color: var(--limon-black-olive);
+  padding: 12px 16px;
+  font-family: var(--limon-font-primary);
+  font-size: var(--limon-text-body-sm);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.limon-food-card {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.limon-food-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.limon-body {
+  max-width: 640px;
+  color: var(--limon-forest-ink);
+  font-size: var(--limon-text-body);
+  font-weight: 400;
+  line-height: var(--limon-leading-body);
+  letter-spacing: var(--limon-tracking-body);
+}
+
+.limon-order-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--limon-forest-ink);
+  font-size: var(--limon-text-body-sm);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.limon-order-link:hover {
+  text-decoration: underline;
+}
+
+.limon-back-to-top {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: var(--limon-radius-circular);
+  background: var(--limon-forest-ink);
+  color: var(--limon-warm-cream);
+  box-shadow: none;
+}
+

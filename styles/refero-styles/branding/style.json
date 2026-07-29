@@ -1,0 +1,94 @@
+{
+  "id": "4d4772a3-e1da-415f-a6d7-658dcefdcecd",
+  "name": "Branding",
+  "slug": "branding",
+  "sourceUrl": "https://styles.refero.design/style/4d4772a3-e1da-415f-a6d7-658dcefdcecd",
+  "referenceSite": "https://www.svz.io",
+  "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/a3e6f8ed-4ae7-4cd5-ba74-fd92f33227ad.jpg",
+  "detailScreenshot": "https://images.refero.design/styles/refero.design/image/abe102a7-5ed9-4a42-bbfc-cd809a72ebc9.jpg",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "black gallery wall with arterial red punctuation",
+  "industry": ["agency", "creative studio", "brand strategy", "editorial portfolio"],
+  "summary": "A dark agency/editorial style with Void Canvas background, Bone White oversized display type, Kmr Waldenburg primary typography, Editorialnew italic connectives, Dirtyline ornamental display moments, 8px hairline cards, ghost CTAs, and Arterial Red as rare saturated punctuation.",
+  "colors": {
+    "voidCanvas": "#080808",
+    "absoluteBlack": "#000000",
+    "charcoalPlate": "#171617",
+    "smokePlate": "#262525",
+    "graphiteLift": "#393939",
+    "boneWhite": "#fcfcfc",
+    "linen": "#f3efef",
+    "ash": "#d4d2d2",
+    "pebble": "#b5b2b2",
+    "iron": "#525252",
+    "arterialRed": "#fe1e34",
+    "crimsonPure": "#ff0000"
+  },
+  "typography": {
+    "primary": "Kmr Waldenburg",
+    "primaryFallback": "Neue Haas Grotesk Display, Inter, Arial",
+    "serifItalic": "Editorialnew",
+    "serifItalicFallback": "Editorial Old, Playfair Display Italic, Georgia",
+    "ornamental": "Dirtyline 36 Daysoftype 2022",
+    "ornamentalFallback": "Tobias, Rogue Serif, Playfair Display",
+    "primaryWeights": [300, 400, 700],
+    "serifItalicWeight": 300,
+    "ornamentalWeight": 400,
+    "displayTracking": "-0.075em to -0.080em",
+    "navTracking": "0.071em to 0.308em"
+  },
+  "shape": {
+    "navRadius": "3px",
+    "cardRadius": "8px",
+    "buttonRadius": "8px",
+    "largeCardRadius": "14.4px",
+    "accentPillRadius": "9999px"
+  },
+  "layout": {
+    "density": "editorial",
+    "maxWidth": null,
+    "sectionGap": "48px to 64px",
+    "cardPadding": "12px to 24px",
+    "elementGap": "24px",
+    "model": "full-bleed dark agency canvas with transparent nav, oversized display type, asymmetric editorial sections, rare linen panels, 2-3 column card grids, and dark shapes bleeding off canvas"
+  },
+  "elevation": {
+    "insetHighlight": "rgba(255,255,255,0.2) 0px 2px 5px 0px inset",
+    "shadows": "avoid drop shadows",
+    "depth": "white inset highlights, hairline borders, dark surface shifts, and scale"
+  },
+  "components": [
+    "ghost CTA link",
+    "discovery call outlined button",
+    "primary red action",
+    "hero display headline",
+    "section transition headline",
+    "bordered brand card",
+    "standard card",
+    "hairline link",
+    "top navigation",
+    "footer panel",
+    "accent dot",
+    "decorative background shape",
+    "editorial body panel"
+  ],
+  "dos": [
+    "Use Void Canvas as the dominant page background.",
+    "Use Bone White for primary text, borders, and icon strokes.",
+    "Let 80px to 160px Kmr Waldenburg display type define the composition.",
+    "Mix Editorialnew italic words into display lines sparingly.",
+    "Use Arterial Red as rare punctuation, featured borders, or high-intent actions.",
+    "Use 8px card radius and 1px hairline borders.",
+    "Use Linen panels only for inverted editorial reading sections."
+  ],
+  "donts": [
+    "Do not add conventional SaaS chrome or bulky buttons.",
+    "Do not use broad red fills across sections.",
+    "Do not introduce additional saturated colors.",
+    "Do not use drop shadows as the elevation system.",
+    "Do not put the page inside a centered max-width shell.",
+    "Do not round images into contained cards.",
+    "Do not make CTAs look like generic product buttons unless the action is truly primary."
+  ]
+}

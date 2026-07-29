@@ -1,0 +1,198 @@
+{
+  "id": "cd723d5a-e7ea-4e4c-a3bb-6cf56e05057a",
+  "name": "Seed",
+  "slug": "seed",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/cd723d5a-e7ea-4e4c-a3bb-6cf56e05057a",
+  "referenceSite": "https://seed.com",
+  "capturedAt": "2026-07-28",
+  "mood": "living organism under laboratory glass",
+  "summary": "Botanical-clinical UI language with warm snow-white canvas, deep forest green surfaces, whisper-light headings, pill controls, restrained cards, and one vivid lime accent for badges and small functional emphasis.",
+  "useWhen": [
+    "Science-backed wellness or supplement ecommerce",
+    "Premium health product landing pages",
+    "Ingredient education, product formula, and subscription flows",
+    "Brands that need clean clinical authority with organic warmth"
+  ],
+  "avoidWhen": [
+    "High-energy consumer apps that need saturated colors",
+    "Dense admin dashboards",
+    "Interfaces relying on heavy shadows or card elevation",
+    "Brands that need playful illustration or loud promotional styling"
+  ],
+  "colors": {
+    "forestDepths": {
+      "value": "#1c3a13",
+      "role": "Primary brand color, filled CTAs, dark sections, nav surfaces, primary text"
+    },
+    "limePulse": {
+      "value": "#d3fa99",
+      "role": "Sale badges, highlight pills, small functional emphasis"
+    },
+    "sageMoss": {
+      "value": "#757c5d",
+      "role": "Muted green product accent and supporting botanical tone"
+    },
+    "oliveGold": {
+      "value": "#9f995b",
+      "role": "Muted yellow wash and secondary botanical highlight"
+    },
+    "eucalyptus": {
+      "value": "#698e79",
+      "role": "Product variant accent and calm green-gray support"
+    },
+    "ink": {
+      "value": "#000000",
+      "role": "High-contrast text on light surfaces, used sparingly"
+    },
+    "pewter": {
+      "value": "#666666",
+      "role": "Secondary text, captions, helper copy"
+    },
+    "ash": {
+      "value": "#b3b3b3",
+      "role": "Disabled states, soft borders, subdued text"
+    },
+    "frostedGlass": {
+      "value": "#c4c7c4",
+      "role": "Translucent overlays and muted card surfaces"
+    },
+    "warmStone": {
+      "value": "#eeeee9",
+      "role": "Secondary page bands and low-contrast section backgrounds"
+    },
+    "snowWhite": {
+      "value": "#fcfcf7",
+      "role": "Page canvas, light cards, inverse text on green"
+    }
+  },
+  "typography": {
+    "primaryFamily": "Seed Sans",
+    "fallbackFamilies": [
+      "Inter",
+      "General Sans",
+      "Arial",
+      "sans-serif"
+    ],
+    "monoFamily": "Seed Sans Mono",
+    "monoFallbackFamilies": [
+      "JetBrains Mono",
+      "IBM Plex Mono",
+      "monospace"
+    ],
+    "weights": [
+      300,
+      350,
+      400,
+      500
+    ],
+    "openType": "\"ss05\" on",
+    "scale": {
+      "micro": {
+        "size": "10px",
+        "weight": 400,
+        "lineHeight": "1",
+        "letterSpacing": "0"
+      },
+      "label": {
+        "size": "12px",
+        "weight": 500,
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "caption": {
+        "size": "14px",
+        "weight": 400,
+        "lineHeight": "1.4",
+        "letterSpacing": "0"
+      },
+      "bodySmall": {
+        "size": "16px",
+        "weight": 400,
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "size": "18px",
+        "weight": 400,
+        "lineHeight": "1.3",
+        "letterSpacing": "-0.18px"
+      },
+      "subheading": {
+        "size": "24px",
+        "weight": 350,
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.48px"
+      },
+      "headingSmall": {
+        "size": "32px",
+        "weight": 350,
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.48px"
+      },
+      "heading": {
+        "size": "36px",
+        "weight": 350,
+        "lineHeight": "1",
+        "letterSpacing": "-0.54px"
+      },
+      "headingLarge": {
+        "size": "40px",
+        "weight": 300,
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.4px"
+      },
+      "display": {
+        "size": "48px",
+        "weight": 300,
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.72px"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "8px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "16px",
+    "elementGap": "8px",
+    "scale": [
+      "8px",
+      "16px",
+      "24px",
+      "32px",
+      "40px",
+      "48px",
+      "56px",
+      "64px",
+      "80px",
+      "96px",
+      "128px"
+    ]
+  },
+  "shape": {
+    "inputRadius": "8px",
+    "cardRadius": "16px",
+    "largeCardRadius": "32px",
+    "pillRadius": "1000px"
+  },
+  "components": [
+    "Primary filled button",
+    "Ghost outlined button",
+    "Inverted light button",
+    "Text link with arrow glyph",
+    "Sale badge",
+    "Product tag badge",
+    "Product card",
+    "Feature card",
+    "Sticky nav bar",
+    "Promo banner",
+    "Input field",
+    "Product code pill"
+  ],
+  "imagery": {
+    "direction": "Clinical product photography, isolated packaging, capsule or ingredient details, warm light backgrounds, minimal decoration.",
+    "avoid": "Busy illustration, heavy botanical decoration, dark moody photography, gradients, glossy shadows."
+  }
+}

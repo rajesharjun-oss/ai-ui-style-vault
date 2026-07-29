@@ -1,0 +1,144 @@
+{
+  "id": "031056ff-7af1-46db-8daa-115f731c5d26",
+  "name": "ElevenLabs",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/031056ff-7af1-46db-8daa-115f731c5d26",
+  "referenceUrl": "https://elevenlabs.io",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Warm cream editorial with whispered headlines, black ink UI, pill controls, and violet/orange sparks reserved for audio product visuals.",
+  "bestFor": [
+    "AI voice products",
+    "audio tools",
+    "creator platforms",
+    "developer APIs",
+    "voice-agent products",
+    "editorial AI landing pages"
+  ],
+  "tags": [
+    "light",
+    "ai-audio",
+    "voice-ai",
+    "warm-cream",
+    "eggshell",
+    "taupe",
+    "waldenburg",
+    "inter",
+    "pill-buttons",
+    "hairline-borders",
+    "audio-spheres",
+    "editorial-minimal"
+  ],
+  "colors": {
+    "brand": {
+      "violetSpark": {
+        "value": "#0447ff",
+        "token": "--color-violet-spark",
+        "role": "Product visual accent only; appears inside audio sphere illustrations and decorative product icons."
+      }
+    },
+    "accent": {
+      "emberOrange": {
+        "value": "#ff4704",
+        "token": "--color-ember-orange",
+        "role": "Product visual accent only; paired with violet inside artwork, never buttons or links."
+      }
+    },
+    "neutrals": {
+      "ink": "#000000",
+      "graphite": "#44403b",
+      "smoke": "#777169",
+      "ash": "#a59f97",
+      "stone": "#ebe8e4",
+      "warmTaupe": "#f5f3f1",
+      "eggshell": "#fdfcfc"
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "Waldenburg",
+      "displayFallback": "Inter 300, Soehne Light, sans-serif",
+      "body": "Inter",
+      "mono": "Geist Mono"
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "10px",
+        "lineHeight": "1.6",
+        "fontWeight": 400
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0.14px",
+        "fontWeight": 500
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0.16px",
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "lineHeight": "1.6",
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "20px",
+        "lineHeight": "1.35",
+        "fontWeight": 400
+      },
+      "headingSm": {
+        "fontSize": "32px",
+        "lineHeight": "1.13",
+        "letterSpacing": "-0.64px",
+        "fontWeight": 300
+      },
+      "heading": {
+        "fontSize": "36px",
+        "lineHeight": "1.17",
+        "letterSpacing": "-0.72px",
+        "fontWeight": 300
+      },
+      "display": {
+        "fontSize": "48px",
+        "lineHeight": "1.08",
+        "letterSpacing": "-0.96px",
+        "fontWeight": 300
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1280px",
+    "sectionGap": "96-125px",
+    "cardPadding": "32px",
+    "elementGap": "8-16px",
+    "scalePx": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 48, 56, 64, 72, 96, 160]
+  },
+  "radii": {
+    "tags": "9999px",
+    "buttons": "9999px",
+    "inputs": "4px",
+    "cards": "20px",
+    "largeCards": "24px",
+    "smallElements": "4-10px"
+  },
+  "components": [
+    "Filled Pill Button",
+    "Outline Pill Button",
+    "Ghost Link Button",
+    "Feature Card",
+    "White Card with Whisper Shadow",
+    "Large Feature Card",
+    "Tab Pill",
+    "Hairline Divider",
+    "Audio Sphere Visual",
+    "Logo Wordmark",
+    "Top Nav Bar",
+    "Trust Logo Grid"
+  ]
+}
+

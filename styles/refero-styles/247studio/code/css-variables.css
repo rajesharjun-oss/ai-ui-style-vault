@@ -1,0 +1,168 @@
+:root {
+  --studio247-color-pure-white: #ffffff;
+  --studio247-color-ink-black: #000000;
+  --studio247-color-obsidian: #1f1f1f;
+  --studio247-color-graphite-wash: #333333;
+  --studio247-color-slate: #666666;
+  --studio247-color-steel: #808080;
+  --studio247-color-fog: #999999;
+  --studio247-color-pale-mist: #cccccc;
+  --studio247-color-vapor: #e6e6e6;
+  --studio247-color-ash: #f2f2f2;
+
+  --studio247-font-display: "247 grotesk", Inter, "Neue Haas Grotesk", Sohne, system-ui, sans-serif;
+  --studio247-font-body: Ntbau, Sohne, Inter, "Untitled Sans", system-ui, sans-serif;
+  --studio247-font-feature-display: "ss01";
+
+  --studio247-text-caption-size: 10px;
+  --studio247-text-caption-line: 1.3;
+  --studio247-text-small-label-size: 11px;
+  --studio247-text-small-label-line: 1.14;
+  --studio247-text-small-body-size: 12px;
+  --studio247-text-small-body-line: 1.3;
+  --studio247-text-body-size: 14px;
+  --studio247-text-body-line: 1.25;
+  --studio247-text-body-long-line: 1.89;
+  --studio247-text-body-large-size: 16px;
+  --studio247-text-body-large-line: 1.25;
+  --studio247-text-subheading-size: 19px;
+  --studio247-text-subheading-line: 1.2;
+  --studio247-text-heading-sm-size: 28px;
+  --studio247-text-heading-sm-line: 1.14;
+  --studio247-text-heading-size: 35px;
+  --studio247-text-heading-line: 1.14;
+  --studio247-text-heading-lg-size: 52px;
+  --studio247-text-heading-lg-line: 1;
+  --studio247-text-display-size: 73px;
+  --studio247-text-display-line: 1;
+  --studio247-text-tracking-compact: 0.019em;
+
+  --studio247-space-4: 4px;
+  --studio247-space-8: 8px;
+  --studio247-space-12: 12px;
+  --studio247-space-16: 16px;
+  --studio247-space-20: 20px;
+  --studio247-space-24: 24px;
+  --studio247-space-32: 32px;
+  --studio247-space-48: 48px;
+  --studio247-space-52: 52px;
+  --studio247-space-56: 56px;
+  --studio247-space-64: 64px;
+  --studio247-space-80: 80px;
+  --studio247-space-112: 112px;
+  --studio247-space-128: 128px;
+  --studio247-space-184: 184px;
+
+  --studio247-width-page: 1440px;
+  --studio247-width-content: 1200px;
+  --studio247-width-copy: 350px;
+  --studio247-left-rail: 120px;
+
+  --studio247-radius-tag: 33.76px;
+  --studio247-radius-card: 33.76px;
+  --studio247-radius-image: 33.76px;
+  --studio247-radius-button: 42.96px;
+  --studio247-border-vapor: 1px solid var(--studio247-color-vapor);
+  --studio247-border-pale-mist: 1px solid var(--studio247-color-pale-mist);
+  --studio247-border-ink: 1px solid var(--studio247-color-ink-black);
+}
+
+.studio247-page {
+  background: var(--studio247-color-pure-white);
+  color: var(--studio247-color-ink-black);
+  font-family: var(--studio247-font-body);
+}
+
+.studio247-rail {
+  width: min(100% - 40px, var(--studio247-width-content));
+  margin-inline: auto;
+}
+
+.studio247-left-rail {
+  padding-left: var(--studio247-left-rail);
+}
+
+.studio247-display {
+  font-family: var(--studio247-font-display);
+  font-feature-settings: var(--studio247-font-feature-display);
+  font-size: var(--studio247-text-display-size);
+  line-height: var(--studio247-text-display-line);
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.studio247-display-muted {
+  color: var(--studio247-color-fog);
+  font-style: italic;
+}
+
+.studio247-body-copy {
+  max-width: var(--studio247-width-copy);
+  font-family: var(--studio247-font-body);
+  font-size: var(--studio247-text-body-size);
+  line-height: var(--studio247-text-body-long-line);
+  letter-spacing: var(--studio247-text-tracking-compact);
+}
+
+.studio247-button {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  border: var(--studio247-border-ink);
+  border-radius: var(--studio247-radius-button);
+  background: var(--studio247-color-ink-black);
+  color: var(--studio247-color-pure-white);
+  font: 500 11px / 1.14 var(--studio247-font-display);
+  font-feature-settings: var(--studio247-font-feature-display);
+  letter-spacing: var(--studio247-text-tracking-compact);
+  text-decoration: none;
+}
+
+.studio247-button-secondary {
+  background: var(--studio247-color-pure-white);
+  color: var(--studio247-color-ink-black);
+}
+
+.studio247-card {
+  border: var(--studio247-border-pale-mist);
+  border-radius: var(--studio247-radius-card);
+  background: var(--studio247-color-pure-white);
+  padding: var(--studio247-space-24);
+}
+
+.studio247-logo-cell {
+  position: relative;
+  display: grid;
+  min-height: 80px;
+  place-items: center;
+  border-bottom: var(--studio247-border-vapor);
+  background: var(--studio247-color-pure-white);
+}
+
+.studio247-logo-cell-number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--studio247-color-fog);
+  font: 500 10px / 1.3 var(--studio247-font-body);
+  letter-spacing: var(--studio247-text-tracking-compact);
+}
+
+.studio247-image-placeholder {
+  border-radius: var(--studio247-radius-image);
+  background: var(--studio247-color-ash);
+}
+
+@media (max-width: 760px) {
+  :root {
+    --studio247-text-display-size: 52px;
+    --studio247-left-rail: 0px;
+  }
+
+  .studio247-left-rail {
+    padding-left: 0;
+  }
+}
+

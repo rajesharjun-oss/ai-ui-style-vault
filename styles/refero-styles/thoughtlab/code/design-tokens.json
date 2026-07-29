@@ -1,0 +1,80 @@
+{
+  "name": "ThoughtLab",
+  "slug": "thoughtlab",
+  "sourceUrl": "https://styles.refero.design/style/82d52a5f-b1bb-4a69-91a3-15a7eb8bbe99",
+  "referenceSite": "https://www.thoughtlab.com",
+  "tokens": {
+    "color": {
+      "blackVoid": { "value": "#000000", "role": "page canvas, hero ground, footer, primary surface" },
+      "white": { "value": "#ffffff", "role": "primary text, strong dividers, high-contrast labels" },
+      "crimsonSignal": { "value": "#ff0000", "role": "primary action, active state, small emphasis, alert marker" },
+      "whiteMist": { "value": "rgba(255,255,255,0.70)", "role": "secondary text, captions, muted explanatory copy" },
+      "whiteHairline": { "value": "rgba(255,255,255,0.10)", "role": "subtle dividers, card borders, table rules" },
+      "deepGray": { "value": "#121212", "role": "near-black panel fill, code-like modules, quiet strips" },
+      "midGray": { "value": "#333333", "role": "muted UI strokes, disabled text, light-section text" },
+      "voidCard": { "value": "rgba(0,0,0,0)", "role": "transparent card fill" },
+      "glassEdge": { "value": "rgba(255,255,255,0.20)", "role": "stronger border, active outline, input edge" }
+    },
+    "font": {
+      "family": {
+        "primary": "Sui, Inter, Helvetica Neue, Arial, sans-serif"
+      },
+      "weight": {
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      }
+    },
+    "text": {
+      "caption": { "size": "12px", "lineHeight": "1.3", "weight": 500, "tracking": "0.04em" },
+      "bodySmall": { "size": "14px", "lineHeight": "1.45", "weight": 400, "tracking": "0" },
+      "input": { "size": "15px", "lineHeight": "1.2", "weight": 400, "tracking": "0" },
+      "button": { "size": "16px", "lineHeight": "1", "weight": 600, "tracking": "0.02em" },
+      "navigation": { "size": "18px", "lineHeight": "1.15", "weight": 500, "tracking": "0" },
+      "cardTitle": { "size": "30px", "lineHeight": "1.05", "weight": 600, "tracking": "-0.02em" },
+      "sectionHeading": { "size": "78px", "lineHeight": "0.92", "weight": 600, "tracking": "-0.04em" },
+      "display": { "size": "182px", "lineHeight": "0.82", "weight": 700, "tracking": "-0.05em" },
+      "megaDisplay": { "size": "319px", "lineHeight": "0.75", "weight": 700, "tracking": "-0.06em" }
+    },
+    "radius": {
+      "button": "0px",
+      "card": "0px",
+      "input": "0px",
+      "image": "0px",
+      "section": "0px"
+    },
+    "spacing": {
+      "unit": "4px",
+      "pageMaxWidth": "1200px",
+      "sectionGap": "150px",
+      "cardPadding": "24px",
+      "elementGap": "12px",
+      "heroPaddingMin": "120px",
+      "heroPaddingMax": "200px"
+    }
+  },
+  "componentRecipes": {
+    "crimsonActionButton": {
+      "background": "crimsonSignal",
+      "color": "white",
+      "radius": "0px",
+      "padding": "14px 22px",
+      "font": "Sui 16px 600"
+    },
+    "transparentTopicCard": {
+      "background": "transparent",
+      "border": "1px solid whiteHairline",
+      "radius": "0px",
+      "padding": "24px",
+      "shadow": "none"
+    },
+    "hairlineEmailInput": {
+      "background": "transparent",
+      "border": "1px solid glassEdge",
+      "focusBorder": "crimsonSignal",
+      "radius": "0px",
+      "padding": "16px 18px"
+    }
+  }
+}

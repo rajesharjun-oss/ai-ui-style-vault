@@ -1,0 +1,56 @@
+:root {
+  --integrated-bio-color-bio-signal: #cef79e;
+  --integrated-bio-color-void: #000000;
+  --integrated-bio-color-lab-black: #0c0c0c;
+  --integrated-bio-color-graphite: #1a1a1a;
+  --integrated-bio-color-carbon: #222222;
+  --integrated-bio-color-slate: #363636;
+  --integrated-bio-color-rule: #424242;
+  --integrated-bio-color-mist: #9f9f9f;
+  --integrated-bio-color-soft-white: #f4f4f4;
+  --integrated-bio-color-pure-white: #ffffff;
+
+  --integrated-bio-font-primary: Aspekta, Inter, "Geist Sans", "Helvetica Neue", Arial, sans-serif;
+
+  --integrated-bio-text-micro-label: 11px;
+  --integrated-bio-text-label: 13px;
+  --integrated-bio-text-body: 16px;
+  --integrated-bio-text-lead: 20px;
+  --integrated-bio-text-heading: 36px;
+  --integrated-bio-text-display-sm: 56px;
+  --integrated-bio-text-display: 76px;
+
+  --integrated-bio-leading-micro-label: 1.4;
+  --integrated-bio-leading-label: 1.45;
+  --integrated-bio-leading-body: 1.55;
+  --integrated-bio-leading-lead: 1.4;
+  --integrated-bio-leading-heading: 1.05;
+  --integrated-bio-leading-display-sm: 0.98;
+  --integrated-bio-leading-display: 0.95;
+
+  --integrated-bio-tracking-micro-label: 0.16em;
+  --integrated-bio-tracking-label: 0.08em;
+  --integrated-bio-tracking-display-sm: -0.01em;
+  --integrated-bio-tracking-display: -0.015em;
+
+  --integrated-bio-space-1: 4px;
+  --integrated-bio-space-2: 8px;
+  --integrated-bio-space-3: 12px;
+  --integrated-bio-space-4: 16px;
+  --integrated-bio-space-5: 20px;
+  --integrated-bio-space-6: 24px;
+  --integrated-bio-space-8: 32px;
+  --integrated-bio-space-10: 40px;
+  --integrated-bio-space-12: 48px;
+  --integrated-bio-space-16: 64px;
+  --integrated-bio-space-20: 80px;
+  --integrated-bio-space-24: 96px;
+  --integrated-bio-space-30: 120px;
+  --integrated-bio-space-40: 160px;
+
+  --integrated-bio-max-width: 1240px;
+  --integrated-bio-radius-none: 0px;
+  --integrated-bio-border-hairline: 1px;
+  --integrated-bio-transition-fast: 200ms ease;
+}
+

@@ -1,0 +1,85 @@
+{
+  "name": "Index",
+  "slug": "index",
+  "sourceUrl": "https://styles.refero.design/style/7f8c0c07-86e9-4b7c-a042-a7563b169143",
+  "referenceSite": "https://index.app",
+  "colors": {
+    "void": "#000000",
+    "carbon": "#1c1c1c",
+    "graphite": "#4d4d4d",
+    "steel": "#808080",
+    "ash": "#ababab",
+    "paper": "#ffffff",
+    "periwinkleAnnotation": "#7089ba"
+  },
+  "typography": {
+    "families": {
+      "primary": "\"Raveo Variable\", \"Inter Variable\", Manrope, ui-sans-serif, system-ui, sans-serif",
+      "mono": "\"Geist Mono\", \"JetBrains Mono\", \"IBM Plex Mono\", \"Space Mono\", ui-monospace, monospace"
+    },
+    "scale": {
+      "micro": {
+        "size": "9px",
+        "lineHeight": 1.6,
+        "letterSpacing": "0.02em",
+        "weight": 500
+      },
+      "caption": {
+        "size": "12px",
+        "lineHeight": 1.2,
+        "letterSpacing": "0",
+        "weight": 400
+      },
+      "bodySmall": {
+        "size": "14px",
+        "lineHeight": 1.6,
+        "letterSpacing": "-0.14px",
+        "weight": 400
+      },
+      "body": {
+        "size": "16px",
+        "lineHeight": 1.6,
+        "letterSpacing": "-0.16px",
+        "weight": 400
+      },
+      "subheading": {
+        "size": "24px",
+        "lineHeight": 1.4,
+        "letterSpacing": "-0.24px",
+        "weight": 1000
+      },
+      "heading": {
+        "size": "32px",
+        "lineHeight": 1.2,
+        "letterSpacing": "-0.32px",
+        "weight": 1000
+      },
+      "display": {
+        "size": "70px",
+        "lineHeight": 1.1,
+        "letterSpacing": "-2.8px",
+        "weight": 1000
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "10px",
+    "scale": ["4px", "5px", "6px", "8px", "9px", "10px", "12px", "16px", "18px", "20px", "24px", "28px", "34px", "44px", "50px", "100px"]
+  },
+  "radii": {
+    "nav": "6px",
+    "featureTiles": "20px",
+    "iconContainers": "50px",
+    "tags": "100px",
+    "buttons": "100px"
+  },
+  "borders": {
+    "dashedDark": "1px dashed #1c1c1c",
+    "dashedLight": "1px dashed #ffffff",
+    "solidPaper": "1px solid #ffffff"
+  }
+}

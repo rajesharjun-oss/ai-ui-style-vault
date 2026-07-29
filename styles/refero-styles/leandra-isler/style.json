@@ -1,0 +1,310 @@
+{
+ "id": "515da65c-f9e3-4296-a05d-0d921f5cdab1",
+ "name": "Leandra-isler",
+ "slug": "leandra-isler",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/515da65c-f9e3-4296-a05d-0d921f5cdab1",
+ "referenceSite": "https://www.leandra-isler.ch",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-11T00:38:42.354Z",
+ "articleModifiedAt": "2026-06-05T04:01:45.561Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/6b9e1439-7aad-466a-9a73-0dce38c8117c.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4bc4755a-26c2-4365-b670-e91c25ebea3a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ce021ca5-4391-4e9f-89d5-0437ffd99420.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/c52fef36-b0bc-4f8c-9770-a31d1857ff0a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5cc6d14c-86f2-4e8f-a589-6c683ce14d18.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/ac113b1c-a820-4e2a-a2bc-abac92a60f88.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "dried botanicals pressed into warm vellum - calm, tactile, editorial, almost reverent.",
+ "summary": "Explore Leandra-isler\u0027s light Other design system: Vellum Sand #f4e6cd, Pressed Linen #edddc3 colors, PP Neue Montreal typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Vellum Sand",
+ "value": "#f4e6cd",
+ "token": "--color-vellum-sand",
+ "role": "Primary page canvas - the base warm-cream that fills every section, never competing with content"
+ },
+ {
+ "name": "Pressed Linen",
+ "value": "#edddc3",
+ "token": "--color-pressed-linen",
+ "role": "Secondary surface for subtle section breaks, link backgrounds, and content cards resting on Vellum Sand"
+ },
+ {
+ "name": "Aged Ink",
+ "value": "#1e211e",
+ "token": "--color-aged-ink",
+ "role": "Dominant text and hairline border color - near-black with a touch of warmth, used for 95% of all rules, headings, and body copy"
+ },
+ {
+ "name": "Charcoal Black",
+ "value": "#000000",
+ "token": "--color-charcoal-black",
+ "role": "Hard ink for display headings, icon fills, and the strongest contrast moments where absolute black reads better than warm"
+ },
+ {
+ "name": "Twilight Bronze",
+ "value": "#8f774b",
+ "token": "--color-twilight-bronze",
+ "role": "Gradient stop - the deepest tone in the vertical vellum wash, used only inside the hero gradient"
+ },
+ {
+ "name": "Hayfield",
+ "value": "#ba9d6a",
+ "token": "--color-hayfield",
+ "role": "Gradient midtone - the saturated middle of the vertical wash, gives the canvas its sun-warmed depth"
+ },
+ {
+ "name": "Wheat Sheaf",
+ "value": "#d6bd97",
+ "token": "--color-wheat-sheaf",
+ "role": "Gradient light tone - the transition stop between the warm mid and the Vellum base"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "PP Neue Montreal",
+ "token": "--font-pp-neue-montreal",
+ "role": "The sole typeface across every screen. Body text sits at 16-20px weight 400; subheadings lift to 24-26px weight 500; display headlines scale dramatically from 75px through 122px to 158-173px at weight 500. The signature move is this extreme display scaling - the same family at 14px captions and 173px hero headlines proves the typeface can carry both whispered body copy and shouted editorial moments without switching personality."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.4",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "75px",
+ "1",
+ "-2.25px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "173px",
+ "0.9",
+ "-7.79px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "80-120px",
+ "cardPadding": "0px",
+ "elementGap": "4-8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "4px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Slim, full-bleed header sitting on the Vellum Sand canvas"
+ },
+ {
+ "name": "Display Headline Block",
+ "role": "The hero typography element that defines the brand"
+ },
+ {
+ "name": "Underlined Text Link",
+ "role": "The only interactive UI element used in body contexts"
+ },
+ {
+ "name": "Botanical Hero Image",
+ "role": "The sole visual content element - a real plant photograph"
+ },
+ {
+ "name": "Vellum Section Background",
+ "role": "The base canvas for all content sections"
+ },
+ {
+ "name": "Section Divider Rule",
+ "role": "The only structural break element"
+ },
+ {
+ "name": "Inline Body Paragraph",
+ "role": "The primary content carrier"
+ },
+ {
+ "name": "Footer",
+ "role": "Closing element with contact and legal"
+ }
+ ],
+ "dos": [
+ "Use PP Neue Montreal as the single typeface across every element - no serif, no mono, no display face",
+ "Scale the hero headline to 122-173px weight 500 with letter-spacing -0.045em; that extreme size is the brand\u0027s loudest signature",
+ "Let the Vellum Sand (#f4e6cd) fill the full viewport edge-to-edge with no max-width wrapper and no card panels",
+ "Separate sections with 80-120px of vertical space plus optional 1px hairline in #1e211 - never with cards, tinted panels, or shadows",
+ "Mark interactive elements with a 1px underline in #1e211 offset 2-4px below the baseline; never use filled buttons or pill chips",
+ "Use real botanical photography as the only non-neutral color in the system; let leaves and stems break the viewport edges to suggest specimens pressed onto paper",
+ "Apply the vertical 4-stop linear gradient (184deg, #8f774b #ba9d6a #d6bd97 #f4e6cd) as a subtle wash on the hero only, so the page reads as sun-warmed vellum rather than flat beige"
+ ],
+ "donts": [
+ "Don\u0027t introduce any new color - the system is warm sand plus near-black plus photographic green; any blue, red, or saturated accent breaks the herbalist aesthetic",
+ "Don\u0027t use a filled, pill, or rounded button - the interface has no containers, so a button would feel alien against the flat vellum",
+ "Don\u0027t wrap content in cards, panels, or boxed surfaces with shadows; sections are separated by space and hairlines only",
+ "Don\u0027t use a max-width centered column for the hero headline - the display text bleeds to the viewport edge to read as editorial print",
+ "Don\u0027t apply a dark mode or invert the palette; the Vellum Sand is the brand, not just a light-theme choice",
+ "Don\u0027t use stock illustration, icons-as-decoration, or geometric shapes; the only visual vocabulary is typography and a real plant",
+ "Don\u0027t set the body text below 16px or above 20px - the page intentionally uses tiny captions and massive display sizes, but the readable body stays in this narrow band"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Vellum Canvas | `#f4e6cd` | The base page background - every section lives directly on this surface with no containers above it |\n| 2 | Pressed Linen | `#edddc3` | Slightly deeper surface for subtle section bands and link-background hits, used when a section needs a whisper of differentiation from the base canvas |",
+ "elevation": "The design intentionally uses zero elevation. There are no drop shadows, no border-based depth, no glassmorphism, no overlay tiers. Dimensionality is communicated entirely through the warm vertical gradient on the hero - the only place light and shadow exist in the system. This flat-on-flat approach is deliberate: the practice is a quiet healing space, and a shadow would feel too industrial, too interface-y. Sections sit beside each other as paper sheets on a table, not as floating cards in a UI kit.",
+ "imagery": "Imagery is essentially one element type: real botanical photography, shot as a tight specimen crop on a plain warm background. The plant (nettle, in the hero) is full-color with natural deep greens and yellow-green highlights, not duotone or filtered. It is positioned without a frame, without rounded corners larger than 4px, and with leaves extending past the viewport edge so the plant feels physically present in the room rather than placed inside a UI container. There are no illustrations, no icons-as-decoration (the small starburst next to the wordmark is a brand mark, not iconography), no abstract shapes, no product screenshots. The density is image-light: a single plant photograph per major section, surrounded by vast vellum whitespace. This is the design\u0027s visual restraint - the interface trusts one good photograph to do the work that most sites spread across six stock images.",
+ "layout": "The layout is full-bleed and edge-to-edge at all times - there is no max-width container, no centered column, no sidebar. The hero is a single viewport-height block where the Vellum Sand gradient washes the top and a botanical photograph rises from the bottom-right corner, with the massive multi-line display headline (\u0027Praxis fur / Atlaslogie und / Naturheilkunde\u0027) spanning the full width and breaking naturally at three lines. Below the hero, content sections alternate as full-bleed vellum bands separated by 80-120px of vertical space and occasional 1px hairlines, with no card surfaces, no colored panels, and no visual dividers other than whitespace. Body text sits in a comfortable measure (~65 characters) floated left within the full-width canvas - it is not centered, not constrained to a 1200px column. Navigation is a slim top bar (roughly 70px) with the brand mark left, nav items center, and a single underlined CTA right. The page rhythm reads more like an editorial magazine spread than a SaaS product: one image, one headline, vast white(ish) space, repeat. There are no card grids, no feature grids, no pricing tables - the practice is a single practitioner and the layout reflects that singular, unhurried tone."
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Origin Financial",
+  "slug": "origin-financial",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/c60f05ff-2420-4a24-92db-80c4b6a74683",
+    "styleId": "c60f05ff-2420-4a24-92db-80c4b6a74683",
+    "referenceSite": "https://www.useorigin.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "dark",
+  "summary": "A premium dark personal-finance system with near-black gallery surfaces, oversized weight-300 serif headlines, white primary CTAs, chromatic category cards, and precise mono data labels.",
+  "personality": [
+    "calm",
+    "premium",
+    "editorial",
+    "financial",
+    "gallery-like",
+    "restrained"
+  ],
+  "bestFor": [
+    "personal finance apps",
+    "wealth planning",
+    "investing dashboards",
+    "AI finance copilots",
+    "premium fintech marketing"
+  ],
+  "coreMoves": [
+    "Keep the page mostly near-black and monochrome.",
+    "Use huge weight-300 serif headlines as the emotional center.",
+    "Use chromatic colors as large semantic panels rather than decoration.",
+    "Use white-on-black or black-on-white for primary action clarity.",
+    "Use Roboto Mono for uppercase labels, badges, and compact data.",
+    "Separate surfaces with tone and shape more than shadow."
+  ],
+  "colors": {
+    "irisGleam": "#847dff",
+    "cyanSignal": "#00b3dd",
+    "paleIris": "#d1c9ff",
+    "deepIris": "#4b49aa",
+    "orchidBloom": "#dd90d8",
+    "periwinkle": "#90b8f0",
+    "void": "#000000",
+    "abyss": "#090a0b",
+    "obsidian": "#0f1011",
+    "graphite": "#2e2e2e",
+    "steel": "#3f4041",
+    "fog": "#6a6b6b",
+    "ash": "#9f9fa0",
+    "silver": "#cacaca",
+    "cloud": "#f5f5f7",
+    "pure": "#ffffff"
+  },
+  "typography": {
+    "display": {
+      "family": "Lyon Display",
+      "fallback": "DM Serif Display",
+      "weight": 300,
+      "sizes": ["38px", "80px", "96px"],
+      "lineHeights": ["0.9", "1"]
+    },
+    "sans": {
+      "family": "Suisse Intl",
+      "fallback": "Inter",
+      "weights": [300, 400],
+      "sizes": ["12px", "14px", "16px", "18px"]
+    },
+    "mono": {
+      "family": "Roboto Mono",
+      "weights": [400, 500],
+      "sizes": ["10px", "11px", "12px", "16px"]
+    }
+  },
+  "shape": {
+    "controlRadius": "8px",
+    "deviceRadius": "16px",
+    "cardRadius": "30px",
+    "pillRadius": "9999px"
+  }
+}
+

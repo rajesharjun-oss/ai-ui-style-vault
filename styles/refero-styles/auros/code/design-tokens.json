@@ -1,0 +1,172 @@
+{
+  "name": "Auros",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/21cfe0c1-778d-4613-9f47-a5718eb929b3",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "color": {
+    "electroBlue": {
+      "value": "#0066ff",
+      "type": "color"
+    },
+    "auroraCyan": {
+      "value": "#00d8ff",
+      "type": "color"
+    },
+    "pulseGreen": {
+      "value": "#39ff88",
+      "type": "color"
+    },
+    "abyss": {
+      "value": "#02030a",
+      "type": "color"
+    },
+    "terminalBlack": {
+      "value": "#07080f",
+      "type": "color"
+    },
+    "carbonGlass": {
+      "value": "#0d111a",
+      "type": "color"
+    },
+    "graphite": {
+      "value": "#151824",
+      "type": "color"
+    },
+    "gridline": {
+      "value": "#2b3040",
+      "type": "color"
+    },
+    "mutedSteel": {
+      "value": "#6f7890",
+      "type": "color"
+    },
+    "softSilver": {
+      "value": "#aeb7c9",
+      "type": "color"
+    },
+    "lunarWhite": {
+      "value": "#f7fbff",
+      "type": "color"
+    },
+    "magnetarViolet": {
+      "value": "#7c3cff",
+      "type": "color"
+    },
+    "solarGold": {
+      "value": "#ffd166",
+      "type": "color"
+    },
+    "riskRed": {
+      "value": "#ff4d6d",
+      "type": "color"
+    }
+  },
+  "font": {
+    "satoshi": {
+      "value": "Satoshi",
+      "type": "fontFamily"
+    },
+    "spaceMono": {
+      "value": "Space Mono",
+      "type": "fontFamily"
+    }
+  },
+  "fontSize": {
+    "caption": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "data": {
+      "value": "13px",
+      "type": "dimension"
+    },
+    "bodySmall": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "body": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "lead": {
+      "value": "20px",
+      "type": "dimension"
+    },
+    "h3": {
+      "value": "28px",
+      "type": "dimension"
+    },
+    "h2": {
+      "value": "44px",
+      "type": "dimension"
+    },
+    "h1": {
+      "value": "72px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "104px",
+      "type": "dimension"
+    }
+  },
+  "radius": {
+    "pill": {
+      "value": "999px",
+      "type": "dimension"
+    },
+    "card": {
+      "value": "28px",
+      "type": "dimension"
+    },
+    "tile": {
+      "value": "18px",
+      "type": "dimension"
+    },
+    "terminal": {
+      "value": "12px",
+      "type": "dimension"
+    }
+  },
+  "space": {
+    "base": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "elementGap": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "cardPadding": {
+      "value": "32px",
+      "type": "dimension"
+    },
+    "sectionGap": {
+      "value": "120px",
+      "type": "dimension"
+    },
+    "maxWidth": {
+      "value": "1280px",
+      "type": "dimension"
+    }
+  },
+  "shadow": {
+    "deep": {
+      "value": "0 32px 120px rgba(0, 0, 0, 0.55)",
+      "type": "shadow"
+    },
+    "blueGlow": {
+      "value": "0 0 72px rgba(0, 102, 255, 0.38)",
+      "type": "shadow"
+    },
+    "cyanGlow": {
+      "value": "0 0 64px rgba(0, 216, 255, 0.32)",
+      "type": "shadow"
+    },
+    "violetGlow": {
+      "value": "0 0 80px rgba(124, 60, 255, 0.28)",
+      "type": "shadow"
+    }
+  }
+}
+

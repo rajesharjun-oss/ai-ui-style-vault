@@ -1,0 +1,92 @@
+{
+  "name": "Relate",
+  "slug": "relate",
+  "source_url": "https://styles.refero.design/style/337ade6a-4bae-49ba-b4aa-8994ac805a81",
+  "style_id": "337ade6a-4bae-49ba-b4aa-8994ac805a81",
+  "reference_site": "https://www.relate.so",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A cool-white CRM/SaaS style with royal-blue brand signal, pill controls, compact Inter typography, pale lavender washes, soft rounded product cards, and CRM pipeline screenshots.",
+  "personality": [
+    "cool",
+    "rounded",
+    "product-led",
+    "compact",
+    "friendly",
+    "crm-focused"
+  ],
+  "colors": {
+    "royalSignal": "#145aff",
+    "cobaltGlow": "#3b82f6",
+    "mintWin": "#16ca2e",
+    "coralLost": "#f26052",
+    "amberPending": "#ffa64d",
+    "azureFocus": "#0099ff",
+    "midnightInk": "#020520",
+    "graphiteBody": "#14141e",
+    "slateCaption": "#374151",
+    "ashHelper": "#6b7280",
+    "stoneDivider": "#e2e8f0",
+    "lavenderWash": "#f0f4fe",
+    "fogSurface": "#f1f5f9",
+    "snowCanvas": "#fcfcfc",
+    "whiteCard": "#ffffff"
+  },
+  "typography": {
+    "primary": "Inter, DM Sans, Geist, Manrope, Arial, sans-serif",
+    "secondary": "Pretendard, Inter, Arial, sans-serif",
+    "mono": "Roboto Mono, JetBrains Mono, Geist Mono, monospace",
+    "weights": [400, 500, 600],
+    "sizesPx": [10, 12, 14, 15, 16, 18, 20, 22, 40, 56, 80],
+    "rules": [
+      "Use Inter for main headings, body, nav, and buttons.",
+      "Use weights 400, 500, and 600 only.",
+      "Use tight negative tracking on 56px to 80px display type.",
+      "Keep body text at 14px to 16px."
+    ]
+  },
+  "spacing": {
+    "density": "compact",
+    "maxWidthPx": 1200,
+    "sectionGapPx": 80,
+    "cardPaddingPx": 12,
+    "elementGapPx": [8, 12],
+    "scalePx": [4, 6, 8, 9, 10, 11, 12, 16, 20, 24, 28, 32, 36, 40, 52, 72]
+  },
+  "radius": {
+    "minimumPx": 4,
+    "innerCardPx": 8,
+    "inputPx": 12,
+    "pipelineCardPx": 16,
+    "containerPx": [16, 40],
+    "glassPx": [28, 48],
+    "pillPx": 9999
+  },
+  "components": [
+    "ghost outline button",
+    "frosted pill button",
+    "pipeline column card",
+    "deal card",
+    "prospect list card",
+    "logo mark badge",
+    "nav link",
+    "hero gradient banner",
+    "feature section card",
+    "glassmorphic container",
+    "status dot",
+    "customer logo strip",
+    "input field",
+    "Y Combinator badge"
+  ],
+  "avoid": [
+    "browser default link blue",
+    "heavy solid CTA blocks",
+    "gradients with more than two stops",
+    "sharp visible corners",
+    "body text below 14px",
+    "stacking multiple saturated accents in one component",
+    "font weights above 600 or below 400",
+    "lifestyle photography"
+  ]
+}
+

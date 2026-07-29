@@ -1,0 +1,151 @@
+{
+  "name": "SpaceX",
+  "slug": "spacex",
+  "sourceUrl": "https://styles.refero.design/style/13b74e34-b824-4d1d-bd2c-bb9bfbc2d6e1",
+  "referenceSite": "https://spacex.com",
+  "theme": "dark",
+  "tokens": {
+    "color": {
+      "voidBlack": {
+        "value": "#000000",
+        "role": "Page canvas and every section background"
+      },
+      "starWhite": {
+        "value": "#f0f0fa",
+        "role": "Primary foreground for text, icons, nav, buttons, and borders"
+      },
+      "dimSteel": {
+        "value": "#545457",
+        "role": "Secondary outlines, muted labels, quiet dividers"
+      },
+      "darkGunmetal": {
+        "value": "#404040",
+        "role": "Low-emphasis separators and barely visible structural lines"
+      }
+    },
+    "font": {
+      "primary": {
+        "family": "D-DIN",
+        "fallback": "Barlow",
+        "weights": [400, 700],
+        "features": ["tnum", "ss01"]
+      },
+      "headline": {
+        "family": "D-DIN-Bold",
+        "fallback": "Barlow Bold",
+        "weights": [700]
+      }
+    },
+    "typography": {
+      "caption": {
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "lineHeight": "0.94-1.5",
+        "letterSpacing": "0.09em"
+      },
+      "bodySmall": {
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": "1.0-1.5",
+        "letterSpacing": "0.10em"
+      },
+      "body": {
+        "fontSize": "13px",
+        "fontWeight": "400-700",
+        "lineHeight": "0.94-1.7",
+        "letterSpacing": "0.10em"
+      },
+      "bodyLarge": {
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0.10em"
+      },
+      "sectionHeadline": {
+        "fontSize": "48px",
+        "fontWeight": 700,
+        "lineHeight": "1.0-1.25",
+        "letterSpacing": "0.02em",
+        "textTransform": "uppercase"
+      }
+    },
+    "spacing": {
+      "unit": "4px",
+      "scale": {
+        "4": "4px",
+        "10": "10px",
+        "12": "12px",
+        "13": "13px",
+        "15": "15px",
+        "18": "18px",
+        "20": "20px",
+        "24": "24px",
+        "30": "30px",
+        "40": "40px",
+        "60": "60px"
+      },
+      "layout": {
+        "sectionGap": "60px",
+        "cardPadding": "20px",
+        "elementGap": "18px",
+        "textBlockWidth": "400px-500px"
+      }
+    },
+    "radius": {
+      "nav": "4px",
+      "cards": "4px",
+      "buttons": "4px",
+      "pill": "32px"
+    },
+    "shadow": {
+      "default": "none"
+    },
+    "surface": {
+      "void": "#000000",
+      "imageBleed": "#000000"
+    }
+  },
+  "components": {
+    "ghostOutlineButton": {
+      "background": "transparent",
+      "border": "1px solid #f0f0fa",
+      "text": "#f0f0fa",
+      "radius": "4px",
+      "padding": "10px 20px",
+      "fontSize": "12px-13px",
+      "letterSpacing": "0.10em",
+      "textTransform": "uppercase"
+    },
+    "secondaryOutlineButton": {
+      "background": "transparent",
+      "border": "1px solid #545457",
+      "text": "#545457",
+      "radius": "4px"
+    },
+    "pillSelector": {
+      "background": "transparent",
+      "border": "1px solid currentColor",
+      "radius": "32px",
+      "letterSpacing": "0.10em"
+    },
+    "topNavigation": {
+      "background": "transparent",
+      "shadow": "none",
+      "text": "#f0f0fa",
+      "fontSize": "10px-12px",
+      "letterSpacing": "0.09em-0.10em"
+    },
+    "fullBleedHero": {
+      "background": "#000000",
+      "image": "full viewport width",
+      "textPosition": "left third",
+      "textPanel": "none"
+    },
+    "bodyParagraph": {
+      "fontSize": "13px",
+      "lineHeight": 1.7,
+      "letterSpacing": "0.10em",
+      "maxWidth": "450px"
+    }
+  }
+}

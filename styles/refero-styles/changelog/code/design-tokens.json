@@ -1,0 +1,73 @@
+{
+  "name": "Changelog",
+  "theme": "dark",
+  "colors": {
+    "onyxCanvas": "#08090a",
+    "carbonSurface": "#141516",
+    "graphiteSurface": "#1c1c1f",
+    "smokeSurface": "#23252a",
+    "ironSurface": "#2d2e31",
+    "ashBorder": "#34343a",
+    "ferriteBorder": "#3e3e44",
+    "steelText": "#62666d",
+    "pewterText": "#7f7f80",
+    "fogText": "#8a8f98",
+    "mistText": "#d0d6e0",
+    "chalkBorder": "#e4e5e9",
+    "snow": "#f7f8f8",
+    "void": "#030404"
+  },
+  "typography": {
+    "fontFamilies": {
+      "sans": "\"Inter Variable\", Inter, ui-sans-serif, system-ui, sans-serif",
+      "mono": "\"Berkeley Mono\", \"JetBrains Mono\", \"IBM Plex Mono\", ui-monospace, monospace"
+    },
+    "fontWeights": {
+      "regular": 400,
+      "medium": 500,
+      "heading": 510,
+      "emphasis": 590
+    },
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": "1.6", "letterSpacing": "-0.12px" },
+      "body": { "fontSize": "15px", "lineHeight": "1.5", "letterSpacing": "-0.15px" },
+      "headingSmall": { "fontSize": "24px", "lineHeight": "1.33", "letterSpacing": "-0.288px" },
+      "heading": { "fontSize": "32px", "lineHeight": "1.2", "letterSpacing": "-0.416px" },
+      "display": { "fontSize": "48px", "lineHeight": "1.13", "letterSpacing": "-1.056px" }
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "48": "48px",
+      "56": "56px",
+      "80": "80px"
+    },
+    "layout": {
+      "pageMaxWidth": "1080px",
+      "contentMaxWidth": "720px",
+      "sectionGap": "48px",
+      "cardPadding": "16px",
+      "elementGap": "8px"
+    }
+  },
+  "radii": {
+    "nav": "9999px",
+    "tags": "4px",
+    "cards": "8px",
+    "icons": "4.4625px",
+    "inputs": "4px",
+    "buttons": "9999px"
+  },
+  "shadows": {
+    "subtle": "rgb(62, 62, 68) 0px 0px 0px 1px",
+    "innerStroke": "rgba(255, 255, 255, 0.03) 0px 0px 0px 1px inset"
+  }
+}

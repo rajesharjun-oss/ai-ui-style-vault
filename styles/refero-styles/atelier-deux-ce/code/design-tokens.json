@@ -1,0 +1,226 @@
+{
+ "name": "Atelier Deux-Ce",
+ "slug": "atelier-deux-ce",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Body text, headings, nav links, hairline borders, and link underlines - the single type color across the entire system"
+ },
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Page background, card surfaces, reverse text on dark photographic regions"
+ },
+ {
+ "name": "Warm Linen",
+ "value": "#eee5da",
+ "token": "--color-warm-linen",
+ "role": "Soft section background, the first step off pure white - gives a page the warmth of unbleached paper"
+ },
+ {
+ "name": "Pale Sage",
+ "value": "#d8ddc6",
+ "token": "--color-pale-sage",
+ "role": "Tinted section panels, the dominant non-white canvas tone"
+ },
+ {
+ "name": "Driftwood",
+ "value": "#d8d0c5",
+ "token": "--color-driftwood",
+ "role": "Deeper warm section background, used when a panel needs to recede from Pale Sage"
+ },
+ {
+ "name": "Olive Stone",
+ "value": "#afb371",
+ "token": "--color-olive-stone",
+ "role": "Saturated warm section background - the deepest neutral step before any chromatic color enters"
+ },
+ {
+ "name": "Weathered Taupe",
+ "value": "#9c978a",
+ "token": "--color-weathered-taupe",
+ "role": "Muted section background, used sparingly as a quieter alternative to Olive Stone"
+ },
+ {
+ "name": "Soft Pebble",
+ "value": "#aaaaa4",
+ "token": "--color-soft-pebble",
+ "role": "Light warm-gray section background, the coolest of the earth-tone neutrals"
+ },
+ {
+ "name": "Garden Green",
+ "value": "#259558",
+ "token": "--color-garden-green",
+ "role": "Footer background only - the single chromatic accent in the system, used as a deliberate closing beat rather than a brand color spread across the UI"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Helvetica",
+ "token": "--font-helvetica",
+ "role": "Primary UI and editorial type - body copy, navigation, links, project captions, category filters, and all functional text. Weight 400 for body and metadata, weight 600 reserved for the wordmark and the few moments that need emphasis. The system stack ensures identical rendering across platforms without depending on a webfont."
+ },
+ {
+ "name": "minion-3",
+ "token": "--font-minion-3",
+ "role": "Editorial accent serif - used for body paragraphs and select headings where a literary, book-page quality is desired. The contrast between this transitional serif and the geometric Helvetica mirrors the brand\u0027s positioning: strategy + craft, editorial + commercial."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "16px",
+ "1.2",
+ "0.64px",
+ "--text-caption"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "0.4px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.2",
+ "0.48px",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "48px",
+ "cardPadding": "0px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Split-Screen Hero",
+ "role": "Full-bleed opening composition that pairs two photographs meeting at a hard vertical center seam"
+ },
+ {
+ "name": "Hero Caption Label",
+ "role": "Small editorial caption floating over a hero image - project credit, model, location"
+ },
+ {
+ "name": "Wordmark + Hamburger Navigation",
+ "role": "Minimal global navigation - brand wordmark on the left, single hamburger icon on the right"
+ },
+ {
+ "name": "Editorial Body Text Block",
+ "role": "Long-form descriptive paragraph used for the \u0027What we do\u0027 and similar sections"
+ },
+ {
+ "name": "Category Filter List",
+ "role": "Inline multi-row list of project categories with item counts, acting as a navigation index"
+ },
+ {
+ "name": "Project Card",
+ "role": "Image-forward project entry in the 2-column portfolio grid"
+ },
+ {
+ "name": "Read More Link",
+ "role": "Text link ending an editorial paragraph"
+ },
+ {
+ "name": "Footer Banner",
+ "role": "Full-bleed closing band of the page"
+ },
+ {
+ "name": "Inline Section Label",
+ "role": "Small uppercase tag identifying a section (\u0027WHAT WE DO\u0027)"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Let full-bleed photography drive every primary screen - type and chrome are captions, not the subject",
+ "Stack sections using the warm neutral scale (Canvas White Warm Linen Pale Sage Driftwood Olive Stone) to create rhythm without shadows",
+ "Use the two type families in deliberate contrast: Helvetica for functional UI and metadata, minion-3 for editorial body paragraphs and book-page moments",
+ "Apply letter-spacing 0.02em to body and 0.04em to navigation, labels, and uppercase tags across both type families - this slightly positive tracking is the system\u0027s quiet signature",
+ "Keep all component radii at 0px - the design is print-flat, not card-lifted",
+ "Reserve Garden Green (#259558) exclusively for the footer - do not introduce it as a button, link, or accent elsewhere",
+ "Set the type scale at 16 / 17 / 20 / 24px only - a compressed scale is a discipline, not a limitation"
+ ],
+ "doNot": [
+ "Do not add box-shadows, drop shadows, glows, or gradient overlays - hierarchy comes from color and image, never from elevation",
+ "Do not introduce saturated colors beyond the single footer green - the palette is warm earth tones, period",
+ "Do not round corners on cards, buttons, images, or tags - 0px radius is non-negotiable",
+ "Do not use filled buttons, ghost buttons, or pill buttons - the system has no button component, only text links and the footer band",
+ "Do not use icons beyond a single minimal hamburger - the site is image-led, not icon-led",
+ "Do not set type in negative letter-spacing - the positive 0.02-0.04em tracking is a defining choice and must not be tightened",
+ "Do not add decorative borders thicker than 1px hairlines, and never use border colors outside the neutral scale"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/d531f0ec-ea94-4a40-b568-3073ff2bd8ed",
+ "referenceSite": "https://deux-ce.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-11T00:08:45.904Z",
+ "articleModifiedAt": "2026-06-03T20:25:01.829Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/9eb5ab67-ef2c-4687-8e58-585112f7ec58.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/268e0d6e-d5d2-468a-9859-2663b6c92a12.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/dbd9b3a9-bd5a-485b-a1c9-a807d906e976.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/f182b97c-9833-41a8-a31f-5f2dfc5554a6.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/60ff1d00-d802-4362-b613-a0fae2bcebb1.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ }
+}

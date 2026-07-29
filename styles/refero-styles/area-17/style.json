@@ -1,0 +1,166 @@
+{
+  "id": "143d553e-d71f-4e86-98ed-b80b9ef78ea9",
+  "name": "AREA 17",
+  "slug": "area-17",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/143d553e-d71f-4e86-98ed-b80b9ef78ea9",
+  "referenceSite": "https://area17.com",
+  "capturedAt": "2026-07-28",
+  "mood": "monochrome editorial struck yellow",
+  "summary": "Monochrome editorial agency UI with pure white canvas, Graphite text, Suisse Intl display typography, hairline borders, 8px geometric controls, no shadows, full-bleed cinematic media, and one Electric Yellow accent.",
+  "useWhen": [
+    "Design agency portfolios",
+    "Editorial studio and cultural work sites",
+    "Film-led case studies",
+    "Interfaces where typography, whitespace, and media should dominate"
+  ],
+  "avoidWhen": [
+    "Colorful SaaS marketing pages",
+    "Dense dashboards",
+    "Apps needing many status colors",
+    "Interfaces without strong media or typography"
+  ],
+  "colors": {
+    "pureWhite": {
+      "value": "#ffffff",
+      "role": "Page canvas, input fields, inverse text on dark surfaces"
+    },
+    "graphite": {
+      "value": "#1a1a1a",
+      "role": "Primary text, headlines, body copy, navigation links"
+    },
+    "trueBlack": {
+      "value": "#000000",
+      "role": "Logo mark fill, select borders, deepest shadow tone if needed"
+    },
+    "hairline": {
+      "value": "#e6e6e6",
+      "role": "Borders, dividers, outlined control strokes, card edges"
+    },
+    "fog": {
+      "value": "#f2f2f2",
+      "role": "Secondary card surfaces, disabled button fills, quiet elevation layers"
+    },
+    "creamStone": {
+      "value": "#f2ede9",
+      "role": "Warm editorial feature-card surface"
+    },
+    "muted": {
+      "value": "#949494",
+      "role": "Secondary links, metadata, subdued captions"
+    },
+    "dim": {
+      "value": "#757575",
+      "role": "Tertiary text, low-priority helper copy"
+    },
+    "disabled": {
+      "value": "#cccccc",
+      "role": "Disabled controls and inactive fills"
+    },
+    "electricYellow": {
+      "value": "#fdf313",
+      "role": "Announcement bar and the only chromatic accent in the system"
+    }
+  },
+  "typography": {
+    "primaryFamily": "Suisse Intl",
+    "fallbackFamilies": [
+      "Inter",
+      "Sohne",
+      "GT America",
+      "Manrope",
+      "Arial",
+      "sans-serif"
+    ],
+    "secondaryFamily": "System Sans-Serif",
+    "secondaryFallbackFamilies": [
+      "system-ui",
+      "-apple-system",
+      "Segoe UI",
+      "Roboto",
+      "sans-serif"
+    ],
+    "weights": [
+      400,
+      500
+    ],
+    "scale": {
+      "caption": {
+        "size": "16px",
+        "weight": 400,
+        "lineHeight": "1.5",
+        "letterSpacing": "0.06px"
+      },
+      "subheading": {
+        "size": "20px",
+        "weight": 500,
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.28px"
+      },
+      "headingSmall": {
+        "size": "32px",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "letterSpacing": "-0.42px"
+      },
+      "heading": {
+        "size": "42px",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "letterSpacing": "-0.59px"
+      },
+      "display": {
+        "size": "55px",
+        "weight": 500,
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.82px"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "8px",
+    "maxWidth": "1440px",
+    "sectionGap": "80px to 192px",
+    "cardPadding": "16px to 24px",
+    "elementGap": "8px to 16px",
+    "scale": [
+      "8px",
+      "16px",
+      "24px",
+      "32px",
+      "48px",
+      "64px",
+      "80px",
+      "128px",
+      "192px",
+      "232px"
+    ]
+  },
+  "shape": {
+    "navRadius": "4px",
+    "cardRadius": "8px",
+    "imageRadius": "8px",
+    "inputRadius": "8px",
+    "buttonRadius": "8px",
+    "pillRadius": "9999px"
+  },
+  "components": [
+    "Announcement bar",
+    "Top navigation",
+    "Editorial headline",
+    "Ghost text link",
+    "Outlined button",
+    "Solid neutral button",
+    "Fog card",
+    "Cream feature card",
+    "Text input",
+    "Full-bleed video block",
+    "Pill element",
+    "Footer"
+  ],
+  "imagery": {
+    "direction": "Full-bleed cinematic photography and video, documentary-style stills, wide environmental shots, human-centered production content.",
+    "avoid": "Stock imagery, product shots, decorative illustrations, icon-heavy layouts, media used as wallpaper."
+  }
+}

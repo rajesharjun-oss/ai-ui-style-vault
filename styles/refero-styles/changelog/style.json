@@ -1,0 +1,109 @@
+{
+  "id": "a5cc9b0f-d274-458a-b990-d18482b70838",
+  "name": "Changelog",
+  "slug": "changelog",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/a5cc9b0f-d274-458a-b990-d18482b70838",
+    "referenceSite": "https://linear.app/changelog",
+    "capturedAt": "2026-07-29",
+    "publishedAt": "2026-03-31T15:35:12.000Z",
+    "articleModifiedAt": "2026-06-03T16:29:16.342Z",
+    "media": {
+      "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/2c2ec73d-a241-4cf3-9124-559ff7318f55.jpg",
+      "socialPreviewImage": "https://images.refero.design/styles/refero.design/image/42228495-b14c-40b5-921c-ed61bad31b6b.jpg",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/452b3d87-28b4-4207-8a82-4131645231c6.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/9f043f13-ae6b-463e-afa4-8a4ffe74acff.mp4"
+    }
+  },
+  "classification": {
+    "theme": "dark",
+    "industry": ["productivity", "developer tooling", "changelog", "release notes"],
+    "mood": ["precise", "monochrome", "technical", "compact", "calm"],
+    "bestFor": ["changelogs", "release notes", "developer docs", "technical blogs", "product update feeds", "engineering dashboards"]
+  },
+  "summary": "A dark Linear-style changelog system with near-black canvas, compact spacing, Inter Variable typography, Berkeley Mono accents, pill-outline actions, and surface depth created by gray steps and 1px borders.",
+  "colors": {
+    "onyxCanvas": { "value": "#08090a", "role": "Page background and full-bleed base" },
+    "carbonSurface": { "value": "#141516", "role": "Elevated cards, inputs, and subtle surface layers" },
+    "graphiteSurface": { "value": "#1c1c1f", "role": "Nested panels, icon tiles, and code snippets" },
+    "smokeSurface": { "value": "#23252a", "role": "Hover surfaces, low-contrast button surfaces, and key borders" },
+    "ironSurface": { "value": "#2d2e31", "role": "Pressed state and highest dark elevation" },
+    "ashBorder": { "value": "#34343a", "role": "Primary dividers, table rows, and list separators" },
+    "ferriteBorder": { "value": "#3e3e44", "role": "Inner strokes, focus-adjacent borders, and subtle outlines" },
+    "steelText": { "value": "#62666d", "role": "Tertiary text, low-emphasis icons, and helper copy" },
+    "pewterText": { "value": "#7f7f80", "role": "Disabled text and placeholder-tier content" },
+    "fogText": { "value": "#8a8f98", "role": "Metadata, timestamps, muted body, and nav sub-items" },
+    "mistText": { "value": "#d0d6e0", "role": "Secondary text, body copy, and descriptions" },
+    "chalkBorder": { "value": "#e4e5e9", "role": "Rare light dividers and icon accents" },
+    "snow": { "value": "#f7f8f8", "role": "Primary text, headings, logo, and outlined button border" },
+    "void": { "value": "#030404", "role": "Deep recess, absolute dark accent, and shadow tint" }
+  },
+  "typography": {
+    "primaryFamily": "Inter Variable",
+    "monoFamily": "Berkeley Mono",
+    "primarySubstitute": "Inter or system-ui",
+    "monoSubstitute": "JetBrains Mono or IBM Plex Mono",
+    "weights": [400, 500, 510, 590],
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": "1.6", "letterSpacing": "-0.12px", "fontWeight": 400 },
+      "body": { "fontSize": "15px", "lineHeight": "1.5", "letterSpacing": "-0.15px", "fontWeight": 400 },
+      "headingSmall": { "fontSize": "24px", "lineHeight": "1.33", "letterSpacing": "-0.288px", "fontWeight": 510 },
+      "heading": { "fontSize": "32px", "lineHeight": "1.2", "letterSpacing": "-0.416px", "fontWeight": 510 },
+      "display": { "fontSize": "48px", "lineHeight": "1.13", "letterSpacing": "-1.056px", "fontWeight": 590 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "maxWidth": "1080px",
+    "contentWidth": "640px to 720px",
+    "sectionGap": "48px",
+    "cardPadding": "16px",
+    "elementGap": "8px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "32px", "48px", "56px", "80px"]
+  },
+  "shape": {
+    "navRadius": "9999px",
+    "tagRadius": "4px",
+    "cardRadius": "8px",
+    "iconRadius": "4.4625px",
+    "inputRadius": "4px",
+    "buttonRadius": "9999px"
+  },
+  "elevation": {
+    "subtleStroke": "rgb(62, 62, 68) 0px 0px 0px 1px",
+    "subtleStack": "Layer surfaces one gray step at a time instead of using blurred shadows.",
+    "innerStroke": "rgba(255, 255, 255, 0.03) 0px 0px 0px 1px inset"
+  },
+  "components": {
+    "topNavigation": "Sticky black header with bottom hairline, muted nav links, ghost login, and outlined sign-up pill.",
+    "outlinedPillButton": "Transparent 9999px pill with 1px Snow border, Snow text, Inter 14px weight 510, and no fill.",
+    "ghostTextButton": "Borderless muted text button that brightens to Snow on hover.",
+    "searchInput": "Carbon Surface input with 1px Smoke Surface border, 4px radius, muted placeholder, and compact height.",
+    "sectionTabs": "Left-aligned compact tabs with active Snow label, muted inactive labels, and no heavy underline.",
+    "dateMarker": "Tiny muted label with optional 6px dot, used to mark changelog timing.",
+    "changelogEntryHeading": "Inter 24px to 32px, weight 510, Snow, compact tracking, with optional hash anchor on hover.",
+    "iconGrid": "Grid of 64px dark tiles with 8px radius, 1px border, and centered white glyphs.",
+    "commandReferenceCard": "Graphite Surface card with 1px Smoke border, 4px radius, Berkeley Mono content, and compact padding.",
+    "bodyParagraph": "15px to 16px Inter body copy in Mist Text with constrained line length."
+  },
+  "dos": [
+    "Use Onyx Canvas as the full-page base.",
+    "Use Snow for the strongest text and outlined action borders.",
+    "Use Inter Variable weight 510 for headings and active controls.",
+    "Use weight 590 for emphasis instead of heavy bold.",
+    "Layer the near-black surface ladder one step at a time.",
+    "Use 1px hairline borders for all structural separation.",
+    "Reserve Berkeley Mono for code-adjacent accents only.",
+    "Keep spacing compact and based on a 4px rhythm."
+  ],
+  "donts": [
+    "Do not introduce chromatic brand fills or gradient CTAs.",
+    "Do not use filled buttons for primary actions.",
+    "Do not use heavy drop shadows for depth.",
+    "Do not use card radii larger than 8px except pill controls.",
+    "Do not use 600 or 700 display weights when variable 510 or 590 is available.",
+    "Do not use Berkeley Mono for full paragraphs or main headings.",
+    "Do not add lifestyle photography or decorative illustrations.",
+    "Do not loosen the layout into a spacious marketing page."
+  ]
+}

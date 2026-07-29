@@ -1,0 +1,87 @@
+@theme {
+  --font-posthog-brand: "Open Runde", "Inter Tight", "DM Sans", system-ui, sans-serif;
+  --font-posthog-ui: "IBM Plex Sans Variable", "IBM Plex Sans", "Inter", system-ui, sans-serif;
+  --font-posthog-code: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-posthog-sandy-desk: #e1d7c2;
+  --color-posthog-paper-white: #ffffff;
+  --color-posthog-cream-paper: #fdfdf8;
+  --color-posthog-soft-linen: #eeefe9;
+  --color-posthog-pale-stone: #e5e7e0;
+  --color-posthog-deep-moss: #23251d;
+  --color-posthog-olive-char: #4d4f46;
+  --color-posthog-sage-gray: #65675e;
+  --color-posthog-ash-green: #9ea096;
+  --color-posthog-faded-pewter: #b3b3af;
+  --color-posthog-warm-mist: #bfc1b7;
+  --color-posthog-signal-blue: #2f80fa;
+  --color-posthog-amber-glow: #eb9d2a;
+  --color-posthog-dark-amber: #cd8407;
+  --color-posthog-burnished-gold: #b17816;
+  --color-posthog-marigold: #f1a82c;
+  --color-posthog-flame-orange: #f54e00;
+  --color-posthog-moss-green: #6aa84f;
+
+  --radius-posthog-card: 4px;
+  --radius-posthog-input: 4px;
+  --radius-posthog-button: 4px;
+  --radius-posthog-window: 6px;
+  --radius-posthog-tag: 9999px;
+
+  --spacing-posthog-1: 4px;
+  --spacing-posthog-2: 8px;
+  --spacing-posthog-3: 12px;
+  --spacing-posthog-4: 16px;
+  --spacing-posthog-8: 32px;
+  --spacing-posthog-12: 48px;
+  --spacing-posthog-window: 958px;
+  --spacing-posthog-sidebar: 80px;
+
+  --text-posthog-micro: 12px;
+  --text-posthog-micro--line-height: 1.33;
+  --text-posthog-caption: 14px;
+  --text-posthog-caption--line-height: 1.43;
+  --text-posthog-body: 16px;
+  --text-posthog-body--line-height: 1.5;
+  --text-posthog-subheading: 19px;
+  --text-posthog-subheading--line-height: 1.56;
+  --text-posthog-heading: 21px;
+  --text-posthog-heading--line-height: 1.4;
+  --text-posthog-heading-lg: 24px;
+  --text-posthog-heading-lg--line-height: 1.33;
+  --text-posthog-display: 36px;
+  --text-posthog-display--line-height: 1.5;
+}
+
+@utility posthog-page {
+  background: var(--color-posthog-sandy-desk);
+  color: var(--color-posthog-deep-moss);
+  font-family: var(--font-posthog-brand);
+}
+
+@utility posthog-window {
+  max-width: var(--spacing-posthog-window);
+  border: 1px solid var(--color-posthog-warm-mist);
+  border-radius: var(--radius-posthog-window);
+  background: var(--color-posthog-paper-white);
+  box-shadow: none;
+}
+
+@utility posthog-heading {
+  color: var(--color-posthog-deep-moss);
+  font-family: var(--font-posthog-brand);
+  font-size: var(--text-posthog-heading-lg);
+  line-height: var(--text-posthog-heading-lg--line-height);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+@utility posthog-cta {
+  border-radius: var(--radius-posthog-button);
+  background: var(--color-posthog-amber-glow);
+  color: var(--color-posthog-deep-moss);
+  padding: 6px 12px;
+  font-family: var(--font-posthog-ui);
+  font-size: var(--text-posthog-caption);
+  font-weight: 500;
+}

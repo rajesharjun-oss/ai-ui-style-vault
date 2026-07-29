@@ -1,0 +1,153 @@
+:root {
+  /* Colors */
+  --color-carbon-black: #2a2a2a;
+  --color-bone: #f0f0f0;
+  --color-ink: #000000;
+  --color-linen: #fafafa;
+  --color-ash: #d6d6d6;
+  --color-parchment: #f0edea;
+  --color-stone: #bcbcb4;
+  --color-clay: #ccc4b9;
+
+  /* Typography - Font Families */
+  --font-founders-grotesk: "Founders Grotesk", "Sohne", Inter, "GT America", "Neue Haas Grotesk", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-editorial-neue: "Editorial Neue", "Tiempos Text", "Lyon Display", "Source Serif Pro", Georgia, serif;
+
+  /* Typography - Scale */
+  --text-caption: 12px;
+  --leading-caption: 1.17;
+  --tracking-caption: -0.018px;
+
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.2;
+  --tracking-body-sm: -0.018px;
+
+  --text-body: 16px;
+  --leading-body: 1;
+  --tracking-body: -0.018px;
+
+  --text-body-lg: 17px;
+  --leading-body-lg: 1.2;
+  --tracking-body-lg: -0.018px;
+
+  --text-subheading: 22px;
+  --leading-subheading: 1.17;
+  --tracking-subheading: -0.02px;
+
+  --text-heading-sm: 40px;
+  --leading-heading-sm: 0.9;
+  --tracking-heading-sm: -0.023px;
+
+  --text-display: 70px;
+  --leading-display: 0.88;
+  --tracking-display: -0.03px;
+
+  --text-display-xl: 101px;
+  --leading-display-xl: 0.8;
+  --tracking-display-xl: -0.06px;
+
+  /* Typography - Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-12: 12px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-29: 29px;
+  --spacing-32: 32px;
+  --spacing-80: 80px;
+  --spacing-115: 115px;
+  --spacing-120: 120px;
+
+  /* Layout */
+  --page-max-width: 1440px;
+  --section-gap-min: 80px;
+  --section-gap: 115px;
+  --section-gap-max: 120px;
+  --card-padding-min: 20px;
+  --card-padding-max: 24px;
+  --element-gap-min: 12px;
+  --element-gap-max: 20px;
+  --nav-gap: 29px;
+  --case-study-column-gap: 29px;
+
+  /* Border Radius */
+  --radius-md: 4px;
+  --radius-full: 999px;
+  --radius-tags: 999px;
+  --radius-cards: 0px;
+  --radius-images: 0px;
+  --radius-inputs: 4px;
+  --radius-buttons: 999px;
+
+  /* Surfaces */
+  --surface-bone-canvas: #f0f0f0;
+  --surface-linen-sheet: #fafafa;
+  --surface-parchment-block: #f0edea;
+  --surface-ash-mat: #d6d6d6;
+
+  /* Borders */
+  --border-hairline: 1px solid #2a2a2a;
+}
+
+.dash-surface {
+  background: var(--surface-bone-canvas);
+  color: var(--color-carbon-black);
+  font-family: var(--font-founders-grotesk);
+}
+
+.dash-display {
+  color: var(--color-carbon-black);
+  font-family: var(--font-founders-grotesk);
+  font-size: clamp(48px, 8vw, var(--text-display-xl));
+  font-weight: var(--font-weight-light);
+  line-height: var(--leading-display-xl);
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+
+.dash-pill-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-carbon-black);
+  color: var(--color-linen);
+  border: 0;
+  border-radius: var(--radius-buttons);
+  padding: 4px 14px;
+  font-family: var(--font-founders-grotesk);
+  font-size: var(--text-caption);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--leading-caption);
+  letter-spacing: var(--tracking-caption);
+  text-transform: uppercase;
+}
+
+.dash-case-study-card {
+  border-radius: var(--radius-cards);
+  color: var(--color-carbon-black);
+}
+
+.dash-case-study-card img {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius-images);
+  box-shadow: none;
+}
+
+.dash-brand-row {
+  border-bottom: var(--border-hairline);
+}
+
+.dash-input {
+  background: transparent;
+  color: var(--color-carbon-black);
+  border: var(--border-hairline);
+  border-radius: var(--radius-inputs);
+  font-family: var(--font-founders-grotesk);
+  font-size: var(--text-body);
+}
+

@@ -1,0 +1,348 @@
+{
+    "id":  "1b2aaf14-43b0-4c23-bd25-1d49924fe85e",
+    "name":  "Buymeacoffee",
+    "slug":  "buymeacoffee",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/1b2aaf14-43b0-4c23-bd25-1d49924fe85e",
+                   "referenceSite":  "https://buymeacoffee.com",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-05-07T22:02:25.025Z",
+                   "articleModifiedAt":  "2026-06-03T17:11:22.132Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/4b31d3fa-7cdd-4a49-a44f-2f2c7e620cf4.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/272fa8a9-6eca-447b-adad-9d1fa78ef4ff.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/a004d427-4d44-4aa2-8faf-48aeee28550a.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/5ed85a25-4566-4846-a900-49989fe78d36.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/67297234-e7f3-4121-9137-521cb482777a.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "SaaS",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "SaaS",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Cream-paper caf scrapbook with floating polaroid testimonials",
+    "summary":  "Explore Buymeacoffee\u0027s light SaaS design system: Cream Paper #faf8f0, Card White #ffffff colors, ui-sans-serif, Circular Bold typography, and DESIGN.md for...",
+    "colors":  [
+                   {
+                       "name":  "Cream Paper",
+                       "value":  "#faf8f0",
+                       "token":  "--color-cream-paper",
+                       "role":  "Page canvas, section backgrounds the warm off-white ground that softens every interface layer and gives the whole product its caf-on-paper atmosphere"
+                   },
+                   {
+                       "name":  "Card White",
+                       "value":  "#ffffff",
+                       "token":  "--color-card-white",
+                       "role":  "Card surfaces, modal backgrounds, raised panels pure white floats above the cream canvas to create depth through luminance contrast rather than color"
+                   },
+                   {
+                       "name":  "Hairline Gray",
+                       "value":  "#e5e7eb",
+                       "token":  "--color-hairline-gray",
+                       "role":  "Borders, dividers, icon outlines, badge outlines used at 1146+ occurrences as the universal hairline separator across cards, buttons, and inputs"
+                   },
+                   {
+                       "name":  "Ink Black",
+                       "value":  "#000000",
+                       "token":  "--color-ink-black",
+                       "role":  "Primary text, filled icon strokes, high-contrast UI elements the dominant text and icon color across the entire product"
+                   },
+                   {
+                       "name":  "Charcoal",
+                       "value":  "#222222",
+                       "token":  "--color-charcoal",
+                       "role":  "Body and heading text, filled SVG strokes slightly softer than pure black for sustained reading in longer copy blocks"
+                   },
+                   {
+                       "name":  "Fog Gray",
+                       "value":  "#717171",
+                       "token":  "--color-fog-gray",
+                       "role":  "Muted helper text, secondary metadata, small caps labels the quietest text voice for timestamps, supporter counts, and contextual hints"
+                   },
+                   {
+                       "name":  "Marigold",
+                       "value":  "#ffdd00",
+                       "token":  "--color-marigold",
+                       "role":  "Yellow wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Buttercup",
+                       "value":  "#f7d046",
+                       "token":  "--color-buttercup",
+                       "role":  "Yellow wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Terracotta",
+                       "value":  "#d8573f",
+                       "token":  "--color-terracotta",
+                       "role":  "Orange outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Blush Border",
+                       "value":  "#f5d5cf",
+                       "token":  "--color-blush-border",
+                       "role":  "Soft warm border accent for notification cards and supporter activity popovers bridges Terracotta\u0027s intensity into a gentle outline"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "ui-sans-serif ui-sans-serif detected in extracted data but not described by AI `--font-ui-sans-serif`",
+                                     "Circular Bold Display and hero headlines Circular Bold at 96px with -0.042em letter-spacing carries the \u0027Fund your creative work\u0027 headline; the extreme size and tight tracking make the wordmark feel monumental. Also used for button labels and emphasized short-form copy. `--font-circular-bold`",
+                                     "Circular Medium Subheadings, card titles, and emphasis within body copy the bridge weight between Bold displays and Regular body, used where hierarchy needs weight without volume `--font-circular-medium`",
+                                     "Circular Regular Body copy, descriptions, conversational text the workhorse weight for everything from supporter messages to card body descriptions, with a 16px baseline for body text `--font-circular-regular`",
+                                     "Circular Book Alternative heading weight for section titles and card headers where a lighter voice than Bold or Medium is needed provides visual rest between heavy display elements `--font-circular-book`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "10px",
+                                             "1.2",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body",
+                                             "14px",
+                                             "1.5",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "body-lg",
+                                             "16px",
+                                             "1.5",
+                                             "-0.34px",
+                                             "--text-body-lg"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "20px",
+                                             "1.2",
+                                             "-0.6px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "24px",
+                                             "1.17",
+                                             "-0.5px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "30px",
+                                             "1.25",
+                                             "-0.63px",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "40px",
+                                             "1.2",
+                                             "-1.24px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "64px",
+                                             "1",
+                                             "-2.7px",
+                                             "--text-display"
+                                         ],
+                                         [
+                                             "hero",
+                                             "96px",
+                                             "0.99",
+                                             "-4px",
+                                             "--text-hero"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "28",
+                                      "28px",
+                                      "--spacing-28"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "48",
+                                      "48px",
+                                      "--spacing-48"
+                                  ],
+                                  [
+                                      "64",
+                                      "64px",
+                                      "--spacing-64"
+                                  ],
+                                  [
+                                      "96",
+                                      "96px",
+                                      "--spacing-96"
+                                  ],
+                                  [
+                                      "120",
+                                      "120px",
+                                      "--spacing-120"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "24px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "16px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "tags",
+                                    "9999px"
+                                ],
+                                [
+                                    "cards",
+                                    "24px"
+                                ],
+                                [
+                                    "modals",
+                                    "32px"
+                                ],
+                                [
+                                    "buttons",
+                                    "9999px"
+                                ],
+                                [
+                                    "hero-cards",
+                                    "40px"
+                                ],
+                                [
+                                    "small-elements",
+                                    "8px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Marigold Pill CTA",
+                           "role":  "Primary creator signup action"
+                       },
+                       {
+                           "name":  "Terracotta Support Button",
+                           "role":  "Primary supporter payment action"
+                       },
+                       {
+                           "name":  "Ghost Outline Button",
+                           "role":  "Secondary action"
+                       },
+                       {
+                           "name":  "Creator Profile Card",
+                           "role":  "Social proof, creator showcase"
+                       },
+                       {
+                           "name":  "Support Modal",
+                           "role":  "Coffee purchase interaction"
+                       },
+                       {
+                           "name":  "Coffee Count Selector",
+                           "role":  "Quantity picker for support"
+                       },
+                       {
+                           "name":  "Supporter Notification Card",
+                           "role":  "Activity feed, social proof"
+                       },
+                       {
+                           "name":  "Star Rating Row",
+                           "role":  "Social proof header"
+                       },
+                       {
+                           "name":  "Small Caps Section Label",
+                           "role":  "Section divider and category marker"
+                       },
+                       {
+                           "name":  "Search Input",
+                           "role":  "Creator discovery"
+                       },
+                       {
+                           "name":  "Header Navigation Bar",
+                           "role":  "Global navigation"
+                       },
+                       {
+                           "name":  "Section Description Block",
+                           "role":  "Introductory text for content sections"
+                       }
+                   ],
+    "dos":  [
+                "Use #faf8f0 as the universal page background every screen should feel like cream paper beneath white cards",
+                "Reserve #ffdd00 exclusively for the creator-facing \u0027Start my page\u0027 / \u0027Sign up\u0027 CTA this yellow should appear nowhere else",
+                "Use #d8573f only for supporter payment actions like \u0027Support $3\u0027 never for navigation, links, or informational elements",
+                "Apply 9999px radius to all buttons, tags, and pill inputs the pill shape is the system\u0027s signature interaction form",
+                "Set hero and display headlines to Circular Bold 64-96px with letter-spacing between -2.7px and -4.0px the tight tracking makes large text feel monumental",
+                "Use the three-layer shadow stack (2px close blur + 40px ambient + 5px medium) on all floating cards and modals this is the system\u0027s only shadow recipe",
+                "Write section labels as uppercase Circular Bold 12px with 0.125em tracking the wide-spaced small caps are the system\u0027s typographic signature for section dividers"
+            ],
+    "donts":  [
+                  "Don\u0027t use #ffdd00 or #d8573f for body text, links, borders, or decorative fills these are action-only colors",
+                  "Don\u0027t apply sharp corners (0-4px radius) to cards or buttons the system requires generous rounding (8px minimum, 24px+ preferred for cards)",
+                  "Don\u0027t use colored shadows or glows all elevation comes from the neutral black-alpha three-layer stack",
+                  "Don\u0027t introduce new accent colors beyond Marigold, Terracotta, and Blush Border the palette is intentionally two-color (plus warm cream)",
+                  "Don\u0027t set body text below 14px or above 18px the reading range is narrow by design",
+                  "Don\u0027t use bold or black weights for long-form body copy Circular Regular or Book at 14-16px is the standard for paragraphs",
+                  "Don\u0027t fill the cream canvas with pure white sections alternate cream bands with white cards, not cream white cream"
+              ]
+}

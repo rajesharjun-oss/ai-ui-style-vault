@@ -1,0 +1,73 @@
+@theme {
+  --font-v0-sans: "GeistSans", "Inter", system-ui, sans-serif;
+  --font-v0-mono: "GeistMono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-v0-paper-white: #ffffff;
+  --color-v0-canvas: #fafafa;
+  --color-v0-line: #eaeaea;
+  --color-v0-subtext: #666666;
+  --color-v0-icon: #7d7d7d;
+  --color-v0-ink: #171717;
+  --color-v0-onyx: #000000;
+
+  --radius-v0-chip: 6px;
+  --radius-v0-button: 8px;
+  --radius-v0-card: 12px;
+  --radius-v0-input: 12px;
+  --radius-v0-pill: 9999px;
+
+  --spacing-v0-1: 4px;
+  --spacing-v0-2: 8px;
+  --spacing-v0-3: 12px;
+  --spacing-v0-4: 16px;
+  --spacing-v0-6: 24px;
+  --spacing-v0-8: 32px;
+  --spacing-v0-12: 48px;
+  --spacing-v0-24: 96px;
+  --spacing-v0-max: 1440px;
+
+  --text-v0-technical: 10px;
+  --text-v0-technical--line-height: 1.5;
+  --text-v0-small-ui: 14px;
+  --text-v0-small-ui--line-height: 1.4;
+  --text-v0-body: 16px;
+  --text-v0-body--line-height: 1.5;
+  --text-v0-section: 32px;
+  --text-v0-section--line-height: 1.17;
+  --text-v0-display: 48px;
+  --text-v0-display--line-height: 1;
+}
+
+@utility v0-page {
+  background: var(--color-v0-canvas);
+  color: var(--color-v0-ink);
+  font-family: var(--font-v0-sans);
+  font-feature-settings: "zero" 1, "ss09" 1, "ss05" 1;
+}
+
+@utility v0-display {
+  color: var(--color-v0-ink);
+  font-family: var(--font-v0-sans);
+  font-size: clamp(32px, 5vw, var(--text-v0-display));
+  line-height: var(--text-v0-display--line-height);
+  font-weight: 600;
+  letter-spacing: -2.88px;
+}
+
+@utility v0-primary-button {
+  border-radius: var(--radius-v0-button);
+  background: var(--color-v0-ink);
+  color: var(--color-v0-paper-white);
+  padding: 8px 12px;
+  font-size: var(--text-v0-small-ui);
+  font-weight: 500;
+}
+
+@utility v0-template-card {
+  overflow: hidden;
+  border-radius: var(--radius-v0-card);
+  background: var(--color-v0-paper-white);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.08),
+    0 2px 1px rgba(0, 0, 0, 0.04);
+}

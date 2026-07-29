@@ -1,0 +1,88 @@
+{
+  "name": "WHOOP",
+  "slug": "whoop",
+  "sourceUrl": "https://styles.refero.design/style/05053a60-1964-4154-9d58-ebdf6352ed3a",
+  "referenceSite": "https://whoop.com",
+  "colors": {
+    "pulseViolet": "#4a53ff",
+    "obsidian": "#000000",
+    "carbon": "#191919",
+    "fogGray": "#808080",
+    "ash": "#999999",
+    "hairline": "#e5e7eb",
+    "labMist": "#f3f5f9",
+    "paperWhite": "#ffffff"
+  },
+  "typography": {
+    "families": {
+      "primary": "\"Proxima Nova\", Montserrat, \"Nunito Sans\", \"DM Sans\", ui-sans-serif, system-ui, sans-serif"
+    },
+    "scale": {
+      "caption": {
+        "size": "14px",
+        "lineHeight": 1.59,
+        "letterSpacing": "0"
+      },
+      "bodySmall": {
+        "size": "16px",
+        "lineHeight": 1.33,
+        "letterSpacing": "-0.48px"
+      },
+      "bodyLarge": {
+        "size": "20px",
+        "lineHeight": 1.29,
+        "letterSpacing": "-0.6px"
+      },
+      "subheading": {
+        "size": "24px",
+        "lineHeight": 1.13,
+        "letterSpacing": "-0.72px"
+      },
+      "headingSmall": {
+        "size": "32px",
+        "lineHeight": 1.09,
+        "letterSpacing": "-0.96px"
+      },
+      "heading": {
+        "size": "35px",
+        "lineHeight": 1,
+        "letterSpacing": "-1.05px"
+      },
+      "headingLarge": {
+        "size": "50px",
+        "lineHeight": 0.8,
+        "letterSpacing": "-2px"
+      },
+      "display": {
+        "size": "120px",
+        "lineHeight": 0.71,
+        "letterSpacing": "-4.8px"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "80-120px",
+    "cardPadding": "24-32px",
+    "elementGap": "15-24px",
+    "scale": ["5px", "8px", "10px", "12px", "15px", "16px", "20px", "24px", "25px", "30px", "33px", "36px", "38px", "40px", "50px", "92px"]
+  },
+  "radii": {
+    "smallElements": "8px",
+    "cards": "24px",
+    "images": "24px",
+    "mediumRounded": "30px",
+    "pills": "300px",
+    "buttons": "300px"
+  },
+  "shadows": {
+    "floatingOverlay": "rgba(199, 199, 199, 0.25) 0px 4px 15px 0px"
+  }
+}

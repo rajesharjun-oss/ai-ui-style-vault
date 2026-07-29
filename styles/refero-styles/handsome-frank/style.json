@@ -1,0 +1,405 @@
+{
+ "id": "19d4103a-9f4a-49f0-ad7d-af6588bab904",
+ "name": "Handsome Frank",
+ "slug": "handsome-frank",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/19d4103a-9f4a-49f0-ad7d-af6588bab904",
+ "referenceSite": "https://www.handsomefrank.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T02:28:08.025Z",
+ "articleModifiedAt": "2026-06-05T07:43:10.282Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0c8bc7e2-8c59-4787-8430-8d267b183b20.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/3694679e-e210-4c15-b57b-13fc27b57684.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/36efbf02-b50b-4403-9645-aaf95a97a2ba.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/abce6b49-bf11-4baa-86a9-f6671cde4c61.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/439626c8-8eb5-4916-ae87-53e7bffcd5d9.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Curator\u0027s atelier with living murals - a warm-paper gallery where illustrated worlds bloom against indigo frames.",
+ "summary": "Explore Handsome Frank\u0027s light Agency design system: Indigo Frame #160572, Cream Paper #f2ebe6 colors, Arial, Millik typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Indigo Frame",
+ "value": "#160572",
+ "token": "--color-indigo-frame",
+ "role": "Navigation strokes, display headlines, footer band - the deepest anchor in the system, commanding authority without shouting"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#f2ebe6",
+ "token": "--color-cream-paper",
+ "role": "Primary page canvas for content sections - warm eggshell that softens black text and lets illustration breathe"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, reversed text on dark bands, and the clean counterpoint to cream - the gallery wall"
+ },
+ {
+ "name": "Obsidian Hairline",
+ "value": "#000000",
+ "token": "--color-obsidian-hairline",
+ "role": "Dominant border, text, and icon stroke - used as a 1-2px frame line across nav, cards, and decorative elements"
+ },
+ {
+ "name": "Slate Ink",
+ "value": "#2c2c2c",
+ "token": "--color-slate-ink",
+ "role": "Secondary text and softer borders where pure black feels too severe"
+ },
+ {
+ "name": "Fog Wash",
+ "value": "#eef4fb",
+ "token": "--color-fog-wash",
+ "role": "Pale blue-tinted background for muted emphasis blocks"
+ },
+ {
+ "name": "Buttermilk",
+ "value": "#fef9ee",
+ "token": "--color-buttermilk",
+ "role": "Subtle warm wash for highlighted text or callout backgrounds"
+ },
+ {
+ "name": "Crimson Spotlight",
+ "value": "#ea0706",
+ "token": "--color-crimson-spotlight",
+ "role": "Editorial accent for critical announcements and bold display statements - the marquee marker"
+ },
+ {
+ "name": "Vermillion",
+ "value": "#d64e2e",
+ "token": "--color-vermillion",
+ "role": "Warm secondary accent on project card titles, links, and illustrative borders"
+ },
+ {
+ "name": "Apricot Whisper",
+ "value": "#e29675",
+ "token": "--color-apricot-whisper",
+ "role": "Soft warm accent for icon strokes and decorative borders"
+ },
+ {
+ "name": "Peach Blush",
+ "value": "#eea883",
+ "token": "--color-peach-blush",
+ "role": "Mid-warmth accent on icon outlines and link underlines"
+ },
+ {
+ "name": "Tangerine Pop",
+ "value": "#ff7701",
+ "token": "--color-tangerine-pop",
+ "role": "Filled action button background - the only true filled CTA, used for the play/forward action in the footer"
+ },
+ {
+ "name": "Cobalt Stage",
+ "value": "#2544a0",
+ "token": "--color-cobalt-stage",
+ "role": "Filled action button background for primary browse/enter actions"
+ },
+ {
+ "name": "Plum Velvet",
+ "value": "#4b0f4d",
+ "token": "--color-plum-velvet",
+ "role": "Filled action button background for dark editorial CTAs"
+ },
+ {
+ "name": "Rose Petal",
+ "value": "#d98199",
+ "token": "--color-rose-petal",
+ "role": "Filled action button background for soft secondary entries"
+ },
+ {
+ "name": "Electric Teal",
+ "value": "#24e3dc",
+ "token": "--color-electric-teal",
+ "role": "Interactive link and menu accent - the only cool chromatic in the system, reserved for navigation affordances"
+ },
+ {
+ "name": "Acid Green",
+ "value": "#24e34c",
+ "token": "--color-acid-green",
+ "role": "Secondary interactive link accent for hover/active states"
+ },
+ {
+ "name": "Daffodil",
+ "value": "#f9e44d",
+ "token": "--color-daffodil",
+ "role": "Decorative icon and link accent - cheerful punctuation"
+ },
+ {
+ "name": "Highlighter Yellow",
+ "value": "#ffff00",
+ "token": "--color-highlighter-yellow",
+ "role": "Badge background for editorial tags and callout labels"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Millik",
+ "token": "--font-millik",
+ "role": "Display serif for hero headlines, artist names, and editorial display copy. The extreme negative letter-spacing (-0.05em at 88px down to -0.018em at 20px) and tight line-height (0.95-1.00 at large sizes) is the signature: the type sits dense and confident, not airy. Use weight 400 for editorial body, 700 for display headlines."
+ },
+ {
+ "name": "Klarheit Grotesk",
+ "token": "--font-klarheit-grotesk",
+ "role": "Workhorse grotesque for navigation, body text, buttons, badges, and supporting labels. Regular (400) is the default; Semibold (600) appears at 22px for subheadings; Bold (700) at 24px for nav emphasis. The grotesque is intentionally quiet - it holds the structure while the serif does the talking."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.36",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.36",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.28",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "54px",
+ "1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "88px",
+ "0.95",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64-80px",
+ "cardPadding": "20-24px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "38",
+ "38px",
+ "`--spacing-38`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "86",
+ "86px",
+ "`--spacing-86`"
+ ],
+ [
+ "215",
+ "215px",
+ "`--spacing-215`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "0px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "buttons",
+ "30px"
+ ],
+ [
+ "projectCards",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Full-Bleed Illustrated Hero",
+ "role": "Opening visual statement"
+ },
+ {
+ "name": "Hero Display Headline",
+ "role": "Primary value statement"
+ },
+ {
+ "name": "Script Wordmark",
+ "role": "Brand identity"
+ },
+ {
+ "name": "Circular Menu Trigger",
+ "role": "Primary navigation opener"
+ },
+ {
+ "name": "Editorial Section Headline",
+ "role": "Section opener on cream canvas"
+ },
+ {
+ "name": "Artist Portfolio Card",
+ "role": "Artist thumbnail in browse grid"
+ },
+ {
+ "name": "Featured Project Card",
+ "role": "Editorial project highlight"
+ },
+ {
+ "name": "Pill Button (Filled)",
+ "role": "Primary or secondary action"
+ },
+ {
+ "name": "Outlined Link",
+ "role": "Inline editorial link"
+ },
+ {
+ "name": "Highlighter Badge",
+ "role": "Editorial tag or label"
+ },
+ {
+ "name": "Announcement Banner",
+ "role": "Breaking news or signing announcement"
+ },
+ {
+ "name": "Indigo Footer Band",
+ "role": "Closing call-to-action bar"
+ },
+ {
+ "name": "Hairline Border Frame",
+ "role": "Structural divider and frame"
+ }
+ ],
+ "dos": [
+ "Use Millik serif for all display headlines and editorial titles; let it carry the personality with negative letter-spacing and tight line-height (0.95-1.10)",
+ "Reserve #160572 indigo for navigation strokes, editorial headlines, and the closing footer band - it is the thread that stitches the page together",
+ "Use the full pill shape (30px radius) for all filled action buttons, and pick from the four chromatic button backgrounds (#2544a0, #ff7701, #4b0f4d, #d98199) by context",
+ "Apply 1-2px solid #000000 hairlines as decorative frames around cards, nav elements, and illustration containers - the gallery-frame motif",
+ "Let illustrated or photographic content fill its container edge-to-edge with no border or radius - the artwork defines its own boundary",
+ "Use #ffff00 as a flat badge/tag background with black text for editorial callouts - treat it like a highlighter pen mark",
+ "Keep body text at 16px Klarheit Grotesk Regular with line-height 1.36 on the cream (#f2ebe6) canvas - the warmth softens the otherwise stark black/white system"
+ ],
+ "donts": [
+ "Don\u0027t use neutral grays for primary buttons - the system has no gray CTA; buttons are always chromatic and pill-shaped",
+ "Don\u0027t apply border-radius to project cards, illustration thumbnails, or content cards - only pill buttons get curves (30px), everything else stays sharp-edged",
+ "Don\u0027t use the chromatic accent colors (teal, green, red, yellow, orange) for body text or large text blocks - they are reserved for links, icons, badges, and decorative strokes only",
+ "Don\u0027t drop shadows on cards or images - the design uses hairline borders and flat color blocks for separation, never elevation",
+ "Don\u0027t set body text below 14px or use letter-spacing looser than normal on small sizes - the system relies on compact, confident type",
+ "Don\u0027t use gradient backgrounds or colored overlays on imagery - illustrations and photos display raw, edge-to-edge, on their own colors",
+ "Don\u0027t center-align body paragraphs or nav items - the layout is left-aligned for text blocks and centered only for display headlines and footer CTAs"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Cream Paper | `#f2ebe6` | Primary content canvas |\n| 2 | Pure White | `#ffffff` | Card and project tile surfaces |\n| 3 | Indigo Band | `#160572` | Footer/closing bar |\n| 4 | Obsidian | `#000000` | Full-bleed hero illustration base |",
+ "elevation": "The system has no elevation. Separation between elements is achieved through hairline 1-2px solid #000000 borders, flat color blocking, and generous whitespace - never through drop shadows, blurs, or stacked surfaces. Cards sit on the same plane as the page; depth is implied by the gallery-frame border, not by shadow.",
+ "imagery": "The site is defined by full-bleed, edge-to-edge illustration as its primary visual language. The hero is a rich, densely composed tropical jungle scene with vibrant birds in red, blue, teal, orange, and yellow against layered dark green foliage - a maximalist botanical mural. Subsequent sections showcase artist work as flat, full-color square or circular thumbnails with no borders or treatments applied; the artwork is always raw and unframed. Photography does not appear - every image is hand-illustrated. Iconography is minimal (hamburger lines, play triangle, social glyphs), all in white or black line. The illustration carries the chromatic spectrum; the UI chrome stays achromatic except for the indigo structural color.",
+ "layout": "The page is a vertical scroll of full-bleed and max-width-contained sections alternating. The hero is 100% viewport, illustration-only with overlaid white type at lower-left. Content sections are max-width ~1200px centered on a cream (#f2ebe6) canvas, with generous vertical breathing room (64-80px section gaps). The artist grid is a 4-column row of square thumbnails with 20-24px gaps. The featured project section uses a 4-column grid of full-bleed solid-color cards with centered circular image cutouts. The announcement banner spans full-width with centered or split content. The closing footer is a full-bleed indigo band, ~100-120px tall, with centered pill button + label. Navigation is minimal: a fixed script wordmark top-left and a circular teal hamburger top-right - no nav bar, no breadcrumbs. The rhythm is: immersive hero quiet cream gallery bold color wall quiet announcement bold indigo close."
+}

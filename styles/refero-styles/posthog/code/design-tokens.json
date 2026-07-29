@@ -1,0 +1,88 @@
+{
+  "name": "PostHog",
+  "slug": "posthog",
+  "sourceUrl": "https://styles.refero.design/style/56cd3725-3ff0-459e-894d-5da58d1fc549",
+  "referenceSite": "https://posthog.com",
+  "tokens": {
+    "color": {
+      "sandyDesk": { "value": "#e1d7c2", "type": "color" },
+      "paperWhite": { "value": "#ffffff", "type": "color" },
+      "creamPaper": { "value": "#fdfdf8", "type": "color" },
+      "softLinen": { "value": "#eeefe9", "type": "color" },
+      "paleStone": { "value": "#e5e7e0", "type": "color" },
+      "deepMoss": { "value": "#23251d", "type": "color" },
+      "oliveChar": { "value": "#4d4f46", "type": "color" },
+      "sageGray": { "value": "#65675e", "type": "color" },
+      "ashGreen": { "value": "#9ea096", "type": "color" },
+      "fadedPewter": { "value": "#b3b3af", "type": "color" },
+      "warmMist": { "value": "#bfc1b7", "type": "color" },
+      "signalBlue": { "value": "#2f80fa", "type": "color" },
+      "amberGlow": { "value": "#eb9d2a", "type": "color" },
+      "darkAmber": { "value": "#cd8407", "type": "color" },
+      "burnishedGold": { "value": "#b17816", "type": "color" },
+      "marigold": { "value": "#f1a82c", "type": "color" },
+      "flameOrange": { "value": "#f54e00", "type": "color" },
+      "mossGreen": { "value": "#6aa84f", "type": "color" }
+    },
+    "font": {
+      "brand": {
+        "value": "\"Open Runde\", \"Inter Tight\", \"DM Sans\", system-ui, sans-serif",
+        "type": "fontFamily"
+      },
+      "ui": {
+        "value": "\"IBM Plex Sans Variable\", \"IBM Plex Sans\", \"Inter\", system-ui, sans-serif",
+        "type": "fontFamily"
+      },
+      "code": {
+        "value": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "micro": { "value": "12px", "type": "dimension" },
+      "caption": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "subheading": { "value": "19px", "type": "dimension" },
+      "heading": { "value": "21px", "type": "dimension" },
+      "headingLarge": { "value": "24px", "type": "dimension" },
+      "display": { "value": "36px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "micro": { "value": "1.33", "type": "number" },
+      "caption": { "value": "1.43", "type": "number" },
+      "body": { "value": "1.5", "type": "number" },
+      "subheading": { "value": "1.56", "type": "number" },
+      "heading": { "value": "1.4", "type": "number" },
+      "headingLarge": { "value": "1.33", "type": "number" },
+      "display": { "value": "1.5", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" },
+      "bold": { "value": "700", "type": "fontWeight" },
+      "heavy": { "value": "800", "type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "tightOpenRunde": { "value": "-0.025em", "type": "dimension" },
+      "normal": { "value": "0", "type": "dimension" }
+    },
+    "radius": {
+      "card": { "value": "4px", "type": "dimension" },
+      "input": { "value": "4px", "type": "dimension" },
+      "button": { "value": "4px", "type": "dimension" },
+      "window": { "value": "6px", "type": "dimension" },
+      "tag": { "value": "9999px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "4": { "value": "16px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "12": { "value": "48px", "type": "dimension" },
+      "windowMax": { "value": "958px", "type": "dimension" },
+      "sidebar": { "value": "80px", "type": "dimension" }
+    }
+  }
+}

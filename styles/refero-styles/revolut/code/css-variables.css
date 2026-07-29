@@ -1,0 +1,154 @@
+:root {
+  --color-ink: #1f1f1f;
+  --color-pure-black: #000000;
+  --color-bone: #ffffff;
+  --color-ash-grey: #c9c9cd;
+  --color-mist: #f7f7f7;
+  --color-slate: #717173;
+  --color-graphite: #4c4c4c;
+  --color-cobalt-wash-start: #1227fd;
+  --color-cobalt-wash-end: #6fa0ff;
+  --gradient-cobalt-wash: linear-gradient(to right, #1227fd, #6fa0ff);
+
+  --font-display: "Aeonik Pro", Inter, "DM Sans", Manrope, system-ui, sans-serif;
+  --font-body: Inter, system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --leading-caption: 18px;
+  --tracking-caption: 0.18px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 22px;
+  --tracking-body-sm: -0.07px;
+  --text-body: 16px;
+  --leading-body: 19.2px;
+  --tracking-body: 0;
+  --text-subheading: 18px;
+  --leading-subheading: 24px;
+  --tracking-subheading: 0;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 28px;
+  --tracking-heading-sm: -0.24px;
+  --text-heading: 32px;
+  --leading-heading: 38px;
+  --tracking-heading: -0.32px;
+  --text-heading-lg: 40px;
+  --leading-heading-lg: 48px;
+  --tracking-heading-lg: -0.4px;
+  --text-display: 52px;
+  --leading-display: 52px;
+  --tracking-display: -0.624px;
+  --text-display-xl: 88px;
+  --leading-display-xl: 88px;
+  --tracking-display-xl: -2.112px;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --spacing-unit: 8px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-232: 232px;
+
+  --page-max-width: 1200px;
+  --section-gap: 80px;
+  --card-padding: 24px;
+  --element-gap: 8px;
+
+  --radius-small-control: 12px;
+  --radius-list: 20px;
+  --radius-card: 22.5px;
+  --radius-pill: 9999px;
+}
+
+.revolut-page {
+  min-height: 100vh;
+  background: var(--color-bone);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-body);
+}
+
+.revolut-container {
+  width: min(100% - 48px, var(--page-max-width));
+  margin-inline: auto;
+}
+
+.revolut-promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  background: var(--gradient-cobalt-wash);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+}
+
+.revolut-display {
+  color: var(--color-bone);
+  font-family: var(--font-display);
+  font-size: clamp(52px, 8vw, var(--text-display-xl));
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  letter-spacing: var(--tracking-display-xl);
+}
+
+.revolut-pill-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  background: var(--color-ink);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: 1.2;
+  padding: 10px 24px;
+}
+
+.revolut-pill-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  background: var(--color-bone);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+  line-height: 1.2;
+  padding: 10px 24px;
+}
+
+.revolut-card {
+  border: 1px solid var(--color-ash-grey);
+  border-radius: var(--radius-card);
+  background: var(--color-bone);
+  padding: var(--card-padding);
+}
+
+.revolut-list {
+  border-radius: var(--radius-list);
+  background: var(--color-mist);
+  padding: var(--spacing-24);
+}
+
+.revolut-dark-band {
+  background: var(--color-ink);
+  color: var(--color-bone);
+}
+

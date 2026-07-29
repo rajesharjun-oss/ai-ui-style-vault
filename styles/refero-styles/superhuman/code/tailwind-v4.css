@@ -1,0 +1,96 @@
+@theme {
+  --color-superhuman-midnight-wine: #421d24;
+  --color-superhuman-royal-violet: #714cb6;
+  --color-superhuman-lilac-mist: #d4c7ff;
+  --color-superhuman-deep-lagoon: #0c4243;
+  --color-superhuman-ink-charcoal: #292827;
+  --color-superhuman-stone-gray: #666666;
+  --color-superhuman-soft-mist: #e3e3e2;
+  --color-superhuman-warm-parchment: #f2f0eb;
+  --color-superhuman-paper-white: #ffffff;
+
+  --font-superhuman-sans: "Super Sans VF", "Inter", "Sohne", "General Sans", Arial, sans-serif;
+
+  --text-superhuman-caption: 12px;
+  --text-superhuman-body-sm: 14px;
+  --text-superhuman-body: 16px;
+  --text-superhuman-label-bold: 19px;
+  --text-superhuman-subheading: 26px;
+  --text-superhuman-heading-sm: 28px;
+  --text-superhuman-heading-lg: 49px;
+  --text-superhuman-display: 64px;
+
+  --radius-superhuman-tab: 8px;
+  --radius-superhuman-small-button: 8px;
+  --radius-superhuman-card: 16px;
+  --radius-superhuman-button: 16px;
+  --radius-superhuman-floating-card: 16px;
+  --radius-superhuman-pill: 999px;
+
+  --spacing-superhuman-1: 4px;
+  --spacing-superhuman-2: 8px;
+  --spacing-superhuman-3: 12px;
+  --spacing-superhuman-4: 16px;
+  --spacing-superhuman-5: 20px;
+  --spacing-superhuman-6: 24px;
+  --spacing-superhuman-7: 28px;
+  --spacing-superhuman-8: 32px;
+  --spacing-superhuman-9: 36px;
+  --spacing-superhuman-10: 40px;
+  --spacing-superhuman-12: 48px;
+  --spacing-superhuman-16: 64px;
+  --spacing-superhuman-20: 80px;
+  --spacing-superhuman-24: 96px;
+}
+
+@layer components {
+  .superhuman-page {
+    background: var(--color-superhuman-warm-parchment);
+    color: var(--color-superhuman-ink-charcoal);
+    font-family: var(--font-superhuman-sans);
+    font-feature-settings: "ss01" on, "tnum" on;
+  }
+
+  .superhuman-container {
+    width: min(100% - 48px, 1200px);
+    margin-inline: auto;
+  }
+
+  .superhuman-display {
+    font-size: clamp(49px, 7vw, var(--text-superhuman-display));
+    font-weight: 540;
+    line-height: 0.96;
+    letter-spacing: -1.8px;
+  }
+
+  .superhuman-button-primary {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: var(--radius-superhuman-button);
+    background: var(--color-superhuman-midnight-wine);
+    color: var(--color-superhuman-paper-white);
+    padding: 0 12px;
+    font-size: var(--text-superhuman-body);
+    font-weight: 460;
+    line-height: 1;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  .superhuman-floating-card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-superhuman-floating-card);
+    background: rgba(255, 255, 255, 0.85);
+    padding: 16px;
+    box-shadow: none;
+  }
+
+  .superhuman-link {
+    color: var(--color-superhuman-royal-violet);
+    font-weight: 460;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,264 @@
+{
+    "id":  "b376d42c-b2cb-4a52-8cec-ebf19cf1883f",
+    "name":  "UY Studio",
+    "slug":  "uy-studio",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/b376d42c-b2cb-4a52-8cec-ebf19cf1883f",
+                   "referenceSite":  "https://www.uy-studio.com",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-04-30T02:14:31.563Z",
+                   "articleModifiedAt":  "2026-06-05T07:22:27.322Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/f89bf9f2-b704-4ce6-87ed-29551026d0ab.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/2a04bb3e-4633-4a16-a4d4-dce1a9e4c4b1.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/fb8ad5c8-3cc9-4aa4-a1fa-412826757d93.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/de9403dd-48d0-406c-a849-9b6603a39d27.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/8ed984dc-ece1-4859-8e6b-d389e09c4ac2.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "E-commerce",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "E-commerce",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Monastic stone gallery a quiet concrete-walled space where perfume bottles sit on white plinths, lit by one weight-400 voice and four warm grays.",
+    "summary":  "Explore UY Studio\u0027s light E-commerce design system: Soot #24241f, Limestone #d1d3cf colors, GP, GTStandard-M typography, and DESIGN.md for AI agents.",
+    "colors":  [
+                   {
+                       "name":  "Soot",
+                       "value":  "#24241f",
+                       "token":  "--color-soot",
+                       "role":  "Primary text, all icon strokes, hairline borders, nav links, footer text the single dark voice of the system"
+                   },
+                   {
+                       "name":  "Limestone",
+                       "value":  "#d1d3cf",
+                       "token":  "--color-limestone",
+                       "role":  "Page canvas, announcement bar, nav background the warm-tinted near-gray that replaces white as the system\u0027s base tone"
+                   },
+                   {
+                       "name":  "Chalk",
+                       "value":  "#e5e5e5",
+                       "token":  "--color-chalk",
+                       "role":  "Secondary surface, subtle borders, product photo backgrounds a slightly cooler neutral for layering atop Limestone"
+                   },
+                   {
+                       "name":  "Graphite",
+                       "value":  "#333333",
+                       "token":  "--color-graphite",
+                       "role":  "Dark button fill the only filled surface in the system, used sparingly for a single tonal shift from the Soot text"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "GP Universal typeface used for nav, body, headings, buttons, and footer at weight 400 only. The single-weight constraint is the signature: no bold, no light, no medium. Hierarchy comes from size (1348px) and tracking (0.0110em body, 0.0390em display), not weight contrast. The slight positive tracking gives the type an editorial, architectural quality. `--font-gp`",
+                                     "GTStandard-M GTStandard-M detected in extracted data but not described by AI `--font-gtstandard-m`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "13px",
+                                             "1.5",
+                                             "0.14px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "15px",
+                                             "1.5",
+                                             "0.17px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "30px",
+                                             "1.2",
+                                             "1.17px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading",
+                                             "48px",
+                                             "1.1",
+                                             "1.87px",
+                                             "--text-heading"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "7",
+                                      "7px",
+                                      "--spacing-7"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "13",
+                                      "13px",
+                                      "--spacing-13"
+                                  ],
+                                  [
+                                      "15",
+                                      "15px",
+                                      "--spacing-15"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "17",
+                                      "17px",
+                                      "--spacing-17"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "22",
+                                      "22px",
+                                      "--spacing-22"
+                                  ],
+                                  [
+                                      "30",
+                                      "30px",
+                                      "--spacing-30"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "143",
+                                      "143px",
+                                      "--spacing-143"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "96px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "16px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "13px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "cards",
+                                    "0px"
+                                ],
+                                [
+                                    "images",
+                                    "0px"
+                                ],
+                                [
+                                    "inputs",
+                                    "3px"
+                                ],
+                                [
+                                    "buttons",
+                                    "0px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Announcement Bar",
+                           "role":  "Top-of-page brand message strip"
+                       },
+                       {
+                           "name":  "Main Navigation",
+                           "role":  "Primary site navigation"
+                       },
+                       {
+                           "name":  "Hero Image with Overlay Text",
+                           "role":  "Full-bleed editorial banner"
+                       },
+                       {
+                           "name":  "Product Card",
+                           "role":  "Individual product listing in the grid"
+                       },
+                       {
+                           "name":  "Product Grid",
+                           "role":  "5-column product listing"
+                       },
+                       {
+                           "name":  "Newsletter Input",
+                           "role":  "Email signup field"
+                       },
+                       {
+                           "name":  "Footer Link Column",
+                           "role":  "Footer navigation links"
+                       },
+                       {
+                           "name":  "Language Toggle",
+                           "role":  "Language selector"
+                       },
+                       {
+                           "name":  "Dropdown Nav Link",
+                           "role":  "Category navigation with submenu indicator"
+                       },
+                       {
+                           "name":  "Utility Icon",
+                           "role":  "Cart and account icons in nav"
+                       }
+                   ],
+    "dos":  [
+                "Use GP at weight 400 for ALL text from 13px footer notes to 48px display lines. No bold, no semibold, no light variants exist in this system.",
+                "Use Limestone (#d1d3cf) as the page background for every screen. Never substitute pure white (#ffffff) the warm gray tint is the system\u0027s identity.",
+                "Use Soot (#24241f) for all text, icon strokes, and 1px borders. The warm-tinted near-black replaces standard #000 and ties the type to the concrete textures in the photography.",
+                "Apply 0.0390em letter-spacing to display sizes (30px+) and 0.0110em to body sizes (1316px). The dual-tracking system is how hierarchy is expressed in a single-weight world.",
+                "Use 0px border-radius on all cards, images, and containers. 3px radius is reserved exclusively for text inputs. Sharp edges reinforce the architectural, gallery-like feel.",
+                "Present products as full-bleed photography on Chalk (#e5e5e5) surfaces with no card borders or shadows. The photograph IS the card.",
+                "Use text links with underlines as the primary interaction pattern. Filled buttons in Graphite (#333333) are reserved for single-purpose dark actions and should appear at most once..."
+            ],
+    "donts":  [
+                  "Don\u0027t introduce bold, semibold, or light font weights. Weight 400 is the only voice adding weight would break the flat, even texture that defines the system.",
+                  "Don\u0027t add saturated colors, brand hues, or accent fills. The palette is four warm grays only any chromatic color would shatter the monastic quality.",
+                  "Don\u0027t use box-shadow or drop-shadow for elevation. Depth comes from the warm-gray surface stack (Limestone Chalk Graphite Soot), not from shadows.",
+                  "Don\u0027t round corners on cards, images, or containers. 0px everywhere except inputs. Rounded corners would soften the architectural, museum-pedestal feel.",
+                  "Don\u0027t use color or weight to indicate interactive states. Use Soot underlines on hover, position shifts on active, and the underline-on-current pattern for navigation state.",
+                  "Don\u0027t add decorative gradients, patterns, background textures, or ornamental graphics. The only imagery is product photography against real textures.",
+                  "Don\u0027t use filled, colored, or rounded icon buttons. Icons are stroke-only in Soot, inline with text at the same baseline. The interface is text-first."
+              ]
+}

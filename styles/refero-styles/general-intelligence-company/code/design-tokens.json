@@ -1,0 +1,177 @@
+{
+  "name": "General Intelligence Company",
+  "version": "2026-07-28",
+  "colors": {
+    "parchment": {
+      "value": "#fefffc",
+      "role": "Warm page canvas"
+    },
+    "paper": {
+      "value": "#ffffff",
+      "role": "Cards, footer, and clean content sections"
+    },
+    "linen": {
+      "value": "#f9faf7",
+      "role": "Inputs and subtle surface wash"
+    },
+    "inkBlack": {
+      "value": "#171717",
+      "role": "Strong foreground text"
+    },
+    "graphite": {
+      "value": "#2c2c2c",
+      "role": "Headlines and important body copy"
+    },
+    "charcoal": {
+      "value": "#444141",
+      "role": "Standard body text and UI labels"
+    },
+    "ash": {
+      "value": "#646464",
+      "role": "Muted helper text and subdued copy"
+    },
+    "fog": {
+      "value": "#b4b8b4",
+      "role": "Disabled states and tertiary borders"
+    },
+    "mist": {
+      "value": "#dee2de",
+      "role": "Green-tinted hairline borders"
+    },
+    "twilight": {
+      "value": "#282834",
+      "role": "Nav border, icon strokes, and neutral outlines"
+    },
+    "dusk": {
+      "value": "#1f1f29",
+      "role": "Rare filled dark button"
+    },
+    "signalBlue": {
+      "value": "#41a1cf",
+      "role": "Outlined action border, links, and small emphasis"
+    },
+    "cerulean": {
+      "value": "#0081c0",
+      "role": "Rare saturated atmospheric surface"
+    }
+  },
+  "font": {
+    "display": {
+      "family": "ppmondwest, Fraunces, Recoleta, GT Sectra, serif",
+      "weights": {
+        "regular": 400,
+        "medium": 500
+      },
+      "features": "\"liga\" 0"
+    },
+    "ui": {
+      "family": "af, Inter, Geist, Sohne, system-ui, sans-serif",
+      "weights": {
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      }
+    }
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "13px",
+      "fontWeight": 500,
+      "lineHeight": 1.3,
+      "letterSpacing": "-0.13px",
+      "font": "ui"
+    },
+    "bodySm": {
+      "fontSize": "15px",
+      "fontWeight": 500,
+      "lineHeight": 1,
+      "letterSpacing": "-0.15px",
+      "font": "ui"
+    },
+    "body": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "-0.16px",
+      "font": "ui"
+    },
+    "subheading": {
+      "fontSize": "18px",
+      "fontWeight": 500,
+      "lineHeight": 1.3,
+      "letterSpacing": "-0.18px",
+      "font": "ui"
+    },
+    "headingSm": {
+      "fontSize": "27px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "-1.08px",
+      "font": "display"
+    },
+    "heading": {
+      "fontSize": "40px",
+      "fontWeight": 500,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.8px",
+      "font": "display"
+    },
+    "headingLg": {
+      "fontSize": "48px",
+      "fontWeight": 500,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.96px",
+      "font": "display"
+    },
+    "display": {
+      "fontSize": "54px",
+      "fontWeight": 400,
+      "lineHeight": 1.1,
+      "letterSpacing": "-1.08px",
+      "font": "display"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "unit": "4px",
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "48": "48px",
+    "64": "64px",
+    "80": "80px",
+    "maxWidth": "1200px",
+    "sectionGap": "32px to 64px",
+    "editorialGap": "64px to 96px",
+    "cardPadding": "16px",
+    "elementGap": "8px to 12px"
+  },
+  "radius": {
+    "buttonSmall": "4px",
+    "button": "8px",
+    "card": "12px",
+    "cardLarge": "16px",
+    "largeSurface": "24px",
+    "navPill": "50px"
+  },
+  "shadows": {
+    "nav": "rgba(0, 0, 0, 0.15) 0px 2px 6px 0px",
+    "card": "rgba(0, 0, 0, 0.08) 0px 1px 1px 0px, rgba(0, 0, 0, 0.08) 0px 4px 5px 0px",
+    "border": "rgb(222, 226, 222) 0px 0px 0px 1px",
+    "atmospheric": "rgba(0, 0, 0, 0.06) 0px 2px 2px 0px, rgba(0, 0, 0, 0.04) 0px 0px 0px 5px",
+    "diagram": "rgba(0, 0, 0, 0.05) 0px 1px 8px 0px",
+    "rule": "Do not use shadows on buttons."
+  },
+  "imagery": {
+    "primary": "Hand-painted atmospheric digital illustration",
+    "subjects": ["moonlit skyline", "wildflower meadow", "warm field", "pixel-art flower"],
+    "avoid": ["stock photography", "product screenshot collage", "glossy 3D", "generic vector art"]
+  }
+}
+

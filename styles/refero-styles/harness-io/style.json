@@ -1,0 +1,152 @@
+{
+  "id": "6f3652cf-583f-411d-a117-3a03f6342917",
+  "name": "Harness.io",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/6f3652cf-583f-411d-a117-3a03f6342917",
+  "referenceUrl": "https://gitness.com",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Midnight DevOps mission control with near-black stacked surfaces, light card borders, Calsans instrument-panel headings, Geist UI copy, pill controls, and a rationed phosphor mint accent.",
+  "bestFor": [
+    "DevOps platforms",
+    "Git hosting",
+    "CI/CD dashboards",
+    "developer infrastructure",
+    "security tooling",
+    "observability tools",
+    "dark admin consoles"
+  ],
+  "tags": [
+    "dark",
+    "devops",
+    "mission-control",
+    "git-hosting",
+    "phosphor-mint",
+    "light-borders",
+    "calsans",
+    "geist",
+    "pill-controls",
+    "dark-cards",
+    "3d-product-visual"
+  ],
+  "colors": {
+    "voidCanvas": { "value": "#070707", "token": "--color-void-canvas", "role": "Page background and deepest surface." },
+    "carbonPlate": { "value": "#0d0e12", "token": "--color-carbon-plate", "role": "Primary card surface and main elevated panel." },
+    "obsidian": { "value": "#141418", "token": "--color-obsidian", "role": "Secondary card surface, code blocks, and nested panels." },
+    "steelBorder": { "value": "#22222a", "token": "--color-steel-border", "role": "Structural borders, button outlines on dark, and nav separators." },
+    "ironEdge": { "value": "#2e3038", "token": "--color-iron-edge", "role": "Mid-tier surface, dividers, and hover overlays." },
+    "cinder": { "value": "#60606c", "token": "--color-cinder", "role": "Deep muted text, low-priority links, and idle icons." },
+    "slateMute": { "value": "#a2a4a9", "token": "--color-slate-mute", "role": "Nav borders, inactive nav text, and chrome dividers." },
+    "graphite": { "value": "#aeaeb7", "token": "--color-graphite", "role": "Tertiary body text, subdued labels, and disabled-ish states." },
+    "ash": { "value": "#c8cad0", "token": "--color-ash", "role": "Secondary body text, muted descriptions, and helper text." },
+    "fog": { "value": "#d9dae5", "token": "--color-fog", "role": "Light card hairline borders on dark surfaces." },
+    "cloudMist": { "value": "#f0f0f0", "token": "--color-cloud-mist", "role": "Secondary light text, soft fills, and muted highlights." },
+    "pureWhite": { "value": "#ffffff", "token": "--color-pure-white", "role": "Primary text, primary pill fill, and icon strokes." },
+    "phosphorMint": { "value": "#70dcd3", "token": "--color-phosphor-mint", "role": "Accent card fill and highlight surfaces; one per viewport." },
+    "signalBlue": { "value": "#0092e4", "token": "--color-signal-blue", "role": "Link borders, active links, and focus accents." },
+    "currentBlue": { "value": "#00ade4", "token": "--color-current-blue", "role": "Active nav state, selected menu item, and current-page indicator." },
+    "deepSignal": { "value": "#0677d4", "token": "--color-deep-signal", "role": "Input focus border, form active state, and info stroke." },
+    "iceBlue": { "value": "#a6e5f2", "token": "--color-ice-blue", "role": "Decorative soft borders and light accent strokes on cards." },
+    "verdantEdge": { "value": "#75ae4c", "token": "--color-verdant-edge", "role": "Outlined action borders, linked labels, and lightweight green emphasis." },
+    "steelIris": { "value": "#929dbd", "token": "--color-steel-iris", "role": "Cool blue-gray card borders and secondary outlines." }
+  },
+  "typography": {
+    "families": {
+      "display": "Calsans",
+      "body": "Geist",
+      "legacy": "Helvetica"
+    },
+    "fallbacks": {
+      "display": "Space Grotesk, Inter, system-ui, sans-serif",
+      "body": "Inter, system-ui, sans-serif",
+      "legacy": "Arial, system-ui, sans-serif"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "rules": [
+      "Use Calsans-style type for display and headings.",
+      "Use positive 0.056em tracking on Calsans at all sizes.",
+      "Do not apply negative tracking to Calsans.",
+      "Use Geist for body, navigation, buttons, forms, badges, activity rows, and metadata.",
+      "Keep body text around 16px, weight 400, line-height 1.5."
+    ],
+    "scale": {
+      "caption": { "size": "12px", "lineHeight": 1.22, "letterSpacing": "0.5px", "token": "--text-caption" },
+      "bodySm": { "size": "14px", "lineHeight": 1.44, "letterSpacing": "0.25px", "token": "--text-body-sm" },
+      "body": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "0.27px", "token": "--text-body" },
+      "subheading": { "size": "20px", "lineHeight": 1.5, "letterSpacing": "-0.34px", "token": "--text-subheading" },
+      "headingSm": { "size": "32px", "lineHeight": 1.1, "letterSpacing": "1.8px", "token": "--text-heading-sm" },
+      "heading": { "size": "56px", "lineHeight": 1.1, "letterSpacing": "3.1px", "token": "--text-heading" },
+      "headingLg": { "size": "72px", "lineHeight": 1, "letterSpacing": "4px", "token": "--text-heading-lg" },
+      "display": { "size": "88px", "lineHeight": 0.96, "letterSpacing": "4.9px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "8px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scale": {
+      "8": "8px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "56": "56px",
+      "80": "80px"
+    }
+  },
+  "radii": {
+    "inputs": "5px",
+    "nestedCards": "16px",
+    "cards": "20px",
+    "badges": "800px",
+    "buttons": "800px"
+  },
+  "shadows": {
+    "none": "none",
+    "filledPill": "rgba(0, 0, 0, 0.05) 2px 2px 0px 0px, rgb(255, 255, 255) 0px -1px 0px 0px inset, rgb(255, 255, 255) 1px 0px 0px 0px inset, rgb(255, 255, 255) -1px 0px 0px 0px inset, rgb(255, 255, 255) 0px 1px 0px 0px inset",
+    "input": "rgba(0, 0, 0, 0.05) 2px 2px 0px 0px"
+  },
+  "components": [
+    { "name": "Hero Headline", "recipe": "Calsans 88px/300, Pure White, line-height 0.96, 0.056em tracking, optional Phosphor Mint opening phrase." },
+    { "name": "Filled Pill Button", "recipe": "Pure White fill, Void Canvas text, 800px radius, 12px by 24px padding, Geist 16px/500." },
+    { "name": "Ghost Pill Button", "recipe": "Transparent fill, 1px Pure White border, Pure White text, 800px radius, 12px by 24px padding, Geist 16px/400." },
+    { "name": "Dark Surface Card", "recipe": "Carbon Plate fill, 1px Fog border, 20px radius, 24px padding, no shadow." },
+    { "name": "Phosphor Accent Card", "recipe": "Phosphor Mint fill, 20px radius, 24px padding, optional Fog border, used at most once per viewport." },
+    { "name": "Code Surface", "recipe": "Obsidian fill, 16px radius, 16px to 20px padding, code-like Geist 13px to 14px, nested inside a dark card." },
+    { "name": "Navigation Bar", "recipe": "Void Canvas background, about 64px height, logo left, centered Geist 14px links, right-side contact and filled pill CTA." },
+    { "name": "Activity Row", "recipe": "Avatar, commit/PR message, metadata, status dot, 10px vertical padding, Iron Edge divider." },
+    { "name": "Input Field", "recipe": "Carbon Plate fill, Iron Edge border at rest, Deep Signal focus border, 5px radius, 12px padding, Geist 14px." },
+    { "name": "Status Badge", "recipe": "Outlined 800px pill, 2px by 8px padding, Geist 11px to 12px with wide tracking." },
+    { "name": "Section Header", "recipe": "Uppercase Geist 12px eyebrow in Ice Blue or Steel Iris followed by Calsans 56px/300 heading." },
+    { "name": "3D Product Visual Block", "recipe": "Dark rendered object or light-ribbon visual on a dark gradient ground, bleeding into Void Canvas." },
+    { "name": "Footer Link Column", "recipe": "Geist 14px/500 Pure White heading, 13px to 14px Graphite links, 8px to 16px gaps." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Calsans for all headlines at 56px or larger with positive 0.056em tracking.",
+      "Define card edges with 1px Fog light borders.",
+      "Use the filled white pill as the single primary action.",
+      "Apply Phosphor Mint to no more than one card or panel per viewport.",
+      "Use 20px card radius and 800px pill controls.",
+      "Keep body text at Geist 16px/400 with slight positive tracking.",
+      "Stack dark surfaces upward from Void Canvas to Carbon Plate to Obsidian."
+    ],
+    "dont": [
+      "Do not use drop shadows on cards or panels.",
+      "Do not fill buttons with color; only the primary white pill is filled.",
+      "Do not use multiple accent colors in one section.",
+      "Do not set body text below 14px or above 18px.",
+      "Do not apply negative letter-spacing to Calsans.",
+      "Do not use dark borders on cards.",
+      "Do not break the dark theme with light sections."
+    ]
+  }
+}

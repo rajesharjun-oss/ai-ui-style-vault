@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-stykka-white: #ffffff;
+  --color-stykka-black: #000000;
+  --color-stykka-plate: #f3f3f3;
+
+  --font-stykka-sans: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-stykka-mono: "Azeret Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+
+  --spacing-stykka-base: 10px;
+  --spacing-stykka-section: 80px;
+  --spacing-stykka-gap: 10px;
+  --spacing-stykka-gutter: 15px;
+
+  --radius-stykka-image: 0px;
+  --radius-stykka-button: 8px;
+
+  --text-stykka-caption: 11px;
+  --text-stykka-caption--line-height: 1.2;
+  --text-stykka-label: 14px;
+  --text-stykka-label--line-height: 1.25;
+  --text-stykka-body: 16px;
+  --text-stykka-body--line-height: 1.5;
+  --text-stykka-heading: 30px;
+  --text-stykka-heading--line-height: 1.1;
+  --text-stykka-display: 46px;
+  --text-stykka-display--line-height: 1.05;
+}
+
+@utility stykka-rail {
+  width: min(100% - 40px, 1280px);
+  margin-inline: auto;
+}
+
+@utility stykka-display {
+  font-family: var(--font-stykka-sans);
+  font-size: var(--text-stykka-display);
+  line-height: 1.05;
+  letter-spacing: -1.93px;
+  font-weight: 400;
+}
+
+@utility stykka-label {
+  font-family: var(--font-stykka-sans);
+  font-size: var(--text-stykka-label);
+  line-height: 1.25;
+  letter-spacing: 0.29px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@utility stykka-outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 18px;
+  border: 1px solid var(--color-stykka-black);
+  border-radius: var(--radius-stykka-button);
+  background: transparent;
+  color: var(--color-stykka-black);
+  font-family: var(--font-stykka-sans);
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+@utility stykka-outline-button-hover {
+  background: var(--color-stykka-black);
+  color: var(--color-stykka-white);
+}
+

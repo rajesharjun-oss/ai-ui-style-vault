@@ -1,0 +1,61 @@
+@theme {
+  --color-void-black: #000000;
+  --color-carbon-card: #050607;
+  --color-graphite: #333333;
+  --color-steel-gray: #808080;
+  --color-ash-gray: #b3b3b3;
+  --color-bone-white: #e8eaee;
+  --color-ghost-white: #ffffff;
+  --color-lavender-pulse: #9984d8;
+  --color-mint-signal: #3fcb7f;
+
+  --font-inter: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Alpha Lyrae", "Cormorant Garamond", "EB Garamond", "PT Serif", serif;
+  --font-quote: "Iowan Old Style", "Source Serif Pro", Lora, Palatino, serif;
+
+  --text-caption: 12px;
+  --text-caption--line-height: 1.5;
+  --text-caption--letter-spacing: -0.36px;
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 1.43;
+  --text-body-sm--letter-spacing: -0.42px;
+  --text-body: 16px;
+  --text-body--line-height: 1.5;
+  --text-body--letter-spacing: -0.48px;
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 1.56;
+  --text-body-lg--letter-spacing: -0.54px;
+  --text-subheading: 24px;
+  --text-subheading--line-height: 1.25;
+  --text-subheading--letter-spacing: -0.6px;
+  --text-heading-sm: 30px;
+  --text-heading-sm--line-height: 1.2;
+  --text-heading-sm--letter-spacing: -0.9px;
+  --text-heading: 34px;
+  --text-heading--line-height: 1.2;
+  --text-heading--letter-spacing: -1.02px;
+  --text-display: 48px;
+  --text-display--line-height: 1;
+  --text-display--letter-spacing: 0;
+
+  --radius-sm: 1px;
+  --radius-md: 6px;
+  --radius-2xl: 16px;
+  --radius-full: 999px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-120: 120px;
+  --spacing-128: 128px;
+}

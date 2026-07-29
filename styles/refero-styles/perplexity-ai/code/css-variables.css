@@ -1,0 +1,132 @@
+:root {
+  /* Colors */
+  --color-parchment: #faf8f5;
+  --color-soft-paper: #fdfbfa;
+  --color-warm-mist: #d1d1cd;
+  --color-ash: #92918b;
+  --color-graphite: #72706b;
+  --color-ink: #27251e;
+  --color-pure-black: #000000;
+  --color-deep-teal: #016a71;
+
+  /* Typography */
+  --font-pplxsans: "pplxSans", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+
+  --text-caption: 11px;
+  --leading-caption: 1.43;
+  --text-body-sm: 12px;
+  --leading-body-sm: 1.43;
+  --text-body: 14px;
+  --leading-body: 1.43;
+  --text-body-lg: 16px;
+  --leading-body-lg: 1.43;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-32: 32px;
+
+  /* Layout */
+  --page-max-width: 900px;
+  --sidebar-width: 260px;
+  --search-width: 640px;
+  --section-gap: 32px;
+  --card-padding: 16px;
+  --element-gap: 8px;
+
+  /* Border Radius */
+  --radius-md: 6px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-full: 9999px;
+  --radius-cards: 16px;
+  --radius-chips: 9999px;
+  --radius-inputs: 12px;
+  --radius-buttons: 6px;
+
+  /* Shadows */
+  --shadow-subtle: rgba(0, 0, 0, 0.08) 0px 1px 2px 0px;
+
+  /* Surfaces */
+  --surface-page-canvas: #faf8f5;
+  --surface-card-surface: #fdfbfa;
+  --surface-active-nav: #016a71;
+  --surface-button-fill: #27251e;
+}
+
+.perplexity-surface {
+  background: var(--surface-page-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-pplxsans);
+}
+
+.perplexity-main {
+  max-width: var(--page-max-width);
+  margin-inline: auto;
+}
+
+.perplexity-search {
+  width: min(100%, var(--search-width));
+  background: var(--color-parchment);
+  color: var(--color-ink);
+  border: 1px solid var(--color-warm-mist);
+  border-radius: var(--radius-inputs);
+  padding: var(--spacing-16);
+  font-family: var(--font-pplxsans);
+  font-size: var(--text-body-lg);
+  line-height: 1.5;
+}
+
+.perplexity-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-chips);
+  padding: var(--spacing-8) var(--spacing-12);
+  color: var(--color-ink);
+  background: transparent;
+  font-size: var(--text-body);
+}
+
+.perplexity-chip[data-active="true"] {
+  background: var(--color-deep-teal);
+  color: var(--color-parchment);
+}
+
+.perplexity-suggestion-card {
+  background: var(--color-soft-paper);
+  border-radius: var(--radius-cards);
+  padding: var(--spacing-12) var(--spacing-16);
+  box-shadow: var(--shadow-subtle);
+}
+
+.perplexity-ghost-button {
+  color: var(--color-graphite);
+  background: transparent;
+  border: 1px solid var(--color-warm-mist);
+  border-radius: var(--radius-buttons);
+  padding: var(--spacing-8) var(--spacing-12);
+  font-size: var(--text-body);
+}
+
+.perplexity-filled-button {
+  color: var(--color-parchment);
+  background: var(--color-ink);
+  border: 0;
+  border-radius: var(--radius-inputs);
+  padding: var(--spacing-8) var(--spacing-12);
+}
+
+.perplexity-badge {
+  color: var(--color-parchment);
+  background: var(--color-deep-teal);
+  border-radius: var(--radius-full);
+  padding: 2px var(--spacing-8);
+  font-size: var(--text-caption);
+  font-weight: var(--font-weight-medium);
+}
+

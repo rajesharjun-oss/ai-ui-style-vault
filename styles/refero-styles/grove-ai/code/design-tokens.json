@@ -1,0 +1,245 @@
+{
+    "name":  "Grove AI",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Forest Grove",
+                       "value":  "#0b835c",
+                       "token":  "--color-forest-grove",
+                       "role":  "Primary brand color used for the logo mark, the signature word in serif headlines, accent borders on tags and announcement pills, and small icon highlights. A deep, slightly desaturated green that reads as clinical and t..."
+                   },
+                   {
+                       "name":  "Pine Shadow",
+                       "value":  "#1c2b27",
+                       "token":  "--color-pine-shadow",
+                       "role":  "Secondary dark surface a near-black green-tinted shade for inverted buttons and dark surface moments where #000 would feel too harsh against the green accent"
+                   },
+                   {
+                       "name":  "Ink Black",
+                       "value":  "#1c1c1e",
+                       "token":  "--color-ink-black",
+                       "role":  "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Graphite",
+                       "value":  "#303033",
+                       "token":  "--color-graphite",
+                       "role":  "Secondary text and dividers a mid-dark gray for body copy de-emphasis, subtle borders, and metadata"
+                   },
+                   {
+                       "name":  "Slate Mid",
+                       "value":  "#676768",
+                       "token":  "--color-slate-mid",
+                       "role":  "Muted helper text, inactive labels, and tertiary metadata sits at a comfortable AA contrast against white"
+                   },
+                   {
+                       "name":  "Mist Gray",
+                       "value":  "#eff1f6",
+                       "token":  "--color-mist-gray",
+                       "role":  "Card surface and the only neutral fill color in the system. Creates a single elevated tier above the white canvas without introducing a new hue"
+                   },
+                   {
+                       "name":  "Pure White",
+                       "value":  "#ffffff",
+                       "token":  "--color-pure-white",
+                       "role":  "Page canvas, card-internal backgrounds, and inverse text on dark fills"
+                   },
+                   {
+                       "name":  "Shadow Smoke",
+                       "value":  "#bfbfbf",
+                       "token":  "--color-shadow-smoke",
+                       "role":  "Box-shadow base color for the soft elevation that sits behind cards and the floating product mockup on the right side of the hero"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "sans-serif sans-serif detected in extracted data but not described by AI `--font-sans-serif`",
+                                     "Libre Caslon Text Display serif used exclusively for hero-level headlines and the signature brand word. The italic-leaning contrast strokes give \"Grace\" and \"Meet\" a humanized, editorial voice that contrasts with the precise Geist below. The choice is anti-SaaS: most clinical-tech sites use a geometric sans for the hero; this serif makes the brand feel like a respected medical publication. `--font-libre-caslon-text`",
+                                     "Geist Primary interface and body typeface. Covers body copy (16/24px, 400), subheadings (1820px, 500), card titles (2024px, 600), and large stat numbers (3240px, 500/600). The negative letter-spacing tightens as size grows, creating density at body size and breathing room at display. `--font-geist`",
+                                     "Geist Mono Monospaced variant for code-like or technical callouts in body content where alignment matters. `--font-geist-mono`",
+                                     "Geist Medium Geist Medium detected in extracted data but not described by AI `--font-geist-medium`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "1.5",
+                                             "1.2px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "1.5",
+                                             "-0.28px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.5",
+                                             "-0.32px",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "20px",
+                                             "1.25",
+                                             "-0.4px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "24px",
+                                             "1.25",
+                                             "-0.6px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "32px",
+                                             "1.2",
+                                             "-0.9px",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "40px",
+                                             "1.2",
+                                             "-1.44px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "92px",
+                                             "1.2",
+                                             "-1.01px",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "36",
+                                      "36px",
+                                      "--spacing-36"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "48",
+                                      "48px",
+                                      "--spacing-48"
+                                  ],
+                                  [
+                                      "64",
+                                      "64px",
+                                      "--spacing-64"
+                                  ],
+                                  [
+                                      "72",
+                                      "72px",
+                                      "--spacing-72"
+                                  ],
+                                  [
+                                      "80",
+                                      "80px",
+                                      "--spacing-80"
+                                  ],
+                                  [
+                                      "96",
+                                      "96px",
+                                      "--spacing-96"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "24px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "10px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "tags",
+                      "9999px"
+                  ],
+                  [
+                      "cards",
+                      "20px"
+                  ],
+                  [
+                      "icons",
+                      "12px"
+                  ],
+                  [
+                      "inputs",
+                      "8px"
+                  ],
+                  [
+                      "buttons",
+                      "9999px"
+                  ],
+                  [
+                      "largeCards",
+                      "24px"
+                  ],
+                  [
+                      "testimonialCards",
+                      "20px"
+                  ]
+              ]
+}

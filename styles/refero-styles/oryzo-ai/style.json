@@ -1,0 +1,299 @@
+{
+ "id": "1f204e95-454a-437e-845b-c1b169d35607",
+ "name": "ORYZO AI",
+ "slug": "oryzo-ai",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1f204e95-454a-437e-845b-c1b169d35607",
+ "referenceSite": "https://oryzo.ai",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T00:11:38.351Z",
+ "articleModifiedAt": "2026-07-03T09:53:54.161Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/fdda13f1-2918-4f5a-8e08-94a080ab9d2e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/7fc35e4b-2cec-4bea-8dee-ea49ad6b42b1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2114af21-315a-4d2c-b703-d8e4dd91c252.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/90d7739d-fb2e-46a8-9483-6e2f66d7b806.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/6c446c82-1117-4dee-98f3-15bac18efceb.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/c997aca8-8af9-4f4d-870f-5b4e59e238f6.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Design",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Design",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Darkroom product editorial. A lone object floating in warm darkness, cream typography the only decoration.",
+ "summary": "Explore ORYZO AI\u0027s dark Design design system: Warm Cream #ffedd7, Walnut Shadow #100904 colors, halyard-display-variable, Arial typography, and DESIGN.md...",
+ "colors": [
+ {
+ "name": "Warm Cream",
+ "value": "#ffedd7",
+ "token": "--color-warm-cream",
+ "role": "Light text on dark surfaces, inverse labels, and high-contrast captions."
+ },
+ {
+ "name": "Walnut Shadow",
+ "value": "#100904",
+ "token": "--color-walnut-shadow",
+ "role": "Page canvas and deepest background - warm near-black, not pure black. The void behind every product reveal"
+ },
+ {
+ "name": "Bark Brown",
+ "value": "#382416",
+ "token": "--color-bark-brown",
+ "role": "Elevated surface and filled button background - the one chromatic step above the canvas, used for the single solid CTA"
+ },
+ {
+ "name": "Cork Border",
+ "value": "#40372e",
+ "token": "--color-cork-border",
+ "role": "Hairline dividers, dashed section separators, subtle container borders - warmer than the canvas by one step"
+ },
+ {
+ "name": "Driftwood",
+ "value": "#6c5f51",
+ "token": "--color-driftwood",
+ "role": "Mid-tone warm gray for secondary dividers and muted structural elements - the bridge between Bark and Cream"
+ },
+ {
+ "name": "Ember Accent",
+ "value": "#dc5000",
+ "token": "--color-ember-accent",
+ "role": "Orange text accent for links, tags, and emphasized short phrases."
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "SVG icon fills and decorative vector elements only - never used as a background or text color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "halyard-display-variable",
+ "token": "--font-halyard-display-variable",
+ "role": "The only typeface. Weight 500 at 51px drives display headlines with extreme uppercase confidence; the same family at weight 400 / 29px becomes the system\u0027s sole mixed-case body voice. Letter-spacing stays normal - the geometric forms do the work without tightening. Substitute: \u0027Inter\u0027, \u0027Sohne\u0027, or \u0027Neue Haas Grotesk\u0027 for close structural match."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "System fallback for micro-legal labels (8px uppercase credits like \"* ADOBE ILLUSTRATOR\"). Not a design choice - a necessity for system-rendered disclaimers."
+ }
+ ],
+ "typeScale": [
+ [
+ "subheading",
+ "18px",
+ "1",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.09",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "body",
+ "29px",
+ "1.26",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "41px",
+ "0.9",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "51px",
+ "0.9",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "24px",
+ "elementGap": "18px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "31",
+ "31px",
+ "`--spacing-31`"
+ ],
+ [
+ "41",
+ "41px",
+ "`--spacing-41`"
+ ],
+ [
+ "45",
+ "45px",
+ "`--spacing-45`"
+ ],
+ [
+ "68",
+ "68px",
+ "`--spacing-68`"
+ ],
+ [
+ "204",
+ "204px",
+ "`--spacing-204`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "full-round",
+ "9999px"
+ ],
+ [
+ "buttons-pill",
+ "36px"
+ ],
+ [
+ "buttons-outlined",
+ "22.5px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Pill Button (Filled)",
+ "role": "Primary solid CTA - used once on the page for the Lusion studio link"
+ },
+ {
+ "name": "Outlined Ghost Button",
+ "role": "Secondary action or decorative button - cream border on transparent fill"
+ },
+ {
+ "name": "Underline Text Link",
+ "role": "Inline links and navigation items - borderless, relying on underline"
+ },
+ {
+ "name": "Input Field (Underline Only)",
+ "role": "Minimal form input - bottom border only, no full outline"
+ },
+ {
+ "name": "Fixed Top Navigation",
+ "role": "Persistent site navigation - minimal, 4 items, uppercase micro-type"
+ },
+ {
+ "name": "Vertical Sidebar Label",
+ "role": "Edge branding - vertical text running down the right margin"
+ },
+ {
+ "name": "Logo Wordmark",
+ "role": "Brand identifier - the only graphical mark"
+ },
+ {
+ "name": "Hero Overlay Info Card",
+ "role": "Semi-transparent attribution card in the hero"
+ },
+ {
+ "name": "Product Reveal Section",
+ "role": "Full-viewport void-mode section - centered 3D render with flanking text"
+ },
+ {
+ "name": "Section Divider (Dashed Hairline)",
+ "role": "Visual separator between content blocks"
+ },
+ {
+ "name": "Video Thumbnail Card",
+ "role": "Embedded video preview with play indicator"
+ },
+ {
+ "name": "Legal/Disclaimer Text",
+ "role": "System-rendered micro-copy in Arial 8px"
+ }
+ ],
+ "dos": [
+ "Set all UI text in #ffedd7 (Warm Cream) - never use pure #fff; the warm tint is the system\u0027s signature.",
+ "Use #dc5000 (Ember) only for credit lines, the \"Built by\" label, and the Lusion studio link - a single accent earns its rarity through restraint.",
+ "Set type in uppercase weight 500 across the entire interface; use weight 400 / mixed case only for the 29px body copy that explains the product.",
+ "Use 36px border-radius for the one filled CTA and 22.5px for outlined ghost buttons; 12px for cards; 0px for inputs and inline links - these four values are the entire radius vocabulary.",
+ "Set section gaps at 100vh - each section gets its own full viewport, never compress product reveals into bands.",
+ "Use 1px dashed lines in #40372 for section dividers; avoid solid dividers and avoid any divider thicker than 2px.",
+ "Center the 3D product render in every void-mode section with text flanking symmetrically left and right at 18px gutters."
+ ],
+ "donts": [
+ "Never use pure #fff for text or #000 for backgrounds - the warm cream and walnut shadow are the system; purity reads as wrong here.",
+ "Never apply #dc5000 to buttons, CTAs, or interactive surfaces - the orange is editorial credit only.",
+ "Never use lowercase or sentence-case for headings, nav, or labels; the only mixed-case text is the 29px body description.",
+ "Never add drop shadows to cards, buttons, or sections - depth comes from the two-step surface stack (#100904 #382416), not from blur.",
+ "Never use border-radius below 12px on containers - the geometry is deliberately chunky, not sharp.",
+ "Never use more than one filled button per section; restraint is the design language.",
+ "Never center-align body copy - headings and body text are always left-aligned, even when flanking a centered image."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Walnut Shadow | `#100904` | Full-bleed page canvas and section background |\n| 1 | Bark Brown | `#382416` | Filled button surface, the only elevated solid |\n| 2 | Cork Border | `#40372` | Hairline borders, dashed dividers, card outlines |\n| 3 | Warm Cream | `#ffedd7` | Foreground text, navigation, interactive borders |",
+ "elevation": "The system rejects shadow-based elevation entirely. Depth is achieved through a two-step surface stack: #100904 (canvas) #382416 (elevated solid). There are no blur, no offset, no opacity-based shadows - only a 1-2 value luminance step. This keeps the interface flat and editorial, letting the 3D product renders provide all visual depth in void-mode sections.",
+ "imagery": "Photography is editorial, top-down, and in-context: the cork coaster sits on a green cutting mat surrounded by pencils, a craft knife, and a paperclip - tools of the craft visible in frame. The green cutting mat (#445231) is a hero-only element, not a UI token. 3D renders dominate the product reveal sections: the cork coaster is shown isolated against Walnut Shadow, lit from the upper right with a warm rim light, rotating from top-down to 3/4 angle between sections. No lifestyle photography, no people, no stock imagery - the object is the hero and the tools are its context. Images are full-bleed, sharp-edged (no rounded masks), and treated with high contrast and warm grading.",
+ "layout": "Full-bleed throughout - no max-width container, every section spans 100vw. Hero: full-viewport top-down photograph with a massive ORYZO wordmark (51px+) in the upper-left, tagline above, fixed minimal nav upper-right, vertical sidebar label running down the right edge, semi-transparent info card lower-left, video thumbnail lower-right. Subsequent sections: full-viewport Walnut Shadow canvas with a centered 3D product render flanked by left-aligned heading and right-aligned body copy - a three-column grid (text / object / text) with generous 18px gutters. Section transitions are seamless dark-on-dark; the only breaks are hairline dashed dividers. Navigation is fixed, transparent, and 4 items max. No sidebar, no footer chrome, no cards-within-cards - every screen is a single statement."
+}

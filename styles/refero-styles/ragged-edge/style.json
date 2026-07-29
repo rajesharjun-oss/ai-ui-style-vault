@@ -1,0 +1,303 @@
+{
+    "id":  "fdc0f631-442c-466d-ab79-e1fff2bfdb7d",
+    "name":  "Ragged Edge",
+    "slug":  "ragged-edge",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/fdc0f631-442c-466d-ab79-e1fff2bfdb7d",
+                   "referenceSite":  "https://raggededge.com",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-04-30T00:35:49.924Z",
+                   "articleModifiedAt":  "2026-06-05T09:31:23.055Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/f939b18e-9001-41e6-897b-dca5a37ea7cc.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/27b1b32a-e58d-4585-8789-d3e5a4e62de7.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/a065262e-0651-4319-a7b0-940d62343d84.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/238254b4-de80-4f53-afe2-867ca15fe0b8.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/f3d30b30-c914-45bc-9515-6021d8c79860.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "Agency",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "Agency",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Editorial brutalism on white marble. Imagine Vogue\u0027s typographic confidence merged with a Berlin gallery\u0027s color restraint all ink and air, with one burst of color used as exclamation, never decoration.",
+    "summary":  "Explore Ragged Edge\u0027s light Agency design system: Obsidian Ink #181f1f, Paper White #ffffff colors, ABCDiatypeExpanded-Bold, Grit-Regular typography, and...",
+    "colors":  [
+                   {
+                       "name":  "Obsidian Ink",
+                       "value":  "#181f1f",
+                       "token":  "--color-obsidian-ink",
+                       "role":  "Primary text, hairline borders, filled action buttons the dominant near-black that carries 90% of the interface"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Canvas background, inverted text on dark blocks, nav/button borders"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#d1d2d2",
+                       "token":  "--color-fog",
+                       "role":  "Subtle dividers and secondary borders where Obsidian would be too heavy"
+                   },
+                   {
+                       "name":  "Ash",
+                       "value":  "#a3a5a5",
+                       "token":  "--color-ash",
+                       "role":  "Muted helper text, inactive button borders, secondary metadata"
+                   },
+                   {
+                       "name":  "Graphite",
+                       "value":  "#374151",
+                       "token":  "--color-graphite",
+                       "role":  "Secondary body text and subtle icon strokes where a lighter black is needed"
+                   },
+                   {
+                       "name":  "True Black",
+                       "value":  "#000000",
+                       "token":  "--color-true-black",
+                       "role":  "Navigation dividers and surface backing for select blocks"
+                   },
+                   {
+                       "name":  "Mint Wash",
+                       "value":  "#eaf7f3",
+                       "token":  "--color-mint-wash",
+                       "role":  "Soft tinted surface for nav backgrounds and breathing sections barely-there green to warm the white canvas"
+                   },
+                   {
+                       "name":  "Deep Teal",
+                       "value":  "#1f3233",
+                       "token":  "--color-deep-teal",
+                       "role":  "Dark surface blocks for case study framing and image-overlay panels"
+                   },
+                   {
+                       "name":  "Iris Voltage",
+                       "value":  "#516fea",
+                       "token":  "--color-iris-voltage",
+                       "role":  "Outlined action border only the sole chromatic accent; appears as a violet ring around secondary call-to-action buttons against monochrome surroundings"
+                   },
+                   {
+                       "name":  "Solar Bloom",
+                       "value":  "linear-gradient(0deg, rgba(255, 194, 64, 0), rgb(255, 194, 64) 25%, rgb(255, 196, 244) 50%, rgb(150, 235, 235) 75%, rgba(150, 235, 235, 0) 100%)",
+                       "token":  "--color-solar-bloom",
+                       "role":  "Hero gradient stop warm yellow anchoring the top of the full-bleed gradient wash"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "ABCDiatypeExpanded-Bold Display, brand logo, section headings, project titles, and nav labels. The extremely wide expanded letterforms (letter-spacing -0.02em at 7882px) are the signature element uppercase, never set small under 10px, and reserved for moments that demand visual weight. The 7882px sizes fill the full width of the hero canvas. Weight stays at 400 because the expansion provides all the weight needed; going bolder would distort the geometric proportions. `--font-abcdiatypeexpanded-bold`",
+                                     "Grit-Regular All body copy, paragraph text, descriptions, and mid-weight headings. A contemporary serif with subtle texture provides editorial gravitas against the expanded display sans. Weight 400 for running text, 500 for emphasized phrases and sub-headings. The 56px size with 1.25 line-height creates dramatic editorial pull-quotes. Pairs with ABCDiatypeExpanded by contrasting serif warmth against geometric coldness. `--font-grit-regular`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "10px",
+                                             "1.2",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "1.43",
+                                             "",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.5",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "20px",
+                                             "1.25",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading",
+                                             "30px",
+                                             "1.2",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "40px",
+                                             "1.15",
+                                             "-0.4px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "56px",
+                                             "1.25",
+                                             "-0.56px",
+                                             "--text-display"
+                                         ],
+                                         [
+                                             "hero",
+                                             "80px",
+                                             "1.1",
+                                             "-1.6px",
+                                             "--text-hero"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "64",
+                                      "64px",
+                                      "--spacing-64"
+                                  ],
+                                  [
+                                      "80",
+                                      "80px",
+                                      "--spacing-80"
+                                  ],
+                                  [
+                                      "180",
+                                      "180px",
+                                      "--spacing-180"
+                                  ],
+                                  [
+                                      "200",
+                                      "200px",
+                                      "--spacing-200"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "180px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "32px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "16px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "nav",
+                                    "64px"
+                                ],
+                                [
+                                    "cards",
+                                    "40px"
+                                ],
+                                [
+                                    "inputs",
+                                    "54px"
+                                ],
+                                [
+                                    "buttons",
+                                    "64px"
+                                ],
+                                [
+                                    "body-blocks",
+                                    "40px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Hero Gradient Banner",
+                           "role":  "Full-viewport opening visual"
+                       },
+                       {
+                           "name":  "Pill Navigation Button",
+                           "role":  "Primary nav and utility navigation"
+                       },
+                       {
+                           "name":  "Outlined Accent Button",
+                           "role":  "Secondary call-to-action with chromatic distinction"
+                       },
+                       {
+                           "name":  "Editorial Headline",
+                           "role":  "Section-opening statement"
+                       },
+                       {
+                           "name":  "Case Study Split Block",
+                           "role":  "Project showcase with text-left, image-right layout"
+                       },
+                       {
+                           "name":  "Vertical Project Mark",
+                           "role":  "Overlaid image identity"
+                       },
+                       {
+                           "name":  "Image-Block Panel",
+                           "role":  "Full-bleed case study visual"
+                       },
+                       {
+                           "name":  "Section Divider",
+                           "role":  "Thin horizontal break between content bands"
+                       }
+                   ],
+    "dos":  [
+                "Use ABCDiatypeExpanded-Bold only at 10px or above; below that the expanded forms become illegible.",
+                "Pair Grit-Regular body text with ABCDiatypeExpanded-Bold headings never two serifs or two expanded sans in the same block.",
+                "Reserve the 180px section gap for major content divisions; use 80px for within-section breaks.",
+                "Apply the 64px radius to all nav and button surfaces; 4054px for body content blocks.",
+                "Use Iris Voltage (#516fea) only as a 1.5px border on outlined buttons never as a fill, never on text.",
+                "Let the hero gradient be the only colorful surface on any given page; all subsequent sections stay on white or mint.",
+                "Set hero display text at 7882px with -0.02em tracking to achieve the edge-to-edge brand mark effect."
+            ],
+    "donts":  [
+                  "Do not introduce additional accent colors the system is 98% monochrome; a second chromatic breaks the discipline.",
+                  "Do not apply box-shadows anywhere depth comes from surface tone shifts, not elevation.",
+                  "Do not use ABCDiatypeExpanded for body copy longer than 45 words; it is a display face, not a running-text face.",
+                  "Do not center body text blocks; editorial layouts read left-aligned with generous left margin.",
+                  "Do not use border-radius below 40px on any container sharp corners clash with the pill-button system.",
+                  "Do not place Iris Voltage on dark backgrounds; it loses its accent role against high-contrast surfaces.",
+                  "Do not set the hero gradient above 0deg orientation or stop count; the directional flow is part of the signature."
+              ]
+}

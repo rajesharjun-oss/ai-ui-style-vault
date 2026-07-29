@@ -1,0 +1,85 @@
+{
+  "name": "Compound",
+  "slug": "compound",
+  "source_url": "https://styles.refero.design/style/cd31ecdb-297a-4fc5-a727-05f835ff917f",
+  "style_id": "cd31ecdb-297a-4fc5-a727-05f835ff917f",
+  "reference_site": "https://withcompound.com/membership",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A quiet achromatic wealth-product style with white canvas, single-weight Monument Grotesk typography, cream announcement strip, black pill CTAs, 20px rounded cards, pale hairline borders, centered layout, and very soft four-layer shadows.",
+  "personality": [
+    "wealth",
+    "editorial",
+    "achromatic",
+    "quiet",
+    "spacious",
+    "trustworthy"
+  ],
+  "colors": {
+    "ink": "#171717",
+    "paper": "#ffffff",
+    "graphiteHairline": "#e5e7eb",
+    "vellum": "#f3f3f3",
+    "slate": "#6f6f6f",
+    "pewter": "#5e5e5e",
+    "ash": "#a0a0a0",
+    "carbon": "#222222",
+    "stone": "#c7c7c7",
+    "creamNotice": "#ffe9bf"
+  },
+  "typography": {
+    "primary": "Monument Grotesk, Inter, General Sans, Sohne, system-ui, sans-serif",
+    "weights": [400],
+    "sizesPx": [12, 13, 14, 16, 18, 36, 48, 58, 60, 72],
+    "features": "\"kern\"",
+    "rules": [
+      "Use one typeface only.",
+      "Use weight 400 everywhere.",
+      "Use scale jumps instead of boldness for hierarchy.",
+      "Do not introduce serif, mono, italic, or secondary fonts."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 8,
+    "maxWidthPx": 1200,
+    "sectionGapPx": 80,
+    "cardPaddingPx": 24,
+    "elementGapPx": 8,
+    "scalePx": [8, 16, 24, 32, 40, 48, 56, 64, 80, 112, 128, 160, 176]
+  },
+  "radius": {
+    "smallCardsPx": 8,
+    "cardsPx": 20,
+    "largeCardsPx": 24,
+    "listItemsPx": 28,
+    "buttonsPx": 9999,
+    "iconsPx": 9999
+  },
+  "components": [
+    "announcement bar",
+    "top navigation",
+    "filled pill button",
+    "ghost text link",
+    "product preview card",
+    "feature service card",
+    "publication logo card",
+    "section divider",
+    "hero display headline",
+    "circular icon container",
+    "stats metric row"
+  ],
+  "avoid": [
+    "new chromatic accents",
+    "additional typefaces",
+    "additional font weights",
+    "sharp corners",
+    "heavy shadows",
+    "full-surface colors beyond Paper, Vellum, and Cream Notice",
+    "section gaps below 64px",
+    "decorative colored strokes",
+    "photography",
+    "lifestyle imagery"
+  ]
+}
+

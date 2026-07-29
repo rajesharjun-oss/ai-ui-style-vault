@@ -1,0 +1,91 @@
+{
+  "name": "Factory",
+  "source": "Refero Styles",
+  "url": "https://styles.refero.design/style/13d6fc89-eba2-4724-ac37-20f4f2e5efec",
+  "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+  "colors": {
+    "obsidianCanvas": "#101010",
+    "carbonLift": "#1d1a18",
+    "ashStroke": "#3d3a39",
+    "graphiteMid": "#4d4947",
+    "warmGranite": "#8a8380",
+    "paleStone": "#b8b3b0",
+    "bone": "#eeeeee",
+    "chalk": "#fafafa",
+    "signalOrange": "#ee6018",
+    "metricGreen": "#a0ca92"
+  },
+  "surfaces": {
+    "obsidianCanvas": "#101010",
+    "carbonLift": "#1d1a18",
+    "boneCard": "#eeeeee",
+    "chalkElevated": "#fafafa"
+  },
+  "typography": {
+    "fonts": {
+      "geist": {
+        "token": "--font-geist",
+        "substitutes": ["Inter", "system-ui"],
+        "weights": [400, 500],
+        "role": "Most interface text, including body, headings, buttons, nav, hero, and product copy."
+      },
+      "geistMono": {
+        "token": "--font-geist-mono",
+        "substitutes": ["JetBrains Mono", "IBM Plex Mono", "ui-monospace"],
+        "weights": [400],
+        "role": "Uppercase labels, captions, status tags, metric units, and terminal-like headers."
+      }
+    },
+    "scale": {
+      "caption": { "size": "12px", "lineHeight": 1, "letterSpacing": "-0.24px" },
+      "bodySm": { "size": "14px", "lineHeight": 1.43, "letterSpacing": "normal" },
+      "body": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "normal" },
+      "heading": { "size": "36px", "lineHeight": 1.1, "letterSpacing": "-1.12px" },
+      "headingLg": { "size": "44px", "lineHeight": 1.12, "letterSpacing": "-1.1px" },
+      "display": { "size": "72px", "lineHeight": 1, "letterSpacing": "-2.88px" }
+    }
+  },
+  "spacing": {
+    "unit": "8px",
+    "density": "comfortable",
+    "scale": ["8px", "16px", "24px", "32px", "40px", "56px", "80px", "96px", "120px"],
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "96px",
+      "cardPadding": "24px",
+      "elementGap": "24px"
+    }
+  },
+  "radii": {
+    "nav": "3px",
+    "buttons": "3px",
+    "cards": "10px",
+    "largePanels": "20px"
+  },
+  "motion": {
+    "duration": "150ms-200ms",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "philosophy": "Short, mechanical, precise transitions. Avoid spring physics, parallax, and decorative motion."
+  },
+  "rules": {
+    "do": [
+      "Keep the page canvas #101010.",
+      "Use #eeeeee light cards as the main bright figure on dark ground.",
+      "Use Geist 400 by default.",
+      "Use Geist Mono 12px uppercase for labels, status tags, and headers.",
+      "Reserve orange and green for live data and status signals.",
+      "Use compact radii: 3px controls, 10px cards, 20px large panels.",
+      "Build depth through contrast, spacing, and hairline borders."
+    ],
+    "dont": [
+      "Do not introduce additional accent colors.",
+      "Do not use bold heading weights.",
+      "Do not use orange or green as button fills or card backgrounds.",
+      "Do not use line-height above 1.5.",
+      "Do not add drop shadows, glows, or blurs.",
+      "Do not mix in serif or decorative display typefaces.",
+      "Do not make the system soft with pill controls."
+    ]
+  }
+}
+

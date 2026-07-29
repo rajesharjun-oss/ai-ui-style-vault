@@ -1,0 +1,104 @@
+{
+  "id": "34d438ad-0647-471e-9a6f-7c1fa29d5df6",
+  "name": "Browserbase",
+  "slug": "browserbase",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/34d438ad-0647-471e-9a6f-7c1fa29d5df6",
+  "referenceSite": "https://www.browserbase.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "editorial developer tool",
+    "data terminal broadsheet",
+    "single orange punctuation",
+    "soft pastel technical cards",
+    "giant tracked-tight headlines"
+  ],
+  "summary": "A light developer-tool style that pairs oversized editorial display type with mono metadata, black pill actions, pastel content cards, and a single orange highlight color.",
+  "useWhen": [
+    "Developer tool landing pages",
+    "API product pages",
+    "AI infrastructure sites",
+    "Automation product marketing",
+    "Technical editorial interfaces"
+  ],
+  "avoidWhen": [
+    "Photo-heavy brand pages",
+    "Playful colorful consumer apps",
+    "Dense admin dashboards",
+    "Interfaces where orange must be the main CTA color",
+    "Classic enterprise SaaS layouts"
+  ],
+  "colors": {
+    "inkBlack": "#000000",
+    "paperWhite": "#ffffff",
+    "graphite": "#686562",
+    "signalOrange": "#ff4500",
+    "blueGrayMist": "#c5d3e8",
+    "skyTint": "#c4edff",
+    "lavenderMist": "#e2e9f3",
+    "faintSlate": "#f8fafc",
+    "creamWash": "#fffde6"
+  },
+  "typography": {
+    "display": {
+      "family": "gtPlanar",
+      "fallback": "GT America",
+      "weights": [400, 500],
+      "sizes": ["34px", "45px", "189px"],
+      "lineHeight": "1.00-1.15",
+      "letterSpacing": "-0.02em to -0.05em",
+      "fontFeatures": ["ss05"]
+    },
+    "plain": {
+      "family": "plain",
+      "fallback": "Inter",
+      "weights": [400, 500],
+      "sizes": ["16px", "24px"],
+      "lineHeight": "1.30-1.50",
+      "letterSpacing": "0.007em-0.01em"
+    },
+    "mono": {
+      "family": "gtStandardMono",
+      "fallback": "JetBrains Mono",
+      "weights": [400],
+      "sizes": ["14px"],
+      "lineHeight": "1.00-1.20",
+      "letterSpacing": "0.03em-0.06em"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "64px-96px",
+    "cardPadding": "16px-24px",
+    "elementGap": "8px-16px"
+  },
+  "shape": {
+    "cardRadius": "4px",
+    "buttonRadius": "50px",
+    "tagRadius": "999px",
+    "shadow": "none for normal cards",
+    "borders": "1px hairlines"
+  },
+  "components": [
+    "black primary pill button",
+    "ghost pill button",
+    "orange headline highlight",
+    "white navigation bar",
+    "lavender feature card",
+    "faint-slate logo card",
+    "blue-gray code card",
+    "browser window mockup",
+    "mono eyebrow label",
+    "orange footer band"
+  ],
+  "implementationRules": [
+    "Use black pill buttons for primary actions.",
+    "Use Signal Orange as typographic punctuation and footer color only.",
+    "Use pastel panels and borders for depth instead of shadows.",
+    "Use GT Planar-style display type with tight negative tracking.",
+    "Use 14px tracked mono labels for metadata.",
+    "Avoid photography; prefer pixel, terminal, code, and browser mockup imagery."
+  ]
+}

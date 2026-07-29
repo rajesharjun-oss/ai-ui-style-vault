@@ -1,0 +1,177 @@
+:root {
+  /* Colors */
+  --color-parchment: #d8cbb8;
+  --color-linen: #bfb4a3;
+  --color-warm-stone: #b6ab9c;
+  --color-walnut: #978e81;
+  --color-espresso: #615b53;
+  --color-onyx-warm: #2c2c2c;
+  --color-midnight-roast: #292622;
+  --color-saffron-glow: #d49653;
+
+  /* Typography */
+  --font-tt-ramillas-variable: "TT Ramillas Variable", "Cormorant Garamond", "Playfair Display", "DM Serif Display", serif;
+  --font-satoshi: Satoshi, Inter, "DM Sans", Manrope, system-ui, sans-serif;
+
+  --text-caption: 13px;
+  --leading-caption: 1.3;
+  --tracking-caption: -0.143px;
+  --text-body: 15px;
+  --leading-body: 1.4;
+  --tracking-body: -0.15px;
+  --text-body-lg: 26px;
+  --leading-body-lg: 1.2;
+  --tracking-body-lg: -0.156px;
+  --text-subheading: 42px;
+  --leading-subheading: 1;
+  --tracking-subheading: -1.68px;
+  --text-heading-sm: 50px;
+  --leading-heading-sm: 0.9;
+  --tracking-heading-sm: -1.5px;
+  --text-heading: 65px;
+  --leading-heading: 0.85;
+  --tracking-heading: -2.6px;
+  --text-heading-lg: 69px;
+  --leading-heading-lg: 0.9;
+  --tracking-heading-lg: -2.76px;
+  --text-display: 115px;
+  --leading-display: 0.8;
+  --tracking-display: -4.6px;
+
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-7: 7px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-17: 17px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-42: 42px;
+  --spacing-92: 92px;
+  --spacing-206: 206px;
+
+  /* Layout */
+  --page-max-width: 1440px;
+  --section-gap-min: 120px;
+  --section-gap-max: 160px;
+  --card-padding: 28px;
+  --element-gap-min: 12px;
+  --element-gap-max: 16px;
+
+  /* Radius */
+  --radius-cards: 0px;
+  --radius-sections: 0px;
+  --radius-images: 0px;
+  --radius-tags: 3px;
+  --radius-inputs: 3px;
+  --radius-buttons: 3px;
+}
+
+.amrit-shell {
+  background: var(--color-parchment);
+  color: var(--color-onyx-warm);
+  font-family: var(--font-satoshi);
+}
+
+.amrit-container {
+  max-width: var(--page-max-width);
+  margin-inline: auto;
+  padding-inline: var(--spacing-28);
+}
+
+.amrit-hero {
+  background-color: var(--color-midnight-roast);
+  color: var(--color-parchment);
+  min-height: 100vh;
+  position: relative;
+}
+
+.amrit-display {
+  color: inherit;
+  font-family: var(--font-tt-ramillas-variable);
+  font-size: clamp(56px, 9vw, var(--text-display));
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+  text-transform: uppercase;
+}
+
+.amrit-heading {
+  color: inherit;
+  font-family: var(--font-tt-ramillas-variable);
+  font-size: clamp(42px, 6vw, var(--text-heading-lg));
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--tracking-heading-lg);
+  line-height: var(--leading-heading-lg);
+  text-transform: uppercase;
+}
+
+.amrit-body {
+  color: var(--color-onyx-warm);
+  font-family: var(--font-satoshi);
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
+
+.amrit-button {
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-buttons);
+  color: inherit;
+  display: inline-flex;
+  font-family: var(--font-satoshi);
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  justify-content: center;
+  letter-spacing: -0.14px;
+  line-height: 1;
+  padding: var(--spacing-20) var(--spacing-28);
+  text-transform: uppercase;
+}
+
+.amrit-card {
+  background: var(--color-parchment);
+  border: 0;
+  border-radius: var(--radius-cards);
+  box-shadow: none;
+  padding: 52px var(--spacing-28) var(--spacing-32);
+}
+
+.amrit-star-row {
+  color: var(--color-saffron-glow);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.amrit-caption {
+  color: var(--color-walnut);
+  font-family: var(--font-satoshi);
+  font-size: var(--text-caption);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--tracking-caption);
+  line-height: var(--leading-caption);
+  text-transform: uppercase;
+}
+
+.amrit-divider {
+  border: 0;
+  border-top: 1px solid var(--color-warm-stone);
+}
+
+.amrit-image {
+  border-radius: var(--radius-images);
+  display: block;
+  width: 100%;
+}

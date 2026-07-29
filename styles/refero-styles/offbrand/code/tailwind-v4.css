@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --font-offbrand-primary: "Ataero Retina OB Edition", "Neue Haas Grotesk Display", Inter, "Suisse Intl", system-ui, sans-serif;
+
+  --color-offbrand-parchment: #e5e4e0;
+  --color-offbrand-ink: #1d1d1d;
+  --color-offbrand-paper: #ffffff;
+  --color-offbrand-ash: #bfbebe;
+  --color-offbrand-stone: #cdcdc9;
+
+  --text-offbrand-caption: 11px;
+  --leading-offbrand-caption: 1.4;
+  --tracking-offbrand-caption: 0.55px;
+  --text-offbrand-body-sm: 15px;
+  --leading-offbrand-body-sm: 1.4;
+  --tracking-offbrand-body-sm: 0.15px;
+  --text-offbrand-body: 18px;
+  --leading-offbrand-body: 1.4;
+  --tracking-offbrand-body: 0.23px;
+  --text-offbrand-subheading: 34px;
+  --leading-offbrand-subheading: 1;
+  --tracking-offbrand-subheading: 0.44px;
+  --text-offbrand-heading-sm: 46px;
+  --leading-offbrand-heading-sm: 1;
+  --tracking-offbrand-heading-sm: 0.6px;
+  --text-offbrand-heading: 70px;
+  --leading-offbrand-heading: 0.8;
+  --tracking-offbrand-heading: 0.91px;
+  --text-offbrand-heading-lg: 76px;
+  --leading-offbrand-heading-lg: 0.8;
+  --tracking-offbrand-heading-lg: 0.99px;
+  --text-offbrand-display: 103px;
+  --leading-offbrand-display: 0.8;
+  --tracking-offbrand-display: 1.34px;
+
+  --spacing-offbrand-5: 5px;
+  --spacing-offbrand-6: 6px;
+  --spacing-offbrand-8: 8px;
+  --spacing-offbrand-15: 15px;
+  --spacing-offbrand-19: 19px;
+  --spacing-offbrand-30: 30px;
+  --spacing-offbrand-32: 32px;
+  --spacing-offbrand-46: 46px;
+  --spacing-offbrand-76: 76px;
+  --spacing-offbrand-119: 119px;
+  --spacing-offbrand-max: 1400px;
+
+  --radius-offbrand-card: 0px;
+  --radius-offbrand-image: 0px;
+  --radius-offbrand-link: 10px;
+  --radius-offbrand-input: 10px;
+  --radius-offbrand-button: 10px;
+}
+
+@utility offbrand-container {
+  width: min(100% - 32px, var(--spacing-offbrand-max));
+  margin-inline: auto;
+}
+
+@utility offbrand-display {
+  color: var(--color-offbrand-ink);
+  font-family: var(--font-offbrand-primary);
+  font-size: clamp(56px, 8vw, var(--text-offbrand-display));
+  font-weight: 400;
+  line-height: var(--leading-offbrand-display);
+  letter-spacing: var(--tracking-offbrand-display);
+  text-transform: uppercase;
+}
+
+@utility offbrand-sphere {
+  border-radius: 9999px;
+  background: linear-gradient(255deg, rgb(250, 203, 14), rgb(240, 107, 168) 30%, rgb(120, 186, 230) 65%, rgb(255, 255, 255));
+  box-shadow: none;
+}
+
+@utility offbrand-work-card {
+  border-radius: 0;
+  background-color: var(--color-offbrand-paper);
+  background-image:
+    linear-gradient(var(--color-offbrand-parchment) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-offbrand-parchment) 1px, transparent 1px);
+  background-size: 24px 24px;
+  box-shadow: none;
+}
+
+@utility offbrand-section-label {
+  color: var(--color-offbrand-ink);
+  font-family: var(--font-offbrand-primary);
+  font-size: var(--text-offbrand-caption);
+  font-weight: 400;
+  line-height: var(--leading-offbrand-caption);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+

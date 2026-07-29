@@ -1,0 +1,93 @@
+{
+  "id": "15846be3-8df8-42e4-a05c-d9395dcec369",
+  "name": "Arva",
+  "slug": "arva",
+  "sourceUrl": "https://styles.refero.design/style/15846be3-8df8-42e4-a05c-d9395dcec369",
+  "referenceSite": "https://arva.com",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "pastoral editorial magazine spread on a cream field",
+  "industry": ["agriculture", "climate", "regenerative supply chains", "sustainability"],
+  "summary": "A warm agricultural editorial style with bone paper canvas, deep forest green structural bands, vivid lime marquee accents, Reckless serif headlines, Inter body and UI text, oversized pill controls, full-bleed field photography, and quilted pastel card rows.",
+  "colors": {
+    "forestInk": "#07503f",
+    "vividLime": "#e8fe85",
+    "bone": "#f1efdf",
+    "pureWhite": "#ffffff",
+    "ashGray": "#efefef",
+    "charcoal": "#212529",
+    "graphite": "#353535",
+    "pewter": "#6d6d6d",
+    "skyCard": "#b2cee7",
+    "peachCard": "#fceace",
+    "sageCard": "#e6ecd5",
+    "moss": "#c3cda7"
+  },
+  "typography": {
+    "sans": "Inter",
+    "sansFallback": "DM Sans, Helvetica, Arial",
+    "display": "Reckless",
+    "displayFallback": "Cormorant Garamond, GT Sectra, Source Serif Pro",
+    "displayLight": "RecklessLight",
+    "displayLightFallback": "Cormorant Garamond Light, Source Serif ExtraLight",
+    "interWeights": [100, 200, 300, 400, 500, 600],
+    "recklessWeights": [300, 500, 600],
+    "recklessLightWeights": [100, 300],
+    "displayTracking": "-2.96px at 80px",
+    "serifTracking": "-0.012em",
+    "smallCapsTracking": "0.025em to 0.029em"
+  },
+  "shape": {
+    "cardRadius": "20px",
+    "linkRadius": "26px",
+    "heroCardRadius": "30px",
+    "inputRadius": "33px",
+    "buttonRadius": "100px",
+    "navPillRadius": "110px"
+  },
+  "layout": {
+    "baseUnit": "5px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "50px",
+    "cardPadding": "30px",
+    "elementGap": "8px",
+    "model": "full-bleed stacked bands with centered 1200px inner content, lime marquee, forest header, full-photo hero, bone sections, forest interstitials, and pastel quilt card grids"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "none",
+    "depth": "surface color shifts, forest bands, pastel cards, and photography"
+  },
+  "components": [
+    "lime marquee strip",
+    "forest header bar",
+    "full-bleed photography hero",
+    "forest filled pill CTA",
+    "cream outline pill button",
+    "pastel quilt card",
+    "forest section banner",
+    "rounded input field",
+    "section divider header",
+    "partner logo card",
+    "forest footer"
+  ],
+  "dos": [
+    "Use Bone as the base canvas for light sections.",
+    "Use 100px pill radius for every button variant.",
+    "Pair Reckless headings with Inter body and UI text.",
+    "Keep Vivid Lime scarce and mostly reserved for the marquee.",
+    "Rotate pastel surfaces across card rows in an intentional sequence.",
+    "Use Forest Ink for header, footer, and full-width section bands.",
+    "Use warm full-bleed agricultural photography."
+  ],
+  "donts": [
+    "Do not use pure white as the page background.",
+    "Do not use small utility radii on buttons or cards.",
+    "Do not add saturated colors beyond Forest Ink and Vivid Lime.",
+    "Do not use Reckless below 24px or for body copy.",
+    "Do not add box shadows to cards.",
+    "Do not mix multiple pastel colors inside one card.",
+    "Do not center long body paragraphs."
+  ]
+}

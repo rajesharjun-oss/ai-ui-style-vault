@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --font-hungry-tiger-salmond: Salmond, "Druk Wide", Antonio, "Bebas Neue", Inter, sans-serif;
+  --font-hungry-tiger-graphikx: Graphikx, Inter, Geist, "Untitled Sans", sans-serif;
+
+  --color-hungry-tiger-tiger-gold: #faae33;
+  --color-hungry-tiger-ember-rust: #823513;
+  --color-hungry-tiger-saffron-glow: #9f531b;
+  --color-hungry-tiger-chili-red: #d1255c;
+  --color-hungry-tiger-charred-clove: #281006;
+  --color-hungry-tiger-dark-spice: #402011;
+  --color-hungry-tiger-cardamom-brown: #6b2e12;
+
+  --text-hungry-tiger-caption: 11px;
+  --leading-hungry-tiger-caption: 1.2;
+  --tracking-hungry-tiger-caption: 0.02em;
+  --text-hungry-tiger-micro: 13px;
+  --leading-hungry-tiger-micro: 1.3;
+  --tracking-hungry-tiger-micro: 0.01em;
+  --text-hungry-tiger-subheading: 18px;
+  --leading-hungry-tiger-subheading: 1.2;
+  --tracking-hungry-tiger-subheading: 0.01em;
+  --text-hungry-tiger-heading-sm: 29px;
+  --leading-hungry-tiger-heading-sm: 1.1;
+  --tracking-hungry-tiger-heading-sm: -0.005em;
+  --text-hungry-tiger-heading: 65px;
+  --leading-hungry-tiger-heading: 0.95;
+  --tracking-hungry-tiger-heading: -0.01em;
+  --text-hungry-tiger-heading-lg: 101px;
+  --leading-hungry-tiger-heading-lg: 0.9;
+  --tracking-hungry-tiger-heading-lg: -0.016em;
+  --text-hungry-tiger-display: 195px;
+  --leading-hungry-tiger-display: 0.8;
+  --tracking-hungry-tiger-display: -0.02em;
+
+  --spacing-hungry-tiger-4: 4px;
+  --spacing-hungry-tiger-6: 6px;
+  --spacing-hungry-tiger-8: 8px;
+  --spacing-hungry-tiger-9: 9px;
+  --spacing-hungry-tiger-10: 10px;
+  --spacing-hungry-tiger-12: 12px;
+  --spacing-hungry-tiger-14: 14px;
+  --spacing-hungry-tiger-16: 16px;
+  --spacing-hungry-tiger-17: 17px;
+  --spacing-hungry-tiger-20: 20px;
+  --spacing-hungry-tiger-24: 24px;
+  --spacing-hungry-tiger-26: 26px;
+  --spacing-hungry-tiger-28: 28px;
+  --spacing-hungry-tiger-32: 32px;
+  --spacing-hungry-tiger-42: 42px;
+  --spacing-hungry-tiger-80: 80px;
+  --spacing-hungry-tiger-120: 120px;
+  --spacing-hungry-tiger-192: 192px;
+  --spacing-hungry-tiger-max: 1440px;
+
+  --radius-hungry-tiger-card: 6px;
+  --radius-hungry-tiger-pill: 9999px;
+}
+
+@utility hungry-tiger-container {
+  width: min(100% - 32px, var(--spacing-hungry-tiger-max));
+  margin-inline: auto;
+}
+
+@utility hungry-tiger-display {
+  color: var(--color-hungry-tiger-tiger-gold);
+  font-family: var(--font-hungry-tiger-salmond);
+  font-size: clamp(72px, 14vw, var(--text-hungry-tiger-display));
+  font-weight: 700;
+  line-height: var(--leading-hungry-tiger-display);
+  letter-spacing: var(--tracking-hungry-tiger-display);
+  text-transform: uppercase;
+}
+
+@utility hungry-tiger-pill {
+  border-radius: var(--radius-hungry-tiger-pill);
+}
+
+@utility hungry-tiger-card {
+  border-radius: var(--radius-hungry-tiger-card);
+  background: var(--color-hungry-tiger-dark-spice);
+  box-shadow: none;
+}
+
+@utility hungry-tiger-divider {
+  border-top: 1px dotted var(--color-hungry-tiger-tiger-gold);
+}
+

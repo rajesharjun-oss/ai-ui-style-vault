@@ -1,0 +1,219 @@
+:root {
+  --visitors-carbon: #181925;
+  --visitors-paper-white: #ffffff;
+  --visitors-linen: #fafafa;
+  --visitors-mist: #f5f5f5;
+  --visitors-fog: #e8e8e8;
+  --visitors-ash: #999999;
+  --visitors-graphite: #666666;
+  --visitors-lavender: #918df6;
+  --visitors-iris: #9580ff;
+  --visitors-mint: #33c758;
+  --visitors-mint-wash: #def6e4;
+  --visitors-amber: #ffa600;
+  --visitors-sky: #2c78fc;
+  --visitors-magenta: #d6409f;
+  --visitors-ember: #ff3e00;
+
+  --visitors-gradient-hero-band: linear-gradient(to right, #2c78fc 0%, #918df6 100%);
+  --visitors-gradient-shimmer: linear-gradient(90deg, #b3b3b3 25%, #666666 50%, #b3b3b3 75%);
+  --visitors-gradient-chart-sky: linear-gradient(to right, #bed5fe 0%, #bed5fe 50%, #00c4ff 100%);
+  --visitors-gradient-pale-lavender: linear-gradient(to right, #bed5fe 0%, #ebf2ff 50%, #918df6 100%);
+
+  --visitors-font-primary: OpenRunde, Inter, "DM Sans", "Geist Sans", system-ui, sans-serif;
+
+  --visitors-text-caption: 12px;
+  --visitors-leading-caption: 1.33;
+  --visitors-tracking-caption: -0.32px;
+  --visitors-text-body: 16px;
+  --visitors-leading-body: 1.5;
+  --visitors-tracking-body: -0.32px;
+  --visitors-text-subheading: 18px;
+  --visitors-leading-subheading: 1.33;
+  --visitors-tracking-subheading: -0.32px;
+  --visitors-text-heading-sm: 24px;
+  --visitors-leading-heading-sm: 1.17;
+  --visitors-tracking-heading-sm: -0.31px;
+  --visitors-text-heading: 36px;
+  --visitors-leading-heading: 1.22;
+  --visitors-tracking-heading: -0.61px;
+  --visitors-text-heading-lg: 48px;
+  --visitors-leading-heading-lg: 1;
+  --visitors-tracking-heading-lg: -0.34px;
+  --visitors-text-display: 60px;
+  --visitors-leading-display: 1.13;
+  --visitors-tracking-display: -3px;
+
+  --visitors-spacing-unit: 4px;
+  --visitors-spacing-4: 4px;
+  --visitors-spacing-8: 8px;
+  --visitors-spacing-12: 12px;
+  --visitors-spacing-16: 16px;
+  --visitors-spacing-20: 20px;
+  --visitors-spacing-24: 24px;
+  --visitors-spacing-32: 32px;
+  --visitors-spacing-48: 48px;
+  --visitors-spacing-64: 64px;
+
+  --visitors-page-max-width: 1200px;
+  --visitors-section-gap: 64px;
+  --visitors-card-padding: 32px;
+  --visitors-element-gap: 16px;
+
+  --visitors-radius-image: 8px;
+  --visitors-radius-input: 8px;
+  --visitors-radius-card: 16px;
+  --visitors-radius-table: 24px;
+  --visitors-radius-pill: 9999px;
+
+  --visitors-border-fog: 1px solid var(--visitors-fog);
+  --visitors-shadow-action: rgba(0, 0, 0, 0.08) 0 1px 1px 1px, rgba(0, 0, 0, 0.06) 0 0 0 0.5px;
+  --visitors-shadow-panel: rgba(0, 0, 0, 0.06) 0 1px 3px 0, rgba(0, 0, 0, 0.06) 0 8px 16px 0, rgba(0, 0, 0, 0.02) 0 0 0 1px;
+}
+
+.visitors-theme {
+  min-height: 100vh;
+  background: var(--visitors-paper-white);
+  color: var(--visitors-carbon);
+  font-family: var(--visitors-font-primary);
+}
+
+.visitors-container {
+  width: min(100% - 32px, var(--visitors-page-max-width));
+  margin-inline: auto;
+}
+
+.visitors-display {
+  margin: 0;
+  color: var(--visitors-carbon);
+  font-family: var(--visitors-font-primary);
+  font-size: clamp(42px, 6vw, var(--visitors-text-display));
+  font-weight: 600;
+  line-height: var(--visitors-leading-display);
+  letter-spacing: var(--visitors-tracking-display);
+}
+
+.visitors-body {
+  color: var(--visitors-graphite);
+  font-size: var(--visitors-text-body);
+  font-weight: 400;
+  line-height: var(--visitors-leading-body);
+  letter-spacing: var(--visitors-tracking-body);
+}
+
+.visitors-button-primary,
+.visitors-button-register,
+.visitors-button-ghost,
+.visitors-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--visitors-radius-pill);
+  font-family: var(--visitors-font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+  text-decoration: none;
+  transition: background-color 180ms ease, color 180ms ease, box-shadow 180ms ease;
+}
+
+.visitors-button-primary {
+  border: 0;
+  background: var(--visitors-lavender);
+  color: var(--visitors-paper-white);
+  padding: 10px 20px;
+  box-shadow: var(--visitors-shadow-action);
+}
+
+.visitors-button-register {
+  border: 0;
+  background: var(--visitors-iris);
+  color: var(--visitors-paper-white);
+  padding: 6px 10px;
+}
+
+.visitors-button-ghost {
+  border: 0;
+  background: transparent;
+  color: var(--visitors-graphite);
+  padding: 10px 20px;
+}
+
+.visitors-announcement-chip,
+.visitors-chip {
+  border: var(--visitors-border-fog);
+  background: var(--visitors-paper-white);
+  color: var(--visitors-carbon);
+  padding: 6px 12px;
+}
+
+.visitors-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: var(--visitors-radius-pill);
+  background: var(--visitors-paper-white);
+  padding: 8px;
+}
+
+.visitors-card {
+  border: var(--visitors-border-fog);
+  border-radius: var(--visitors-radius-card);
+  background: var(--visitors-paper-white);
+  padding: var(--visitors-card-padding);
+}
+
+.visitors-dashboard-panel {
+  border: var(--visitors-border-fog);
+  border-radius: var(--visitors-radius-card);
+  background: var(--visitors-paper-white);
+  padding: 20px;
+  box-shadow: var(--visitors-shadow-panel);
+}
+
+.visitors-table {
+  border: var(--visitors-border-fog);
+  border-radius: var(--visitors-radius-table);
+  background: var(--visitors-paper-white);
+  overflow: hidden;
+}
+
+.visitors-metric-card {
+  border: var(--visitors-border-fog);
+  border-radius: var(--visitors-radius-card);
+  background: var(--visitors-paper-white);
+  padding: 12px;
+}
+
+.visitors-positive-delta {
+  border-radius: var(--visitors-radius-pill);
+  background: var(--visitors-mint-wash);
+  color: var(--visitors-mint);
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.visitors-hero-band {
+  background: var(--visitors-gradient-hero-band);
+}
+
+.visitors-tab-active {
+  color: var(--visitors-carbon);
+  border-bottom: 2px solid var(--visitors-lavender);
+}
+
+.visitors-tab-inactive {
+  color: var(--visitors-ash);
+}
+
+.visitors-icon-circle {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border-radius: 9999px;
+  background: var(--visitors-lavender);
+  color: var(--visitors-paper-white);
+}
+

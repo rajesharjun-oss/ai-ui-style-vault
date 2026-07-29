@@ -1,0 +1,160 @@
+{
+  "name": "Superpower",
+  "theme": "light",
+  "colors": {
+    "sunriseCoral": {
+      "value": "#fc5f2b",
+      "role": "Filled action pills, brand marks, and active states"
+    },
+    "coralGlow": {
+      "value": "linear-gradient(88deg, #fc5f2b, #ff8b64 90%, #ffffff)",
+      "role": "One-off membership card wash"
+    },
+    "pureBlack": {
+      "value": "#000000",
+      "role": "Logo wordmark and deepest contrast borders"
+    },
+    "carbonBlack": {
+      "value": "#18181b",
+      "role": "Primary text, floating nav fill, headings, and icon strokes"
+    },
+    "zincGray": {
+      "value": "#71717a",
+      "role": "Body copy, secondary descriptions, muted metadata, and helper copy"
+    },
+    "ashGray": {
+      "value": "#a1a1aa",
+      "role": "Tertiary text, inactive borders, and disabled states"
+    },
+    "mistGray": {
+      "value": "#e4e4e7",
+      "role": "Hairline borders, card outlines, divider lines, and button borders"
+    },
+    "fogGray": {
+      "value": "#f4f4f5",
+      "role": "Subtle surface elevation, muted backgrounds, and scrim base"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Page background, card surfaces, and text on dark images"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": {
+        "value": "\"NB International Pro\", \"Inter Tight\", \"General Sans\", \"Switzer\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      },
+      "mono": {
+        "value": "\"NB International Mono Pro\", \"JetBrains Mono\", \"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+      }
+    },
+    "fontWeight": {
+      "regular": 400,
+      "bold": 700
+    },
+    "letterSpacing": {
+      "caption": "-0.005em",
+      "body": "-0.005em",
+      "bodyLg": "-0.009em",
+      "subheading": "-0.009em",
+      "headingSm": "-0.012em",
+      "heading": "-0.013em",
+      "headingLg": "-0.015em",
+      "display": "-0.025em"
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "11px",
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.005em",
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "15px",
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.005em",
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "17px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.009em",
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "19px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.009em",
+        "fontWeight": 400
+      },
+      "headingSm": {
+        "fontSize": "22px",
+        "lineHeight": "1.25",
+        "letterSpacing": "-0.012em",
+        "fontWeight": 400
+      },
+      "heading": {
+        "fontSize": "30px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.013em",
+        "fontWeight": 400
+      },
+      "headingLg": {
+        "fontSize": "45px",
+        "lineHeight": "1.13",
+        "letterSpacing": "-0.015em",
+        "fontWeight": 400
+      },
+      "display": {
+        "fontSize": "66px",
+        "lineHeight": "1",
+        "letterSpacing": "-0.025em",
+        "fontWeight": 400
+      }
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "density": "compact",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "11": "11px",
+      "16": "16px",
+      "19": "19px",
+      "24": "24px",
+      "28": "28px",
+      "60": "60px",
+      "75": "75px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "75px",
+      "cardPadding": "19px",
+      "elementGap": "11px"
+    }
+  },
+  "radius": {
+    "smallCards": "5px",
+    "icons": "7.5px",
+    "cards": "15px",
+    "navBar": "15px",
+    "pills": "9999px",
+    "buttons": "9999px"
+  },
+  "borders": {
+    "mistHairline": "1px solid #e4e4e7",
+    "carbonHairline": "1px solid #18181b",
+    "coralActive": "1px solid #fc5f2b"
+  },
+  "shadow": {
+    "subtle": "rgba(0, 0, 0, 0.05) 0px 2px 2px 0px",
+    "rule": "Avoid heavy shadows; most cards should have none"
+  },
+  "surfaces": {
+    "pageCanvas": "#ffffff",
+    "cardSurface": "#ffffff",
+    "mutedSurface": "#f4f4f5",
+    "floatingNav": "#18181b"
+  }
+}

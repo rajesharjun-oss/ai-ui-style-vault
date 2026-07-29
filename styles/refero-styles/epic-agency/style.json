@@ -1,0 +1,139 @@
+{
+  "id": "6eb778ca-6808-4cc6-ac8a-7beea5a25c36",
+  "name": "EPIC agency",
+  "slug": "epic-agency",
+  "theme": "dark",
+  "sourceUrl": "https://styles.refero.design/style/6eb778ca-6808-4cc6-ac8a-7beea5a25c36",
+  "referenceSite": "https://epic.net",
+  "capturedAt": "2026-07-28",
+  "mood": "deep-space digital agency command center",
+  "summary": "A cinematic dark agency system with violet-black surfaces, pale lavender text, Sang Bleu display typography, compact Inter UI, rounded action controls, and celestial 3D imagery.",
+  "useWhen": [
+    "Creative agency websites",
+    "Portfolio launches",
+    "Premium studio pages",
+    "Cinematic campaign pages",
+    "Dark art-directed product stories"
+  ],
+  "avoidWhen": [
+    "Plain documentation",
+    "Dense admin tools",
+    "Bright consumer dashboards",
+    "Interfaces that need neutral enterprise restraint"
+  ],
+  "colors": {
+    "void": {
+      "value": "#110329",
+      "role": "Dominant dark violet-black page canvas"
+    },
+    "midnightPlum": {
+      "value": "#1b0642",
+      "role": "Panels, overlays, and dark depth surfaces"
+    },
+    "cosmicViolet": {
+      "value": "#532fbc",
+      "role": "Brand energy, active states, luminous depth"
+    },
+    "astralBlue": {
+      "value": "#2d4fa8",
+      "role": "Cool contrast for orbital and digital details"
+    },
+    "lunarLilac": {
+      "value": "#cfc1ff",
+      "role": "Primary readable text on dark surfaces"
+    },
+    "nebulaLavender": {
+      "value": "#dbc9ff",
+      "role": "Soft headings, support text, atmospheric glows"
+    },
+    "starMist": {
+      "value": "#f4efff",
+      "role": "Brightest foreground text and tiny high-contrast marks"
+    },
+    "galacticGold": {
+      "value": "#bc994e",
+      "role": "Premium signal accent, selected detail, separator"
+    },
+    "ember": {
+      "value": "#e3562d",
+      "role": "Warm highlight, urgent signal, error-like state"
+    },
+    "signalGreen": {
+      "value": "#3c8900",
+      "role": "Success, launch, confirmation, positive status"
+    }
+  },
+  "typography": {
+    "displayFamily": "\"Sang Bleu\", Georgia, serif",
+    "uiFamily": "\"Inter\", system-ui, sans-serif",
+    "roles": {
+      "micro": {
+        "fontSize": "10px to 11px",
+        "fontFamily": "Inter",
+        "fontWeight": "500 to 600",
+        "letterSpacing": "0.04em to 0.12em"
+      },
+      "caption": {
+        "fontSize": "13px",
+        "fontFamily": "Inter",
+        "fontWeight": "400 to 500",
+        "lineHeight": "1.45"
+      },
+      "body": {
+        "fontSize": "14px to 16px",
+        "fontFamily": "Inter",
+        "fontWeight": "400",
+        "lineHeight": "1.45 to 1.65"
+      },
+      "statement": {
+        "fontSize": "42px",
+        "fontFamily": "Sang Bleu",
+        "fontWeight": "400",
+        "lineHeight": "0.95 to 1.05"
+      },
+      "hero": {
+        "fontSize": "80px",
+        "fontFamily": "Sang Bleu",
+        "fontWeight": "400",
+        "lineHeight": "0.9 to 1.0"
+      },
+      "monumental": {
+        "fontSize": "120px",
+        "fontFamily": "Sang Bleu",
+        "fontWeight": "400",
+        "lineHeight": "0.85 to 0.95"
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "heroGap": "80px to 120px",
+    "sectionGap": "50px to 120px",
+    "controlGap": "4px to 12px",
+    "cardPadding": "20px to 32px"
+  },
+  "shape": {
+    "menuItem": "0px",
+    "panel": "10px to 20px",
+    "button": "20px to 30px",
+    "chip": "9999px or softly rounded"
+  },
+  "elevation": {
+    "strategy": "Use layered dark surfaces, subtle glows, fine borders, and atmospheric depth instead of normal SaaS shadows"
+  },
+  "components": [
+    "Hero statement",
+    "Rounded primary CTA",
+    "Compact navigation",
+    "Signal chip",
+    "Celestial media block",
+    "Dark portfolio card",
+    "Dark footer"
+  ],
+  "imagery": {
+    "style": "Celestial, orbital, 3D, dark, cinematic, premium",
+    "avoid": "Generic stock photography, cheerful pastel illustration, broad white sections, ordinary SaaS mockups"
+  }
+}

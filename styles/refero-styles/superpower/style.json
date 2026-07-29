@@ -1,0 +1,132 @@
+{
+  "name": "Superpower",
+  "slug": "superpower",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/5d34568d-4bdc-445d-a527-c6f5249fa8fb",
+    "style_id": "5d34568d-4bdc-445d-a527-c6f5249fa8fb",
+    "reference_site": "https://superpower.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "bioluminescent health command center",
+  "summary": "A clinical health system with dark cinematic hero photography, crisp white content sections, a floating Carbon Black pill nav, tight NB International-style typography, Sunrise Coral action pills, zinc-gray support copy, and a one-off marbled coral membership card.",
+  "use_cases": [
+    "Health-tech",
+    "Diagnostics",
+    "Longevity",
+    "Clinical membership",
+    "Lab testing",
+    "Wellness subscriptions",
+    "Personal health dashboards"
+  ],
+  "colors": {
+    "sunrise_coral": "#fc5f2b",
+    "coral_glow": "linear-gradient(88deg, #fc5f2b, #ff8b64 90%, #ffffff)",
+    "pure_black": "#000000",
+    "carbon_black": "#18181b",
+    "zinc_gray": "#71717a",
+    "ash_gray": "#a1a1aa",
+    "mist_gray": "#e4e4e7",
+    "fog_gray": "#f4f4f5",
+    "paper_white": "#ffffff"
+  },
+  "typography": {
+    "primary_font": "NB International Pro",
+    "primary_fallback": "Inter Tight, General Sans, Switzer, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "mono_font": "NB International Mono Pro",
+    "mono_fallback": "JetBrains Mono, IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+    "weights": [400, 700],
+    "scale": {
+      "caption": {
+        "size": "11px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.005em",
+        "weight": 400
+      },
+      "body": {
+        "size": "15px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.005em",
+        "weight": 400
+      },
+      "body_lg": {
+        "size": "17px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.009em",
+        "weight": 400
+      },
+      "subheading": {
+        "size": "19px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.009em",
+        "weight": 400
+      },
+      "heading_sm": {
+        "size": "22px",
+        "line_height": "1.25",
+        "letter_spacing": "-0.012em",
+        "weight": 400
+      },
+      "heading": {
+        "size": "30px",
+        "line_height": "1.2",
+        "letter_spacing": "-0.013em",
+        "weight": 400
+      },
+      "heading_lg": {
+        "size": "45px",
+        "line_height": "1.13",
+        "letter_spacing": "-0.015em",
+        "weight": 400
+      },
+      "display": {
+        "size": "66px",
+        "line_height": "1",
+        "letter_spacing": "-0.025em",
+        "weight": 400
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "density": "compact",
+    "page_max_width": "1200px",
+    "section_gap": "75px",
+    "card_padding": "19px",
+    "element_gap": "11px"
+  },
+  "radius": {
+    "small_cards": "5px",
+    "icons": "7.5px",
+    "cards": "15px",
+    "nav_bar": "15px",
+    "pills": "9999px",
+    "buttons": "9999px"
+  },
+  "components": [
+    "Floating Pill Navigation",
+    "Primary Pill CTA",
+    "Ghost Text Link",
+    "Hero Overlay Headline",
+    "Hero Subhead",
+    "Membership Visual Card",
+    "Membership Feature List",
+    "Section Heading",
+    "FAQ Item Or Read More Row",
+    "Trust Badge Row",
+    "Photo Thumbnail Strip"
+  ],
+  "rules": [
+    "Use Sunrise Coral for filled primary action pills, brand marks, and active states only.",
+    "Do not use coral for body text, icons, or broad decorative backgrounds.",
+    "Set display headlines at weight 400, line-height 1, and -0.025em tracking.",
+    "Float navigation as a dark pill capsule over imagery.",
+    "Use 9999px radius for buttons and nav CTAs.",
+    "Layer surfaces as Paper White, Fog or Mist Gray, and Carbon Black.",
+    "Use the Coral Glow marbled pattern only on the membership card.",
+    "Pair primary CTAs with a trust badge row.",
+    "Avoid heavy shadows.",
+    "Do not introduce additional accent colors."
+  ]
+}

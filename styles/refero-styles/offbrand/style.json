@@ -1,0 +1,79 @@
+{
+  "name": "OFF+BRAND.",
+  "slug": "offbrand",
+  "source_url": "https://styles.refero.design/style/6b667ffc-5158-4000-9252-3a107d5161ee",
+  "style_id": "6b667ffc-5158-4000-9252-3a107d5161ee",
+  "reference_site": "https://www.itsoffbrand.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A warm-parchment editorial agency style with one custom typeface, giant all-caps display blocks, sharp project cards, ghost-only interactions, ash hairlines, concentric circle ornaments, and one iridescent gradient hero sphere.",
+  "personality": [
+    "editorial",
+    "agency",
+    "typographic",
+    "restrained",
+    "architectural",
+    "monochrome"
+  ],
+  "colors": {
+    "parchment": "#e5e4e0",
+    "ink": "#1d1d1d",
+    "paper": "#ffffff",
+    "ash": "#bfbebe",
+    "stone": "#cdcdc9",
+    "iridescentSphere": "linear-gradient(255deg, rgb(250, 203, 14), rgb(240, 107, 168) 30%, rgb(120, 186, 230) 65%, rgb(255, 255, 255))"
+  },
+  "typography": {
+    "primary": "Ataero Retina OB Edition, Neue Haas Grotesk Display, Inter, Suisse Intl, system-ui, sans-serif",
+    "weights": [400, 700],
+    "sizesPx": [11, 15, 18, 34, 46, 70, 76, 103],
+    "rules": [
+      "Use one type family only.",
+      "Use weight 400 for display, headings, and body.",
+      "Reserve weight 700 for small labels or navigation.",
+      "Use 0.80 line-height for display sizes.",
+      "Use positive tracking across the scale."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 4,
+    "maxWidthPx": 1400,
+    "sectionGapPx": [76, 119],
+    "cardPaddingPx": 30,
+    "elementGapPx": 19,
+    "scalePx": [5, 6, 8, 15, 19, 30, 32, 46, 76, 119]
+  },
+  "radius": {
+    "cardsPx": 0,
+    "imagesPx": 0,
+    "linksPx": 10,
+    "inputsPx": 10,
+    "buttonsPx": 10
+  },
+  "components": [
+    "hero gradient sphere",
+    "display headline",
+    "ghost text link",
+    "section label",
+    "client logo cell",
+    "featured work card",
+    "concentric circle ornament",
+    "scroll indicator",
+    "founder intro block",
+    "all work filter button"
+  ],
+  "avoid": [
+    "second typeface",
+    "colored button fills",
+    "colored card fills",
+    "gradient reuse outside hero sphere",
+    "shadows",
+    "elevation effects",
+    "body text below 15px or above 18px",
+    "center-aligned body paragraphs",
+    "rounded cards",
+    "lifestyle photography"
+  ]
+}
+

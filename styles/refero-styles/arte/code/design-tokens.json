@@ -1,0 +1,79 @@
+{
+  "name": "arte*",
+  "slug": "arte",
+  "sourceUrl": "https://styles.refero.design/style/2f94c1f0-cd23-4bf1-95f3-0e531174c4f4",
+  "referenceSite": "https://www.makearte.ca",
+  "tokens": {
+    "color": {
+      "blackBean": { "value": "#2e0401", "role": "near-black red-brown hero, footer, and poster frame" },
+      "salsa": { "value": "#ff2000", "role": "primary tomato red for display text, CTAs, badges, and active states" },
+      "sunbeam": { "value": "#fbaf04", "role": "yellow-orange stickers, promo notes, and warm accents" },
+      "romaine": { "value": "#5f831d", "role": "olive green produce contrast and secondary accents" },
+      "cream": { "value": "#f7f1e4", "role": "warm paper page background and editorial sections" },
+      "eggshell": { "value": "#fff9f1", "role": "light product cards, menu panels, and forms" },
+      "cocoa": { "value": "#754b32", "role": "brown body text and warm supporting copy" },
+      "tomatoWash": { "value": "#f2634c", "role": "soft red panels, borders, and callouts" },
+      "mintMarket": { "value": "#d6e7c4", "role": "pale green tags, price chips, and section breaks" },
+      "charcoal": { "value": "#111111", "role": "high-contrast text and small icon marks" }
+    },
+    "font": {
+      "family": {
+        "display": "Miniature, PP Eiko, Ogg, Georgia, serif",
+        "sans": "Satoshi, Inter, Arial, Helvetica, sans-serif"
+      },
+      "weight": {
+        "regular": 400,
+        "medium": 500,
+        "bold": 700
+      }
+    },
+    "text": {
+      "micro": { "size": "11px", "lineHeight": "1.1", "weight": 700, "tracking": "0.18em" },
+      "nav": { "size": "13px", "lineHeight": "1.1", "weight": 700, "tracking": "0.08em" },
+      "body": { "size": "15px", "lineHeight": "1.47", "weight": 400, "tracking": "0" },
+      "bodyLarge": { "size": "18px", "lineHeight": "1.4", "weight": 400, "tracking": "0" },
+      "cardTitle": { "size": "24px", "lineHeight": "1.08", "weight": 400, "tracking": "-0.01em" },
+      "sectionHeading": { "size": "54px", "lineHeight": "1.03", "weight": 400, "tracking": "-0.02em" },
+      "heroDisplay": { "size": "96px", "lineHeight": "0.92", "weight": 400, "tracking": "-0.04em" }
+    },
+    "radius": {
+      "button": "999px",
+      "tag": "999px",
+      "card": "28px",
+      "image": "32px",
+      "input": "999px",
+      "section": "40px",
+      "sticker": "50%"
+    },
+    "spacing": {
+      "unit": "4px",
+      "pageMaxWidth": "1280px",
+      "sectionGap": "112px",
+      "cardPadding": "28px",
+      "elementGap": "18px"
+    }
+  },
+  "componentRecipes": {
+    "tomatoPillCta": {
+      "background": "salsa",
+      "color": "cream",
+      "radius": "999px",
+      "padding": "14px 22px",
+      "font": "Satoshi 13px 700 uppercase"
+    },
+    "productCard": {
+      "background": "eggshell",
+      "radius": "28px",
+      "padding": "28px",
+      "imageRadius": "32px",
+      "titleFont": "Miniature 24px",
+      "bodyColor": "cocoa"
+    },
+    "marketSticker": {
+      "background": "sunbeam, salsa, romaine, or mintMarket",
+      "shape": "circle or soft burst",
+      "font": "Satoshi 11px to 13px uppercase",
+      "rotation": "-4deg to 4deg"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "367c0c6e-73a7-441c-a8ff-91d139ac60dc",
+  "name": "Wise",
+  "slug": "wise",
+  "sourceUrl": "https://styles.refero.design/style/367c0c6e-73a7-441c-a8ff-91d139ac60dc",
+  "referenceSite": "https://wise.com",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "deep moss with lime voltage",
+  "industry": ["finance", "money transfer", "global banking", "fintech"],
+  "summary": "A light finance style with Forest Ink as the dominant dark, Lime Voltage for sparse action and active states, Wise Sans 900 display headlines, Inter UI text, pill controls, circular country flags, and alternating white, fog, pale green, and dark green sections.",
+  "colors": {
+    "forestInk": "#163300",
+    "limeVoltage": "#9fe870",
+    "spruce": "#054d28",
+    "linenMist": "#e2f6d5",
+    "signalBlue": "#0b4c72",
+    "alarmRed": "#cb272f",
+    "charcoal": "#454745",
+    "obsidian": "#0e0f0c",
+    "pebble": "#868685",
+    "slate": "#6a6c6a",
+    "fog": "#e8ebe6",
+    "paper": "#ffffff"
+  },
+  "typography": {
+    "display": "Wise Sans",
+    "displayFallback": "Inter Black 900",
+    "ui": "Inter",
+    "displayWeight": 900,
+    "displayRange": "89px to 105px",
+    "displayLineHeight": "0.85",
+    "displayTracking": "-3.15px at 105px",
+    "features": ["calt"]
+  },
+  "shape": {
+    "tagRadius": "9999px",
+    "buttonRadius": "9999px",
+    "navSegmentRadius": "9999px",
+    "cardRadius": "10px",
+    "inputRadius": "10px",
+    "imageMaskRadius": "1000px",
+    "largeCardRadius": "28px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "64px to 80px",
+    "cardPadding": "24px",
+    "elementGap": "8px to 12px"
+  },
+  "elevation": {
+    "subtle": "0 0 0 1px rgba(14, 15, 12, 0.12)",
+    "inset": "inset 0 0 0 1px #868685",
+    "xl": "0 10px 32px rgba(0, 0, 0, 0.15), 0 40px 40px rgba(0, 0, 0, 0.04)",
+    "lg": "0 6px 20px rgba(0, 0, 0, 0.08)"
+  },
+  "components": [
+    "primary CTA pill button",
+    "outlined pill button",
+    "text link button",
+    "top navigation bar",
+    "segmented tab control",
+    "display headline",
+    "feature row",
+    "country grid item",
+    "dark section card",
+    "currency selector pill",
+    "input field",
+    "floating QR badge",
+    "badge or tag"
+  ],
+  "dos": [
+    "Use Wise Sans 900 for display type above 60px.",
+    "Use Lime Voltage sparingly for action and active states.",
+    "Default to pill shapes for buttons, tags, nav segments, and tabs.",
+    "Use Forest Ink instead of pure black for dark brand surfaces.",
+    "Pair filled CTAs with underlined text links.",
+    "Use circular flag thumbnails for country grids."
+  ],
+  "donts": [
+    "Do not set display headlines in Inter.",
+    "Do not use Lime Voltage as body text on light backgrounds.",
+    "Do not stack many lime elements close together.",
+    "Do not introduce gradients, decorative blurs, or heavy drop shadows.",
+    "Do not use sharp corners on buttons, tags, or nav.",
+    "Do not use pure black for normal body copy."
+  ]
+}

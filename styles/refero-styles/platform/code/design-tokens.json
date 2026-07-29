@@ -1,0 +1,113 @@
+{
+  "name": "PLATFORM",
+  "slug": "platform",
+  "sourceUrl": "https://styles.refero.design/style/81507860-e43d-4c50-b371-7267af9a914b",
+  "referenceSite": "https://www.platformart.com",
+  "theme": "light",
+  "colors": {
+    "lamp-black": "#000000",
+    "graphite": "#808080",
+    "iron-gray": "#aaaaaa",
+    "smoke-gray": "#b3b3b3",
+    "concrete-gray": "#cccccc",
+    "ash-gray": "#dddddd",
+    "bone-white": "#ffffff"
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "\"MediumLLWeb\", \"Sohne\", \"Inter\", \"Neue Haas Grotesk\", Arial, sans-serif"
+    },
+    "fontFeatureSettings": "\"tnum\" on",
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500
+    },
+    "fontSize": {
+      "caption": "12px",
+      "body-sm": "15px",
+      "subheading": "20px",
+      "heading": "48px",
+      "display": "72px"
+    },
+    "lineHeight": {
+      "caption": "1.2",
+      "body-sm": "1.2",
+      "subheading": "1.15",
+      "heading": "1.15",
+      "display": "1"
+    },
+    "letterSpacing": {
+      "caption": "0.01em",
+      "body-sm": "0.01em",
+      "subheading": "0.01em",
+      "heading": "0.02em",
+      "display": "0.02em"
+    }
+  },
+  "spacing": {
+    "4": "4px",
+    "5": "5px",
+    "6": "6px",
+    "7": "7px",
+    "8": "8px",
+    "9": "9px",
+    "10": "10px",
+    "11": "11px",
+    "13": "13px",
+    "17": "17px",
+    "18": "18px",
+    "20": "20px",
+    "30": "30px",
+    "36": "36px",
+    "72": "72px",
+    "122": "122px"
+  },
+  "layout": {
+    "maxWidth": "1280px",
+    "sectionGap": "72px",
+    "cardPadding": "30px",
+    "elementGap": "10px"
+  },
+  "radius": {
+    "tags": "0px",
+    "cards": "0px",
+    "badges": "0px",
+    "inputs": "0px",
+    "buttons": "0px",
+    "images": "0px"
+  },
+  "elevation": {
+    "shadow": "none",
+    "structuralBorder": "1px solid #000000",
+    "dividerBorder": "1px solid #dddddd"
+  },
+  "components": {
+    "top-navigation-bar": {
+      "background": "{colors.bone-white}",
+      "borderBottom": "1px solid {colors.lamp-black}",
+      "radius": "{radius.buttons}",
+      "paddingY": "6px",
+      "paddingX": "20px to 40px"
+    },
+    "artwork-card": {
+      "background": "{colors.bone-white}",
+      "border": "1px solid {colors.lamp-black}",
+      "radius": "{radius.cards}",
+      "shadow": "none",
+      "metadataAlignment": "center"
+    },
+    "section-header-band": {
+      "background": "{colors.ash-gray}",
+      "borderBottom": "1px solid {colors.lamp-black}",
+      "labelSize": "{typography.fontSize.caption}",
+      "bodySize": "{typography.fontSize.body-sm}"
+    },
+    "text-link": {
+      "text": "{colors.lamp-black}",
+      "fontSize": "{typography.fontSize.body-sm}",
+      "fontWeight": "{typography.fontWeight.regular}",
+      "decoration": "underline",
+      "background": "none"
+    }
+  }
+}

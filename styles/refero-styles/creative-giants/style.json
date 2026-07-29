@@ -1,0 +1,187 @@
+{
+  "id": "ff8f39ee-a10e-4a9d-a94d-6993c6084060",
+  "name": "Creative Giants",
+  "slug": "creative-giants",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/ff8f39ee-a10e-4a9d-a94d-6993c6084060",
+  "referenceSite": "https://www.creativegiants.art",
+  "capturedAt": "2026-07-28",
+  "mood": "oversized editorial poster on cream paper",
+  "summary": "Poster-scale editorial system using warm Bone White canvas, huge 300-weight Switzer headlines, sharp full-bleed photography, black pill controls, zero-radius cards and images, and tiny saturated accent hits.",
+  "useWhen": [
+    "Creative studio and production company sites",
+    "Art collectives, cultural campaigns, and immersive activation portfolios",
+    "Editorial project grids and case-study experiences",
+    "Interfaces where photography and headline scale should dominate"
+  ],
+  "avoidWhen": [
+    "Dense SaaS dashboards",
+    "Apps that need many nested controls",
+    "Interfaces relying on heavy shadows, rounded cards, or high component density",
+    "Brands that need conventional marketing sections and repeated CTAs"
+  ],
+  "colors": {
+    "boneWhite": {
+      "value": "#fffef7",
+      "role": "Page canvas, card surfaces, text on dark accents, warm paper tone"
+    },
+    "inkBlack": {
+      "value": "#000000",
+      "role": "Text, icons, black menu pill, high contrast details"
+    },
+    "graphite": {
+      "value": "#666666",
+      "role": "Secondary body text, captions, metadata, helper copy"
+    },
+    "ash": {
+      "value": "#aaaaaa",
+      "role": "Input borders, inactive links, tertiary dividers, quiet outlines"
+    },
+    "charcoalScale": {
+      "value": "#4d4c4a",
+      "role": "Warm gray for list borders and rare dark gradient track"
+    },
+    "magentaBloom": {
+      "value": "#8a0467",
+      "role": "Decorative pink accent, low-frequency emphasis, editorial borders"
+    },
+    "forestTeal": {
+      "value": "#03624c",
+      "role": "Saturated accent for card frames, strokes, and duotone treatments"
+    },
+    "powderBlue": {
+      "value": "#a5c8eb",
+      "role": "Soft card background, cool wash, muted illustration fill"
+    },
+    "candyPink": {
+      "value": "#ffacea",
+      "role": "Pastel card surface and high-key editorial tint"
+    },
+    "mintWash": {
+      "value": "#a5ebd6",
+      "role": "Pastel card surface and calm cool accent block"
+    },
+    "navyInk": {
+      "value": "#101731",
+      "role": "Deep accent card surface and rare inverted text ground"
+    },
+    "signalYellow": {
+      "value": "#ffd001",
+      "role": "Tiny badges, tag pills, hover state, sporadic high-chroma highlight"
+    }
+  },
+  "typography": {
+    "primaryFamily": "Switzer",
+    "fallbackFamilies": [
+      "Inter",
+      "Sohne",
+      "Arial",
+      "sans-serif"
+    ],
+    "weights": [
+      300,
+      400
+    ],
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "letterSpacing": "-0.018em"
+      },
+      "bodySmall": {
+        "size": "14px",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "letterSpacing": "-0.018em"
+      },
+      "body": {
+        "size": "16px",
+        "weight": 400,
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.018em"
+      },
+      "bodyLarge": {
+        "size": "18px",
+        "weight": 300,
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.018em"
+      },
+      "subheading": {
+        "size": "20px",
+        "weight": 300,
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.018em"
+      },
+      "headingSmall": {
+        "size": "34px",
+        "weight": 300,
+        "lineHeight": "1.25",
+        "letterSpacing": "-0.02em"
+      },
+      "heading": {
+        "size": "54px",
+        "weight": 300,
+        "lineHeight": "1",
+        "letterSpacing": "-0.023em"
+      },
+      "poster": {
+        "size": "64px",
+        "weight": 300,
+        "lineHeight": "1",
+        "letterSpacing": "-0.027em"
+      },
+      "display": {
+        "size": "84px",
+        "weight": 300,
+        "lineHeight": "1",
+        "letterSpacing": "-0.04em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "8px",
+    "sectionGap": "64px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": [
+      "8px",
+      "16px",
+      "24px",
+      "32px",
+      "48px",
+      "64px",
+      "80px",
+      "112px"
+    ]
+  },
+  "shape": {
+    "cardRadius": "0px",
+    "imageRadius": "0px",
+    "buttonRadius": "1440px",
+    "tagRadius": "1440px",
+    "pillRadius": "1440px"
+  },
+  "shadows": {
+    "default": "none",
+    "subtleOutline": "rgba(255, 255, 255, 0.2) 0px 0px 0px 1px"
+  },
+  "components": [
+    "Pill menu button",
+    "Header lockup",
+    "Display poster headline",
+    "Hero image band",
+    "Section title block",
+    "Project or news card",
+    "Chromatic accent card",
+    "Carousel arrow control",
+    "Meta eyebrow",
+    "Full-bleed footer",
+    "Tag or category pill"
+  ],
+  "imagery": {
+    "direction": "Full-bleed editorial photography, studio documentation, gallery shots, public installations, contact-sheet crops, sharp image corners.",
+    "avoid": "Rounded image cards, stock gradients, generic SaaS illustrations, busy UI chrome, image drop shadows."
+  }
+}

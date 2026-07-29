@@ -1,0 +1,88 @@
+{
+  "id": "c90b584e-de5b-4971-9e13-8ab991bd96c0",
+  "name": "Eindhoven Design District",
+  "slug": "eindhoven-design-district",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/c90b584e-de5b-4971-9e13-8ab991bd96c0",
+  "referenceSite": "https://www.eindhovendesigndistrict.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "graphic modernist poster",
+    "stark black and white",
+    "rectilinear cultural photography",
+    "Helvetica architectural type",
+    "vivid color punctuation"
+  ],
+  "summary": "A light modernist poster system with high-contrast black-and-white surfaces, Helvetica-only typography, sharp rectangular imagery, 500px pill buttons, and occasional vivid color blocks.",
+  "useWhen": [
+    "Design festival websites",
+    "Cultural district guides",
+    "Architecture and exhibition pages",
+    "Editorial event listings",
+    "Modernist portfolio or studio pages"
+  ],
+  "avoidWhen": [
+    "Soft SaaS dashboards",
+    "Highly emotional lifestyle brands",
+    "Illustration-heavy products",
+    "Interfaces requiring complex status colors",
+    "Rounded card-heavy layouts"
+  ],
+  "colors": {
+    "canvasWhite": "#ffffff",
+    "inkBlack": "#000000",
+    "ashGray": "#e8e8e8",
+    "silverThread": "#bfbfbf",
+    "focusRed": "#ff0000",
+    "blushPink": "#ffc2eb",
+    "electricBlue": "#0f26ed"
+  },
+  "typography": {
+    "primary": {
+      "family": "Helvetica Now",
+      "fallback": "Inter",
+      "weights": [400, 600],
+      "sizes": ["14px", "16px", "18px", "19px", "23px", "35px", "46px", "50px"],
+      "lineHeight": ["0.93", "1.0", "1.15", "1.31", "1.4", "1.47"],
+      "letterSpacing": "-0.05em at 50px, -0.03em at 46px, -0.024em at 35px, -0.02em at 23px, small positive tracking at 14px-16px"
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "maxWidth": "1200px",
+    "sectionGap": "35px",
+    "cardPadding": "20px",
+    "elementGap": "20px",
+    "scale": ["8px", "10px", "12px", "15px", "16px", "18px", "19px", "20px", "21px", "25px", "27px", "30px", "35px", "40px", "50px", "100px"]
+  },
+  "shape": {
+    "cardRadius": "0px",
+    "imageRadius": "0px",
+    "buttonRadius": "500px",
+    "tagRadius": "500px",
+    "iconButtonRadius": "100%",
+    "shadow": "none",
+    "borders": "1px Ink Black"
+  },
+  "components": [
+    "ghost button",
+    "primary action button",
+    "icon button",
+    "plain link button",
+    "article card",
+    "gray background card",
+    "rectangular image block",
+    "accent color block",
+    "minimal top bar"
+  ],
+  "implementationRules": [
+    "Use black and white as the dominant system.",
+    "Use Helvetica Now as the only typeface.",
+    "Make large headings tight and graphic.",
+    "Use 0px radius for cards and images.",
+    "Use 500px radius for buttons and tags.",
+    "Use 1px black borders for definition.",
+    "Reserve vivid red, pink, and blue for punctual blocks only.",
+    "Avoid shadows, gradients, and soft elevation."
+  ]
+}

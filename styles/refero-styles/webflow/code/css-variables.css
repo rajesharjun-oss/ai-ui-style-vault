@@ -1,0 +1,120 @@
+:root {
+  --webflow-color-blue: #146ef5;
+  --webflow-color-indigo: #1366e2;
+  --webflow-color-white: #ffffff;
+  --webflow-color-ink: #080808;
+  --webflow-color-border: #d8d8d8;
+  --webflow-color-muted: #5a5a5a;
+  --webflow-color-tint: #f0f0f0;
+  --webflow-color-soft-blue: #6ca7ff;
+  --webflow-color-mint: #60ed76;
+  --webflow-color-orange: #ffa666;
+
+  --webflow-font-sans: "WF Visual Sans Variable", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --webflow-font-mono: "WF Visual Sans Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+
+  --webflow-text-badge-size: 10px;
+  --webflow-text-eyebrow-size: 13px;
+  --webflow-text-small-size: 14px;
+  --webflow-text-body-size: 16px;
+  --webflow-text-body-large-size: 20px;
+  --webflow-text-card-heading-size: 24px;
+  --webflow-text-section-heading-size: clamp(40px, 5vw, 56px);
+  --webflow-text-display-size: clamp(56px, 7vw, 80px);
+
+  --webflow-leading-display: 1.04;
+  --webflow-leading-heading: 1.08;
+  --webflow-leading-body: 1.5;
+  --webflow-tracking-tight: -0.01em;
+  --webflow-tracking-caps: 0.1em;
+
+  --webflow-space-base: 4px;
+  --webflow-space-gap: 16px;
+  --webflow-space-card: 24px;
+  --webflow-space-section: 80px;
+  --webflow-width-page: 1200px;
+  --webflow-width-copy: 560px;
+
+  --webflow-radius-control: 4px;
+  --webflow-radius-container: 8px;
+  --webflow-border: 1px solid var(--webflow-color-border);
+  --webflow-shadow-card-hover: rgba(0, 0, 0, 0.01) 0 54px 22px 0, rgba(0, 0, 0, 0.04) 0 30px 18px 0, rgba(0, 0, 0, 0.08) 0 13px 13px 0, rgba(0, 0, 0, 0.09) 0 3px 7px 0;
+  --webflow-shadow-browser: rgba(0, 0, 0, 0.02) 0 67px 27px 0, rgba(0, 0, 0, 0.06) 0 38px 23px 0, rgba(0, 0, 0, 0.1) 0 17px 17px 0, rgba(0, 0, 0, 0.12) 0 4px 9px 0;
+}
+
+.webflow-page {
+  background: var(--webflow-color-white);
+  color: var(--webflow-color-ink);
+  font-family: var(--webflow-font-sans);
+}
+
+.webflow-rail {
+  width: min(100% - 40px, var(--webflow-width-page));
+  margin-inline: auto;
+}
+
+.webflow-display {
+  font-family: var(--webflow-font-sans);
+  font-size: var(--webflow-text-display-size);
+  line-height: var(--webflow-leading-display);
+  letter-spacing: var(--webflow-tracking-tight);
+  font-weight: 600;
+}
+
+.webflow-eyebrow {
+  color: var(--webflow-color-muted);
+  font-size: var(--webflow-text-eyebrow-size);
+  font-weight: 500;
+  letter-spacing: var(--webflow-tracking-caps);
+  text-transform: uppercase;
+}
+
+.webflow-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--webflow-color-blue);
+  border-radius: var(--webflow-radius-control);
+  background: var(--webflow-color-blue);
+  color: var(--webflow-color-white);
+  font: 600 14px / 1.2 var(--webflow-font-sans);
+  text-decoration: none;
+  transition: opacity 160ms ease, background-color 160ms ease;
+}
+
+.webflow-button-primary:hover,
+.webflow-button-primary:focus-visible {
+  background: var(--webflow-color-indigo);
+  border-color: var(--webflow-color-indigo);
+}
+
+.webflow-card {
+  border: var(--webflow-border);
+  border-radius: var(--webflow-radius-container);
+  background: var(--webflow-color-white);
+  padding: var(--webflow-space-card);
+  box-shadow: none;
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.webflow-card:hover {
+  box-shadow: var(--webflow-shadow-card-hover);
+}
+
+.webflow-browser-frame {
+  overflow: hidden;
+  border: var(--webflow-border);
+  border-radius: var(--webflow-radius-container);
+  background: var(--webflow-color-white);
+  box-shadow: var(--webflow-shadow-browser);
+}
+
+@media (max-width: 760px) {
+  :root {
+    --webflow-text-display-size: 44px;
+    --webflow-space-section: 56px;
+  }
+}
+

@@ -1,0 +1,165 @@
+{
+  "id": "e1f18a7e-5af1-46b3-8f89-bce6c78b80d4",
+  "name": "dope.security",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/e1f18a7e-5af1-46b3-8f89-bce6c78b80d4",
+  "referenceUrl": "https://dope.security",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Midnight terminal with violet beacons, frosted nav, stamped mono labels, GrandSlang hero drama, and shadowless hairline structure.",
+  "bestFor": [
+    "cybersecurity products",
+    "secure web gateways",
+    "AI security tools",
+    "enterprise security marketing",
+    "premium command-center pages",
+    "atmospheric technical sites"
+  ],
+  "tags": [
+    "dark",
+    "cybersecurity",
+    "terminal",
+    "violet-accent",
+    "frosted-nav",
+    "whyte-inktrap",
+    "grandslang",
+    "mono-stamps",
+    "boarding-pass",
+    "hairline",
+    "premium"
+  ],
+  "colors": {
+    "nearBlack": { "value": "#090909", "token": "--color-near-black", "role": "Page canvas, card surfaces, filled button backgrounds, and the default void." },
+    "iron": { "value": "#423738", "token": "--color-iron", "role": "Dark borders, separators, ghost washes, and subtle panel fills." },
+    "graphite": { "value": "#474747", "token": "--color-graphite", "role": "Card internal text and subtle dividers." },
+    "ash": { "value": "#6b6b6b", "token": "--color-ash", "role": "Nav dividers, helper text, and low-emphasis body copy." },
+    "steel": { "value": "#828384", "token": "--color-steel", "role": "Muted secondary text, inactive button surfaces, and subdued borders." },
+    "softWhite": { "value": "#f0f0f0", "token": "--color-soft-white", "role": "Stamped uppercase section label text." },
+    "almostWhite": { "value": "#f7f9fa", "token": "--color-almost-white", "role": "Primary text, icon strokes, nav labels, and hairline borders." },
+    "signalViolet": { "value": "#af50ff", "token": "--color-signal-violet", "role": "The only chromatic signal: feature card glow, one primary fill, and accent strokes." },
+    "lavenderMist": { "value": "#e1bdff", "token": "--color-lavender-mist", "role": "Soft tint paired with Signal Violet for contrast-safe text and washed accents." },
+    "frostedNav": { "value": "rgba(51, 50, 72, 0.7)", "token": "--color-frosted-nav", "role": "Sticky navigation background with backdrop blur." },
+    "pinkWash": { "value": "rgba(237, 195, 196, 0.05)", "token": "--color-pink-wash", "role": "Ghost pill and boarding-pass translucent panel fill." }
+  },
+  "typography": {
+    "families": {
+      "primary": "Whyte Inktrap",
+      "mono": "Whyte Inktrap Mono",
+      "display": "GrandSlang"
+    },
+    "fallbacks": {
+      "primary": "Inter, General Sans, system-ui, sans-serif",
+      "mono": "JetBrains Mono, IBM Plex Mono, ui-monospace, monospace",
+      "display": "Tiempos Headline, Lora Italic, Georgia, serif"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "rules": [
+      "Use Whyte Inktrap for body, nav, buttons, links, and most headings.",
+      "Use Whyte Inktrap Mono for stamped section headings and coordinate stamps.",
+      "Use GrandSlang italic only for hero and large display phrases.",
+      "Do not use GrandSlang below 32px.",
+      "Do not mix mono stamps and GrandSlang on one line."
+    ],
+    "scale": {
+      "caption": { "size": "10px", "lineHeight": 1, "letterSpacing": "1.8px", "token": "--text-caption" },
+      "bodySm": { "size": "14px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-body-sm" },
+      "body": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-body" },
+      "subheading": { "size": "20px", "lineHeight": 1, "letterSpacing": "-0.2px", "token": "--text-subheading" },
+      "headingSm": { "size": "32px", "lineHeight": 1.2, "letterSpacing": "-0.32px", "token": "--text-heading-sm" },
+      "heading": { "size": "48px", "lineHeight": 1.2, "letterSpacing": "-0.48px", "token": "--text-heading" },
+      "headingLg": { "size": "64px", "lineHeight": 1.2, "letterSpacing": "-0.64px", "token": "--text-heading-lg" },
+      "sectionStamp": { "size": "74px", "lineHeight": 0.9, "letterSpacing": "14.8px", "token": "--text-section-stamp" },
+      "display": { "size": "88px", "lineHeight": 0.8, "letterSpacing": "-2.64px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "120px",
+    "cardPadding": "40px",
+    "elementGap": "16px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "64": "64px",
+      "72": "72px",
+      "80": "80px",
+      "96": "96px",
+      "128": "128px",
+      "136": "136px",
+      "160": "160px"
+    }
+  },
+  "radii": {
+    "smallControls": "6px",
+    "buttons": "8px",
+    "cards": "19.2px",
+    "pills": "1584px"
+  },
+  "shadows": {
+    "navHairline": "rgba(16, 24, 40, 0.05) 0px 1px 2px 0px"
+  },
+  "components": [
+    { "name": "Hero Boarding Pass", "recipe": "Split hero with atmospheric photo, GrandSlang and Whyte text, translucent 19.2px boarding-pass card, barcode, and pill CTAs." },
+    { "name": "Stamped Section Heading", "recipe": "Whyte Inktrap Mono 74px uppercase, 0.2em tracking, Soft White, no decoration." },
+    { "name": "Filled Action Button", "recipe": "Near Black fill, 1px Almost White border, 8px radius, 16px padding, Whyte 16px/400." },
+    { "name": "Ghost Pill Button", "recipe": "Pink Wash fill, 1584px radius, 20px by 32px padding, Almost White text." },
+    { "name": "Compact Outlined Button", "recipe": "Faint white fill, 1px Almost White border, 6px radius, 9px by 15px padding." },
+    { "name": "Frosted Nav Bar", "recipe": "rgba(51,50,72,0.7) background, blur(10px), 1px Ash bottom border, uppercase tracked nav." },
+    { "name": "Comparison Card", "recipe": "19.2px card with violet bloom or gradient background, 40px padding, route-line markers, no shadow." },
+    { "name": "Feature Row Card", "recipe": "Transparent row, 19.2px radius, no visible container, spacing-defined boundary." },
+    { "name": "Violet Bloom Card", "recipe": "Signal Violet fill or radial bloom, 19.2px radius, 40px padding, one or two per page maximum." },
+    { "name": "Coordinate Footer", "recipe": "Dark footer with plus icon, product labels, and Whyte 14px coordinate stamp." },
+    { "name": "Hairline Divider", "recipe": "0.5px or 1px Almost White stroke at 10 to 20 percent opacity." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Signal Violet only for one feature glow, one filled action, and one accent stroke per page.",
+      "Set section headings in Whyte Inktrap Mono at 74px uppercase with 0.2em tracking.",
+      "Use 19.2px cards with translucent fills or layout-defined boundaries.",
+      "Use low-opacity hairlines for separation.",
+      "Use GrandSlang italic at 88px to 146px for the largest display moments.",
+      "Use frosted nav with blur and a hairline bottom border.",
+      "End pages with a coordinate stamp footer."
+    ],
+    "dont": [
+      "Do not apply box shadows beyond the nav hairline.",
+      "Do not use Signal Violet for borders, text, or body backgrounds.",
+      "Do not use GrandSlang below 32px.",
+      "Do not mix Whyte Inktrap Mono with GrandSlang on the same line.",
+      "Do not introduce another accent color.",
+      "Do not center body copy or use multi-column text layouts.",
+      "Do not use 0px or 4px buttons; use 8px buttons or huge pill CTAs."
+    ]
+  },
+  "imagery": {
+    "style": "One dramatic twilight hero photo plus typography, rules, line icons, and violet bloom cards.",
+    "rules": [
+      "Use a wide atmospheric hero image with purple sky and horizon glow.",
+      "Let text sit directly on the hero photo.",
+      "Use minimal line glyphs in Almost White.",
+      "Avoid product screenshots after the hero.",
+      "Avoid lifestyle stock imagery.",
+      "Keep imagery under about 15 percent of the page after the hero."
+    ]
+  },
+  "layout": {
+    "structure": "Full-bleed dark sections with a centered 1200px content max-width.",
+    "hero": "Split about 55/45 with editorial type on the left and translucent boarding-pass card on the right.",
+    "navigation": "Sticky frosted nav with brand left, nav center, two controls right.",
+    "sectionRhythm": "120px section gaps, stamped headings, left-aligned copy, and up to four-column comparison grids."
+  }
+}

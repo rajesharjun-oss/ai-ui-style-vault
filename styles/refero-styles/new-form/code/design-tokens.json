@@ -1,0 +1,163 @@
+{
+  "name": "New Form",
+  "theme": "light",
+  "colors": {
+    "boneWhite": {
+      "value": "#fafffa",
+      "role": "Page canvas, cards, and primary text on dark sections"
+    },
+    "pressBlack": {
+      "value": "#121613",
+      "role": "Headline color, footer background, and dominant dark surface"
+    },
+    "typesetterInk": {
+      "value": "#000000",
+      "role": "Primary headings, body text, and icon fills on light surfaces"
+    },
+    "slateVerdant": {
+      "value": "#232924",
+      "role": "Secondary dark surface and bordered sections"
+    },
+    "newsprintGray": {
+      "value": "#516254",
+      "role": "Muted captions, helper text, and editorial data"
+    },
+    "mutedSage": {
+      "value": "#c8d2c8",
+      "role": "Light text on dark surfaces and inverse labels"
+    },
+    "highlighterGreen": {
+      "value": "#2bee4b",
+      "role": "Primary action fill, active underline, and full-bleed footer band"
+    },
+    "shadowMoss": {
+      "value": "#93b799",
+      "role": "Green-tinted action button shadow and supporting detail"
+    },
+    "echoGreen": {
+      "value": "#c4e4c9",
+      "role": "Low-frequency green-gray supporting accent"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "ui": {
+        "value": "\"TWK Lausanne\", \"Inter\", \"Sohne\", \"Neue Haas Grotesk\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      },
+      "display": {
+        "value": "\"PP Mondwest\", \"GT Sectra\", \"Tiempos Headline\", \"Recoleta\", serif"
+      },
+      "secondaryDisplay": {
+        "value": "\"Editorial New\", \"GT Super\", \"Domaine Display\", \"Canela\", serif"
+      },
+      "times": {
+        "value": "\"Times\", \"Times New Roman\", serif"
+      }
+    },
+    "fontWeight": {
+      "thin": 200,
+      "lightDisplay": 300,
+      "book": 350,
+      "regular": 400,
+      "strong": 550
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "11px",
+        "lineHeight": "1.1",
+        "letterSpacing": "0.11px",
+        "fontWeight": 550
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": "1.1",
+        "letterSpacing": "0.14px",
+        "fontWeight": 350
+      },
+      "body": {
+        "fontSize": "18px",
+        "lineHeight": "1",
+        "letterSpacing": "-0.36px",
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "60px",
+        "lineHeight": "0.9",
+        "letterSpacing": "-1.2px",
+        "fontWeight": 300
+      },
+      "headingSm": {
+        "fontSize": "72px",
+        "lineHeight": "1",
+        "letterSpacing": "-1.44px",
+        "fontWeight": 550
+      },
+      "heading": {
+        "fontSize": "96px",
+        "lineHeight": "1",
+        "letterSpacing": "-1.92px",
+        "fontWeight": 550
+      },
+      "headingLg": {
+        "fontSize": "155px",
+        "lineHeight": "1",
+        "letterSpacing": "-6.2px",
+        "fontWeight": 550
+      },
+      "display": {
+        "fontSize": "295px",
+        "lineHeight": "0.9",
+        "letterSpacing": "-11.8px",
+        "fontWeight": 400
+      }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "10": "10px",
+      "15": "15px",
+      "20": "20px",
+      "25": "25px",
+      "30": "30px",
+      "32": "32px",
+      "35": "35px",
+      "40": "40px",
+      "45": "45px",
+      "50": "50px",
+      "55": "55px",
+      "60": "60px",
+      "80": "80px",
+      "120": "120px",
+      "190": "190px"
+    },
+    "layout": {
+      "pageMaxWidth": "1400px",
+      "sectionGap": "80px",
+      "cardPadding": "0px",
+      "elementGap": "20px"
+    }
+  },
+  "radius": {
+    "buttons": "5px",
+    "pills": "10px",
+    "images": "14px",
+    "round": "9999px"
+  },
+  "shadow": {
+    "greenAction": "rgba(16, 94, 29, 0.45) 1px 8px 20px 0px",
+    "greenActionSoft": "rgba(18, 146, 39, 0.25) 1px 8px 20px 0px",
+    "content": "No box-shadow on cards or content blocks"
+  },
+  "imagery": {
+    "photoFilter": "grayscale(1) saturate(1) invert(0.27) sepia(0.07) saturate(10.67) hue-rotate(80deg) brightness(1.02) contrast(0.83)"
+  },
+  "surfaces": {
+    "canvas": "#fafffa",
+    "darkEditorial": "#121613",
+    "secondaryDark": "#232924",
+    "greenBand": "#2bee4b"
+  }
+}

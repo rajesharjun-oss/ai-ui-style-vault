@@ -1,0 +1,118 @@
+:root {
+  /* Colors */
+  --color-warm-paper: #f5f5f3;
+  --color-ink-black: #000000;
+  --color-charcoal: #333333;
+  --color-pure-white: #ffffff;
+  --color-dusty-sky: #81aed9;
+  --color-cobalt-wash: #55a1ea;
+  --color-coral-link: #ff8562;
+
+  /* Fonts */
+  --font-times: Times, "Times New Roman", serif;
+  --font-simeiz: Simeiz, "Playfair Display", "DM Serif Display", Georgia, serif;
+  --font-manrope: Manrope, Inter, "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-suisse-intl: "Suisse Intl", Arial, ui-sans-serif, system-ui, sans-serif;
+
+  /* Typography */
+  --text-caption: 12px;
+  --leading-caption: 1.2;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.2;
+  --text-body: 16px;
+  --leading-body: 1.56;
+  --text-body-lg: 18px;
+  --leading-body-lg: 1.55;
+  --text-subheading: 24px;
+  --leading-subheading: 1.35;
+  --text-heading-sm: 30px;
+  --leading-heading-sm: 1.33;
+  --text-heading: 48px;
+  --leading-heading: 1;
+  --text-display: 80px;
+  --leading-display: 1;
+
+  /* Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-w450: 450;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Tracking */
+  --tracking-manrope-ui: -0.036em;
+
+  /* Spacing */
+  --spacing-5: 5px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-15: 15px;
+  --spacing-20: 20px;
+  --spacing-22: 22px;
+  --spacing-48: 48px;
+  --section-gap: 80px;
+  --page-max-width: 1200px;
+
+  /* Shape */
+  --border-thin: 1.5px;
+  --radius-card-min: 20px;
+  --radius-card: 30px;
+  --radius-input: 30px;
+  --radius-button: 30px;
+  --radius-pill: 3000px;
+  --radius-image: 120px;
+
+  /* Elevation */
+  --shadow-card-hard: 5px -5px 0 0 var(--color-charcoal);
+  --shadow-button-hard: 4px -4px 0 0 var(--color-charcoal);
+}
+
+.dyotanya-surface {
+  background: var(--color-warm-paper);
+  color: var(--color-ink-black);
+}
+
+.dyotanya-display {
+  font-family: var(--font-simeiz);
+  font-size: var(--text-display);
+  font-weight: var(--font-weight-light);
+  line-height: var(--leading-display);
+}
+
+.dyotanya-ui-text {
+  font-family: var(--font-manrope);
+  letter-spacing: var(--tracking-manrope-ui);
+}
+
+.dyotanya-card {
+  background: var(--color-pure-white);
+  border: var(--border-thin) solid var(--color-dusty-sky);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card-hard);
+  padding: var(--spacing-48);
+}
+
+.dyotanya-pill-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--border-thin) solid var(--color-ink-black);
+  border-radius: var(--radius-pill);
+  background: var(--color-pure-white);
+  box-shadow: var(--shadow-button-hard);
+  color: var(--color-ink-black);
+  font: 500 var(--text-body-sm) / var(--leading-body-sm) var(--font-manrope);
+  letter-spacing: var(--tracking-manrope-ui);
+  padding: var(--spacing-20) var(--spacing-48);
+  text-transform: uppercase;
+}
+
+.dyotanya-link {
+  color: var(--color-coral-link);
+}
+
+.dyotanya-squiggle {
+  fill: none;
+  stroke: var(--color-ink-black);
+  stroke-width: var(--border-thin);
+}

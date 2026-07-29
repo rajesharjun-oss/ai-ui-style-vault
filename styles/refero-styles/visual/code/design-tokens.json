@@ -1,0 +1,236 @@
+{
+    "name":  "Visual",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Vellum",
+                       "value":  "#f6f6f4",
+                       "token":  "--color-vellum",
+                       "role":  "Page background the warm off-white that defines the entire canvas tone"
+                   },
+                   {
+                       "name":  "Paper",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper",
+                       "role":  "Card surfaces, elevated panels, product mockup backgrounds"
+                   },
+                   {
+                       "name":  "Ink",
+                       "value":  "#000000",
+                       "token":  "--color-ink",
+                       "role":  "Primary text, heavy structural borders, nav bar outlines"
+                   },
+                   {
+                       "name":  "Carbon",
+                       "value":  "#2c2c26",
+                       "token":  "--color-carbon",
+                       "role":  "Warm near-black for dark panels, footer background, and neutral filled button fill the only filled button in the system"
+                   },
+                   {
+                       "name":  "Ash",
+                       "value":  "#d0d0c8",
+                       "token":  "--color-ash",
+                       "role":  "Light hairline borders, card outlines, subtle dividers"
+                   },
+                   {
+                       "name":  "Olive Char",
+                       "value":  "#57584b",
+                       "token":  "--color-olive-char",
+                       "role":  "Mid-dark structural borders, heavier dividers between sections"
+                   },
+                   {
+                       "name":  "Lichen",
+                       "value":  "#6d6e5e",
+                       "token":  "--color-lichen",
+                       "role":  "Body text, secondary borders, muted paragraph copy"
+                   },
+                   {
+                       "name":  "Sage",
+                       "value":  "#979886",
+                       "token":  "--color-sage",
+                       "role":  "Nav link text, muted UI labels, breadcrumb text"
+                   },
+                   {
+                       "name":  "Moss",
+                       "value":  "#aaab9c",
+                       "token":  "--color-moss",
+                       "role":  "Icon strokes and fills, tertiary text, decorative icon tint"
+                   },
+                   {
+                       "name":  "Bone",
+                       "value":  "#e8e7d9",
+                       "token":  "--color-bone",
+                       "role":  "Subtle warm tint surface for tag backgrounds, soft highlight washes"
+                   },
+                   {
+                       "name":  "Highlighter Yellow",
+                       "value":  "#fff347",
+                       "token":  "--color-highlighter-yellow",
+                       "role":  "Single accent decorative bars, highlight washes, emphasis marks. Appears 34 times per page maximum, always as a 46px stroke or small fill block"
+                   },
+                   {
+                       "name":  "Khaki Olive",
+                       "value":  "#aaa674",
+                       "token":  "--color-khaki-olive",
+                       "role":  "Muted accent for tag borders, secondary button outlines, warm-tinted surface washes the restrained sibling of the highlighter"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Serif (custom resembles a high-contrast modern editorial serif like Reckless Neue, GT Sectra, or PP Editorial New) All display and heading copy. Used at poster sizes (6496px) for hero headlines and product section titles. The weight 300 at 96px is the signature move whisper-thin strokes at near-poster scale create authority through restraint, not volume. Tight tracking (-0.05em) at all sizes; line-heights under 1.1 let letterspacing do the vertical work `--font-serif-custom-resembles-a-high-contrast-modern-editorial-serif-like-reckless-neue-gt-sectra-or-pp-editorial-new`",
+                                     "Mono (custom clean geometric monospace) All UI text: navigation, buttons, labels, body copy, metadata, footer links. The mono choice is deliberate it makes every UI element feel like terminal output or code annotation, contrasting the serif\u0027s editorial softness. Weight 400 dominates; 500 for button text; 300 reserved for large mono headings (2848px range) `--font-mono-custom-clean-geometric-monospace`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "17",
+                                             "-0.8px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "19",
+                                             "-0.94px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "16px",
+                                             "24",
+                                             "-1.07px",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "20px",
+                                             "30",
+                                             "-0.5px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "24px",
+                                             "24",
+                                             "-1.2px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "32px",
+                                             "32",
+                                             "-1.6px",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "48px",
+                                             "54",
+                                             "-2.4px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display-sm",
+                                             "64px",
+                                             "64",
+                                             "-3.2px",
+                                             "--text-display-sm"
+                                         ],
+                                         [
+                                             "display",
+                                             "96px",
+                                             "90",
+                                             "-4.8px",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "64",
+                                      "64px",
+                                      "--spacing-64"
+                                  ],
+                                  [
+                                      "80",
+                                      "80px",
+                                      "--spacing-80"
+                                  ],
+                                  [
+                                      "128",
+                                      "128px",
+                                      "--spacing-128"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "24px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "8px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "nav",
+                      "3px"
+                  ],
+                  [
+                      "tags",
+                      "3px"
+                  ],
+                  [
+                      "cards",
+                      "8px"
+                  ],
+                  [
+                      "buttons",
+                      "3px"
+                  ]
+              ]
+}

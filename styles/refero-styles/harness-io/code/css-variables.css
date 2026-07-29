@@ -1,0 +1,261 @@
+:root {
+  /* Colors */
+  --color-void-canvas: #070707;
+  --color-carbon-plate: #0d0e12;
+  --color-obsidian: #141418;
+  --color-steel-border: #22222a;
+  --color-iron-edge: #2e3038;
+  --color-cinder: #60606c;
+  --color-slate-mute: #a2a4a9;
+  --color-graphite: #aeaeb7;
+  --color-ash: #c8cad0;
+  --color-fog: #d9dae5;
+  --color-cloud-mist: #f0f0f0;
+  --color-pure-white: #ffffff;
+  --color-phosphor-mint: #70dcd3;
+  --color-signal-blue: #0092e4;
+  --color-current-blue: #00ade4;
+  --color-deep-signal: #0677d4;
+  --color-ice-blue: #a6e5f2;
+  --color-verdant-edge: #75ae4c;
+  --color-steel-iris: #929dbd;
+
+  /* Typography */
+  --font-calsans: "Calsans", "Space Grotesk", Inter, system-ui, sans-serif;
+  --font-geist: "Geist", Inter, system-ui, sans-serif;
+  --font-helvetica: Helvetica, Arial, system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --leading-caption: 1.22;
+  --tracking-caption: 0.5px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.44;
+  --tracking-body-sm: 0.25px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: 0.27px;
+  --text-subheading: 20px;
+  --leading-subheading: 1.5;
+  --tracking-subheading: -0.34px;
+  --text-heading-sm: 32px;
+  --leading-heading-sm: 1.1;
+  --tracking-heading-sm: 1.8px;
+  --text-heading: 56px;
+  --leading-heading: 1.1;
+  --tracking-heading: 3.1px;
+  --text-heading-lg: 72px;
+  --leading-heading-lg: 1;
+  --tracking-heading-lg: 4px;
+  --text-display: 88px;
+  --leading-display: 0.96;
+  --tracking-display: 4.9px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-unit: 8px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-56: 56px;
+  --spacing-80: 80px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 80px;
+  --card-padding: 24px;
+  --element-gap: 16px;
+
+  /* Radius */
+  --radius-inputs: 5px;
+  --radius-nested-cards: 16px;
+  --radius-cards: 20px;
+  --radius-badges: 800px;
+  --radius-buttons: 800px;
+
+  /* Shadows */
+  --shadow-none: none;
+  --shadow-filled-pill: rgba(0, 0, 0, 0.05) 2px 2px 0px 0px, rgb(255, 255, 255) 0px -1px 0px 0px inset, rgb(255, 255, 255) 1px 0px 0px 0px inset, rgb(255, 255, 255) -1px 0px 0px 0px inset, rgb(255, 255, 255) 0px 1px 0px 0px inset;
+  --shadow-input: rgba(0, 0, 0, 0.05) 2px 2px 0px 0px;
+}
+
+.harness-shell {
+  background: var(--color-void-canvas);
+  color: var(--color-pure-white);
+  font-family: var(--font-geist);
+}
+
+.harness-container {
+  max-width: var(--page-max-width);
+  margin-inline: auto;
+  padding-inline: var(--spacing-24);
+}
+
+.harness-display {
+  color: var(--color-pure-white);
+  font-family: var(--font-calsans);
+  font-size: clamp(56px, 8vw, var(--text-display));
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+}
+
+.harness-heading {
+  color: var(--color-pure-white);
+  font-family: var(--font-calsans);
+  font-size: clamp(40px, 6vw, var(--text-heading));
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-heading);
+}
+
+.harness-body {
+  color: var(--color-ash);
+  font-family: var(--font-geist);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--tracking-body);
+  line-height: var(--leading-body);
+}
+
+.harness-nav {
+  align-items: center;
+  background: var(--color-void-canvas);
+  border-bottom: 1px solid color-mix(in oklab, var(--color-slate-mute) 35%, transparent);
+  color: var(--color-pure-white);
+  display: flex;
+  font-family: var(--font-geist);
+  font-size: 14px;
+  justify-content: space-between;
+  min-height: 64px;
+}
+
+.harness-filled-pill {
+  align-items: center;
+  background: var(--color-pure-white);
+  border: 0;
+  border-radius: var(--radius-buttons);
+  box-shadow: var(--shadow-filled-pill);
+  color: var(--color-void-canvas);
+  display: inline-flex;
+  font-family: var(--font-geist);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-medium);
+  justify-content: center;
+  line-height: 1;
+  padding: 12px 24px;
+}
+
+.harness-ghost-pill {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--color-pure-white);
+  border-radius: var(--radius-buttons);
+  color: var(--color-pure-white);
+  display: inline-flex;
+  font-family: var(--font-geist);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-regular);
+  justify-content: center;
+  line-height: 1;
+  padding: 12px 24px;
+}
+
+.harness-card {
+  background: var(--color-carbon-plate);
+  border: 1px solid var(--color-fog);
+  border-radius: var(--radius-cards);
+  box-shadow: none;
+  color: var(--color-pure-white);
+  padding: var(--card-padding);
+}
+
+.harness-nested-card {
+  background: var(--color-obsidian);
+  border-radius: var(--radius-nested-cards);
+  color: var(--color-graphite);
+  padding: var(--spacing-16);
+}
+
+.harness-mint-card {
+  background: var(--color-phosphor-mint);
+  border: 0;
+  border-radius: var(--radius-cards);
+  color: var(--color-void-canvas);
+  padding: var(--card-padding);
+}
+
+.harness-code-surface {
+  background: var(--color-obsidian);
+  border-radius: var(--radius-nested-cards);
+  color: var(--color-graphite);
+  font-family: var(--font-geist);
+  font-size: 13px;
+  line-height: 1.5;
+  padding: var(--spacing-16) 20px;
+}
+
+.harness-input {
+  background: var(--color-carbon-plate);
+  border: 1px solid var(--color-iron-edge);
+  border-radius: var(--radius-inputs);
+  box-shadow: var(--shadow-input);
+  color: var(--color-pure-white);
+  font-family: var(--font-geist);
+  font-size: 14px;
+  padding: 12px;
+}
+
+.harness-input:focus {
+  border-color: var(--color-deep-signal);
+  outline: 0;
+}
+
+.harness-badge {
+  background: transparent;
+  border: 1px solid var(--color-verdant-edge);
+  border-radius: var(--radius-badges);
+  color: var(--color-verdant-edge);
+  display: inline-flex;
+  font-family: var(--font-geist);
+  font-size: var(--text-caption);
+  letter-spacing: var(--tracking-caption);
+  padding: 2px 8px;
+}
+
+.harness-section-eyebrow {
+  color: var(--color-ice-blue);
+  font-family: var(--font-geist);
+  font-size: var(--text-caption);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.094em;
+  text-transform: uppercase;
+}
+
+.harness-activity-row {
+  align-items: center;
+  border-bottom: 1px solid var(--color-iron-edge);
+  display: flex;
+  gap: var(--spacing-16);
+  padding-block: 10px;
+}
+
+.harness-status-dot {
+  background: var(--color-phosphor-mint);
+  border-radius: 999px;
+  height: 8px;
+  width: 8px;
+}
+
+.harness-product-visual {
+  background:
+    radial-gradient(circle at 70% 30%, rgba(112, 220, 211, 0.32), transparent 28%),
+    linear-gradient(135deg, rgb(22, 48, 82) 0%, var(--color-obsidian) 70%);
+  border-radius: var(--radius-cards);
+  min-height: 360px;
+}

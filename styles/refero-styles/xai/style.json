@@ -1,0 +1,226 @@
+{
+  "id": "3b83dfe4-2f53-4a4d-819d-e6045ca5f7dc",
+  "name": "xAI",
+  "slug": "xai",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/3b83dfe4-2f53-4a4d-819d-e6045ca5f7dc",
+  "referenceSite": "https://x.ai",
+  "capturedAt": "2026-07-28",
+  "mood": "warm cream laboratory with a black pill",
+  "summary": "Restrained near-monochrome AI/developer editorial system with Paper canvas, Cream cards, Jet Ink pill CTAs, universalSansDisplay headlines, GeistMono technical fragments, and rare beta or terminal accents.",
+  "useWhen": [
+    "AI developer platforms",
+    "API and SDK landing pages",
+    "Model launch pages",
+    "Technical product marketing with code, terminal, or product mockups"
+  ],
+  "avoidWhen": [
+    "Lifestyle or creator-led sites",
+    "Colorful SaaS dashboards",
+    "Interfaces that need many status colors",
+    "Brands relying on photography, 3D renders, or illustration"
+  ],
+  "colors": {
+    "jetInk": {
+      "value": "#0a0a0a",
+      "role": "Primary text, filled CTA buttons, logo mark, main hierarchy anchor"
+    },
+    "charcoal": {
+      "value": "#151515",
+      "role": "Dark code-block surface behind terminal demos"
+    },
+    "slate": {
+      "value": "#3b3b3b",
+      "role": "Muted heading variant and secondary section labels"
+    },
+    "steel": {
+      "value": "#545454",
+      "role": "Mid-weight body text, inline stats, spec lines"
+    },
+    "fog": {
+      "value": "#858585",
+      "role": "Secondary text, icon strokes, inactive nav items, link copy"
+    },
+    "pewter": {
+      "value": "#9d9d9d",
+      "role": "Tertiary text, metadata, decorative fills"
+    },
+    "dove": {
+      "value": "#d5d9e2",
+      "role": "Hairline borders, input rings, button focus outlines"
+    },
+    "sand": {
+      "value": "#f2ede5",
+      "role": "Warm wash backgrounds, subtle highlight zones, beta pill surface"
+    },
+    "cream": {
+      "value": "#f9f8f6",
+      "role": "Card surfaces, secondary panels, tag backgrounds"
+    },
+    "paper": {
+      "value": "#ffffff",
+      "role": "Page background, button text on filled CTAs, icon foreground on dark surfaces"
+    },
+    "ember": {
+      "value": "#ff5f57",
+      "role": "Terminal traffic-light red dot only"
+    },
+    "sunbeam": {
+      "value": "#ffbd2e",
+      "role": "Terminal yellow dot and rare novelty signal"
+    },
+    "sprout": {
+      "value": "#28c840",
+      "role": "Terminal traffic-light green dot only"
+    }
+  },
+  "typography": {
+    "primaryFamily": "universalSans",
+    "primaryFallbackFamilies": [
+      "Inter",
+      "system-ui",
+      "sans-serif"
+    ],
+    "displayFamily": "universalSansDisplay",
+    "displayFallbackFamilies": [
+      "Sohne",
+      "GT America",
+      "Inter Display",
+      "sans-serif"
+    ],
+    "monoFamily": "GeistMono",
+    "monoFallbackFamilies": [
+      "Geist Mono",
+      "JetBrains Mono",
+      "monospace"
+    ],
+    "weights": [
+      400,
+      500,
+      700
+    ],
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "weight": 400,
+        "lineHeight": "20px",
+        "letterSpacing": "-0.12px"
+      },
+      "bodySmall": {
+        "size": "14px",
+        "weight": 500,
+        "lineHeight": "20px",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "size": "16px",
+        "weight": 400,
+        "lineHeight": "24px",
+        "letterSpacing": "0"
+      },
+      "utility": {
+        "size": "18px",
+        "weight": 400,
+        "lineHeight": "29px",
+        "letterSpacing": "0"
+      },
+      "headingSmall": {
+        "size": "24px",
+        "weight": 500,
+        "lineHeight": "32px",
+        "letterSpacing": "-0.6px"
+      },
+      "subheading": {
+        "size": "30px",
+        "weight": 400,
+        "lineHeight": "36px",
+        "letterSpacing": "-0.75px"
+      },
+      "heading": {
+        "size": "48px",
+        "weight": 400,
+        "lineHeight": "48px",
+        "letterSpacing": "-1.2px"
+      },
+      "headingLarge": {
+        "size": "60px",
+        "weight": 500,
+        "lineHeight": "60px",
+        "letterSpacing": "-1.5px"
+      },
+      "display": {
+        "size": "72px",
+        "weight": 400,
+        "lineHeight": "72px",
+        "letterSpacing": "-1.8px"
+      }
+    },
+    "mono": {
+      "sizes": [
+        "10px",
+        "11px",
+        "12px",
+        "13px"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "lineHeight": "1.50 to 1.85",
+      "letterSpacing": "-0.01em"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "40px",
+    "elementGap": "12px",
+    "scale": [
+      "4px",
+      "8px",
+      "12px",
+      "16px",
+      "20px",
+      "24px",
+      "32px",
+      "40px",
+      "48px",
+      "64px",
+      "96px",
+      "144px"
+    ]
+  },
+  "shape": {
+    "inputRadius": "6px",
+    "smallCardRadius": "8px",
+    "cardRadius": "16px",
+    "terminalRadius": "12px",
+    "pillRadius": "9999px",
+    "buttonRadius": "9999px"
+  },
+  "shadows": {
+    "subtleRing": "rgba(10, 10, 10, 0.15) 0px 0px 0px 1px",
+    "stickyHeader": "rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px",
+    "elevatedCreamCard": "rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(15, 23, 42, 0.18) 0px 18px 40px -24px"
+  },
+  "components": [
+    "Filled primary button",
+    "Ghost secondary button",
+    "Compact nav button",
+    "Beta tag pill",
+    "Flat cream card",
+    "Pricing tier card",
+    "Terminal code block",
+    "Language tab pill",
+    "Navigation link",
+    "News card",
+    "Feature stat block",
+    "Checklist row"
+  ],
+  "imagery": {
+    "direction": "Product screenshots, chat threads, code editors, API snippets, waveform cards, terminal demos, warm gradient panels.",
+    "avoid": "Lifestyle photography, stock images, human figures, 3D renders, decorative illustrations."
+  }
+}

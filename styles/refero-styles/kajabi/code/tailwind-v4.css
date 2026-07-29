@@ -1,0 +1,104 @@
+@theme {
+  --color-kajabi-paper-white: #ffffff;
+  --color-kajabi-ink-black: #0a0a0a;
+  --color-kajabi-charcoal: #1f1f1e;
+  --color-kajabi-smoke: #333333;
+  --color-kajabi-stone: #535250;
+  --color-kajabi-driftwood: #949189;
+  --color-kajabi-sand: #bcb9ae;
+  --color-kajabi-graphite: #d4d3ce;
+  --color-kajabi-ash: #e0dedc;
+  --color-kajabi-mist: #e9e8e7;
+
+  --font-kajabi-sans: "Haffer", "Inter", "Sohne", "General Sans", Arial, sans-serif;
+
+  --text-kajabi-caption: 12px;
+  --text-kajabi-body-sm: 14px;
+  --text-kajabi-body: 16px;
+  --text-kajabi-subheading: 20px;
+  --text-kajabi-heading-sm: 24px;
+  --text-kajabi-heading: 32px;
+  --text-kajabi-heading-lg: 40px;
+  --text-kajabi-poster: 48px;
+  --text-kajabi-display: 60px;
+
+  --radius-kajabi-rect: 2px;
+  --radius-kajabi-overlay: 8px;
+  --radius-kajabi-pill: 9999px;
+
+  --spacing-kajabi-1: 4px;
+  --spacing-kajabi-2: 8px;
+  --spacing-kajabi-3: 12px;
+  --spacing-kajabi-4: 16px;
+  --spacing-kajabi-5: 20px;
+  --spacing-kajabi-6: 24px;
+  --spacing-kajabi-8: 32px;
+  --spacing-kajabi-10: 40px;
+  --spacing-kajabi-11: 44px;
+  --spacing-kajabi-16: 64px;
+  --spacing-kajabi-17: 68px;
+  --spacing-kajabi-30: 120px;
+}
+
+@layer components {
+  .kajabi-page {
+    background: var(--color-kajabi-paper-white);
+    color: var(--color-kajabi-ink-black);
+    font-family: var(--font-kajabi-sans);
+  }
+
+  .kajabi-container {
+    width: min(100% - 48px, 1280px);
+    margin-inline: auto;
+  }
+
+  .kajabi-display {
+    font-size: clamp(40px, 6vw, var(--text-kajabi-display));
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -1.8px;
+  }
+
+  .kajabi-button-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: var(--radius-kajabi-rect);
+    background: var(--color-kajabi-ink-black);
+    color: var(--color-kajabi-paper-white);
+    padding: 12px 24px;
+    font-size: var(--text-kajabi-body);
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  .kajabi-input {
+    min-height: 48px;
+    border: 1px solid var(--color-kajabi-ash);
+    border-radius: var(--radius-kajabi-rect);
+    background: var(--color-kajabi-paper-white);
+    color: var(--color-kajabi-smoke);
+    padding: 12px 16px;
+    font-size: var(--text-kajabi-body);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .kajabi-pill-tab {
+    display: inline-flex;
+    align-items: center;
+    border-radius: var(--radius-kajabi-pill);
+    padding: 8px 16px;
+    font-size: var(--text-kajabi-body-sm);
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  .kajabi-dark-band {
+    background: var(--color-kajabi-charcoal);
+    color: var(--color-kajabi-paper-white);
+  }
+}

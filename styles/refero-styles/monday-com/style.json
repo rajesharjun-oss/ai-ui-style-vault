@@ -1,0 +1,250 @@
+{
+  "id": "77ee57e9-9f8e-4ec1-93f7-cc1c4b84307a",
+  "name": "monday.com",
+  "slug": "monday-com",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/77ee57e9-9f8e-4ec1-93f7-cc1c4b84307a",
+  "referenceSite": "https://monday.com",
+  "capturedAt": "2026-07-28",
+  "mood": "white workshop with pastel sticky notes",
+  "summary": "White-canvas productivity SaaS style with violet primary actions, pastel feature surfaces, Poppins typography, pill CTAs, 24px cards, soft board mockup shadows, and product UI as the main visual asset.",
+  "useWhen": [
+    "Productivity SaaS landing pages",
+    "Collaboration and workflow products",
+    "AI work assistant launches",
+    "Feature grids, trust strips, and product mockup-heavy pages"
+  ],
+  "avoidWhen": [
+    "Dense admin dashboards",
+    "Luxury editorial brands",
+    "Apps needing dark, serious enterprise styling",
+    "Interfaces that cannot show real product UI"
+  ],
+  "colors": {
+    "mondayViolet": {
+      "value": "#6161ff",
+      "role": "Primary CTAs, brand panels, active states, gradient stops"
+    },
+    "prism": {
+      "value": "conic-gradient(from 270deg, rgb(129, 129, 255) 15%, rgb(51, 219, 219) 40%, rgb(51, 213, 142) 55%, rgb(255, 214, 51) 65%, rgb(252, 82, 125) 85%, rgb(129, 129, 255) 100%)",
+      "role": "Logo mark, dividers, loading states, small decorative accents"
+    },
+    "mint": {
+      "value": "#bcfe90",
+      "role": "Green wash for feature card surfaces and emphasis blocks"
+    },
+    "sky": {
+      "value": "#abf0ff",
+      "role": "Blue wash for highlight cards and decorative bands"
+    },
+    "apricot": {
+      "value": "linear-gradient(90deg, rgb(254, 129, 228), rgb(254, 129, 228) 31%, rgb(253, 169, 0) 88%)",
+      "role": "Warm hero text gradient and soft accent wash"
+    },
+    "lavender": {
+      "value": "#eddff7",
+      "role": "Decorative card background and category surface"
+    },
+    "periwinkle": {
+      "value": "#e7ecff",
+      "role": "Light brand-tinted surface"
+    },
+    "cornflower": {
+      "value": "#93beff",
+      "role": "Secondary brand surface"
+    },
+    "aqua": {
+      "value": "#d1faff",
+      "role": "Cyan card background and AI feature accent surface"
+    },
+    "cottonCandy": {
+      "value": "#e98dfe",
+      "role": "Playful card border accent and highlight stroke"
+    },
+    "ultraViolet": {
+      "value": "#9450fd",
+      "role": "Deep brand accent and saturated button alternative for product UI"
+    },
+    "electricCyan": {
+      "value": "#3ac9ff",
+      "role": "AI or feature highlight"
+    },
+    "forest": {
+      "value": "#2a5c4e",
+      "role": "Teal action color for selected product UI moments"
+    },
+    "peony": {
+      "value": "#fcd0f8",
+      "role": "Soft pink fill and saturated product UI alternative"
+    },
+    "periwinkleWash": {
+      "value": "#dbdbff",
+      "role": "Badge and tag background"
+    },
+    "ink": {
+      "value": "#333333",
+      "role": "Primary body text, headings, button labels"
+    },
+    "slate": {
+      "value": "#535768",
+      "role": "Secondary text, nav links, icon fills, footer copy"
+    },
+    "iron": {
+      "value": "#808080",
+      "role": "Muted helper text, disabled icons, tertiary borders"
+    },
+    "fog": {
+      "value": "#cacbcd",
+      "role": "Card borders and subtle dividers"
+    },
+    "mist": {
+      "value": "#d0d4e4",
+      "role": "Light card borders and elevated surfaces"
+    },
+    "pebble": {
+      "value": "#dddfeb",
+      "role": "Badge borders, pill outlines, input borders"
+    },
+    "shadowDust": {
+      "value": "#e6e7ea",
+      "role": "Soft lavender-tinted shadow support"
+    },
+    "cloud": {
+      "value": "#f5f6f8",
+      "role": "Page canvas, section backgrounds, neutral button fills"
+    },
+    "snow": {
+      "value": "#ffffff",
+      "role": "Card surfaces, nav background, input fields, button text"
+    }
+  },
+  "typography": {
+    "primaryFamily": "Poppins",
+    "fallbackFamilies": [
+      "Manrope",
+      "DM Sans",
+      "Plus Jakarta Sans",
+      "Arial",
+      "sans-serif"
+    ],
+    "weights": [
+      300,
+      400,
+      500,
+      700
+    ],
+    "scale": {
+      "micro": {
+        "size": "8px",
+        "weight": 500,
+        "lineHeight": "1.5",
+        "letterSpacing": "0.2em"
+      },
+      "caption": {
+        "size": "12px",
+        "weight": 400,
+        "lineHeight": "1.45",
+        "letterSpacing": "-0.12px"
+      },
+      "bodySmall": {
+        "size": "14px",
+        "weight": 400,
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "size": "16px",
+        "weight": 400,
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.16px"
+      },
+      "bodyLarge": {
+        "size": "18px",
+        "weight": 400,
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.18px"
+      },
+      "subheading": {
+        "size": "20px",
+        "weight": 400,
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.22px"
+      },
+      "headingSmall": {
+        "size": "24px",
+        "weight": 400,
+        "lineHeight": "1.3",
+        "letterSpacing": "-0.36px"
+      },
+      "heading": {
+        "size": "36px",
+        "weight": 400,
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.54px"
+      },
+      "headingLarge": {
+        "size": "48px",
+        "weight": 300,
+        "lineHeight": "1.15",
+        "letterSpacing": "-0.96px"
+      },
+      "display": {
+        "size": "64px",
+        "weight": 300,
+        "lineHeight": "1.15",
+        "letterSpacing": "-2.56px"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "8px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": [
+      "8px",
+      "16px",
+      "24px",
+      "32px",
+      "40px",
+      "48px",
+      "64px",
+      "80px",
+      "96px"
+    ]
+  },
+  "shape": {
+    "navRadius": "6px",
+    "badgeRadius": "6px",
+    "inputRadius": "6px",
+    "imageRadius": "12px",
+    "cardRadius": "24px",
+    "buttonRadius": "160px"
+  },
+  "shadows": {
+    "boardMockup": "rgba(205, 208, 223, 0.4) 0px 2px 48px 0px",
+    "elevatedCard": "rgba(0, 0, 0, 0.15) 0px 5px 45px 0px",
+    "activeAiCard": "rgba(0, 0, 0, 0.15) 0px 4px 40px 0px",
+    "insetEmphasis": "rgb(0, 0, 0) 0px -2px 0px 0px inset"
+  },
+  "components": [
+    "Primary pill button",
+    "Outlined pill button",
+    "Text link button",
+    "Pastel feature card",
+    "Board mockup card",
+    "AI prompt card",
+    "Brand gradient panel",
+    "Status pill",
+    "Avatar stack",
+    "Logo strip",
+    "Exploration grid card",
+    "Navigation bar"
+  ],
+  "imagery": {
+    "direction": "Product UI mockups, monday-like boards, colored status pills, avatar stacks, AI sidebar panels, and monochrome logo strips.",
+    "avoid": "Lifestyle photography, stock imagery, human portraits, decorative illustration as the main hero asset."
+  }
+}

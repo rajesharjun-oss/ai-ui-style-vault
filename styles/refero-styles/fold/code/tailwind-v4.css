@@ -1,0 +1,64 @@
+@theme {
+  --color-fold-midnight-navy: #20294c;
+  --color-fold-cornflower-steel: #375390;
+  --color-fold-abyss: #042939;
+  --color-fold-hyacinth: #788dba;
+  --color-fold-electric-blue: #459af8;
+  --color-fold-voltage-yellow: #ffff00;
+  --color-fold-dusk: #676b89;
+  --color-fold-smoke: #979db5;
+  --color-fold-silver-lining: #c7cbdb;
+  --color-fold-mist-gray: #dddfe9;
+  --color-fold-fog-white: #f0f1f5;
+  --color-fold-pure-white: #ffffff;
+
+  --font-fold-primary: "GT Walsheim Pro", Inter, Switzer, Satoshi, "General Sans", sans-serif;
+  --font-fold-secondary: "GT America", Inter, "Sohne", "NB International Pro", sans-serif;
+
+  --text-fold-tag: 10px;
+  --text-fold-caption: 14px;
+  --text-fold-body-sm: 16px;
+  --text-fold-body: 18px;
+  --text-fold-subheading: 24px;
+  --text-fold-heading-sm: 32px;
+  --text-fold-heading: 42px;
+  --text-fold-heading-lg: 64px;
+  --text-fold-display: 100px;
+
+  --leading-fold-tag: 1.2;
+  --leading-fold-caption: 1.43;
+  --leading-fold-body-sm: 1.5;
+  --leading-fold-body: 1.41;
+  --leading-fold-subheading: 1.33;
+  --leading-fold-heading-sm: 1.18;
+  --leading-fold-heading: 1;
+  --leading-fold-heading-lg: 0.85;
+  --leading-fold-display: 0.91;
+
+  --tracking-fold-tag: 0.4px;
+  --tracking-fold-caption: 0.35px;
+  --tracking-fold-body: -0.54px;
+  --tracking-fold-subheading: -0.72px;
+  --tracking-fold-heading-sm: -0.96px;
+  --tracking-fold-heading: -1.68px;
+  --tracking-fold-heading-lg: -2.56px;
+  --tracking-fold-display: -12.5px;
+
+  --spacing-fold-8: 8px;
+  --spacing-fold-16: 16px;
+  --spacing-fold-24: 24px;
+  --spacing-fold-32: 32px;
+  --spacing-fold-48: 48px;
+
+  --radius-fold-card: 12px;
+  --radius-fold-image: 16px;
+  --radius-fold-nav: 24px;
+  --radius-fold-panel: 24px;
+  --radius-fold-pill: 9999px;
+
+  --shadow-fold-xl: rgba(32, 41, 76, 0.12) 0px 9px 25px 0px;
+  --shadow-fold-md: rgba(32, 41, 76, 0.12) 0px 6px 16px 0px, rgba(32, 41, 76, 0.09) 0px 1px 5px 0px;
+  --shadow-fold-nested: rgba(32, 41, 76, 0.07) 0px 4px 11px 0px, rgba(32, 41, 76, 0.12) 0px 1px 3px 0px;
+  --shadow-fold-button: rgba(32, 41, 76, 0.1) 0px 1px 4px 0px;
+}
+

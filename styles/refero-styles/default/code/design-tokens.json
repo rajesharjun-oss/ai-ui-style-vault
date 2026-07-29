@@ -1,0 +1,107 @@
+{
+  "name": "Default",
+  "slug": "default",
+  "sourceUrl": "https://styles.refero.design/style/eeeb6ac9-fc07-4965-935a-e1989ed831f1",
+  "referenceSite": "https://www.default.com",
+  "colors": {
+    "void": "#0b0c0e",
+    "graphite": "#131416",
+    "charcoal": "#1f1f21",
+    "ink": "#333333",
+    "smoke": "#3c3d3e",
+    "steel": "#71717a",
+    "fog": "#858687",
+    "ash": "#9d9e9f",
+    "chalk": "#cececf",
+    "bone": "#f2f2f2",
+    "snow": "#ffffff",
+    "signalBlue": "#3b82f6",
+    "arcBlue": "#60a5fa",
+    "ringBlue": "#93c5fd",
+    "mint": "#4ade80",
+    "fern": "#22c55e",
+    "coral": "#f87171",
+    "ember": "#ea580c",
+    "iris": "#314ef0"
+  },
+  "typography": {
+    "families": {
+      "inter": "\"Inter\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+    },
+    "features": ["ss01", "ss03"],
+    "scale": {
+      "bodyLarge": {
+        "size": "14px",
+        "lineHeight": 1.43,
+        "letterSpacing": "-0.32px"
+      },
+      "bodyXl": {
+        "size": "16px",
+        "lineHeight": 1.5,
+        "letterSpacing": "0"
+      },
+      "subheading": {
+        "size": "18px",
+        "lineHeight": 1,
+        "letterSpacing": "-0.61px"
+      },
+      "heading": {
+        "size": "32px",
+        "lineHeight": 1.25,
+        "letterSpacing": "-0.64px"
+      },
+      "headingLarge": {
+        "size": "42px",
+        "lineHeight": 1.2,
+        "letterSpacing": "-0.88px"
+      },
+      "display": {
+        "size": "52px",
+        "lineHeight": 1,
+        "letterSpacing": "-1.3px"
+      },
+      "displayLarge": {
+        "size": "64px",
+        "lineHeight": 0.94,
+        "letterSpacing": "-1.28px"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "w420": 420,
+      "w440": 440,
+      "w450": 450,
+      "w480": 480,
+      "medium": 500,
+      "w580": 580
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "compact",
+    "maxWidth": "1080px",
+    "sectionGap": "96px",
+    "cardPadding": "28px",
+    "elementGap": "8px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "36px", "48px", "52px", "64px", "68px", "80px", "96px", "116px"]
+  },
+  "radii": {
+    "xs": "5.26px",
+    "sm": "8.77px",
+    "pills": "10px",
+    "buttons": "10px",
+    "md": "12px",
+    "cards": "12px",
+    "lg": "16px",
+    "xl": "20px",
+    "2xl": "24px"
+  },
+  "borders": {
+    "hairline": "0.5px solid rgba(255, 255, 255, 0.08)"
+  },
+  "shadows": {
+    "sm": "rgba(0, 0, 0, 0.1) 0px 1px 4px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px",
+    "subtle": "rgba(0, 0, 0, 0.25) 0px 1px 2px 0px inset, rgba(0, 0, 0, 0.02) 0px 2px 4px 0px",
+    "blueRing": "rgba(59, 130, 246, 0.25) 0px 0px 0px 1.5px"
+  }
+}

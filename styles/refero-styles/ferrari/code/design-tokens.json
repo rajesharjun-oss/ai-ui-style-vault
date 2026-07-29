@@ -1,0 +1,110 @@
+{
+  "name": "Ferrari",
+  "slug": "ferrari",
+  "source": {
+    "provider": "refero",
+    "url": "https://styles.refero.design/style/80164adf-a898-4f7c-bce7-12f3f62e1649",
+    "referenceUrl": "https://ferrari.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "dark",
+  "color": {
+    "rossoCorsa": { "value": "#da291c", "role": "interaction signal" },
+    "rossoScuro": { "value": "#9d2211", "role": "deep red support" },
+    "carboneNero": { "value": "#000000", "role": "hero background" },
+    "notteProfonda": { "value": "#181818", "role": "secondary dark surface" },
+    "grafite": { "value": "#303030", "role": "dark border and divider" },
+    "piombo": { "value": "#666666", "role": "subdued copy" },
+    "fumo": { "value": "#8f8f8f", "role": "muted text" },
+    "argentoChiaro": { "value": "#d2d2d2", "role": "light border" },
+    "cemento": { "value": "#ebebeb", "role": "light section background" },
+    "veloDiLuce": { "value": "#f7f7f7", "role": "near-white surface wash" },
+    "biancoFerrari": { "value": "#ffffff", "role": "primary text and white canvas" }
+  },
+  "typography": {
+    "fontFamilies": {
+      "bodyFont": "\"Body-Font\", Inter, \"Helvetica Neue\", \"Arial Narrow\", system-ui, sans-serif",
+      "ferrariSans": "\"FerrariSans\", Inter, \"Helvetica Neue\", \"Arial Narrow\", system-ui, sans-serif"
+    },
+    "features": {
+      "ss01": true
+    },
+    "scale": {
+      "micro": { "size": "7px", "weight": 400, "lineHeight": 2, "letterSpacing": "0.091em" },
+      "tiny": { "size": "9px", "weight": 400, "lineHeight": 1.78, "letterSpacing": "0.091em" },
+      "caption": { "size": "11px", "weight": 400, "lineHeight": 1.78, "letterSpacing": "0.083em" },
+      "bodySm": { "size": "12px", "weight": 400, "lineHeight": 1.78, "letterSpacing": "0.083em" },
+      "body": { "size": "13px", "weight": 400, "lineHeight": 1.78, "letterSpacing": "0.015em" },
+      "sectionTitle": { "size": "16px", "weight": 500, "lineHeight": 1.4, "letterSpacing": "0.005em" }
+    }
+  },
+  "spacing": {
+    "scale": {
+      "4": "4px",
+      "5": "5px",
+      "6": "6px",
+      "10": "10px",
+      "15": "15px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "25": "25px",
+      "30": "30px",
+      "32": "32px",
+      "44": "44px",
+      "50": "50px",
+      "54": "54px",
+      "60": "60px",
+      "123": "123px"
+    },
+    "layout": {
+      "maxWidth": "1440px",
+      "sectionGap": "64-96px",
+      "cardPadding": "24-32px",
+      "elementGap": "10-16px"
+    }
+  },
+  "radius": {
+    "cards": "0px",
+    "buttons": "0px",
+    "tags": "0px",
+    "full": "9999px"
+  },
+  "surfaces": {
+    "voidBlack": "#000000",
+    "nightSurface": "#181818",
+    "graphiteEdge": "#303030",
+    "canvasWhite": "#ffffff",
+    "smokeWash": "#f7f7f7",
+    "concrete": "#ebebeb"
+  },
+  "components": {
+    "heroPanel": {
+      "background": "{color.carboneNero.value}",
+      "image": "full bleed, 0px radius, no frame",
+      "copy": "uppercase, centered, white"
+    },
+    "ghostNavigationLink": {
+      "background": "transparent",
+      "radius": "0px",
+      "textTransform": "uppercase",
+      "hoverColor": "{color.rossoCorsa.value}"
+    },
+    "featuredContentCard": {
+      "background": "{color.notteProfonda.value}",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "none"
+    },
+    "hairlineDivider": {
+      "dark": "1px solid #303030",
+      "light": "1px solid #d2d2d2"
+    },
+    "categoryPill": {
+      "radius": "9999px",
+      "background": "transparent",
+      "border": "1px solid #ffffff"
+    }
+  }
+}
+

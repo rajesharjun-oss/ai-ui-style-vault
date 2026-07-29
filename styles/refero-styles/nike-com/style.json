@@ -1,0 +1,83 @@
+{
+  "name": "Nike.com",
+  "slug": "nike-com",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/d7ace114-0548-41f5-a2ff-2afbf32be94d",
+    "styleId": "d7ace114-0548-41f5-a2ff-2afbf32be94d",
+    "referenceSite": "https://nike.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "mixed",
+  "summary": "A monochrome product-gallery commerce system with white product surfaces, dark editorial hero sections, sharp-edged photography, compact Helvetica-style UI type, 30px pill buttons, and no UI accent colors.",
+  "personality": [
+    "athletic",
+    "minimal",
+    "product-first",
+    "editorial",
+    "monochrome",
+    "fast"
+  ],
+  "bestFor": [
+    "sports ecommerce",
+    "fashion retail",
+    "product drops",
+    "editorial commerce",
+    "product photography galleries"
+  ],
+  "coreMoves": [
+    "Use only black, white, and gray UI colors.",
+    "Let photography carry all chromatic interest.",
+    "Keep cards and images sharp with 0px radius.",
+    "Use 30px pill buttons for every CTA.",
+    "Keep most UI type between 12px and 20px.",
+    "Reserve the 76px Futura-style display face for hero headlines only.",
+    "Avoid shadows and communicate separation with whitespace and hairline borders."
+  ],
+  "colors": {
+    "obsidian": "#111111",
+    "steel": "#707072",
+    "faintGray": "#9e9ea0",
+    "concreteGray": "#e5e5e5",
+    "softMist": "#f5f5f5",
+    "paperWhite": "#ffffff"
+  },
+  "typography": {
+    "helveticaNowTextMedium": {
+      "family": "Helvetica Now Text Medium",
+      "fallback": "Inter",
+      "weights": [500],
+      "sizes": ["12px", "14px", "16px"],
+      "lineHeights": [1.5, 1.75, 1.86]
+    },
+    "helveticaNowText": {
+      "family": "Helvetica Now Text",
+      "fallback": "Inter",
+      "weights": [400, 500],
+      "sizes": ["16px", "20px"],
+      "lineHeights": [1.5, 1.75, 1.86]
+    },
+    "helveticaNowDisplayMedium": {
+      "family": "Helvetica Now Display Medium",
+      "fallback": "Inter Medium",
+      "weights": [500],
+      "sizes": ["20px", "24px"],
+      "lineHeights": [1.2, 1.5]
+    },
+    "nikeFuturaNd": {
+      "family": "Nike Futura ND",
+      "fallback": "Futura PT Medium",
+      "weights": [500],
+      "sizes": ["76px"],
+      "lineHeights": [1]
+    }
+  },
+  "shape": {
+    "nav": "24px",
+    "tags": "30px",
+    "cards": "0px",
+    "inputs": "0px",
+    "buttons": "30px",
+    "search": "24px"
+  }
+}
+

@@ -1,0 +1,49 @@
+@theme {
+  --color-netflix-red: #e50914;
+  --color-netflix-feature-card-base: #1d153f;
+  --color-netflix-deep-space: #000000;
+  --color-netflix-graphite: #2d2d2d;
+  --color-netflix-charcoal: #414141;
+  --color-netflix-slate: #5a5a5a;
+  --color-netflix-ash: #808080;
+  --color-netflix-silver: #b3b3b3;
+  --color-netflix-chalk-white: #ffffff;
+
+  --font-netflix-sans: "Netflix Sans", Roboto, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --text-netflix-caption: 13px;
+  --text-netflix-caption--line-height: 1.5;
+  --text-netflix-body: 16px;
+  --text-netflix-body--line-height: 1.5;
+  --text-netflix-subheading: 20px;
+  --text-netflix-subheading--line-height: 1.25;
+  --text-netflix-heading-sm: 24px;
+  --text-netflix-heading-sm--line-height: 1.2;
+  --text-netflix-heading: 56px;
+  --text-netflix-heading--line-height: 1.17;
+  --text-netflix-display: 100px;
+  --text-netflix-display--line-height: 1;
+
+  --spacing-netflix-page: 1280px;
+  --spacing-netflix-section-gap: 48px;
+  --spacing-netflix-card-padding: 24px;
+  --spacing-netflix-element-gap: 16px;
+
+  --radius-netflix-sm: 2px;
+  --radius-netflix-control: 4px;
+  --radius-netflix-banner: 8px;
+  --radius-netflix-card: 16px;
+}
+
+@utility bg-netflix-feature-card {
+  background: linear-gradient(149deg, #192247, #210e17);
+}
+
+@utility shadow-netflix-none {
+  box-shadow: none;
+}
+
+@utility netflix-hero-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.92));
+}
+

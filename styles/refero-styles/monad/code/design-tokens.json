@@ -1,0 +1,109 @@
+{
+  "name": "Monad",
+  "source": "Refero Styles",
+  "url": "https://styles.refero.design/style/fc84e9f0-2058-4a0a-8d26-9cc1ba84ec9c",
+  "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+  "colors": {
+    "parchment": "#f6f3f1",
+    "lakeBlue": "#2b59d1",
+    "periwinkleMist": "#cfdaf5",
+    "skyBlue": "#a0b5eb",
+    "mint": "#a7fccd",
+    "coral": "#ff9473",
+    "gold": "#ecda98",
+    "crimson": "#f37a0a",
+    "offBlack": "#242424",
+    "ink": "#000000",
+    "graphite": "#4e4d4d",
+    "smoke": "#797776",
+    "ash": "#cecac8"
+  },
+  "surfaces": {
+    "parchment": "#f6f3f1",
+    "periwinkleMist": "#cfdaf5",
+    "offBlack": "#242424",
+    "ink": "#000000"
+  },
+  "typography": {
+    "fonts": {
+      "abcDiatypeMono": {
+        "token": "--font-abc-diatype-mono",
+        "substitutes": ["JetBrains Mono", "IBM Plex Mono", "Space Mono"],
+        "weights": [400, 500],
+        "role": "Body copy, navigation, buttons, badges, tags, and all functional UI strings."
+      },
+      "untitledSerif": {
+        "token": "--font-untitled-serif",
+        "substitutes": ["Times New Roman", "Georgia", "editorial serif"],
+        "weights": [400],
+        "role": "Display headings, section titles, feature card titles, and FAQ questions."
+      },
+      "untitledSans": {
+        "token": "--font-untitled-sans",
+        "substitutes": ["system-ui"],
+        "weights": [400],
+        "role": "Rare supporting sans fallback."
+      }
+    },
+    "scale": {
+      "caption": { "size": "12px", "lineHeight": 1.2, "letterSpacing": "-0.4px" },
+      "bodySm": { "size": "14px", "lineHeight": 1.35, "letterSpacing": "-0.28px" },
+      "body": { "size": "16px", "lineHeight": 1.35, "letterSpacing": "-0.4px" },
+      "label": { "size": "18px", "lineHeight": 1.2, "letterSpacing": "-0.4px" },
+      "bodyLg": { "size": "20px", "lineHeight": 1.35, "letterSpacing": "-0.4px" },
+      "subheading": { "size": "24px", "lineHeight": 1.2, "letterSpacing": "-0.48px" },
+      "headingSm": { "size": "32px", "lineHeight": 1.2, "letterSpacing": "-0.64px" },
+      "heading": { "size": "40px", "lineHeight": 1.2, "letterSpacing": "-0.8px" },
+      "headingLg": { "size": "48px", "lineHeight": 1.2, "letterSpacing": "-0.96px" },
+      "display": { "size": "80px", "lineHeight": 1.2, "letterSpacing": "-1.6px" }
+    }
+  },
+  "spacing": {
+    "unit": "8px",
+    "density": "comfortable",
+    "scale": ["8px", "16px", "24px", "32px", "40px", "64px", "72px", "80px", "200px", "216px"],
+    "layout": {
+      "pageMaxWidth": "1432px",
+      "sectionGap": "64px",
+      "cardPadding": "40px",
+      "elementGap": "16px"
+    }
+  },
+  "radii": {
+    "cards": "40px",
+    "buttons": "100px",
+    "pills": "9999px",
+    "tags": "9999px"
+  },
+  "shadows": {
+    "md": "rgba(0, 0, 0, 0.1) 0px 0px 10px 0px"
+  },
+  "visualLanguage": {
+    "primary": "data pipeline diagram",
+    "nodeShape": "pill tags with 1px ash borders",
+    "lines": "thin curved ash connectors",
+    "washes": ["coral-to-sky-blue", "sky-blue-to-mint", "gold-coral-crimson"],
+    "imagePolicy": "no photography; use typography, diagrams, partner logos, and soft gradient washes"
+  },
+  "rules": {
+    "do": [
+      "Use Parchment as the page canvas.",
+      "Use Untitled Serif weight 400 for headings.",
+      "Use ABC Diatype Mono for body and functional UI text.",
+      "Use 100px or full pill radius for buttons and tags.",
+      "Reserve Lake Blue for the single primary action per screen.",
+      "Use 1px Ash borders and dividers.",
+      "Apply uppercase and tight tracking to nav, buttons, and tags."
+    ],
+    "dont": [
+      "Do not use pure white as the page background.",
+      "Do not bold headings.",
+      "Do not scatter Lake Blue across non-primary UI.",
+      "Do not substitute a normal sans-serif for mono body copy.",
+      "Do not add drop shadows to cards.",
+      "Do not use sharp card or button corners.",
+      "Do not use pastel decorative colors as functional UI colors."
+    ]
+  }
+}
+

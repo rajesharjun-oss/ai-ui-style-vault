@@ -1,0 +1,106 @@
+{
+  "id": "b1e82907-d1cf-46cd-8ae7-3561c5b15fd0",
+  "name": "Dylanbrouwer",
+  "slug": "dylanbrouwer",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/b1e82907-d1cf-46cd-8ae7-3561c5b15fd0",
+    "referenceSite": "https://www.dylanbrouwer.design",
+    "capturedAt": "2026-07-28",
+    "publishedAt": "2026-04-30T01:53:24.867Z",
+    "modifiedAt": "2026-04-30T01:53:24.867Z",
+    "media": {
+      "primaryImage": "https://images.refero.design/styles/refero.design/image/2cf1443e-7784-4e4b-b5cb-01951e7082de.jpg"
+    }
+  },
+  "classification": {
+    "theme": "mixed",
+    "industry": ["portfolio", "designer site", "creative studio", "personal brand"],
+    "mood": ["brutalist", "poster-like", "sharp", "oversized", "editorial"],
+    "bestFor": ["designer portfolios", "creative studio sites", "case-study galleries", "experimental personal brands"]
+  },
+  "summary": "A mixed brutalist portfolio style with concrete fields, cinder-black ink, one ember-orange accent, massive Tilt Warp display type, sharp project cards, and pill-only small controls.",
+  "colors": {
+    "cinderBlack": {
+      "value": "#161616",
+      "role": "Main ink, borders, nav text, inverted surface"
+    },
+    "boneWhite": {
+      "value": "#f7f7f7",
+      "role": "Light card surface, footer text, foreground on dark"
+    },
+    "concreteMist": {
+      "value": "#efefee",
+      "role": "Primary page background and neutral gallery field"
+    },
+    "emberOrange": {
+      "value": "#f7601b",
+      "role": "Accent tags, hover fills, special CTA capsules"
+    },
+    "utilityGray": {
+      "value": "#777777",
+      "role": "Metadata, counters, inactive links, secondary text"
+    },
+    "ashLine": {
+      "value": "#d5d5d5",
+      "role": "Subtle dividers on light sections"
+    },
+    "deepField": {
+      "value": "#000000",
+      "role": "Full black panels and image-backed overlays"
+    }
+  },
+  "typography": {
+    "displayFamily": "Tilt Warp",
+    "bodyFamily": "Sohne",
+    "fallbackStack": "Inter, Arial, Helvetica, sans-serif",
+    "supportFamilies": ["ABC Gravity", "Die Grotesk B"],
+    "scale": {
+      "megaDisplay": { "fontSize": "288px", "lineHeight": "0.85", "letterSpacing": "-14.4px", "fontWeight": 400, "textTransform": "uppercase" },
+      "display": { "fontSize": "144px", "lineHeight": "0.88", "letterSpacing": "-7.2px", "fontWeight": 400 },
+      "headline": { "fontSize": "76px", "lineHeight": "0.92", "letterSpacing": "-3.04px", "fontWeight": 400 },
+      "title": { "fontSize": "44px", "lineHeight": "1", "letterSpacing": "-1.76px", "fontWeight": 400 },
+      "body": { "fontSize": "18px", "lineHeight": "1.35", "letterSpacing": "-0.36px", "fontWeight": 400 },
+      "bodySmall": { "fontSize": "14px", "lineHeight": "1.3", "letterSpacing": "-0.14px", "fontWeight": 400 },
+      "nav": { "fontSize": "13px", "lineHeight": "1.2", "letterSpacing": "-0.13px", "fontWeight": 400, "textTransform": "uppercase" },
+      "meta": { "fontSize": "12px", "lineHeight": "1.2", "letterSpacing": "0.24px", "fontWeight": 400, "textTransform": "uppercase" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "6px",
+    "maxWidth": "1200px",
+    "sectionGap": "144px",
+    "cardPadding": "24px",
+    "elementGap": "18px"
+  },
+  "shape": {
+    "globalRadius": "0px",
+    "projectCardRadius": "0px",
+    "mediaRadius": "0px",
+    "pillRadius": "9999px",
+    "borderWidth": "1px"
+  },
+  "components": {
+    "posterMasthead": "Oversized Tilt Warp display lockup with sparse metadata and hard light/dark contrast.",
+    "pillNav": "Compact uppercase pill links with black borders and orange or black hover fills.",
+    "projectCard": "Sharp media block, title, category metadata, and optional orange capsule.",
+    "workIndexRow": "Bordered horizontal row with project title, year, category, and hover reveal.",
+    "accentCapsule": "Small pill badge using ember orange, black text, or inverted text depending on contrast.",
+    "mediaFrame": "0px radius image or screenshot block, usually full-width or grid-aligned.",
+    "darkPanel": "Full-bleed black or cinder surface with bone-white type and restrained orange detail."
+  },
+  "dos": [
+    "Use huge display typography as the main visual device.",
+    "Keep ember orange rare and intentional.",
+    "Use sharp corners for all large surfaces.",
+    "Use pills only for small controls.",
+    "Use hard project imagery and sparse metadata."
+  ],
+  "donts": [
+    "Do not add resting shadows.",
+    "Do not round project cards or images.",
+    "Do not introduce extra accent colors.",
+    "Do not reduce the hero to polite marketing scale.",
+    "Do not create dense copy-heavy sections."
+  ]
+}
+

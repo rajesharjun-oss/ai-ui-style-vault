@@ -1,0 +1,86 @@
+{
+  "id": "b6f25b86-ffcf-42f1-9f37-5e37d08cb4ce",
+  "name": "Alden",
+  "slug": "alden",
+  "sourceUrl": "https://styles.refero.design/style/b6f25b86-ffcf-42f1-9f37-5e37d08cb4ce",
+  "referenceSite": "https://joinalden.com",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "cream-washed clinical calm with blue confidence marks",
+  "industry": ["healthcare", "advisory care", "patient support"],
+  "summary": "A warm editorial healthcare style with white and parchment surfaces, Ink and Stone text, Domaine Display serif headlines, Geist UI text, mist-blue word highlights, sky-blue underline accents, sage pill CTAs, rounded care cards, and almost no shadow.",
+  "colors": {
+    "white": "#ffffff",
+    "parchment": "#f8f4ee",
+    "ink": "#1f2937",
+    "mistBlue": "#e8f5ff",
+    "skySignal": "#5aa9e6",
+    "sage": "#7f9b85",
+    "deepSage": "#617761",
+    "stone": "#6b7280",
+    "cloudBorder": "#e5e7eb"
+  },
+  "typography": {
+    "display": "Domaine Display",
+    "displayFallback": "Georgia, Cormorant Garamond, Libre Baskerville",
+    "sans": "Geist",
+    "sansFallback": "Inter, Arial",
+    "weights": [400, 500, 700],
+    "displayTracking": "-0.03em",
+    "headingTracking": "-0.01em",
+    "microLabelTracking": "0.08em"
+  },
+  "shape": {
+    "buttonRadius": "999px",
+    "badgeRadius": "999px",
+    "cardRadius": "24px",
+    "imageRadius": "28px",
+    "inputRadius": "16px",
+    "sectionRadius": "32px",
+    "highlightRadius": "32px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1180px",
+    "sectionGap": "96px",
+    "cardPadding": "24px to 32px",
+    "elementGap": "16px",
+    "model": "centered editorial container with split hero, rounded care cards, testimonial panels, and soft photo frames"
+  },
+  "elevation": {
+    "shadows": "none or nearly invisible",
+    "gradients": "avoid decorative gradients",
+    "depth": "borders, color fields, spacing, rounded panels, and photography"
+  },
+  "components": [
+    "pill CTA button",
+    "text link with blue underline",
+    "hero split layout",
+    "serif highlight word",
+    "advisor card",
+    "care step card",
+    "testimonial panel",
+    "healthcare photo frame",
+    "form input",
+    "badge pill",
+    "navigation"
+  ],
+  "dos": [
+    "Use Domaine Display or a refined serif for hero headlines and quotes.",
+    "Use Geist or a neutral sans for body text and UI.",
+    "Highlight only a few important words with Mist Blue and Sky Signal.",
+    "Use sage pill CTAs for the primary action.",
+    "Keep surfaces white and parchment with generous 96px section gaps.",
+    "Use real healthcare or advisory photography with rounded frames."
+  ],
+  "donts": [
+    "Do not use cold hospital blue as the dominant surface.",
+    "Do not use sharp enterprise rectangles.",
+    "Do not add heavy drop shadows.",
+    "Do not over-highlight every word.",
+    "Do not use neon or highly saturated colors.",
+    "Do not make CTAs rectangular.",
+    "Do not turn the layout into a dense dashboard grid."
+  ]
+}

@@ -1,0 +1,57 @@
+@theme {
+  /* Colors */
+  --color-ink-black: #000000;
+  --color-paper-white: #ffffff;
+  --color-graphite: #686562;
+  --color-signal-orange: #ff4500;
+  --color-blue-gray-mist: #c5d3e8;
+  --color-sky-tint: #c4edff;
+  --color-lavender-mist: #e2e9f3;
+  --color-faint-slate: #f8fafc;
+  --color-cream-wash: #fffde6;
+
+  /* Typography */
+  --font-plain: "plain", Inter, Geist, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-gtplanar: "gtPlanar", "GT America", "Inter Tight", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-gtstandardmono: "gtStandardMono", "JetBrains Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-caption: 14px;
+  --leading-caption: 1.2;
+  --tracking-caption: 0.6px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: 0.11px;
+  --text-subheading: 24px;
+  --leading-subheading: 1.3;
+  --tracking-subheading: -0.12px;
+  --text-heading: 34px;
+  --leading-heading: 1.15;
+  --tracking-heading: -0.68px;
+  --text-heading-lg: 45px;
+  --leading-heading-lg: 1.1;
+  --tracking-heading-lg: -0.9px;
+  --text-display: 189px;
+  --leading-display: 1;
+  --tracking-display: -9.45px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-60: 60px;
+  --spacing-96: 96px;
+  --spacing-224: 224px;
+
+  /* Radius */
+  --radius-cards: 4px;
+  --radius-browser-mockups: 3px;
+  --radius-buttons: 50px;
+  --radius-tags: 999px;
+  --radius-highlight: 2px;
+}

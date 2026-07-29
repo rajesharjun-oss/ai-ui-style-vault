@@ -1,0 +1,355 @@
+{
+  "name": "Jeton",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/1f32d914-6fdd-4692-b4fc-fcee2c414766",
+  "theme": "light",
+  "tokens": {
+    "color": {
+      "signalOrange": {
+        "value": "#f73b20",
+        "css": "--color-signal-orange",
+        "type": "color"
+      },
+      "brandOrangeTint": {
+        "value": "#f84d35",
+        "css": "--color-brand-orange-tint",
+        "type": "color"
+      },
+      "inkRoast": {
+        "value": "#360802",
+        "css": "--color-ink-roast",
+        "type": "color"
+      },
+      "paperWhite": {
+        "value": "#ffffff",
+        "css": "--color-paper-white",
+        "type": "color"
+      },
+      "carbonBlack": {
+        "value": "#000000",
+        "css": "--color-carbon-black",
+        "type": "color"
+      },
+      "ashGrey": {
+        "value": "#ababab",
+        "css": "--color-ash-grey",
+        "type": "color"
+      },
+      "sandWash": {
+        "value": "#e7dcdb",
+        "css": "--color-sand-wash",
+        "type": "color"
+      },
+      "linenBlush": {
+        "value": "#fdedea",
+        "css": "--color-linen-blush",
+        "type": "color"
+      },
+      "citrusWash": {
+        "value": "#f5ffbb",
+        "css": "--color-citrus-wash",
+        "type": "color"
+      },
+      "mintWash": {
+        "value": "#bcffbb",
+        "css": "--color-mint-wash",
+        "type": "color"
+      },
+      "coralRed": {
+        "value": "#fb2d54",
+        "css": "--color-coral-red",
+        "type": "color"
+      },
+      "cobaltBlue": {
+        "value": "#477ee9",
+        "css": "--color-cobalt-blue",
+        "type": "color"
+      },
+      "emeraldGreen": {
+        "value": "#34c771",
+        "css": "--color-emerald-green",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "canvas": {
+        "value": "#ffffff",
+        "css": "--surface-canvas",
+        "type": "color"
+      },
+      "cardSurface": {
+        "value": "#ffffff",
+        "css": "--surface-card-surface",
+        "type": "color"
+      },
+      "orangeTint": {
+        "value": "#fdedea",
+        "css": "--surface-orange-tint",
+        "type": "color"
+      },
+      "frostedGlass": {
+        "value": "#ffffff1a",
+        "css": "--surface-frosted-glass",
+        "type": "color"
+      },
+      "categoryTint": {
+        "value": "#f73b200d",
+        "css": "--surface-category-tint",
+        "type": "color"
+      },
+      "brandAlpha": {
+        "value": "rgba(247, 59, 32, 0.05)",
+        "css": "--surface-brand-alpha",
+        "type": "color"
+      }
+    },
+    "font": {
+      "family": {
+        "sequelSans": {
+          "value": "\"Sequel Sans\", Inter, Manrope, \"DM Sans\", ui-sans-serif, system-ui, sans-serif",
+          "css": "--font-sequel-sans",
+          "type": "fontFamily"
+        }
+      },
+      "weight": {
+        "regular": {
+          "value": 400,
+          "css": "--font-weight-regular",
+          "type": "fontWeight"
+        },
+        "book": {
+          "value": 450,
+          "css": "--font-weight-book",
+          "type": "fontWeight"
+        },
+        "medium": {
+          "value": 500,
+          "css": "--font-weight-medium",
+          "type": "fontWeight"
+        }
+      }
+    },
+    "typography": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": 1.5,
+        "fontWeight": 400,
+        "letterSpacing": "0.36px",
+        "css": "--text-caption"
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": 1.4,
+        "fontWeight": 400,
+        "letterSpacing": "0.42px",
+        "css": "--text-body-sm"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": 1,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "css": "--text-body"
+      },
+      "subheading": {
+        "fontSize": "23px",
+        "lineHeight": 1.2,
+        "fontWeight": 500,
+        "letterSpacing": "0.23px",
+        "css": "--text-subheading"
+      },
+      "headingSm": {
+        "fontSize": "33px",
+        "lineHeight": 1.2,
+        "fontWeight": 500,
+        "letterSpacing": "0.33px",
+        "css": "--text-heading-sm"
+      },
+      "heading": {
+        "fontSize": "44px",
+        "lineHeight": 1.2,
+        "fontWeight": 500,
+        "letterSpacing": "0.44px",
+        "css": "--text-heading"
+      },
+      "headingLg": {
+        "fontSize": "72px",
+        "lineHeight": 1,
+        "fontWeight": 500,
+        "letterSpacing": "0.72px",
+        "css": "--text-heading-lg"
+      },
+      "display": {
+        "fontSize": "106px",
+        "lineHeight": 1,
+        "fontWeight": 500,
+        "letterSpacing": "0",
+        "css": "--text-display"
+      },
+      "displayXl": {
+        "fontSize": "110px",
+        "lineHeight": 1,
+        "fontWeight": 500,
+        "letterSpacing": "1.1px",
+        "css": "--text-display-xl"
+      },
+      "displayHero": {
+        "fontSize": "155px",
+        "lineHeight": 0.9,
+        "fontWeight": 500,
+        "letterSpacing": "1.55px",
+        "css": "--text-display-hero"
+      }
+    },
+    "spacing": {
+      "unit": {
+        "value": "4px",
+        "css": "--spacing-unit",
+        "type": "dimension"
+      },
+      "scale": {
+        "4": {
+          "value": "4px",
+          "css": "--spacing-4",
+          "type": "dimension"
+        },
+        "8": {
+          "value": "8px",
+          "css": "--spacing-8",
+          "type": "dimension"
+        },
+        "12": {
+          "value": "12px",
+          "css": "--spacing-12",
+          "type": "dimension"
+        },
+        "16": {
+          "value": "16px",
+          "css": "--spacing-16",
+          "type": "dimension"
+        },
+        "20": {
+          "value": "20px",
+          "css": "--spacing-20",
+          "type": "dimension"
+        },
+        "24": {
+          "value": "24px",
+          "css": "--spacing-24",
+          "type": "dimension"
+        },
+        "32": {
+          "value": "32px",
+          "css": "--spacing-32",
+          "type": "dimension"
+        },
+        "48": {
+          "value": "48px",
+          "css": "--spacing-48",
+          "type": "dimension"
+        },
+        "56": {
+          "value": "56px",
+          "css": "--spacing-56",
+          "type": "dimension"
+        },
+        "160": {
+          "value": "160px",
+          "css": "--spacing-160",
+          "type": "dimension"
+        }
+      }
+    },
+    "layout": {
+      "pageMaxWidth": {
+        "value": "1200px",
+        "css": "--page-max-width",
+        "type": "dimension"
+      },
+      "sectionGap": {
+        "value": "80px",
+        "css": "--section-gap",
+        "type": "dimension"
+      },
+      "cardPadding": {
+        "value": "16px",
+        "css": "--card-padding",
+        "type": "dimension"
+      },
+      "elementGap": {
+        "value": "8px",
+        "css": "--element-gap",
+        "type": "dimension"
+      }
+    },
+    "radius": {
+      "links": {
+        "value": "8px",
+        "css": "--radius-links",
+        "type": "dimension"
+      },
+      "buttons": {
+        "value": "12px",
+        "css": "--radius-buttons",
+        "type": "dimension"
+      },
+      "cards": {
+        "value": "16px",
+        "css": "--radius-cards",
+        "type": "dimension"
+      },
+      "inputs": {
+        "value": "16px",
+        "css": "--radius-inputs",
+        "type": "dimension"
+      },
+      "nav": {
+        "value": "84px",
+        "css": "--radius-nav",
+        "type": "dimension"
+      },
+      "pills": {
+        "value": "9999px",
+        "css": "--radius-pills",
+        "type": "dimension"
+      }
+    },
+    "shadow": {
+      "lg": {
+        "value": "rgba(247, 59, 32, 0.1) 0px 8px 24px 0px, rgba(247, 59, 32, 0.05) 0px 2px 8px 0px",
+        "css": "--shadow-lg",
+        "type": "shadow"
+      },
+      "md": {
+        "value": "rgba(0, 0, 0, 0.05) 0px -4px 16px 0px",
+        "css": "--shadow-md",
+        "type": "shadow"
+      }
+    }
+  },
+  "componentRecipes": {
+    "primaryPillButton": {
+      "background": "#f73b20",
+      "color": "#ffffff",
+      "radius": "12px",
+      "padding": "8px 16px",
+      "fontSize": "14px",
+      "fontWeight": 450,
+      "letterSpacing": "0.03em"
+    },
+    "featureCategoryCard": {
+      "background": "rgba(247, 59, 32, 0.05)",
+      "radius": "16px",
+      "padding": "24px",
+      "headingSize": "33px",
+      "headingColor": "#360802"
+    },
+    "floatingInputField": {
+      "background": "rgba(247, 59, 32, 0.05)",
+      "color": "#360802",
+      "radius": "16px",
+      "padding": "17.6px 16px 6.4px 48px"
+    }
+  }
+}
+

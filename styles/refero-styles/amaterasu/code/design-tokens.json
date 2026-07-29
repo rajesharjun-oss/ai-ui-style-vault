@@ -1,0 +1,103 @@
+{
+  "name": "Amaterasu",
+  "slug": "amaterasu",
+  "source": "https://styles.refero.design/style/01b3bfc1-95df-425f-9b7a-15cff09adc5f",
+  "tokens": {
+    "color": {
+      "cosmicViolet": { "value": "#1b2978", "type": "color" },
+      "twilightIndigo": { "value": "#19366c", "type": "color" },
+      "auroraTeal": { "value": "#75cdd6", "type": "color" },
+      "polarWhite": { "value": "#ffffff", "type": "color" },
+      "obsidian": { "value": "#000000", "type": "color" },
+      "silverSlate": { "value": "#7488a5", "type": "color" },
+      "ceruleanMist": { "value": "#579dc0", "type": "color" },
+      "stormShadow": { "value": "#466187", "type": "color" }
+    },
+    "gradient": {
+      "cyanGlow": {
+        "value": "radial-gradient(at 5.62% 33.12%, rgb(255, 255, 255) 30%, rgb(132, 205, 238) 100%)",
+        "type": "gradient"
+      },
+      "cosmicVioletWash": {
+        "value": "linear-gradient(174deg, rgb(42, 57, 142) 5%, rgb(85, 102, 197) 100%)",
+        "type": "gradient"
+      }
+    },
+    "fontFamily": {
+      "body": { "value": "TWKLausanne-250, Inter, Manrope, Arial, Helvetica, sans-serif", "type": "fontFamily" },
+      "display": { "value": "TWKLausanne-200, Inter Tight, Manrope, Arial, Helvetica, sans-serif", "type": "fontFamily" },
+      "label": { "value": "NeoSansPro-Medium, Space Grotesk, Inter, Arial, Helvetica, sans-serif", "type": "fontFamily" }
+    },
+    "fontSize": {
+      "labelMicro": { "value": "10px", "type": "dimension" },
+      "labelLarge": { "value": "20px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "bodyLarge": { "value": "20px", "type": "dimension" },
+      "statement": { "value": "26px", "type": "dimension" },
+      "subheading": { "value": "24px", "type": "dimension" },
+      "midHeading": { "value": "40px", "type": "dimension" },
+      "displaySmall": { "value": "50px", "type": "dimension" },
+      "displayMedium": { "value": "60px", "type": "dimension" },
+      "displayLarge": { "value": "80px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "display": { "value": "1", "type": "number" },
+      "midHeading": { "value": "1.13", "type": "number" },
+      "statement": { "value": "1.23", "type": "number" },
+      "body": { "value": "1.2", "type": "number" },
+      "bodyLarge": { "value": "1.4", "type": "number" },
+      "label": { "value": "1.5", "type": "number" }
+    },
+    "letterSpacing": {
+      "labelWide": { "value": "0.16em", "type": "dimension" },
+      "labelExtreme": { "value": "0.32em", "type": "dimension" },
+      "displaySmall": { "value": "-0.040em", "type": "dimension" },
+      "displayMedium": { "value": "-0.033em", "type": "dimension" },
+      "displayLarge": { "value": "-0.025em", "type": "dimension" }
+    },
+    "space": {
+      "heroNegativeMin": { "value": "40px", "type": "dimension" },
+      "heroNegativeMax": { "value": "60px", "type": "dimension" },
+      "sectionMin": { "value": "96px", "type": "dimension" },
+      "sectionMax": { "value": "120px", "type": "dimension" },
+      "element": { "value": "24px", "type": "dimension" },
+      "labelGap": { "value": "16px", "type": "dimension" },
+      "contentMaxWidth": { "value": "1200px", "type": "dimension" },
+      "copyMaxWidth": { "value": "560px", "type": "dimension" }
+    },
+    "radius": {
+      "pill": { "value": "9999px", "type": "dimension" },
+      "visualPill": { "value": "20px", "type": "dimension" },
+      "card": { "value": "0px", "type": "dimension" }
+    },
+    "border": {
+      "violetHairline": { "value": "1px solid #1b2978", "type": "border" },
+      "slateHairline": { "value": "1px solid #7488a5", "type": "border" }
+    },
+    "shadow": {
+      "none": { "value": "none", "type": "shadow" }
+    }
+  },
+  "componentRecipes": {
+    "outlinedPrimaryAction": {
+      "background": "transparent",
+      "border": "{border.violetHairline}",
+      "radius": "{radius.pill}",
+      "padding": "10px 18px",
+      "color": "{color.cosmicViolet}",
+      "shadow": "{shadow.none}"
+    },
+    "hero": {
+      "background": "{color.obsidian}",
+      "textColor": "{color.polarWhite}",
+      "imageTreatment": "full-bleed teal-lit portrait",
+      "shadow": "{shadow.none}"
+    },
+    "atmosphericPanel": {
+      "background": "{gradient.cyanGlow}",
+      "color": "{color.cosmicViolet}",
+      "shadow": "{shadow.none}"
+    }
+  }
+}
+

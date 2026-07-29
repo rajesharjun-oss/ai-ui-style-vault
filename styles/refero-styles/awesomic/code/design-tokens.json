@@ -1,0 +1,275 @@
+{
+  "name": "Awesomic",
+  "slug": "awesomic",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/8512e28d-5385-4c20-a336-214568c4370c",
+    "productUrl": "https://www.awesomic.io"
+  },
+  "theme": {
+    "mode": "light",
+    "summary": "Editorial zinc grid with confetti-orange punctuation.",
+    "principles": [
+      "Use a zinc-gray neutral system for almost every UI decision.",
+      "Reserve orange for credential badges and small emphasis moments.",
+      "Use white cards with hairline borders instead of shadows.",
+      "Keep the system single-font and spacious with large rounded cards."
+    ]
+  },
+  "colors": {
+    "neutral": {
+      "obsidian": {
+        "value": "#09090b",
+        "role": "Primary action fill, strongest text, dark anchors"
+      },
+      "graphite": {
+        "value": "#18181b",
+        "role": "Default body text and dark surfaces"
+      },
+      "slate": {
+        "value": "#27272a",
+        "role": "Deep feature cards and secondary dark panels"
+      },
+      "iron": {
+        "value": "#3f3f46",
+        "role": "Ghost button border, filled tags, strong secondary text"
+      },
+      "steel": {
+        "value": "#52525b",
+        "role": "Muted labels and stats captions"
+      },
+      "fog": {
+        "value": "#71717a",
+        "role": "Subtle text, logo-strip color, tertiary labels"
+      },
+      "ash": {
+        "value": "#a1a1aa",
+        "role": "Quiet UI strokes and inactive details"
+      },
+      "mist": {
+        "value": "#d4d4d8",
+        "role": "Soft dividers and secondary borders"
+      },
+      "cloud": {
+        "value": "#ececee",
+        "role": "Hairline card borders and tag outlines"
+      },
+      "paper": {
+        "value": "#f4f4f5",
+        "role": "Page canvas"
+      },
+      "snow": {
+        "value": "#ffffff",
+        "role": "Cards, nav, input surfaces, inverse text"
+      }
+    },
+    "accent": {
+      "ember": {
+        "value": "#ff5a00",
+        "role": "Credential badge and small category punctuation"
+      },
+      "magentaSpark": {
+        "value": "#fe45e2",
+        "role": "Rare decorative card accent"
+      }
+    }
+  },
+  "surfaces": {
+    "canvas": "#f4f4f5",
+    "card": "#ffffff",
+    "subtleCard": "#fafafa",
+    "darkSurface": "#18181b",
+    "deepDark": "#27272a"
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Cosmica",
+      "fallback": ["DM Sans", "Inter", "system-ui", "sans-serif"]
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": 1.64,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "15px",
+        "lineHeight": 1.45,
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "18px",
+        "lineHeight": 1.45,
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "lineHeight": 1.5,
+        "fontWeight": 600
+      },
+      "headingSm": {
+        "fontSize": "32px",
+        "lineHeight": 1.5,
+        "fontWeight": 600
+      },
+      "heading": {
+        "fontSize": "40px",
+        "lineHeight": 1.28,
+        "fontWeight": 600
+      },
+      "headingLg": {
+        "fontSize": "56px",
+        "lineHeight": 1.28,
+        "fontWeight": 600
+      },
+      "display": {
+        "fontSize": "64px",
+        "lineHeight": 1.12,
+        "fontWeight": 600
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "28px",
+    "elementGap": "8px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "36px", "40px", "48px", "64px", "68px", "80px", "120px"]
+  },
+  "shape": {
+    "radii": {
+      "badge": "12px",
+      "control": "14px",
+      "card": "36px",
+      "icon": "40px",
+      "photo": "48px",
+      "photoLarge": "64px",
+      "pill": "10000px"
+    },
+    "border": {
+      "hairline": "1px solid #ececee",
+      "darkAction": "1.5px solid #2c2e34"
+    },
+    "shadow": "none"
+  },
+  "components": {
+    "primaryActionButton": {
+      "background": "#09090b",
+      "color": "#ffffff",
+      "border": "1.5px solid #2c2e34",
+      "radius": "14px",
+      "padding": "12px 16px",
+      "font": "14px Cosmica 400"
+    },
+    "ghostActionButton": {
+      "background": "#ffffff",
+      "color": "#3f3f46",
+      "border": "1px solid #3f3f46",
+      "radius": "10000px",
+      "padding": "12px 20px",
+      "font": "14px Cosmica 400"
+    },
+    "neutralPillButton": {
+      "background": "#fafafa",
+      "color": "#18181b",
+      "radius": "14px",
+      "padding": "12px 16px"
+    },
+    "categoryCard": {
+      "background": "#ffffff",
+      "border": "1px solid #ececee",
+      "radius": "36px",
+      "shadow": "none",
+      "media": "Top-half structural product or work imagery",
+      "bodyPadding": "28px",
+      "title": "20px Cosmica 600"
+    },
+    "darkFeatureCard": {
+      "background": "#27272a or #18181b",
+      "color": "#ffffff",
+      "radius": "28px to 36px",
+      "padding": "24px",
+      "listItem": "20px Cosmica 500 with right-arrow accent"
+    },
+    "tagPillBadge": {
+      "background": "transparent",
+      "color": "#18181b",
+      "border": "1px solid #ececee",
+      "radius": "12px",
+      "padding": "4px 8px",
+      "font": "12px to 13px Cosmica 400"
+    },
+    "filledTagBadge": {
+      "background": "#3f3f46",
+      "color": "#fafafa",
+      "radius": "12px",
+      "padding": "4px 8px"
+    },
+    "orangeAccentBadge": {
+      "background": "#ff5a00",
+      "color": "#ffffff",
+      "radius": "12px",
+      "padding": "4px 8px",
+      "usage": "Credential or category emphasis only"
+    },
+    "emailInput": {
+      "background": "#ffffff",
+      "color": "#333333",
+      "radius": "14px",
+      "padding": "12px 16px",
+      "border": "transparent"
+    },
+    "logoStrip": {
+      "color": "#71717a",
+      "opacity": "60% to 70%",
+      "container": "none"
+    },
+    "statsBlock": {
+      "number": "40px to 56px Cosmica 600 #09090b",
+      "label": "14px Cosmica #52525b"
+    },
+    "breakthroughImageSection": {
+      "layout": "Full-width photo, no overlay",
+      "radius": "48px to 64px top corners"
+    },
+    "navigationBar": {
+      "background": "#ffffff",
+      "position": "sticky",
+      "layout": "Logo left, nav center, login plus dark CTA right",
+      "border": "none"
+    }
+  },
+  "imagery": {
+    "style": "Structural photography and real product/work imagery.",
+    "rules": [
+      "Use category cards with real product or work images.",
+      "Use full-width landscape or macro photo dividers.",
+      "Use grayscale logo strips without framed containers."
+    ]
+  },
+  "do": [
+    "Use #09090b for primary actions.",
+    "Use 36px card radius with 1px Cloud borders.",
+    "Use no drop shadows on cards.",
+    "Set body text to 14px to 15px Cosmica 400 in Graphite.",
+    "Reserve Ember for credential chips and small punctuation.",
+    "Use 56px to 64px Cosmica 600 for display headings.",
+    "Use 28px card padding and 80px section rhythm."
+  ],
+  "dont": [
+    "Do not introduce new accent colors.",
+    "Do not add drop shadows to cards.",
+    "Do not set display headlines below weight 600.",
+    "Do not use Ember for body text, links, or large fills.",
+    "Do not use container radii below 12px.",
+    "Do not break the single-font rule.",
+    "Do not use pure black #000000; use Obsidian instead."
+  ]
+}

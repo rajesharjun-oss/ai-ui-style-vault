@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@theme {
+  --font-rainbow: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-rainbow-ink: #111111;
+  --color-rainbow-canvas: #f9fafb;
+  --color-rainbow-soft-canvas: #f7f8fa;
+  --color-rainbow-card: #ffffff;
+  --color-rainbow-text-muted: #6b7280;
+  --color-rainbow-text-soft: #9ca3af;
+  --color-rainbow-blue: #3b82f6;
+  --color-rainbow-purple: #8b5cf6;
+  --color-rainbow-pink: #ec4899;
+  --color-rainbow-green: #22c55e;
+  --color-rainbow-yellow: #facc15;
+  --color-rainbow-orange: #fb923c;
+
+  --text-rainbow-caption: 12px;
+  --text-rainbow-caption--line-height: 1.33;
+  --text-rainbow-label: 13px;
+  --text-rainbow-label--line-height: 1.38;
+  --text-rainbow-body-sm: 14px;
+  --text-rainbow-body-sm--line-height: 1.43;
+  --text-rainbow-body: 16px;
+  --text-rainbow-body--line-height: 1.5;
+  --text-rainbow-balance: 32px;
+  --text-rainbow-balance--line-height: 1.1;
+  --text-rainbow-heading-sm: 24px;
+  --text-rainbow-heading-sm--line-height: 1.2;
+  --text-rainbow-heading: 40px;
+  --text-rainbow-heading--line-height: 1.1;
+  --text-rainbow-display: 64px;
+  --text-rainbow-display--line-height: 1;
+
+  --spacing-rainbow-4: 4px;
+  --spacing-rainbow-6: 6px;
+  --spacing-rainbow-8: 8px;
+  --spacing-rainbow-10: 10px;
+  --spacing-rainbow-12: 12px;
+  --spacing-rainbow-16: 16px;
+  --spacing-rainbow-20: 20px;
+  --spacing-rainbow-24: 24px;
+  --spacing-rainbow-32: 32px;
+  --spacing-rainbow-48: 48px;
+  --spacing-rainbow-64: 64px;
+  --spacing-rainbow-72: 72px;
+
+  --radius-rainbow-control: 12px;
+  --radius-rainbow-card: 20px;
+  --radius-rainbow-phone: 36px;
+  --radius-rainbow-pill: 9999px;
+}
+
+@layer components {
+  .rainbow-page {
+    @apply min-h-screen bg-rainbow-canvas text-rainbow-ink font-rainbow;
+  }
+
+  .rainbow-container {
+    @apply mx-auto;
+    width: min(calc(100% - 40px), 1120px);
+  }
+
+  .rainbow-section {
+    @apply py-rainbow-72;
+  }
+
+  .rainbow-display {
+    @apply m-0 font-rainbow text-rainbow-display font-extrabold tracking-normal text-rainbow-ink;
+  }
+
+  .rainbow-body {
+    @apply font-rainbow text-rainbow-body font-normal text-rainbow-text-muted;
+  }
+
+  .rainbow-card {
+    @apply rounded-rainbow-card border bg-rainbow-card p-rainbow-24;
+    border-color: rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+  }
+
+  .rainbow-primary-button {
+    @apply inline-flex min-h-11 items-center justify-center rounded-rainbow-control border-0 bg-rainbow-ink px-[18px] py-rainbow-12 font-rainbow text-rainbow-body-sm font-bold text-white no-underline transition-opacity duration-200 ease-in-out;
+  }
+
+  .rainbow-secondary-pill {
+    @apply inline-flex min-h-10 items-center justify-center rounded-rainbow-pill border bg-rainbow-card px-rainbow-16 py-rainbow-10 font-rainbow text-rainbow-body-sm font-semibold text-rainbow-ink no-underline;
+    border-color: rgba(0, 0, 0, 0.06);
+  }
+
+  .rainbow-wallet-card {
+    @apply rounded-rainbow-card border bg-rainbow-card p-rainbow-24;
+    border-color: rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+  }
+
+  .rainbow-balance {
+    @apply m-0 font-rainbow text-rainbow-balance font-bold text-rainbow-ink;
+  }
+
+  .rainbow-token-row {
+    @apply grid min-h-[60px] grid-cols-[40px_1fr_auto] items-center gap-rainbow-12 font-rainbow text-rainbow-body-sm font-semibold text-rainbow-ink;
+  }
+
+  .rainbow-token-icon {
+    @apply h-10 w-10 rounded-rainbow-pill bg-rainbow-blue;
+  }
+
+  .rainbow-badge {
+    @apply inline-flex min-h-6 items-center rounded-rainbow-pill px-rainbow-10 py-rainbow-4 font-rainbow text-rainbow-caption font-semibold text-rainbow-blue;
+    background: rgba(59, 130, 246, 0.12);
+  }
+
+  .rainbow-input {
+    @apply min-h-11 w-full rounded-rainbow-control border bg-rainbow-card px-[14px] py-rainbow-12 font-rainbow text-rainbow-body-sm font-normal text-rainbow-ink placeholder:text-rainbow-text-soft;
+    border-color: rgba(0, 0, 0, 0.06);
+  }
+
+  .rainbow-tabs {
+    @apply inline-flex gap-rainbow-4 rounded-rainbow-pill bg-rainbow-soft-canvas p-rainbow-4;
+  }
+
+  .rainbow-tab {
+    @apply rounded-rainbow-pill border-0 bg-transparent px-[14px] py-rainbow-8 font-rainbow text-rainbow-label font-semibold text-rainbow-text-muted;
+  }
+
+  .rainbow-tab-active {
+    @apply bg-rainbow-card text-rainbow-ink;
+  }
+}

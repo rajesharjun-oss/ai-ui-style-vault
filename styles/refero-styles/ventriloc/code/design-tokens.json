@@ -1,0 +1,326 @@
+{
+  "name": "Ventriloc",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/f99aca3e-5289-4595-a7cc-77a72052f4b8",
+  "theme": "light",
+  "tokens": {
+    "color": {
+      "graphite": {
+        "value": "#202020",
+        "css": "--color-graphite",
+        "type": "color"
+      },
+      "canvasWhite": {
+        "value": "#ffffff",
+        "css": "--color-canvas-white",
+        "type": "color"
+      },
+      "ash": {
+        "value": "#efefef",
+        "css": "--color-ash",
+        "type": "color"
+      },
+      "fog": {
+        "value": "#f5f5f5",
+        "css": "--color-fog",
+        "type": "color"
+      },
+      "ivory": {
+        "value": "#ebe6dd",
+        "css": "--color-ivory",
+        "type": "color"
+      },
+      "steel": {
+        "value": "#4d4d4d",
+        "css": "--color-steel",
+        "type": "color"
+      },
+      "slate": {
+        "value": "#828282",
+        "css": "--color-slate",
+        "type": "color"
+      },
+      "mist": {
+        "value": "#e8e8e8",
+        "css": "--color-mist",
+        "type": "color"
+      },
+      "emberOrange": {
+        "value": "#ff682c",
+        "css": "--color-ember-orange",
+        "type": "color"
+      },
+      "brass": {
+        "value": "#816729",
+        "css": "--color-brass",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "pageCanvas": {
+        "value": "#ffffff",
+        "css": "--surface-page-canvas",
+        "type": "color"
+      },
+      "ashSurface": {
+        "value": "#efefef",
+        "css": "--surface-ash-surface",
+        "type": "color"
+      },
+      "fogSurface": {
+        "value": "#f5f5f5",
+        "css": "--surface-fog-surface",
+        "type": "color"
+      },
+      "ivorySurface": {
+        "value": "#ebe6dd",
+        "css": "--surface-ivory-surface",
+        "type": "color"
+      }
+    },
+    "font": {
+      "family": {
+        "polysans": {
+          "value": "\"PolySans\", \"Inter Tight\", \"Space Grotesk\", ui-sans-serif, system-ui, sans-serif",
+          "css": "--font-polysans",
+          "type": "fontFamily"
+        },
+        "inter": {
+          "value": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+          "css": "--font-inter",
+          "type": "fontFamily"
+        }
+      },
+      "weight": {
+        "regular": {
+          "value": 400,
+          "css": "--font-weight-regular",
+          "type": "fontWeight"
+        },
+        "medium": {
+          "value": 500,
+          "css": "--font-weight-medium",
+          "type": "fontWeight"
+        },
+        "semibold": {
+          "value": 600,
+          "css": "--font-weight-semibold",
+          "type": "fontWeight"
+        }
+      }
+    },
+    "typography": {
+      "micro": {
+        "fontSize": "13px",
+        "lineHeight": 1.2,
+        "fontWeight": 500,
+        "letterSpacing": "0",
+        "css": "--text-micro"
+      },
+      "caption": {
+        "fontSize": "14px",
+        "lineHeight": 1.43,
+        "fontWeight": 500,
+        "letterSpacing": "0",
+        "css": "--text-caption"
+      },
+      "ui": {
+        "fontSize": "15px",
+        "lineHeight": 1.33,
+        "fontWeight": 500,
+        "letterSpacing": "0",
+        "css": "--text-ui"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": 1.5,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "css": "--text-body"
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "lineHeight": 1.25,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "css": "--text-subheading"
+      },
+      "heading": {
+        "fontSize": "32px",
+        "lineHeight": 1.19,
+        "fontWeight": 400,
+        "letterSpacing": "-0.64px",
+        "css": "--text-heading"
+      },
+      "headingLg": {
+        "fontSize": "40px",
+        "lineHeight": 1.2,
+        "fontWeight": 400,
+        "letterSpacing": "-0.8px",
+        "css": "--text-heading-lg"
+      },
+      "display": {
+        "fontSize": "66px",
+        "lineHeight": 0.91,
+        "fontWeight": 400,
+        "letterSpacing": "-1.32px",
+        "css": "--text-display"
+      }
+    },
+    "spacing": {
+      "unit": {
+        "value": "4px",
+        "css": "--spacing-unit",
+        "type": "dimension"
+      },
+      "scale": {
+        "8": {
+          "value": "8px",
+          "css": "--spacing-8",
+          "type": "dimension"
+        },
+        "12": {
+          "value": "12px",
+          "css": "--spacing-12",
+          "type": "dimension"
+        },
+        "16": {
+          "value": "16px",
+          "css": "--spacing-16",
+          "type": "dimension"
+        },
+        "20": {
+          "value": "20px",
+          "css": "--spacing-20",
+          "type": "dimension"
+        },
+        "36": {
+          "value": "36px",
+          "css": "--spacing-36",
+          "type": "dimension"
+        },
+        "40": {
+          "value": "40px",
+          "css": "--spacing-40",
+          "type": "dimension"
+        },
+        "60": {
+          "value": "60px",
+          "css": "--spacing-60",
+          "type": "dimension"
+        },
+        "80": {
+          "value": "80px",
+          "css": "--spacing-80",
+          "type": "dimension"
+        },
+        "140": {
+          "value": "140px",
+          "css": "--spacing-140",
+          "type": "dimension"
+        }
+      }
+    },
+    "layout": {
+      "pageMaxWidth": {
+        "value": "1200px",
+        "css": "--page-max-width",
+        "type": "dimension"
+      },
+      "sectionGap": {
+        "value": "80px",
+        "css": "--section-gap",
+        "type": "dimension"
+      },
+      "cardPadding": {
+        "value": "40px",
+        "css": "--card-padding",
+        "type": "dimension"
+      },
+      "elementGap": {
+        "value": "20px",
+        "css": "--element-gap",
+        "type": "dimension"
+      }
+    },
+    "radius": {
+      "buttons": {
+        "value": "0px",
+        "css": "--radius-buttons",
+        "type": "dimension"
+      },
+      "asymmetricCard": {
+        "value": "6px 0px 0px",
+        "css": "--radius-asymmetric-card",
+        "type": "borderRadius"
+      },
+      "cards": {
+        "value": "8px",
+        "css": "--radius-cards",
+        "type": "dimension"
+      },
+      "dataWidgets": {
+        "value": "20px",
+        "css": "--radius-data-widgets",
+        "type": "dimension"
+      },
+      "tags": {
+        "value": "20px",
+        "css": "--radius-tags",
+        "type": "dimension"
+      },
+      "navPills": {
+        "value": "200px",
+        "css": "--radius-nav-pills",
+        "type": "dimension"
+      }
+    },
+    "border": {
+      "graphite": {
+        "value": "1px solid #202020",
+        "css": "--border-graphite",
+        "type": "border"
+      },
+      "mist": {
+        "value": "1px solid #e8e8e8",
+        "css": "--border-mist",
+        "type": "border"
+      }
+    }
+  },
+  "componentRecipes": {
+    "primaryCtaButton": {
+      "background": "#202020",
+      "color": "#ffffff",
+      "radius": "0px",
+      "padding": "10px 20px",
+      "fontFamily": "PolySans",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "letterSpacing": "-0.02em",
+      "shadow": "none"
+    },
+    "asymmetricCard": {
+      "background": "#efefef",
+      "radius": "6px 0px 0px",
+      "paddingTop": "70px",
+      "paddingLeft": "60px",
+      "shadow": "none"
+    },
+    "dataDashboardCard": {
+      "background": "#ffffff",
+      "radius": "20px",
+      "padding": "40px",
+      "chartPrimary": "#ff682c",
+      "chartSecondary": "#816729",
+      "shadow": "none"
+    },
+    "navigationPill": {
+      "background": "#efefef",
+      "radius": "200px",
+      "padding": "8px 18px",
+      "itemFontSize": "16px"
+    }
+  }
+}
+

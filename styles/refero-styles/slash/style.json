@@ -1,0 +1,174 @@
+{
+  "id": "7c38e84b-aea0-4c8f-b3e9-60b994ee6c6b",
+  "name": "Slash",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/7c38e84b-aea0-4c8f-b3e9-60b994ee6c6b",
+  "referenceUrl": "https://www.slash.com",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Midnight vault with gilded ledger lines, Ivy Presto editorial finance headings, compact Inter UI, copper labels, and gold chart accents.",
+  "bestFor": [
+    "fintech",
+    "corporate spend",
+    "banking tools",
+    "finance dashboards",
+    "premium SaaS",
+    "editorial finance content",
+    "data-heavy product marketing"
+  ],
+  "tags": [
+    "dark",
+    "fintech",
+    "editorial",
+    "ivy-presto",
+    "inter",
+    "copper-accent",
+    "gilded-chart",
+    "pill-controls",
+    "dark-dashboard",
+    "finance",
+    "premium-saas"
+  ],
+  "colors": {
+    "onyx": { "value": "#040406", "token": "--color-onyx", "role": "Card surface and secondary backdrop, one step deeper than the page." },
+    "obsidian": { "value": "#08080a", "token": "--color-obsidian", "role": "Page canvas, footer background, and deepest surface." },
+    "carbon": { "value": "#121317", "token": "--color-carbon", "role": "Elevated panels, dropdowns, input fills, and subtle UI fills." },
+    "graphite": { "value": "#1c1d22", "token": "--color-graphite", "role": "Borders, dividers, icon containers, sliders, and hairline structure." },
+    "slate": { "value": "#2e3038", "token": "--color-slate", "role": "Secondary borders, muted icon strokes, and content dividers." },
+    "smoke": { "value": "#464853", "token": "--color-smoke", "role": "Tertiary borders and inactive navigation items." },
+    "ash": { "value": "#5e616e", "token": "--color-ash", "role": "Muted body text, placeholders, and secondary metadata." },
+    "steel": { "value": "#777a88", "token": "--color-steel", "role": "Button borders, icon strokes, secondary text, and ghost outlines." },
+    "fog": { "value": "#9194a1", "token": "--color-fog", "role": "Navigation text, helper text, descriptions, and readable gray copy." },
+    "mist": { "value": "#acafb9", "token": "--color-mist", "role": "Supplementary text and lower-emphasis paragraphs." },
+    "silver": { "value": "#c7c9d1", "token": "--color-silver", "role": "Light body text and medium-emphasis paragraphs." },
+    "bone": { "value": "#e2e3e9", "token": "--color-bone", "role": "Default readable UI text, dense data labels, and body copy." },
+    "paperWhite": { "value": "#ffffff", "token": "--color-paper-white", "role": "Headings, active nav, and the scarce primary action button fill." },
+    "copper": { "value": "#cc9166", "token": "--color-copper", "role": "Category labels, editorial links, and warm accent punctuation." },
+    "gildedGradient": {
+      "value": "linear-gradient(103deg, rgb(174, 147, 87), rgb(255, 240, 204) 40%, rgb(174, 147, 87) 70%, rgba(189, 157, 79, 0))",
+      "token": "--gradient-gilded",
+      "role": "Chart line stroke and financial data accent only."
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "Ivy Presto",
+      "body": "Inter"
+    },
+    "fallbacks": {
+      "display": "Playfair Display, DM Serif Display, Libre Caslon Display, serif",
+      "body": "Inter, system-ui, sans-serif"
+    },
+    "weights": {
+      "displayRegular": 400,
+      "displayMedium": 500,
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "rules": [
+      "Use Ivy Presto for display and heading text at 28px and above.",
+      "Use Inter for body, nav, controls, tables, forms, and labels.",
+      "Do not use Ivy Presto under 20px.",
+      "Use Bone for readable body copy and Paper White for headings."
+    ],
+    "scale": {
+      "eyebrow": { "size": "13px", "lineHeight": 1, "letterSpacing": "-0.26px", "token": "--text-eyebrow" },
+      "bodyXs": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-body-xs" },
+      "bodySm": { "size": "18px", "lineHeight": 1.38, "letterSpacing": "-0.36px", "token": "--text-body-sm" },
+      "body": { "size": "20px", "lineHeight": 1.38, "letterSpacing": "-0.8px", "token": "--text-body" },
+      "subheading": { "size": "24px", "lineHeight": 1, "letterSpacing": "-0.31px", "token": "--text-subheading" },
+      "headingSm": { "size": "44px", "lineHeight": 1.38, "letterSpacing": "0.44px", "token": "--text-heading-sm" },
+      "heading": { "size": "52px", "lineHeight": 1.13, "letterSpacing": "0.52px", "token": "--text-heading" },
+      "headingLg": { "size": "64px", "lineHeight": 1.13, "letterSpacing": "0.64px", "token": "--text-heading-lg" },
+      "display": { "size": "88px", "lineHeight": 1, "letterSpacing": "0.88px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "pageMaxWidth": "1216px",
+    "sectionGap": "160px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": {
+      "4": "4px",
+      "6": "6px",
+      "8": "8px",
+      "9": "9px",
+      "10": "10px",
+      "12": "12px",
+      "14": "14px",
+      "16": "16px",
+      "20": "20px",
+      "22": "22px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "105": "105px",
+      "224": "224px"
+    }
+  },
+  "radii": {
+    "nav": "2px",
+    "cards": "10px",
+    "buttons": "9999px",
+    "inputs": "9999px",
+    "tags": "9999px",
+    "icons": "9999px",
+    "statusIndicators": "9999px"
+  },
+  "shadows": {
+    "iconRing": "rgba(255, 255, 255, 0.2) 0px 0px 0px 1px"
+  },
+  "components": [
+    { "name": "Primary Action Button", "recipe": "Paper White fill, black text, 9999px radius, Inter 14px/500, 10px by 20px padding, no border." },
+    { "name": "Ghost Outline Button", "recipe": "Transparent fill, 1px Paper White border, Paper White text, 9999px radius, Inter 14px/500." },
+    { "name": "Pill Tag Button", "recipe": "Transparent fill, 1px Steel border, 9999px radius, 6px by 10px padding, Inter 12-14px." },
+    { "name": "Hero Chart Card", "recipe": "Onyx surface, 10px radius, balance header, filter pill, gilded gradient chart line, and spend-limit input." },
+    { "name": "Transaction List Card", "recipe": "10px panel with dense rows, circular icon wells, merchant labels, right-aligned amounts, and Slate hairlines." },
+    { "name": "Testimonial Video Card", "recipe": "10px full-bleed image card with dark bottom gradient overlay and white/muted text." },
+    { "name": "Blog Post Card", "recipe": "Transparent 10px card, image top, Copper category, Inter title, Mist read-time metadata." },
+    { "name": "Email Capture Input", "recipe": "Transparent fill, 1px white border, 9999px radius, Steel placeholder, visually paired with primary pill." },
+    { "name": "Data Table Row", "recipe": "Transparent row, Graphite bottom border, Fog headers, Bone values, right-aligned numerics." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Ivy Presto for all headings at 28px and above.",
+      "Use Inter for body, nav, controls, tables, and forms.",
+      "Set default body copy in Bone, not pure white.",
+      "Use the white filled pill once per viewport.",
+      "Use Copper only for category labels and editorial links.",
+      "Use Graphite or Slate hairline borders.",
+      "Use 160px desktop section gaps.",
+      "Reserve the gilded gradient for charts and financial data accents."
+    ],
+    "dont": [
+      "Do not substitute Inter for Ivy Presto in display text.",
+      "Do not introduce blue, green, or other chromatic accents.",
+      "Do not use white for long-form body copy.",
+      "Do not use the white filled CTA more than once per viewport.",
+      "Do not add drop shadows.",
+      "Do not set Inter body text above 20px.",
+      "Do not apply the gilded gradient outside data visualization."
+    ]
+  },
+  "imagery": {
+    "style": "Editorial, naturalistic founder and team photography plus dark product UI and finance article thumbnails.",
+    "rules": [
+      "Use warm, slightly desaturated real-environment photography.",
+      "Use full-bleed images in cards with dark overlay where text sits on top.",
+      "Keep product UI in dark mode.",
+      "Use monochrome 1px icons.",
+      "Avoid filling icons with Copper.",
+      "Avoid stock-photo polish."
+    ]
+  },
+  "layout": {
+    "structure": "1216px centered max-width with 160px section gaps and one continuous Obsidian canvas.",
+    "hero": "Split composition: left Ivy Presto headline and email capture, right dashboard card with chart.",
+    "navigation": "Fixed top bar with logo left, center menu, Sign in ghost action, and one white Get Started pill."
+  }
+}

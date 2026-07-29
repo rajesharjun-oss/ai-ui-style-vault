@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-ink: #1a3300;
+  --color-highlighter-yellow: #ffe95c;
+  --color-cream-paper: #fcfaf5;
+  --color-pencil-gray: #b6b6b6;
+  --color-whisper-gray: #f1f1f1;
+  --color-sticky-note-teal: #a8e5e5;
+  --color-sticky-note-mint: #d5f5c2;
+  --color-sticky-note-blush: #f6d0ff;
+  --color-terracotta: #cb5521;
+
+  --font-bricolage: "Bricolage Grotesque", "Archivo Black", "Mulish", ui-sans-serif, system-ui, sans-serif;
+  --font-inter: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Roboto Mono", "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --text-micro: 11px;
+  --text-caption: 14px;
+  --text-body-sm: 16px;
+  --text-body: 18px;
+  --text-body-lg: 20px;
+  --text-subheading: 28px;
+  --text-heading-sm: 40px;
+  --text-heading: 55px;
+  --text-heading-lg: 66px;
+  --text-display: 90px;
+
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-120: 120px;
+  --spacing-page: 1200px;
+
+  --radius-sm: 3px;
+  --radius-button: 6px;
+  --radius-card: 12px;
+  --radius-card-lg: 16px;
+  --radius-nav: 16px;
+  --radius-tag: 9999px;
+
+  --shadow-say-subtle: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  --shadow-say-subtle-2: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+  --shadow-say-nav-glow: rgba(255, 235, 90, 0.01) 0px 527px 211px 0px, rgba(255, 235, 90, 0.05) 0px 297px 178px 0px, rgba(255, 235, 90, 0.09) 0px 132px 132px 0px, rgba(255, 235, 90, 0.1) 0px 33px 72px 0px;
+}
+
+@layer base {
+  .say-briefly {
+    background: var(--color-cream-paper);
+    color: var(--color-forest-ink);
+    font-family: var(--font-inter);
+  }
+}
+
+@layer components {
+  .say-display {
+    @apply font-bricolage text-heading font-extrabold leading-none tracking-[0.04em] text-forest-ink md:text-display md:tracking-[0.05em];
+  }
+
+  .say-highlight {
+    @apply bg-highlighter-yellow text-forest-ink;
+  }
+
+  .say-primary {
+    @apply inline-flex items-center justify-center rounded-button border-0 bg-forest-ink px-40 py-[19px] font-inter text-body-sm font-medium leading-none text-cream-paper shadow-say-subtle;
+  }
+
+  .say-outline {
+    @apply inline-flex items-center justify-center rounded-button border border-forest-ink bg-transparent px-16 py-8 font-inter text-caption font-medium text-forest-ink;
+  }
+
+  .say-nav {
+    @apply rounded-nav border border-pencil-gray bg-cream-paper shadow-say-nav-glow;
+  }
+
+  .say-card {
+    @apply rounded-card bg-cream-paper p-24 text-forest-ink shadow-none;
+  }
+
+  .say-sticky-mint {
+    @apply rounded-card-lg bg-sticky-note-mint p-24 text-forest-ink shadow-none;
+  }
+
+  .say-sticky-blush {
+    @apply rounded-card-lg bg-sticky-note-blush p-24 text-forest-ink shadow-none;
+  }
+
+  .say-sticky-teal {
+    @apply rounded-card-lg bg-sticky-note-teal p-24 text-forest-ink shadow-none;
+  }
+}

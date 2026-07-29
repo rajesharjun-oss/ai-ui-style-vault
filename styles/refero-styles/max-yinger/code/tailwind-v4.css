@@ -1,0 +1,34 @@
+@theme {
+  /* Colors */
+  --color-midnight-carbon: #12130f;
+  --color-bone-glow: #e4dfda;
+  --color-charcoal-vein: #3c3c38;
+  --color-rose-quartz-bloom: #f5c2c8;
+
+  /* Typography */
+  --font-arbeit-technik: "Arbeit Technik", "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+  --font-inline-vf: "Inline VF", "Departure Mono", VT323, monospace;
+  --font-arbeit-contrast: "Arbeit Contrast", Inter, Sohne, "Untitled Sans", system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --leading-caption: 15px;
+  --text-body: 16px;
+  --leading-body: 20px;
+  --text-subheading: 30px;
+  --leading-subheading: 34px;
+  --text-display: 80px;
+  --leading-display: 56px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-64: 64px;
+
+  /* Radius */
+  --radius-buttons: 9999px;
+  --radius-tags: 9999px;
+  --radius-links: 2px;
+  --radius-cards: 0px;
+}
+

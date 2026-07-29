@@ -1,0 +1,84 @@
+{
+  "name": "Arva",
+  "slug": "arva",
+  "sourceUrl": "https://styles.refero.design/style/15846be3-8df8-42e4-a05c-d9395dcec369",
+  "referenceSite": "https://arva.com",
+  "tokens": {
+    "color": {
+      "forestInk": { "value": "#07503f", "role": "primary brand surface, nav, header, footer, dividers, filled CTA" },
+      "vividLime": { "value": "#e8fe85", "role": "marquee strip, announcement bar, rare promotional accent" },
+      "bone": { "value": "#f1efdf", "role": "page canvas and warm paper base" },
+      "pureWhite": { "value": "#ffffff", "role": "card surfaces, input fills, button text, icon backgrounds" },
+      "ashGray": { "value": "#efefef", "role": "secondary card surface and subtle section divider" },
+      "charcoal": { "value": "#212529", "role": "primary body text, headings on light surfaces, icon strokes" },
+      "graphite": { "value": "#353535", "role": "secondary text, link borders, button borders, quiet outlines" },
+      "pewter": { "value": "#6d6d6d", "role": "muted helper text and low-emphasis copy" },
+      "skyCard": { "value": "#b2cee7", "role": "pastel testimonial or category tile" },
+      "peachCard": { "value": "#fceace", "role": "warm pastel testimonial or category tile" },
+      "sageCard": { "value": "#e6ecd5", "role": "soft green testimonial or category tile" },
+      "moss": { "value": "#c3cda7", "role": "subtle borders, input outlines, internal dividers" }
+    },
+    "font": {
+      "family": {
+        "sans": "Inter, DM Sans, Helvetica, Arial, sans-serif",
+        "display": "Reckless, Cormorant Garamond, GT Sectra, Source Serif Pro, serif",
+        "displayLight": "RecklessLight, Cormorant Garamond Light, Source Serif ExtraLight, serif"
+      },
+      "weight": {
+        "thin": 100,
+        "extraLight": 200,
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600
+      }
+    },
+    "text": {
+      "caption": { "size": "12px", "lineHeight": "1.5", "weight": 400, "tracking": "0.025px" },
+      "bodySmall": { "size": "14px", "lineHeight": "1.5", "weight": 400, "tracking": "0.025px" },
+      "body": { "size": "16px", "lineHeight": "1.52", "weight": 400, "tracking": "-0.022px" },
+      "subheading": { "size": "24px", "lineHeight": "1.24", "weight": 300, "tracking": "-0.012px" },
+      "headingSmall": { "size": "37px", "lineHeight": "1.22", "weight": 300, "tracking": "-0.012px" },
+      "heading": { "size": "45px", "lineHeight": "1.06", "weight": 300, "tracking": "-0.012px" },
+      "headingLarge": { "size": "57px", "lineHeight": "1.06", "weight": 300, "tracking": "-0.022px" },
+      "display": { "size": "80px", "lineHeight": "1", "weight": 100, "tracking": "-2.96px" }
+    },
+    "radius": {
+      "cards": "20px",
+      "links": "26px",
+      "heroCards": "30px",
+      "inputs": "33px",
+      "buttons": "100px",
+      "navPills": "110px"
+    },
+    "spacing": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "50px",
+      "cardPadding": "30px",
+      "elementGap": "8px",
+      "scale": ["5px", "6px", "8px", "9px", "10px", "12px", "15px", "20px", "24px", "27px", "30px", "38px", "40px", "50px", "64px", "193px"]
+    }
+  },
+  "componentRecipes": {
+    "forestFilledPillCta": {
+      "background": "forestInk",
+      "color": "pureWhite",
+      "radius": "100px",
+      "padding": "10px 24px",
+      "font": "Inter 14px to 15px 500 to 600"
+    },
+    "pastelQuiltCard": {
+      "background": "skyCard, peachCard, sageCard, ashGray, or pureWhite",
+      "radius": "20px",
+      "padding": "30px",
+      "shadow": "none",
+      "layout": "centered logo, quote, author, role"
+    },
+    "limeMarquee": {
+      "background": "vividLime",
+      "height": "32px",
+      "font": "Inter 12px to 14px",
+      "placement": "above forest header"
+    }
+  }
+}

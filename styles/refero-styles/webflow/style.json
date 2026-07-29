@@ -1,0 +1,119 @@
+{
+  "id": "31471407-598a-45fd-a505-d921980d8855",
+  "name": "Webflow",
+  "slug": "webflow",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/31471407-598a-45fd-a505-d921980d8855",
+    "referenceSite": "https://webflow.com",
+    "capturedAt": "2026-07-28",
+    "publishedAt": "2026-03-20T20:05:49.000Z",
+    "modifiedAt": "2026-03-20T20:05:49.000Z",
+    "media": {
+      "primaryImage": "https://images.refero.design/styles/refero.design/image/59e49761-4286-46b3-b438-6e3dacf56647.jpg"
+    }
+  },
+  "classification": {
+    "theme": "light",
+    "industry": ["design tool", "website builder", "SaaS", "product marketing"],
+    "mood": ["crisp", "technical", "architectural", "precise", "product-led"],
+    "bestFor": ["SaaS landing pages", "builder tools", "design platforms", "developer products", "product-led websites"]
+  },
+  "summary": "A crisp light product-tool style with white canvas, near-black text, cool gray borders, one vivid blue accent, weight-600 display type, and realistic browser-frame product mockups.",
+  "colors": {
+    "webflowBlue": {
+      "value": "#146ef5",
+      "role": "Primary actions, active navigation, links, emphasis"
+    },
+    "indigoInk": {
+      "value": "#1366e2",
+      "role": "Secondary blue and dark-surface emphasis"
+    },
+    "canvasWhite": {
+      "value": "#ffffff",
+      "role": "Primary background and card surface"
+    },
+    "inkBlack": {
+      "value": "#080808",
+      "role": "Primary text and inverted surfaces"
+    },
+    "borderGray": {
+      "value": "#d8d8d8",
+      "role": "Resting 1px borders"
+    },
+    "mutedText": {
+      "value": "#5a5a5a",
+      "role": "Supporting text and monochrome logos"
+    },
+    "mercuryTint": {
+      "value": "#f0f0f0",
+      "role": "Alternating bands and subtle neutral backgrounds"
+    },
+    "softBlue": {
+      "value": "#6ca7ff",
+      "role": "Inline illustration detail only"
+    },
+    "mintPulse": {
+      "value": "#60ed76",
+      "role": "Inline illustration detail only"
+    },
+    "orangeMarker": {
+      "value": "#ffa666",
+      "role": "Inline illustration detail only"
+    }
+  },
+  "typography": {
+    "primaryFamily": "WF Visual Sans Variable",
+    "fallbackStack": "Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
+    "monoFamily": "WF Visual Sans Mono",
+    "scale": {
+      "badge": { "fontSize": "10px", "lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": 600 },
+      "eyebrow": { "fontSize": "13px", "lineHeight": "1.3", "letterSpacing": "0.1em", "fontWeight": 500 },
+      "small": { "fontSize": "14px", "lineHeight": "1.45", "letterSpacing": "0", "fontWeight": 400 },
+      "body": { "fontSize": "16px", "lineHeight": "1.5", "letterSpacing": "0", "fontWeight": 400 },
+      "bodyLarge": { "fontSize": "20px", "lineHeight": "1.45", "letterSpacing": "0", "fontWeight": 400 },
+      "cardHeading": { "fontSize": "24px", "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": 600 },
+      "sectionHeading": { "fontSize": "56px", "lineHeight": "1.08", "letterSpacing": "-0.01em", "fontWeight": 600 },
+      "display": { "fontSize": "80px", "lineHeight": "1.04", "letterSpacing": "-0.01em", "fontWeight": 600 },
+      "monoLabel": { "fontSize": "13px", "lineHeight": "1.4", "letterSpacing": "0", "fontWeight": 400 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "navHeight": "56px"
+  },
+  "shape": {
+    "controlRadius": "4px",
+    "containerRadius": "8px",
+    "borderWidth": "1px",
+    "avoid": "9999px pill buttons"
+  },
+  "components": {
+    "nav": "Sticky white top bar, 56px tall, blue wordmark or logo, simple links, primary CTA.",
+    "hero": "Centered text stack on white with display headline, muted subtext, primary CTA, and product-card row.",
+    "productMockup": "Realistic browser chrome around product UI, using shadow to create display depth.",
+    "featureCard": "White card, 1px gray border, 8px radius, 24px padding, optional hover shadow.",
+    "cookieBanner": "Fixed bottom-left white box, 380px max-width, 1px gray border, 8px radius, stacked buttons.",
+    "logoStrip": "Monochrome customer logos on white or tinted background.",
+    "badge": "4px radius blue badge with uppercase white text."
+  },
+  "dos": [
+    "Use #146ef5 as the only interactive accent.",
+    "Set hero headlines large, tight, and weight 600.",
+    "Use borders for resting structure.",
+    "Use 8px radius for cards and large containers.",
+    "Use product UI inside browser chrome."
+  ],
+  "donts": [
+    "Do not add extra chromatic UI colors.",
+    "Do not use resting-card shadows.",
+    "Do not use pill buttons.",
+    "Do not make hero display type light or small.",
+    "Do not mix in serif or decorative fonts.",
+    "Do not place blue hover states directly on dark surfaces."
+  ]
+}
+

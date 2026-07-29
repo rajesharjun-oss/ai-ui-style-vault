@@ -1,0 +1,393 @@
+{
+ "name": "Twingate",
+ "slug": "twingate",
+ "colors": [
+ {
+ "name": "Void Black",
+ "value": "#000000",
+ "token": "--color-void-black",
+ "role": "Page canvas, hero backgrounds, full-bleed sections"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#0e0f11",
+ "token": "--color-obsidian",
+ "role": "Card surfaces, elevated panels, content containers above the page"
+ },
+ {
+ "name": "Carbon",
+ "value": "#141617",
+ "token": "--color-carbon",
+ "role": "Secondary surface layer, input fields, nested containers"
+ },
+ {
+ "name": "Graphite",
+ "value": "#1d2023",
+ "token": "--color-graphite",
+ "role": "Supporting neutral for secondary UI, dividers, and muted labels. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Slate",
+ "value": "#21223a",
+ "token": "--color-slate",
+ "role": "Subtle violet-tinted surface for spotlight/featured cards"
+ },
+ {
+ "name": "Ash",
+ "value": "#303438",
+ "token": "--color-ash",
+ "role": "Hairline borders and dividers, very low-contrast separation"
+ },
+ {
+ "name": "Steel",
+ "value": "#3a3d40",
+ "token": "--color-steel",
+ "role": "Slightly stronger borders, subtle outer shadow tint"
+ },
+ {
+ "name": "Fog",
+ "value": "#61626b",
+ "token": "--color-fog",
+ "role": "Muted helper text, disabled labels, low-priority metadata"
+ },
+ {
+ "name": "Smoke",
+ "value": "#8d8d96",
+ "token": "--color-smoke",
+ "role": "Secondary icons, inactive navigation items, tertiary text"
+ },
+ {
+ "name": "Cloud",
+ "value": "#a1a1aa",
+ "token": "--color-cloud",
+ "role": "Body text secondary, link text in resting state, icon strokes"
+ },
+ {
+ "name": "Silver",
+ "value": "#cfcfd3",
+ "token": "--color-silver",
+ "role": "Body text default, paragraph copy, description text"
+ },
+ {
+ "name": "Bone",
+ "value": "#999999",
+ "token": "--color-bone",
+ "role": "Captions, fine print, decorative text"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary headings, button text on dark fills, high-emphasis text"
+ },
+ {
+ "name": "Signal Violet",
+ "value": "#b6abff",
+ "token": "--color-signal-violet",
+ "role": "Brand accent - highlighted phrases, feature body text, link emphasis, inline brand moments"
+ },
+ {
+ "name": "Live Wire",
+ "value": "#eef35f",
+ "token": "--color-live-wire",
+ "role": "Green supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Circuit Teal",
+ "value": "#00cbaa",
+ "token": "--color-circuit-teal",
+ "role": "Decorative icon and illustration accent - network node strokes, lock/connection diagrams, graphic highlights"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "TT Hoves Light",
+ "token": "--font-tt-hoves-light",
+ "role": "Display and headline - all large hero/section headlines (48-68px) use weight 300 with tight negative tracking (-0.018em to -0.007em). The whisper-weight at huge sizes is the brand\u0027s signature: confidence through restraint, not volume."
+ },
+ {
+ "name": "TT Hoves Medium",
+ "token": "--font-tt-hoves-medium",
+ "role": "Subheadings, feature card titles, navigation, button labels - the workhorse of the system. 32px appears as a mid-tier section heading, 20px as card titles."
+ },
+ {
+ "name": "TT Hoves Regular",
+ "token": "--font-tt-hoves-regular",
+ "role": "Body text and long-form copy - paragraph text at 16px with generous 1.5-1.7 line-height, smaller annotations at 11-14px"
+ },
+ {
+ "name": "Basis Grotesque Mono Pro",
+ "token": "--font-basis-grotesque-mono-pro",
+ "role": "Code snippets, terminal-style text, and technical labels - used sparingly as a technical accent, never for body copy"
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Secondary body text and supporting UI labels (appears as a fallback/supplement to TT Hoves Regular in some contexts)"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.31",
+ "0.014px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-0.01px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.7",
+ "-0.01px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.29",
+ "-0.02px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.27",
+ "-0.02px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.2",
+ "-0.007px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "55px",
+ "1.2",
+ "-0.009px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "68px",
+ "1.1",
+ "-0.018px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "32px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ],
+ [
+ "200",
+ "200px",
+ "`--spacing-200`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "badges",
+ "50px"
+ ],
+ [
+ "images",
+ "12px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "50px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button (Pill)",
+ "role": "Main conversion action - \u0027Try Twingate for Free\u0027"
+ },
+ {
+ "name": "Secondary Text Link Button",
+ "role": "Low-emphasis action - \u0027Request a Demo\u0027"
+ },
+ {
+ "name": "Nav Pill Button (Header)",
+ "role": "Header actions - \u0027Request Demo\u0027, \u0027Try for Free\u0027"
+ },
+ {
+ "name": "Feature Card",
+ "role": "Mid-page feature/benefit block in 3-column grid"
+ },
+ {
+ "name": "Eyebrow Pill Badge",
+ "role": "Small context label above headlines - \u0027New: Twingate MSP Portal\u0027"
+ },
+ {
+ "name": "Testimonial Card",
+ "role": "Customer quote in a grid layout"
+ },
+ {
+ "name": "G2 Review Widget (Floating)",
+ "role": "Social proof callout - \u00274.9 \u0027"
+ },
+ {
+ "name": "Customer Logo Strip",
+ "role": "Social proof band of customer logos"
+ },
+ {
+ "name": "Product Showcase Card",
+ "role": "Product UI screenshot with branded surround"
+ },
+ {
+ "name": "Network Diagram (Hero Illustration)",
+ "role": "Decorative hero visual - privileged access network"
+ },
+ {
+ "name": "Onboarding Banner (Top Bar)",
+ "role": "Persistent utility strip above navigation"
+ },
+ {
+ "name": "Header Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Link with Arrow (Inline Action)",
+ "role": "Inline text link ending in a chevron - section footers"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use weight 300 (TT Hoves Light) for all display headlines 48px and above - the whisper-weight is the signature",
+ "Use #eef35f (Live Wire) for the single primary CTA on any given screen, and for one emphasis word in the largest headline",
+ "Apply tight negative letter-spacing on all large text: -0.018em at 68px, scaling to 0 at 14px",
+ "Use 50px (pill) border-radius for all buttons, badges, and pill-shaped chips",
+ "Use 12px radius for product cards and image containers; 8px for inputs and smaller interactive elements",
+ "Distinguish surfaces through tonal stacking (#000000 #0e0f11 #141617 #1d2023) rather than drop shadows",
+ "Reserve Signal Violet (#b6abff) for inline brand emphasis within body text and for the top onboarding utility bar"
+ ],
+ "doNot": [
+ "Never use drop shadows for elevation - the system communicates depth through inset hairline highlights and stacked dark surfaces",
+ "Never use more than one filled chartreuse CTA per viewport - it is a single-action accent",
+ "Never set body text below 14px or use weight 300 for body - light weights are reserved for large displays",
+ "Never add decorative gradients - the system is flat dark with chromatic accents, not glossy",
+ "Never use pure black (#000000) text on dark surfaces - text on dark should always be white or a silver tone (#cfcfd3 minimum)",
+ "Never break the 50px pill convention for buttons - outlined or ghost variants must also use the full pill radius",
+ "Never introduce photography with a warm or colorful treatment - all imagery is monochrome, vector, or UI-screenshot"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0acef011-07da-4416-b874-ccdd675140f6",
+ "referenceSite": "https://twingate.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-03-02T14:05:05.000Z",
+ "articleModifiedAt": "2026-06-03T18:04:16.926Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/f0991fa9-0248-496a-9047-8ff6b15734f0.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/2282ffb2-e88f-4ffb-b227-cbabe9497d05.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/9c8f667d-1685-47b3-ba1e-f84b17124d4e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d831acf8-9fb4-45ce-b2ef-c614f7a75607.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c3612e22-ab2d-4e1b-a765-c7efce733e46.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3853782f-bc2f-4c19-846a-fa5ef09290fa.png"
+ }
+ }
+}

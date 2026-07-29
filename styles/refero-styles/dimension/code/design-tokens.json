@@ -1,0 +1,89 @@
+{
+  "name": "Dimension",
+  "sourceUrl": "https://styles.refero.design/style/fbcf9cbb-7c6b-449d-862a-bce521a8ab1d",
+  "referenceUrl": "https://www.dimension.dev",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "color": {
+    "inkBlack": { "value": "#000000", "type": "color" },
+    "voidCanvas": { "value": "#0a0a0a", "type": "color" },
+    "graphite": { "value": "#161616", "type": "color" },
+    "slate": { "value": "#686868", "type": "color" },
+    "smoke": { "value": "#b2b2b2", "type": "color" },
+    "ash": { "value": "#c2c2c2", "type": "color" },
+    "frostedGlass": { "value": "#d4d4d4", "type": "color" },
+    "hairline": { "value": "#e5e5e5", "type": "color" },
+    "bone": { "value": "#ededed", "type": "color" },
+    "snowWhite": { "value": "#ffffff", "type": "color" },
+    "duskViolet": { "value": "#6b62f2", "type": "color" }
+  },
+  "font": {
+    "dmSans": { "value": "DM Sans, Inter, system-ui, sans-serif", "type": "fontFamily" },
+    "geist": { "value": "Geist, Inter, system-ui, sans-serif", "type": "fontFamily" },
+    "systemUi": { "value": "system-ui, sans-serif", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "regular": { "value": 400, "type": "fontWeight" },
+    "medium": { "value": 500, "type": "fontWeight" },
+    "semibold": { "value": 600, "type": "fontWeight" }
+  },
+  "fontSize": {
+    "caption": { "value": "13px", "type": "fontSize" },
+    "body": { "value": "16px", "type": "fontSize" },
+    "subheading": { "value": "18px", "type": "fontSize" },
+    "headingSm": { "value": "24px", "type": "fontSize" },
+    "heading": { "value": "36px", "type": "fontSize" },
+    "headingLg": { "value": "48px", "type": "fontSize" },
+    "display": { "value": "72px", "type": "fontSize" }
+  },
+  "lineHeight": {
+    "caption": { "value": 1.5, "type": "lineHeight" },
+    "body": { "value": 1.5, "type": "lineHeight" },
+    "subheading": { "value": 1.5, "type": "lineHeight" },
+    "headingSm": { "value": 1.33, "type": "lineHeight" },
+    "heading": { "value": 1.11, "type": "lineHeight" },
+    "headingLg": { "value": 1, "type": "lineHeight" },
+    "display": { "value": 1, "type": "lineHeight" }
+  },
+  "letterSpacing": {
+    "caption": { "value": "0.33px", "type": "letterSpacing" },
+    "display": { "value": "-2.52px", "type": "letterSpacing" }
+  },
+  "spacing": {
+    "4": { "value": "4px", "type": "dimension" },
+    "6": { "value": "6px", "type": "dimension" },
+    "8": { "value": "8px", "type": "dimension" },
+    "10": { "value": "10px", "type": "dimension" },
+    "12": { "value": "12px", "type": "dimension" },
+    "14": { "value": "14px", "type": "dimension" },
+    "16": { "value": "16px", "type": "dimension" },
+    "20": { "value": "20px", "type": "dimension" },
+    "22": { "value": "22px", "type": "dimension" },
+    "24": { "value": "24px", "type": "dimension" },
+    "28": { "value": "28px", "type": "dimension" },
+    "32": { "value": "32px", "type": "dimension" },
+    "40": { "value": "40px", "type": "dimension" },
+    "44": { "value": "44px", "type": "dimension" },
+    "48": { "value": "48px", "type": "dimension" },
+    "56": { "value": "56px", "type": "dimension" }
+  },
+  "radius": {
+    "icons": { "value": "4px", "type": "borderRadius" },
+    "ui": { "value": "10px", "type": "borderRadius" },
+    "cards": { "value": "24px", "type": "borderRadius" },
+    "largeCards": { "value": "40px", "type": "borderRadius" },
+    "panels": { "value": "42px", "type": "borderRadius" },
+    "buttons": { "value": "9999px", "type": "borderRadius" }
+  },
+  "shadow": {
+    "subtle": { "value": "rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset", "type": "boxShadow" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1200px", "type": "dimension" },
+    "sectionGapMin": { "value": "64px", "type": "dimension" },
+    "sectionGapMax": { "value": "80px", "type": "dimension" },
+    "cardPadding": { "value": "28px", "type": "dimension" },
+    "elementGapMin": { "value": "8px", "type": "dimension" },
+    "elementGapMax": { "value": "16px", "type": "dimension" }
+  }
+}

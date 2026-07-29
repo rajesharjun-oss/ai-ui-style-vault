@@ -1,0 +1,396 @@
+{
+ "id": "0b9da6ef-bec5-4073-90af-66c67e72f2a4",
+ "name": "Isla Beauty",
+ "slug": "isla-beauty",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0b9da6ef-bec5-4073-90af-66c67e72f2a4",
+ "referenceSite": "https://isla-beauty.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T03:59:35.437Z",
+ "articleModifiedAt": "2026-06-03T19:33:49.439Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/3bea5c8e-9a7a-49a9-9bce-d350e7877059.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/1d8eca1e-5900-4219-b5fa-66ac03bb7d63.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/be7eef36-ef70-48b6-891f-ae8cc9aa70b1.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/61fc0104-d92a-4f58-b06e-f2dc3a8b7749.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f943efd2-e84f-4354-b880-1123707293c3.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/6e0c3346-4783-4a4b-ba48-34d754f8b55f.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Cream apothecary with surgical red accents - think warm parchment walls, amber bottles, and a single red seal on every label.",
+ "summary": "Explore Isla Beauty\u0027s light E-commerce design system: Crimson Seal #e4263d, Vermillion Mark #e4002b colors, Soehne Buch, Nimbus Sans typography, and...",
+ "colors": [
+ {
+ "name": "Crimson Seal",
+ "value": "#e4263d",
+ "token": "--color-crimson-seal",
+ "role": "Primary action - filled add-to-cart buttons, CTA borders, section eyebrows, price accents, link underlines, and all brand punctuation against the cream canvas. The red carries the entire chromatic load; it must read as deliberate and small, never as decoration"
+ },
+ {
+ "name": "Vermillion Mark",
+ "value": "#e4002b",
+ "token": "--color-vermillion-mark",
+ "role": "Secondary red accent - link borders, icon strokes, and outline-only controls. Slightly deeper than Crimson Seal; use when a quieter red moment is needed alongside the primary"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, primary borders, navigation rules, body hairlines. The structural anchor of the entire interface"
+ },
+ {
+ "name": "Soft Coal",
+ "value": "#1a1a1a",
+ "token": "--color-soft-coal",
+ "role": "Badge borders, heading text, list markers, card text on cream - a near-black used where pure black would feel clinical against the warm canvas"
+ },
+ {
+ "name": "Slate Drift",
+ "value": "#2e2e2e",
+ "token": "--color-slate-drift",
+ "role": "Navigation borders, secondary structural lines - sits between Ink Black and the warm cream as a third depth"
+ },
+ {
+ "name": "Graphite",
+ "value": "#3a3a3a",
+ "token": "--color-graphite",
+ "role": "Body text and borders for muted but still-readable paragraphs"
+ },
+ {
+ "name": "Pewter",
+ "value": "#6f6f6f",
+ "token": "--color-pewter",
+ "role": "Badge borders, helper text, muted body copy - the first true mid-gray in the scale"
+ },
+ {
+ "name": "Stone",
+ "value": "#8a8580",
+ "token": "--color-stone",
+ "role": "Warm-leaning gray for tags, secondary body text, and quiet fills where neutrality needs to harmonize with the cream"
+ },
+ {
+ "name": "Sand Border",
+ "value": "#e4dfd9",
+ "token": "--color-sand-border",
+ "role": "Warm button borders, subtle section dividers - the border color that ties the warm palette together instead of fighting it with cool gray"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#f8f6f3",
+ "token": "--color-cream-paper",
+ "role": "Page canvas, badge fills, soft card surfaces - the dominant background. Slightly warm to harmonize with product photography of amber liquids"
+ },
+ {
+ "name": "Pure Linen",
+ "value": "#ffffff",
+ "token": "--color-pure-linen",
+ "role": "Card surfaces, button text on red, elevated product panels - the brightest surface that sits one step above the cream canvas"
+ },
+ {
+ "name": "Blush Wash",
+ "value": "#f5e7df",
+ "token": "--color-blush-wash",
+ "role": "Soft accent badge fills, warm callout backgrounds - a desaturated peach that gives badge states a skin-like warmth"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Soehne Buch",
+ "token": "--font-soehne-buch",
+ "role": "Primary body face at comfortable reading sizes (13-16px). Cleaner, more humanist than Nimbus; used for longer paragraphs and form input text."
+ },
+ {
+ "name": "Nimbus Sans",
+ "token": "--font-nimbus-sans",
+ "role": "Workhorse sans for UI: button labels, body copy, price text, nav links, and all utility surfaces. Carries lnum/tnum features for tabular alignment of prices."
+ },
+ {
+ "name": "Soehne Kraftig",
+ "token": "--font-soehne-kraftig",
+ "role": "Display and small-bold sans for headlines (60px), navigation, and tracked uppercase labels (11-12px with 0.07-0.10em tracking). The Kraftig cut adds authority without geometric coldness."
+ },
+ {
+ "name": "AGaramondPro",
+ "token": "--font-agaramondpro",
+ "role": "Editorial serif for major section headlines (54px) and subheadings (17-26px). The Garamond weight gives the brand its apothecary/editorial voice; pairs with italic for emotional accents."
+ },
+ {
+ "name": "Garamond Italic",
+ "token": "--font-garamond-italic",
+ "role": "Signature italic for emotional phrases, pull quotes, and editorial interjections mid-paragraph. Used sparingly - it is a whisper, not a shout."
+ },
+ {
+ "name": "EB Garamond",
+ "token": "--font-eb-garamond",
+ "role": "EB Garamond - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "overline",
+ "10px",
+ "1",
+ "1.8px",
+ "--text-overline"
+ ],
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "17px",
+ "1.55",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.25",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "54px",
+ "1.05",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "68px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "50-64px",
+ "cardPadding": "15-16px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "29",
+ "29px",
+ "`--spacing-29`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "3px"
+ ],
+ [
+ "badges",
+ "999px"
+ ],
+ [
+ "images",
+ "3px"
+ ],
+ [
+ "inputs",
+ "3px"
+ ],
+ [
+ "buttons",
+ "3px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Action Button (Add to Cart)",
+ "role": "Filled CTA for purchase and primary conversion"
+ },
+ {
+ "name": "Outlined CTA (Shop the Elixir)",
+ "role": "Secondary hero action with red border"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Inline editorial links and story links"
+ },
+ {
+ "name": "Product Card",
+ "role": "E-commerce product tile with image, name, benefit, price, CTA"
+ },
+ {
+ "name": "Section Eyebrow Label",
+ "role": "Red uppercase tracked label introducing sections"
+ },
+ {
+ "name": "Editorial Italic Pull-Quote",
+ "role": "Garamond italic phrase embedded in or near headlines"
+ },
+ {
+ "name": "Top Announcement Bar",
+ "role": "Free-shipping message strip across the top"
+ },
+ {
+ "name": "Header Navigation",
+ "role": "Primary site navigation with centered logo"
+ },
+ {
+ "name": "Benefit Pill",
+ "role": "Rounded tag listing product function"
+ },
+ {
+ "name": "Comparison Card",
+ "role": "Two-column comparison block (typical vs. Isla system)"
+ },
+ {
+ "name": "Image Detail Block",
+ "role": "Full-bleed or contained macro photography"
+ },
+ {
+ "name": "Price with Sale",
+ "role": "Inline pricing with original and sale value"
+ },
+ {
+ "name": "Soft Badge",
+ "role": "Tag or status badge with warm fill"
+ }
+ ],
+ "dos": [
+ "Use #e4263d exclusively as the brand red - never substitute another red, and never tint or lighten it for non-critical contexts.",
+ "Pair Garamond italic #e4263d phrases with sans body copy when you want editorial emphasis.",
+ "Set all uppercase micro-labels (10-12px) at letter-spacing 0.12-0.18em in Nimbus Sans 500.",
+ "Use 3px radius for every rectangular component - cards, buttons, inputs, images. Reserve 999px exclusively for pills/tags.",
+ "Set the page canvas to #f8f6f3 (cream), not #ffffff. White appears only on cards, buttons, and product images.",
+ "Anchor every section with a red eyebrow label (Nimbus 11px uppercase, 0.18em) before the headline.",
+ "Use hairline 1px borders in #000000 or #e4dfd9 - never 2px+ and never with shadows."
+ ],
+ "donts": [
+ "Don\u0027t introduce drop shadows, glow effects, or elevation layers - the design is intentionally flat.",
+ "Don\u0027t use cool grays (blue-tinted). All neutrals should sit in the warm spectrum (#6f6f6f, #8a8580, #e4dfd9).",
+ "Don\u0027t round corners beyond 3px on rectangular components; the system is sharp with intentional restraint.",
+ "Don\u0027t mix more than one serif in the same paragraph. Garamond Italic is punctuation, not body type.",
+ "Don\u0027t use red as a fill area larger than a button - red is a seal, not a field.",
+ "Don\u0027t set body copy below 13px or above 17px. The 13-17px range is the system\u0027s comfort zone.",
+ "Don\u0027t use #000000 for anything other than primary text and primary borders. For surfaces and secondary text, move to #1a1a1a or #3a3a3a."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Cream Paper | `#f8f6f3` | Page canvas - the warm base everything sits on |\n| 1 | Pure Linen | `#ffffff` | Card surface, product image background, button text on red |\n| 2 | Blush Wash | `#f5e7df` | Warm accent fill for badges and soft callouts |\n| 3 | Crimson Seal | `#e4263d` | Filled action surface - Add to Cart, critical alerts |\n| 4 | Stone Gray | `#7e7d7c` | Muted input/disabled surface for low-emphasis UI |",
+ "elevation": "Isla deliberately avoids shadow-based elevation. Depth is communicated through a 4-step surface scale (#f8f6f3 canvas #ffffff cards #f5e7df accents #e4263d actions) and 1px hairline borders in #000000 or #e4dfd9. Components feel printed on paper, not floating in z-space.",
+ "imagery": "Photography dominates the visual language. Style: macro product shots of amber liquid pouring from glass bottles and droppers, with natural light, soft white surfaces, and visible refraction. Skin imagery is close-cropped, unretouched-appearing, focused on eyes or lips. No lifestyle context, no models in full. Images are either full-bleed (no rounding) or contained in 3px-radius squares. The photography is the atmosphere; the typography is the architecture.",
+ "layout": "Layout is max-width 1200px centered with generous vertical breathing. Hero is a split composition: bold left-aligned headline with eyebrow + italic sub-copy, paired with a large macro product image filling the right two-thirds. Product grids use 4 equal columns with consistent 15px internal padding. Section rhythm is consistent - eyebrow label, headline, body, optional CTA, then 50-64px gap before the next section. No alternating dark/light bands; the entire site lives on the cream canvas. Navigation is a thin top bar with centered logo, flanking nav, and a cart pill on the right."
+}

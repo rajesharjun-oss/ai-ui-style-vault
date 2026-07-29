@@ -1,0 +1,41 @@
+@theme {
+  --color-lunch-lilac-veil: #b8aad0;
+  --color-lunch-ink-black: #000000;
+  --color-lunch-warm-parchment: #f4f1e4;
+  --color-lunch-ivory-mist: #fcfaf1;
+
+  --font-lunch-good-sans: "Good Sans", Sohne, Inter, "Untitled Sans", Arial, sans-serif;
+  --font-lunch-redaction: Redaction, "GT Sectra Display", "Domaine Display", Georgia, serif;
+
+  --text-lunch-caption: 12px;
+  --text-lunch-body: 16px;
+  --text-lunch-subheading: 24px;
+  --text-lunch-heading: 32px;
+  --text-lunch-display: 72px;
+
+  --leading-lunch-caption: 1;
+  --leading-lunch-body: 1.8;
+  --leading-lunch-subheading: 1.8;
+  --leading-lunch-heading: 1.8;
+  --leading-lunch-display: 1.8;
+
+  --tracking-lunch-caption: 0.6px;
+  --tracking-lunch-body: 0.08px;
+  --tracking-lunch-subheading: 0.12px;
+  --tracking-lunch-heading: 0.16px;
+  --tracking-lunch-display: 0.144px;
+
+  --spacing-lunch-5: 5px;
+  --spacing-lunch-10: 10px;
+  --spacing-lunch-15: 15px;
+  --spacing-lunch-20: 20px;
+  --spacing-lunch-30: 30px;
+  --spacing-lunch-60: 60px;
+  --spacing-lunch-80: 80px;
+
+  --radius-lunch-cards: 0px;
+  --radius-lunch-badges: 0px;
+  --radius-lunch-images: 0px;
+  --radius-lunch-buttons: 0px;
+}
+

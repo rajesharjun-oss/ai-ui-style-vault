@@ -1,0 +1,64 @@
+@theme {
+  /* Colors */
+  --color-deep-navy: #0a2540;
+  --color-slate-ledger: #425466;
+  --color-blue-gray: #6b7c93;
+  --color-border-mist: #e6ebf1;
+  --color-grid-line: #d6dee8;
+  --color-cloud-ledger: #f5f7fb;
+  --color-paper-white: #ffffff;
+  --color-indigo-action: #635bff;
+  --color-cyan-accent: #00d4ff;
+  --color-green-ledger: #00a86b;
+  --color-amber-notice: #f6a609;
+
+  /* Typography */
+  --font-sohne-var: "sohne-var", Inter, system-ui, "Helvetica Neue", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+
+  --text-caption: 13px;
+  --leading-caption: 1.54;
+  --tracking-caption: 0.2px;
+  --text-body-sm: 15px;
+  --leading-body-sm: 1.6;
+  --text-body: 16px;
+  --leading-body: 1.56;
+  --text-body-lg: 17px;
+  --leading-body-lg: 1.73;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.25;
+  --tracking-heading-sm: -0.24px;
+  --text-heading: 31px;
+  --leading-heading: 1.23;
+  --tracking-heading: -0.31px;
+  --text-heading-lg: 51px;
+  --leading-heading-lg: 1.08;
+  --tracking-heading-lg: -1.53px;
+  --text-display: 56px;
+  --leading-display: 1.07;
+  --tracking-display: -1.68px;
+  --text-display-xl: 82px;
+  --leading-display-xl: 1;
+  --tracking-display-xl: -2.46px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+
+  /* Radius */
+  --radius-cards: 4px;
+  --radius-buttons: 4px;
+  --radius-inputs: 4px;
+  --radius-pills: 999px;
+  --radius-code-panels: 4px;
+}

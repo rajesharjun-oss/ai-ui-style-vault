@@ -1,0 +1,292 @@
+{
+ "name": "Nornorm",
+ "slug": "nornorm",
+ "colors": [
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Page background, card surfaces, button text on cobalt, nav background, image backgrounds"
+ },
+ {
+ "name": "Bone",
+ "value": "#f1efe9",
+ "token": "--color-bone",
+ "role": "Warm off-white surface for section bands, feature card panels, and soft contrast zones against pure white"
+ },
+ {
+ "name": "Ash",
+ "value": "#ececec",
+ "token": "--color-ash",
+ "role": "Subtle elevated surface and neutral button fill for low-emphasis controls"
+ },
+ {
+ "name": "Stone",
+ "value": "#6a6a6a",
+ "token": "--color-stone",
+ "role": "Secondary body text, helper copy, nav muted labels, and dividers - the warm mid-gray that gives body text hierarchy without competing with the brand accent"
+ },
+ {
+ "name": "Graphite",
+ "value": "#333333",
+ "token": "--color-graphite",
+ "role": "Hairline borders and structural dividers"
+ },
+ {
+ "name": "Ink",
+ "value": "#1f1d1e",
+ "token": "--color-ink",
+ "role": "Slightly warm near-black for body and heading text - a softer alternative to pure black that matches the warm bone surface"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Primary text, nav text, strong borders, and the ghost button outline - the typographic workhorse"
+ },
+ {
+ "name": "Cobalt Ink",
+ "value": "#1e37a0",
+ "token": "--color-cobalt-ink",
+ "role": "Violet outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Lunar",
+ "token": "--font-lunar",
+ "role": "Single-family geometric sans used for everything from 14px nav labels to 112px hero display. The tight universal tracking of -0.03em is the signature - it tightens every size equally, so body text feels editorial and display text feels architectural rather than decorative. Weight 500 carries body emphasis, weight 700 is reserved for numbered list items and UI labels."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.3",
+ "-0.42px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.3",
+ "-0.48px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "20px",
+ "1.3",
+ "-0.6px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.3",
+ "-0.72px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.3",
+ "-0.96px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1",
+ "-1.44px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "64px",
+ "1",
+ "-1.92px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "112px",
+ "1",
+ "-3.36px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "112",
+ "112px",
+ "`--spacing-112`"
+ ],
+ [
+ "140",
+ "140px",
+ "`--spacing-140`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "8px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "links",
+ "8px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "Filled action button for the main conversion on each page"
+ },
+ {
+ "name": "Ghost Button",
+ "role": "Secondary action that pairs with a primary CTA"
+ },
+ {
+ "name": "Nav Link",
+ "role": "Top navigation menu items with optional dropdown caret"
+ },
+ {
+ "name": "Logo Wordmark",
+ "role": "Brand identifier in the top-left of every page"
+ },
+ {
+ "name": "Language Switcher",
+ "role": "Globe icon + region label in the top-right nav"
+ },
+ {
+ "name": "Hero Overlay",
+ "role": "Full-bleed photographic hero with centered text block"
+ },
+ {
+ "name": "Client Logo Strip",
+ "role": "Social proof band directly under the hero"
+ },
+ {
+ "name": "Feature Card",
+ "role": "4-column grid item in the \u0027Why Subscribe\u0027 section"
+ },
+ {
+ "name": "Section Header",
+ "role": "Centered title block for content sections"
+ },
+ {
+ "name": "Image Gallery Carousel",
+ "role": "Full-bleed horizontal photo strip showing client office spaces"
+ },
+ {
+ "name": "Gallery CTA Link",
+ "role": "Text link to enter a full gallery view"
+ },
+ {
+ "name": "Carousel Nav Button",
+ "role": "Circular prev/next controls for image carousels"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Lunar at every size with -0.03em letter-spacing - the universal tracking is the brand\u0027s typographic signature, not optional",
+ "Use Cobalt Ink (#1e37a0) only for the logo wordmark, primary filled CTA buttons, and active states - never as a background fill, icon color, or decorative accent",
+ "Pair every Primary CTA with a Ghost Button beside it: the two-button pattern is the system\u0027s standard conversion unit",
+ "Use 9999px radius on all buttons, tags, and pill controls - there is no rounded-corner alternative in the system",
+ "Use 8px radius for image-less cards and content containers; leave photographic content with sharp 0px edges so the images read as full-bleed editorial",
+ "Build section backgrounds from Canvas White (#ffffff) and Bone (#f1efe9) only - never introduce a new tint",
+ "Use 16px or 24px as the gap between text and its adjacent control; 48px between stacked text blocks; 80px between sections"
+ ],
+ "doNot": [
+ "Do not introduce a second chromatic color - the system\u0027s authority comes from a single accent against monochrome",
+ "Do not use shadows, glows, or any box-shadow on cards, buttons, or modals - the system is deliberately flat",
+ "Do not use a filled neutral button (gray, black, or bone) as a primary action - the only filled button is Cobalt Ink on white",
+ "Do not break the -0.03em letter-spacing at any size, including body copy and captions - looser tracking reads as a different typeface",
+ "Do not add borders to feature cards, image containers, or section bands - the warm white-to-bone contrast carries separation",
+ "Do not use gradients on backgrounds, buttons, or text - the palette has no gradient tokens and adding one would break the Scandinavian restraint",
+ "Do not round the corners of large photographs, hero images, or gallery images - editorial content stays sharp-edged to contrast with the pill-shaped UI controls"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0769ff4c-f719-4865-98df-de2f44c694a6",
+ "referenceSite": "https://nornorm.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T03:26:03.895Z",
+ "articleModifiedAt": "2026-06-05T12:46:55.464Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/359bd9df-6022-4b77-9236-62fefd555a33.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/67cc43f2-371d-4c88-b832-ea942c9b0e14.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/f553c346-a231-4c8e-aa7d-67bcdaad1c83.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/61312dc4-b43c-4e30-b16d-1302f1f87f24.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/578c0c2a-a96e-448f-8f8a-c6a9b2a47a9c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/09bb516f-3d98-4ecb-b395-23e7fc6885b5.png"
+ }
+ }
+}

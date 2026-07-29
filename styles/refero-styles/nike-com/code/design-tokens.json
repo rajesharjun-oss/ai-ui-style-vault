@@ -1,0 +1,88 @@
+{
+  "name": "Nike.com",
+  "slug": "nike-com",
+  "color": {
+    "obsidian": { "value": "#111111", "role": "Primary dark text, icons, pill fills, and dark editorial sections" },
+    "steel": { "value": "#707072", "role": "Secondary text, helper copy, footer links, muted icons" },
+    "faintGray": { "value": "#9e9ea0", "role": "Disabled icon strokes and tertiary affordances" },
+    "concreteGray": { "value": "#e5e5e5", "role": "Borders, dividers, hairline separators" },
+    "softMist": { "value": "#f5f5f5", "role": "Search field fill, tag backgrounds, subtle surfaces" },
+    "paperWhite": { "value": "#ffffff", "role": "Default canvas, product cards, inverse CTA text" }
+  },
+  "font": {
+    "helveticaNowTextMedium": {
+      "value": "\"Helvetica Now Text Medium\", Inter, \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [500],
+      "usage": "Compact labels, product names, nav items, and button labels"
+    },
+    "helveticaNowText": {
+      "value": "\"Helvetica Now Text\", Inter, \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [400, 500],
+      "usage": "Body copy, nav links, card titles, product names, footer lists"
+    },
+    "helveticaNowDisplayMedium": {
+      "value": "\"Helvetica Now Display Medium\", Inter, \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [500],
+      "usage": "Medium section headings and category labels"
+    },
+    "nikeFuturaNd": {
+      "value": "\"Nike Futura ND\", \"Futura PT Medium\", Futura, Inter, sans-serif",
+      "weights": [500],
+      "usage": "Hero-scale editorial headlines only"
+    }
+  },
+  "size": {
+    "caption": "12px",
+    "bodySm": "14px",
+    "body": "16px",
+    "subheading": "20px",
+    "headingSm": "24px",
+    "display": "76px"
+  },
+  "lineHeight": {
+    "caption": 1.5,
+    "bodySm": 1.75,
+    "body": 1.75,
+    "subheading": 1.5,
+    "headingSm": 1.2,
+    "display": 1
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500
+  },
+  "space": {
+    "unit": "4px",
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "36": "36px",
+    "48": "48px"
+  },
+  "layout": {
+    "pageMaxWidth": "1440px",
+    "sectionGap": "48px",
+    "cardPadding": "12px",
+    "elementGap": "8px"
+  },
+  "radius": {
+    "nav": "24px",
+    "tags": "30px",
+    "cards": "0px",
+    "inputs": "0px",
+    "buttons": "30px",
+    "search": "24px"
+  },
+  "surfaces": {
+    "paperWhite": "#ffffff",
+    "softMist": "#f5f5f5",
+    "concreteGray": "#e5e5e5"
+  },
+  "motion": {
+    "hover": "opacity 160ms ease"
+  }
+}
+

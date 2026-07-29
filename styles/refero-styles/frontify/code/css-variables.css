@@ -1,0 +1,86 @@
+:root {
+  --frontify-color-warm-parchment: #f0f0eb;
+  --frontify-color-gallery-white: #ffffff;
+  --frontify-color-soft-linen: #e1e1db;
+  --frontify-color-mist-gray: #d7d7cf;
+  --frontify-color-pale-stone: #cbcbc5;
+  --frontify-color-ash-gray: #bfbfb8;
+  --frontify-color-graphite-warm: #575753;
+  --frontify-color-charcoal-warm: #464643;
+  --frontify-color-ink: #111110;
+  --frontify-color-signal-orange: #ff3b00;
+  --frontify-color-deep-teal: #042a2b;
+
+  --frontify-font-display: "Cranny", "Fraunces", "Playfair Display", "DM Serif Display", Georgia, serif;
+  --frontify-font-ui: "ABC Diatype", Inter, Sohne, "GT America", Arial, sans-serif;
+  --frontify-font-secondary: "Satoshi", "DM Sans", Manrope, Arial, sans-serif;
+  --frontify-font-heavy-display: "Cabinetgrotesk", "Cabinet Grotesk", "General Sans", Arial, sans-serif;
+
+  --frontify-text-caption: 14px;
+  --frontify-text-body: 16px;
+  --frontify-text-body-lg: 18px;
+  --frontify-text-subheading: 24px;
+  --frontify-text-heading-sm: 40px;
+  --frontify-text-heading: 61px;
+  --frontify-text-display: 88px;
+
+  --frontify-line-tight: 0.9;
+  --frontify-line-heading: 0.95;
+  --frontify-line-body: 1.43;
+  --frontify-track-ui: 0.01em;
+  --frontify-track-display: -0.008em;
+
+  --frontify-radius-card: 8px;
+  --frontify-radius-image: 18px;
+  --frontify-radius-nav-pill: 32px;
+  --frontify-radius-button-lg: 40px;
+  --frontify-radius-button-sm: 24px;
+  --frontify-radius-tag: 9999px;
+
+  --frontify-space-unit: 8px;
+  --frontify-space-element: 16px;
+  --frontify-space-card: 32px;
+  --frontify-space-section: 80px;
+  --frontify-page-max: 1200px;
+}
+
+.frontify-page {
+  background: var(--frontify-color-warm-parchment);
+  color: var(--frontify-color-ink);
+  font-family: var(--frontify-font-ui);
+  letter-spacing: var(--frontify-track-ui);
+}
+
+.frontify-hero {
+  background: var(--frontify-color-deep-teal);
+  color: var(--frontify-color-gallery-white);
+}
+
+.frontify-heading {
+  font-family: var(--frontify-font-display);
+  font-weight: 300;
+  letter-spacing: var(--frontify-track-display);
+  line-height: var(--frontify-line-heading);
+}
+
+.frontify-card {
+  background: var(--frontify-color-gallery-white);
+  border: 1px solid var(--frontify-color-pale-stone);
+  border-radius: var(--frontify-radius-card);
+  padding: var(--frontify-space-card);
+}
+
+.frontify-button {
+  align-items: center;
+  background: var(--frontify-color-ink);
+  border: 1px solid var(--frontify-color-ink);
+  border-radius: var(--frontify-radius-button-sm);
+  color: var(--frontify-color-gallery-white);
+  display: inline-flex;
+  font-family: var(--frontify-font-ui);
+  font-size: var(--frontify-text-caption);
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: var(--frontify-track-ui);
+  padding: 12px 20px;
+}

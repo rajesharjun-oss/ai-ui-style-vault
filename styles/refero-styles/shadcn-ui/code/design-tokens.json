@@ -1,0 +1,303 @@
+{
+  "name": "shadcn/ui",
+  "slug": "shadcn-ui",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/0fd67ec5-7e9c-4ca9-b368-5d9c7388477a",
+    "productUrl": "https://ui.shadcn.com"
+  },
+  "theme": {
+    "mode": "light",
+    "summary": "Monochrome component workshop with frosted command-palette depth.",
+    "principles": [
+      "Use monochrome surfaces for most interface hierarchy.",
+      "Let borders, radius, and spacing carry polish.",
+      "Use Geist Sans for UI and Geist Mono for technical text.",
+      "Use red only for destructive and error states.",
+      "Keep density compact and components composable."
+    ]
+  },
+  "colors": {
+    "core": {
+      "ink": {
+        "value": "#09090b",
+        "token": "--color-ink",
+        "role": "Primary text, primary button fill, highest contrast UI"
+      },
+      "canvas": {
+        "value": "#ffffff",
+        "token": "--color-canvas",
+        "role": "Page background, cards, input surfaces"
+      },
+      "panel": {
+        "value": "#fafafa",
+        "token": "--color-panel",
+        "role": "Subtle raised panel and control hover surface"
+      },
+      "mutedSurface": {
+        "value": "#f4f4f5",
+        "token": "--color-muted-surface",
+        "role": "Recessed areas, disabled controls, code and preview backgrounds"
+      },
+      "border": {
+        "value": "#e4e4e7",
+        "token": "--color-border",
+        "role": "Card, input, table, and divider hairlines"
+      }
+    },
+    "text": {
+      "foreground": {
+        "value": "#09090b",
+        "token": "--color-foreground",
+        "role": "Main text and active icons"
+      },
+      "mutedForeground": {
+        "value": "#71717b",
+        "token": "--color-muted-foreground",
+        "role": "Secondary text, descriptions, placeholder copy"
+      },
+      "subtleForeground": {
+        "value": "#a1a1aa",
+        "token": "--color-subtle-foreground",
+        "role": "Disabled copy, quiet labels, helper details"
+      },
+      "inverse": {
+        "value": "#ffffff",
+        "token": "--color-inverse",
+        "role": "Text on dark buttons and dark surfaces"
+      }
+    },
+    "state": {
+      "destructive": {
+        "value": "#e7000b",
+        "token": "--color-destructive",
+        "role": "Error states, destructive buttons, danger icons"
+      },
+      "destructiveSoft": {
+        "value": "#ffe2e2",
+        "token": "--color-destructive-soft",
+        "role": "Error background and destructive hover state"
+      }
+    }
+  },
+  "surfaces": {
+    "page": "#ffffff",
+    "card": "#ffffff",
+    "panel": "#fafafa",
+    "muted": "#f4f4f5"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": {
+        "name": "Geist Sans",
+        "fallbacks": ["Inter", "system-ui", "sans-serif"],
+        "role": "UI, body, nav, labels, headings, buttons"
+      },
+      "mono": {
+        "name": "Geist Mono",
+        "fallbacks": ["JetBrains Mono", "SFMono-Regular", "Consolas", "monospace"],
+        "role": "Code, keyboard shortcuts, token labels, CLI snippets"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "lineHeightRatio": 1.33,
+        "fontWeight": 400
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "lineHeightRatio": 1.43,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "lineHeightRatio": 1.5,
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "lineHeight": "28px",
+        "lineHeightRatio": 1.56,
+        "fontWeight": 500
+      },
+      "headingSm": {
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "lineHeightRatio": 1.33,
+        "fontWeight": 600
+      },
+      "heading": {
+        "fontSize": "30px",
+        "lineHeight": "36px",
+        "lineHeightRatio": 1.2,
+        "fontWeight": 600
+      },
+      "headingLg": {
+        "fontSize": "36px",
+        "lineHeight": "40px",
+        "lineHeightRatio": 1.11,
+        "fontWeight": 600
+      },
+      "display": {
+        "fontSize": "48px",
+        "lineHeight": "48px",
+        "lineHeightRatio": 1,
+        "fontWeight": 700
+      }
+    },
+    "letterSpacing": "normal"
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "maxWidth": "1200px to 1400px",
+    "sectionGap": "64px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "32px", "40px", "48px", "64px"]
+  },
+  "shape": {
+    "radii": {
+      "tiny": "8px",
+      "controls": "18px",
+      "cards": "24px",
+      "pills": "9999px"
+    },
+    "border": {
+      "default": "1px solid #e4e4e7"
+    },
+    "elevation": {
+      "cards": "none",
+      "overlays": "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1)"
+    }
+  },
+  "components": {
+    "primaryButton": {
+      "background": "#09090b",
+      "color": "#ffffff",
+      "radius": "18px",
+      "padding": "8px 16px",
+      "font": "14px Geist Sans 500"
+    },
+    "secondaryButton": {
+      "background": "#f4f4f5",
+      "color": "#09090b",
+      "radius": "18px",
+      "padding": "8px 16px"
+    },
+    "outlineButton": {
+      "background": "#ffffff",
+      "color": "#09090b",
+      "border": "1px solid #e4e4e7",
+      "radius": "18px",
+      "padding": "8px 16px"
+    },
+    "ghostButton": {
+      "background": "transparent",
+      "color": "#09090b",
+      "radius": "18px",
+      "padding": "8px 12px",
+      "hover": "#f4f4f5"
+    },
+    "destructiveButton": {
+      "background": "#e7000b",
+      "color": "#ffffff",
+      "radius": "18px",
+      "padding": "8px 16px"
+    },
+    "input": {
+      "background": "#ffffff",
+      "color": "#09090b",
+      "placeholder": "#71717b",
+      "border": "1px solid #e4e4e7",
+      "radius": "18px",
+      "padding": "8px 12px",
+      "height": "36px to 40px"
+    },
+    "badge": {
+      "background": "#f4f4f5",
+      "color": "#09090b",
+      "border": "1px solid #e4e4e7",
+      "radius": "9999px",
+      "padding": "2px 10px",
+      "font": "12px Geist Sans 500"
+    },
+    "card": {
+      "background": "#ffffff",
+      "border": "1px solid #e4e4e7",
+      "radius": "24px",
+      "padding": "24px",
+      "shadow": "none"
+    },
+    "commandPalette": {
+      "background": "#ffffff",
+      "border": "1px solid #e4e4e7",
+      "radius": "24px",
+      "shadow": "overlay shadow",
+      "rows": "40px height, 8px inner radius, shortcuts in Geist Mono"
+    },
+    "tabList": {
+      "container": "#f4f4f5, 18px radius, 4px padding",
+      "activeTab": "#ffffff, 14px radius",
+      "font": "14px Geist Sans 500"
+    },
+    "sidebarNavLink": {
+      "inactiveText": "#71717b",
+      "activeText": "#09090b",
+      "activeBackground": "#f4f4f5",
+      "radius": "8px to 12px",
+      "padding": "6px 10px"
+    },
+    "componentPreviewPanel": {
+      "background": "#ffffff",
+      "border": "1px solid #e4e4e7",
+      "radius": "24px",
+      "padding": "32px",
+      "interior": "#fafafa or #f4f4f5"
+    }
+  },
+  "layout": {
+    "patterns": [
+      "Docs page with sidebar and table of contents",
+      "Component gallery with preview panels and code tabs",
+      "Settings page with compact two-column forms",
+      "Dashboard cards in a 12-column grid",
+      "Command palette centered over a plain or dim background",
+      "Table-heavy admin page with compact filters and actions"
+    ],
+    "imagery": "Interface previews, code blocks, diagrams, and simple icon glyphs only"
+  },
+  "motion": {
+    "duration": "150ms",
+    "easing": "ease",
+    "usage": "Small hover, focus, and overlay state transitions"
+  },
+  "do": [
+    "Use monochrome surfaces for almost every UI decision.",
+    "Use #09090b for primary text and primary button fill.",
+    "Use #71717b for muted copy and metadata.",
+    "Use #e4e4e7 for hairline borders.",
+    "Use 18px radius for interactive controls.",
+    "Use 24px radius for cards and overlays.",
+    "Use Geist Mono only for code and shortcuts.",
+    "Use red only for destructive and error states."
+  ],
+  "dont": [
+    "Do not add decorative brand accent colors.",
+    "Do not use red for normal links, icons, or highlights.",
+    "Do not add heavy shadows to cards.",
+    "Do not use large editorial typography.",
+    "Do not use photos, illustrations, or gradients as primary decoration.",
+    "Do not spread monospace across normal body or navigation text."
+  ]
+}

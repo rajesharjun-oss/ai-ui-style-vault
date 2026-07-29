@@ -1,0 +1,66 @@
+{
+  "id": "7b28c99e-ed17-451b-a39e-bd4722bc43f5",
+  "name": "21 TSI",
+  "slug": "21-tsi",
+  "sourceUrl": "https://styles.refero.design/style/7b28c99e-ed17-451b-a39e-bd4722bc43f5",
+  "referenceSite": "https://21tsi.com",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "luxury fashion editorial on black void",
+  "industry": ["fashion", "luxury", "editorial brand", "campaign site"],
+  "summary": "A stark black-and-white fashion editorial system using Saans as the only typeface, white hairline navigation, transparent pill controls, full-bleed crimson photography, no shadows, no filled colored CTAs, and no max-width container.",
+  "colors": {
+    "blackVoid": "#000000",
+    "paperWhite": "#ffffff",
+    "smoke": "#4d4d4d",
+    "crimsonHeat": "#b62b1a"
+  },
+  "typography": {
+    "primary": "Saans",
+    "fallback": "Inter, Manrope, ui-sans-serif, system-ui",
+    "weights": [300, 380, 570, 790],
+    "uiTracking": "0.05em or 0.6px",
+    "displayTracking": "-0.025em",
+    "displayRange": "47px to 245px",
+    "forbiddenMiddleRange": "above 20px and below 47px"
+  },
+  "shape": {
+    "bodyCardRadius": "8px",
+    "buttonRadius": "70px",
+    "circularFrameRadius": "594px",
+    "hairline": "1px"
+  },
+  "layout": {
+    "container": "full-bleed, no max-width container",
+    "heroImage": "100vw by about 90vh",
+    "navGap": "38px",
+    "textPlacement": "separate black space, not over photography"
+  },
+  "components": [
+    "top hairline navigation",
+    "21|TSI text wordmark",
+    "ghost pill button",
+    "text utility control",
+    "full-bleed editorial hero",
+    "oversized display headline",
+    "circular portrait frame",
+    "flat body card"
+  ],
+  "dos": [
+    "Use black, white, and a single hairline for UI chrome.",
+    "Use Saans or a precise geometric sans everywhere.",
+    "Use positive tracking on uppercase UI labels.",
+    "Use 70px pill radius for all controls.",
+    "Keep crimson inside the photography.",
+    "Use full-bleed images and large black negative space."
+  ],
+  "donts": [
+    "Do not use red CSS fills, red buttons, or red borders.",
+    "Do not use filled colored CTAs.",
+    "Do not place body text over photography.",
+    "Do not add drop shadows, glows, glass, blur, or elevation.",
+    "Do not introduce a second typeface or icon font.",
+    "Do not use a max-width page container.",
+    "Do not use intermediate display sizes between 20px and 47px."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "name": "Privy",
+  "slug": "privy",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/78d9ece2-9033-479a-997a-ede94fc87fda",
+    "style_id": "78d9ece2-9033-479a-997a-ede94fc87fda",
+    "reference_site": "https://www.privy.io",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "ink-on-marble editorial spread with one violet announcement band",
+  "summary": "A restrained editorial crypto-fintech system with white canvas, near-black structural ink, tight display typography, flat surfaces, 8px cards, 100px pill controls, and a single violet announcement/link accent.",
+  "use_cases": [
+    "Crypto infrastructure",
+    "Fintech APIs",
+    "Authentication products",
+    "Wallet platforms",
+    "Payments infrastructure",
+    "Developer tools",
+    "Security products"
+  ],
+  "colors": {
+    "canvas": "#ffffff",
+    "obsidian_ink": "#010110",
+    "carbon": "#111117",
+    "graphite": "#22222a",
+    "fog": "#73737c",
+    "ash": "#d9d9d9",
+    "iris_pulse": "#635bff",
+    "deep_teal": "#072723"
+  },
+  "typography": {
+    "display_font": "ABC Favorit Variable",
+    "display_fallback": "GT Super, Tiempos Headline, Source Serif 4, Georgia, serif",
+    "ui_font": "Inter",
+    "ui_fallback": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "display_letter_spacing": "-0.03em",
+    "ui_letter_spacing": "-0.02em",
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.24px",
+        "weight": 400
+      },
+      "body_sm": {
+        "size": "14px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.28px",
+        "weight": 400
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.32px",
+        "weight": 400
+      },
+      "subheading": {
+        "size": "20px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.4px",
+        "weight": 400
+      },
+      "heading_sm": {
+        "size": "26px",
+        "line_height": "1.13",
+        "letter_spacing": "-0.78px",
+        "weight": 400
+      },
+      "heading": {
+        "size": "38px",
+        "line_height": "1.15",
+        "letter_spacing": "-1.14px",
+        "weight": 500
+      },
+      "heading_lg": {
+        "size": "56px",
+        "line_height": "1.07",
+        "letter_spacing": "-1.68px",
+        "weight": 400
+      },
+      "display": {
+        "size": "76px",
+        "line_height": "1.03",
+        "letter_spacing": "-2.28px",
+        "weight": 400
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "page_max_width": "1200px",
+    "section_gap": "80px",
+    "card_padding": "24px",
+    "element_gap": "12px to 16px"
+  },
+  "radius": {
+    "nav": "8px",
+    "cards": "8px",
+    "images": "8px",
+    "buttons": "100px",
+    "tags": "100px",
+    "icons": "2px"
+  },
+  "components": [
+    "Primary Filled Button",
+    "Ghost Outline Button",
+    "Header Pill Link",
+    "Announcement Bar",
+    "Navigation Bar",
+    "Dark Feature Card",
+    "Phone Mockup Card",
+    "Dashboard Preview Panel",
+    "Footer",
+    "Text Link",
+    "Logo Wordmark"
+  ],
+  "rules": [
+    "Use the display face for all headings 26px and above.",
+    "Set display type at weight 400 and about -0.03em tracking.",
+    "Use Inter for body, UI, nav, buttons, and captions.",
+    "Use Obsidian Ink for filled primary CTAs.",
+    "Reserve Iris Pulse for the announcement band, link hover, and small chart strokes.",
+    "Use 8px radius for cards and images.",
+    "Use 100px radius for buttons and tags.",
+    "Use hairline borders and flat surfaces instead of shadows.",
+    "Use dark colors only as full-bleed section surfaces.",
+    "Do not introduce additional accent colors."
+  ]
+}

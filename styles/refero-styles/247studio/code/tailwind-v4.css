@@ -1,0 +1,68 @@
+@theme {
+  --color-studio247-pure-white: #ffffff;
+  --color-studio247-ink-black: #000000;
+  --color-studio247-obsidian: #1f1f1f;
+  --color-studio247-graphite-wash: #333333;
+  --color-studio247-slate: #666666;
+  --color-studio247-steel: #808080;
+  --color-studio247-fog: #999999;
+  --color-studio247-pale-mist: #cccccc;
+  --color-studio247-vapor: #e6e6e6;
+  --color-studio247-ash: #f2f2f2;
+
+  --font-studio247-display: "247 grotesk", Inter, "Neue Haas Grotesk", Sohne, system-ui, sans-serif;
+  --font-studio247-body: Ntbau, Sohne, Inter, "Untitled Sans", system-ui, sans-serif;
+
+  --text-studio247-caption: 10px;
+  --text-studio247-caption--line-height: 1.3;
+  --text-studio247-small-label: 11px;
+  --text-studio247-small-label--line-height: 1.14;
+  --text-studio247-small-body: 12px;
+  --text-studio247-small-body--line-height: 1.3;
+  --text-studio247-body: 14px;
+  --text-studio247-body--line-height: 1.25;
+  --text-studio247-body-large: 16px;
+  --text-studio247-body-large--line-height: 1.25;
+  --text-studio247-subheading: 19px;
+  --text-studio247-subheading--line-height: 1.2;
+  --text-studio247-heading-sm: 28px;
+  --text-studio247-heading-sm--line-height: 1.14;
+  --text-studio247-heading: 35px;
+  --text-studio247-heading--line-height: 1.14;
+  --text-studio247-heading-lg: 52px;
+  --text-studio247-heading-lg--line-height: 1;
+  --text-studio247-display: 73px;
+  --text-studio247-display--line-height: 1;
+
+  --spacing-studio247-copy: 350px;
+  --spacing-studio247-content: 1200px;
+  --spacing-studio247-page: 1440px;
+  --spacing-studio247-left-rail: 120px;
+
+  --radius-studio247-tag: 33.76px;
+  --radius-studio247-card: 33.76px;
+  --radius-studio247-image: 33.76px;
+  --radius-studio247-button: 42.96px;
+}
+
+@utility studio247-display-features {
+  font-feature-settings: "ss01";
+}
+
+@utility studio247-tracking-compact {
+  letter-spacing: 0.019em;
+}
+
+@utility studio247-flat-card {
+  border: 1px solid var(--color-studio247-pale-mist);
+  border-radius: var(--radius-studio247-card);
+  background: var(--color-studio247-pure-white);
+  box-shadow: none;
+}
+
+@utility studio247-body-long {
+  font-size: var(--text-studio247-body);
+  line-height: 1.89;
+  letter-spacing: 0.019em;
+}
+

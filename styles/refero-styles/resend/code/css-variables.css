@@ -1,0 +1,241 @@
+:root {
+  color-scheme: dark;
+
+  --font-domaine-display: "Domaine Display", Georgia, serif;
+  --font-commit-mono: "Commit Mono", "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-code-violet: #8b5cf6;
+  --color-black-velvet: #070707;
+  --color-carbon: #0b0b0b;
+  --color-panel: #111111;
+  --color-raised-panel: #151515;
+  --color-graphite: #1f1f1f;
+  --color-border: #2a2a2a;
+  --color-border-strong: #3a3a3a;
+  --color-white: #ffffff;
+  --color-body-gray: #b4b4b4;
+  --color-muted-gray: #8f8f8f;
+  --color-disabled-gray: #5f5f5f;
+  --color-success-green: #22c55e;
+  --color-warning-amber: #f59e0b;
+  --color-danger-red: #ef4444;
+  --color-info-blue: #3b82f6;
+
+  --surface-page: var(--color-black-velvet);
+  --surface-panel: var(--color-panel);
+  --surface-raised: var(--color-raised-panel);
+  --surface-hover: var(--color-graphite);
+
+  --text-primary: var(--color-white);
+  --text-body: var(--color-body-gray);
+  --text-muted: var(--color-muted-gray);
+  --text-disabled: var(--color-disabled-gray);
+  --text-accent: var(--color-code-violet);
+  --text-inverse: var(--color-black-velvet);
+
+  --border-hairline: 1px solid var(--color-border);
+  --border-strong: 1px solid var(--color-border-strong);
+
+  --text-code-xs-size: 11px;
+  --text-code-xs-line: 1.45;
+  --text-caption-size: 12px;
+  --text-caption-line: 1.33;
+  --text-body-sm-size: 14px;
+  --text-body-sm-line: 1.5;
+  --text-body-size: 16px;
+  --text-body-line: 1.5;
+  --text-body-lg-size: 18px;
+  --text-body-lg-line: 1.56;
+  --text-subheading-size: 20px;
+  --text-subheading-line: 1.4;
+  --text-heading-sm-size: 30px;
+  --text-heading-sm-line: 1.2;
+  --text-heading-size: 48px;
+  --text-heading-line: 1.08;
+  --text-display-size: 72px;
+  --text-display-line: 1;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-96: 96px;
+
+  --container-max: 1200px;
+  --section-gap: 96px;
+  --card-padding: 24px;
+  --element-gap: 12px;
+
+  --radius-tiny: 6px;
+  --radius-button: 8px;
+  --radius-card: 12px;
+  --radius-pill: 999px;
+
+  --shadow-card: none;
+  --shadow-overlay: 0 16px 48px rgba(0, 0, 0, 0.35);
+  --motion-duration: 180ms;
+  --motion-ease: ease;
+}
+
+.resend-page {
+  min-height: 100vh;
+  background: var(--surface-page);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+.resend-container {
+  width: min(calc(100% - 48px), var(--container-max));
+  margin-inline: auto;
+}
+
+.resend-section {
+  padding-block: var(--section-gap);
+}
+
+.resend-display {
+  margin: 0;
+  color: var(--text-primary);
+  font-family: var(--font-domaine-display);
+  font-size: clamp(48px, 8vw, var(--text-display-size));
+  font-weight: var(--font-weight-medium);
+  line-height: var(--text-display-line);
+  letter-spacing: 0;
+}
+
+.resend-body {
+  color: var(--text-body);
+  font-family: var(--font-sans);
+  font-size: var(--text-body-size);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--text-body-line);
+}
+
+.resend-primary-button,
+.resend-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 10px 16px;
+  border-radius: var(--radius-button);
+  font: var(--font-weight-medium) 14px / 1.2 var(--font-sans);
+  text-decoration: none;
+  transition: background-color var(--motion-duration) var(--motion-ease), border-color var(--motion-duration) var(--motion-ease), color var(--motion-duration) var(--motion-ease);
+}
+
+.resend-primary-button {
+  border: 0;
+  background: var(--color-white);
+  color: var(--text-inverse);
+}
+
+.resend-secondary-button {
+  border: var(--border-hairline);
+  background: var(--surface-panel);
+  color: var(--text-primary);
+}
+
+.resend-card {
+  background: var(--surface-panel);
+  border: var(--border-hairline);
+  border-radius: var(--radius-card);
+  box-shadow: none;
+  padding: var(--card-padding);
+}
+
+.resend-code-panel {
+  overflow: hidden;
+  background: var(--surface-raised);
+  border: var(--border-hairline);
+  border-radius: var(--radius-card);
+  box-shadow: none;
+  padding: 24px;
+  color: var(--text-body);
+  font-family: var(--font-commit-mono);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.resend-code-panel--hero {
+  box-shadow: var(--shadow-overlay);
+}
+
+.resend-code-accent {
+  color: var(--color-code-violet);
+}
+
+.resend-terminal-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  color: var(--text-body);
+  font: var(--font-weight-regular) 13px / 1.5 var(--font-commit-mono);
+}
+
+.resend-email-preview {
+  overflow: hidden;
+  background: var(--surface-panel);
+  border: var(--border-hairline);
+  border-radius: var(--radius-card);
+}
+
+.resend-email-preview__body {
+  background: var(--color-white);
+  color: #111111;
+  padding: 24px;
+  font: var(--font-weight-regular) 14px / 1.5 var(--font-sans);
+}
+
+.resend-api-key-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: var(--border-hairline);
+  border-radius: var(--radius-button);
+  background: var(--surface-panel);
+  color: var(--text-muted);
+  font: var(--font-weight-regular) 13px / 1.5 var(--font-commit-mono);
+}
+
+.resend-status-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 4px 10px;
+  border: var(--border-hairline);
+  border-radius: var(--radius-pill);
+  background: var(--surface-raised);
+  color: var(--text-muted);
+  font: var(--font-weight-medium) 12px / 1.33 var(--font-sans);
+}
+
+.resend-nav {
+  min-height: 64px;
+  background: rgba(7, 7, 7, 0.86);
+  border-bottom: 1px solid var(--color-graphite);
+  backdrop-filter: blur(12px);
+}
+
+.resend-nav-link {
+  color: var(--text-muted);
+  font: var(--font-weight-medium) 14px / 1.5 var(--font-sans);
+  text-decoration: none;
+}
+
+.resend-nav-link.is-active,
+.resend-link {
+  color: var(--text-primary);
+}

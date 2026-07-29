@@ -1,0 +1,146 @@
+{
+  "name": "BlueYard Capital",
+  "theme": "light",
+  "colors": {
+    "canvasWhite": {
+      "value": "#ffffff",
+      "role": "Page background, card surfaces, and ghost button fill"
+    },
+    "graphiteInk": {
+      "value": "#3a3a3e",
+      "role": "Primary text, links, icon strokes, and hairline borders"
+    },
+    "deepCarbon": {
+      "value": "#090b11",
+      "role": "Strongest contrast text and card borders"
+    },
+    "ashVeil": {
+      "value": "#b5b0b0",
+      "role": "Warm gray section bands and soft borders"
+    },
+    "apricotWash": {
+      "value": "#ffcf9e",
+      "role": "Warm card fills and hairline card borders"
+    },
+    "irisMist": {
+      "value": "#babfff",
+      "role": "Lavender card borders and paired accents"
+    },
+    "fuchsiaBloom": {
+      "value": "#e3a2ef",
+      "role": "Single vivid card fill or highlight block"
+    },
+    "polarBlue": {
+      "value": "#bfe0f7",
+      "role": "Cool section field or soft surface tint"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": {
+        "value": "\"Instrument Sans\", \"Inter\", \"Sohne\", \"General Sans\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      }
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500
+    },
+    "letterSpacing": {
+      "caption": "-0.36px",
+      "body": "-0.24px",
+      "heading": "-0.54px",
+      "display": "-1.62px",
+      "rule": "Use negative tracking everywhere; do not use positive letter spacing."
+    },
+    "scale": {
+      "micro": {
+        "fontSize": "7px",
+        "lineHeight": "1",
+        "letterSpacing": "tight",
+        "fontWeight": 500
+      },
+      "tinyLabel": {
+        "fontSize": "9px",
+        "lineHeight": "1.5",
+        "letterSpacing": "tight",
+        "fontWeight": 500
+      },
+      "smallLabel": {
+        "fontSize": "11px",
+        "lineHeight": "1",
+        "letterSpacing": "tight",
+        "fontWeight": 500
+      },
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.36px",
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "24px",
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.24px",
+        "fontWeight": 500
+      },
+      "heading": {
+        "fontSize": "48px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.54px",
+        "fontWeight": 400
+      },
+      "display": {
+        "fontSize": "54px",
+        "lineHeight": "1",
+        "letterSpacing": "-1.62px",
+        "fontWeight": 400
+      }
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "density": "compact",
+    "scale": {
+      "5": "5px",
+      "6": "6px",
+      "8": "8px",
+      "9": "9px",
+      "11": "11px",
+      "12": "12px",
+      "14": "14px",
+      "18": "18px",
+      "24": "24px",
+      "60": "60px",
+      "90": "90px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "90px",
+      "cardPadding": "12px",
+      "elementGap": "5px"
+    }
+  },
+  "radius": {
+    "tags": "0px",
+    "cards": "0px",
+    "buttons": "0px",
+    "navigation": "0px",
+    "images": "0px"
+  },
+  "borders": {
+    "graphiteHairline": "1px solid #3a3a3e",
+    "deepCarbonHairline": "1px solid #090b11",
+    "apricotHairline": "1px solid #ffcf9e",
+    "irisHairline": "1px solid #babfff"
+  },
+  "shadow": {
+    "none": "No shadows, glows, or elevated surfaces"
+  },
+  "surfaces": {
+    "canvas": "#ffffff",
+    "ashBand": "#b5b0b0",
+    "polarBlueField": "#bfe0f7",
+    "apricotField": "#ffcf9e",
+    "fuchsiaField": "#e3a2ef"
+  }
+}

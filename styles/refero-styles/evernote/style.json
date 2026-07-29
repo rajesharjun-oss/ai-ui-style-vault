@@ -1,0 +1,325 @@
+{
+ "id": "0c0b6140-2b6c-44f8-8bba-4ecfcadba420",
+ "name": "Evernote",
+ "slug": "evernote",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0c0b6140-2b6c-44f8-8bba-4ecfcadba420",
+ "referenceSite": "https://evernote.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T00:53:00.105Z",
+ "articleModifiedAt": "2026-06-05T06:14:55.638Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/010d3e4b-cbf3-4236-9e12-20faa03310aa.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/254cd7b9-0bd0-43f8-aa92-2f61df2ebb88.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/699ab924-cb8b-4472-9132-0ed968be0152.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/84e68b8e-e851-4a22-a4e5-d36037f67aa0.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/7703833a-84b5-436e-aca7-6bab706963ce.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/cbe31437-0bc1-47e0-ad32-78e0b4e59e0a.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Productivity",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Productivity",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Afternoon sun on cream paper - a warm, lived-in notebook where white cards float on beige, dark text breathes, and one lime-green highlighter marks the important things.",
+ "summary": "Explore Evernote\u0027s light Productivity design system: Lime Sprout #94e130, Paper Cream #f9f6f2 colors, Figtree, Inter typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Lime Sprout",
+ "value": "#94e130",
+ "token": "--color-lime-sprout",
+ "role": "Primary action button, icon highlights, accent tags - the singular chromatic punctuation that makes actions feel switched on against the cream canvas"
+ },
+ {
+ "name": "Paper Cream",
+ "value": "#f9f6f2",
+ "token": "--color-paper-cream",
+ "role": "Page canvas, hero background, section backgrounds - warm off-white that replaces standard white with a paper-like quality"
+ },
+ {
+ "name": "Ivory Card",
+ "value": "#f4eee5",
+ "token": "--color-ivory-card",
+ "role": "Alternate card surface, warm-toned elevated panels that sit one step deeper than the cream canvas"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Elevated card surfaces, product screenshot containers, button text on dark fills"
+ },
+ {
+ "name": "Slate Border",
+ "value": "#e7e7e7",
+ "token": "--color-slate-border",
+ "role": "Card borders, hairline dividers between content sections and list items"
+ },
+ {
+ "name": "Smoke",
+ "value": "#a1a1a1",
+ "token": "--color-smoke",
+ "role": "Muted link borders, nav underlines, subtle structural dividers"
+ },
+ {
+ "name": "Stone",
+ "value": "#737373",
+ "token": "--color-stone",
+ "role": "Helper text, tertiary body content, subdued annotations"
+ },
+ {
+ "name": "Graphite",
+ "value": "#4e4d4c",
+ "token": "--color-graphite",
+ "role": "Secondary text, icon strokes, subdued UI labels"
+ },
+ {
+ "name": "Iron",
+ "value": "#262626",
+ "token": "--color-iron",
+ "role": "Dark surface elements, body borders on inverted sections"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#141414",
+ "token": "--color-charcoal",
+ "role": "Primary text, dark filled buttons, heading color - the near-black that carries all weight in the type system"
+ },
+ {
+ "name": "Onyx",
+ "value": "#000000",
+ "token": "--color-onyx",
+ "role": "Maximum-contrast borders, footer rules, SVG fills where absolute black is needed"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Figtree",
+ "token": "--font-figtree",
+ "role": "Primary typeface across all UI - display, headings, body, nav, buttons. Weight 300 at 72px hero is a signature choice: whisper-light headlines that feel editorial and confident rather than bold-and-shouting. The geometric humanist forms of Figtree at 300 weight give the warm cream canvas a modern editorial feel."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Secondary body text at 16-20px, likely fallback or supplementary paragraph copy. Used sparingly alongside Figtree for longer-form descriptive text."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "0.12px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-0.14px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.48px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "-0.6px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.3",
+ "-0.72px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.2",
+ "-2px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "50px",
+ "1.1",
+ "-2.5px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "72px",
+ "1",
+ "-3.6px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "32px",
+ "elementGap": "8-16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "5px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "pills",
+ "52px"
+ ],
+ [
+ "buttons",
+ "5px"
+ ],
+ [
+ "large-cards",
+ "16px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary CTA Button (Dark)",
+ "role": "Main conversion button on light backgrounds - the default call-to-action"
+ },
+ {
+ "name": "Primary CTA Button (Lime)",
+ "role": "Energy-action button used on dark sections to make CTAs pop"
+ },
+ {
+ "name": "Ghost Nav Button",
+ "role": "Secondary nav-level action like \u0027Download\u0027 - lower-emphasis than the primary CTA"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline link in body copy or nav"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Feature Card",
+ "role": "Card in the features carousel - one capability per card"
+ },
+ {
+ "name": "Product Screenshot Card",
+ "role": "Large product preview image with browser-chrome frame"
+ },
+ {
+ "name": "Category Icon Square",
+ "role": "Small colored block that color-codes a feature card category"
+ },
+ {
+ "name": "Dark Contrast Section",
+ "role": "High-energy section that breaks the cream rhythm with full-black background"
+ },
+ {
+ "name": "Carousel Navigation",
+ "role": "Pagination control for card carousels"
+ },
+ {
+ "name": "Tag/Pill Badge",
+ "role": "Category tag like \u0027Organize\u0027 on dark section"
+ }
+ ],
+ "dos": [
+ "Use Paper Cream #f9f6f2 as the default page canvas - never switch to pure white for full-page backgrounds",
+ "Set hero headlines at 72px Figtree weight 300 with -3.6px letter-spacing for the signature airy editorial feel",
+ "Apply Lime Sprout #94e130 only to one element per viewport: a CTA, an icon, or a tag - never as a background fill",
+ "Use 5px border-radius for all buttons and 10px for cards - this subtle rounding is core to the warm, non-techy personality",
+ "Maintain a minimum 80px gap between major sections to preserve the generous breathing room visible in the layout",
+ "Pair the dark filled CTA on cream backgrounds with the lime filled CTA on dark sections - the CTA color flips with the surface",
+ "Use colored 40px icon squares (blue/green/yellow/purple) on feature cards to create category coding without adding text labels"
+ ],
+ "donts": [
+ "Don\u0027t use pure white #ffffff as a page background - it breaks the warm paper system",
+ "Don\u0027t apply weight 600 or above to display headlines - weight 300 is the signature, heavier weights feel corporate",
+ "Don\u0027t use Lime Sprout for large background fills, gradients, or decorative bands - it loses its energy when used at scale",
+ "Don\u0027t add drop shadows to cards - the system relies on flat hairline borders (#e7e7e7) for separation, not elevation",
+ "Don\u0027t use fully rounded (9999px) buttons - 5px is the intentional subtle rounding, not pill-shaped",
+ "Don\u0027t introduce more than one additional accent color per screen - the cream + charcoal + lime triad is the system",
+ "Don\u0027t use letter-spacing looser than -0.03em on headings - the tight tracking is what makes the large type feel modern rather than textbook"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper Cream | `#f9f6f2` | Base page canvas - the warm default surface |\n| 1 | Ivory Card | `#f4eee5` | First elevated tier - warm-toned cards sitting on the cream canvas |\n| 2 | Pure White | `#ffffff` | Highest elevation - product screenshots, feature cards, ghost buttons |\n| 3 | Onyx | `#000000` | Inverted section surface - dark contrast bands that break the cream rhythm |",
+ "elevation": "- **Feature Card:** `none - uses 1px #e7e7e7 border instead of shadow`\n- **Product Screenshot Card:** `none - flat surface on cream canvas`\n- **Dark Contrast Section:** `none - relies on tonal contrast, not shadow`",
+ "imagery": "No traditional photography. Visual content is almost entirely product UI screenshots presented inside browser-chrome frames with 16px corner radius. The only decorative visuals are organic gradient blob shapes (green, blue, purple) that appear in dark contrast sections as atmospheric background elements - they are soft-edged, large-scale, and partially transparent. Iconography uses outlined mono icons inside small colored category squares. The overall density is text-dominant with a single large product screenshot per major section.",
+ "layout": "Max-width 1200px centered content on a full-bleed Paper Cream background. Hero is a centered stack: large editorial headline, centered subtext, single CTA, then a large product screenshot card below. Feature section is a horizontal card carousel with equal-width white cards and circular arrow controls below. A full-bleed dark band interrupts the cream rhythm for high-energy sections, then returns to cream. Vertical rhythm is generous: ~80px between major sections, 32px card padding, 8-16px element gaps. Navigation is a simple top bar with logo left, links center, and two right-aligned CTAs."
+}

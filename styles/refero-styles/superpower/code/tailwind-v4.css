@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sunrise-coral: #fc5f2b;
+  --color-pure-black: #000000;
+  --color-carbon-black: #18181b;
+  --color-zinc-gray: #71717a;
+  --color-ash-gray: #a1a1aa;
+  --color-mist-gray: #e4e4e7;
+  --color-fog-gray: #f4f4f5;
+  --color-paper-white: #ffffff;
+
+  --font-sans: "NB International Pro", "Inter Tight", "General Sans", "Switzer", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "NB International Mono Pro", "JetBrains Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-caption: 11px;
+  --text-body: 15px;
+  --text-body-lg: 17px;
+  --text-subheading: 19px;
+  --text-heading-sm: 22px;
+  --text-heading: 30px;
+  --text-heading-lg: 45px;
+  --text-display: 66px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-11: 11px;
+  --spacing-16: 16px;
+  --spacing-19: 19px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-60: 60px;
+  --spacing-75: 75px;
+  --spacing-page: 1200px;
+
+  --radius-small-card: 5px;
+  --radius-icon: 7.5px;
+  --radius-card: 15px;
+  --radius-nav: 15px;
+  --radius-pill: 9999px;
+
+  --shadow-superpower-subtle: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px;
+}
+
+@layer base {
+  .superpower {
+    background: var(--color-paper-white);
+    color: var(--color-carbon-black);
+    font-family: var(--font-sans);
+    letter-spacing: -0.005em;
+  }
+}
+
+@layer components {
+  .superpower-nav {
+    @apply flex items-center gap-19 rounded-nav bg-carbon-black px-19 py-3 text-paper-white;
+  }
+
+  .superpower-display {
+    @apply font-sans text-heading-lg font-normal leading-none tracking-[-0.015em] text-paper-white md:text-display md:tracking-[-0.025em];
+  }
+
+  .superpower-primary {
+    @apply inline-flex min-h-12 items-center justify-center rounded-pill border-0 bg-sunrise-coral px-7 py-[15px] font-sans text-body-lg font-bold leading-none tracking-[-0.009em] text-paper-white;
+  }
+
+  .superpower-card {
+    @apply rounded-card border border-mist-gray bg-paper-white p-19 text-carbon-black shadow-none;
+  }
+
+  .superpower-membership-card {
+    @apply rounded-card p-24 text-paper-white;
+    background: linear-gradient(88deg, #fc5f2b, #ff8b64 90%, #ffffff);
+  }
+
+  .superpower-trust-row {
+    @apply flex flex-wrap gap-8 font-mono text-caption leading-[1.4] text-zinc-gray;
+  }
+}

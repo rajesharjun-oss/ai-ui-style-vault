@@ -1,0 +1,71 @@
+:root {
+  --origin-color-iris-gleam: #847dff;
+  --origin-color-cyan-signal: #00b3dd;
+  --origin-color-pale-iris: #d1c9ff;
+  --origin-color-deep-iris: #4b49aa;
+  --origin-color-orchid-bloom: #dd90d8;
+  --origin-color-periwinkle: #90b8f0;
+
+  --origin-color-void: #000000;
+  --origin-color-abyss: #090a0b;
+  --origin-color-obsidian: #0f1011;
+  --origin-color-graphite: #2e2e2e;
+  --origin-color-steel: #3f4041;
+  --origin-color-fog: #6a6b6b;
+  --origin-color-ash: #9f9fa0;
+  --origin-color-silver: #cacaca;
+  --origin-color-cloud: #f5f5f7;
+  --origin-color-pure: #ffffff;
+
+  --origin-font-display: "Lyon Display", "DM Serif Display", "Playfair Display", Georgia, serif;
+  --origin-font-sans: "Suisse Intl", Inter, "Geist Sans", Arial, sans-serif;
+  --origin-font-mono: "Roboto Mono", "SFMono-Regular", Consolas, monospace;
+
+  --origin-text-mono-label: 12px;
+  --origin-text-body-sm: 14px;
+  --origin-text-body: 16px;
+  --origin-text-subheading: 18px;
+  --origin-text-heading-lg: 38px;
+  --origin-text-display-sm: 80px;
+  --origin-text-display: 96px;
+
+  --origin-leading-tight-display: 0.9;
+  --origin-leading-display: 1;
+  --origin-leading-body: 1.5;
+  --origin-leading-body-loose: 1.67;
+  --origin-leading-label: 2;
+
+  --origin-space-1: 4px;
+  --origin-space-2: 8px;
+  --origin-space-3: 12px;
+  --origin-space-4: 16px;
+  --origin-space-5: 20px;
+  --origin-space-6: 24px;
+  --origin-space-8: 32px;
+  --origin-space-10: 40px;
+  --origin-space-12: 48px;
+  --origin-space-15: 60px;
+  --origin-space-17: 68px;
+  --origin-space-20: 80px;
+  --origin-space-25: 100px;
+  --origin-space-30: 120px;
+  --origin-space-35: 140px;
+
+  --origin-max-width: 1200px;
+  --origin-section-gap: 80px;
+  --origin-card-padding: 32px;
+  --origin-element-gap: 12px;
+
+  --origin-radius-control: 8px;
+  --origin-radius-device: 16px;
+  --origin-radius-card: 30px;
+  --origin-radius-pill: 9999px;
+
+  --origin-shadow-lg: rgba(0, 0, 0, 0.2) 0px 18px 20px 0px;
+  --origin-gradient-dark-chrome: linear-gradient(135deg, rgb(43, 43, 44), rgb(19, 19, 19));
+  --origin-gradient-sky-atmosphere: linear-gradient(rgb(15, 16, 17), rgb(19, 29, 39) 18%, rgb(26, 71, 136) 37%, rgb(64, 138, 193) 69%, rgb(64, 138, 193) 102%);
+
+  --origin-transition-fast: 0.2s ease;
+  --origin-transition-reveal: 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+

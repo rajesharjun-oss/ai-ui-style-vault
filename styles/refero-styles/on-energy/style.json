@@ -1,0 +1,77 @@
+{
+  "id": "31e00a99-6946-4f07-829a-b0904a39a20d",
+  "name": "ON.energy",
+  "slug": "on-energy",
+  "sourceUrl": "https://styles.refero.design/style/31e00a99-6946-4f07-829a-b0904a39a20d",
+  "referenceSite": "https://on.energy",
+  "capturedAt": "2026-07-28",
+  "theme": "mixed",
+  "mood": "high-voltage caution yellow on midnight steel",
+  "industry": ["energy infrastructure", "industrial hardware", "power systems"],
+  "summary": "A flat industrial-signage style with black, caution yellow, and industrial white full-bleed sections, Univers Next Pro 300/400 typography only, tight tracking, small utilitarian radii, shadowless surfaces, and dark hardware photography.",
+  "colors": {
+    "cautionYellow": "#fff313",
+    "midnightSteel": "#000000",
+    "industrialWhite": "#eeeeee",
+    "carbon": "#333333",
+    "gunmetal": "#4b4b4b",
+    "aluminum": "#afafaf"
+  },
+  "typography": {
+    "primary": "Univers Next Pro",
+    "fallback": "Inter, Neue Haas Grotesk, Helvetica Neue",
+    "weights": [300, 400],
+    "displayWeight": 300,
+    "uiWeight": 400,
+    "largeTracking": "-0.04em",
+    "midTracking": "-0.02em"
+  },
+  "shape": {
+    "navRadius": "6px",
+    "cardRadius": "9px",
+    "imageRadius": "16px",
+    "buttonRadius": "6px",
+    "sectionRadius": "24px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "sectionGap": "120px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "model": "full-bleed section modes, no global max-width for major color sections"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "none",
+    "depth": "full-bleed contrast and spacing"
+  },
+  "components": [
+    "yellow CTA button",
+    "dark navigation pill",
+    "logo mark",
+    "hero headline",
+    "product highlight card",
+    "full-bleed yellow statement section",
+    "news image card",
+    "section heading",
+    "body text block",
+    "nav bar container"
+  ],
+  "dos": [
+    "Use weight 300 for all headlines and display text.",
+    "Use weight 400 for body and UI.",
+    "Use Caution Yellow only for CTA buttons, full yellow sections, and small accents.",
+    "Alternate full-bleed dark image, yellow, and industrial white sections.",
+    "Keep functional radii small and utilitarian.",
+    "Use real industrial hardware photography."
+  ],
+  "donts": [
+    "Do not add shadows.",
+    "Do not add gradients.",
+    "Do not use type weights 500, 600, or 700.",
+    "Do not use yellow body text on yellow backgrounds.",
+    "Do not use large radii on functional elements.",
+    "Do not constrain full-bleed sections to a global max-width container."
+  ]
+}

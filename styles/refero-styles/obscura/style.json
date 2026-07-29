@@ -1,0 +1,96 @@
+{
+  "id": "c445eb73-e403-4a00-8b90-f454c9181fd6",
+  "name": "Obscura",
+  "slug": "obscura",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/c445eb73-e403-4a00-8b90-f454c9181fd6",
+    "referenceSite": "https://obscura.net",
+    "capturedAt": "2026-07-28",
+    "publishedAt": "2026-05-07T18:19:36.308Z",
+    "modifiedAt": "2026-06-03T18:44:08.124Z",
+    "media": {
+      "primaryThumbnail": "https://images.refero.design/styles/refero.design/image/eabfe07f-2509-4847-ab11-7ed3ab0b48ab.jpg",
+      "detailScreenshot": "https://images.refero.design/styles/refero.design/image/4be034b3-80aa-4a09-9a2d-36dbe4993457.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/c6e1c8b3-7cd7-4a9e-9647-d98e96420eb4.mp4",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/c17772c8-8da5-4445-92f9-be9747624e44.jpg",
+      "detailVideo": "https://images.refero.design/styles/refero.design/video/7ea13968-f58a-4eaf-bfcb-7e17f48cbf24.mp4",
+      "detailVideoPoster": "https://images.refero.design/styles/refero.design/image/1cdd2dd9-f189-4c02-b638-ceaedf9d82a5.jpg"
+    }
+  },
+  "classification": {
+    "theme": "light",
+    "industry": ["SaaS", "privacy product", "playful security", "consumer app"],
+    "mood": ["8-bit", "playful", "cloud paper", "friendly", "privacy-as-playfulness"],
+    "bestFor": ["privacy products", "consumer SaaS", "friendly security pages", "playful app landing pages"]
+  },
+  "summary": "A light playful SaaS style with a cloud-blue canvas, Jersey 10 pixel headings, Manrope UI copy, one vivid orange CTA color, pixel cloud sprites, rounded app mockups, and soft blue-tinted shadows.",
+  "colors": {
+    "signalOrange": { "value": "#ff5e24", "role": "Primary CTA fill, hero emphasis, active nav, link hover, card accent" },
+    "emberCrust": { "value": "#6c3200", "role": "Footer background and rare dark brand block" },
+    "cloudMist": { "value": "#e3f1fe", "role": "Page canvas, card wash, secondary border, pixel-art fill" },
+    "graphiteInk": { "value": "#232629", "role": "Primary text, nav links, icon strokes, body copy" },
+    "paperWhite": { "value": "#ffffff", "role": "Card surface, app chrome, nav background" },
+    "slatePencil": { "value": "#5c6066", "role": "Secondary body text and muted icons" },
+    "ashMist": { "value": "#989ea4", "role": "Tertiary text, placeholders, disabled details" },
+    "blushShadow": { "value": "#dbced0", "role": "Warm-tinted shadow base" },
+    "midnightInk": { "value": "#101828", "role": "Strong text where orange needs contrast" }
+  },
+  "typography": {
+    "displayFamily": "Jersey 10",
+    "bodyFamily": "Manrope Variable",
+    "displaySubstitutes": ["Press Start 2P", "VT323", "Pixelify Sans"],
+    "bodySubstitutes": ["Inter", "Plus Jakarta Sans", "DM Sans"],
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": "1.5", "fontWeight": 400 },
+      "bodySmall": { "fontSize": "14px", "lineHeight": "1.43", "fontWeight": 400 },
+      "body": { "fontSize": "16px", "lineHeight": "1.5", "fontWeight": 400 },
+      "subheading": { "fontSize": "18px", "lineHeight": "1.56", "fontWeight": 400 },
+      "headingSmall": { "fontSize": "36px", "lineHeight": "1.11", "letterSpacing": "-0.9px", "fontWeight": 400 },
+      "heading": { "fontSize": "48px", "lineHeight": "0.85", "letterSpacing": "-1.2px", "fontWeight": 400 },
+      "headingLarge": { "fontSize": "60px", "lineHeight": "0.85", "letterSpacing": "-1.5px", "fontWeight": 400 },
+      "display": { "fontSize": "96px", "lineHeight": "0.8", "letterSpacing": "-3px", "fontWeight": 400 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "maxWidth": "1200px",
+    "sectionGap": "48px",
+    "cardPadding": "16px",
+    "elementGap": "16px",
+    "heroCopyMaxWidth": "560px"
+  },
+  "shape": {
+    "navRadius": "6px",
+    "linkRadius": "6px",
+    "buttonRadius": "6px",
+    "cardRadius": "12px",
+    "cardLargeRadius": "16px",
+    "imageRadius": "24px",
+    "featurePanelRadius": "32px",
+    "borderWidth": "1px"
+  },
+  "components": {
+    "primaryCta": "Filled Signal Orange button, compact 6px radius, Manrope label, optional arrow icon.",
+    "secondaryButton": "Transparent control with Cloud Mist border and Graphite Ink text.",
+    "hero": "Centered stack on Cloud Mist with two-line Jersey headline, body copy, orange CTA, and cloud sprites.",
+    "featureCard": "White card, 12px radius, 16px padding, Cloud Mist border, soft blue-tinted shadow, pixel illustration.",
+    "appWindowMockup": "Rounded product window with traffic-light dots, sidebar, status pill, and soft shadow.",
+    "pixelCloudSprite": "Flat 8-bit cloud graphic with 1px darker outline, used as divider and corner accent.",
+    "footer": "Full-width Ember Crust band with white and warm-cream Manrope links."
+  },
+  "dos": [
+    "Use Jersey 10 for every display heading at 36px and above.",
+    "Keep one Signal Orange CTA fill per screen.",
+    "Use Cloud Mist as the full-page atmosphere.",
+    "Use pixel cloud sprites in corners and section gaps.",
+    "Keep Manrope for all readable UI copy."
+  ],
+  "donts": [
+    "Do not use Jersey 10 for body text or nav labels.",
+    "Do not introduce a second brand color.",
+    "Do not make orange a full-page background.",
+    "Do not use smooth vector clouds.",
+    "Do not make the privacy product feel like a fortress."
+  ]
+}
+

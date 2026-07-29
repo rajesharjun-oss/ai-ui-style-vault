@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amaterasu-violet: #1b2978;
+  --color-amaterasu-indigo: #19366c;
+  --color-amaterasu-teal: #75cdd6;
+  --color-amaterasu-white: #ffffff;
+  --color-amaterasu-obsidian: #000000;
+  --color-amaterasu-slate: #7488a5;
+  --color-amaterasu-cerulean: #579dc0;
+  --color-amaterasu-storm: #466187;
+
+  --font-amaterasu-body: "TWKLausanne-250", Inter, Manrope, Arial, Helvetica, sans-serif;
+  --font-amaterasu-display: "TWKLausanne-200", "Inter Tight", Manrope, Arial, Helvetica, sans-serif;
+  --font-amaterasu-label: "NeoSansPro-Medium", "Space Grotesk", Inter, Arial, Helvetica, sans-serif;
+
+  --spacing-amaterasu-hero: 60px;
+  --spacing-amaterasu-section: 120px;
+  --spacing-amaterasu-element: 24px;
+  --spacing-amaterasu-label: 16px;
+
+  --radius-amaterasu-pill: 9999px;
+  --radius-amaterasu-card: 0px;
+
+  --text-amaterasu-label: 10px;
+  --text-amaterasu-label--line-height: 1.5;
+  --text-amaterasu-body: 16px;
+  --text-amaterasu-body--line-height: 1.2;
+  --text-amaterasu-body-lg: 20px;
+  --text-amaterasu-body-lg--line-height: 1.4;
+  --text-amaterasu-statement: 26px;
+  --text-amaterasu-statement--line-height: 1.23;
+  --text-amaterasu-heading: 40px;
+  --text-amaterasu-heading--line-height: 1.13;
+  --text-amaterasu-display: 80px;
+  --text-amaterasu-display--line-height: 1;
+}
+
+@utility amaterasu-rail {
+  width: min(100% - 48px, 1200px);
+  margin-inline: auto;
+}
+
+@utility amaterasu-display {
+  font-family: var(--font-amaterasu-display);
+  font-size: clamp(50px, 7vw, 80px);
+  line-height: 1;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+}
+
+@utility amaterasu-label {
+  font-family: var(--font-amaterasu-label);
+  font-size: var(--text-amaterasu-label);
+  line-height: 1.5;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+@utility amaterasu-outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 18px;
+  border: 1px solid var(--color-amaterasu-violet);
+  border-radius: var(--radius-amaterasu-pill);
+  background: transparent;
+  color: var(--color-amaterasu-violet);
+  font-family: var(--font-amaterasu-label);
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+
+@utility amaterasu-cyan-glow {
+  background: radial-gradient(at 5.62% 33.12%, rgb(255, 255, 255) 30%, rgb(132, 205, 238) 100%);
+}
+
+@utility amaterasu-violet-wash {
+  background: linear-gradient(174deg, rgb(42, 57, 142) 5%, rgb(85, 102, 197) 100%);
+}
+

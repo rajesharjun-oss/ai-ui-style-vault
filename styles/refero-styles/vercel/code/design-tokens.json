@@ -1,0 +1,90 @@
+{
+  "name": "Vercel",
+  "sourceUrl": "https://styles.refero.design/style/f24daf3a-d43f-4dec-85a9-8ac1d5148a03",
+  "referenceUrl": "https://vercel.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "color": {
+    "carbon": { "value": "#000000", "type": "color" },
+    "obsidian": { "value": "#171717", "type": "color" },
+    "charcoal": { "value": "#4d4d4d", "type": "color" },
+    "stone": { "value": "#666666", "type": "color" },
+    "slate": { "value": "#7d7d7d", "type": "color" },
+    "graphite": { "value": "#8f8f8f", "type": "color" },
+    "smoke": { "value": "#a8a8a8", "type": "color" },
+    "ash": { "value": "#c9c9c9", "type": "color" },
+    "hairline": { "value": "#ebebeb", "type": "color" },
+    "paperWhite": { "value": "#fafafa", "type": "color" },
+    "pureWhite": { "value": "#ffffff", "type": "color" },
+    "terminalGreen": { "value": "#297a3a", "type": "color" }
+  },
+  "gradient": {
+    "spectrum": { "value": "linear-gradient(90deg, rgb(0, 255, 149) 0%, rgb(255, 208, 0) 25%, rgb(255, 23, 68) 50%, rgb(149, 0, 255) 75%, rgb(0, 229, 255) 100%)", "type": "gradient" },
+    "solarEdge": { "value": "linear-gradient(90deg, rgb(255, 220, 48) 0%, rgb(56, 162, 255) 100%)", "type": "gradient" }
+  },
+  "font": {
+    "geistSans": { "value": "Geist Sans, Inter, system-ui, sans-serif", "type": "fontFamily" },
+    "geistMono": { "value": "Geist Mono, JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "regular": { "value": 400, "type": "fontWeight" },
+    "book": { "value": 450, "type": "fontWeight" },
+    "medium": { "value": 500, "type": "fontWeight" },
+    "semibold": { "value": 600, "type": "fontWeight" }
+  },
+  "fontSize": {
+    "eyebrow": { "value": "11px", "type": "fontSize" },
+    "caption": { "value": "13px", "type": "fontSize" },
+    "bodySm": { "value": "14px", "type": "fontSize" },
+    "body": { "value": "16px", "type": "fontSize" },
+    "heading": { "value": "30px", "type": "fontSize" },
+    "headingLg": { "value": "56px", "type": "fontSize" },
+    "display": { "value": "64px", "type": "fontSize" }
+  },
+  "lineHeight": {
+    "eyebrow": { "value": 1.5, "type": "lineHeight" },
+    "caption": { "value": 1.54, "type": "lineHeight" },
+    "bodySm": { "value": 1.43, "type": "lineHeight" },
+    "body": { "value": 1.5, "type": "lineHeight" },
+    "heading": { "value": 1.1, "type": "lineHeight" },
+    "headingLg": { "value": 1, "type": "lineHeight" },
+    "display": { "value": 1, "type": "lineHeight" }
+  },
+  "letterSpacing": {
+    "eyebrow": { "value": "0.071em", "type": "letterSpacing" },
+    "heading": { "value": "-1.5px", "type": "letterSpacing" },
+    "headingLg": { "value": "-3.36px", "type": "letterSpacing" },
+    "display": { "value": "-3.84px", "type": "letterSpacing" }
+  },
+  "spacing": {
+    "4": { "value": "4px", "type": "dimension" },
+    "6": { "value": "6px", "type": "dimension" },
+    "8": { "value": "8px", "type": "dimension" },
+    "12": { "value": "12px", "type": "dimension" },
+    "14": { "value": "14px", "type": "dimension" },
+    "16": { "value": "16px", "type": "dimension" },
+    "20": { "value": "20px", "type": "dimension" },
+    "24": { "value": "24px", "type": "dimension" },
+    "32": { "value": "32px", "type": "dimension" },
+    "40": { "value": "40px", "type": "dimension" },
+    "44": { "value": "44px", "type": "dimension" },
+    "208": { "value": "208px", "type": "dimension" }
+  },
+  "radius": {
+    "nav": { "value": "2px", "type": "borderRadius" },
+    "cards": { "value": "6px", "type": "borderRadius" },
+    "buttons": { "value": "6px", "type": "borderRadius" },
+    "pills": { "value": "9999px", "type": "borderRadius" }
+  },
+  "shadow": {
+    "subtle": { "value": "rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgb(250, 250, 250) 0px 0px 0px 2px", "type": "boxShadow" },
+    "subtle2": { "value": "rgb(235, 235, 235) 0px 0px 0px 1px", "type": "boxShadow" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1280px", "type": "dimension" },
+    "sectionGapMin": { "value": "96px", "type": "dimension" },
+    "sectionGapMax": { "value": "128px", "type": "dimension" },
+    "cardPadding": { "value": "16px", "type": "dimension" },
+    "elementGap": { "value": "12px", "type": "dimension" }
+  }
+}

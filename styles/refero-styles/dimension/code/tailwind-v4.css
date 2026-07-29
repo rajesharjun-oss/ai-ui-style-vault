@@ -1,0 +1,65 @@
+@theme {
+  /* Colors */
+  --color-ink-black: #000000;
+  --color-void-canvas: #0a0a0a;
+  --color-graphite: #161616;
+  --color-slate: #686868;
+  --color-smoke: #b2b2b2;
+  --color-ash: #c2c2c2;
+  --color-frosted-glass: #d4d4d4;
+  --color-hairline: #e5e5e5;
+  --color-bone: #ededed;
+  --color-snow-white: #ffffff;
+  --color-dusk-violet: #6b62f2;
+
+  /* Typography */
+  --font-dm-sans: "DM Sans", Inter, system-ui, sans-serif;
+  --font-geist: "Geist", Inter, system-ui, sans-serif;
+  --font-system-ui: system-ui, sans-serif;
+
+  --text-caption: 13px;
+  --leading-caption: 1.5;
+  --tracking-caption: 0.33px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --text-subheading: 18px;
+  --leading-subheading: 1.5;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.33;
+  --text-heading: 36px;
+  --leading-heading: 1.11;
+  --text-heading-lg: 48px;
+  --leading-heading-lg: 1;
+  --text-display: 72px;
+  --leading-display: 1;
+  --tracking-display: -2.52px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-22: 22px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-44: 44px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+
+  /* Radius */
+  --radius-icons: 4px;
+  --radius-ui: 10px;
+  --radius-cards: 24px;
+  --radius-large-cards: 40px;
+  --radius-panels: 42px;
+  --radius-buttons: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}

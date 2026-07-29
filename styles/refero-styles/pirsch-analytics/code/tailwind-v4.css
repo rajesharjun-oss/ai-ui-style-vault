@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@theme {
+  --font-pirsch: "DM Sans", "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-pirsch-sunshine: #ffda6e;
+  --color-pirsch-amber-ink: #e5aa30;
+  --color-pirsch-mint: #3db09c;
+  --color-pirsch-deep-mint: #063c36;
+  --color-pirsch-paper: #fffffb;
+  --color-pirsch-soft-paper: #f5f1e6;
+  --color-pirsch-ink: #111111;
+  --color-pirsch-charcoal: #1d1d1b;
+  --color-pirsch-slate: #6f6f6a;
+  --color-pirsch-ash: #c3c3bd;
+  --color-pirsch-clay: #d8d5cc;
+  --color-pirsch-crimson: #f94144;
+  --color-pirsch-sky: #268bf7;
+
+  --text-pirsch-caption: 11px;
+  --text-pirsch-caption--line-height: 1.2;
+  --text-pirsch-body: 16px;
+  --text-pirsch-body--line-height: 22px;
+  --text-pirsch-body-lg: 18px;
+  --text-pirsch-body-lg--line-height: 25px;
+  --text-pirsch-subheading: 20px;
+  --text-pirsch-subheading--line-height: 28px;
+  --text-pirsch-heading-sm: 26px;
+  --text-pirsch-heading-sm--line-height: 31.2px;
+  --text-pirsch-heading: 30px;
+  --text-pirsch-heading--line-height: 36px;
+  --text-pirsch-heading-lg: 44px;
+  --text-pirsch-heading-lg--line-height: 52.8px;
+  --text-pirsch-display: 58px;
+  --text-pirsch-display--line-height: 63.8px;
+
+  --spacing-pirsch-2: 2px;
+  --spacing-pirsch-4: 4px;
+  --spacing-pirsch-8: 8px;
+  --spacing-pirsch-12: 12px;
+  --spacing-pirsch-16: 16px;
+  --spacing-pirsch-24: 24px;
+  --spacing-pirsch-32: 32px;
+  --spacing-pirsch-48: 48px;
+  --spacing-pirsch-64: 64px;
+  --spacing-pirsch-96: 96px;
+
+  --radius-pirsch-button: 7px;
+  --radius-pirsch-card: 3px;
+  --radius-pirsch-input: 0px;
+  --radius-pirsch-tab: 0px;
+  --radius-pirsch-pill: 999px;
+}
+
+@layer components {
+  .pirsch-page {
+    @apply min-h-screen bg-pirsch-paper text-pirsch-ink font-pirsch;
+  }
+
+  .pirsch-container {
+    @apply mx-auto;
+    width: min(calc(100% - 48px), 1200px);
+  }
+
+  .pirsch-section {
+    @apply py-pirsch-96;
+  }
+
+  .pirsch-section-paper {
+    @apply bg-pirsch-soft-paper;
+  }
+
+  .pirsch-display {
+    @apply m-0 font-pirsch text-pirsch-display font-extrabold tracking-normal text-pirsch-ink;
+  }
+
+  .pirsch-heading {
+    @apply m-0 font-pirsch text-pirsch-heading-lg font-extrabold tracking-normal text-pirsch-ink;
+  }
+
+  .pirsch-body {
+    @apply font-pirsch text-pirsch-body font-normal text-pirsch-slate;
+  }
+
+  .pirsch-card {
+    @apply rounded-pirsch-card border-2 border-pirsch-ink bg-pirsch-paper p-pirsch-32 shadow-none;
+  }
+
+  .pirsch-button-primary {
+    @apply inline-flex min-h-12 items-center justify-center rounded-pirsch-button border-2 border-pirsch-ink bg-pirsch-sunshine px-pirsch-24 py-[14px] font-pirsch text-[15px] font-extrabold text-pirsch-ink no-underline transition-transform duration-200 ease-in-out;
+  }
+
+  .pirsch-button-secondary {
+    @apply inline-flex min-h-12 items-center justify-center rounded-pirsch-button border-2 border-pirsch-ink bg-transparent px-pirsch-24 py-[14px] font-pirsch text-[15px] font-extrabold text-pirsch-ink no-underline transition-transform duration-200 ease-in-out;
+  }
+
+  .pirsch-metric-tile {
+    @apply rounded-pirsch-card border border-pirsch-clay bg-pirsch-paper px-pirsch-24 py-pirsch-16 shadow-none;
+  }
+
+  .pirsch-metric-label {
+    @apply font-pirsch text-pirsch-caption font-extrabold uppercase text-pirsch-slate;
+    letter-spacing: 0.5px;
+  }
+
+  .pirsch-metric-value {
+    @apply m-0 font-pirsch text-pirsch-heading font-extrabold text-pirsch-ink;
+  }
+
+  .pirsch-chart-card {
+    @apply rounded-pirsch-card border-2 border-pirsch-ink bg-pirsch-paper p-pirsch-32 shadow-none;
+  }
+
+  .pirsch-table-row {
+    @apply grid min-h-12 items-center border-b border-pirsch-clay bg-pirsch-paper font-pirsch text-pirsch-body font-normal text-pirsch-ink hover:bg-pirsch-soft-paper;
+  }
+
+  .pirsch-badge {
+    @apply inline-flex min-h-[26px] items-center rounded-pirsch-pill bg-pirsch-deep-mint px-pirsch-12 py-pirsch-6 font-pirsch text-pirsch-caption font-extrabold uppercase text-pirsch-paper;
+    letter-spacing: 0.5px;
+  }
+
+  .pirsch-badge-sunshine {
+    @apply border-2 border-pirsch-ink bg-pirsch-sunshine text-pirsch-ink;
+  }
+
+  .pirsch-input {
+    @apply min-h-12 w-full rounded-pirsch-input border-2 border-pirsch-ink bg-pirsch-paper px-pirsch-16 py-pirsch-12 font-pirsch text-pirsch-body font-normal text-pirsch-ink placeholder:text-pirsch-slate;
+  }
+
+  .pirsch-nav-link {
+    @apply font-pirsch text-[15px] font-bold text-pirsch-ink no-underline;
+  }
+}

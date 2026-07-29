@@ -1,0 +1,146 @@
+{
+  "id": "00537a20-e99e-4ef2-b119-c6f532c44cc9",
+  "name": "GSAP",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/00537a20-e99e-4ef2-b119-c6f532c44cc9",
+  "referenceUrl": "https://gsap.com",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Animated chalkboard for a motion library: near-black canvas, warm cream typography, massive Mori display, outlined pill buttons, curly-bracket annotations, and fixed discipline color taxonomy.",
+  "bestFor": [
+    "animation libraries",
+    "creative developer tools",
+    "motion portfolios",
+    "interactive showcases",
+    "dark launch pages",
+    "technical brand systems"
+  ],
+  "tags": [
+    "dark",
+    "motion",
+    "developer-tool",
+    "cream-on-black",
+    "outlined-pills",
+    "huge-type",
+    "mori",
+    "color-taxonomy",
+    "organic-gradients",
+    "curly-bracket-labels",
+    "no-filled-buttons"
+  ],
+  "colors": {
+    "justBlack": { "value": "#0e100f", "token": "--color-just-black", "role": "Page canvas, footer surface, and deep section backgrounds." },
+    "offBlack": { "value": "#191919", "token": "--color-off-black", "role": "Alternative dark surface for nested panels, code blocks, and footer layers." },
+    "surface25": { "value": "#42433d", "token": "--color-surface-25", "role": "Hairline borders, dividers, and low-contrast outlines against the black canvas." },
+    "surface50": { "value": "#7c7c6f", "token": "--color-surface-50", "role": "Muted secondary text, idle icon fills, subhead annotations, and disabled labels." },
+    "surfaceCream": { "value": "#fffce1", "token": "--color-surface-cream", "role": "Primary text, outlined button borders, nav links, card text, headings, and ghost controls." },
+    "gsapGreen": { "value": "#0ae448", "token": "--color-gsap-green", "role": "GSAP/core labels, brand marks, primary gradient stroke start, and short link accents." },
+    "lightGreen": { "value": "#abff84", "token": "--color-light-green", "role": "Primary gradient stroke end, GSAP short accents, and secondary green highlights." },
+    "coreGreen": { "value": "#dfffd1", "token": "--color-core-green", "role": "Subtle brand-tinted background washes for core feature cards." },
+    "orangey": { "value": "#ff8709", "token": "--color-orangey", "role": "SVG category label, orange tool icon fills, and orange gradient endpoints." },
+    "pink": { "value": "#fec5fb", "token": "--color-pink", "role": "Scroll category label, decorative splashes, and pink gradient endpoints." },
+    "lilac": { "value": "#9d95ff", "token": "--color-lilac", "role": "Text category label, thin illustration strokes, and violet gradient endpoints." },
+    "blue": { "value": "#00bae2", "token": "--color-blue", "role": "UI category label, blue gradient endpoints, and interface-tool accents." },
+    "lipstickPink": { "value": "#f100cb", "token": "--color-lipstick-pink", "role": "Deep decorative gradient stop only; not for text or UI." }
+  },
+  "gradients": {
+    "shockinglyGreen": { "value": "linear-gradient(114.41deg, #0ae448 20.74%, #abff84 65.5%)", "token": "--gradient-shockingly-green", "role": "Primary CTA stroke and GSAP green taxonomy accents." },
+    "orangeCrush": { "value": "linear-gradient(135deg, #ff8709 0%, #ffd166 100%)", "token": "--gradient-orange-crush", "role": "SVG organic illustration surfaces." },
+    "summerFair": { "value": "linear-gradient(135deg, #fec5fb 0%, #f100cb 100%)", "token": "--gradient-summer-fair", "role": "Scroll organic illustration surfaces." },
+    "purpleHaze": { "value": "linear-gradient(135deg, #9d95ff 0%, #fec5fb 100%)", "token": "--gradient-purple-haze", "role": "Text organic illustration surfaces." },
+    "skyfall": { "value": "linear-gradient(135deg, #00bae2 0%, #9d95ff 100%)", "token": "--gradient-skyfall", "role": "UI organic illustration surfaces." }
+  },
+  "typography": {
+    "families": {
+      "primary": "Mori"
+    },
+    "fallbacks": {
+      "primary": "Inter Tight, Sohne, DM Sans, system-ui, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "semibold": 600
+    },
+    "rules": [
+      "Use Mori-style type as a single-family system.",
+      "Use weight 400 for body, nav, labels, cards, and most UI.",
+      "Use weight 600 for giant display, tool headings, and pill buttons.",
+      "Set hero display at 224px, line-height 0.9, -0.02em tracking.",
+      "Do not introduce serif or secondary display fonts."
+    ],
+    "scale": {
+      "caption": { "size": "14px", "lineHeight": 1.4, "letterSpacing": "-0.14px", "token": "--text-caption" },
+      "bodySm": { "size": "16px", "lineHeight": 1.15, "letterSpacing": "-0.16px", "token": "--text-body-sm" },
+      "body": { "size": "19px", "lineHeight": 1.15, "letterSpacing": "-0.19px", "token": "--text-body" },
+      "bodyLg": { "size": "23px", "lineHeight": 1.38, "letterSpacing": "-0.23px", "token": "--text-body-lg" },
+      "subheading": { "size": "34px", "lineHeight": 1.2, "letterSpacing": "-0.34px", "token": "--text-subheading" },
+      "headingSm": { "size": "44px", "lineHeight": 1.2, "letterSpacing": "-0.44px", "token": "--text-heading-sm" },
+      "heading": { "size": "66px", "lineHeight": 1.2, "letterSpacing": "-0.66px", "token": "--text-heading" },
+      "headingLg": { "size": "101px", "lineHeight": 1, "letterSpacing": "-1.11px", "token": "--text-heading-lg" },
+      "display": { "size": "224px", "lineHeight": 0.9, "letterSpacing": "-4.48px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1280px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scale": {
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "76": "76px",
+      "96": "96px",
+      "108": "108px"
+    }
+  },
+  "radii": {
+    "cards": "8px",
+    "smallTags": "8px",
+    "buttons": "100px",
+    "pills": "9999px"
+  },
+  "shadows": {
+    "none": "Avoid drop shadows. Organic shapes are lit internally with gradients."
+  },
+  "components": [
+    { "name": "Outlined Cream Pill Button", "recipe": "Transparent fill, Surface Cream text, 1px Surface Cream border, 100px radius, 15px by 24px padding, Mori 18px/600." },
+    { "name": "Gradient-Stroked CTA Pill", "recipe": "Transparent fill, Surface Cream text, 1.5px to 2px green-to-light-green gradient stroke, 100px radius." },
+    { "name": "Ghost Nav Link", "recipe": "No background, no border, Surface Cream or Surface 50 text, Mori 16px/400, tight row gaps." },
+    { "name": "Borderless Icon Button", "recipe": "Round icon-only control, no visible background, cream icon, compact hit area." },
+    { "name": "Category Color Label", "recipe": "Mori 19px to 24px/400, single-word discipline name in fixed mapped color." },
+    { "name": "Curly-Bracket Annotation", "recipe": "Small Mori 16px to 19px/400 Surface Cream text wrapped in literal curly braces." },
+    { "name": "Hero Display Headline", "recipe": "Mori 224px/600, line-height 0.9, -0.02em tracking, Surface Cream, bleeding toward viewport edges." },
+    { "name": "Tool Feature Block", "recipe": "Two-column row with organic gradient illustration, category label, cream heading, body copy, outlined pill, and Surface 25 divider." },
+    { "name": "Organic Gradient Illustration", "recipe": "Soft 3D-like pill/blob/dome using discipline accent gradient, no frame, no drop shadow, loose overlap." },
+    { "name": "Showcase Card", "recipe": "Off Black or near-black surface, 8px radius, 24px padding, cream heading, contained preview, no visible border." },
+    { "name": "Announcement Banner", "recipe": "Full-bleed dark band with centered 14px Mori text in Surface Cream and optional green inline link." },
+    { "name": "Footer", "recipe": "Off Black footer with Surface 25 top divider, multi-column cream links, muted secondary text, and 60px to 80px vertical padding." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Surface Cream instead of pure white.",
+      "Use Just Black instead of pure black.",
+      "Use the fixed discipline color mapping consistently.",
+      "Render buttons as outlined 100px-radius pills.",
+      "Reserve the gradient-stroked pill for the primary CTA.",
+      "Push the hero headline to 224px/600 with 0.9 line-height.",
+      "Introduce sections with curly-bracket annotations.",
+      "Use Surface 25 dividers between tool feature rows."
+    ],
+    "dont": [
+      "Do not add filled solid CTA buttons.",
+      "Do not use pure white text or pure black background.",
+      "Do not reuse a discipline color for another discipline.",
+      "Do not use color as random decoration.",
+      "Do not center the hero inside a narrow max-width container.",
+      "Do not add drop shadows to organic shapes.",
+      "Do not introduce serif fonts or a second text family."
+    ]
+  }
+}

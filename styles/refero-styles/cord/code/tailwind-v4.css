@@ -1,0 +1,69 @@
+@theme {
+  --color-cord-midnight-harbor: #0b3658;
+  --color-cord-signal-blue: #4e9ad9;
+  --color-cord-slate-channel: #486984;
+  --color-cord-pale-steel: #688dac;
+  --color-cord-sea-fog: #dde7ee;
+  --color-cord-ice-tint: #e6f1fa;
+  --color-cord-light-mist: #c8d8e4;
+  --color-cord-canvas-white: #ffffff;
+  --color-cord-active-teal: #42b3b1;
+
+  --font-cord-figtree: Figtree, Inter, "DM Sans", "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --text-cord-caption: 10px;
+  --text-cord-caption--line-height: 1.5;
+  --text-cord-body-sm: 14px;
+  --text-cord-body-sm--line-height: 1.4;
+  --text-cord-body: 16px;
+  --text-cord-body--line-height: 1.5;
+  --text-cord-subheading: 18px;
+  --text-cord-subheading--line-height: 1.4;
+  --text-cord-heading-sm: 20px;
+  --text-cord-heading-sm--line-height: 1.3;
+  --text-cord-heading: 24px;
+  --text-cord-heading--line-height: 1.3;
+  --text-cord-heading-lg: 32px;
+  --text-cord-heading-lg--line-height: 1.25;
+  --text-cord-display: 48px;
+  --text-cord-display--line-height: 1.2;
+  --text-cord-hero: 100px;
+  --text-cord-hero--line-height: 1;
+
+  --spacing-cord-page: 1200px;
+  --spacing-cord-section-gap: 64px;
+  --spacing-cord-card-padding: 20px;
+  --spacing-cord-element-gap: 12px;
+
+  --radius-cord-badge: 5px;
+  --radius-cord-filter: 8px;
+  --radius-cord-card: 20px;
+  --radius-cord-image: 20px;
+  --radius-cord-control: 24px;
+  --radius-cord-pill: 35px;
+
+  --shadow-cord-card: 0px 12px 48px 0px rgba(11, 54, 88, 0.08);
+  --shadow-cord-card-subtle: 0px 4px 32px 0px rgba(11, 54, 88, 0.08);
+  --shadow-cord-button-hover: 0px 4px 12px 0px rgba(11, 54, 88, 0.04);
+}
+
+@utility cord-hero-tracking {
+  letter-spacing: -0.5px;
+}
+
+@utility cord-display-tracking {
+  letter-spacing: -0.24px;
+}
+
+@utility cord-card {
+  border-radius: var(--radius-cord-card);
+  background: var(--color-cord-canvas-white);
+  box-shadow: var(--shadow-cord-card);
+}
+
+@utility cord-primary-button {
+  border-radius: var(--radius-cord-control);
+  background: var(--color-cord-signal-blue);
+  color: var(--color-cord-canvas-white);
+}
+

@@ -1,0 +1,90 @@
+{
+  "name": "Dala",
+  "title": "Your workplace has the answer. Just ask Dala for it.",
+  "source": "Refero Styles",
+  "url": "https://styles.refero.design/style/e5f5f8cf-e68d-4ed1-bbf5-6b67569af648",
+  "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+  "colors": {
+    "void": "#000000",
+    "boneWhite": "#ffffff",
+    "ashGray": "#9a9a9a",
+    "silverMist": "#bdbdbd",
+    "electricIris": "#8052ff",
+    "saffronSpark": "#ffb829",
+    "deepVerdant": "#15846e"
+  },
+  "surfaces": {
+    "voidCanvas": "#000000",
+    "deepVerdantTint": "#15846e",
+    "electricIrisAction": "#8052ff"
+  },
+  "typography": {
+    "fonts": {
+      "ppNeueMontreal": {
+        "token": "--font-ppneuemontreal",
+        "substitutes": ["Inter"],
+        "weights": [200, 400, 600, 700],
+        "openTypeFeatures": ["ss01"],
+        "role": "Single family for display, body, nav, labels, and buttons."
+      }
+    },
+    "scale": {
+      "caption": { "size": "12px", "lineHeight": 1.5, "letterSpacing": "normal" },
+      "navLabel": { "size": "14px", "lineHeight": 1.2, "letterSpacing": "0.35px" },
+      "body": { "size": "18px", "lineHeight": 1.5, "letterSpacing": "normal", "weight": 200 },
+      "heading2xs": { "size": "24px", "lineHeight": 1.25, "letterSpacing": "-0.48px" },
+      "headingXs": { "size": "27px", "lineHeight": 1, "letterSpacing": "normal" },
+      "subheading": { "size": "36px", "lineHeight": 1.2, "letterSpacing": "normal" },
+      "headingSm": { "size": "42px", "lineHeight": 1.2, "letterSpacing": "-1.68px" },
+      "heading": { "size": "48px", "lineHeight": 1.1, "letterSpacing": "-1.68px" },
+      "headingLg": { "size": "78px", "lineHeight": 1.1, "letterSpacing": "-3.12px" },
+      "display": { "size": "113px", "lineHeight": 1.1, "letterSpacing": "-4.52px" }
+    }
+  },
+  "spacing": {
+    "unit": "6px",
+    "density": "comfortable",
+    "scale": ["6px", "12px", "18px", "24px", "30px", "36px", "60px", "96px", "120px"],
+    "layout": {
+      "pageMaxWidth": "1280px",
+      "sectionGap": "60px-120px",
+      "cardPadding": "24px-38px",
+      "elementGap": "6px-18px"
+    }
+  },
+  "radii": {
+    "nav": "24px",
+    "cards": "24px",
+    "buttons": "24px",
+    "tags": "9999px"
+  },
+  "visualization": {
+    "primary": "particle constellation",
+    "particleShape": "outlined triangles",
+    "particleStroke": "1px-2px",
+    "colors": ["#8052ff", "#ffb829", "#15846e", "magenta", "blue", "violet"],
+    "composition": "organic neural or brain-like cloud on black canvas"
+  },
+  "rules": {
+    "do": [
+      "Use #8052ff only for filled action buttons and active brand marks.",
+      "Use #ffb829 for emphasis and special links.",
+      "Keep major sections on #000000.",
+      "Use weight 400 for display headings.",
+      "Use weight 200 for 18px body copy.",
+      "Use tight display tracking on 42px and larger text.",
+      "Use the particle constellation as the hero visual.",
+      "Keep the layout spacious and low-density."
+    ],
+    "dont": [
+      "Do not use violet as a large section background.",
+      "Do not use weight 400 body copy when the ultra-light style matters.",
+      "Do not introduce bordered, shadowed, or filled card containers.",
+      "Do not use default browser link blue.",
+      "Do not add gradients to ordinary UI components.",
+      "Do not place multiple filled buttons in close proximity.",
+      "Do not add product screenshots or dashboards to the hero."
+    ]
+  }
+}
+

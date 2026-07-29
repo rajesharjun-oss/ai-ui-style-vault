@@ -1,0 +1,87 @@
+{
+  "id": "9f9a4a4f-1a27-47ca-a65b-68b9850a84e4",
+  "name": "Antimetal",
+  "slug": "antimetal",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/9f9a4a4f-1a27-47ca-a65b-68b9850a84e4",
+  "referenceSite": "https://antimetal.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "editorial observatory",
+    "cream paper",
+    "quiet technical authority",
+    "regular serif headlines",
+    "dashed research-journal dividers"
+  ],
+  "summary": "A quiet editorial SaaS style with warm parchment canvas, cream panels, Test Signifier headings at weight 400, Geist UI text, tracked Geist Mono section markers, dashed 1px separators, pill CTAs, an 82px capsule nav, and a single tiny chartreuse accent.",
+  "useWhen": [
+    "Infrastructure SaaS sites",
+    "Technical product landing pages",
+    "Research-style content pages",
+    "Pricing or cost optimization tools",
+    "Products that need calm authority"
+  ],
+  "avoidWhen": [
+    "Playful consumer apps",
+    "Bright creator tools",
+    "Dense data dashboards",
+    "Visual-heavy ecommerce pages",
+    "Neon or gradient-driven designs"
+  ],
+  "colors": {
+    "bistre": "#1a1614",
+    "ash": "#2a2724",
+    "slate": "#53504c",
+    "graphite": "#66635f",
+    "flint": "#a8a7a1",
+    "parchment": "#d7d7d0",
+    "quill": "#e3e3de",
+    "cream": "#f7f6f3",
+    "bone": "#fdfcfa",
+    "chartreuseWhisper": "#e2e67d"
+  },
+  "typography": {
+    "display": {
+      "family": "Test Signifier",
+      "fallback": "Noto Serif",
+      "weights": [400],
+      "sizes": ["24px", "36px", "48px", "50px", "54px"],
+      "lineHeight": "1.0-1.2",
+      "letterSpacing": "0 at 24px, -0.021em at 48px, -0.037em at 54px"
+    },
+    "body": {
+      "family": "Geist",
+      "fallback": "Inter",
+      "weights": [400, 500],
+      "sizes": ["14px", "16px", "18px", "20px"],
+      "lineHeight": "1.0-1.5",
+      "letterSpacing": "-0.01em"
+    },
+    "mono": {
+      "family": "Geist Mono",
+      "fallback": "JetBrains Mono",
+      "weights": [400],
+      "sizes": ["10px", "11px"],
+      "lineHeight": "1.2-1.5",
+      "letterSpacing": "0.06em-0.1em"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "120px",
+    "cardPadding": "40px",
+    "elementGap": "16px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "40px", "48px", "64px", "80px", "100px", "120px", "240px"]
+  },
+  "shape": {
+    "cards": "4px",
+    "buttons": "9999px",
+    "navCapsule": "82px",
+    "pillsLarge": "999px"
+  },
+  "imagery": {
+    "notes": "Use restrained video thumbnails, editorial photography, pull quotes, section markers, and typography-led composition. Avoid decorative illustration-heavy treatment."
+  }
+}

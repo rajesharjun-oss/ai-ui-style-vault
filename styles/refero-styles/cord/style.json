@@ -1,0 +1,104 @@
+{
+  "id": "485ae5fb-8f25-4aa3-a4e4-1deb1590d7d6",
+  "name": "cord.com",
+  "slug": "cord",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/485ae5fb-8f25-4aa3-a4e4-1deb1590d7d6",
+    "referenceSite": "https://cord.com",
+    "capturedAt": "2026-07-29",
+    "publishedAt": "2026-05-07T13:51:35.341Z",
+    "articleModifiedAt": "2026-06-03T17:34:11.490Z",
+    "media": {
+      "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/f3ccbdee-c67a-4e4e-87bc-b6f4bace901a.jpg",
+      "thumbnail": "https://images.refero.design/styles/refero.design/image/d1bfb396-537f-4b99-9ca0-ce054550d9ba.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/9a3e957e-d8f4-4dbf-8238-8a9f6761742c.mp4",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/f4f5705e-aa32-4f67-8b7f-51604fe773f7.jpg",
+      "detailVideo": "https://images.refero.design/styles/refero.design/video/cc1157a9-7057-42a2-83cf-f56b652cbf08.mp4",
+      "detailVideoPoster": "https://images.refero.design/styles/refero.design/image/164d3183-d257-48bf-9b87-84e5d354e3ba.jpg"
+    }
+  },
+  "classification": {
+    "theme": "light",
+    "industry": ["SaaS", "job board", "recruiting", "talent marketplace"],
+    "mood": ["airy", "human", "maritime", "rounded", "calm"],
+    "bestFor": ["job boards", "recruiting marketplaces", "startup hiring pages", "company grids", "talent search products"]
+  },
+  "summary": "A light recruiting-marketplace style with white canvas, navy-first text, one signal-blue action color, Figtree typography, rounded company cards, authentic photography, and blue-tinted shadows.",
+  "colors": {
+    "midnightHarbor": { "value": "#0b3658", "role": "Primary text, headings, logo grounding, dark CTA banner" },
+    "signalBlue": { "value": "#4e9ad9", "role": "Primary action, logo wordmark, active nav, selected states" },
+    "slateChannel": { "value": "#486984", "role": "Secondary text, muted icons, outlined links" },
+    "paleSteel": { "value": "#688dac", "role": "Tertiary text and meta labels" },
+    "seaFog": { "value": "#dde7ee", "role": "Borders, dividers, hairlines, underlines" },
+    "iceTint": { "value": "#e6f1fa", "role": "Hover wash, active toggle fill, input tint, status badge fill" },
+    "lightMist": { "value": "#c8d8e4", "role": "Disabled and secondary fill" },
+    "canvasWhite": { "value": "#ffffff", "role": "Page background, cards, button text" },
+    "activeTeal": { "value": "#42b3b1", "role": "Presence and response status only" }
+  },
+  "typography": {
+    "displayFamily": "Figtree",
+    "bodyFamily": "Figtree",
+    "substitute": "Inter",
+    "weights": [400, 600, 700, 800],
+    "scale": {
+      "caption": { "fontSize": "10px", "lineHeight": "1.5", "letterSpacing": "0.1px", "fontWeight": 400 },
+      "bodySmall": { "fontSize": "14px", "lineHeight": "1.4", "letterSpacing": "-0.07px", "fontWeight": 400 },
+      "body": { "fontSize": "16px", "lineHeight": "1.5", "letterSpacing": "-0.08px", "fontWeight": 400 },
+      "subheading": { "fontSize": "18px", "lineHeight": "1.4", "letterSpacing": "-0.09px", "fontWeight": 400 },
+      "headingSmall": { "fontSize": "20px", "lineHeight": "1.3", "letterSpacing": "-0.1px", "fontWeight": 700 },
+      "heading": { "fontSize": "24px", "lineHeight": "1.3", "letterSpacing": "-0.12px", "fontWeight": 700 },
+      "headingLarge": { "fontSize": "32px", "lineHeight": "1.25", "letterSpacing": "-0.16px", "fontWeight": 800 },
+      "display": { "fontSize": "48px", "lineHeight": "1.2", "letterSpacing": "-0.24px", "fontWeight": 800 },
+      "hero": { "fontSize": "100px", "lineHeight": "1", "letterSpacing": "-0.5px", "fontWeight": 800 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "20px",
+    "elementGap": "12px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "40px", "48px", "56px", "60px", "64px", "80px", "180px"]
+  },
+  "shape": {
+    "cardRadius": "20px",
+    "pillRadius": "35px",
+    "badgeRadius": "5px",
+    "imageRadius": "20px",
+    "inputRadius": "24px",
+    "buttonRadius": "24px",
+    "filterChipRadius": "8px"
+  },
+  "elevation": {
+    "card": "0px 12px 48px 0px rgba(11, 54, 88, 0.08)",
+    "cardSubtle": "0px 4px 32px 0px rgba(11, 54, 88, 0.08)",
+    "buttonHover": "0px 4px 12px 0px rgba(11, 54, 88, 0.04)"
+  },
+  "components": {
+    "primaryCta": "Signal Blue filled pill button with white text and Figtree 16px weight 600.",
+    "heroSearchInput": "Wide white pill input with sea-fog border, left icon, and keyboard hint chip.",
+    "toggleSwitch": "Two-segment pill selector with Ice Tint active side and navy active text.",
+    "companyCard": "Rounded white card with full-bleed company photo, logo, name, meta row, status badge, and response text.",
+    "darkCtaBanner": "Full-bleed Midnight Harbor banner with white headline, sea-fog copy, blue CTA, and avatar stack.",
+    "filterChip": "White chip with sea-fog border, 8px radius, navy text, and optional muted icon.",
+    "footerColumn": "Four-column footer link group with navy headings and slate-channel links."
+  },
+  "dos": [
+    "Use Midnight Harbor for all primary text and headings.",
+    "Reserve Signal Blue for logo, primary action, and active states.",
+    "Set display headlines at weight 800.",
+    "Use 20-24px radii on cards, buttons, and inputs.",
+    "Tint shadows with rgba(11, 54, 88, ...).",
+    "Use Sea Fog for all hairlines and borders."
+  ],
+  "donts": [
+    "Do not introduce a second accent color.",
+    "Do not use pure black for text.",
+    "Do not use sharp corners on cards or buttons.",
+    "Do not add generic gray shadows.",
+    "Do not use light weights for display headlines.",
+    "Do not use Signal Blue for body text or large headings.",
+    "Do not repeat the dark CTA banner throughout the page."
+  ]
+}
+

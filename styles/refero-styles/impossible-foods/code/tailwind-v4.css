@@ -1,0 +1,57 @@
+@theme {
+  --color-velvet-wine: #260212;
+  --color-burgundy-stage: #4f0423;
+  --color-impossible-red: #e10600;
+  --color-blush-highlight: #ffc7c6;
+  --color-butcher-black: #000000;
+  --color-bone-white: #ffffff;
+
+  --font-sans-meat: "sans-meat", "Druk Wide", Impact, Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-body-fallback: Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --text-caption: 10px;
+  --text-caption--line-height: 1.4;
+  --text-caption--letter-spacing: 0.02px;
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 1.4;
+  --text-body-sm--letter-spacing: 0.02px;
+  --text-body: 18px;
+  --text-body--line-height: 1.4;
+  --text-body--letter-spacing: 0.02px;
+  --text-subheading: 24px;
+  --text-subheading--line-height: 1.15;
+  --text-subheading--letter-spacing: 0.02px;
+  --text-heading-sm: 32px;
+  --text-heading-sm--line-height: 1.1;
+  --text-heading-sm--letter-spacing: 0.02px;
+  --text-heading: 48px;
+  --text-heading--line-height: 0.9;
+  --text-heading--letter-spacing: 0.02px;
+  --text-heading-lg: 103px;
+  --text-heading-lg--line-height: 0.75;
+  --text-heading-lg--letter-spacing: 0.03px;
+  --text-display: 160px;
+  --text-display--line-height: 0.73;
+  --text-display--letter-spacing: 0.06px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-68: 68px;
+  --spacing-80: 80px;
+  --spacing-100: 100px;
+  --spacing-148: 148px;
+
+  --radius-nav: 15px;
+  --radius-card: 12px;
+  --radius-button: 15px;
+  --radius-toggle: 15px;
+  --radius-feature-card: 38px;
+}

@@ -1,0 +1,169 @@
+:root {
+  /* Colors */
+  --color-deep-plum: #23002b;
+  --color-lavender-shock: #e894ff;
+  --color-espresso-brown: #291900;
+  --color-ink-teal: #002629;
+  --color-slate: #333333;
+  --color-charcoal: #121212;
+  --color-black: #000000;
+  --color-paper-white: #ffffff;
+  --color-mint-signal: #93ffe4;
+  --color-amber-pulse: #ffac47;
+
+  /* Typography */
+  --font-druk-condensed-super-desktop: "Druk Condensed Super Desktop", Oswald, "Bebas Neue", Anton, ui-sans-serif, system-ui, sans-serif;
+  --font-neue-montreal: "Neue Montreal", Inter, Manrope, "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-arial: Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --leading-caption: 1.43;
+  --tracking-caption: -0.22px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.43;
+  --tracking-body-sm: -0.22px;
+  --text-body: 15px;
+  --leading-body: 1.4;
+  --text-ui: 16px;
+  --leading-ui: 1.2;
+  --text-subheading: 24px;
+  --leading-subheading: 1;
+  --tracking-subheading: 0.05px;
+  --text-heading-sm: 32px;
+  --leading-heading-sm: 0.85;
+  --tracking-heading-sm: 0.05px;
+  --text-bridge: 58px;
+  --leading-bridge: 1;
+  --tracking-bridge: -0.022em;
+  --text-display: 187px;
+  --leading-display: 0.85;
+  --tracking-display: 0.05px;
+  --text-display-xl: 317px;
+  --leading-display-xl: 0.78;
+  --tracking-display-xl: 0.05px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-unit: 8px;
+  --spacing-3: 3px;
+  --spacing-4: 4px;
+  --spacing-5: 5px;
+  --spacing-8: 8px;
+  --spacing-9: 9px;
+  --spacing-10: 10px;
+  --spacing-11: 11px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-160: 160px;
+  --spacing-192: 192px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 64px;
+  --card-padding: 20px;
+  --element-gap: 8px;
+  --nav-height: 64px;
+  --sport-toggle-width: 80px;
+  --sport-toggle-height: 48px;
+
+  /* Radius */
+  --radius-tags: 6px;
+  --radius-cards: 14px;
+  --radius-special: 24px;
+  --radius-pills: 9999px;
+  --radius-buttons: 9999px;
+}
+
+.champions4good-surface {
+  background: var(--color-deep-plum);
+  color: var(--color-paper-white);
+  font-family: var(--font-neue-montreal);
+}
+
+.champions4good-hero-display {
+  color: var(--color-lavender-shock);
+  font: 500 var(--text-display-xl) / var(--leading-display-xl) var(--font-druk-condensed-super-desktop);
+  letter-spacing: var(--tracking-display-xl);
+  text-transform: uppercase;
+}
+
+.champions4good-bridge-word {
+  color: var(--color-paper-white);
+  font: 600 var(--text-bridge) / var(--leading-bridge) var(--font-neue-montreal);
+  letter-spacing: var(--tracking-bridge);
+}
+
+.champions4good-nav {
+  min-height: var(--nav-height);
+  background: transparent;
+  color: var(--color-paper-white);
+  font: 500 var(--text-body-sm) / var(--leading-body-sm) var(--font-neue-montreal);
+}
+
+.champions4good-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-buttons);
+  background: var(--color-lavender-shock);
+  color: var(--color-deep-plum);
+  padding: var(--spacing-12) var(--spacing-20);
+  font: 500 var(--text-body-sm) / 1 var(--font-neue-montreal);
+}
+
+.champions4good-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--sport-toggle-width);
+  height: var(--sport-toggle-height);
+  border: 1px solid var(--color-lavender-shock);
+  border-radius: var(--radius-pills);
+  background: transparent;
+  color: var(--color-lavender-shock);
+}
+
+.champions4good-toggle.is-active,
+.champions4good-toggle[aria-pressed="true"] {
+  background: var(--color-lavender-shock);
+  color: var(--color-deep-plum);
+}
+
+.champions4good-card-dark {
+  border-radius: var(--radius-cards);
+  background: var(--color-espresso-brown);
+  color: var(--color-paper-white);
+  padding: var(--card-padding);
+  box-shadow: none;
+}
+
+.champions4good-light-section {
+  background: var(--color-paper-white);
+  color: var(--color-slate);
+}
+
+.champions4good-light-display {
+  color: var(--color-black);
+  font: 500 var(--text-display) / var(--leading-display) var(--font-druk-condensed-super-desktop);
+  letter-spacing: var(--tracking-display);
+  text-transform: uppercase;
+}
+
+.champions4good-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-tags);
+  background: var(--color-mint-signal);
+  color: var(--color-deep-plum);
+  padding: 4px 10px;
+  font: 500 var(--text-caption) / var(--leading-caption) var(--font-neue-montreal);
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Home page | Impossible Foods",
+  "slug": "impossible-foods",
+  "theme": "dark",
+  "source": "https://styles.refero.design/style/04961c7d-8ca6-4e87-ba88-6ad7ffa3b245",
+  "referenceSite": "https://impossiblefoods.com",
+  "color": {
+    "velvetWine": {
+      "value": "#260212",
+      "type": "color",
+      "role": "Page canvas and deepest section background"
+    },
+    "burgundyStage": {
+      "value": "#4f0423",
+      "type": "color",
+      "role": "Section surfaces and card surfaces"
+    },
+    "impossibleRed": {
+      "value": "#e10600",
+      "type": "color",
+      "role": "Primary action, active toggles, display type, and icon emphasis"
+    },
+    "blushHighlight": {
+      "value": "#ffc7c6",
+      "type": "color",
+      "role": "Soft secondary text, inactive toggles, and tonal relief"
+    },
+    "butcherBlack": {
+      "value": "#000000",
+      "type": "color",
+      "role": "Navigation background, hairline borders, and card outlines"
+    },
+    "boneWhite": {
+      "value": "#ffffff",
+      "type": "color",
+      "role": "Navigation text, button text, and copy on dark surfaces"
+    }
+  },
+  "font": {
+    "sansMeat": {
+      "value": "sans-meat, Druk Wide, Impact, Inter, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Display, nav, labels, CTAs, and product names"
+    },
+    "bodyFallback": {
+      "value": "Inter, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Body and UI fallback"
+    }
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+  },
+  "size": {
+    "caption": {
+      "value": "10px",
+      "lineHeight": "1.4",
+      "letterSpacing": "0.02px"
+    },
+    "bodySm": {
+      "value": "14px",
+      "lineHeight": "1.4",
+      "letterSpacing": "0.02px"
+    },
+    "body": {
+      "value": "18px",
+      "lineHeight": "1.4",
+      "letterSpacing": "0.02px"
+    },
+    "subheading": {
+      "value": "24px",
+      "lineHeight": "1.15",
+      "letterSpacing": "0.02px"
+    },
+    "headingSm": {
+      "value": "32px",
+      "lineHeight": "1.1",
+      "letterSpacing": "0.02px"
+    },
+    "heading": {
+      "value": "48px",
+      "lineHeight": "0.9",
+      "letterSpacing": "0.02px"
+    },
+    "headingLg": {
+      "value": "103px",
+      "lineHeight": "0.75",
+      "letterSpacing": "0.03px"
+    },
+    "display": {
+      "value": "160px",
+      "lineHeight": "0.73",
+      "letterSpacing": "0.06px"
+    }
+  },
+  "spacing": {
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "56": "56px",
+    "64": "64px",
+    "68": "68px",
+    "80": "80px",
+    "100": "100px",
+    "148": "148px",
+    "maxWidth": "1280px",
+    "sectionGap": "40px to 64px",
+    "cardPadding": "16px to 24px",
+    "elementGap": "6px to 16px"
+  },
+  "radius": {
+    "nav": "15px",
+    "cards": "12px",
+    "buttons": "15px",
+    "toggles": "15px",
+    "featureCards": "38px"
+  },
+  "elevation": {
+    "shadows": "none",
+    "glow": "none",
+    "gradient": "none"
+  }
+}

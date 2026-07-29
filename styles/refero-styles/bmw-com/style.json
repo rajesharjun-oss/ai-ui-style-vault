@@ -1,0 +1,85 @@
+{
+  "id": "b8899cbd-e2ca-4069-83cf-d8f8b0d71100",
+  "name": "BMW.com",
+  "slug": "bmw-com",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/b8899cbd-e2ca-4069-83cf-d8f8b0d71100",
+  "referenceSite": "https://bmw.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "premium automotive gallery",
+    "monochrome product frame",
+    "sculpted metal photography",
+    "typographic restraint",
+    "sharp industrial precision"
+  ],
+  "summary": "A white and near-black product showcase system where UI chrome recedes and full-bleed photography carries the visual drama.",
+  "useWhen": [
+    "Luxury product pages",
+    "Automotive or hardware launches",
+    "Photography-led editorial pages",
+    "Minimal brand showcases",
+    "Interfaces that should feel precise and premium"
+  ],
+  "avoidWhen": [
+    "Dense dashboards",
+    "Colorful SaaS products",
+    "Apps requiring many semantic status colors",
+    "Playful consumer experiences",
+    "Interfaces that need many visible controls"
+  ],
+  "colors": {
+    "carbon": "#262626",
+    "pureWhite": "#ffffff",
+    "fog": "#f1f1f1",
+    "concrete": "#bbbbbb"
+  },
+  "typography": {
+    "display": {
+      "family": "BMWTypeNextLatin Light",
+      "fallback": "Inter Light",
+      "size": "60px",
+      "weight": 300,
+      "lineHeight": 1.3,
+      "letterSpacing": "normal"
+    },
+    "body": {
+      "family": "BMWTypeNextLatin",
+      "fallback": "Inter",
+      "size": "16px-18px",
+      "weights": [400, 700, 900],
+      "lineHeight": "1.3-1.63",
+      "letterSpacing": "normal"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "56px",
+    "cardPadding": "24px",
+    "elementGap": "10px-20px"
+  },
+  "shape": {
+    "radius": "0px",
+    "shadow": "none",
+    "borders": "minimal to none"
+  },
+  "components": [
+    "flat top navigation",
+    "full-bleed hero image",
+    "centered light display heading",
+    "text-only inline action",
+    "dark footer band",
+    "plain language switcher",
+    "footer link columns"
+  ],
+  "implementationRules": [
+    "Let product photography be the only expressive color source.",
+    "Use one large 300-weight display heading per page or section.",
+    "Keep all components borderless, shadowless, and square.",
+    "Use text-only navigation and footer links.",
+    "Use the dark footer as the single strong contrast surface.",
+    "Do not overlay UI controls on hero imagery."
+  ]
+}

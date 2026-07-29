@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme {
+  --font-active-chrome: "nbarchitekt", "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-active-serif: Times, "Times New Roman", Georgia, serif;
+  --font-active-legal: Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+
+  --color-active-dusk-violet: #343755;
+  --color-active-void-black: #000000;
+  --color-active-ghost-white: #ffffff;
+  --color-active-ash-border: #4d4d4d;
+  --color-active-smoke: #808080;
+  --color-active-fog: #999999;
+  --color-active-pale-mist: #c6c6c6;
+
+  --text-active-caption: 10px;
+  --text-active-caption--line-height: 3;
+  --text-active-body-sm: 12px;
+  --text-active-body-sm--line-height: 1.5;
+  --text-active-micro-ui: 13px;
+  --text-active-micro-ui--line-height: 1.2;
+  --text-active-body: 14px;
+  --text-active-body--line-height: 1.2;
+  --text-active-prose: 16px;
+  --text-active-prose--line-height: 1.88;
+
+  --spacing-active-4: 4px;
+  --spacing-active-6: 6px;
+  --spacing-active-12: 12px;
+  --spacing-active-13: 13px;
+  --spacing-active-14: 14px;
+  --spacing-active-16: 16px;
+  --spacing-active-18: 18px;
+  --spacing-active-28: 28px;
+  --spacing-active-32: 32px;
+  --spacing-active-48: 48px;
+
+  --radius-active-input: 5px;
+  --radius-active-ghost-button: 5px;
+  --radius-active-card: 12px;
+  --radius-active-tag: 500px;
+  --radius-active-pill-button: 500px;
+}
+
+@layer components {
+  .active-theory-page {
+    @apply min-h-screen overflow-x-hidden bg-active-void-black text-active-ghost-white font-active-chrome;
+  }
+
+  .active-theory-hero {
+    @apply relative min-h-screen overflow-hidden bg-active-void-black;
+  }
+
+  .active-theory-scene {
+    @apply absolute inset-0 bg-active-void-black;
+  }
+
+  .active-theory-nav {
+    @apply fixed z-50 flex gap-active-6;
+    top: 18px;
+    right: 18px;
+  }
+
+  .active-theory-ghost-button {
+    @apply inline-flex min-h-[22px] items-center justify-center rounded-active-ghost-button bg-transparent px-active-6 py-px font-active-chrome text-active-caption font-normal uppercase tracking-normal text-active-ghost-white no-underline transition-colors duration-300 ease-out;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .active-theory-ghost-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .active-theory-pill-button {
+    @apply inline-flex min-h-7 items-center justify-center rounded-active-pill-button border-0 bg-active-dusk-violet px-active-18 py-active-4 font-active-chrome text-active-body font-bold text-active-ghost-white no-underline;
+  }
+
+  .active-theory-card {
+    @apply rounded-active-card border border-active-ash-border bg-transparent p-active-28 text-active-ghost-white shadow-none;
+  }
+
+  .active-theory-overlay {
+    @apply rounded-active-card text-active-ghost-white shadow-none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 16px 28px 32px;
+    backdrop-filter: blur(4px);
+  }
+
+  .active-theory-card-title {
+    @apply m-0 font-active-chrome text-active-body font-bold tracking-normal text-active-ghost-white;
+  }
+
+  .active-theory-prose {
+    @apply font-active-serif text-active-prose font-normal tracking-normal text-active-ghost-white;
+  }
+
+  .active-theory-link {
+    @apply text-active-pale-mist no-underline transition-colors duration-300 ease-out hover:text-active-ghost-white;
+  }
+
+  .active-theory-tag {
+    @apply inline-flex min-h-6 items-center rounded-active-tag border border-active-ash-border bg-transparent px-active-13 py-active-4 font-active-chrome text-active-body-sm font-normal text-active-pale-mist;
+  }
+}

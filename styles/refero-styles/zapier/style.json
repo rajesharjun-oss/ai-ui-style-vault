@@ -1,0 +1,235 @@
+{
+  "id": "63295283-c1a3-4adb-891a-d1365a47a50b",
+  "name": "Zapier",
+  "slug": "zapier",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/63295283-c1a3-4adb-891a-d1365a47a50b",
+  "referenceSite": "https://zapier.com",
+  "capturedAt": "2026-07-28",
+  "mood": "sunlit maker's notebook",
+  "summary": "Warm cream automation UI with Cream Paper canvas, warm brown text, Ember Orange as the single vivid action color, Inter functional text, open-tracked Degular Display headings, sparse GT Alpina serif accents, and paper-thin cards.",
+  "useWhen": [
+    "Automation platforms",
+    "Workflow builders",
+    "Integration marketplaces",
+    "Productivity SaaS landing pages",
+    "Product-led pages with app icons, templates, and screenshots"
+  ],
+  "avoidWhen": [
+    "Cold enterprise dashboards",
+    "Dark technical tools",
+    "Highly colorful consumer apps",
+    "Interfaces that cannot keep a single restrained accent color"
+  ],
+  "colors": {
+    "emberOrange": {
+      "value": "#ff4f00",
+      "role": "Brand mark, filled buttons, key highlights, small icon accents"
+    },
+    "irisInk": {
+      "value": "#2b2358",
+      "role": "Illustration-only violet accent, never UI chrome, buttons, or text"
+    },
+    "creamPaper": {
+      "value": "#fffefb",
+      "role": "Primary canvas, card surfaces, input backgrounds"
+    },
+    "parchment": {
+      "value": "#f8f4f0",
+      "role": "Secondary surface, section bands, soft elevated cards"
+    },
+    "stoneLinen": {
+      "value": "#eceae3",
+      "role": "Hairline borders, dividers, muted surface tints"
+    },
+    "driftwood": {
+      "value": "#c5c0b1",
+      "role": "Muted borders, disabled backgrounds, low-contrast dividers"
+    },
+    "ashMist": {
+      "value": "#b7b6b3",
+      "role": "Disabled text, placeholders, very subtle borders"
+    },
+    "inkBrown": {
+      "value": "#201515",
+      "role": "Primary text, dark UI elements, logo wordmark"
+    },
+    "bark": {
+      "value": "#36342e",
+      "role": "Secondary headings, nav text, medium-emphasis body copy"
+    },
+    "coffeeStone": {
+      "value": "#413735",
+      "role": "Tertiary text, resting links, breadcrumb text"
+    },
+    "stoneGray": {
+      "value": "#939084",
+      "role": "Muted helper text, captions, metadata, compliance lines"
+    },
+    "obsidian": {
+      "value": "#000000",
+      "role": "Maximum-contrast icons, footer text, logo detail only"
+    }
+  },
+  "typography": {
+    "primaryFamily": "Inter",
+    "primaryFallbackFamilies": [
+      "Inter",
+      "Arial",
+      "sans-serif"
+    ],
+    "displayFamily": "Degular Display",
+    "displayFallbackFamilies": [
+      "Bricolage Grotesque",
+      "Space Grotesk",
+      "Inter",
+      "sans-serif"
+    ],
+    "serifAccentFamily": "GT Alpina",
+    "serifFallbackFamilies": [
+      "Newsreader",
+      "Source Serif 4",
+      "serif"
+    ],
+    "weights": [
+      250,
+      300,
+      400,
+      500,
+      600,
+      700
+    ],
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "weight": 500,
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.1px"
+      },
+      "bodyLarge": {
+        "size": "16px",
+        "weight": 400,
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.16px"
+      },
+      "subheading": {
+        "size": "18px",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "letterSpacing": "-0.18px"
+      },
+      "headingSmall": {
+        "size": "24px",
+        "weight": 600,
+        "lineHeight": "1.33",
+        "letterSpacing": "-0.43px"
+      },
+      "heading": {
+        "size": "32px",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "letterSpacing": "-0.58px"
+      },
+      "headingLarge": {
+        "size": "36px",
+        "weight": 500,
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.72px"
+      },
+      "display": {
+        "size": "48px",
+        "weight": 500,
+        "lineHeight": "1.14",
+        "letterSpacing": "-1.34px"
+      },
+      "displayLarge": {
+        "size": "56px",
+        "weight": 500,
+        "lineHeight": "1.1",
+        "letterSpacing": "-1.57px"
+      }
+    },
+    "degularDisplay": {
+      "weights": [
+        500,
+        600
+      ],
+      "sizes": [
+        "14px",
+        "24px",
+        "30px",
+        "40px",
+        "56px",
+        "80px"
+      ],
+      "lineHeight": "0.90 to 1.10",
+      "letterSpacing": "0.020em to 0.071em",
+      "openType": "\"ss01\" on"
+    },
+    "gtAlpina": {
+      "weights": [
+        250,
+        300
+      ],
+      "sizes": [
+        "40px",
+        "48px"
+      ],
+      "lineHeight": "1.08 to 1.20",
+      "letterSpacing": "-0.040em"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px to 96px",
+    "cardPadding": "24px to 32px",
+    "elementGap": "8px to 16px",
+    "scale": [
+      "4px",
+      "8px",
+      "12px",
+      "16px",
+      "20px",
+      "24px",
+      "32px",
+      "40px",
+      "48px",
+      "56px",
+      "64px",
+      "72px",
+      "80px",
+      "96px",
+      "112px",
+      "160px"
+    ]
+  },
+  "shape": {
+    "tagRadius": "4px",
+    "inputRadius": "4px",
+    "cardRadius": "8px",
+    "buttonRadius": "20px",
+    "largeRadius": "32px",
+    "pillRadius": "9999px"
+  },
+  "components": [
+    "Brand-orange filled button",
+    "Outlined button",
+    "Ghost text link",
+    "Navigation bar",
+    "Announcement bar",
+    "Template card",
+    "Feature section card",
+    "Security or trust badge",
+    "Eyebrow label",
+    "Text input",
+    "Partner logo strip",
+    "Product showcase panel",
+    "Footer link group"
+  ],
+  "imagery": {
+    "direction": "Warm product screenshots, app icons, workflow builder UI, geometric illustrations using Ember Orange, Iris Ink, and Cream Paper, grayscale partner logos.",
+    "avoid": "Lifestyle photography, stock imagery, cool blue-gray UI, colorful badges, heavy shadow cards."
+  }
+}

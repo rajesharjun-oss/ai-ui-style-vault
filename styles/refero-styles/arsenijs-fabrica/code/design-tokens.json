@@ -1,0 +1,332 @@
+{
+ "name": "Arsenijs Fabrica",
+ "slug": "arsenijs-fabrica",
+ "colors": [
+ {
+ "name": "Ember Orange",
+ "value": "#f15730",
+ "token": "--color-ember-orange",
+ "role": "Filled CTA buttons, primary action backgrounds - deep saturated orange that reads as confident rather than playful, the only color with enough chroma to anchor a click target against the white field"
+ },
+ {
+ "name": "Tangerine Blaze",
+ "value": "#f7651a",
+ "token": "--color-tangerine-blaze",
+ "role": "Promotional surface fills (email capture modal, featured product cards, stat callout backgrounds) - slightly brighter and more luminous than Ember, used where orange must own an entire region of the layout"
+ },
+ {
+ "name": "Apricot Whisper",
+ "value": "#ff8562",
+ "token": "--color-apricot-whisper",
+ "role": "Borders on outlined cards, link underlines, icon strokes, accent hairlines - the lightest orange, functioning as a warm-tinted structural color rather than a fill"
+ },
+ {
+ "name": "Graphite Black",
+ "value": "#111111",
+ "token": "--color-graphite-black",
+ "role": "Body text, default borders, the dominant structural color - a true near-black, not warm, used for the bulk of hairline rules and paragraph copy"
+ },
+ {
+ "name": "Inkwell",
+ "value": "#0d1717",
+ "token": "--color-inkwell",
+ "role": "Heading text, navigation text, primary headings - a deep black with the faintest cool-green undertone that gives headlines a quiet cast against pure white"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page canvas, card surfaces, text on dark/orange surfaces - the unchanging ground tone across every section"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#eeeeee",
+ "token": "--color-mist-gray",
+ "role": "Soft card borders, hairline dividers on white surfaces where Graphite would feel too heavy"
+ },
+ {
+ "name": "Smoke",
+ "value": "#818181",
+ "token": "--color-smoke",
+ "role": "Secondary captions, muted helper text, subdued icon strokes - the only mid-gray in the palette, used sparingly to fade metadata without going fully light"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Onest",
+ "token": "--font-onest",
+ "role": "Sole brand typeface. The 200-300 weights at display sizes (48-152px) define the editorial couture voice - thin strokes hung on a white wall with aggressive negative letter-spacing. Weights 400-500 handle body and UI; 600-800 reserved for occasional emphasis. Substantial negative letter-spacing contracts large text to the width of small, producing the \u0027cut from a single line\u0027 effect. Substitute with Inter or General Sans if Onest is unavailable."
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "Times - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption-lg",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption-lg"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "-0.27px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.55",
+ "-0.35px",
+ "--text-body"
+ ],
+ [
+ "subheading-sm",
+ "20px",
+ "1.21",
+ "-0.62px",
+ "--text-subheading-sm"
+ ],
+ [
+ "subheading",
+ "23px",
+ "1.18",
+ "-0.85px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.08",
+ "-1.34px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.04",
+ "-2.5px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "52px",
+ "1",
+ "-2.91px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "152px",
+ "0.9",
+ "-13.83px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1280px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "90",
+ "90px",
+ "`--spacing-90`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "30px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "images",
+ "15px"
+ ],
+ [
+ "inputs",
+ "30px"
+ ],
+ [
+ "avatars",
+ "3000px"
+ ],
+ [
+ "buttons",
+ "600px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Announcement Bar",
+ "role": "Slim black strip delivering free-shipping and gift-purchase notices"
+ },
+ {
+ "name": "Main Navigation",
+ "role": "Sticky header carrying logo, primary links, and utility icons (search, account, cart)"
+ },
+ {
+ "name": "Hero Overlay Section",
+ "role": "Full-bleed product photography with display headline and CTA overlaid"
+ },
+ {
+ "name": "Pill CTA Button (Primary)",
+ "role": "Filled action button for checkout, subscribe, and \u0027shop now\u0027 actions"
+ },
+ {
+ "name": "Pill CTA Button (Ghost/White)",
+ "role": "Secondary action overlaid on imagery or orange surfaces"
+ },
+ {
+ "name": "Pill Button (On Orange Modal)",
+ "role": "Form submit button inside the email capture modal"
+ },
+ {
+ "name": "Email Capture Modal",
+ "role": "Centered overlay prompting newsletter signup with 10% discount"
+ },
+ {
+ "name": "Outlined Product Card",
+ "role": "Grid card for product listings with orange hairline border"
+ },
+ {
+ "name": "Stat Callout Block",
+ "role": "Large-percentage proof point (e.g. \u002798% natural ingredients\u0027)"
+ },
+ {
+ "name": "Feature Row",
+ "role": "Horizontal list of trust signals with line-art icons (leaf = natural, rabbit = cruelty-free)"
+ },
+ {
+ "name": "Close Button (Modal X)",
+ "role": "Dismisses the email capture overlay"
+ },
+ {
+ "name": "Navigation Icon Button",
+ "role": "Utility actions in the header (search, account, cart)"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set all display sizes (48px and above) in Onest weight 200-300 - the whisper-weight headline is the brand\u0027s editorial signature",
+ "Use letter-spacing in negative em values across the entire type scale, tightening to -0.091em at 152px display",
+ "Reserve Ember Orange (#f15730) for filled buttons and Tangerine Blaze (#f7651a) for entire promotional surfaces; never mix them in the same component",
+ "Use Apricot Whisper (#ff8562) for 1-2px hairline borders on cards and link underlines - not for fills",
+ "Apply 600px border-radius to every button and 30px to every input - the pill is non-negotiable for actions",
+ "Default card corners to 10px and product image corners to 15px",
+ "Use Mist Gray (#eeeeee) for borders only on white surfaces where Graphite would feel too heavy"
+ ],
+ "doNot": [
+ "Don\u0027t apply box-shadows to cards, buttons, or modals - the system communicates depth with borders and color alone",
+ "Don\u0027t use Orange for body text - its contrast on white fails accessibility, keep it for fills, borders, and large display numbers only",
+ "Don\u0027t use weights 600-800 for body text or UI labels - reserve them for the rare emphasis moment",
+ "Don\u0027t introduce a second accent color or hue - the orange must remain the single chromatic note",
+ "Don\u0027t use 0px or 4px border-radius on cards or images - the 10px/15px minimum is part of the soft editorial feel",
+ "Don\u0027t center product card text - left-align all UI copy; centering is reserved for the hero overlay and modal content",
+ "Don\u0027t apply gradients to surface fills - the only observed gradient is a single progress-bar indicator on a dark surface"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/eb3bf6c1-a18f-4d72-801e-50c2cdbbaa21",
+ "referenceSite": "https://www.arsenijsfabrica.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:54:42.130Z",
+ "articleModifiedAt": "2026-06-03T19:14:40.459Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/59f09c9f-921d-4aa2-bc1e-c05d92cff5d8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/a9d1fe38-8b21-4efe-b9ea-f40098f8a7cf.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/92671421-7c07-4fa0-a675-ac6f9af1d57a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/042f6277-12e6-45ad-95e7-82c59b405d42.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/fb25f408-b96f-49c1-a32d-e94608a9a693.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ }
+}

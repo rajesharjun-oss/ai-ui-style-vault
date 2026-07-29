@@ -1,0 +1,153 @@
+{
+  "id": "1eee9aa2-1e23-4675-9f6e-fb98c93969bd",
+  "name": "Getharvest",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/1eee9aa2-1e23-4675-9f6e-fb98c93969bd",
+  "referenceUrl": "https://www.getharvest.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Golden-hour productivity workspace with warm cream canvas, white floating product cards, one vivid orange action color, editorial hero serif, warm geometric UI type, and soft warm-tinted shadows.",
+  "bestFor": [
+    "productivity SaaS",
+    "time tracking",
+    "invoicing tools",
+    "small business software",
+    "workflow dashboards",
+    "reporting products",
+    "friendly B2B landing pages"
+  ],
+  "tags": [
+    "light",
+    "warm-saas",
+    "cream-canvas",
+    "orange-accent",
+    "productivity",
+    "rounded-cards",
+    "warm-shadow",
+    "product-screenshots",
+    "muotoweb",
+    "serif-hero",
+    "friendly-b2b"
+  ],
+  "colors": {
+    "harvestFlame": { "value": "#fa5d00", "token": "--color-harvest-flame", "role": "Primary CTA fill, active states, links, icon accents, and brand borders." },
+    "marigoldGlow": { "value": "#fee3b5", "token": "--color-marigold-glow", "role": "Soft warm highlight wash on cards and decorative glow behind product UI." },
+    "parchmentShadow": { "value": "#e3d6c5", "token": "--color-parchment-shadow", "role": "Warm-tinted card and image shadow color." },
+    "inkBlack": { "value": "#1d1e1c", "token": "--color-ink-black", "role": "Primary text, icon strokes, nav borders, and card headings." },
+    "ironwood": { "value": "#4a4a47", "token": "--color-ironwood", "role": "Strong secondary text and emphasized muted labels." },
+    "warmStone": { "value": "#615f5c", "token": "--color-warm-stone", "role": "Secondary body text, list items, and muted icon strokes." },
+    "ash": { "value": "#777571", "token": "--color-ash", "role": "Helper text, placeholders, and low-priority borders." },
+    "driftwood": { "value": "#8e8b87", "token": "--color-driftwood", "role": "Tertiary body text, decorative strokes, and subtle metadata." },
+    "graphite": { "value": "#999999", "token": "--color-graphite", "role": "List borders and tertiary structural lines." },
+    "smoke": { "value": "#a5a19c", "token": "--color-smoke", "role": "Disabled text and very low-priority separators." },
+    "bone": { "value": "#c0bbb6", "token": "--color-bone", "role": "Input borders and form field outlines at rest." },
+    "mistGray": { "value": "#d9d9d9", "token": "--color-mist-gray", "role": "Hairline dividers and subtle borders on neutral surfaces." },
+    "creamCanvas": { "value": "#fff8f1", "token": "--color-cream-canvas", "role": "Page background, hero base, and nav backdrop." },
+    "paperWhite": { "value": "#ffffff", "token": "--color-paper-white", "role": "Card surfaces, input fields, elevated panels, and text on orange fills." }
+  },
+  "typography": {
+    "families": {
+      "primary": "MuotoWeb",
+      "display": "Monarch"
+    },
+    "fallbacks": {
+      "primary": "Inter, Sohne, system-ui, sans-serif",
+      "display": "GT Super, Tiempos Headline, Georgia, ui-serif, serif"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "rules": [
+      "Use MuotoWeb-style type for navigation, buttons, body copy, product cards, subheadings, and most headings.",
+      "Use Monarch-style serif only for 72px hero-grade display moments.",
+      "Apply 0.015em positive tracking to MuotoWeb text.",
+      "Use MuotoWeb for all headings 50px and below.",
+      "Do not use Monarch for body copy or small headings."
+    ],
+    "scale": {
+      "caption": { "size": "13px", "lineHeight": 1.35, "letterSpacing": "0.2px", "token": "--text-caption" },
+      "subheading": { "size": "18px", "lineHeight": 1.4, "letterSpacing": "0.27px", "token": "--text-subheading" },
+      "headingSm": { "size": "20px", "lineHeight": 1.3, "letterSpacing": "0.3px", "token": "--text-heading-sm" },
+      "heading": { "size": "24px", "lineHeight": 1.26, "letterSpacing": "0.36px", "token": "--text-heading" },
+      "headingLg": { "size": "28px", "lineHeight": 1.2, "letterSpacing": "0.42px", "token": "--text-heading-lg" },
+      "display": { "size": "48px", "lineHeight": 1.15, "letterSpacing": "0.72px", "token": "--text-display" },
+      "displayLg": { "size": "72px", "lineHeight": 1.2, "letterSpacing": "0", "token": "--text-display-lg" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "64px to 80px",
+    "cardPadding": "32px to 40px",
+    "elementGap": "16px to 24px",
+    "scale": {
+      "4": "4px",
+      "5": "5px",
+      "7": "7px",
+      "10": "10px",
+      "14": "14px",
+      "15": "15px",
+      "16": "16px",
+      "20": "20px",
+      "22": "22px",
+      "25": "25px",
+      "30": "30px",
+      "35": "35px",
+      "40": "40px",
+      "50": "50px",
+      "100": "100px",
+      "113": "113px"
+    }
+  },
+  "radii": {
+    "tags": "999px",
+    "images": "16px",
+    "inputs": "16px",
+    "buttons": "16px",
+    "cards": "20px"
+  },
+  "shadows": {
+    "sm": "rgba(0, 0, 0, 0.2) 0px 1px 4px 0px",
+    "lg": "rgba(250, 166, 0, 0.25) 6px 4px 24px 0px"
+  },
+  "components": [
+    { "name": "Primary CTA Button", "recipe": "Harvest Flame fill, Paper White text, MuotoWeb 16px/600, 12px by 24px padding, 16px radius, subtle black lift." },
+    { "name": "Ghost Text Link", "recipe": "No fill, no border, Harvest Flame text, MuotoWeb 16px/500, optional small arrow, underline on hover." },
+    { "name": "Email Input Field", "recipe": "Paper White fill, 1px Bone border, 16px radius, 14px by 20px padding, Driftwood placeholder, Harvest Flame focus outline." },
+    { "name": "Feature Card", "recipe": "Cream or Paper White fill, 20px radius, 32px to 40px padding, optional warm glow, Ink Black icon, Warm Stone body, orange link." },
+    { "name": "Integration Logo Circle", "recipe": "48px Paper White circle containing a literal third-party logo; external brand colors only inside logo assets." },
+    { "name": "Navigation Bar", "recipe": "Cream Canvas background, Harvest wordmark, MuotoWeb 16px Ink Black links, sign-in ghost link, orange CTA." },
+    { "name": "Dashboard Preview Card", "recipe": "Paper White product screenshot container, 16px radius, warm soft shadow, showing product UI." },
+    { "name": "Section Heading", "recipe": "Orange uppercase eyebrow, MuotoWeb 34px to 48px title in Ink Black, optional Warm Stone subtitle." },
+    { "name": "Trust Badge Logo Row", "recipe": "Uppercase label in Warm Stone, optional orange number highlight, grayscale partner logos." },
+    { "name": "Hero Gradient Wash", "recipe": "Soft organic wash using Harvest Flame, Marigold Glow, and peach tones at low opacity; decorative only." },
+    { "name": "Feature Grid", "recipe": "Two-column product block or three-card feature grid with cream canvas and white product cards." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Cream Canvas as every page background.",
+      "Use Harvest Flame as the only brand accent.",
+      "Use Harvest Flame for primary CTAs, active states, links, and small brand marks.",
+      "Use Monarch only for 72px hero-grade display.",
+      "Use MuotoWeb for all headings 50px and below.",
+      "Use 16px radius for buttons, inputs, and images.",
+      "Use 20px radius for cards.",
+      "Use warm-tinted shadows and glows.",
+      "Keep partner logos grayscale."
+    ],
+    "dont": [
+      "Do not use Paper White as the page background.",
+      "Do not introduce a second accent color.",
+      "Do not use Harvest Flame for body text or large background fills.",
+      "Do not use Monarch for body, labels, subheads, or small headings.",
+      "Do not use sharp 0px to 4px corners on cards or buttons.",
+      "Do not use cool blue or neutral gray shadows.",
+      "Do not use pure black for text.",
+      "Do not rely on stock photography for hero visuals."
+    ]
+  }
+}

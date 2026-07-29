@@ -1,0 +1,82 @@
+{
+  "id": "82d52a5f-b1bb-4a69-91a3-15a7eb8bbe99",
+  "name": "ThoughtLab",
+  "slug": "thoughtlab",
+  "sourceUrl": "https://styles.refero.design/style/82d52a5f-b1bb-4a69-91a3-15a7eb8bbe99",
+  "referenceSite": "https://www.thoughtlab.com",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "executive research terminal in pure black",
+  "industry": ["research", "consulting", "B2B intelligence", "thought leadership"],
+  "summary": "A strict black editorial research style with white type, one crimson action color, Sui as the only font family, huge uppercase display type, transparent hairline cards, square inputs and buttons, spacious section rhythm, and no shadows or gradients.",
+  "colors": {
+    "blackVoid": "#000000",
+    "white": "#ffffff",
+    "crimsonSignal": "#ff0000",
+    "whiteMist": "rgba(255,255,255,0.70)",
+    "whiteHairline": "rgba(255,255,255,0.10)",
+    "deepGray": "#121212",
+    "midGray": "#333333",
+    "voidCard": "rgba(0,0,0,0)",
+    "glassEdge": "rgba(255,255,255,0.20)"
+  },
+  "typography": {
+    "primary": "Sui",
+    "fallback": "Inter, Helvetica Neue, Arial",
+    "weights": [400, 500, 600, 700],
+    "displayTransform": "uppercase",
+    "displayTracking": "-0.04em to -0.06em",
+    "labelTracking": "0.04em to 0.10em",
+    "bodyTracking": "0"
+  },
+  "shape": {
+    "buttonRadius": "0px",
+    "cardRadius": "0px",
+    "inputRadius": "0px",
+    "imageRadius": "0px",
+    "sectionRadius": "0px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "spacious",
+    "maxWidth": "1200px",
+    "sectionGap": "150px",
+    "cardPadding": "24px",
+    "elementGap": "12px",
+    "model": "black editorial canvas with minimal header, monumental uppercase type, transparent hairline cards, research grids, newsletter inputs, and stark footer blocks"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "none",
+    "depth": "contrast, hairline rules, typography scale, and negative space"
+  },
+  "components": [
+    "minimal header",
+    "hero text stack",
+    "crimson action button",
+    "transparent topic card",
+    "hairline email input",
+    "editorial article grid",
+    "large section number",
+    "footer link block",
+    "white hairline divider",
+    "filter nav link row"
+  ],
+  "dos": [
+    "Use pure black as the main canvas.",
+    "Use Sui or a clean single-family sans throughout.",
+    "Use Crimson Signal only for actions and active emphasis.",
+    "Keep all corners square.",
+    "Build cards with transparent fills and hairline borders.",
+    "Use huge uppercase display text as the main visual event.",
+    "Use white and mist text for hierarchy."
+  ],
+  "donts": [
+    "Do not add extra accent colors.",
+    "Do not use rounded cards or pill buttons.",
+    "Do not add shadows, glows, gradients, or blur effects.",
+    "Do not use multiple font families.",
+    "Do not make the layout card-heavy or SaaS-soft.",
+    "Do not add decorative illustrations or stock-photo hero scenes."
+  ]
+}

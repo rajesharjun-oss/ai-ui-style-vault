@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orchid-accent: #a95ef8;
+  --color-iris-brand: #5551ff;
+  --color-lavender-wash: #e4e9ff;
+  --color-cobalt-spark: #007aff;
+  --color-ink-black: #000000;
+  --color-pure-white: #ffffff;
+  --color-obsidian: #27272b;
+  --color-graphite: #2d2d2d;
+  --color-slate: #666666;
+  --color-ash: #bdbdbd;
+  --color-fog: #d2d4d7;
+  --color-mist: #e4e7ed;
+
+  --font-poppins: "Poppins", "Inter", "DM Sans", "Manrope", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-caneladeck: "CanelaDeck", "Playfair Display", "DM Serif Display", "Lora", serif;
+
+  --text-caption: 11px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-subheading: 20px;
+  --text-heading-sm: 25px;
+  --text-heading: 40px;
+  --text-heading-lg: 44px;
+  --text-display: 64px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-60: 60px;
+  --spacing-80: 80px;
+  --spacing-112: 112px;
+  --spacing-page: 1200px;
+
+  --radius-card: 12px;
+  --radius-icon: 12px;
+  --radius-button: 60px;
+  --radius-input: 72px;
+  --radius-pill-lg: 82px;
+}
+
+@layer base {
+  .writer {
+    background: var(--color-pure-white);
+    color: var(--color-ink-black);
+    font-family: var(--font-poppins);
+    font-feature-settings: "clig" 0, "liga" 0;
+  }
+}
+
+@layer components {
+  .writer-display {
+    @apply font-poppins text-heading-lg font-medium leading-none tracking-[-0.88px] text-ink-black md:text-display md:tracking-[-1.98px];
+  }
+
+  .writer-highlight {
+    @apply text-orchid-accent;
+  }
+
+  .writer-eyebrow {
+    @apply font-poppins text-caption font-medium uppercase leading-[1.5] tracking-[0.14em] text-ink-black;
+  }
+
+  .writer-primary {
+    @apply inline-flex items-center justify-center rounded-button border-0 bg-obsidian px-32 py-16 font-poppins text-body font-semibold leading-none text-pure-white;
+  }
+
+  .writer-accent {
+    @apply inline-flex items-center justify-center rounded-button border-0 bg-iris-brand px-24 py-12 font-poppins text-body-sm font-medium leading-none text-pure-white;
+  }
+
+  .writer-input {
+    @apply rounded-input border border-ash bg-pure-white px-20 py-16 font-poppins text-body text-ink-black;
+  }
+
+  .writer-card {
+    @apply rounded-card bg-pure-white p-24 text-ink-black shadow-none;
+  }
+
+  .writer-dark-section {
+    @apply bg-obsidian text-pure-white;
+  }
+
+  .writer-announcement {
+    @apply text-ink-black;
+    background: linear-gradient(50deg, #f7c8ed 50px, #e5ecff 130px, #e5ecff 100%);
+  }
+}

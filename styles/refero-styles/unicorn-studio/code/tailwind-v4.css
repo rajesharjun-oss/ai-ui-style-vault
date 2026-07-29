@@ -1,0 +1,67 @@
+@theme {
+  --color-unicorn-lavender-beam: #ab8ff1;
+  --color-unicorn-iris-glow: #8960f0;
+  --color-unicorn-void: #08080a;
+  --color-unicorn-charcoal: #0d0d12;
+  --color-unicorn-graphite: #17171c;
+  --color-unicorn-slate: #25252d;
+  --color-unicorn-iron: #31313a;
+  --color-unicorn-ash: #62626f;
+  --color-unicorn-fog: #8b8e9c;
+  --color-unicorn-pearl: #aeaac0;
+  --color-unicorn-chalk: #dad7de;
+
+  --font-unicorn-display: "Overused Grotesk", "Inter Tight", "General Sans", Inter, sans-serif;
+  --font-unicorn-secondary-display: Sprat, Migra, "Editorial New", Georgia, serif;
+  --font-unicorn-ui: -apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif;
+
+  --text-unicorn-caption: 13px;
+  --text-unicorn-body: 16px;
+  --text-unicorn-subheading: 18px;
+  --text-unicorn-heading-sm: 26px;
+  --text-unicorn-heading: 32px;
+  --text-unicorn-heading-lg: 48px;
+  --text-unicorn-display: 64px;
+  --text-unicorn-display-xl: 215px;
+
+  --leading-unicorn-caption: 1.4;
+  --leading-unicorn-body: 1.4;
+  --leading-unicorn-subheading: 1.4;
+  --leading-unicorn-heading: 1;
+  --leading-unicorn-display: 0.99;
+
+  --tracking-unicorn-caption: -0.13px;
+  --tracking-unicorn-body: -0.16px;
+  --tracking-unicorn-subheading: -0.18px;
+  --tracking-unicorn-heading-sm: -0.78px;
+  --tracking-unicorn-heading: -1.28px;
+  --tracking-unicorn-heading-lg: -1.92px;
+  --tracking-unicorn-display: -4.03px;
+
+  --spacing-unicorn-5: 5px;
+  --spacing-unicorn-6: 6px;
+  --spacing-unicorn-8: 8px;
+  --spacing-unicorn-10: 10px;
+  --spacing-unicorn-12: 12px;
+  --spacing-unicorn-14: 14px;
+  --spacing-unicorn-15: 15px;
+  --spacing-unicorn-18: 18px;
+  --spacing-unicorn-19: 19px;
+  --spacing-unicorn-20: 20px;
+  --spacing-unicorn-30: 30px;
+  --spacing-unicorn-40: 40px;
+  --spacing-unicorn-60: 60px;
+  --spacing-unicorn-96: 96px;
+  --spacing-unicorn-100: 100px;
+  --spacing-unicorn-118: 118px;
+
+  --radius-unicorn-tag: 3px;
+  --radius-unicorn-input: 3px;
+  --radius-unicorn-button: 3px;
+  --radius-unicorn-card: 10px;
+
+  --shadow-unicorn-sm: rgba(0, 0, 0, 0.25) 0px 1px 4px 0px;
+  --shadow-unicorn-floating: rgba(0, 0, 0, 0.4) 0px 2px 4px -1.5px;
+  --shadow-unicorn-keyline: rgb(49, 49, 58) 0px -1px 0px 0px;
+}
+

@@ -1,0 +1,95 @@
+{
+  "id": "a0630421-7b66-48b4-aa14-6194a3b2c2b9",
+  "name": "Fey",
+  "slug": "fey",
+  "sourceUrl": "https://styles.refero.design/style/a0630421-7b66-48b4-aa14-6194a3b2c2b9",
+  "referenceSite": "https://www.fey.com",
+  "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/dd8922ee-7769-4905-ae7a-626ed3190e66.jpg",
+  "detailScreenshot": "https://images.refero.design/styles/refero.design/image/d0dc6b33-5970-43e5-af34-5c9694b45b13.jpg",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "nocturnal Bloomberg terminal, matte-black with luminous type",
+  "industry": ["fintech", "investing", "market data", "trading tools", "finance"],
+  "summary": "A dark fintech/product-showcase style with Fey Ink canvas, Fey Charcoal floating product cards, Calibre typography, 99px pill controls, 16px product-card radii, heavy black halo shadows, tight 48-54px display headlines, and color used as signal rather than decoration.",
+  "colors": {
+    "feyWhite": "#ffffff",
+    "feyInk": "#0b0b0b",
+    "feyCharcoal": "#191919",
+    "feyObsidian": "#131313",
+    "feyGraphite": "#868f97",
+    "feyMist": "#cccccc",
+    "feySmoke": "#525252",
+    "feyPale": "#e6e6e6",
+    "feyAsh": "#999999",
+    "feyEmber": "#ffa16c",
+    "feySignal": "#479ffa",
+    "feyGrowth": "#4ebe96",
+    "feyAbyss": "#000000",
+    "feyFrost": "#b6d6ff",
+    "feyVolt": "#d6fe51"
+  },
+  "typography": {
+    "primary": "Calibre",
+    "fallback": "Inter, Satoshi, General Sans, Arial",
+    "weights": [400, 500, 600, 700],
+    "bodyWeight": 400,
+    "navWeight": 500,
+    "displayWeight": 700,
+    "displayTracking": "-0.08em at 48px to 54px",
+    "headingTracking": "-0.053em at 24px to 26px",
+    "fontFeatureSettings": ["ss01", "tnum"]
+  },
+  "shape": {
+    "cardRadius": "16px",
+    "iconRadius": "6px",
+    "smallRadius": "10px",
+    "buttonRadius": "99px",
+    "featuredRadius": "275px"
+  },
+  "layout": {
+    "density": "premium compact",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "18px to 24px",
+    "elementGap": "10px to 16px",
+    "model": "centered dark fintech page with product UI as hero, floating product cards, 3-up feature grids, horizontal carousel rows, pill nav, dock control, and dark-room section rhythm"
+  },
+  "elevation": {
+    "productCard": "rgba(0,0,0,0.8) 0px 0px 44px 0px",
+    "primaryButton": "rgba(0,0,0,0.85) 0px 1px 0px 0px, rgba(255,255,255,0.25) 0px 0px 14px 0px",
+    "featuredCard": "rgba(0,0,0,0.5) 0px 0px 35px 0px",
+    "rule": "Use a single deep halo, not stacked shadows."
+  },
+  "components": [
+    "pill navigation button",
+    "primary action button",
+    "product showcase card",
+    "insider transaction card",
+    "feature section card",
+    "dock navigation bar",
+    "status badge",
+    "ticker display",
+    "section headline",
+    "highlighted word",
+    "news recap card",
+    "carousel navigation arrow"
+  ],
+  "dos": [
+    "Use 99px radius for all interactive controls.",
+    "Set display headlines at 48px to 54px with -0.08em tracking and Calibre 700.",
+    "Use Fey Ink as the primary canvas and layer Fey Charcoal and Fey Obsidian for depth.",
+    "Use Ember, Signal, and Growth only as meaning-carrying accents.",
+    "Use 16px radius for content cards and product mockup surfaces.",
+    "Pair dark surfaces with a single heavy black shadow halo.",
+    "Reserve pure white for headlines and primary values."
+  ],
+  "donts": [
+    "Do not use filled chromatic CTA buttons.",
+    "Do not introduce a secondary typeface.",
+    "Do not use zero or positive letter spacing on display sizes.",
+    "Do not use pure black as the page background.",
+    "Do not use Signal blue as a status color.",
+    "Do not add more than one chromatic accent per headline or card.",
+    "Do not stack multiple drop shadows."
+  ]
+}

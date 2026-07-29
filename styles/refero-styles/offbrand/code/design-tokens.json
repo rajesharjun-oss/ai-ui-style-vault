@@ -1,0 +1,132 @@
+{
+  "name": "OFF+BRAND.",
+  "version": "2026-07-28",
+  "colors": {
+    "parchment": {
+      "value": "#e5e4e0",
+      "role": "Page canvas and section backgrounds"
+    },
+    "ink": {
+      "value": "#1d1d1d",
+      "role": "Primary text, headings, link borders, and dark UI marks"
+    },
+    "paper": {
+      "value": "#ffffff",
+      "role": "Elevated card surfaces, logo cells, and project card canvases"
+    },
+    "ash": {
+      "value": "#bfbebe",
+      "role": "Hairline borders, subtle dividers, and structural outlines"
+    },
+    "stone": {
+      "value": "#cdcdc9",
+      "role": "Secondary panel background and quiet surface separation"
+    },
+    "iridescentSphere": {
+      "value": "linear-gradient(255deg, rgb(250, 203, 14), rgb(240, 107, 168) 30%, rgb(120, 186, 230) 65%, rgb(255, 255, 255))",
+      "role": "One hero gradient sphere only"
+    }
+  },
+  "font": {
+    "primary": "Ataero Retina OB Edition, Neue Haas Grotesk Display, Inter, Suisse Intl, system-ui, sans-serif",
+    "weights": {
+      "regular": 400,
+      "bold": 700
+    },
+    "rule": "One type family only; use fallbacks for prototypes only."
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "11px",
+      "fontWeight": 400,
+      "lineHeight": 1.4,
+      "letterSpacing": "0.55px"
+    },
+    "bodySm": {
+      "fontSize": "15px",
+      "fontWeight": 400,
+      "lineHeight": 1.4,
+      "letterSpacing": "0.15px"
+    },
+    "body": {
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "lineHeight": 1.4,
+      "letterSpacing": "0.23px"
+    },
+    "subheading": {
+      "fontSize": "34px",
+      "fontWeight": 400,
+      "lineHeight": 1,
+      "letterSpacing": "0.44px"
+    },
+    "headingSm": {
+      "fontSize": "46px",
+      "fontWeight": 400,
+      "lineHeight": 1,
+      "letterSpacing": "0.6px"
+    },
+    "heading": {
+      "fontSize": "70px",
+      "fontWeight": 400,
+      "lineHeight": 0.8,
+      "letterSpacing": "0.91px"
+    },
+    "headingLg": {
+      "fontSize": "76px",
+      "fontWeight": 400,
+      "lineHeight": 0.8,
+      "letterSpacing": "0.99px"
+    },
+    "display": {
+      "fontSize": "103px",
+      "fontWeight": 400,
+      "lineHeight": 0.8,
+      "letterSpacing": "1.34px"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "unit": "4px",
+    "5": "5px",
+    "6": "6px",
+    "8": "8px",
+    "15": "15px",
+    "19": "19px",
+    "30": "30px",
+    "32": "32px",
+    "46": "46px",
+    "76": "76px",
+    "119": "119px",
+    "maxWidth": "1400px",
+    "sectionGap": "76px to 119px",
+    "cardPadding": "30px",
+    "elementGap": "19px"
+  },
+  "radius": {
+    "cards": "0px",
+    "images": "0px",
+    "links": "10px",
+    "inputs": "10px",
+    "buttons": "10px"
+  },
+  "surfaces": {
+    "parchmentCanvas": "#e5e4e0",
+    "paper": "#ffffff",
+    "stonePanel": "#cdcdc9"
+  },
+  "elevation": {
+    "allSurfaces": "none",
+    "rule": "Use surface color shifts and hairlines instead of shadows."
+  },
+  "motifs": {
+    "heroSphere": "One iridescent gradient circle, right-of-center behind display text",
+    "concentricCircles": "1px ash circular outlines, static and unfilled",
+    "gridPaperCards": "White sharp-cornered project cards with pale parchment grid overlay"
+  },
+  "motion": {
+    "allowed": ["link underline", "filter button color inversion"],
+    "avoid": ["animated gradients", "parallax", "hover lift", "shadow transitions"]
+  }
+}
+

@@ -1,0 +1,88 @@
+{
+  "name": "Fey",
+  "slug": "fey",
+  "source": "https://styles.refero.design/style/a0630421-7b66-48b4-aa14-6194a3b2c2b9",
+  "referenceSite": "https://www.fey.com",
+  "theme": "dark",
+  "color": {
+    "feyWhite": { "value": "#ffffff", "role": "primary text, hairlines, key values" },
+    "feyInk": { "value": "#0b0b0b", "role": "primary canvas and core dark surface" },
+    "feyCharcoal": { "value": "#191919", "role": "product mockup cards and feature panels" },
+    "feyObsidian": { "value": "#131313", "role": "nested cards and input wells" },
+    "feyGraphite": { "value": "#868f97", "role": "secondary copy, disabled labels, muted borders" },
+    "feyMist": { "value": "#cccccc", "role": "icon strokes, subtle links, tertiary borders" },
+    "feySmoke": { "value": "#525252", "role": "deep dividers and low-emphasis strokes" },
+    "feyPale": { "value": "#e6e6e6", "role": "ghost outlines and light strokes" },
+    "feyAsh": { "value": "#999999", "role": "low-emphasis borders and secondary text" },
+    "feyEmber": { "value": "#ffa16c", "role": "warm headline highlight and warm gradient terminus" },
+    "feySignal": { "value": "#479ffa", "role": "active nav underline and cool trust accent" },
+    "feyGrowth": { "value": "#4ebe96", "role": "positive finance signals, Buy pills, market movement" },
+    "feyAbyss": { "value": "#000000", "role": "shadow base and deepest backdrops" },
+    "feyFrost": { "value": "#b6d6ff", "role": "cool showcase gradient accent" },
+    "feyVolt": { "value": "#d6fe51", "role": "electric highlight gradient accent" }
+  },
+  "font": {
+    "primary": {
+      "family": "Calibre",
+      "fallback": "Inter, Satoshi, General Sans, Arial, sans-serif",
+      "weights": [400, 500, 600, 700],
+      "features": ["ss01", "tnum"],
+      "usage": "single-family system for captions, body, navigation, labels, and display"
+    }
+  },
+  "text": {
+    "caption": { "size": "10px", "lineHeight": "1.5", "weight": "400 to 500" },
+    "body": { "size": "14px", "lineHeight": "1.5", "weight": 400 },
+    "headingSmall": { "size": "18px", "lineHeight": "1.32", "weight": 600 },
+    "heading": { "size": "24px", "lineHeight": "1.25", "weight": 700, "tracking": "-1.27px" },
+    "headingLarge": { "size": "26px", "lineHeight": "1.2", "weight": 700, "tracking": "-1.38px" },
+    "display": { "size": "48px", "lineHeight": "1.1", "weight": 700, "tracking": "-3.84px" },
+    "displayLarge": { "size": "54px", "lineHeight": "1.0", "weight": 700, "tracking": "-4.32px" }
+  },
+  "space": {
+    "elementGap": "10px to 16px",
+    "sectionGap": "64px",
+    "cardPadding": "18px to 24px",
+    "pageMaxWidth": "1200px"
+  },
+  "radius": {
+    "cards": "16px",
+    "icons": "6px",
+    "small": "10px",
+    "buttons": "99px",
+    "featured": "275px"
+  },
+  "elevation": {
+    "productCard": "rgba(0,0,0,0.8) 0px 0px 44px 0px",
+    "primaryButton": "rgba(0,0,0,0.85) 0px 1px 0px 0px, rgba(255,255,255,0.25) 0px 0px 14px 0px",
+    "featuredCard": "rgba(0,0,0,0.5) 0px 0px 35px 0px"
+  },
+  "component": {
+    "pillNavigationButton": {
+      "radius": "99px",
+      "background": "transparent",
+      "inactiveText": "#868f97",
+      "activeText": "#ffffff",
+      "activeBorder": "1px #479ffa bottom border",
+      "font": "12px to 14px Calibre weight 500"
+    },
+    "productShowcaseCard": {
+      "background": "#191919",
+      "radius": "16px",
+      "shadow": "rgba(0,0,0,0.8) 0px 0px 44px 0px",
+      "content": "charts, tickers, news feeds, insider transactions"
+    },
+    "statusBadge": {
+      "radius": "99px",
+      "padding": "4px 8px",
+      "font": "10px to 11px Calibre weight 500 uppercase",
+      "positive": "#4ebe96"
+    },
+    "dockNavigationBar": {
+      "background": "#191919",
+      "border": "1px #cccccc",
+      "radius": "99px",
+      "icons": "7 to 8 monoline white icons around 20px"
+    }
+  }
+}

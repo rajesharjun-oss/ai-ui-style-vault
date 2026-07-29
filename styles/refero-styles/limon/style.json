@@ -1,0 +1,80 @@
+{
+  "name": "Limon",
+  "slug": "limon",
+  "source_url": "https://styles.refero.design/style/f1b6a7d6-1ecb-4f1c-95b0-e03323363999",
+  "style_id": "f1b6a7d6-1ecb-4f1c-95b0-e03323363999",
+  "reference_site": "https://limonoslo.no",
+  "captured_at": "2026-07-28",
+  "theme": "dark",
+  "summary": "A dark restaurant editorial style with black-olive canvas, warm cream panels, forest green text, lemon-yellow action color, wide positive tracking, near-square controls, flat surfaces, and large edge-to-edge food photography.",
+  "personality": [
+    "restaurant",
+    "moody",
+    "editorial",
+    "food-first",
+    "sharp",
+    "warm"
+  ],
+  "colors": {
+    "blackOlive": "#1d0b0d",
+    "forestInk": "#103b15",
+    "lemonZest": "#f7ea48",
+    "warmCream": "#fcf9f0",
+    "sageMist": "#dbe2dc",
+    "pureWhite": "#ffffff"
+  },
+  "typography": {
+    "primary": "VenusCom, DM Sans, Outfit, Plus Jakarta Sans, Arial, sans-serif",
+    "icon": "Font Awesome 6 Free, Arial, sans-serif",
+    "weights": [300, 400, 500, 600, 700],
+    "sizesPx": [14, 16, 19, 20, 26, 30, 36, 46, 54, 68, 75],
+    "rules": [
+      "Use positive letter spacing at every size.",
+      "Use 0.04em to 0.06em tracking for display text.",
+      "Do not use negative tracking.",
+      "Use uppercase for navigation and CTA labels."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 4,
+    "maxWidthPx": 1200,
+    "sectionGapPx": 60,
+    "cardPaddingPx": 30,
+    "elementGapPx": [15, 20],
+    "scalePx": [4, 8, 12, 16, 20, 120]
+  },
+  "radius": {
+    "cardsPx": 0,
+    "badgesPx": 1,
+    "inputsPx": 1,
+    "buttonsPx": 1,
+    "circularPx": 40
+  },
+  "components": [
+    "top navigation bar",
+    "filled lemon CTA button",
+    "ghost outlined navigation item",
+    "hero overlay display text",
+    "hero sub-line",
+    "food card grid",
+    "ghost order link",
+    "back-to-top circular button",
+    "featured dish banner",
+    "section heading block",
+    "body paragraph"
+  ],
+  "avoid": [
+    "new accent hues",
+    "8px to 12px softened corners",
+    "negative tracking",
+    "lemon CTA on warm cream",
+    "drop shadows",
+    "glows",
+    "gradients",
+    "forest ink button background",
+    "small framed thumbnails",
+    "lifestyle photography"
+  ]
+}
+

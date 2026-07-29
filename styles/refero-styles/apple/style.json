@@ -1,0 +1,174 @@
+{
+  "id": "aecac5da-f397-4ddf-b71f-de1efc434cb8",
+  "name": "Apple",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/aecac5da-f397-4ddf-b71f-de1efc434cb8",
+  "referenceUrl": "https://www.apple.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "White room with a single blue switch: near-white canvas, precise SF Pro typography, product photography as the visual system, and one deliberate filled action color.",
+  "bestFor": [
+    "consumer hardware pages",
+    "premium product showcases",
+    "lifestyle-product launches",
+    "ecommerce product pages",
+    "minimalist service cards",
+    "full-bleed promotional sections"
+  ],
+  "tags": [
+    "light",
+    "apple",
+    "consumer-product",
+    "product-photography",
+    "near-white",
+    "sf-pro",
+    "single-blue-action",
+    "pill-buttons",
+    "full-bleed",
+    "minimal-chrome",
+    "hairline-borders",
+    "centered-hero"
+  ],
+  "colors": {
+    "brand": {
+      "appleBlue": {
+        "value": "#0071e3",
+        "token": "--color-apple-blue",
+        "role": "Filled action buttons and selected states only."
+      },
+      "linkBlue": {
+        "value": "#0066cc",
+        "token": "--color-link-blue",
+        "role": "Outlined action borders and inline links."
+      },
+      "signalBlue": {
+        "value": "#2997ff",
+        "token": "--color-signal-blue",
+        "role": "Decorative borders, image outlines, icon strokes, and atmospheric emphasis."
+      }
+    },
+    "neutrals": {
+      "onyx": "#000000",
+      "carbon": "#1d1d1f",
+      "smoke": "#333333",
+      "graphite": "#474747",
+      "ash": "#707070",
+      "mist": "#858585",
+      "pebble": "#e2e2e5",
+      "frost": "#f5f5f7",
+      "ice": "#f4f8fb"
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "SF Pro Display",
+      "body": "SF Pro Text",
+      "fallback": "Inter, system-ui"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "semibold": 600,
+      "bold": 700
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "1.33",
+        "letterSpacing": "-0.264px"
+      },
+      "bodySmall": {
+        "fontSize": "14px",
+        "lineHeight": "1.29",
+        "letterSpacing": "-0.224px"
+      },
+      "body": {
+        "fontSize": "17px",
+        "lineHeight": "1.47",
+        "letterSpacing": "-0.272px"
+      },
+      "subheading": {
+        "fontSize": "21px",
+        "lineHeight": "1.24",
+        "letterSpacing": "-0.105px"
+      },
+      "headingSmall": {
+        "fontSize": "28px",
+        "lineHeight": "1.18",
+        "letterSpacing": "0.196px"
+      },
+      "heading": {
+        "fontSize": "40px",
+        "lineHeight": "1.14",
+        "letterSpacing": "0.44px"
+      },
+      "headingLarge": {
+        "fontSize": "44px",
+        "lineHeight": "1.18",
+        "letterSpacing": "-0.44px"
+      },
+      "display": {
+        "fontSize": "56px",
+        "lineHeight": "1.07",
+        "letterSpacing": "0.616px"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1440px",
+    "textMaxWidth": "980px",
+    "sectionGap": "64px",
+    "cardPadding": "24px",
+    "elementGap": "12px",
+    "scalePx": [4, 8, 12, 16, 20, 24, 40, 48, 56, 64]
+  },
+  "radii": {
+    "cards": "8px",
+    "images": "8px",
+    "inputs": "8px",
+    "tags": "980px",
+    "buttons": "980px"
+  },
+  "effects": {
+    "productImageShadow": "rgba(0, 0, 0, 0.22) 3px 5px 30px 0px",
+    "chromeShadow": "none"
+  },
+  "components": [
+    "Filled Pill Button",
+    "Outlined Pill Button",
+    "Ghost Link",
+    "Global Nav Bar",
+    "Sticky Mini-Nav",
+    "Product Hero Section",
+    "Feature Banner",
+    "Service Card Grid",
+    "Typography-Only CTA Block",
+    "Footer",
+    "Form Input"
+  ],
+  "guidance": {
+    "do": [
+      "Use Apple Blue only for filled action buttons and selected states.",
+      "Pair every filled blue button with an outlined blue secondary action.",
+      "Set body text at 17px with -0.016em tracking.",
+      "Let product photography fill the full viewport width.",
+      "Use 980px radius for every button, tag, and pill.",
+      "Set section backgrounds to full-bleed Frost or a single product color wash.",
+      "Use weight 300 for subheads and editorial descriptors.",
+      "Use hairline borders and surface shifts instead of elevation."
+    ],
+    "dont": [
+      "Do not use Apple Blue for text, borders, or decoration.",
+      "Do not add drop shadows to cards, buttons, or nav.",
+      "Do not set product-name headlines at weight 700.",
+      "Do not place cards or panels inside a Frost section.",
+      "Do not constrain main product imagery to a narrow max-width container.",
+      "Do not use radius below 980px for buttons or above 8px for cards/images.",
+      "Do not mix the three blues in one interactive element.",
+      "Do not build asymmetrical dashboard layouts in this style."
+    ]
+  }
+}
+

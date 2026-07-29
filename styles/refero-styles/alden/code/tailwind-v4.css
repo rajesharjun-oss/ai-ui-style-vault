@@ -1,0 +1,68 @@
+@theme {
+  --color-white: #ffffff;
+  --color-parchment: #f8f4ee;
+  --color-ink: #1f2937;
+  --color-mist-blue: #e8f5ff;
+  --color-sky-signal: #5aa9e6;
+  --color-sage: #7f9b85;
+  --color-deep-sage: #617761;
+  --color-stone: #6b7280;
+  --color-cloud-border: #e5e7eb;
+
+  --font-display-serif: "Domaine Display", Georgia, "Cormorant Garamond", "Libre Baskerville", ui-serif, serif;
+  --font-sans: Geist, Inter, Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-micro-label: 13px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-body-lg: 18px;
+  --text-card-title: 22px;
+  --text-section-heading: 40px;
+  --text-quote: 48px;
+  --text-hero-heading: 64px;
+
+  --radius-button: 999px;
+  --radius-badge: 999px;
+  --radius-card: 24px;
+  --radius-image: 28px;
+  --radius-input: 16px;
+  --radius-section: 32px;
+  --radius-highlight: 32px;
+
+  --spacing-unit: 4px;
+  --spacing-section: 96px;
+  --spacing-page-max: 1180px;
+  --spacing-card-min: 24px;
+  --spacing-card-max: 32px;
+}
+
+@utility alden-hero-heading {
+  color: var(--color-ink);
+  font-family: var(--font-display-serif);
+  font-size: var(--text-hero-heading);
+  line-height: 1.08;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+@utility alden-highlight {
+  display: inline;
+  border-radius: var(--radius-highlight);
+  background: var(--color-mist-blue);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0 0.16em;
+}
+
+@utility alden-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-button);
+  background: var(--color-sage);
+  color: var(--color-white);
+  padding: 14px 24px;
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: 500;
+}

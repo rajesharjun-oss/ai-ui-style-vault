@@ -1,0 +1,168 @@
+{
+  "name": "Wise",
+  "slug": "wise",
+  "theme": "light",
+  "source": "https://styles.refero.design/style/367c0c6e-73a7-441c-a8ff-91d139ac60dc",
+  "referenceSite": "https://wise.com",
+  "color": {
+    "forestInk": {
+      "value": "#163300",
+      "type": "color",
+      "role": "Dominant brand dark, dark sections, nav text, primary copy, icon strokes"
+    },
+    "limeVoltage": {
+      "value": "#9fe870",
+      "type": "color",
+      "role": "Primary action fill, active tabs, highlight surfaces on dark green"
+    },
+    "spruce": {
+      "value": "#054d28",
+      "type": "color",
+      "role": "Secondary dark green and tonal depth"
+    },
+    "linenMist": {
+      "value": "#e2f6d5",
+      "type": "color",
+      "role": "Pale green highlight wash, tinted cards, hover states"
+    },
+    "signalBlue": {
+      "value": "#0b4c72",
+      "type": "color",
+      "role": "Low-frequency supporting accent"
+    },
+    "alarmRed": {
+      "value": "#cb272f",
+      "type": "color",
+      "role": "Low-frequency supporting accent"
+    },
+    "charcoal": {
+      "value": "#454745",
+      "type": "color",
+      "role": "Body text and dense UI"
+    },
+    "obsidian": {
+      "value": "#0e0f0c",
+      "type": "color",
+      "role": "Display headings and maximum contrast moments"
+    },
+    "pebble": {
+      "value": "#868685",
+      "type": "color",
+      "role": "Muted copy, placeholders, input borders"
+    },
+    "slate": {
+      "value": "#6a6c6a",
+      "type": "color",
+      "role": "Supporting copy and helper labels"
+    },
+    "fog": {
+      "value": "#e8ebe6",
+      "type": "color",
+      "role": "Card surfaces, soft panels, dividers"
+    },
+    "paper": {
+      "value": "#ffffff",
+      "type": "color",
+      "role": "Page canvas and inverted surfaces"
+    }
+  },
+  "font": {
+    "wiseSans": {
+      "value": "Wise Sans, Inter, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Hero headlines and major display type"
+    },
+    "inter": {
+      "value": "Inter, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Body, UI, nav, forms, labels, cards, smaller headings"
+    }
+  },
+  "size": {
+    "micro": {
+      "value": "12px",
+      "lineHeight": "1.63",
+      "letterSpacing": "-0.036px"
+    },
+    "caption": {
+      "value": "14px",
+      "lineHeight": "1.55",
+      "letterSpacing": "-0.07px"
+    },
+    "bodySm": {
+      "value": "16px",
+      "lineHeight": "1.5",
+      "letterSpacing": "-0.096px"
+    },
+    "body": {
+      "value": "18px",
+      "lineHeight": "1.5",
+      "letterSpacing": "-0.126px"
+    },
+    "bodyLg": {
+      "value": "25px",
+      "lineHeight": "1.3",
+      "letterSpacing": "-0.225px"
+    },
+    "subheading": {
+      "value": "36px",
+      "lineHeight": "1.25",
+      "letterSpacing": "-0.396px"
+    },
+    "headingSm": {
+      "value": "45px",
+      "lineHeight": "1.1",
+      "letterSpacing": "-0.495px"
+    },
+    "heading": {
+      "value": "61px",
+      "lineHeight": "1.1",
+      "letterSpacing": "-0.915px"
+    },
+    "headingLg": {
+      "value": "89px",
+      "lineHeight": "0.85",
+      "letterSpacing": "-2.67px"
+    },
+    "display": {
+      "value": "105px",
+      "lineHeight": "0.85",
+      "letterSpacing": "-3.15px",
+      "fontWeight": 900
+    }
+  },
+  "spacing": {
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "28": "28px",
+    "32": "32px",
+    "40": "40px",
+    "44": "44px",
+    "48": "48px",
+    "56": "56px",
+    "64": "64px",
+    "100": "100px",
+    "124": "124px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px to 80px",
+    "cardPadding": "24px",
+    "elementGap": "8px to 12px"
+  },
+  "radius": {
+    "pill": "9999px",
+    "card": "10px",
+    "input": "10px",
+    "imageMask": "1000px",
+    "largeCard": "28px"
+  },
+  "shadow": {
+    "subtle": "0 0 0 1px rgba(14, 15, 12, 0.12)",
+    "inset": "inset 0 0 0 1px #868685",
+    "xl": "0 10px 32px rgba(0, 0, 0, 0.15), 0 40px 40px rgba(0, 0, 0, 0.04)",
+    "lg": "0 6px 20px rgba(0, 0, 0, 0.08)"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Legora",
+  "slug": "legora",
+  "source_url": "https://styles.refero.design/style/f89bad29-019a-48d7-9724-c40a0d7d8171",
+  "style_id": "f89bad29-019a-48d7-9724-c40a0d7d8171",
+  "reference_site": "https://legora.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A legal-editorial style with parchment canvas, whisper-weight Rhymes Display headlines, Suisse-style body copy, black micro-radius CTAs, hairline structure, pastel product wash panels, and one cinematic hero photograph.",
+  "personality": [
+    "legal",
+    "editorial",
+    "restrained",
+    "premium",
+    "monochrome",
+    "journal"
+  ],
+  "colors": {
+    "parchment": "#fefefc",
+    "ink": "#000000",
+    "graphite": "#0a0a0a",
+    "iron": "#444444",
+    "smoke": "#6b6b6b",
+    "verdigrisWash": "#ebf5ed",
+    "slateMist": "#bdd4f0",
+    "pewterHaze": "#98a7aa"
+  },
+  "typography": {
+    "display": "Rhymes Display, Playfair Display, Cormorant Garamond, serif",
+    "body": "Suisse Intl, Suisse Intl Book, Inter, Sohne, sans-serif",
+    "secondaryBody": "Aktiv Grotesk VF, Inter, Sohne, sans-serif",
+    "weights": [300, 400, 450, 500],
+    "sizesPx": [11, 13, 14, 15, 16, 20, 24, 32, 80, 88],
+    "features": "\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"",
+    "rules": [
+      "Use Rhymes Display 300 for opening display headlines.",
+      "Use Suisse Intl 450 for body copy.",
+      "Do not use bold or semibold display weights.",
+      "Keep display headlines one or two lines."
+    ]
+  },
+  "spacing": {
+    "density": "compact",
+    "maxWidthPx": 1200,
+    "sectionGapPx": 80,
+    "cardPaddingPx": 24,
+    "elementGapPx": 10,
+    "scalePx": [4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, 56, 64, 80, 160]
+  },
+  "radius": {
+    "tagsPx": 2,
+    "buttonsPx": 2,
+    "cardsPx": 8,
+    "inputsPx": 8
+  },
+  "components": [
+    "solid black button",
+    "ghost outline button",
+    "editorial headline block",
+    "cinematic hero panel",
+    "partner logo bar",
+    "pastel feature card",
+    "two-column text image feature",
+    "cookie banner",
+    "top navigation bar",
+    "input field",
+    "eyebrow label"
+  ],
+  "avoid": [
+    "saturated brand colors",
+    "bold display headlines",
+    "drop shadows",
+    "0px button radius",
+    "fully rounded buttons",
+    "pure white page surfaces",
+    "multiple full-bleed photos",
+    "Playfair as primary production face",
+    "native-color partner logos"
+  ]
+}
+

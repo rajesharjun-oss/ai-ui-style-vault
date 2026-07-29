@@ -1,0 +1,73 @@
+{
+  "id": "4235ebdc-a070-46ef-abbf-692151449bea",
+  "name": "Nofilter.space",
+  "slug": "nofilter-space",
+  "sourceUrl": "https://styles.refero.design/style/4235ebdc-a070-46ef-abbf-692151449bea",
+  "referenceSite": "https://www.nofilter.space",
+  "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/0ec76f9e-8ea9-4316-8d83-2b7fbd9c892b.jpg",
+  "detailScreenshot": "https://images.refero.design/styles/refero.design/image/024c6f59-3d80-416b-91f8-a651efc3f6ff.jpg",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "austere editorial grid on white paper",
+  "industry": ["media", "editorial", "publishing", "reportage", "culture"],
+  "summary": "A strict monochrome editorial style with Paper White canvas, Ink #333333 text and hairlines, Carbon #000000 emphasis, Pragmatica typography, 0px image/card radius, square bordered featured cards, 3-column grid, checkbox filters, and zero shadows or decorative UI effects.",
+  "colors": {
+    "paper": "#ffffff",
+    "ink": "#333333",
+    "carbon": "#000000"
+  },
+  "typography": {
+    "primary": "pragmatica",
+    "fallback": "Helvetica Neue, Arial, Inter, sans-serif",
+    "weights": [400],
+    "letterSpacing": "0",
+    "style": "single-family editorial sans system"
+  },
+  "shape": {
+    "imageRadius": "0px",
+    "cardRadius": "0px",
+    "featuredCardRadius": "0px",
+    "checkboxSize": "12px",
+    "borderWidth": "1px"
+  },
+  "layout": {
+    "density": "editorial",
+    "grid": "3 columns",
+    "rowGap": "30px",
+    "columnGap": "30px",
+    "sidePadding": "35px",
+    "contentGroupGap": "40px to 60px",
+    "model": "white printed editorial surface with top nav filters, large wordmark, square image cards, bordered featured cards, and strict 3-column alignment"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "none",
+    "depth": "1px borders, whitespace, and typographic hierarchy only"
+  },
+  "components": [
+    "top nav bar",
+    "wordmark header",
+    "editorial image card",
+    "bordered featured card",
+    "section row",
+    "checkbox filter"
+  ],
+  "dos": [
+    "Use Paper White as the full page background.",
+    "Use Ink #333333 for text, hairlines, borders, and filters.",
+    "Use Pragmatica at weight 400 throughout.",
+    "Use 0px radius for images and cards.",
+    "Use a strict 3-column grid with 30px gaps.",
+    "Use 1px borders for featured cards and checkbox controls.",
+    "Solve hierarchy with size, whitespace, and alignment."
+  ],
+  "donts": [
+    "Do not add shadows.",
+    "Do not use gradients or blur.",
+    "Do not introduce accent colors.",
+    "Do not round cards or images.",
+    "Do not add thick borders.",
+    "Do not create SaaS-style CTA buttons.",
+    "Do not use decorative dividers when whitespace can separate groups."
+  ]
+}

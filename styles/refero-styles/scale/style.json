@@ -1,0 +1,185 @@
+{
+  "id": "e81d4724-9615-4159-8678-cef35f986cab",
+  "name": "Scale",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/e81d4724-9615-4159-8678-cef35f986cab",
+  "referenceUrl": "https://scale.com",
+  "capturedOn": "2026-07-28",
+  "theme": "mixed",
+  "mood": "Cinematic enterprise AI with a dark photographic hero, black wireframe data space, and crisp white analytical product surfaces.",
+  "bestFor": [
+    "enterprise AI platforms",
+    "data infrastructure",
+    "model evaluation tools",
+    "government AI",
+    "defense AI",
+    "analytics dashboards",
+    "technical product landing pages"
+  ],
+  "tags": [
+    "mixed",
+    "enterprise-ai",
+    "cinematic-hero",
+    "photographic",
+    "wireframe",
+    "monochrome",
+    "white-product-ui",
+    "technical",
+    "analytics",
+    "data-infrastructure",
+    "suisse",
+    "mono-data"
+  ],
+  "colors": {
+    "brand": {
+      "pureBlack": {
+        "value": "#000000",
+        "token": "--color-pure-black",
+        "role": "Global hero and terminal canvas, black CTAs, high-contrast copy on light."
+      },
+      "scaleWhite": {
+        "value": "#ffffff",
+        "token": "--color-scale-white",
+        "role": "Card surfaces, light-mode page background, inverse hero type."
+      },
+      "signalGreen": {
+        "value": "#19d27f",
+        "token": "--color-signal-green",
+        "role": "Small data highlights, graph nodes, progress accents, and success state."
+      },
+      "modelBlue": {
+        "value": "#3f7dff",
+        "token": "--color-model-blue",
+        "role": "AI/model category tags, chart highlights, and hover accents."
+      },
+      "dataViolet": {
+        "value": "#7b61ff",
+        "token": "--color-data-violet",
+        "role": "Secondary chart/category accent and wireframe glow points."
+      }
+    },
+    "neutrals": {
+      "nearBlack": "#050505",
+      "graphite": "#111111",
+      "steel": "#333333",
+      "ash": "#6f6f6f",
+      "mist": "#e6e6e6",
+      "cloud": "#f6f6f6",
+      "paper": "#fafafa"
+    },
+    "accents": {
+      "warningAmber": "#ffb547",
+      "errorRed": "#ff5a5f",
+      "successGreen": "#19d27f"
+    }
+  },
+  "typography": {
+    "families": {
+      "sans": "Suisse Intl",
+      "mono": "Suisse Intl Mono"
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "1.5",
+        "fontWeight": 500,
+        "letterSpacing": "0.06em"
+      },
+      "bodySmall": {
+        "fontSize": "14px",
+        "lineHeight": "1.55",
+        "fontWeight": 400,
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.6",
+        "fontWeight": 400,
+        "letterSpacing": "0"
+      },
+      "lead": {
+        "fontSize": "20px",
+        "lineHeight": "1.45",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em"
+      },
+      "headingSmall": {
+        "fontSize": "28px",
+        "lineHeight": "1.18",
+        "fontWeight": 500,
+        "letterSpacing": "-0.03em"
+      },
+      "heading": {
+        "fontSize": "48px",
+        "lineHeight": "1.05",
+        "fontWeight": 500,
+        "letterSpacing": "-0.05em"
+      },
+      "display": {
+        "fontSize": "72px",
+        "lineHeight": "0.96",
+        "fontWeight": 500,
+        "letterSpacing": "-0.06em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1280px",
+    "sectionGap": "96px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scalePx": [4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 128]
+  },
+  "radii": {
+    "buttons": "999px",
+    "cards": "16px",
+    "panels": "12px",
+    "inputs": "8px",
+    "chips": "999px"
+  },
+  "effects": {
+    "heroOverlay": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.82) 100%)",
+    "wireframeGlow": "radial-gradient(circle at center, rgba(63, 125, 255, 0.22), rgba(0, 0, 0, 0) 60%)",
+    "cardBorder": "1px solid #e6e6e6",
+    "darkBorder": "1px solid rgba(255, 255, 255, 0.14)"
+  },
+  "components": [
+    "Over-Hero Navigation",
+    "Black Primary CTA",
+    "White Outline CTA",
+    "Cinematic Hero",
+    "Wireframe Data Band",
+    "White Product Card",
+    "Analytics Dashboard Panel",
+    "Model Evaluation Row",
+    "Metric Chip",
+    "Category Tag",
+    "Case Study Card",
+    "Logo Strip"
+  ],
+  "guidance": {
+    "do": [
+      "Use full-bleed photography only in the hero or major campaign moments.",
+      "Use pure black for the wireframe/data transition band.",
+      "Use white and near-white surfaces for product UI sections.",
+      "Keep accents small and analytical.",
+      "Use mono type for metrics, model IDs, data labels, and code.",
+      "Use 1px borders to define cards and tables.",
+      "Preserve a strong dark-to-light page transition.",
+      "Keep layouts gridded and enterprise-serious."
+    ],
+    "dont": [
+      "Do not use colorful gradients as general backgrounds.",
+      "Do not overuse green, blue, or violet outside analytical marks.",
+      "Do not use rounded consumer cards beyond 16px.",
+      "Do not add playful illustration or sticker assets.",
+      "Do not make the whole site dark.",
+      "Do not use heavy shadows on product UI.",
+      "Do not set long body copy in mono.",
+      "Do not make data tables spacious or decorative."
+    ]
+  }
+}
+

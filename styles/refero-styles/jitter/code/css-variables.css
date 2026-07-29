@@ -1,0 +1,130 @@
+:root {
+  --jitter-font-display: "TWK Lausanne", "Inter Tight", "Switzer", "General Sans", system-ui, sans-serif;
+  --jitter-font-ui: "Inter", system-ui, sans-serif;
+
+  --jitter-color-studio-off-white: #f2f1f3;
+  --jitter-color-pure-white: #ffffff;
+  --jitter-color-hairline-gray: #e5e4e7;
+  --jitter-color-soft-mist: #97979b;
+  --jitter-color-slate: #6e6e73;
+  --jitter-color-ink: #19171c;
+  --jitter-color-pure-black: #000000;
+  --jitter-color-eclipse-violet: #7a40ed;
+  --jitter-color-deep-plum: #17082c;
+  --jitter-color-lilac-wash: #a981ff;
+  --jitter-color-lavender-mist: #cab3f8;
+  --jitter-color-electric-blue: #00b2ff;
+  --jitter-color-sky-tint: #e6f4ff;
+  --jitter-color-ice-blue: #a9dbff;
+  --jitter-color-volt: #f5ff63;
+
+  --jitter-radius-button: 50px;
+  --jitter-radius-card: 40px;
+  --jitter-radius-badge: 40px;
+  --jitter-radius-input: 26px;
+  --jitter-radius-circle: 9999px;
+
+  --jitter-space-1: 4px;
+  --jitter-space-2: 8px;
+  --jitter-space-3: 12px;
+  --jitter-space-4: 16px;
+  --jitter-space-5: 20px;
+  --jitter-space-6: 24px;
+  --jitter-space-8: 32px;
+  --jitter-space-10: 40px;
+  --jitter-space-16: 64px;
+  --jitter-space-20: 80px;
+  --jitter-space-30: 120px;
+  --jitter-max-width: 1200px;
+
+  --jitter-shadow-preview:
+    0 152px 61px rgba(25, 23, 28, 0.01),
+    0 85px 51px rgba(25, 23, 28, 0.05),
+    0 38px 38px rgba(25, 23, 28, 0.09),
+    0 9px 21px rgba(25, 23, 28, 0.10);
+}
+
+.jitter-page {
+  min-height: 100%;
+  background: var(--jitter-color-studio-off-white);
+  color: var(--jitter-color-ink);
+  font-family: var(--jitter-font-ui);
+}
+
+.jitter-hero-title {
+  color: var(--jitter-color-ink);
+  font-family: var(--jitter-font-display);
+  font-size: clamp(52px, 8vw, 80px);
+  line-height: 0.95;
+  font-weight: 800;
+  letter-spacing: -0.032em;
+}
+
+.jitter-body {
+  color: var(--jitter-color-slate);
+  font-family: var(--jitter-font-ui);
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.023em;
+}
+
+.jitter-dark-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 24px;
+  border-radius: var(--jitter-radius-button);
+  border: 0;
+  background: var(--jitter-color-ink);
+  color: var(--jitter-color-pure-white);
+  font-family: var(--jitter-font-ui);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.jitter-violet-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 16px 32px;
+  border-radius: var(--jitter-radius-button);
+  border: 0;
+  background: var(--jitter-color-eclipse-violet);
+  color: var(--jitter-color-pure-white);
+  font-family: var(--jitter-font-ui);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.jitter-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 14px;
+  border-radius: var(--jitter-radius-badge);
+  background: var(--jitter-color-lavender-mist);
+  color: var(--jitter-color-deep-plum);
+  font-family: var(--jitter-font-ui);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.jitter-preview-card {
+  overflow: hidden;
+  border-radius: var(--jitter-radius-card);
+  background: var(--jitter-color-pure-white);
+  box-shadow: var(--jitter-shadow-preview);
+}
+
+.jitter-input-dark {
+  border: 0;
+  border-radius: var(--jitter-radius-input);
+  background: #2d2933;
+  color: var(--jitter-color-pure-white);
+  padding: 12px 16px;
+  font-family: var(--jitter-font-ui);
+  font-size: 16px;
+}

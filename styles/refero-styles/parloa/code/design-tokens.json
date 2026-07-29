@@ -1,0 +1,87 @@
+{
+  "name": "Parloa",
+  "sourceUrl": "https://styles.refero.design/style/c90e63f8-76c1-4159-9460-29e0d18751ae",
+  "referenceUrl": "https://www.parloa.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "color": {
+    "inkBlack": { "value": "#1f1c1b", "type": "color" },
+    "paperWhite": { "value": "#ffffff", "type": "color" },
+    "canvasCream": { "value": "#ebe9e1", "type": "color" },
+    "linen": { "value": "#f5f4f0", "type": "color" },
+    "stone": { "value": "#a69b92", "type": "color" },
+    "hairline": { "value": "#d9d6ce", "type": "color" },
+    "espresso": { "value": "#2d2724", "type": "color" },
+    "charcoal": { "value": "#000000", "type": "color" },
+    "cobblestone": { "value": "#c7c1b7", "type": "color" },
+    "highlighterOrange": { "value": "#ff7714", "type": "color" }
+  },
+  "font": {
+    "exposure30": { "value": "Exposure30, Fraunces, Playfair Display, DM Serif Display, ui-serif, Georgia, serif", "type": "fontFamily" },
+    "geist": { "value": "Geist, Inter, Manrope, system-ui, sans-serif", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "light": { "value": 300, "type": "fontWeight" },
+    "displayLight": { "value": 350, "type": "fontWeight" },
+    "regular": { "value": 400, "type": "fontWeight" },
+    "medium": { "value": 500, "type": "fontWeight" },
+    "semibold": { "value": 600, "type": "fontWeight" }
+  },
+  "fontSize": {
+    "caption": { "value": "10px", "type": "fontSize" },
+    "body": { "value": "16px", "type": "fontSize" },
+    "subheading": { "value": "18px", "type": "fontSize" },
+    "headingSm": { "value": "24px", "type": "fontSize" },
+    "heading": { "value": "42px", "type": "fontSize" },
+    "headingLg": { "value": "82px", "type": "fontSize" },
+    "display": { "value": "96px", "type": "fontSize" }
+  },
+  "lineHeight": {
+    "caption": { "value": 1.2, "type": "lineHeight" },
+    "body": { "value": 1.5, "type": "lineHeight" },
+    "subheading": { "value": 1.4, "type": "lineHeight" },
+    "headingSm": { "value": 1.3, "type": "lineHeight" },
+    "heading": { "value": 1.1, "type": "lineHeight" },
+    "headingLg": { "value": 1.05, "type": "lineHeight" },
+    "display": { "value": 1, "type": "lineHeight" }
+  },
+  "letterSpacing": {
+    "caption": { "value": "0.2px", "type": "letterSpacing" },
+    "body": { "value": "0.16px", "type": "letterSpacing" },
+    "subheading": { "value": "0.18px", "type": "letterSpacing" },
+    "headingSm": { "value": "0.24px", "type": "letterSpacing" },
+    "heading": { "value": "-0.42px", "type": "letterSpacing" },
+    "headingLg": { "value": "-0.82px", "type": "letterSpacing" },
+    "display": { "value": "-0.96px", "type": "letterSpacing" }
+  },
+  "spacing": {
+    "4": { "value": "4px", "type": "dimension" },
+    "8": { "value": "8px", "type": "dimension" },
+    "12": { "value": "12px", "type": "dimension" },
+    "16": { "value": "16px", "type": "dimension" },
+    "20": { "value": "20px", "type": "dimension" },
+    "24": { "value": "24px", "type": "dimension" },
+    "32": { "value": "32px", "type": "dimension" },
+    "40": { "value": "40px", "type": "dimension" },
+    "48": { "value": "48px", "type": "dimension" },
+    "60": { "value": "60px", "type": "dimension" },
+    "64": { "value": "64px", "type": "dimension" },
+    "72": { "value": "72px", "type": "dimension" }
+  },
+  "radius": {
+    "cards": { "value": "0px", "type": "borderRadius" },
+    "tags": { "value": "2px", "type": "borderRadius" },
+    "inputs": { "value": "2px", "type": "borderRadius" },
+    "buttons": { "value": "2px", "type": "borderRadius" },
+    "maximum": { "value": "4px", "type": "borderRadius" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1200px", "type": "dimension" },
+    "sectionGap": { "value": "80px", "type": "dimension" },
+    "cardPadding": { "value": "24px", "type": "dimension" },
+    "elementGap": { "value": "16px", "type": "dimension" }
+  },
+  "shadow": {
+    "none": { "value": "none", "type": "boxShadow" }
+  }
+}

@@ -1,0 +1,370 @@
+{
+    "id":  "b44b0bb2-4ba3-4599-9706-3c3e0c8c2522",
+    "name":  "Impilo",
+    "slug":  "impilo",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/b44b0bb2-4ba3-4599-9706-3c3e0c8c2522",
+                   "referenceSite":  "https://impilo.health",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-05-07T22:01:52.513Z",
+                   "articleModifiedAt":  "2026-06-03T19:11:00.884Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/17e471b1-84c6-4cf3-ad0e-fec7e3c861be.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/ad557587-32c8-47af-b887-3109bbe60749.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/24610e9b-f7ac-4c72-83c5-3a7ba652ed96.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/43a1efbf-0b3d-42b5-b6ee-be37dd2b6845.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/0e7677aa-03f5-4b4d-96d6-341444f21281.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "dark",
+                           "category":  "Other",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "Other",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Midnight clinical observatory a violet command console where health data glows in cyan.",
+    "summary":  "Explore Impilo\u0027s dark Other design system: Deep Iris #16165c, Iris Shadow #232269 colors, Gilroy typography, and DESIGN.md for AI agents.",
+    "colors":  [
+                   {
+                       "name":  "Deep Iris",
+                       "value":  "#16165c",
+                       "token":  "--color-deep-iris",
+                       "role":  "Page canvas, hero background, primary surface the brand-defining midnight violet that sets the entire dark mode identity"
+                   },
+                   {
+                       "name":  "Iris Shadow",
+                       "value":  "#232269",
+                       "token":  "--color-iris-shadow",
+                       "role":  "Elevated card surfaces on dark canvas, secondary card backgrounds one step lighter than canvas for depth without breaking the violet atmosphere"
+                   },
+                   {
+                       "name":  "Iris Glow",
+                       "value":  "#403cd5",
+                       "token":  "--color-iris-glow",
+                       "role":  "Mid-tone accent surface, footer background, highlighted metric blocks mid-violet for tertiary elevation and accent fills"
+                   },
+                   {
+                       "name":  "Iris Pulse",
+                       "value":  "#5350cc",
+                       "token":  "--color-iris-pulse",
+                       "role":  "Violet action color for filled buttons, selected navigation states, and focused conversion moments."
+                   },
+                   {
+                       "name":  "Iris Border",
+                       "value":  "#4846c6",
+                       "token":  "--color-iris-border",
+                       "role":  "Card border outlines, subtle surface edges on dark mode keeps card perimeters defined without breaking the violet mood"
+                   },
+                   {
+                       "name":  "Iris Veil",
+                       "value":  "#524fe1",
+                       "token":  "--color-iris-veil",
+                       "role":  "Body and card border accent, secondary surface outline lighter violet for hairline separators on dark surfaces"
+                   },
+                   {
+                       "name":  "Lilac Mist",
+                       "value":  "#b1a6f6",
+                       "token":  "--color-lilac-mist",
+                       "role":  "Line-art illustration stroke, decorative SVG fills, wireframe graphics soft violet for technical/medical illustration overlay"
+                   },
+                   {
+                       "name":  "Clinical Cyan",
+                       "value":  "#00b1ff",
+                       "token":  "--color-clinical-cyan",
+                       "role":  "Data highlights, chart strokes, icon accents, inline links, interactive borders the primary data-viz and link color across the UI"
+                   },
+                   {
+                       "name":  "Cyan Soft",
+                       "value":  "#59b4ff",
+                       "token":  "--color-cyan-soft",
+                       "role":  "Secondary cyan accent, softer data labels, gradient endpoints paired with Clinical Cyan"
+                   },
+                   {
+                       "name":  "Mint Vital",
+                       "value":  "#00ffaa",
+                       "token":  "--color-mint-vital",
+                       "role":  "Green outline accent for tags, dividers, and focused UI edges. Use as a supporting accent, not as a status color"
+                   },
+                   {
+                       "name":  "Teal Signal",
+                       "value":  "#2ee9ff",
+                       "token":  "--color-teal-signal",
+                       "role":  "Highlight accent for key data callouts and chart emphasis brighter teal-cyan for moments that need to pop"
+                   },
+                   {
+                       "name":  "Cloud White",
+                       "value":  "#ffffff",
+                       "token":  "--color-cloud-white",
+                       "role":  "Primary text, button text on dark, button backgrounds in light section, high-contrast headings"
+                   },
+                   {
+                       "name":  "Pearl",
+                       "value":  "#f4f4f6",
+                       "token":  "--color-pearl",
+                       "role":  "Soft icon strokes, subtle dividers, and low-emphasis decorative details. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Ash",
+                       "value":  "#d8d8e3",
+                       "token":  "--color-ash",
+                       "role":  "Muted text on light sections, secondary borders, low-emphasis labels"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#9494a9",
+                       "token":  "--color-fog",
+                       "role":  "Hairline dividers, disabled borders, low-contrast separators"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Gilroy Sole typeface across the entire system weight 500 for body, links, buttons, cards; weight 600 for all headings and display. Gilroy\u0027s geometric humanism gives medical data a friendly, non-clinical warmth `--font-gilroy`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "1.44",
+                                             "0.24px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "1.44",
+                                             "0.28px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "18px",
+                                             "1.44",
+                                             "-0.54px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "24px",
+                                             "1.44",
+                                             "-0.72px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "46px",
+                                             "1",
+                                             "-1.84px",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "54px",
+                                             "1",
+                                             "-2.16px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "heading-xl",
+                                             "66px",
+                                             "1",
+                                             "-2.64px",
+                                             "--text-heading-xl"
+                                         ],
+                                         [
+                                             "display",
+                                             "92px",
+                                             "0.92",
+                                             "-6.9px",
+                                             "--text-display"
+                                         ],
+                                         [
+                                             "display-xl",
+                                             "124px",
+                                             "0.92",
+                                             "-9.3px",
+                                             "--text-display-xl"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "36",
+                                      "36px",
+                                      "--spacing-36"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "48",
+                                      "48px",
+                                      "--spacing-48"
+                                  ],
+                                  [
+                                      "116",
+                                      "116px",
+                                      "--spacing-116"
+                                  ],
+                                  [
+                                      "220",
+                                      "220px",
+                                      "--spacing-220"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "24px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "8px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "tags",
+                                    "9999px"
+                                ],
+                                [
+                                    "cards",
+                                    "24px"
+                                ],
+                                [
+                                    "icons",
+                                    "7px"
+                                ],
+                                [
+                                    "inputs",
+                                    "16px"
+                                ],
+                                [
+                                    "buttons",
+                                    "9999px"
+                                ],
+                                [
+                                    "cards-elevated",
+                                    "32px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Pill CTA Button (Primary)",
+                           "role":  "Primary action trigger in hero and navigation"
+                       },
+                       {
+                           "name":  "Pill Button (Ghost)",
+                           "role":  "Secondary or outline action on dark canvas"
+                       },
+                       {
+                           "name":  "Pill Button (Light Section)",
+                           "role":  "Primary action in inverted Pearl sections"
+                       },
+                       {
+                           "name":  "Dark Canvas Card",
+                           "role":  "Data dashboard panel, elevated content block"
+                       },
+                       {
+                           "name":  "Highlighted Metric Card",
+                           "role":  "Hero metric display (e.g., \u0027Blood Pressure Average 127/73\u0027)"
+                       },
+                       {
+                           "name":  "Tab Strip (Dashboard)",
+                           "role":  "Metric category selector within dashboard"
+                       },
+                       {
+                           "name":  "Patient Profile Card",
+                           "role":  "Sidebar patient identity block"
+                       },
+                       {
+                           "name":  "Billing Summary List",
+                           "role":  "Categorized list with icon-prefixed rows"
+                       },
+                       {
+                           "name":  "Chart Container",
+                           "role":  "Data visualization wrapper"
+                       },
+                       {
+                           "name":  "Word Highlight Box",
+                           "role":  "Dotted-outline emphasis treatment for key headline words"
+                       },
+                       {
+                           "name":  "Navigation Bar (Dark)",
+                           "role":  "Top-level site navigation"
+                       },
+                       {
+                           "name":  "Section Divider (Light Inversion)",
+                           "role":  "Break between dark and light page sections"
+                       }
+                   ],
+    "dos":  [
+                "Use Deep Iris (#16165c) as the page canvas for all dark sections never introduce a neutral gray or pure black background",
+                "Set all buttons and tags to 9999px border-radius pill geometry is non-negotiable and defines the brand silhouette",
+                "Apply -0.075em letter-spacing at 92px+ display sizes to make headlines feel compressed and engineered rather than airy",
+                "Reserve Clinical Cyan (#00b1ff) for data, links, and chart strokes never as a decorative fill",
+                "Pair Mint Vital (#00ffaa) with health-positive data (vitals in range, active status) to give green semantic meaning beyond decoration",
+                "Use the dotted-outline Word Highlight Box for the single most important word in any headline one per page maximum",
+                "Break between dark and light sections with a hard color cut at Pearl (#f4f4f6) no gradient transitions between themes"
+            ],
+    "donts":  [
+                  "Never use a neutral gray (e.g., #1a1a1a, #2a2a2a) as a background all dark surfaces must stay in the violet family",
+                  "Do not mix weight 400 or 700 into the type system Gilroy speaks only in 500 and 600",
+                  "Never apply Clinical Cyan (#00b1ff) as a large solid fill on buttons or hero blocks it is a data/link color, not a surface color",
+                  "Do not use Mint Vital (#00ffaa) for error states or warnings its meaning is locked to positive health signals",
+                  "Avoid sharp corners (0-4px radius) on any container minimum 7px for icons, 16px for inputs, 24px for cards",
+                  "Do not introduce a second typeface Gilroy at weights 500/600 covers every typographic need",
+                  "Never use white (#ffffff) as a card background on the dark canvas the light inversion section is the only place Cloud White surfaces belong",
+                  "Do not use gradient transitions between dark and light sections the hard cut is a signature choice"
+              ]
+}

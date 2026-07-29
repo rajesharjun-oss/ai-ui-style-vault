@@ -1,0 +1,134 @@
+{
+  "id": "8875b14e-c59a-492f-8780-8027a480f21c",
+  "name": "Vivid+Co",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/8875b14e-c59a-492f-8780-8027a480f21c",
+  "referenceUrl": "https://vividand.co",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Cinematic dark agency system with obsidian canvas, near-white typography, huge weight-400 Neue Montreal display type, sparse UI chrome, and a single RGB prism artifact as the only chromatic voice.",
+  "bestFor": [
+    "creative agencies",
+    "brand studios",
+    "cinematic portfolios",
+    "art direction pages",
+    "experimental landing pages",
+    "high-end studio case-study indexes"
+  ],
+  "tags": [
+    "dark",
+    "creative-agency",
+    "cinematic",
+    "monochrome",
+    "prism-artifact",
+    "oversized-type",
+    "neue-montreal",
+    "no-filled-buttons",
+    "zero-shadows",
+    "portfolio",
+    "minimal-ui"
+  ],
+  "colors": {
+    "boneWhite": { "value": "#fffdf9", "token": "--color-bone-white", "role": "Primary text, nav labels, link color, heading fill, and almost every interactive element." },
+    "obsidian": { "value": "#101010", "token": "--color-obsidian", "role": "Page canvas, hero void, and full-bleed dark sections." },
+    "graphiteVeil": { "value": "#495764", "token": "--color-graphite-veil", "role": "Cool dark slate surface behind headings and content blocks." },
+    "ashBorder": { "value": "#403f3f", "token": "--color-ash-border", "role": "Hairline divider and rare card outline." },
+    "fogBlue": { "value": "#6f879c", "token": "--color-fog-blue", "role": "Muted secondary text, ghost labels, and de-emphasized metadata." },
+    "pureBlack": { "value": "#000000", "token": "--color-pure-black", "role": "Decorative SVG icon and illustration fill; not a page background." },
+    "prismRed": { "value": "#ff2a2a", "token": "--color-prism-red", "role": "RGB prism artifact channel only; not a UI token." },
+    "prismCyan": { "value": "#2a7fff", "token": "--color-prism-cyan", "role": "RGB prism artifact channel only; not a UI token." },
+    "prismLime": { "value": "#2aff2a", "token": "--color-prism-lime", "role": "RGB prism artifact channel only; not a UI token." }
+  },
+  "typography": {
+    "families": {
+      "primary": "Neue Montreal"
+    },
+    "fallbacks": {
+      "primary": "Sohne, Inter, General Sans, system-ui, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "bold": 700
+    },
+    "rules": [
+      "Use Neue Montreal-style type across the entire interface.",
+      "Keep weight 400 as the default for headings, body, nav, buttons, links, and footer.",
+      "Reserve weight 700 for rare 36px subheadings only.",
+      "Set display headings at 105px to 136px with line-height near 1.00.",
+      "Do not use 600 to 800 weights for display headings.",
+      "Enable stylistic set 1 when available."
+    ],
+    "scale": {
+      "caption": { "size": "15px", "lineHeight": 1.2, "letterSpacing": "0.15px", "token": "--text-caption" },
+      "bodySm": { "size": "18px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-body-sm" },
+      "body": { "size": "20px", "lineHeight": 1.2, "letterSpacing": "-0.2px", "token": "--text-body" },
+      "bodyLg": { "size": "22px", "lineHeight": 1.2, "letterSpacing": "-0.22px", "token": "--text-body-lg" },
+      "headingSm": { "size": "33px", "lineHeight": 1.2, "letterSpacing": "-0.33px", "token": "--text-heading-sm" },
+      "heading": { "size": "36px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-heading" },
+      "headingLg": { "size": "56px", "lineHeight": 1.13, "letterSpacing": "-0.56px", "token": "--text-heading-lg" },
+      "displaySm": { "size": "105px", "lineHeight": 1.01, "letterSpacing": "-2.1px", "token": "--text-display-sm" },
+      "display": { "size": "136px", "lineHeight": 1, "letterSpacing": "-2.72px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1440px",
+    "sectionGap": "108px",
+    "cardPadding": "20px",
+    "elementGap": "7px",
+    "scale": {
+      "16": "16px",
+      "20": "20px",
+      "40": "40px",
+      "56": "56px",
+      "60": "60px",
+      "64": "64px",
+      "72": "72px",
+      "108": "108px"
+    }
+  },
+  "radii": {
+    "nav": "5px",
+    "cards": "15px",
+    "tags": "9999px",
+    "buttons": "0px"
+  },
+  "shadows": {
+    "none": "Depth comes from dark surface contrast and the prism artifact, not shadows."
+  },
+  "components": [
+    { "name": "Ghost Nav Button", "recipe": "Transparent fill, Bone White uppercase Neue Montreal 14px to 15px, 0px radius, no padding, no underline, no border." },
+    { "name": "Outlined Contact Button", "recipe": "Transparent fill, 1px Bone White border, 5px radius, 9px by 15px padding, uppercase 14px Bone White text." },
+    { "name": "Ghost Service Label", "recipe": "Transparent fill, Fog Blue text, 0px radius, 20px top padding, 30px bottom padding, Neue Montreal 20px." },
+    { "name": "Display Headline Block", "recipe": "Neue Montreal 400 at 105px to 136px, line-height 1.00 to 1.01, -0.02em tracking, Bone White." },
+    { "name": "Hero Lead Paragraph", "recipe": "Neue Montreal 400 at 18px to 22px, line-height 1.5, Bone White, max-width around 440px." },
+    { "name": "Prism Artifact", "recipe": "Glass-cube cluster with Pure Black cores, Bone White highlights, and RGB channel-offset red/cyan/lime edges." },
+    { "name": "Section Heading", "recipe": "Small 18px to 22px Bone White statement above a larger display headline, max-width around 440px." },
+    { "name": "Footer Hairline Divider", "recipe": "1px Ash Border rule, full width, used as the primary footer separator." },
+    { "name": "Case Study Title Link", "recipe": "Neue Montreal 400 at 33px, Bone White, line-height 1.2, -0.01em tracking, no underline." },
+    { "name": "Eyebrow Label", "recipe": "Uppercase Neue Montreal 17px or 32px, weight 400, with slight positive tracking at small sizes." },
+    { "name": "Rounded Pill Tag", "recipe": "9999px radius metadata chip used rarely; most UI stays square-edged." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Bone White for nearly all text and interactive elements.",
+      "Use Fog Blue only for de-emphasized metadata.",
+      "Let scale create hierarchy instead of heavier weights.",
+      "Keep Neue Montreal weight 400 as the default.",
+      "Reserve weight 700 for rare 36px subheadings.",
+      "Set display type at 105px to 136px with line-height near 1.00.",
+      "Use 0px radius for buttons and most UI.",
+      "Make the prism artifact the only chromatic element."
+    ],
+    "dont": [
+      "Do not introduce filled buttons, CTA colors, badges, or broad gradients.",
+      "Do not use Prism Red, Cyan, or Lime anywhere outside the prism artwork.",
+      "Do not use weight 600 to 800 for display headings.",
+      "Do not add box shadows to cards, nav, or artwork.",
+      "Do not loosen tracking above 22px.",
+      "Do not lighten the canvas beyond Graphite Veil.",
+      "Do not build multi-column SaaS grids or pricing-card layouts."
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": "ab1e41e9-7d21-4762-b498-51b8c63ae7ce",
+  "name": "Jitter",
+  "slug": "jitter",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/ab1e41e9-7d21-4762-b498-51b8c63ae7ce",
+  "referenceSite": "https://jitter.video",
+  "capturedAt": "2026-07-28",
+  "industry": "design / motion",
+  "mood": "kinetic playground in Swiss precision",
+  "summary": "A light motion-design system with off-white canvas, large rounded white preview cards, pill CTAs, tight TWK Lausanne display type, Inter UI text, a singular violet hero CTA, sparse blue/Volt highlights, and dramatic diffuse shadows.",
+  "useWhen": [
+    "Motion design tools",
+    "Video editors",
+    "Template galleries",
+    "Creative SaaS pages",
+    "Animation product marketing",
+    "Design tool landing pages"
+  ],
+  "avoidWhen": [
+    "Dense admin dashboards",
+    "Formal enterprise software",
+    "Dark cinematic hero pages",
+    "Minimal monochrome documentation",
+    "Interfaces that require sharp compact controls"
+  ],
+  "colors": {
+    "studioOffWhite": {
+      "value": "#f2f1f3",
+      "role": "Page canvas and recessed section backgrounds"
+    },
+    "pureWhite": {
+      "value": "#ffffff",
+      "role": "Cards, elevated panels, preview tiles, text on dark fills"
+    },
+    "hairlineGray": {
+      "value": "#e5e4e7",
+      "role": "Subtle borders, divider lines, muted card backgrounds"
+    },
+    "softMist": {
+      "value": "#97979b",
+      "role": "Muted secondary text and placeholder labels"
+    },
+    "slate": {
+      "value": "#6e6e73",
+      "role": "Body copy in card contexts and secondary descriptive text"
+    },
+    "ink": {
+      "value": "#19171c",
+      "role": "Primary text, nav links, dark buttons, high-contrast blocks"
+    },
+    "pureBlack": {
+      "value": "#000000",
+      "role": "Icon fills and maximum-contrast surfaces only"
+    },
+    "eclipseViolet": {
+      "value": "#7a40ed",
+      "role": "Singular hero CTA and rare brand-forward emphasis"
+    },
+    "deepPlum": {
+      "value": "#17082c",
+      "role": "Dark violet heading warmth and text on pale violet tags"
+    },
+    "lilacWash": {
+      "value": "#a981ff",
+      "role": "Violet decorative accent and highlighted labels"
+    },
+    "lavenderMist": {
+      "value": "#cab3f8",
+      "role": "Pill badge and soft violet highlight washes"
+    },
+    "electricBlue": {
+      "value": "#00b2ff",
+      "role": "Animated rings, icon accents, card border highlights"
+    },
+    "skyTint": {
+      "value": "#e6f4ff",
+      "role": "Cool blue-tinted card backgrounds and soft washes"
+    },
+    "iceBlue": {
+      "value": "#a9dbff",
+      "role": "Decorative fills in illustrations and animated graphics"
+    },
+    "volt": {
+      "value": "#f5ff63",
+      "role": "Electric yellow-green tag/status accent"
+    }
+  },
+  "typography": {
+    "displayFamily": "\"TWK Lausanne\", \"Inter Tight\", \"Switzer\", \"General Sans\", system-ui, sans-serif",
+    "uiFamily": "\"Inter\", system-ui, sans-serif",
+    "roles": {
+      "uiLabel": {
+        "fontSize": "12px to 14px",
+        "fontFamily": "Inter",
+        "fontWeight": "500",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "15px to 18px",
+        "fontFamily": "Inter",
+        "fontWeight": "400 to 500",
+        "lineHeight": "1.4 to 1.6"
+      },
+      "interSubhead": {
+        "fontSize": "26px",
+        "fontFamily": "Inter",
+        "fontWeight": "600 to 800",
+        "lineHeight": "1.2"
+      },
+      "sectionHeading": {
+        "fontSize": "40px to 48px",
+        "fontFamily": "TWK Lausanne",
+        "fontWeight": "700 to 800",
+        "letterSpacing": "-0.03em"
+      },
+      "hero": {
+        "fontSize": "80px",
+        "fontFamily": "TWK Lausanne",
+        "fontWeight": "750 to 800",
+        "lineHeight": "0.95",
+        "letterSpacing": "-0.032em"
+      },
+      "monumental": {
+        "fontSize": "200px",
+        "fontFamily": "TWK Lausanne",
+        "fontWeight": "800",
+        "lineHeight": "0.85",
+        "letterSpacing": "-0.044em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px to 120px",
+    "columnGap": "40px to 64px",
+    "buttonPadding": "10px to 12px vertical, 20px to 24px horizontal",
+    "heroCtaPadding": "16px 32px"
+  },
+  "shape": {
+    "button": "50px",
+    "card": "40px",
+    "badge": "40px",
+    "darkInput": "26px",
+    "menuButton": "fully circular"
+  },
+  "elevation": {
+    "strategy": "Use a four-layer diffuse shadow stack with 150px+ vertical spread",
+    "previewCardShadow": "0 152px 61px rgba(25,23,28,0.01), 0 85px 51px rgba(25,23,28,0.05), 0 38px 38px rgba(25,23,28,0.09), 0 9px 21px rgba(25,23,28,0.10)"
+  },
+  "components": [
+    "Navigation Header",
+    "Dark Filled Pill Button",
+    "Violet Filled Pill Button",
+    "Pill Badge",
+    "Circular Menu Button",
+    "Animation Preview Card",
+    "Logo Cloud Strip",
+    "Hero Section",
+    "Two-Column Feature Section",
+    "Template Card Grid",
+    "Inline Text Link",
+    "Dark Input Field",
+    "Hamburger Overlay Panel"
+  ],
+  "imagery": {
+    "style": "Animation software screenshots, motion artifacts, template previews, rounded video cards, floating UI mockups",
+    "avoid": "Stock photography, generic illustration-first hero pages, dense dashboards, extra chromatic accents"
+  }
+}

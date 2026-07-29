@@ -1,0 +1,97 @@
+:root {
+  --branding-color-void-canvas: #080808;
+  --branding-color-absolute-black: #000000;
+  --branding-color-charcoal-plate: #171617;
+  --branding-color-smoke-plate: #262525;
+  --branding-color-graphite-lift: #393939;
+  --branding-color-bone-white: #fcfcfc;
+  --branding-color-linen: #f3efef;
+  --branding-color-ash: #d4d2d2;
+  --branding-color-pebble: #b5b2b2;
+  --branding-color-iron: #525252;
+  --branding-color-arterial-red: #fe1e34;
+  --branding-color-crimson-pure: #ff0000;
+
+  --branding-font-primary: "Kmr Waldenburg", "Neue Haas Grotesk Display", Inter, Arial, sans-serif;
+  --branding-font-serif-italic: "Editorialnew", "Editorial Old", "Playfair Display", Georgia, serif;
+  --branding-font-ornament: "Dirtyline 36 Daysoftype 2022", Tobias, "Rogue Serif", "Playfair Display", serif;
+
+  --branding-text-caption: 10px;
+  --branding-text-body: 14px;
+  --branding-text-subheading: 24px;
+  --branding-text-heading-sm: 32px;
+  --branding-text-heading: 42px;
+  --branding-text-heading-lg: 64px;
+  --branding-text-display: 80px;
+  --branding-text-display-xl: 160px;
+
+  --branding-radius-nav: 3px;
+  --branding-radius-card: 8px;
+  --branding-radius-button: 8px;
+  --branding-radius-large-card: 14.4px;
+  --branding-radius-pill: 9999px;
+
+  --branding-space-element: 24px;
+  --branding-space-section: 64px;
+  --branding-space-card: 24px;
+  --branding-space-footer: 48px;
+
+  --branding-inset-highlight: rgba(255, 255, 255, 0.2) 0px 2px 5px 0px inset;
+}
+
+.branding-page {
+  background: var(--branding-color-void-canvas);
+  color: var(--branding-color-bone-white);
+  font-family: var(--branding-font-primary);
+}
+
+.branding-display {
+  color: var(--branding-color-bone-white);
+  font-family: var(--branding-font-primary);
+  font-size: var(--branding-text-display-xl);
+  font-weight: 700;
+  letter-spacing: -12.8px;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.branding-italic {
+  font-family: var(--branding-font-serif-italic);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.branding-ghost-link {
+  color: var(--branding-color-bone-white);
+  font-family: var(--branding-font-primary);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.071em;
+  text-transform: uppercase;
+}
+
+.branding-card {
+  background: var(--branding-color-void-canvas);
+  border: 1px solid var(--branding-color-ash);
+  border-radius: var(--branding-radius-card);
+  box-shadow: var(--branding-inset-highlight);
+  padding: var(--branding-space-card);
+}
+
+.branding-featured-card {
+  background: var(--branding-color-void-canvas);
+  border: 1px solid var(--branding-color-arterial-red);
+  border-radius: var(--branding-radius-card);
+  padding: var(--branding-space-card);
+}
+
+.branding-red-action {
+  align-items: center;
+  background: var(--branding-color-arterial-red);
+  border: 0;
+  border-radius: var(--branding-radius-pill);
+  color: var(--branding-color-bone-white);
+  display: inline-flex;
+  font-family: var(--branding-font-primary);
+  justify-content: center;
+}

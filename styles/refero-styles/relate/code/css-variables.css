@@ -1,0 +1,159 @@
+:root {
+  --relate-royal-signal: #145aff;
+  --relate-cobalt-glow: #3b82f6;
+  --relate-mint-win: #16ca2e;
+  --relate-coral-lost: #f26052;
+  --relate-amber-pending: #ffa64d;
+  --relate-azure-focus: #0099ff;
+  --relate-midnight-ink: #020520;
+  --relate-graphite-body: #14141e;
+  --relate-slate-caption: #374151;
+  --relate-ash-helper: #6b7280;
+  --relate-stone-divider: #e2e8f0;
+  --relate-lavender-wash: #f0f4fe;
+  --relate-fog-surface: #f1f5f9;
+  --relate-snow-canvas: #fcfcfc;
+  --relate-white-card: #ffffff;
+
+  --relate-font-inter: Inter, "DM Sans", Geist, Manrope, Arial, sans-serif;
+  --relate-font-secondary: Pretendard, Inter, Arial, sans-serif;
+  --relate-font-mono: "Roboto Mono", "JetBrains Mono", "Geist Mono", monospace;
+
+  --relate-text-caption: 12px;
+  --relate-leading-caption: 1.2;
+  --relate-text-body-sm: 14px;
+  --relate-leading-body-sm: 1.43;
+  --relate-text-body: 16px;
+  --relate-leading-body: 1.63;
+  --relate-text-subheading: 20px;
+  --relate-leading-subheading: 1.4;
+  --relate-tracking-subheading: -0.16px;
+  --relate-text-heading-sm: 22px;
+  --relate-leading-heading-sm: 1.4;
+  --relate-tracking-heading-sm: -0.2px;
+  --relate-text-heading: 40px;
+  --relate-leading-heading: 1.05;
+  --relate-tracking-heading: -1.48px;
+  --relate-text-heading-lg: 56px;
+  --relate-leading-heading-lg: 1.05;
+  --relate-tracking-heading-lg: -1.51px;
+  --relate-text-display: 80px;
+  --relate-leading-display: 1.05;
+  --relate-tracking-display: -1.52px;
+
+  --relate-page-max-width: 1200px;
+  --relate-section-gap: 80px;
+  --relate-card-padding: 12px;
+  --relate-element-gap-min: 8px;
+  --relate-element-gap-max: 12px;
+
+  --relate-radius-minimum: 4px;
+  --relate-radius-inner-card: 8px;
+  --relate-radius-input: 12px;
+  --relate-radius-pipeline-card: 16px;
+  --relate-radius-container: 40px;
+  --relate-radius-pill: 9999px;
+
+  --relate-shadow-card: rgba(0, 0, 0, 0.1) 0 0 4px -2px;
+  --relate-shadow-feature: rgba(0, 0, 0, 0.082) 0 0.36px 1.8px -1.4px, rgba(0, 0, 0, 0.07) 0 1.37px 6.87px -2.8px, rgba(0, 0, 0, 0.016) 0 6px 30px -4.25px;
+  --relate-shadow-blue-glow: rgba(20, 90, 255, 0.1) 0 0 100px -28px;
+}
+
+.relate-theme {
+  min-height: 100vh;
+  background: var(--relate-snow-canvas);
+  color: var(--relate-graphite-body);
+  font-family: var(--relate-font-inter);
+}
+
+.relate-container {
+  width: min(100% - 32px, var(--relate-page-max-width));
+  margin-inline: auto;
+}
+
+.relate-display {
+  margin: 0;
+  color: var(--relate-midnight-ink);
+  font-family: var(--relate-font-inter);
+  font-size: clamp(48px, 7vw, var(--relate-text-display));
+  font-weight: 600;
+  line-height: var(--relate-leading-display);
+  letter-spacing: var(--relate-tracking-display);
+}
+
+.relate-accent-word {
+  color: var(--relate-royal-signal);
+}
+
+.relate-button-pill {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--relate-royal-signal);
+  border-radius: var(--relate-radius-pill);
+  background: var(--relate-snow-canvas);
+  color: var(--relate-royal-signal);
+  padding: 14px 32px;
+  font-family: var(--relate-font-inter);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, opacity 180ms ease;
+}
+
+.relate-button-frosted {
+  border-color: rgba(20, 90, 255, 0.35);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.relate-feature-card {
+  border-radius: var(--relate-radius-container);
+  background: var(--relate-snow-canvas);
+  padding: 52px 72px;
+  box-shadow: var(--relate-shadow-feature);
+}
+
+.relate-pipeline-column {
+  border-radius: var(--relate-radius-pipeline-card);
+  background: var(--relate-white-card);
+  padding: var(--relate-card-padding);
+  box-shadow: var(--relate-shadow-card);
+}
+
+.relate-deal-card {
+  border-radius: var(--relate-radius-inner-card);
+  background: var(--relate-white-card);
+  padding: 12px 16px;
+  box-shadow: var(--relate-shadow-card);
+}
+
+.relate-input {
+  border: 1px solid var(--relate-stone-divider);
+  border-radius: var(--relate-radius-input);
+  background: var(--relate-white-card);
+  color: var(--relate-graphite-body);
+  padding: 15px;
+  font: 400 16px/1.63 var(--relate-font-inter);
+}
+
+.relate-input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(0, 153, 255, 0.18);
+  border-color: var(--relate-azure-focus);
+}
+
+.relate-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: var(--relate-royal-signal);
+}
+
+.relate-wash {
+  background: linear-gradient(180deg, rgba(182, 203, 253, 0.4), rgba(240, 244, 254, 0));
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+}
+

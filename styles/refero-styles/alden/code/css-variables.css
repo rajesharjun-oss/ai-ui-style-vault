@@ -1,0 +1,153 @@
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-parchment: #f8f4ee;
+  --color-ink: #1f2937;
+  --color-mist-blue: #e8f5ff;
+  --color-sky-signal: #5aa9e6;
+  --color-sage: #7f9b85;
+  --color-deep-sage: #617761;
+  --color-stone: #6b7280;
+  --color-cloud-border: #e5e7eb;
+
+  /* Typography */
+  --font-display-serif: "Domaine Display", Georgia, "Cormorant Garamond", "Libre Baskerville", ui-serif, serif;
+  --font-sans: Geist, Inter, Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-micro-label: 13px;
+  --leading-micro-label: 1.3;
+  --tracking-micro-label: 0.08em;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.6;
+  --text-body-lg: 18px;
+  --leading-body-lg: 1.55;
+  --text-card-title: 22px;
+  --leading-card-title: 1.25;
+  --text-section-heading: 40px;
+  --leading-section-heading: 1.12;
+  --tracking-section-heading: -0.01em;
+  --text-quote: 48px;
+  --leading-quote: 1.15;
+  --tracking-quote: -0.02em;
+  --text-hero-heading: 64px;
+  --leading-hero-heading: 1.08;
+  --tracking-hero-heading: -0.03em;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-112: 112px;
+  --spacing-128: 128px;
+
+  /* Layout */
+  --page-max-width: 1180px;
+  --section-gap: 96px;
+  --card-padding-min: 24px;
+  --card-padding-max: 32px;
+  --element-gap: 16px;
+  --nav-height-min: 72px;
+  --nav-height-max: 80px;
+
+  /* Radius */
+  --radius-button: 999px;
+  --radius-badge: 999px;
+  --radius-card: 24px;
+  --radius-image: 28px;
+  --radius-input: 16px;
+  --radius-section: 32px;
+  --radius-highlight: 32px;
+}
+
+.alden-surface {
+  background: var(--color-white);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.alden-hero-heading {
+  color: var(--color-ink);
+  font: 400 var(--text-hero-heading) / var(--leading-hero-heading) var(--font-display-serif);
+  letter-spacing: var(--tracking-hero-heading);
+}
+
+.alden-highlight {
+  display: inline;
+  border-radius: var(--radius-highlight);
+  background: var(--color-mist-blue);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0 0.16em;
+}
+
+.alden-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-sage);
+  color: var(--color-white);
+  padding: 14px var(--spacing-24);
+  font: 500 var(--text-body) / 1 var(--font-sans);
+}
+
+.alden-primary-button:hover {
+  background: var(--color-deep-sage);
+}
+
+.alden-card {
+  border: 1px solid var(--color-cloud-border);
+  border-radius: var(--radius-card);
+  background: var(--color-white);
+  box-shadow: none;
+}
+
+.alden-testimonial {
+  border-radius: var(--radius-section);
+  background: var(--color-parchment);
+  color: var(--color-ink);
+}
+
+.alden-text-link {
+  color: var(--color-ink);
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-sky-signal);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+
+.alden-input {
+  border: 1px solid var(--color-cloud-border);
+  border-radius: var(--radius-input);
+  background: var(--color-white);
+  color: var(--color-ink);
+  padding: 14px var(--spacing-16);
+  font: 400 var(--text-body) / var(--leading-body) var(--font-sans);
+}
+
+.alden-input:focus {
+  border-color: var(--color-sky-signal);
+  outline: 2px solid var(--color-mist-blue);
+  outline-offset: 2px;
+}

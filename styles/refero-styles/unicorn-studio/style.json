@@ -1,0 +1,87 @@
+{
+  "name": "Unicorn Studio",
+  "slug": "unicorn-studio",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/6bd8007f-01bc-46cc-8599-b396a39c1474",
+    "styleId": "6bd8007f-01bc-46cc-8599-b396a39c1474",
+    "referenceSite": "https://www.unicorn.studio",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "dark",
+  "summary": "A near-black creative WebGL system with subtle surface value steps, violet aurora atmosphere, Overused Grotesk display type with extreme negative tracking, pearl-gray body text, cream primary buttons, and sharp 3px UI radii.",
+  "personality": [
+    "atmospheric",
+    "architectural",
+    "creative",
+    "dark",
+    "precise",
+    "prismatic"
+  ],
+  "bestFor": [
+    "WebGL tools",
+    "creative software",
+    "3D design platforms",
+    "portfolio builders",
+    "motion design products"
+  ],
+  "coreMoves": [
+    "Use the near-black surface stack for depth.",
+    "Use violet only for aurora, links, and focus states.",
+    "Use cream filled buttons for primary actions.",
+    "Use Overused Grotesk with aggressive negative tracking.",
+    "Use system-font body text at 16px with tight tracking.",
+    "Use 3px radii for controls and 10px for cards.",
+    "Use the dark key-line on primary filled buttons.",
+    "Avoid friendly rounded UI and heavy shadows."
+  ],
+  "colors": {
+    "lavenderBeam": "#ab8ff1",
+    "irisGlow": "#8960f0",
+    "void": "#08080a",
+    "charcoal": "#0d0d12",
+    "graphite": "#17171c",
+    "slate": "#25252d",
+    "iron": "#31313a",
+    "ash": "#62626f",
+    "fog": "#8b8e9c",
+    "pearl": "#aeaac0",
+    "chalk": "#dad7de"
+  },
+  "typography": {
+    "display": {
+      "family": "Overused Grotesk",
+      "fallback": "Inter Tight",
+      "weights": [400, 500],
+      "sizes": ["26px", "32px", "48px", "64px", "215px"],
+      "lineHeights": [0.99, 1],
+      "tracking": {
+        "26px": "-0.030em",
+        "32To48px": "-0.040em",
+        "64pxPlus": "-0.063em"
+      }
+    },
+    "secondaryDisplay": {
+      "family": "Sprat",
+      "fallback": "Migra",
+      "weights": [500],
+      "sizes": ["46px", "61px"],
+      "lineHeights": [1],
+      "tracking": "-0.042em"
+    },
+    "ui": {
+      "family": "-apple-system",
+      "fallback": "Inter",
+      "weights": [400, 500, 600],
+      "sizes": ["13px", "14px", "16px", "18px"],
+      "lineHeights": [1.2, 1.4],
+      "tracking": "-0.010em"
+    }
+  },
+  "shape": {
+    "tags": "3px",
+    "inputs": "3px",
+    "buttons": "3px",
+    "cards": "10px"
+  }
+}
+

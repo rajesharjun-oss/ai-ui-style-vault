@@ -1,0 +1,174 @@
+{
+  "name": "Say Briefly",
+  "theme": "light",
+  "colors": {
+    "forestInk": {
+      "value": "#1a3300",
+      "role": "Primary text, CTA fill, links, nav borders, and card borders"
+    },
+    "highlighterYellow": {
+      "value": "#ffe95c",
+      "role": "Word highlight wash, badge backgrounds, and accent fills"
+    },
+    "creamPaper": {
+      "value": "#fcfaf5",
+      "role": "Page canvas, card surfaces, and nav background"
+    },
+    "pencilGray": {
+      "value": "#b6b6b6",
+      "role": "Nav borders and quiet dividers"
+    },
+    "whisperGray": {
+      "value": "#f1f1f1",
+      "role": "Muted helper text and secondary labels"
+    },
+    "stickyNoteTeal": {
+      "value": "#a8e5e5",
+      "role": "One-off pastel action or selected state"
+    },
+    "stickyNoteMint": {
+      "value": "#d5f5c2",
+      "role": "One-off pastel action or selected state"
+    },
+    "stickyNoteBlush": {
+      "value": "#f6d0ff",
+      "role": "Decorative card or button fill"
+    },
+    "terracotta": {
+      "value": "#cb5521",
+      "role": "Warm decorative card accent"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "display": {
+        "value": "\"Bricolage Grotesque\", \"Archivo Black\", \"Mulish\", ui-sans-serif, system-ui, sans-serif"
+      },
+      "ui": {
+        "value": "\"Inter\", system-ui, -apple-system, \"Segoe UI\", sans-serif"
+      },
+      "mono": {
+        "value": "\"Roboto Mono\", \"JetBrains Mono\", \"IBM Plex Mono\", ui-monospace, monospace"
+      }
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extraBold": 800
+    },
+    "letterSpacing": {
+      "heading": "2.2px",
+      "headingLg": "3.3px",
+      "display": "4.5px",
+      "displayEm": "0.04em to 0.05em"
+    },
+    "scale": {
+      "micro": {
+        "fontSize": "11px",
+        "lineHeight": "1.3",
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "caption": {
+        "fontSize": "14px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "bodySm": {
+        "fontSize": "16px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "18px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "20px",
+        "lineHeight": "1.38",
+        "letterSpacing": "0",
+        "fontWeight": 500
+      },
+      "subheading": {
+        "fontSize": "28px",
+        "lineHeight": "1.25",
+        "letterSpacing": "0",
+        "fontWeight": 500
+      },
+      "headingSm": {
+        "fontSize": "40px",
+        "lineHeight": "1.1",
+        "letterSpacing": "0",
+        "fontWeight": 600
+      },
+      "heading": {
+        "fontSize": "55px",
+        "lineHeight": "1",
+        "letterSpacing": "2.2px",
+        "fontWeight": 800
+      },
+      "headingLg": {
+        "fontSize": "66px",
+        "lineHeight": "1",
+        "letterSpacing": "3.3px",
+        "fontWeight": 800
+      },
+      "display": {
+        "fontSize": "90px",
+        "lineHeight": "1",
+        "letterSpacing": "4.5px",
+        "fontWeight": 800
+      }
+    }
+  },
+  "spacing": {
+    "unit": "8px",
+    "density": "comfortable",
+    "scale": {
+      "8": "8px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "56": "56px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "120": "120px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "64px",
+      "cardPadding": "24px",
+      "elementGap": "16px"
+    }
+  },
+  "radius": {
+    "small": "3px",
+    "buttons": "6px",
+    "cards": "12px",
+    "largeCards": "16px",
+    "nav": "16px",
+    "tags": "9999px"
+  },
+  "shadow": {
+    "subtle": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "subtle2": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "navGlow": "rgba(255, 235, 90, 0.01) 0px 527px 211px 0px, rgba(255, 235, 90, 0.05) 0px 297px 178px 0px, rgba(255, 235, 90, 0.09) 0px 132px 132px 0px, rgba(255, 235, 90, 0.1) 0px 33px 72px 0px"
+  },
+  "surfaces": {
+    "creamPaper": "#fcfaf5",
+    "stickyNoteMint": "#d5f5c2",
+    "highlighterYellow": "#ffe95c",
+    "stickyNoteBlush": "#f6d0ff",
+    "stickyNoteTeal": "#a8e5e5"
+  }
+}

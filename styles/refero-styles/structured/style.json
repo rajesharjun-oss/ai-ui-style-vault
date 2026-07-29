@@ -1,0 +1,290 @@
+{
+  "id": "6c0b77d3-71f9-469d-98aa-4ce1d6d76ac8",
+  "name": "Structured",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/6c0b77d3-71f9-469d-98aa-4ce1d6d76ac8",
+  "referenceUrl": "https://structured.money",
+  "capturedOn": "2026-07-28",
+  "theme": "mixed",
+  "mood": "Renaissance gallery on putty paper, with a giant serif wordmark, warm beige canvas, stark black rooms, classical painting imagery, compact pill actions, and hexagonal indicators.",
+  "bestFor": [
+    "finance products",
+    "Bitcoin yield products",
+    "premium fintech",
+    "crypto landing pages",
+    "art-directed portfolios",
+    "gallery-like product sites",
+    "editorial launch pages"
+  ],
+  "tags": [
+    "mixed",
+    "finance",
+    "bitcoin",
+    "editorial",
+    "renaissance",
+    "gallery",
+    "putty-paper",
+    "black-room",
+    "giant-serif",
+    "classical-imagery",
+    "pill-cta",
+    "circular-vignettes",
+    "hexagon-indicators",
+    "flat-ui"
+  ],
+  "colors": {
+    "putty": {
+      "value": "#c4c3b6",
+      "token": "--color-putty",
+      "role": "Dominant warm gray-beige canvas for hero and most light sections."
+    },
+    "ink": {
+      "value": "#000000",
+      "token": "--color-ink",
+      "role": "Dark sections, borders, separators, primary text, and filled pill CTA background."
+    },
+    "bone": {
+      "value": "#e7e5e4",
+      "token": "--color-bone",
+      "role": "Elevated cards and secondary light surfaces."
+    },
+    "chalk": {
+      "value": "#ebebeb",
+      "token": "--color-chalk",
+      "role": "Footer and lightest surface tier."
+    },
+    "vellum": {
+      "value": "#dfdcd5",
+      "token": "--color-vellum",
+      "role": "Hairline borders and printed-page edge details."
+    },
+    "graphite": {
+      "value": "#595855",
+      "token": "--color-graphite",
+      "role": "Muted secondary text and subtle image backgrounds."
+    },
+    "ash": {
+      "value": "#808080",
+      "token": "--color-ash",
+      "role": "Image placeholder backgrounds and mid-neutral surfaces."
+    },
+    "paper": {
+      "value": "#ffffff",
+      "token": "--color-paper",
+      "role": "Reverse text on dark sections, white icon strokes, and rare accent fills."
+    }
+  },
+  "typography": {
+    "families": {
+      "davinci": "Davinci",
+      "davinciFallback": "Canela, Tiempos Headline, GT Super, Playfair Display, serif",
+      "helveticaNow": "Helvetica Now",
+      "helveticaNowFallback": "Inter, Neue Haas Grotesk, Sohne, Helvetica Neue, ui-sans-serif, system-ui"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500
+    },
+    "rules": [
+      "Use Davinci-style serif at 52px and above for section/display moments.",
+      "Use Helvetica Now style grotesk for utility text, nav, stats, buttons, and captions.",
+      "Keep the serif out of ordinary body text below 34px.",
+      "Let size and tracking create drama, not color or shadows."
+    ],
+    "scale": {
+      "micro": {
+        "size": "9px",
+        "lineHeight": 1.25,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "token": "--text-micro"
+      },
+      "bodySm": {
+        "size": "15px",
+        "lineHeight": 1.5,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "token": "--text-body-sm"
+      },
+      "body": {
+        "size": "16px",
+        "lineHeight": 1.5,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "token": "--text-body"
+      },
+      "subheading": {
+        "size": "22px",
+        "lineHeight": 1.33,
+        "fontWeight": 400,
+        "letterSpacing": "-0.11px",
+        "token": "--text-subheading"
+      },
+      "headingSm": {
+        "size": "26px",
+        "lineHeight": 1.33,
+        "fontWeight": 400,
+        "letterSpacing": "-0.13px",
+        "token": "--text-heading-sm"
+      },
+      "heading": {
+        "size": "43px",
+        "lineHeight": 1.1,
+        "fontWeight": 400,
+        "letterSpacing": "-0.215px",
+        "token": "--text-heading"
+      },
+      "headingLg": {
+        "size": "52px",
+        "lineHeight": 1,
+        "fontWeight": 500,
+        "letterSpacing": "-0.47px",
+        "token": "--text-heading-lg"
+      },
+      "sectionDisplay": {
+        "size": "94px",
+        "lineHeight": 0.84,
+        "fontWeight": 500,
+        "letterSpacing": "-0.85px",
+        "token": "--text-section-display"
+      },
+      "display": {
+        "size": "374px",
+        "lineHeight": 0.84,
+        "fontWeight": 500,
+        "letterSpacing": "-3.37px",
+        "token": "--text-display"
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "6px",
+    "featureColumnGap": "28px",
+    "circularVignetteDiameter": "200px",
+    "productCardSize": "400px",
+    "headerHeight": "40px",
+    "scale": {
+      "4": "4px",
+      "6": "6px",
+      "16": "16px",
+      "20": "20px",
+      "28": "28px",
+      "32": "32px",
+      "36": "36px",
+      "40": "40px",
+      "52": "52px",
+      "60": "60px",
+      "80": "80px",
+      "96": "96px",
+      "168": "168px"
+    }
+  },
+  "radii": {
+    "links": "2px",
+    "cards": "9px",
+    "buttons": "28.8px",
+    "circles": "9999px"
+  },
+  "surfaces": {
+    "puttyCanvas": {
+      "value": "#c4c3b6",
+      "role": "Default background for light sections."
+    },
+    "boneCard": {
+      "value": "#e7e5e4",
+      "role": "Elevated cards and secondary light surfaces."
+    },
+    "chalkFooter": {
+      "value": "#ebebeb",
+      "role": "Footer and section bases."
+    },
+    "inkRoom": {
+      "value": "#000000",
+      "role": "Dark feature and explainer canvas."
+    }
+  },
+  "elevation": {
+    "model": "flat",
+    "rules": [
+      "Do not use shadows.",
+      "Do not use gradients.",
+      "Use light/dark section cuts, full-bleed imagery, and scale for depth."
+    ]
+  },
+  "components": [
+    {
+      "name": "Pill Action Button",
+      "role": "Primary CTA",
+      "recipe": "Ink fill, Paper text, Helvetica Now style 12px weight 400, 9px 17px padding, 28.8px radius, no border, no shadow."
+    },
+    {
+      "name": "Hero Wordmark",
+      "role": "Brand display",
+      "recipe": "Davinci-style serif at 374px, weight 500, Ink, -3.37px tracking, 0.84 line-height, intentionally cropped at viewport edges."
+    },
+    {
+      "name": "Circular Feature Vignette",
+      "role": "Feature imagery",
+      "recipe": "200px circular crop of classical painting, no border, no shadow, Davinci-style caption above, hexagonal indicator below."
+    },
+    {
+      "name": "Notched Product Card",
+      "role": "Floating product showcase",
+      "recipe": "Ink square around 400px with notched/hexagonal corner cuts, 9px primary edge radius, Paper 9px micro-label, no shadow."
+    },
+    {
+      "name": "Hexagonal Nav Indicator",
+      "role": "Pagination or section indicator",
+      "recipe": "12px hexagonal outline, transparent fill, Ink stroke on light or Paper stroke on dark, used in groups of three."
+    },
+    {
+      "name": "Minimal Header",
+      "role": "Top navigation",
+      "recipe": "40px row, circled S mark left, one Helvetica Now style text link right, no menu bar."
+    }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Davinci-style serif at 52px and above for display moments.",
+      "Make the 374px wordmark feel larger than the screen.",
+      "Alternate Putty and Ink full-bleed sections.",
+      "Use circular crops for feature imagery.",
+      "Use black pill CTAs with compact 9px 17px padding.",
+      "Use hexagonal indicators as the secondary geometry."
+    ],
+    "dont": [
+      "Do not introduce saturated color.",
+      "Do not use shadows or gradients.",
+      "Do not use stock photography or modern digital illustration.",
+      "Do not use serif for normal body copy.",
+      "Do not add heavy navigation chrome.",
+      "Do not use standard radius values where Structured specifies 9px or 28.8px."
+    ]
+  },
+  "imagery": {
+    "style": "Classical Renaissance or Baroque oil-painting imagery.",
+    "rules": [
+      "Use full-bleed painting panels or circular crops only.",
+      "Avoid product screenshots, stock photos, and modern illustrations.",
+      "Let paintings carry all decorative energy.",
+      "Keep full-bleed paintings unframed and unrounded."
+    ]
+  },
+  "layout": {
+    "container": "Full-bleed sections with no ordinary max-width container.",
+    "hero": "Small centered finance cluster above a huge cropped 374px serif wordmark.",
+    "middle": "Full-bleed classical painting with one centered notched product card.",
+    "feature": "Ink room with 94px centered serif heading and 3-column circular vignette grid.",
+    "nav": "Minimal logo left, single text link right."
+  },
+  "preview": {
+    "imageHost": "images.refero.design",
+    "downloaded": false,
+    "note": "Refero exposes preview imagery, but local download was not captured in this environment."
+  }
+}
+

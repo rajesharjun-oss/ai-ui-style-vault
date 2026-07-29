@@ -1,0 +1,86 @@
+{
+  "name": "Revolut",
+  "slug": "revolut",
+  "source_url": "https://styles.refero.design/style/a3161c3c-26d4-425b-aaa3-4fc3f06b77ee",
+  "style_id": "a3161c3c-26d4-425b-aaa3-4fc3f06b77ee",
+  "reference_site": "https://revolut.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A monochrome editorial fintech style with full-bleed cloud photography, medium-weight tightened Aeonik display type, Inter UI text, pill-only controls, border-led cards, dark pricing bands, and one restricted blue promo gradient.",
+  "personality": [
+    "fintech",
+    "editorial",
+    "monochrome",
+    "consumer",
+    "polished",
+    "conversion-focused"
+  ],
+  "colors": {
+    "ink": "#1f1f1f",
+    "pureBlack": "#000000",
+    "bone": "#ffffff",
+    "ashGrey": "#c9c9cd",
+    "mist": "#f7f7f7",
+    "slate": "#717173",
+    "graphite": "#4c4c4c",
+    "cobaltWashStart": "#1227fd",
+    "cobaltWashEnd": "#6fa0ff"
+  },
+  "typography": {
+    "display": "Aeonik Pro, Inter, DM Sans, Manrope, system-ui, sans-serif",
+    "body": "Inter, system-ui, sans-serif",
+    "displayWeights": [400, 500],
+    "bodyWeights": [400, 600, 700],
+    "sizesPx": [12, 14, 16, 18, 24, 32, 40, 52, 88],
+    "rules": [
+      "Use Aeonik-style display type for headings and hero copy.",
+      "Keep display headings at weight 500 or lower.",
+      "Use Inter for body, controls, labels, nav, and badges.",
+      "Use positive tracking only for uppercase 12px labels."
+    ]
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnitPx": 8,
+    "maxWidthPx": 1200,
+    "sectionGapPx": 80,
+    "cardPaddingPx": 24,
+    "elementGapPx": 8,
+    "scalePx": [8, 16, 24, 32, 40, 56, 64, 80, 232]
+  },
+  "radius": {
+    "buttonsPx": 9999,
+    "tagsPx": 9999,
+    "inputsPx": 9999,
+    "smallControlsPx": 12,
+    "listsPx": 20,
+    "cardsPx": 22.5
+  },
+  "components": [
+    "pill button light",
+    "pill button dark",
+    "pill ghost button on photo",
+    "pill text link",
+    "promo gradient bar",
+    "dark navigation header",
+    "location selector pill",
+    "phone preview card",
+    "pricing tier card",
+    "trust badge block",
+    "muted section header",
+    "list container"
+  ],
+  "avoid": [
+    "extra chromatic colors",
+    "card shadows",
+    "button shadows",
+    "heading weight above 500",
+    "blue gradient outside promo strip",
+    "square primary actions",
+    "decorative graphics",
+    "3D renders",
+    "illustrations",
+    "flat product screenshot blocks"
+  ]
+}
+

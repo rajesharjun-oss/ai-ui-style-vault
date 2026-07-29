@@ -1,0 +1,114 @@
+:root {
+  --lattice-font-sans: "Inter Tight", "Inter", system-ui, sans-serif;
+
+  --lattice-color-charcoal: #282a2a;
+  --lattice-color-warm-paper: #f4f3ef;
+  --lattice-color-paper: #ffffff;
+  --lattice-color-mist-blue: #c6d7db;
+  --lattice-color-muted-green: #749f99;
+  --lattice-color-slate-teal: #477d78;
+  --lattice-color-amber-glow: #e7ae3c;
+  --lattice-color-soft-coral: #e78876;
+  --lattice-color-lavender-haze: #a78fb2;
+  --lattice-color-pale-sky: #d7e7ea;
+  --lattice-color-line-mist: #d7d7d2;
+  --lattice-color-body-gray: #5c6060;
+
+  --lattice-radius-card: 16px;
+  --lattice-radius-panel: 24px;
+  --lattice-radius-input: 12px;
+  --lattice-radius-button: 9999px;
+  --lattice-radius-control: 12px;
+  --lattice-radius-pill: 9999px;
+
+  --lattice-space-1: 4px;
+  --lattice-space-2: 8px;
+  --lattice-space-3: 12px;
+  --lattice-space-4: 16px;
+  --lattice-space-5: 20px;
+  --lattice-space-6: 24px;
+  --lattice-space-7: 28px;
+  --lattice-space-8: 32px;
+  --lattice-space-12: 48px;
+  --lattice-space-18: 72px;
+  --lattice-space-24: 96px;
+  --lattice-max-width: 1180px;
+}
+
+.lattice-page {
+  min-height: 100%;
+  background: var(--lattice-color-warm-paper);
+  color: var(--lattice-color-charcoal);
+  font-family: var(--lattice-font-sans);
+}
+
+.lattice-body {
+  color: var(--lattice-color-body-gray);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.lattice-hero-title {
+  color: var(--lattice-color-charcoal);
+  font-size: clamp(38px, 7vw, 56px);
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.lattice-panel {
+  border-radius: var(--lattice-radius-panel);
+  background: var(--lattice-color-mist-blue);
+  padding: clamp(32px, 5vw, 48px);
+}
+
+.lattice-card {
+  border: 1px solid var(--lattice-color-line-mist);
+  border-radius: var(--lattice-radius-card);
+  background: var(--lattice-color-paper);
+  padding: var(--lattice-space-6);
+}
+
+.lattice-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  border-radius: var(--lattice-radius-button);
+  border: 1px solid var(--lattice-color-amber-glow);
+  background: var(--lattice-color-amber-glow);
+  color: var(--lattice-color-charcoal);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.lattice-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  border-radius: var(--lattice-radius-button);
+  border: 1px solid var(--lattice-color-line-mist);
+  background: var(--lattice-color-paper);
+  color: var(--lattice-color-slate-teal);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.lattice-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 12px;
+  border-radius: var(--lattice-radius-pill);
+  background: var(--lattice-color-pale-sky);
+  color: var(--lattice-color-charcoal);
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 500;
+}

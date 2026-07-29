@@ -1,0 +1,70 @@
+{
+  "name": "Opennote",
+  "theme": "light",
+  "colors": {
+    "ivoryPage": "#fffdf8",
+    "inkCharcoal": "#0a0a0a",
+    "pressedBlack": "#000000",
+    "graphiteRule": "#e5e5e5",
+    "smoke": "#8c8c8c",
+    "ashBorder": "#d1d1d1",
+    "slateBody": "#474747",
+    "softHalo": "#f9f9f9",
+    "sepia": "#512906",
+    "inkViolet": "#242d64",
+    "forestInk": "#0c3b1a",
+    "oxblood": "#5e0831",
+    "marginYellow": "#ffc934"
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": "\"IowanOld\", \"Source Serif Pro\", \"PT Serif\", Georgia, serif",
+      "body": "\"SuisseIntl\", Inter, \"Sohne\", \"Helvetica Neue\", Arial, sans-serif"
+    },
+    "fontWeights": {
+      "regular": 400,
+      "medium": 500
+    },
+    "scale": {
+      "caption": { "fontSize": "14px", "lineHeight": "1.43" },
+      "body": { "fontSize": "16px", "lineHeight": "1.5" },
+      "subheading": { "fontSize": "20px", "lineHeight": "1.5" },
+      "headingSmall": { "fontSize": "32px", "lineHeight": "1.12" },
+      "heading": { "fontSize": "42px", "lineHeight": "1.1" },
+      "display": { "fontSize": "48px", "lineHeight": "1.08" }
+    }
+  },
+  "spacing": {
+    "unit": "8px",
+    "scale": {
+      "8": "8px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "56": "56px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "120": "120px",
+      "128": "128px",
+      "160": "160px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "64px",
+      "cardPadding": "24px",
+      "elementGap": "16px"
+    }
+  },
+  "radii": {
+    "tags": "10px",
+    "cards": "10px",
+    "buttons": "10px"
+  },
+  "elevation": {
+    "shadowSystem": "none",
+    "border": "1px solid #e5e5e5"
+  }
+}

@@ -1,0 +1,67 @@
+@theme {
+  --color-nero: #000000;
+  --color-bianco: #ffffff;
+  --color-giallo: #ffc700;
+  --color-concrete: #f2f2f2;
+  --color-silver: #b0b0b0;
+  --color-graphite: #4d4d4d;
+
+  --font-lambo-type: "LamboType", "Arial Narrow", "Inter Condensed", "Helvetica Neue Condensed", Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-caption: 13px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-subheading: 20px;
+  --text-heading-sm: 24px;
+  --text-heading: 32px;
+  --text-heading-lg: 64px;
+  --text-display: 80px;
+
+  --radius-nav: 0px;
+  --radius-card: 0px;
+  --radius-image: 0px;
+  --radius-button: 0px;
+  --radius-input: 0px;
+  --radius-section: 0px;
+
+  --spacing-unit: 4px;
+  --spacing-nav: 80px;
+  --spacing-section-min: 80px;
+  --spacing-section-max: 120px;
+  --spacing-panel-min: 20px;
+  --spacing-panel-max: 32px;
+}
+
+@utility lamborghini-nav {
+  min-height: var(--spacing-nav);
+  background: var(--color-nero);
+  color: var(--color-bianco);
+  font-family: var(--font-lambo-type);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+@utility lamborghini-display {
+  color: var(--color-bianco);
+  font-family: var(--font-lambo-type);
+  font-size: var(--text-display);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+@utility lamborghini-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  background: var(--color-giallo);
+  color: var(--color-nero);
+  padding: 12px 24px;
+  font-family: var(--font-lambo-type);
+  font-size: var(--text-body-sm);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,86 @@
+@theme {
+  --font-jitter-display: "TWK Lausanne", "Inter Tight", "Switzer", "General Sans", system-ui, sans-serif;
+  --font-jitter-ui: "Inter", system-ui, sans-serif;
+
+  --color-jitter-studio-off-white: #f2f1f3;
+  --color-jitter-pure-white: #ffffff;
+  --color-jitter-hairline-gray: #e5e4e7;
+  --color-jitter-soft-mist: #97979b;
+  --color-jitter-slate: #6e6e73;
+  --color-jitter-ink: #19171c;
+  --color-jitter-pure-black: #000000;
+  --color-jitter-eclipse-violet: #7a40ed;
+  --color-jitter-deep-plum: #17082c;
+  --color-jitter-lilac-wash: #a981ff;
+  --color-jitter-lavender-mist: #cab3f8;
+  --color-jitter-electric-blue: #00b2ff;
+  --color-jitter-sky-tint: #e6f4ff;
+  --color-jitter-ice-blue: #a9dbff;
+  --color-jitter-volt: #f5ff63;
+
+  --radius-jitter-button: 50px;
+  --radius-jitter-card: 40px;
+  --radius-jitter-badge: 40px;
+  --radius-jitter-input: 26px;
+  --radius-jitter-circle: 9999px;
+
+  --spacing-jitter-1: 4px;
+  --spacing-jitter-2: 8px;
+  --spacing-jitter-3: 12px;
+  --spacing-jitter-4: 16px;
+  --spacing-jitter-5: 20px;
+  --spacing-jitter-6: 24px;
+  --spacing-jitter-8: 32px;
+  --spacing-jitter-10: 40px;
+  --spacing-jitter-16: 64px;
+  --spacing-jitter-20: 80px;
+  --spacing-jitter-30: 120px;
+  --spacing-jitter-max: 1200px;
+
+  --text-jitter-ui: 14px;
+  --text-jitter-ui--line-height: 1.4;
+  --text-jitter-body: 18px;
+  --text-jitter-body--line-height: 1.5;
+  --text-jitter-subhead: 26px;
+  --text-jitter-subhead--line-height: 1.2;
+  --text-jitter-section: 48px;
+  --text-jitter-section--line-height: 1;
+  --text-jitter-hero: 80px;
+  --text-jitter-hero--line-height: 0.95;
+}
+
+@utility jitter-page {
+  background: var(--color-jitter-studio-off-white);
+  color: var(--color-jitter-ink);
+  font-family: var(--font-jitter-ui);
+}
+
+@utility jitter-hero-title {
+  color: var(--color-jitter-ink);
+  font-family: var(--font-jitter-display);
+  font-size: clamp(52px, 8vw, var(--text-jitter-hero));
+  line-height: var(--text-jitter-hero--line-height);
+  font-weight: 800;
+  letter-spacing: -0.032em;
+}
+
+@utility jitter-violet-button {
+  border-radius: var(--radius-jitter-button);
+  background: var(--color-jitter-eclipse-violet);
+  color: var(--color-jitter-pure-white);
+  padding: 16px 32px;
+  font-family: var(--font-jitter-ui);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@utility jitter-preview-card {
+  overflow: hidden;
+  border-radius: var(--radius-jitter-card);
+  background: var(--color-jitter-pure-white);
+  box-shadow:
+    0 152px 61px rgba(25, 23, 28, 0.01),
+    0 85px 51px rgba(25, 23, 28, 0.05),
+    0 38px 38px rgba(25, 23, 28, 0.09),
+    0 9px 21px rgba(25, 23, 28, 0.10);
+}

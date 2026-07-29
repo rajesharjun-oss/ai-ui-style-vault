@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-ramp: "lausanne", Inter, "IBM Plex Sans", Sohne, Arial, sans-serif;
+
+  --color-ramp-highlighter-yellow: #e4f222;
+  --color-ramp-ink: #0c0a08;
+  --color-ramp-obsidian: #1a1919;
+  --color-ramp-ash: #6d6c6b;
+  --color-ramp-smoke: #d3d3d3;
+  --color-ramp-hairline: #e5e7eb;
+  --color-ramp-bone: #f4f2f0;
+  --color-ramp-paper: #ffffff;
+
+  --radius-ramp-button: 6px;
+  --radius-ramp-input: 10px;
+  --radius-ramp-wash-card: 12px;
+  --radius-ramp-card: 16px;
+
+  --spacing-ramp-max: 1200px;
+  --spacing-ramp-section: 96px;
+  --spacing-ramp-section-lg: 128px;
+}
+
+@utility ramp-font {
+  font-family: var(--font-ramp);
+  font-weight: 400;
+  font-feature-settings: "ss01";
+}
+
+@utility ramp-container {
+  width: min(100% - 32px, var(--spacing-ramp-max));
+  margin-inline: auto;
+}
+
+@utility ramp-display {
+  font-family: var(--font-ramp);
+  font-weight: 400;
+  font-feature-settings: "ss01";
+  font-size: clamp(40px, 6vw, 64px);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+@utility ramp-card {
+  border: 1px solid var(--color-ramp-hairline);
+  border-radius: var(--radius-ramp-card);
+  background: var(--color-ramp-paper);
+  box-shadow: none;
+}
+
+@utility ramp-micro-label {
+  color: var(--color-ramp-ash);
+  font-size: 10px;
+  line-height: 2.2;
+  letter-spacing: 0.018em;
+  text-transform: uppercase;
+}
+

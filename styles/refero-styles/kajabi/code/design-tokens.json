@@ -1,0 +1,111 @@
+{
+  "name": "Kajabi",
+  "slug": "kajabi",
+  "sourceUrl": "https://styles.refero.design/style/a6bf8730-6515-4a47-9d5f-927e1e0c67d5",
+  "referenceSite": "https://kajabi.com",
+  "theme": "light",
+  "colors": {
+    "paper-white": "#ffffff",
+    "ink-black": "#0a0a0a",
+    "charcoal": "#1f1f1e",
+    "smoke": "#333333",
+    "stone": "#535250",
+    "driftwood": "#949189",
+    "sand": "#bcb9ae",
+    "graphite": "#d4d3ce",
+    "ash": "#e0dedc",
+    "mist": "#e9e8e7"
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "\"Haffer\", \"Inter\", \"Sohne\", \"General Sans\", Arial, sans-serif"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "fontSize": {
+      "caption": "12px",
+      "body-sm": "14px",
+      "body": "16px",
+      "subheading": "20px",
+      "heading-sm": "24px",
+      "heading": "32px",
+      "heading-lg": "40px",
+      "poster": "48px",
+      "display": "60px"
+    },
+    "lineHeight": {
+      "display": "1",
+      "heading-lg": "1.1",
+      "heading": "1.2",
+      "heading-sm": "1.3",
+      "subheading": "1.4",
+      "body-sm": "1.45",
+      "body": "1.5"
+    },
+    "letterSpacing": {
+      "heading-sm": "-0.4px",
+      "heading": "-0.64px",
+      "heading-lg": "-0.8px",
+      "poster": "-1.2px",
+      "display": "-1.8px"
+    }
+  },
+  "spacing": {
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "44": "44px",
+    "64": "64px",
+    "68": "68px",
+    "120": "120px"
+  },
+  "layout": {
+    "maxWidth": "1280px",
+    "sectionGap": "64px to 80px",
+    "cardPadding": "20px",
+    "elementGap": "12px to 24px"
+  },
+  "radius": {
+    "button": "2px",
+    "input": "2px",
+    "card": "2px",
+    "image": "2px",
+    "pill": "9999px",
+    "overlay-card": "8px"
+  },
+  "components": {
+    "primary-filled-button": {
+      "background": "{colors.ink-black}",
+      "text": "{colors.paper-white}",
+      "radius": "{radius.button}",
+      "padding": "12px 24px",
+      "shadow": "none"
+    },
+    "email-input": {
+      "background": "{colors.paper-white}",
+      "border": "1px solid {colors.ash}",
+      "radius": "{radius.input}",
+      "placeholder": "{colors.driftwood}",
+      "height": "48px"
+    },
+    "category-tab-pill": {
+      "radius": "{radius.pill}",
+      "padding": "8px 16px",
+      "activeBackground": "{colors.ink-black}",
+      "activeText": "{colors.paper-white}"
+    },
+    "dark-section-band": {
+      "background": "{colors.charcoal}",
+      "text": "{colors.paper-white}",
+      "paddingY": "80px"
+    }
+  }
+}

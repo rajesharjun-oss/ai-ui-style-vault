@@ -1,0 +1,72 @@
+@theme {
+  --color-linen-canvas: #f7f5f3;
+  --color-ink-black: #0d0d0d;
+  --color-paper-white: #ffffff;
+  --color-stone: #6e6a69;
+  --color-pebble: #9a9796;
+
+  --font-cosmosoracle: "cosmosOracle", "GT Super", Fraunces, Georgia, serif;
+
+  --text-caption: 14px;
+  --leading-caption: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: -0.18px;
+  --text-subheading: 18px;
+  --leading-subheading: 1.29;
+  --tracking-subheading: -0.2px;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.2;
+  --tracking-heading-sm: -0.48px;
+  --text-heading: 33px;
+  --leading-heading: 1.1;
+  --tracking-heading: -1.32px;
+  --text-heading-lg: 38px;
+  --leading-heading-lg: 1.08;
+  --tracking-heading-lg: -1.52px;
+  --text-display: 58px;
+  --leading-display: 1.06;
+  --tracking-display: -2.32px;
+  --text-display-xl: 74px;
+  --leading-display-xl: 0.8;
+  --tracking-display-xl: -3.7px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-72: 72px;
+  --spacing-200: 200px;
+
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-2xl-2: 19px;
+  --radius-full: 9999px;
+}
+
+@utility cosmos-page {
+  background: var(--color-linen-canvas);
+  color: var(--color-ink-black);
+  font-family: var(--font-cosmosoracle);
+}
+
+@utility cosmos-nav-pill {
+  background: var(--color-paper-white);
+  border: 1px solid rgba(13, 13, 13, 0.12);
+  border-radius: 9999px;
+}
+
+@utility cosmos-flat-card {
+  background: var(--color-paper-white);
+  border-radius: 16px;
+}
+
+@utility cosmos-image-tile {
+  border-radius: 12px;
+  object-fit: cover;
+}
+

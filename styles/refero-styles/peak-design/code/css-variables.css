@@ -1,0 +1,192 @@
+:root {
+  --color-carbon-ink: #1a211e;
+  --color-paper-white: #ffffff;
+  --color-true-black: #000000;
+  --color-obsidian: #0c0c0c;
+  --color-fog: #eef1f0;
+  --color-mist: #e0e0e0;
+  --color-graphite: #606562;
+  --color-ash-border: #cccfcd;
+  --color-slate: #363537;
+  --color-pewter: #4e4e4e;
+  --color-ember-red: #cc2e39;
+
+  --font-body: Geist, Inter, Sohne, "Helvetica Neue", system-ui, sans-serif;
+  --font-display: "Exposure-style serif", "Playfair Display", "GT Super", "Tiempos Headline", Georgia, serif;
+  --font-label: "Bryant-style condensed sans", "Druk Wide", "Inter Display", "Neue Haas Grotesk Display", system-ui, sans-serif;
+  --font-mono: "Geist Mono", "JetBrains Mono", "IBM Plex Mono", monospace;
+
+  --text-caption: 14px;
+  --leading-caption: 1;
+  --tracking-caption: 0;
+  --text-button-label: 16px;
+  --leading-button-label: 1.1;
+  --tracking-button-label: 0.91px;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.2;
+  --tracking-heading-sm: 0.91px;
+  --text-heading: 32px;
+  --leading-heading: 1.2;
+  --tracking-heading: 0;
+  --text-heading-lg: 48px;
+  --leading-heading-lg: 1.1;
+  --tracking-heading-lg: -1.2px;
+  --text-display: 80px;
+  --leading-display: 1.1;
+  --tracking-display: -2px;
+
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+
+  --page-max-width: 1440px;
+  --section-gap: 80px;
+  --card-padding: 24px;
+  --element-gap: 24px;
+
+  --radius-nav: 4px;
+  --radius-input: 4px;
+  --radius-button: 4px;
+  --radius-card: 8px;
+  --radius-image: 8px;
+  --radius-rounded-button: 32px;
+  --radius-pill: 9999px;
+}
+
+.peak-page {
+  min-height: 100vh;
+  background: var(--color-paper-white);
+  color: var(--color-carbon-ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.peak-container {
+  width: min(100% - 48px, var(--page-max-width));
+  margin-inline: auto;
+}
+
+.peak-display {
+  color: inherit;
+  font-family: var(--font-display);
+  font-size: clamp(48px, 8vw, var(--text-display));
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+}
+
+.peak-label {
+  font-family: var(--font-label);
+  font-size: var(--text-button-label);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-button-label);
+  letter-spacing: var(--tracking-button-label);
+  text-transform: uppercase;
+}
+
+.peak-announcement {
+  display: flex;
+  min-height: 32px;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-carbon-ink);
+  color: var(--color-paper-white);
+}
+
+.peak-nav {
+  display: flex;
+  min-height: 64px;
+  align-items: center;
+  gap: var(--spacing-24);
+  border-bottom: 1px solid var(--color-mist);
+  background: var(--color-paper-white);
+}
+
+.peak-search {
+  height: 40px;
+  border: 1px solid var(--color-ash-border);
+  border-radius: var(--radius-input);
+  background: var(--color-fog);
+  color: var(--color-carbon-ink);
+  font-family: var(--font-body);
+  font-size: 14px;
+  padding: 0 12px 0 36px;
+}
+
+.peak-filter {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color-ash-border);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-slate);
+  padding: 8px 20px;
+}
+
+.peak-filter[data-active="true"] {
+  border-color: var(--color-carbon-ink);
+  background: var(--color-carbon-ink);
+  color: var(--color-paper-white);
+}
+
+.peak-product-card {
+  background: var(--color-paper-white);
+  color: var(--color-carbon-ink);
+}
+
+.peak-product-image {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: var(--radius-image);
+  object-fit: cover;
+}
+
+.peak-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  min-height: 520px;
+}
+
+.peak-split-panel {
+  display: flex;
+  align-items: center;
+  background: var(--color-obsidian);
+  color: var(--color-paper-white);
+  padding: clamp(40px, 7vw, 96px);
+}
+
+.peak-button-filled-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-paper-white);
+  color: var(--color-carbon-ink);
+  padding: 12px 20px;
+}
+
+.peak-button-outline-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-paper-white);
+  border-radius: var(--radius-button);
+  background: transparent;
+  color: var(--color-paper-white);
+  padding: 12px 20px;
+}
+

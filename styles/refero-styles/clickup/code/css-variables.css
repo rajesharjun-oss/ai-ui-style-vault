@@ -1,0 +1,222 @@
+:root {
+  --clickup-signal-white: #ffffff;
+  --clickup-ink-black: #202020;
+  --clickup-onyx: #090c1d;
+  --clickup-carbon: #2a2a2a;
+  --clickup-slate: #646464;
+  --clickup-ash: #838383;
+  --clickup-fog: #b3b3b3;
+  --clickup-cloud: #d4d4d4;
+  --clickup-bone: #e8e8e8;
+  --clickup-plaster: #e9ebf0;
+  --clickup-mercury: #eeeeee;
+  --clickup-mist: #f8f9fa;
+  --clickup-brand-violet: #6647f0;
+  --clickup-signal-blue: #0091ff;
+  --clickup-mint: #6ee7b7;
+  --clickup-emerald: #00c07a;
+  --clickup-teal-tag: #16c0a4;
+
+  --clickup-gradient-rainbow-conic: conic-gradient(from 90deg, #7d5be7 19%, #bc3fda 28%, #fa24ce 37%, #fb49a5 45%, #fc6d7b 52%, #fd8461 55%, #fd9a46 58%, #f687c6 65%, #a3a0e0 80%, #4fb9fa 95%, #0091ff 100%);
+  --clickup-gradient-primary: linear-gradient(83deg, rgba(64, 221, 255, 1) -5%, rgba(118, 18, 250, 1) 51%, rgba(250, 18, 227, 1) 125%);
+  --clickup-gradient-dark-fade: linear-gradient(#111111 24%, #000000);
+
+  --clickup-font-display: "Plus Jakarta Sans", Inter, "General Sans", Arial, sans-serif;
+  --clickup-font-body: Inter, system-ui, Arial, sans-serif;
+  --clickup-font-mono: "Sometype Mono", "JetBrains Mono", "IBM Plex Mono", monospace;
+
+  --clickup-text-body-sm: 14px;
+  --clickup-leading-body-sm: 1.5;
+  --clickup-tracking-body-sm: -0.01px;
+  --clickup-text-body: 16px;
+  --clickup-leading-body: 1.5;
+  --clickup-tracking-body: -0.01px;
+  --clickup-text-subheading: 20px;
+  --clickup-leading-subheading: 1.5;
+  --clickup-tracking-subheading: -0.02px;
+  --clickup-text-heading-sm: 34px;
+  --clickup-leading-heading-sm: 1.2;
+  --clickup-tracking-heading-sm: -0.04em;
+  --clickup-text-heading: 48px;
+  --clickup-leading-heading: 1.25;
+  --clickup-tracking-heading: -0.035em;
+  --clickup-text-heading-lg: 60px;
+  --clickup-leading-heading-lg: 1.1;
+  --clickup-tracking-heading-lg: -0.035em;
+  --clickup-text-display: 80px;
+  --clickup-leading-display: 1.2;
+  --clickup-tracking-display: -0.04em;
+
+  --clickup-spacing-unit: 4px;
+  --clickup-spacing-4: 4px;
+  --clickup-spacing-8: 8px;
+  --clickup-spacing-12: 12px;
+  --clickup-spacing-16: 16px;
+  --clickup-spacing-20: 20px;
+  --clickup-spacing-24: 24px;
+  --clickup-spacing-28: 28px;
+  --clickup-spacing-32: 32px;
+  --clickup-spacing-40: 40px;
+  --clickup-spacing-48: 48px;
+  --clickup-spacing-52: 52px;
+  --clickup-spacing-56: 56px;
+  --clickup-spacing-72: 72px;
+  --clickup-spacing-80: 80px;
+  --clickup-spacing-100: 100px;
+
+  --clickup-page-max-width: 1200px;
+  --clickup-section-gap: 80px;
+  --clickup-card-padding: 28px;
+  --clickup-element-gap: 12px;
+
+  --clickup-radius-input: 9px;
+  --clickup-radius-card: 12px;
+  --clickup-radius-image: 16px;
+  --clickup-radius-large-card: 20px;
+  --clickup-radius-tag: 100px;
+  --clickup-radius-pill: 9999px;
+
+  --clickup-border-default: 1px solid var(--clickup-bone);
+  --clickup-shadow-subtle: rgba(0, 0, 0, 0.1) 0 1px 3px 0, rgba(0, 0, 0, 0.1) 0 1px 2px -1px;
+  --clickup-shadow-product: rgba(18, 43, 165, 0.04) 0 1px 1px -0.5px, rgba(18, 43, 165, 0.04) 0 3px 3px -1.5px, rgba(18, 43, 165, 0.04) 0 6px 6px -3px, rgba(18, 43, 165, 0.04) 0 12px 12px -6px;
+}
+
+.clickup-theme {
+  min-height: 100vh;
+  background: var(--clickup-signal-white);
+  color: var(--clickup-ink-black);
+  font-family: var(--clickup-font-body);
+}
+
+.clickup-container {
+  width: min(100% - 32px, var(--clickup-page-max-width));
+  margin-inline: auto;
+}
+
+.clickup-display {
+  margin: 0;
+  color: var(--clickup-onyx);
+  font-family: var(--clickup-font-display);
+  font-size: clamp(48px, 7vw, var(--clickup-text-display));
+  font-weight: 700;
+  line-height: var(--clickup-leading-display);
+  letter-spacing: var(--clickup-tracking-display);
+}
+
+.clickup-button-primary,
+.clickup-button-outline,
+.clickup-nav-pill,
+.clickup-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--clickup-radius-pill);
+  font-family: var(--clickup-font-display);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease, opacity 150ms ease;
+}
+
+.clickup-button-primary {
+  border: 0;
+  background: var(--clickup-ink-black);
+  color: var(--clickup-signal-white);
+  padding: 12px 24px;
+  box-shadow: none;
+}
+
+.clickup-button-outline {
+  border: var(--clickup-border-default);
+  background: transparent;
+  color: var(--clickup-ink-black);
+  padding: 10px 20px;
+}
+
+.clickup-button-outline-blue {
+  border-color: var(--clickup-signal-blue);
+  color: var(--clickup-signal-blue);
+}
+
+.clickup-nav-pill {
+  background: transparent;
+  color: var(--clickup-carbon);
+  padding: 4px 12px;
+  font-size: 14px;
+}
+
+.clickup-nav-pill:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.clickup-tag-pill {
+  border: var(--clickup-border-default);
+  background: var(--clickup-mist);
+  color: var(--clickup-ink-black);
+  padding: 8px 16px;
+}
+
+.clickup-card {
+  border: var(--clickup-border-default);
+  border-radius: var(--clickup-radius-card);
+  background: var(--clickup-mist);
+  padding: var(--clickup-card-padding);
+}
+
+.clickup-product-shot {
+  border-radius: var(--clickup-radius-image);
+  background: transparent;
+  box-shadow: var(--clickup-shadow-product);
+}
+
+.clickup-stat-number {
+  color: var(--clickup-onyx);
+  font-family: var(--clickup-font-display);
+  font-size: clamp(60px, 8vw, 80px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.clickup-dark-feature {
+  border-radius: var(--clickup-radius-large-card);
+  background: var(--clickup-gradient-dark-fade);
+  color: var(--clickup-signal-white);
+  padding: 80px 40px;
+}
+
+.clickup-mono-label {
+  color: var(--clickup-ash);
+  font-family: var(--clickup-font-mono);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.clickup-conic-border {
+  position: relative;
+  border-radius: var(--clickup-radius-pill);
+  background: var(--clickup-gradient-rainbow-conic);
+  padding: 2px;
+}
+
+.clickup-conic-border > * {
+  border-radius: inherit;
+  background: var(--clickup-signal-white);
+}
+
+.clickup-check {
+  color: var(--clickup-signal-blue);
+}
+
+.clickup-status-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--clickup-radius-pill);
+  padding: 3px 9px;
+  font-size: 11px;
+  font-weight: 600;
+}
+

@@ -1,0 +1,106 @@
+{
+  "name": "AREA 17",
+  "slug": "area-17",
+  "sourceUrl": "https://styles.refero.design/style/143d553e-d71f-4e86-98ed-b80b9ef78ea9",
+  "referenceSite": "https://area17.com",
+  "theme": "light",
+  "colors": {
+    "pure-white": "#ffffff",
+    "graphite": "#1a1a1a",
+    "true-black": "#000000",
+    "hairline": "#e6e6e6",
+    "fog": "#f2f2f2",
+    "cream-stone": "#f2ede9",
+    "muted": "#949494",
+    "dim": "#757575",
+    "disabled": "#cccccc",
+    "electric-yellow": "#fdf313"
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "\"Suisse Intl\", \"Inter\", \"Sohne\", \"GT America\", \"Manrope\", Arial, sans-serif",
+      "system": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500
+    },
+    "fontSize": {
+      "caption": "16px",
+      "subheading": "20px",
+      "heading-sm": "32px",
+      "heading": "42px",
+      "display": "55px"
+    },
+    "lineHeight": {
+      "caption": "1.5",
+      "subheading": "1.4",
+      "heading": "1.15",
+      "display": "1.1"
+    },
+    "letterSpacing": {
+      "caption": "0.06px",
+      "subheading": "-0.28px",
+      "heading-sm": "-0.42px",
+      "heading": "-0.59px",
+      "display": "-0.82px"
+    }
+  },
+  "spacing": {
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "48": "48px",
+    "64": "64px",
+    "80": "80px",
+    "128": "128px",
+    "192": "192px",
+    "232": "232px"
+  },
+  "layout": {
+    "maxWidth": "1440px",
+    "textMaxWidth": "900px",
+    "sectionGap": "80px to 192px",
+    "cardPadding": "16px to 24px",
+    "elementGap": "8px to 16px"
+  },
+  "radius": {
+    "nav": "4px",
+    "card": "8px",
+    "image": "8px",
+    "input": "8px",
+    "button": "8px",
+    "pill": "9999px"
+  },
+  "components": {
+    "announcement-bar": {
+      "background": "{colors.electric-yellow}",
+      "text": "{colors.graphite}",
+      "position": "fixed bottom",
+      "padding": "12px 24px",
+      "height": "40px to 48px"
+    },
+    "editorial-headline": {
+      "fontSize": "{typography.fontSize.display}",
+      "fontWeight": "{typography.fontWeight.medium}",
+      "lineHeight": "{typography.lineHeight.display}",
+      "letterSpacing": "{typography.letterSpacing.display}",
+      "text": "{colors.graphite}",
+      "maxWidth": "{layout.textMaxWidth}"
+    },
+    "outlined-button": {
+      "background": "transparent",
+      "border": "1px solid {colors.graphite}",
+      "radius": "{radius.button}",
+      "padding": "16px 24px",
+      "text": "{colors.graphite}"
+    },
+    "fog-card": {
+      "background": "{colors.fog}",
+      "radius": "{radius.card}",
+      "padding": "24px",
+      "shadow": "none"
+    }
+  }
+}

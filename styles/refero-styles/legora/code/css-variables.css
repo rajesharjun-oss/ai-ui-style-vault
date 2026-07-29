@@ -1,0 +1,195 @@
+:root {
+  --legora-parchment: #fefefc;
+  --legora-ink: #000000;
+  --legora-graphite: #0a0a0a;
+  --legora-iron: #444444;
+  --legora-smoke: #6b6b6b;
+  --legora-verdigris-wash: #ebf5ed;
+  --legora-slate-mist: #bdd4f0;
+  --legora-pewter-haze: #98a7aa;
+
+  --legora-font-display: "Rhymes Display", "Playfair Display", "Cormorant Garamond", serif;
+  --legora-font-body: "Suisse Intl", "Suisse Intl Book", Inter, Sohne, sans-serif;
+  --legora-font-secondary-body: "Aktiv Grotesk VF", Inter, Sohne, sans-serif;
+  --legora-font-features: "blwf", "cv03", "cv04", "cv09", "cv11";
+
+  --legora-text-caption: 11px;
+  --legora-leading-caption: 0.8;
+  --legora-tracking-caption: 0.1px;
+  --legora-text-ui-small: 13px;
+  --legora-leading-ui-small: 1;
+  --legora-tracking-ui-small: -0.01em;
+  --legora-text-body-sm: 14px;
+  --legora-leading-body-sm: 1.3;
+  --legora-tracking-body-sm: -0.01em;
+  --legora-text-body: 16px;
+  --legora-leading-body: 1.25;
+  --legora-tracking-body: -0.01em;
+  --legora-text-body-long: 15px;
+  --legora-leading-body-long: 1.3;
+  --legora-text-heading-sm: 20px;
+  --legora-leading-heading-sm: 1.3;
+  --legora-text-heading: 32px;
+  --legora-leading-heading: 1.1;
+  --legora-tracking-heading: -0.32px;
+  --legora-text-display: 88px;
+  --legora-leading-display: 0.95;
+  --legora-tracking-display: -1.76px;
+
+  --legora-spacing-4: 4px;
+  --legora-spacing-6: 6px;
+  --legora-spacing-8: 8px;
+  --legora-spacing-10: 10px;
+  --legora-spacing-12: 12px;
+  --legora-spacing-16: 16px;
+  --legora-spacing-20: 20px;
+  --legora-spacing-24: 24px;
+  --legora-spacing-32: 32px;
+  --legora-spacing-36: 36px;
+  --legora-spacing-40: 40px;
+  --legora-spacing-48: 48px;
+  --legora-spacing-56: 56px;
+  --legora-spacing-64: 64px;
+  --legora-spacing-80: 80px;
+  --legora-spacing-160: 160px;
+
+  --legora-page-max-width: 1200px;
+  --legora-section-gap: 80px;
+  --legora-card-padding: 24px;
+  --legora-element-gap: 10px;
+
+  --legora-radius-tag: 2px;
+  --legora-radius-button: 2px;
+  --legora-radius-card: 8px;
+  --legora-radius-input: 8px;
+
+  --legora-border-graphite: 1px solid var(--legora-graphite);
+}
+
+.legora-theme {
+  min-height: 100vh;
+  background: var(--legora-parchment);
+  color: var(--legora-graphite);
+  font-family: var(--legora-font-body);
+  font-feature-settings: var(--legora-font-features);
+}
+
+.legora-container {
+  width: min(100% - 32px, var(--legora-page-max-width));
+  margin-inline: auto;
+}
+
+.legora-display {
+  margin: 0;
+  color: var(--legora-graphite);
+  font-family: var(--legora-font-display);
+  font-size: clamp(52px, 8vw, var(--legora-text-display));
+  font-weight: 300;
+  line-height: var(--legora-leading-display);
+  letter-spacing: var(--legora-tracking-display);
+}
+
+.legora-body {
+  color: var(--legora-smoke);
+  font-family: var(--legora-font-body);
+  font-size: var(--legora-text-body);
+  font-weight: 450;
+  line-height: var(--legora-leading-body);
+  letter-spacing: var(--legora-tracking-body);
+}
+
+.legora-button-primary,
+.legora-button-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--legora-radius-button);
+  padding: 10px 24px;
+  font-family: var(--legora-font-body);
+  font-size: var(--legora-text-body-sm);
+  font-weight: 450;
+  letter-spacing: -0.14px;
+  text-decoration: none;
+  transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+}
+
+.legora-button-primary {
+  border: 1px solid var(--legora-ink);
+  background: var(--legora-ink);
+  color: var(--legora-parchment);
+}
+
+.legora-button-ghost {
+  border: var(--legora-border-graphite);
+  background: transparent;
+  color: var(--legora-graphite);
+}
+
+.legora-hero {
+  min-height: 100vh;
+  background: var(--legora-graphite);
+  color: var(--legora-parchment);
+  background-size: cover;
+  background-position: center;
+}
+
+.legora-hero .legora-display {
+  color: var(--legora-parchment);
+}
+
+.legora-logo-bar {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  color: var(--legora-graphite);
+  opacity: 0.68;
+}
+
+.legora-feature-panel {
+  border: 0;
+  border-radius: var(--legora-radius-card);
+  background: var(--legora-slate-mist);
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.legora-feature-panel-sage {
+  background: var(--legora-verdigris-wash);
+}
+
+.legora-input {
+  border: var(--legora-border-graphite);
+  border-radius: var(--legora-radius-input);
+  background: var(--legora-parchment);
+  color: var(--legora-graphite);
+  padding: 12px 14px;
+  font: 500 13px/1 var(--legora-font-body);
+}
+
+.legora-input::placeholder {
+  color: var(--legora-pewter-haze);
+}
+
+.legora-input:focus {
+  outline: 0;
+  border-color: var(--legora-verdigris-wash);
+}
+
+.legora-cookie-card {
+  border: var(--legora-border-graphite);
+  border-radius: var(--legora-radius-card);
+  background: var(--legora-parchment);
+  padding: 16px;
+  box-shadow: none;
+}
+
+.legora-eyebrow {
+  color: var(--legora-smoke);
+  font-family: var(--legora-font-body);
+  font-size: 13px;
+  font-weight: 450;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+

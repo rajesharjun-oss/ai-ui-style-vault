@@ -1,0 +1,57 @@
+:root {
+  --lunch-color-lilac-veil: #b8aad0;
+  --lunch-color-ink-black: #000000;
+  --lunch-color-warm-parchment: #f4f1e4;
+  --lunch-color-ivory-mist: #fcfaf1;
+
+  --lunch-font-good-sans: "Good Sans", Sohne, Inter, "Untitled Sans", Arial, sans-serif;
+  --lunch-font-redaction: Redaction, "GT Sectra Display", "Domaine Display", Georgia, serif;
+
+  --lunch-text-caption: 12px;
+  --lunch-text-body: 16px;
+  --lunch-text-subheading: 24px;
+  --lunch-text-heading: 32px;
+  --lunch-text-display: 72px;
+
+  --lunch-leading-caption: 1;
+  --lunch-leading-body: 1.8;
+  --lunch-leading-subheading: 1.8;
+  --lunch-leading-heading: 1.8;
+  --lunch-leading-display: 1.8;
+
+  --lunch-tracking-caption: 0.6px;
+  --lunch-tracking-body: 0.08px;
+  --lunch-tracking-subheading: 0.12px;
+  --lunch-tracking-heading: 0.16px;
+  --lunch-tracking-display: 0.144px;
+
+  --lunch-weight-regular: 400;
+  --lunch-weight-bold: 700;
+
+  --lunch-space-unit: 4px;
+  --lunch-space-5: 5px;
+  --lunch-space-10: 10px;
+  --lunch-space-15: 15px;
+  --lunch-space-20: 20px;
+  --lunch-space-30: 30px;
+  --lunch-space-60: 60px;
+  --lunch-space-80: 80px;
+
+  --lunch-page-max-width: 1280px;
+  --lunch-section-gap-min: 60px;
+  --lunch-section-gap-max: 80px;
+  --lunch-element-gap-min: 20px;
+  --lunch-element-gap-max: 30px;
+  --lunch-grid-gap: 5px;
+
+  --lunch-radius-cards: 0px;
+  --lunch-radius-badges: 0px;
+  --lunch-radius-images: 0px;
+  --lunch-radius-buttons: 0px;
+
+  --lunch-surface-editorial-canvas: #f4f1e4;
+  --lunch-surface-hero-void: #000000;
+  --lunch-surface-ivory-mist: #fcfaf1;
+  --lunch-surface-brand-whisper: #b8aad0;
+}
+

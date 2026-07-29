@@ -1,0 +1,123 @@
+{
+  "name": "Augen Pro",
+  "slug": "augen-pro",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/0f7da1b2-9d06-4ef5-b5a8-ef7f92e57ab2",
+    "style_id": "0f7da1b2-9d06-4ef5-b5a8-ef7f92e57ab2",
+    "reference_site": "https://augen.pro",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "Apple keynote on surgical white",
+  "summary": "A clinical white premium-tech system with PP Neue Montreal-style 350-weight typography, tight tracking, white-tone elevation, rounded cards, floating pill navigation, and Signal Blue used only as text or outline.",
+  "use_cases": [
+    "Premium consumer tech",
+    "AI hardware",
+    "Neural interface products",
+    "Clinical product launches",
+    "Research labs",
+    "Medical-adjacent marketing",
+    "High-end device pages"
+  ],
+  "colors": {
+    "off_black": "#0f1012",
+    "pure_black": "#020201",
+    "steel_gray": "#5e5e5e",
+    "ash_gray": "#8f8f8f",
+    "off_white": "#f2f2f4",
+    "pure_white": "#fdfdfd",
+    "signal_blue": "#0071e3"
+  },
+  "typography": {
+    "primary_font": "PP Neue Montreal",
+    "fallback": "Inter, General Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "weights": [350, 400],
+    "letter_spacing": "-0.0200em",
+    "features": {
+      "stylistic_sets": "\"ss01\" on, \"ss02\" on, \"cv01\" on, \"cv11\" on"
+    },
+    "scale": {
+      "caption": {
+        "size": "10px",
+        "line_height": "12px",
+        "letter_spacing": "-0.2px",
+        "weight": 350
+      },
+      "micro": {
+        "size": "12px",
+        "line_height": "14.4px",
+        "letter_spacing": "-0.24px",
+        "weight": 350
+      },
+      "button_label": {
+        "size": "13px",
+        "line_height": "15.6px",
+        "letter_spacing": "-0.26px",
+        "weight": 400
+      },
+      "small_body": {
+        "size": "14px",
+        "line_height": "16.8px",
+        "letter_spacing": "-0.28px",
+        "weight": 350
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "19.2px",
+        "letter_spacing": "-0.32px",
+        "weight": 350
+      },
+      "subheading": {
+        "size": "18px",
+        "line_height": "21.6px",
+        "letter_spacing": "-0.36px",
+        "weight": 350
+      },
+      "heading": {
+        "size": "27px",
+        "line_height": "32.4px",
+        "letter_spacing": "-0.54px",
+        "weight": 350
+      }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "page_max_width": "1200px",
+    "section_gap": "90px to 100px",
+    "card_padding": "69px",
+    "element_gap": "6px"
+  },
+  "radius": {
+    "hairline_elements": "1.8px",
+    "nav_pills": "10px",
+    "buttons": "26px",
+    "large_cards": "54px",
+    "body_containers": "63px",
+    "tags_and_links": "9999px"
+  },
+  "components": [
+    "Pill Navigation Bar",
+    "Ghost Link Button",
+    "Signal Blue Text Link",
+    "Pill Tag Chip",
+    "Rounded Card",
+    "Floating CTA Pill",
+    "Dark Band Footer",
+    "Section Label Pair",
+    "Inline Icon Link",
+    "Update Banner"
+  ],
+  "rules": [
+    "Use weight 350 for almost all text.",
+    "Never use font weights above 400.",
+    "Use Signal Blue only for text, icons, borders, and focus edges.",
+    "Never fill elements with Signal Blue.",
+    "Use Off-White canvas and Pure White panels.",
+    "Use hairline borders and tone shifts instead of shadows.",
+    "Keep content within 1200px.",
+    "Maintain 90px to 100px section gaps.",
+    "Use a floating pill nav, not a full-width header."
+  ]
+}

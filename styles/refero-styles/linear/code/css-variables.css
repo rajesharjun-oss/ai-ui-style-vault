@@ -1,0 +1,242 @@
+:root {
+  color-scheme: dark;
+
+  --font-inter-variable: "Inter Variable", "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-berkeley-mono: "Berkeley Mono", "SFMono-Regular", "JetBrains Mono", Consolas, monospace;
+
+  --color-void: #08090a;
+  --color-carbon: #0f1011;
+  --color-obsidian: #161718;
+  --color-graphite: #23252a;
+  --color-smoke: #383b3f;
+  --color-paper: #ffffff;
+  --color-bone: #e5e5e6;
+  --color-mist: #d0d6e0;
+  --color-fog: #8a8f98;
+  --color-ash: #62666d;
+  --color-acid-lime: #e4f222;
+  --color-pulse-green: #27a644;
+  --color-coral-red: #eb5757;
+  --color-signal-teal: #02b8cc;
+  --color-iris-violet: #6366f1;
+  --color-lavender: #8b5cf6;
+
+  --surface-page: var(--color-void);
+  --surface-card: var(--color-carbon);
+  --surface-panel: var(--color-obsidian);
+  --surface-hover: rgba(255, 255, 255, 0.05);
+
+  --text-primary: var(--color-paper);
+  --text-strong: var(--color-mist);
+  --text-body: var(--color-ash);
+  --text-muted: var(--color-fog);
+  --text-inverse: var(--color-void);
+  --text-accent: var(--color-acid-lime);
+
+  --border-hairline: 0.5px solid var(--color-graphite);
+  --border-standard: 1px solid var(--color-graphite);
+  --border-strong: 1px solid var(--color-smoke);
+
+  --text-caption-size: 13px;
+  --text-caption-line: 1.2;
+  --text-body-sm-size: 15px;
+  --text-body-sm-line: 1.6;
+  --text-body-lg-size: 20px;
+  --text-body-lg-line: 1.33;
+  --text-subheading-size: 24px;
+  --text-subheading-line: 1.33;
+  --text-heading-sm-size: 32px;
+  --text-heading-sm-line: 1.13;
+  --text-heading-size: 48px;
+  --text-heading-line: 1;
+  --text-heading-lg-size: 64px;
+  --text-heading-lg-line: 1;
+  --text-display-size: 72px;
+  --text-display-line: 1;
+
+  --tracking-body-sm: -0.165px;
+  --tracking-body-lg: -0.24px;
+  --tracking-subheading: -0.288px;
+  --tracking-heading-sm: -0.704px;
+  --tracking-heading: -1.056px;
+  --tracking-heading-lg: -1.408px;
+  --tracking-display: -1.584px;
+  --tracking-button: -0.011em;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 510;
+
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-96: 96px;
+
+  --container-max: 1200px;
+  --section-gap: 96px;
+  --card-padding: 24px;
+  --element-gap: 8px;
+
+  --radius-button: 6px;
+  --radius-card: 12px;
+  --radius-issue-card: 8px;
+  --radius-pill: 9999px;
+
+  --shadow-card: none;
+  --shadow-product: 0 4px 32px rgba(8, 9, 10, 0.6);
+  --motion-duration: 180ms;
+  --motion-ease: ease;
+}
+
+.linear-page {
+  min-height: 100vh;
+  background: var(--surface-page);
+  color: var(--text-primary);
+  font-family: var(--font-inter-variable);
+}
+
+.linear-container {
+  width: min(calc(100% - 48px), var(--container-max));
+  margin-inline: auto;
+}
+
+.linear-section {
+  padding-block: var(--section-gap);
+}
+
+.linear-display {
+  margin: 0;
+  color: var(--text-primary);
+  font-family: var(--font-inter-variable);
+  font-size: clamp(48px, 8vw, var(--text-display-size));
+  font-weight: var(--font-weight-medium);
+  line-height: var(--text-display-line);
+  letter-spacing: var(--tracking-display);
+}
+
+.linear-body {
+  color: var(--text-body);
+  font-family: var(--font-inter-variable);
+  font-size: var(--text-body-sm-size);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--text-body-sm-line);
+  letter-spacing: var(--tracking-body-sm);
+}
+
+.linear-primary-button,
+.linear-ghost-button,
+.linear-signup-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  text-decoration: none;
+  transition: background-color var(--motion-duration) var(--motion-ease), border-color var(--motion-duration) var(--motion-ease), color var(--motion-duration) var(--motion-ease);
+}
+
+.linear-primary-button {
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-acid-lime);
+  color: var(--text-inverse);
+  padding: 10px 16px;
+  font: var(--font-weight-medium) 14px / 1.2 var(--font-inter-variable);
+  letter-spacing: var(--tracking-button);
+}
+
+.linear-ghost-button {
+  border: var(--border-standard);
+  border-radius: var(--radius-button);
+  background: transparent;
+  color: var(--text-strong);
+  padding: 8px 12px;
+  font: var(--font-weight-regular) 13px / 1.2 var(--font-inter-variable);
+}
+
+.linear-signup-button {
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-paper);
+  color: var(--text-inverse);
+  padding: 8px 16px;
+  font: var(--font-weight-medium) 13px / 1.2 var(--font-inter-variable);
+}
+
+.linear-nav-link {
+  color: var(--text-strong);
+  font: var(--font-weight-regular) 13px / 1.2 var(--font-inter-variable);
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+.linear-card {
+  background: var(--surface-card);
+  border: var(--border-standard);
+  border-radius: var(--radius-card);
+  box-shadow: none;
+  padding: var(--card-padding);
+}
+
+.linear-issue-card {
+  background: var(--surface-card);
+  border: var(--border-standard);
+  border-radius: var(--radius-issue-card);
+  padding: 12px;
+}
+
+.linear-issue-title {
+  color: var(--text-strong);
+  font: var(--font-weight-regular) 15px / 1.4 var(--font-inter-variable);
+}
+
+.linear-metadata {
+  color: var(--text-body);
+  font: var(--font-weight-regular) 12px / 1.4 var(--font-berkeley-mono);
+}
+
+.linear-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-hover);
+  color: var(--text-strong);
+  padding: 4px 12px;
+  font: var(--font-weight-regular) 12px / 1.2 var(--font-inter-variable);
+}
+
+.linear-status-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 18px;
+  border-radius: 4px;
+  background: var(--surface-hover);
+  color: var(--text-muted);
+  padding: 0 6px;
+  font: var(--font-weight-regular) 12px / 1.2 var(--font-inter-variable);
+}
+
+.linear-kanban-column {
+  background: var(--surface-card);
+  border: var(--border-standard);
+  border-radius: var(--radius-card);
+  padding: 12px;
+}
+
+.linear-agent-panel {
+  background: var(--surface-panel);
+  border: var(--border-standard);
+  border-radius: var(--radius-card);
+  padding: 24px;
+}
+
+.linear-agent-panel.is-active {
+  border-color: var(--color-acid-lime);
+}

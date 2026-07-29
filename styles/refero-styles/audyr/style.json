@@ -1,0 +1,355 @@
+{
+ "id": "afde66c4-ad74-4d19-94df-0216e945ac5e",
+ "name": "Audyr",
+ "slug": "audyr",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/afde66c4-ad74-4d19-94df-0216e945ac5e",
+ "referenceSite": "https://audyr.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-11T00:38:34.650Z",
+ "articleModifiedAt": "2026-06-03T15:39:37.359Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1a61be85-0b39-4a07-8a54-3c45ae6542ce.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/bb9e094b-129b-4c3e-b9e8-2385ea2b9bb2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/d74f8026-49fe-41e4-9482-7c90effbecca.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/435da71d-44f5-4225-8fa6-c80474710884.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/9c48b44e-bb7a-4604-bd85-1e5fd22f1670.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/12d9e9a0-2a80-4c0e-979a-048452ae5df9.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Ink on cold-pressed paper. The interface reads as a meticulously typeset monograph - black ink, white stock, hairline rules, and the softest possible shadows to suggest depth.",
+ "summary": "Explore Audyr\u0027s light SaaS design system: Ink #262626, Pure Paper #ffffff colors, Inter typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#262626",
+ "token": "--color-ink",
+ "role": "High-contrast neutral action fill for primary buttons on light surfaces."
+ },
+ {
+ "name": "Pure Paper",
+ "value": "#ffffff",
+ "token": "--color-pure-paper",
+ "role": "Card surfaces, elevated panels, content backgrounds - the base canvas color sits one step brighter than the page"
+ },
+ {
+ "name": "Soft Mist",
+ "value": "#ededed",
+ "token": "--color-soft-mist",
+ "role": "Hairline borders, input outlines, dividers, subtle panel fills - the structural glue that separates regions without lines shouting"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#171717",
+ "token": "--color-charcoal",
+ "role": "Secondary dark surface (pricing card, alternate hero), occasional dark fills where deeper weight is needed than Ink"
+ },
+ {
+ "name": "Ash",
+ "value": "#686868",
+ "token": "--color-ash",
+ "role": "Secondary body text, nav links, supporting copy - the first step down from primary text"
+ },
+ {
+ "name": "Slate",
+ "value": "#515151",
+ "token": "--color-slate",
+ "role": "Tertiary text, icon strokes on light backgrounds, muted metadata"
+ },
+ {
+ "name": "Muted",
+ "value": "#737373",
+ "token": "--color-muted",
+ "role": "Helper text, caption-level copy, secondary icon strokes"
+ },
+ {
+ "name": "Fog",
+ "value": "#929292",
+ "token": "--color-fog",
+ "role": "Placeholder text, disabled labels, very low-emphasis text"
+ },
+ {
+ "name": "Chalk",
+ "value": "#cbcbcb",
+ "token": "--color-chalk",
+ "role": "Shadow residue on dark buttons, ultra-low-contrast surface markers"
+ },
+ {
+ "name": "Mint Whisper",
+ "value": "#ecfdf5",
+ "token": "--color-mint-whisper",
+ "role": "Primary page canvas and white card surfaces. Use as a supporting accent, not as a status color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "The sole typeface. Weight 600 reserved for section labels and small UI controls; weight 500 for nav and secondary buttons; weight 400 for body and most copy. The system commits to one family rather than pairing a display serif - a deliberate editorial choice that keeps the visual signal monochrome."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-0.3px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-0.35px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.56",
+ "-0.4px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.63",
+ "-0.45px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "20px",
+ "1.5",
+ "-0.5px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.4",
+ "-0.6px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "30px",
+ "1.38",
+ "-0.75px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "48px",
+ "1.11",
+ "-1.2px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "120-160px",
+ "cardPadding": "32px",
+ "elementGap": "16-20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "14px"
+ ],
+ [
+ "badges",
+ "9999px"
+ ],
+ [
+ "images",
+ "8px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ],
+ [
+ "largePanels",
+ "18px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site-wide header"
+ },
+ {
+ "name": "Dark Filled Action Button",
+ "role": "Primary CTA"
+ },
+ {
+ "name": "Ghost Outline Action Button",
+ "role": "Secondary action"
+ },
+ {
+ "name": "Pricing Tier Card",
+ "role": "Pricing display (Free, Hobby, Pro)"
+ },
+ {
+ "name": "Highlighted Pricing Card (Hobby)",
+ "role": "Featured/Recommended tier"
+ },
+ {
+ "name": "Pill Badge",
+ "role": "Status / label / tag"
+ },
+ {
+ "name": "Pricing Toggle",
+ "role": "Billing period switcher"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Above-the-fold introduction"
+ },
+ {
+ "name": "Product Mockup Frame",
+ "role": "Embedded dashboard screenshot"
+ },
+ {
+ "name": "Tab Group",
+ "role": "Section switcher (used in product mockup)"
+ },
+ {
+ "name": "Logo Bar",
+ "role": "Social proof / \u0027teams switching from\u0027"
+ },
+ {
+ "name": "Two-Column Feature Section",
+ "role": "Asymmetric content layout"
+ },
+ {
+ "name": "Feature Checklist Item",
+ "role": "Bullet item in pricing cards"
+ },
+ {
+ "name": "Chat Bubble (bottom-right)",
+ "role": "Floating support widget"
+ }
+ ],
+ "dos": [
+ "Use #262626 as the only filled button background - it is the single visual anchor in the monochrome system",
+ "Apply -0.025em letter-spacing to every text element at every size, from 12px captions up to 48px displays",
+ "Use #ededed for all structural dividers, card borders, and input outlines at 1px",
+ "Set card radii to 14px, button radii to 4px, and badge radii to 9999px - these three radii define the visual language",
+ "Limit the chromatic surface tint (#ecfdf5) to success/popular badges only; never apply it to large surfaces",
+ "Keep shadows to the two soft levels: the diffuse card shadow (lab 0.1 25px 50px -12px) and the button micro-shadow (oklab 0.05 1px 2px)",
+ "Maintain 80-160px section padding to preserve the editorial breathing room"
+ ],
+ "donts": [
+ "Don\u0027t introduce a brand color accent - the absence of color IS the brand",
+ "Don\u0027t use radii outside the 4 / 8 / 14 / 18 / 9999px scale; no 6px or 12px intermediate values",
+ "Don\u0027t add drop shadows heavier than the documented card shadow - anything more theatrical breaks the paper-grain feel",
+ "Don\u0027t pair Inter with a second typeface for display use - the single-family commitment is structural",
+ "Don\u0027t use #ffffff for text on white surfaces, and don\u0027t use #ededed for body text - both will fail contrast",
+ "Don\u0027t apply gradients - the system is committed to flat, unshaded fills",
+ "Don\u0027t use colored status indicators on the marketing site; restrict color to badges and the pricing \u0027Popular\u0027 highlight"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Page Canvas | `#ffffff` | The base background; everything else sits on this white field |\n| 1 | Card Surface | `#ffffff` | Same hex as canvas but lifted by a 1px #ededed border and a 14-18px radius |\n| 2 | Highlighted Surface | `#171717` | Dark inverse used for the \u0027Popular\u0027 pricing tier to break the white field |\n| 3 | Accent Wash | `#ecfdf5` | Mint tint applied only to small badge fills (Save 20%, Popular Option) |",
+ "elevation": "- **Dark filled button:** `inset 0 0 0 1px oklab(0.999 0 0 / 0.16), 0 1px 2px oklab(0.269 0 0 / 0.24)`\n- **Product mockup frame:** `0 25px 50px -12px lab(0 0 0 / 0.1)`\n- **Generic card / elevated panel:** `0 1px 3px lab(0 0 0 / 0.05), 0 1px 2px -1px lab(0 0 0 / 0.05)`",
+ "imagery": "Imagery is almost entirely absent from the marketing surface. The hero relies on typography alone, and the single visual asset is a full product screenshot of the dashboard embedded in a framed card. No photography, no illustration, no decorative graphics, no icon system beyond simple monoline check marks and the X-mark wordmark. When competitor logos appear, they are rendered in #929292 to dissolve into the monochrome field rather than stand out as colorful brand marks.",
+ "layout": ""
+}

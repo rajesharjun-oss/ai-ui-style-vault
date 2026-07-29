@@ -1,0 +1,81 @@
+{
+  "name": "Ameba",
+  "slug": "ameba",
+  "sourceUrl": "https://styles.refero.design/style/371df039-a090-402b-b2e4-21ab38e07625",
+  "referenceSite": "https://www.ameba.ai",
+  "tokens": {
+    "color": {
+      "midnightInk": { "value": "#00052e", "role": "primary canvas, hero backgrounds, deep feature surfaces" },
+      "signalBlue": { "value": "#0428cb", "role": "filled CTA, active timeline bars, key visualization state" },
+      "arcCyan": { "value": "#34fcff", "role": "atmospheric glow and particle halos only" },
+      "haloViolet": { "value": "#afb4db", "role": "soft radial midtone between Signal Blue and Midnight Ink" },
+      "carbon": { "value": "#222222", "role": "dark text on light surfaces, button text fallback" },
+      "slateBody": { "value": "#4f5166", "role": "body text on light product sections and secondary metadata" },
+      "mist": { "value": "#8185a0", "role": "tertiary text and disabled labels" },
+      "silverBorder": { "value": "#dbdcdf", "role": "hairline dividers on light product surfaces and tables" },
+      "white": { "value": "#ffffff", "role": "product surfaces, cards, reverse text, document UI canvas" },
+      "radialBlue": { "value": "#06105a", "role": "dark radial glow center behind the focal element" }
+    },
+    "font": {
+      "family": {
+        "display": "F37 Bolton, Sohne, Inter, Helvetica Neue, Arial, sans-serif",
+        "body": "Open Sauce Sans, Inter, Arial, Helvetica, sans-serif",
+        "mono": "IBM Plex Mono, JetBrains Mono, ui-monospace, monospace"
+      },
+      "weight": {
+        "display": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600
+      }
+    },
+    "text": {
+      "dataMicro": { "size": "11px", "lineHeight": "1.2", "weight": 500, "tracking": "0.091em" },
+      "caption": { "size": "12px", "lineHeight": "1.35", "weight": 500, "tracking": "0.077em" },
+      "bodySmall": { "size": "14px", "lineHeight": "1.5", "weight": 400, "tracking": "0" },
+      "body": { "size": "16px", "lineHeight": "1.55", "weight": 400, "tracking": "0" },
+      "bodyLarge": { "size": "18px", "lineHeight": "1.45", "weight": 400, "tracking": "0" },
+      "cardTitle": { "size": "24px", "lineHeight": "1.15", "weight": 300, "tracking": "-0.012em" },
+      "sectionHeading": { "size": "54px", "lineHeight": "1.02", "weight": 300, "tracking": "-0.019em" },
+      "heroHeading": { "size": "86px", "lineHeight": "0.95", "weight": 300, "tracking": "-0.022em" }
+    },
+    "radius": {
+      "tags": "4px",
+      "images": "4px",
+      "cards": "8px",
+      "buttons": "8px",
+      "inputs": "8px"
+    },
+    "spacing": {
+      "unit": "8px",
+      "pageMaxWidth": "1200px",
+      "sectionGap": "80px",
+      "cardPadding": "24px",
+      "elementGap": "12px to 16px"
+    }
+  },
+  "componentRecipes": {
+    "signalBlueCta": {
+      "background": "signalBlue",
+      "color": "white",
+      "radius": "8px",
+      "padding": "12px 18px",
+      "font": "Open Sauce Sans 14px to 16px 600",
+      "shadow": "none"
+    },
+    "whiteProductSurface": {
+      "background": "white",
+      "border": "1px solid silverBorder",
+      "radius": "8px or less",
+      "shadow": "none",
+      "text": "carbon, slateBody, mist"
+    },
+    "dataBadge": {
+      "font": "IBM Plex Mono",
+      "size": "11px to 12px",
+      "tracking": "0.077em to 0.091em",
+      "radius": "4px",
+      "border": "silverBorder or subtle dark hairline"
+    }
+  }
+}

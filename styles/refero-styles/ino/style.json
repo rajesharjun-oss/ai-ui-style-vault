@@ -1,0 +1,78 @@
+{
+  "id": "57388b47-f789-441f-8b8d-13f1838a9ac6",
+  "name": "INO",
+  "slug": "ino",
+  "sourceUrl": "https://styles.refero.design/style/57388b47-f789-441f-8b8d-13f1838a9ac6",
+  "referenceSite": "https://www.inostudios.com",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "clinical jewelry gallery in paper white",
+  "industry": ["jewelry", "luxury retail", "product gallery"],
+  "summary": "A quiet jewelry-gallery commerce style with white canvas, black micro type, pale product fields, Sequel100Wide at one weight, tiny uppercase labels, zero-padded product cards, small 4px utility controls, and bottom navigation with circle indicators.",
+  "colors": {
+    "white": "#ffffff",
+    "ink": "#000000",
+    "chalk": "#f7f7f5",
+    "fog": "#eeeeea",
+    "stone": "#9a9a94"
+  },
+  "typography": {
+    "primary": "Sequel100Wide",
+    "fallback": "Eurostile Extended, Neue Haas Grotesk Display, Inter Tight, Arial",
+    "weights": [400],
+    "displayWeight": 400,
+    "uiWeight": 400,
+    "microTracking": "0.12em",
+    "navTracking": "0.10em",
+    "bodyTracking": "0.04em"
+  },
+  "shape": {
+    "buttonRadius": "4px",
+    "cardRadius": "0px",
+    "imageRadius": "0px",
+    "inputRadius": "4px",
+    "indicatorRadius": "50%",
+    "sectionRadius": "0px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1440px",
+    "sectionGap": "88px",
+    "cardPadding": "0px",
+    "elementGap": "16px",
+    "model": "white gallery canvas with pale product fields, zero-padded product cards, sparse metadata, and bottom navigation with circle indicators"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "none",
+    "depth": "whitespace, pale surfaces, image scale, and small structural lines"
+  },
+  "components": [
+    "bottom navigation",
+    "circle indicator",
+    "product gallery card",
+    "micro product label",
+    "object detail split",
+    "utility link row",
+    "thin bordered button",
+    "footer material ticker",
+    "pale image field"
+  ],
+  "dos": [
+    "Use one wide sans typeface at weight 400.",
+    "Keep visible type small and uppercase where practical.",
+    "Use only neutral colors.",
+    "Let product photography dominate the composition.",
+    "Use bottom navigation with circular indicators.",
+    "Keep product cards zero-padded and almost frameless."
+  ],
+  "donts": [
+    "Do not add a colored CTA or brand accent.",
+    "Do not use large marketing hero headlines.",
+    "Do not use shadows or gradients.",
+    "Do not use rounded ecommerce cards.",
+    "Do not use multiple typefaces or font weights.",
+    "Do not decorate with icons, illustrations, or loud badges."
+  ]
+}

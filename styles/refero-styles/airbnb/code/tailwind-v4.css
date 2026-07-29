@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-airbnb-primary: "Airbnb Cereal VF", Circular, Inter, "DM Sans", system-ui, sans-serif;
+
+  --color-airbnb-rausch: #ff385c;
+  --color-airbnb-rausch-600: #e00b41;
+  --color-airbnb-hof: #222222;
+  --color-airbnb-foggy: #6a6a6a;
+  --color-airbnb-grey-500: #c1c1c1;
+  --color-airbnb-deco: #dddddd;
+  --color-airbnb-bebe: #ebebeb;
+  --color-airbnb-faint: #f7f7f7;
+  --color-airbnb-white: #ffffff;
+
+  --text-airbnb-caption: 11px;
+  --leading-airbnb-caption: 1.18;
+  --text-airbnb-metadata: 12px;
+  --leading-airbnb-metadata: 1.33;
+  --text-airbnb-small: 13px;
+  --leading-airbnb-small: 1.23;
+  --text-airbnb-body: 14px;
+  --leading-airbnb-body: 1.43;
+  --text-airbnb-ui: 16px;
+  --leading-airbnb-ui: 1.25;
+  --text-airbnb-subheading: 20px;
+  --leading-airbnb-subheading: 1.2;
+  --tracking-airbnb-subheading: -0.18px;
+  --text-airbnb-heading-sm: 22px;
+  --leading-airbnb-heading-sm: 1.18;
+  --tracking-airbnb-heading-sm: -0.44px;
+  --text-airbnb-heading: 28px;
+  --leading-airbnb-heading: 1.43;
+
+  --spacing-airbnb-4: 4px;
+  --spacing-airbnb-8: 8px;
+  --spacing-airbnb-12: 12px;
+  --spacing-airbnb-16: 16px;
+  --spacing-airbnb-20: 20px;
+  --spacing-airbnb-24: 24px;
+  --spacing-airbnb-28: 28px;
+  --spacing-airbnb-32: 32px;
+  --spacing-airbnb-40: 40px;
+  --spacing-airbnb-44: 44px;
+  --spacing-airbnb-48: 48px;
+  --spacing-airbnb-max: 1440px;
+
+  --radius-airbnb-input: 8px;
+  --radius-airbnb-ghost-button: 8px;
+  --radius-airbnb-card: 12px;
+  --radius-airbnb-image: 12px;
+  --radius-airbnb-pill: 9999px;
+}
+
+@utility airbnb-container {
+  width: min(100% - 80px, var(--spacing-airbnb-max));
+  margin-inline: auto;
+}
+
+@utility airbnb-pill {
+  border-radius: var(--radius-airbnb-pill);
+}
+
+@utility airbnb-card {
+  border: 0;
+  border-radius: var(--radius-airbnb-card);
+  background: transparent;
+  box-shadow: none;
+}
+
+@utility airbnb-section-title {
+  color: var(--color-airbnb-hof);
+  font-family: var(--font-airbnb-primary);
+  font-size: var(--text-airbnb-heading-sm);
+  font-weight: 500;
+  line-height: var(--leading-airbnb-heading-sm);
+  letter-spacing: -0.02em;
+}
+

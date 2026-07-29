@@ -1,0 +1,85 @@
+{
+  "id": "c08ebca5-87d4-4c19-a5d7-ae5e670dae11",
+  "name": "Atlassian",
+  "slug": "atlassian",
+  "sourceUrl": "https://styles.refero.design/style/c08ebca5-87d4-4c19-a5d7-ae5e670dae11",
+  "referenceSite": "https://www.atlassian.com",
+  "capturedAt": "2026-07-28",
+  "theme": "mixed",
+  "mood": "enterprise blue with collaborative confetti",
+  "industry": ["software", "collaboration", "productivity", "developer tools"],
+  "summary": "A clean enterprise software style with white and cloud surfaces, navy text, Atlassian blue CTAs, bright secondary system colors, rounded cards, product screenshots, integration grids, workflow diagrams, and restrained confetti-style accents.",
+  "colors": {
+    "atlassianBlue": "#0052cc",
+    "brightBlue": "#0065ff",
+    "navy": "#172b4d",
+    "slate": "#42526e",
+    "cloud": "#f4f5f7",
+    "white": "#ffffff",
+    "purple": "#6554c0",
+    "teal": "#00b8d9",
+    "green": "#36b37e",
+    "yellow": "#ffc400",
+    "red": "#ff5630"
+  },
+  "typography": {
+    "display": "Charlie Display",
+    "text": "Charlie Text",
+    "fallback": "Inter, Arial, Helvetica",
+    "weights": [400, 500, 600, 700],
+    "headingTracking": "-0.02em",
+    "bodyTracking": "0",
+    "labelTracking": "0.01em"
+  },
+  "shape": {
+    "buttonRadius": "999px",
+    "cardRadius": "16px",
+    "imageRadius": "20px",
+    "inputRadius": "8px",
+    "chipRadius": "999px",
+    "sectionRadius": "24px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "96px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "model": "white and cloud SaaS sections with nav, hero, product screenshot, integration bands, feature grids, workflow diagrams, customer proof, and structured footer"
+  },
+  "elevation": {
+    "shadows": "soft and sparing on product screenshots and floating panels",
+    "gradients": "subtle blue or pale surface gradients only when supporting product storytelling",
+    "depth": "rounded cards, borders, screenshots, and layered illustration accents"
+  },
+  "components": [
+    "enterprise top navigation",
+    "blue primary CTA",
+    "secondary ghost button",
+    "hero product screenshot frame",
+    "feature card grid",
+    "integration logo grid",
+    "workflow diagram",
+    "testimonial proof band",
+    "confetti accent shapes",
+    "product tab bar",
+    "status chip"
+  ],
+  "dos": [
+    "Use Atlassian Blue for the most important actions and active states.",
+    "Use white and cloud surfaces for clarity.",
+    "Use rounded cards, product screenshots, tabs, and integration grids.",
+    "Use bright secondary colors for status, charts, icons, and small accents.",
+    "Keep copy direct, helpful, and enterprise-friendly.",
+    "Use confetti shapes sparingly around brand moments."
+  ],
+  "donts": [
+    "Do not use dark luxury palettes.",
+    "Do not make the UI overly playful or toy-like.",
+    "Do not add heavy glassmorphism or decorative blobs.",
+    "Do not use serif editorial typography.",
+    "Do not overuse every secondary color at once.",
+    "Do not make marketing sections look like dense admin dashboards."
+  ]
+}

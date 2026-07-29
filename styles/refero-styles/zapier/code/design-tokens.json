@@ -1,0 +1,138 @@
+{
+  "name": "Zapier",
+  "slug": "zapier",
+  "sourceUrl": "https://styles.refero.design/style/63295283-c1a3-4adb-891a-d1365a47a50b",
+  "referenceSite": "https://zapier.com",
+  "theme": "light",
+  "colors": {
+    "ember-orange": "#ff4f00",
+    "iris-ink": "#2b2358",
+    "cream-paper": "#fffefb",
+    "parchment": "#f8f4f0",
+    "stone-linen": "#eceae3",
+    "driftwood": "#c5c0b1",
+    "ash-mist": "#b7b6b3",
+    "ink-brown": "#201515",
+    "bark": "#36342e",
+    "coffee-stone": "#413735",
+    "stone-gray": "#939084",
+    "obsidian": "#000000"
+  },
+  "typography": {
+    "fontFamily": {
+      "inter": "\"Inter\", Arial, sans-serif",
+      "degular-display": "\"Degular Display\", \"Bricolage Grotesque\", \"Space Grotesk\", \"Inter\", sans-serif",
+      "gt-alpina": "\"GT Alpina\", \"Newsreader\", \"Source Serif 4\", serif"
+    },
+    "fontWeight": {
+      "ultra-light": 250,
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "fontSize": {
+      "caption": "12px",
+      "body-lg": "16px",
+      "subheading": "18px",
+      "heading-sm": "24px",
+      "heading": "32px",
+      "heading-lg": "36px",
+      "display": "48px",
+      "display-lg": "56px"
+    },
+    "lineHeight": {
+      "caption": "1.5",
+      "body-lg": "1.5",
+      "subheading": "1.43",
+      "heading-sm": "1.33",
+      "heading": "1.25",
+      "heading-lg": "1.2",
+      "display": "1.14",
+      "display-lg": "1.1"
+    },
+    "letterSpacing": {
+      "caption": "-0.1px",
+      "body-lg": "-0.16px",
+      "subheading": "-0.18px",
+      "heading-sm": "-0.43px",
+      "heading": "-0.58px",
+      "heading-lg": "-0.72px",
+      "display": "-1.34px",
+      "display-lg": "-1.57px",
+      "degular-label": "0.020em",
+      "degular-medium": "0.033em",
+      "degular-large": "0.071em",
+      "alpina": "-0.040em"
+    },
+    "openType": {
+      "degular-display": "\"ss01\" on"
+    }
+  },
+  "spacing": {
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "48": "48px",
+    "56": "56px",
+    "64": "64px",
+    "72": "72px",
+    "80": "80px",
+    "96": "96px",
+    "112": "112px",
+    "160": "160px"
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "sectionGap": "64px to 96px",
+    "cardPadding": "24px to 32px",
+    "elementGap": "8px to 16px"
+  },
+  "radius": {
+    "tag": "4px",
+    "input": "4px",
+    "card": "8px",
+    "button": "20px",
+    "large": "32px",
+    "pill": "9999px"
+  },
+  "shadow": {
+    "product-showcase": "rgba(32, 21, 21, 0.08) 0px 4px 24px"
+  },
+  "components": {
+    "brand-orange-filled-button": {
+      "background": "{colors.ember-orange}",
+      "text": "{colors.cream-paper}",
+      "radius": "{radius.button}",
+      "padding": "12px 20px",
+      "fontSize": "15px",
+      "fontWeight": "{typography.fontWeight.medium}"
+    },
+    "template-card": {
+      "background": "{colors.cream-paper}",
+      "border": "1px solid {colors.stone-linen}",
+      "radius": "{radius.card}",
+      "padding": "24px",
+      "shadow": "none"
+    },
+    "feature-section-card": {
+      "background": "{colors.parchment}",
+      "radius": "{radius.card}",
+      "padding": "32px",
+      "border": "none"
+    },
+    "text-input": {
+      "background": "{colors.cream-paper}",
+      "border": "1px solid {colors.driftwood}",
+      "radius": "{radius.input}",
+      "placeholder": "{colors.ash-mist}",
+      "focusBorder": "{colors.ink-brown}"
+    }
+  }
+}

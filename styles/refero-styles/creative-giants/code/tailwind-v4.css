@@ -1,0 +1,87 @@
+@theme {
+  --color-creative-giants-bone-white: #fffef7;
+  --color-creative-giants-ink-black: #000000;
+  --color-creative-giants-graphite: #666666;
+  --color-creative-giants-ash: #aaaaaa;
+  --color-creative-giants-charcoal-scale: #4d4c4a;
+  --color-creative-giants-magenta-bloom: #8a0467;
+  --color-creative-giants-forest-teal: #03624c;
+  --color-creative-giants-powder-blue: #a5c8eb;
+  --color-creative-giants-candy-pink: #ffacea;
+  --color-creative-giants-mint-wash: #a5ebd6;
+  --color-creative-giants-navy-ink: #101731;
+  --color-creative-giants-signal-yellow: #ffd001;
+
+  --font-creative-giants-sans: "Switzer", "Inter", "Sohne", Arial, sans-serif;
+
+  --text-creative-giants-caption: 12px;
+  --text-creative-giants-body-sm: 14px;
+  --text-creative-giants-body: 16px;
+  --text-creative-giants-body-lg: 18px;
+  --text-creative-giants-subheading: 20px;
+  --text-creative-giants-heading-sm: 34px;
+  --text-creative-giants-heading: 54px;
+  --text-creative-giants-poster: 64px;
+  --text-creative-giants-display: 84px;
+
+  --radius-creative-giants-none: 0px;
+  --radius-creative-giants-pill: 1440px;
+
+  --spacing-creative-giants-1: 8px;
+  --spacing-creative-giants-2: 16px;
+  --spacing-creative-giants-3: 24px;
+  --spacing-creative-giants-4: 32px;
+  --spacing-creative-giants-6: 48px;
+  --spacing-creative-giants-8: 64px;
+  --spacing-creative-giants-10: 80px;
+  --spacing-creative-giants-14: 112px;
+}
+
+@layer components {
+  .creative-giants-page {
+    background: var(--color-creative-giants-bone-white);
+    color: var(--color-creative-giants-ink-black);
+    font-family: var(--font-creative-giants-sans);
+  }
+
+  .creative-giants-display {
+    font-size: clamp(54px, 8vw, var(--text-creative-giants-display));
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+
+  .creative-giants-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: var(--radius-creative-giants-pill);
+    background: var(--color-creative-giants-ink-black);
+    color: var(--color-creative-giants-bone-white);
+    padding: 12px 24px;
+    font-size: var(--text-creative-giants-body);
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  .creative-giants-tag {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--color-creative-giants-ash);
+    border-radius: var(--radius-creative-giants-pill);
+    background: transparent;
+    color: var(--color-creative-giants-ink-black);
+    padding: 8px 12px;
+    font-size: var(--text-creative-giants-caption);
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .creative-giants-card,
+  .creative-giants-image {
+    border-radius: var(--radius-creative-giants-none);
+    box-shadow: none;
+  }
+}

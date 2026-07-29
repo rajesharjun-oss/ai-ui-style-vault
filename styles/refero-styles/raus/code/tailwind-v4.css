@@ -1,0 +1,81 @@
+@theme {
+  --font-raus-sans: "Inter", system-ui, sans-serif;
+  --font-raus-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-raus-charcoal-ink: #25231f;
+  --color-raus-warm-paper: #f7f4ed;
+  --color-raus-pure-white: #ffffff;
+  --color-raus-parchment-border: #e8e0d2;
+  --color-raus-stone-gray: #8f887d;
+  --color-raus-campfire-ochre: #c98a3f;
+  --color-raus-forest-green: #1f4f3a;
+  --color-raus-sand: #d8c6a3;
+  --color-raus-linen-wash: #f1ece3;
+  --color-raus-taupe: #b7a98d;
+
+  --radius-raus-card: 20px;
+  --radius-raus-booking: 24px;
+  --radius-raus-button: 9999px;
+  --radius-raus-input: 12px;
+  --radius-raus-marker: 9999px;
+
+  --spacing-raus-1: 4px;
+  --spacing-raus-2: 8px;
+  --spacing-raus-3: 12px;
+  --spacing-raus-4: 16px;
+  --spacing-raus-5: 20px;
+  --spacing-raus-6: 24px;
+  --spacing-raus-8: 32px;
+  --spacing-raus-10: 40px;
+  --spacing-raus-24: 96px;
+  --spacing-raus-max: 1200px;
+  --spacing-raus-booking: 360px;
+
+  --text-raus-micro: 12px;
+  --text-raus-micro--line-height: 1.33;
+  --text-raus-small-ui: 14px;
+  --text-raus-small-ui--line-height: 1.43;
+  --text-raus-body: 16px;
+  --text-raus-body--line-height: 1.6;
+  --text-raus-lead: 18px;
+  --text-raus-lead--line-height: 1.55;
+  --text-raus-card-title: 24px;
+  --text-raus-card-title--line-height: 1.25;
+  --text-raus-section: 40px;
+  --text-raus-section--line-height: 1.1;
+  --text-raus-hero: 64px;
+  --text-raus-hero--line-height: 0.95;
+}
+
+@utility raus-page {
+  background: var(--color-raus-warm-paper);
+  color: var(--color-raus-charcoal-ink);
+  font-family: var(--font-raus-sans);
+}
+
+@utility raus-hero-title {
+  color: var(--color-raus-charcoal-ink);
+  font-family: var(--font-raus-sans);
+  font-size: clamp(42px, 7vw, var(--text-raus-hero));
+  line-height: var(--text-raus-hero--line-height);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+@utility raus-primary-button {
+  border-radius: var(--radius-raus-button);
+  background: var(--color-raus-campfire-ochre);
+  color: var(--color-raus-pure-white);
+  padding: 12px 20px;
+  font-size: var(--text-raus-small-ui);
+  font-weight: 600;
+}
+
+@utility raus-booking-panel {
+  width: min(100%, var(--spacing-raus-booking));
+  border: 1px solid var(--color-raus-parchment-border);
+  border-radius: var(--radius-raus-booking);
+  background: var(--color-raus-pure-white);
+  padding: 32px;
+  box-shadow: 0 20px 50px -24px rgba(37, 35, 31, 0.08);
+}

@@ -1,0 +1,91 @@
+{
+  "id": "528eb1d4-8508-4dc6-87b4-c7b92d648dac",
+  "name": "Quizlet",
+  "slug": "quizlet",
+  "sourceUrl": "https://styles.refero.design/style/528eb1d4-8508-4dc6-87b4-c7b92d648dac",
+  "referenceSite": "https://quizlet.com",
+  "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/29b2730c-4f01-40d3-8971-5b294added5f.jpg",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "color-coded classroom on white",
+  "industry": ["productivity", "education", "learning", "study tools", "consumer SaaS"],
+  "summary": "A light learning-product style with Chalk Canvas page background, Paper White cards, Ink Charcoal text, Iris Bolt as the single saturated accent, Hurme-style geometric typography, 200px pill buttons, 8px content cards, 24px pastel feature cards, compact spacing, and product-first flashcard imagery.",
+  "colors": {
+    "irisBolt": "#4255ff",
+    "inkCharcoal": "#282e3e",
+    "deepIndigo": "#2e3856",
+    "slateVeil": "#586380",
+    "fogMist": "#939bb4",
+    "pureBlack": "#000000",
+    "chalkCanvas": "#f6f7fb",
+    "paperWhite": "#ffffff",
+    "lilacWash": "#edefff",
+    "mistBorder": "#d9dde8",
+    "featurePastel": "#dbdfff"
+  },
+  "typography": {
+    "primary": "hurme_no2-webfont",
+    "displayName": "Hurme Geometric Sans",
+    "fallback": "Inter, Arial, Helvetica, sans-serif",
+    "weights": [400, 600, 700],
+    "bodyWeight": 400,
+    "buttonWeight": 600,
+    "featureLabelWeight": 700,
+    "letterSpacing": "0",
+    "style": "single-family geometric sans system for friendly learning UI"
+  },
+  "shape": {
+    "primaryButtonRadius": "200px",
+    "searchRadius": "200px",
+    "contentCardRadius": "8px",
+    "featureCardRadius": "24px",
+    "utilityRadius": "4px",
+    "carouselArrowSize": "40px"
+  },
+  "layout": {
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "16px to 24px",
+    "elementGap": "8px",
+    "model": "centered learning-product page with compact white cards on gray canvas, pill search, horizontal feature carousel, alternating white/lilac product sections, and footer link grid"
+  },
+  "elevation": {
+    "navAndRaisedCards": "rgba(40,46,62,0.1) 0px 4px 16px 0px",
+    "interactiveButton": "rgba(40,46,62,0.1) 0px 2px 4px 0px",
+    "iconInset": "rgba(0,0,0,0.3) 0px 0px 1px 0px inset",
+    "rule": "Use one subtle shadow token; do not stack elevation."
+  },
+  "components": [
+    "filled pill button",
+    "ghost text link",
+    "ghost outlined button",
+    "store badge",
+    "study set card",
+    "feature category card",
+    "top navigation bar",
+    "search bar",
+    "promotional section panel",
+    "carousel navigation arrow",
+    "term count badge",
+    "footer link column"
+  ],
+  "dos": [
+    "Use Iris Bolt exclusively for filled interactive elements, links, and active states.",
+    "Apply 200px radius to all primary filled buttons.",
+    "Set body text in Ink Charcoal at weight 400.",
+    "Use 8px radius on content cards and 24px only on hero feature category cards.",
+    "Build white card surfaces over the Chalk Canvas page background.",
+    "Use 80px section gaps, 24px larger card padding, and 8px element gaps.",
+    "Apply the single subtle shadow token to nav bars and elevated cards only."
+  ],
+  "donts": [
+    "Do not introduce additional saturated colors beyond Iris Bolt.",
+    "Do not use 4px or 8px radius on primary filled buttons.",
+    "Do not set headings to weight 700 by default.",
+    "Do not use pure black for normal body text.",
+    "Do not place cards directly on Lilac Wash without an inner white panel.",
+    "Do not apply heavy or multi-layer shadows.",
+    "Do not use Mist Border as a fill color."
+  ]
+}

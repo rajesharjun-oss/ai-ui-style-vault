@@ -1,0 +1,115 @@
+{
+  "id": "a31f5b99-6e7d-4e13-9b80-cd60e455bd76",
+  "name": "wix.com",
+  "slug": "wix-com",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/a31f5b99-6e7d-4e13-9b80-cd60e455bd76",
+  "referenceSite": "https://www.wix.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "daylight gallery wall",
+    "electric blue signposts",
+    "oversized airy display type",
+    "soft lavender section rhythm",
+    "creator product mockups"
+  ],
+  "summary": "A bright creator-tool design system with white canvas, oversized Madefor Display headlines, rounded flat components, product mockups, 50px pill CTAs, and Electric Blue reserved for primary actions.",
+  "useWhen": [
+    "Website builder pages",
+    "Creator tool marketing",
+    "Template marketplaces",
+    "AI creation products",
+    "Friendly SaaS product pages"
+  ],
+  "avoidWhen": [
+    "Dense admin dashboards",
+    "Dark cinematic products",
+    "Editorial sites needing serif drama",
+    "Enterprise tools requiring many status colors",
+    "Sharp rectilinear modernist layouts"
+  ],
+  "colors": {
+    "pureCanvas": "#ffffff",
+    "slateMist": "#f1f5f9",
+    "carbonInk": "#000000",
+    "graphite": "#1c1d21",
+    "ashBorder": "#d0d0d0",
+    "fogBorder": "#e8e6e6",
+    "electricBlue": "#166aea",
+    "deepViolet": "#101585",
+    "indigoPulse": "#2c34af",
+    "limeHighlight": "#dff994",
+    "lemonNote": "#fdf4a1",
+    "lavenderMist": "#bfc8e8",
+    "inputBlue": "#538ab6"
+  },
+  "typography": {
+    "display": {
+      "family": "madefor-display",
+      "fallback": "Inter",
+      "weights": [400],
+      "sizes": ["10px", "13px", "14px", "16px", "21px", "24px", "31px", "48px", "82px", "89px", "104px", "184px"],
+      "lineHeight": "0.85-1.6",
+      "letterSpacing": "-0.03em at 82px and above, -0.02em at 31px-48px, -0.01em at 21px-24px"
+    },
+    "body": {
+      "family": "madefor-text",
+      "fallback": "Inter",
+      "weights": [400],
+      "sizes": ["10px", "13px", "14px", "15px", "16px", "18px", "21px", "25px"],
+      "lineHeight": "1.29-1.71",
+      "letterSpacing": "-0.01em"
+    },
+    "utility": {
+      "family": "Arial",
+      "fallback": "system-ui",
+      "weights": [400],
+      "sizes": ["10px", "13px"],
+      "lineHeight": "1.2"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "12px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "36px", "40px", "44px", "48px", "52px", "68px", "84px", "144px"]
+  },
+  "shape": {
+    "imageRadius": "8.9px",
+    "smallCardRadius": "8.9px",
+    "tagRadius": "20px",
+    "cardRadius": "20px",
+    "buttonAltRadius": "20px",
+    "buttonRadius": "50px",
+    "navPillRadius": "50px",
+    "shadow": "minimal; no visible card/button drop shadows"
+  },
+  "components": [
+    "primary action button",
+    "secondary action button",
+    "ghost button",
+    "rounded compact button",
+    "template preview card",
+    "product mockup card",
+    "navigation bar",
+    "input field",
+    "hero headline block",
+    "section heading",
+    "gradient section background",
+    "badge or tag",
+    "side panel"
+  ],
+  "implementationRules": [
+    "Use Electric Blue only for primary action buttons and selected indicators.",
+    "Use black filled pills as the alternate action system.",
+    "Use 50px radius for all interactive buttons and nav pills.",
+    "Use Madefor Display for large headlines with tight negative tracking.",
+    "Use 80px section gaps for an airy rhythm.",
+    "Use Lavender Mist gradients as full-bleed section breaks.",
+    "Use 8.9px radius for product mockups and images.",
+    "Avoid visible drop shadows and extra accent colors."
+  ]
+}

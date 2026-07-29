@@ -1,0 +1,144 @@
+{
+  "name": "Officevibe",
+  "slug": "officevibe",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/ced1c98f-d489-48f7-a01f-1fa59a07b706",
+    "style_id": "ced1c98f-d489-48f7-a01f-1fa59a07b706",
+    "reference_site": "https://officevibe.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "editorial journal on warm cream paper",
+  "summary": "A warm HR-product system with cream canvas, serif italic headline accents, ink navy feature cards, electric cobalt CTAs, cream borders, 100px pill controls, 16px cards, and a persistent chat widget.",
+  "use_cases": [
+    "HR products",
+    "Employee engagement tools",
+    "Survey software",
+    "People-ops dashboards",
+    "Coaching products",
+    "Humane SaaS marketing"
+  ],
+  "colors": {
+    "ink_navy": "#0c1754",
+    "electric_cobalt": "#2545ff",
+    "lavender_mist": "#eaebf8",
+    "charcoal": "#171417",
+    "graphite": "#222222",
+    "stone": "#969696",
+    "smoke": "#cccccc",
+    "cream_border": "#f0e9e1",
+    "warm_canvas": "#f9f8f6",
+    "paper_white": "#ffffff"
+  },
+  "typography": {
+    "display_font": "Martinaplantijn",
+    "heading_font": "Abcfavoritvariable",
+    "body_font": "Inter",
+    "features": ["ss01", "ss04"],
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "line_height": "1.4",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Inter"
+      },
+      "body_sm": {
+        "size": "14px",
+        "line_height": "1.6",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Inter"
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.6",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Inter"
+      },
+      "subheading": {
+        "size": "20px",
+        "line_height": "1.4",
+        "letter_spacing": "normal",
+        "weight": 400,
+        "font": "Inter"
+      },
+      "heading_sm": {
+        "size": "24px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.48px",
+        "weight": 400,
+        "font": "Abcfavoritvariable"
+      },
+      "heading": {
+        "size": "32px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.64px",
+        "weight": 400,
+        "font": "Abcfavoritvariable"
+      },
+      "heading_lg": {
+        "size": "40px",
+        "line_height": "1.2",
+        "letter_spacing": "-0.8px",
+        "weight": 400,
+        "font": "Abcfavoritvariable"
+      },
+      "display": {
+        "size": "48px",
+        "line_height": "1.1",
+        "letter_spacing": "-2.4px",
+        "weight": 400,
+        "font": "Martinaplantijn"
+      },
+      "display_lg": {
+        "size": "64px",
+        "line_height": "1",
+        "letter_spacing": "-3.2px",
+        "weight": 400,
+        "font": "Martinaplantijn"
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "8px",
+    "density": "comfortable",
+    "page_max_width": "1200px",
+    "section_gap": "80px",
+    "card_padding": "32px",
+    "element_gap": "24px"
+  },
+  "radius": {
+    "cards": "16px",
+    "badges": "16px",
+    "inputs": "16px",
+    "images": "24px",
+    "buttons": "100px"
+  },
+  "components": [
+    "Filled Pill Button",
+    "Ghost Nav Button",
+    "Eyebrow Label",
+    "Display Headline With Italic Accent",
+    "Step Card Dark",
+    "Step Card Light",
+    "Step Card Bordered Accent",
+    "Chat Widget",
+    "FAQ Accordion Row",
+    "Product Dashboard Card",
+    "Top Navigation Bar",
+    "Metric Pill Badge"
+  ],
+  "rules": [
+    "Use Martinaplantijn for the largest headlines.",
+    "Italicize one meaningful phrase inside major headlines.",
+    "Use Electric Cobalt only for true action and active moments.",
+    "Use Ink Navy with Paper White for dark cards and footer.",
+    "Use Cream Border instead of cool gray borders.",
+    "Use 100px radius for buttons and chips.",
+    "Use 16px radius for cards and chat widget.",
+    "Keep the bottom chat widget as part of the product identity."
+  ]
+}

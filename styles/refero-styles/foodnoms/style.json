@@ -1,0 +1,335 @@
+{
+    "id":  "1e7dae3b-cb34-4fcf-8c32-051152aebbab",
+    "name":  "Foodnoms",
+    "slug":  "foodnoms",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/1e7dae3b-cb34-4fcf-8c32-051152aebbab",
+                   "referenceSite":  "https://foodnoms.com",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-03-17T16:42:30.000Z",
+                   "articleModifiedAt":  "2026-06-05T01:48:30.157Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/bcb2fefb-0159-4290-807d-e97c448b253d.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/18944cde-ce05-46db-b6d3-b92b28388baf.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/3150e17a-496c-4c2b-be44-9faa8fecb692.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/1973c0ba-1fc7-4e38-b4b5-2245d9270d36.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/8d5eb288-ba51-466c-a9a3-8600733ef63b.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "Productivity",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "Productivity",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Sunlit fruit market on white porcelain warm orange, fresh green, and generous rounded forms",
+    "summary":  "Explore Foodnoms\u0027s light Productivity design system: Ember Orange #ff5406, Verdant Green #00b33f colors, Aquawax Pro Medium, Aquawax Pro typography, and...",
+    "colors":  [
+                   {
+                       "name":  "Ember Orange",
+                       "value":  "#ff5406",
+                       "token":  "--color-ember-orange",
+                       "role":  "Orange supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Verdant Green",
+                       "value":  "#00b33f",
+                       "token":  "--color-verdant-green",
+                       "role":  "Green supporting accent for decorative details and low-frequency emphasis"
+                   },
+                   {
+                       "name":  "Signal Red-Orange",
+                       "value":  "#ff3400",
+                       "token":  "--color-signal-red-orange",
+                       "role":  "Secondary warm accent visible in app screen UI elements and supporting brand moments. Sits one step hotter than Ember Orange for emphasis on selected or active app states"
+                   },
+                   {
+                       "name":  "Sky Blue",
+                       "value":  "#00a9dd",
+                       "token":  "--color-sky-blue",
+                       "role":  "Cool counter-accent for app-internal data categories (carbs/protein/other nutrient groupings). Balances the warm-dominant palette inside phone mockups"
+                   },
+                   {
+                       "name":  "Mist Blue",
+                       "value":  "#72a2c5",
+                       "token":  "--color-mist-blue",
+                       "role":  "Muted cool accent softens Sky Blue for secondary data labels and chart backgrounds inside the app surfaces"
+                   },
+                   {
+                       "name":  "Sunset Orange",
+                       "value":  "#ff6d00",
+                       "token":  "--color-sunset-orange",
+                       "role":  "Warm accent for secondary headings and emphasis text within the marketing pages"
+                   },
+                   {
+                       "name":  "Amber",
+                       "value":  "#945300",
+                       "token":  "--color-amber",
+                       "role":  "Deep warm accent for data-heavy text and chart labels in the app\u0027s nutrition displays"
+                   },
+                   {
+                       "name":  "Alert Red",
+                       "value":  "#ff001e",
+                       "token":  "--color-alert-red",
+                       "role":  "Red supporting accent for decorative details and low-frequency emphasis"
+                   },
+                   {
+                       "name":  "Plum",
+                       "value":  "#bd4be5",
+                       "token":  "--color-plum",
+                       "role":  "Accent for the carbs/protein/fat macro rings and category tags inside the app interface"
+                   },
+                   {
+                       "name":  "Iris",
+                       "value":  "#5856de",
+                       "token":  "--color-iris",
+                       "role":  "Accent for headings and emphasis text on supporting pages, and for specific data categories inside the app"
+                   },
+                   {
+                       "name":  "Electric Blue",
+                       "value":  "#0099f9",
+                       "token":  "--color-electric-blue",
+                       "role":  "Accent for bold headings and highlighted text on supporting pages"
+                   },
+                   {
+                       "name":  "Graphite",
+                       "value":  "#2f2f2f",
+                       "token":  "--color-graphite",
+                       "role":  "Primary text, dark buttons (App Store badge), and icon strokes. The dominant non-white color in headings and body copy"
+                   },
+                   {
+                       "name":  "Charcoal",
+                       "value":  "#000000",
+                       "token":  "--color-charcoal",
+                       "role":  "Maximum-emphasis text and icon fills. Used sparingly reserved for the darkest typographic moments and SVG icon details"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#f5f5f5",
+                       "token":  "--color-fog",
+                       "role":  "Alternate canvas for cards, feature sections, and soft UI containers. Distinguishes elevated content blocks from the white page"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Dominant page background, button text, and card surfaces. The base layer of the entire visual system"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Aquawax Pro Medium Aquawax Pro Medium detected in extracted data but not described by AI `--font-aquawax-pro-medium`",
+                                     "Aquawax Pro Primary brand typeface used across all display, heading, and body contexts. The custom face has a wide x-height, rounded geometric forms, and friendly proportions. Bold (700) is used for the 60px display and 30px section headlines these are the system\u0027s typographic anchors. DemiBold (600) handles subheadings and button labels at 1416px. Medium (500) carries body copy at 1720px with generous 1.61.8 line-height for comfortable reading. `--font-aquawax-pro`",
+                                     "System sans-serif Fallback for very small UI text and icon labels. Aquawax Pro is not used at micro sizes; system font handles them to keep render weight low. `--font-system-sans-serif`",
+                                     "Aquawax Pro DemiBold Aquawax Pro DemiBold detected in extracted data but not described by AI `--font-aquawax-pro-demibold`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "tiny",
+                                             "12px",
+                                             "1.2",
+                                             "",
+                                             "--text-tiny"
+                                         ],
+                                         [
+                                             "caption",
+                                             "14px",
+                                             "1.2",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "16px",
+                                             "1.4",
+                                             "",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "20px",
+                                             "1.8",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "22px",
+                                             "1.2",
+                                             "",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "30px",
+                                             "1.2",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "display",
+                                             "60px",
+                                             "1.2",
+                                             "",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "8px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "48",
+                                      "48px",
+                                      "--spacing-48"
+                                  ],
+                                  [
+                                      "56",
+                                      "56px",
+                                      "--spacing-56"
+                                  ],
+                                  [
+                                      "64",
+                                      "64px",
+                                      "--spacing-64"
+                                  ],
+                                  [
+                                      "96",
+                                      "96px",
+                                      "--spacing-96"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "96px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "32px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "20px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "tags",
+                                    "26px"
+                                ],
+                                [
+                                    "cards",
+                                    "26px"
+                                ],
+                                [
+                                    "inputs",
+                                    "26px"
+                                ],
+                                [
+                                    "buttons",
+                                    "26px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Brand Wordmark",
+                           "role":  "Site identity in header and footer"
+                       },
+                       {
+                           "name":  "Header Filled Button",
+                           "role":  "Primary brand action in the navigation bar"
+                       },
+                       {
+                           "name":  "Ghost Nav Link",
+                           "role":  "Secondary navigation items"
+                       },
+                       {
+                           "name":  "App Store Badge",
+                           "role":  "Download CTA in the hero"
+                       },
+                       {
+                           "name":  "Two-Tone Display Headline",
+                           "role":  "Hero page title"
+                       },
+                       {
+                           "name":  "Section Accent Heading",
+                           "role":  "Feature section titles"
+                       },
+                       {
+                           "name":  "Phone Mockup Carousel",
+                           "role":  "Visual showcase of the app interface"
+                       },
+                       {
+                           "name":  "Press Logo Grid",
+                           "role":  "Social proof / media mentions"
+                       },
+                       {
+                           "name":  "Download CTA Card",
+                           "role":  "Sticky promotional banner"
+                       },
+                       {
+                           "name":  "App-Internal Data Card",
+                           "role":  "Nutrition summary panel (shown inside phone mockups)"
+                       },
+                       {
+                           "name":  "Macro Category Ring",
+                           "role":  "Circular progress indicator for nutrition goals"
+                       },
+                       {
+                           "name":  "Food Log Entry Row",
+                           "role":  "List item showing a logged food"
+                       }
+                   ],
+    "dos":  [
+                "Use 26px border-radius on every interactive element and card this is the system\u0027s signature softness",
+                "Apply the two-tone headline pattern: one color for the outcome word, Graphite (#2f2f2f) for the rest",
+                "Use Aquawax Pro Bold at 60px for hero displays and 30px for section headings never interpolate intermediate sizes",
+                "Pair Verdant Green (#00b33f) with positive/progress data and Signal Red-Orange (#ff3400) with negative/overage data inside app screens",
+                "Use generous 96px section gaps between major page sections to let phone mockups breathe",
+                "Keep all text on white or Fog (#f5f5f5) never place chromatic text on chromatic backgrounds",
+                "Show 3+ phone mockups side-by-side in the hero, slightly overlapping, to demonstrate the breadth of the app experience"
+            ],
+    "donts":  [
+                  "Don\u0027t use box-shadows or drop-shadows anywhere the system is deliberately flat",
+                  "Don\u0027t use a border-radius other than 26px on buttons, cards, tags, or inputs",
+                  "Don\u0027t call any color a \u0027CTA\u0027 or \u0027primary action\u0027 in the token system describe them by their brand role instead",
+                  "Don\u0027t use Aquawax Pro at sizes below 12px fall back to system sans-serif for micro UI",
+                  "Don\u0027t place chromatic text on a chromatic background always pair color text with white or Fog",
+                  "Don\u0027t use gradient backgrounds or gradient buttons the system is solid color only",
+                  "Don\u0027t introduce new chromatic colors for marketing pages the warm-primary + cool-accent + app-data palette is complete"
+              ]
+}

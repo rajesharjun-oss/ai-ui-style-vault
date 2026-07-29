@@ -1,0 +1,156 @@
+{
+  "id": "81507860-e43d-4c50-b371-7267af9a914b",
+  "name": "PLATFORM",
+  "slug": "platform",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/81507860-e43d-4c50-b371-7267af9a914b",
+  "referenceSite": "https://www.platformart.com",
+  "capturedAt": "2026-07-28",
+  "mood": "white cube gallery under spotlights",
+  "summary": "Strict monochrome gallery-catalog UI with pure white canvas, pure black text and 1px borders, MediumLLWeb typography, compact 15px body rhythm, zero radius, zero shadows, and artwork as the only color source.",
+  "useWhen": [
+    "Art marketplaces",
+    "Gallery catalogs",
+    "Museum store collections",
+    "Curated visual product grids",
+    "Editorial ecommerce where product imagery carries the color"
+  ],
+  "avoidWhen": [
+    "Colorful SaaS or lifestyle brands",
+    "Apps needing status colors or badges",
+    "Rounded, soft, friendly ecommerce",
+    "Interfaces without strong artwork or product imagery"
+  ],
+  "colors": {
+    "lampBlack": {
+      "value": "#000000",
+      "role": "Primary text, card and nav borders, links, icons, structural UI"
+    },
+    "graphite": {
+      "value": "#808080",
+      "role": "Secondary captions, timestamps, de-emphasized metadata"
+    },
+    "ironGray": {
+      "value": "#aaaaaa",
+      "role": "Tertiary captions, breadcrumb separators, fine print"
+    },
+    "smokeGray": {
+      "value": "#b3b3b3",
+      "role": "Muted helper text, metadata captions, placeholder labels"
+    },
+    "concreteGray": {
+      "value": "#cccccc",
+      "role": "Secondary borders, input outlines, disabled states"
+    },
+    "ashGray": {
+      "value": "#dddddd",
+      "role": "Hairline dividers and subtle surface separation"
+    },
+    "boneWhite": {
+      "value": "#ffffff",
+      "role": "Page background, card surfaces, negative space"
+    }
+  },
+  "typography": {
+    "primaryFamily": "MediumLLWeb",
+    "fallbackFamilies": [
+      "Sohne",
+      "Inter",
+      "Neue Haas Grotesk",
+      "Arial",
+      "sans-serif"
+    ],
+    "weights": [
+      400,
+      500
+    ],
+    "openType": "\"tnum\" on for price alignment in card metadata",
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "weight": 500,
+        "lineHeight": "1.2",
+        "letterSpacing": "0.01em"
+      },
+      "bodySmall": {
+        "size": "15px",
+        "weight": 400,
+        "lineHeight": "1.2",
+        "letterSpacing": "0.01em"
+      },
+      "subheading": {
+        "size": "20px",
+        "weight": 500,
+        "lineHeight": "1.15",
+        "letterSpacing": "0.01em"
+      },
+      "heading": {
+        "size": "48px",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "letterSpacing": "0.02em"
+      },
+      "display": {
+        "size": "72px",
+        "weight": 400,
+        "lineHeight": "1",
+        "letterSpacing": "0.02em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "maxWidth": "1280px",
+    "sectionGap": "72px",
+    "cardPadding": "30px",
+    "elementGap": "10px",
+    "scale": [
+      "4px",
+      "5px",
+      "6px",
+      "7px",
+      "8px",
+      "9px",
+      "10px",
+      "11px",
+      "13px",
+      "17px",
+      "18px",
+      "20px",
+      "30px",
+      "36px",
+      "72px",
+      "122px"
+    ]
+  },
+  "shape": {
+    "tagRadius": "0px",
+    "cardRadius": "0px",
+    "badgeRadius": "0px",
+    "inputRadius": "0px",
+    "buttonRadius": "0px",
+    "imageRadius": "0px"
+  },
+  "elevation": {
+    "shadows": "none",
+    "border": "1px solid #000000",
+    "divider": "1px solid #dddddd"
+  },
+  "components": [
+    "Top navigation bar",
+    "Hero spotlight banner",
+    "Section header band",
+    "Artwork card",
+    "Artwork grid",
+    "Text link",
+    "Ghost icon button",
+    "Body text block",
+    "Metadata caption",
+    "Footer",
+    "Search input"
+  ],
+  "imagery": {
+    "direction": "Fine-art photography, paintings, sculptures, mixed-media works, straight product crops on white, full-bleed dark spotlight hero.",
+    "avoid": "Lifestyle context, room staging, human models, decorative illustration, colored UI badges, stock graphics."
+  }
+}

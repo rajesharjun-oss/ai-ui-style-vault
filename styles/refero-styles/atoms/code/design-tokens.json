@@ -1,0 +1,236 @@
+{
+ "name": "Atoms",
+ "slug": "atoms",
+ "colors": [
+ {
+ "name": "Champagne Gold",
+ "value": "#c8ad86",
+ "token": "--color-champagne-gold",
+ "role": "Accent headings, category tags, decorative borders - the only chromatic color in the system, used sparingly to mark emphasis and brand-bearing elements"
+ },
+ {
+ "name": "Candlelight Cream",
+ "value": "#fff7dd",
+ "token": "--color-candlelight-cream",
+ "role": "Primary text, hairline borders, icon strokes - warm off-white reads softer than pure white against the black canvas"
+ },
+ {
+ "name": "Obsidian Black",
+ "value": "#000000",
+ "token": "--color-obsidian-black",
+ "role": "Page canvas, card surfaces, image backgrounds - absolute black dominates the visual field"
+ },
+ {
+ "name": "Ember Ash",
+ "value": "#66635f",
+ "token": "--color-ember-ash",
+ "role": "Muted surface variation, secondary backgrounds, low-emphasis fills"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Switzer",
+ "token": "--font-switzer",
+ "role": "Primary typeface for all headings, body, and navigation - a geometric sans with unusually tight tracking on display sizes (-0.042em at 44px) that creates a precision-engineered feel. Weight 400 for body, 500 for labels and tags. The negative letter-spacing on the 44px headline tightens the word shapes into compact, machined forms."
+ },
+ {
+ "name": "system-ui sans-serif",
+ "token": "--font-system-ui-sans-serif",
+ "role": "Fallback / system rendering for micro-UI and link text"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.2",
+ "0.18px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "44px",
+ "1.13",
+ "-1.85px",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "32px",
+ "elementGap": "8-16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "100px"
+ ],
+ [
+ "cards",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Hero Logo Mosaic",
+ "role": "Full-bleed brand mark"
+ },
+ {
+ "name": "Hero Headline",
+ "role": "Primary statement type"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Navigation cue to secondary content"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Global site navigation"
+ },
+ {
+ "name": "Company Card",
+ "role": "Portfolio/company grid item"
+ },
+ {
+ "name": "Category Tag Pill",
+ "role": "Industry/sector label"
+ },
+ {
+ "name": "Company Logo Tile",
+ "role": "Brand mark display within card"
+ },
+ {
+ "name": "Card Footer Link Row",
+ "role": "External resource links"
+ },
+ {
+ "name": "Section Header",
+ "role": "Content section title"
+ },
+ {
+ "name": "Arrow Glyph",
+ "role": "Directional/link indicator"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #fff7dd for all primary text and hairline borders on black surfaces",
+ "Reserve #c8ad86 exclusively for category tags, accent headings, and decorative borders - never as a full-surface fill",
+ "Apply Switzer with tight negative letter-spacing on all display sizes: -1.85px at 44px, -0.13px at 16px",
+ "Set border-radius to 4px on cards and buttons, 100px on tags and pills only",
+ "Separate cards and sections with 1px hairline borders, never with shadows or background fills",
+ "Keep vertical rhythm tight: 8-16px between related elements, 80px between major sections",
+ "Render all icons and arrows in #fff7dd or #c8ad86 - never introduce additional colors"
+ ],
+ "doNot": [
+ "Do not use shadows, glows, or blur effects for elevation - define surfaces with borders only",
+ "Do not introduce saturated colors beyond the champagne accent - no blues, greens, or reds",
+ "Do not use pure white (#ffffff) for text - #fff7dd is warmer and on-brand",
+ "Do not add background fills to cards or sections - they sit directly on the black canvas",
+ "Do not use large border-radius values on cards (no 12px, 16px, 24px) - stay at 4px max for rectangles",
+ "Do not apply letter-spacing to body text - keep tracking tight only on 16px+ sizes",
+ "Do not animate color, position, or scale on load - the system is static and placed, not kinetic"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/4433dfe7-315a-4459-bfd7-f59ccdc09bad",
+ "referenceSite": "https://atoms.co",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-11T00:38:25.374Z",
+ "articleModifiedAt": "2026-06-03T18:52:37.329Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b4278236-adb5-4564-8fb8-2d186495f086.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4289ab4f-9b7d-48f5-af9b-c43934d991e9.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/291fb533-38b6-4d61-bf60-2784933d9a4a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8e7caba7-0fb9-45a9-87a6-80226fafafb8.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f2c46237-5cd0-4a31-bf20-f81d4d221364.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/dca86b55-34e6-42a8-ac4b-8461d9f11586.png"
+ }
+ }
+}

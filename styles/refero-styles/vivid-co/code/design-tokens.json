@@ -1,0 +1,81 @@
+{
+  "name": "Vivid+Co",
+  "sourceUrl": "https://styles.refero.design/style/8875b14e-c59a-492f-8780-8027a480f21c",
+  "referenceUrl": "https://vividand.co",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "color": {
+    "boneWhite": { "value": "#fffdf9", "type": "color" },
+    "obsidian": { "value": "#101010", "type": "color" },
+    "graphiteVeil": { "value": "#495764", "type": "color" },
+    "ashBorder": { "value": "#403f3f", "type": "color" },
+    "fogBlue": { "value": "#6f879c", "type": "color" },
+    "pureBlack": { "value": "#000000", "type": "color" },
+    "prismRed": { "value": "#ff2a2a", "type": "color" },
+    "prismCyan": { "value": "#2a7fff", "type": "color" },
+    "prismLime": { "value": "#2aff2a", "type": "color" }
+  },
+  "font": {
+    "neueMontreal": { "value": "Neue Montreal, Sohne, Inter, General Sans, system-ui, sans-serif", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "regular": { "value": 400, "type": "fontWeight" },
+    "bold": { "value": 700, "type": "fontWeight" }
+  },
+  "fontSize": {
+    "caption": { "value": "15px", "type": "fontSize" },
+    "bodySm": { "value": "18px", "type": "fontSize" },
+    "body": { "value": "20px", "type": "fontSize" },
+    "bodyLg": { "value": "22px", "type": "fontSize" },
+    "headingSm": { "value": "33px", "type": "fontSize" },
+    "heading": { "value": "36px", "type": "fontSize" },
+    "headingLg": { "value": "56px", "type": "fontSize" },
+    "displaySm": { "value": "105px", "type": "fontSize" },
+    "display": { "value": "136px", "type": "fontSize" }
+  },
+  "lineHeight": {
+    "caption": { "value": 1.2, "type": "lineHeight" },
+    "bodySm": { "value": 1.5, "type": "lineHeight" },
+    "body": { "value": 1.2, "type": "lineHeight" },
+    "bodyLg": { "value": 1.2, "type": "lineHeight" },
+    "headingSm": { "value": 1.2, "type": "lineHeight" },
+    "heading": { "value": 1.5, "type": "lineHeight" },
+    "headingLg": { "value": 1.13, "type": "lineHeight" },
+    "displaySm": { "value": 1.01, "type": "lineHeight" },
+    "display": { "value": 1, "type": "lineHeight" }
+  },
+  "letterSpacing": {
+    "caption": { "value": "0.15px", "type": "letterSpacing" },
+    "body": { "value": "-0.2px", "type": "letterSpacing" },
+    "bodyLg": { "value": "-0.22px", "type": "letterSpacing" },
+    "headingSm": { "value": "-0.33px", "type": "letterSpacing" },
+    "headingLg": { "value": "-0.56px", "type": "letterSpacing" },
+    "displaySm": { "value": "-2.1px", "type": "letterSpacing" },
+    "display": { "value": "-2.72px", "type": "letterSpacing" }
+  },
+  "spacing": {
+    "16": { "value": "16px", "type": "dimension" },
+    "20": { "value": "20px", "type": "dimension" },
+    "40": { "value": "40px", "type": "dimension" },
+    "56": { "value": "56px", "type": "dimension" },
+    "60": { "value": "60px", "type": "dimension" },
+    "64": { "value": "64px", "type": "dimension" },
+    "72": { "value": "72px", "type": "dimension" },
+    "108": { "value": "108px", "type": "dimension" }
+  },
+  "radius": {
+    "nav": { "value": "5px", "type": "borderRadius" },
+    "cards": { "value": "15px", "type": "borderRadius" },
+    "tags": { "value": "9999px", "type": "borderRadius" },
+    "buttons": { "value": "0px", "type": "borderRadius" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1440px", "type": "dimension" },
+    "sectionGap": { "value": "108px", "type": "dimension" },
+    "cardPadding": { "value": "20px", "type": "dimension" },
+    "elementGap": { "value": "7px", "type": "dimension" }
+  },
+  "shadow": {
+    "none": { "value": "none", "type": "boxShadow" }
+  }
+}

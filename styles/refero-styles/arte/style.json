@@ -1,0 +1,86 @@
+{
+  "id": "2f94c1f0-cd23-4bf1-95f3-0e531174c4f4",
+  "name": "arte*",
+  "slug": "arte",
+  "sourceUrl": "https://styles.refero.design/style/2f94c1f0-cd23-4bf1-95f3-0e531174c4f4",
+  "referenceSite": "https://www.makearte.ca",
+  "capturedAt": "2026-07-28",
+  "theme": "mixed",
+  "mood": "farmers market poster meets catalog drop",
+  "industry": ["food", "consumer goods", "grocery", "specialty retail"],
+  "summary": "A warm food-market commerce style with black-bean dark panels, tomato red serif display type, cream and eggshell catalog surfaces, olive and mint produce accents, yellow sticker badges, rounded product cards, pill CTAs, and a modern sans utility layer.",
+  "colors": {
+    "blackBean": "#2e0401",
+    "salsa": "#ff2000",
+    "sunbeam": "#fbaf04",
+    "romaine": "#5f831d",
+    "cream": "#f7f1e4",
+    "eggshell": "#fff9f1",
+    "cocoa": "#754b32",
+    "tomatoWash": "#f2634c",
+    "mintMarket": "#d6e7c4",
+    "charcoal": "#111111"
+  },
+  "typography": {
+    "display": "Miniature",
+    "displayFallback": "PP Eiko, Ogg, Georgia",
+    "sans": "Satoshi",
+    "sansFallback": "Inter, Arial, Helvetica",
+    "weights": [400, 500, 700],
+    "displayTracking": "-0.04em",
+    "sectionTracking": "-0.02em",
+    "navTracking": "0.08em",
+    "microTracking": "0.18em"
+  },
+  "shape": {
+    "buttonRadius": "999px",
+    "tagRadius": "999px",
+    "cardRadius": "28px",
+    "imageRadius": "32px",
+    "inputRadius": "999px",
+    "sectionRadius": "40px",
+    "stickerRadius": "50%"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "roomy",
+    "maxWidth": "1280px",
+    "sectionGap": "112px",
+    "cardPadding": "28px",
+    "elementGap": "18px",
+    "model": "dark poster hero, cream catalog sections, rounded product grids, editorial splits, sticker badges, and dark footer"
+  },
+  "elevation": {
+    "shadows": "mostly flat; optional small offset poster shadow on stickers only",
+    "gradients": "avoid tech gradients",
+    "depth": "color blocking, rounded crops, sticker layering, and product photography"
+  },
+  "components": [
+    "tomato pill CTA",
+    "cream navigation bar",
+    "hero poster block",
+    "product card",
+    "market badge or sticker",
+    "editorial split section",
+    "price chip",
+    "illustrated produce accent",
+    "newsletter field",
+    "footer market block"
+  ],
+  "dos": [
+    "Use Miniature or a characterful serif for large emotional text.",
+    "Use Satoshi or a clean sans for practical UI and body copy.",
+    "Use Cream and Eggshell as the main catalog paper surfaces.",
+    "Use Salsa red for brand emphasis, CTAs, and selected headlines.",
+    "Use rounded cards, pill controls, and sticker-like badge moments.",
+    "Use real food, produce, packaging, or market imagery."
+  ],
+  "donts": [
+    "Do not make the interface cold, blue, or techy.",
+    "Do not use glassmorphism or purple gradients.",
+    "Do not make cards sharp and sterile.",
+    "Do not use all-sans typography.",
+    "Do not overuse stickers until the grid feels chaotic.",
+    "Do not replace food imagery with generic corporate stock."
+  ]
+}

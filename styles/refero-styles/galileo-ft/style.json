@@ -1,0 +1,103 @@
+{
+  "name": "Galileo-ft",
+  "slug": "galileo-ft",
+  "source": "refero",
+  "source_url": "https://styles.refero.design/style/10a77cbd-7847-4e1b-a09e-447ebad0f7c6",
+  "style_id": "10a77cbd-7847-4e1b-a09e-447ebad0f7c6",
+  "reference_url": "https://www.galileo-ft.com",
+  "captured_at": "2026-07-28",
+  "theme": "dark",
+  "summary": "Deep-space fintech style with near-black navy surfaces, ultrathin 100-weight display typography, cobalt primary actions, lavender hairline borders, large rounded cards, and restrained teal-to-cobalt brand gradients.",
+  "keywords": [
+    "fintech",
+    "banking infrastructure",
+    "dark",
+    "deep navy",
+    "cobalt",
+    "ultrathin typography",
+    "lavender hairlines",
+    "rounded cards",
+    "dashboard cards",
+    "3d glass sculpture"
+  ],
+  "colors": {
+    "void_navy": "#03081a",
+    "deep_indigo": "#020626",
+    "inkline_violet": "#292f66",
+    "dusk_iris": "#4d5499",
+    "mist_lilac": "#7a83cc",
+    "quartz_lavender": "#aab1f2",
+    "glacier_white": "#f5f6ff",
+    "pure_white": "#ffffff",
+    "pulse_cobalt": "#3d50fc",
+    "signal_teal": "#05e0e0",
+    "cyan_teal": "#05cee0",
+    "gradient_teal_blue_start": "#05a1c9",
+    "gradient_teal_blue_end": "#3d50fc"
+  },
+  "typography": {
+    "primary": "Plain",
+    "primary_fallback": "Inter Light, Neue Haas Grotesk Display Thin, Untitled Sans Light, system-ui, sans-serif",
+    "display": "Plain Ultrathin",
+    "display_fallback": "Inter Thin, Neue Haas Grotesk Display Thin, system-ui, sans-serif",
+    "body": "Plain Light",
+    "traits": [
+      "weight 100 display headings",
+      "thin body copy",
+      "tracked 10px uppercase eyebrows",
+      "negative tracking on large display type"
+    ]
+  },
+  "layout": {
+    "density": "comfortable",
+    "base_unit": "4px",
+    "max_width": "1200px",
+    "section_gap": "64px",
+    "card_padding": "32px",
+    "element_gap": "9px",
+    "composition": "full-bleed deep-navy hero with split text and 3D glass visual, followed by rounded product cards and two-column sections"
+  },
+  "radius": {
+    "tags": "17px",
+    "cards": "35px",
+    "inputs": "35px",
+    "buttons": "48px"
+  },
+  "components": [
+    "Primary Filled Button",
+    "Ghost Outline Button",
+    "Pill Navigation Link",
+    "Dark Card",
+    "Light Card",
+    "Tab Pill",
+    "Eyebrow Label",
+    "Outlined Link",
+    "Floating Chat Trigger",
+    "Announcement Bar",
+    "Hero Headline",
+    "Dashboard Product Screenshot",
+    "Navigation Menu",
+    "Brand Logo Lockup"
+  ],
+  "rules": {
+    "do": [
+      "Use Plain Ultrathin weight 100 for all large headings.",
+      "Use 48px radius for buttons and nav pills.",
+      "Use 35px radius for cards and panels.",
+      "Use Pulse Cobalt only for primary filled actions and active states.",
+      "Use 0.25em tracking on 10px uppercase eyebrows.",
+      "Separate dark surfaces with 1px violet hairlines.",
+      "Use teal-to-cobalt gradients only on full-bleed banners."
+    ],
+    "dont": [
+      "Do not use 600 or 700 headline weights.",
+      "Do not add drop shadows to cards or buttons.",
+      "Do not use more than one vivid accent color per surface.",
+      "Do not use solid underlines for links.",
+      "Do not set body copy below weight 300.",
+      "Do not use sharp corners on interactive elements.",
+      "Do not introduce extra dark canvas colors."
+    ]
+  }
+}
+

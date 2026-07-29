@@ -1,0 +1,161 @@
+{
+  "id": "7967c6d9-e50c-42b5-b4d1-74003ba41781",
+  "name": "Seline Analytics",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/7967c6d9-e50c-42b5-b4d1-74003ba41781",
+  "referenceUrl": "https://seline.so",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Quiet analyst's desk on warm paper, with stone neutrals, whisper-weight Roobert headings, flat white cards, one cyan accent, and a single elevated dashboard preview.",
+  "bestFor": [
+    "analytics products",
+    "privacy-first dashboards",
+    "product analytics",
+    "SaaS reporting",
+    "calm data tools",
+    "testimonial-led product pages"
+  ],
+  "tags": [
+    "light",
+    "analytics",
+    "warm-paper",
+    "stone-neutrals",
+    "cyan-accent",
+    "roobert",
+    "inter",
+    "flat-cards",
+    "pill-buttons",
+    "dashboard-preview",
+    "mascot-sticker",
+    "editorial-saas"
+  ],
+  "colors": {
+    "stoneCanvas": { "value": "#fafaf9", "token": "--color-stone-canvas", "role": "Warm off-white page background." },
+    "pureWhite": { "value": "#ffffff", "token": "--color-pure-white", "role": "Card surfaces, elevated panels, nav, and input fills." },
+    "stoneBorder": { "value": "#e8e6e5", "token": "--color-stone-border", "role": "Hairline borders on cards, nav, and inputs." },
+    "stoneMuted": { "value": "#d6d3d1", "token": "--color-stone-muted", "role": "Secondary borders, subtle tints, and decorative separators." },
+    "ashGray": { "value": "#a8a29e", "token": "--color-ash-gray", "role": "Helper text, icon strokes, and disabled states." },
+    "warmGray": { "value": "#78716c", "token": "--color-warm-gray", "role": "Body text, nav links, and secondary copy." },
+    "inkBlack": { "value": "#0c0a09", "token": "--color-ink-black", "role": "Primary headings, emphasized body, and strong icons." },
+    "soot": { "value": "#1c1917", "token": "--color-soot", "role": "Dark tab pills and sparing inverted surfaces." },
+    "skyWash": { "value": "#c1e1f7", "token": "--color-sky-wash", "role": "Soft wash behind highlighted text spans." },
+    "cyanSignal": { "value": "#3ba6f1", "token": "--color-cyan-signal", "role": "Primary CTA fill, active links, and brand icon strokes." },
+    "cyanEdge": { "value": "#3398e1", "token": "--color-cyan-edge", "role": "Outlined action border, linked labels, and lightweight interactive emphasis." }
+  },
+  "typography": {
+    "families": {
+      "roobert": "Roobert",
+      "roobertFallback": "Inter Tight, Satoshi, ui-sans-serif, system-ui",
+      "inter": "Inter",
+      "interFallback": "ui-sans-serif, system-ui"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "rules": [
+      "Use Roobert-style type for headings and display.",
+      "Keep Roobert display headings at weight 400.",
+      "Use Inter for body, navigation, captions, labels, and dense UI.",
+      "Use one cyan highlight span per headline maximum."
+    ],
+    "scale": {
+      "caption": { "size": "10px", "lineHeight": 2.3, "fontWeight": 400, "letterSpacing": "0", "token": "--text-caption" },
+      "bodySm": { "size": "14px", "lineHeight": 1.64, "fontWeight": 400, "letterSpacing": "0.056px", "token": "--text-body-sm" },
+      "bodyLg": { "size": "16px", "lineHeight": 1.69, "fontWeight": 400, "letterSpacing": "0.048px", "token": "--text-body-lg" },
+      "subheading": { "size": "20px", "lineHeight": 1.2, "fontWeight": 400, "letterSpacing": "-0.1px", "token": "--text-subheading" },
+      "headingSm": { "size": "32px", "lineHeight": 1.25, "fontWeight": 400, "letterSpacing": "-0.8px", "token": "--text-heading-sm" },
+      "display": { "size": "52px", "lineHeight": 1.12, "fontWeight": 400, "letterSpacing": "-1.092px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "96px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "160": "160px"
+    }
+  },
+  "radii": {
+    "tags": "9999px",
+    "cards": "10px",
+    "icons": "4px",
+    "inputs": "6px",
+    "buttons": "9999px",
+    "featureCard": "16px"
+  },
+  "shadows": {
+    "md": { "token": "--shadow-md", "value": "rgba(0, 0, 0, 0.05) 0px 4px 16px 0px", "role": "Light lift for flat content cards." },
+    "sm": { "token": "--shadow-sm", "value": "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px", "role": "Small decorative chip or icon lift." },
+    "subtle": { "token": "--shadow-subtle", "value": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px", "role": "Nav and hairline controls." },
+    "xl": { "token": "--shadow-xl", "value": "rgba(17, 12, 46, 0.12) 0px 12px 45px 0px", "role": "Hero floating dashboard preview only." }
+  },
+  "surfaces": {
+    "canvas": { "value": "#fafaf9", "role": "Full-page warm-stone background." },
+    "card": { "value": "#ffffff", "role": "Flat cards, nav, and input fills." },
+    "floatingPreview": { "value": "#ffffff", "role": "Hero dashboard screenshot with deeper shadow." },
+    "invertedSection": { "value": "#1c1917", "role": "Dark tab pills and sparing inverted panels." }
+  },
+  "components": [
+    { "name": "Primary CTA Button", "recipe": "Cyan Signal pill fill, Cyan Edge border, Pure White text, Inter 500, 8px by 16px padding, 9999px radius." },
+    { "name": "Secondary Ghost Button", "recipe": "Transparent pill, Stone Border outline, Ink Black text, 8px by 16px padding." },
+    { "name": "Flat Content Card", "recipe": "Pure White fill, 10px radius, 1px Stone Border, 24px padding, optional md shadow." },
+    { "name": "Floating Dashboard Preview", "recipe": "Pure White frame, 16px radius, 8px padding, shadow-xl, grayscale product screenshot." },
+    { "name": "Highlighted Text Span", "recipe": "Cyan Edge text with Sky Wash pill background, one per headline maximum." },
+    { "name": "Tab Pill Group", "recipe": "Active Soot fill with white text; inactive transparent with Stone Border." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Stone Canvas as page background.",
+      "Use Pure White only for elevated surfaces.",
+      "Use Roobert-style headings at weight 400.",
+      "Use one cyan highlight span per headline.",
+      "Use 1px Stone Border as the main structural device.",
+      "Reserve shadow-xl for one dashboard preview."
+    ],
+    "dont": [
+      "Do not introduce new accent colors.",
+      "Do not use heavy shadows on content cards.",
+      "Do not set headings in Inter.",
+      "Do not use Pure White as page background.",
+      "Do not use dark filled primary buttons.",
+      "Do not add gradients or glassmorphism."
+    ]
+  },
+  "imagery": {
+    "style": "Product UI screenshots, muted dashboard preview, and one grayscale line-art mascot sticker.",
+    "rules": [
+      "Use the dashboard as the hero object.",
+      "Apply grayscale and slight contrast reduction to product screenshots.",
+      "Avoid lifestyle photography.",
+      "Use outline icons in Ink Black or Cyan Signal."
+    ]
+  },
+  "layout": {
+    "container": "1200px centered max width",
+    "hero": "Left-aligned text, one cyan-highlighted phrase, dual pill CTAs, trust row, and floating dashboard preview.",
+    "sections": "96px vertical gaps with calm editorial pacing.",
+    "nav": "Logo left, centered nav links, avatar cluster, sign-in, and cyan CTA right."
+  },
+  "preview": {
+    "imageHost": "images.refero.design",
+    "downloaded": false,
+    "note": "Refero exposes preview imagery, but local download was not captured in this environment."
+  }
+}
+

@@ -1,0 +1,117 @@
+@theme {
+  --color-zapier-ember-orange: #ff4f00;
+  --color-zapier-iris-ink: #2b2358;
+  --color-zapier-cream-paper: #fffefb;
+  --color-zapier-parchment: #f8f4f0;
+  --color-zapier-stone-linen: #eceae3;
+  --color-zapier-driftwood: #c5c0b1;
+  --color-zapier-ash-mist: #b7b6b3;
+  --color-zapier-ink-brown: #201515;
+  --color-zapier-bark: #36342e;
+  --color-zapier-coffee-stone: #413735;
+  --color-zapier-stone-gray: #939084;
+  --color-zapier-obsidian: #000000;
+
+  --font-zapier-inter: "Inter", Arial, sans-serif;
+  --font-zapier-degular: "Degular Display", "Bricolage Grotesque", "Space Grotesk", "Inter", sans-serif;
+  --font-zapier-alpina: "GT Alpina", "Newsreader", "Source Serif 4", serif;
+
+  --text-zapier-caption: 12px;
+  --text-zapier-body-lg: 16px;
+  --text-zapier-subheading: 18px;
+  --text-zapier-heading-sm: 24px;
+  --text-zapier-heading: 32px;
+  --text-zapier-heading-lg: 36px;
+  --text-zapier-display: 48px;
+  --text-zapier-display-lg: 56px;
+
+  --radius-zapier-tag: 4px;
+  --radius-zapier-input: 4px;
+  --radius-zapier-card: 8px;
+  --radius-zapier-button: 20px;
+  --radius-zapier-large: 32px;
+  --radius-zapier-pill: 9999px;
+
+  --spacing-zapier-1: 4px;
+  --spacing-zapier-2: 8px;
+  --spacing-zapier-3: 12px;
+  --spacing-zapier-4: 16px;
+  --spacing-zapier-5: 20px;
+  --spacing-zapier-6: 24px;
+  --spacing-zapier-8: 32px;
+  --spacing-zapier-10: 40px;
+  --spacing-zapier-12: 48px;
+  --spacing-zapier-14: 56px;
+  --spacing-zapier-16: 64px;
+  --spacing-zapier-18: 72px;
+  --spacing-zapier-20: 80px;
+  --spacing-zapier-24: 96px;
+  --spacing-zapier-28: 112px;
+  --spacing-zapier-40: 160px;
+}
+
+@layer components {
+  .zapier-page {
+    background: var(--color-zapier-cream-paper);
+    color: var(--color-zapier-ink-brown);
+    font-family: var(--font-zapier-inter);
+  }
+
+  .zapier-container {
+    width: min(100% - 48px, 1200px);
+    margin-inline: auto;
+  }
+
+  .zapier-display {
+    font-family: var(--font-zapier-degular);
+    font-size: clamp(40px, 7vw, var(--text-zapier-display-lg));
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.071em;
+    font-feature-settings: "ss01" on;
+  }
+
+  .zapier-button-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: var(--radius-zapier-button);
+    background: var(--color-zapier-ember-orange);
+    color: var(--color-zapier-cream-paper);
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.15px;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  .zapier-card-template {
+    border: 1px solid var(--color-zapier-stone-linen);
+    border-radius: var(--radius-zapier-card);
+    background: var(--color-zapier-cream-paper);
+    padding: 24px;
+    box-shadow: none;
+  }
+
+  .zapier-feature-card {
+    border: 0;
+    border-radius: var(--radius-zapier-card);
+    background: var(--color-zapier-parchment);
+    padding: 32px;
+  }
+
+  .zapier-input {
+    min-height: 56px;
+    border: 1px solid var(--color-zapier-driftwood);
+    border-radius: var(--radius-zapier-input);
+    background: var(--color-zapier-cream-paper);
+    color: var(--color-zapier-ink-brown);
+    padding: 16px;
+    font-size: var(--text-zapier-body-lg);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}

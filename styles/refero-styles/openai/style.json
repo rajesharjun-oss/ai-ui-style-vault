@@ -1,0 +1,136 @@
+{
+  "id": "dc541737-8bf2-4b31-b729-0352f696e82f",
+  "name": "OpenAI",
+  "slug": "openai",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/dc541737-8bf2-4b31-b729-0352f696e82f",
+  "referenceSite": "https://openai.com",
+  "capturedAt": "2026-07-28",
+  "mood": "research lab notebook at noon",
+  "summary": "A typographic editorial product system with pure white surfaces, near-black type, translucent black hairlines, pill controls, minimal elevation, and one black filled CTA.",
+  "useWhen": [
+    "AI product entry points",
+    "Research pages",
+    "Documentation hubs",
+    "Editorial product announcements",
+    "Trust-heavy SaaS interfaces"
+  ],
+  "avoidWhen": [
+    "Colorful campaign pages",
+    "Gaming interfaces",
+    "Dense admin dashboards",
+    "Brand systems that need multiple accent colors"
+  ],
+  "colors": {
+    "obsidian": {
+      "value": "#000000",
+      "role": "Primary text, filled action, strongest emphasis"
+    },
+    "graphite": {
+      "value": "#666666",
+      "role": "Captions, helper copy, muted labels"
+    },
+    "smoke": {
+      "value": "#8f8f8f",
+      "role": "Tertiary copy, disabled states, placeholders, icons"
+    },
+    "paper": {
+      "value": "#ffffff",
+      "role": "Page background, cards, inputs"
+    },
+    "ash": {
+      "value": "#f1f1f1",
+      "role": "Subtle surface fill and hover state"
+    },
+    "hairline": {
+      "value": "rgba(0,0,0,0.12)",
+      "hexApprox": "#0000001f",
+      "role": "Borders, dividers, button outlines"
+    },
+    "whisper": {
+      "value": "rgba(0,0,0,0.04)",
+      "hexApprox": "#0000000a",
+      "role": "Tiny support accent and soft hover"
+    }
+  },
+  "typography": {
+    "family": "\"OpenAI Sans\", \"Inter\", \"Sohne\", system-ui, sans-serif",
+    "features": ["calt", "liga"],
+    "scale": {
+      "name": "Major Second",
+      "basePx": 17,
+      "ratio": 1.125
+    },
+    "roles": {
+      "body": {
+        "fontSize": "17px",
+        "lineHeight": "1.65",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em"
+      },
+      "ui": {
+        "fontSize": "14px",
+        "lineHeight": "1.4",
+        "fontWeight": 500,
+        "letterSpacing": "0"
+      },
+      "label": {
+        "fontSize": "13px",
+        "lineHeight": "1.51",
+        "fontWeight": 500,
+        "letterSpacing": "0"
+      },
+      "subhead": {
+        "fontSize": "22px",
+        "lineHeight": "1.26",
+        "fontWeight": 500,
+        "letterSpacing": "-0.01em"
+      },
+      "sectionHeading": {
+        "fontSize": "28px",
+        "lineHeight": "1.21",
+        "fontWeight": 600,
+        "letterSpacing": "0.011em"
+      },
+      "display": {
+        "fontSize": "48px",
+        "lineHeight": "1.16",
+        "fontWeight": 500,
+        "letterSpacing": "-0.03em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "32px to 64px",
+    "cardPadding": "0px to 24px depending on whether the card is image-led or text-led",
+    "elementGap": "8px to 16px"
+  },
+  "shape": {
+    "pill": "9999px",
+    "card": "6px",
+    "utility": "4px"
+  },
+  "elevation": {
+    "cardShadow": "none",
+    "panelShadow": "none",
+    "strategy": "Use hairline borders, whitespace, and type hierarchy instead of z-depth"
+  },
+  "components": [
+    "Filled black CTA",
+    "Outlined pill button",
+    "Ghost text button",
+    "Pill search input",
+    "Prompt chip row",
+    "Article card",
+    "Featured article card",
+    "Text-led top navigation",
+    "Multi-column footer"
+  ],
+  "imagery": {
+    "style": "Editorial, documentary, research-adjacent, product-real",
+    "avoid": "Glossy SaaS illustrations, colorful gradients, neon tech art, mascot visuals"
+  }
+}

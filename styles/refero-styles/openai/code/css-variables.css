@@ -1,0 +1,106 @@
+:root {
+  --openai-font-sans: "OpenAI Sans", "Inter", "Sohne", system-ui, sans-serif;
+
+  --openai-color-obsidian: #000000;
+  --openai-color-graphite: #666666;
+  --openai-color-smoke: #8f8f8f;
+  --openai-color-paper: #ffffff;
+  --openai-color-ash: #f1f1f1;
+  --openai-color-hairline: rgba(0, 0, 0, 0.12);
+  --openai-color-whisper: rgba(0, 0, 0, 0.04);
+
+  --openai-radius-pill: 9999px;
+  --openai-radius-card: 6px;
+  --openai-radius-utility: 4px;
+
+  --openai-space-1: 4px;
+  --openai-space-2: 8px;
+  --openai-space-3: 12px;
+  --openai-space-4: 16px;
+  --openai-space-5: 20px;
+  --openai-space-6: 24px;
+  --openai-space-8: 32px;
+  --openai-space-12: 48px;
+  --openai-space-16: 64px;
+
+  --openai-max-width: 1200px;
+  --openai-nav-height: 64px;
+}
+
+.openai-surface {
+  background: var(--openai-color-paper);
+  color: var(--openai-color-obsidian);
+  font-family: var(--openai-font-sans);
+  font-feature-settings: "calt" 1, "liga" 1;
+}
+
+.openai-body {
+  font-size: 17px;
+  line-height: 1.65;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.openai-display {
+  font-size: clamp(36px, 6vw, 48px);
+  line-height: 1.16;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.openai-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 8px 20px;
+  border-radius: var(--openai-radius-pill);
+  border: 1px solid var(--openai-color-obsidian);
+  background: var(--openai-color-obsidian);
+  color: var(--openai-color-paper);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.openai-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 8px 20px;
+  border-radius: var(--openai-radius-pill);
+  border: 1px solid var(--openai-color-hairline);
+  background: transparent;
+  color: var(--openai-color-obsidian);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.openai-input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 24px;
+  border: 1px solid var(--openai-color-hairline);
+  border-radius: var(--openai-radius-pill);
+  background: var(--openai-color-paper);
+  color: var(--openai-color-obsidian);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.openai-input::placeholder {
+  color: var(--openai-color-graphite);
+}
+
+.openai-card {
+  border-radius: var(--openai-radius-card);
+  background: transparent;
+  box-shadow: none;
+}
+
+.openai-card img {
+  border-radius: var(--openai-radius-card);
+}

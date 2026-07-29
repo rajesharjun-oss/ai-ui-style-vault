@@ -1,0 +1,150 @@
+{
+  "name": "Legora",
+  "version": "2026-07-28",
+  "colors": {
+    "parchment": {
+      "value": "#fefefc",
+      "role": "Page canvas, card surfaces, and light-section backgrounds"
+    },
+    "ink": {
+      "value": "#000000",
+      "role": "Solid CTA fill, dark borders, and inverted UI separators"
+    },
+    "graphite": {
+      "value": "#0a0a0a",
+      "role": "Body text, heading strokes, and dark surface accents"
+    },
+    "iron": {
+      "value": "#444444",
+      "role": "Tertiary text and intermediate dividers"
+    },
+    "smoke": {
+      "value": "#6b6b6b",
+      "role": "Secondary body copy, subdued borders, and captions"
+    },
+    "verdigrisWash": {
+      "value": "#ebf5ed",
+      "role": "Sage product panels and calm active washes"
+    },
+    "slateMist": {
+      "value": "#bdd4f0",
+      "role": "Cool product-preview panels and background links"
+    },
+    "pewterHaze": {
+      "value": "#98a7aa",
+      "role": "Disabled fills, placeholders, and empty illustration frames"
+    }
+  },
+  "font": {
+    "display": "Rhymes Display, Playfair Display, Cormorant Garamond, serif",
+    "body": "Suisse Intl, Suisse Intl Book, Inter, Sohne, sans-serif",
+    "secondaryBody": "Aktiv Grotesk VF, Inter, Sohne, sans-serif",
+    "features": "\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"",
+    "weights": {
+      "displayLight": 300,
+      "regular": 400,
+      "book": 450,
+      "medium": 500
+    }
+  },
+  "typeScale": {
+    "caption": {
+      "family": "Suisse Intl",
+      "fontSize": "11px",
+      "fontWeight": 450,
+      "lineHeight": 0.8,
+      "letterSpacing": "0.1px"
+    },
+    "uiSmall": {
+      "family": "Suisse Intl",
+      "fontSize": "13px",
+      "fontWeight": 500,
+      "lineHeight": 1,
+      "letterSpacing": "-0.01em"
+    },
+    "bodySm": {
+      "family": "Suisse Intl",
+      "fontSize": "14px",
+      "fontWeight": 450,
+      "lineHeight": 1.3,
+      "letterSpacing": "-0.01em"
+    },
+    "body": {
+      "family": "Suisse Intl",
+      "fontSize": "16px",
+      "fontWeight": 450,
+      "lineHeight": 1.25,
+      "letterSpacing": "-0.01em"
+    },
+    "bodyLong": {
+      "family": "Aktiv Grotesk VF",
+      "fontSize": "15px",
+      "fontWeight": 400,
+      "lineHeight": 1.3,
+      "letterSpacing": "0"
+    },
+    "headingSm": {
+      "family": "Aktiv Grotesk VF",
+      "fontSize": "20px",
+      "fontWeight": 400,
+      "lineHeight": 1.3,
+      "letterSpacing": "0"
+    },
+    "heading": {
+      "family": "Rhymes Display",
+      "fontSize": "32px",
+      "fontWeight": 300,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.32px"
+    },
+    "display": {
+      "family": "Rhymes Display",
+      "fontSize": "88px",
+      "fontWeight": 300,
+      "lineHeight": 0.95,
+      "letterSpacing": "-1.76px"
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "4": "4px",
+    "6": "6px",
+    "8": "8px",
+    "10": "10px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "32": "32px",
+    "36": "36px",
+    "40": "40px",
+    "48": "48px",
+    "56": "56px",
+    "64": "64px",
+    "80": "80px",
+    "160": "160px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "10px"
+  },
+  "radius": {
+    "tags": "2px",
+    "buttons": "2px",
+    "cards": "8px",
+    "inputs": "8px"
+  },
+  "borders": {
+    "graphiteHairline": "1px solid #0a0a0a"
+  },
+  "elevation": {
+    "allSurfaces": "none",
+    "rule": "Use hairline rules and tinted panels instead of shadows."
+  },
+  "imagery": {
+    "hero": "One full-bleed dark cinematic still",
+    "product": "Pastel legal UI mockups in Verdigris Wash and Slate Mist",
+    "logos": "Monochrome Graphite at 60 to 70 percent opacity"
+  }
+}
+

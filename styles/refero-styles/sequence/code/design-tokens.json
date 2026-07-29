@@ -1,0 +1,238 @@
+{
+  "name": "Sequence",
+  "slug": "sequence",
+  "sourceUrl": "https://styles.refero.design/style/707a9081-3d1d-4a0b-b1aa-b58b3fab09af",
+  "referenceSite": "https://www.sequencehq.com",
+  "theme": "light",
+  "tokens": {
+    "color": {
+      "violetPulse": {
+        "value": "#a565ff",
+        "role": "Primary CTA, active icon, brand glow"
+      },
+      "indigoInk": {
+        "value": "#5e5cff",
+        "role": "Links, secondary emphasis, accent strokes"
+      },
+      "lavenderWash": {
+        "value": "#ebebff",
+        "role": "Tinted callouts, focus rings, active fields"
+      },
+      "irisGlow": {
+        "value": "#e0c9ff",
+        "role": "Violet halo and low-frequency supporting accent"
+      },
+      "ledgerGreen": {
+        "value": "#2e7317",
+        "role": "Green text accent for links, tags, success badges"
+      },
+      "paperWhite": {
+        "value": "#ffffff",
+        "role": "Canvas, cards, elevated surfaces, button fills"
+      },
+      "bone": {
+        "value": "#f7f7f7",
+        "role": "Recessed surfaces and subtle panels"
+      },
+      "fog": {
+        "value": "#f1f1f1",
+        "role": "Disabled fills, row alternates, recessed UI"
+      },
+      "silver": {
+        "value": "#efefef",
+        "role": "Inset borders, outlines, shadow ring fills"
+      },
+      "marble": {
+        "value": "#fff6df",
+        "role": "Announcement bars and warm highlight bands"
+      },
+      "graphite": {
+        "value": "#1d1d20",
+        "role": "Primary headings and body text"
+      },
+      "slate": {
+        "value": "#42424a",
+        "role": "Secondary headings and emphasized body text"
+      },
+      "iron": {
+        "value": "#505050",
+        "role": "Default body text and navigation labels"
+      },
+      "steel": {
+        "value": "#757575",
+        "role": "Muted helper text and secondary table text"
+      },
+      "smoke": {
+        "value": "#92939e",
+        "role": "Placeholder text, disabled labels, tertiary cells"
+      },
+      "ash": {
+        "value": "#e5e7eb",
+        "role": "Default hairline border"
+      },
+      "mist": {
+        "value": "#d1d9e4",
+        "role": "Input borders and stronger dividers"
+      },
+      "oliveGray": {
+        "value": "#808076",
+        "role": "SVG illustration strokes and fills"
+      },
+      "noir": {
+        "value": "#000000",
+        "role": "Hard contrast icon fills"
+      }
+    },
+    "font": {
+      "primary": {
+        "family": "TWK Lausanne",
+        "fallback": "Inter",
+        "weights": [300, 400, 500, 600, 700]
+      },
+      "display": {
+        "family": "Moderat Serif",
+        "fallback": "GT Sectra",
+        "weights": [300, 400]
+      },
+      "mono": {
+        "family": "SF Mono",
+        "fallback": "JetBrains Mono",
+        "weights": [400]
+      }
+    },
+    "typography": {
+      "caption": {
+        "fontSize": "11px",
+        "fontWeight": "400-500",
+        "lineHeight": 1.45,
+        "letterSpacing": "-0.022px"
+      },
+      "body": {
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.57,
+        "letterSpacing": "normal"
+      },
+      "bodyLarge": {
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.63,
+        "letterSpacing": "normal"
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "fontWeight": "400-500",
+        "lineHeight": 1.56,
+        "letterSpacing": "normal"
+      },
+      "headingSmall": {
+        "fontSize": "24px",
+        "fontWeight": "300-500",
+        "lineHeight": 1.33,
+        "letterSpacing": "-0.048px"
+      },
+      "heading": {
+        "fontSize": "40px",
+        "fontWeight": 300,
+        "lineHeight": 1,
+        "letterSpacing": "-1px"
+      },
+      "display": {
+        "fontSize": "46px",
+        "fontWeight": 300,
+        "lineHeight": 1,
+        "letterSpacing": "-1.15px"
+      }
+    },
+    "spacing": {
+      "unit": "4px",
+      "scale": {
+        "4": "4px",
+        "8": "8px",
+        "12": "12px",
+        "16": "16px",
+        "20": "20px",
+        "24": "24px",
+        "28": "28px",
+        "32": "32px",
+        "40": "40px",
+        "48": "48px",
+        "52": "52px",
+        "56": "56px",
+        "64": "64px",
+        "80": "80px",
+        "96": "96px",
+        "160": "160px"
+      },
+      "layout": {
+        "maxWidth": "1200px",
+        "gutter": "24px",
+        "sectionGap": "80px",
+        "cardPadding": "24px",
+        "elementGap": "8px"
+      }
+    },
+    "radius": {
+      "cards": "8px",
+      "badges": "9999px",
+      "inputs": "4px",
+      "buttons": "9999px",
+      "largePanels": "16px"
+    },
+    "shadow": {
+      "subtle": "rgba(58, 58, 64, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+      "violetHalo": "rgba(224, 201, 255, 0.2) 0px 0px 8px 2px",
+      "screenshot": "rgb(239, 239, 239) 0px 0px 0px 2px, rgba(0, 0, 0, 0.01) 0px 22px 9px 0px, rgba(0, 0, 0, 0.04) 0px 12px 7px 0px, rgba(0, 0, 0, 0.06) 0px 5px 5px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px",
+      "ring": "rgba(29, 29, 32, 0.08) 0px 0px 0px 1px"
+    },
+    "surface": {
+      "pageCanvas": "#ffffff",
+      "recessed": "#f7f7f7",
+      "tinted": "#ebebff",
+      "warmAccent": "#fff6df"
+    }
+  },
+  "components": {
+    "primaryActionButton": {
+      "background": "#a565ff",
+      "text": "#ffffff",
+      "radius": "9999px",
+      "padding": "10px 20px",
+      "shadow": "subtle + violetHalo"
+    },
+    "secondaryActionButton": {
+      "background": "transparent or #ffffff",
+      "text": "#1d1d20",
+      "border": "1px solid #efefef",
+      "radius": "9999px",
+      "padding": "10px 20px"
+    },
+    "productFeatureCard": {
+      "background": "#ffffff",
+      "border": "1px solid #e5e7eb",
+      "radius": "8px",
+      "padding": "24px",
+      "shadow": "none"
+    },
+    "productScreenshotCard": {
+      "background": "#ffffff",
+      "border": "1px solid #e5e7eb",
+      "radius": "8px",
+      "padding": "16px",
+      "shadow": "screenshot"
+    },
+    "inputField": {
+      "background": "#ffffff",
+      "border": "1px solid #d1d9e4",
+      "radius": "4px",
+      "padding": "8px 12px",
+      "focus": "#a565ff border with #ebebff ring"
+    },
+    "statusBadge": {
+      "background": "#ebebff or #f7f7f7",
+      "text": "#5e5cff or #2e7317",
+      "radius": "9999px",
+      "padding": "2px 10px"
+    }
+  }
+}

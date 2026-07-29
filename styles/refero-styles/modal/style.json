@@ -1,0 +1,81 @@
+{
+  "name": "Modal",
+  "slug": "modal",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/68c15685-5db9-4869-b71d-27240568c9d8",
+    "styleId": "68c15685-5db9-4869-b71d-27240568c9d8",
+    "referenceSite": "https://modal.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "dark",
+  "summary": "A phosphor terminal style for developer platforms: near-black server-room surfaces, muted green body text, one vivid lime LED accent, Goga headings, tight Inter UI text, green hairlines, code windows, and 3D compute objects.",
+  "personality": [
+    "developer-native",
+    "phosphor",
+    "technical",
+    "terminal-like",
+    "restrained",
+    "emissive"
+  ],
+  "bestFor": [
+    "developer platforms",
+    "AI compute products",
+    "cloud infrastructure",
+    "terminal tools",
+    "technical SaaS"
+  ],
+  "coreMoves": [
+    "Use black as the primary canvas.",
+    "Use muted sage text for body copy.",
+    "Ration Lime Pulse to one filled element per viewport.",
+    "Set headings in Goga with negative tracking.",
+    "Use Inter Variable for all UI and body text.",
+    "Use 8px card radius and 12px button radius.",
+    "Use surface steps and green hairline borders instead of card shadows.",
+    "Use code windows and 3D green objects instead of photography."
+  ],
+  "colors": {
+    "limePulse": "#7fee64",
+    "phosphorWhite": "#ddffdc",
+    "mintFrost": "#def0dd",
+    "sage60": "#8cab87",
+    "sage40": "#677d64",
+    "moss70": "#9cbf93",
+    "moss80": "#aed2a4",
+    "fernLink": "#859984",
+    "deepFern": "#697368",
+    "voidBlack": "#000000",
+    "groundIron": "#181818",
+    "charcoalRust": "#231c1c",
+    "carbonVeil": "#212525",
+    "phosphorBlueBlack": "#1f2a33",
+    "pine15": "#3e4a3c",
+    "circuitBorder": "#485346"
+  },
+  "typography": {
+    "display": {
+      "family": "Goga",
+      "fallback": "Inter Tight",
+      "weights": [400, 500],
+      "sizes": ["20px", "21px", "24px", "28px", "30px", "36px", "40px", "42px", "48px", "54px", "64px"],
+      "lineHeights": [1, 1.05, 1.1, 1.2, 1.25, 1.3, 1.5],
+      "features": ["ss01"]
+    },
+    "ui": {
+      "family": "Inter Variable",
+      "fallback": "Inter",
+      "weights": [400, 500],
+      "sizes": ["12px", "14px", "16px", "20px"],
+      "lineHeights": [1.25, 1.33, 1.43, 1.5],
+      "features": ["cv11"]
+    }
+  },
+  "shape": {
+    "cards": "8px",
+    "inputs": "8px",
+    "buttons": "12px",
+    "pills": "9999px",
+    "icons": "0px"
+  }
+}
+

@@ -1,0 +1,76 @@
+@theme {
+  --font-dovetail-sans: "Inter", system-ui, sans-serif;
+  --font-dovetail-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-dovetail-graphite: #0a0a0a;
+  --color-dovetail-obsidian: #111111;
+  --color-dovetail-charcoal: #1e1e1e;
+  --color-dovetail-slate: #2d2d2d;
+  --color-dovetail-iron: #3a3a3a;
+  --color-dovetail-silver: #a3a3a3;
+  --color-dovetail-pearl: #fafafa;
+  --color-dovetail-white: #ffffff;
+  --color-dovetail-soft-indigo: #8b7cf6;
+  --color-dovetail-indigo-glow: #a78bfa;
+  --color-dovetail-muted-purple: #6d5dd3;
+
+  --radius-dovetail-button: 8px;
+  --radius-dovetail-card: 8px;
+  --radius-dovetail-input: 8px;
+  --radius-dovetail-tag: 9999px;
+  --radius-dovetail-media: 12px;
+
+  --spacing-dovetail-1: 4px;
+  --spacing-dovetail-2: 8px;
+  --spacing-dovetail-3: 12px;
+  --spacing-dovetail-4: 16px;
+  --spacing-dovetail-5: 20px;
+  --spacing-dovetail-6: 24px;
+  --spacing-dovetail-8: 32px;
+  --spacing-dovetail-16: 64px;
+  --spacing-dovetail-24: 96px;
+  --spacing-dovetail-sidebar: 260px;
+  --spacing-dovetail-max: 1280px;
+
+  --text-dovetail-metadata: 12px;
+  --text-dovetail-metadata--line-height: 1.33;
+  --text-dovetail-caption: 13px;
+  --text-dovetail-caption--line-height: 1.38;
+  --text-dovetail-ui: 14px;
+  --text-dovetail-ui--line-height: 1.43;
+  --text-dovetail-body: 16px;
+  --text-dovetail-body--line-height: 1.6;
+  --text-dovetail-heading: 32px;
+  --text-dovetail-heading--line-height: 1.15;
+}
+
+@utility dovetail-page {
+  background: var(--color-dovetail-graphite);
+  color: var(--color-dovetail-pearl);
+  font-family: var(--font-dovetail-sans);
+}
+
+@utility dovetail-card {
+  border: 1px solid var(--color-dovetail-charcoal);
+  border-radius: var(--radius-dovetail-card);
+  background: var(--color-dovetail-obsidian);
+  padding: 16px;
+  box-shadow: none;
+}
+
+@utility dovetail-primary-button {
+  border-radius: var(--radius-dovetail-button);
+  background: var(--color-dovetail-soft-indigo);
+  color: var(--color-dovetail-white);
+  padding: 8px 12px;
+  font-size: var(--text-dovetail-ui);
+  font-weight: 600;
+}
+
+@utility dovetail-metadata {
+  color: var(--color-dovetail-silver);
+  font-family: var(--font-dovetail-mono);
+  font-size: var(--text-dovetail-metadata);
+  line-height: var(--text-dovetail-metadata--line-height);
+  font-weight: 500;
+}

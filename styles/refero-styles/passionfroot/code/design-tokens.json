@@ -1,0 +1,113 @@
+{
+  "name": "Passionfroot",
+  "slug": "passionfroot",
+  "sourceUrl": "https://styles.refero.design/style/aaaa705d-3042-4355-ad30-13360f04e403",
+  "referenceSite": "https://www.passionfroot.me",
+  "colors": {
+    "inkBlack": "#1d1d1c",
+    "parchmentCream": "#f8f7f2",
+    "sandGray": "#d8d6ce",
+    "linenBeige": "#edeae4",
+    "paperWhite": "#ffffff",
+    "charcoalStone": "#43423e",
+    "ashGray": "#99978f",
+    "slateWarm": "#7a7974",
+    "electricViolet": "#b26bf5",
+    "twilightIndigo": "#190922",
+    "bubblegumPink": "#f788d2",
+    "tangerine": "#ff9147",
+    "aquaTeal": "#4ad5e8",
+    "skyBlue": "#51b1fb",
+    "sunshineYellow": "#ffe747",
+    "lavenderGlow": "#b977f8",
+    "paleViolet": "#dab2ff",
+    "lilacMist": "#f3e8ff",
+    "deepViolet": "#8200db",
+    "coralRed": "#ee5968",
+    "mintGreen": "#58df8c",
+    "forestGreen": "#00a63e",
+    "burntOrange": "#eb6928",
+    "deepTeal": "#2c91af",
+    "magentaBloom": "#b036a4",
+    "mintWash": "#dcfce7"
+  },
+  "typography": {
+    "families": {
+      "display": "\"new-kansas\", \"DM Serif Display\", Georgia, serif",
+      "body": "\"Nunito Sans\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+    },
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "lineHeight": 1.5,
+        "letterSpacing": "-0.01px"
+      },
+      "bodySmall": {
+        "size": "14px",
+        "lineHeight": 1.43,
+        "letterSpacing": "-0.011px"
+      },
+      "ui": {
+        "size": "15px",
+        "lineHeight": 1.33,
+        "letterSpacing": "-0.012px"
+      },
+      "body": {
+        "size": "16px",
+        "lineHeight": 1.5,
+        "letterSpacing": "-0.011px"
+      },
+      "bodyLarge": {
+        "size": "18px",
+        "lineHeight": 1.56,
+        "letterSpacing": "0px"
+      },
+      "subheading": {
+        "size": "20px",
+        "lineHeight": 1.4,
+        "letterSpacing": "-0.012px"
+      },
+      "headingSmall": {
+        "size": "28px",
+        "lineHeight": 1.35,
+        "letterSpacing": "-0.01px"
+      },
+      "heading": {
+        "size": "48px",
+        "lineHeight": 1.2,
+        "letterSpacing": "-0.013px"
+      },
+      "display": {
+        "size": "64px",
+        "lineHeight": 1.2,
+        "letterSpacing": "-0.023px"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "16px",
+    "elementGap": "8px",
+    "scale": ["4px", "5px", "6px", "8px", "10px", "12px", "14px", "16px", "20px", "24px", "32px", "48px", "64px", "73px", "80px", "96px"]
+  },
+  "radii": {
+    "card": "12px",
+    "input": "12px",
+    "button": "12px",
+    "largeCard": "16px",
+    "special": "24px",
+    "pill": "9999px"
+  },
+  "shadows": {
+    "paper": "0 0 0 1px rgb(237 234 228), 0 1px 1px rgb(29 29 28 / 0.04), 0 6px 16px rgb(29 29 28 / 0.06)",
+    "floating": "0 0 0 1px rgb(216 214 206), 0 12px 28px rgb(29 29 28 / 0.08), 0 24px 48px rgb(29 29 28 / 0.06)"
+  }
+}

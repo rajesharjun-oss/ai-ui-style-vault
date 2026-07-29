@@ -1,0 +1,78 @@
+{
+  "id": "04961c7d-8ca6-4e87-ba88-6ad7ffa3b245",
+  "name": "Home page | Impossible Foods",
+  "slug": "impossible-foods",
+  "sourceUrl": "https://styles.refero.design/style/04961c7d-8ca6-4e87-ba88-6ad7ffa3b245",
+  "referenceSite": "https://impossiblefoods.com",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "blood-red punk poster in velvet darkness",
+  "industry": ["food", "plant-based products", "consumer packaged goods", "ecommerce"],
+  "summary": "A wine-dark food-brand system with one impossible-red signal, massive condensed display type, compact pill CTAs, flat burgundy product cards, black hairline borders, and irregular masked food photography.",
+  "colors": {
+    "velvetWine": "#260212",
+    "burgundyStage": "#4f0423",
+    "impossibleRed": "#e10600",
+    "blushHighlight": "#ffc7c6",
+    "butcherBlack": "#000000",
+    "boneWhite": "#ffffff"
+  },
+  "typography": {
+    "primary": "sans-meat",
+    "displayFallback": "Druk Wide, Knockout-style condensed sans",
+    "bodyFallback": "Inter, Sohne-style sans",
+    "weights": [400, 500, 700],
+    "displayRange": "103px to 231px",
+    "displayLineHeight": "0.73 to 0.75",
+    "displayTracking": "0.06px"
+  },
+  "shape": {
+    "navRadius": "15px",
+    "cardRadius": "12px",
+    "buttonRadius": "15px",
+    "toggleRadius": "15px",
+    "featureCardRadius": "38px"
+  },
+  "layout": {
+    "baseUnit": "4px",
+    "density": "compact",
+    "maxWidth": "1280px",
+    "sectionGap": "40px to 64px",
+    "cardPadding": "16px to 24px",
+    "elementGap": "6px to 16px"
+  },
+  "elevation": {
+    "shadows": "none",
+    "depth": "surface step from #260212 to #4f0423"
+  },
+  "components": [
+    "sticky top navigation",
+    "primary CTA button",
+    "ghost CTA button",
+    "filter pill toggle",
+    "hero display block",
+    "product carousel card",
+    "category tab with number badge",
+    "masked food photography",
+    "section heading with bracket accents",
+    "recipe or product grid card",
+    "location pin icon button",
+    "nav logo mark"
+  ],
+  "dos": [
+    "Use giant display type for hero and section statements.",
+    "Reserve Impossible Red for actions, active states, and display text.",
+    "Pair filled red CTAs with white ghost CTAs.",
+    "Use 15px radius for buttons and toggles.",
+    "Use organic food masks around hero display type.",
+    "Keep the nav bar solid black."
+  ],
+  "donts": [
+    "Do not add shadows, glows, or gradients.",
+    "Do not introduce additional chromatic colors.",
+    "Do not use red for body copy.",
+    "Do not use rectangular product photography in hero zones.",
+    "Do not use a light page background.",
+    "Do not make the display type feel polite or small."
+  ]
+}

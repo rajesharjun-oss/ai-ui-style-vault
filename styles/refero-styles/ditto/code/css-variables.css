@@ -1,0 +1,154 @@
+:root {
+  /* Colors */
+  --color-deep-ink: #130e30;
+  --color-hi-yellow: #ffe228;
+  --color-moss-green: #59e25d;
+  --color-fuchsia: #e261e5;
+  --color-slate: #5f5c6e;
+  --color-canvas: #f9fbf2;
+  --color-soft-meadow: #eff2e5;
+  --color-charcoal: #222222;
+  --color-onyx: #000000;
+
+  /* Semantic colors */
+  --color-background: var(--color-canvas);
+  --color-surface: var(--color-soft-meadow);
+  --color-text: var(--color-deep-ink);
+  --color-text-muted: var(--color-slate);
+  --color-action-primary: var(--color-hi-yellow);
+  --color-action-primary-text: var(--color-deep-ink);
+  --color-action-secondary: var(--color-deep-ink);
+  --color-action-secondary-text: #ffffff;
+  --color-border-strong: var(--color-onyx);
+
+  /* Typography */
+  --font-hedvig-letters-serif: "Hedvig Letters Serif", "DM Serif Display", "Source Serif 4", "Libre Caslon Text", Georgia, serif;
+  --font-inter: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 10px;
+  --leading-caption: 1.2;
+  --tracking-caption: -0.2px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.5;
+  --tracking-body-sm: -0.14px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: -0.16px;
+  --text-subheading: 18px;
+  --leading-subheading: 1.5;
+  --tracking-subheading: -0.18px;
+  --text-heading-sm: 22px;
+  --leading-heading-sm: 1.25;
+  --tracking-heading-sm: -0.22px;
+  --text-heading: 32px;
+  --leading-heading: 1.15;
+  --tracking-heading: -0.32px;
+  --text-heading-lg: 48px;
+  --leading-heading-lg: 1.1;
+  --tracking-heading-lg: -0.48px;
+  --text-display: 64px;
+  --leading-display: 1;
+  --tracking-display: -0.64px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 8px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-96: 96px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap-min: 48px;
+  --section-gap-max: 80px;
+  --card-padding-min: 24px;
+  --card-padding-max: 48px;
+  --element-gap-min: 12px;
+  --element-gap-max: 16px;
+
+  /* Radius */
+  --radius-nav: 1440px;
+  --radius-tags: 1440px;
+  --radius-icons: 1440px;
+  --radius-buttons: 1440px;
+  --radius-cards: 24px;
+  --radius-images-min: 24px;
+  --radius-images-max: 48px;
+
+  /* Surfaces */
+  --surface-canvas: #f9fbf2;
+  --surface-soft-meadow: #eff2e5;
+  --surface-hi-yellow-accent: #ffe228;
+  --surface-deep-ink: #130e30;
+}
+
+.ditto-style {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-inter);
+}
+
+.ditto-heading {
+  color: var(--color-text);
+  font-family: var(--font-hedvig-letters-serif);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.01em;
+}
+
+.ditto-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: var(--radius-buttons);
+  background: var(--color-action-primary);
+  color: var(--color-action-primary-text);
+  font-family: var(--font-inter);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+  box-shadow: none;
+}
+
+.ditto-button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border: 0;
+  border-radius: var(--radius-buttons);
+  background: var(--color-action-secondary);
+  color: var(--color-action-secondary-text);
+  font-family: var(--font-inter);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+  box-shadow: none;
+}
+
+.ditto-card {
+  border: 0;
+  border-radius: var(--radius-cards);
+  background: var(--color-surface);
+  padding: clamp(var(--card-padding-min), 4vw, var(--card-padding-max));
+  box-shadow: none;
+}
+
+.ditto-input {
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-buttons);
+  background: #ffffff;
+  color: var(--color-text);
+  padding: 12px 22px;
+  font-size: var(--text-body);
+}
+

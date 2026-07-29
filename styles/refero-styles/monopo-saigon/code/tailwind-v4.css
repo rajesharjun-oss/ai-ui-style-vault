@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #000000;
+  --color-paper: #ffffff;
+  --color-inkstone: #181818;
+  --color-felt-gray: #6d6d6d;
+  --color-slate-pill: #636363;
+  --color-ash-mist: #9a9a9a;
+  --color-pewter: #808080;
+  --color-iridescent-fade: #a52d25;
+
+  --font-roobert: "Roobert", Inter, "Sohne", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-raleway: "Raleway", Montserrat, Jost, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-system-ui: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 12px;
+  --text-caption--line-height: 1.19;
+  --text-body-sm: 16px;
+  --text-body-sm--line-height: 1.15;
+  --text-body: 18px;
+  --text-body--line-height: 1.21;
+  --text-subheading: 39px;
+  --text-subheading--line-height: 1.19;
+  --text-subheading-lg: 45px;
+  --text-subheading-lg--line-height: 1.15;
+  --text-heading-sm: 54px;
+  --text-heading-sm--line-height: 1.39;
+  --text-heading: 78px;
+  --text-heading--line-height: 1.1;
+  --text-heading-lg: 94px;
+  --text-heading-lg--line-height: 0.76;
+  --text-display: 225px;
+  --text-display--line-height: 1.25;
+
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-28: 28px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-68: 68px;
+  --spacing-152: 152px;
+
+  --radius-none: 0px;
+  --radius-full: 75px;
+
+  --ease-monopo: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@layer components {
+  .monopo-page {
+    @apply min-h-screen bg-paper text-obsidian font-roobert;
+  }
+
+  .monopo-wrap {
+    @apply mx-auto max-w-[1078px] px-28;
+  }
+
+  .monopo-hero {
+    background: linear-gradient(90deg, rgb(160, 224, 171), rgb(255, 172, 46) 50%, rgb(165, 45, 37));
+    @apply flex min-h-screen items-center overflow-hidden text-paper;
+  }
+
+  .monopo-display {
+    @apply font-roobert text-display font-normal leading-[1.25] tracking-normal;
+  }
+
+  .monopo-whisper-heading {
+    @apply font-roobert text-heading font-light leading-[1.1] tracking-normal;
+  }
+
+  .monopo-pill-light {
+    @apply inline-flex items-center justify-center rounded-[75px] border border-obsidian bg-transparent px-[33px] py-[11px] font-roobert text-body-sm font-normal leading-none text-obsidian;
+    transition: color 0.8s var(--ease-monopo), border-color 0.8s var(--ease-monopo), transform 1.25s var(--ease-monopo);
+  }
+
+  .monopo-pill-dark {
+    @apply inline-flex items-center justify-center rounded-[75px] border border-white/30 bg-transparent px-[33px] py-[11px] font-roobert text-body-sm font-normal leading-none text-paper;
+    transition: color 0.8s var(--ease-monopo), border-color 0.8s var(--ease-monopo), transform 1.25s var(--ease-monopo);
+  }
+
+  .monopo-link {
+    @apply rounded-none bg-transparent font-roobert text-[12px] font-normal text-inherit no-underline;
+  }
+
+  .monopo-project-row {
+    @apply rounded-none bg-transparent shadow-none;
+  }
+}

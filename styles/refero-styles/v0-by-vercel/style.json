@@ -1,0 +1,138 @@
+{
+  "id": "50aa2b8e-4760-4379-a3c1-59b65d8576a7",
+  "name": "v0 by Vercel",
+  "slug": "v0-by-vercel",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/50aa2b8e-4760-4379-a3c1-59b65d8576a7",
+  "referenceSite": "https://v0.dev",
+  "capturedAt": "2026-07-28",
+  "industry": "AI / developer tools",
+  "mood": "functional schematic on a stark drafting table",
+  "summary": "An achromatic AI builder system with Canvas background, GeistSans typography, tight heading tracking, black primary actions, subtle Line borders, large prompt input, suggestion chips, and restrained template-card previews.",
+  "useWhen": [
+    "AI builder interfaces",
+    "Prompt-first tools",
+    "Developer tools",
+    "Template galleries",
+    "Utility SaaS pages",
+    "Command-centered product screens"
+  ],
+  "avoidWhen": [
+    "Colorful campaign pages",
+    "Illustration-heavy landing pages",
+    "Dark cinematic products",
+    "Playful consumer apps",
+    "Dense enterprise dashboards"
+  ],
+  "colors": {
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Card surfaces, pill backgrounds, and text on dark buttons"
+    },
+    "canvas": {
+      "value": "#fafafa",
+      "role": "Primary page background"
+    },
+    "line": {
+      "value": "#eaeaea",
+      "role": "Borders, headers, dividers, ghost buttons, chips, inputs"
+    },
+    "subtext": {
+      "value": "#666666",
+      "role": "Secondary text, navigation links, placeholder text"
+    },
+    "icon": {
+      "value": "#7d7d7d",
+      "role": "Inactive icons and tertiary UI elements"
+    },
+    "ink": {
+      "value": "#171717",
+      "role": "Primary text, headlines, primary button backgrounds"
+    },
+    "onyx": {
+      "value": "#000000",
+      "role": "Logo, icons, and maximum-contrast text only"
+    }
+  },
+  "typography": {
+    "sansFamily": "\"GeistSans\", \"Inter\", system-ui, sans-serif",
+    "monoFamily": "\"GeistMono\", \"IBM Plex Mono\", ui-monospace, monospace",
+    "fontFeatures": ["zero", "ss09", "ss05"],
+    "roles": {
+      "smallUi": {
+        "fontSize": "13px to 14px",
+        "fontFamily": "GeistSans",
+        "fontWeight": "400 to 500",
+        "lineHeight": "1.4 to 1.5"
+      },
+      "button": {
+        "fontSize": "14px",
+        "fontFamily": "GeistSans",
+        "fontWeight": "500",
+        "lineHeight": "1.25"
+      },
+      "body": {
+        "fontSize": "16px",
+        "fontFamily": "GeistSans",
+        "fontWeight": "400",
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "sectionHeading": {
+        "fontSize": "32px",
+        "fontFamily": "GeistSans",
+        "fontWeight": "600",
+        "lineHeight": "1.17",
+        "letterSpacing": "-1.28px"
+      },
+      "display": {
+        "fontSize": "48px",
+        "fontFamily": "GeistSans",
+        "fontWeight": "600",
+        "lineHeight": "1",
+        "letterSpacing": "-2.88px"
+      },
+      "technical": {
+        "fontSize": "10px",
+        "fontFamily": "GeistMono",
+        "fontWeight": "400",
+        "lineHeight": "1.5"
+      }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "baseUnit": "4px",
+    "maxWidth": "1440px",
+    "sectionGap": "96px",
+    "cardGrid": "3 columns on desktop",
+    "chipPadding": "4px 8px",
+    "buttonPadding": "8px 12px"
+  },
+  "shape": {
+    "chip": "6px",
+    "button": "8px",
+    "card": "12px",
+    "input": "12px",
+    "pill": "9999px"
+  },
+  "elevation": {
+    "strategy": "No shadows on buttons or inputs; reserve subtle shadows for cards and stronger shadows for modals",
+    "templateCard": "0 0 0 1px rgba(0,0,0,0.08), 0 2px 1px rgba(0,0,0,0.04)",
+    "modalPopover": "0 25px 50px -12px rgba(0,0,0,0.25)"
+  },
+  "components": [
+    "Primary CTA Button",
+    "Ghost Navigation Link",
+    "Prompt Suggestion Chip",
+    "Filter Pill Button",
+    "Main Prompt Input",
+    "Header Divider",
+    "Template Card",
+    "Template Gallery"
+  ],
+  "imagery": {
+    "style": "Only user-generated product previews inside template cards",
+    "avoid": "Decorative imagery, gradients, background images, abstract illustrations, atmospheric hero media"
+  }
+}

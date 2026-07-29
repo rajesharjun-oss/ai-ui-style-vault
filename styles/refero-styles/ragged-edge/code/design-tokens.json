@@ -1,0 +1,221 @@
+{
+    "name":  "Ragged Edge",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Obsidian Ink",
+                       "value":  "#181f1f",
+                       "token":  "--color-obsidian-ink",
+                       "role":  "Primary text, hairline borders, filled action buttons the dominant near-black that carries 90% of the interface"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Canvas background, inverted text on dark blocks, nav/button borders"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#d1d2d2",
+                       "token":  "--color-fog",
+                       "role":  "Subtle dividers and secondary borders where Obsidian would be too heavy"
+                   },
+                   {
+                       "name":  "Ash",
+                       "value":  "#a3a5a5",
+                       "token":  "--color-ash",
+                       "role":  "Muted helper text, inactive button borders, secondary metadata"
+                   },
+                   {
+                       "name":  "Graphite",
+                       "value":  "#374151",
+                       "token":  "--color-graphite",
+                       "role":  "Secondary body text and subtle icon strokes where a lighter black is needed"
+                   },
+                   {
+                       "name":  "True Black",
+                       "value":  "#000000",
+                       "token":  "--color-true-black",
+                       "role":  "Navigation dividers and surface backing for select blocks"
+                   },
+                   {
+                       "name":  "Mint Wash",
+                       "value":  "#eaf7f3",
+                       "token":  "--color-mint-wash",
+                       "role":  "Soft tinted surface for nav backgrounds and breathing sections barely-there green to warm the white canvas"
+                   },
+                   {
+                       "name":  "Deep Teal",
+                       "value":  "#1f3233",
+                       "token":  "--color-deep-teal",
+                       "role":  "Dark surface blocks for case study framing and image-overlay panels"
+                   },
+                   {
+                       "name":  "Iris Voltage",
+                       "value":  "#516fea",
+                       "token":  "--color-iris-voltage",
+                       "role":  "Outlined action border only the sole chromatic accent; appears as a violet ring around secondary call-to-action buttons against monochrome surroundings"
+                   },
+                   {
+                       "name":  "Solar Bloom",
+                       "value":  "linear-gradient(0deg, rgba(255, 194, 64, 0), rgb(255, 194, 64) 25%, rgb(255, 196, 244) 50%, rgb(150, 235, 235) 75%, rgba(150, 235, 235, 0) 100%)",
+                       "token":  "--color-solar-bloom",
+                       "role":  "Hero gradient stop warm yellow anchoring the top of the full-bleed gradient wash"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "ABCDiatypeExpanded-Bold Display, brand logo, section headings, project titles, and nav labels. The extremely wide expanded letterforms (letter-spacing -0.02em at 7882px) are the signature element uppercase, never set small under 10px, and reserved for moments that demand visual weight. The 7882px sizes fill the full width of the hero canvas. Weight stays at 400 because the expansion provides all the weight needed; going bolder would distort the geometric proportions. `--font-abcdiatypeexpanded-bold`",
+                                     "Grit-Regular All body copy, paragraph text, descriptions, and mid-weight headings. A contemporary serif with subtle texture provides editorial gravitas against the expanded display sans. Weight 400 for running text, 500 for emphasized phrases and sub-headings. The 56px size with 1.25 line-height creates dramatic editorial pull-quotes. Pairs with ABCDiatypeExpanded by contrasting serif warmth against geometric coldness. `--font-grit-regular`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "10px",
+                                             "1.2",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "1.43",
+                                             "",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.5",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "20px",
+                                             "1.25",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading",
+                                             "30px",
+                                             "1.2",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "40px",
+                                             "1.15",
+                                             "-0.4px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "56px",
+                                             "1.25",
+                                             "-0.56px",
+                                             "--text-display"
+                                         ],
+                                         [
+                                             "hero",
+                                             "80px",
+                                             "1.1",
+                                             "-1.6px",
+                                             "--text-hero"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "64",
+                                      "64px",
+                                      "--spacing-64"
+                                  ],
+                                  [
+                                      "80",
+                                      "80px",
+                                      "--spacing-80"
+                                  ],
+                                  [
+                                      "180",
+                                      "180px",
+                                      "--spacing-180"
+                                  ],
+                                  [
+                                      "200",
+                                      "200px",
+                                      "--spacing-200"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "180px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "32px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "16px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "nav",
+                      "64px"
+                  ],
+                  [
+                      "cards",
+                      "40px"
+                  ],
+                  [
+                      "inputs",
+                      "54px"
+                  ],
+                  [
+                      "buttons",
+                      "64px"
+                  ],
+                  [
+                      "body-blocks",
+                      "40px"
+                  ]
+              ]
+}

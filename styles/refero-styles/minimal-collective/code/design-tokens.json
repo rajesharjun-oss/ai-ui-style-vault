@@ -1,0 +1,73 @@
+{
+  "name": "Minimal Collective",
+  "slug": "minimal-collective",
+  "sourceUrl": "https://styles.refero.design/style/94c15607-2f19-4dc4-9aec-2b40f28b754f",
+  "referenceSite": "https://minimalcollective.digital",
+  "tokens": {
+    "color": {
+      "black": { "value": "#000000", "role": "page canvas, hero surface, primary background" },
+      "white": { "value": "#ffffff", "role": "primary text, outlines, active marks, hairlines" },
+      "ash": { "value": "#a3a3a3", "role": "secondary text, metadata, inactive labels" },
+      "line": { "value": "#2b2b2b", "role": "low-contrast dividers and structural hairlines" }
+    },
+    "font": {
+      "family": {
+        "primary": "PolySans, Suisse Int'l, Neue Haas Grotesk, Inter, Arial, sans-serif"
+      },
+      "weight": {
+        "regular": 400
+      }
+    },
+    "text": {
+      "micro": { "size": "11px", "lineHeight": "1.1", "weight": 400, "tracking": "0.12em" },
+      "nav": { "size": "13px", "lineHeight": "1.1", "weight": 400, "tracking": "0.10em" },
+      "caption": { "size": "14px", "lineHeight": "1.35", "weight": 400, "tracking": "0.02em" },
+      "body": { "size": "16px", "lineHeight": "1.45", "weight": 400, "tracking": "-0.01em" },
+      "heading": { "size": "48px", "lineHeight": "0.98", "weight": 400, "tracking": "-0.04em" },
+      "display": { "size": "120px", "lineHeight": "0.86", "weight": 400, "tracking": "-0.06em" },
+      "displayHuge": { "size": "180px", "lineHeight": "0.82", "weight": 400, "tracking": "-0.07em" }
+    },
+    "radius": {
+      "button": "999px",
+      "badge": "999px",
+      "card": "0px",
+      "image": "0px",
+      "input": "0px",
+      "section": "0px"
+    },
+    "spacing": {
+      "unit": "4px",
+      "pageMaxWidth": "1440px",
+      "sectionGap": "120px",
+      "elementGap": "24px",
+      "navPaddingMin": "24px",
+      "navPaddingMax": "40px",
+      "heroPaddingMin": "96px",
+      "heroPaddingMax": "160px"
+    }
+  },
+  "componentRecipes": {
+    "ghostPill": {
+      "background": "transparent",
+      "border": "1px solid white",
+      "color": "white",
+      "radius": "999px",
+      "padding": "10px 18px",
+      "font": "PolySans 13px 400 uppercase",
+      "hover": "white fill and black text"
+    },
+    "caseStudyRow": {
+      "background": "black",
+      "divider": "1px solid line",
+      "title": "white 48px tight tracking",
+      "metadata": "ash uppercase labels",
+      "image": "square crop with no radius"
+    },
+    "imageStack": {
+      "shape": "square or hard rectangle",
+      "radius": "0px",
+      "shadow": "none",
+      "placement": "intentional overlap"
+    }
+  }
+}

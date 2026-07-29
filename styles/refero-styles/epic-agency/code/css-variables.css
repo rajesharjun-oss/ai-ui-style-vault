@@ -1,0 +1,103 @@
+:root {
+  --epic-font-display: "Sang Bleu", Georgia, serif;
+  --epic-font-ui: "Inter", system-ui, sans-serif;
+
+  --epic-color-void: #110329;
+  --epic-color-midnight-plum: #1b0642;
+  --epic-color-cosmic-violet: #532fbc;
+  --epic-color-astral-blue: #2d4fa8;
+  --epic-color-lunar-lilac: #cfc1ff;
+  --epic-color-nebula-lavender: #dbc9ff;
+  --epic-color-star-mist: #f4efff;
+  --epic-color-galactic-gold: #bc994e;
+  --epic-color-ember: #e3562d;
+  --epic-color-signal-green: #3c8900;
+
+  --epic-radius-menu: 0px;
+  --epic-radius-panel: 16px;
+  --epic-radius-button: 28px;
+  --epic-radius-chip: 9999px;
+
+  --epic-space-1: 4px;
+  --epic-space-2: 8px;
+  --epic-space-3: 12px;
+  --epic-space-5: 20px;
+  --epic-space-8: 32px;
+  --epic-space-12: 50px;
+  --epic-space-20: 80px;
+  --epic-space-30: 120px;
+
+  --epic-max-width: 1200px;
+}
+
+.epic-surface {
+  min-height: 100%;
+  background: var(--epic-color-void);
+  color: var(--epic-color-lunar-lilac);
+  font-family: var(--epic-font-ui);
+}
+
+.epic-hero-title {
+  color: var(--epic-color-star-mist);
+  font-family: var(--epic-font-display);
+  font-size: clamp(56px, 11vw, 120px);
+  line-height: 0.9;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.epic-body {
+  color: var(--epic-color-lunar-lilac);
+  font-family: var(--epic-font-ui);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.epic-nav {
+  color: var(--epic-color-nebula-lavender);
+  font-family: var(--epic-font-ui);
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.epic-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 22px;
+  border-radius: var(--epic-radius-button);
+  border: 1px solid rgba(244, 239, 255, 0.22);
+  background: var(--epic-color-cosmic-violet);
+  color: var(--epic-color-star-mist);
+  font-family: var(--epic-font-ui);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.epic-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 5px 12px;
+  border-radius: var(--epic-radius-chip);
+  border: 1px solid rgba(219, 201, 255, 0.22);
+  color: var(--epic-color-nebula-lavender);
+  background: rgba(83, 47, 188, 0.18);
+  font-family: var(--epic-font-ui);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.epic-card {
+  border-radius: var(--epic-radius-panel);
+  border: 1px solid rgba(219, 201, 255, 0.14);
+  background:
+    radial-gradient(circle at 20% 0%, rgba(83, 47, 188, 0.24), transparent 32%),
+    var(--epic-color-midnight-plum);
+  color: var(--epic-color-lunar-lilac);
+}

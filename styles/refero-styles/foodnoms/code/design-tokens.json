@@ -1,0 +1,237 @@
+{
+    "name":  "Foodnoms",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Ember Orange",
+                       "value":  "#ff5406",
+                       "token":  "--color-ember-orange",
+                       "role":  "Orange supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Verdant Green",
+                       "value":  "#00b33f",
+                       "token":  "--color-verdant-green",
+                       "role":  "Green supporting accent for decorative details and low-frequency emphasis"
+                   },
+                   {
+                       "name":  "Signal Red-Orange",
+                       "value":  "#ff3400",
+                       "token":  "--color-signal-red-orange",
+                       "role":  "Secondary warm accent visible in app screen UI elements and supporting brand moments. Sits one step hotter than Ember Orange for emphasis on selected or active app states"
+                   },
+                   {
+                       "name":  "Sky Blue",
+                       "value":  "#00a9dd",
+                       "token":  "--color-sky-blue",
+                       "role":  "Cool counter-accent for app-internal data categories (carbs/protein/other nutrient groupings). Balances the warm-dominant palette inside phone mockups"
+                   },
+                   {
+                       "name":  "Mist Blue",
+                       "value":  "#72a2c5",
+                       "token":  "--color-mist-blue",
+                       "role":  "Muted cool accent softens Sky Blue for secondary data labels and chart backgrounds inside the app surfaces"
+                   },
+                   {
+                       "name":  "Sunset Orange",
+                       "value":  "#ff6d00",
+                       "token":  "--color-sunset-orange",
+                       "role":  "Warm accent for secondary headings and emphasis text within the marketing pages"
+                   },
+                   {
+                       "name":  "Amber",
+                       "value":  "#945300",
+                       "token":  "--color-amber",
+                       "role":  "Deep warm accent for data-heavy text and chart labels in the app\u0027s nutrition displays"
+                   },
+                   {
+                       "name":  "Alert Red",
+                       "value":  "#ff001e",
+                       "token":  "--color-alert-red",
+                       "role":  "Red supporting accent for decorative details and low-frequency emphasis"
+                   },
+                   {
+                       "name":  "Plum",
+                       "value":  "#bd4be5",
+                       "token":  "--color-plum",
+                       "role":  "Accent for the carbs/protein/fat macro rings and category tags inside the app interface"
+                   },
+                   {
+                       "name":  "Iris",
+                       "value":  "#5856de",
+                       "token":  "--color-iris",
+                       "role":  "Accent for headings and emphasis text on supporting pages, and for specific data categories inside the app"
+                   },
+                   {
+                       "name":  "Electric Blue",
+                       "value":  "#0099f9",
+                       "token":  "--color-electric-blue",
+                       "role":  "Accent for bold headings and highlighted text on supporting pages"
+                   },
+                   {
+                       "name":  "Graphite",
+                       "value":  "#2f2f2f",
+                       "token":  "--color-graphite",
+                       "role":  "Primary text, dark buttons (App Store badge), and icon strokes. The dominant non-white color in headings and body copy"
+                   },
+                   {
+                       "name":  "Charcoal",
+                       "value":  "#000000",
+                       "token":  "--color-charcoal",
+                       "role":  "Maximum-emphasis text and icon fills. Used sparingly reserved for the darkest typographic moments and SVG icon details"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#f5f5f5",
+                       "token":  "--color-fog",
+                       "role":  "Alternate canvas for cards, feature sections, and soft UI containers. Distinguishes elevated content blocks from the white page"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Dominant page background, button text, and card surfaces. The base layer of the entire visual system"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Aquawax Pro Medium Aquawax Pro Medium detected in extracted data but not described by AI `--font-aquawax-pro-medium`",
+                                     "Aquawax Pro Primary brand typeface used across all display, heading, and body contexts. The custom face has a wide x-height, rounded geometric forms, and friendly proportions. Bold (700) is used for the 60px display and 30px section headlines these are the system\u0027s typographic anchors. DemiBold (600) handles subheadings and button labels at 1416px. Medium (500) carries body copy at 1720px with generous 1.61.8 line-height for comfortable reading. `--font-aquawax-pro`",
+                                     "System sans-serif Fallback for very small UI text and icon labels. Aquawax Pro is not used at micro sizes; system font handles them to keep render weight low. `--font-system-sans-serif`",
+                                     "Aquawax Pro DemiBold Aquawax Pro DemiBold detected in extracted data but not described by AI `--font-aquawax-pro-demibold`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "tiny",
+                                             "12px",
+                                             "1.2",
+                                             "",
+                                             "--text-tiny"
+                                         ],
+                                         [
+                                             "caption",
+                                             "14px",
+                                             "1.2",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "16px",
+                                             "1.4",
+                                             "",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "20px",
+                                             "1.8",
+                                             "",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "22px",
+                                             "1.2",
+                                             "",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "30px",
+                                             "1.2",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "display",
+                                             "60px",
+                                             "1.2",
+                                             "",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "8px",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "48",
+                                      "48px",
+                                      "--spacing-48"
+                                  ],
+                                  [
+                                      "56",
+                                      "56px",
+                                      "--spacing-56"
+                                  ],
+                                  [
+                                      "64",
+                                      "64px",
+                                      "--spacing-64"
+                                  ],
+                                  [
+                                      "96",
+                                      "96px",
+                                      "--spacing-96"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "96px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "32px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "20px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "tags",
+                      "26px"
+                  ],
+                  [
+                      "cards",
+                      "26px"
+                  ],
+                  [
+                      "inputs",
+                      "26px"
+                  ],
+                  [
+                      "buttons",
+                      "26px"
+                  ]
+              ]
+}

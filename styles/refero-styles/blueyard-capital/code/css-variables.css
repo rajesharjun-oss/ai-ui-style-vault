@@ -1,0 +1,102 @@
+:root {
+  --color-canvas-white: #ffffff;
+  --color-graphite-ink: #3a3a3e;
+  --color-deep-carbon: #090b11;
+  --color-ash-veil: #b5b0b0;
+  --color-apricot-wash: #ffcf9e;
+  --color-iris-mist: #babfff;
+  --color-fuchsia-bloom: #e3a2ef;
+  --color-polar-blue: #bfe0f7;
+
+  --font-primary: "Instrument Sans", "Inter", "Sohne", "General Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-micro: 7px;
+  --text-tiny-label: 9px;
+  --text-small-label: 11px;
+  --text-caption: 12px;
+  --text-body: 24px;
+  --text-heading: 48px;
+  --text-display: 54px;
+
+  --leading-flat: 1;
+  --leading-heading: 1.2;
+  --leading-body: 1.5;
+
+  --tracking-caption: -0.36px;
+  --tracking-body: -0.24px;
+  --tracking-heading: -0.54px;
+  --tracking-display: -1.62px;
+
+  --space-5: 5px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-9: 9px;
+  --space-11: 11px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-18: 18px;
+  --space-24: 24px;
+  --space-60: 60px;
+  --space-90: 90px;
+
+  --max-page: 1200px;
+  --radius-none: 0px;
+  --shadow-none: none;
+}
+
+.blueyard-surface {
+  background: var(--color-canvas-white);
+  color: var(--color-graphite-ink);
+  font-family: var(--font-primary);
+}
+
+.blueyard-display {
+  color: var(--color-graphite-ink);
+  font-family: var(--font-primary);
+  font-size: clamp(48px, 6vw, 54px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: var(--tracking-display);
+}
+
+.blueyard-card {
+  border: 1px solid var(--color-apricot-wash);
+  border-radius: 0;
+  background: var(--color-canvas-white);
+  color: var(--color-graphite-ink);
+  padding: var(--space-12);
+  box-shadow: none;
+}
+
+.blueyard-card-apricot {
+  border-radius: 0;
+  background: var(--color-apricot-wash);
+  color: var(--color-graphite-ink);
+  padding: var(--space-12);
+  box-shadow: none;
+}
+
+.blueyard-card-fuchsia {
+  border-radius: 0;
+  background: var(--color-fuchsia-bloom);
+  color: var(--color-deep-carbon);
+  padding: var(--space-12);
+  box-shadow: none;
+}
+
+.blueyard-menu-button {
+  display: inline-grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid var(--color-graphite-ink);
+  border-radius: 0;
+  background: var(--color-canvas-white);
+  color: var(--color-graphite-ink);
+}
+
+.blueyard-hairline {
+  height: 1px;
+  border: 0;
+  background: var(--color-graphite-ink);
+}

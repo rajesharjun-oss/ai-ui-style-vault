@@ -1,0 +1,421 @@
+{
+    "id":  "e26cb9b0-f876-41ff-9f24-fd67a6b9776c",
+    "name":  "Slack",
+    "slug":  "slack",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/e26cb9b0-f876-41ff-9f24-fd67a6b9776c",
+                   "referenceSite":  "https://slack.com",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-02-24T12:54:51.000Z",
+                   "articleModifiedAt":  "2026-07-03T10:57:19.944Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/67af243c-692f-42d6-8793-4b3b0cbc2ca4.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/95bb28c8-a51d-4148-9a79-fc3bcad3dc4a.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/25430e80-afbc-41ea-a32f-45db0c956d0b.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/da68987f-236b-4880-991a-90de9794fc8d.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/0c65c729-9adc-4702-8f3e-7908b98bb94a.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "SaaS",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "SaaS",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Aubergine stage with white spotlights. Deep plum dominates dark sections while a near-white canvas lets oversized Avant-Garde headlines breathe.",
+    "summary":  "Explore Slack\u0027s light SaaS design system: Aubergine #611f69, Deep Plum #481a54 colors, Salesforce-Avant-Garde, Salesforce-Sans typography, and DESIGN.md for...",
+    "colors":  [
+                   {
+                       "name":  "Aubergine",
+                       "value":  "#611f69",
+                       "token":  "--color-aubergine",
+                       "role":  "Filled CTA buttons, primary navigation fills, dark hero backgrounds the brand\u0027s signature mid-plum, dense enough to ground without veering black"
+                   },
+                   {
+                       "name":  "Deep Plum",
+                       "value":  "#481a54",
+                       "token":  "--color-deep-plum",
+                       "role":  "Largest canvas inversion full-bleed dark section backgrounds, decorative dark blocks, surface for headline text on white sections"
+                   },
+                   {
+                       "name":  "Purple Haze",
+                       "value":  "#f9f0ff",
+                       "token":  "--color-purple-haze",
+                       "role":  "Softest lilac wash for body backgrounds, pill fills, and card surfaces the quiet brand tint that never competes with text"
+                   },
+                   {
+                       "name":  "Lavender Mist",
+                       "value":  "#eac8fe",
+                       "token":  "--color-lavender-mist",
+                       "role":  "Mid-saturation lavender for card borders, decorative outlines, and pill borders bridges white and purple without harsh contrast"
+                   },
+                   {
+                       "name":  "Vivid Violet",
+                       "value":  "linear-gradient(104deg, rgb(0, 0, 0) 9.56%, rgb(186, 1, 255) 102.66%)",
+                       "token":  "--color-vivid-violet",
+                       "role":  "Headline accent text and gradient text fills on dark sections the bright punch of color that makes key phrases feel switched on; Diagonal black-to-violet gradient for accent text and decorative text fills on dark section..."
+                   },
+                   {
+                       "name":  "Plum Shadow",
+                       "value":  "#3d0157",
+                       "token":  "--color-plum-shadow",
+                       "role":  "Darker plum for button text and shadow tones on aubergine surfaces reads as near-black against purple fills"
+                   },
+                   {
+                       "name":  "Iris",
+                       "value":  "#730394",
+                       "token":  "--color-iris",
+                       "role":  "Secondary purple for background fills and link accents sits between Aubergine and Vivid Violet on the purple ramp"
+                   },
+                   {
+                       "name":  "Iris Light",
+                       "value":  "#d17dfe",
+                       "token":  "--color-iris-light",
+                       "role":  "Decorative card text and bright accents inside feature cards a lighter iris that adds lift without losing brand identity"
+                   },
+                   {
+                       "name":  "Channel Blue",
+                       "value":  "#1264a3",
+                       "token":  "--color-channel-blue",
+                       "role":  "Slack\u0027s channel-link blue for in-product references, sidebar highlights, and hyperlink color appears inside product UI screenshots, not marketing chrome"
+                   },
+                   {
+                       "name":  "Mid Blue",
+                       "value":  "#0b4c8c",
+                       "token":  "--color-mid-blue",
+                       "role":  "Blue text accent for links, tags, and emphasized short phrases."
+                   },
+                   {
+                       "name":  "Sky Mist",
+                       "value":  "#2f8ab7",
+                       "token":  "--color-sky-mist",
+                       "role":  "Decorative illustration backgrounds soft secondary blue used only inside graphic blocks"
+                   },
+                   {
+                       "name":  "Carbon",
+                       "value":  "#1d1c1d",
+                       "token":  "--color-carbon",
+                       "role":  "Primary body and nav text Slack\u0027s near-black that reads warmer than pure #000 at small sizes"
+                   },
+                   {
+                       "name":  "Charcoal",
+                       "value":  "#454245",
+                       "token":  "--color-charcoal",
+                       "role":  "Secondary body text, icon fills, muted captions the middle step between Carbon and Mid Gray"
+                   },
+                   {
+                       "name":  "Mid Gray",
+                       "value":  "#696969",
+                       "token":  "--color-mid-gray",
+                       "role":  "Navigation text, subdued labels, disabled-state text the working neutral for chrome"
+                   },
+                   {
+                       "name":  "Steel",
+                       "value":  "#808080",
+                       "token":  "--color-steel",
+                       "role":  "Placeholder card backgrounds and neutral fill swatches"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#edeaed",
+                       "token":  "--color-fog",
+                       "role":  "Hairline borders, divider lines, subtle 1px separators the structural neutral that holds cards together"
+                   },
+                   {
+                       "name":  "Pure White",
+                       "value":  "#ffffff",
+                       "token":  "--color-pure-white",
+                       "role":  "Primary surface card backgrounds, text on dark, pill fills, button text on purple"
+                   },
+                   {
+                       "name":  "Soft White",
+                       "value":  "#fefbff",
+                       "token":  "--color-soft-white",
+                       "role":  "Page canvas faintly lilac-tinted white that sets the page apart from harsh #fff"
+                   },
+                   {
+                       "name":  "Ice Blue",
+                       "value":  "#e8f5fa",
+                       "token":  "--color-ice-blue",
+                       "role":  "Cool-tinted surface wash for secondary panels and nav highlights"
+                   },
+                   {
+                       "name":  "Black",
+                       "value":  "#000000",
+                       "token":  "--color-black",
+                       "role":  "Headline text on light sections, icon fills, deepest emphasis used at display sizes where maximum weight is needed"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Salesforce-Avant-Garde Display and heading face geometric, wide, compressed. Carries every headline from 21px subheads up to 96px hero display. The 400-weight at 76px is anti-convention: Slack trusts its letterforms enough to let headlines whisper rather than shout. Tracking tightens progressively from -0.004em at body sizes to -0.012em at 64px+ `--font-salesforce-avant-garde`",
+                                     "Salesforce-Sans Workhorse body and UI face handles nav, body copy, buttons, captions, and labels. The 12px/700 with 0.057em tracking (uppercase) is the eyebrow-label pattern used for section tags. Body sits at 16px/1.5 generous enough for reading, compact enough for dense product cards `--font-salesforce-sans`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "eyebrow",
+                                             "12px",
+                                             "1.5",
+                                             "0.68px",
+                                             "--text-eyebrow"
+                                         ],
+                                         [
+                                             "caption",
+                                             "14px",
+                                             "1.56",
+                                             "-0.03px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "16px",
+                                             "1.5",
+                                             "-0.16px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "18px",
+                                             "1.56",
+                                             "-0.22px",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "32px",
+                                             "1.25",
+                                             "-0.26px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "50px",
+                                             "1",
+                                             "-0.6px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "64px",
+                                             "1.12",
+                                             "-0.77px",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "76px",
+                                             "1.2",
+                                             "-0.91px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "96px",
+                                             "1.08",
+                                             "-1.15px",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "7",
+                                      "7px",
+                                      "--spacing-7"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "18",
+                                      "18px",
+                                      "--spacing-18"
+                                  ],
+                                  [
+                                      "19",
+                                      "19px",
+                                      "--spacing-19"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "48",
+                                      "48px",
+                                      "--spacing-48"
+                                  ],
+                                  [
+                                      "96",
+                                      "96px",
+                                      "--spacing-96"
+                                  ],
+                                  [
+                                      "98",
+                                      "98px",
+                                      "--spacing-98"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80-100px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "24px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "8-12px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "tags",
+                                    "4px"
+                                ],
+                                [
+                                    "cards",
+                                    "16px"
+                                ],
+                                [
+                                    "pills",
+                                    "999px"
+                                ],
+                                [
+                                    "badges",
+                                    "90px"
+                                ],
+                                [
+                                    "buttons",
+                                    "4px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Primary CTA Button (Aubergine Fill)",
+                           "role":  "Main conversion action"
+                       },
+                       {
+                           "name":  "Ghost CTA Button",
+                           "role":  "Secondary action beside primary CTA"
+                       },
+                       {
+                           "name":  "Nav Pill Button",
+                           "role":  "Sticky navigation action"
+                       },
+                       {
+                           "name":  "Header Request Demo Link",
+                           "role":  "Low-emphasis nav link"
+                       },
+                       {
+                           "name":  "Sign In Link",
+                           "role":  "Account access"
+                       },
+                       {
+                           "name":  "Feature Card (Lavender Border)",
+                           "role":  "Content card with subtle brand frame"
+                       },
+                       {
+                           "name":  "Product Screenshot Card",
+                           "role":  "Large product UI embed"
+                       },
+                       {
+                           "name":  "Floating Sticky Nav",
+                           "role":  "Persistent top navigation"
+                       },
+                       {
+                           "name":  "Eyebrow Label / Tag",
+                           "role":  "Section category label"
+                       },
+                       {
+                           "name":  "NEW Badge",
+                           "role":  "Freshness indicator"
+                       },
+                       {
+                           "name":  "Ask Slackbot Pill",
+                           "role":  "Interactive quick-action"
+                       },
+                       {
+                           "name":  "Gradient Text Highlight",
+                           "role":  "Accent emphasis inside headlines"
+                       }
+                   ],
+    "dos":  [
+                "Use #611f69 for filled CTAs only never as background fills for hero sections or large surfaces; reserve #481a54 for those.",
+                "Set display headlines at 64-96px using Salesforce-Avant-Garde with -0.012em tracking; the compressed wide forms are what make Slack\u0027s hero feel architectural.",
+                "Apply the gradient text fill (black #ba01ff) to single keywords inside white-section headlines not to entire headlines or body copy.",
+                "Use 16px radius on all cards and content surfaces; pair with 1px lavender (#eac8fe) borders instead of heavy shadows for the default card state.",
+                "Reserve the 32px ambient shadow (rgba(0,0,0,0.1) 0px 0px 32px 0px) for product screenshot cards and floating overlays only not for static content cards.",
+                "Alternate white canvas sections with #481a54 dark hero bands to create rhythm; use #f9f0ff as a quieter mid-tone when transitioning without full inversion.",
+                "Set eyebrow labels at 12px/700 with 0.057em uppercase tracking this is the tag pattern for \u0027New Feature\u0027 and section categories."
+            ],
+    "donts":  [
+                  "Do not use pill-radius (999px) on primary CTA buttons Slack\u0027s filled actions are always rectangular with 4px corners.",
+                  "Do not apply the #eac8fe lavender border to product screenshot cards those need white or transparent backgrounds to let the embedded UI breathe.",
+                  "Do not use Vivid Violet (#9602c7) or Iris Light (#d17dfe) for body text on white backgrounds contrast ratios are too low; reserve for dark-section accents and card-only contexts.",
+                  "Do not mix Channel Blue (#1264a3) into marketing-page CTAs that blue belongs inside Slack product UI screenshots, not the marketing chrome.",
+                  "Do not add drop shadows to text inside the dark hero band; the band itself provides enough contrast.",
+                  "Do not use gradient fills on UI surfaces (buttons, cards, inputs) the gradient treatment is text-only and decorative.",
+                  "Do not set body copy below 14px or above 18px; the 16px/1.5 lineHeight is the working standard for readability across marketing and feature copy."
+              ]
+}

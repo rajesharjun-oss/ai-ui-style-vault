@@ -1,0 +1,127 @@
+{
+  "name": "Cal.com",
+  "slug": "cal-com",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/5d7aa503-8cfa-49a4-bd3b-0c2f0f075c70",
+    "style_id": "5d7aa503-8cfa-49a4-bd3b-0c2f0f075c70",
+    "reference_site": "https://cal.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "monochrome utility with a human touch",
+  "summary": "A compact scheduling-product style with strict black, white, and gray UI, friendly Cal Sans headings, pill CTAs, soft 12px cards, and rare informational blue.",
+  "use_cases": [
+    "Scheduling tools",
+    "Calendar apps",
+    "Booking flows",
+    "Productivity SaaS",
+    "Workflow utilities",
+    "Developer productivity pages"
+  ],
+  "colors": {
+    "ink": "#101010",
+    "graphite": "#242424",
+    "slate": "#6b7280",
+    "stone": "#898989",
+    "silver": "#e5e7eb",
+    "paper": "#f4f4f4",
+    "white": "#ffffff",
+    "info_banner_bg": "#eff6fe",
+    "action_blue": "#0099ff",
+    "google_blue": "#4285f4",
+    "google_yellow": "#fbbc04",
+    "google_green": "#34a853",
+    "google_red": "#ea4335"
+  },
+  "typography": {
+    "heading_font": "Cal Sans",
+    "body_font": "Cal Sans UI Variable Light",
+    "utility_font": "Inter",
+    "caption_font": "Matter",
+    "weights": [300, 400, 500, 600],
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.24px",
+        "weight": 400
+      },
+      "body_sm": {
+        "size": "14px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.2px",
+        "weight": 500
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.19px",
+        "weight": 300
+      },
+      "subheading": {
+        "size": "18px",
+        "line_height": "1.4",
+        "letter_spacing": "-0.2px",
+        "weight": 300
+      },
+      "heading_sm": {
+        "size": "20px",
+        "line_height": "1.3",
+        "letter_spacing": "0.2px",
+        "weight": 600
+      },
+      "heading": {
+        "size": "24px",
+        "line_height": "1.3",
+        "letter_spacing": "0.24px",
+        "weight": 600
+      },
+      "heading_lg": {
+        "size": "48px",
+        "line_height": "1.1",
+        "letter_spacing": "0.48px",
+        "weight": 600
+      },
+      "display": {
+        "size": "64px",
+        "line_height": "1.1",
+        "letter_spacing": "0.64px",
+        "weight": 600
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "page_max_width": "1200px",
+    "section_gap": "96px",
+    "card_padding": "24px",
+    "widget_padding": "16px"
+  },
+  "radius": {
+    "tags": "9999px",
+    "cards": "12px",
+    "inputs": "8px",
+    "buttons": "9999px for page pills, 8px for header rectangular buttons"
+  },
+  "components": [
+    "Primary CTA Button",
+    "Secondary Ghost Button",
+    "Header CTA Button",
+    "Tag Button",
+    "Scheduling Widget Card",
+    "Feature Card",
+    "Navigation Link",
+    "Information Banner",
+    "Integration Logo Row"
+  ],
+  "rules": [
+    "Use Cal Sans weight 600 only for headings.",
+    "Keep the core UI monochrome.",
+    "Use pill CTAs for page actions.",
+    "Use subtle diffuse shadows for cards.",
+    "Use Action Blue only for rare information links.",
+    "Use product UI and integration logos as imagery.",
+    "Do not use gradients or new accent colors."
+  ]
+}

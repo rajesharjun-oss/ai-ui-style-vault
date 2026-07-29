@@ -1,0 +1,292 @@
+{
+    "name":  "Apple Espana",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Pure Canvas",
+                       "value":  "#f5f5f7",
+                       "token":  "--color-pure-canvas",
+                       "role":  "Page background, section bands, card surfaces a near-white that separates structural surfaces from pure white product highlights without introducing tint"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Elevated card surfaces, icon fills, and inverted text on dark/colored backgrounds"
+                   },
+                   {
+                       "name":  "Obsidian",
+                       "value":  "#1d1d1f",
+                       "token":  "--color-obsidian",
+                       "role":  "Primary text, headlines, card borders, nav rules the singular dark anchor; not pure black, a graphite that softens contrast on white"
+                   },
+                   {
+                       "name":  "Iron Gray",
+                       "value":  "#707070",
+                       "token":  "--color-iron-gray",
+                       "role":  "Secondary nav borders, list dividers, subdued UI metadata"
+                   },
+                   {
+                       "name":  "Slate",
+                       "value":  "#474747",
+                       "token":  "--color-slate",
+                       "role":  "Nav borders, link underlines, secondary text in dense lists"
+                   },
+                   {
+                       "name":  "Charcoal",
+                       "value":  "#333336",
+                       "token":  "--color-charcoal",
+                       "role":  "Nav text, button labels on neutral surfaces slightly cool graphite for UI controls"
+                   },
+                   {
+                       "name":  "Mist",
+                       "value":  "#e2e2e5",
+                       "token":  "--color-mist",
+                       "role":  "Neutral pill button fill, secondary surface tier for compact controls and list rows"
+                   },
+                   {
+                       "name":  "Fog",
+                       "value":  "#d6d6d6",
+                       "token":  "--color-fog",
+                       "role":  "List row backgrounds, hairline separators in data-dense sections"
+                   },
+                   {
+                       "name":  "Void",
+                       "value":  "#000000",
+                       "token":  "--color-void",
+                       "role":  "Icon fills on light surfaces, nav logo reserved for the most absolute contrast moments"
+                   },
+                   {
+                       "name":  "Signal Blue",
+                       "value":  "#0071e3",
+                       "token":  "--color-signal-blue",
+                       "role":  "Blue action color for filled buttons, selected navigation states, and focused conversion moments."
+                   },
+                   {
+                       "name":  "Deep Link Blue",
+                       "value":  "#0066cc",
+                       "token":  "--color-deep-link-blue",
+                       "role":  "Inline link text and link underlines throughout body copy the only chromatic text color permitted in paragraph flow"
+                   },
+                   {
+                       "name":  "Pulse Green",
+                       "value":  "#03aa49",
+                       "token":  "--color-pulse-green",
+                       "role":  "Accent word within hero headlines (e.g. the first verb of a product tagline) used to color-code an emotional concept inside otherwise monochrome type"
+                   },
+                   {
+                       "name":  "Deep Green",
+                       "value":  "#03873a",
+                       "token":  "--color-deep-green",
+                       "role":  "Darker green variant for text-level green accents and underlined links in sustainability/spec contexts"
+                   },
+                   {
+                       "name":  "Ultraviolet",
+                       "value":  "#8668ff",
+                       "token":  "--color-ultraviolet",
+                       "role":  "Violet outline accent for tags, dividers, and focused UI edges."
+                   },
+                   {
+                       "name":  "Ember Orange",
+                       "value":  "#ed6300",
+                       "token":  "--color-ember-orange",
+                       "role":  "Orange outline accent for tags, dividers, and focused UI edges."
+                   },
+                   {
+                       "name":  "Lagoon Teal",
+                       "value":  "#00a1b3",
+                       "token":  "--color-lagoon-teal",
+                       "role":  "Teal outline accent for tags, dividers, and focused UI edges."
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "SF Pro Display Hero headlines, section headings, and the page-level brand statement. Set in semibold at very large sizes (6496px) with aggressive negative tracking (-0.019em to -0.005em) that tightens the headline into a single confident block. Smaller sizes (2128px) carry section headings and card titles. The signature choice: weight 600 is the heaviest weight on the entire site Apple trusts display weight 600 over 700+ to command the page `--font-sf-pro-display`",
+                                     "SF Pro Text Body copy, nav labels, button text, spec text, and large display numerals (44px). Weight 400 is the paragraph default; weight 600 marks links, button labels, and emphasis within body text. The 44px instance is a display-numeral role used for prices or large data it borrows SF Pro Text rather than Display because the data needs to feel tabular, not editorial `--font-sf-pro-text`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "1.33",
+                                             "-0.036px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "1.43",
+                                             "-0.14px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "17px",
+                                             "1.47",
+                                             "-0.272px",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "21px",
+                                             "1.33",
+                                             "0.231px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "28px",
+                                             "1.14",
+                                             "-0.252px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "39px",
+                                             "1.07",
+                                             "-0.351px",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "heading-lg",
+                                             "64px",
+                                             "1.06",
+                                             "-0.96px",
+                                             "--text-heading-lg"
+                                         ],
+                                         [
+                                             "display",
+                                             "96px",
+                                             "1.04",
+                                             "-1.824px",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "9",
+                                      "9px",
+                                      "--spacing-9"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "13",
+                                      "13px",
+                                      "--spacing-13"
+                                  ],
+                                  [
+                                      "14",
+                                      "14px",
+                                      "--spacing-14"
+                                  ],
+                                  [
+                                      "15",
+                                      "15px",
+                                      "--spacing-15"
+                                  ],
+                                  [
+                                      "18",
+                                      "18px",
+                                      "--spacing-18"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "28",
+                                      "28px",
+                                      "--spacing-28"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "40",
+                                      "40px",
+                                      "--spacing-40"
+                                  ],
+                                  [
+                                      "80",
+                                      "80px",
+                                      "--spacing-80"
+                                  ],
+                                  [
+                                      "89",
+                                      "89px",
+                                      "--spacing-89"
+                                  ],
+                                  [
+                                      "160",
+                                      "160px",
+                                      "--spacing-160"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1440px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "80-120px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "28px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "8-12px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "nav",
+                      "980px"
+                  ],
+                  [
+                      "cards",
+                      "28px"
+                  ],
+                  [
+                      "links",
+                      "10px"
+                  ],
+                  [
+                      "buttons",
+                      "980px"
+                  ],
+                  [
+                      "buttons-large",
+                      "36px"
+                  ]
+              ]
+}

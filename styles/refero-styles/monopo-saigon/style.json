@@ -1,0 +1,214 @@
+{
+  "id": "3e52dd36-6ab1-48c6-bc40-47ef6d33abc2",
+  "name": "monopo saigon",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/3e52dd36-6ab1-48c6-bc40-47ef6d33abc2",
+  "referenceUrl": "https://monopo.vn",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Monochrome editorial gallery floating over one liquid iridescent hero atmosphere, with monumental Roobert typography, sharp content corners, full pill buttons, and patient motion.",
+  "bestFor": [
+    "creative studio portfolios",
+    "editorial agency sites",
+    "immersive case studies",
+    "gallery-like brand experiences",
+    "campaign archives",
+    "text-led landing pages"
+  ],
+  "tags": [
+    "light",
+    "monochrome",
+    "editorial",
+    "gallery",
+    "iridescent-hero",
+    "roobert",
+    "raleway",
+    "sharp-corners",
+    "pill-buttons",
+    "no-shadows",
+    "slow-motion",
+    "creative-studio"
+  ],
+  "colors": {
+    "obsidian": {
+      "value": "#000000",
+      "token": "--color-obsidian",
+      "role": "Primary text, SVG strokes, overlay fills, borders, and dark inverse bands."
+    },
+    "paper": {
+      "value": "#ffffff",
+      "token": "--color-paper",
+      "role": "Main canvas, inverse labels, and high-contrast text on dark surfaces."
+    },
+    "inkstone": {
+      "value": "#181818",
+      "token": "--color-inkstone",
+      "role": "Footer body copy and softened black reading blocks."
+    },
+    "slatePill": {
+      "value": "#636363",
+      "token": "--color-slate-pill",
+      "role": "Filled neutral button background for consent and utilitarian confirmations."
+    },
+    "feltGray": {
+      "value": "#6d6d6d",
+      "token": "--color-felt-gray",
+      "role": "Muted helper text, addresses, legal copy, and receding annotations."
+    },
+    "pewter": {
+      "value": "#808080",
+      "token": "--color-pewter",
+      "role": "Secondary mid-tone neutral for hover or muted state layers."
+    },
+    "ashMist": {
+      "value": "#9a9a9a",
+      "token": "--color-ash-mist",
+      "role": "Disabled states, low-contrast surfaces, and quiet grayscale layers."
+    },
+    "iridescentFade": {
+      "value": "linear-gradient(90deg, rgb(160, 224, 171), rgb(255, 172, 46) 50%, rgb(165, 45, 37))",
+      "token": "--gradient-iridescent-fade",
+      "role": "Hero media atmosphere only. Never use this as a UI fill."
+    }
+  },
+  "typography": {
+    "families": {
+      "primary": "Roobert",
+      "displayAccent": "Raleway",
+      "micro": "system-ui"
+    },
+    "fallbacks": {
+      "primary": "Inter, Sohne, ui-sans-serif, system-ui, sans-serif",
+      "displayAccent": "Montserrat, Jost, ui-sans-serif, system-ui, sans-serif",
+      "micro": "ui-sans-serif, system-ui, sans-serif"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "semibold": 600
+    },
+    "rules": [
+      "Use Roobert-style type across navigation, hero, body, project lists, and footer.",
+      "Use Raleway only as a rare heading accent.",
+      "Use system-ui only for tiny labels, cookie copy, and fine print.",
+      "Do not use heavy display weights above 45px.",
+      "Use very tight line heights at display sizes."
+    ],
+    "scale": {
+      "caption": { "size": "12px", "lineHeight": 1.19, "letterSpacing": "0", "token": "--text-caption" },
+      "bodySm": { "size": "16px", "lineHeight": 1.15, "letterSpacing": "0", "token": "--text-body-sm" },
+      "body": { "size": "18px", "lineHeight": 1.21, "letterSpacing": "0", "token": "--text-body" },
+      "subheading": { "size": "39px", "lineHeight": 1.19, "letterSpacing": "0", "token": "--text-subheading" },
+      "subheadingLg": { "size": "45px", "lineHeight": 1.15, "letterSpacing": "0", "token": "--text-subheading-lg" },
+      "headingSm": { "size": "54px", "lineHeight": 1.39, "letterSpacing": "0", "token": "--text-heading-sm" },
+      "heading": { "size": "78px", "lineHeight": 1.1, "letterSpacing": "0", "token": "--text-heading" },
+      "headingLg": { "size": "94px", "lineHeight": 0.76, "letterSpacing": "0", "token": "--text-heading-lg" },
+      "display": { "size": "225px", "lineHeight": 1.25, "letterSpacing": "0", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1078px",
+    "sectionGap": "46px",
+    "cardPadding": "34px",
+    "elementGap": "14px",
+    "scale": {
+      "8": "8px",
+      "12": "12px",
+      "28": "28px",
+      "40": "40px",
+      "48": "48px",
+      "64": "64px",
+      "68": "68px",
+      "152": "152px"
+    }
+  },
+  "radii": {
+    "buttons": "75px",
+    "tags": "75px",
+    "cards": "0px",
+    "images": "0px",
+    "inputs": "0px",
+    "links": "0px"
+  },
+  "shadows": {
+    "none": "none"
+  },
+  "motion": {
+    "curve": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "slow": "1.25s",
+    "medium": "0.8s",
+    "micro": "0.4s"
+  },
+  "components": [
+    {
+      "name": "Ghost Pill Button - Dark Surface",
+      "recipe": "Transparent fill, 1px rgba(255,255,255,0.3) border, Paper text, 75px radius, Roobert 16px/400, 11px by 33px padding."
+    },
+    {
+      "name": "Ghost Pill Button - Light Surface",
+      "recipe": "Transparent fill, 1px Obsidian border, Obsidian text, 75px radius, Roobert 16px/400, 11px by 33px padding."
+    },
+    {
+      "name": "Filled Neutral Pill",
+      "recipe": "Slate Pill fill, Paper text, 1px Paper border, 75px radius, used only for consent or utility confirmations."
+    },
+    {
+      "name": "Underline-Free Text Link",
+      "recipe": "No background, no border, no underline, 0px radius, Roobert 12-16px, color flips by surface."
+    },
+    {
+      "name": "Hero Display Headline",
+      "recipe": "Roobert 225px/400, Paper text, centered over full-viewport iridescent media."
+    },
+    {
+      "name": "Project List Row",
+      "recipe": "Transparent background, sharp image, no card surface, no shadow, project title below in Roobert 16-18px."
+    },
+    {
+      "name": "Top Navigation Bar",
+      "recipe": "Fixed transparent 66px bar, wordmark left, locale center, menu right, no fill and no shadow."
+    },
+    {
+      "name": "Rotating Scroll Indicator",
+      "recipe": "Circular text SVG badge, slow continuous rotation, black or white depending on surface."
+    }
+  ],
+  "guidelines": {
+    "do": [
+      "Let a 225px Roobert display headline own the hero.",
+      "Keep all UI colors in black, white, and gray.",
+      "Reserve the iridescent gradient for hero media only.",
+      "Use 75px radius exclusively for buttons and tags.",
+      "Keep cards, images, inputs, and links at 0px radius.",
+      "Use weight 300 at 78px for quiet editorial headlines.",
+      "Use slow gliding motion.",
+      "Use no shadows."
+    ],
+    "dont": [
+      "Do not introduce a chromatic UI color.",
+      "Do not use gradients in buttons, badges, cards, or controls.",
+      "Do not use border radii between 1px and 74px.",
+      "Do not use heavy display weights above 45px.",
+      "Do not center-align body copy in lists, addresses, or project descriptions.",
+      "Do not use Raleway for body or navigation.",
+      "Do not fill every section with imagery."
+    ]
+  },
+  "imagery": {
+    "style": "One full-viewport liquid iridescent hero texture, followed by sharp editorial project photography.",
+    "rules": [
+      "Use the iridescent gradient only as hero media.",
+      "Keep project images sharp-cornered and unframed.",
+      "Avoid decorative icon systems and illustration.",
+      "Avoid repeated gradients outside the hero.",
+      "Avoid shadows and image chrome."
+    ]
+  },
+  "layout": {
+    "structure": "Centered 1078px editorial container with full-bleed hero and dark inverse bands.",
+    "navigation": "Transparent fixed 66px top bar with left wordmark, centered locale switcher, and right menu stack.",
+    "sectionRhythm": "46px section gaps with asymmetric text-image editorial pacing."
+  }
+}

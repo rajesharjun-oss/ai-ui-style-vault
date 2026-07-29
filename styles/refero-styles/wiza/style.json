@@ -1,0 +1,89 @@
+{
+  "id": "3720657f-2b59-475e-a43d-b18cac718325",
+  "name": "Wiza",
+  "slug": "wiza",
+  "sourceUrl": "https://styles.refero.design/style/3720657f-2b59-475e-a43d-b18cac718325",
+  "referenceSite": "https://wiza.co",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "twilight prospecting observatory bathed in lavender mist",
+  "industry": ["sales intelligence", "lead generation", "data enrichment", "SaaS"],
+  "summary": "A light prospecting SaaS style with Deep Iris authority, Royal Amethyst focus accents, Mist Violet sections, lavender gradient hero atmosphere, Britti Sans 500 headings, compact Inter data tables, 8px cards and controls, and true pill-shaped nav and tags.",
+  "colors": {
+    "deepIris": "#26114a",
+    "plumVelvet": "#312749",
+    "royalAmethyst": "#3e0079",
+    "mistViolet": "#edecff",
+    "lavenderGlow": "#b99aff",
+    "canvas": "#ffffff",
+    "paper": "#f6f7fa",
+    "mist": "#e6e2e3",
+    "smoke": "#c1c7cf",
+    "ash": "#9491a1",
+    "slate": "#615e6e",
+    "charcoal": "#333333",
+    "carbon": "#222222",
+    "ink": "#000000"
+  },
+  "gradients": {
+    "lavenderWash": "linear-gradient(90deg, rgb(185, 154, 255), rgb(125, 67, 255) 10%, rgba(125, 67, 255, 0))",
+    "twilightBeam": "linear-gradient(to right, rgb(207, 138, 255), rgb(255, 102, 193), rgb(255, 173, 116), rgb(170, 129, 255))"
+  },
+  "typography": {
+    "display": "Britti Sans",
+    "displayFallback": "Plus Jakarta Sans, General Sans",
+    "ui": "Inter",
+    "uiFallback": "IBM Plex Sans",
+    "displayWeight": 500,
+    "displayLineHeight": "1",
+    "uiRange": "12px to 16px"
+  },
+  "shape": {
+    "cardRadius": "8px",
+    "iconRadius": "8px",
+    "inputRadius": "8px",
+    "buttonRadius": "8px",
+    "largeRadius": "24px",
+    "pillRadius": "1440px"
+  },
+  "layout": {
+    "baseUnit": "8px",
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "64px to 80px",
+    "cardPadding": "16px to 24px",
+    "elementGap": "8px"
+  },
+  "components": [
+    "filled brand button",
+    "ghost outlined button",
+    "pill navigation button",
+    "logo lockup",
+    "product screenshot frame",
+    "data table row",
+    "logo cloud bar",
+    "rating badge pair",
+    "section heading block",
+    "profile card",
+    "floating navigation bar",
+    "tag or badge pill",
+    "input field",
+    "feature icon tile"
+  ],
+  "dos": [
+    "Use 8px radius for rectangular UI surfaces.",
+    "Use 1440px radius for pills, tags, and capsule nav.",
+    "Keep Britti Sans headings at line-height 1.",
+    "Pair filled and ghost CTAs with matching dimensions.",
+    "Use pill tags above section headings.",
+    "Place lavender gradients behind white content surfaces."
+  ],
+  "donts": [
+    "Do not use Royal Amethyst for body text.",
+    "Do not apply 4px or 12px radius to cards.",
+    "Do not loosen Britti Sans heading line-height.",
+    "Do not introduce non-violet accent colors.",
+    "Do not use heavy shadows.",
+    "Do not use photography as the primary illustration language."
+  ]
+}

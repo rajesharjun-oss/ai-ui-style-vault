@@ -1,0 +1,353 @@
+{
+ "name": "Geniestudio",
+ "slug": "geniestudio",
+ "colors": [
+ {
+ "name": "Sky Tint",
+ "value": "#ebf5ff",
+ "token": "--color-sky-tint",
+ "role": "Page canvas and soft background washes - the defining ambient color that sets the daylight atmosphere"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Pure card surfaces, button text, and icon fills on dark controls"
+ },
+ {
+ "name": "Bone White",
+ "value": "#fafdff",
+ "token": "--color-bone-white",
+ "role": "Primary card surface and elevated panel backgrounds - a barely-blue white that feels paper-like"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#f6f7f8",
+ "token": "--color-mist-gray",
+ "role": "Subtle secondary surfaces and section dividers"
+ },
+ {
+ "name": "Ink",
+ "value": "#0a0d12",
+ "token": "--color-ink",
+ "role": "All heading text, primary display type, and deep emphasis copy"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#181d27",
+ "token": "--color-charcoal",
+ "role": "Filled button backgrounds and the dense visual anchor against the airy canvas"
+ },
+ {
+ "name": "Graphite",
+ "value": "#535862",
+ "token": "--color-graphite",
+ "role": "Secondary body text and supporting copy"
+ },
+ {
+ "name": "Fog",
+ "value": "#93979f",
+ "token": "--color-fog",
+ "role": "Muted helper text, FAQ answers, and low-emphasis body"
+ },
+ {
+ "name": "Slate Shadow",
+ "value": "#3b3d41",
+ "token": "--color-slate-shadow",
+ "role": "Dark shadow tone behind buttons and elevated controls"
+ },
+ {
+ "name": "Sky Blue",
+ "value": "#0099ff",
+ "token": "--color-sky-blue",
+ "role": "Inline highlight text and emphasis spans within body copy"
+ },
+ {
+ "name": "Lavender Wash",
+ "value": "#f1e6ff",
+ "token": "--color-lavender-wash",
+ "role": "Pastel card surface for feature tiles and category blocks"
+ },
+ {
+ "name": "Mint Wash",
+ "value": "#d3f6e3",
+ "token": "--color-mint-wash",
+ "role": "Pastel card surface for feature tiles and category blocks"
+ },
+ {
+ "name": "Powder Blue",
+ "value": "#cce7ff",
+ "token": "--color-powder-blue",
+ "role": "Gray wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Aeonik",
+ "token": "--font-aeonik",
+ "role": "Display and heading face for all editorial moments - 148px hero headlines, 72px section openers, 48px card titles, 32px subheadings. Fixed at weight 500; the brand never goes bolder. Tracking pulls tight at -0.02em which gives the geometric forms a sculpted, almost engraved quality at large sizes. Substitute: \u0027Sohne\u0027, \u0027Inter\u0027, or \u0027General Sans\u0027."
+ },
+ {
+ "name": "Geist",
+ "token": "--font-geist",
+ "role": "UI and body face for everything below the headline tier - body copy, buttons, labels, captions, card descriptions, nav links. Weight 500 is the workhorse; 600 only for tiny 10px micro-labels. The 18px / 20px sizes with -0.01em tracking carry the interface\u0027s conversational voice. Substitute: \u0027Geist\u0027, \u0027Inter\u0027, or \u0027Sohne\u0027."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.4",
+ "-0.1px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.14",
+ "-0.14px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.35",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.33",
+ "-0.18px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.17",
+ "-0.48px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.25",
+ "-0.64px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.17",
+ "-0.96px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "72px",
+ "1.11",
+ "-1.44px",
+ "--text-display"
+ ],
+ [
+ "hero",
+ "148px",
+ "1.05",
+ "-2.96px",
+ "--text-hero"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "40px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "32px"
+ ],
+ [
+ "images",
+ "24px"
+ ],
+ [
+ "inputs",
+ "16px"
+ ],
+ [
+ "buttons",
+ "32px"
+ ],
+ [
+ "cardsSmall",
+ "16px"
+ ],
+ [
+ "buttonsPill",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "Filled dark pill - the only dense visual element on the page"
+ },
+ {
+ "name": "Secondary CTA Button",
+ "role": "Smaller filled pill for inline actions"
+ },
+ {
+ "name": "Ghost Nav Link",
+ "role": "Header navigation text"
+ },
+ {
+ "name": "Feature Card (32px radius)",
+ "role": "Primary content card - FAQ, testimonial, feature block"
+ },
+ {
+ "name": "Pastel Category Tile",
+ "role": "Colored feature block - style library, category cards"
+ },
+ {
+ "name": "Testimonial Card",
+ "role": "Masonry-style horizontal card in the social-proof section"
+ },
+ {
+ "name": "FAQ Accordion Row",
+ "role": "Expandable question/answer block"
+ },
+ {
+ "name": "Pill Tag / Chip",
+ "role": "Category labels and status indicators"
+ },
+ {
+ "name": "Marquee Logo Strip",
+ "role": "Endlessly scrolling brand logo wall"
+ },
+ {
+ "name": "Hero Gradient Banner",
+ "role": "Decorative border/frame around hero artwork"
+ },
+ {
+ "name": "3D Illustration Asset",
+ "role": "Whimsical floating objects - clouds, crayons, envelopes, smiley faces, flowers"
+ },
+ {
+ "name": "Section Header",
+ "role": "Centered display headline + supporting subhead"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use weight 500 (not 600 or 700) for all display and heading type - the system is intentionally mid-weight, never bold",
+ "Apply 32px border-radius to all content cards and 9999px to all interactive pills and tags",
+ "Set the page canvas to #ebf5ff and card surfaces to #fafdff - the pale blue-to-bone-white shift is the primary depth mechanism",
+ "Use the dark fill #181d27 for all filled buttons; reserve #0069e0 for accent borders and inline highlight text only",
+ "Pull heading tracking to -0.02em and body tracking to -0.01em; never set type with default or positive letter-spacing",
+ "Let 3D illustrations float in the canvas without cards, borders, or backgrounds - they are the brand voice, not decoration",
+ "Use the iris gradient (71,157,255 0,105,224) only for thin 3px accent borders; never as a button fill or large surface"
+ ],
+ "doNot": [
+ "Do not use bold weights (600+) for display headlines - Aeonik 500 is the ceiling",
+ "Do not use 90 sharp corners on cards or buttons - minimum 16px, default 32px, pill 9999px",
+ "Do not place saturated blue (#0069e0) as a button fill - it is an outline/accent color, not a CTA color",
+ "Do not add box-shadows to content cards - depth comes from the canvas/surface color shift, not elevation",
+ "Do not use body-weight black (#000000) for text - use #0a0d12, which has a hint of blue that ties to the canvas",
+ "Do not mix more than two pastel washes in a single section - the pastel palette is for tile variety, not visual noise",
+ "Do not set display type below 48px or use display sizes for body content - the scale has a hard floor for editorial moments"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/2ffd50d4-93b7-4acf-9bc2-e86e61b63f27",
+ "referenceSite": "https://geniestudio.app",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-07T22:40:42.087Z",
+ "articleModifiedAt": "2026-07-03T10:33:19.010Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/101f2f74-5317-4c8a-9105-fed8d437325a.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/8f06c13c-833a-466b-94ca-36aa35c67f59.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1280d322-a30c-48d1-9e32-81d948b73e65.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9c8df761-e637-4ee3-a306-d5a1dd75bb3c.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/16996f45-fd96-4770-aa3a-e405fb504821.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/b3242e53-8039-4c48-b78b-5b5382ae9628.png"
+ }
+ }
+}

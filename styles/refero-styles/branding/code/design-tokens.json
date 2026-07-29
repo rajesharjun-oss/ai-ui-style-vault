@@ -1,0 +1,98 @@
+{
+  "name": "Branding",
+  "slug": "branding",
+  "source": "https://styles.refero.design/style/4d4772a3-e1da-415f-a6d7-658dcefdcecd",
+  "referenceSite": "https://www.svz.io",
+  "theme": "dark",
+  "color": {
+    "voidCanvas": { "value": "#080808", "role": "main page background and dark floor" },
+    "absoluteBlack": { "value": "#000000", "role": "deepest surface and image overlays" },
+    "charcoalPlate": { "value": "#171617", "role": "footer and off-void dark panels" },
+    "smokePlate": { "value": "#262525", "role": "secondary dark surfaces and image treatments" },
+    "graphiteLift": { "value": "#393939", "role": "subtle elevated card surface" },
+    "boneWhite": { "value": "#fcfcfc", "role": "primary text, borders, icon strokes" },
+    "linen": { "value": "#f3efef", "role": "inverted body panels and light editorial sections" },
+    "ash": { "value": "#d4d2d2", "role": "secondary text, nav labels, subtle borders" },
+    "pebble": { "value": "#b5b2b2", "role": "tertiary text and disabled borders" },
+    "iron": { "value": "#525252", "role": "link underlines, dividers, separators" },
+    "arterialRed": { "value": "#fe1e34", "role": "sole saturated brand accent, featured borders, dots, CTA fill" },
+    "crimsonPure": { "value": "#ff0000", "role": "typographic underline/fill accent only" }
+  },
+  "font": {
+    "primary": {
+      "family": "Kmr Waldenburg",
+      "fallback": "Neue Haas Grotesk Display, Inter, Arial, sans-serif",
+      "weights": [300, 400, 700],
+      "usage": "display, nav, body, buttons, labels"
+    },
+    "serifItalic": {
+      "family": "Editorialnew",
+      "fallback": "Editorial Old, Playfair Display Italic, Georgia, serif",
+      "weights": [300],
+      "usage": "small italic connective words inside display compositions"
+    },
+    "ornamental": {
+      "family": "Dirtyline 36 Daysoftype 2022",
+      "fallback": "Tobias, Rogue Serif, Playfair Display, serif",
+      "weights": [400],
+      "usage": "single-letter or short ornamental spectacle"
+    }
+  },
+  "text": {
+    "caption": { "size": "10px", "lineHeight": "1.2", "weight": 400, "tracking": "0.8px" },
+    "body": { "size": "14px", "lineHeight": "1.5", "weight": 400, "tracking": "-0.24px" },
+    "subheading": { "size": "24px", "lineHeight": "1.1", "weight": 700, "tracking": "-0.91px" },
+    "headingSmall": { "size": "32px", "lineHeight": "1.05", "weight": 700, "tracking": "-1.6px" },
+    "heading": { "size": "42px", "lineHeight": "1.05", "weight": 700, "tracking": "-2px" },
+    "headingLarge": { "size": "64px", "lineHeight": "1.0", "weight": 700, "tracking": "-4.8px" },
+    "display": { "size": "80px", "lineHeight": "0.9", "weight": 700, "tracking": "-6px" },
+    "displayXL": { "size": "160px", "lineHeight": "0.9", "weight": 700, "tracking": "-12.8px" }
+  },
+  "space": {
+    "sectionGap": "48px to 64px",
+    "heroBreathingRoom": "80px",
+    "elementGap": "24px",
+    "cardPadding": "12px to 24px",
+    "footerPadding": "48px minimum",
+    "pageMaxWidth": null
+  },
+  "radius": {
+    "nav": "3px",
+    "cards": "8px",
+    "buttons": "8px",
+    "largeCards": "14.4px",
+    "accentPills": "9999px"
+  },
+  "elevation": {
+    "insetHighlight": "rgba(255,255,255,0.2) 0px 2px 5px 0px inset",
+    "dropShadows": "avoid",
+    "method": "hairline borders, inset light, surface shifts, and scale"
+  },
+  "component": {
+    "ghostCta": {
+      "text": "#fcfcfc",
+      "font": "12px uppercase Kmr Waldenburg weight 400",
+      "tracking": "0.071em",
+      "box": "none",
+      "decoration": "diagonal arrow icon"
+    },
+    "discoveryCallButton": {
+      "border": "1px solid #d4d2d2",
+      "text": "#fcfcfc",
+      "radius": "8px",
+      "padding": "12px 24px",
+      "font": "12px uppercase tracked Kmr Waldenburg"
+    },
+    "featuredBrandCard": {
+      "background": "#080808 or #262525",
+      "border": "1px solid #fe1e34",
+      "radius": "8px",
+      "padding": "24px"
+    },
+    "editorialBodyPanel": {
+      "background": "#f3efef",
+      "text": "#080808",
+      "body": "14px Kmr Waldenburg weight 400, line-height 1.5"
+    }
+  }
+}

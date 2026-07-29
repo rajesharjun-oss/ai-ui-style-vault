@@ -1,0 +1,80 @@
+{
+  "name": "Integrated Biosciences",
+  "slug": "integrated-biosciences",
+  "color": {
+    "bioSignal": { "value": "#cef79e", "role": "Single scientific accent, active states, data signals" },
+    "void": { "value": "#000000", "role": "Main page canvas and deepest panels" },
+    "labBlack": { "value": "#0c0c0c", "role": "Secondary dark section background" },
+    "graphite": { "value": "#1a1a1a", "role": "Flat cards and image plates" },
+    "carbon": { "value": "#222222", "role": "Subtle raised panels and hover states" },
+    "slate": { "value": "#363636", "role": "Dark borders and form surfaces" },
+    "rule": { "value": "#424242", "role": "Hairline dividers and scientific grid lines" },
+    "mist": { "value": "#9f9f9f", "role": "Muted body text and secondary labels" },
+    "softWhite": { "value": "#f4f4f4", "role": "Primary dark-mode text" },
+    "pureWhite": { "value": "#ffffff", "role": "High-emphasis text and icons" }
+  },
+  "font": {
+    "primary": {
+      "value": "Aspekta, Inter, \"Geist Sans\", \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [400],
+      "usage": "All display, body, labels, controls, and metadata"
+    }
+  },
+  "size": {
+    "microLabel": "11px",
+    "label": "13px",
+    "body": "16px",
+    "lead": "20px",
+    "heading": "36px",
+    "displaySm": "56px",
+    "display": "76px"
+  },
+  "lineHeight": {
+    "microLabel": 1.4,
+    "label": 1.45,
+    "body": 1.55,
+    "lead": 1.4,
+    "heading": 1.05,
+    "displaySm": 0.98,
+    "display": 0.95
+  },
+  "letterSpacing": {
+    "microLabel": "0.16em",
+    "label": "0.08em",
+    "displaySm": "-0.01em",
+    "display": "-0.015em"
+  },
+  "space": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "8": "32px",
+    "10": "40px",
+    "12": "48px",
+    "16": "64px",
+    "20": "80px",
+    "24": "96px",
+    "30": "120px",
+    "40": "160px"
+  },
+  "layout": {
+    "maxWidth": "1240px",
+    "sectionGapMin": "80px",
+    "sectionGapMax": "120px",
+    "cardPaddingMin": "24px",
+    "cardPaddingMax": "40px"
+  },
+  "radius": {
+    "all": "0px"
+  },
+  "border": {
+    "hairline": "1px"
+  },
+  "motion": {
+    "fast": "200ms ease"
+  }
+}
+

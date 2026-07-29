@@ -1,0 +1,114 @@
+{
+  "id": "f58e99d1-940d-4254-8822-5d856bba6505",
+  "name": "Notion Midnight Workspace",
+  "slug": "notion-midnight-workspace",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/f58e99d1-940d-4254-8822-5d856bba6505",
+    "referenceSite": "https://www.notion.com",
+    "capturedAt": "2026-07-29",
+    "publishedAt": "2026-04-29T00:12:22.833Z",
+    "articleModifiedAt": "2026-06-05T11:52:58.187Z",
+    "media": {
+      "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/c0c4f8c7-139c-477f-bdab-39719081f7b0.jpg",
+      "socialPreviewImage": "https://images.refero.design/styles/refero.design/image/b162e923-8295-4f5e-8887-c6ec3a839416.jpg",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/60304547-55e0-40f0-b099-5fa97cc2f714.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/58010591-f4d9-4784-8088-59c7ac2d14ae.mp4",
+      "detailVideo": "https://images.refero.design/styles/refero.design/video/efe456c7-500b-407e-87c0-a23a730643b6.mp4"
+    }
+  },
+  "classification": {
+    "theme": "mixed",
+    "industry": ["productivity", "workspace", "AI", "collaboration", "SaaS"],
+    "mood": ["dramatic", "editorial", "focused", "warm", "product-led"],
+    "bestFor": ["productivity homepages", "workspace SaaS pages", "AI collaboration pages", "product launch heroes", "product-led marketing pages"]
+  },
+  "summary": "A mixed Notion-style product site with midnight navy hero, Signal Blue CTAs, floating product screenshots, violet-blue aura accents, and warm paper sections below the fold.",
+  "colors": {
+    "midnightInk": { "value": "#02093a", "role": "Hero canvas, top-of-page surface, and defining dark stage" },
+    "signalBlue": { "value": "#0075de", "role": "Primary action buttons, filled CTA backgrounds, active link emphasis" },
+    "skyTint": { "value": "#62aef0", "role": "Decorative gradient stops and soft highlight washes" },
+    "royalViolet": { "value": "#2537b1", "role": "Decorative aura and secondary dark-stage accent" },
+    "periwinkle": { "value": "#455dd3", "role": "Secondary dark surface and bridge tone" },
+    "cerulean": { "value": "#097fe8", "role": "Info badges, new-feature tags, and inline highlight labels" },
+    "paperWhite": { "value": "#f6f5f4", "role": "Light section canvas and warm editorial page surface" },
+    "pureWhite": { "value": "#ffffff", "role": "Elevated cards, input fields, and reversed text" },
+    "onyx": { "value": "#000000", "role": "Primary text on light surfaces, borders, and icon strokes" },
+    "graphite": { "value": "#0b0b0b", "role": "Secondary high-contrast text and card edges" },
+    "warmGray": { "value": "#615d59", "role": "Muted helper text, secondary metadata, inactive icons" },
+    "stone": { "value": "#a39e98", "role": "Muted icon strokes and separators" },
+    "smoke": { "value": "#c6c6c5", "role": "Divider lines and subtle separators" },
+    "faintLine": { "value": "#dddddd", "role": "Input borders and light structural dividers" },
+    "charcoal": { "value": "#31302e", "role": "Dark mode nav borders and low-contrast dividers" }
+  },
+  "typography": {
+    "primaryFamily": "NotionInter",
+    "editorialFamily": "Lyon Text",
+    "primarySubstitute": "Inter",
+    "editorialSubstitute": "Source Serif Pro",
+    "weights": [400, 500, 600, 700],
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": "1.5", "letterSpacing": "0.12px", "fontWeight": 500 },
+      "bodySmall": { "fontSize": "14px", "lineHeight": "1.43", "letterSpacing": "-0.084px", "fontWeight": 500 },
+      "body": { "fontSize": "16px", "lineHeight": "1.5", "letterSpacing": "-0.16px", "fontWeight": 400 },
+      "subheading": { "fontSize": "20px", "lineHeight": "1.4", "letterSpacing": "-0.22px", "fontWeight": 500 },
+      "headingSmall": { "fontSize": "24px", "lineHeight": "1.33", "letterSpacing": "-0.264px", "fontWeight": 600 },
+      "heading": { "fontSize": "40px", "lineHeight": "1.2", "letterSpacing": "-0.88px", "fontWeight": 600 },
+      "headingLarge": { "fontSize": "54px", "lineHeight": "1.04", "letterSpacing": "-1.89px", "fontWeight": 600 },
+      "display": { "fontSize": "64px", "lineHeight": "1", "letterSpacing": "-2.3px", "fontWeight": 700 },
+      "editorialAccent": { "fontSize": "32px", "lineHeight": "1.25", "fontWeight": 400, "fontFamily": "Lyon Text" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "36px", "40px", "64px", "80px", "180px"]
+  },
+  "shape": {
+    "tagRadius": "9999px",
+    "cardRadius": "12px",
+    "smallRadius": "5px",
+    "badgeRadius": "9999px",
+    "inputRadius": "8px",
+    "buttonRadius": "8px"
+  },
+  "elevation": {
+    "heroMockup": "rgba(0, 0, 0, 0.01) 0px 1px 3px 0px, rgba(0, 0, 0, 0.02) 0px 3px 7px 0px, rgba(0, 0, 0, 0.02) 0px 7px 15px 0px, rgba(0, 0, 0, 0.04) 0px 14px 28px 0px, rgba(0, 0, 0, 0.05) 0px 23px 52px 0px",
+    "lightCards": "Minimal or no shadow; use Pure White cards on Paper White."
+  },
+  "components": {
+    "filledCtaButton": "Signal Blue filled button with Pure White text, 8px radius, and NotionInter 14-15px weight 500.",
+    "ghostTextButton": "Transparent secondary action with surface-matching text and 8px radius.",
+    "heroDisplayHeadline": "64px NotionInter weight 700, Pure White, centered, tight tracking, line-height 1.",
+    "editorialSectionHeading": "40-54px NotionInter weight 600, Onyx, left-aligned on Paper White.",
+    "productScreenshotCard": "Large rounded UI screenshot, 12px radius, soft shadow in hero, quiet card treatment below.",
+    "testimonialQuoteCard": "Pure White card with 12px radius, 24px padding, company label, quote, and Signal Blue link.",
+    "logoGrid": "White or light-gray logos floating directly on Midnight Ink.",
+    "featureBlockCard": "Two-column feature block with text and product UI screenshot, 12px radius.",
+    "pillBadge": "9999px soft-blue badge with Cerulean text and compact padding.",
+    "navigationBar": "Top nav with logo, center links, blue CTA, ghost login, and 1px Charcoal divider."
+  },
+  "dos": [
+    "Use 12px radius for cards, images, and product mockup containers.",
+    "Use 8px radius for buttons, inputs, and interactive controls.",
+    "Use 9999px radius only for badges and tags.",
+    "Use Signal Blue as the single filled CTA color.",
+    "Set hero headlines at 64px NotionInter weight 700.",
+    "Use 80px vertical gaps between major sections.",
+    "Use NotionInter weight 500 for UI labels and nav.",
+    "Use Paper White as the default light background.",
+    "Use Lyon Text sparingly as a single editorial accent."
+  ],
+  "donts": [
+    "Do not use Lyon Text for product UI labels or navigation.",
+    "Do not use pure black as a page background.",
+    "Do not use small radii on cards or images.",
+    "Do not place chromatic buttons on chromatic backgrounds.",
+    "Do not set body text below 14px or above 20px.",
+    "Do not mix dark and light surface treatments within a single card.",
+    "Do not use multiple heading weights in the same section.",
+    "Do not add gradients to text, borders, or small UI elements."
+  ]
+}

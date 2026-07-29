@@ -1,0 +1,198 @@
+{
+  "id": "04109c48-f591-4110-9739-622243d4ecc2",
+  "name": "Letters",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/04109c48-f591-4110-9739-622243d4ecc2",
+  "referenceUrl": "https://letters.app",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Morning clinic under open sky: soft blue hero gradient, sterile white workspace, near-black pill CTAs, spacious cards, and surgical-blue micro-accents.",
+  "bestFor": [
+    "medical letterwriting tools",
+    "healthcare workflow apps",
+    "clinical documentation",
+    "transcription products",
+    "patient-summary tools",
+    "healthtech landing pages"
+  ],
+  "tags": [
+    "light",
+    "healthtech",
+    "medical",
+    "letterwriting",
+    "clinical",
+    "sky-gradient",
+    "open-runde",
+    "pill-buttons",
+    "white-cards",
+    "blue-micro-accent",
+    "waveform",
+    "document-ui"
+  ],
+  "colors": {
+    "obsidian": {
+      "value": "#070709",
+      "token": "--color-obsidian",
+      "role": "Primary text, filled CTA buttons, and dark UI surfaces."
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "token": "--color-paper-white",
+      "role": "Page background, card surfaces, and button text."
+    },
+    "cloudGray": {
+      "value": "#f5f5f5",
+      "token": "--color-cloud-gray",
+      "role": "Secondary card surfaces and section backgrounds."
+    },
+    "skyTint": {
+      "value": "#d7e6f5",
+      "token": "--color-sky-tint",
+      "role": "Blue-toned shadow tint and subtle selected highlight."
+    },
+    "charcoal": {
+      "value": "#60606c",
+      "token": "--color-charcoal",
+      "role": "Body text, secondary copy, and muted borders."
+    },
+    "slate": {
+      "value": "#8b8b8b",
+      "token": "--color-slate",
+      "role": "Tertiary text and inactive border states."
+    },
+    "ink": {
+      "value": "#151515",
+      "token": "--color-ink",
+      "role": "Heading color and strong dividers."
+    },
+    "surgicalBlue": {
+      "value": "#2597d0",
+      "token": "--color-surgical-blue",
+      "role": "Icon strokes, mic glyph, waveform player, and small functional accents."
+    },
+    "skyGradient": {
+      "value": "linear-gradient(180deg, #779bc1 0%, #9abfda 58%, #cbdcec 100%)",
+      "token": "--gradient-sky-gradient",
+      "role": "Hero background only."
+    }
+  },
+  "typography": {
+    "families": {
+      "openRunde": "Open Runde",
+      "openRundeFallback": "Inter Tight, General Sans, Manrope",
+      "inter": "Inter",
+      "interFallback": "system-ui, -apple-system",
+      "doctor": "The Doctor FreeVersion",
+      "doctorFallback": "Caveat, Kalam"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "black": 900
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.01px"
+      },
+      "bodySmall": {
+        "fontSize": "14px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.01px"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.49",
+        "letterSpacing": "-0.01px"
+      },
+      "bodyLarge": {
+        "fontSize": "18px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.01px"
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.04px"
+      },
+      "headingSmall": {
+        "fontSize": "28px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.04px"
+      },
+      "heading": {
+        "fontSize": "44px",
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.04px"
+      },
+      "display": {
+        "fontSize": "80px",
+        "lineHeight": "0.9",
+        "letterSpacing": "-0.04em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80-120px",
+    "cardPadding": "40-48px",
+    "elementGap": "12-16px",
+    "scalePx": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 52, 56, 80, 96, 100, 120]
+  },
+  "radii": {
+    "tags": "100px",
+    "cards": "18px",
+    "icons": "8px",
+    "inputs": "12px",
+    "buttons": "100px",
+    "navPills": "100px",
+    "largeCards": "32-48px"
+  },
+  "effects": {
+    "featureCard": "rgba(16, 55, 132, 0.03) 0px 17px 37px 0px, rgba(16, 55, 132, 0.03) 0px 67px 67px 0px, rgba(16, 55, 132, 0.02) 0px 150px 90px 0px",
+    "pillPrimaryButton": "rgba(36, 36, 40, 0.1) 0px 1px 2px 0px, rgba(36, 36, 40, 0.09) 0px 3px 3px 0px, rgba(36, 36, 40, 0.05) 0px 6px 4px 0px, rgba(36, 36, 40, 0.01) 0px 11px 4px 0px",
+    "uploadDropZone": "rgba(228, 229, 231, 0.24) 0px 1px 2px 0px",
+    "blueAccentElement": "rgba(23, 107, 197, 0.08) 0px 1px 1px 0px, rgba(23, 107, 197, 0.07) 0px 3px 3px 0px"
+  },
+  "components": [
+    "Pill Primary Button",
+    "Outlined Ghost Button",
+    "Feature Card",
+    "Upload Drop Zone",
+    "Waveform Audio Player",
+    "Before/After Document Card",
+    "Top Navigation Bar",
+    "Pill Tag / Chip",
+    "Section Heading Block",
+    "Hero Headline",
+    "Hero Subtext"
+  ],
+  "guidance": {
+    "do": [
+      "Use 100px radius for all buttons, tags, and pill elements.",
+      "Set display headings at 80px Open Runde weight 600 with -0.04em tracking and 0.90 line-height.",
+      "Use Obsidian for filled CTAs; never use a chromatic CTA background.",
+      "Apply the sky gradient only to the hero band.",
+      "Reserve Surgical Blue for icons, waveform players, and small accents under 24px.",
+      "Use blue-tinted low-opacity shadows for feature cards.",
+      "Center-align section headings and hero text.",
+      "Use 40px to 48px internal padding on feature cards."
+    ],
+    "dont": [
+      "Do not use a chromatic color as a CTA background.",
+      "Do not flatten the letter spacing on large headings.",
+      "Do not apply the sky gradient below the hero.",
+      "Do not use shadows with opacity above 0.1 on cards.",
+      "Do not pair Open Runde with generic geometric sans-serif fonts like Helvetica or Roboto.",
+      "Do not use The Doctor font for functional UI text.",
+      "Do not place white cards directly on the sky gradient without padding.",
+      "Do not use Surgical Blue for text longer than two words."
+    ]
+  }
+}
+

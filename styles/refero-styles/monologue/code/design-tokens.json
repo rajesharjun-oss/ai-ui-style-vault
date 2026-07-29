@@ -1,0 +1,220 @@
+{
+  "name": "Monologue",
+  "slug": "monologue",
+  "sourceUrl": "https://styles.refero.design/style/8401cb26-91a3-4b46-941e-1c75790821eb",
+  "referenceSite": "https://www.monologue.to",
+  "theme": "dark",
+  "tokens": {
+    "color": {
+      "voidBlack": {
+        "value": "#000000",
+        "role": "Page canvas and uninterrupted dark field"
+      },
+      "obsidian": {
+        "value": "#010101",
+        "role": "Slightly shifted black surface"
+      },
+      "midnightSurface": {
+        "value": "#191919",
+        "role": "Cards, panels, overlay containers"
+      },
+      "graphite": {
+        "value": "#282828",
+        "role": "Interactive surfaces and hairline borders"
+      },
+      "charcoal": {
+        "value": "#363636",
+        "role": "Nested cards and grouped containers"
+      },
+      "slate": {
+        "value": "#3f3f3f",
+        "role": "Deep shadow surface and tertiary elevation"
+      },
+      "steelGray": {
+        "value": "#7f7f7f",
+        "role": "Muted labels, secondary UI, dividers"
+      },
+      "ghostGray": {
+        "value": "#c0c0c0",
+        "role": "Faint wordmark and subtle surface luminosity"
+      },
+      "paperWhite": {
+        "value": "#ffffff",
+        "role": "Text, download button, product shell"
+      },
+      "deepTeal": {
+        "value": "#062f34",
+        "role": "Product screen base and teal shadow stop"
+      },
+      "electricCyan": {
+        "value": "#19d0e8",
+        "role": "Accent text, accent borders, video/product glow"
+      },
+      "skySignal": {
+        "value": "#44ccff",
+        "role": "Secondary cyan gradient stop and screen illumination"
+      }
+    },
+    "font": {
+      "display": {
+        "family": "Instrument Serif",
+        "fallback": "Playfair Display",
+        "weights": [400],
+        "style": "italic"
+      },
+      "mono": {
+        "family": "DM Mono",
+        "fallback": "JetBrains Mono",
+        "weights": [400]
+      },
+      "body": {
+        "family": "Geist",
+        "fallback": "Inter",
+        "weights": [400]
+      }
+    },
+    "typography": {
+      "caption": {
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "lineHeight": 1.4,
+        "letterSpacing": "0.21px"
+      },
+      "monoLabel": {
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.2,
+        "letterSpacing": "0.021em"
+      },
+      "body": {
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.4,
+        "letterSpacing": "normal"
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.2,
+        "letterSpacing": "-0.2px"
+      },
+      "headingSmall": {
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.1,
+        "letterSpacing": "0.26px"
+      },
+      "heading": {
+        "fontSize": "48px",
+        "fontWeight": 400,
+        "lineHeight": 1.1,
+        "letterSpacing": "-1.44px"
+      },
+      "headingLarge": {
+        "fontSize": "72px",
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": "-2.16px"
+      },
+      "display": {
+        "fontSize": "96px",
+        "fontWeight": 400,
+        "lineHeight": 0.9,
+        "letterSpacing": "-3.84px"
+      },
+      "wordmark": {
+        "fontSize": "393px-403px",
+        "fontWeight": 400,
+        "lineHeight": "1.1-1.4",
+        "letterSpacing": "tight"
+      }
+    },
+    "spacing": {
+      "density": "compact",
+      "scale": {
+        "5": "5px",
+        "6": "6px",
+        "8": "8px",
+        "9": "9px",
+        "10": "10px",
+        "11": "11px",
+        "12": "12px",
+        "14": "14px",
+        "16": "16px",
+        "18": "18px",
+        "19": "19px",
+        "20": "20px",
+        "24": "24px",
+        "32": "32px",
+        "40": "40px",
+        "72": "72px"
+      },
+      "layout": {
+        "maxWidth": "1200px",
+        "sectionGap": "80px",
+        "cardPadding": "24px",
+        "elementGap": "10px"
+      }
+    },
+    "radius": {
+      "small": "4px",
+      "medium": "8px",
+      "large": "12px",
+      "cards": "18px",
+      "productDevice": "40px",
+      "buttons": "100000px",
+      "tags": "100000px"
+    },
+    "shadow": {
+      "device": "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(255, 255, 255, 0.25) 1px 1px 2px 0px, rgba(0, 0, 0, 0.5) 1px 1px 1px 0px inset, rgba(0, 0, 0, 0.7) 2px 2px 12px 0px inset",
+      "stamp": "rgba(0, 0, 0, 0.7) 3px 3px 2px 0px inset, rgba(255, 255, 255, 0.25) 3px 2px 2px 0px",
+      "raisedCard": "rgba(0, 0, 0, 0.63) 0px 0px 0px 1px",
+      "tealCard": "rgb(14, 93, 102) 6px 6px 10px 0px inset, rgba(255, 255, 255, 0.2) 4px 4px 4px 0px, rgba(255, 255, 255, 0.25) 1px 1px 2px 0px"
+    },
+    "surface": {
+      "void": "#000000",
+      "midnight": "#191919",
+      "graphite": "#282828",
+      "charcoal": "#363636",
+      "paper": "#ffffff"
+    }
+  },
+  "components": {
+    "wordmarkBackground": {
+      "font": "Instrument Serif italic",
+      "fontSize": "around 400px",
+      "color": "#c0c0c0",
+      "position": "absolute background overflow"
+    },
+    "productDeviceCard": {
+      "background": "#ffffff",
+      "radius": "40px",
+      "width": "around 360px",
+      "screen": "deep teal gradient with dot texture",
+      "shadow": "device"
+    },
+    "downloadButton": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "font": "DM Mono",
+      "fontSize": "12px",
+      "radius": "100000px",
+      "size": "around 120px by 32px"
+    },
+    "watchVideoCard": {
+      "background": "teal-tinted dark surface",
+      "radius": "8px",
+      "role": "secondary video action"
+    },
+    "sectionHeading": {
+      "font": "Instrument Serif italic",
+      "fontSize": "64px-72px",
+      "color": "#ffffff",
+      "letterSpacing": "-0.04em"
+    },
+    "accentTextLink": {
+      "color": "#19d0e8",
+      "use": "inline emphasis only"
+    }
+  }
+}

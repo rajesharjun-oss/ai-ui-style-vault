@@ -1,0 +1,98 @@
+{
+  "name": "Ditto",
+  "slug": "ditto",
+  "source": "refero",
+  "source_url": "https://styles.refero.design/style/e9001d5a-504d-47ed-aef0-d0d35fa86418",
+  "style_id": "e9001d5a-504d-47ed-aef0-d0d35fa86418",
+  "reference_url": "https://trustditto.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "Warm garden-inspired compliance SaaS style with cream canvas, Soft Meadow card surfaces, deep violet ink, bright yellow pill CTAs, Hedvig serif headlines, Inter UI text, and decorative organic blobs behind product mockups.",
+  "keywords": [
+    "compliance",
+    "CSR",
+    "SaaS",
+    "light",
+    "warm cream",
+    "organic blobs",
+    "yellow CTA",
+    "serif headlines",
+    "pill buttons",
+    "product mockup"
+  ],
+  "colors": {
+    "deep_ink": "#130e30",
+    "hi_yellow": "#ffe228",
+    "moss_green": "#59e25d",
+    "fuchsia": "#e261e5",
+    "slate": "#5f5c6e",
+    "canvas": "#f9fbf2",
+    "soft_meadow": "#eff2e5",
+    "charcoal": "#222222",
+    "onyx": "#000000"
+  },
+  "typography": {
+    "display": "Hedvig Letters Serif",
+    "display_fallback": "DM Serif Display, Source Serif 4, Libre Caslon Text, Georgia, serif",
+    "body": "Inter",
+    "body_fallback": "Inter, system-ui, sans-serif",
+    "traits": [
+      "serif display headings",
+      "Inter functional UI",
+      "tight heading tracking",
+      "small caps labels"
+    ]
+  },
+  "layout": {
+    "density": "comfortable",
+    "base_unit": "8px",
+    "max_width": "1200px",
+    "section_gap": "48-80px",
+    "card_padding": "24-48px",
+    "element_gap": "12-16px",
+    "composition": "two-column hero with product mockup and blobs, alternating Canvas and Soft Meadow sections, three-card grids, testimonial carousel"
+  },
+  "radius": {
+    "nav": "1440px",
+    "tags": "1440px",
+    "icons": "1440px",
+    "buttons": "1440px",
+    "cards": "24px",
+    "images": "24-48px"
+  },
+  "components": [
+    "Primary CTA Button Filled Yellow",
+    "Secondary Button Dark Pill",
+    "Email Input Field",
+    "Logo Lockup",
+    "Nav Bar",
+    "Hero Card Product Mockup Container",
+    "Feature Card",
+    "Customer Logo Card",
+    "Testimonial Card",
+    "Pagination Dot",
+    "Small Caps Label",
+    "Hero Headline"
+  ],
+  "rules": {
+    "do": [
+      "Use pill radius on buttons, inputs, nav links, tags, and icon containers.",
+      "Pair yellow primary CTAs with dark pill secondary actions.",
+      "Use Hedvig Letters Serif for headings at 22px and larger.",
+      "Use Inter for body, nav, labels, forms, and cards.",
+      "Use Deep Ink for primary text.",
+      "Preserve the Canvas to Soft Meadow surface stack.",
+      "Use green and fuchsia blobs only behind product visuals."
+    ],
+    "dont": [
+      "Do not use sharp controls.",
+      "Do not turn Moss Green or Fuchsia into UI colors.",
+      "Do not use pure white for card surfaces when Soft Meadow is intended.",
+      "Do not place two primary yellow CTAs in one viewport.",
+      "Do not use Inter for display headlines or Hedvig for UI labels.",
+      "Do not add drop shadows to cards or buttons.",
+      "Do not use Slate for primary body text."
+    ]
+  }
+}
+

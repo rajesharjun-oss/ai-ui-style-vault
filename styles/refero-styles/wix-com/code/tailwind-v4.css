@@ -1,0 +1,70 @@
+@theme {
+  /* Colors */
+  --color-pure-canvas: #ffffff;
+  --color-slate-mist: #f1f5f9;
+  --color-carbon-ink: #000000;
+  --color-graphite: #1c1d21;
+  --color-ash-border: #d0d0d0;
+  --color-fog-border: #e8e6e6;
+  --color-electric-blue: #166aea;
+  --color-deep-violet: #101585;
+  --color-indigo-pulse: #2c34af;
+  --color-lime-highlight: #dff994;
+  --color-lemon-note: #fdf4a1;
+  --color-lavender-mist: #bfc8e8;
+  --color-input-blue: #538ab6;
+
+  /* Typography */
+  --font-madefor-display: "madefor-display", Inter, "DM Sans", "Space Grotesk", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-madefor-text: "madefor-text", Inter, "IBM Plex Sans", "Noto Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-arial: Arial, system-ui, sans-serif;
+
+  --text-caption: 13px;
+  --leading-caption: 1.2;
+  --tracking-caption: -0.13px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: -0.16px;
+  --text-subheading: 21px;
+  --leading-subheading: 1.3;
+  --tracking-subheading: -0.21px;
+  --text-heading-sm: 31px;
+  --leading-heading-sm: 1.2;
+  --tracking-heading-sm: -0.62px;
+  --text-heading: 48px;
+  --leading-heading: 1.1;
+  --tracking-heading: -0.96px;
+  --text-heading-lg: 82px;
+  --leading-heading-lg: 1;
+  --tracking-heading-lg: -2.46px;
+  --text-display: 104px;
+  --leading-display: 0.95;
+  --tracking-display: -3.12px;
+
+  --font-weight-regular: 400;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-44: 44px;
+  --spacing-48: 48px;
+  --spacing-52: 52px;
+  --spacing-68: 68px;
+  --spacing-84: 84px;
+  --spacing-144: 144px;
+
+  /* Radius */
+  --radius-images: 8.9px;
+  --radius-cards-small: 8.9px;
+  --radius-tags: 20px;
+  --radius-cards: 20px;
+  --radius-buttons-alt: 20px;
+  --radius-buttons: 50px;
+  --radius-nav-pills: 50px;
+}

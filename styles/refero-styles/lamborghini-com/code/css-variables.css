@@ -1,0 +1,143 @@
+:root {
+  /* Colors */
+  --color-nero: #000000;
+  --color-bianco: #ffffff;
+  --color-giallo: #ffc700;
+  --color-concrete: #f2f2f2;
+  --color-silver: #b0b0b0;
+  --color-graphite: #4d4d4d;
+
+  /* Typography */
+  --font-lambo-type: "LamboType", "Arial Narrow", "Inter Condensed", "Helvetica Neue Condensed", Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-caption: 13px;
+  --leading-caption: 1.4;
+  --tracking-caption: 0.04em;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.4;
+  --tracking-ui: 0.05em;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --text-subheading: 20px;
+  --leading-subheading: 1.2;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.17;
+  --text-heading: 32px;
+  --leading-heading: 1.13;
+  --tracking-display: 0.01em;
+  --text-heading-lg: 64px;
+  --leading-heading-lg: 1;
+  --text-display: 80px;
+  --leading-display: 1;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-52: 52px;
+  --spacing-56: 56px;
+  --spacing-60: 60px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-100: 100px;
+  --spacing-110: 110px;
+  --spacing-120: 120px;
+  --spacing-140: 140px;
+
+  /* Layout */
+  --page-max-width: 1440px;
+  --nav-height: 80px;
+  --section-gap-min: 80px;
+  --section-gap-max: 120px;
+  --card-padding-min: 20px;
+  --card-padding-max: 32px;
+  --element-gap-min: 8px;
+  --element-gap-max: 16px;
+
+  /* Radius */
+  --radius-nav: 0px;
+  --radius-card: 0px;
+  --radius-image: 0px;
+  --radius-button: 0px;
+  --radius-input: 0px;
+  --radius-section: 0px;
+}
+
+.lamborghini-surface {
+  background: var(--color-nero);
+  color: var(--color-bianco);
+  font-family: var(--font-lambo-type);
+}
+
+.lamborghini-nav {
+  min-height: var(--nav-height);
+  background: var(--color-nero);
+  color: var(--color-bianco);
+  font: 400 var(--text-body-sm) / var(--leading-body-sm) var(--font-lambo-type);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.lamborghini-display {
+  color: var(--color-bianco);
+  font: 700 var(--text-display) / var(--leading-display) var(--font-lambo-type);
+  letter-spacing: var(--tracking-display);
+  text-transform: uppercase;
+}
+
+.lamborghini-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 0;
+  background: var(--color-giallo);
+  color: var(--color-nero);
+  padding: var(--spacing-12) var(--spacing-24);
+  font: 700 var(--text-body-sm) / var(--leading-body-sm) var(--font-lambo-type);
+  letter-spacing: var(--tracking-ui);
+  text-transform: uppercase;
+}
+
+.lamborghini-ghost-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid currentColor;
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-bianco);
+  padding: var(--spacing-12) var(--spacing-24);
+  font: 700 var(--text-body-sm) / var(--leading-body-sm) var(--font-lambo-type);
+  letter-spacing: var(--tracking-ui);
+  text-transform: uppercase;
+}
+
+.lamborghini-spec-strip {
+  background: var(--color-nero);
+  color: var(--color-bianco);
+  border-top: 1px solid var(--color-graphite);
+  border-bottom: 1px solid var(--color-graphite);
+}
+
+.lamborghini-muted {
+  color: var(--color-silver);
+}
+
+.lamborghini-editorial-section {
+  background: var(--color-concrete);
+  color: var(--color-nero);
+}

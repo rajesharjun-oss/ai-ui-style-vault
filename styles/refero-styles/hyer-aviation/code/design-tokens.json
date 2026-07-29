@@ -1,0 +1,90 @@
+{
+  "name": "Hyer Aviation",
+  "sourceUrl": "https://styles.refero.design/style/f61cf515-ccd5-4494-bdd1-be9fe4d7258c",
+  "referenceUrl": "https://www.flyhyer.com",
+  "capturedOn": "2026-07-28",
+  "theme": "mixed",
+  "color": {
+    "deepInk": { "value": "#000d10", "type": "color" },
+    "pureWhite": { "value": "#ffffff", "type": "color" },
+    "coolAsh": { "value": "#8e8e95", "type": "color" },
+    "pebble": { "value": "#d5d3d4", "type": "color" },
+    "midnightHull": { "value": "#0f0f1c", "type": "color" },
+    "charcoalDeck": { "value": "#151623", "type": "color" },
+    "clayEmber": { "value": "#bc7155", "type": "color" }
+  },
+  "font": {
+    "helveticaNowDisplay": { "value": "HelveticaNowDisplay, Neue Haas Grotesk Display, Inter, Helvetica Neue, system-ui, sans-serif", "type": "fontFamily" },
+    "sansSerif": { "value": "system-ui, Inter, Helvetica Neue, sans-serif", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "regular": { "value": 400, "type": "fontWeight" },
+    "bold": { "value": 700, "type": "fontWeight" }
+  },
+  "fontSize": {
+    "caption": { "value": "17px", "type": "fontSize" },
+    "body": { "value": "18px", "type": "fontSize" },
+    "nav": { "value": "20px", "type": "fontSize" },
+    "subheading": { "value": "23px", "type": "fontSize" },
+    "headingSm": { "value": "30px", "type": "fontSize" },
+    "heading": { "value": "37px", "type": "fontSize" },
+    "headingLg": { "value": "52px", "type": "fontSize" },
+    "display": { "value": "63px", "type": "fontSize" },
+    "displayXl": { "value": "131px", "type": "fontSize" },
+    "hero": { "value": "187px", "type": "fontSize" }
+  },
+  "lineHeight": {
+    "caption": { "value": 1, "type": "lineHeight" },
+    "body": { "value": 1.61, "type": "lineHeight" },
+    "nav": { "value": 1, "type": "lineHeight" },
+    "subheading": { "value": 1, "type": "lineHeight" },
+    "headingSm": { "value": 1, "type": "lineHeight" },
+    "heading": { "value": 1, "type": "lineHeight" },
+    "headingLg": { "value": 1, "type": "lineHeight" },
+    "display": { "value": 1, "type": "lineHeight" },
+    "displayXl": { "value": 1, "type": "lineHeight" },
+    "hero": { "value": 0.8, "type": "lineHeight" }
+  },
+  "letterSpacing": {
+    "subheading": { "value": "-0.23px", "type": "letterSpacing" },
+    "heading": { "value": "-0.37px", "type": "letterSpacing" },
+    "headingLg": { "value": "-0.52px", "type": "letterSpacing" },
+    "display": { "value": "-1.26px", "type": "letterSpacing" },
+    "displayXl": { "value": "-2.62px", "type": "letterSpacing" },
+    "hero": { "value": "-3.74px", "type": "letterSpacing" }
+  },
+  "spacing": {
+    "11": { "value": "11px", "type": "dimension" },
+    "13": { "value": "13px", "type": "dimension" },
+    "15": { "value": "15px", "type": "dimension" },
+    "16": { "value": "16px", "type": "dimension" },
+    "17": { "value": "17px", "type": "dimension" },
+    "21": { "value": "21px", "type": "dimension" },
+    "22": { "value": "22px", "type": "dimension" },
+    "23": { "value": "23px", "type": "dimension" },
+    "31": { "value": "31px", "type": "dimension" },
+    "34": { "value": "34px", "type": "dimension" },
+    "38": { "value": "38px", "type": "dimension" },
+    "52": { "value": "52px", "type": "dimension" },
+    "53": { "value": "53px", "type": "dimension" },
+    "59": { "value": "59px", "type": "dimension" },
+    "68": { "value": "68px", "type": "dimension" },
+    "119": { "value": "119px", "type": "dimension" }
+  },
+  "radius": {
+    "nav": { "value": "1000px", "type": "borderRadius" },
+    "buttons": { "value": "1000px", "type": "borderRadius" },
+    "decorative": { "value": "45px", "type": "borderRadius" },
+    "heroPanels": { "value": "0px", "type": "borderRadius" },
+    "iconButtons": { "value": "100%", "type": "borderRadius" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1200px", "type": "dimension" },
+    "sectionGap": { "value": "80px", "type": "dimension" },
+    "cardPadding": { "value": "22px", "type": "dimension" },
+    "elementGap": { "value": "16px", "type": "dimension" }
+  },
+  "shadow": {
+    "none": { "value": "none", "type": "boxShadow" }
+  }
+}

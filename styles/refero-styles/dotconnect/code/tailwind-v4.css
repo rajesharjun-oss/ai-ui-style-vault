@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --font-dotconnect-primary: AeonikPro, Inter, Satoshi, "General Sans", Arial, sans-serif;
+  --font-dotconnect-display: DotConnect, AeonikPro, Inter, Satoshi, "General Sans", Arial, sans-serif;
+
+  --color-dotconnect-bone-canvas: #fcfbf8;
+  --color-dotconnect-charcoal-ink: #001011;
+  --color-dotconnect-smoke-veil: #0f1e1f;
+  --color-dotconnect-ash-layer: #ededea;
+  --color-dotconnect-mist-border: #c1c4c2;
+  --color-dotconnect-ember: #fd5321;
+  --color-dotconnect-signal-blue: #007aff;
+
+  --text-dotconnect-caption: 16px;
+  --leading-dotconnect-caption: 1.5;
+  --tracking-dotconnect-caption: 0.16px;
+  --text-dotconnect-body: 18px;
+  --leading-dotconnect-body: 1.4;
+  --tracking-dotconnect-body: 0.18px;
+  --text-dotconnect-body-dense: 19px;
+  --leading-dotconnect-body-dense: 1.67;
+  --tracking-dotconnect-body-dense: 0.19px;
+  --text-dotconnect-subheading: 24px;
+  --leading-dotconnect-subheading: 1.4;
+  --tracking-dotconnect-subheading: -0.29px;
+  --text-dotconnect-heading-sm: 32px;
+  --leading-dotconnect-heading-sm: 1.1;
+  --tracking-dotconnect-heading-sm: -0.38px;
+  --text-dotconnect-heading: 36px;
+  --leading-dotconnect-heading: 1.1;
+  --tracking-dotconnect-heading: -0.72px;
+  --text-dotconnect-heading-lg: 72px;
+  --leading-dotconnect-heading-lg: 0.9;
+  --tracking-dotconnect-heading-lg: -1.8px;
+  --text-dotconnect-display: 101px;
+  --leading-dotconnect-display: 0.8;
+  --tracking-dotconnect-display: -2.53px;
+
+  --spacing-dotconnect-8: 8px;
+  --spacing-dotconnect-16: 16px;
+  --spacing-dotconnect-24: 24px;
+  --spacing-dotconnect-32: 32px;
+  --spacing-dotconnect-48: 48px;
+  --spacing-dotconnect-64: 64px;
+  --spacing-dotconnect-72: 72px;
+  --spacing-dotconnect-80: 80px;
+  --spacing-dotconnect-96: 96px;
+  --spacing-dotconnect-160: 160px;
+  --spacing-dotconnect-max: 1200px;
+
+  --radius-dotconnect-badge: 8px;
+  --radius-dotconnect-card: 20px;
+  --radius-dotconnect-image: 20px;
+  --radius-dotconnect-button: 24px;
+  --radius-dotconnect-link: 44px;
+  --radius-dotconnect-pill: 48px;
+}
+
+@utility dotconnect-container {
+  width: min(100% - 32px, var(--spacing-dotconnect-max));
+  margin-inline: auto;
+}
+
+@utility dotconnect-display {
+  color: var(--color-dotconnect-charcoal-ink);
+  font-family: var(--font-dotconnect-display);
+  font-feature-settings: "dlig" on, "ss02" on, "ss08" on;
+  font-size: clamp(56px, 8vw, var(--text-dotconnect-display));
+  font-weight: 500;
+  line-height: var(--leading-dotconnect-display);
+  letter-spacing: var(--tracking-dotconnect-display);
+}
+
+@utility dotconnect-card {
+  border: 1px solid var(--color-dotconnect-mist-border);
+  border-radius: var(--radius-dotconnect-card);
+  background: var(--color-dotconnect-bone-canvas);
+  box-shadow: none;
+}
+
+@utility dotconnect-arrow-pill {
+  border-radius: var(--radius-dotconnect-link);
+  background: var(--color-dotconnect-charcoal-ink);
+  color: var(--color-dotconnect-bone-canvas);
+}
+
+@utility dotconnect-ember-cta {
+  border-radius: var(--radius-dotconnect-button);
+  background: var(--color-dotconnect-ember);
+  color: var(--color-dotconnect-bone-canvas);
+}
+

@@ -1,0 +1,66 @@
+@theme {
+  --color-black-bean: #2e0401;
+  --color-salsa: #ff2000;
+  --color-sunbeam: #fbaf04;
+  --color-romaine: #5f831d;
+  --color-cream: #f7f1e4;
+  --color-eggshell: #fff9f1;
+  --color-cocoa: #754b32;
+  --color-tomato-wash: #f2634c;
+  --color-mint-market: #d6e7c4;
+  --color-charcoal: #111111;
+
+  --font-display: Miniature, "PP Eiko", Ogg, Georgia, ui-serif, serif;
+  --font-sans: Satoshi, Inter, Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+
+  --text-micro: 11px;
+  --text-nav: 13px;
+  --text-body: 15px;
+  --text-body-lg: 18px;
+  --text-card-title: 24px;
+  --text-section-heading: 54px;
+  --text-hero-display: 96px;
+
+  --radius-button: 999px;
+  --radius-tag: 999px;
+  --radius-card: 28px;
+  --radius-image: 32px;
+  --radius-input: 999px;
+  --radius-section: 40px;
+  --radius-sticker: 50%;
+
+  --spacing-unit: 4px;
+  --spacing-section: 112px;
+  --spacing-page-max: 1280px;
+  --spacing-card: 28px;
+  --spacing-element: 18px;
+}
+
+@utility arte-poster {
+  background: var(--color-black-bean);
+  color: var(--color-cream);
+}
+
+@utility arte-hero-display {
+  color: var(--color-salsa);
+  font-family: var(--font-display);
+  font-size: var(--text-hero-display);
+  line-height: 0.92;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+@utility arte-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-button);
+  background: var(--color-salsa);
+  color: var(--color-cream);
+  padding: 14px 22px;
+  font-family: var(--font-sans);
+  font-size: var(--text-nav);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

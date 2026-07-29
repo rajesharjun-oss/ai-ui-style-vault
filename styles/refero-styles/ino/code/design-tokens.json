@@ -1,0 +1,73 @@
+{
+  "name": "INO",
+  "slug": "ino",
+  "sourceUrl": "https://styles.refero.design/style/57388b47-f789-441f-8b8d-13f1838a9ac6",
+  "referenceSite": "https://www.inostudios.com",
+  "tokens": {
+    "color": {
+      "white": { "value": "#ffffff", "role": "page canvas, negative space, primary retail surface" },
+      "ink": { "value": "#000000", "role": "primary text, icons, hairline controls, active indicators" },
+      "chalk": { "value": "#f7f7f5", "role": "product image fields and quiet gallery blocks" },
+      "fog": { "value": "#eeeeea", "role": "secondary surfaces, separators, and hover fields" },
+      "stone": { "value": "#9a9a94", "role": "metadata, captions, disabled state, quiet footer text" }
+    },
+    "font": {
+      "family": {
+        "primary": "Sequel100Wide, Eurostile Extended, Neue Haas Grotesk Display, Inter Tight, Arial, sans-serif"
+      },
+      "weight": {
+        "regular": 400
+      }
+    },
+    "text": {
+      "micro": { "size": "11px", "lineHeight": "1.2", "weight": 400, "tracking": "0.12em" },
+      "nav": { "size": "12px", "lineHeight": "1.2", "weight": 400, "tracking": "0.10em" },
+      "productLabel": { "size": "13px", "lineHeight": "1.25", "weight": 400, "tracking": "0.08em" },
+      "bodySmall": { "size": "14px", "lineHeight": "1.4", "weight": 400, "tracking": "0.04em" },
+      "body": { "size": "16px", "lineHeight": "1.45", "weight": 400, "tracking": "0.04em" },
+      "heading": { "size": "18px", "lineHeight": "1.25", "weight": 400, "tracking": "0.06em" }
+    },
+    "radius": {
+      "button": "4px",
+      "card": "0px",
+      "image": "0px",
+      "input": "4px",
+      "indicator": "50%",
+      "section": "0px"
+    },
+    "spacing": {
+      "unit": "4px",
+      "pageMaxWidth": "1440px",
+      "sectionGap": "88px",
+      "cardPadding": "0px",
+      "elementGap": "16px",
+      "productGridGapMin": "24px",
+      "productGridGapMax": "40px",
+      "bottomNavHeightMin": "64px",
+      "bottomNavHeightMax": "88px"
+    }
+  },
+  "componentRecipes": {
+    "bottomNavigation": {
+      "surface": "white",
+      "labelFont": "Sequel100Wide 11px to 12px 400 uppercase",
+      "active": "ink",
+      "inactive": "stone",
+      "indicator": "small circle"
+    },
+    "productGalleryCard": {
+      "background": "transparent or chalk",
+      "padding": "0px",
+      "radius": "0px",
+      "shadow": "none",
+      "text": "tiny uppercase name and price"
+    },
+    "thinBorderedButton": {
+      "background": "white or transparent",
+      "border": "1px solid ink",
+      "radius": "4px",
+      "padding": "10px 14px",
+      "font": "Sequel100Wide 12px 400 uppercase"
+    }
+  }
+}

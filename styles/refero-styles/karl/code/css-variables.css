@@ -1,0 +1,167 @@
+:root {
+  color-scheme: light;
+
+  --font-changa-one: "Changa One", "Bowlby One", "Lilita One", "Sniglet", ui-sans-serif, system-ui, sans-serif;
+  --font-arial: Arial, Helvetica, Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --color-signal-yellow: #ffe600;
+  --color-globe-azure: #007fff;
+  --color-roof-coral: #ef3b2c;
+  --color-charcoal-ink: #333333;
+  --color-cloud-white: #ffffff;
+
+  --surface-sunny-sky: var(--color-signal-yellow);
+  --surface-globe-sphere: var(--color-globe-azure);
+
+  --text-ink: var(--color-charcoal-ink);
+  --text-on-globe: var(--color-cloud-white);
+  --text-on-yellow: var(--color-cloud-white);
+
+  --text-caption-size: 12px;
+  --text-caption-line: 20px;
+  --text-body-size: 14px;
+  --text-body-line: 20px;
+  --text-subheading-size: 20px;
+  --text-subheading-line: 25px;
+  --text-heading-sm-size: 32px;
+  --text-heading-sm-line: 32px;
+  --text-heading-size: 50px;
+  --text-heading-line: 40px;
+  --text-display-size: 75px;
+  --text-display-line: 54px;
+
+  --font-weight-regular: 400;
+
+  --spacing-unit: 4px;
+  --spacing-10: 10px;
+  --spacing-20: 20px;
+  --spacing-45: 45px;
+
+  --section-gap: 45px;
+  --card-padding: 0px;
+  --element-gap: 20px;
+  --nav-link-padding: 10px 20px;
+
+  --radius-cards: 0px;
+  --radius-globe: 1440px;
+  --radius-pills: 0px;
+  --radius-buttons: 0px;
+
+  --active-nav-rule-width: 20px;
+  --active-nav-rule-height: 1px;
+
+  --shadow-none: none;
+}
+
+.karl-page {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--surface-sunny-sky);
+  color: var(--text-ink);
+  font-family: var(--font-arial);
+}
+
+.karl-scene {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background: var(--surface-sunny-sky);
+}
+
+.karl-nav {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding-block-start: 0;
+  background: transparent;
+}
+
+.karl-nav__link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--nav-link-padding);
+  border: 0;
+  background: transparent;
+  color: var(--text-ink);
+  font: var(--font-weight-regular) var(--text-body-size) / var(--text-body-line) var(--font-arial);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.karl-nav__link[aria-current="page"]::after,
+.karl-nav__link.is-active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: var(--active-nav-rule-width);
+  height: var(--active-nav-rule-height);
+  transform: translateX(-50%);
+  background: var(--color-charcoal-ink);
+}
+
+.karl-globe {
+  position: absolute;
+  left: 50%;
+  bottom: -35vmin;
+  width: min(112vw, 1120px);
+  aspect-ratio: 1;
+  transform: translateX(-50%);
+  border-radius: var(--radius-globe);
+  background: var(--surface-globe-sphere);
+  box-shadow: none;
+}
+
+.karl-display {
+  margin: 0;
+  color: var(--text-on-globe);
+  font-family: var(--font-changa-one);
+  font-size: clamp(52px, 8vw, var(--text-display-size));
+  font-weight: var(--font-weight-regular);
+  line-height: 0.72;
+  letter-spacing: 0;
+}
+
+.karl-heading {
+  margin: 0;
+  color: var(--text-on-yellow);
+  font-family: var(--font-changa-one);
+  font-size: clamp(40px, 6vw, var(--text-heading-size));
+  font-weight: var(--font-weight-regular);
+  line-height: 0.8;
+  letter-spacing: 0;
+}
+
+.karl-arc-text {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  bottom: 22vmin;
+  transform: translateX(-50%) rotate(-7deg);
+  text-align: center;
+}
+
+.karl-cloud {
+  position: absolute;
+  width: 72px;
+  height: 28px;
+  border-radius: 999px;
+  background: var(--color-cloud-white);
+}
+
+.karl-roof {
+  fill: var(--color-roof-coral);
+}
+
+.karl-linework {
+  stroke: var(--color-charcoal-ink);
+}

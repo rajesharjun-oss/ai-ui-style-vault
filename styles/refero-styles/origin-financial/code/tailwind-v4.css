@@ -1,0 +1,61 @@
+@theme {
+  --color-origin-iris-gleam: #847dff;
+  --color-origin-cyan-signal: #00b3dd;
+  --color-origin-pale-iris: #d1c9ff;
+  --color-origin-deep-iris: #4b49aa;
+  --color-origin-orchid-bloom: #dd90d8;
+  --color-origin-periwinkle: #90b8f0;
+
+  --color-origin-void: #000000;
+  --color-origin-abyss: #090a0b;
+  --color-origin-obsidian: #0f1011;
+  --color-origin-graphite: #2e2e2e;
+  --color-origin-steel: #3f4041;
+  --color-origin-fog: #6a6b6b;
+  --color-origin-ash: #9f9fa0;
+  --color-origin-silver: #cacaca;
+  --color-origin-cloud: #f5f5f7;
+  --color-origin-pure: #ffffff;
+
+  --font-origin-display: "Lyon Display", "DM Serif Display", "Playfair Display", Georgia, serif;
+  --font-origin-sans: "Suisse Intl", Inter, "Geist Sans", Arial, sans-serif;
+  --font-origin-mono: "Roboto Mono", "SFMono-Regular", Consolas, monospace;
+
+  --text-origin-mono-label: 12px;
+  --text-origin-body-sm: 14px;
+  --text-origin-body: 16px;
+  --text-origin-subheading: 18px;
+  --text-origin-heading-lg: 38px;
+  --text-origin-display-sm: 80px;
+  --text-origin-display: 96px;
+
+  --leading-origin-display-tight: 0.9;
+  --leading-origin-display: 1;
+  --leading-origin-body: 1.5;
+  --leading-origin-body-loose: 1.67;
+  --leading-origin-label: 2;
+
+  --spacing-origin-1: 4px;
+  --spacing-origin-2: 8px;
+  --spacing-origin-3: 12px;
+  --spacing-origin-4: 16px;
+  --spacing-origin-5: 20px;
+  --spacing-origin-6: 24px;
+  --spacing-origin-8: 32px;
+  --spacing-origin-10: 40px;
+  --spacing-origin-12: 48px;
+  --spacing-origin-15: 60px;
+  --spacing-origin-17: 68px;
+  --spacing-origin-20: 80px;
+  --spacing-origin-25: 100px;
+  --spacing-origin-30: 120px;
+  --spacing-origin-35: 140px;
+
+  --radius-origin-control: 8px;
+  --radius-origin-device: 16px;
+  --radius-origin-card: 30px;
+  --radius-origin-pill: 9999px;
+
+  --shadow-origin-lg: rgba(0, 0, 0, 0.2) 0px 18px 20px 0px;
+}
+

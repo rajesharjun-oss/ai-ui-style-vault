@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --font-karl-display: "Changa One", "Bowlby One", "Lilita One", "Sniglet", ui-sans-serif, system-ui, sans-serif;
+  --font-karl-nav: Arial, Helvetica, Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --color-karl-signal-yellow: #ffe600;
+  --color-karl-globe-azure: #007fff;
+  --color-karl-roof-coral: #ef3b2c;
+  --color-karl-charcoal-ink: #333333;
+  --color-karl-cloud-white: #ffffff;
+
+  --text-karl-caption: 12px;
+  --text-karl-caption--line-height: 20px;
+  --text-karl-body: 14px;
+  --text-karl-body--line-height: 20px;
+  --text-karl-subheading: 20px;
+  --text-karl-subheading--line-height: 25px;
+  --text-karl-heading-sm: 32px;
+  --text-karl-heading-sm--line-height: 32px;
+  --text-karl-heading: 50px;
+  --text-karl-heading--line-height: 40px;
+  --text-karl-display: 75px;
+  --text-karl-display--line-height: 54px;
+
+  --spacing-karl-10: 10px;
+  --spacing-karl-20: 20px;
+  --spacing-karl-45: 45px;
+
+  --radius-karl-none: 0px;
+  --radius-karl-globe: 1440px;
+}
+
+@layer components {
+  .karl-page {
+    @apply min-h-screen overflow-x-hidden bg-karl-signal-yellow text-karl-charcoal-ink font-karl-nav;
+  }
+
+  .karl-scene {
+    @apply relative min-h-screen overflow-hidden bg-karl-signal-yellow;
+  }
+
+  .karl-nav {
+    @apply absolute inset-x-0 top-0 z-20 flex items-center justify-center gap-0 bg-transparent;
+  }
+
+  .karl-nav-link {
+    @apply relative inline-flex items-center justify-center bg-transparent px-karl-20 py-karl-10 font-karl-nav text-karl-body font-normal uppercase tracking-normal text-karl-charcoal-ink no-underline;
+  }
+
+  .karl-nav-link-active::after {
+    content: "";
+    @apply absolute bottom-0 left-1/2 h-px w-5 -translate-x-1/2 bg-karl-charcoal-ink;
+  }
+
+  .karl-globe {
+    @apply absolute left-1/2 aspect-square -translate-x-1/2 rounded-karl-globe bg-karl-globe-azure shadow-none;
+    bottom: -35vmin;
+    width: min(112vw, 1120px);
+  }
+
+  .karl-display {
+    @apply m-0 font-karl-display text-karl-display font-normal tracking-normal text-karl-cloud-white;
+    line-height: 0.72;
+  }
+
+  .karl-heading {
+    @apply m-0 font-karl-display text-karl-heading font-normal tracking-normal text-karl-cloud-white;
+    line-height: 0.8;
+  }
+
+  .karl-arc-text {
+    @apply absolute left-1/2 z-10 -translate-x-1/2 text-center;
+    bottom: 22vmin;
+    transform: translateX(-50%) rotate(-7deg);
+  }
+
+  .karl-cloud {
+    @apply absolute rounded-full bg-karl-cloud-white;
+    width: 72px;
+    height: 28px;
+  }
+}

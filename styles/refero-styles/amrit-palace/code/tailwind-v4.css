@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --color-parchment: #d8cbb8;
+  --color-linen: #bfb4a3;
+  --color-warm-stone: #b6ab9c;
+  --color-walnut: #978e81;
+  --color-espresso: #615b53;
+  --color-onyx-warm: #2c2c2c;
+  --color-midnight-roast: #292622;
+  --color-saffron-glow: #d49653;
+
+  --font-tt-ramillas-variable: "TT Ramillas Variable", "Cormorant Garamond", "Playfair Display", "DM Serif Display", serif;
+  --font-satoshi: Satoshi, Inter, "DM Sans", Manrope, system-ui, sans-serif;
+
+  --text-caption: 13px;
+  --text-caption--line-height: 1.3;
+  --text-caption--letter-spacing: -0.143px;
+  --text-body: 15px;
+  --text-body--line-height: 1.4;
+  --text-body--letter-spacing: -0.15px;
+  --text-body-lg: 26px;
+  --text-body-lg--line-height: 1.2;
+  --text-body-lg--letter-spacing: -0.156px;
+  --text-subheading: 42px;
+  --text-subheading--line-height: 1;
+  --text-subheading--letter-spacing: -1.68px;
+  --text-heading-sm: 50px;
+  --text-heading-sm--line-height: 0.9;
+  --text-heading-sm--letter-spacing: -1.5px;
+  --text-heading: 65px;
+  --text-heading--line-height: 0.85;
+  --text-heading--letter-spacing: -2.6px;
+  --text-heading-lg: 69px;
+  --text-heading-lg--line-height: 0.9;
+  --text-heading-lg--letter-spacing: -2.76px;
+  --text-display: 115px;
+  --text-display--line-height: 0.8;
+  --text-display--letter-spacing: -4.6px;
+
+  --spacing-4: 4px;
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-7: 7px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-17: 17px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-42: 42px;
+  --spacing-92: 92px;
+  --spacing-206: 206px;
+
+  --radius-cards: 0px;
+  --radius-sections: 0px;
+  --radius-images: 0px;
+  --radius-tags: 3px;
+  --radius-inputs: 3px;
+  --radius-buttons: 3px;
+}
+
+@layer components {
+  .amrit-page {
+    @apply min-h-screen bg-parchment text-onyx-warm font-satoshi;
+  }
+
+  .amrit-wrap {
+    @apply mx-auto max-w-[1440px] px-28;
+  }
+
+  .amrit-hero {
+    @apply min-h-screen bg-midnight-roast text-parchment;
+  }
+
+  .amrit-display {
+    @apply font-tt-ramillas-variable text-display font-light uppercase leading-[0.8] tracking-[var(--text-display--letter-spacing)] text-inherit;
+  }
+
+  .amrit-heading {
+    @apply font-tt-ramillas-variable text-heading-lg font-light uppercase leading-[0.9] tracking-[var(--text-heading-lg--letter-spacing)] text-inherit;
+  }
+
+  .amrit-body {
+    @apply font-satoshi text-[14px] font-medium leading-[1.4] tracking-[-0.01em] text-onyx-warm;
+  }
+
+  .amrit-button {
+    @apply inline-flex justify-center rounded-[3px] border border-current bg-transparent px-28 py-20 font-satoshi text-[14px] font-medium uppercase leading-none tracking-[-0.14px] text-inherit;
+  }
+
+  .amrit-card {
+    @apply rounded-none border-0 bg-parchment px-28 pb-32 pt-[52px] shadow-none;
+  }
+
+  .amrit-caption {
+    @apply font-satoshi text-caption font-medium uppercase leading-[1.3] tracking-[var(--text-caption--letter-spacing)] text-walnut;
+  }
+
+  .amrit-divider {
+    @apply border-t border-warm-stone;
+  }
+}

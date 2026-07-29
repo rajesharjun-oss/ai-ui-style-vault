@@ -1,0 +1,76 @@
+:root {
+  --fold-color-midnight-navy: #20294c;
+  --fold-color-cornflower-steel: #375390;
+  --fold-color-abyss: #042939;
+  --fold-color-hyacinth: #788dba;
+  --fold-color-electric-blue: #459af8;
+  --fold-color-voltage-yellow: #ffff00;
+  --fold-color-dusk: #676b89;
+  --fold-color-smoke: #979db5;
+  --fold-color-silver-lining: #c7cbdb;
+  --fold-color-mist-gray: #dddfe9;
+  --fold-color-fog-white: #f0f1f5;
+  --fold-color-pure-white: #ffffff;
+
+  --fold-font-primary: "GT Walsheim Pro", Inter, Switzer, Satoshi, "General Sans", sans-serif;
+  --fold-font-secondary: "GT America", Inter, "Sohne", "NB International Pro", sans-serif;
+
+  --fold-text-tag: 10px;
+  --fold-text-caption: 14px;
+  --fold-text-body-sm: 16px;
+  --fold-text-body: 18px;
+  --fold-text-subheading: 24px;
+  --fold-text-heading-sm: 32px;
+  --fold-text-heading: 42px;
+  --fold-text-heading-lg: 64px;
+  --fold-text-display: 100px;
+
+  --fold-leading-tag: 1.2;
+  --fold-leading-caption: 1.43;
+  --fold-leading-body-sm: 1.5;
+  --fold-leading-body: 1.41;
+  --fold-leading-subheading: 1.33;
+  --fold-leading-heading-sm: 1.18;
+  --fold-leading-heading: 1;
+  --fold-leading-heading-lg: 0.85;
+  --fold-leading-display: 0.91;
+
+  --fold-tracking-tag: 0.4px;
+  --fold-tracking-caption: 0.35px;
+  --fold-tracking-body: -0.54px;
+  --fold-tracking-subheading: -0.72px;
+  --fold-tracking-heading-sm: -0.96px;
+  --fold-tracking-heading: -1.68px;
+  --fold-tracking-heading-lg: -2.56px;
+  --fold-tracking-display: -12.5px;
+  --fold-tracking-display-em: -0.125em;
+
+  --fold-weight-regular: 400;
+  --fold-weight-semibold: 600;
+  --fold-weight-bold: 700;
+
+  --fold-space-unit: 8px;
+  --fold-space-8: 8px;
+  --fold-space-16: 16px;
+  --fold-space-24: 24px;
+  --fold-space-32: 32px;
+  --fold-space-48: 48px;
+
+  --fold-page-max-width: 1200px;
+  --fold-section-gap: 48px;
+  --fold-card-padding: 24px;
+  --fold-element-gap: 8px;
+
+  --fold-radius-card: 12px;
+  --fold-radius-image: 16px;
+  --fold-radius-nav: 24px;
+  --fold-radius-panel: 24px;
+  --fold-radius-pill: 9999px;
+
+  --fold-shadow-xl: rgba(32, 41, 76, 0.12) 0px 9px 25px 0px;
+  --fold-shadow-md: rgba(32, 41, 76, 0.12) 0px 6px 16px 0px, rgba(32, 41, 76, 0.09) 0px 1px 5px 0px;
+  --fold-shadow-nested: rgba(32, 41, 76, 0.07) 0px 4px 11px 0px, rgba(32, 41, 76, 0.12) 0px 1px 3px 0px;
+  --fold-shadow-button: rgba(32, 41, 76, 0.1) 0px 1px 4px 0px;
+  --fold-shadow-highlight-edge: rgba(255, 255, 255, 0.53) 0px 1px 0px 0px;
+}
+

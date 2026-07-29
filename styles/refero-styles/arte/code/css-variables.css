@@ -1,0 +1,154 @@
+:root {
+  /* Colors */
+  --color-black-bean: #2e0401;
+  --color-salsa: #ff2000;
+  --color-sunbeam: #fbaf04;
+  --color-romaine: #5f831d;
+  --color-cream: #f7f1e4;
+  --color-eggshell: #fff9f1;
+  --color-cocoa: #754b32;
+  --color-tomato-wash: #f2634c;
+  --color-mint-market: #d6e7c4;
+  --color-charcoal: #111111;
+
+  /* Typography */
+  --font-display: Miniature, "PP Eiko", Ogg, Georgia, ui-serif, serif;
+  --font-sans: Satoshi, Inter, Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+
+  --text-micro: 11px;
+  --leading-micro: 1.1;
+  --tracking-micro: 0.18em;
+  --text-nav: 13px;
+  --leading-nav: 1.1;
+  --tracking-nav: 0.08em;
+  --text-body: 15px;
+  --leading-body: 1.47;
+  --text-body-lg: 18px;
+  --leading-body-lg: 1.4;
+  --text-card-title: 24px;
+  --leading-card-title: 1.08;
+  --tracking-card-title: -0.01em;
+  --text-section-heading: 54px;
+  --leading-section-heading: 1.03;
+  --tracking-section-heading: -0.02em;
+  --text-hero-display: 96px;
+  --leading-hero-display: 0.92;
+  --tracking-hero-display: -0.04em;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-88: 88px;
+  --spacing-112: 112px;
+  --spacing-140: 140px;
+
+  /* Layout */
+  --page-max-width: 1280px;
+  --section-gap: 112px;
+  --card-padding: 28px;
+  --element-gap: 18px;
+
+  /* Radius */
+  --radius-button: 999px;
+  --radius-tag: 999px;
+  --radius-card: 28px;
+  --radius-image: 32px;
+  --radius-input: 999px;
+  --radius-section: 40px;
+  --radius-sticker: 50%;
+}
+
+.arte-surface {
+  background: var(--color-cream);
+  color: var(--color-black-bean);
+  font-family: var(--font-sans);
+}
+
+.arte-poster {
+  background: var(--color-black-bean);
+  color: var(--color-cream);
+}
+
+.arte-hero-display {
+  color: var(--color-salsa);
+  font: 400 var(--text-hero-display) / var(--leading-hero-display) var(--font-display);
+  letter-spacing: var(--tracking-hero-display);
+}
+
+.arte-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-salsa);
+  color: var(--color-cream);
+  padding: var(--spacing-14) 22px;
+  font: 700 var(--text-nav) / var(--leading-nav) var(--font-sans);
+  letter-spacing: var(--tracking-nav);
+  text-transform: uppercase;
+}
+
+.arte-product-card {
+  border-radius: var(--radius-card);
+  background: var(--color-eggshell);
+  color: var(--color-black-bean);
+  padding: var(--card-padding);
+}
+
+.arte-product-title {
+  font: 400 var(--text-card-title) / var(--leading-card-title) var(--font-display);
+  letter-spacing: var(--tracking-card-title);
+}
+
+.arte-price-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-tag);
+  background: var(--color-mint-market);
+  color: var(--color-black-bean);
+  padding: var(--spacing-8) var(--spacing-12);
+  font: 700 var(--text-nav) / var(--leading-nav) var(--font-sans);
+  letter-spacing: var(--tracking-nav);
+  text-transform: uppercase;
+}
+
+.arte-sticker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sticker);
+  background: var(--color-sunbeam);
+  color: var(--color-black-bean);
+  font: 700 var(--text-micro) / var(--leading-micro) var(--font-sans);
+  letter-spacing: var(--tracking-micro);
+  text-transform: uppercase;
+}
+
+.arte-input {
+  border: 1px solid var(--color-black-bean);
+  border-radius: var(--radius-input);
+  background: var(--color-eggshell);
+  color: var(--color-black-bean);
+  padding: var(--spacing-14) var(--spacing-18);
+  font: 400 var(--text-body) / var(--leading-body) var(--font-sans);
+}

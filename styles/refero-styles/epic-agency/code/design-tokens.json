@@ -1,0 +1,68 @@
+{
+  "name": "EPIC agency",
+  "slug": "epic-agency",
+  "sourceUrl": "https://styles.refero.design/style/6eb778ca-6808-4cc6-ac8a-7beea5a25c36",
+  "referenceSite": "https://epic.net",
+  "tokens": {
+    "color": {
+      "void": { "value": "#110329", "type": "color" },
+      "midnightPlum": { "value": "#1b0642", "type": "color" },
+      "cosmicViolet": { "value": "#532fbc", "type": "color" },
+      "astralBlue": { "value": "#2d4fa8", "type": "color" },
+      "lunarLilac": { "value": "#cfc1ff", "type": "color" },
+      "nebulaLavender": { "value": "#dbc9ff", "type": "color" },
+      "starMist": { "value": "#f4efff", "type": "color" },
+      "galacticGold": { "value": "#bc994e", "type": "color" },
+      "ember": { "value": "#e3562d", "type": "color" },
+      "signalGreen": { "value": "#3c8900", "type": "color" }
+    },
+    "font": {
+      "display": {
+        "value": "\"Sang Bleu\", Georgia, serif",
+        "type": "fontFamily"
+      },
+      "ui": {
+        "value": "\"Inter\", system-ui, sans-serif",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "micro": { "value": "11px", "type": "dimension" },
+      "caption": { "value": "13px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "cardTitle": { "value": "18px", "type": "dimension" },
+      "statement": { "value": "42px", "type": "dimension" },
+      "hero": { "value": "80px", "type": "dimension" },
+      "monumental": { "value": "120px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "micro": { "value": "1.2", "type": "number" },
+      "caption": { "value": "1.45", "type": "number" },
+      "body": { "value": "1.6", "type": "number" },
+      "statement": { "value": "1", "type": "number" },
+      "hero": { "value": "0.95", "type": "number" },
+      "monumental": { "value": "0.9", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" }
+    },
+    "radius": {
+      "menu": { "value": "0px", "type": "dimension" },
+      "panel": { "value": "16px", "type": "dimension" },
+      "button": { "value": "28px", "type": "dimension" },
+      "chip": { "value": "9999px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "5": { "value": "20px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "12": { "value": "50px", "type": "dimension" },
+      "20": { "value": "80px", "type": "dimension" },
+      "30": { "value": "120px", "type": "dimension" }
+    }
+  }
+}

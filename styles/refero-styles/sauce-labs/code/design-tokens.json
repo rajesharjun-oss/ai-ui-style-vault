@@ -1,0 +1,93 @@
+{
+  "name": "Sauce Labs",
+  "slug": "sauce-labs",
+  "color": {
+    "neonPulse": { "value": "#3ddc91", "role": "Filled primary buttons, selected states, active tabs, stat numbers, announcement bars" },
+    "mintWhisper": { "value": "#97ddbc", "role": "Green wash for illustrations, soft emphasis, and highlight backgrounds" },
+    "signalYellow": { "value": "#ffcd48", "role": "Warm accent inside isometric illustrations and product mockups" },
+    "pureBlack": { "value": "#000000", "role": "SVG icon fills and high-contrast decorative strokes" },
+    "charcoal": { "value": "#070f0f", "role": "Maximum-contrast overlays and modals" },
+    "deepAbyss": { "value": "#0e1a19", "role": "Nested dark cards, logo tiles, dark surface depth" },
+    "obsidianShell": { "value": "#132322", "role": "Primary page background, navigation, dark structural canvas" },
+    "graphiteFill": { "value": "#424f4f", "role": "Icon fills and decorative SVG strokes on light sections" },
+    "slateText": { "value": "#828786", "role": "Muted copy, captions on light backgrounds, secondary labels" },
+    "stoneBorder": { "value": "#b2b6b4", "role": "Medium borders and secondary dividers on light cards" },
+    "fogBorder": { "value": "#d0d3d3", "role": "Hairline dividers and quiet borders on light surfaces" },
+    "mintFrost": { "value": "#edf7f5", "role": "Light content cards, feature panels, bright counterpoint surfaces" },
+    "pureWhite": { "value": "#ffffff", "role": "Text on dark surfaces, product screenshot panels, light canvases" }
+  },
+  "font": {
+    "aeonik": {
+      "value": "Aeonik, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "weights": [400],
+      "features": ["ss01", "cv11"],
+      "usage": "Body, buttons, nav items, card content, and form fields"
+    },
+    "aeonikFono": {
+      "value": "AeonikFono, \"Inter Display\", Inter, system-ui, sans-serif",
+      "weights": [400, 500],
+      "usage": "Display, headings, stat numbers, and uppercase eyebrow labels"
+    }
+  },
+  "size": {
+    "bodySm": "14px",
+    "body": "16px",
+    "bodyLg": "18px",
+    "subheading": "24px",
+    "headingSm": "32px",
+    "heading": "40px",
+    "headingLg": "48px",
+    "display": "64px",
+    "eyebrow": "9px"
+  },
+  "lineHeight": {
+    "bodySm": 1.45,
+    "body": 1.5,
+    "bodyLg": 1.45,
+    "subheading": 1.4,
+    "headingSm": 1.22,
+    "heading": 1.2,
+    "headingLg": 1.12,
+    "display": 1.1
+  },
+  "letterSpacing": {
+    "body": "-0.08px",
+    "subheading": "0.96px",
+    "eyebrow": "0.45px"
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500
+  },
+  "space": {
+    "unit": "8px",
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "48": "48px",
+    "56": "56px",
+    "64": "64px",
+    "72": "72px",
+    "80": "80px",
+    "96": "96px"
+  },
+  "layout": {
+    "pageMaxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "24px"
+  },
+  "radius": {
+    "smallElements": "10px",
+    "cards": "20px",
+    "tabs": "56px",
+    "buttons": "56px",
+    "largeCards": "60px"
+  },
+  "shadow": {
+    "md": "rgba(0, 0, 0, 0.04) 1px 0px 9px 2px"
+  }
+}
+

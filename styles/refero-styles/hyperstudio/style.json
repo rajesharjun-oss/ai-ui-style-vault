@@ -1,0 +1,283 @@
+{
+  "id": "8eb9c53e-d69c-497a-b640-610856cf3a60",
+  "name": "Hyperstudio",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/8eb9c53e-d69c-497a-b640-610856cf3a60",
+  "referenceUrl": "https://hyperstudio.org",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Obsidian editorial-tech studio with sharp grid panels, white pill actions, one compass-gold accent, and a tiny pulse-green status signal.",
+  "bestFor": [
+    "AI consultancies",
+    "venture studios",
+    "technical agencies",
+    "editorial SaaS",
+    "portfolio operating systems",
+    "dark-mode service pages"
+  ],
+  "tags": [
+    "dark",
+    "editorial-tech",
+    "agency",
+    "ai-studio",
+    "obsidian",
+    "hairline-grid",
+    "aeonik",
+    "white-pill-cta",
+    "gold-icons",
+    "green-signal",
+    "flat-ui",
+    "sharp-cards",
+    "bordered-panels"
+  ],
+  "colors": {
+    "obsidian": {
+      "value": "#03050c",
+      "token": "--color-obsidian",
+      "role": "Primary page background and deepest surface layer."
+    },
+    "deepNavy": {
+      "value": "#060918",
+      "token": "--color-deep-navy",
+      "role": "Slightly cooler dark surface for section depth."
+    },
+    "steelInk": {
+      "value": "#0b0b0b",
+      "token": "--color-steel-ink",
+      "role": "Alternative black panel surface and footer base."
+    },
+    "paper": {
+      "value": "#ffffff",
+      "token": "--color-paper",
+      "role": "Primary text, CTA fill, and high-contrast strokes."
+    },
+    "mutedWhite": {
+      "value": "#ffffffb3",
+      "token": "--color-muted-white",
+      "role": "Secondary text and softer paragraph copy."
+    },
+    "softWhite": {
+      "value": "#ffffff99",
+      "token": "--color-soft-white",
+      "role": "Tertiary copy, footer links, and inactive nav."
+    },
+    "faintLine": {
+      "value": "#ffffff2b",
+      "token": "--color-faint-line",
+      "role": "Hairline borders and grid panel dividers."
+    },
+    "translucentWhite": {
+      "value": "#ffffff40",
+      "token": "--color-translucent-white",
+      "role": "Subtle separators and hover or focus borders."
+    },
+    "compassGold": {
+      "value": "#b49c46",
+      "token": "--color-compass-gold",
+      "role": "Compass icon strokes, small AI marks, and restrained illustrative details."
+    },
+    "pulseGreen": {
+      "value": "#98ff38",
+      "token": "--color-pulse-green",
+      "role": "Tiny status dots and live or available signals only."
+    }
+  },
+  "typography": {
+    "families": {
+      "aeonik": "Aeonik",
+      "aeonikFallback": "Inter, Neue Haas Grotesk, Satoshi, ui-sans-serif, system-ui"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500
+    },
+    "rules": [
+      "Use Aeonik-style type as the sole UI and editorial typeface.",
+      "Use weight 400 for headings and body.",
+      "Use weight 500 only for CTAs, nav emphasis, and form labels.",
+      "Use -0.0200em tracking on headings and -0.0100em on body."
+    ],
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "lineHeight": 1.5,
+        "fontWeight": 500,
+        "letterSpacing": "-0.12px",
+        "token": "--text-caption"
+      },
+      "bodySm": {
+        "size": "14px",
+        "lineHeight": 1.42,
+        "fontWeight": 400,
+        "letterSpacing": "-0.14px",
+        "token": "--text-body-sm"
+      },
+      "body": {
+        "size": "16px",
+        "lineHeight": 1.25,
+        "fontWeight": 400,
+        "letterSpacing": "-0.16px",
+        "token": "--text-body"
+      },
+      "subheading": {
+        "size": "18px",
+        "lineHeight": 1.33,
+        "fontWeight": 400,
+        "letterSpacing": "-0.18px",
+        "token": "--text-subheading"
+      },
+      "headingSm": {
+        "size": "24px",
+        "lineHeight": 1.25,
+        "fontWeight": 400,
+        "letterSpacing": "-0.48px",
+        "token": "--text-heading-sm"
+      },
+      "heading": {
+        "size": "30px",
+        "lineHeight": 1.07,
+        "fontWeight": 400,
+        "letterSpacing": "-0.6px",
+        "token": "--text-heading"
+      },
+      "headingLg": {
+        "size": "38px",
+        "lineHeight": 1.03,
+        "fontWeight": 400,
+        "letterSpacing": "-0.76px",
+        "token": "--text-heading-lg"
+      },
+      "display": {
+        "size": "67px",
+        "lineHeight": 1.01,
+        "fontWeight": 400,
+        "letterSpacing": "-1.34px",
+        "token": "--text-display"
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "96px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "heroVerticalPadding": "144px",
+    "gridPanelPadding": "36-48px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "18": "18px",
+      "24": "24px",
+      "36": "36px",
+      "40": "40px",
+      "48": "48px",
+      "64": "64px",
+      "96": "96px",
+      "144": "144px"
+    }
+  },
+  "radii": {
+    "cards": "0px",
+    "gridPanels": "0px",
+    "navItems": "8px",
+    "buttons": "9999px"
+  },
+  "surfaces": {
+    "obsidianCanvas": {
+      "value": "#03050c",
+      "role": "Primary page background."
+    },
+    "deepNavyBand": {
+      "value": "#060918",
+      "role": "Section depth and secondary dark surfaces."
+    },
+    "steelInkPanel": {
+      "value": "#0b0b0b",
+      "role": "Dark card, input, and footer surfaces."
+    },
+    "faintGrid": {
+      "value": "#ffffff2b",
+      "role": "Hairline dividers and panel borders."
+    }
+  },
+  "elevation": {
+    "model": "flat",
+    "rules": [
+      "Do not use shadows.",
+      "Do not use gradients or glow effects.",
+      "Use hairline grids, dark surface shifts, and type scale for depth."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Pill CTA",
+      "role": "Primary action",
+      "recipe": "Paper fill, Obsidian text, Aeonik 14px weight 500, 9999px radius, 10px by 18px padding, no shadow."
+    },
+    {
+      "name": "Bordered Grid Card",
+      "role": "Service or feature panel",
+      "recipe": "Transparent or Deep Navy fill, 0px radius, 1px Faint Line border, 36-48px padding, no shadow."
+    },
+    {
+      "name": "Signal Dot",
+      "role": "Live or available state",
+      "recipe": "6-8px Pulse Green circle, used sparingly for active status."
+    },
+    {
+      "name": "Service Accordion Item",
+      "role": "Service listing",
+      "recipe": "Full-width row with 1px Faint Line divider, 24-30px label, muted body preview, plus icon or arrow right."
+    },
+    {
+      "name": "Email Input",
+      "role": "Newsletter/contact input",
+      "recipe": "Transparent or Steel Ink background, Paper text, 1px Faint Line border, 9999px radius, 14px text, 12px by 18px padding."
+    }
+  ],
+  "guidelines": {
+    "do": [
+      "Use near-black backgrounds and white alpha borders.",
+      "Keep cards and grid panels square-edged.",
+      "Use pill radius only for buttons and inputs.",
+      "Use Compass Gold only for icons and tiny marks.",
+      "Use Pulse Green only for status dots.",
+      "Keep typography weight mostly 400.",
+      "Separate sections with hairline borders and grid lines."
+    ],
+    "dont": [
+      "Do not add gradients, glow effects, or glassmorphism.",
+      "Do not round cards.",
+      "Do not use gold as a CTA fill.",
+      "Do not turn green into a broad accent color.",
+      "Do not introduce extra accent colors.",
+      "Do not make the layout image-heavy."
+    ]
+  },
+  "imagery": {
+    "style": "Abstract technical motifs, compass marks, monoline icons, partner wordmarks, and schematic UI fragments.",
+    "rules": [
+      "Avoid stock photography.",
+      "Avoid large screenshots and decorative gradients.",
+      "Use Compass Gold for small icon strokes only.",
+      "Keep partner logos monochrome."
+    ]
+  },
+  "layout": {
+    "container": "1200px centered content track",
+    "hero": "Text-led dark hero with display headline, pill CTA, and optional tiny status dot.",
+    "sections": "Full-width dark bands separated by Faint Line borders and 96px gaps.",
+    "grids": "Square bordered panels with 0px radius and 36-48px padding.",
+    "nav": "Transparent dark header with ghost links and a white pill CTA."
+  },
+  "preview": {
+    "imageHost": "images.refero.design",
+    "downloaded": false,
+    "note": "Refero exposes preview imagery, but local download was not captured in this environment."
+  }
+}
+

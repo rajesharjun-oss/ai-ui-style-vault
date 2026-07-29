@@ -1,0 +1,269 @@
+{
+    "id":  "5bfbe8b0-de0e-470f-b130-929f50437160",
+    "name":  "Sana Agents",
+    "slug":  "sana-agents",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/5bfbe8b0-de0e-470f-b130-929f50437160",
+                   "referenceSite":  "https://sana.ai",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-03-05T20:20:57.000Z",
+                   "articleModifiedAt":  "2026-06-05T00:57:14.759Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/80d68854-4659-4146-8a9d-a97e7170bc8c.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/a611b55f-2e23-4b3b-ab12-d2b9482d2c71.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/88b57b11-e881-4912-a174-eaab40f73ef9.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/0f48fc42-0b29-48f8-872c-1bf477700fd8.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/ad9b4d0c-7026-4c8e-a7db-ec87a84fbf49.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "AI",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "AI",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "Lime spark on editorial white",
+    "summary":  "Explore Sana Agents\u0027s light AI design system: Ink Black #0a1217, Paper White #ffffff colors, Sana Serif, Sana Sans typography, and DESIGN.md for AI agents.",
+    "colors":  [
+                   {
+                       "name":  "Ink Black",
+                       "value":  "#0a1217",
+                       "token":  "--color-ink-black",
+                       "role":  "Primary text, dark card surfaces, sign-up panel, filled primary buttons on light backgrounds"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Light supporting surface for subtle backgrounds and section separation. Do not promote it to the primary CTA color"
+                   },
+                   {
+                       "name":  "Frost Wash",
+                       "value":  "#e4eff7",
+                       "token":  "--color-frost-wash",
+                       "role":  "Soft tinted surface for light product cards and secondary panels the only chromatic step between paper white and ink black"
+                   },
+                   {
+                       "name":  "Stone Gray",
+                       "value":  "#85898b",
+                       "token":  "--color-stone-gray",
+                       "role":  "Muted helper text, footer labels, and desaturated secondary copy"
+                   },
+                   {
+                       "name":  "Obsidian",
+                       "value":  "#000000",
+                       "token":  "--color-obsidian",
+                       "role":  "Hairline borders, nav text, and input outlines where the sharpest contrast edge is required"
+                   },
+                   {
+                       "name":  "Electric Lime",
+                       "value":  "#cdfe00",
+                       "token":  "--color-electric-lime",
+                       "role":  "Green supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "Sana Serif Hero display headline only. A weight-400 serif at 72px is the system\u0027s signature move: most AI brands shout with bold sans, Sana whispers with editorial type and lets the scale carry authority. The serif counterforms and bracket serifs give the wordmark a literary, humanist quality absent from typical product UI. `--font-sana-serif`",
+                                     "Sana Sans All UI, body, navigation, buttons, and subheadings. The 450 weight is a distinctive mid-step between regular and medium used for button labels and nav links instead of jumping to 500, producing quieter emphasis. Tabular numerals (tnum) and lining figures (lnum) are always on, giving all numeric data a consistent grid. `--font-sana-sans`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "13px",
+                                             "1.5",
+                                             "",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.43",
+                                             "",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "heading",
+                                             "20px",
+                                             "1.2",
+                                             "",
+                                             "--text-heading"
+                                         ],
+                                         [
+                                             "display",
+                                             "72px",
+                                             "1.1",
+                                             "",
+                                             "--text-display"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "18",
+                                      "18px",
+                                      "--spacing-18"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "24",
+                                      "24px",
+                                      "--spacing-24"
+                                  ],
+                                  [
+                                      "25",
+                                      "25px",
+                                      "--spacing-25"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "62",
+                                      "62px",
+                                      "--spacing-62"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Page max-width",
+                                       "value":  "1200px"
+                                   },
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "64px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "24-32px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "8-16px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "cards",
+                                    "24px"
+                                ],
+                                [
+                                    "inputs",
+                                    "24px"
+                                ],
+                                [
+                                    "buttons",
+                                    "9999px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Hero Headline (Sana Serif Display)",
+                           "role":  "The 72px serif display that opens the page"
+                       },
+                       {
+                           "name":  "Product Card Dark (Sana Agents)",
+                           "role":  "Full-bleed dark product showcase card"
+                       },
+                       {
+                           "name":  "Product Card Light (Sana Learn)",
+                           "role":  "Full-bleed light product showcase card"
+                       },
+                       {
+                           "name":  "Pill Button Filled Dark",
+                           "role":  "Primary action on light backgrounds"
+                       },
+                       {
+                           "name":  "Pill Button Accent Lime",
+                           "role":  "Highlighted action on dark surfaces"
+                       },
+                       {
+                           "name":  "Pill Button Ghost/White",
+                           "role":  "Secondary action on dark surfaces, or outlined action on light surfaces"
+                       },
+                       {
+                           "name":  "OAuth Button (Google)",
+                           "role":  "Third-party authentication action"
+                       },
+                       {
+                           "name":  "Sign-Up CTA Card",
+                           "role":  "Conversion panel for account creation"
+                       },
+                       {
+                           "name":  "Email Input",
+                           "role":  "Text input for email capture"
+                       },
+                       {
+                           "name":  "Navigation Bar",
+                           "role":  "Top-level site navigation"
+                       },
+                       {
+                           "name":  "Product Section Label",
+                           "role":  "Small section-introducing label"
+                       },
+                       {
+                           "name":  "Footer",
+                           "role":  "Site-wide footer with link columns"
+                       }
+                   ],
+    "dos":  [
+                "Use Sana Serif exclusively for the 72px hero headline at weight 400 it is the system\u0027s only serif, and diluting it to smaller sizes destroys its editorial authority",
+                "Apply 24px border-radius to all cards, inputs, and panel containers; use 9999px exclusively for pill-shaped buttons and tags",
+                "Restrict #cdfe00 (Electric Lime) to filled action buttons sitting on #0a1217 (Ink Black) surfaces the lime-on-ink contrast is the entire purpose of the accent",
+                "Use Sana Sans weight 450 for button labels and nav links rather than 500 the 450 step is what makes the body type feel quiet and considered",
+                "Set font-feature-settings to \"lnum\" on, \"tnum\" on for all Sana Sans usage tabular numerals ensure numeric data aligns cleanly in tables, prices, and timestamps",
+                "Create depth through surface color shifts (white frost ink) rather than box-shadows the system is flat by design",
+                "Keep the hero headline centered and the rest of the layout left-aligned centering is reserved for the single editorial moment"
+            ],
+    "donts":  [
+                  "Do not use Sana Serif below 56px weight 400 at small sizes loses its authority and reads as thin/generic",
+                  "Do not place #cdfe00 on #ffffff or #e4eff7 surfaces the contrast is insufficient and the lime loses its electric quality",
+                  "Do not introduce a second accent color the system is monochromatic with exactly one chromatic note, adding more dilutes the poster-like discipline",
+                  "Do not apply drop shadows to cards or panels depth comes from the white frost ink surface stack, not elevation",
+                  "Do not use sharp corners (0px radius) on any container the 24px radius defines the system\u0027s soft, tactile personality",
+                  "Do not center-align body text, card content, or navigation links only the hero display headline gets centered treatment",
+                  "Do not add gradients, patterns, or background imagery to surfaces the design language is pure flat color blocks"
+              ]
+}

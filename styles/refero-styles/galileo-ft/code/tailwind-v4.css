@@ -1,0 +1,55 @@
+@theme {
+  /* Colors */
+  --color-void-navy: #03081a;
+  --color-deep-indigo: #020626;
+  --color-inkline-violet: #292f66;
+  --color-dusk-iris: #4d5499;
+  --color-mist-lilac: #7a83cc;
+  --color-quartz-lavender: #aab1f2;
+  --color-glacier-white: #f5f6ff;
+  --color-pure-white: #ffffff;
+  --color-pulse-cobalt: #3d50fc;
+  --color-signal-teal: #05e0e0;
+  --color-cyan-teal: #05cee0;
+  --color-gradient-teal-blue-start: #05a1c9;
+
+  /* Typography */
+  --font-times: Times, "Times New Roman", serif;
+  --font-plain: Plain, "Inter Light", "Neue Haas Grotesk Display Thin", "Untitled Sans Light", system-ui, sans-serif;
+  --font-plain-light: "Plain Light", "Inter Light", "Untitled Sans Light", system-ui, sans-serif;
+  --font-plain-ultralight: "Plain Ultralight", "Inter ExtraLight", "Neue Haas Grotesk Display Thin", system-ui, sans-serif;
+  --font-plain-ultrathin: "Plain Ultrathin", "Inter Thin", "Neue Haas Grotesk Display Thin", system-ui, sans-serif;
+
+  --text-eyebrow: 10px;
+  --leading-eyebrow: 1.2;
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.3;
+  --text-subheading: 28px;
+  --leading-subheading: 1.3;
+  --text-heading-sm: 42px;
+  --leading-heading-sm: 1.1;
+  --text-heading: 56px;
+  --leading-heading: 1.1;
+  --text-heading-lg: 83px;
+  --leading-heading-lg: 1;
+  --text-display: 147px;
+  --leading-display: 0.8;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-52: 52px;
+  --spacing-64: 64px;
+  --spacing-104: 104px;
+  --spacing-196: 196px;
+
+  /* Radius */
+  --radius-tags: 17px;
+  --radius-cards: 35px;
+  --radius-inputs: 35px;
+  --radius-buttons: 48px;
+}
+

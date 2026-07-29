@@ -1,0 +1,65 @@
+@theme {
+  --color-portal-signal-blue: #007aff;
+  --color-portal-ink-black: #000000;
+  --color-portal-graphite: #3e3e3e;
+  --color-portal-smoke: #636363;
+  --color-portal-paper-white: #ffffff;
+  --color-portal-ash-mist: #f7f7f7;
+  --color-portal-hero-blue: #4a7ff2;
+  --color-portal-hero-violet: #7b7ed8;
+  --color-portal-hero-mauve: #c98ab5;
+  --color-portal-hero-coral: #e8a87c;
+
+  --font-portal-display: "Perfectly Nineties Regular", "Playfair Display", "DM Serif Display", Recoleta, Georgia, serif;
+  --font-portal-ui: Inter, "SF Pro Text", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --text-portal-micro: 10px;
+  --text-portal-caption: 12px;
+  --text-portal-body-sm: 14px;
+  --text-portal-body: 16px;
+  --text-portal-heading-sm: 18px;
+  --text-portal-heading: 36px;
+  --text-portal-display: 48px;
+
+  --leading-portal-micro: 1.2;
+  --leading-portal-caption: 1.2;
+  --leading-portal-body-sm: 1.3;
+  --leading-portal-body: 1.35;
+  --leading-portal-heading-sm: 1.35;
+  --leading-portal-display: 1;
+
+  --tracking-portal-micro: -0.2px;
+  --tracking-portal-caption: -0.24px;
+  --tracking-portal-body-sm: -0.28px;
+  --tracking-portal-body: -0.32px;
+  --tracking-portal-heading-sm: -0.36px;
+
+  --spacing-portal-4: 4px;
+  --spacing-portal-5: 5px;
+  --spacing-portal-6: 6px;
+  --spacing-portal-8: 8px;
+  --spacing-portal-10: 10px;
+  --spacing-portal-12: 12px;
+  --spacing-portal-14: 14px;
+  --spacing-portal-16: 16px;
+  --spacing-portal-20: 20px;
+  --spacing-portal-24: 24px;
+  --spacing-portal-36: 36px;
+  --spacing-portal-40: 40px;
+  --spacing-portal-45: 45px;
+  --spacing-portal-60: 60px;
+  --spacing-portal-80: 80px;
+  --spacing-portal-100: 100px;
+
+  --radius-portal-nav: 22px;
+  --radius-portal-card: 30px;
+  --radius-portal-badge: 50px;
+  --radius-portal-image: 40px;
+  --radius-portal-button: 50px;
+  --radius-portal-inner-screen: 16px;
+
+  --shadow-portal-glow-ring: rgb(247, 247, 247) 0px 0px 0px 5px;
+  --shadow-portal-outline-ring: rgb(247, 247, 247) 0px 0px 0px 1px;
+  --shadow-portal-button: rgb(255, 255, 255) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.15) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) 0px 3px 2px 0px;
+}
+

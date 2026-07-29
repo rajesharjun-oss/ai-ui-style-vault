@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obscura-orange: #ff5e24;
+  --color-obscura-ember: #6c3200;
+  --color-obscura-cloud: #e3f1fe;
+  --color-obscura-graphite: #232629;
+  --color-obscura-white: #ffffff;
+  --color-obscura-slate: #5c6066;
+  --color-obscura-ash: #989ea4;
+  --color-obscura-blush: #dbced0;
+  --color-obscura-midnight: #101828;
+
+  --font-obscura-display: "Jersey 10", "Press Start 2P", VT323, "Pixelify Sans", monospace;
+  --font-obscura-body: "Manrope Variable", Manrope, Inter, "Plus Jakarta Sans", "DM Sans", system-ui, sans-serif;
+
+  --spacing-obscura-8: 8px;
+  --spacing-obscura-16: 16px;
+  --spacing-obscura-24: 24px;
+  --spacing-obscura-32: 32px;
+  --spacing-obscura-48: 48px;
+  --spacing-obscura-64: 64px;
+  --spacing-obscura-80: 80px;
+  --spacing-obscura-96: 96px;
+  --spacing-obscura-128: 128px;
+
+  --radius-obscura-control: 6px;
+  --radius-obscura-card: 12px;
+  --radius-obscura-card-lg: 16px;
+  --radius-obscura-image: 24px;
+  --radius-obscura-panel: 32px;
+
+  --text-obscura-caption: 12px;
+  --text-obscura-caption--line-height: 1.5;
+  --text-obscura-body-sm: 14px;
+  --text-obscura-body-sm--line-height: 1.43;
+  --text-obscura-body: 16px;
+  --text-obscura-body--line-height: 1.5;
+  --text-obscura-subheading: 18px;
+  --text-obscura-subheading--line-height: 1.56;
+  --text-obscura-heading-sm: 36px;
+  --text-obscura-heading-sm--line-height: 1.11;
+  --text-obscura-heading: 48px;
+  --text-obscura-heading--line-height: 0.85;
+  --text-obscura-heading-lg: 60px;
+  --text-obscura-heading-lg--line-height: 0.85;
+  --text-obscura-display: 96px;
+  --text-obscura-display--line-height: 0.8;
+}
+
+@utility obscura-rail {
+  width: min(100% - 32px, 1200px);
+  margin-inline: auto;
+}
+
+@utility obscura-display {
+  font-family: var(--font-obscura-display);
+  font-size: clamp(56px, 9vw, 96px);
+  line-height: 0.8;
+  letter-spacing: -3px;
+  font-weight: 400;
+}
+
+@utility obscura-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 1px solid var(--color-obscura-orange);
+  border-radius: var(--radius-obscura-control);
+  background: var(--color-obscura-orange);
+  color: var(--color-obscura-midnight);
+  font-family: var(--font-obscura-body);
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: inset 0 0 0 1px var(--color-obscura-orange), 0 0 0 1px rgba(255, 94, 36, 0.16);
+}
+
+@utility obscura-feature-card {
+  border: 1px solid var(--color-obscura-cloud);
+  border-radius: var(--radius-obscura-card);
+  background: var(--color-obscura-white);
+  padding: var(--spacing-obscura-16);
+  box-shadow: rgba(15, 34, 52, 0.01) 0 27px 11px 0, rgba(15, 34, 52, 0.03) 0 15px 9px 0, rgba(15, 34, 52, 0.05) 0 7px 7px 0, rgba(15, 34, 52, 0.06) 0 2px 4px 0;
+}
+

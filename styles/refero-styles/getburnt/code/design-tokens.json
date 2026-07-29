@@ -1,0 +1,249 @@
+{
+ "name": "Getburnt",
+ "slug": "getburnt",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#1a1a17",
+ "token": "--color-ink",
+ "role": "Primary text, filled buttons, dark surface backgrounds, heading strokes - a warm-tinted near-black that replaces pure #000 throughout the system"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page canvas, card surfaces, light section backgrounds, button borders on dark surfaces"
+ },
+ {
+ "name": "Ash",
+ "value": "#5f5f5d",
+ "token": "--color-ash",
+ "role": "Secondary body text, helper text, muted borders, low-emphasis UI metadata"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Nyght Serif",
+ "token": "--font-nyght-serif",
+ "role": "Reserved exclusively for display and heading levels (26-72px). Weight 300 is the signature: most systems reach for 600-700 serif, this whisper-weight creates editorial gravitas through restraint. Letter-spacing widens slightly at smaller sizes (0.03em) and tightens at display sizes (0.01em) to preserve optical balance."
+ },
+ {
+ "name": "Switzer",
+ "token": "--font-switzer",
+ "role": "Workhorse for nav, body, buttons, labels, card metadata, and small headings. Tracking runs consistently at 0.03em - a subtle positive letter-spacing that gives the grotesque a calm, considered cadence. Weight 500 for emphasis, 600 for button text and nav active states."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "21",
+ "0.42px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "24",
+ "0.48px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "30",
+ "0.6px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "31.2",
+ "0.78px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "52.8",
+ "0.48px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "62px",
+ "68.2",
+ "0.62px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "72px",
+ "72",
+ "0.72px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "1440px"
+ ],
+ [
+ "tags",
+ "1440px"
+ ],
+ [
+ "cards",
+ "6px"
+ ],
+ [
+ "buttons",
+ "1440px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill Primary Button",
+ "role": "Filled action button for top-level CTAs"
+ },
+ {
+ "name": "Pill Ghost Button",
+ "role": "Outlined or text-only action for secondary actions"
+ },
+ {
+ "name": "Pill Nav Link",
+ "role": "Navigation items in header"
+ },
+ {
+ "name": "Editorial Display Heading",
+ "role": "Section and hero headlines"
+ },
+ {
+ "name": "Product Mockup Card",
+ "role": "Embedded product UI screenshots within feature sections"
+ },
+ {
+ "name": "Workflow Card",
+ "role": "Three-column feature card on light section"
+ },
+ {
+ "name": "Stat Tile",
+ "role": "Metric callouts in the trust strip below hero"
+ },
+ {
+ "name": "Feature Row",
+ "role": "Two-column text + visual feature layout"
+ },
+ {
+ "name": "Chat Input Bar",
+ "role": "AI assistant prompt inside product mockup"
+ },
+ {
+ "name": "Task List Item",
+ "role": "Individual row inside the product mockup task list"
+ },
+ {
+ "name": "Status Pill Badge",
+ "role": "Order/inventory status indicators inside mockups"
+ },
+ {
+ "name": "Icon Bullet",
+ "role": "Small leading icon for feature list items"
+ },
+ {
+ "name": "Header Bar",
+ "role": "Top-of-page navigation"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Nyght Serif weight 300 for all heading and display text - never set a heading in Switzer",
+ "Keep the entire interface within the #1a1a17 / #ffffff / #5f5f5d triad; resist introducing chromatic accents",
+ "Set all buttons, nav active states, and tags to 1440px border-radius for the pill signature",
+ "Maintain 0.03em letter-spacing on all Switzer text to preserve the editorial cadence",
+ "Use 6px radius for cards, mockup containers, and any rectangular UI surface",
+ "Place product mockups on #1a1a17 dark panels to create a museum-vitrine effect against the white page",
+ "Anchor every section with 48-64px vertical gap to keep the editorial pacing"
+ ],
+ "doNot": [
+ "Do not introduce blue, green, red, or any saturated brand color - the warmth comes from the near-black, not from accents",
+ "Do not set Nyght Serif in weights other than 300 - adding bold or medium breaks the editorial voice",
+ "Do not use square or 12px+ radii on buttons or tags - the pill shape is load-bearing",
+ "Do not set body or heading text in pure #000000 - always use #1a1a17 for the warm-ink quality",
+ "Do not use heavy drop shadows on cards - the system relies on hairline borders and surface contrast, not elevation",
+ "Do not set line-height above 1.2 on Nyght Serif display sizes - the serif needs to sit tight to read as display, not body",
+ "Do not apply gradients to text, buttons, or text containers - the palette is flat by design"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/002cc5a7-0d34-4d8d-afa0-c5fad69477d5",
+ "referenceSite": "https://www.getburnt.ai",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-11T00:39:14.982Z",
+ "articleModifiedAt": "2026-06-03T18:41:18.811Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c73d3ce0-255d-4c02-b22b-f34e242695db.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/65c3b742-473e-4624-a187-ae9ec5c1d1ef.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/71eea81e-53db-4186-95f5-aed7b444cd48.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/baf1ea96-aa5c-4cab-9c28-965bbabe19c3.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/3ba9a942-7af6-4f79-8691-8a68c2754d9e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/8016c12b-50f1-42c1-8764-07334699616f.png"
+ }
+ }
+}

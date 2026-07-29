@@ -1,0 +1,165 @@
+{
+  "name": "Revolut",
+  "version": "2026-07-28",
+  "colors": {
+    "ink": {
+      "value": "#1f1f1f",
+      "role": "Main text, dark nav, footer, dark bands, and filled dark buttons"
+    },
+    "pureBlack": {
+      "value": "#000000",
+      "role": "Maximum contrast blocks and text"
+    },
+    "bone": {
+      "value": "#ffffff",
+      "role": "Canvas, cards, white controls, and text on dark surfaces"
+    },
+    "ashGrey": {
+      "value": "#c9c9cd",
+      "role": "Hairline dividers, disabled borders, and edge separation"
+    },
+    "mist": {
+      "value": "#f7f7f7",
+      "role": "Recessed list groups and secondary containers"
+    },
+    "slate": {
+      "value": "#717173",
+      "role": "Muted text, badges, section headers, and quiet feedback"
+    },
+    "graphite": {
+      "value": "#4c4c4c",
+      "role": "Tertiary copy and minor muted surfaces"
+    },
+    "cobaltWashStart": {
+      "value": "#1227fd",
+      "role": "Promotional gradient start"
+    },
+    "cobaltWashEnd": {
+      "value": "#6fa0ff",
+      "role": "Promotional gradient end"
+    }
+  },
+  "gradients": {
+    "cobaltWash": {
+      "value": "linear-gradient(to right, #1227fd, #6fa0ff)",
+      "role": "Top promotional strip only"
+    }
+  },
+  "font": {
+    "display": {
+      "family": "Aeonik Pro, Inter, DM Sans, Manrope, system-ui, sans-serif",
+      "weights": {
+        "regular": 400,
+        "medium": 500
+      }
+    },
+    "body": {
+      "family": "Inter, system-ui, sans-serif",
+      "weights": {
+        "regular": 400,
+        "semibold": 600,
+        "bold": 700
+      }
+    }
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "12px",
+      "fontWeight": 600,
+      "lineHeight": "18px",
+      "letterSpacing": "0.18px",
+      "font": "body"
+    },
+    "bodySm": {
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": "22px",
+      "letterSpacing": "-0.07px",
+      "font": "body"
+    },
+    "body": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "19.2px",
+      "letterSpacing": "0",
+      "font": "body"
+    },
+    "subheading": {
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+      "letterSpacing": "0",
+      "font": "display"
+    },
+    "headingSm": {
+      "fontSize": "24px",
+      "fontWeight": 500,
+      "lineHeight": "28px",
+      "letterSpacing": "-0.24px",
+      "font": "display"
+    },
+    "heading": {
+      "fontSize": "32px",
+      "fontWeight": 500,
+      "lineHeight": "38px",
+      "letterSpacing": "-0.32px",
+      "font": "display"
+    },
+    "headingLg": {
+      "fontSize": "40px",
+      "fontWeight": 500,
+      "lineHeight": "48px",
+      "letterSpacing": "-0.4px",
+      "font": "display"
+    },
+    "display": {
+      "fontSize": "52px",
+      "fontWeight": 500,
+      "lineHeight": "52px",
+      "letterSpacing": "-0.624px",
+      "font": "display"
+    },
+    "displayXl": {
+      "fontSize": "88px",
+      "fontWeight": 500,
+      "lineHeight": "88px",
+      "letterSpacing": "-2.112px",
+      "font": "display"
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "unit": "8px",
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "56": "56px",
+    "64": "64px",
+    "80": "80px",
+    "232": "232px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "8px"
+  },
+  "radius": {
+    "buttons": "9999px",
+    "tags": "9999px",
+    "inputs": "9999px",
+    "smallControls": "12px",
+    "lists": "20px",
+    "cards": "22.5px"
+  },
+  "elevation": {
+    "rule": "Avoid shadows on normal cards and buttons; use borders and surface shifts instead.",
+    "standardBorder": "1px solid #c9c9cd"
+  },
+  "imagery": {
+    "primary": "High-key full-bleed sky and cloud photography",
+    "product": "Phone-frame UI overlays",
+    "avoid": ["decorative graphics", "3D renders", "illustrations", "flat product screenshots"]
+  }
+}
+

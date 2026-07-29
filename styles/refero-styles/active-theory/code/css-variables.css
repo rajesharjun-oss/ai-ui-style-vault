@@ -1,0 +1,188 @@
+:root {
+  color-scheme: dark;
+
+  --font-nbarchitekt: "nbarchitekt", "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-times: Times, "Times New Roman", Georgia, serif;
+  --font-arial: Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+
+  --color-dusk-violet: #343755;
+  --color-void-black: #000000;
+  --color-ghost-white: #ffffff;
+  --color-ash-border: #4d4d4d;
+  --color-smoke: #808080;
+  --color-fog: #999999;
+  --color-pale-mist: #c6c6c6;
+
+  --surface-canvas: var(--color-void-black);
+  --surface-translucent-overlay: rgba(0, 0, 0, 0.5);
+  --surface-frosted-glass: rgba(255, 255, 255, 0.1);
+
+  --text-primary: var(--color-ghost-white);
+  --text-secondary: var(--color-pale-mist);
+  --text-muted: var(--color-fog);
+  --text-accent: var(--color-dusk-violet);
+
+  --border-card: 1px solid var(--color-ash-border);
+  --border-ghost: 2px solid rgba(255, 255, 255, 0.6);
+
+  --text-caption-size: 10px;
+  --text-caption-line: 3;
+  --text-body-sm-size: 12px;
+  --text-body-sm-line: 1.5;
+  --text-micro-ui-size: 13px;
+  --text-micro-ui-line: 1.2;
+  --text-body-size: 14px;
+  --text-body-line: 1.2;
+  --text-prose-size: 16px;
+  --text-prose-line: 1.88;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-12: 12px;
+  --spacing-13: 13px;
+  --spacing-14: 14px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+
+  --section-gap: 48px;
+  --card-padding: 28px;
+  --element-gap: 6px;
+
+  --radius-input: 5px;
+  --radius-ghost-button: 5px;
+  --radius-card: 12px;
+  --radius-tag: 500px;
+  --radius-pill-button: 500px;
+
+  --shadow-none: none;
+  --overlay-blur: 4px;
+
+  --motion-hover: 0.3s;
+  --motion-overlay: 0.4s;
+  --motion-scene-fast: 0.8s;
+  --motion-scene-slow: 9s;
+}
+
+.active-theory-page {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--surface-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-nbarchitekt);
+}
+
+.active-theory-hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background: var(--surface-canvas);
+}
+
+.active-theory-scene {
+  position: absolute;
+  inset: 0;
+  background: var(--surface-canvas);
+}
+
+.active-theory-nav {
+  position: fixed;
+  inset-block-start: 18px;
+  inset-inline-end: 18px;
+  z-index: 50;
+  display: flex;
+  gap: 6px;
+}
+
+.active-theory-ghost-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22px;
+  padding: 1px 6px;
+  border: var(--border-ghost);
+  border-radius: var(--radius-ghost-button);
+  background: transparent;
+  color: var(--text-primary);
+  font: var(--font-weight-regular) 10px / 1.2 var(--font-nbarchitekt);
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color var(--motion-hover) ease-out, border-color var(--motion-hover) ease-out, color var(--motion-hover) ease-out;
+}
+
+.active-theory-ghost-button:hover {
+  background: var(--surface-frosted-glass);
+}
+
+.active-theory-pill-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 4px 18px;
+  border: 0;
+  border-radius: var(--radius-pill-button);
+  background: var(--color-dusk-violet);
+  color: var(--text-primary);
+  font: var(--font-weight-bold) 14px / 1.2 var(--font-nbarchitekt);
+  text-decoration: none;
+}
+
+.active-theory-card {
+  background: transparent;
+  border: var(--border-card);
+  border-radius: var(--radius-card);
+  box-shadow: none;
+  padding: var(--card-padding);
+  color: var(--text-primary);
+}
+
+.active-theory-overlay {
+  background: var(--surface-translucent-overlay);
+  border-radius: var(--radius-card);
+  box-shadow: none;
+  padding: 16px 28px 32px;
+  color: var(--text-primary);
+  backdrop-filter: blur(var(--overlay-blur));
+}
+
+.active-theory-card-title {
+  margin: 0;
+  color: var(--text-primary);
+  font: var(--font-weight-bold) 14px / 1.2 var(--font-nbarchitekt);
+  letter-spacing: 0;
+}
+
+.active-theory-prose {
+  color: var(--text-primary);
+  font: var(--font-weight-regular) 16px / 1.88 var(--font-times);
+  letter-spacing: 0;
+}
+
+.active-theory-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--motion-hover) ease-out, opacity var(--motion-hover) ease-out;
+}
+
+.active-theory-link:hover {
+  color: var(--text-primary);
+}
+
+.active-theory-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 4px 13px;
+  border: 1px solid var(--color-ash-border);
+  border-radius: var(--radius-tag);
+  background: transparent;
+  color: var(--text-secondary);
+  font: var(--font-weight-regular) 12px / 1.5 var(--font-nbarchitekt);
+}

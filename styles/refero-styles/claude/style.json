@@ -1,0 +1,141 @@
+{
+  "id": "47cb86b6-cb2d-41c8-94ba-8607cd7c41cd",
+  "name": "Claude",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/47cb86b6-cb2d-41c8-94ba-8607cd7c41cd",
+  "referenceUrl": "https://claude.ai",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Warm parchment editorial AI-product system with ink-like near-black text, Anthropic Serif headings, calm sans UI, rounded paper cards, and clay as decorative-only punctuation.",
+  "bestFor": [
+    "AI assistants",
+    "research tools",
+    "knowledge products",
+    "pricing pages",
+    "editorial SaaS",
+    "help centers",
+    "quiet productivity tools"
+  ],
+  "tags": [
+    "light",
+    "warm-paper",
+    "editorial",
+    "ai-product",
+    "serif-headings",
+    "monochrome",
+    "clay-accent",
+    "paper-cards",
+    "rounded-cards",
+    "minimal-shadow",
+    "humane"
+  ],
+  "colors": {
+    "boneParchment": { "value": "#f8f8f6", "token": "--color-bone-parchment", "role": "Page canvas, large backgrounds, nav bar, and secondary cards." },
+    "paperWhite": { "value": "#ffffff", "token": "--color-paper-white", "role": "Elevated cards and primary content surfaces above the canvas." },
+    "softStone": { "value": "#efeeeb", "token": "--color-soft-stone", "role": "Nested cards, subtle surface variation, and alternate section bands." },
+    "carbonInk": { "value": "#121212", "token": "--color-carbon-ink", "role": "Primary text, headings, icon fills, and dark buttons." },
+    "graphite": { "value": "#373734", "token": "--color-graphite", "role": "Secondary headings, button text, nav text, and inline links." },
+    "ashen": { "value": "#7b7974", "token": "--color-ashen", "role": "Helper text, captions, fine print, and disclaimer copy." },
+    "pebble": { "value": "#9c9a92", "token": "--color-pebble", "role": "Tertiary text, copyright, and low-priority labels." },
+    "mist": { "value": "#b7b7b5", "token": "--color-mist", "role": "Hairline nav dividers, input borders, and subtle rules." },
+    "chalk": { "value": "#e7e6e1", "token": "--color-chalk", "role": "Soft border lines, illustration fills, and pale background tints." },
+    "obsidian": { "value": "#000000", "token": "--color-obsidian", "role": "Footer background only; avoid for body text." },
+    "clay": { "value": "#d97757", "token": "--color-clay", "role": "Decorative marks, icons, dots, and illustration details only." }
+  },
+  "typography": {
+    "families": {
+      "display": "Anthropic Serif",
+      "body": "Anthropic Sans"
+    },
+    "fallbacks": {
+      "display": "Source Serif 4, Charter, Georgia, ui-serif, serif",
+      "body": "Inter, IBM Plex Sans, system-ui, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "w550": 550,
+      "w580": 580,
+      "semibold": 600
+    },
+    "rules": [
+      "Use Anthropic Serif only for display and editorial headings.",
+      "Keep serif headings at weight 400.",
+      "Use Anthropic Sans for all functional UI, body, labels, buttons, links, cards, and forms.",
+      "Keep most sans text between 400 and 580.",
+      "Do not use 700 or heavier weights."
+    ],
+    "scale": {
+      "caption": { "size": "11px", "lineHeight": 1.5, "fontWeight": 400, "token": "--text-caption" },
+      "tiny": { "size": "12px", "lineHeight": 1.33, "fontWeight": 400, "token": "--text-tiny" },
+      "body": { "size": "14px", "lineHeight": 1.5, "fontWeight": 400, "token": "--text-body" },
+      "bodyLg": { "size": "15px", "lineHeight": 1.5, "fontWeight": 400, "token": "--text-body-lg" },
+      "article": { "size": "16px", "lineHeight": 1.63, "fontWeight": 400, "token": "--text-article" },
+      "headingSm": { "size": "24px", "lineHeight": 1.33, "fontWeight": 580, "token": "--text-heading-sm" },
+      "heading": { "size": "30px", "lineHeight": 1.2, "fontWeight": 400, "token": "--text-heading" }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "8px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "64px to 80px",
+    "cardPadding": "32px",
+    "elementGap": "8px to 12px",
+    "scale": {
+      "8": "8px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px"
+    }
+  },
+  "radii": {
+    "nav": "8px",
+    "inputs": "8px",
+    "buttons": "8px",
+    "cards": "16px",
+    "elevatedCards": "24px"
+  },
+  "shadows": {
+    "featureHover": "rgba(0, 0, 0, 0.04) 0px 4px 20px 0px",
+    "pricingHover": "rgba(35, 30, 24, 0.1) 0px 4px 24px 0px"
+  },
+  "components": [
+    { "name": "Filled Dark Button", "recipe": "Carbon Ink fill, Bone Parchment or Paper White text, 8px radius, 8px vertical and 20px horizontal padding, Anthropic Sans 15px/500." },
+    { "name": "Pill Navigation Button", "recipe": "Transparent background, Graphite text, no border, 8px radius, Anthropic Sans 15px/500." },
+    { "name": "Pricing Tier Card", "recipe": "Paper White on Bone Parchment, 24px radius, 32px padding, serif plan heading, sans price and description, optional soft hover shadow." },
+    { "name": "Feature Benefit Card", "recipe": "Soft Stone or Paper White, 16px radius, 24px to 32px padding, Carbon Ink icon, 14px Graphite body." },
+    { "name": "Editorial Section Header", "recipe": "Anthropic Serif 30px/400, Carbon Ink, line-height 1.2, followed by short Ashen or Graphite sans copy." },
+    { "name": "Footer Band", "recipe": "Full-width Obsidian footer with muted Pebble links and compact 14px sans columns." },
+    { "name": "Inline Link", "recipe": "Graphite default, Carbon Ink hover, underline for clarity, no Clay or blue link color." },
+    { "name": "Input Field", "recipe": "Transparent or Paper White fill, 1px Mist border, 8px radius, 14px Anthropic Sans, soft focus ring." },
+    { "name": "FAQ Accordion Item", "recipe": "Hairline-separated item, Graphite question, Carbon Ink answer, 24px vertical padding, sans only." },
+    { "name": "Clay Accent Mark", "recipe": "Small Clay dot, ornament, icon detail, or illustration mark; decorative and non-interactive." },
+    { "name": "Status Badge", "recipe": "11px to 12px sans label, 8px radius, low-contrast warm-gray background, monochrome treatment." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Bone Parchment as the page canvas.",
+      "Use Anthropic Serif 24px to 30px at weight 400 for editorial headings.",
+      "Keep Anthropic Sans mostly between 400 and 580.",
+      "Use Paper White cards over Bone Parchment for a layered paper effect.",
+      "Use Clay only for small decorative marks.",
+      "Use 24px radius for elevated cards and 16px for nested cards.",
+      "Use 8px radius for buttons, inputs, and nav controls.",
+      "Keep section spacing at 64px to 80px."
+    ],
+    "dont": [
+      "Do not use Clay for button fills, links, or major CTA surfaces.",
+      "Do not use pure black for body text.",
+      "Do not set headings at 700 or heavier.",
+      "Do not use cool blue, green, or red as brand accents.",
+      "Do not use heavy shadows.",
+      "Do not set large display headings in Anthropic Sans.",
+      "Do not add decorative gradients."
+    ]
+  }
+}

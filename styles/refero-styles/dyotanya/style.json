@@ -1,0 +1,76 @@
+{
+  "id": "1b13360a-cdca-4798-969d-57ebb20a3b30",
+  "name": "Dyotanya",
+  "slug": "dyotanya",
+  "sourceUrl": "https://styles.refero.design/style/1b13360a-cdca-4798-969d-57ebb20a3b30",
+  "referenceSite": "https://dyotanya.com/en",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "editorial sketchbook on warm paper",
+  "industry": ["portfolio", "personal brand", "web design studio", "creative services"],
+  "summary": "A warm-paper editorial style with huge thin serif headings, mixed roman and italic emphasis, Manrope UI text, dusty-blue borders, coral inline links, circular imagery, hand-drawn black SVG lines, and hard charcoal offset shadows.",
+  "colors": {
+    "warmPaper": "#f5f5f3",
+    "inkBlack": "#000000",
+    "charcoal": "#333333",
+    "pureWhite": "#ffffff",
+    "dustySky": "#81aed9",
+    "cobaltWash": "#55a1ea",
+    "coralLink": "#ff8562"
+  },
+  "typography": {
+    "display": "Simeiz",
+    "displayFallback": "Playfair Display, DM Serif Display",
+    "ui": "Manrope",
+    "uiFallback": "Inter, DM Sans",
+    "serifFallback": "Times, Times New Roman",
+    "functionalTracking": "-0.036em"
+  },
+  "shape": {
+    "borderWidth": "1.5px",
+    "cardRadius": "20px to 30px",
+    "buttonRadius": "30px",
+    "pillRadius": "3000px",
+    "imageRadius": "120px",
+    "inputRadius": "30px"
+  },
+  "layout": {
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "48px",
+    "elementGap": "10px to 20px"
+  },
+  "elevation": {
+    "cards": "5px -5px 0 0 #333333",
+    "buttons": "4px -4px 0 0 #333333"
+  },
+  "components": [
+    "hero serif statement",
+    "pill CTA button",
+    "client showcase card",
+    "circular portrait avatar",
+    "hamburger menu trigger",
+    "hand-drawn line decoration",
+    "section index marker",
+    "parenthetical caption",
+    "input field"
+  ],
+  "dos": [
+    "Use warm paper for the page canvas.",
+    "Use Simeiz-style serif for all large display text.",
+    "Mix roman and italic words inside display headlines.",
+    "Use hard offset shadows instead of soft drop shadows.",
+    "Use dusty-blue borders on cards and inputs.",
+    "Use coral only for inline links.",
+    "Draw decorative lines as inline SVG paths."
+  ],
+  "donts": [
+    "Do not use pure white as the page background.",
+    "Do not use blur, glow, or soft alpha shadows.",
+    "Do not use Manrope for large headings.",
+    "Do not use coral as a button background or border.",
+    "Do not use sharp corners on interactive elements.",
+    "Do not lock the hero into a rigid two-column grid."
+  ]
+}

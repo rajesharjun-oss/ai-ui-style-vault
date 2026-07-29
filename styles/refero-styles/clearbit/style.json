@@ -1,0 +1,110 @@
+{
+  "name": "Clearbit",
+  "slug": "clearbit",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/6221ba67-26e7-4657-91b7-efd77cbb1f12",
+    "style_id": "6221ba67-26e7-4657-91b7-efd77cbb1f12",
+    "reference_site": "https://clearbit.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "data observatory on cloud paper",
+  "summary": "A restrained light B2B data-product system with white paper, pale lavender showcase zones, deep navy text, thin borders, and one blue accent for active UI.",
+  "use_cases": [
+    "B2B data platforms",
+    "CRM enrichment tools",
+    "analytics dashboards",
+    "sales intelligence pages",
+    "product-led SaaS marketing"
+  ],
+  "colors": {
+    "midnight_ink": "#091135",
+    "electric_blue": "#0f77ff",
+    "cobalt_surface": "#127ee3",
+    "slate": "#36394a",
+    "mist": "#b1bbcd",
+    "frost_border": "#e1e9f0",
+    "lavender_wash": "#f5f3ff",
+    "paper": "#ffffff",
+    "graphite": "#000000"
+  },
+  "typography": {
+    "primary_font": "InterVar",
+    "fallback": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "weights": [400, 500, 600, 700],
+    "scale": {
+      "caption": {
+        "size": "14px",
+        "line_height": "1.43",
+        "letter_spacing": "0.056px",
+        "weight": 400
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.5",
+        "letter_spacing": "0.128px",
+        "weight": 400
+      },
+      "subheading": {
+        "size": "18px",
+        "line_height": "1.5",
+        "letter_spacing": "0.252px",
+        "weight": 400
+      },
+      "heading_sm": {
+        "size": "32px",
+        "line_height": "1.25",
+        "letter_spacing": "0.512px",
+        "weight": 600
+      },
+      "heading": {
+        "size": "56px",
+        "line_height": "1.25",
+        "letter_spacing": "1.008px",
+        "weight": 600
+      },
+      "display": {
+        "size": "64px",
+        "line_height": "1.25",
+        "letter_spacing": "1.152px",
+        "weight": 600
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "page_max_width": "1200px",
+    "section_gap": "64px",
+    "card_padding": "24px",
+    "element_gap": "8px to 20px"
+  },
+  "radius": {
+    "buttons": "8px",
+    "inputs": "8px",
+    "cards": "12px",
+    "tags": "9999px"
+  },
+  "components": [
+    "Top Navigation Bar",
+    "Filled Primary Button",
+    "Outlined Ghost Button",
+    "Hero Headline Block",
+    "Product Showcase Card",
+    "Data Record Row",
+    "Section Eyebrow",
+    "Lavender Pill Badge",
+    "Score Badge",
+    "Brand Data Card",
+    "Lavender Section Background"
+  ],
+  "rules": [
+    "Use Midnight Ink for most text and headings.",
+    "Use only one blue accent family.",
+    "Use Lavender Wash to create product zones.",
+    "Keep cards flat with hairline borders and no resting shadow.",
+    "Show product UI as the hero imagery.",
+    "Use positive tracking on large InterVar headings.",
+    "Keep cards at 12px radius and buttons or inputs at 8px."
+  ]
+}

@@ -1,0 +1,46 @@
+@theme {
+  --color-black-void: #000000;
+  --color-paper-white: #ffffff;
+  --color-smoke: #4d4d4d;
+  --color-crimson-heat: #b62b1a;
+
+  --font-saans: Saans, Inter, Manrope, ui-sans-serif, system-ui, sans-serif;
+
+  --text-micro-ui: 12px;
+  --text-micro-ui--line-height: 1.14;
+  --text-micro-ui--letter-spacing: 0.6px;
+  --text-small-ui: 14px;
+  --text-small-ui--line-height: 1.2;
+  --text-body: 16px;
+  --text-body--line-height: 1.43;
+  --text-body--letter-spacing: 0.8px;
+  --text-large-ui: 18px;
+  --text-utility-large: 20px;
+  --text-display-sm: 47px;
+  --text-display-md: 79px;
+  --text-display-lg: 106px;
+  --text-display-hero: 130px;
+  --text-display-hero--line-height: 1.08;
+  --text-display-hero--letter-spacing: -3.25px;
+  --text-display-max: 245px;
+
+  --spacing-10: 10px;
+  --spacing-11: 11px;
+  --spacing-15: 15px;
+  --spacing-19: 19px;
+  --spacing-20: 20px;
+  --spacing-23: 23px;
+  --spacing-27: 27px;
+  --spacing-30: 30px;
+  --spacing-36: 36px;
+  --spacing-38: 38px;
+  --spacing-60: 60px;
+  --spacing-63: 63px;
+  --spacing-108: 108px;
+  --spacing-150: 150px;
+  --spacing-172: 172px;
+
+  --radius-body-card: 8px;
+  --radius-button-pill: 70px;
+  --radius-circular-frame: 594px;
+}

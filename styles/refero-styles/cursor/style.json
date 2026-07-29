@@ -1,0 +1,150 @@
+{
+  "id": "4e3b4717-84c8-4599-baaf-a343c3d619b6",
+  "name": "Cursor",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/4e3b4717-84c8-4599-baaf-a343c3d619b6",
+  "referenceUrl": "https://cursor.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Warm parchment developer atelier with weight-400 headings, compact 4px geometry, paper-like product cards, developer monospace details, and ember text accents.",
+  "bestFor": [
+    "developer tools",
+    "AI coding products",
+    "technical documentation",
+    "IDE websites",
+    "changelog pages",
+    "product launch pages",
+    "calm productivity software"
+  ],
+  "tags": [
+    "light",
+    "developer-tool",
+    "parchment",
+    "editorial",
+    "compact",
+    "warm-neutral",
+    "4px-radius",
+    "product-mockups",
+    "monospace",
+    "ember-accent",
+    "serif-detail"
+  ],
+  "colors": {
+    "parchment": { "value": "#f7f7f4", "token": "--color-parchment", "role": "Page background and primary canvas." },
+    "bone": { "value": "#f2f1ed", "token": "--color-bone", "role": "Product cards, mockup frames, and elevated paper surfaces." },
+    "linen": { "value": "#e6e5e0", "token": "--color-linen", "role": "Secondary button fill, logo tiles, and higher paper surfaces." },
+    "stone": { "value": "#cdcdc9", "token": "--color-stone", "role": "Hairline borders, separators, and outlines." },
+    "mist": { "value": "#a1a19f", "token": "--color-mist", "role": "Captions, helper text, and tertiary UI copy." },
+    "driftwood": { "value": "#84847e", "token": "--color-driftwood", "role": "Secondary body text and quieter table copy." },
+    "ash": { "value": "#7a7974", "token": "--color-ash", "role": "Icon fills, metadata, and subdued labels." },
+    "ink": { "value": "#26251e", "token": "--color-ink", "role": "Primary text, nav text, primary action fill, and core UI chrome." },
+    "ember": { "value": "#f54e00", "token": "--color-ember", "role": "Inline links, tags, and short text emphasis only." },
+    "amber": { "value": "#c08532", "token": "--color-amber", "role": "Small in-product action buttons and accent icon strokes." },
+    "forest": { "value": "#34785c", "token": "--color-forest", "role": "Focused product actions and selected states." },
+    "verdant": { "value": "#1f8a65", "token": "--color-verdant", "role": "Supporting green text accents." },
+    "crimson": { "value": "#cf2d56", "token": "--color-crimson", "role": "Supporting red text accents." },
+    "selectionBlue": { "value": "#8bc4f8", "token": "--color-selection-blue", "role": "Browser text selection only." }
+  },
+  "typography": {
+    "families": {
+      "primary": "CursorGothic",
+      "editorial": "EB Garamond",
+      "mono": "berkeleyMono",
+      "micro": "system-ui"
+    },
+    "fallbacks": {
+      "primary": "Inter, system-ui, Helvetica Neue, sans-serif",
+      "editorial": "Iowan Old Style, Palatino Linotype, ui-serif, Georgia, serif",
+      "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+      "micro": "system-ui, -apple-system, Helvetica Neue, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "rules": [
+      "Use CursorGothic-style type for almost all UI, navigation, headings, and body text.",
+      "Set display headings at weight 400; do not use 600 or 700 for large headings.",
+      "Tighten letter spacing as type size increases.",
+      "Use EB Garamond only for editorial prose and subheadings.",
+      "Use berkeleyMono at 12px or 13px for code, file paths, tabs, and metadata."
+    ],
+    "scale": {
+      "eyebrow": { "size": "12px", "lineHeight": 1.63, "letterSpacing": "0", "token": "--text-eyebrow" },
+      "bodySm": { "size": "14px", "lineHeight": 1.5, "letterSpacing": "0.14px", "token": "--text-body-sm" },
+      "body": { "size": "16px", "lineHeight": 1.35, "letterSpacing": "0", "token": "--text-body" },
+      "editorial": { "size": "17px", "lineHeight": 1.35, "letterSpacing": "0", "token": "--text-editorial" },
+      "editorialLg": { "size": "19px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-editorial-lg" },
+      "headingSm": { "size": "22px", "lineHeight": 1.3, "letterSpacing": "-0.11px", "token": "--text-heading-sm" },
+      "heading": { "size": "26px", "lineHeight": 1.25, "letterSpacing": "-0.312px", "token": "--text-heading" },
+      "headingLg": { "size": "36px", "lineHeight": 1.2, "letterSpacing": "-0.72px", "token": "--text-heading-lg" },
+      "display": { "size": "72px", "lineHeight": 1.1, "letterSpacing": "-2.16px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1300px",
+    "sectionGap": "64px to 96px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "48": "48px",
+      "56": "56px",
+      "64": "64px"
+    }
+  },
+  "radii": {
+    "cards": "4px",
+    "tiles": "4px",
+    "inputs": "4px",
+    "buttons": "4px",
+    "modals": "8px"
+  },
+  "shadows": {
+    "productMockup": "rgba(0, 0, 0, 0.14) 0px 28px 70px 0px, rgba(0, 0, 0, 0.1) 0px 14px 32px 0px",
+    "flyout": "0 0 1rem #00000005, 0 0 0.5rem #00000002",
+    "subtleRing": "rgb(235, 234, 229) 0px 0px 0px 2px"
+  },
+  "components": [
+    { "name": "Primary Filled Button", "recipe": "Ink fill, Parchment text, 4px radius, compact padding, CursorGothic 14px/400." },
+    { "name": "Secondary Filled Button", "recipe": "Linen fill, Ink text, 4px radius, compact padding, visually lighter than the primary." },
+    { "name": "Ghost Text Button", "recipe": "Transparent background, muted Ink text, 4px focus radius, no border, underline on hover." },
+    { "name": "Amber Action Button", "recipe": "Amber fill, light cream text, 4px radius, compact product-UI sizing." },
+    { "name": "Forest Action Button", "recipe": "Forest fill, Parchment text, same-color border, 4px radius, used for selected product actions." },
+    { "name": "Product Mockup Card", "recipe": "Bone surface, 4px radius, warm hairline border, 24px padding, soft warm paper shadow." },
+    { "name": "Logo Trust Tile", "recipe": "Linen tile with monochrome Ink logo at reduced opacity." },
+    { "name": "Window Mockup Frame", "recipe": "macOS-style chrome, muted control dots, centered title, small file tabs, and berkeleyMono labels." },
+    { "name": "Navigation Bar", "recipe": "Transparent 52px header with logo left, compact center links, and action cluster on the right." },
+    { "name": "Terminal Input Field", "recipe": "Transparent or Bone background, hairline Ink-tinted border, 4px radius, berkeleyMono 12px." },
+    { "name": "Footer Link Column", "recipe": "No card; CursorGothic heading and compact muted link list directly on canvas." },
+    { "name": "Mono Metadata Tag", "recipe": "Transparent background, berkeleyMono 12px Ash text, no border, no radius." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Parchment canvas and Bone cards.",
+      "Keep display headings at weight 400.",
+      "Use 4px radius for cards, buttons, inputs, and tiles.",
+      "Use Ember only for inline text emphasis.",
+      "Use warm hairline borders before adding shadows.",
+      "Use product screenshots and IDE windows as primary imagery."
+    ],
+    "dont": [
+      "Do not use pure white or pure black as foundations.",
+      "Do not bold display headings.",
+      "Do not use pill buttons or rounded cards.",
+      "Do not use gradients, glows, or color washes.",
+      "Do not make shadows blue or glassy.",
+      "Do not use Ember as a background fill."
+    ]
+  }
+}

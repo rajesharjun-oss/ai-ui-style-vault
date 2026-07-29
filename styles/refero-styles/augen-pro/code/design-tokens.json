@@ -1,0 +1,142 @@
+{
+  "name": "Augen Pro",
+  "theme": "light",
+  "colors": {
+    "offBlack": {
+      "value": "#0f1012",
+      "role": "Primary text, hero and footer backgrounds, and icon fills"
+    },
+    "pureBlack": {
+      "value": "#020201",
+      "role": "Secondary text, hard emphasis, and maximum contrast details"
+    },
+    "steelGray": {
+      "value": "#5e5e5e",
+      "role": "Muted body text, captions, and inactive labels"
+    },
+    "ashGray": {
+      "value": "#8f8f8f",
+      "role": "Disabled text, tertiary helper text, and low-emphasis labels"
+    },
+    "offWhite": {
+      "value": "#f2f2f4",
+      "role": "Page canvas and large light fills"
+    },
+    "pureWhite": {
+      "value": "#fdfdfd",
+      "role": "Elevated panels, nav pills, inputs, and cards"
+    },
+    "signalBlue": {
+      "value": "#0071e3",
+      "role": "Links, tag borders, interactive outlines, and small icons"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "ppNeueMontreal": {
+        "value": "\"PP Neue Montreal\", \"Inter\", \"General Sans\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      }
+    },
+    "fontWeight": {
+      "w350": 350,
+      "regular": 400
+    },
+    "letterSpacing": {
+      "system": "-0.0200em"
+    },
+    "features": {
+      "ppNeue": "\"ss01\" on, \"ss02\" on, \"cv01\" on, \"cv11\" on"
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "10px",
+        "lineHeight": "12px",
+        "letterSpacing": "-0.2px",
+        "fontWeight": 350
+      },
+      "micro": {
+        "fontSize": "12px",
+        "lineHeight": "14.4px",
+        "letterSpacing": "-0.24px",
+        "fontWeight": 350
+      },
+      "buttonLabel": {
+        "fontSize": "13px",
+        "lineHeight": "15.6px",
+        "letterSpacing": "-0.26px",
+        "fontWeight": 400
+      },
+      "smallBody": {
+        "fontSize": "14px",
+        "lineHeight": "16.8px",
+        "letterSpacing": "-0.28px",
+        "fontWeight": 350
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "fontWeight": 350
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "lineHeight": "21.6px",
+        "letterSpacing": "-0.36px",
+        "fontWeight": 350
+      },
+      "heading": {
+        "fontSize": "27px",
+        "lineHeight": "32.4px",
+        "letterSpacing": "-0.54px",
+        "fontWeight": 350
+      }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "scale": {
+      "4": "4px",
+      "6": "6px",
+      "10": "10px",
+      "11": "11px",
+      "22": "22px",
+      "30": "30px",
+      "34": "34px",
+      "35": "35px",
+      "50": "50px",
+      "69": "69px",
+      "94": "94px",
+      "113": "113px",
+      "130": "130px",
+      "144": "144px",
+      "220": "220px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "90px to 100px",
+      "cardPadding": "69px",
+      "elementGap": "6px"
+    }
+  },
+  "radius": {
+    "hairlineElements": "1.8px",
+    "navPills": "10px",
+    "buttons": "26px",
+    "largeCards": "54px",
+    "bodyContainers": "63px",
+    "tagsAndLinks": "9999px"
+  },
+  "borders": {
+    "hairline": "0.5px solid rgba(0, 0, 0, 0.06)",
+    "hairlineSoft": "0.5px solid rgba(0, 0, 0, 0.04)",
+    "interactive": "0.5px solid #0071e3"
+  },
+  "shadow": {
+    "none": "No shadows; use white-tone shifts and hairline borders"
+  },
+  "surfaces": {
+    "pageCanvas": "#f2f2f4",
+    "elevatedPanel": "#fdfdfd",
+    "darkSurface": "#0f1012"
+  }
+}

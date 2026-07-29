@@ -1,0 +1,200 @@
+{
+  "name": "Cosmos",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/eb804e3a-1b75-446c-8374-114bbabaf0cd",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "color": {
+    "linenCanvas": {
+      "value": "#f7f5f3",
+      "type": "color"
+    },
+    "inkBlack": {
+      "value": "#0d0d0d",
+      "type": "color"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "stone": {
+      "value": "#6e6a69",
+      "type": "color"
+    },
+    "pebble": {
+      "value": "#9a9796",
+      "type": "color"
+    }
+  },
+  "font": {
+    "cosmosOracle": {
+      "value": "cosmosOracle",
+      "type": "fontFamily"
+    },
+    "fallbackSerif": {
+      "value": "GT Super, Fraunces, Georgia, serif",
+      "type": "fontFamily"
+    }
+  },
+  "fontWeight": {
+    "whisper": {
+      "value": 350,
+      "type": "fontWeight"
+    },
+    "regular": {
+      "value": 400,
+      "type": "fontWeight"
+    },
+    "medium": {
+      "value": 500,
+      "type": "fontWeight"
+    }
+  },
+  "fontSize": {
+    "caption": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "body": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "subheading": {
+      "value": "18px",
+      "type": "dimension"
+    },
+    "headingSmall": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "heading": {
+      "value": "33px",
+      "type": "dimension"
+    },
+    "headingLarge": {
+      "value": "38px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "58px",
+      "type": "dimension"
+    },
+    "displayXl": {
+      "value": "74px",
+      "type": "dimension"
+    }
+  },
+  "lineHeight": {
+    "caption": {
+      "value": "1.5",
+      "type": "number"
+    },
+    "body": {
+      "value": "1.5",
+      "type": "number"
+    },
+    "subheading": {
+      "value": "1.29",
+      "type": "number"
+    },
+    "headingSmall": {
+      "value": "1.2",
+      "type": "number"
+    },
+    "heading": {
+      "value": "1.1",
+      "type": "number"
+    },
+    "headingLarge": {
+      "value": "1.08",
+      "type": "number"
+    },
+    "display": {
+      "value": "1.06",
+      "type": "number"
+    },
+    "displayXl": {
+      "value": "0.8",
+      "type": "number"
+    }
+  },
+  "letterSpacing": {
+    "body": {
+      "value": "-0.18px",
+      "type": "dimension"
+    },
+    "subheading": {
+      "value": "-0.2px",
+      "type": "dimension"
+    },
+    "headingSmall": {
+      "value": "-0.48px",
+      "type": "dimension"
+    },
+    "heading": {
+      "value": "-1.32px",
+      "type": "dimension"
+    },
+    "headingLarge": {
+      "value": "-1.52px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "-2.32px",
+      "type": "dimension"
+    },
+    "displayXl": {
+      "value": "-3.7px",
+      "type": "dimension"
+    }
+  },
+  "radius": {
+    "cards": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "inputs": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "buttons": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "imageTiles": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "videoContainer": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "navPill": {
+      "value": "9999px",
+      "type": "dimension"
+    }
+  },
+  "space": {
+    "base": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "elementGap": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "cardPadding": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "sectionGap": {
+      "value": "80px",
+      "type": "dimension"
+    },
+    "maxWidth": {
+      "value": "1280px",
+      "type": "dimension"
+    }
+  }
+}
+

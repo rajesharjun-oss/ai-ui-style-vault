@@ -1,0 +1,308 @@
+{
+  "name": "Apple Espana",
+  "slug": "apple-espana",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/c9cabb96-32fa-4896-837a-f2497ce1c856",
+    "productUrl": "https://www.apple.com/es/"
+  },
+  "theme": {
+    "mode": "light",
+    "summary": "Bright retail theater with pure white staging, radial product spotlighting, and SF Pro typography.",
+    "principles": [
+      "Use white and frost surfaces as the product stage.",
+      "Let product imagery dominate every major section.",
+      "Use blue only for purchase actions, active links, and commerce navigation.",
+      "Keep text hierarchy centered, spare, and confident.",
+      "Avoid normal SaaS shadows and unrelated accents."
+    ]
+  },
+  "colors": {
+    "brand": {
+      "appleBlue": {
+        "value": "#0071e3",
+        "token": "--color-apple-blue",
+        "role": "Primary CTA, buy button, active commerce action"
+      },
+      "linkBlue": {
+        "value": "#0066cc",
+        "token": "--color-link-blue",
+        "role": "Inline links, secondary CTA text, learn-more links"
+      }
+    },
+    "neutral": {
+      "deepInk": {
+        "value": "#1d1d1f",
+        "token": "--color-deep-ink",
+        "role": "Main headlines and highest contrast text"
+      },
+      "bodyInk": {
+        "value": "#333333",
+        "token": "--color-body-ink",
+        "role": "Secondary high-emphasis body text"
+      },
+      "midGraphite": {
+        "value": "#424245",
+        "token": "--color-mid-graphite",
+        "role": "Nav text, body copy, product labels"
+      },
+      "graphite": {
+        "value": "#6e6e73",
+        "token": "--color-graphite",
+        "role": "Captions, eyebrows, secondary text"
+      },
+      "systemGray": {
+        "value": "#86868b",
+        "token": "--color-system-gray",
+        "role": "Legal text, inactive copy, muted labels"
+      },
+      "hairline": {
+        "value": "#d2d2d7",
+        "token": "--color-hairline",
+        "role": "Borders, dividers, tile separations"
+      },
+      "frost": {
+        "value": "#f5f5f7",
+        "token": "--color-frost",
+        "role": "Page bands, product tiles, nav wash"
+      },
+      "softFrost": {
+        "value": "#fbfbfd",
+        "token": "--color-soft-frost",
+        "role": "Hero product background and clean product stage"
+      },
+      "pureWhite": {
+        "value": "#ffffff",
+        "token": "--color-pure-white",
+        "role": "Main page canvas and card surfaces"
+      },
+      "black": {
+        "value": "#000000",
+        "token": "--color-black",
+        "role": "Footer text, device silhouettes, deep contrast"
+      }
+    },
+    "state": {
+      "green": {
+        "value": "#008009",
+        "token": "--color-green",
+        "role": "Environmental values, trade-in, availability, positive state"
+      },
+      "productRed": {
+        "value": "#bf4800",
+        "token": "--color-product-red",
+        "role": "New or promotional product status"
+      }
+    }
+  },
+  "surfaces": {
+    "page": "#ffffff",
+    "hero": "#fbfbfd",
+    "tile": "#f5f5f7",
+    "card": "#ffffff",
+    "nav": "rgba(251,251,253,0.8)"
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": {
+        "name": "SF Pro Display",
+        "fallbacks": ["-apple-system", "BlinkMacSystemFont", "Inter", "system-ui", "sans-serif"],
+        "role": "Hero headlines, product names, large display hierarchy"
+      },
+      "text": {
+        "name": "SF Pro Text",
+        "fallbacks": ["-apple-system", "BlinkMacSystemFont", "Inter", "system-ui", "sans-serif"],
+        "role": "Body, nav, captions, buttons, product UI"
+      },
+      "icons": {
+        "name": "SF Pro Icons",
+        "fallbacks": ["system UI icons"],
+        "role": "Inline Apple-style icon glyphs and chevrons"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "semibold": 600
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": 1.33,
+        "fontWeight": 400
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": 1.43,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "17px",
+        "lineHeight": 1.47,
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "21px",
+        "lineHeight": 1.38,
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "24px",
+        "lineHeight": 1.17,
+        "fontWeight": 600
+      },
+      "headingSm": {
+        "fontSize": "28px",
+        "lineHeight": 1.14,
+        "fontWeight": 600
+      },
+      "heading": {
+        "fontSize": "40px",
+        "lineHeight": 1.1,
+        "fontWeight": 600
+      },
+      "headingLg": {
+        "fontSize": "56px",
+        "lineHeight": 1.07,
+        "fontWeight": 600
+      },
+      "display": {
+        "fontSize": "80px",
+        "lineHeight": 1.05,
+        "fontWeight": 600
+      }
+    },
+    "letterSpacing": "normal or subtly tight"
+  },
+  "spacing": {
+    "density": "comfortable",
+    "contentMaxWidth": "980px",
+    "heroMaxWidth": "1440px",
+    "sectionGap": "96px",
+    "cardPadding": "24px",
+    "elementGap": "12px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "32px", "40px", "48px", "64px", "80px", "96px", "120px", "160px"]
+  },
+  "shape": {
+    "radii": {
+      "navControls": "18px",
+      "buttons": "980px",
+      "cards": "28px",
+      "productTiles": "32px",
+      "inputs": "12px",
+      "deviceMockups": "44px"
+    },
+    "border": {
+      "default": "1px solid #d2d2d7"
+    },
+    "elevation": {
+      "default": "none",
+      "nav": "backdrop-filter: blur(20px)",
+      "product": "natural rendered product depth"
+    }
+  },
+  "components": {
+    "frostedTopNavigation": {
+      "height": "44px",
+      "background": "rgba(251,251,253,0.8)",
+      "backdrop": "blur(20px)",
+      "text": "12px SF Pro Text #1d1d1f or #424245",
+      "width": "1024px centered",
+      "border": "optional hairline bottom border"
+    },
+    "primaryBuyButton": {
+      "background": "#0071e3",
+      "color": "#ffffff",
+      "radius": "980px",
+      "padding": "7px 15px",
+      "font": "12px to 14px SF Pro Text 400",
+      "usage": "buy, upgrade, add-to-bag actions"
+    },
+    "blueCTALink": {
+      "color": "#0066cc or #0071e3",
+      "font": "17px SF Pro Text",
+      "decoration": "none by default, underline on hover",
+      "usage": "learn more, view pricing, compare, configure"
+    },
+    "heroProductSection": {
+      "background": "#fbfbfd or #ffffff",
+      "layout": "centered stack",
+      "title": "56px to 80px SF Pro Display 600",
+      "subhead": "21px to 28px",
+      "ctaRow": "blue text links or buy button plus link",
+      "image": "large device or product image, dominant visual"
+    },
+    "productTile": {
+      "background": "#f5f5f7",
+      "radius": "28px to 32px",
+      "padding": "32px to 48px",
+      "layout": "centered, image dominant",
+      "title": "28px to 40px 600",
+      "cta": "blue link or small buy pill"
+    },
+    "comparisonCard": {
+      "background": "#ffffff or #fbfbfd",
+      "border": "1px solid #d2d2d7",
+      "radius": "28px",
+      "padding": "24px",
+      "productImage": "top",
+      "specs": "compact 14px SF Pro Text",
+      "action": "small blue buy pill"
+    },
+    "accessoryCard": {
+      "background": "#f5f5f7",
+      "radius": "28px",
+      "image": "dominant, usually top or center",
+      "text": "short title and concise copy",
+      "cta": "blue link"
+    },
+    "ribbonBanner": {
+      "background": "#f5f5f7 or #ffffff",
+      "text": "centered 14px SF Pro Text",
+      "link": "inline Link Blue",
+      "role": "financing, trade-in, delivery, promo, or help message"
+    },
+    "footerLegal": {
+      "background": "#f5f5f7",
+      "text": "12px SF Pro Text #6e6e73",
+      "width": "980px",
+      "layout": "dense columns and legal notes"
+    }
+  },
+  "layout": {
+    "patterns": [
+      "Centered hero with eyebrow, product name, large headline, subhead, CTA row, and dominant product image",
+      "Frosted top nav with compact links and bag/search icons",
+      "Product tile grids on frost backgrounds",
+      "Comparison cards with product image, specs, and small buy pill",
+      "Accessory cards with large product image and minimal text",
+      "Ribbon banners for trade-in, financing, delivery, and support messages",
+      "Dense legal footer with muted links and notes"
+    ],
+    "imagery": "Real product renders or inspection-friendly product photography"
+  },
+  "motion": {
+    "duration": "200ms",
+    "easing": "ease",
+    "usage": "Subtle UI transitions and restrained product transitions"
+  },
+  "do": [
+    "Use white and frost surfaces.",
+    "Use SF Pro or Apple system fonts.",
+    "Use #0071e3 for buy actions and important commerce CTAs.",
+    "Use large centered product imagery.",
+    "Use generous negative space.",
+    "Use pill controls for buy actions.",
+    "Use 1px #d2d2d7 hairline borders.",
+    "Keep legal and footer content dense but muted."
+  ],
+  "dont": [
+    "Do not add decorative gradients unless they are tied to product lighting.",
+    "Do not use custom display fonts.",
+    "Do not add heavy shadows around product tiles.",
+    "Do not use non-blue CTA colors.",
+    "Do not use card radius above 32px except for pills.",
+    "Do not place body text over product images.",
+    "Do not introduce multiple chromatic accents.",
+    "Do not use dark mode unless the product launch page specifically calls for it."
+  ]
+}

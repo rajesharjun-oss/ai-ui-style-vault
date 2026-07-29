@@ -1,0 +1,183 @@
+{
+  "id": "56cd3725-3ff0-459e-894d-5da58d1fc549",
+  "name": "PostHog",
+  "slug": "posthog",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/56cd3725-3ff0-459e-894d-5da58d1fc549",
+  "referenceSite": "https://posthog.com",
+  "capturedAt": "2026-07-28",
+  "industry": "devtools",
+  "mood": "warm paper desktop pinned to cork",
+  "summary": "A tactile devtools desktop OS style with a sandy canvas, white application windows, tiny radii, hairline borders, Open Runde body/display type, IBM Plex Sans controls, amber CTAs, and blue active states.",
+  "useWhen": [
+    "Developer tools",
+    "Analytics products",
+    "Product OS interfaces",
+    "Docs workspaces",
+    "Friendly technical SaaS pages"
+  ],
+  "avoidWhen": [
+    "Glossy enterprise dashboards",
+    "Luxury editorial sites",
+    "Dark cinematic pages",
+    "Interfaces that need large soft rounded cards"
+  ],
+  "colors": {
+    "sandyDesk": {
+      "value": "#e1d7c2",
+      "role": "Outer page canvas, low-emphasis panels, placeholder blocks"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Application windows, cards, popovers, main content surfaces"
+    },
+    "creamPaper": {
+      "value": "#fdfdf8",
+      "role": "Secondary windows and warm off-white hover surfaces"
+    },
+    "softLinen": {
+      "value": "#eeefe9",
+      "role": "Nested cards, secondary buttons, subtle grouped surfaces"
+    },
+    "paleStone": {
+      "value": "#e5e7e0",
+      "role": "Hover backgrounds, selected list items, disabled surfaces"
+    },
+    "deepMoss": {
+      "value": "#23251d",
+      "role": "Primary text and headings"
+    },
+    "oliveChar": {
+      "value": "#4d4f46",
+      "role": "Body text, secondary icons, SVG fills, sidebar labels"
+    },
+    "sageGray": {
+      "value": "#65675e",
+      "role": "Inactive tabs, muted text, tertiary content"
+    },
+    "ashGreen": {
+      "value": "#9ea096",
+      "role": "Placeholders, disabled controls, low-emphasis icons"
+    },
+    "fadedPewter": {
+      "value": "#b3b3af",
+      "role": "Subtle dividers and softer border details"
+    },
+    "warmMist": {
+      "value": "#bfc1b7",
+      "role": "Primary hairline border"
+    },
+    "signalBlue": {
+      "value": "#2f80fa",
+      "role": "Active states, live links, selected navigation"
+    },
+    "amberGlow": {
+      "value": "#eb9d2a",
+      "role": "Single primary CTA"
+    },
+    "darkAmber": {
+      "value": "#cd8407",
+      "role": "CTA hover and active state"
+    },
+    "burnishedGold": {
+      "value": "#b17816",
+      "role": "Outlined actions and amber-context links"
+    },
+    "marigold": {
+      "value": "#f1a82c",
+      "role": "Decorative illustration fills and icon accents"
+    },
+    "flameOrange": {
+      "value": "#f54e00",
+      "role": "Highlight backgrounds, feature tag fills, warm emphasis"
+    },
+    "mossGreen": {
+      "value": "#6aa84f",
+      "role": "Supporting green wash and small badge fills"
+    }
+  },
+  "typography": {
+    "brandFamily": "\"Open Runde\", \"Inter Tight\", \"DM Sans\", system-ui, sans-serif",
+    "uiFamily": "\"IBM Plex Sans Variable\", \"IBM Plex Sans\", \"Inter\", system-ui, sans-serif",
+    "codeFamily": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+    "trackingRule": "Apply -0.025em to Open Runde text at 18px and above",
+    "roles": {
+      "micro": {
+        "fontSize": "12px",
+        "lineHeight": "1.33",
+        "letterSpacing": "0"
+      },
+      "caption": {
+        "fontSize": "14px",
+        "lineHeight": "1.43",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "subheading": {
+        "fontSize": "19px",
+        "lineHeight": "1.56",
+        "letterSpacing": "-0.025em"
+      },
+      "heading": {
+        "fontSize": "21px",
+        "lineHeight": "1.4",
+        "letterSpacing": "-0.025em"
+      },
+      "headingLarge": {
+        "fontSize": "24px",
+        "lineHeight": "1.33",
+        "letterSpacing": "-0.025em"
+      },
+      "display": {
+        "fontSize": "36px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "pageMaxWidth": "958px",
+    "elementGap": "8px",
+    "sectionGap": "48px",
+    "cardPadding": "16px",
+    "windowPadding": "16px to 32px",
+    "sidebarWidth": "60px to 100px"
+  },
+  "shape": {
+    "cards": "4px",
+    "inputs": "4px",
+    "buttons": "4px",
+    "windows": "6px",
+    "tags": "9999px"
+  },
+  "elevation": {
+    "strategy": "Use 1px hairline borders instead of shadows",
+    "windowShadow": "none",
+    "cardShadow": "none",
+    "modalOverlay": "rgba(0,0,0,0.25) 0px 25px 50px -12px"
+  },
+  "components": [
+    "Application Window",
+    "Sidebar File Entry",
+    "Amber CTA Button",
+    "Outlined Action Button",
+    "Ghost Toolbar Button",
+    "Tab Bar Item",
+    "Tag Pill",
+    "Hairline Divider",
+    "Window Title Bar",
+    "Text Link",
+    "Product Feature Card",
+    "Illustrated Decoration Panel"
+  ],
+  "imagery": {
+    "style": "Flat, isometric-ish, tactile diagram, olive outlines, selective amber/blue/orange/green fills",
+    "avoid": "Photography, glossy 3D, glassmorphism, generic SaaS hero art"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "eb804e3a-1b75-446c-8374-114bbabaf0cd",
+  "name": "Cosmos",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/eb804e3a-1b75-446c-8374-114bbabaf0cd",
+  "referenceUrl": "https://cosmos.so",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Warm linen gallery wall with monochrome interface chrome, image-led components, flat paper surfaces, and soft editorial serif typography.",
+  "bestFor": [
+    "visual discovery products",
+    "galleries",
+    "moodboards",
+    "creative bookmarking",
+    "image feeds",
+    "portfolio systems",
+    "film/editorial landing pages"
+  ],
+  "tags": [
+    "light",
+    "gallery",
+    "visual-discovery",
+    "warm-linen",
+    "monochrome-ui",
+    "image-first",
+    "floating-polaroids",
+    "editorial-serif",
+    "flat-surfaces",
+    "pill-nav",
+    "moodboard"
+  ],
+  "colors": {
+    "linenCanvas": {
+      "value": "#f7f5f3",
+      "token": "--color-linen-canvas",
+      "role": "Root page background and gallery-wall canvas."
+    },
+    "inkBlack": {
+      "value": "#0d0d0d",
+      "token": "--color-ink-black",
+      "role": "Primary text, icons, filled buttons, and low-opacity structural borders."
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "token": "--color-paper-white",
+      "role": "Cards, inputs, outlined buttons, and subtle elevated surfaces."
+    },
+    "stone": {
+      "value": "#6e6a69",
+      "token": "--color-stone",
+      "role": "Body copy, secondary icons, inactive controls, and metadata."
+    },
+    "pebble": {
+      "value": "#9a9796",
+      "token": "--color-pebble",
+      "role": "Helper text, tertiary labels, disabled text, and placeholder tone."
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "cosmosOracle",
+      "fallback": "GT Super, Fraunces, Georgia, serif"
+    },
+    "weights": {
+      "whisper": 350,
+      "regular": 400,
+      "medium": 500
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "14px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.5",
+        "letterSpacing": "-0.18px"
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "lineHeight": "1.29",
+        "letterSpacing": "-0.2px"
+      },
+      "headingSmall": {
+        "fontSize": "24px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.48px"
+      },
+      "heading": {
+        "fontSize": "33px",
+        "lineHeight": "1.1",
+        "letterSpacing": "-1.32px"
+      },
+      "headingLarge": {
+        "fontSize": "38px",
+        "lineHeight": "1.08",
+        "letterSpacing": "-1.52px"
+      },
+      "display": {
+        "fontSize": "58px",
+        "lineHeight": "1.06",
+        "letterSpacing": "-2.32px"
+      },
+      "displayXl": {
+        "fontSize": "74px",
+        "lineHeight": "0.8",
+        "letterSpacing": "-3.7px"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1280px",
+    "sectionGap": "80px",
+    "cardPadding": "16px",
+    "elementGap": "24px",
+    "scalePx": [4, 8, 16, 20, 24, 32, 40, 48, 72, 200]
+  },
+  "radii": {
+    "cards": "16px",
+    "inputs": "16px",
+    "buttons": "16px",
+    "imageTiles": "12px",
+    "videoContainer": "16px",
+    "navPill": "9999px"
+  },
+  "components": [
+    "Primary Filled Button",
+    "Secondary Outlined Button",
+    "Pill Navigation Bar",
+    "Search Input",
+    "Floating Image Tile",
+    "Feature Image Card",
+    "Video Container",
+    "AI Content Detection Overlay",
+    "Text Link With Play Icon",
+    "Theme Toggle",
+    "Eyebrow Label",
+    "Dot Cluster Logo"
+  ],
+  "guidance": {
+    "do": [
+      "Use Linen Canvas as the root background.",
+      "Use Paper White only for cards, inputs, and outlined buttons.",
+      "Use 16px radius for containers, buttons, inputs, and video surfaces.",
+      "Use 12px radius for small image tiles.",
+      "Set display type at weight 350 with tight tracking.",
+      "Pair filled and outlined buttons with identical sizing.",
+      "Let user imagery carry all chromatic color.",
+      "Use a single floating pill nav."
+    ],
+    "dont": [
+      "Do not add accent colors to the interface chrome.",
+      "Do not use font weights above 500.",
+      "Do not add drop shadows to normal cards, buttons, or nav.",
+      "Do not set body text outside the 14px to 18px range.",
+      "Do not mix unrelated radius values into the page.",
+      "Do not use pure black.",
+      "Do not place colored UI backgrounds behind text.",
+      "Do not build dashboards or data-dense layouts in this style."
+    ]
+  }
+}
+

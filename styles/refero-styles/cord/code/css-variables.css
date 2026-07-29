@@ -1,0 +1,181 @@
+:root {
+  --cord-color-midnight-harbor: #0b3658;
+  --cord-color-signal-blue: #4e9ad9;
+  --cord-color-slate-channel: #486984;
+  --cord-color-pale-steel: #688dac;
+  --cord-color-sea-fog: #dde7ee;
+  --cord-color-ice-tint: #e6f1fa;
+  --cord-color-light-mist: #c8d8e4;
+  --cord-color-canvas-white: #ffffff;
+  --cord-color-active-teal: #42b3b1;
+
+  --cord-font-figtree: Figtree, Inter, "DM Sans", "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --cord-text-caption-size: 10px;
+  --cord-text-caption-line: 1.5;
+  --cord-text-caption-tracking: 0.1px;
+  --cord-text-body-sm-size: 14px;
+  --cord-text-body-sm-line: 1.4;
+  --cord-text-body-sm-tracking: -0.07px;
+  --cord-text-body-size: 16px;
+  --cord-text-body-line: 1.5;
+  --cord-text-body-tracking: -0.08px;
+  --cord-text-subheading-size: 18px;
+  --cord-text-subheading-line: 1.4;
+  --cord-text-subheading-tracking: -0.09px;
+  --cord-text-heading-sm-size: 20px;
+  --cord-text-heading-sm-line: 1.3;
+  --cord-text-heading-sm-tracking: -0.1px;
+  --cord-text-heading-size: 24px;
+  --cord-text-heading-line: 1.3;
+  --cord-text-heading-tracking: -0.12px;
+  --cord-text-heading-lg-size: 32px;
+  --cord-text-heading-lg-line: 1.25;
+  --cord-text-heading-lg-tracking: -0.16px;
+  --cord-text-display-size: 48px;
+  --cord-text-display-line: 1.2;
+  --cord-text-display-tracking: -0.24px;
+  --cord-text-hero-size: 100px;
+  --cord-text-hero-line: 1;
+  --cord-text-hero-tracking: -0.5px;
+
+  --cord-font-weight-regular: 400;
+  --cord-font-weight-semibold: 600;
+  --cord-font-weight-bold: 700;
+  --cord-font-weight-extrabold: 800;
+
+  --cord-space-4: 4px;
+  --cord-space-8: 8px;
+  --cord-space-12: 12px;
+  --cord-space-16: 16px;
+  --cord-space-20: 20px;
+  --cord-space-24: 24px;
+  --cord-space-28: 28px;
+  --cord-space-32: 32px;
+  --cord-space-40: 40px;
+  --cord-space-48: 48px;
+  --cord-space-56: 56px;
+  --cord-space-60: 60px;
+  --cord-space-64: 64px;
+  --cord-space-80: 80px;
+  --cord-space-180: 180px;
+
+  --cord-width-page: 1200px;
+  --cord-section-gap: 64px;
+  --cord-card-padding: 20px;
+  --cord-element-gap: 12px;
+
+  --cord-radius-badge: 5px;
+  --cord-radius-filter: 8px;
+  --cord-radius-card: 20px;
+  --cord-radius-image: 20px;
+  --cord-radius-control: 24px;
+  --cord-radius-pill: 35px;
+
+  --cord-shadow-card: 0px 12px 48px 0px rgba(11, 54, 88, 0.08);
+  --cord-shadow-card-subtle: 0px 4px 32px 0px rgba(11, 54, 88, 0.08);
+  --cord-shadow-button-hover: 0px 4px 12px 0px rgba(11, 54, 88, 0.04);
+}
+
+.cord-page {
+  background: var(--cord-color-canvas-white);
+  color: var(--cord-color-midnight-harbor);
+  font-family: var(--cord-font-figtree);
+}
+
+.cord-rail {
+  width: min(100% - 40px, var(--cord-width-page));
+  margin-inline: auto;
+}
+
+.cord-hero-title {
+  color: var(--cord-color-midnight-harbor);
+  font-size: clamp(56px, 10vw, var(--cord-text-hero-size));
+  line-height: var(--cord-text-hero-line);
+  letter-spacing: var(--cord-text-hero-tracking);
+  font-weight: var(--cord-font-weight-extrabold);
+}
+
+.cord-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: var(--cord-radius-control);
+  background: var(--cord-color-signal-blue);
+  color: var(--cord-color-canvas-white);
+  font: 600 16px / 1.3 var(--cord-font-figtree);
+  text-decoration: none;
+}
+
+.cord-primary-button:hover,
+.cord-primary-button:focus-visible {
+  box-shadow: var(--cord-shadow-button-hover);
+}
+
+.cord-search-input {
+  min-height: 56px;
+  border: 1px solid var(--cord-color-sea-fog);
+  border-radius: var(--cord-radius-control);
+  background: var(--cord-color-canvas-white);
+  color: var(--cord-color-midnight-harbor);
+  padding: 16px 20px;
+  font: 400 16px / 1.5 var(--cord-font-figtree);
+}
+
+.cord-search-input::placeholder {
+  color: var(--cord-color-slate-channel);
+}
+
+.cord-search-input:focus {
+  outline: none;
+  box-shadow: var(--cord-shadow-card-subtle);
+}
+
+.cord-company-card {
+  border-radius: var(--cord-radius-card);
+  background: var(--cord-color-canvas-white);
+  padding: var(--cord-card-padding);
+  box-shadow: var(--cord-shadow-card);
+}
+
+.cord-company-image {
+  width: 100%;
+  border-radius: var(--cord-radius-image);
+  object-fit: cover;
+}
+
+.cord-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: var(--cord-radius-badge);
+  background: var(--cord-color-ice-tint);
+  color: var(--cord-color-signal-blue);
+  padding: 3px 8px;
+  font: 600 12px / 1.2 var(--cord-font-figtree);
+}
+
+.cord-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--cord-color-sea-fog);
+  border-radius: var(--cord-radius-filter);
+  background: var(--cord-color-canvas-white);
+  color: var(--cord-color-midnight-harbor);
+  padding: 8px 16px;
+  font: 600 14px / 1.4 var(--cord-font-figtree);
+}
+
+.cord-dark-banner {
+  background: var(--cord-color-midnight-harbor);
+  color: var(--cord-color-canvas-white);
+}
+
+.cord-dark-banner-copy {
+  color: var(--cord-color-sea-fog);
+}
+

@@ -1,0 +1,50 @@
+@theme {
+  /* Colors */
+  --color-deep-ink: #130e30;
+  --color-hi-yellow: #ffe228;
+  --color-moss-green: #59e25d;
+  --color-fuchsia: #e261e5;
+  --color-slate: #5f5c6e;
+  --color-canvas: #f9fbf2;
+  --color-soft-meadow: #eff2e5;
+  --color-charcoal: #222222;
+  --color-onyx: #000000;
+
+  /* Typography */
+  --font-hedvig-letters-serif: "Hedvig Letters Serif", "DM Serif Display", "Source Serif 4", "Libre Caslon Text", Georgia, serif;
+  --font-inter: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 10px;
+  --leading-caption: 1.2;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --text-subheading: 18px;
+  --leading-subheading: 1.5;
+  --text-heading-sm: 22px;
+  --leading-heading-sm: 1.25;
+  --text-heading: 32px;
+  --leading-heading: 1.15;
+  --text-heading-lg: 48px;
+  --leading-heading-lg: 1.1;
+  --text-display: 64px;
+  --leading-display: 1;
+
+  /* Spacing */
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-96: 96px;
+
+  /* Radius */
+  --radius-nav: 1440px;
+  --radius-tags: 1440px;
+  --radius-icons: 1440px;
+  --radius-buttons: 1440px;
+  --radius-cards: 24px;
+}
+

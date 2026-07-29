@@ -1,0 +1,112 @@
+{
+  "id": "c3ceca5c-d329-4559-b947-016172941ba2",
+  "name": "GitHub",
+  "slug": "github",
+  "theme": "dark",
+  "sourceUrl": "https://styles.refero.design/style/c3ceca5c-d329-4559-b947-016172941ba2",
+  "referenceSite": "https://github.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "cosmic developer observatory",
+    "dark glass command deck",
+    "violet radial atmosphere",
+    "terminal-green action beacon",
+    "synthetic product evidence"
+  ],
+  "summary": "A dark developer platform style using Mona Sans, translucent glass cards, violet atmospheric gradients, code and IDE imagery, and one Terminal Green primary CTA.",
+  "useWhen": [
+    "Developer platform landing pages",
+    "AI coding products",
+    "Cloud infrastructure pages",
+    "Security or automation tooling",
+    "Code-heavy product marketing"
+  ],
+  "avoidWhen": [
+    "Light editorial sites",
+    "Lifestyle photo-led brands",
+    "Colorful consumer apps",
+    "Dense white dashboards",
+    "Interfaces requiring many semantic colors"
+  ],
+  "colors": {
+    "deepVoid": "#0d1117",
+    "abyss": "#000000",
+    "carbon": "#090d0a",
+    "obsidian": "#151a22",
+    "slateEdge": "#21262d",
+    "iron": "#3d4145",
+    "fog": "#484f58",
+    "moss": "#7c8980",
+    "mercury": "#818b98",
+    "ash": "#9ea0a2",
+    "pearl": "#a4aea6",
+    "snow": "#ffffff",
+    "terminalGreen": "#08872b",
+    "phosphor": "#5fed83",
+    "canopy": "#0d3024",
+    "ultraviolet": "#8c93fb",
+    "sky": "#8dd6ff",
+    "cobalt": "#1f6feb"
+  },
+  "typography": {
+    "primary": {
+      "family": "Mona Sans",
+      "fallback": "Inter",
+      "weights": [400, 425, 440, 460, 480, 500, 600, 800],
+      "sizes": ["12px", "14px", "16px", "18px", "22px", "24px", "40px", "48px", "64px"],
+      "lineHeight": "1.0-1.5",
+      "letterSpacing": "-0.035em at display to 0.01em at 18px",
+      "fontFeatures": ["ss01", "cv11"]
+    },
+    "mono": {
+      "family": "Mona Sans Mono",
+      "fallback": "JetBrains Mono",
+      "weights": [400, 480, 500],
+      "sizes": ["12px", "14px", "16px"],
+      "lineHeight": "1.5",
+      "letterSpacing": "0.015em"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "64px-96px",
+    "cardPadding": "24px",
+    "elementGap": "16px-24px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "40px", "44px", "48px", "64px", "80px", "96px"]
+  },
+  "shape": {
+    "inputRadius": "6px",
+    "buttonRadius": "6px",
+    "imageRadius": "16px",
+    "cardRadius": "24px",
+    "pillButtonRadius": "60px",
+    "tagRadius": "9999px",
+    "shadow": "no drop shadows; use translucency, blur, and borders"
+  },
+  "components": [
+    "primary CTA button",
+    "ghost button",
+    "pill button nav tag",
+    "outlined action button",
+    "email input field",
+    "glass surface card",
+    "featured card with violet border",
+    "top navigation bar",
+    "section header block",
+    "tab navigation row",
+    "hero gradient banner",
+    "IDE or device frame screenshot",
+    "footer link grid"
+  ],
+  "implementationRules": [
+    "Use Terminal Green only for the single primary CTA per screen.",
+    "Use Mona Sans 16px/400/1.5 for body text.",
+    "Use 64px Mona Sans display at weight 425 with tight tracking.",
+    "Use translucent rgba white fills and 1px borders for glass cards.",
+    "Use 24px radius for major cards, 6px for action buttons, and 60px for nav pills.",
+    "Use violet radial halos for atmosphere, not solid violet surfaces.",
+    "Use synthetic 3D, code, browser, and IDE imagery instead of photography."
+  ]
+}

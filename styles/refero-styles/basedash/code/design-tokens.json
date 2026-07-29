@@ -1,0 +1,128 @@
+{
+  "name": "Basedash",
+  "slug": "basedash",
+  "theme": "dark",
+  "source": "https://styles.refero.design/style/77b723ca-9583-4349-9b5e-2ef8b4fde002",
+  "referenceSite": "https://www.basedash.com",
+  "color": {
+    "voidBlack": {
+      "value": "#000000",
+      "type": "color",
+      "role": "Page canvas, hero background, deepest surface"
+    },
+    "carbonCard": {
+      "value": "#050607",
+      "type": "color",
+      "role": "Card and elevated surface background"
+    },
+    "graphite": {
+      "value": "#333333",
+      "type": "color",
+      "role": "Deep borders and separators"
+    },
+    "steelGray": {
+      "value": "#808080",
+      "type": "color",
+      "role": "Borders, dividers, icon strokes, disabled text"
+    },
+    "ashGray": {
+      "value": "#b3b3b3",
+      "type": "color",
+      "role": "Secondary body text and muted helper copy"
+    },
+    "boneWhite": {
+      "value": "#e8eaee",
+      "type": "color",
+      "role": "Subtle light washes"
+    },
+    "ghostWhite": {
+      "value": "#ffffff",
+      "type": "color",
+      "role": "Primary text and filled CTA background"
+    },
+    "lavenderPulse": {
+      "value": "#9984d8",
+      "type": "color",
+      "role": "Violet data accent and focus edges"
+    },
+    "mintSignal": {
+      "value": "#3fcb7f",
+      "type": "color",
+      "role": "Positive state and green data accent"
+    }
+  },
+  "font": {
+    "inter": {
+      "value": "Inter, ui-sans-serif, system-ui, sans-serif",
+      "type": "fontFamily",
+      "role": "Functional UI"
+    },
+    "display": {
+      "value": "Alpha Lyrae, Cormorant Garamond, EB Garamond, PT Serif, serif",
+      "type": "fontFamily",
+      "role": "Hero and major headings"
+    },
+    "quote": {
+      "value": "Iowan Old Style, Source Serif Pro, Lora, Palatino, serif",
+      "type": "fontFamily",
+      "role": "Testimonial pull quotes"
+    }
+  },
+  "size": {
+    "caption": {
+      "value": "12px",
+      "lineHeight": "1.5",
+      "letterSpacing": "-0.36px"
+    },
+    "bodySm": {
+      "value": "14px",
+      "lineHeight": "1.43",
+      "letterSpacing": "-0.42px"
+    },
+    "body": {
+      "value": "16px",
+      "lineHeight": "1.5",
+      "letterSpacing": "-0.48px"
+    },
+    "bodyLg": {
+      "value": "18px",
+      "lineHeight": "1.56",
+      "letterSpacing": "-0.54px"
+    },
+    "subheading": {
+      "value": "24px",
+      "lineHeight": "1.25",
+      "letterSpacing": "-0.6px"
+    },
+    "headingSm": {
+      "value": "30px",
+      "lineHeight": "1.2",
+      "letterSpacing": "-0.9px"
+    },
+    "heading": {
+      "value": "34px",
+      "lineHeight": "1.2",
+      "letterSpacing": "-1.02px"
+    },
+    "display": {
+      "value": "48px",
+      "lineHeight": "1",
+      "letterSpacing": "0"
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "buttonY": "12px",
+    "buttonX": "20px",
+    "cardPadding": "16px to 20px",
+    "sectionGap": "80px to 120px",
+    "maxWidth": "1200px",
+    "heroCopyMaxWidth": "640px"
+  },
+  "radius": {
+    "small": "1px",
+    "button": "6px",
+    "card": "16px",
+    "pill": "999px"
+  }
+}

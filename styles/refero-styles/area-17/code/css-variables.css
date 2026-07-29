@@ -1,0 +1,122 @@
+:root {
+  --area-17-color-pure-white: #ffffff;
+  --area-17-color-graphite: #1a1a1a;
+  --area-17-color-true-black: #000000;
+  --area-17-color-hairline: #e6e6e6;
+  --area-17-color-fog: #f2f2f2;
+  --area-17-color-cream-stone: #f2ede9;
+  --area-17-color-muted: #949494;
+  --area-17-color-dim: #757575;
+  --area-17-color-disabled: #cccccc;
+  --area-17-color-electric-yellow: #fdf313;
+
+  --area-17-font-sans: "Suisse Intl", "Inter", "Sohne", "GT America", "Manrope", Arial, sans-serif;
+  --area-17-font-system: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --area-17-text-caption: 16px;
+  --area-17-text-subheading: 20px;
+  --area-17-text-heading-sm: 32px;
+  --area-17-text-heading: 42px;
+  --area-17-text-display: 55px;
+
+  --area-17-leading-caption: 1.5;
+  --area-17-leading-subheading: 1.4;
+  --area-17-leading-heading: 1.15;
+  --area-17-leading-display: 1.1;
+
+  --area-17-tracking-caption: 0.06px;
+  --area-17-tracking-subheading: -0.28px;
+  --area-17-tracking-heading-sm: -0.42px;
+  --area-17-tracking-heading: -0.59px;
+  --area-17-tracking-display: -0.82px;
+
+  --area-17-space-1: 8px;
+  --area-17-space-2: 16px;
+  --area-17-space-3: 24px;
+  --area-17-space-4: 32px;
+  --area-17-space-6: 48px;
+  --area-17-space-8: 64px;
+  --area-17-space-10: 80px;
+  --area-17-space-16: 128px;
+  --area-17-space-24: 192px;
+  --area-17-space-29: 232px;
+
+  --area-17-max-width: 1440px;
+  --area-17-text-max-width: 900px;
+  --area-17-section-gap-min: 80px;
+  --area-17-section-gap-max: 192px;
+  --area-17-card-padding-min: 16px;
+  --area-17-card-padding-max: 24px;
+  --area-17-element-gap-min: 8px;
+  --area-17-element-gap-max: 16px;
+
+  --area-17-radius-nav: 4px;
+  --area-17-radius-default: 8px;
+  --area-17-radius-pill: 9999px;
+}
+
+.area-17-page {
+  min-height: 100vh;
+  background: var(--area-17-color-pure-white);
+  color: var(--area-17-color-graphite);
+  font-family: var(--area-17-font-sans);
+}
+
+.area-17-container {
+  width: min(100% - 48px, var(--area-17-max-width));
+  margin-inline: auto;
+}
+
+.area-17-editorial-headline {
+  max-width: var(--area-17-text-max-width);
+  color: var(--area-17-color-graphite);
+  font-size: clamp(42px, 6vw, var(--area-17-text-display));
+  font-weight: 500;
+  line-height: var(--area-17-leading-display);
+  letter-spacing: var(--area-17-tracking-display);
+  text-align: left;
+}
+
+.area-17-link {
+  border: 0;
+  background: transparent;
+  color: var(--area-17-color-graphite);
+  font: 500 var(--area-17-text-caption) / var(--area-17-leading-caption) var(--area-17-font-sans);
+  text-decoration: none;
+}
+
+.area-17-link:hover {
+  color: var(--area-17-color-muted);
+}
+
+.area-17-button-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--area-17-color-graphite);
+  border-radius: var(--area-17-radius-default);
+  background: transparent;
+  color: var(--area-17-color-graphite);
+  padding: 16px 24px;
+  font: 500 var(--area-17-text-caption) / 1 var(--area-17-font-sans);
+}
+
+.area-17-card-fog {
+  border: 0;
+  border-radius: var(--area-17-radius-default);
+  background: var(--area-17-color-fog);
+  padding: 24px;
+  box-shadow: none;
+}
+
+.area-17-announcement {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 40px;
+  background: var(--area-17-color-electric-yellow);
+  color: var(--area-17-color-graphite);
+  padding: 12px 24px;
+  font: 500 var(--area-17-text-caption) / var(--area-17-leading-caption) var(--area-17-font-sans);
+}

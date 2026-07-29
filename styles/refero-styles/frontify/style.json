@@ -1,0 +1,93 @@
+{
+  "id": "8f42603d-7ff9-446e-99a3-6bdd1f388ae5",
+  "name": "Frontify",
+  "slug": "frontify",
+  "sourceUrl": "https://styles.refero.design/style/8f42603d-7ff9-446e-99a3-6bdd1f388ae5",
+  "referenceSite": "https://www.frontify.com",
+  "capturedAt": "2026-07-28",
+  "theme": "light",
+  "mood": "warm atelier with orange punctuation",
+  "industry": ["brand management", "creative operations", "design systems", "digital asset management", "SaaS"],
+  "summary": "A warm editorial brand-management style with cream canvas, white cards, ink hairline borders, deep teal hero sections, Cranny display type, ABC Diatype UI text, 8px card radius, 18px media radius, pill buttons, no shadows, and one small Signal Orange accent.",
+  "colors": {
+    "warmParchment": "#f0f0eb",
+    "galleryWhite": "#ffffff",
+    "softLinen": "#e1e1db",
+    "mistGray": "#d7d7cf",
+    "paleStone": "#cbcbc5",
+    "ashGray": "#bfbfb8",
+    "graphiteWarm": "#575753",
+    "charcoalWarm": "#464643",
+    "ink": "#111110",
+    "signalOrange": "#ff3b00",
+    "deepTeal": "#042a2b"
+  },
+  "typography": {
+    "display": "Cranny",
+    "displayFallback": "Fraunces, Playfair Display, DM Serif Display",
+    "body": "ABC Diatype",
+    "bodyFallback": "Inter, Sohne, GT America, Arial",
+    "secondaryBody": "Satoshi",
+    "secondaryBodyFallback": "DM Sans, Manrope, Arial",
+    "displayAccent": "Cabinetgrotesk",
+    "displayAccentFallback": "Cabinet Grotesk, General Sans, Arial",
+    "displayWeights": [300, 400],
+    "bodyWeights": [400, 500],
+    "displayTracking": "-0.008em to 0",
+    "bodyTracking": "0.010em"
+  },
+  "shape": {
+    "cardRadius": "8px",
+    "imageRadius": "18px",
+    "navPillRadius": "32px",
+    "buttonLargeRadius": "40px",
+    "buttonSmallRadius": "24px",
+    "tagRadius": "9999px"
+  },
+  "layout": {
+    "baseUnit": "8px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "32px",
+    "elementGap": "8px to 16px",
+    "model": "cream editorial canvas, full-bleed dark teal hero, centered serif headline blocks, flat white product cards, logo strips, media library grids, and sparse orange punctuation"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "avoid for UI; use neutral layering and photography instead",
+    "depth": "warm neutral layers, 1px borders, dark teal sections, white cards, and rounded media"
+  },
+  "components": [
+    "warm top navigation",
+    "dark teal hero",
+    "filled ink pill button",
+    "ghost pill button",
+    "logo bar",
+    "feature heading block",
+    "upload drop zone",
+    "media library card",
+    "overlapping image tile",
+    "pill tag",
+    "breadcrumb",
+    "CTA card with glass overlay"
+  ],
+  "dos": [
+    "Use Cranny weight 300 for large display headlines.",
+    "Use ABC Diatype for interface text with slight positive tracking.",
+    "Use Warm Parchment as the page canvas and Gallery White for cards.",
+    "Use 8px radius for cards and 24px to 40px radius for buttons.",
+    "Reserve Signal Orange for small functional moments.",
+    "Use Deep Teal for full-bleed editorial hero sections.",
+    "Separate surfaces with 1px hairline borders instead of shadows."
+  ],
+  "donts": [
+    "Do not add drop shadows or elevation stacks.",
+    "Do not use Cranny for body text or UI labels.",
+    "Do not apply Signal Orange to large fills, page sections, or long text.",
+    "Do not use pure black when Ink #111110 is intended.",
+    "Do not center-align long body copy.",
+    "Do not use tiny 4px or 6px card radii.",
+    "Do not introduce additional chromatic accent colors."
+  ]
+}

@@ -1,0 +1,73 @@
+@theme {
+  /* Colors */
+  --color-void-canvas: #070707;
+  --color-carbon-plate: #0d0e12;
+  --color-obsidian: #141418;
+  --color-steel-border: #22222a;
+  --color-iron-edge: #2e3038;
+  --color-cinder: #60606c;
+  --color-slate-mute: #a2a4a9;
+  --color-graphite: #aeaeb7;
+  --color-ash: #c8cad0;
+  --color-fog: #d9dae5;
+  --color-cloud-mist: #f0f0f0;
+  --color-pure-white: #ffffff;
+  --color-phosphor-mint: #70dcd3;
+  --color-signal-blue: #0092e4;
+  --color-current-blue: #00ade4;
+  --color-deep-signal: #0677d4;
+  --color-ice-blue: #a6e5f2;
+  --color-verdant-edge: #75ae4c;
+  --color-steel-iris: #929dbd;
+
+  /* Typography */
+  --font-calsans: "Calsans", "Space Grotesk", Inter, system-ui, sans-serif;
+  --font-geist: "Geist", Inter, system-ui, sans-serif;
+  --font-helvetica: Helvetica, Arial, system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --leading-caption: 1.22;
+  --tracking-caption: 0.5px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.44;
+  --tracking-body-sm: 0.25px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: 0.27px;
+  --text-subheading: 20px;
+  --leading-subheading: 1.5;
+  --tracking-subheading: -0.34px;
+  --text-heading-sm: 32px;
+  --leading-heading-sm: 1.1;
+  --tracking-heading-sm: 1.8px;
+  --text-heading: 56px;
+  --leading-heading: 1.1;
+  --tracking-heading: 3.1px;
+  --text-heading-lg: 72px;
+  --leading-heading-lg: 1;
+  --tracking-heading-lg: 4px;
+  --text-display: 88px;
+  --leading-display: 0.96;
+  --tracking-display: 4.9px;
+
+  /* Spacing */
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-56: 56px;
+  --spacing-80: 80px;
+
+  /* Radius */
+  --radius-inputs: 5px;
+  --radius-nested-cards: 16px;
+  --radius-cards: 20px;
+  --radius-badges: 800px;
+  --radius-buttons: 800px;
+
+  /* Shadows */
+  --shadow-none: none;
+  --shadow-filled-pill: rgba(0, 0, 0, 0.05) 2px 2px 0px 0px, rgb(255, 255, 255) 0px -1px 0px 0px inset, rgb(255, 255, 255) 1px 0px 0px 0px inset, rgb(255, 255, 255) -1px 0px 0px 0px inset, rgb(255, 255, 255) 0px 1px 0px 0px inset;
+  --shadow-input: rgba(0, 0, 0, 0.05) 2px 2px 0px 0px;
+}

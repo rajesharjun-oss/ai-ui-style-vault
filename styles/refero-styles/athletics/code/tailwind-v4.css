@@ -1,0 +1,97 @@
+@theme {
+  --color-athletics-obsidian: #000000;
+  --color-athletics-charcoal: #1d1d1d;
+  --color-athletics-ash: #d6d5d0;
+  --color-athletics-paper-white: #ffffff;
+
+  --font-athletics-display: "Feature Deck", "GT Sectra Display Light", "Canela", "Domaine Display Thin", serif;
+  --font-athletics-body: "Sohne", "Inter", "Neue Haas Grotesk", "Untitled Sans", Arial, sans-serif;
+
+  --text-athletics-body-sm: 16px;
+  --text-athletics-functional: 17px;
+  --text-athletics-subheading: 22px;
+  --text-athletics-heading: 72px;
+  --text-athletics-heading-lg: 82px;
+  --text-athletics-display: 116px;
+
+  --radius-athletics-card: 8px;
+  --radius-athletics-full: 9999px;
+
+  --spacing-athletics-16: 16px;
+  --spacing-athletics-24: 24px;
+  --spacing-athletics-32: 32px;
+  --spacing-athletics-48: 48px;
+  --spacing-athletics-64: 64px;
+  --spacing-athletics-128: 128px;
+  --spacing-athletics-144: 144px;
+}
+
+@layer components {
+  .athletics-page {
+    min-height: 100vh;
+    background: var(--color-athletics-obsidian);
+    color: var(--color-athletics-paper-white);
+    font-family: var(--font-athletics-body);
+  }
+
+  .athletics-section-charcoal {
+    background: var(--color-athletics-charcoal);
+    color: var(--color-athletics-paper-white);
+  }
+
+  .athletics-display {
+    font-family: var(--font-athletics-display);
+    font-size: clamp(72px, 12vw, var(--text-athletics-display));
+    font-weight: 300;
+    line-height: 1.05;
+    letter-spacing: -0.018em;
+  }
+
+  .athletics-heading {
+    font-family: var(--font-athletics-display);
+    font-size: clamp(56px, 8vw, var(--text-athletics-heading));
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: -0.009em;
+  }
+
+  .athletics-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: var(--radius-athletics-full);
+    background: var(--color-athletics-paper-white);
+    color: var(--color-athletics-obsidian);
+    padding: 12px 24px;
+    font-size: var(--text-athletics-body-sm);
+    font-weight: 400;
+    line-height: 1;
+    box-shadow: none;
+    text-decoration: none;
+  }
+
+  .athletics-tag {
+    display: inline-flex;
+    align-items: center;
+    border-radius: var(--radius-athletics-full);
+    background: var(--color-athletics-paper-white);
+    color: var(--color-athletics-obsidian);
+    padding: 8px 16px;
+    font-size: var(--text-athletics-body-sm);
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  .athletics-input {
+    border: 0;
+    border-bottom: 1px solid var(--color-athletics-ash);
+    border-radius: 0;
+    background: transparent;
+    color: var(--color-athletics-paper-white);
+    padding: 12px 0;
+    font-size: var(--text-athletics-body-sm);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}

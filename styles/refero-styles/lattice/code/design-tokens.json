@@ -1,0 +1,78 @@
+{
+  "name": "Lattice",
+  "slug": "lattice",
+  "sourceUrl": "https://styles.refero.design/style/cbb335e5-c8df-49be-a0fc-0ec5dfa0d61f",
+  "referenceSite": "https://lattice.com",
+  "tokens": {
+    "color": {
+      "charcoal": { "value": "#282a2a", "type": "color" },
+      "warmPaper": { "value": "#f4f3ef", "type": "color" },
+      "paper": { "value": "#ffffff", "type": "color" },
+      "mistBlue": { "value": "#c6d7db", "type": "color" },
+      "mutedGreen": { "value": "#749f99", "type": "color" },
+      "slateTeal": { "value": "#477d78", "type": "color" },
+      "amberGlow": { "value": "#e7ae3c", "type": "color" },
+      "softCoral": { "value": "#e78876", "type": "color" },
+      "lavenderHaze": { "value": "#a78fb2", "type": "color" },
+      "paleSky": { "value": "#d7e7ea", "type": "color" },
+      "lineMist": { "value": "#d7d7d2", "type": "color" },
+      "bodyGray": { "value": "#5c6060", "type": "color" }
+    },
+    "font": {
+      "sans": {
+        "value": "\"Inter Tight\", \"Inter\", system-ui, sans-serif",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "micro": { "value": "12px", "type": "dimension" },
+      "ui": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "cardTitle": { "value": "18px", "type": "dimension" },
+      "sectionHeading": { "value": "28px", "type": "dimension" },
+      "hero": { "value": "56px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "micro": { "value": "1.3", "type": "number" },
+      "ui": { "value": "1.4", "type": "number" },
+      "body": { "value": "1.6", "type": "number" },
+      "cardTitle": { "value": "1.3", "type": "number" },
+      "sectionHeading": { "value": "1.2", "type": "number" },
+      "hero": { "value": "1.05", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" },
+      "bold": { "value": "700", "type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "normal": { "value": "0", "type": "dimension" },
+      "cardTitle": { "value": "-0.01em", "type": "dimension" },
+      "sectionHeading": { "value": "-0.02em", "type": "dimension" },
+      "hero": { "value": "-0.035em", "type": "dimension" }
+    },
+    "radius": {
+      "card": { "value": "16px", "type": "dimension" },
+      "panel": { "value": "24px", "type": "dimension" },
+      "input": { "value": "12px", "type": "dimension" },
+      "button": { "value": "9999px", "type": "dimension" },
+      "control": { "value": "12px", "type": "dimension" },
+      "pill": { "value": "9999px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "4": { "value": "16px", "type": "dimension" },
+      "5": { "value": "20px", "type": "dimension" },
+      "6": { "value": "24px", "type": "dimension" },
+      "7": { "value": "28px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "12": { "value": "48px", "type": "dimension" },
+      "18": { "value": "72px", "type": "dimension" },
+      "24": { "value": "96px", "type": "dimension" },
+      "maxWidth": { "value": "1180px", "type": "dimension" }
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Visitors",
+  "version": "2026-07-28",
+  "colors": {
+    "carbon": {
+      "value": "#181925",
+      "role": "Primary text, headings, and nav links"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Base canvas, card surfaces, and button fills"
+    },
+    "linen": {
+      "value": "#fafafa",
+      "role": "Subtle background sections and table rows"
+    },
+    "mist": {
+      "value": "#f5f5f5",
+      "role": "Ghost fills, inputs, and disabled states"
+    },
+    "fog": {
+      "value": "#e8e8e8",
+      "role": "Hairline borders, table gridlines, and card edges"
+    },
+    "ash": {
+      "value": "#999999",
+      "role": "Muted text, placeholders, and inactive nav"
+    },
+    "graphite": {
+      "value": "#666666",
+      "role": "Secondary text, captions, and light-button text"
+    },
+    "lavender": {
+      "value": "#918df6",
+      "role": "Primary action, selected nav state, and conversion moment"
+    },
+    "iris": {
+      "value": "#9580ff",
+      "role": "Register nav button and deeper lavender emphasis"
+    },
+    "mint": {
+      "value": "#33c758",
+      "role": "Positive metric text paired with Mint Wash"
+    },
+    "mintWash": {
+      "value": "#def6e4",
+      "role": "Positive metric callout background"
+    },
+    "amber": {
+      "value": "#ffa600",
+      "role": "Performance category accent"
+    },
+    "sky": {
+      "value": "#2c78fc",
+      "role": "Realtime category, announcement chip, and links"
+    },
+    "magenta": {
+      "value": "#d6409f",
+      "role": "Visitor profiles category and icon accent"
+    },
+    "ember": {
+      "value": "#ff3e00",
+      "role": "Chart fill and illustration accent only"
+    }
+  },
+  "gradients": {
+    "heroBand": "linear-gradient(to right, #2c78fc 0%, #918df6 100%)",
+    "shimmerGray": "linear-gradient(90deg, #b3b3b3 25%, #666666 50%, #b3b3b3 75%)",
+    "chartSky": "linear-gradient(to right, #bed5fe 0%, #bed5fe 50%, #00c4ff 100%)",
+    "paleLavender": "linear-gradient(to right, #bed5fe 0%, #ebf2ff 50%, #918df6 100%)"
+  },
+  "font": {
+    "primary": "OpenRunde, Inter, DM Sans, Geist Sans, system-ui, sans-serif",
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "12px",
+      "fontWeight": 400,
+      "lineHeight": 1.33,
+      "letterSpacing": "-0.32px"
+    },
+    "body": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1.5,
+      "letterSpacing": "-0.32px"
+    },
+    "subheading": {
+      "fontSize": "18px",
+      "fontWeight": 500,
+      "lineHeight": 1.33,
+      "letterSpacing": "-0.32px"
+    },
+    "headingSm": {
+      "fontSize": "24px",
+      "fontWeight": 500,
+      "lineHeight": 1.17,
+      "letterSpacing": "-0.31px"
+    },
+    "heading": {
+      "fontSize": "36px",
+      "fontWeight": 500,
+      "lineHeight": 1.22,
+      "letterSpacing": "-0.61px"
+    },
+    "headingLg": {
+      "fontSize": "48px",
+      "fontWeight": 500,
+      "lineHeight": 1,
+      "letterSpacing": "-0.34px"
+    },
+    "display": {
+      "fontSize": "60px",
+      "fontWeight": 600,
+      "lineHeight": 1.13,
+      "letterSpacing": "-3px"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "unit": "4px",
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "32": "32px",
+    "48": "48px",
+    "64": "64px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "32px",
+    "elementGap": "16px"
+  },
+  "radius": {
+    "images": "8px",
+    "inputs": "8px",
+    "cards": "16px",
+    "tables": "24px",
+    "buttons": "9999px",
+    "tags": "9999px",
+    "chips": "9999px"
+  },
+  "borders": {
+    "fog": "1px solid #e8e8e8"
+  },
+  "shadows": {
+    "primaryAction": "rgba(0, 0, 0, 0.08) 0px 1px 1px 1px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px",
+    "dashboardPanel": "rgba(0, 0, 0, 0.06) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 8px 16px 0px, rgba(0, 0, 0, 0.02) 0px 0px 0px 1px",
+    "rule": "Use only minimal soft elevation."
+  },
+  "motion": {
+    "allowed": ["subtle hover", "focus transitions"],
+    "avoid": ["dramatic shadows", "parallax", "gradients on buttons"]
+  }
+}
+

@@ -1,0 +1,91 @@
+{
+  "name": "Visitors",
+  "slug": "visitors",
+  "source_url": "https://styles.refero.design/style/e7876363-181a-44a9-9e5c-2255cf98aea5",
+  "style_id": "e7876363-181a-44a9-9e5c-2255cf98aea5",
+  "reference_site": "https://visitors.now",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A bright white analytics-product style with OpenRunde typography, lavender primary CTAs, pill controls, hairline dashboard panels, flat surfaces, functional category colors, and a sky-to-lavender dashboard hero band.",
+  "personality": [
+    "analytics",
+    "engineered",
+    "white-canvas",
+    "flat",
+    "precise",
+    "fast"
+  ],
+  "colors": {
+    "carbon": "#181925",
+    "paperWhite": "#ffffff",
+    "linen": "#fafafa",
+    "mist": "#f5f5f5",
+    "fog": "#e8e8e8",
+    "ash": "#999999",
+    "graphite": "#666666",
+    "lavender": "#918df6",
+    "iris": "#9580ff",
+    "mint": "#33c758",
+    "mintWash": "#def6e4",
+    "amber": "#ffa600",
+    "sky": "#2c78fc",
+    "magenta": "#d6409f",
+    "ember": "#ff3e00"
+  },
+  "typography": {
+    "primary": "OpenRunde, Inter, DM Sans, Geist Sans, system-ui, sans-serif",
+    "weights": [400, 500, 600, 700],
+    "sizesPx": [12, 13, 14, 16, 18, 20, 24, 36, 48, 60],
+    "rules": [
+      "Use OpenRunde across all UI.",
+      "Use weight 500 for headings and buttons.",
+      "Use weight 400 for body and captions.",
+      "Set display at 60px/600 with -3px tracking."
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnitPx": 4,
+    "maxWidthPx": 1200,
+    "sectionGapPx": 64,
+    "cardPaddingPx": 32,
+    "elementGapPx": 16,
+    "scalePx": [4, 8, 12, 16, 20, 24, 32, 48, 64]
+  },
+  "radius": {
+    "imagesPx": 8,
+    "inputsPx": 8,
+    "cardsPx": 16,
+    "tablesPx": 24,
+    "buttonsPx": 9999,
+    "tagsPx": 9999,
+    "chipsPx": 9999
+  },
+  "components": [
+    "primary action button",
+    "register button",
+    "ghost button",
+    "text link button",
+    "announcement chip",
+    "navigation pill",
+    "tab bar",
+    "feature card",
+    "pricing tier card",
+    "metric callout card",
+    "dashboard panel card",
+    "data table",
+    "avatar circle"
+  ],
+  "avoid": [
+    "iris body CTAs",
+    "heavy elevation shadows",
+    "multiple accent colors in one component",
+    "pure black heading text",
+    "ember UI chrome",
+    "rectangular buttons",
+    "sharp-cornered tags",
+    "background fills on feature cards",
+    "lifestyle imagery"
+  ]
+}
+

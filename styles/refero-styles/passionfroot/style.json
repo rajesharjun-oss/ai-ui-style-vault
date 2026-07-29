@@ -1,0 +1,98 @@
+{
+  "id": "aaaa705d-3042-4355-ad30-13360f04e403",
+  "name": "Passionfroot",
+  "slug": "passionfroot",
+  "theme": "mixed",
+  "sourceUrl": "https://styles.refero.design/style/aaaa705d-3042-4355-ad30-13360f04e403",
+  "referenceSite": "https://www.passionfroot.me",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "twilight cloud library",
+    "warm parchment SaaS",
+    "serif editorial headlines",
+    "cream product cards",
+    "pastel accent rotation"
+  ],
+  "summary": "A warm creative SaaS style with a dark twilight hero, parchment page canvas, editorial serif display type, Nunito Sans UI text, compact rounded cards, pill chips, warm paper shadows, and small multicolor accents.",
+  "useWhen": [
+    "Creator SaaS landing pages",
+    "Marketplace products",
+    "AI assistant onboarding",
+    "Creative collaboration tools",
+    "Product-led pages that need warmth"
+  ],
+  "avoidWhen": [
+    "Dense enterprise dashboards",
+    "Sharp modernist interfaces",
+    "Pure monochrome editorial pages",
+    "Hard technical infrastructure products",
+    "Interfaces needing strict neutral status systems"
+  ],
+  "colors": {
+    "inkBlack": "#1d1d1c",
+    "parchmentCream": "#f8f7f2",
+    "sandGray": "#d8d6ce",
+    "linenBeige": "#edeae4",
+    "paperWhite": "#ffffff",
+    "charcoalStone": "#43423e",
+    "ashGray": "#99978f",
+    "slateWarm": "#7a7974",
+    "electricViolet": "#b26bf5",
+    "twilightIndigo": "#190922",
+    "bubblegumPink": "#f788d2",
+    "tangerine": "#ff9147",
+    "aquaTeal": "#4ad5e8",
+    "skyBlue": "#51b1fb",
+    "sunshineYellow": "#ffe747",
+    "lavenderGlow": "#b977f8",
+    "paleViolet": "#dab2ff",
+    "lilacMist": "#f3e8ff",
+    "deepViolet": "#8200db",
+    "coralRed": "#ee5968",
+    "mintGreen": "#58df8c",
+    "forestGreen": "#00a63e",
+    "burntOrange": "#eb6928",
+    "deepTeal": "#2c91af",
+    "magentaBloom": "#b036a4",
+    "mintWash": "#dcfce7"
+  },
+  "typography": {
+    "display": {
+      "family": "new-kansas",
+      "fallback": "DM Serif Display",
+      "weights": [400, 500],
+      "sizes": ["28px", "48px", "64px"],
+      "lineHeight": "1.2-1.35",
+      "letterSpacing": "-0.023px to -0.01px"
+    },
+    "body": {
+      "family": "Nunito Sans",
+      "fallback": "ui-sans-serif",
+      "weights": [400, 500, 600, 700],
+      "sizes": ["12px", "14px", "15px", "16px", "18px", "20px"],
+      "lineHeight": "1.33-1.56",
+      "letterSpacing": "0px to -0.012px"
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "16px",
+    "elementGap": "8px",
+    "scale": ["4px", "5px", "6px", "8px", "10px", "12px", "14px", "16px", "20px", "24px", "32px", "48px", "64px", "73px", "80px", "96px"]
+  },
+  "shape": {
+    "cards": "12px",
+    "inputs": "12px",
+    "buttons": "12px",
+    "largeCards": "16px",
+    "specialPanels": "24px",
+    "pills": "9999px"
+  },
+  "imagery": {
+    "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/bb0a1dce-3ccc-41dc-bcc8-d77aa81981c2.jpg",
+    "thumbnail": "https://images.refero.design/styles/refero.design/image/f84d3726-db43-4d72-af31-12d4dcff9994.jpg",
+    "notes": "Use twilight gradients, floating product cards, soft cream panels, cloud atmosphere, pastel illustrations, and optional 3D mascot details."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Claude",
+  "sourceUrl": "https://styles.refero.design/style/47cb86b6-cb2d-41c8-94ba-8607cd7c41cd",
+  "referenceUrl": "https://claude.ai",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "color": {
+    "boneParchment": { "value": "#f8f8f6", "type": "color" },
+    "paperWhite": { "value": "#ffffff", "type": "color" },
+    "softStone": { "value": "#efeeeb", "type": "color" },
+    "carbonInk": { "value": "#121212", "type": "color" },
+    "graphite": { "value": "#373734", "type": "color" },
+    "ashen": { "value": "#7b7974", "type": "color" },
+    "pebble": { "value": "#9c9a92", "type": "color" },
+    "mist": { "value": "#b7b7b5", "type": "color" },
+    "chalk": { "value": "#e7e6e1", "type": "color" },
+    "obsidian": { "value": "#000000", "type": "color" },
+    "clay": { "value": "#d97757", "type": "color" }
+  },
+  "font": {
+    "anthropicSerif": { "value": "Anthropic Serif, Source Serif 4, Charter, Georgia, ui-serif, serif", "type": "fontFamily" },
+    "anthropicSans": { "value": "Anthropic Sans, Inter, IBM Plex Sans, system-ui, sans-serif", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "regular": { "value": 400, "type": "fontWeight" },
+    "medium": { "value": 500, "type": "fontWeight" },
+    "w550": { "value": 550, "type": "fontWeight" },
+    "w580": { "value": 580, "type": "fontWeight" },
+    "semibold": { "value": 600, "type": "fontWeight" }
+  },
+  "fontSize": {
+    "caption": { "value": "11px", "type": "fontSize" },
+    "tiny": { "value": "12px", "type": "fontSize" },
+    "body": { "value": "14px", "type": "fontSize" },
+    "bodyLg": { "value": "15px", "type": "fontSize" },
+    "article": { "value": "16px", "type": "fontSize" },
+    "headingSm": { "value": "24px", "type": "fontSize" },
+    "heading": { "value": "30px", "type": "fontSize" }
+  },
+  "lineHeight": {
+    "caption": { "value": 1.5, "type": "lineHeight" },
+    "tiny": { "value": 1.33, "type": "lineHeight" },
+    "body": { "value": 1.5, "type": "lineHeight" },
+    "bodyLg": { "value": 1.5, "type": "lineHeight" },
+    "article": { "value": 1.63, "type": "lineHeight" },
+    "headingSm": { "value": 1.33, "type": "lineHeight" },
+    "heading": { "value": 1.2, "type": "lineHeight" }
+  },
+  "spacing": {
+    "8": { "value": "8px", "type": "dimension" },
+    "16": { "value": "16px", "type": "dimension" },
+    "24": { "value": "24px", "type": "dimension" },
+    "32": { "value": "32px", "type": "dimension" },
+    "40": { "value": "40px", "type": "dimension" },
+    "64": { "value": "64px", "type": "dimension" },
+    "80": { "value": "80px", "type": "dimension" },
+    "96": { "value": "96px", "type": "dimension" }
+  },
+  "radius": {
+    "nav": { "value": "8px", "type": "borderRadius" },
+    "inputs": { "value": "8px", "type": "borderRadius" },
+    "buttons": { "value": "8px", "type": "borderRadius" },
+    "cards": { "value": "16px", "type": "borderRadius" },
+    "elevatedCards": { "value": "24px", "type": "borderRadius" }
+  },
+  "shadow": {
+    "featureHover": { "value": "rgba(0, 0, 0, 0.04) 0px 4px 20px 0px", "type": "boxShadow" },
+    "pricingHover": { "value": "rgba(35, 30, 24, 0.1) 0px 4px 24px 0px", "type": "boxShadow" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1200px", "type": "dimension" },
+    "sectionGapMin": { "value": "64px", "type": "dimension" },
+    "sectionGapMax": { "value": "80px", "type": "dimension" },
+    "cardPadding": { "value": "32px", "type": "dimension" },
+    "elementGapMin": { "value": "8px", "type": "dimension" },
+    "elementGapMax": { "value": "12px", "type": "dimension" }
+  }
+}

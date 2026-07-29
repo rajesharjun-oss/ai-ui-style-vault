@@ -1,0 +1,102 @@
+{
+  "id": "24d3b281-04a6-4cc7-8a74-634b08472291",
+  "name": "Opennote",
+  "slug": "opennote",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/24d3b281-04a6-4cc7-8a74-634b08472291",
+    "referenceSite": "https://www.opennote.com",
+    "capturedAt": "2026-07-29",
+    "publishedAt": "2026-04-30T00:17:37.023Z",
+    "articleModifiedAt": "2026-06-05T02:12:16.532Z",
+    "media": {
+      "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/ec88ceb2-ceb4-4b15-be2a-13e631e5ae20.jpg",
+      "socialPreviewImage": "https://images.refero.design/styles/refero.design/image/9b8bf1a9-bd7a-4709-9f5a-934edd5e6d88.jpg",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/3cb79096-02a5-4c45-9151-f0feafa6e807.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/5cda23e7-af43-48b5-b373-3e83aebf7979.mp4"
+    }
+  },
+  "classification": {
+    "theme": "light",
+    "industry": ["AI", "notes", "research", "education", "writing tools"],
+    "mood": ["warm", "editorial", "paper", "thoughtful", "hand-drawn"],
+    "bestFor": ["AI note apps", "research assistants", "education tools", "writing products", "knowledge workspaces", "editorial AI landing pages"]
+  },
+  "summary": "A light notebook style with ivory paper canvas, old-style serif headings, quiet sans-serif UI text, sepia CTAs, ink-violet feature panels, 10px corners, hairline borders, and sparse hand-drawn marginalia.",
+  "colors": {
+    "ivoryPage": { "value": "#fffdf8", "role": "Primary canvas, page background, and card surface" },
+    "inkCharcoal": { "value": "#0a0a0a", "role": "Primary text, body copy, and icon strokes" },
+    "pressedBlack": { "value": "#000000", "role": "Illustration fill, SVG marks, and fine ink details" },
+    "graphiteRule": { "value": "#e5e5e5", "role": "Hairline borders, dividers, card outlines, and image frames" },
+    "smoke": { "value": "#8c8c8c", "role": "Muted helper text, captions, secondary metadata, inactive tabs" },
+    "ashBorder": { "value": "#d1d1d1", "role": "Button borders and outlined-control frames" },
+    "slateBody": { "value": "#474747", "role": "Secondary body copy and subdued icon detail" },
+    "softHalo": { "value": "#f9f9f9", "role": "Alternate surface, recessed panels, and secondary card backgrounds" },
+    "sepia": { "value": "#512906", "role": "Primary action fill and key accent text" },
+    "inkViolet": { "value": "#242d64", "role": "Feature-panel surface, deep accent headings, and full-bleed reset section" },
+    "forestInk": { "value": "#0c3b1a", "role": "Secondary accent text, category tags, and decorative strokes" },
+    "oxblood": { "value": "#5e0831", "role": "Tertiary accent, pull quote emphasis, and rare highlight text" },
+    "marginYellow": { "value": "#ffc934", "role": "Decorative highlighter wash and illustration fill only" }
+  },
+  "typography": {
+    "displayFamily": "IowanOld",
+    "bodyFamily": "SuisseIntl",
+    "displaySubstitute": "Source Serif Pro, Tiempos Text, or PT Serif",
+    "bodySubstitute": "Inter, Sohne, or Helvetica Neue",
+    "weights": [400, 500],
+    "scale": {
+      "caption": { "fontSize": "14px", "lineHeight": "1.43", "fontWeight": 400 },
+      "body": { "fontSize": "16px", "lineHeight": "1.5", "fontWeight": 400 },
+      "subheading": { "fontSize": "20px", "lineHeight": "1.5", "fontWeight": 400 },
+      "headingSmall": { "fontSize": "32px", "lineHeight": "1.12", "fontWeight": 400 },
+      "heading": { "fontSize": "42px", "lineHeight": "1.1", "fontWeight": 400 },
+      "display": { "fontSize": "48px", "lineHeight": "1.08", "fontWeight": 400 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scale": ["8px", "16px", "24px", "32px", "40px", "48px", "56px", "64px", "80px", "96px", "120px", "128px", "160px"]
+  },
+  "shape": {
+    "tagRadius": "10px",
+    "cardRadius": "10px",
+    "buttonRadius": "10px"
+  },
+  "elevation": {
+    "shadowSystem": "none",
+    "separation": "1px Graphite Rule borders, whitespace, and rare full-bleed Ink Violet panel contrast"
+  },
+  "components": {
+    "sepiaFilledCta": "Primary button with Sepia background, Ivory Page text, 10px radius, compact padding, and no shadow.",
+    "outlinedGhostButton": "Transparent secondary action with 1px Ash Border and Ink Charcoal text.",
+    "tabNavigation": "Text-only tab row with Smoke inactive labels and Ink Charcoal active label plus underline.",
+    "inkVioletFeaturePanel": "Full-width dark feature surface with ivory serif heading, sans-serif body, and one ghost action.",
+    "universityLogoStrip": "Monochrome wordmark row floating directly on the ivory canvas.",
+    "centeredHeroBlock": "Small line illustration, two-line serif headline, and one Sepia CTA.",
+    "marginaliaIllustration": "Sparse black line drawings placed in negative space with optional Margin Yellow wash.",
+    "featureCard": "Bordered ivory card with 10px radius, 24px padding, serif title, sans-serif copy, and no shadow.",
+    "headerBar": "Transparent navigation with a 1px Graphite Rule bottom border.",
+    "creamBandBackground": "Ruled-paper-like section with subtle hairlines and warm/cool paper tint."
+  },
+  "dos": [
+    "Use Sepia as the only filled button background.",
+    "Set headlines in IowanOld or a similar serif at weight 400.",
+    "Reserve Ink Violet for one full-bleed feature panel per page.",
+    "Draw structural separation with 1px Graphite Rule borders.",
+    "Keep all primary radii at 10px.",
+    "Place hand-drawn black line illustrations loosely in negative space.",
+    "Pair serif headlines with small sans-serif subheads."
+  ],
+  "donts": [
+    "Do not introduce a modern blue, bright green, or red accent.",
+    "Do not apply drop shadows, glow effects, or layered elevation.",
+    "Do not bold the serif headlines.",
+    "Do not use pure white as the main canvas.",
+    "Do not use sans-serif for headlines or feature titles above 24px.",
+    "Do not apply Margin Yellow to buttons, badges, or interactive surfaces.",
+    "Do not stack more than one filled Sepia CTA in a single viewport."
+  ]
+}

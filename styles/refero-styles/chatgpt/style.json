@@ -1,0 +1,104 @@
+{
+  "name": "ChatGPT",
+  "slug": "chatgpt",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/52a007ed-ad1b-46a6-bd44-b76f91df6d0c",
+    "style_id": "52a007ed-ad1b-46a6-bd44-b76f91df6d0c",
+    "reference_site": "https://chatgpt.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "graphite ink on warm paper",
+  "summary": "A restrained achromatic utility UI with Sidebar Mist chrome, Pure White conversation canvas, Graphite Ink text, system fonts, compact 6px rhythm, 10px controls, hover veil states, and hairline borders instead of shadows.",
+  "use_cases": [
+    "Chat interfaces",
+    "AI workspaces",
+    "Writing tools",
+    "Command centers",
+    "Document editors",
+    "Notes apps",
+    "Knowledge systems"
+  ],
+  "colors": {
+    "sidebar_mist": "#f9f9f9",
+    "pure_white": "#ffffff",
+    "graphite_ink": "#0d0d0d",
+    "mid_ash": "#5d5d5d",
+    "hollow": "#8f8f8f",
+    "hairline": "#0000001a",
+    "hover_veil": "#0000000d",
+    "ink_press": "#000000",
+    "deep_charcoal": "#00000080",
+    "edge_gray": "#e6e6e6"
+  },
+  "typography": {
+    "primary_font": "system-ui",
+    "fallback": "-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
+    "weights": [400, 500, 600],
+    "letter_spacing": "normal",
+    "scale": {
+      "caption": {
+        "size": "14px",
+        "line_height": "1.43",
+        "letter_spacing": "normal",
+        "weight": 400
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.5",
+        "letter_spacing": "normal",
+        "weight": 400
+      },
+      "heading": {
+        "size": "24px",
+        "line_height": "1.33",
+        "letter_spacing": "normal",
+        "weight": 600
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "page_max_width": "1200px",
+    "conversation_max_width": "720px to 768px",
+    "sidebar_width": "260px to 280px",
+    "header_height": "52px",
+    "section_gap": "24px",
+    "card_padding": "16px",
+    "element_gap": "6px"
+  },
+  "radius": {
+    "nav": "10px",
+    "cards": "10px",
+    "buttons": "10px",
+    "links": "16px",
+    "badges": "0px",
+    "login_cta": "9999px"
+  },
+  "components": [
+    "Sidebar Item",
+    "Compact Icon Button",
+    "Pill Primary Button",
+    "Sidebar Footer Block",
+    "Helper Text Block",
+    "Conversation Card",
+    "Hairline Divider",
+    "Surface Card",
+    "Tooltip",
+    "Scrim Overlay",
+    "Badge Or Chip"
+  ],
+  "rules": [
+    "Use Graphite Ink for primary text and icons.",
+    "Reserve pure black for pressed surfaces, tooltips, and scrims.",
+    "Keep the entire interface achromatic.",
+    "Use 6px element gaps and 24px section gaps.",
+    "Use 10px radius for buttons, sidebar items, and cards.",
+    "Use a full pill radius only for the Log In CTA.",
+    "Use system fonts only.",
+    "Express elevation with 1px Hairline borders, never shadows.",
+    "Use Hover Veil for every hover state.",
+    "Do not use text larger than 24px."
+  ]
+}

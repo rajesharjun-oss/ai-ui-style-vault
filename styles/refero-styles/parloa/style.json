@@ -1,0 +1,142 @@
+{
+  "id": "c90e63f8-76c1-4159-9460-29e0d18751ae",
+  "name": "Parloa",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/c90e63f8-76c1-4159-9460-29e0d18751ae",
+  "referenceUrl": "https://www.parloa.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Warm editorial AI SaaS with cream paper surfaces, dark ink navigation, thin serif display headings, precise Geist UI text, flat white cards, and orange highlighter accents.",
+  "bestFor": [
+    "AI customer service products",
+    "B2B SaaS",
+    "enterprise AI sites",
+    "editorial landing pages",
+    "customer story hubs",
+    "premium service software"
+  ],
+  "tags": [
+    "light",
+    "warm-editorial",
+    "cream-paper",
+    "serif-display",
+    "geist-ui",
+    "dark-nav",
+    "orange-accent",
+    "flat-cards",
+    "hairline-borders",
+    "photography-led",
+    "near-zero-radius"
+  ],
+  "colors": {
+    "inkBlack": { "value": "#1f1c1b", "token": "--color-ink-black", "role": "Primary text, filled buttons, dark navigation, and dark surfaces." },
+    "paperWhite": { "value": "#ffffff", "token": "--color-paper-white", "role": "Card surfaces and white text on dark fills." },
+    "canvasCream": { "value": "#ebe9e1", "token": "--color-canvas-cream", "role": "Main page background and warm paper field." },
+    "linen": { "value": "#f5f4f0", "token": "--color-linen", "role": "Navigation fill, subtle bands, and lighter cream layers." },
+    "stone": { "value": "#a69b92", "token": "--color-stone", "role": "Muted text, secondary copy, input borders, and understated labels." },
+    "hairline": { "value": "#d9d6ce", "token": "--color-hairline", "role": "Card borders, link underlines, and subtle dividers." },
+    "espresso": { "value": "#2d2724", "token": "--color-espresso", "role": "Announcement bar, dark surface accents, and input fills." },
+    "charcoal": { "value": "#000000", "token": "--color-charcoal", "role": "SVG icon fills only when absolute black is required." },
+    "cobblestone": { "value": "#c7c1b7", "token": "--color-cobblestone", "role": "Secondary dividers and borders with slightly more presence." },
+    "highlighterOrange": { "value": "#ff7714", "token": "--color-highlighter-orange", "role": "Links, outlines, icon strokes, small dots, and decorative marks only." }
+  },
+  "typography": {
+    "families": {
+      "display": "Exposure30",
+      "body": "Geist"
+    },
+    "fallbacks": {
+      "display": "Fraunces, Playfair Display, DM Serif Display, ui-serif, Georgia, serif",
+      "body": "Inter, Manrope, system-ui, sans-serif"
+    },
+    "weights": {
+      "light": 300,
+      "displayLight": 350,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "rules": [
+      "Use Exposure30-style serif only for headings.",
+      "Display-level headings at 42px and above should use weight 350.",
+      "Do not use bold weights for serif headings.",
+      "Use Geist for body, nav, buttons, labels, forms, and metadata.",
+      "Open tracking slightly at small labels and body sizes."
+    ],
+    "scale": {
+      "caption": { "size": "10px", "lineHeight": 1.2, "letterSpacing": "0.2px", "token": "--text-caption" },
+      "body": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "0.16px", "token": "--text-body" },
+      "subheading": { "size": "18px", "lineHeight": 1.4, "letterSpacing": "0.18px", "token": "--text-subheading" },
+      "headingSm": { "size": "24px", "lineHeight": 1.3, "letterSpacing": "0.24px", "token": "--text-heading-sm" },
+      "heading": { "size": "42px", "lineHeight": 1.1, "letterSpacing": "-0.42px", "token": "--text-heading" },
+      "headingLg": { "size": "82px", "lineHeight": 1.05, "letterSpacing": "-0.82px", "token": "--text-heading-lg" },
+      "display": { "size": "96px", "lineHeight": 1, "letterSpacing": "-0.96px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "60": "60px",
+      "64": "64px",
+      "72": "72px"
+    }
+  },
+  "radii": {
+    "cards": "0px",
+    "tags": "2px",
+    "inputs": "2px",
+    "buttons": "2px",
+    "maximum": "4px"
+  },
+  "shadows": {
+    "none": "Depth comes from cream canvas, white cards, dark surfaces, and hairline borders, not shadows."
+  },
+  "components": [
+    { "name": "Top Announcement Bar", "recipe": "Espresso full-bleed bar, Geist 14px text, orange headline/link accents, white supporting copy, compact 8px vertical padding." },
+    { "name": "Primary Navigation", "recipe": "Ink Black or Espresso full-width dark nav, logo left, centered white Geist links, right-side search/language/demo controls." },
+    { "name": "Hero With Image Overlay", "recipe": "Full-height warm portrait photo with diagonal cream gradient overlay and Exposure30 82-96px headline bottom-left." },
+    { "name": "Logo Trust Bar", "recipe": "Horizontal grayscale logo row on Canvas Cream with no card backgrounds." },
+    { "name": "Feature Split Section", "recipe": "Two columns with Exposure30 heading and body on left, flat Paper White preview card with Hairline border on right." },
+    { "name": "Industry Solution Card", "recipe": "Paper White, 0px radius, 1px Hairline border, 24px padding, outlined icon, serif 24px title, Geist 14px Stone body." },
+    { "name": "Primary CTA Button", "recipe": "Ink Black fill, Paper White text, Geist 14px/500, 12px vertical and 11px horizontal padding, 2px radius." },
+    { "name": "Ghost Text Button", "recipe": "Transparent, Ink Black text, Geist 14px/400, 2px radius, minimal padding, orange arrow or underline." },
+    { "name": "Navigation CTA Button", "recipe": "Outlined white button on dark nav, 1px white border, white text, 2px radius, 8px by 12px padding." },
+    { "name": "Outlined Accent Element", "recipe": "Highlighter Orange border or stroke, transparent fill, used for links, icon badges, accents, or callouts." },
+    { "name": "Section Heading", "recipe": "Exposure30 42px/400, Ink Black, line-height 1.10, slight negative tracking." },
+    { "name": "Product Preview Card", "recipe": "Paper White, 0px radius, 1px Hairline border, 24px padding, small preview graphic plus Geist description." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Exposure30 weight 350 for display headings at 42px and above.",
+      "Use Ink Black filled buttons for primary actions.",
+      "Use Highlighter Orange only for outlines, links, icon strokes, and small marks.",
+      "Layer Paper White cards on Canvas Cream with 1px Hairline borders.",
+      "Keep body text in Geist 16px/400 with 1.50 line-height.",
+      "Use 4px spacing rhythm with 16px element gaps and 24px card padding.",
+      "Let warm photography carry the hero."
+    ],
+    "dont": [
+      "Do not use orange as a filled button or large background.",
+      "Do not introduce box shadows or drop shadows.",
+      "Do not use bold weights for serif headings.",
+      "Do not use border-radius above 4px.",
+      "Do not use pure black for body text or large surfaces.",
+      "Do not add cool colored section backgrounds.",
+      "Do not use orange for paragraph text."
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "name": "Dub",
+  "slug": "dub",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/b0d80806-b724-4ed1-a1d1-074edd3c9bc9",
+    "productUrl": "https://dub.co"
+  },
+  "theme": {
+    "mode": "light",
+    "summary": "Porcelain SaaS: rice-paper whites, hairline gray architecture, and a single electric blue action color.",
+    "principles": [
+      "Use white and rice-paper surfaces as the base.",
+      "Use Electric Blue only for primary actions and active product states.",
+      "Use 1px Cloud borders for interface structure.",
+      "Use product screenshots, dashboards, charts, and tables as the main visual language.",
+      "Keep shadows absent or extremely subtle."
+    ]
+  },
+  "colors": {
+    "brand": {
+      "electricBlue": {
+        "value": "#0066ff",
+        "token": "--color-electric-blue",
+        "role": "Primary CTA, link highlights, active nav, brand accent"
+      },
+      "midnight": {
+        "value": "#0a0a0a",
+        "token": "--color-midnight",
+        "role": "Primary text, dark surfaces, logo mark"
+      }
+    },
+    "neutral": {
+      "snow": {
+        "value": "#ffffff",
+        "token": "--color-snow",
+        "role": "Cards, nav, modal surfaces, page background"
+      },
+      "ricePaper": {
+        "value": "#fafafa",
+        "token": "--color-rice-paper",
+        "role": "Subtle page bands, hover states"
+      },
+      "porcelain": {
+        "value": "#f5f5f5",
+        "token": "--color-porcelain",
+        "role": "Muted card fills"
+      },
+      "mist": {
+        "value": "#f4f4f5",
+        "token": "--color-mist",
+        "role": "Secondary backdrop, code preview surfaces"
+      },
+      "cloud": {
+        "value": "#e5e5e5",
+        "token": "--color-cloud",
+        "role": "Borders, dividers, inactive strokes"
+      },
+      "ash": {
+        "value": "#a3a3a3",
+        "token": "--color-ash",
+        "role": "Icons, muted captions, meta labels"
+      },
+      "graphite": {
+        "value": "#737373",
+        "token": "--color-graphite",
+        "role": "Secondary body text, disabled labels"
+      },
+      "charcoal": {
+        "value": "#525252",
+        "token": "--color-charcoal",
+        "role": "Strong captions, secondary nav"
+      },
+      "steel": {
+        "value": "#262626",
+        "token": "--color-steel",
+        "role": "Subheadings, card titles"
+      }
+    },
+    "state": {
+      "growthGreen": {
+        "value": "#16a34a",
+        "token": "--color-growth-green",
+        "role": "Success states, positive charts, completed status"
+      },
+      "warningAmber": {
+        "value": "#f59e0b",
+        "token": "--color-warning-amber",
+        "role": "Caution badges, setup reminders"
+      },
+      "dangerRed": {
+        "value": "#ef4444",
+        "token": "--color-danger-red",
+        "role": "Destructive actions, error states"
+      },
+      "purpleFlux": {
+        "value": "#8b5cf6",
+        "token": "--color-purple-flux",
+        "role": "Rare analytics accent and chart series"
+      }
+    }
+  },
+  "surfaces": {
+    "page": "#ffffff",
+    "section": "#fafafa",
+    "card": "#ffffff",
+    "muted": "#f5f5f5",
+    "code": "#f4f4f5"
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": {
+        "name": "Satoshi",
+        "fallbacks": ["Plus Jakarta Sans", "Inter", "system-ui", "sans-serif"],
+        "role": "Display headings, hero copy, high-level marketing hierarchy"
+      },
+      "ui": {
+        "name": "Inter",
+        "fallbacks": ["system-ui", "sans-serif"],
+        "role": "Body, UI labels, nav, tables, dashboards, forms"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": 1.33,
+        "fontWeight": 500
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": 1.5,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": 1.5,
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "18px",
+        "lineHeight": 1.56,
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "lineHeight": 1.4,
+        "fontWeight": 600
+      },
+      "headingSm": {
+        "fontSize": "30px",
+        "lineHeight": 1.2,
+        "fontWeight": 600
+      },
+      "heading": {
+        "fontSize": "48px",
+        "lineHeight": 1.08,
+        "fontWeight": 700
+      },
+      "display": {
+        "fontSize": "72px",
+        "lineHeight": 1,
+        "fontWeight": 700
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "12px",
+    "scale": ["2px", "4px", "6px", "8px", "10px", "12px", "14px", "16px", "20px", "24px", "32px", "40px", "48px", "64px", "80px", "96px"]
+  },
+  "shape": {
+    "radii": {
+      "buttons": "24px",
+      "cards": "16px",
+      "inputs": "12px",
+      "badges": "9999px"
+    },
+    "border": {
+      "default": "1px solid #e5e5e5"
+    },
+    "elevation": {
+      "cards": "none",
+      "micro": "0 1px 2px rgba(0,0,0,0.05)"
+    }
+  },
+  "components": {
+    "primaryCTAButton": {
+      "background": "#0066ff",
+      "color": "#ffffff",
+      "radius": "24px",
+      "padding": "12px 24px",
+      "font": "14px Inter 600",
+      "shadow": "0 1px 2px rgba(0,0,0,0.05)"
+    },
+    "secondaryButton": {
+      "background": "#ffffff",
+      "color": "#0a0a0a",
+      "border": "1px solid #e5e5e5",
+      "radius": "24px",
+      "padding": "12px 24px",
+      "font": "14px Inter 600"
+    },
+    "iconButton": {
+      "background": "#ffffff",
+      "icon": "#737373",
+      "border": "1px solid #e5e5e5",
+      "radius": "9999px",
+      "size": "40px",
+      "hover": "#fafafa"
+    },
+    "featurePill": {
+      "background": "#f5f5f5",
+      "color": "#525252",
+      "radius": "9999px",
+      "padding": "6px 12px",
+      "font": "13px Inter 500",
+      "optionalAccent": "small blue dot or icon"
+    },
+    "dashboardCard": {
+      "background": "#ffffff",
+      "border": "1px solid #e5e5e5",
+      "radius": "16px",
+      "padding": "24px",
+      "shadow": "none"
+    },
+    "pricingCard": {
+      "background": "#ffffff",
+      "border": "1px solid #e5e5e5",
+      "radius": "16px",
+      "padding": "32px",
+      "content": "prominent metric, concise feature list, primary CTA"
+    },
+    "analyticsChartCard": {
+      "background": "#ffffff",
+      "border": "1px solid #e5e5e5",
+      "radius": "16px",
+      "padding": "24px",
+      "chartColors": ["#0066ff", "#16a34a", "#8b5cf6", "#f59e0b"]
+    },
+    "inputField": {
+      "background": "#ffffff",
+      "color": "#0a0a0a",
+      "placeholder": "#a3a3a3",
+      "border": "1px solid #e5e5e5",
+      "radius": "12px",
+      "padding": "10px 14px",
+      "font": "14px Inter"
+    },
+    "linkRowOrTableRow": {
+      "background": "#ffffff",
+      "borderBottom": "1px solid #e5e5e5",
+      "hover": "#fafafa",
+      "font": "14px Inter",
+      "activeLink": "#0066ff"
+    },
+    "navigationBar": {
+      "height": "64px",
+      "background": "white or translucent white with subtle blur",
+      "links": "14px Inter 500",
+      "cta": "primary blue pill on the right",
+      "border": "optional 1px #e5e5e5 bottom rule"
+    },
+    "logoStrip": {
+      "color": "#a3a3a3",
+      "opacity": "60% to 70%",
+      "container": "none or very light rice-paper band"
+    }
+  },
+  "layout": {
+    "patterns": [
+      "Hero with large display headline, short subhead, pill CTA row, and product screenshot",
+      "Alternating white and rice-paper section backgrounds",
+      "12-column feature grids",
+      "Bento cards with product UI fragments",
+      "Pricing cards with clean metrics and feature lists",
+      "Analytics cards, line charts, metric tiles, and compact legends",
+      "Table-heavy link management views",
+      "Muted logo rows"
+    ],
+    "imagery": "Product screenshots, dashboards, browser mockups, charts, tables, and link cards"
+  },
+  "motion": {
+    "duration": "150ms to 200ms",
+    "easing": "ease",
+    "usage": "Buttons, cards, rows, charts, and small hover states"
+  },
+  "do": [
+    "Use Electric Blue for primary actions and active product states only.",
+    "Keep sections on white or rice-paper surfaces.",
+    "Use 1px Cloud borders for cards, tables, and controls.",
+    "Use pill-shaped 24px CTAs and 9999px badges.",
+    "Use Satoshi for hero/display headings and Inter for all UI.",
+    "Use product screenshots and dashboards as primary visuals.",
+    "Keep cards shadow-free or use only a micro shadow.",
+    "Align data and UI panels to a 12-column grid."
+  ],
+  "dont": [
+    "Do not add gradients as primary backgrounds.",
+    "Do not use blue for decorative floods or every icon.",
+    "Do not replace white surfaces with dark hero sections.",
+    "Do not round dashboard cards beyond 16px.",
+    "Do not mix multiple brand accent colors in one section.",
+    "Do not use serif fonts.",
+    "Do not add heavy shadows or glassmorphism.",
+    "Do not put large marketing copy inside dashboard-like cards."
+  ]
+}

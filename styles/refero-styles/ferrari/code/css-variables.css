@@ -1,0 +1,127 @@
+:root {
+  /* Colors */
+  --color-rosso-corsa: #da291c;
+  --color-rosso-scuro: #9d2211;
+  --color-carbone-nero: #000000;
+  --color-notte-profonda: #181818;
+  --color-grafite: #303030;
+  --color-piombo: #666666;
+  --color-fumo: #8f8f8f;
+  --color-argento-chiaro: #d2d2d2;
+  --color-cemento: #ebebeb;
+  --color-velo-di-luce: #f7f7f7;
+  --color-bianco-ferrari: #ffffff;
+
+  /* Semantic colors */
+  --color-background: var(--color-carbone-nero);
+  --color-surface: var(--color-notte-profonda);
+  --color-border: var(--color-grafite);
+  --color-text: var(--color-bianco-ferrari);
+  --color-text-muted: var(--color-fumo);
+  --color-accent: var(--color-rosso-corsa);
+  --color-accent-deep: var(--color-rosso-scuro);
+
+  /* Typography */
+  --font-body-font: "Body-Font", Inter, "Helvetica Neue", "Arial Narrow", system-ui, sans-serif;
+  --font-ferrarisans: "FerrariSans", Inter, "Helvetica Neue", "Arial Narrow", system-ui, sans-serif;
+  --font-feature-brand: "ss01" 1;
+
+  --text-micro: 7px;
+  --leading-micro: 2;
+  --tracking-micro: 0.091em;
+  --text-tiny: 9px;
+  --leading-tiny: 1.78;
+  --tracking-tiny: 0.091em;
+  --text-caption: 11px;
+  --leading-caption: 1.78;
+  --tracking-caption: 0.083em;
+  --text-body-sm: 12px;
+  --leading-body-sm: 1.78;
+  --tracking-body-sm: 0.083em;
+  --text-body: 13px;
+  --leading-body: 1.78;
+  --tracking-body: 0.015em;
+  --text-section-title: 16px;
+  --leading-section-title: 1.4;
+  --tracking-section-title: 0.005em;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-10: 10px;
+  --spacing-15: 15px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-25: 25px;
+  --spacing-30: 30px;
+  --spacing-32: 32px;
+  --spacing-44: 44px;
+  --spacing-50: 50px;
+  --spacing-54: 54px;
+  --spacing-60: 60px;
+  --spacing-123: 123px;
+
+  /* Layout */
+  --page-max-width: 1440px;
+  --section-gap-min: 64px;
+  --section-gap-max: 96px;
+  --card-padding-min: 24px;
+  --card-padding-max: 32px;
+  --element-gap-min: 10px;
+  --element-gap-max: 16px;
+
+  /* Radius */
+  --radius-cards: 0px;
+  --radius-buttons: 0px;
+  --radius-tags: 0px;
+  --radius-full: 9999px;
+
+  /* Surfaces */
+  --surface-void-black: #000000;
+  --surface-night-surface: #181818;
+  --surface-graphite-edge: #303030;
+  --surface-canvas-white: #ffffff;
+  --surface-smoke-wash: #f7f7f7;
+  --surface-concrete: #ebebeb;
+}
+
+.ferrari-style {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-ferrarisans);
+  font-feature-settings: var(--font-feature-brand);
+}
+
+.ferrari-kicker,
+.ferrari-nav-link,
+.ferrari-cta-link {
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caption);
+}
+
+.ferrari-cta-link {
+  color: var(--color-text);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+.ferrari-cta-link:hover,
+.ferrari-cta-link:focus-visible {
+  color: var(--color-accent);
+}
+
+.ferrari-photo {
+  display: block;
+  width: 100%;
+  min-height: 70vh;
+  object-fit: cover;
+  border: 0;
+  border-radius: 0;
+}
+

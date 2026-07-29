@@ -1,0 +1,248 @@
+{
+    "id":  "12b3e1b6-31b9-4843-9b3b-8f39c9dd1474",
+    "name":  "TWOMUCH.STUDIO",
+    "slug":  "twomuch-studio",
+    "source":  {
+                   "referoUrl":  "https://styles.refero.design/style/12b3e1b6-31b9-4843-9b3b-8f39c9dd1474",
+                   "referenceSite":  "https://twomuch.studio",
+                   "capturedAt":  "2026-07-29",
+                   "publishedAt":  "2026-04-30T02:36:58.895Z",
+                   "articleModifiedAt":  "2026-06-05T06:40:13.466Z",
+                   "media":  {
+                                 "primaryScreenshot":  "https://images.refero.design/styles/refero.design/image/c583446e-7b8d-477d-9dd0-898bb0e27a2f.jpg",
+                                 "socialPreviewImage":  "https://images.refero.design/styles/refero.design/image/afa947e7-d7dd-4482-9198-a83d9596d079.jpg",
+                                 "previewVideoPoster":  "https://images.refero.design/styles/refero.design/image/bb415b2f-c81e-4b59-b4e9-d46e7f2f9bd1.jpg",
+                                 "previewVideo":  "https://images.refero.design/styles/refero.design/video/5ee6adb5-240d-47de-b965-b39324cfedea.mp4",
+                                 "detailVideo":  "https://images.refero.design/styles/refero.design/video/42568e4a-cffa-4af6-92ff-ed153221d68b.mp4"
+                             }
+               },
+    "classification":  {
+                           "theme":  "light",
+                           "category":  "Agency",
+                           "mood":  [
+                                        "source-derived"
+                                    ],
+                           "bestFor":  [
+                                           "Agency",
+                                           "AI-assisted UI implementation"
+                                       ]
+                       },
+    "northStar":  "floating museum of curiosities",
+    "summary":  "Explore TWOMUCH.STUDIO\u0027s light Agency design system: Gallery Plate #e5e7eb, Carbon #000000 colors, ABCMonumentGrotesk typography, and DESIGN.md for AI agents.",
+    "colors":  [
+                   {
+                       "name":  "Gallery Plate",
+                       "value":  "#e5e7eb",
+                       "token":  "--color-gallery-plate",
+                       "role":  "Primary canvas and hairline dividers the infinite gray field that hosts floating objects and borders nearly every surface in the system"
+                   },
+                   {
+                       "name":  "Carbon",
+                       "value":  "#000000",
+                       "token":  "--color-carbon",
+                       "role":  "Primary text, icon strokes, and the dark pill in the nav bar the only true black in the system, used for type and high-contrast marks"
+                   },
+                   {
+                       "name":  "Chalk",
+                       "value":  "#f4f4f4",
+                       "token":  "--color-chalk",
+                       "role":  "Elevated surface above the canvas cards, panels, and lighter button fills that need to lift off the gray field"
+                   },
+                   {
+                       "name":  "Paper White",
+                       "value":  "#ffffff",
+                       "token":  "--color-paper-white",
+                       "role":  "Inset surfaces and inverse text on dark fills the cleanest white available for maximum contrast pop"
+                   },
+                   {
+                       "name":  "Concrete",
+                       "value":  "#dedede",
+                       "token":  "--color-concrete",
+                       "role":  "Tertiary surface and muted button fill one step darker than Chalk, used where a surface needs weight without drama"
+                   },
+                   {
+                       "name":  "Voltage Lime",
+                       "value":  "#e2ff70",
+                       "token":  "--color-voltage-lime",
+                       "role":  "Primary action fill and highlight accent the only chromatic button/link background in the system, applied to the Menu pill and active link states to switch a control on"
+                   },
+                   {
+                       "name":  "Oxide Brown",
+                       "value":  "#68340e",
+                       "token":  "--color-oxide-brown",
+                       "role":  "Decorative content accent appears inside imagery and printed artifacts (labels, type on objects); not a UI color but a recurring editorial note"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "ABCMonumentGrotesk Sole typeface across all UI body, labels, nav, headings, buttons, icons, links. The single medium weight with uniformly negative tracking (~-0.48px) gives every label a compressed, display-poster feel regardless of size. Avoid pairing with a secondary face; the constraint IS the identity. `--font-abcmonumentgrotesk`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "12px",
+                                             "0.9",
+                                             "-0.48px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "14px",
+                                             "1",
+                                             "-0.476px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "body",
+                                             "16px",
+                                             "1.05",
+                                             "-0.48px",
+                                             "--text-body"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "18px",
+                                             "1.33",
+                                             "-0.486px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading-sm",
+                                             "20px",
+                                             "1.33",
+                                             "-0.48px",
+                                             "--text-heading-sm"
+                                         ],
+                                         [
+                                             "heading",
+                                             "22px",
+                                             "1.43",
+                                             "-0.528px",
+                                             "--text-heading"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "4px",
+                    "density":  "compact",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "8",
+                                      "8px",
+                                      "--spacing-8"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "48-64px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "16-24px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "8px"
+                                   }
+                               ]
+                },
+    "shape":  {
+                  "radii":  [
+                                [
+                                    "tags",
+                                    "9999px"
+                                ],
+                                [
+                                    "pills",
+                                    "9999px"
+                                ],
+                                [
+                                    "small",
+                                    "4px"
+                                ],
+                                [
+                                    "buttons",
+                                    "9999px"
+                                ]
+                            ]
+              },
+    "components":  [
+                       {
+                           "name":  "Floating Central Nav Bar",
+                           "role":  "Primary site navigation"
+                       },
+                       {
+                           "name":  "Menu Pill Button",
+                           "role":  "Primary action / navigation trigger"
+                       },
+                       {
+                           "name":  "Status Pip (Circular)",
+                           "role":  "Indicator dot"
+                       },
+                       {
+                           "name":  "Counter Badge",
+                           "role":  "Sequential numbering indicator"
+                       },
+                       {
+                           "name":  "Ghost Link",
+                           "role":  "Inline navigation link"
+                       },
+                       {
+                           "name":  "Object Tile (Floating Asset)",
+                           "role":  "Content showcase card"
+                       },
+                       {
+                           "name":  "Editorial Label Tag",
+                           "role":  "Category, date, or metadata label"
+                       },
+                       {
+                           "name":  "Secondary Button (Neutral Pill)",
+                           "role":  "Non-primary action"
+                       },
+                       {
+                           "name":  "Hairline Divider",
+                           "role":  "Section break"
+                       },
+                       {
+                           "name":  "Inverse Surface Block",
+                           "role":  "Dark inverted section"
+                       },
+                       {
+                           "name":  "Project Index Row",
+                           "role":  "List item in a project grid or archive"
+                       },
+                       {
+                           "name":  "Cursor Label / Tooltip",
+                           "role":  "Contextual micro-copy near the pointer"
+                       }
+                   ],
+    "dos":  [
+                "Apply Voltage Lime (#e2ff70) as a fill to exactly one action per screen it is a rationed accent, not a decorative color",
+                "Use the 9999px pill radius for every interactive control, label, and tag the pill is the only shape language in the UI",
+                "Set all type at weight 500 in ABCMonumentGrotesk with negative tracking near -0.48px, including headings do not introduce a bold or light weight",
+                "Let objects float directly on Gallery Plate (#e5e7eb) without card backgrounds, shadows, or frames the canvas IS the container",
+                "Keep the central nav bar the only persistent UI element; let every other surface be content",
+                "Use 1px Gallery Plate hairlines for all borders and dividers never go thicker",
+                "Pair Voltage Lime fills with Carbon text only; never put the lime against Paper White or Chalk (contrast pair #000 #e2ff70 = 18.8:1)"
+            ],
+    "donts":  [
+                  "Do not introduce a second typeface, a second weight, or positive letter-spacing the monochrome grotesque is the voice",
+                  "Do not add drop shadows, glows, or elevation tiers the system is flat by design",
+                  "Do not use a chromatic fill other than Voltage Lime for any button or link Concrete and Chalk are the only neutral fills",
+                  "Do not frame imagery in rounded cards or bordered containers let objects touch the canvas directly",
+                  "Do not use the Oxide Brown (#68340e) as a UI color it belongs inside imagery and printed artifacts only",
+                  "Do not stack more than two surface levels on a single screen (e.g. Chalk card on Gallery Plate is fine; a third nested card is not)",
+                  "Do not center-align body copy or use large type sizes the system stays compact and left-aligned, max 22px"
+              ]
+}

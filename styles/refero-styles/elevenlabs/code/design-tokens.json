@@ -1,0 +1,59 @@
+{
+  "name": "ElevenLabs",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/031056ff-7af1-46db-8daa-115f731c5d26",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "color": {
+    "eggshell": { "value": "#fdfcfc", "type": "color" },
+    "warmTaupe": { "value": "#f5f3f1", "type": "color" },
+    "stone": { "value": "#ebe8e4", "type": "color" },
+    "ink": { "value": "#000000", "type": "color" },
+    "graphite": { "value": "#44403b", "type": "color" },
+    "smoke": { "value": "#777169", "type": "color" },
+    "ash": { "value": "#a59f97", "type": "color" },
+    "violetSpark": { "value": "#0447ff", "type": "color" },
+    "emberOrange": { "value": "#ff4704", "type": "color" }
+  },
+  "font": {
+    "waldenburg": { "value": "Waldenburg", "type": "fontFamily" },
+    "inter": { "value": "Inter", "type": "fontFamily" },
+    "geistMono": { "value": "Geist Mono", "type": "fontFamily" }
+  },
+  "fontSize": {
+    "caption": { "value": "10px", "type": "dimension" },
+    "bodySmall": { "value": "14px", "type": "dimension" },
+    "body": { "value": "16px", "type": "dimension" },
+    "subheading": { "value": "18px", "type": "dimension" },
+    "bodyLarge": { "value": "20px", "type": "dimension" },
+    "headingSmall": { "value": "32px", "type": "dimension" },
+    "heading": { "value": "36px", "type": "dimension" },
+    "display": { "value": "48px", "type": "dimension" }
+  },
+  "radius": {
+    "tags": { "value": "9999px", "type": "dimension" },
+    "buttons": { "value": "9999px", "type": "dimension" },
+    "inputs": { "value": "4px", "type": "dimension" },
+    "cards": { "value": "20px", "type": "dimension" },
+    "largeCards": { "value": "24px", "type": "dimension" },
+    "smallElements": { "value": "4-10px", "type": "dimension" }
+  },
+  "space": {
+    "base": { "value": "4px", "type": "dimension" },
+    "elementGap": { "value": "8-16px", "type": "dimension" },
+    "cardPadding": { "value": "32px", "type": "dimension" },
+    "sectionGap": { "value": "96-125px", "type": "dimension" },
+    "maxWidth": { "value": "1280px", "type": "dimension" }
+  },
+  "shadow": {
+    "subtle": {
+      "value": "rgba(0, 0, 0, 0.4) 0px 0px 1px 0px, rgba(0, 0, 0, 0.04) 0px 1px 1px 0px, rgba(0, 0, 0, 0.04) 0px 2px 4px 0px",
+      "type": "shadow"
+    },
+    "insetFaint": {
+      "value": "rgba(0, 0, 0, 0.075) 0px 0px 0px 0.5px inset",
+      "type": "shadow"
+    }
+  }
+}
+

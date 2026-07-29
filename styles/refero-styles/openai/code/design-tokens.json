@@ -1,0 +1,67 @@
+{
+  "name": "OpenAI",
+  "slug": "openai",
+  "sourceUrl": "https://styles.refero.design/style/dc541737-8bf2-4b31-b729-0352f696e82f",
+  "referenceSite": "https://openai.com",
+  "tokens": {
+    "color": {
+      "obsidian": { "value": "#000000", "type": "color" },
+      "graphite": { "value": "#666666", "type": "color" },
+      "smoke": { "value": "#8f8f8f", "type": "color" },
+      "paper": { "value": "#ffffff", "type": "color" },
+      "ash": { "value": "#f1f1f1", "type": "color" },
+      "hairline": { "value": "rgba(0,0,0,0.12)", "type": "color" },
+      "whisper": { "value": "rgba(0,0,0,0.04)", "type": "color" }
+    },
+    "font": {
+      "sans": {
+        "value": "\"OpenAI Sans\", \"Inter\", \"Sohne\", system-ui, sans-serif",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "label": { "value": "13px", "type": "dimension" },
+      "ui": { "value": "14px", "type": "dimension" },
+      "bodySmall": { "value": "16px", "type": "dimension" },
+      "body": { "value": "17px", "type": "dimension" },
+      "minorHeading": { "value": "18px", "type": "dimension" },
+      "subhead": { "value": "22px", "type": "dimension" },
+      "sectionHeading": { "value": "28px", "type": "dimension" },
+      "display": { "value": "48px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "label": { "value": "1.51", "type": "number" },
+      "ui": { "value": "1.4", "type": "number" },
+      "body": { "value": "1.65", "type": "number" },
+      "subhead": { "value": "1.26", "type": "number" },
+      "sectionHeading": { "value": "1.21", "type": "number" },
+      "display": { "value": "1.16", "type": "number" }
+    },
+    "fontWeight": {
+      "body": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "body": { "value": "-0.01em", "type": "dimension" },
+      "display": { "value": "-0.03em", "type": "dimension" },
+      "sectionHeading": { "value": "0.011em", "type": "dimension" }
+    },
+    "radius": {
+      "pill": { "value": "9999px", "type": "dimension" },
+      "card": { "value": "6px", "type": "dimension" },
+      "utility": { "value": "4px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "4": { "value": "16px", "type": "dimension" },
+      "5": { "value": "20px", "type": "dimension" },
+      "6": { "value": "24px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "12": { "value": "48px", "type": "dimension" },
+      "16": { "value": "64px", "type": "dimension" }
+    }
+  }
+}

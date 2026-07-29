@@ -1,0 +1,304 @@
+{
+ "id": "0ed4e85f-f3e9-438c-bc34-2a726863c602",
+ "name": "Peggy",
+ "slug": "peggy",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0ed4e85f-f3e9-438c-bc34-2a726863c602",
+ "referenceSite": "https://peggy.com/royalties",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T03:57:40.285Z",
+ "articleModifiedAt": "2026-06-03T21:31:50.536Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/2a6ca652-52ea-4179-8c73-54d1d30b2061.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0a35934c-1c00-44e2-92c7-0aefd7c3ea2c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/d1ab0aec-26cc-4e1e-a007-1ac2af70f2be.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2b545ed8-d314-4b52-87d4-07d46a9812c1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/95499e8d-9f7b-4664-b360-8fffe9f74ea2.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/b2688e77-705b-4221-8fed-8e9ee038e986.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "monochrome art gallery on a winter morning - the only color comes from the work on the walls",
+ "summary": "Explore Peggy\u0027s light E-commerce design system: Gallery White #ffffff, Canvas Mist #f4f4f4 colors, Reckless, Inter typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Gallery White",
+ "value": "#ffffff",
+ "token": "--color-gallery-white",
+ "role": "Card surfaces, input fields, button text on dark fills, nav surface over dark strips"
+ },
+ {
+ "name": "Canvas Mist",
+ "value": "#f4f4f4",
+ "token": "--color-canvas-mist",
+ "role": "Page background; also functions as the universal hairline border (borderColor 572 occurrences across every context) - the system draws structure with the canvas color itself"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, logo, nav labels, body copy - the strongest type color, never used as a surface"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#141414",
+ "token": "--color-charcoal",
+ "role": "High-contrast neutral action fill for primary buttons on light surfaces."
+ },
+ {
+ "name": "Fog",
+ "value": "#e2e8f0",
+ "token": "--color-fog",
+ "role": "Muted accents, icon fills at rest, secondary surface tint, subtle dividers where Canvas Mist is too light"
+ },
+ {
+ "name": "Graphite",
+ "value": "#666666",
+ "token": "--color-graphite",
+ "role": "Secondary/muted text - helper copy, metadata in transaction cards, footer body, link at rest"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Reckless",
+ "token": "--font-reckless",
+ "role": "All display and heading copy. Weight 300 at the largest sizes (48-60px) is the signature move - most gallery/marketplace sites use 600-700 serif weights; the light cut reads as editorial restraint rather than shouting authority. Weight 400 takes over for 20-36px subheadings. Line-height collapses from 1.40 at 20px to 1.00 at 60px, letting large display text sit tight like a magazine cover."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "All UI chrome: nav labels, button text, body paragraphs, helper copy, card metadata. Inter is deliberately invisible here - it serves Reckless by getting out of the way. Weight 500 appears in nav and active states; 400 is the body default. Line-height opens up to 1.50 at 16px for paragraph readability."
+ },
+ {
+ "name": "Monument Grotesk",
+ "token": "--font-monument-grotesk",
+ "role": "Footer column labels (\u0027Product\u0027, \u0027Partners\u0027, \u0027Company\u0027, \u0027Support\u0027, \u0027Get the App\u0027) and the copyright line. Acts as a structural label typeface - small caps category architecture under a serif body. Strictly 12px, weight 400, used at 11 occurrences, signaling intentional scarcity."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.11",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "128px",
+ "cardPadding": "16px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "168",
+ "168px",
+ "`--spacing-168`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site chrome"
+ },
+ {
+ "name": "Download App Notification Strip",
+ "role": "Dismissible app-promo bar"
+ },
+ {
+ "name": "Primary Filled CTA Button",
+ "role": "Main conversion action (e.g. \u0027Join Peggy\u0027)"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Secondary inline action (e.g. \u0027Learn more\u0027)"
+ },
+ {
+ "name": "Split Hero Section",
+ "role": "Above-the-fold brand statement"
+ },
+ {
+ "name": "Section Header (Editorial)",
+ "role": "Introduces an explanatory section"
+ },
+ {
+ "name": "Royalty Transaction Card",
+ "role": "Data row showing a resale payout"
+ },
+ {
+ "name": "Trust Badge Cell",
+ "role": "Reassurance row item (6 across)"
+ },
+ {
+ "name": "Gallery CTA Panel",
+ "role": "Conversion block for gallery partners"
+ },
+ {
+ "name": "Footer Column",
+ "role": "Site map link group"
+ },
+ {
+ "name": "Footer Copyright Bar",
+ "role": "Legal/social strip"
+ },
+ {
+ "name": "Hero Photograph (Pill-Masked)",
+ "role": "Artwork/contextual imagery"
+ },
+ {
+ "name": "Decorative Brushstroke Curve",
+ "role": "Background motif on the \u0027What are royalties?\u0027 section"
+ }
+ ],
+ "dos": [
+ "Use Reckless at weight 300 for any display-size heading (48px and above); the light cut is the brand\u0027s typographic signature - using 600+ breaks the editorial tone",
+ "Set the CTA background to #141414 with #ffffff text, 0px border-radius, Inter 14px weight 500; this is the only filled button style in the system",
+ "Mask all artwork and lifestyle photography to 9999px border-radius - the pill silhouette is how Peggy signals \u0027this is art\u0027 without color or framing",
+ "Use #f4f4f4 for both the page background AND 1px hairline borders; the canvas color doing double duty as the divider keeps the palette at six colors total",
+ "Reserve Inter for everything below 20px; Reckless handles 20px and up; Monument Grotesk stays at 12px for footer category labels only",
+ "Maintain the monochrome constraint - do not introduce chromatic brand colors, gradients, or colored status pills; trust the artwork to provide color",
+ "Use 128px vertical breathing room between major sections; the page earns its gallery feel through space, not decoration"
+ ],
+ "donts": [
+ "Do not add rounded corners (4px, 8px, 12px) to cards, buttons, or inputs - the system is deliberately sharp-edged, reserving curvature for pill-masked photography only",
+ "Do not use colored badges, tags, or status pills (no green for success, no red for error) - the palette is grayscale only; communicate status through text or icon shape",
+ "Do not use Reckless at weight 400 for display-size text; the serif loses its whisper quality and reads as ordinary at 60px",
+ "Do not apply drop shadows, colored glows, or colored borders to elevate cards - elevation is expressed through surface color contrast (#f4f4f4 canvas vs #ffffff card), never through shadow",
+ "Do not place CTAs anywhere except inside the top nav and as the primary action of a section; ghost links handle all secondary actions",
+ "Do not use Monument Grotesk for body copy or headings - it is a 12px label-only typeface; using it elsewhere breaks the typographic hierarchy",
+ "Do not introduce illustrations, icons with chromatic fills, or decorative gradients; the brushstroke curve is the only ornamental element and it should not be replicated"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#f4f4f4` | Page background and the default border color - one neutral does both jobs to keep the palette lean |\n| 1 | Card | `#ffffff` | Elevated panels (royalty transaction cards, feature cells) sitting on the canvas |\n| 2 | Inverted Strip | `#141414` | Full-bleed dark band for the download-app notification and the only filled CTA |",
+ "elevation": "",
+ "imagery": "Photography-first, zero illustration except for one decorative black brushstroke curve on the \u0027What are royalties?\u0027 section. Imagery is art-object photography (framed paintings, gallery interiors) and lifestyle context (a yellow chair beside a framed piece) - always high-key, well-lit, gallery-quality. Treatment is full-bleed within a pill mask (9999px radius) for hero and feature imagery, and rectangular for the gallery CTA panel. No duotone, no color grading - images are shown as-shot. Icons are solid black silhouettes (lock, shipping box, shield-check, museum, dollar, person) in a 6-cell trust row, and a single cloud-download icon in the notification strip. Image density is low: one photograph per section maximum, relying on typography and whitespace to carry the layout.",
+ "layout": "Full-bleed sections on a #f4f4f4 canvas, each section ~128px vertical padding, no visible section borders (the canvas color itself separates them). Hero is a 50/50 split: serif headline left, pill-masked photograph right. The \u0027What are royalties?\u0027 section inverts the split: illustration+transaction cards left, serif body copy right. Trust badges form a single 6-column row separated by 1px hairlines. Gallery CTA is a 2-column card on white. Footer is a 5-column link grid with a single-row copyright/social strip below. Navigation is a minimal top bar (logo left, one CTA right) with a full-bleed dark download-app strip immediately beneath it. The layout rhythm is gallery-catalog: quiet, spacious, typographically driven, with photographs acting as punctuation rather than wallpaper."
+}

@@ -1,0 +1,109 @@
+:root {
+  /* Colors */
+  --color-caution-yellow: #fff313;
+  --color-midnight-steel: #000000;
+  --color-industrial-white: #eeeeee;
+  --color-carbon: #333333;
+  --color-gunmetal: #4b4b4b;
+  --color-aluminum: #afafaf;
+
+  /* Typography */
+  --font-univers-next-pro: "Univers Next Pro", Inter, "Neue Haas Grotesk", "Helvetica Neue", Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-micro: 10px;
+  --leading-micro: 1.2;
+  --text-caption: 12px;
+  --leading-caption: 1.2;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.2;
+  --text-body: 16px;
+  --leading-body: 1.2;
+  --tracking-body: -0.02em;
+  --text-heading: 24px;
+  --leading-heading: 1.17;
+  --tracking-heading: -0.48px;
+  --text-heading-lg: 36px;
+  --leading-heading-lg: 1.13;
+  --tracking-heading-lg: -1.44px;
+  --text-display: 64px;
+  --leading-display: 1;
+  --tracking-display: -2.56px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-36: 36px;
+  --spacing-60: 60px;
+  --spacing-120: 120px;
+  --spacing-200: 200px;
+
+  /* Layout */
+  --section-gap: 120px;
+  --card-padding: 24px;
+  --element-gap: 16px;
+
+  /* Radius */
+  --radius-nav: 6px;
+  --radius-card: 9px;
+  --radius-image: 16px;
+  --radius-button: 6px;
+  --radius-section: 24px;
+}
+
+.on-energy-surface {
+  background: var(--color-midnight-steel);
+  color: var(--color-industrial-white);
+  font-family: var(--font-univers-next-pro);
+}
+
+.on-energy-display {
+  color: var(--color-industrial-white);
+  font: 300 var(--text-display) / var(--leading-display) var(--font-univers-next-pro);
+  letter-spacing: var(--tracking-display);
+}
+
+.on-energy-yellow-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-caution-yellow);
+  color: var(--color-midnight-steel);
+  padding: 7px var(--spacing-16);
+  font: 400 var(--text-body-sm) / var(--leading-body-sm) var(--font-univers-next-pro);
+}
+
+.on-energy-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-nav);
+  background: var(--color-carbon);
+  color: var(--color-industrial-white);
+  padding: 5px 14px;
+  font: 400 var(--text-body-sm) / var(--leading-body-sm) var(--font-univers-next-pro);
+}
+
+.on-energy-card {
+  border: 1px solid var(--color-gunmetal);
+  border-radius: var(--radius-card);
+  background: var(--color-carbon);
+  box-shadow: none;
+}
+
+.on-energy-yellow-section {
+  background: var(--color-caution-yellow);
+  color: var(--color-midnight-steel);
+}
+
+.on-energy-body-copy {
+  font: 400 var(--text-body) / var(--leading-body) var(--font-univers-next-pro);
+  letter-spacing: var(--tracking-body);
+}

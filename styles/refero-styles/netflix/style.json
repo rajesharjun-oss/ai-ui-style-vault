@@ -1,0 +1,95 @@
+{
+  "id": "32959012-f50d-4465-bb01-2aa4d506e0a8",
+  "name": "Netflix",
+  "styleAlias": "Netflix Spain",
+  "slug": "netflix",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/32959012-f50d-4465-bb01-2aa4d506e0a8",
+    "referenceSite": "https://netflix.com",
+    "capturedAt": "2026-07-29",
+    "publishedAt": "2026-02-25T16:39:45.000Z",
+    "articleModifiedAt": "2026-05-11T16:25:39.831Z",
+    "media": {
+      "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/ad093659-4d00-40ed-bf3c-c4767f76692e.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/65a0bdf8-e90c-4b41-9602-f928dbeb7d42.mp4",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/a3411df0-c7b8-4637-ab26-5708c9927a3e.jpg",
+      "detailVideo": "https://images.refero.design/styles/refero.design/video/f3dcd21d-350c-4bae-beda-d82ef7aa43a4.mp4",
+      "detailVideoPoster": "https://images.refero.design/styles/refero.design/image/9e2f6777-67b1-47e9-9180-350e1a8bbc85.jpg"
+    }
+  },
+  "classification": {
+    "theme": "dark",
+    "industry": ["media", "streaming", "entertainment", "content discovery"],
+    "mood": ["cinematic", "immersive", "urgent", "theatrical", "content-led"],
+    "bestFor": ["streaming landing pages", "poster carousels", "media browsing UIs", "subscription signup pages", "entertainment dashboards"]
+  },
+  "summary": "A dark streaming style with pure black canvas, disciplined red CTAs, high-contrast white typography, poster-heavy content shelves, and blue-purple gradient feature cards.",
+  "colors": {
+    "netflixRed": { "value": "#e50914", "role": "Logo, primary CTAs, active indicators, urgent interaction" },
+    "featureCardBase": { "value": "#1d153f", "role": "Token base for gradient feature cards" },
+    "featureCardGradient": { "value": "linear-gradient(149deg, #192247, #210e17)", "role": "Feature card background and depth cue" },
+    "deepSpace": { "value": "#000000", "role": "Primary page and section backgrounds" },
+    "graphite": { "value": "#2d2d2d", "role": "Subtle surfaces and component backgrounds" },
+    "charcoal": { "value": "#414141", "role": "Inactive controls and deeper components" },
+    "slate": { "value": "#5a5a5a", "role": "Input borders and interactive borders" },
+    "ash": { "value": "#808080", "role": "Placeholder text and quiet icons" },
+    "silver": { "value": "#b3b3b3", "role": "Footer links and secondary copy" },
+    "chalkWhite": { "value": "#ffffff", "role": "Primary headings, body text, and icon fills" }
+  },
+  "typography": {
+    "displayFamily": "Netflix Sans",
+    "bodyFamily": "Netflix Sans",
+    "displaySubstitute": "Roboto",
+    "bodySubstitute": "Inter",
+    "weights": [400, 500, 700, 900],
+    "scale": {
+      "caption": { "fontSize": "13px", "lineHeight": "1.5", "letterSpacing": "0", "fontWeight": 400 },
+      "body": { "fontSize": "16px", "lineHeight": "1.5", "letterSpacing": "0", "fontWeight": 400 },
+      "subheading": { "fontSize": "20px", "lineHeight": "1.25", "letterSpacing": "0", "fontWeight": 500 },
+      "headingSmall": { "fontSize": "24px", "lineHeight": "1.2", "letterSpacing": "0", "fontWeight": 900 },
+      "heading": { "fontSize": "56px", "lineHeight": "1.17", "letterSpacing": "0", "fontWeight": 700 },
+      "display": { "fontSize": "100px", "lineHeight": "1", "letterSpacing": "0", "fontWeight": 900 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "maxWidth": "1280px",
+    "sectionGap": "48px",
+    "cardPadding": "24px",
+    "elementGap": "16px",
+    "scale": ["4px", "8px", "12px", "16px", "24px", "32px", "36px", "64px", "100px", "128px", "148px"]
+  },
+  "shape": {
+    "buttonRadius": "4px",
+    "inputRadius": "4px",
+    "bannerRadius": "8px",
+    "cardRadius": "16px",
+    "borderWidth": "1px"
+  },
+  "components": {
+    "hero": "Full-bleed black hero with dimmed poster collage, centered 56px white headline, email input, and red CTA.",
+    "heroCta": "Red filled action button with white 24px bold label and 4px radius.",
+    "headerSignIn": "Compact red filled sign-in button with 14px label and 4px radius.",
+    "languageButton": "Translucent black utility button with ash border and white text.",
+    "emailInput": "Translucent dark input with slate border, white text, ash placeholder, and 4px radius.",
+    "trendingPosterCard": "Vertical poster card with oversized 100px ranking numeral at the lower-left.",
+    "featureCard": "16px rounded card with deep blue-purple gradient, 24px padding, white heading and body.",
+    "footerLink": "Silver 14px tertiary link without underline by default."
+  },
+  "dos": [
+    "Use pure black for main page backgrounds.",
+    "Reserve Netflix Red for logo, primary CTAs, and active states.",
+    "Use one sans type family throughout.",
+    "Use carousels and card grids as the core discovery pattern.",
+    "Use gradient feature cards for depth instead of shadows."
+  ],
+  "donts": [
+    "Do not use any saturated accent besides Netflix Red.",
+    "Do not apply traditional box shadows.",
+    "Do not use light or gray page backgrounds.",
+    "Do not outline primary buttons.",
+    "Do not clutter the header with navigation.",
+    "Do not introduce complex shapes or playful rounding."
+  ]
+}
+

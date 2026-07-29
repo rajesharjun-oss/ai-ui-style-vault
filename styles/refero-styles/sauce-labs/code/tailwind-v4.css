@@ -1,0 +1,62 @@
+@theme {
+  --color-sauce-neon-pulse: #3ddc91;
+  --color-sauce-mint-whisper: #97ddbc;
+  --color-sauce-signal-yellow: #ffcd48;
+  --color-sauce-pure-black: #000000;
+  --color-sauce-charcoal: #070f0f;
+  --color-sauce-deep-abyss: #0e1a19;
+  --color-sauce-obsidian-shell: #132322;
+  --color-sauce-graphite-fill: #424f4f;
+  --color-sauce-slate-text: #828786;
+  --color-sauce-stone-border: #b2b6b4;
+  --color-sauce-fog-border: #d0d3d3;
+  --color-sauce-mint-frost: #edf7f5;
+  --color-sauce-pure-white: #ffffff;
+
+  --font-sauce-aeonik: Aeonik, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sauce-aeonikfono: AeonikFono, "Inter Display", Inter, system-ui, sans-serif;
+
+  --text-sauce-body-sm: 14px;
+  --text-sauce-body: 16px;
+  --text-sauce-body-lg: 18px;
+  --text-sauce-subheading: 24px;
+  --text-sauce-heading-sm: 32px;
+  --text-sauce-heading: 40px;
+  --text-sauce-heading-lg: 48px;
+  --text-sauce-display: 64px;
+  --text-sauce-eyebrow: 9px;
+
+  --leading-sauce-body-sm: 1.45;
+  --leading-sauce-body: 1.5;
+  --leading-sauce-body-lg: 1.45;
+  --leading-sauce-subheading: 1.4;
+  --leading-sauce-heading-sm: 1.22;
+  --leading-sauce-heading: 1.2;
+  --leading-sauce-heading-lg: 1.12;
+  --leading-sauce-display: 1.1;
+
+  --tracking-sauce-body: -0.08px;
+  --tracking-sauce-subheading: 0.96px;
+  --tracking-sauce-eyebrow: 0.45px;
+
+  --spacing-sauce-8: 8px;
+  --spacing-sauce-16: 16px;
+  --spacing-sauce-24: 24px;
+  --spacing-sauce-32: 32px;
+  --spacing-sauce-40: 40px;
+  --spacing-sauce-48: 48px;
+  --spacing-sauce-56: 56px;
+  --spacing-sauce-64: 64px;
+  --spacing-sauce-72: 72px;
+  --spacing-sauce-80: 80px;
+  --spacing-sauce-96: 96px;
+
+  --radius-sauce-small-element: 10px;
+  --radius-sauce-card: 20px;
+  --radius-sauce-tab: 56px;
+  --radius-sauce-button: 56px;
+  --radius-sauce-large-card: 60px;
+
+  --shadow-sauce-md: rgba(0, 0, 0, 0.04) 1px 0px 9px 2px;
+}
+

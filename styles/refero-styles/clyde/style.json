@@ -1,0 +1,107 @@
+{
+  "id": "39098e34-b911-4ad3-bcb5-ee80a392cd95",
+  "name": "Clyde",
+  "slug": "clyde",
+  "theme": "dark",
+  "sourceUrl": "https://styles.refero.design/style/39098e34-b911-4ad3-bcb5-ee80a392cd95",
+  "referenceSite": "https://joinclyde.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "luxury product protection",
+    "near-black editorial showroom",
+    "warm cream typography",
+    "single gradient spotlight",
+    "flat border-defined cards"
+  ],
+  "summary": "A dark luxury editorial system with massive serif headings, warm cream-on-black surfaces, pill-shaped neutral actions, and one decorative yellow-orange-purple gradient.",
+  "useWhen": [
+    "Premium product protection pages",
+    "Luxury commerce services",
+    "High-trust SaaS pages",
+    "Dark editorial product marketing",
+    "Insurance or warranty products"
+  ],
+  "avoidWhen": [
+    "Colorful dashboard products",
+    "Dense admin screens",
+    "Playful consumer apps",
+    "Interfaces requiring many semantic status colors",
+    "Lightweight utility apps"
+  ],
+  "colors": {
+    "obsidian": "#000000",
+    "char": "#1a1a1a",
+    "slate": "#7d7d7d",
+    "bone": "#f6f6f4",
+    "paper": "#ffffff",
+    "solsticeGradient": "linear-gradient(90deg, #feed7a 0%, #ff8400 48.96%, #df91f7 100%)"
+  },
+  "typography": {
+    "display": {
+      "family": "Recoleta",
+      "fallback": "GT Super",
+      "weights": [400],
+      "sizes": ["36px", "47px", "61px", "80px", "125px"],
+      "lineHeight": "1.00-1.10",
+      "letterSpacing": "-0.36px to -3.75px",
+      "fontFeatures": ["clig", "liga"]
+    },
+    "primary": {
+      "family": "Oldschool Grotesk",
+      "fallback": "Inter",
+      "weights": [300, 400],
+      "sizes": ["15px", "16px", "21px"],
+      "lineHeight": "1.30-1.60",
+      "letterSpacing": "0.15px to -0.42px",
+      "fontFeatures": ["clig", "liga"]
+    },
+    "annotation": {
+      "family": "Times system fallback",
+      "fallback": "Georgia",
+      "weights": [400],
+      "sizes": ["16px"],
+      "lineHeight": "1.20-1.25"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "20px"
+  },
+  "shape": {
+    "inputRadius": "4px",
+    "linkRadius": "12px",
+    "cardRadius": "16px",
+    "largePanelRadius": "38px",
+    "tagRadius": "100px",
+    "buttonRadius": "100px",
+    "shadow": "none",
+    "borders": "1px hairlines"
+  },
+  "components": [
+    "bone announcement bar",
+    "transparent dark navigation",
+    "dark hero display section",
+    "filled neutral pill button",
+    "ghost pill button",
+    "product protection card",
+    "program performance card",
+    "stats feature bar",
+    "case study card",
+    "filter tab pill",
+    "section heading block",
+    "body description block"
+  ],
+  "implementationRules": [
+    "Keep the palette almost entirely achromatic.",
+    "Use the Solstice Gradient only for decorative 3D shapes and tiny product accents.",
+    "Use Recoleta-style serif headings at 36px and above.",
+    "Use Oldschool Grotesk-style sans text for UI and body copy.",
+    "Use 100px radius for every interactive element.",
+    "Use 1px borders and tonal contrast instead of shadows.",
+    "Do not invent chromatic CTA styles."
+  ]
+}

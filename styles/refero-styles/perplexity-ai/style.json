@@ -1,0 +1,149 @@
+{
+  "id": "81afaa5c-73ac-4ef4-9a99-296da325ea6c",
+  "name": "Perplexity AI",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/81afaa5c-73ac-4ef4-9a99-296da325ea6c",
+  "referenceUrl": "https://perplexity.ai",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Scholar's parchment behind clean glass, with warm paper canvas, compact search UI, left sidebar, soft cards, and one restrained Deep Teal accent.",
+  "bestFor": [
+    "AI search",
+    "answer engines",
+    "research tools",
+    "knowledge workspaces",
+    "compact SaaS apps",
+    "assistant interfaces"
+  ],
+  "tags": [
+    "light",
+    "ai-search",
+    "answer-engine",
+    "research",
+    "parchment",
+    "left-sidebar",
+    "centered-search",
+    "deep-teal",
+    "compact-ui",
+    "suggestion-cards",
+    "pill-chips",
+    "flat-ui",
+    "pplxsans"
+  ],
+  "colors": {
+    "parchment": { "value": "#faf8f5", "token": "--color-parchment", "role": "Page canvas, card surfaces, and nav backgrounds." },
+    "softPaper": { "value": "#fdfbfa", "token": "--color-soft-paper", "role": "Slightly elevated suggestion card surface." },
+    "warmMist": { "value": "#d1d1cd", "token": "--color-warm-mist", "role": "Hairline card, input, and button borders." },
+    "ash": { "value": "#92918b", "token": "--color-ash", "role": "Muted helper text and secondary labels." },
+    "graphite": { "value": "#72706b", "token": "--color-graphite", "role": "Nav icons, secondary buttons, and inactive labels." },
+    "ink": { "value": "#27251e", "token": "--color-ink", "role": "Primary text, icon fills, and dark button backgrounds." },
+    "pureBlack": { "value": "#000000", "token": "--color-pure-black", "role": "Rare maximum-contrast text and icon accents." },
+    "deepTeal": { "value": "#016a71", "token": "--color-deep-teal", "role": "Active nav item background, selected chip fill, badge fill, and search-input glow." }
+  },
+  "typography": {
+    "families": {
+      "pplxSans": "pplxSans",
+      "pplxSansFallback": "Inter, system-ui, -apple-system, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500
+    },
+    "rules": [
+      "Use pplxSans-style type everywhere.",
+      "Keep all weights between 400 and 500.",
+      "Use normal letter spacing across sizes.",
+      "Use 16px for main text, 14px for UI labels, and 11-12px for micro labels."
+    ],
+    "scale": {
+      "caption": { "size": "11px", "lineHeight": 1.43, "fontWeight": 500, "letterSpacing": "0", "token": "--text-caption" },
+      "bodySm": { "size": "12px", "lineHeight": 1.43, "fontWeight": 400, "letterSpacing": "0", "token": "--text-body-sm" },
+      "body": { "size": "14px", "lineHeight": 1.43, "fontWeight": 400, "letterSpacing": "0", "token": "--text-body" },
+      "bodyLg": { "size": "16px", "lineHeight": 1.43, "fontWeight": 400, "letterSpacing": "0", "token": "--text-body-lg" }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "pageMaxWidth": "900px",
+    "sidebarWidth": "260px",
+    "searchWidth": "640px",
+    "sectionGap": "32px",
+    "cardPadding": "16px",
+    "elementGap": "8px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "32": "32px"
+    }
+  },
+  "radii": {
+    "buttons": "6px",
+    "inputs": "12px",
+    "cards": "16px",
+    "chips": "9999px"
+  },
+  "shadows": {
+    "subtle": {
+      "token": "--shadow-subtle",
+      "value": "rgba(0, 0, 0, 0.08) 0px 1px 2px 0px",
+      "role": "Barely-visible suggestion-card shadow."
+    }
+  },
+  "surfaces": {
+    "pageCanvas": { "value": "#faf8f5", "role": "Full-viewport warm off-white background." },
+    "cardSurface": { "value": "#fdfbfa", "role": "Suggestion cards and elevated content blocks." },
+    "activeNav": { "value": "#016a71", "role": "Selected navigation item background." },
+    "buttonFill": { "value": "#27251e", "role": "Solid button background against parchment." }
+  },
+  "components": [
+    { "name": "Sidebar Nav Item", "recipe": "Transparent Graphite icon and label, 12px padding, active Deep Teal fill with white text and 12px radius." },
+    { "name": "Ghost Button", "recipe": "Transparent, Graphite text, Warm Mist border, 6px radius, 8px by 12px padding." },
+    { "name": "Pill Chip", "recipe": "Full pill, Ink text, 8px by 12px padding, active Deep Teal fill with white text." },
+    { "name": "Filled Action Button", "recipe": "Ink fill, Parchment text, 12px radius, 8px by 12px padding." },
+    { "name": "Suggestion Card", "recipe": "Soft Paper, 16px radius, 12px vertical padding, subtle shadow, Ink title and Graphite description." },
+    { "name": "Search Input", "recipe": "Parchment background, 12px radius, 16px padding, Warm Mist border, Graphite placeholder, about 640px wide." },
+    { "name": "Badge Tag", "recipe": "Deep Teal fill, white 11px text, full pill radius, 2px by 8px padding." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Parchment as the base canvas.",
+      "Reserve Deep Teal for active states, badges, selected chips, and search glow.",
+      "Keep type weights between 400 and 500.",
+      "Use 1px Warm Mist borders.",
+      "Cap the main content column at 900px.",
+      "Use flat surfaces and compact spacing."
+    ],
+    "dont": [
+      "Do not introduce new accent colors.",
+      "Do not use 600+ font weights.",
+      "Do not use heavy shadows.",
+      "Do not use Pure White as a broad surface.",
+      "Do not use teal for body text.",
+      "Do not add gradients, blurs, photography, or screenshots."
+    ]
+  },
+  "imagery": {
+    "style": "Pure UI, typography, spacing, and monochrome glyphs.",
+    "rules": [
+      "Do not use photography.",
+      "Do not use illustration.",
+      "Do not use product screenshots.",
+      "Use simple glyph icons in Ink or Graphite."
+    ]
+  },
+  "layout": {
+    "structure": "Two-pane application layout with fixed left sidebar and centered main column.",
+    "sidebar": "About 260px wide with nav items, brand mark, labels, and sign-in.",
+    "main": "Centered 900px max-width column with category nav, wordmark, 640px search input, and two-column suggestion grid.",
+    "rhythm": "Compact 8px element gaps and 32px section gaps."
+  },
+  "preview": {
+    "imageHost": "images.refero.design",
+    "downloaded": false,
+    "note": "Refero exposes preview imagery, but local download was not captured in this environment."
+  }
+}
+

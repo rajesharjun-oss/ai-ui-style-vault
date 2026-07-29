@@ -1,0 +1,146 @@
+{
+  "id": "4fa67bd1-f01d-454a-b522-4a0359ff9815",
+  "name": "Shop",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/4fa67bd1-f01d-454a-b522-4a0359ff9815",
+  "referenceUrl": "https://www.shop.app",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Clean commerce discovery with white and cool-mist surfaces, big rounded product cards, GT Standard typography, pill search, literal product photography, and one vivid violet action color.",
+  "bestFor": [
+    "commerce discovery",
+    "marketplace search",
+    "shopping apps",
+    "creator storefronts",
+    "product grids",
+    "category browsing",
+    "consumer recommendations"
+  ],
+  "tags": [
+    "light",
+    "commerce",
+    "shopping",
+    "marketplace",
+    "product-photography",
+    "pill-search",
+    "violet-action",
+    "rounded-product-cards",
+    "consumer-app",
+    "clean-grid",
+    "shopify"
+  ],
+  "colors": {
+    "inkBlack": { "value": "#171717", "token": "--color-ink-black", "role": "Primary text, nav labels, product names, and high-contrast UI." },
+    "carbon": { "value": "#000000", "token": "--color-carbon", "role": "Literal icon fills, app-store badges, and deep graphic marks only." },
+    "graphite": { "value": "#666666", "token": "--color-graphite", "role": "Body copy, merchant details, helper text, and secondary labels." },
+    "ash": { "value": "#999999", "token": "--color-ash", "role": "Tertiary metadata, inactive nav, muted labels, and captions." },
+    "hairline": { "value": "#d9d9d9", "token": "--color-hairline", "role": "Dividers, subtle card outlines, and input borders." },
+    "softGray": { "value": "#f5f5f5", "token": "--color-soft-gray", "role": "Secondary card surfaces and product placeholders." },
+    "productMist": { "value": "#f0f4f5", "token": "--color-product-mist", "role": "Product grid cards and image wells." },
+    "mistBlue": { "value": "#f4f8fa", "token": "--color-mist-blue", "role": "Hero background bands, search containers, and pale commerce sections." },
+    "pureWhite": { "value": "#ffffff", "token": "--color-pure-white", "role": "Page canvas, cards, overlays, and text on dark graphic marks." },
+    "shopViolet": { "value": "#5433eb", "token": "--color-shop-violet", "role": "Primary search action, active states, and focused ecommerce controls." },
+    "checkoutGreen": { "value": "#008060", "token": "--color-checkout-green", "role": "Payment success, trusted checkout marks, and positive status only." }
+  },
+  "typography": {
+    "families": {
+      "primary": "GTStandard-MRegular"
+    },
+    "fallbacks": {
+      "primary": "Shopify Sans, Inter, system-ui, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "semibold": 600
+    },
+    "rules": [
+      "Use GTStandard-MRegular-style type for the full interface.",
+      "Use weight 400 for most display, body, product, nav, and metadata text.",
+      "Use weight 600 only for short UI emphasis.",
+      "Use slight negative tracking for display and product names.",
+      "Use slight positive tracking for micro labels."
+    ],
+    "scale": {
+      "caption": { "size": "12px", "lineHeight": 1.33, "letterSpacing": "0.24px", "token": "--text-caption" },
+      "label": { "size": "13px", "lineHeight": 1.3, "letterSpacing": "0.13px", "token": "--text-label" },
+      "bodySm": { "size": "14px", "lineHeight": 1.43, "letterSpacing": "0", "token": "--text-body-sm" },
+      "body": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-body" },
+      "product": { "size": "18px", "lineHeight": 1.3, "letterSpacing": "-0.18px", "token": "--text-product" },
+      "subheading": { "size": "20px", "lineHeight": 1.25, "letterSpacing": "-0.2px", "token": "--text-subheading" },
+      "heading": { "size": "32px", "lineHeight": 1.1, "letterSpacing": "-0.64px", "token": "--text-heading" },
+      "display": { "size": "48px", "lineHeight": 1.05, "letterSpacing": "-0.96px", "token": "--text-display" },
+      "displayXl": { "size": "80px", "lineHeight": 1, "letterSpacing": "-1.6px", "token": "--text-display-xl" }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "64px to 96px",
+    "cardPadding": "20px to 28px",
+    "elementGap": "12px to 20px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "10": "10px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "28": "28px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px"
+    }
+  },
+  "radii": {
+    "search": "9999px",
+    "pills": "9999px",
+    "buttons": "9999px",
+    "productCards": "28px",
+    "lowerCards": "20px",
+    "icons": "12px"
+  },
+  "shadows": {
+    "floatingSearch": "rgba(23, 23, 23, 0.08) 0px 12px 40px 0px",
+    "productHover": "rgba(23, 23, 23, 0.08) 0px 8px 24px 0px"
+  },
+  "components": [
+    { "name": "Violet Search Button", "recipe": "Shop Violet fill, Pure White icon/text, 9999px radius, square or pill shape, GTStandard 14px to 16px." },
+    { "name": "Search Bar", "recipe": "Pure White fill, 9999px radius, subtle Hairline border or floating search shadow, left icon, Graphite placeholder, violet submit control." },
+    { "name": "Category Pill", "recipe": "Pure White or Product Mist fill, Ink Black text, 9999px radius, 12px by 20px padding, 14px text." },
+    { "name": "Product Card", "recipe": "Product Mist or Soft Gray fill, 28px radius, product image centered or full-bleed, product name, merchant, price metadata." },
+    { "name": "Merchant Badge", "recipe": "Small circular logo, 32px to 48px, white or brand asset inside product cards." },
+    { "name": "App Store Badge", "recipe": "Carbon or Ink Black rounded badge with white platform text and icon." },
+    { "name": "Feature Tile", "recipe": "Pure White or Mist Blue surface, 20px radius, 20px to 28px padding, Ink Black heading, Graphite body, screenshot or icon." },
+    { "name": "Product Grid", "recipe": "Three-up or four-up grid with wide gutters, 28px card radius, and consistent image wells." },
+    { "name": "Mobile App Mockup", "recipe": "Phone frame or app screen stack showing product feed, checkout, or tracking with violet controls." },
+    { "name": "Header Nav", "recipe": "White or Mist Blue header, Shop wordmark left, compact nav links, optional app-store/download CTA, no heavy border." },
+    { "name": "Trust Row", "recipe": "Merchant logos, payment marks, or app stats in Ink Black and Ash; green only for verified checkout copy." },
+    { "name": "Promo Band", "recipe": "Mist Blue background, large GT Standard heading, product imagery, and a single violet or black pill action." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Pure White or Mist Blue as page and section backgrounds.",
+      "Use Shop Violet for the primary search or action control.",
+      "Use Checkout Green only for trust, checkout, and payment success.",
+      "Use product photography as the main visual asset.",
+      "Use 28px radius for product cards.",
+      "Use 9999px radius for search, category pills, and CTAs.",
+      "Keep product metadata compact and muted.",
+      "Use flat product cards by default."
+    ],
+    "dont": [
+      "Do not add a second accent color.",
+      "Do not use violet for broad backgrounds or large cards.",
+      "Do not use green for ordinary CTAs.",
+      "Do not use sharp square product cards.",
+      "Do not use heavy shadows on all cards.",
+      "Do not replace product photography with abstract graphics.",
+      "Do not make the page feel like enterprise SaaS."
+    ]
+  }
+}

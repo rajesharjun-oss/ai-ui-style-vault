@@ -1,0 +1,156 @@
+:root {
+  /* Colors */
+  --color-signal-orange: #f73b20;
+  --color-brand-orange-tint: #f84d35;
+  --color-ink-roast: #360802;
+  --color-paper-white: #ffffff;
+  --color-carbon-black: #000000;
+  --color-ash-grey: #ababab;
+  --color-sand-wash: #e7dcdb;
+  --color-linen-blush: #fdedea;
+  --color-citrus-wash: #f5ffbb;
+  --color-mint-wash: #bcffbb;
+  --color-coral-red: #fb2d54;
+  --color-cobalt-blue: #477ee9;
+  --color-emerald-green: #34c771;
+
+  /* Typography */
+  --font-sequel-sans: "Sequel Sans", Inter, Manrope, "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-book: 450;
+  --font-weight-medium: 500;
+
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --tracking-caption: 0.36px;
+
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.4;
+  --tracking-body-sm: 0.42px;
+
+  --text-body: 16px;
+  --leading-body: 1;
+  --tracking-body: 0;
+
+  --text-subheading: 23px;
+  --leading-subheading: 1.2;
+  --tracking-subheading: 0.23px;
+
+  --text-heading-sm: 33px;
+  --leading-heading-sm: 1.2;
+  --tracking-heading-sm: 0.33px;
+
+  --text-heading: 44px;
+  --leading-heading: 1.2;
+  --tracking-heading: 0.44px;
+
+  --text-heading-lg: 72px;
+  --leading-heading-lg: 1;
+  --tracking-heading-lg: 0.72px;
+
+  --text-display: 106px;
+  --leading-display: 1;
+  --tracking-display: 0;
+
+  --text-display-xl: 110px;
+  --leading-display-xl: 1;
+  --tracking-display-xl: 1.1px;
+
+  --text-display-hero: 155px;
+  --leading-display-hero: 0.9;
+  --tracking-display-hero: 1.55px;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-160: 160px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 80px;
+  --card-padding: 16px;
+  --element-gap: 8px;
+
+  /* Border radius */
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-2xl-2: 19.255px;
+  --radius-2xl-3: 21.66px;
+  --radius-3xl: 24px;
+  --radius-full: 60px;
+  --radius-full-2: 84px;
+  --radius-full-3: 112px;
+  --radius-full-4: 150px;
+  --radius-full-5: 9999px;
+
+  --radius-nav: 84px;
+  --radius-cards: 16px;
+  --radius-links: 8px;
+  --radius-pills: 9999px;
+  --radius-inputs: 16px;
+  --radius-buttons: 12px;
+
+  /* Shadows */
+  --shadow-lg: rgba(247, 59, 32, 0.1) 0px 8px 24px 0px, rgba(247, 59, 32, 0.05) 0px 2px 8px 0px;
+  --shadow-md: rgba(0, 0, 0, 0.05) 0px -4px 16px 0px;
+
+  /* Surfaces */
+  --surface-canvas: #ffffff;
+  --surface-card-surface: #ffffff;
+  --surface-orange-tint: #fdedea;
+  --surface-frosted-glass: #ffffff1a;
+  --surface-category-tint: #f73b200d;
+  --surface-brand-alpha: rgba(247, 59, 32, 0.05);
+}
+
+.jeton-surface {
+  background: var(--surface-canvas);
+  color: var(--color-ink-roast);
+  font-family: var(--font-sequel-sans);
+}
+
+.jeton-display {
+  color: var(--color-ink-roast);
+  font-size: clamp(56px, 10vw, var(--text-display-hero));
+  font-weight: var(--font-weight-medium);
+  line-height: var(--leading-display-hero);
+  letter-spacing: 0.01em;
+}
+
+.jeton-primary-button {
+  background: var(--color-signal-orange);
+  color: var(--color-paper-white);
+  border: 0;
+  border-radius: var(--radius-buttons);
+  padding: var(--spacing-8) var(--spacing-16);
+  font-family: var(--font-sequel-sans);
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-weight-book);
+  letter-spacing: 0.03em;
+}
+
+.jeton-card {
+  background: var(--surface-card-surface);
+  border-radius: var(--radius-cards);
+  padding: var(--card-padding);
+  box-shadow: var(--shadow-md);
+}
+
+.jeton-input {
+  background: var(--surface-brand-alpha);
+  color: var(--color-ink-roast);
+  border: 0;
+  border-radius: var(--radius-inputs);
+  padding: 17.6px var(--spacing-16) 6.4px 48px;
+  font-family: var(--font-sequel-sans);
+}
+

@@ -1,0 +1,104 @@
+{
+  "name": "Ditto",
+  "slug": "ditto",
+  "source": {
+    "provider": "refero",
+    "url": "https://styles.refero.design/style/e9001d5a-504d-47ed-aef0-d0d35fa86418",
+    "referenceUrl": "https://trustditto.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "light",
+  "color": {
+    "deepInk": { "value": "#130e30", "role": "primary text and dark pill fill" },
+    "hiYellow": { "value": "#ffe228", "role": "primary CTA and decorative yellow blob" },
+    "mossGreen": { "value": "#59e25d", "role": "decorative blob only" },
+    "fuchsia": { "value": "#e261e5", "role": "decorative blob only" },
+    "slate": { "value": "#5f5c6e", "role": "muted helper text" },
+    "canvas": { "value": "#f9fbf2", "role": "page background" },
+    "softMeadow": { "value": "#eff2e5", "role": "card and nav surface" },
+    "charcoal": { "value": "#222222", "role": "secondary dark text" },
+    "onyx": { "value": "#000000", "role": "logo mark and input border" }
+  },
+  "typography": {
+    "fontFamilies": {
+      "hedvigLettersSerif": "\"Hedvig Letters Serif\", \"DM Serif Display\", \"Source Serif 4\", \"Libre Caslon Text\", Georgia, serif",
+      "inter": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif"
+    },
+    "scale": {
+      "caption": { "size": "10px", "weight": 500, "lineHeight": 1.2, "letterSpacing": "-0.2px" },
+      "bodySm": { "size": "14px", "weight": 400, "lineHeight": 1.5, "letterSpacing": "-0.14px" },
+      "body": { "size": "16px", "weight": 400, "lineHeight": 1.5, "letterSpacing": "-0.16px" },
+      "subheading": { "size": "18px", "weight": 400, "lineHeight": 1.5, "letterSpacing": "-0.18px" },
+      "headingSm": { "size": "22px", "weight": 700, "lineHeight": 1.25, "letterSpacing": "-0.22px" },
+      "heading": { "size": "32px", "weight": 700, "lineHeight": 1.15, "letterSpacing": "-0.32px" },
+      "headingLg": { "size": "48px", "weight": 700, "lineHeight": 1.1, "letterSpacing": "-0.48px" },
+      "display": { "size": "64px", "weight": 700, "lineHeight": 1, "letterSpacing": "-0.64px" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "scale": {
+      "8": "8px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "48": "48px",
+      "64": "64px",
+      "96": "96px"
+    },
+    "layout": {
+      "maxWidth": "1200px",
+      "sectionGap": "48-80px",
+      "cardPadding": "24-48px",
+      "elementGap": "12-16px"
+    }
+  },
+  "radius": {
+    "nav": "1440px",
+    "tags": "1440px",
+    "icons": "1440px",
+    "buttons": "1440px",
+    "cards": "24px",
+    "images": "24-48px"
+  },
+  "surfaces": {
+    "canvas": "#f9fbf2",
+    "softMeadow": "#eff2e5",
+    "hiYellowAccent": "#ffe228",
+    "deepInk": "#130e30"
+  },
+  "components": {
+    "primaryCtaButton": {
+      "background": "#ffe228",
+      "color": "#130e30",
+      "radius": "1440px",
+      "padding": "12px 24px",
+      "shadow": "none"
+    },
+    "secondaryButton": {
+      "background": "#130e30",
+      "color": "#ffffff",
+      "radius": "1440px",
+      "padding": "12px 22px"
+    },
+    "emailInput": {
+      "background": "#ffffff",
+      "border": "1px solid #000000",
+      "radius": "1440px",
+      "padding": "12px 22px"
+    },
+    "featureCard": {
+      "background": "#eff2e5",
+      "radius": "24px",
+      "padding": "24-48px",
+      "shadow": "none"
+    },
+    "heroHeadline": {
+      "font": "{typography.fontFamilies.hedvigLettersSerif}",
+      "size": "48-64px",
+      "weight": 700,
+      "color": "#130e30"
+    }
+  }
+}
+

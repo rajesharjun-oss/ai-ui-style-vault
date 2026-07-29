@@ -1,0 +1,92 @@
+{
+  "id": "13b74e34-b824-4d1d-bd2c-bb9bfbc2d6e1",
+  "name": "SpaceX",
+  "slug": "spacex",
+  "theme": "dark",
+  "sourceUrl": "https://styles.refero.design/style/13b74e34-b824-4d1d-bd2c-bb9bfbc2d6e1",
+  "referenceSite": "https://spacex.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "aerospace mission control",
+    "cinematic black viewport",
+    "industrial instrument typography",
+    "full-bleed spacecraft photography",
+    "monochrome ghost controls"
+  ],
+  "summary": "A dark aerospace storytelling system with absolute black surfaces, cool off-white tracked uppercase type, transparent outlined buttons, and full-bleed mission photography.",
+  "useWhen": [
+    "Aerospace product pages",
+    "Hardware launch pages",
+    "Robotics or defense marketing",
+    "Scientific mission storytelling",
+    "Cinematic engineering brands"
+  ],
+  "avoidWhen": [
+    "Dense app dashboards",
+    "Colorful SaaS interfaces",
+    "Text-heavy editorial publications",
+    "Interfaces needing many status colors",
+    "Card-based marketing layouts"
+  ],
+  "colors": {
+    "voidBlack": "#000000",
+    "starWhite": "#f0f0fa",
+    "dimSteel": "#545457",
+    "darkGunmetal": "#404040"
+  },
+  "typography": {
+    "primary": {
+      "family": "D-DIN",
+      "fallback": "Barlow",
+      "weights": [400, 700],
+      "sizes": ["10px", "12px", "13px", "16px"],
+      "lineHeight": "1.0-2.0",
+      "letterSpacing": "0.09em-0.10em",
+      "fontFeatures": ["tnum", "ss01"]
+    },
+    "headline": {
+      "family": "D-DIN-Bold",
+      "fallback": "Barlow Bold",
+      "weights": [700],
+      "sizes": ["48px"],
+      "lineHeight": "1.0-1.25",
+      "letterSpacing": "0.02em"
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "comfortable",
+    "sectionGap": "60px",
+    "cardPadding": "20px",
+    "elementGap": "18px"
+  },
+  "shape": {
+    "navRadius": "4px",
+    "cardRadius": "4px",
+    "buttonRadius": "4px",
+    "pillRadius": "32px",
+    "shadow": "none",
+    "borders": "1px outlines"
+  },
+  "components": [
+    "ghost outline button",
+    "secondary outline button",
+    "pill selector",
+    "transparent top navigation",
+    "full-bleed hero section",
+    "text-over-image block",
+    "section headline",
+    "body paragraph",
+    "launch selector widget"
+  ],
+  "implementationRules": [
+    "Use black as every page surface.",
+    "Use Star White as the only primary foreground color.",
+    "Do not introduce chromatic accent colors.",
+    "Use full-bleed photography instead of cards.",
+    "Keep text blocks left-aligned in the left third of the viewport.",
+    "Use ghost outline buttons only.",
+    "Use wide uppercase tracking on small typography.",
+    "Do not use shadows, gradients, glows, blur, or elevated panels."
+  ]
+}

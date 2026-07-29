@@ -1,0 +1,112 @@
+{
+  "name": "AI for Business",
+  "source": {
+    "type": "refero-styles",
+    "url": "https://styles.refero.design/style/ee403055-480e-4bd4-9216-07c9ae2dde2e",
+    "referenceUrl": "https://www.dayos.com",
+    "capturedOn": "2026-07-28"
+  },
+  "theme": "light",
+  "colors": {
+    "carbonBlack": { "value": "#000000", "css": "--color-carbon-black" },
+    "graphite": { "value": "#2f2f2f", "css": "--color-graphite" },
+    "slate": { "value": "#444444", "css": "--color-slate" },
+    "smoke": { "value": "#979797", "css": "--color-smoke" },
+    "ash": { "value": "#c6c6c6", "css": "--color-ash" },
+    "warmCanvas": { "value": "#e5e5e5", "css": "--color-warm-canvas" },
+    "mistGray": { "value": "#f3f3f3", "css": "--color-mist-gray" },
+    "paperWhite": { "value": "#ffffff", "css": "--color-paper-white" },
+    "mintChip": { "value": "#d1ffca", "css": "--color-mint-chip" },
+    "voltageYellow": { "value": "#fff100", "css": "--color-voltage-yellow" }
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": {
+        "value": "SuisseIntlCond",
+        "css": "--font-suisseintlcond",
+        "fallback": "Anton, Bebas Neue, Barlow Condensed, sans-serif"
+      },
+      "body": {
+        "value": "SuisseIntl",
+        "css": "--font-suisseintl",
+        "fallback": "Inter, Sohne, Neue Haas Grotesk, system-ui, sans-serif"
+      },
+      "mono": {
+        "value": "SuisseIntlMono",
+        "css": "--font-suisseintlmono",
+        "fallback": "JetBrains Mono, IBM Plex Mono, Geist Mono, ui-monospace, monospace"
+      }
+    },
+    "fontWeights": {
+      "regular": 400,
+      "book": 450,
+      "medium": 500,
+      "bold": 700
+    },
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": 1.6, "letterSpacing": "-0.36px" },
+      "bodySm": { "fontSize": "14px", "lineHeight": 1.3, "letterSpacing": "-0.154px" },
+      "body": { "fontSize": "16px", "lineHeight": 1.25, "letterSpacing": "0" },
+      "subheading": { "fontSize": "18px", "lineHeight": 1.33, "letterSpacing": "0" },
+      "subheadingLg": { "fontSize": "20px", "lineHeight": 1.2, "letterSpacing": "0" },
+      "headingSm": { "fontSize": "28px", "lineHeight": 1.3, "letterSpacing": "-0.84px" },
+      "heading": { "fontSize": "40px", "lineHeight": 1.1, "letterSpacing": "-0.8px" },
+      "headingLg": { "fontSize": "48px", "lineHeight": 0.9, "letterSpacing": "-1.44px" },
+      "display": { "fontSize": "80px", "lineHeight": 0.9, "letterSpacing": "-2.4px" },
+      "displayXl": { "fontSize": "130px", "lineHeight": 0.9, "letterSpacing": "-3.9px" }
+    }
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "16px to 24px",
+    "scale": ["8px", "16px", "24px", "40px", "64px", "80px", "96px"]
+  },
+  "radii": {
+    "buttons": "4px to 8px",
+    "cards": "24px to 32px",
+    "navPill": "48px",
+    "tags": "64px",
+    "largeCards": "64px"
+  },
+  "shadows": {
+    "none": "none"
+  },
+  "componentRecipes": {
+    "filledDarkButton": {
+      "background": "#000000",
+      "color": "#ffffff",
+      "radius": "8px",
+      "padding": "16px 24px",
+      "font": "SuisseIntl 16px 500"
+    },
+    "ghostBorderButton": {
+      "background": "transparent",
+      "border": "1.5px solid #444444",
+      "color": "#444444",
+      "radius": "4px",
+      "padding": "16px",
+      "font": "SuisseIntl 16px 500"
+    },
+    "standardCard": {
+      "background": "#ffffff",
+      "border": "none",
+      "radius": "24px to 32px",
+      "shadow": "none",
+      "padding": "24px"
+    },
+    "mintTag": {
+      "background": "#d1ffca",
+      "color": "#000000",
+      "radius": "64px",
+      "font": "SuisseIntlMono 12px 400"
+    },
+    "navPill": {
+      "background": "#ffffff or #f3f3f3",
+      "radius": "48px",
+      "placement": "centered in 8rem top bar"
+    }
+  }
+}

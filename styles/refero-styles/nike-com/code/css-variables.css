@@ -1,0 +1,59 @@
+:root {
+  --nike-color-obsidian: #111111;
+  --nike-color-steel: #707072;
+  --nike-color-faint-gray: #9e9ea0;
+  --nike-color-concrete-gray: #e5e5e5;
+  --nike-color-soft-mist: #f5f5f5;
+  --nike-color-paper-white: #ffffff;
+
+  --nike-font-helvetica-now-text-medium: "Helvetica Now Text Medium", Inter, "Helvetica Neue", Arial, sans-serif;
+  --nike-font-helvetica-now-text: "Helvetica Now Text", Inter, "Helvetica Neue", Arial, sans-serif;
+  --nike-font-helvetica-now-display-medium: "Helvetica Now Display Medium", Inter, "Helvetica Neue", Arial, sans-serif;
+  --nike-font-futura: "Nike Futura ND", "Futura PT Medium", Futura, Inter, sans-serif;
+
+  --nike-text-caption: 12px;
+  --nike-text-body-sm: 14px;
+  --nike-text-body: 16px;
+  --nike-text-subheading: 20px;
+  --nike-text-heading-sm: 24px;
+  --nike-text-display: 76px;
+
+  --nike-leading-caption: 1.5;
+  --nike-leading-body-sm: 1.75;
+  --nike-leading-body: 1.75;
+  --nike-leading-subheading: 1.5;
+  --nike-leading-heading-sm: 1.2;
+  --nike-leading-display: 1;
+
+  --nike-weight-regular: 400;
+  --nike-weight-medium: 500;
+
+  --nike-space-unit: 4px;
+  --nike-space-4: 4px;
+  --nike-space-8: 8px;
+  --nike-space-12: 12px;
+  --nike-space-16: 16px;
+  --nike-space-20: 20px;
+  --nike-space-24: 24px;
+  --nike-space-36: 36px;
+  --nike-space-48: 48px;
+
+  --nike-page-max-width: 1440px;
+  --nike-section-gap: 48px;
+  --nike-card-padding: 12px;
+  --nike-element-gap: 8px;
+
+  --nike-radius-nav: 24px;
+  --nike-radius-tags: 30px;
+  --nike-radius-cards: 0px;
+  --nike-radius-inputs: 0px;
+  --nike-radius-buttons: 30px;
+  --nike-radius-search: 24px;
+
+  --nike-surface-paper-white: #ffffff;
+  --nike-surface-soft-mist: #f5f5f5;
+  --nike-surface-concrete-gray: #e5e5e5;
+
+  --nike-transition-opacity: opacity 160ms ease;
+}
+

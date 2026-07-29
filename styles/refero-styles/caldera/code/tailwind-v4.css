@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lava-black: #000000;
+  --color-obsidian: #111111;
+  --color-basalt: #212121;
+  --color-charcoal: #343434;
+  --color-ash: #6c6c6c;
+  --color-stone: #b6b0aa;
+  --color-pumice: #e3ded8;
+  --color-chalk: #f2ede7;
+  --color-steam: #ffffff;
+  --color-ember-orange: #ff6828;
+  --color-molten-coral: #ff7b54;
+  --color-violet-rift: #6c35ff;
+  --color-deep-violet: #2d165f;
+  --color-sulfur: #e8ff50;
+  --color-signal-blue: #1c69ff;
+
+  --font-pp-neue: "PP Neue Montreal", "Arial Narrow", "Helvetica Neue Condensed", "Inter Tight", sans-serif;
+  --font-dm-sans: "DM Sans", Inter, system-ui, sans-serif;
+
+  --text-micro: 14px;
+  --text-micro--line-height: 1.1;
+  --text-body: 16px;
+  --text-body--line-height: 1.25;
+  --text-body-lg: 24px;
+  --text-body-lg--line-height: 1.15;
+  --text-heading: 48px;
+  --text-heading--line-height: 1.05;
+  --text-heading--letter-spacing: -1.44px;
+  --text-display: 128px;
+  --text-display--line-height: 0.95;
+  --text-display--letter-spacing: -5.76px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-120: 120px;
+  --spacing-160: 160px;
+  --spacing-200: 200px;
+
+  --radius-buttons: 40px;
+  --radius-inputs: 32px;
+  --radius-cards: 40px;
+  --radius-chips: 800px;
+  --radius-modals: 48px;
+  --radius-hero-visual: 56px;
+
+  --shadow-card: rgba(0, 0, 0, 0.12) 0px 12px 40px -20px;
+  --shadow-button: rgba(0, 0, 0, 0.16) 0px 6px 16px -8px;
+}
+
+@layer components {
+  .caldera-page {
+    @apply min-h-screen bg-pumice text-lava-black font-dm-sans;
+  }
+
+  .caldera-wrap {
+    @apply mx-auto max-w-[1280px] px-32;
+  }
+
+  .caldera-display {
+    @apply font-pp-neue text-display font-[530] leading-[0.95] tracking-[var(--text-display--letter-spacing)] text-lava-black;
+  }
+
+  .caldera-card {
+    @apply rounded-[40px] border border-lava-black bg-chalk p-40 shadow-card;
+  }
+
+  .caldera-button {
+    @apply inline-flex items-center justify-center gap-12 rounded-[40px] border border-lava-black bg-ember-orange px-32 py-16 text-body font-semibold leading-none text-lava-black shadow-button;
+  }
+
+  .caldera-button-outline {
+    @apply inline-flex items-center justify-center gap-12 rounded-[40px] border border-lava-black bg-transparent px-32 py-16 text-body font-semibold leading-none text-lava-black;
+  }
+
+  .caldera-tag {
+    @apply inline-flex rounded-[800px] border border-lava-black bg-sulfur px-16 py-8 text-micro font-semibold leading-none text-lava-black;
+  }
+
+  .caldera-input {
+    @apply rounded-[32px] border border-stone bg-chalk px-24 py-16 text-body font-medium text-lava-black outline-none focus:border-ember-orange;
+  }
+}

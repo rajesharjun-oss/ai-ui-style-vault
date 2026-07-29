@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  --color-onyx: #040406;
+  --color-obsidian: #08080a;
+  --color-carbon: #121317;
+  --color-graphite: #1c1d22;
+  --color-slate: #2e3038;
+  --color-smoke: #464853;
+  --color-ash: #5e616e;
+  --color-steel: #777a88;
+  --color-fog: #9194a1;
+  --color-mist: #acafb9;
+  --color-silver: #c7c9d1;
+  --color-bone: #e2e3e9;
+  --color-paper-white: #ffffff;
+  --color-copper: #cc9166;
+
+  --font-ivy-presto: "Ivy Presto", "Playfair Display", "DM Serif Display", "Libre Caslon Display", serif;
+  --font-inter: Inter, system-ui, sans-serif;
+
+  --text-eyebrow: 13px;
+  --text-eyebrow--line-height: 1;
+  --text-eyebrow--letter-spacing: -0.26px;
+  --text-body-xs: 16px;
+  --text-body-xs--line-height: 1.5;
+  --text-body-sm: 18px;
+  --text-body-sm--line-height: 1.38;
+  --text-body-sm--letter-spacing: -0.36px;
+  --text-body: 20px;
+  --text-body--line-height: 1.38;
+  --text-body--letter-spacing: -0.8px;
+  --text-subheading: 24px;
+  --text-subheading--line-height: 1;
+  --text-subheading--letter-spacing: -0.31px;
+  --text-heading-sm: 44px;
+  --text-heading-sm--line-height: 1.38;
+  --text-heading-sm--letter-spacing: 0.44px;
+  --text-heading: 52px;
+  --text-heading--line-height: 1.13;
+  --text-heading--letter-spacing: 0.52px;
+  --text-heading-lg: 64px;
+  --text-heading-lg--line-height: 1.13;
+  --text-heading-lg--letter-spacing: 0.64px;
+  --text-display: 88px;
+  --text-display--line-height: 1;
+  --text-display--letter-spacing: 0.88px;
+
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-9: 9px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-22: 22px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-105: 105px;
+  --spacing-224: 224px;
+
+  --radius-nav: 2px;
+  --radius-cards: 10px;
+  --radius-buttons: 9999px;
+  --radius-inputs: 9999px;
+  --radius-tags: 9999px;
+  --radius-icons: 9999px;
+  --radius-status: 9999px;
+
+  --shadow-icon-ring: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px;
+}
+
+@layer components {
+  .slash-page {
+    @apply min-h-screen bg-obsidian text-bone font-inter;
+  }
+
+  .slash-wrap {
+    @apply mx-auto max-w-[1216px] px-24;
+  }
+
+  .slash-display {
+    @apply font-ivy-presto text-display font-normal leading-none tracking-[var(--text-display--letter-spacing)] text-paper-white;
+  }
+
+  .slash-card {
+    @apply rounded-[10px] bg-onyx p-24 shadow-none;
+  }
+
+  .slash-primary-button {
+    @apply inline-flex items-center justify-center gap-8 rounded-[9999px] bg-paper-white px-20 py-10 font-inter text-[14px] font-medium leading-none text-black;
+  }
+
+  .slash-ghost-button {
+    @apply inline-flex items-center justify-center gap-8 rounded-[9999px] border border-paper-white bg-transparent px-20 py-10 font-inter text-[14px] font-medium leading-none text-paper-white;
+  }
+
+  .slash-tag {
+    @apply inline-flex rounded-[9999px] border border-steel bg-transparent px-10 py-6 font-inter text-[13px] font-medium text-paper-white;
+  }
+
+  .slash-category {
+    @apply font-inter text-eyebrow font-semibold leading-none tracking-[var(--text-eyebrow--letter-spacing)] text-copper;
+  }
+
+  .slash-input {
+    @apply rounded-[9999px] border border-paper-white bg-transparent px-20 py-10 font-inter text-[14px] text-bone placeholder:text-steel;
+  }
+
+  .slash-table-row {
+    @apply border-b border-graphite text-bone;
+  }
+}

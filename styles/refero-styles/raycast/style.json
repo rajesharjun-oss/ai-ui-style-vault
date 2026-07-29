@@ -1,0 +1,108 @@
+{
+  "name": "Raycast",
+  "slug": "raycast",
+  "source": "refero",
+  "source_url": "https://styles.refero.design/style/3b6a17f0-3bdf-418c-a95e-0b89e5a8b2f8",
+  "style_id": "3b6a17f0-3bdf-418c-a95e-0b89e5a8b2f8",
+  "reference_url": "https://raycast.com",
+  "captured_at": "2026-07-28",
+  "theme": "dark",
+  "summary": "Dark command-center style with near-black surfaces, Inter typography, neutral filled CTAs, restrained coral brand moments, glass navigation, product mockups, and tactile keyboard-key inset cards.",
+  "keywords": [
+    "dark",
+    "developer tool",
+    "productivity",
+    "command palette",
+    "Mac app",
+    "Inter",
+    "neutral CTA",
+    "coral accent",
+    "glass nav",
+    "key shadow",
+    "extension grid"
+  ],
+  "colors": {
+    "void_black": "#040506",
+    "ink": "#07080a",
+    "obsidian": "#111214",
+    "graphite": "#1b1c1e",
+    "slate": "#2f3031",
+    "iron": "#454647",
+    "smoke": "#6a6b6c",
+    "ash": "#9c9c9d",
+    "mist": "#e6e6e6",
+    "pure_white": "#ffffff",
+    "coral_pulse": "#ff6363",
+    "ember_hush": "#452324",
+    "electric_sky": "#63a1ff",
+    "cobalt_edge": "#143ca3",
+    "deep_space": "#02193b",
+    "info_blue": "#56c2ff",
+    "success_green": "#59d499"
+  },
+  "typography": {
+    "primary": "Inter",
+    "primary_fallback": "system-ui, -apple-system, Helvetica Neue, Arial, sans-serif",
+    "mono": "GeistMono",
+    "mono_fallback": "JetBrains Mono, Menlo, Monaco, Courier, monospace",
+    "system_glyph": "SF Pro Text",
+    "traits": [
+      "Inter body and heading system",
+      "regular-weight hero headline",
+      "Geist Mono technical metadata",
+      "small medium nav labels"
+    ]
+  },
+  "layout": {
+    "density": "comfortable",
+    "base_unit": "8px",
+    "max_width": "1200px",
+    "section_gap": "80-120px",
+    "card_padding": "24px",
+    "element_gap": "8-16px",
+    "composition": "full-bleed dark hero followed by contained dark sections and feature grids"
+  },
+  "radius": {
+    "badges": "6px",
+    "inputs": "8px",
+    "buttons": "8px",
+    "cards": "16px",
+    "large_cards": "20px",
+    "pills": "9999px",
+    "icon_containers": "99999px"
+  },
+  "components": [
+    "Glass Navigation Bar",
+    "Neutral Filled Button",
+    "Ghost Nav Link",
+    "Feature Card With Key Shadow",
+    "Edge-Highlight Card",
+    "Inset Input Field",
+    "Badge Tag",
+    "Circular Icon Container",
+    "Hero Gradient Banner",
+    "Footer Meta Strip",
+    "App Window Mockup"
+  ],
+  "rules": {
+    "do": [
+      "Use #040506 as the only page background.",
+      "Use Mist filled buttons with Iron text for primary actions.",
+      "Reserve coral for brand, hero, badge, and tiny selected-state moments.",
+      "Use Inter 56px regular for the hero headline.",
+      "Use the key-shadow inset stack on elevated cards.",
+      "Render technical metadata in Geist Mono.",
+      "Keep spacing on the 8px grid."
+    ],
+    "dont": [
+      "Do not use chromatic CTA buttons.",
+      "Do not use coral for body text, general links, or broad icon accents.",
+      "Do not add conventional drop shadows to cards.",
+      "Do not introduce light theme sections.",
+      "Do not mix many accent colors in one surface.",
+      "Do not use SF Pro Text for body copy.",
+      "Do not break the 8px spacing grid."
+    ]
+  }
+}
+

@@ -1,0 +1,293 @@
+{
+  "id": "f99aca3e-5289-4595-a7cc-77a72052f4b8",
+  "name": "Ventriloc",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/f99aca3e-5289-4595-a7cc-77a72052f4b8",
+  "referenceUrl": "https://ventriloc.ca/en",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Editorial data observatory on warm paper, with monochrome precision, flat data cards, asymmetric surfaces, and a single orange ember accent.",
+  "bestFor": [
+    "data products",
+    "analytics dashboards",
+    "financial reporting",
+    "B2B SaaS",
+    "observability tools",
+    "consulting sites",
+    "report-like landing pages"
+  ],
+  "tags": [
+    "light",
+    "data-product",
+    "analytics",
+    "editorial",
+    "warm-paper",
+    "monochrome",
+    "orange-accent",
+    "polysans",
+    "inter",
+    "asymmetric-cards",
+    "flat-dashboard-cards",
+    "pill-nav",
+    "square-buttons",
+    "report-like"
+  ],
+  "colors": {
+    "graphite": {
+      "value": "#202020",
+      "token": "--color-graphite",
+      "role": "Primary text, headings, nav links, icon strokes, and button fills."
+    },
+    "canvasWhite": {
+      "value": "#ffffff",
+      "token": "--color-canvas-white",
+      "role": "Page background, bright cards, and icon fills."
+    },
+    "ash": {
+      "value": "#efefef",
+      "token": "--color-ash",
+      "role": "Primary card and section background, plus nav pill containers."
+    },
+    "fog": {
+      "value": "#f5f5f5",
+      "token": "--color-fog",
+      "role": "Nested surfaces and secondary containers."
+    },
+    "ivory": {
+      "value": "#ebe6dd",
+      "token": "--color-ivory",
+      "role": "Warm accent background wash for featured editorial blocks."
+    },
+    "steel": {
+      "value": "#4d4d4d",
+      "token": "--color-steel",
+      "role": "Secondary body text and long-form paragraphs."
+    },
+    "slate": {
+      "value": "#828282",
+      "token": "--color-slate",
+      "role": "Helper text, tertiary nav, inactive controls, and footer utility text."
+    },
+    "mist": {
+      "value": "#e8e8e8",
+      "token": "--color-mist",
+      "role": "Hairline dividers and subtle nav fills."
+    },
+    "emberOrange": {
+      "value": "#ff682c",
+      "token": "--color-ember-orange",
+      "role": "Link underline, chart highlight, tag accent, and small icon accent."
+    },
+    "brass": {
+      "value": "#816729",
+      "token": "--color-brass",
+      "role": "Muted warm secondary accent for chart strokes, decorative data lines, and captions."
+    }
+  },
+  "typography": {
+    "families": {
+      "polysans": "PolySans",
+      "polysansFallback": "Inter Tight, Space Grotesk, ui-sans-serif, system-ui",
+      "inter": "Inter",
+      "interFallback": "system-ui, Roboto, ui-sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "rules": [
+      "Use PolySans-style text at weight 400 only.",
+      "Use -0.02em tracking on every PolySans-style element.",
+      "Use Inter for body, captions, metadata, helper text, and UI labels.",
+      "Do not bold PolySans-style headings."
+    ],
+    "scale": {
+      "micro": {
+        "size": "13px",
+        "lineHeight": 1.2,
+        "fontWeight": 500,
+        "letterSpacing": "0",
+        "token": "--text-micro"
+      },
+      "caption": {
+        "size": "14px",
+        "lineHeight": 1.43,
+        "fontWeight": 500,
+        "letterSpacing": "0",
+        "token": "--text-caption"
+      },
+      "ui": {
+        "size": "15px",
+        "lineHeight": 1.33,
+        "fontWeight": 500,
+        "letterSpacing": "0",
+        "token": "--text-ui"
+      },
+      "body": {
+        "size": "16px",
+        "lineHeight": 1.5,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "token": "--text-body"
+      },
+      "subheading": {
+        "size": "18px",
+        "lineHeight": 1.25,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "token": "--text-subheading"
+      },
+      "heading": {
+        "size": "32px",
+        "lineHeight": 1.19,
+        "fontWeight": 400,
+        "letterSpacing": "-0.64px",
+        "token": "--text-heading"
+      },
+      "headingLg": {
+        "size": "40px",
+        "lineHeight": 1.2,
+        "fontWeight": 400,
+        "letterSpacing": "-0.8px",
+        "token": "--text-heading-lg"
+      },
+      "display": {
+        "size": "66px",
+        "lineHeight": 0.91,
+        "fontWeight": 400,
+        "letterSpacing": "-1.32px",
+        "token": "--text-display"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "40px",
+    "elementGap": "20px",
+    "asymmetricCardTopPadding": "70px",
+    "asymmetricCardLeftPadding": "60px",
+    "largeLayoutGap": "140px",
+    "scale": {
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "36": "36px",
+      "40": "40px",
+      "60": "60px",
+      "80": "80px",
+      "140": "140px"
+    }
+  },
+  "radii": {
+    "buttons": "0px",
+    "asymmetricCard": "6px 0px 0px",
+    "cards": "8px",
+    "dataWidgets": "20px",
+    "tags": "20px",
+    "navPills": "200px"
+  },
+  "surfaces": {
+    "pageCanvas": {
+      "value": "#ffffff",
+      "role": "Brightest base layer."
+    },
+    "ashSurface": {
+      "value": "#efefef",
+      "role": "Card and section panels."
+    },
+    "fogSurface": {
+      "value": "#f5f5f5",
+      "role": "Nested containers and secondary surfaces."
+    },
+    "ivorySurface": {
+      "value": "#ebe6dd",
+      "role": "Warm accent wash for editorial blocks."
+    }
+  },
+  "elevation": {
+    "model": "shadowless",
+    "rules": [
+      "Do not use box shadows.",
+      "Use surface contrast, whitespace, and geometry for depth.",
+      "Keep data cards and nav pills flat."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary CTA Button",
+      "role": "High-emphasis action",
+      "recipe": "Graphite fill, Canvas White text, 0px radius, PolySans-style 16px weight 400, -0.02em tracking, 10px 20px padding, no shadow."
+    },
+    {
+      "name": "Ghost Outlined Button",
+      "role": "Secondary action",
+      "recipe": "Transparent fill, 1px Graphite border, Graphite text, 0px radius, 10px 20px padding, PolySans-style 16px weight 400."
+    },
+    {
+      "name": "Navigation Pill Container",
+      "role": "Header navigation capsule",
+      "recipe": "Ash background, 200px radius, 8px vertical and 18px horizontal padding, PolySans-style 16px links inside."
+    },
+    {
+      "name": "Asymmetric Radius Card",
+      "role": "Featured editorial panel",
+      "recipe": "Ash background, radius 6px 0px 0px, generous padding, no border, no shadow."
+    },
+    {
+      "name": "Data Dashboard Card",
+      "role": "Chart or stat widget",
+      "recipe": "Canvas White surface, 20px radius, 40px padding, chart accents in Ember Orange and Brass, no shadow."
+    },
+    {
+      "name": "Link With Orange Underline",
+      "role": "Inline emphasized link",
+      "recipe": "Base text color with 1px Ember Orange underline offset 2-3px below baseline."
+    }
+  ],
+  "guidelines": {
+    "do": [
+      "Use PolySans-style headings at weight 400 only.",
+      "Keep pages 95 percent achromatic.",
+      "Use Ember Orange only for punctuation.",
+      "Use square buttons, asymmetric featured cards, and pill navigation.",
+      "Use 20px element gaps and 80px section gaps.",
+      "Alternate Canvas White and Ash section bands.",
+      "Use chart widgets as the primary imagery."
+    ],
+    "dont": [
+      "Do not bold PolySans-style headings.",
+      "Do not use Ember Orange as a filled button background.",
+      "Do not add shadows to cards or buttons.",
+      "Do not make all cards symmetrically rounded.",
+      "Do not add extra accent colors.",
+      "Do not crowd the layout."
+    ]
+  },
+  "imagery": {
+    "style": "Data-driven charts, stat cards, rings, and monochrome partner logos.",
+    "rules": [
+      "Use Ember Orange and Brass for thin chart strokes only.",
+      "Avoid lifestyle photography and decorative hero illustrations.",
+      "Use monoline Graphite icons sparingly.",
+      "Treat charts as the visual content."
+    ]
+  },
+  "layout": {
+    "container": "1200px centered max width",
+    "hero": "Two-column split with headline and CTAs left, overlapping data cards right.",
+    "sections": "Alternating Canvas White and Ash bands with 80px gaps.",
+    "nav": "Floating pill container centered in the header, brand left, dark contact button right.",
+    "rhythm": "Wide margins, tall sections, report-like cards, and sparse orange punctuation."
+  },
+  "preview": {
+    "imageHost": "images.refero.design",
+    "downloaded": false,
+    "note": "Refero exposes preview imagery, but local download was not captured in this environment."
+  }
+}
+

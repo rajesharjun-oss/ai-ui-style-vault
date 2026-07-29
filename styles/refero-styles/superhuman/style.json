@@ -1,0 +1,186 @@
+{
+  "id": "418b374a-be64-44f0-b17e-1d45308c7e62",
+  "name": "Superhuman",
+  "slug": "superhuman",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/418b374a-be64-44f0-b17e-1d45308c7e62",
+  "referenceSite": "https://superhuman.com",
+  "capturedAt": "2026-07-28",
+  "mood": "golden hour editorial dashboard",
+  "summary": "Warm parchment editorial productivity UI with deep maroon CTAs, violet inline links, lilac secondary surfaces, Super Sans VF variable-weight typography, cinematic photography, translucent floating cards, and no drop-shadow stacks.",
+  "useWhen": [
+    "Premium productivity SaaS",
+    "Email and collaboration products",
+    "Executive software landing pages",
+    "Product launches that combine photography and UI mockups"
+  ],
+  "avoidWhen": [
+    "Cold enterprise dashboards",
+    "Highly colorful consumer products",
+    "Dark technical tools",
+    "Interfaces that cannot use photography or product UI"
+  ],
+  "colors": {
+    "midnightWine": {
+      "value": "#421d24",
+      "role": "Primary action buttons, announcement banner, footer, warm maroon anchor"
+    },
+    "royalViolet": {
+      "value": "#714cb6",
+      "role": "Inline links, short emphasized phrases, text accents only"
+    },
+    "lilacMist": {
+      "value": "#d4c7ff",
+      "role": "Secondary surface fills, light badges, ghost button backgrounds"
+    },
+    "deepLagoon": {
+      "value": "#0c4243",
+      "role": "Dark feature band background, used sparingly"
+    },
+    "inkCharcoal": {
+      "value": "#292827",
+      "role": "Primary text, headings, icons, warm near-black"
+    },
+    "stoneGray": {
+      "value": "#666666",
+      "role": "Secondary body text, helper copy, muted descriptions"
+    },
+    "softMist": {
+      "value": "#e3e3e2",
+      "role": "Hairline borders, card outlines, dividers"
+    },
+    "warmParchment": {
+      "value": "#f2f0eb",
+      "role": "Page canvas and dominant warm editorial surface"
+    },
+    "paperWhite": {
+      "value": "#ffffff",
+      "role": "Elevated cards, floating UI overlays, text on dark surfaces"
+    }
+  },
+  "typography": {
+    "primaryFamily": "Super Sans VF",
+    "fallbackFamilies": [
+      "Inter",
+      "Sohne",
+      "General Sans",
+      "Arial",
+      "sans-serif"
+    ],
+    "weights": [
+      460,
+      500,
+      540,
+      600,
+      700
+    ],
+    "openType": "\"ss01\" on if supported; tabular numerals for data-heavy UI cards",
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "weight": 500,
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "bodySmall": {
+        "size": "14px",
+        "weight": 460,
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "size": "16px",
+        "weight": 460,
+        "lineHeight": "1.2",
+        "letterSpacing": "0"
+      },
+      "labelBold": {
+        "size": "19px",
+        "weight": 700,
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "subheading": {
+        "size": "26px",
+        "weight": 460,
+        "lineHeight": "1.3",
+        "letterSpacing": "0"
+      },
+      "headingSmall": {
+        "size": "28px",
+        "weight": 540,
+        "lineHeight": "1.14",
+        "letterSpacing": "-0.62px"
+      },
+      "headingLarge": {
+        "size": "49px",
+        "weight": 460,
+        "lineHeight": "1.2",
+        "letterSpacing": "-1.32px"
+      },
+      "display": {
+        "size": "64px",
+        "weight": 540,
+        "lineHeight": "0.96",
+        "letterSpacing": "-1.8px"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "64px to 96px",
+    "cardPadding": "16px",
+    "elementGap": "8px",
+    "scale": [
+      "4px",
+      "8px",
+      "12px",
+      "16px",
+      "20px",
+      "24px",
+      "28px",
+      "32px",
+      "36px",
+      "40px",
+      "48px",
+      "64px",
+      "80px",
+      "96px"
+    ]
+  },
+  "shape": {
+    "tabRadius": "8px",
+    "smallButtonRadius": "8px",
+    "cardRadius": "16px",
+    "buttonRadius": "16px",
+    "floatingCardRadius": "16px",
+    "pillRadius": "999px"
+  },
+  "elevation": {
+    "shadow": "none",
+    "subtleInset": "rgb(113, 76, 182) 0px 0px 0px 1px inset",
+    "headerBlur": "backdrop-filter: blur(12px)"
+  },
+  "components": [
+    "Primary action button",
+    "Ghost text button",
+    "Outlined light button",
+    "Pill announcement banner",
+    "Floating product card",
+    "Trust logo card",
+    "Suite tab strip",
+    "Suite product card",
+    "Navigation header",
+    "Dark feature band",
+    "Gradient banner",
+    "Footer",
+    "Link with underline",
+    "Section heading"
+  ],
+  "imagery": {
+    "direction": "Golden-hour editorial photography, translucent product UI cards, software mockups, trust logos, subtle atmospheric gradient panels.",
+    "avoid": "Stock SaaS illustration, generic dashboards, heavy shadows, cool blue accents, white-on-white card stacks."
+  }
+}

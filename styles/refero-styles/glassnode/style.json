@@ -1,0 +1,105 @@
+{
+  "id": "a79b6a74-6b67-4c9f-9d69-bff80869b943",
+  "name": "Glassnode",
+  "slug": "glassnode",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/a79b6a74-6b67-4c9f-9d69-bff80869b943",
+    "referenceSite": "https://glassnode.com",
+    "capturedAt": "2026-07-29",
+    "publishedAt": "2026-04-13T09:26:44.000Z",
+    "articleModifiedAt": "2026-06-05T03:19:29.448Z",
+    "media": {
+      "primaryScreenshot": "https://images.refero.design/styles/refero.design/image/5eeeeec2-46fd-4247-9695-0d306c35e80a.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/35b9ca15-b3d8-4622-9cae-b5fbd3fb0d76.mp4",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/8c2e96ec-d38e-4a77-98fd-15c918e5ac10.jpg",
+      "detailVideo": "https://images.refero.design/styles/refero.design/video/995cbad4-8e47-48c8-b638-31e0737202a4.mp4",
+      "detailVideoPoster": "https://images.refero.design/styles/refero.design/image/0e12a4fa-1a14-4622-b680-7bb93fe37a4d.jpg"
+    }
+  },
+  "classification": {
+    "theme": "mixed",
+    "industry": ["crypto analytics", "financial research", "market data", "institutional dashboard"],
+    "mood": ["analytical", "institutional", "restrained", "monochrome", "data-rich"],
+    "bestFor": ["crypto analytics sites", "financial research pages", "market dashboards", "report libraries", "data product landing pages"]
+  },
+  "summary": "A mixed light/dark institutional research-console style with cloud gray canvas, white cards, obsidian dark bands, Inter UI text, 2px geometry, hairline borders, and chart-native imagery.",
+  "colors": {
+    "pureBlack": { "value": "#000000", "role": "Text, icons, strong contrast, filled light-surface actions" },
+    "obsidian": { "value": "#1a1a1a", "role": "Dark bands, footer, announcement bar, dark surfaces" },
+    "graphite": { "value": "#333333", "role": "Secondary headings and nav text" },
+    "iron": { "value": "#5a5a5a", "role": "Muted body copy and helper text" },
+    "slate": { "value": "#666666", "role": "De-emphasized paragraphs" },
+    "steel": { "value": "#808080", "role": "Placeholders, disabled states, input borders" },
+    "fog": { "value": "#a0a0a0", "role": "Muted text, icon strokes, subtle dark-band copy" },
+    "ash": { "value": "#bfbfbf", "role": "Light dividers and icon strokes" },
+    "mist": { "value": "#dedfe1", "role": "Hairline borders, card outlines, dividers" },
+    "cloud": { "value": "#edeff2", "role": "Page canvas and spaces between bands" },
+    "paper": { "value": "#f7f8fa", "role": "Light section backgrounds and subtle inset panels" },
+    "white": { "value": "#ffffff", "role": "Cards, inputs, elevated surfaces, text on dark" },
+    "glacierTint": { "value": "#e2e7fc", "role": "Soft accent wash, selected states, chart fill" },
+    "badgeSlate": { "value": "#6f6f6f", "role": "Small uppercase labels and tags" }
+  },
+  "typography": {
+    "bodyFamily": "Inter",
+    "displayFamily": "Fraktion",
+    "bodySubstitute": "Inter",
+    "displaySubstitute": "Sohne Breit Halbfett",
+    "weights": [400, 500, 700],
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": "1.4", "letterSpacing": "0", "fontWeight": 500 },
+      "bodySmall": { "fontSize": "14px", "lineHeight": "1.5", "letterSpacing": "0", "fontWeight": 400 },
+      "body": { "fontSize": "16px", "lineHeight": "1.5", "letterSpacing": "0", "fontWeight": 400 },
+      "subheading": { "fontSize": "20px", "lineHeight": "1.4", "letterSpacing": "0", "fontWeight": 500 },
+      "headingSmall": { "fontSize": "24px", "lineHeight": "1.3", "letterSpacing": "0", "fontWeight": 700 },
+      "heading": { "fontSize": "32px", "lineHeight": "1.2", "letterSpacing": "0", "fontWeight": 700 },
+      "display": { "fontSize": "56px", "lineHeight": "1.2", "letterSpacing": "0", "fontWeight": 700 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "16px",
+    "elementGap": "16px",
+    "scale": ["8px", "16px", "24px", "32px", "40px", "48px", "56px", "72px", "80px"]
+  },
+  "shape": {
+    "navRadius": "2px",
+    "tagRadius": "2px",
+    "cardRadius": "2px",
+    "inputRadius": "2px",
+    "buttonRadius": "2px",
+    "borderWidth": "1px"
+  },
+  "elevation": {
+    "button": "rgba(0, 0, 0, 0.04) 0px 2px 4px 0px",
+    "heroWidget": "rgba(0, 0, 0, 0.04) 0px 2px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 32px 0px"
+  },
+  "components": {
+    "primaryFilledButton": "Black or obsidian filled, white text, Inter 16px weight 500, 2px radius.",
+    "ghostOutlineButton": "Transparent or white background with black text, 1px border, 2px radius.",
+    "heroChartWidget": "White data widget with mist border, 2px radius, layered shadow, tabs, line chart, and search input.",
+    "partnerReportCard": "White report card with mist border, 2px radius, cover image, uppercase label, title, and muted description.",
+    "darkFeatureBlock": "Obsidian two-column feature block with white heading, fog body copy, and chart illustration.",
+    "topNavigation": "White 64px nav with bottom mist border, Inter nav links, ghost CTA, and filled dark CTA.",
+    "subscribeForm": "Dark band with white input and inverse white submit button."
+  },
+  "dos": [
+    "Use black or obsidian for primary actions rather than chromatic color.",
+    "Set all radii to 2px.",
+    "Separate surfaces with 1px mist borders.",
+    "Alternate light and dark bands.",
+    "Reserve the display face for the 56px hero H1.",
+    "Use glacier tint only as a soft wash or chart fill."
+  ],
+  "donts": [
+    "Do not introduce saturated brand colors.",
+    "Do not use radius above 2px.",
+    "Do not stack colored shadows or glows.",
+    "Do not use Fraktion below the hero H1.",
+    "Do not place white cards on white backgrounds without borders.",
+    "Do not break the 8px spacing scale.",
+    "Do not use photography as product UI texture."
+  ]
+}
+

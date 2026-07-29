@@ -1,0 +1,82 @@
+{
+  "name": "Alden",
+  "slug": "alden",
+  "sourceUrl": "https://styles.refero.design/style/b6f25b86-ffcf-42f1-9f37-5e37d08cb4ce",
+  "referenceSite": "https://joinalden.com",
+  "tokens": {
+    "color": {
+      "white": { "value": "#ffffff", "role": "main surface and card background" },
+      "parchment": { "value": "#f8f4ee", "role": "warm hero and testimonial panels" },
+      "ink": { "value": "#1f2937", "role": "primary text and headings" },
+      "mistBlue": { "value": "#e8f5ff", "role": "large word highlight blocks" },
+      "skySignal": { "value": "#5aa9e6", "role": "underlines, focus borders, badges, icon accents" },
+      "sage": { "value": "#7f9b85", "role": "primary CTA and care accent" },
+      "deepSage": { "value": "#617761", "role": "CTA hover and grounded controls" },
+      "stone": { "value": "#6b7280", "role": "secondary copy and nav" },
+      "cloudBorder": { "value": "#e5e7eb", "role": "hairlines, form borders, card outlines" }
+    },
+    "font": {
+      "family": {
+        "display": "Domaine Display, Georgia, Cormorant Garamond, Libre Baskerville, serif",
+        "sans": "Geist, Inter, Arial, sans-serif"
+      },
+      "weight": {
+        "regular": 400,
+        "medium": 500,
+        "bold": 700
+      }
+    },
+    "text": {
+      "microLabel": { "size": "13px", "lineHeight": "1.3", "weight": 700, "tracking": "0.08em" },
+      "bodySmall": { "size": "14px", "lineHeight": "1.5", "weight": 400, "tracking": "0" },
+      "body": { "size": "16px", "lineHeight": "1.6", "weight": 400, "tracking": "0" },
+      "bodyLarge": { "size": "18px", "lineHeight": "1.55", "weight": 400, "tracking": "0" },
+      "cardTitle": { "size": "22px", "lineHeight": "1.25", "weight": 700, "tracking": "0" },
+      "sectionHeading": { "size": "40px", "lineHeight": "1.12", "weight": 500, "tracking": "-0.01em" },
+      "quote": { "size": "48px", "lineHeight": "1.15", "weight": 400, "tracking": "-0.02em" },
+      "heroHeading": { "size": "64px", "lineHeight": "1.08", "weight": 400, "tracking": "-0.03em" }
+    },
+    "radius": {
+      "button": "999px",
+      "badge": "999px",
+      "card": "24px",
+      "image": "28px",
+      "input": "16px",
+      "section": "32px",
+      "highlight": "32px"
+    },
+    "spacing": {
+      "unit": "4px",
+      "pageMaxWidth": "1180px",
+      "sectionGap": "96px",
+      "cardPaddingMin": "24px",
+      "cardPaddingMax": "32px",
+      "elementGap": "16px",
+      "navHeightMin": "72px",
+      "navHeightMax": "80px"
+    }
+  },
+  "componentRecipes": {
+    "pillCta": {
+      "background": "sage",
+      "color": "white",
+      "hoverBackground": "deepSage",
+      "radius": "999px",
+      "padding": "14px 24px",
+      "font": "Geist 16px 500"
+    },
+    "advisorCard": {
+      "background": "white",
+      "border": "1px solid cloudBorder",
+      "radius": "24px",
+      "padding": "24px to 32px",
+      "shadow": "none"
+    },
+    "highlightWord": {
+      "background": "mistBlue",
+      "accent": "skySignal underline or circle",
+      "radius": "32px",
+      "usage": "one or two display phrases only"
+    }
+  }
+}

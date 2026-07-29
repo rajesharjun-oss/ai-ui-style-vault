@@ -1,0 +1,80 @@
+{
+  "name": "Perplexity AI",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/81afaa5c-73ac-4ef4-9a99-296da325ea6c",
+  "theme": "light",
+  "tokens": {
+    "color": {
+      "parchment": { "value": "#faf8f5", "css": "--color-parchment", "type": "color" },
+      "softPaper": { "value": "#fdfbfa", "css": "--color-soft-paper", "type": "color" },
+      "warmMist": { "value": "#d1d1cd", "css": "--color-warm-mist", "type": "color" },
+      "ash": { "value": "#92918b", "css": "--color-ash", "type": "color" },
+      "graphite": { "value": "#72706b", "css": "--color-graphite", "type": "color" },
+      "ink": { "value": "#27251e", "css": "--color-ink", "type": "color" },
+      "pureBlack": { "value": "#000000", "css": "--color-pure-black", "type": "color" },
+      "deepTeal": { "value": "#016a71", "css": "--color-deep-teal", "type": "color" }
+    },
+    "surface": {
+      "pageCanvas": { "value": "#faf8f5", "css": "--surface-page-canvas", "type": "color" },
+      "cardSurface": { "value": "#fdfbfa", "css": "--surface-card-surface", "type": "color" },
+      "activeNav": { "value": "#016a71", "css": "--surface-active-nav", "type": "color" },
+      "buttonFill": { "value": "#27251e", "css": "--surface-button-fill", "type": "color" }
+    },
+    "font": {
+      "family": {
+        "pplxSans": {
+          "value": "\"pplxSans\", Inter, ui-sans-serif, system-ui, sans-serif",
+          "css": "--font-pplxsans",
+          "type": "fontFamily"
+        }
+      },
+      "weight": {
+        "regular": { "value": 400, "css": "--font-weight-regular", "type": "fontWeight" },
+        "medium": { "value": 500, "css": "--font-weight-medium", "type": "fontWeight" }
+      }
+    },
+    "typography": {
+      "caption": { "fontSize": "11px", "lineHeight": 1.43, "fontWeight": 500, "letterSpacing": "0", "css": "--text-caption" },
+      "bodySm": { "fontSize": "12px", "lineHeight": 1.43, "fontWeight": 400, "letterSpacing": "0", "css": "--text-body-sm" },
+      "body": { "fontSize": "14px", "lineHeight": 1.43, "fontWeight": 400, "letterSpacing": "0", "css": "--text-body" },
+      "bodyLg": { "fontSize": "16px", "lineHeight": 1.43, "fontWeight": 400, "letterSpacing": "0", "css": "--text-body-lg" }
+    },
+    "spacing": {
+      "unit": { "value": "4px", "css": "--spacing-unit", "type": "dimension" },
+      "scale": {
+        "4": { "value": "4px", "css": "--spacing-4", "type": "dimension" },
+        "8": { "value": "8px", "css": "--spacing-8", "type": "dimension" },
+        "12": { "value": "12px", "css": "--spacing-12", "type": "dimension" },
+        "16": { "value": "16px", "css": "--spacing-16", "type": "dimension" },
+        "32": { "value": "32px", "css": "--spacing-32", "type": "dimension" }
+      }
+    },
+    "layout": {
+      "pageMaxWidth": { "value": "900px", "css": "--page-max-width", "type": "dimension" },
+      "sidebarWidth": { "value": "260px", "css": "--sidebar-width", "type": "dimension" },
+      "searchWidth": { "value": "640px", "css": "--search-width", "type": "dimension" },
+      "sectionGap": { "value": "32px", "css": "--section-gap", "type": "dimension" },
+      "cardPadding": { "value": "16px", "css": "--card-padding", "type": "dimension" },
+      "elementGap": { "value": "8px", "css": "--element-gap", "type": "dimension" }
+    },
+    "radius": {
+      "buttons": { "value": "6px", "css": "--radius-buttons", "type": "dimension" },
+      "inputs": { "value": "12px", "css": "--radius-inputs", "type": "dimension" },
+      "cards": { "value": "16px", "css": "--radius-cards", "type": "dimension" },
+      "chips": { "value": "9999px", "css": "--radius-chips", "type": "dimension" }
+    },
+    "shadow": {
+      "subtle": { "value": "rgba(0, 0, 0, 0.08) 0px 1px 2px 0px", "css": "--shadow-subtle", "type": "shadow" }
+    }
+  },
+  "componentRecipes": {
+    "sidebarNavItem": { "background": "transparent", "color": "#72706b", "activeBackground": "#016a71", "activeColor": "#faf8f5", "radius": "12px", "padding": "12px" },
+    "ghostButton": { "background": "transparent", "color": "#72706b", "border": "1px solid #d1d1cd", "radius": "6px", "padding": "8px 12px" },
+    "pillChip": { "background": "transparent", "color": "#27251e", "activeBackground": "#016a71", "activeColor": "#faf8f5", "radius": "9999px", "padding": "8px 12px" },
+    "filledActionButton": { "background": "#27251e", "color": "#faf8f5", "radius": "12px", "padding": "8px 12px" },
+    "suggestionCard": { "background": "#fdfbfa", "radius": "16px", "paddingY": "12px", "shadow": "rgba(0, 0, 0, 0.08) 0px 1px 2px 0px" },
+    "searchInput": { "background": "#faf8f5", "border": "1px solid #d1d1cd", "radius": "12px", "paddingY": "16px", "width": "640px" },
+    "badgeTag": { "background": "#016a71", "color": "#faf8f5", "radius": "9999px", "padding": "2px 8px", "fontSize": "11px", "fontWeight": 500 }
+  }
+}
+

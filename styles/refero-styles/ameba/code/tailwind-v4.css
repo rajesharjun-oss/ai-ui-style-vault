@@ -1,0 +1,65 @@
+@theme {
+  --color-midnight-ink: #00052e;
+  --color-signal-blue: #0428cb;
+  --color-arc-cyan: #34fcff;
+  --color-halo-violet: #afb4db;
+  --color-carbon: #222222;
+  --color-slate-body: #4f5166;
+  --color-mist: #8185a0;
+  --color-silver-border: #dbdcdf;
+  --color-white: #ffffff;
+  --color-radial-blue: #06105a;
+
+  --font-f37-bolton: "F37 Bolton", Sohne, Inter, "Helvetica Neue", Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-open-sauce: "Open Sauce Sans", Inter, Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+  --font-ibm-plex-mono: "IBM Plex Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --text-data-micro: 11px;
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-body-lg: 18px;
+  --text-card-title: 24px;
+  --text-section-heading: 54px;
+  --text-hero-heading: 86px;
+
+  --radius-tags: 4px;
+  --radius-images: 4px;
+  --radius-cards: 8px;
+  --radius-buttons: 8px;
+  --radius-inputs: 8px;
+
+  --spacing-unit: 8px;
+  --spacing-section: 80px;
+  --spacing-page-max: 1200px;
+  --spacing-card: 24px;
+  --spacing-element: 16px;
+}
+
+@utility ameba-surface {
+  background: var(--color-midnight-ink);
+  color: var(--color-white);
+  font-family: var(--font-open-sauce);
+}
+
+@utility ameba-heading {
+  color: var(--color-white);
+  font-family: var(--font-f37-bolton);
+  font-size: var(--text-section-heading);
+  line-height: 1.02;
+  font-weight: 300;
+  letter-spacing: -0.019em;
+}
+
+@utility ameba-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-buttons);
+  background: var(--color-signal-blue);
+  color: var(--color-white);
+  padding: 12px 18px;
+  font-family: var(--font-open-sauce);
+  font-size: var(--text-body-sm);
+  font-weight: 600;
+}

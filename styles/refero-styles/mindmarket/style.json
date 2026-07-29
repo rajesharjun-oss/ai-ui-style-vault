@@ -1,0 +1,69 @@
+{
+  "name": "MindMarket",
+  "slug": "mindmarket",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/9130ad37-bf80-458f-b808-ac0ef6a8d1e9",
+    "styleId": "9130ad37-bf80-458f-b808-ac0ef6a8d1e9",
+    "referenceSite": "https://mindmarket.com",
+    "capturedAt": "2026-07-28"
+  },
+  "theme": "light",
+  "summary": "A warm illustrated editorial system with cream-paper canvas, enormous Inter headlines, floating white pill navigation, 50px rounded cards and buttons, and flat paper-cut character art using green, blue, coral, and yellow accents.",
+  "personality": [
+    "warm",
+    "storybook",
+    "friendly",
+    "editorial",
+    "illustrated",
+    "breathable"
+  ],
+  "bestFor": [
+    "market research brands",
+    "insight products",
+    "friendly agency sites",
+    "illustrated landing pages",
+    "human-centered service pages"
+  ],
+  "coreMoves": [
+    "Use Cream Paper as the page canvas.",
+    "Use Inter only, including giant 140-144px display headlines.",
+    "Use 50px radius for cards, buttons, and nav.",
+    "Reserve Pure White for elevated surfaces.",
+    "Use Fresh Grass as structural accent.",
+    "Use chromatic accents mainly inside illustration.",
+    "Use paper-cut character art directly on the canvas.",
+    "Avoid shadows, gradients, photography, and dense UI."
+  ],
+  "colors": {
+    "freshGrass": "#8ed462",
+    "skyPop": "#2ba0ff",
+    "coralPop": "#ff705d",
+    "sunshinePop": "#f5e211",
+    "pureInk": "#000000",
+    "inkBlack": "#2c2e2a",
+    "stoneGray": "#80827f",
+    "hairlineMist": "#d5d5d4",
+    "sandstone": "#e0dbce",
+    "creamPaper": "#f5f1e4",
+    "pureWhite": "#ffffff"
+  },
+  "typography": {
+    "primary": {
+      "family": "Inter",
+      "fallback": "Inter",
+      "weights": [400, 500],
+      "sizes": ["9px", "15px", "17px", "18px", "20px", "30px", "53px", "81px", "140px", "144px"],
+      "displayTracking": "-0.06em",
+      "headingTracking": "-0.04em",
+      "displayLineHeight": 0.95
+    }
+  },
+  "shape": {
+    "small": "10px",
+    "nav": "50px",
+    "cards": "50px",
+    "buttons": "50px",
+    "illustrationContainers": "63.75px"
+  }
+}
+

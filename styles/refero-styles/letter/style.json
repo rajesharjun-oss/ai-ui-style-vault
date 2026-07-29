@@ -1,0 +1,96 @@
+{
+  "name": "Letter",
+  "slug": "letter",
+  "source": "refero",
+  "source_url": "https://styles.refero.design/style/bcfc6cb0-1b39-4f3f-a95e-bd7b563b0efc",
+  "style_id": "bcfc6cb0-1b39-4f3f-a95e-bd7b563b0efc",
+  "reference_url": "https://letter.co",
+  "captured_at": "2026-07-28",
+  "theme": "mixed",
+  "summary": "Private-banking gallery style with a dark vault hero, white editorial body, serif display headlines, extended grotesque UI text, 2px controls, tinted feature cards, and floating metallic 3D renders.",
+  "keywords": [
+    "private banking",
+    "wealth",
+    "finance",
+    "gallery",
+    "mixed theme",
+    "serif display",
+    "extended grotesque",
+    "3d render",
+    "tinted product panels",
+    "square buttons"
+  ],
+  "colors": {
+    "vault_ink": "#191b1f",
+    "paper_white": "#ffffff",
+    "mist_white": "#f6f9f9",
+    "fog_gray": "#9fabad",
+    "hairline": "#e6ebec",
+    "obsidian": "#000000",
+    "peach_wall": "#fcede1",
+    "mint_wall": "#eefcef",
+    "lavender_wall": "#e6def0",
+    "deep_teal": "#186f64",
+    "electric_violet": "#536eff",
+    "royal_violet": "#644bc4",
+    "sapphire_blue": "#154ea5"
+  },
+  "typography": {
+    "display": "Albra Sans",
+    "display_fallback": "GT Sectra, Tiempos Headline, Canela, Playfair Display, Georgia, serif",
+    "body": "Neufile Grotesk Extended",
+    "body_fallback": "Sohne, Inter, IBM Plex Sans, system-ui, sans-serif",
+    "traits": [
+      "serif headlines",
+      "extended grotesque interface text",
+      "positive serif tracking",
+      "editorial hierarchy"
+    ]
+  },
+  "layout": {
+    "density": "comfortable",
+    "base_unit": "4px",
+    "max_width": "1200px",
+    "section_gap": "64-96px",
+    "card_padding": "32px",
+    "element_gap": "16px",
+    "composition": "full-bleed dark hero followed by centered white, mist, and tinted gallery sections"
+  },
+  "radius": {
+    "cards": "0px",
+    "tags": "2px",
+    "inputs": "2px",
+    "buttons": "2px"
+  },
+  "components": [
+    "Navigation Bar Dark",
+    "Navigation Bar Light",
+    "Teal Filled Button",
+    "Violet Filled Button",
+    "Blue Filled Button",
+    "Ghost Text Link",
+    "Tinted Feature Card",
+    "Dark Hero Stage",
+    "Split Content Section",
+    "3D Abstract Render"
+  ],
+  "rules": {
+    "do": [
+      "Use serif display type for all headlines.",
+      "Keep controls at 2px radius.",
+      "Use 80px type for hero headlines only.",
+      "Pair filled buttons with same-color ghost text links.",
+      "Use 3D renders as the main depth mechanism.",
+      "Keep cards and buttons shadowless."
+    ],
+    "dont": [
+      "Do not set headlines in a sans-serif.",
+      "Do not add rounded cards, pill buttons, or circular avatars.",
+      "Do not use brand action colors for body text or large backgrounds.",
+      "Do not use tinted cards as full-page backgrounds.",
+      "Do not apply gradients to UI components.",
+      "Do not mask or frame 3D renders."
+    ]
+  }
+}
+

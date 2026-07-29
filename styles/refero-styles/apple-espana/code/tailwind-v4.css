@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+@theme {
+  --font-apple-display: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+  --font-apple-text: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+  --font-apple-icons: "SF Pro Icons", -apple-system, BlinkMacSystemFont, "Segoe UI Symbol", sans-serif;
+
+  --color-apple-blue: #0071e3;
+  --color-apple-link-blue: #0066cc;
+  --color-apple-deep-ink: #1d1d1f;
+  --color-apple-body-ink: #333333;
+  --color-apple-mid-graphite: #424245;
+  --color-apple-graphite: #6e6e73;
+  --color-apple-system-gray: #86868b;
+  --color-apple-hairline: #d2d2d7;
+  --color-apple-frost: #f5f5f7;
+  --color-apple-soft-frost: #fbfbfd;
+  --color-apple-pure-white: #ffffff;
+  --color-apple-black: #000000;
+  --color-apple-green: #008009;
+  --color-apple-product-red: #bf4800;
+
+  --text-apple-caption: 12px;
+  --text-apple-caption--line-height: 1.33;
+  --text-apple-body-sm: 14px;
+  --text-apple-body-sm--line-height: 1.43;
+  --text-apple-body: 17px;
+  --text-apple-body--line-height: 1.47;
+  --text-apple-body-lg: 21px;
+  --text-apple-body-lg--line-height: 1.38;
+  --text-apple-subheading: 24px;
+  --text-apple-subheading--line-height: 1.17;
+  --text-apple-heading-sm: 28px;
+  --text-apple-heading-sm--line-height: 1.14;
+  --text-apple-heading: 40px;
+  --text-apple-heading--line-height: 1.1;
+  --text-apple-heading-lg: 56px;
+  --text-apple-heading-lg--line-height: 1.07;
+  --text-apple-display: 80px;
+  --text-apple-display--line-height: 1.05;
+
+  --spacing-apple-4: 4px;
+  --spacing-apple-8: 8px;
+  --spacing-apple-12: 12px;
+  --spacing-apple-16: 16px;
+  --spacing-apple-20: 20px;
+  --spacing-apple-24: 24px;
+  --spacing-apple-32: 32px;
+  --spacing-apple-40: 40px;
+  --spacing-apple-48: 48px;
+  --spacing-apple-64: 64px;
+  --spacing-apple-80: 80px;
+  --spacing-apple-96: 96px;
+  --spacing-apple-120: 120px;
+  --spacing-apple-160: 160px;
+
+  --radius-apple-nav-control: 18px;
+  --radius-apple-button: 980px;
+  --radius-apple-card: 28px;
+  --radius-apple-product-tile: 32px;
+  --radius-apple-input: 12px;
+  --radius-apple-device: 44px;
+}
+
+@layer components {
+  .apple-page {
+    @apply min-h-screen bg-apple-pure-white text-apple-deep-ink font-apple-text;
+  }
+
+  .apple-container {
+    @apply mx-auto;
+    width: min(calc(100% - 48px), 980px);
+  }
+
+  .apple-hero-container {
+    @apply mx-auto;
+    width: min(100%, 1440px);
+  }
+
+  .apple-nav {
+    @apply sticky top-0 z-50 min-h-11 border-b;
+    background: rgba(251, 251, 253, 0.8);
+    border-color: rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(20px);
+  }
+
+  .apple-nav-inner {
+    @apply mx-auto flex min-h-11 items-center justify-between gap-apple-24;
+    width: min(calc(100% - 32px), 1024px);
+  }
+
+  .apple-nav-link {
+    @apply font-apple-text text-apple-caption font-normal text-apple-deep-ink no-underline;
+  }
+
+  .apple-hero {
+    @apply bg-apple-soft-frost py-apple-96 text-center;
+  }
+
+  .apple-display {
+    @apply m-0 font-apple-display text-apple-display font-semibold tracking-normal text-apple-deep-ink;
+  }
+
+  .apple-subhead {
+    @apply m-0 font-apple-text text-apple-body-lg font-normal tracking-normal text-apple-deep-ink;
+  }
+
+  .apple-cta-row {
+    @apply inline-flex flex-wrap items-center justify-center gap-apple-20;
+  }
+
+  .apple-buy-button {
+    @apply inline-flex min-h-8 items-center justify-center rounded-apple-button border-0 bg-apple-blue px-[15px] py-[7px] font-apple-text text-apple-body-sm font-normal text-apple-pure-white no-underline;
+  }
+
+  .apple-link {
+    @apply font-apple-text text-apple-body font-normal text-apple-link-blue no-underline hover:underline;
+  }
+
+  .apple-product-tile {
+    @apply rounded-apple-product-tile bg-apple-frost px-apple-32 py-apple-48 text-center shadow-none;
+  }
+
+  .apple-product-tile-title {
+    @apply m-0 font-apple-display text-apple-heading font-semibold text-apple-deep-ink;
+  }
+
+  .apple-product-image {
+    @apply mx-auto block h-auto;
+    width: min(100%, 980px);
+  }
+
+  .apple-comparison-card {
+    @apply rounded-apple-card border border-apple-hairline bg-apple-pure-white p-apple-24 text-center shadow-none;
+  }
+
+  .apple-spec {
+    @apply font-apple-text text-apple-body-sm font-normal text-apple-mid-graphite;
+  }
+
+  .apple-ribbon {
+    @apply bg-apple-frost px-apple-16 py-apple-12 text-center font-apple-text text-apple-body-sm font-normal text-apple-mid-graphite;
+  }
+
+  .apple-footer {
+    @apply bg-apple-frost py-apple-32 font-apple-text text-apple-caption font-normal text-apple-graphite;
+  }
+}

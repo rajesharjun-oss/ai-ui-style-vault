@@ -1,0 +1,82 @@
+@theme {
+  --color-whiteout: #ffffff;
+  --color-haze: #f5f5f5;
+  --color-ink: #1b1b1b;
+  --color-black-void: #000000;
+  --color-twilight-blue: #426188;
+  --color-signal-blue: #2b7fff;
+
+  --font-control: "Control", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-control-compressed: "Control Compressed", Anton, "Druk Wide", Impact, sans-serif;
+  --font-control-cursive: "Control Cursive", Caveat, "Reenie Beanie", cursive;
+  --font-control-tnt: "Control TNT", Inter, system-ui, sans-serif;
+
+  --text-caption: 13px;
+  --leading-caption: 1.5;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --text-subheading: 20px;
+  --leading-subheading: 1.4;
+  --text-heading: 32px;
+  --leading-heading: 1.1;
+  --text-heading-lg: 56px;
+  --leading-heading-lg: 1;
+  --text-display: 259px;
+  --leading-display: 0.85;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-52: 52px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-120: 120px;
+
+  --radius-cards: 12px;
+  --radius-pills: 9999px;
+  --radius-images: 11px;
+  --radius-inputs: 4px;
+  --radius-buttons: 8px;
+}
+
+@utility air-page {
+  background: #000000;
+  color: #ffffff;
+  font-family: var(--font-control);
+}
+
+@utility air-ghost-button {
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: var(--font-control);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 16px;
+}
+
+@utility air-haze-card {
+  background: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: none;
+  color: #1b1b1b;
+  padding: 20px;
+}
+
+@utility air-input {
+  background: #f5f5f5;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #1b1b1b;
+  font-family: var(--font-control);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+}
+

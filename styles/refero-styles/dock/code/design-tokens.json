@@ -1,0 +1,87 @@
+{
+  "name": "Dock",
+  "slug": "dock",
+  "sourceUrl": "https://styles.refero.design/style/d7fb1721-1878-4cbb-a24b-051800557c75",
+  "referenceSite": "https://dock.us",
+  "tokens": {
+    "color": {
+      "velvetInk": { "value": "#16042c", "type": "color" },
+      "paperCream": { "value": "#fcf8ed", "type": "color" },
+      "ivoryCard": { "value": "#fffdf8", "type": "color" },
+      "hairlineBeige": { "value": "#e8dcc8", "type": "color" },
+      "warmGray": { "value": "#776f64", "type": "color" },
+      "softTan": { "value": "#c9bda6", "type": "color" },
+      "electricCobalt": { "value": "#385bff", "type": "color" },
+      "cobaltHover": { "value": "#2748e8", "type": "color" },
+      "darkCobalt": { "value": "#1530b8", "type": "color" },
+      "paleBlue": { "value": "#eef2ff", "type": "color" },
+      "morningMist": { "value": "#f6f0e4", "type": "color" },
+      "pureWhite": { "value": "#ffffff", "type": "color" }
+    },
+    "font": {
+      "brand": {
+        "value": "\"Roobert\", \"Inter\", \"Plus Jakarta Sans\", system-ui, sans-serif",
+        "type": "fontFamily"
+      },
+      "ui": {
+        "value": "\"Product Sans\", \"Google Sans\", \"Inter\", system-ui, sans-serif",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "smallUi": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "bodyLarge": { "value": "20px", "type": "dimension" },
+      "cardHeading": { "value": "22px", "type": "dimension" },
+      "sectionHeading": { "value": "48px", "type": "dimension" },
+      "hero": { "value": "64px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "body": { "value": "1.5", "type": "number" },
+      "cardHeading": { "value": "1.3", "type": "number" },
+      "sectionHeading": { "value": "1.1", "type": "number" },
+      "hero": { "value": "1.05", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" },
+      "bold": { "value": "700", "type": "fontWeight" },
+      "heavy": { "value": "800", "type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "cardHeading": { "value": "-0.01em", "type": "dimension" },
+      "sectionHeading": { "value": "-0.03em", "type": "dimension" },
+      "hero": { "value": "-0.04em", "type": "dimension" }
+    },
+    "radius": {
+      "pill": { "value": "9999px", "type": "dimension" },
+      "card": { "value": "24px", "type": "dimension" },
+      "screenshot": { "value": "18px", "type": "dimension" },
+      "input": { "value": "12px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "4": { "value": "16px", "type": "dimension" },
+      "6": { "value": "24px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "12": { "value": "48px", "type": "dimension" },
+      "16": { "value": "64px", "type": "dimension" },
+      "24": { "value": "96px", "type": "dimension" },
+      "32": { "value": "128px", "type": "dimension" },
+      "maxWidth": { "value": "1280px", "type": "dimension" }
+    },
+    "shadow": {
+      "productScreenshot": {
+        "value": "0 24px 64px rgba(22,4,44,0.08), 0 8px 24px rgba(22,4,44,0.06)",
+        "type": "shadow"
+      },
+      "cardHover": {
+        "value": "0 12px 32px rgba(22,4,44,0.06)",
+        "type": "shadow"
+      }
+    }
+  }
+}

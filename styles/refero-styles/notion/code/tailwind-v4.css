@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@theme {
+  --font-notioninter: "NotionInter", "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-lyon-text: "Lyon Text", "Source Serif Pro", Georgia, serif;
+
+  --color-notion-blue: #0075de;
+  --color-paper-warmth: #f6f5f4;
+  --color-pure-white: #ffffff;
+  --color-ink-black: #000000;
+  --color-charcoal: #111111;
+  --color-stone: #757575;
+  --color-graphite: #615d59;
+  --color-slate: #696969;
+  --color-sky-tint: #e6f3fe;
+  --color-marigold: #ffb110;
+  --color-coral: #f64932;
+  --color-saffron: #e89d01;
+  --color-vermillion: #e32d14;
+  --color-mocha: #b18164;
+  --color-signal-blue: #097fe8;
+  --color-sky-wash: #62aef0;
+  --color-midnight-ink: #02093a;
+
+  --text-notion-caption: 12px;
+  --text-notion-caption--line-height: 1.33;
+  --text-notion-body-sm: 14px;
+  --text-notion-body-sm--line-height: 1.43;
+  --text-notion-body: 16px;
+  --text-notion-body--line-height: 1.5;
+  --text-notion-subheading: 20px;
+  --text-notion-subheading--line-height: 1;
+  --text-notion-heading-sm: 22px;
+  --text-notion-heading-sm--line-height: 1.27;
+  --text-notion-heading: 40px;
+  --text-notion-heading--line-height: 1.5;
+  --text-notion-heading-lg: 48px;
+  --text-notion-heading-lg--line-height: 1.5;
+  --text-notion-display-sm: 54px;
+  --text-notion-display-sm--line-height: 1.04;
+  --text-notion-display: 72px;
+  --text-notion-display--line-height: 1.21;
+  --text-notion-display-lg: 96px;
+  --text-notion-display-lg--line-height: 1.04;
+
+  --spacing-notion-4: 4px;
+  --spacing-notion-8: 8px;
+  --spacing-notion-12: 12px;
+  --spacing-notion-16: 16px;
+  --spacing-notion-20: 20px;
+  --spacing-notion-24: 24px;
+  --spacing-notion-28: 28px;
+  --spacing-notion-32: 32px;
+  --spacing-notion-36: 36px;
+  --spacing-notion-64: 64px;
+  --spacing-notion-80: 80px;
+
+  --radius-notion-small: 4px;
+  --radius-notion-button: 8px;
+  --radius-notion-card: 12px;
+  --radius-notion-pill: 9999px;
+}
+
+@layer components {
+  .notion-page {
+    @apply min-h-screen bg-paper-warmth text-ink-black font-notioninter;
+  }
+
+  .notion-container {
+    @apply mx-auto;
+    width: min(calc(100% - 48px), 1440px);
+  }
+
+  .notion-section {
+    @apply py-notion-80;
+  }
+
+  .notion-display {
+    @apply m-0 font-notioninter text-notion-display font-medium text-ink-black;
+    letter-spacing: -2.016px;
+  }
+
+  .notion-editorial {
+    @apply font-lyon-text text-[18px] font-normal leading-[1.56] text-graphite;
+  }
+
+  .notion-card {
+    @apply rounded-notion-card border border-black/10 bg-pure-white p-notion-24 shadow-none;
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .notion-card-accent {
+    @apply rounded-notion-card border-0 bg-marigold p-notion-24 shadow-none;
+  }
+
+  .notion-card-dark {
+    @apply rounded-notion-card border-0 bg-midnight-ink p-notion-24 text-pure-white shadow-none;
+  }
+
+  .notion-button-primary {
+    @apply inline-flex min-h-8 items-center justify-center rounded-notion-button border-0 bg-notion-blue px-[15px] py-[6px] text-notion-body-sm font-medium text-pure-white no-underline transition-colors duration-200 ease-in-out;
+  }
+
+  .notion-button-ghost {
+    @apply inline-flex min-h-8 items-center justify-center rounded-notion-button border-0 bg-sky-tint px-[15px] py-[6px] text-notion-body-sm font-medium text-notion-blue no-underline;
+  }
+
+  .notion-button-text {
+    @apply inline-flex min-h-8 items-center justify-center rounded-notion-button border-0 bg-transparent px-[15px] py-[6px] text-notion-body-sm font-medium text-black/95 no-underline;
+  }
+
+  .notion-button-outline {
+    @apply inline-flex min-h-[30px] items-center justify-center rounded-notion-small border bg-transparent px-[10px] py-[5px] text-notion-body-sm font-medium text-black/90 no-underline;
+    border-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .notion-highlight-pill {
+    @apply inline-flex items-center rounded-notion-pill bg-marigold px-notion-24 py-notion-8 text-ink-black;
+  }
+
+  .notion-tag {
+    @apply inline-flex min-h-6 items-center rounded-notion-pill bg-marigold px-notion-12 py-notion-4 text-notion-caption font-medium text-ink-black;
+  }
+
+  .notion-product-mockup {
+    @apply overflow-hidden rounded-notion-card border bg-pure-white;
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .notion-nav {
+    @apply sticky top-0 z-50 min-h-16;
+    background: rgba(246, 245, 244, 0.92);
+    box-shadow: 0 0.7px 1.462px rgba(0, 0, 0, 0.015), 0 3px 9px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(12px);
+  }
+
+  .notion-nav-link {
+    @apply inline-flex items-center rounded-notion-button px-notion-16 py-notion-12 text-notion-body-sm font-medium text-black/55 no-underline transition-colors duration-200 ease-in-out;
+  }
+
+  .notion-nav-link:hover {
+    @apply text-ink-black;
+  }
+}

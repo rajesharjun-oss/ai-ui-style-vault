@@ -1,0 +1,151 @@
+{
+  "id": "f24daf3a-d43f-4dec-85a9-8ac1d5148a03",
+  "name": "Vercel",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/f24daf3a-d43f-4dec-85a9-8ac1d5148a03",
+  "referenceUrl": "https://vercel.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Disciplined monochrome developer terminal on near-white paper with Geist Sans display type, Geist Mono metadata, 6px precision corners, hairline rings, and triangle-mark product language.",
+  "bestFor": [
+    "developer platforms",
+    "deployment tools",
+    "API products",
+    "infrastructure dashboards",
+    "CLI-first SaaS",
+    "docs portals",
+    "technical product launches"
+  ],
+  "tags": [
+    "light",
+    "developer-platform",
+    "monochrome",
+    "geist",
+    "terminal",
+    "paper-white",
+    "hairline-rings",
+    "6px-radius",
+    "triangle-mark",
+    "cli-panels",
+    "compact"
+  ],
+  "colors": {
+    "carbon": { "value": "#000000", "token": "--color-carbon", "role": "SVG icon fills, triangle logo mark, and pure graphic silhouettes only." },
+    "obsidian": { "value": "#171717", "token": "--color-obsidian", "role": "Primary headings, filled buttons, dark card fills, nav borders, and list markers." },
+    "charcoal": { "value": "#4d4d4d", "token": "--color-charcoal", "role": "Body paragraphs, card descriptions, and secondary button labels." },
+    "stone": { "value": "#666666", "token": "--color-stone", "role": "Muted captions, helper text, and de-emphasized UI labels." },
+    "slate": { "value": "#7d7d7d", "token": "--color-slate", "role": "Customer brand names and quiet heading variants." },
+    "graphite": { "value": "#8f8f8f", "token": "--color-graphite", "role": "Footer micro-copy and secondary metadata." },
+    "smoke": { "value": "#a8a8a8", "token": "--color-smoke", "role": "Tertiary text, placeholder copy, and subtle icon fills." },
+    "ash": { "value": "#c9c9c9", "token": "--color-ash", "role": "Disabled text, muted labels, and logo watermarks." },
+    "hairline": { "value": "#ebebeb", "token": "--color-hairline", "role": "1px borders on buttons, links, cards, and input edges." },
+    "paperWhite": { "value": "#fafafa", "token": "--color-paper-white", "role": "Page canvas, card surroundings, and light button fills." },
+    "pureWhite": { "value": "#ffffff", "token": "--color-pure-white", "role": "Elevated cards, inset highlights, and input fields." },
+    "terminalGreen": { "value": "#297a3a", "token": "--color-terminal-green", "role": "Confirmation text, command success marks, links, tags, and tiny emphasized phrases." }
+  },
+  "gradients": {
+    "spectrum": { "value": "linear-gradient(90deg, rgb(0, 255, 149) 0%, rgb(255, 208, 0) 25%, rgb(255, 23, 68) 50%, rgb(149, 0, 255) 75%, rgb(0, 229, 255) 100%)", "token": "--gradient-spectrum", "role": "Decorative marketing sweep only." },
+    "solarEdge": { "value": "linear-gradient(90deg, rgb(255, 220, 48) 0%, rgb(56, 162, 255) 100%)", "token": "--gradient-solar-edge", "role": "Decorative two-stop feature callout only." }
+  },
+  "typography": {
+    "families": {
+      "primary": "Geist Sans",
+      "mono": "Geist Mono"
+    },
+    "fallbacks": {
+      "primary": "Inter, system-ui, sans-serif",
+      "mono": "JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    },
+    "weights": {
+      "regular": 400,
+      "book": 450,
+      "medium": 500,
+      "semibold": 600
+    },
+    "rules": [
+      "Use Geist Sans for display, body, navigation, cards, buttons, and product copy.",
+      "Use Geist Mono for labels, metadata, code blocks, CLI output, uppercase eyebrows, and tiny stamps.",
+      "Keep headlines at weight 400 to 450.",
+      "Use tight tracking at 30px, 56px, and 64px heading sizes.",
+      "Do not use heavy heading weights."
+    ],
+    "scale": {
+      "eyebrow": { "size": "11px", "lineHeight": 1.5, "letterSpacing": "0.071em", "token": "--text-eyebrow" },
+      "caption": { "size": "13px", "lineHeight": 1.54, "letterSpacing": "0", "token": "--text-caption" },
+      "bodySm": { "size": "14px", "lineHeight": 1.43, "letterSpacing": "0", "token": "--text-body-sm" },
+      "body": { "size": "16px", "lineHeight": 1.5, "letterSpacing": "0", "token": "--text-body" },
+      "heading": { "size": "30px", "lineHeight": 1.1, "letterSpacing": "-1.5px", "token": "--text-heading" },
+      "headingLg": { "size": "56px", "lineHeight": 1, "letterSpacing": "-3.36px", "token": "--text-heading-lg" },
+      "display": { "size": "64px", "lineHeight": 1, "letterSpacing": "-3.84px", "token": "--text-display" }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1280px",
+    "sectionGap": "96px to 128px",
+    "cardPadding": "16px",
+    "elementGap": "12px",
+    "scale": {
+      "4": "4px",
+      "6": "6px",
+      "8": "8px",
+      "12": "12px",
+      "14": "14px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "44": "44px",
+      "208": "208px"
+    }
+  },
+  "radii": {
+    "nav": "2px",
+    "cards": "6px",
+    "buttons": "6px",
+    "pills": "9999px"
+  },
+  "shadows": {
+    "subtle": "rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgb(250, 250, 250) 0px 0px 0px 2px",
+    "subtle2": "rgb(235, 235, 235) 0px 0px 0px 1px"
+  },
+  "components": [
+    { "name": "Filled Black Button", "recipe": "Obsidian fill, Pure White text, 6px radius, 12px to 20px horizontal padding, Geist Sans 14px/400." },
+    { "name": "Ghost Outline Button", "recipe": "Transparent fill, Charcoal text, Hairline ring, 6px radius, 20px padding, Geist Sans 14px/400." },
+    { "name": "Pill Button", "recipe": "Obsidian or Pure White fill with contrasting text, 9999px radius, compact 12px horizontal padding, nav/header only." },
+    { "name": "Text Link Button", "recipe": "No background, no border, 0px radius, Obsidian or Charcoal text, Geist Sans 14px to 16px." },
+    { "name": "Bordered Card", "recipe": "Pure White, 6px radius, 16px padding, border via stacked rings: 0 0 0 1px rgba(0,0,0,0.08), 0 0 0 2px #fafafa." },
+    { "name": "Inverted Card", "recipe": "Obsidian fill, Pure White text, 6px radius, used sparingly." },
+    { "name": "CLI Output Panel", "recipe": "Pure White panel with Geist Mono 12px to 13px, triangle command prefixes, and Terminal Green checkmark confirmations." },
+    { "name": "Logo Strip Row", "recipe": "Horizontal grayscale customer logo strip with 24px to 32px gaps, softened to Slate or Ash." },
+    { "name": "Eyebrow Label", "recipe": "Geist Mono 11px/400, uppercase, 0.071em tracking, Obsidian, 12px gap before heading." },
+    { "name": "Top Nav Bar", "recipe": "64px sticky Paper White nav, optional backdrop blur, wordmark left, nav links center-left, action cluster right, no border." },
+    { "name": "Hero Composition", "recipe": "Asymmetric three-zone hero: headline left, black triangle mark center/offset, eyebrow stack right, no image background." },
+    { "name": "Feature Card Grid", "recipe": "Two-up or three-up grid with bordered cards, 16px to 24px padding, 30px headings, Charcoal descriptions, and embedded product proof." }
+  ],
+  "guidelines": {
+    "do": [
+      "Use Obsidian for primary text and filled buttons.",
+      "Use Carbon only for the triangle mark and SVG fills.",
+      "Apply 6px radius to cards, buttons, and bordered containers.",
+      "Use 9999px radius only for tight nav pills.",
+      "Set headings at weight 400 to 450 with tight tracking.",
+      "Use Geist Mono uppercase labels at 11px to 12px with 0.071em tracking.",
+      "Build depth with stacked hairline rings.",
+      "Use triangle command prefixes and Terminal Green checkmark confirmations in CLI panels.",
+      "Keep sections separated by 96px to 128px whitespace."
+    ],
+    "dont": [
+      "Do not use drop shadows.",
+      "Do not introduce chromatic UI color outside Terminal Green and optional decorative gradients.",
+      "Do not use pure black for text.",
+      "Do not use pure white for dark surfaces.",
+      "Do not use border radius larger than 6px on cards or rectangular buttons.",
+      "Do not set body or heading type outside the Obsidian, Charcoal, and Stone scale.",
+      "Do not use 300, 600, or 700 weights for headings.",
+      "Do not use Geist Sans for labels, metadata, or code."
+    ]
+  }
+}

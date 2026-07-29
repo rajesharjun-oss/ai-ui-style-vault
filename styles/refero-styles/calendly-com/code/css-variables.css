@@ -1,0 +1,174 @@
+:root {
+  --color-ink-navy: #0b3558;
+  --color-signal-blue: #006bff;
+  --color-deep-cobalt: #004eba;
+  --color-slate-gray: #476788;
+  --color-mist-gray: #a6bbd1;
+  --color-hairline: #d4e0ed;
+  --color-pebble: #f0f3f8;
+  --color-cloud: #f8f9fb;
+  --color-paper: #ffffff;
+  --color-carbon: #0a0a0a;
+  --color-coral-magenta: #e55cff;
+  --color-sky-cyan: #0099ff;
+
+  --font-primary: Gilroy, Manrope, Inter, system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.4;
+  --text-body: 16px;
+  --leading-body: 1;
+  --text-button: 18px;
+  --leading-button: 1.6;
+  --text-body-lg: 20px;
+  --leading-body-lg: 1.4;
+  --text-subheading-sm: 24px;
+  --leading-subheading-sm: 1.4;
+  --text-subheading: 28px;
+  --leading-subheading: 1.4;
+  --text-heading-sm: 38px;
+  --leading-heading-sm: 1.21;
+  --text-heading: 50px;
+  --leading-heading: 1.2;
+  --text-heading-lg: 68px;
+  --leading-heading-lg: 1.2;
+  --text-display: 80px;
+  --leading-display: 1.2;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --spacing-unit: 8px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-96: 96px;
+
+  --page-max-width: 1200px;
+  --section-gap-min: 48px;
+  --section-gap-max: 64px;
+  --card-padding: 24px;
+  --element-gap-min: 8px;
+  --element-gap-max: 16px;
+
+  --radius-small: 4px;
+  --radius-input: 8px;
+  --radius-button: 8px;
+  --radius-product-card: 16px;
+  --radius-card: 24px;
+  --radius-badge: 9999px;
+
+  --shadow-elevated-product-card: rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.08) 0px 30px 50px 0px;
+  --shadow-link-card: rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 4px 10px 0px, rgba(71, 103, 136, 0.05) 0px 10px 20px 0px;
+  --shadow-button: rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.06) 0px 15px 30px 0px;
+}
+
+.calendly-page {
+  min-height: 100vh;
+  background: var(--color-cloud);
+  color: var(--color-ink-navy);
+  font-family: var(--font-primary);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+}
+
+.calendly-container {
+  width: min(100% - 48px, var(--page-max-width));
+  margin-inline: auto;
+}
+
+.calendly-display {
+  color: var(--color-ink-navy);
+  font-size: clamp(50px, 7vw, var(--text-display));
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-display);
+  letter-spacing: 0;
+}
+
+.calendly-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-signal-blue);
+  color: var(--color-paper);
+  font-size: var(--text-button);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-button);
+  padding: 10px 16px;
+  box-shadow: var(--shadow-button);
+}
+
+.calendly-dark-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-ink-navy);
+  color: var(--color-paper);
+  font-size: var(--text-button);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-button);
+  padding: 10px 16px;
+}
+
+.calendly-product-card {
+  position: relative;
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-product-card);
+  background: var(--color-paper);
+  box-shadow: var(--shadow-elevated-product-card);
+  overflow: hidden;
+}
+
+.calendly-product-blob {
+  position: absolute;
+  width: 220px;
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  filter: blur(28px);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.calendly-product-blob[data-tone="magenta"] {
+  background: var(--color-coral-magenta);
+}
+
+.calendly-product-blob[data-tone="cyan"] {
+  background: var(--color-sky-cyan);
+}
+
+.calendly-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-badge);
+  background: #e6f0ff;
+  color: var(--color-deep-cobalt);
+  font-size: var(--text-caption);
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  padding: 4px 8px;
+}
+
+.calendly-input {
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-input);
+  background: var(--color-pebble);
+  color: var(--color-ink-navy);
+  font: inherit;
+  padding: 12px 16px;
+}
+

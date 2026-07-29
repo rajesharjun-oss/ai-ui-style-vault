@@ -1,0 +1,123 @@
+{
+  "name": "BlueYard Capital",
+  "slug": "blueyard-capital",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/ea11696a-17c0-41f8-9b08-c820851e0ea9",
+    "style_id": "ea11696a-17c0-41f8-9b08-c820851e0ea9",
+    "reference_site": "https://www.blueyard.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "sunset editorial observatory on a white printed canvas",
+  "summary": "A printed editorial venture system with pure white canvas, warm near-black typography, Instrument Sans only, compact spacing, 0px radius, flat hairline cards, pale card-only tints, and large atmospheric 3D planetary artwork.",
+  "use_cases": [
+    "Venture capital",
+    "Frontier technology funds",
+    "Research labs",
+    "Investment essays",
+    "Portfolio systems",
+    "Deep-tech editorial pages",
+    "Minimalist studio sites"
+  ],
+  "colors": {
+    "canvas_white": "#ffffff",
+    "graphite_ink": "#3a3a3e",
+    "deep_carbon": "#090b11",
+    "ash_veil": "#b5b0b0",
+    "apricot_wash": "#ffcf9e",
+    "iris_mist": "#babfff",
+    "fuchsia_bloom": "#e3a2ef",
+    "polar_blue": "#bfe0f7"
+  },
+  "typography": {
+    "primary_font": "Instrument Sans",
+    "fallback": "Inter, Sohne, General Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "weights": [400, 500],
+    "rule": "Instrument Sans is the only typeface; use negative tracking everywhere.",
+    "scale": {
+      "micro": {
+        "size": "7px",
+        "line_height": "1",
+        "letter_spacing": "tight",
+        "weight": 500
+      },
+      "tiny_label": {
+        "size": "9px",
+        "line_height": "1.5",
+        "letter_spacing": "tight",
+        "weight": 500
+      },
+      "small_label": {
+        "size": "11px",
+        "line_height": "1",
+        "letter_spacing": "tight",
+        "weight": 500
+      },
+      "caption": {
+        "size": "12px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.36px",
+        "weight": 400
+      },
+      "body": {
+        "size": "24px",
+        "line_height": "1.5",
+        "letter_spacing": "-0.24px",
+        "weight": 500
+      },
+      "heading": {
+        "size": "48px",
+        "line_height": "1.2",
+        "letter_spacing": "-0.54px",
+        "weight": 400
+      },
+      "display": {
+        "size": "54px",
+        "line_height": "1",
+        "letter_spacing": "-1.62px",
+        "weight": 400
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "density": "compact",
+    "page_max_width": "1200px",
+    "section_gap": "90px",
+    "card_padding": "12px",
+    "element_gap": "5px"
+  },
+  "radius": {
+    "tags": "0px",
+    "cards": "0px",
+    "buttons": "0px",
+    "navigation": "0px",
+    "images": "0px"
+  },
+  "components": [
+    "Centered Editorial Headline",
+    "Apricot-Bordered Card",
+    "Apricot Fill Card",
+    "Lavender-Bordered Card",
+    "Fuchsia Fill Card",
+    "Polar Blue Surface Band",
+    "Wordmark Lockup",
+    "Hamburger Menu Button",
+    "Ghost Link",
+    "Full-Bleed 3D Artwork Stage",
+    "Hairline Divider"
+  ],
+  "rules": [
+    "Use Graphite Ink for nearly all text, links, icons, and borders.",
+    "Use chromatic tints only as card backgrounds, hairline borders, or full-bleed section fields.",
+    "Never use chromatic colors for text or CTA fills.",
+    "Set all radii to 0px.",
+    "Use Instrument Sans only.",
+    "Use weight 400 for display and most content.",
+    "Reserve weight 500 for wordmark, navigation labels, and small emphasis.",
+    "Use negative tracking everywhere.",
+    "Use no shadows, glows, or elevated surfaces.",
+    "Let one large 3D artwork anchor the hero."
+  ]
+}

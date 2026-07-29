@@ -1,0 +1,122 @@
+{
+  "name": "ChatGPT",
+  "theme": "light",
+  "colors": {
+    "sidebarMist": {
+      "value": "#f9f9f9",
+      "role": "Sidebar and secondary surface backgrounds"
+    },
+    "pureWhite": {
+      "value": "#ffffff",
+      "role": "Main canvas, panels, and elevated surfaces"
+    },
+    "graphiteInk": {
+      "value": "#0d0d0d",
+      "role": "Primary text, headings, and icon fills"
+    },
+    "midAsh": {
+      "value": "#5d5d5d",
+      "role": "Secondary text, icons, labels, and metadata"
+    },
+    "hollow": {
+      "value": "#8f8f8f",
+      "role": "Tertiary text, disabled states, and helper copy"
+    },
+    "hairline": {
+      "value": "#0000001a",
+      "role": "1px borders and dividers"
+    },
+    "hoverVeil": {
+      "value": "#0000000d",
+      "role": "Hover state wash"
+    },
+    "inkPress": {
+      "value": "#000000",
+      "role": "Pressed or inverted surfaces, tooltips, and scrims"
+    },
+    "deepCharcoal": {
+      "value": "#00000080",
+      "role": "Modal scrim overlay"
+    },
+    "edgeGray": {
+      "value": "#e6e6e6",
+      "role": "Stronger divider or inactive surface"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "system": {
+        "value": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      }
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600
+    },
+    "letterSpacing": {
+      "default": "normal"
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "14px",
+        "lineHeight": "1.43",
+        "letterSpacing": "normal",
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.5",
+        "letterSpacing": "normal",
+        "fontWeight": 400
+      },
+      "heading": {
+        "fontSize": "24px",
+        "lineHeight": "1.33",
+        "letterSpacing": "normal",
+        "fontWeight": 600
+      }
+    }
+  },
+  "spacing": {
+    "density": "compact",
+    "scale": {
+      "6": "6px",
+      "8": "8px",
+      "10": "10px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "conversationMaxWidth": "720px to 768px",
+      "sidebarWidth": "260px to 280px",
+      "sidebarHeaderHeight": "52px",
+      "sectionGap": "24px",
+      "cardPadding": "16px",
+      "elementGap": "6px"
+    }
+  },
+  "radius": {
+    "nav": "10px",
+    "cards": "10px",
+    "buttons": "10px",
+    "links": "16px",
+    "badges": "0px",
+    "loginCta": "9999px"
+  },
+  "borders": {
+    "hairline": "1px solid #0000001a",
+    "edgeGray": "1px solid #e6e6e6"
+  },
+  "shadow": {
+    "none": "No shadows; use hairline borders only"
+  },
+  "surfaces": {
+    "sidebarCanvas": "#f9f9f9",
+    "conversationCanvas": "#ffffff",
+    "elevatedPanel": "#ffffff"
+  }
+}

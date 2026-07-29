@@ -1,0 +1,95 @@
+@theme {
+  --color-warm-parchment: #f0f0eb;
+  --color-gallery-white: #ffffff;
+  --color-soft-linen: #e1e1db;
+  --color-mist-gray: #d7d7cf;
+  --color-pale-stone: #cbcbc5;
+  --color-ash-gray: #bfbfb8;
+  --color-graphite-warm: #575753;
+  --color-charcoal-warm: #464643;
+  --color-ink: #111110;
+  --color-signal-orange: #ff3b00;
+  --color-deep-teal: #042a2b;
+
+  --font-cranny: "Cranny", "Fraunces", "Playfair Display", "DM Serif Display", Georgia, serif;
+  --font-abc-diatype: "ABC Diatype", Inter, Sohne, "GT America", Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-satoshi: "Satoshi", "DM Sans", Manrope, Arial, ui-sans-serif, system-ui, sans-serif;
+  --font-cabinetgrotesk: "Cabinetgrotesk", "Cabinet Grotesk", "General Sans", Arial, ui-sans-serif, system-ui, sans-serif;
+
+  --text-caption: 14px;
+  --text-body: 16px;
+  --text-body-lg: 18px;
+  --text-subheading: 24px;
+  --text-heading-sm: 40px;
+  --text-heading: 61px;
+  --text-display: 88px;
+
+  --radius-card: 8px;
+  --radius-image: 18px;
+  --radius-nav-pill: 32px;
+  --radius-button-lg: 40px;
+  --radius-button-sm: 24px;
+  --radius-tag: 9999px;
+
+  --spacing-unit: 8px;
+  --spacing-element: 16px;
+  --spacing-card: 32px;
+  --spacing-section: 80px;
+  --spacing-page-max: 1200px;
+}
+
+@utility frontify-page {
+  background: var(--color-warm-parchment);
+  color: var(--color-ink);
+  font-family: var(--font-abc-diatype);
+  letter-spacing: 0.01em;
+}
+
+@utility frontify-hero {
+  background: var(--color-deep-teal);
+  color: var(--color-gallery-white);
+}
+
+@utility frontify-heading {
+  font-family: var(--font-cranny);
+  font-weight: 300;
+  letter-spacing: -0.008em;
+  line-height: 0.95;
+}
+
+@utility frontify-card {
+  background: var(--color-gallery-white);
+  border: 1px solid var(--color-pale-stone);
+  border-radius: var(--radius-card);
+  padding: var(--spacing-card);
+}
+
+@utility frontify-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-button-sm);
+  background: var(--color-ink);
+  color: var(--color-gallery-white);
+  padding: 12px 20px;
+  font-family: var(--font-abc-diatype);
+  font-size: var(--text-caption);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+@utility frontify-ghost-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-button-sm);
+  background: transparent;
+  color: currentColor;
+  padding: 12px 20px;
+  font-family: var(--font-abc-diatype);
+  font-size: var(--text-caption);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}

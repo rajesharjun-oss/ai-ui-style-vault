@@ -1,0 +1,133 @@
+{
+  "name": "New Form",
+  "slug": "new-form",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/1a519123-071a-449f-b5df-0def73ed7f35",
+    "style_id": "1a519123-071a-449f-b5df-0def73ed7f35",
+    "reference_site": "https://www.newformcap.com",
+    "captured_at": "2026-07-28",
+    "source_title": "Home"
+  },
+  "theme": "light",
+  "mood": "editorial broadsheet in a green room",
+  "summary": "A typographic financial broadsheet system with Bone White canvas, huge PP Mondwest display headlines, TWK Lausanne micro-labels, grayscale-green photo inserts, Press Black editorial sections, a single Highlighter Green accent, sharp green action buttons, and a full-bleed green footer band.",
+  "use_cases": [
+    "Venture capital",
+    "Financial editorials",
+    "Investment firms",
+    "Crypto funds",
+    "Research publications",
+    "Institutional newsletters",
+    "Typographic landing pages"
+  ],
+  "colors": {
+    "bone_white": "#fafffa",
+    "press_black": "#121613",
+    "typesetter_ink": "#000000",
+    "slate_verdant": "#232924",
+    "newsprint_gray": "#516254",
+    "muted_sage": "#c8d2c8",
+    "highlighter_green": "#2bee4b",
+    "shadow_moss": "#93b799",
+    "echo_green": "#c4e4c9"
+  },
+  "typography": {
+    "ui_font": "TWK Lausanne",
+    "ui_fallback": "Inter, Sohne, Neue Haas Grotesk, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "display_font": "PP Mondwest",
+    "display_fallback": "GT Sectra, Tiempos Headline, Recoleta, serif",
+    "secondary_display_font": "Editorial New",
+    "secondary_display_fallback": "GT Super, Domaine Display, Canela, serif",
+    "link_font": "Times",
+    "link_fallback": "Times New Roman, serif",
+    "weights": [200, 300, 350, 400, 550],
+    "scale": {
+      "caption": {
+        "size": "11px",
+        "line_height": "1.1",
+        "letter_spacing": "0.11px",
+        "weight": 550
+      },
+      "body_sm": {
+        "size": "14px",
+        "line_height": "1.1",
+        "letter_spacing": "0.14px",
+        "weight": 350
+      },
+      "body": {
+        "size": "18px",
+        "line_height": "1",
+        "letter_spacing": "-0.36px",
+        "weight": 400
+      },
+      "subheading": {
+        "size": "60px",
+        "line_height": "0.9",
+        "letter_spacing": "-1.2px",
+        "weight": 300
+      },
+      "heading_sm": {
+        "size": "72px",
+        "line_height": "1",
+        "letter_spacing": "-1.44px",
+        "weight": 550
+      },
+      "heading": {
+        "size": "96px",
+        "line_height": "1",
+        "letter_spacing": "-1.92px",
+        "weight": 550
+      },
+      "heading_lg": {
+        "size": "155px",
+        "line_height": "1",
+        "letter_spacing": "-6.2px",
+        "weight": 550
+      },
+      "display": {
+        "size": "295px",
+        "line_height": "0.9",
+        "letter_spacing": "-11.8px",
+        "weight": 400
+      }
+    }
+  },
+  "spacing": {
+    "density": "spacious",
+    "page_max_width": "1400px",
+    "section_gap": "80px",
+    "card_padding": "0px",
+    "element_gap": "20px"
+  },
+  "radius": {
+    "buttons": "5px",
+    "pills": "10px",
+    "images": "14px",
+    "round": "9999px"
+  },
+  "components": [
+    "Highlighter Green Action Button",
+    "Ghost Outline Button",
+    "Underlined Text Link",
+    "Editorial Photo Insert",
+    "Stat Callout",
+    "Category Tag",
+    "Navigation Wordmark",
+    "Full-Bleed Accent Band",
+    "Dark Editorial Section",
+    "Footer"
+  ],
+  "rules": [
+    "Use Highlighter Green as the only saturated accent.",
+    "Use the green-tinted shadow on green buttons.",
+    "Keep the canvas Bone White, not pure white.",
+    "Use TWK Lausanne 11px uppercase micro-labels with positive tracking.",
+    "Use PP Mondwest for huge 165px to 295px hero type.",
+    "Apply the grayscale-green filter to photography.",
+    "Place image tiles inline with display type.",
+    "Use the full-bleed green band before the footer.",
+    "Do not use 9999px radius on primary actions.",
+    "Do not use box-shadow on cards or content blocks."
+  ]
+}

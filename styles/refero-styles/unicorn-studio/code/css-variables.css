@@ -1,0 +1,82 @@
+:root {
+  --unicorn-color-lavender-beam: #ab8ff1;
+  --unicorn-color-iris-glow: #8960f0;
+  --unicorn-color-void: #08080a;
+  --unicorn-color-charcoal: #0d0d12;
+  --unicorn-color-graphite: #17171c;
+  --unicorn-color-slate: #25252d;
+  --unicorn-color-iron: #31313a;
+  --unicorn-color-ash: #62626f;
+  --unicorn-color-fog: #8b8e9c;
+  --unicorn-color-pearl: #aeaac0;
+  --unicorn-color-chalk: #dad7de;
+
+  --unicorn-gradient-webgl-aurora: radial-gradient(circle, rgb(142, 108, 228), rgb(114, 79, 201));
+
+  --unicorn-font-display: "Overused Grotesk", "Inter Tight", "General Sans", Inter, sans-serif;
+  --unicorn-font-secondary-display: Sprat, Migra, "Editorial New", Georgia, serif;
+  --unicorn-font-ui: -apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif;
+
+  --unicorn-text-caption: 13px;
+  --unicorn-text-body: 16px;
+  --unicorn-text-subheading: 18px;
+  --unicorn-text-heading-sm: 26px;
+  --unicorn-text-heading: 32px;
+  --unicorn-text-heading-lg: 48px;
+  --unicorn-text-display: 64px;
+  --unicorn-text-display-xl: 215px;
+
+  --unicorn-leading-caption: 1.4;
+  --unicorn-leading-body: 1.4;
+  --unicorn-leading-subheading: 1.4;
+  --unicorn-leading-heading: 1;
+  --unicorn-leading-display: 0.99;
+
+  --unicorn-tracking-caption: -0.13px;
+  --unicorn-tracking-body: -0.16px;
+  --unicorn-tracking-subheading: -0.18px;
+  --unicorn-tracking-heading-sm: -0.78px;
+  --unicorn-tracking-heading: -1.28px;
+  --unicorn-tracking-heading-lg: -1.92px;
+  --unicorn-tracking-display: -4.03px;
+  --unicorn-tracking-display-em: -0.063em;
+  --unicorn-tracking-heading-em: -0.040em;
+  --unicorn-tracking-small-heading-em: -0.030em;
+
+  --unicorn-weight-regular: 400;
+  --unicorn-weight-medium: 500;
+  --unicorn-weight-semibold: 600;
+
+  --unicorn-space-5: 5px;
+  --unicorn-space-6: 6px;
+  --unicorn-space-8: 8px;
+  --unicorn-space-10: 10px;
+  --unicorn-space-12: 12px;
+  --unicorn-space-14: 14px;
+  --unicorn-space-15: 15px;
+  --unicorn-space-18: 18px;
+  --unicorn-space-19: 19px;
+  --unicorn-space-20: 20px;
+  --unicorn-space-30: 30px;
+  --unicorn-space-40: 40px;
+  --unicorn-space-60: 60px;
+  --unicorn-space-96: 96px;
+  --unicorn-space-100: 100px;
+  --unicorn-space-118: 118px;
+
+  --unicorn-page-max-width: 1200px;
+  --unicorn-section-gap: 96px;
+  --unicorn-card-padding: 30px;
+  --unicorn-element-gap-min: 18px;
+  --unicorn-element-gap-max: 20px;
+
+  --unicorn-radius-tag: 3px;
+  --unicorn-radius-input: 3px;
+  --unicorn-radius-button: 3px;
+  --unicorn-radius-card: 10px;
+
+  --unicorn-shadow-sm: rgba(0, 0, 0, 0.25) 0px 1px 4px 0px;
+  --unicorn-shadow-floating: rgba(0, 0, 0, 0.4) 0px 2px 4px -1.5px;
+  --unicorn-shadow-keyline: rgb(49, 49, 58) 0px -1px 0px 0px;
+}
+

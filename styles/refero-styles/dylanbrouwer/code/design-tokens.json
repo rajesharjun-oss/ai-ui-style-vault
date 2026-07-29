@@ -1,0 +1,93 @@
+{
+  "name": "Dylanbrouwer",
+  "slug": "dylanbrouwer",
+  "source": "https://styles.refero.design/style/b1e82907-d1cf-46cd-8ae7-3561c5b15fd0",
+  "tokens": {
+    "color": {
+      "cinderBlack": { "value": "#161616", "type": "color" },
+      "boneWhite": { "value": "#f7f7f7", "type": "color" },
+      "concreteMist": { "value": "#efefee", "type": "color" },
+      "emberOrange": { "value": "#f7601b", "type": "color" },
+      "utilityGray": { "value": "#777777", "type": "color" },
+      "ashLine": { "value": "#d5d5d5", "type": "color" },
+      "deepField": { "value": "#000000", "type": "color" }
+    },
+    "fontFamily": {
+      "display": { "value": "Tilt Warp, ABC Gravity, Die Grotesk B, Impact, sans-serif", "type": "fontFamily" },
+      "body": { "value": "Sohne, Inter, Arial, Helvetica, sans-serif", "type": "fontFamily" }
+    },
+    "fontSize": {
+      "megaDisplay": { "value": "288px", "type": "dimension" },
+      "display": { "value": "144px", "type": "dimension" },
+      "headline": { "value": "76px", "type": "dimension" },
+      "title": { "value": "44px", "type": "dimension" },
+      "body": { "value": "18px", "type": "dimension" },
+      "bodySmall": { "value": "14px", "type": "dimension" },
+      "nav": { "value": "13px", "type": "dimension" },
+      "meta": { "value": "12px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "megaDisplay": { "value": "0.85", "type": "number" },
+      "display": { "value": "0.88", "type": "number" },
+      "headline": { "value": "0.92", "type": "number" },
+      "title": { "value": "1", "type": "number" },
+      "body": { "value": "1.35", "type": "number" },
+      "bodySmall": { "value": "1.3", "type": "number" },
+      "nav": { "value": "1.2", "type": "number" },
+      "meta": { "value": "1.2", "type": "number" }
+    },
+    "letterSpacing": {
+      "megaDisplay": { "value": "-14.4px", "type": "dimension" },
+      "display": { "value": "-7.2px", "type": "dimension" },
+      "headline": { "value": "-3.04px", "type": "dimension" },
+      "title": { "value": "-1.76px", "type": "dimension" },
+      "body": { "value": "-0.36px", "type": "dimension" },
+      "bodySmall": { "value": "-0.14px", "type": "dimension" },
+      "nav": { "value": "-0.13px", "type": "dimension" },
+      "meta": { "value": "0.24px", "type": "dimension" }
+    },
+    "space": {
+      "base": { "value": "6px", "type": "dimension" },
+      "element": { "value": "18px", "type": "dimension" },
+      "cardPadding": { "value": "24px", "type": "dimension" },
+      "section": { "value": "144px", "type": "dimension" },
+      "contentMaxWidth": { "value": "1200px", "type": "dimension" }
+    },
+    "radius": {
+      "sharp": { "value": "0px", "type": "dimension" },
+      "pill": { "value": "9999px", "type": "dimension" }
+    },
+    "border": {
+      "strong": { "value": "1px solid #161616", "type": "border" },
+      "subtle": { "value": "1px solid #d5d5d5", "type": "border" }
+    }
+  },
+  "componentRecipes": {
+    "pillNav": {
+      "background": "transparent",
+      "color": "{color.cinderBlack}",
+      "border": "{border.strong}",
+      "radius": "{radius.pill}",
+      "padding": "8px 14px",
+      "hoverBackground": "{color.emberOrange}"
+    },
+    "projectCard": {
+      "background": "{color.boneWhite}",
+      "border": "{border.strong}",
+      "radius": "{radius.sharp}",
+      "padding": "{space.cardPadding}",
+      "shadow": "none"
+    },
+    "mediaFrame": {
+      "radius": "{radius.sharp}",
+      "border": "none",
+      "shadow": "none"
+    },
+    "darkPanel": {
+      "background": "{color.deepField}",
+      "color": "{color.boneWhite}",
+      "accent": "{color.emberOrange}"
+    }
+  }
+}
+

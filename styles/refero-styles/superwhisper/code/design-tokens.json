@@ -1,0 +1,95 @@
+{
+  "name": "Superwhisper",
+  "slug": "superwhisper",
+  "sourceUrl": "https://styles.refero.design/style/b8a8976c-52d9-4ebb-95ea-4c40f4a9acab",
+  "referenceSite": "https://superwhisper.com",
+  "tokens": {
+    "color": {
+      "obsidian": { "value": "#030712", "type": "color" },
+      "deepSpace": { "value": "#0a0f1c", "type": "color" },
+      "charcoalGlass": { "value": "#111827", "type": "color" },
+      "slateBorder": { "value": "#1f2937", "type": "color" },
+      "iron": { "value": "#374151", "type": "color" },
+      "coolGray": { "value": "#9ca3af", "type": "color" },
+      "mist": { "value": "#e5e7eb", "type": "color" },
+      "white": { "value": "#ffffff", "type": "color" },
+      "electricViolet": { "value": "#8b5cf6", "type": "color" },
+      "neonTeal": { "value": "#22d3ee", "type": "color" },
+      "auroraCyan": { "value": "#06b6d4", "type": "color" },
+      "indigoGlow": { "value": "#6366f1", "type": "color" },
+      "pinkPulse": { "value": "#ec4899", "type": "color" },
+      "successMint": { "value": "#34d399", "type": "color" },
+      "amberSignal": { "value": "#fbbf24", "type": "color" }
+    },
+    "font": {
+      "sans": {
+        "value": "\"Inter\", system-ui, sans-serif",
+        "type": "fontFamily"
+      },
+      "mono": {
+        "value": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "monoLabel": { "value": "12px", "type": "dimension" },
+      "ui": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "transcript": { "value": "17px", "type": "dimension" },
+      "cardTitle": { "value": "20px", "type": "dimension" },
+      "sectionHeading": { "value": "36px", "type": "dimension" },
+      "hero": { "value": "64px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "monoLabel": { "value": "1.33", "type": "number" },
+      "ui": { "value": "1.43", "type": "number" },
+      "body": { "value": "1.6", "type": "number" },
+      "transcript": { "value": "1.65", "type": "number" },
+      "cardTitle": { "value": "1.3", "type": "number" },
+      "sectionHeading": { "value": "1.1", "type": "number" },
+      "hero": { "value": "0.98", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" },
+      "bold": { "value": "700", "type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "normal": { "value": "0", "type": "dimension" },
+      "cardTitle": { "value": "-0.01em", "type": "dimension" },
+      "sectionHeading": { "value": "-0.03em", "type": "dimension" },
+      "hero": { "value": "-0.05em", "type": "dimension" }
+    },
+    "radius": {
+      "pill": { "value": "9999px", "type": "dimension" },
+      "card": { "value": "20px", "type": "dimension" },
+      "panel": { "value": "24px", "type": "dimension" },
+      "input": { "value": "14px", "type": "dimension" },
+      "transcript": { "value": "16px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "4": { "value": "16px", "type": "dimension" },
+      "5": { "value": "20px", "type": "dimension" },
+      "6": { "value": "24px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "20": { "value": "80px", "type": "dimension" },
+      "24": { "value": "96px", "type": "dimension" },
+      "28": { "value": "112px", "type": "dimension" },
+      "maxWidth": { "value": "1200px", "type": "dimension" }
+    },
+    "shadow": {
+      "glassCard": {
+        "value": "0 24px 80px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.06)",
+        "type": "shadow"
+      },
+      "auroraGlow": {
+        "value": "0 0 40px rgba(139,92,246,0.28), 0 0 64px rgba(34,211,238,0.18)",
+        "type": "shadow"
+      }
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+ "id": "0ed40a3a-2541-4ffa-acdd-f1170858bc5d",
+ "name": "Assurestor",
+ "slug": "assurestor",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0ed40a3a-2541-4ffa-acdd-f1170858bc5d",
+ "referenceSite": "https://www.assurestor.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-11T00:08:49.109Z",
+ "articleModifiedAt": "2026-06-03T20:27:34.476Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b97b75e0-3370-456a-a8ec-e8d1a08788d3.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c31353c4-4e49-4867-aae3-859f3e7955b8.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4365eed8-3dda-4e30-8fd2-c329e0601712.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9b354150-04ca-4d59-82e3-a62e127a20dd.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/190e55e9-3db4-4f5a-a83a-dd55ecf214a9.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/d40f14ca-bf5e-4d54-ae61-95ec2d8bc27d.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Electric terminal in a deep forest vault - lime phosphor on midnight olive.",
+ "summary": "Explore Assurestor\u0027s dark SaaS design system: Forest Canopy #203400, Vault Floor #1b2d00 colors, Denim Ink, Courier New typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Forest Canopy",
+ "value": "#203400",
+ "token": "--color-forest-canopy",
+ "role": "Primary page background, nav strip, footer canvas - the dominant surface that defines the entire brand atmosphere"
+ },
+ {
+ "name": "Vault Floor",
+ "value": "#1b2d00",
+ "token": "--color-vault-floor",
+ "role": "Card surfaces, recessed panels, elevated content blocks within the forest canvas"
+ },
+ {
+ "name": "Canopy Mid",
+ "value": "#335400",
+ "token": "--color-canopy-mid",
+ "role": "Elevated card variant, highlighted surface tier above the base canvas"
+ },
+ {
+ "name": "Lime Phosphor",
+ "value": "#bdff00",
+ "token": "--color-lime-phosphor",
+ "role": "Primary action buttons, active state indicators, illustrative highlight panels, brand-accent moments - the sole chromatic signal in the system"
+ },
+ {
+ "name": "Moss Border",
+ "value": "#586740",
+ "token": "--color-moss-border",
+ "role": "Hairline dividers, list separators, subtle table borders - barely-there green-on-green rules"
+ },
+ {
+ "name": "Fern",
+ "value": "#73a303",
+ "token": "--color-fern",
+ "role": "Secondary accent strokes, table emphasis borders, mid-saturation green used sparingly for variety within lime contexts"
+ },
+ {
+ "name": "White",
+ "value": "#ffffff",
+ "token": "--color-white",
+ "role": "Body text, heading text, icon strokes, ghost button borders, link colors, input fields - the only neutral light tone in the palette"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Denim Ink",
+ "token": "--font-denim-ink",
+ "role": "All interface text - from tiny labels to massive display headlines. The custom geometric face is the voice of the brand; weight 400 covers body and body-large, 600 for subheadings and emphasized inline, 700 reserved for the largest display moments. Extreme size jumps (40 64 86 94) create a poster-like hierarchy where the largest text dwarfs everything else on the page."
+ },
+ {
+ "name": "Courier New",
+ "token": "--font-courier-new",
+ "role": "Tiny monospaced labels (8px) for micro-annotations, likely near icons or status indicators. Ultra-tight tracking (-0.14em) at this size reads as a decorative tech-glitch element rather than readable text."
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-0.32px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "20px",
+ "1.5",
+ "-0.4px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "32px",
+ "1.2",
+ "-0.7px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "40px",
+ "1.1",
+ "-0.88px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "64px",
+ "1",
+ "-1.35px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "94px",
+ "1",
+ "-4.23px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "80px",
+ "cardPadding": "40px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "240",
+ "240px",
+ "`--spacing-240`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "12px"
+ ],
+ [
+ "cards",
+ "32px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "buttons",
+ "16px"
+ ],
+ [
+ "body-blocks",
+ "24px"
+ ],
+ [
+ "alternate-button",
+ "20px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Lime Primary Button",
+ "role": "High-emphasis action - booking calls, starting contact flows"
+ },
+ {
+ "name": "Ghost Outline Button",
+ "role": "Secondary action - press releases, read-more links, navigation"
+ },
+ {
+ "name": "Pill Navigation Link",
+ "role": "Top-nav items and supplementary action chips"
+ },
+ {
+ "name": "Featured Lime Panel",
+ "role": "Decorative-content block - large visual moment with solid lime fill"
+ },
+ {
+ "name": "Dark Content Card",
+ "role": "Section containers, content blocks, feature cards"
+ },
+ {
+ "name": "Elevated Accent Card",
+ "role": "Highlighted variant for emphasis or hover/active states"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Section separator, list rule, table border"
+ },
+ {
+ "name": "Active Dot Indicator",
+ "role": "Status marker beside section labels (\"NG Powered by HYCU\", \"360 Protection\")"
+ },
+ {
+ "name": "Section Eyebrow Label",
+ "role": "Small green dot + tiny caption introducing each section"
+ },
+ {
+ "name": "Headline Block",
+ "role": "Hero and section headlines at display scale"
+ },
+ {
+ "name": "Ghost Input Field",
+ "role": "Form inputs, search fields, email capture"
+ },
+ {
+ "name": "CTA Card / Feature Card with Image",
+ "role": "Feature cards combining text and visual"
+ }
+ ],
+ "dos": [
+ "Use #bdff00 lime as the ONLY filled action color in the system; never substitute another hue for primary CTAs.",
+ "Set headlines at 64-94px with Denim Ink weight 600-700 and -0.045em tracking - the extreme size and tight tracking is the brand\u0027s visual signature.",
+ "Maintain the monochromatic green discipline: layer surfaces using #1b2d00 #203400 #335400, never introduce gray neutrals.",
+ "Use 32px radius for all cards and 16px radius for all buttons; pill shapes (9999px) are reserved for nav items and tag chips.",
+ "Place an 8px lime dot before every section eyebrow label - it is the brand\u0027s \u0027live signal\u0027 indicator.",
+ "Keep body text in Denim Ink weight 400 at 16-20px, #ffffff, with line-height 1.5 and -0.02em tracking.",
+ "Allow sections to breathe with 80px vertical gaps and full-width dark bands - density comes from content, not from tight spacing."
+ ],
+ "donts": [
+ "Never use #bdff00 as a large background outside of one featured decorative panel per page - rationing lime is what makes it feel like a signal.",
+ "Do not introduce drop shadows for elevation; the system separates layers through color tier shifts, not shadow depth.",
+ "Do not use gray (#808080, #999, etc.) for any UI element - the palette is green-monochrome plus white and lime only.",
+ "Never set body text below 16px except for the 8px Courier New micro-labels - legibility is non-negotiable.",
+ "Do not mix multiple accent greens (#73a303, #586740) into the same component - one accent per surface keeps the hierarchy clean.",
+ "Do not add gradients - the design relies on flat color blocks for its terminal/phosphor aesthetic.",
+ "Do not use heavy font weights below 32px - Denim Ink at weight 700 in body sizes destroys readability; reserve 700 for display moments only."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Forest Canopy | `#203400` | Base page background - the dominant canvas filling all viewports |\n| 2 | Vault Floor | `#1b2d00` | Card surfaces and recessed content blocks, one tier deeper than the canvas |\n| 3 | Canopy Mid | `#335400` | Elevated or active card states, highlighted content tiers |\n| 4 | Lime Phosphor | `#bdff00` | Featured decorative panel and primary action surface - the sole bright signal |",
+ "elevation": "",
+ "imagery": "Minimal illustrative photography; the brand favors flat lime-green geometric illustrations (hourglass, concentric circles) rendered in pixelated/dot-matrix style that echoes the phosphor-terminal aesthetic. Imagery is always contained within rounded-corner panels (32px radius), never full-bleed. No lifestyle photography, no people - the visual language is abstract-tech and object-focused. The only color used in illustrations is lime (#bdff00) as line-art on the dark canvas, or as a full solid-lime panel with white/green content inside. Icon style is line-based, thin stroke, monochromatic white or lime.",
+ "layout": "Full-bleed dark canvas with a centered max-width content column (~1280px). Navigation is a slim top bar with logo left, nav center, login + lime CTA right. Hero is a two-column split: text block (60%) left with headline + subtext + 2-3 buttons, decorative illustration (40%) right. Subsequent sections alternate between text-left/visual-right two-column layouts and full-width centered headline stacks. A horizontal hairline divider separates major sections. Section rhythm is spacious: 80px vertical gaps between bands, each section introduced by a lime-dot eyebrow label. Card grids are not used heavily - content prefers single-column or two-column arrangements. No sidebar; no mega-menu. The overall page flows like vertical terminal output - section by section, each with its own green-dot identifier."
+}

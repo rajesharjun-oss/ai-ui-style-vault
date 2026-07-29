@@ -1,0 +1,93 @@
+{
+  "name": "Ferrari",
+  "slug": "ferrari",
+  "source": "refero",
+  "source_url": "https://styles.refero.design/style/80164adf-a898-4f7c-bce7-12f3f62e1649",
+  "style_id": "80164adf-a898-4f7c-bce7-12f3f62e1649",
+  "reference_url": "https://ferrari.com",
+  "captured_at": "2026-07-28",
+  "theme": "dark",
+  "summary": "Cinematic black automotive editorial style with full-bleed photography, small uppercase tracked type, zero-radius geometry, hairline dividers, and red reserved for interaction states.",
+  "keywords": [
+    "automotive",
+    "luxury",
+    "cinematic",
+    "editorial",
+    "dark",
+    "full-bleed photography",
+    "uppercase typography",
+    "sharp geometry",
+    "hairline dividers",
+    "minimal navigation"
+  ],
+  "colors": {
+    "rosso_corsa": "#da291c",
+    "rosso_scuro": "#9d2211",
+    "carbone_nero": "#000000",
+    "notte_profonda": "#181818",
+    "grafite": "#303030",
+    "piombo": "#666666",
+    "fumo": "#8f8f8f",
+    "argento_chiaro": "#d2d2d2",
+    "cemento": "#ebebeb",
+    "velo_di_luce": "#f7f7f7",
+    "bianco_ferrari": "#ffffff"
+  },
+  "typography": {
+    "primary": "FerrariSans",
+    "fallback": "Inter, Helvetica Neue, Arial Narrow, system-ui, sans-serif",
+    "body": "Body-Font",
+    "features": ["ss01"],
+    "traits": [
+      "uppercase interface copy",
+      "small sizes",
+      "wide tracking",
+      "medium weight only for 16px section titles"
+    ]
+  },
+  "layout": {
+    "density": "comfortable",
+    "max_width": "1440px",
+    "section_gap": "64-96px",
+    "card_padding": "24-32px",
+    "element_gap": "10-16px",
+    "composition": "full-bleed vertical scroll with centered single-column editorial rhythm"
+  },
+  "radius": {
+    "cards": "0px",
+    "buttons": "0px",
+    "tags": "0px",
+    "full": "9999px"
+  },
+  "components": [
+    "Ghost Navigation Link",
+    "Dark Cinematic Hero Panel",
+    "Section Label Button",
+    "Carousel Indicator Dot",
+    "Footer Block",
+    "Featured Content Card",
+    "Utility Icon Button",
+    "Category Pill",
+    "Hairline Divider",
+    "Full-Bleed Photography Frame",
+    "Body Text Link",
+    "CTA Arrow Link"
+  ],
+  "rules": {
+    "do": [
+      "Use black and near-black full-width sections.",
+      "Use red only for interactive states or tiny signal accents.",
+      "Use uppercase, small, widely tracked interface type.",
+      "Let photography bleed edge-to-edge.",
+      "Use hairline dividers instead of shadows."
+    ],
+    "dont": [
+      "Do not use red as a filled CTA background.",
+      "Do not add rounded cards or rounded buttons.",
+      "Do not add shadows, gradients, glow, or glass effects.",
+      "Do not frame or pad full-bleed hero photography.",
+      "Do not let the UI compete with the product image."
+    ]
+  }
+}
+

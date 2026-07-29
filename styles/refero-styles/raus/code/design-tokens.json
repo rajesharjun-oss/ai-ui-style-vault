@@ -1,0 +1,89 @@
+{
+  "name": "Raus",
+  "slug": "raus",
+  "sourceUrl": "https://styles.refero.design/style/d28732de-1b7a-4d37-b7aa-edfa7caf428b",
+  "referenceSite": "https://www.raus.life",
+  "tokens": {
+    "color": {
+      "charcoalInk": { "value": "#25231f", "type": "color" },
+      "warmPaper": { "value": "#f7f4ed", "type": "color" },
+      "pureWhite": { "value": "#ffffff", "type": "color" },
+      "parchmentBorder": { "value": "#e8e0d2", "type": "color" },
+      "stoneGray": { "value": "#8f887d", "type": "color" },
+      "campfireOchre": { "value": "#c98a3f", "type": "color" },
+      "forestGreen": { "value": "#1f4f3a", "type": "color" },
+      "sand": { "value": "#d8c6a3", "type": "color" },
+      "linenWash": { "value": "#f1ece3", "type": "color" },
+      "taupe": { "value": "#b7a98d", "type": "color" }
+    },
+    "font": {
+      "sans": {
+        "value": "\"Inter\", system-ui, sans-serif",
+        "type": "fontFamily"
+      },
+      "mono": {
+        "value": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+        "type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "micro": { "value": "12px", "type": "dimension" },
+      "smallUi": { "value": "14px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "lead": { "value": "18px", "type": "dimension" },
+      "cardTitle": { "value": "24px", "type": "dimension" },
+      "section": { "value": "40px", "type": "dimension" },
+      "hero": { "value": "64px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "micro": { "value": "1.33", "type": "number" },
+      "smallUi": { "value": "1.43", "type": "number" },
+      "body": { "value": "1.6", "type": "number" },
+      "lead": { "value": "1.55", "type": "number" },
+      "cardTitle": { "value": "1.25", "type": "number" },
+      "section": { "value": "1.1", "type": "number" },
+      "hero": { "value": "0.95", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "normal": { "value": "0", "type": "dimension" },
+      "cardTitle": { "value": "-0.01em", "type": "dimension" },
+      "section": { "value": "-0.03em", "type": "dimension" },
+      "hero": { "value": "-0.05em", "type": "dimension" }
+    },
+    "radius": {
+      "card": { "value": "20px", "type": "dimension" },
+      "bookingCard": { "value": "24px", "type": "dimension" },
+      "button": { "value": "9999px", "type": "dimension" },
+      "input": { "value": "12px", "type": "dimension" },
+      "mapMarker": { "value": "9999px", "type": "dimension" }
+    },
+    "space": {
+      "1": { "value": "4px", "type": "dimension" },
+      "2": { "value": "8px", "type": "dimension" },
+      "3": { "value": "12px", "type": "dimension" },
+      "4": { "value": "16px", "type": "dimension" },
+      "5": { "value": "20px", "type": "dimension" },
+      "6": { "value": "24px", "type": "dimension" },
+      "8": { "value": "32px", "type": "dimension" },
+      "10": { "value": "40px", "type": "dimension" },
+      "24": { "value": "96px", "type": "dimension" },
+      "maxWidth": { "value": "1200px", "type": "dimension" },
+      "bookingPanelWidth": { "value": "360px", "type": "dimension" }
+    },
+    "shadow": {
+      "card": {
+        "value": "0 20px 50px -24px rgba(37,35,31,0.08)",
+        "type": "shadow"
+      },
+      "marker": {
+        "value": "0 8px 20px -8px rgba(37,35,31,0.25)",
+        "type": "shadow"
+      }
+    }
+  }
+}

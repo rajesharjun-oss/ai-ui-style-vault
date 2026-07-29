@@ -1,0 +1,78 @@
+{
+  "name": "Ramp",
+  "slug": "ramp",
+  "source_url": "https://styles.refero.design/style/b38702a0-75ab-474c-9106-00b624535825",
+  "style_id": "b38702a0-75ab-474c-9106-00b624535825",
+  "reference_site": "https://ramp.com",
+  "captured_at": "2026-07-28",
+  "theme": "light",
+  "summary": "A light editorial finance system with warm paper surfaces, white cards, hairline structure, near-black type, and a single highlighter accent for money and action states.",
+  "personality": [
+    "editorial",
+    "financial",
+    "precise",
+    "operational",
+    "restrained"
+  ],
+  "colors": {
+    "highlighterYellow": "#e4f222",
+    "ink": "#0c0a08",
+    "obsidian": "#1a1919",
+    "ash": "#6d6c6b",
+    "smoke": "#d3d3d3",
+    "hairline": "#e5e7eb",
+    "bone": "#f4f2f0",
+    "paper": "#ffffff"
+  },
+  "typography": {
+    "fontFamily": "lausanne, Inter, IBM Plex Sans, Sohne, Arial, sans-serif",
+    "fontWeight": 400,
+    "fontFeatureSettings": "\"ss01\"",
+    "sizesPx": [10, 13, 14, 16, 18, 20, 24, 28, 40, 48, 64],
+    "rules": [
+      "Use weight 400 only.",
+      "Use size and spacing instead of bold weights.",
+      "Use uppercase 10px micro labels with slight positive tracking."
+    ]
+  },
+  "spacing": {
+    "baseUnitPx": 4,
+    "maxWidthPx": 1200,
+    "sectionGapPx": [64, 96, 128],
+    "cardPaddingPx": [20, 24],
+    "scalePx": [4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 128, 156]
+  },
+  "radius": {
+    "buttonPx": 6,
+    "tagPx": 6,
+    "inputPx": 10,
+    "washCardPx": 12,
+    "cardPx": 16
+  },
+  "components": [
+    "primary highlighter button",
+    "outlined button",
+    "ghost link button",
+    "square icon button",
+    "content card",
+    "wash card",
+    "email input",
+    "testimonial card",
+    "live counter ticker",
+    "sticky navigation bar",
+    "announcement bar",
+    "hero product screenshot",
+    "logo grid cell"
+  ],
+  "avoid": [
+    "extra accent colors",
+    "bold or semibold typography",
+    "box shadows on content surfaces",
+    "decorative gradients",
+    "stock photography",
+    "centered long-form copy",
+    "fully rounded pills",
+    "4px corner radius"
+  ]
+}
+

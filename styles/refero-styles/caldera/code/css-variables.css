@@ -1,0 +1,164 @@
+:root {
+  /* Colors */
+  --color-lava-black: #000000;
+  --color-obsidian: #111111;
+  --color-basalt: #212121;
+  --color-charcoal: #343434;
+  --color-ash: #6c6c6c;
+  --color-stone: #b6b0aa;
+  --color-pumice: #e3ded8;
+  --color-chalk: #f2ede7;
+  --color-steam: #ffffff;
+  --color-ember-orange: #ff6828;
+  --color-molten-coral: #ff7b54;
+  --color-violet-rift: #6c35ff;
+  --color-deep-violet: #2d165f;
+  --color-sulfur: #e8ff50;
+  --color-signal-blue: #1c69ff;
+
+  /* Typography */
+  --font-pp-neue: "PP Neue Montreal", "Arial Narrow", "Helvetica Neue Condensed", "Inter Tight", sans-serif;
+  --font-dm-sans: "DM Sans", Inter, system-ui, sans-serif;
+
+  --text-micro: 14px;
+  --leading-micro: 1.1;
+  --text-body: 16px;
+  --leading-body: 1.25;
+  --text-body-lg: 24px;
+  --leading-body-lg: 1.15;
+  --text-heading: 48px;
+  --leading-heading: 1.05;
+  --tracking-heading: -1.44px;
+  --text-display: 128px;
+  --leading-display: 0.95;
+  --tracking-display: -5.76px;
+
+  --font-weight-display: 530;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-120: 120px;
+  --spacing-160: 160px;
+  --spacing-200: 200px;
+
+  /* Layout */
+  --page-max-width: 1280px;
+  --section-gap: 160px;
+  --card-padding: 40px;
+  --element-gap: 16px;
+
+  /* Radius */
+  --radius-buttons: 40px;
+  --radius-inputs: 32px;
+  --radius-cards: 40px;
+  --radius-chips: 800px;
+  --radius-modals: 48px;
+  --radius-hero-visual: 56px;
+
+  /* Shadows */
+  --shadow-card: rgba(0, 0, 0, 0.12) 0px 12px 40px -20px;
+  --shadow-button: rgba(0, 0, 0, 0.16) 0px 6px 16px -8px;
+}
+
+.caldera-shell {
+  background: var(--color-pumice);
+  color: var(--color-lava-black);
+  font-family: var(--font-dm-sans);
+}
+
+.caldera-container {
+  max-width: var(--page-max-width);
+  margin-inline: auto;
+  padding-inline: var(--spacing-32);
+}
+
+.caldera-display {
+  color: var(--color-lava-black);
+  font-family: var(--font-pp-neue);
+  font-size: clamp(56px, 11vw, var(--text-display));
+  font-weight: var(--font-weight-display);
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+}
+
+.caldera-body {
+  color: var(--color-ash);
+  font-family: var(--font-dm-sans);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--leading-body);
+}
+
+.caldera-card {
+  background: var(--color-chalk);
+  border: 1px solid var(--color-lava-black);
+  border-radius: var(--radius-cards);
+  box-shadow: var(--shadow-card);
+  padding: var(--card-padding);
+}
+
+.caldera-button {
+  align-items: center;
+  background: var(--color-ember-orange);
+  border: 1px solid var(--color-lava-black);
+  border-radius: var(--radius-buttons);
+  box-shadow: var(--shadow-button);
+  color: var(--color-lava-black);
+  display: inline-flex;
+  font-family: var(--font-dm-sans);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-semibold);
+  gap: var(--spacing-12);
+  justify-content: center;
+  line-height: 1;
+  padding: var(--spacing-16) var(--spacing-32);
+}
+
+.caldera-button[data-variant="outline"] {
+  background: transparent;
+  box-shadow: none;
+}
+
+.caldera-tag {
+  background: var(--color-sulfur);
+  border: 1px solid var(--color-lava-black);
+  border-radius: var(--radius-chips);
+  color: var(--color-lava-black);
+  display: inline-flex;
+  font-family: var(--font-dm-sans);
+  font-size: var(--text-micro);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1;
+  padding: var(--spacing-8) var(--spacing-16);
+}
+
+.caldera-input {
+  background: var(--color-chalk);
+  border: 1px solid var(--color-stone);
+  border-radius: var(--radius-inputs);
+  color: var(--color-lava-black);
+  font-family: var(--font-dm-sans);
+  font-size: var(--text-body);
+  font-weight: var(--font-weight-medium);
+  padding: var(--spacing-16) var(--spacing-24);
+}
+
+.caldera-input:focus {
+  border-color: var(--color-ember-orange);
+  outline: 3px solid color-mix(in srgb, var(--color-ember-orange) 24%, transparent);
+}

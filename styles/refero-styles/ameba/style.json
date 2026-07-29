@@ -1,0 +1,88 @@
+{
+  "id": "371df039-a090-402b-b2e4-21ab38e07625",
+  "name": "Ameba",
+  "slug": "ameba",
+  "sourceUrl": "https://styles.refero.design/style/371df039-a090-402b-b2e4-21ab38e07625",
+  "referenceSite": "https://www.ameba.ai",
+  "capturedAt": "2026-07-28",
+  "theme": "dark",
+  "mood": "midnight control room with electric blue data ribbons",
+  "industry": ["SaaS", "AI", "enterprise operations", "supply-chain intelligence"],
+  "summary": "A dark AI command-center style with Midnight Ink canvas, Signal Blue as the single CTA color, Arc Cyan and Halo Violet atmospheric glow, F37 Bolton light display headings, Open Sauce Sans UI/body text, IBM Plex Mono metadata, 8px max radii, hairline borders, and clean white product screenshots.",
+  "colors": {
+    "midnightInk": "#00052e",
+    "signalBlue": "#0428cb",
+    "arcCyan": "#34fcff",
+    "haloViolet": "#afb4db",
+    "carbon": "#222222",
+    "slateBody": "#4f5166",
+    "mist": "#8185a0",
+    "silverBorder": "#dbdcdf",
+    "white": "#ffffff",
+    "radialBlue": "#06105a"
+  },
+  "typography": {
+    "display": "F37 Bolton",
+    "displayFallback": "Sohne, Inter, Helvetica Neue",
+    "body": "Open Sauce Sans",
+    "bodyFallback": "Inter, Arial, Helvetica",
+    "mono": "IBM Plex Mono",
+    "monoFallback": "JetBrains Mono, ui-monospace, SFMono-Regular",
+    "displayWeight": 300,
+    "bodyWeights": [400, 500, 600],
+    "monoWeights": [500, 600],
+    "displayTracking": "-0.019em at 54px and above",
+    "monoTracking": "0.077em to 0.091em"
+  },
+  "shape": {
+    "tagRadius": "4px",
+    "imageRadius": "4px",
+    "cardRadius": "8px",
+    "buttonRadius": "8px",
+    "inputRadius": "8px"
+  },
+  "layout": {
+    "baseUnit": "8px",
+    "density": "comfortable",
+    "maxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "24px",
+    "elementGap": "12px to 16px",
+    "model": "dark atmospheric shell with radial hero glow, white product UI surfaces, hairline borders, metric cards, data badges, and restrained blue active states"
+  },
+  "elevation": {
+    "shadows": "none",
+    "gradients": "radial background glow only; never on UI elements",
+    "depth": "radial atmospheric glow, hairline borders, dark surfaces, and white product frames"
+  },
+  "components": [
+    "dark radial hero",
+    "signal blue CTA",
+    "midnight feature card",
+    "white product surface",
+    "IBM Plex Mono data badge",
+    "active timeline bar",
+    "chat input bar",
+    "metric card",
+    "product screenshot frame",
+    "dark footer links"
+  ],
+  "dos": [
+    "Use Midnight Ink as the canvas for hero and feature sections.",
+    "Reserve Signal Blue for the single filled CTA, active timeline bars, and key visualization state.",
+    "Set display headlines in F37 Bolton weight 300 with negative tracking.",
+    "Use 8px radius for cards and buttons and 4px for tags and images.",
+    "Use IBM Plex Mono with tracked letter spacing for data and status metadata.",
+    "Keep product surfaces white with 1px Silver Border hairlines.",
+    "Use one radial glow behind the focal element."
+  ],
+  "donts": [
+    "Do not add drop shadows.",
+    "Do not use Arc Cyan for text, buttons, or borders.",
+    "Do not set body text below 14px in Open Sauce Sans or below 11px in IBM Plex Mono.",
+    "Do not use warm hues for brand identity.",
+    "Do not round corners above 8px.",
+    "Do not fill dark cards with semi-transparent white.",
+    "Do not use gradient fills on UI elements."
+  ]
+}

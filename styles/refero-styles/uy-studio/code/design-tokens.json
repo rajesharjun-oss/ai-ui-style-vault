@@ -1,0 +1,174 @@
+{
+    "name":  "UY Studio",
+    "theme":  "light",
+    "colors":  [
+                   {
+                       "name":  "Soot",
+                       "value":  "#24241f",
+                       "token":  "--color-soot",
+                       "role":  "Primary text, all icon strokes, hairline borders, nav links, footer text the single dark voice of the system"
+                   },
+                   {
+                       "name":  "Limestone",
+                       "value":  "#d1d3cf",
+                       "token":  "--color-limestone",
+                       "role":  "Page canvas, announcement bar, nav background the warm-tinted near-gray that replaces white as the system\u0027s base tone"
+                   },
+                   {
+                       "name":  "Chalk",
+                       "value":  "#e5e5e5",
+                       "token":  "--color-chalk",
+                       "role":  "Secondary surface, subtle borders, product photo backgrounds a slightly cooler neutral for layering atop Limestone"
+                   },
+                   {
+                       "name":  "Graphite",
+                       "value":  "#333333",
+                       "token":  "--color-graphite",
+                       "role":  "Dark button fill the only filled surface in the system, used sparingly for a single tonal shift from the Soot text"
+                   }
+               ],
+    "typography":  {
+                       "fonts":  [
+                                     "GP Universal typeface used for nav, body, headings, buttons, and footer at weight 400 only. The single-weight constraint is the signature: no bold, no light, no medium. Hierarchy comes from size (1348px) and tracking (0.0110em body, 0.0390em display), not weight contrast. The slight positive tracking gives the type an editorial, architectural quality. `--font-gp`",
+                                     "GTStandard-M GTStandard-M detected in extracted data but not described by AI `--font-gtstandard-m`"
+                                 ],
+                       "typeScale":  [
+                                         [
+                                             "caption",
+                                             "13px",
+                                             "1.5",
+                                             "0.14px",
+                                             "--text-caption"
+                                         ],
+                                         [
+                                             "body-sm",
+                                             "15px",
+                                             "1.5",
+                                             "0.17px",
+                                             "--text-body-sm"
+                                         ],
+                                         [
+                                             "subheading",
+                                             "30px",
+                                             "1.2",
+                                             "1.17px",
+                                             "--text-subheading"
+                                         ],
+                                         [
+                                             "heading",
+                                             "48px",
+                                             "1.1",
+                                             "1.87px",
+                                             "--text-heading"
+                                         ]
+                                     ]
+                   },
+    "spacing":  {
+                    "baseUnit":  "source-defined",
+                    "density":  "comfortable",
+                    "scale":  [
+                                  [
+                                      "4",
+                                      "4px",
+                                      "--spacing-4"
+                                  ],
+                                  [
+                                      "6",
+                                      "6px",
+                                      "--spacing-6"
+                                  ],
+                                  [
+                                      "7",
+                                      "7px",
+                                      "--spacing-7"
+                                  ],
+                                  [
+                                      "10",
+                                      "10px",
+                                      "--spacing-10"
+                                  ],
+                                  [
+                                      "12",
+                                      "12px",
+                                      "--spacing-12"
+                                  ],
+                                  [
+                                      "13",
+                                      "13px",
+                                      "--spacing-13"
+                                  ],
+                                  [
+                                      "15",
+                                      "15px",
+                                      "--spacing-15"
+                                  ],
+                                  [
+                                      "16",
+                                      "16px",
+                                      "--spacing-16"
+                                  ],
+                                  [
+                                      "17",
+                                      "17px",
+                                      "--spacing-17"
+                                  ],
+                                  [
+                                      "20",
+                                      "20px",
+                                      "--spacing-20"
+                                  ],
+                                  [
+                                      "22",
+                                      "22px",
+                                      "--spacing-22"
+                                  ],
+                                  [
+                                      "30",
+                                      "30px",
+                                      "--spacing-30"
+                                  ],
+                                  [
+                                      "32",
+                                      "32px",
+                                      "--spacing-32"
+                                  ],
+                                  [
+                                      "143",
+                                      "143px",
+                                      "--spacing-143"
+                                  ]
+                              ],
+                    "layout":  [
+                                   {
+                                       "name":  "Section gap",
+                                       "value":  "96px"
+                                   },
+                                   {
+                                       "name":  "Card padding",
+                                       "value":  "16px"
+                                   },
+                                   {
+                                       "name":  "Element gap",
+                                       "value":  "13px"
+                                   }
+                               ]
+                },
+    "radii":  [
+                  [
+                      "cards",
+                      "0px"
+                  ],
+                  [
+                      "images",
+                      "0px"
+                  ],
+                  [
+                      "inputs",
+                      "3px"
+                  ],
+                  [
+                      "buttons",
+                      "0px"
+                  ]
+              ]
+}

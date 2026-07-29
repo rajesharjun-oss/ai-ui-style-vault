@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-supahub-violet: #862fe7;
+  --color-supahub-ultra-violet: #5f259e;
+  --color-supahub-lavender: #ad6df4;
+  --color-supahub-orchid: #bd8ff0;
+  --color-supahub-magenta: #ff5fe4;
+  --color-supahub-hot-pink: #e22ba4;
+  --color-supahub-amber: #dc5f05;
+  --color-supahub-ink: #111827;
+  --color-supahub-graphite: #3f4654;
+  --color-supahub-slate: #6b7589;
+  --color-supahub-white: #ffffff;
+  --color-supahub-fog: #f1f5f9;
+  --color-supahub-mist: #d8e0ea;
+  --color-supahub-mint: #d6fcf4;
+  --color-supahub-lavender-field: #ebdafd;
+
+  --font-supahub-display: "Bricolage Grotesque", "Space Grotesk", Inter, system-ui, sans-serif;
+  --font-supahub-body: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --spacing-supahub-4: 4px;
+  --spacing-supahub-8: 8px;
+  --spacing-supahub-12: 12px;
+  --spacing-supahub-16: 16px;
+  --spacing-supahub-20: 20px;
+  --spacing-supahub-24: 24px;
+  --spacing-supahub-32: 32px;
+  --spacing-supahub-40: 40px;
+  --spacing-supahub-48: 48px;
+  --spacing-supahub-64: 64px;
+  --spacing-supahub-80: 80px;
+  --spacing-supahub-96: 96px;
+  --spacing-supahub-128: 128px;
+
+  --radius-supahub-nav: 8px;
+  --radius-supahub-button: 12px;
+  --radius-supahub-image: 16px;
+  --radius-supahub-card: 24px;
+  --radius-supahub-featured: 40px;
+  --radius-supahub-pill: 9999px;
+
+  --text-supahub-caption: 12px;
+  --text-supahub-caption--line-height: 1.5;
+  --text-supahub-body-sm: 14px;
+  --text-supahub-body-sm--line-height: 1.6;
+  --text-supahub-body: 16px;
+  --text-supahub-body--line-height: 1.75;
+  --text-supahub-subheading: 20px;
+  --text-supahub-subheading--line-height: 1.5;
+  --text-supahub-heading-sm: 24px;
+  --text-supahub-heading-sm--line-height: 1.3;
+  --text-supahub-heading: 32px;
+  --text-supahub-heading--line-height: 1.2;
+  --text-supahub-display: 56px;
+  --text-supahub-display--line-height: 1;
+}
+
+@utility supahub-rail {
+  width: min(100% - 40px, 1200px);
+  margin-inline: auto;
+}
+
+@utility supahub-display {
+  max-width: 720px;
+  font-family: var(--font-supahub-display);
+  font-size: clamp(40px, 6vw, 56px);
+  line-height: 1;
+  letter-spacing: -1.4px;
+  font-weight: 600;
+}
+
+@utility supahub-eyebrow {
+  color: var(--color-supahub-violet);
+  font-family: var(--font-supahub-body);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@utility supahub-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 16px 24px;
+  border: 1px solid var(--color-supahub-violet);
+  border-radius: var(--radius-supahub-button);
+  background: var(--color-supahub-violet);
+  color: var(--color-supahub-white);
+  font-family: var(--font-supahub-body);
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: rgba(11, 61, 121, 0.16) 0 0 0 1px inset;
+}
+
+@utility supahub-testimonial-card {
+  border: 1px solid var(--color-supahub-mist);
+  border-radius: var(--radius-supahub-card);
+  background: var(--color-supahub-white);
+  padding: var(--spacing-supahub-24);
+}
+
+@utility supahub-violet-orb {
+  background: radial-gradient(circle at 0 -50%, rgba(255, 255, 255, 0) 15%, rgba(152, 26, 249, 0.4) 38%, rgba(255, 255, 255, 0) 65%);
+}
+

@@ -1,0 +1,118 @@
+{
+  "name": "Slash",
+  "source": {
+    "type": "refero-styles",
+    "url": "https://styles.refero.design/style/7c38e84b-aea0-4c8f-b3e9-60b994ee6c6b",
+    "referenceUrl": "https://www.slash.com",
+    "capturedOn": "2026-07-28"
+  },
+  "theme": "dark",
+  "colors": {
+    "onyx": { "value": "#040406", "css": "--color-onyx" },
+    "obsidian": { "value": "#08080a", "css": "--color-obsidian" },
+    "carbon": { "value": "#121317", "css": "--color-carbon" },
+    "graphite": { "value": "#1c1d22", "css": "--color-graphite" },
+    "slate": { "value": "#2e3038", "css": "--color-slate" },
+    "smoke": { "value": "#464853", "css": "--color-smoke" },
+    "ash": { "value": "#5e616e", "css": "--color-ash" },
+    "steel": { "value": "#777a88", "css": "--color-steel" },
+    "fog": { "value": "#9194a1", "css": "--color-fog" },
+    "mist": { "value": "#acafb9", "css": "--color-mist" },
+    "silver": { "value": "#c7c9d1", "css": "--color-silver" },
+    "bone": { "value": "#e2e3e9", "css": "--color-bone" },
+    "paperWhite": { "value": "#ffffff", "css": "--color-paper-white" },
+    "copper": { "value": "#cc9166", "css": "--color-copper" },
+    "gildedGradient": {
+      "value": "linear-gradient(103deg, rgb(174, 147, 87), rgb(255, 240, 204) 40%, rgb(174, 147, 87) 70%, rgba(189, 157, 79, 0))",
+      "css": "--gradient-gilded"
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": {
+        "value": "Ivy Presto",
+        "css": "--font-ivy-presto",
+        "fallback": "Playfair Display, DM Serif Display, Libre Caslon Display, serif"
+      },
+      "body": {
+        "value": "Inter",
+        "css": "--font-inter",
+        "fallback": "Inter, system-ui, sans-serif"
+      }
+    },
+    "fontWeights": {
+      "displayRegular": 400,
+      "displayMedium": 500,
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "scale": {
+      "eyebrow": { "fontSize": "13px", "lineHeight": 1, "letterSpacing": "-0.26px" },
+      "bodyXs": { "fontSize": "16px", "lineHeight": 1.5, "letterSpacing": "0" },
+      "bodySm": { "fontSize": "18px", "lineHeight": 1.38, "letterSpacing": "-0.36px" },
+      "body": { "fontSize": "20px", "lineHeight": 1.38, "letterSpacing": "-0.8px" },
+      "subheading": { "fontSize": "24px", "lineHeight": 1, "letterSpacing": "-0.31px" },
+      "headingSm": { "fontSize": "44px", "lineHeight": 1.38, "letterSpacing": "0.44px" },
+      "heading": { "fontSize": "52px", "lineHeight": 1.13, "letterSpacing": "0.52px" },
+      "headingLg": { "fontSize": "64px", "lineHeight": 1.13, "letterSpacing": "0.64px" },
+      "display": { "fontSize": "88px", "lineHeight": 1, "letterSpacing": "0.88px" }
+    }
+  },
+  "spacing": {
+    "pageMaxWidth": "1216px",
+    "sectionGap": "160px",
+    "cardPadding": "24px",
+    "elementGap": "8px",
+    "scale": ["4px", "6px", "8px", "9px", "10px", "12px", "14px", "16px", "20px", "22px", "24px", "32px", "40px", "48px", "105px", "224px"]
+  },
+  "radii": {
+    "nav": "2px",
+    "cards": "10px",
+    "buttons": "9999px",
+    "inputs": "9999px",
+    "tags": "9999px",
+    "icons": "9999px",
+    "statusIndicators": "9999px"
+  },
+  "shadows": {
+    "iconRing": "rgba(255, 255, 255, 0.2) 0px 0px 0px 1px"
+  },
+  "componentRecipes": {
+    "primaryActionButton": {
+      "background": "#ffffff",
+      "color": "#000000",
+      "radius": "9999px",
+      "padding": "10px 20px",
+      "font": "Inter 14px 500"
+    },
+    "ghostOutlineButton": {
+      "background": "transparent",
+      "border": "1px solid #ffffff",
+      "color": "#ffffff",
+      "radius": "9999px",
+      "padding": "10px 20px",
+      "font": "Inter 14px 500"
+    },
+    "heroChartCard": {
+      "background": "#040406",
+      "radius": "10px",
+      "chartStroke": "linear-gradient(103deg, rgb(174, 147, 87), rgb(255, 240, 204) 40%, rgb(174, 147, 87) 70%, rgba(189, 157, 79, 0))"
+    },
+    "blogPostCard": {
+      "background": "transparent",
+      "radius": "10px",
+      "category": "#cc9166",
+      "title": "#ffffff",
+      "meta": "#acafb9"
+    },
+    "dataTableRow": {
+      "background": "transparent",
+      "borderBottom": "1px solid #1c1d22",
+      "header": "#9194a1",
+      "value": "#e2e3e9"
+    }
+  }
+}

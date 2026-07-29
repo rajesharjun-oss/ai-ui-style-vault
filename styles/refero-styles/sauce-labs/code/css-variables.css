@@ -1,0 +1,71 @@
+:root {
+  --sauce-color-neon-pulse: #3ddc91;
+  --sauce-color-mint-whisper: #97ddbc;
+  --sauce-color-signal-yellow: #ffcd48;
+  --sauce-color-pure-black: #000000;
+  --sauce-color-charcoal: #070f0f;
+  --sauce-color-deep-abyss: #0e1a19;
+  --sauce-color-obsidian-shell: #132322;
+  --sauce-color-graphite-fill: #424f4f;
+  --sauce-color-slate-text: #828786;
+  --sauce-color-stone-border: #b2b6b4;
+  --sauce-color-fog-border: #d0d3d3;
+  --sauce-color-mint-frost: #edf7f5;
+  --sauce-color-pure-white: #ffffff;
+
+  --sauce-font-aeonik: Aeonik, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --sauce-font-aeonikfono: AeonikFono, "Inter Display", Inter, system-ui, sans-serif;
+
+  --sauce-text-body-sm: 14px;
+  --sauce-text-body: 16px;
+  --sauce-text-body-lg: 18px;
+  --sauce-text-subheading: 24px;
+  --sauce-text-heading-sm: 32px;
+  --sauce-text-heading: 40px;
+  --sauce-text-heading-lg: 48px;
+  --sauce-text-display: 64px;
+  --sauce-text-eyebrow: 9px;
+
+  --sauce-leading-body-sm: 1.45;
+  --sauce-leading-body: 1.5;
+  --sauce-leading-body-lg: 1.45;
+  --sauce-leading-subheading: 1.4;
+  --sauce-leading-heading-sm: 1.22;
+  --sauce-leading-heading: 1.2;
+  --sauce-leading-heading-lg: 1.12;
+  --sauce-leading-display: 1.1;
+
+  --sauce-tracking-body: -0.08px;
+  --sauce-tracking-subheading: 0.96px;
+  --sauce-tracking-eyebrow: 0.45px;
+
+  --sauce-weight-regular: 400;
+  --sauce-weight-medium: 500;
+
+  --sauce-space-unit: 8px;
+  --sauce-space-8: 8px;
+  --sauce-space-16: 16px;
+  --sauce-space-24: 24px;
+  --sauce-space-32: 32px;
+  --sauce-space-40: 40px;
+  --sauce-space-48: 48px;
+  --sauce-space-56: 56px;
+  --sauce-space-64: 64px;
+  --sauce-space-72: 72px;
+  --sauce-space-80: 80px;
+  --sauce-space-96: 96px;
+
+  --sauce-page-max-width: 1200px;
+  --sauce-section-gap: 80px;
+  --sauce-card-padding: 24px;
+  --sauce-element-gap: 24px;
+
+  --sauce-radius-small-element: 10px;
+  --sauce-radius-card: 20px;
+  --sauce-radius-tab: 56px;
+  --sauce-radius-button: 56px;
+  --sauce-radius-large-card: 60px;
+
+  --sauce-shadow-md: rgba(0, 0, 0, 0.04) 1px 0px 9px 2px;
+}
+

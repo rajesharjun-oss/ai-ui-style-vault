@@ -1,0 +1,264 @@
+:root {
+  color-scheme: dark;
+
+  --font-grotesk: "Sohne", "Inter", "Geist", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Sohne Mono", "JetBrains Mono", "IBM Plex Mono", "Geist Mono", Consolas, monospace;
+
+  --color-signal-violet: #7084ff;
+  --color-voltage-blue: #405bff;
+  --color-plasma-cyan: #3dd6f5;
+  --color-midnight-ink: #0e0e0e;
+  --color-carbon: #191919;
+  --color-smoke: #2c2c2c;
+  --color-graphite: #414042;
+  --color-steel: #58595b;
+  --color-slate: #6d6e71;
+  --color-fog: #a7a9ac;
+  --color-ash: #d1d3d4;
+  --color-paper: #ffffff;
+
+  --gradient-signal: linear-gradient(179deg, #405bff 1.06%, #7084ff 123.42%);
+  --glow-blue: 0 0 40px rgba(64, 91, 255, 0.25);
+  --glow-violet: 0 0 40px rgba(112, 132, 255, 0.19);
+
+  --surface-page: var(--color-midnight-ink);
+  --surface-card: var(--color-carbon);
+  --surface-panel: var(--color-smoke);
+  --surface-screenshot: var(--color-paper);
+
+  --text-primary: var(--color-paper);
+  --text-secondary: var(--color-fog);
+  --text-tertiary: var(--color-ash);
+  --text-muted: var(--color-slate);
+  --text-accent: var(--color-signal-violet);
+  --text-inverse: var(--color-paper);
+
+  --border-subtle: 1px solid rgba(255, 255, 255, 0.1);
+  --border-card: 1px solid var(--color-graphite);
+  --border-violet: 1px solid var(--color-signal-violet);
+
+  --text-caption-size: 12px;
+  --text-caption-line: 1.5;
+  --text-body-sm-size: 14px;
+  --text-body-sm-line: 1.5;
+  --text-body-size: 16px;
+  --text-body-line: 1.5;
+  --text-body-lg-size: 18px;
+  --text-body-lg-line: 1.6;
+  --text-subheading-size: 20px;
+  --text-subheading-line: 1.4;
+  --text-heading-sm-size: 24px;
+  --text-heading-sm-line: 1.3;
+  --text-heading-size: 36px;
+  --text-heading-line: 1.2;
+  --text-heading-lg-size: 66px;
+  --text-heading-lg-line: 1.09;
+  --text-display-size: 100px;
+  --text-display-line: 1;
+  --text-mega-size: 125px;
+  --text-mega-line: 1;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-120: 120px;
+
+  --container-max: 1200px;
+  --section-gap: 96px;
+  --card-padding: 40px;
+  --element-gap: 16px;
+
+  --radius-input: 10px;
+  --radius-tag: 30px;
+  --radius-card: 30px;
+  --radius-button: 30px;
+  --radius-nav-pill: 60px;
+  --radius-screenshot: 16px;
+
+  --shadow-nav: 0 4px 20px rgba(0, 0, 0, 0.45);
+  --motion-duration: 220ms;
+  --motion-ease: ease;
+}
+
+.launchdarkly-page {
+  min-height: 100vh;
+  background: var(--surface-page);
+  color: var(--text-primary);
+  font-family: var(--font-grotesk);
+}
+
+.launchdarkly-container {
+  width: min(calc(100% - 48px), var(--container-max));
+  margin-inline: auto;
+}
+
+.launchdarkly-section {
+  padding-block: var(--section-gap);
+}
+
+.launchdarkly-display {
+  margin: 0;
+  color: var(--text-primary);
+  font-family: var(--font-grotesk);
+  font-size: clamp(56px, 8vw, var(--text-display-size));
+  font-weight: var(--font-weight-medium);
+  line-height: var(--text-display-line);
+  letter-spacing: 0;
+}
+
+.launchdarkly-display-accent {
+  color: var(--color-signal-violet);
+}
+
+.launchdarkly-body {
+  color: var(--text-secondary);
+  font: var(--font-weight-regular) 18px / 1.6 var(--font-grotesk);
+}
+
+.launchdarkly-nav-pill {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 60px;
+  padding: 8px 8px 8px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-nav-pill);
+  background: var(--surface-card);
+  box-shadow: var(--shadow-nav);
+}
+
+.launchdarkly-nav-link {
+  color: var(--text-tertiary);
+  font: var(--font-weight-medium) 14px / 1.4 var(--font-grotesk);
+  text-decoration: none;
+}
+
+.launchdarkly-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 16px 24px;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--color-voltage-blue);
+  color: var(--text-inverse);
+  font: var(--font-weight-medium) 15px / 1.2 var(--font-grotesk);
+  text-decoration: none;
+}
+
+.launchdarkly-button-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12px 20px;
+  border: var(--border-violet);
+  border-radius: var(--radius-button);
+  background: transparent;
+  color: var(--text-accent);
+  font: var(--font-weight-medium) 14px / 1.2 var(--font-grotesk);
+  text-decoration: none;
+}
+
+.launchdarkly-card {
+  background: var(--surface-card);
+  border: var(--border-subtle);
+  border-radius: var(--radius-card);
+  box-shadow: none;
+  padding: var(--card-padding);
+}
+
+.launchdarkly-email-capture {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 12px;
+  width: min(100%, 600px);
+  padding: 8px;
+  border: var(--border-subtle);
+  border-radius: var(--radius-input);
+  background: var(--surface-card);
+  box-shadow: var(--glow-blue);
+}
+
+.launchdarkly-input {
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: var(--text-primary);
+  font: var(--font-weight-regular) 16px / 1.5 var(--font-grotesk);
+  outline: 0;
+}
+
+.launchdarkly-input::placeholder {
+  color: var(--color-fog);
+}
+
+.launchdarkly-tabs {
+  display: inline-flex;
+  gap: 8px;
+  padding: 8px;
+  border: var(--border-subtle);
+  border-radius: var(--radius-tag);
+  background: var(--surface-card);
+}
+
+.launchdarkly-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: var(--radius-tag);
+  color: var(--text-tertiary);
+  font: var(--font-weight-medium) 14px / 1.4 var(--font-grotesk);
+}
+
+.launchdarkly-tab.is-active {
+  color: var(--text-primary);
+}
+
+.launchdarkly-tab.is-active::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--color-voltage-blue);
+}
+
+.launchdarkly-screenshot-panel {
+  overflow: hidden;
+  background: var(--surface-screenshot);
+  border-radius: var(--radius-screenshot);
+  box-shadow: var(--glow-blue);
+}
+
+.launchdarkly-code-block {
+  overflow: hidden;
+  background: var(--surface-card);
+  border: var(--border-subtle);
+  border-radius: 16px;
+  padding: 24px;
+  color: var(--text-tertiary);
+  font: var(--font-weight-regular) 14px / 1.6 var(--font-mono);
+}
+
+.launchdarkly-code-accent {
+  color: var(--color-plasma-cyan);
+}
+
+.launchdarkly-logo-strip {
+  color: var(--color-ash);
+  opacity: 0.7;
+}

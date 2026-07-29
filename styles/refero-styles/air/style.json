@@ -1,0 +1,187 @@
+{
+  "id": "d3289fe7-a85e-42d8-96b7-eb7faa62a104",
+  "name": "Air",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/d3289fe7-a85e-42d8-96b7-eb7faa62a104",
+  "referenceUrl": "https://air.inc",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Midnight sky through glass sculpture, with full-bleed cloud photography, sculptural translucent forms, flat ghost controls, and restrained medium-weight typography.",
+  "bestFor": [
+    "creative operations",
+    "digital asset management",
+    "brand asset libraries",
+    "AI creative tools",
+    "photo collaboration",
+    "video collaboration",
+    "media workflow platforms"
+  ],
+  "tags": [
+    "dark",
+    "photographic",
+    "creative-ops",
+    "asset-management",
+    "glass-sculpture",
+    "sky",
+    "clouds",
+    "flat-ui",
+    "ghost-buttons",
+    "control-type",
+    "cursive-accent",
+    "haze-cards"
+  ],
+  "colors": {
+    "whiteout": {
+      "value": "#ffffff",
+      "token": "--color-whiteout",
+      "role": "Primary text on dark surfaces, nav button borders, hairline strokes, and card surfaces over photographic backgrounds."
+    },
+    "haze": {
+      "value": "#f5f5f5",
+      "token": "--color-haze",
+      "role": "Card surfaces, input fields, and subtle button fills on dark backgrounds."
+    },
+    "ink": {
+      "value": "#1b1b1b",
+      "token": "--color-ink",
+      "role": "Body and heading text on light surfaces, button borders on light cards."
+    },
+    "blackVoid": {
+      "value": "#000000",
+      "token": "--color-black-void",
+      "role": "Base background behind photographic sections, footer, and dark UI moments."
+    },
+    "twilightBlue": {
+      "value": "#426188",
+      "token": "--color-twilight-blue",
+      "role": "Heading text on dark backgrounds, desaturated and atmospheric rather than vivid."
+    },
+    "signalBlue": {
+      "value": "#2b7fff",
+      "token": "--color-signal-blue",
+      "role": "Blue text accent for links, tags, and emphasized short phrases. Do not use for buttons or backgrounds."
+    }
+  },
+  "typography": {
+    "families": {
+      "control": "Control",
+      "controlFallback": "Inter, system-ui",
+      "controlCompressed": "Control Compressed",
+      "controlCompressedFallback": "Anton, Druk Wide",
+      "controlCursive": "Control Cursive",
+      "controlCursiveFallback": "Caveat, Reenie Beanie",
+      "controlTnt": "Control TNT",
+      "controlTntFallback": "Inter, sans-serif"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "displayBlack": 900
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "13px",
+        "lineHeight": "1.5",
+        "fontWeight": 500
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.5",
+        "fontWeight": 500
+      },
+      "subheading": {
+        "fontSize": "20px",
+        "lineHeight": "1.4",
+        "fontWeight": 500
+      },
+      "heading": {
+        "fontSize": "32px",
+        "lineHeight": "1.1",
+        "fontWeight": 500
+      },
+      "headingLarge": {
+        "fontSize": "56px",
+        "lineHeight": "1",
+        "fontWeight": 400
+      },
+      "display": {
+        "fontSize": "259px",
+        "lineHeight": "0.85",
+        "fontWeight": 900
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1150px",
+    "sectionGap": "48px",
+    "cardPadding": "20px",
+    "elementGap": "8px",
+    "scalePx": [4, 8, 12, 16, 20, 24, 32, 48, 52, 64, 80, 120]
+  },
+  "radii": {
+    "cards": "12px",
+    "pills": "9999px",
+    "images": "11px",
+    "inputs": "4px",
+    "buttons": "8px"
+  },
+  "surfaces": [
+    {
+      "level": 0,
+      "name": "Dark Canvas",
+      "value": "#000000",
+      "purpose": "Base background behind photographic sections, footer, and dark UI moments."
+    },
+    {
+      "level": 1,
+      "name": "Haze Card",
+      "value": "#f5f5f5",
+      "purpose": "Light card surface sitting on top of dark photography."
+    },
+    {
+      "level": 2,
+      "name": "Whiteout",
+      "value": "#ffffff",
+      "purpose": "Pure white for text, borders, and elevated form surfaces."
+    }
+  ],
+  "components": [
+    "Ghost Navigation Button",
+    "Solid Light Button",
+    "Pill Toggle Button",
+    "Underline Link",
+    "Haze Card",
+    "Image Card with Radius",
+    "Text Input",
+    "Logo Bar Row",
+    "Full-Bleed Photographic Section",
+    "Compressed Display Headline",
+    "Dual-Style Headline",
+    "Feature Section Header"
+  ],
+  "guidance": {
+    "do": [
+      "Use Control at weight 500 for body, nav, button, and link text.",
+      "Set all buttons and interactive elements to 8px radius.",
+      "Apply 4px radius to form inputs only.",
+      "Use Haze for card surfaces and inputs on dark backgrounds.",
+      "Use Whiteout for borders and text on dark surfaces.",
+      "Use Ink for text and borders on light surfaces.",
+      "Break headlines with one italic word in Control Cursive against upright Control TNT or Control.",
+      "Let photography and glass forms carry the emotional weight."
+    ],
+    "dont": [
+      "Do not use solid filled colored buttons.",
+      "Do not apply shadows or elevation to cards.",
+      "Do not use more than one saturated accent color per page.",
+      "Do not set body text below 16px or above weight 500.",
+      "Do not use rounded pill shapes except for toggle or filter controls.",
+      "Do not introduce new radii outside 4px, 8px, 11px to 14px, and 12px.",
+      "Do not use gradients.",
+      "Do not make the UI busier than the photography."
+    ]
+  }
+}
+

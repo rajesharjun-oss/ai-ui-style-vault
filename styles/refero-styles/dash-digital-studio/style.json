@@ -1,0 +1,289 @@
+{
+  "id": "6036b661-3886-4f76-a5e6-bb8960eb7db5",
+  "name": "Dash Digital Studio",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/6036b661-3886-4f76-a5e6-bb8960eb7db5",
+  "referenceUrl": "https://dashdigital.studio",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Editorial museum on warm paper, with giant whisper-weight typography, off-white gallery walls, full-bleed product photography, and zero chromatic accent.",
+  "bestFor": [
+    "digital studios",
+    "agency portfolios",
+    "case study galleries",
+    "creative services",
+    "editorial portfolios",
+    "product photography-led sites"
+  ],
+  "tags": [
+    "light",
+    "monochrome",
+    "achromatic",
+    "editorial",
+    "agency",
+    "portfolio",
+    "gallery",
+    "warm-paper",
+    "founders-grotesk",
+    "tight-tracking",
+    "uppercase",
+    "case-studies",
+    "pill-actions",
+    "flat-ui",
+    "product-photography"
+  ],
+  "colors": {
+    "carbonBlack": {
+      "value": "#2a2a2a",
+      "token": "--color-carbon-black",
+      "role": "Primary text, nav links, body copy, badge text, footer copy, and structural borders."
+    },
+    "bone": {
+      "value": "#f0f0f0",
+      "token": "--color-bone",
+      "role": "Default page canvas and primary surface."
+    },
+    "ink": {
+      "value": "#000000",
+      "token": "--color-ink",
+      "role": "Maximum contrast text and hard borders, reserved for strongest emphasis."
+    },
+    "linen": {
+      "value": "#fafafa",
+      "token": "--color-linen",
+      "role": "Slightly elevated sheet surface and subtle section separation."
+    },
+    "ash": {
+      "value": "#d6d6d6",
+      "token": "--color-ash",
+      "role": "Muted fills, hairline borders, and disabled or inactive surfaces."
+    },
+    "parchment": {
+      "value": "#f0edea",
+      "token": "--color-parchment",
+      "role": "Alternate warm section band."
+    },
+    "stone": {
+      "value": "#bcbcb4",
+      "token": "--color-stone",
+      "role": "Deep low-emphasis gray for supporting details."
+    },
+    "clay": {
+      "value": "#ccc4b9",
+      "token": "--color-clay",
+      "role": "Warm mid-gray transition between Bone and Parchment."
+    }
+  },
+  "typography": {
+    "families": {
+      "foundersGrotesk": "Founders Grotesk",
+      "foundersGroteskFallback": "Sohne, Inter, GT America, Neue Haas Grotesk, ui-sans-serif, system-ui",
+      "editorialNeue": "Editorial Neue",
+      "editorialNeueFallback": "Tiempos Text, Lyon Display, Source Serif Pro, serif"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400
+    },
+    "rules": [
+      "Use Founders Grotesk style type as the sole workhorse family.",
+      "Use weight 300 only for display sizes 40px and above.",
+      "Use weight 400 for body, nav, meta, labels, and descriptions.",
+      "Use tight negative tracking throughout.",
+      "Keep display leading between 0.80 and 0.88."
+    ],
+    "scale": {
+      "caption": {
+        "size": "12px",
+        "lineHeight": 1.17,
+        "fontWeight": 400,
+        "letterSpacing": "-0.018px",
+        "token": "--text-caption"
+      },
+      "bodySm": {
+        "size": "14px",
+        "lineHeight": 1.2,
+        "fontWeight": 400,
+        "letterSpacing": "-0.018px",
+        "token": "--text-body-sm"
+      },
+      "body": {
+        "size": "16px",
+        "lineHeight": 1,
+        "fontWeight": 400,
+        "letterSpacing": "-0.018px",
+        "token": "--text-body"
+      },
+      "bodyLg": {
+        "size": "17px",
+        "lineHeight": 1.2,
+        "fontWeight": 400,
+        "letterSpacing": "-0.018px",
+        "token": "--text-body-lg"
+      },
+      "subheading": {
+        "size": "22px",
+        "lineHeight": 1.17,
+        "fontWeight": 400,
+        "letterSpacing": "-0.02px",
+        "token": "--text-subheading"
+      },
+      "headingSm": {
+        "size": "40px",
+        "lineHeight": 0.9,
+        "fontWeight": 300,
+        "letterSpacing": "-0.023px",
+        "token": "--text-heading-sm"
+      },
+      "display": {
+        "size": "70px",
+        "lineHeight": 0.88,
+        "fontWeight": 300,
+        "letterSpacing": "-0.03px",
+        "token": "--text-display"
+      },
+      "displayXl": {
+        "size": "101px",
+        "lineHeight": 0.8,
+        "fontWeight": 300,
+        "letterSpacing": "-0.06px",
+        "token": "--text-display-xl"
+      }
+    },
+    "openTypeFeatures": [
+      "ss01",
+      "ss02",
+      "tnum"
+    ]
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1440px",
+    "sectionGap": "80-120px",
+    "majorSectionGap": "115px",
+    "cardPadding": "20-24px",
+    "elementGap": "12-20px",
+    "navAndColumnGap": "29px",
+    "metaToTitleGap": "20px",
+    "scale": {
+      "4": "4px",
+      "12": "12px",
+      "20": "20px",
+      "24": "24px",
+      "29": "29px",
+      "32": "32px",
+      "80": "80px",
+      "115": "115px",
+      "120": "120px"
+    }
+  },
+  "radii": {
+    "cards": "0px",
+    "images": "0px",
+    "inputs": "4px",
+    "tags": "999px",
+    "buttons": "999px"
+  },
+  "surfaces": {
+    "boneCanvas": {
+      "value": "#f0f0f0",
+      "role": "Default page background."
+    },
+    "linenSheet": {
+      "value": "#fafafa",
+      "role": "Elevated sheet and section surface."
+    },
+    "parchmentBlock": {
+      "value": "#f0edea",
+      "role": "Alternate warm section band."
+    },
+    "ashMat": {
+      "value": "#d6d6d6",
+      "role": "Muted inactive or disabled fill."
+    }
+  },
+  "elevation": {
+    "model": "shadowless",
+    "rules": [
+      "Do not use drop shadows.",
+      "Use tonal surface shifts and 1px hairline rules for separation.",
+      "Keep images, cards, and buttons flat."
+    ]
+  },
+  "components": [
+    {
+      "name": "Pill Action Button",
+      "role": "Primary action for case study and work links",
+      "recipe": "Solid #2a2a2a background, #fafafa uppercase 12px Founders Grotesk style text, 999px radius, about 14px horizontal and 4px vertical padding, no border, no shadow."
+    },
+    {
+      "name": "Text Nav Link",
+      "role": "Top navigation",
+      "recipe": "12-14px uppercase Founders Grotesk style text, #2a2a2a, no underline, no background, no border, about 29px horizontal spacing."
+    },
+    {
+      "name": "Editorial Display Heading",
+      "role": "Hero and section title",
+      "recipe": "70-101px uppercase Founders Grotesk style text, weight 300, #2a2a2a, line-height 0.80-0.88, tight negative tracking."
+    },
+    {
+      "name": "Case Study Card",
+      "role": "Portfolio tile",
+      "recipe": "2-up grid column with uppercase 12px meta, 20px title gap, 22px uppercase title, and full-bleed 0px-radius product photograph."
+    },
+    {
+      "name": "Brand List Row",
+      "role": "Client roster row",
+      "recipe": "Full-width row with 1px #2a2a2a bottom border, uppercase brand left, uppercase service tags and MORE + pill right."
+    },
+    {
+      "name": "Text Input",
+      "role": "Contact form field",
+      "recipe": "1px #2a2a2a border, 4px radius, no fill, 16px Founders Grotesk style text, no colored focus ring."
+    }
+  ],
+  "guidelines": {
+    "do": [
+      "Use only achromatic tones.",
+      "Set hero and section titles at 70-101px with compressed leading.",
+      "Use Carbon Black for running text.",
+      "Use Bone as the main page background.",
+      "Use 999px radius only for pill buttons and tags.",
+      "Keep images and cards square-edged.",
+      "Use 80-120px vertical gaps between major sections.",
+      "Render actions as uppercase dark pills."
+    ],
+    "dont": [
+      "Do not introduce chromatic color.",
+      "Do not use weight 300 for body text.",
+      "Do not apply shadows, glows, or gradients.",
+      "Do not round product photography.",
+      "Do not underline nav links.",
+      "Do not use colored CTAs.",
+      "Do not add decorative icons or illustrations."
+    ]
+  },
+  "imagery": {
+    "style": "Full-bleed product photography in raw rectangular frames.",
+    "rules": [
+      "Use no rounded corners, borders, shadows, overlays, or duotone effects.",
+      "Let product photography carry visual energy while the UI remains neutral.",
+      "Avoid lifestyle or people photography.",
+      "Avoid illustrations and decorative icon systems."
+    ]
+  },
+  "layout": {
+    "container": "1440px centered max width",
+    "hero": "Pure typographic block with massive uppercase display and no hero image.",
+    "grid": "2-up case study grid with 29px column gaps.",
+    "sections": "Wide whitespace, sparse hairline rules, no colorful bands.",
+    "rhythm": "Whitespace, typographic mass, product image grid, client rows, hairline table, repeat."
+  },
+  "preview": {
+    "imageHost": "styles.refero.design",
+    "downloaded": false,
+    "note": "Refero exposes preview imagery, but local download was not captured in this environment."
+  }
+}
+

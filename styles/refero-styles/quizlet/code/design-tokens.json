@@ -1,0 +1,88 @@
+{
+  "name": "Quizlet",
+  "slug": "quizlet",
+  "source": "https://styles.refero.design/style/528eb1d4-8508-4dc6-87b4-c7b92d648dac",
+  "referenceSite": "https://quizlet.com",
+  "theme": "light",
+  "color": {
+    "irisBolt": { "value": "#4255ff", "role": "links, filled buttons, active states, brand emphasis" },
+    "inkCharcoal": { "value": "#282e3e", "role": "primary text, headings, body, icons" },
+    "deepIndigo": { "value": "#2e3856", "role": "secondary body text and support copy" },
+    "slateVeil": { "value": "#586380", "role": "muted metadata, helper text, tertiary nav" },
+    "fogMist": { "value": "#939bb4", "role": "placeholder text and disabled states" },
+    "pureBlack": { "value": "#000000", "role": "store badges and occasional icon detail only" },
+    "chalkCanvas": { "value": "#f6f7fb", "role": "page-level canvas" },
+    "paperWhite": { "value": "#ffffff", "role": "cards, modals, inputs, raised panels" },
+    "lilacWash": { "value": "#edefff", "role": "tinted sections and promotional panels" },
+    "mistBorder": { "value": "#d9dde8", "role": "hairline borders, separators, input edges" },
+    "featurePastel": { "value": "#dbdfff", "role": "feature-card tint and category surfaces" }
+  },
+  "font": {
+    "primary": {
+      "family": "hurme_no2-webfont",
+      "displayName": "Hurme Geometric Sans",
+      "fallback": "Inter, Arial, Helvetica, sans-serif",
+      "weights": [400, 600, 700],
+      "usage": "whole system: body, nav, buttons, cards, and headings"
+    }
+  },
+  "text": {
+    "caption": { "size": "12px", "lineHeight": "18px", "weight": 400 },
+    "bodySmall": { "size": "14px", "lineHeight": "20px", "weight": 400 },
+    "body": { "size": "16px", "lineHeight": "24px", "weight": 400 },
+    "subheading": { "size": "20px", "lineHeight": "28px", "weight": "600 to 700" },
+    "headingSmall": { "size": "24px", "lineHeight": "32px", "weight": "600 to 700" },
+    "heading": { "size": "32px", "lineHeight": "41px", "weight": "600 to 700" },
+    "display": { "size": "44px", "lineHeight": "55px", "weight": 700 }
+  },
+  "space": {
+    "elementGap": "8px",
+    "studyCardPadding": "16px",
+    "cardPadding": "24px",
+    "sectionGap": "80px",
+    "pageMaxWidth": "1200px",
+    "buttonPadding": "10px 20px to 10px 24px"
+  },
+  "radius": {
+    "primaryButtons": "200px",
+    "search": "200px",
+    "contentCards": "8px",
+    "featureCards": "24px",
+    "utilityBadges": "4px",
+    "carouselArrow": "40px diameter"
+  },
+  "elevation": {
+    "raised": "rgba(40,46,62,0.1) 0px 4px 16px 0px",
+    "button": "rgba(40,46,62,0.1) 0px 2px 4px 0px",
+    "iconInset": "rgba(0,0,0,0.3) 0px 0px 1px 0px inset"
+  },
+  "component": {
+    "primaryButton": {
+      "background": "#4255ff",
+      "text": "#ffffff",
+      "radius": "200px",
+      "padding": "10px 24px",
+      "font": "14px to 16px Hurme Geometric Sans weight 600"
+    },
+    "studySetCard": {
+      "background": "#ffffff",
+      "border": "1px solid #d9dde8",
+      "radius": "8px",
+      "padding": "16px",
+      "title": "16px weight 600 #282e3e",
+      "metadata": "12px weight 400 #586380"
+    },
+    "featureCategoryCard": {
+      "background": "pastel tint",
+      "radius": "24px",
+      "innerPanel": "white panel at 8px radius",
+      "label": "20px to 24px weight 700 #282e3e"
+    },
+    "searchBar": {
+      "background": "#f6f7fb",
+      "radius": "200px",
+      "padding": "8px 16px",
+      "placeholder": "#939bb4"
+    }
+  }
+}

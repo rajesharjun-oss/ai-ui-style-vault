@@ -1,0 +1,102 @@
+{
+  "id": "c43237e3-dae2-4fc6-a917-519b25c870e5",
+  "name": "247Studio",
+  "styleAlias": "Agencja brandingowa",
+  "slug": "247studio",
+  "source": {
+    "referoUrl": "https://styles.refero.design/style/c43237e3-dae2-4fc6-a917-519b25c870e5",
+    "referenceSite": "https://247studio.co",
+    "capturedAt": "2026-07-29",
+    "publishedAt": "2026-01-29T13:12:56.000Z",
+    "schemaModifiedAt": "2026-01-29T13:12:56.000Z",
+    "articleModifiedAt": "2026-06-05T03:06:55.668Z",
+    "extractedAt": "2026-06-03T17:35:02.637Z",
+    "media": {
+      "primaryThumbnail": "https://images.refero.design/styles/refero.design/image/4f93f62b-83a4-4b90-a324-f50b66089309.jpg",
+      "detailScreenshot": "https://images.refero.design/styles/refero.design/image/22aafc51-be27-4458-9763-96c2b5e17d25.jpg",
+      "previewVideo": "https://images.refero.design/styles/refero.design/video/e168042f-8ee7-4609-9487-38592bec5e67.mp4",
+      "previewVideoPoster": "https://images.refero.design/styles/refero.design/image/3a8e800b-ae67-491f-8e59-4ed97d825f84.jpg",
+      "detailVideo": "https://images.refero.design/styles/refero.design/video/669d1475-67cc-40a9-b525-02b47e677409.mp4",
+      "detailVideoPoster": "https://images.refero.design/styles/refero.design/image/b96cfec9-5e7a-468c-b1aa-91675e983df8.jpg"
+    }
+  },
+  "classification": {
+    "theme": "light",
+    "industry": ["agency", "branding studio", "editorial portfolio", "identity design"],
+    "mood": ["monochrome", "editorial", "architectural", "restrained", "print-like"],
+    "bestFor": ["branding agency sites", "studio portfolios", "case-study indexes", "client logo grids", "minimal editorial landing pages"]
+  },
+  "summary": "A monochrome agency style built from white canvas, black ink typography, muted gray supporting copy, large display grotesk, flat rounded cards, hairline borders, and print-like spacing.",
+  "colors": {
+    "pureWhite": { "value": "#ffffff", "role": "Page canvas, card surface, inverted text" },
+    "inkBlack": { "value": "#000000", "role": "Primary text, logo, borders, strong labels, dark buttons" },
+    "obsidian": { "value": "#1f1f1f", "role": "Dark sections, footer, inverted editorial surfaces" },
+    "graphiteWash": { "value": "#333333", "role": "Dark panels, overlays, secondary dark surfaces" },
+    "slate": { "value": "#666666", "role": "Secondary body copy and muted UI" },
+    "steel": { "value": "#808080", "role": "Tertiary text, captions, grayscale logo tints" },
+    "fog": { "value": "#999999", "role": "Muted hero line, inactive indicators, pale support copy" },
+    "paleMist": { "value": "#cccccc", "role": "Hairline borders, disabled states, field outlines" },
+    "vapor": { "value": "#e6e6e6", "role": "Soft dividers, card fill, input fill, placeholders" },
+    "ash": { "value": "#f2f2f2", "role": "Alternating section bands and image placeholders" }
+  },
+  "typography": {
+    "displayFamily": "247 grotesk",
+    "bodyFamily": "Ntbau",
+    "displaySubstitute": "Inter",
+    "bodySubstitute": "Sohne",
+    "openTypeFeatures": ["ss01"],
+    "scale": {
+      "caption": { "fontSize": "10px", "lineHeight": "1.3", "letterSpacing": "0.019em", "fontWeight": 500 },
+      "smallLabel": { "fontSize": "11px", "lineHeight": "1.14", "letterSpacing": "0.019em", "fontWeight": 500 },
+      "smallBody": { "fontSize": "12px", "lineHeight": "1.3", "letterSpacing": "0.019em", "fontWeight": 400 },
+      "body": { "fontSize": "14px", "lineHeight": "1.25", "letterSpacing": "0.019em", "fontWeight": 400 },
+      "bodyLong": { "fontSize": "14px", "lineHeight": "1.89", "letterSpacing": "0.019em", "fontWeight": 400 },
+      "bodyLarge": { "fontSize": "16px", "lineHeight": "1.25", "letterSpacing": "0", "fontWeight": 400 },
+      "subheading": { "fontSize": "19px", "lineHeight": "1.2", "letterSpacing": "0", "fontWeight": 400 },
+      "headingSmall": { "fontSize": "28px", "lineHeight": "1.14", "letterSpacing": "0", "fontWeight": 400 },
+      "heading": { "fontSize": "35px", "lineHeight": "1.14", "letterSpacing": "0", "fontWeight": 400 },
+      "headingLarge": { "fontSize": "52px", "lineHeight": "1", "letterSpacing": "0", "fontWeight": 400 },
+      "display": { "fontSize": "73px", "lineHeight": "1", "letterSpacing": "0", "fontWeight": 400 }
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "maxWidth": "1440px",
+    "contentRail": "1200px",
+    "leftRailOffset": "120px",
+    "heroCopyWidth": "350px",
+    "sectionGap": "80-120px",
+    "cardPadding": "24-40px",
+    "elementGap": "8-16px"
+  },
+  "shape": {
+    "tagRadius": "33.76px",
+    "cardRadius": "33.76px",
+    "imageRadius": "33.76px",
+    "buttonRadius": "42.96px",
+    "borderWidth": "1px"
+  },
+  "components": {
+    "hero": "Two-line left-aligned display headline with black first line, gray italic second line, and narrow body copy below.",
+    "clientLogoCell": "Low white grid cell with tiny numbered metadata, centered grayscale logo, and 1px vapor divider.",
+    "officeCard": "Rounded white card with pale border, image placeholder, compact label, address lines, and underlined email.",
+    "documentaryLabel": "Rotated 10px uppercase side label with a quiet hairline rule.",
+    "sectionEyebrow": "Flush-left compact uppercase display label with 40px bottom margin.",
+    "brandMark": "Custom 247 mark using display face and ss01 alternate, black on light and white on dark."
+  },
+  "dos": [
+    "Keep the palette strictly black, white, and neutral gray.",
+    "Use typography and whitespace as the main expressive tools.",
+    "Keep body copy narrow and sparse.",
+    "Use large rounded surfaces with hairline borders.",
+    "Use flat tonal shifts instead of shadows."
+  ],
+  "donts": [
+    "Do not introduce a colored CTA.",
+    "Do not add gradients, glows, or decorative color.",
+    "Do not use heavy shadows.",
+    "Do not make content dense just to fill the page.",
+    "Do not flatten the logo mark into a generic system font wordmark."
+  ]
+}
+

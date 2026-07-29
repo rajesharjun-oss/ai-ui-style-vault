@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mercury-display: "Arcadia", "Tiempos", Georgia, serif;
+  --font-mercury-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-mercury-cobalt: #546de5;
+  --color-mercury-onyx: #0f0f0f;
+  --color-mercury-graphite: #1c1c1c;
+  --color-mercury-charcoal: #242424;
+  --color-mercury-deep-steel: #2a2a2a;
+  --color-mercury-border-steel: #3a3a3a;
+  --color-mercury-slate: #5f5f5f;
+  --color-mercury-linen: #f7f4ef;
+  --color-mercury-white: #ffffff;
+  --color-mercury-silver: #c7c7c7;
+  --color-mercury-ash: #a3a3a3;
+  --color-mercury-smoke: #8a8a8a;
+  --color-mercury-success-green: #60a56c;
+  --color-mercury-warning-gold: #d6a64f;
+
+  --text-mercury-caption: 12px;
+  --text-mercury-caption--line-height: 1.33;
+  --text-mercury-body-sm: 14px;
+  --text-mercury-body-sm--line-height: 1.43;
+  --text-mercury-body: 16px;
+  --text-mercury-body--line-height: 1.5;
+  --text-mercury-body-lg: 18px;
+  --text-mercury-body-lg--line-height: 1.56;
+  --text-mercury-subheading: 21px;
+  --text-mercury-subheading--line-height: 1.33;
+  --text-mercury-heading-sm: 32px;
+  --text-mercury-heading-sm--line-height: 1.16;
+  --text-mercury-heading: 48px;
+  --text-mercury-heading--line-height: 1.08;
+  --text-mercury-display: 64px;
+  --text-mercury-display--line-height: 1;
+
+  --spacing-mercury-4: 4px;
+  --spacing-mercury-8: 8px;
+  --spacing-mercury-10: 10px;
+  --spacing-mercury-12: 12px;
+  --spacing-mercury-16: 16px;
+  --spacing-mercury-20: 20px;
+  --spacing-mercury-24: 24px;
+  --spacing-mercury-32: 32px;
+  --spacing-mercury-48: 48px;
+  --spacing-mercury-64: 64px;
+  --spacing-mercury-80: 80px;
+  --spacing-mercury-96: 96px;
+
+  --radius-mercury-button: 6px;
+  --radius-mercury-card: 12px;
+  --radius-mercury-input: 10px;
+  --radius-mercury-badge: 999px;
+}
+
+@layer components {
+  .mercury-page {
+    @apply min-h-screen bg-mercury-onyx text-mercury-linen font-mercury-sans;
+  }
+
+  .mercury-container {
+    @apply mx-auto;
+    width: min(calc(100% - 48px), 1280px);
+  }
+
+  .mercury-section {
+    @apply py-mercury-96;
+  }
+
+  .mercury-hero {
+    @apply relative min-h-screen overflow-hidden bg-mercury-onyx;
+  }
+
+  .mercury-hero-media {
+    @apply absolute inset-0 h-full w-full object-cover opacity-[0.72];
+  }
+
+  .mercury-hero-scrim {
+    @apply absolute inset-0;
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0.2), rgba(15, 15, 15, 0.9));
+  }
+
+  .mercury-display {
+    @apply m-0 font-mercury-display text-mercury-display font-medium tracking-normal text-mercury-linen;
+  }
+
+  .mercury-body {
+    @apply font-mercury-sans text-mercury-body font-normal text-mercury-silver;
+  }
+
+  .mercury-button-primary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-mercury-button border-0 bg-mercury-cobalt px-[18px] py-mercury-12 font-mercury-sans text-mercury-body-sm font-medium text-mercury-white no-underline transition-colors duration-200 ease-in-out;
+  }
+
+  .mercury-button-secondary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-mercury-button border border-mercury-border-steel bg-mercury-graphite px-[18px] py-mercury-12 font-mercury-sans text-mercury-body-sm font-medium text-mercury-linen no-underline transition-colors duration-200 ease-in-out;
+  }
+
+  .mercury-nav {
+    @apply min-h-16 border-b border-mercury-border-steel;
+    background: rgba(15, 15, 15, 0.82);
+    backdrop-filter: blur(12px);
+  }
+
+  .mercury-nav-link {
+    @apply font-mercury-sans text-mercury-body-sm font-medium text-mercury-ash no-underline;
+  }
+
+  .mercury-nav-link-active,
+  .mercury-link {
+    @apply text-mercury-cobalt;
+  }
+
+  .mercury-card {
+    @apply rounded-mercury-card border border-mercury-border-steel bg-mercury-graphite p-mercury-24 shadow-none;
+  }
+
+  .mercury-metric-tile {
+    @apply rounded-mercury-card border border-mercury-border-steel bg-mercury-graphite p-mercury-24;
+  }
+
+  .mercury-metric-label {
+    @apply font-mercury-sans text-mercury-caption font-medium text-mercury-ash;
+  }
+
+  .mercury-metric-value {
+    @apply m-0 font-mercury-display text-mercury-heading-sm font-medium text-mercury-linen;
+  }
+
+  .mercury-dashboard {
+    @apply overflow-hidden rounded-mercury-card border border-mercury-border-steel bg-mercury-graphite;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.18);
+  }
+
+  .mercury-transaction-row {
+    @apply grid min-h-14 items-center border-b border-mercury-deep-steel font-mercury-sans text-mercury-body-sm font-normal text-mercury-silver;
+  }
+
+  .mercury-badge {
+    @apply inline-flex min-h-6 items-center rounded-mercury-badge border border-mercury-border-steel bg-mercury-charcoal px-mercury-10 py-mercury-4 font-mercury-sans text-mercury-caption font-medium text-mercury-silver;
+  }
+}

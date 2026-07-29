@@ -1,0 +1,179 @@
+{
+ "name": "Becane",
+ "slug": "becane",
+ "colors": [
+ {
+ "name": "Bone White",
+ "value": "#f6f6f6",
+ "token": "--color-bone-white",
+ "role": "Page canvas, large background blocks"
+ },
+ {
+ "name": "Divider Grey",
+ "value": "#e6e6e6",
+ "token": "--color-divider-grey",
+ "role": "Hairline borders between nav rows, section dividers"
+ },
+ {
+ "name": "Off-Black",
+ "value": "#0a0a0a",
+ "token": "--color-off-black",
+ "role": "Headlines, body text, nav labels, button strokes"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, nav bar backgrounds, elevated panels"
+ },
+ {
+ "name": "Muted Grey",
+ "value": "#b2b2b2",
+ "token": "--color-muted-grey",
+ "role": "Tertiary helper text, inactive labels"
+ },
+ {
+ "name": "Signal Red",
+ "value": "#ff0000",
+ "token": "--color-signal-red",
+ "role": "Accent panel fills - rotating display block, category highlight surface"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Eurostile Becane",
+ "token": "--font-eurostile-becane",
+ "role": "Custom Eurostile variant is the sole typeface across all scales. Used uppercase at 8px with 0.04em tracking for nav, buttons, labels, and micro-copy - the high tracking and small size force labels to read as gallery placards rather than UI. Bold 30px anchors the hero \u0027COLLECTION\u0027 wordmark. Substitutes: Eurostile, \u0027Helvetica Neue\u0027, Arial - the geometric warmth of Eurostile is the closest system match; fallback to Helvetica Neue retains the uppercase utility feel."
+ }
+ ],
+ "typeScale": [
+
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "100px",
+ "cardPadding": "10px",
+ "elementGap": "8-10px",
+ "scale": [
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Ghost Nav Button",
+ "role": "Top-left brand cluster (ALL / STORIES / BECANE)"
+ },
+ {
+ "name": "Ghost Cart Button",
+ "role": "Top-right cart trigger"
+ },
+ {
+ "name": "Hero Wordmark",
+ "role": "Section title - \u0027COLLECTION\u0027"
+ },
+ {
+ "name": "Meta Label Row",
+ "role": "Section counter - \u0027COLLECTION 01 / 01\u0027"
+ },
+ {
+ "name": "Product Count Strip",
+ "role": "Footer summary - \u002714 PRODUCTS - DISCOVER\u0027"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Vertical rhythm between nav clusters"
+ },
+ {
+ "name": "Red Accent Panel",
+ "role": "Rotating chromatic display block (signal surface)"
+ },
+ {
+ "name": "Product Silhouette Tile",
+ "role": "Editorial product row - 12 figures across viewport"
+ },
+ {
+ "name": "Footer Link Cluster",
+ "role": "Bottom-right policy + contact links"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Eurostile Becane at 8px with 0.04em tracking as the universal label size for nav, buttons, counts, and footer links",
+ "Keep all borders at 0.5px solid #e6e6e6 - never use box-shadow, never use 1px+ strokes",
+ "Set border-radius to 0px on every interactive element; the only rounding token is the site\u0027s own --inner-border-radius for inner cutouts, not visible UI",
+ "Reserve #ff0000 for a single accent surface per viewport; let the rest of the page stay achromatic",
+ "Let product photography carry layout rhythm - space tiles evenly across the full viewport rather than constraining to a fixed grid column",
+ "Set line-height to 1.0 for the 30px wordmark and 1.1-1.2 for 8px labels - tight tracking amplifies the gallery-placard feel",
+ "Anchor a meta-strip (count + secondary affordance) to the bottom of the viewport on category pages"
+ ],
+ "doNot": [
+ "Never add background fills, gradients, or hover-color shifts to buttons - buttons remain ghost",
+ "Never introduce a chromatic CTA button; #ff0000 is a surface accent, not an action",
+ "Never round corners on cards, images, or buttons - sharp 0px edges define the aesthetic",
+ "Never use body copy below 12px or above 30px; the scale is intentionally narrow",
+ "Never add elevation (box-shadow, drop-shadow) - the system is flat and depends on hairline borders for structure",
+ "Never use color to indicate state on links; rely on position, weight, or the Muted Grey #b2b2b2 for de-emphasis",
+ "Never constrain the product row to a centered max-width container - let images breathe edge-to-edge"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/d5017f8f-fa0f-4241-9319-527b0751f66f",
+ "referenceSite": "https://www.becaneparis.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-07-03T15:31:14.865Z",
+ "articleModifiedAt": "2026-07-03T15:37:39.737Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/02081c7f-f99f-44c1-9415-e39c52dae51a.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/36ac3588-8413-47f0-9e11-2805a0511436.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/fbed9d33-7b73-4827-bbff-b3f3ed53d1f7.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/0937a8ce-5ac8-41a0-bf18-456cec96713f.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c7e4fc0a-6057-43de-a4cf-1ad963ff0fef.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/d86a60d4-d9e7-4362-8dab-af61b7c35d85.png"
+ }
+ }
+}

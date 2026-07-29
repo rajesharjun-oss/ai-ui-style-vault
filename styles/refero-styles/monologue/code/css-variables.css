@@ -1,0 +1,150 @@
+:root {
+  /* Colors */
+  --color-void-black: #000000;
+  --color-obsidian: #010101;
+  --color-midnight-surface: #191919;
+  --color-graphite: #282828;
+  --color-charcoal: #363636;
+  --color-slate: #3f3f3f;
+  --color-steel-gray: #7f7f7f;
+  --color-ghost-gray: #c0c0c0;
+  --color-paper-white: #ffffff;
+  --color-deep-teal: #062f34;
+  --color-electric-cyan: #19d0e8;
+  --color-sky-signal: #44ccff;
+
+  /* Surfaces */
+  --surface-void: #000000;
+  --surface-midnight: #191919;
+  --surface-graphite: #282828;
+  --surface-charcoal: #363636;
+  --surface-paper: #ffffff;
+
+  /* Typography */
+  --font-instrument-serif: "Instrument Serif", "Playfair Display", "EB Garamond", "Cormorant Garamond", Georgia, serif;
+  --font-dm-mono: "DM Mono", "JetBrains Mono", "IBM Plex Mono", "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-geist: Geist, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 10px;
+  --leading-caption: 1.4;
+  --tracking-caption: 0.21px;
+  --text-mono-label: 12px;
+  --leading-mono-label: 1.2;
+  --tracking-mono-label: 0.021em;
+  --text-body: 17px;
+  --leading-body: 1.4;
+  --text-subheading: 20px;
+  --leading-subheading: 1.2;
+  --tracking-subheading: -0.2px;
+  --text-heading-sm: 32px;
+  --leading-heading-sm: 1.1;
+  --tracking-heading-sm: 0.26px;
+  --text-heading: 48px;
+  --leading-heading: 1.1;
+  --tracking-heading: -1.44px;
+  --text-heading-lg: 72px;
+  --leading-heading-lg: 1;
+  --tracking-heading-lg: -2.16px;
+  --text-display: 96px;
+  --leading-display: 0.9;
+  --tracking-display: -3.84px;
+  --text-wordmark: 400px;
+
+  --font-weight-regular: 400;
+
+  /* Spacing */
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-9: 9px;
+  --spacing-10: 10px;
+  --spacing-11: 11px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-19: 19px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-72: 72px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 80px;
+  --card-padding: 24px;
+  --element-gap: 10px;
+
+  /* Radius */
+  --radius-small: 4px;
+  --radius-medium: 8px;
+  --radius-large: 12px;
+  --radius-cards: 18px;
+  --radius-product-device: 40px;
+  --radius-buttons: 100000px;
+  --radius-tags: 100000px;
+
+  /* Shadows */
+  --shadow-device: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(255, 255, 255, 0.25) 1px 1px 2px 0px, rgba(0, 0, 0, 0.5) 1px 1px 1px 0px inset, rgba(0, 0, 0, 0.7) 2px 2px 12px 0px inset;
+  --shadow-stamp: rgba(0, 0, 0, 0.7) 3px 3px 2px 0px inset, rgba(255, 255, 255, 0.25) 3px 2px 2px 0px;
+  --shadow-raised-card: rgba(0, 0, 0, 0.63) 0px 0px 0px 1px;
+  --shadow-teal-card: rgb(14, 93, 102) 6px 6px 10px 0px inset, rgba(255, 255, 255, 0.2) 4px 4px 4px 0px, rgba(255, 255, 255, 0.25) 1px 1px 2px 0px;
+}
+
+.monologue-style-shell {
+  background: var(--surface-void);
+  color: var(--color-paper-white);
+  font-family: var(--font-geist);
+}
+
+.monologue-style-heading {
+  color: var(--color-paper-white);
+  font-family: var(--font-instrument-serif);
+  font-size: var(--text-heading-lg);
+  font-style: italic;
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--tracking-heading-lg);
+  line-height: var(--leading-heading-lg);
+}
+
+.monologue-style-wordmark {
+  color: var(--color-ghost-gray);
+  font-family: var(--font-instrument-serif);
+  font-size: var(--text-wordmark);
+  font-style: italic;
+  font-weight: var(--font-weight-regular);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.monologue-style-download-pill {
+  align-items: center;
+  background: var(--color-paper-white);
+  border: 0;
+  border-radius: var(--radius-buttons);
+  color: var(--color-void-black);
+  display: inline-flex;
+  font-family: var(--font-dm-mono);
+  font-size: var(--text-mono-label);
+  height: 32px;
+  justify-content: center;
+  min-width: 120px;
+  padding: 0 16px;
+}
+
+.monologue-style-device {
+  background: var(--color-paper-white);
+  border-radius: var(--radius-product-device);
+  box-shadow: var(--shadow-device);
+}
+
+.monologue-style-card {
+  background: var(--surface-midnight);
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-raised-card);
+}
+
+.monologue-style-accent {
+  color: var(--color-electric-cyan);
+}

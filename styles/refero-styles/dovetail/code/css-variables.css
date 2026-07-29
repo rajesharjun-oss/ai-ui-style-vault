@@ -1,0 +1,133 @@
+:root {
+  --dovetail-font-sans: "Inter", system-ui, sans-serif;
+  --dovetail-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --dovetail-color-graphite: #0a0a0a;
+  --dovetail-color-obsidian: #111111;
+  --dovetail-color-charcoal: #1e1e1e;
+  --dovetail-color-slate: #2d2d2d;
+  --dovetail-color-iron: #3a3a3a;
+  --dovetail-color-silver: #a3a3a3;
+  --dovetail-color-pearl: #fafafa;
+  --dovetail-color-white: #ffffff;
+  --dovetail-color-soft-indigo: #8b7cf6;
+  --dovetail-color-indigo-glow: #a78bfa;
+  --dovetail-color-muted-purple: #6d5dd3;
+
+  --dovetail-radius-button: 8px;
+  --dovetail-radius-card: 8px;
+  --dovetail-radius-input: 8px;
+  --dovetail-radius-tag: 9999px;
+  --dovetail-radius-media: 12px;
+
+  --dovetail-space-1: 4px;
+  --dovetail-space-2: 8px;
+  --dovetail-space-3: 12px;
+  --dovetail-space-4: 16px;
+  --dovetail-space-5: 20px;
+  --dovetail-space-6: 24px;
+  --dovetail-space-8: 32px;
+  --dovetail-space-16: 64px;
+  --dovetail-space-24: 96px;
+  --dovetail-sidebar-width: 260px;
+  --dovetail-max-width: 1280px;
+}
+
+.dovetail-page {
+  min-height: 100%;
+  background: var(--dovetail-color-graphite);
+  color: var(--dovetail-color-pearl);
+  font-family: var(--dovetail-font-sans);
+}
+
+.dovetail-body {
+  color: var(--dovetail-color-silver);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.dovetail-heading {
+  color: var(--dovetail-color-pearl);
+  font-size: 32px;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.dovetail-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: var(--dovetail-radius-button);
+  background: var(--dovetail-color-soft-indigo);
+  color: var(--dovetail-color-white);
+  font-size: 14px;
+  line-height: 1.43;
+  font-weight: 600;
+}
+
+.dovetail-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 8px 12px;
+  border: 1px solid var(--dovetail-color-slate);
+  border-radius: var(--dovetail-radius-button);
+  background: var(--dovetail-color-obsidian);
+  color: var(--dovetail-color-pearl);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dovetail-card {
+  border: 1px solid var(--dovetail-color-charcoal);
+  border-radius: var(--dovetail-radius-card);
+  background: var(--dovetail-color-obsidian);
+  padding: 16px;
+  box-shadow: none;
+}
+
+.dovetail-card:hover {
+  background: var(--dovetail-color-charcoal);
+}
+
+.dovetail-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 4px 10px;
+  border: 1px solid var(--dovetail-color-slate);
+  border-radius: var(--dovetail-radius-tag);
+  background: var(--dovetail-color-charcoal);
+  color: var(--dovetail-color-silver);
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: 500;
+}
+
+.dovetail-input {
+  width: 100%;
+  border: 1px solid var(--dovetail-color-charcoal);
+  border-radius: var(--dovetail-radius-input);
+  background: var(--dovetail-color-obsidian);
+  color: var(--dovetail-color-pearl);
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.dovetail-input::placeholder {
+  color: var(--dovetail-color-silver);
+}
+
+.dovetail-metadata {
+  color: var(--dovetail-color-silver);
+  font-family: var(--dovetail-font-mono);
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: 500;
+}

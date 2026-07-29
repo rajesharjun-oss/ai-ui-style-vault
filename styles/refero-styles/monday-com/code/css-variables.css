@@ -1,0 +1,133 @@
+:root {
+  --monday-color-violet: #6161ff;
+  --monday-color-prism: conic-gradient(from 270deg, rgb(129, 129, 255) 15%, rgb(51, 219, 219) 40%, rgb(51, 213, 142) 55%, rgb(255, 214, 51) 65%, rgb(252, 82, 125) 85%, rgb(129, 129, 255) 100%);
+  --monday-color-mint: #bcfe90;
+  --monday-color-sky: #abf0ff;
+  --monday-color-apricot: linear-gradient(90deg, rgb(254, 129, 228), rgb(254, 129, 228) 31%, rgb(253, 169, 0) 88%);
+  --monday-color-lavender: #eddff7;
+  --monday-color-periwinkle: #e7ecff;
+  --monday-color-cornflower: #93beff;
+  --monday-color-aqua: #d1faff;
+  --monday-color-cotton-candy: #e98dfe;
+  --monday-color-ultra-violet: #9450fd;
+  --monday-color-electric-cyan: #3ac9ff;
+  --monday-color-forest: #2a5c4e;
+  --monday-color-peony: #fcd0f8;
+  --monday-color-periwinkle-wash: #dbdbff;
+  --monday-color-ink: #333333;
+  --monday-color-slate: #535768;
+  --monday-color-iron: #808080;
+  --monday-color-fog: #cacbcd;
+  --monday-color-mist: #d0d4e4;
+  --monday-color-pebble: #dddfeb;
+  --monday-color-shadow-dust: #e6e7ea;
+  --monday-color-cloud: #f5f6f8;
+  --monday-color-snow: #ffffff;
+
+  --monday-font-sans: "Poppins", "Manrope", "DM Sans", "Plus Jakarta Sans", Arial, sans-serif;
+
+  --monday-text-micro: 8px;
+  --monday-text-caption: 12px;
+  --monday-text-body-sm: 14px;
+  --monday-text-body: 16px;
+  --monday-text-body-lg: 18px;
+  --monday-text-subheading: 20px;
+  --monday-text-heading-sm: 24px;
+  --monday-text-heading: 36px;
+  --monday-text-heading-lg: 48px;
+  --monday-text-display: 64px;
+
+  --monday-leading-caption: 1.45;
+  --monday-leading-body: 1.5;
+  --monday-leading-subheading: 1.4;
+  --monday-leading-heading-sm: 1.3;
+  --monday-leading-heading: 1.2;
+  --monday-leading-display: 1.15;
+
+  --monday-tracking-caption: -0.12px;
+  --monday-tracking-body: -0.16px;
+  --monday-tracking-subheading: -0.22px;
+  --monday-tracking-heading-sm: -0.36px;
+  --monday-tracking-heading: -0.54px;
+  --monday-tracking-heading-lg: -0.96px;
+  --monday-tracking-display: -2.56px;
+  --monday-tracking-uppercase: 0.2em;
+
+  --monday-space-1: 8px;
+  --monday-space-2: 16px;
+  --monday-space-3: 24px;
+  --monday-space-4: 32px;
+  --monday-space-5: 40px;
+  --monday-space-6: 48px;
+  --monday-space-8: 64px;
+  --monday-space-10: 80px;
+  --monday-space-12: 96px;
+
+  --monday-max-width: 1200px;
+  --monday-section-gap: 64px;
+  --monday-card-padding: 24px;
+  --monday-element-gap: 8px;
+
+  --monday-radius-small: 6px;
+  --monday-radius-image: 12px;
+  --monday-radius-card: 24px;
+  --monday-radius-button: 160px;
+
+  --monday-shadow-board: rgba(205, 208, 223, 0.4) 0px 2px 48px 0px;
+  --monday-shadow-elevated: rgba(0, 0, 0, 0.15) 0px 5px 45px 0px;
+  --monday-shadow-ai-active: rgba(0, 0, 0, 0.15) 0px 4px 40px 0px;
+  --monday-shadow-inset: rgb(0, 0, 0) 0px -2px 0px 0px inset;
+}
+
+.monday-page {
+  min-height: 100vh;
+  background: var(--monday-color-cloud);
+  color: var(--monday-color-ink);
+  font-family: var(--monday-font-sans);
+}
+
+.monday-container {
+  width: min(100% - 48px, var(--monday-max-width));
+  margin-inline: auto;
+}
+
+.monday-display {
+  font-size: clamp(48px, 7vw, var(--monday-text-display));
+  font-weight: 300;
+  line-height: var(--monday-leading-display);
+  letter-spacing: var(--monday-tracking-display);
+}
+
+.monday-gradient-text {
+  background: var(--monday-color-apricot);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.monday-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--monday-radius-button);
+  background: var(--monday-color-violet);
+  color: var(--monday-color-snow);
+  padding: 13px 24px;
+  font: 500 var(--monday-text-body) / 1 var(--monday-font-sans);
+  text-decoration: none;
+}
+
+.monday-feature-card {
+  border-radius: var(--monday-radius-card);
+  padding: var(--monday-card-padding);
+  background: var(--monday-color-sky);
+  color: var(--monday-color-ink);
+}
+
+.monday-board-card {
+  border: 1px solid var(--monday-color-mist);
+  border-radius: var(--monday-radius-card);
+  background: var(--monday-color-snow);
+  box-shadow: var(--monday-shadow-board);
+}

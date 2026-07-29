@@ -1,0 +1,212 @@
+{
+  "name": "Apple",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/aecac5da-f397-4ddf-b71f-de1efc434cb8",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "color": {
+    "appleBlue": {
+      "value": "#0071e3",
+      "type": "color"
+    },
+    "linkBlue": {
+      "value": "#0066cc",
+      "type": "color"
+    },
+    "signalBlue": {
+      "value": "#2997ff",
+      "type": "color"
+    },
+    "onyx": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "carbon": {
+      "value": "#1d1d1f",
+      "type": "color"
+    },
+    "smoke": {
+      "value": "#333333",
+      "type": "color"
+    },
+    "graphite": {
+      "value": "#474747",
+      "type": "color"
+    },
+    "ash": {
+      "value": "#707070",
+      "type": "color"
+    },
+    "mist": {
+      "value": "#858585",
+      "type": "color"
+    },
+    "pebble": {
+      "value": "#e2e2e5",
+      "type": "color"
+    },
+    "frost": {
+      "value": "#f5f5f7",
+      "type": "color"
+    },
+    "ice": {
+      "value": "#f4f8fb",
+      "type": "color"
+    }
+  },
+  "font": {
+    "sfProDisplay": {
+      "value": "SF Pro Display",
+      "type": "fontFamily"
+    },
+    "sfProText": {
+      "value": "SF Pro Text",
+      "type": "fontFamily"
+    },
+    "fallback": {
+      "value": "Inter, system-ui",
+      "type": "fontFamily"
+    }
+  },
+  "fontWeight": {
+    "light": {
+      "value": 300,
+      "type": "fontWeight"
+    },
+    "regular": {
+      "value": 400,
+      "type": "fontWeight"
+    },
+    "semibold": {
+      "value": 600,
+      "type": "fontWeight"
+    },
+    "bold": {
+      "value": 700,
+      "type": "fontWeight"
+    }
+  },
+  "fontSize": {
+    "caption": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "bodySmall": {
+      "value": "14px",
+      "type": "dimension"
+    },
+    "body": {
+      "value": "17px",
+      "type": "dimension"
+    },
+    "subheading": {
+      "value": "21px",
+      "type": "dimension"
+    },
+    "headingSmall": {
+      "value": "28px",
+      "type": "dimension"
+    },
+    "heading": {
+      "value": "40px",
+      "type": "dimension"
+    },
+    "headingLarge": {
+      "value": "44px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "56px",
+      "type": "dimension"
+    }
+  },
+  "lineHeight": {
+    "caption": {
+      "value": "1.33",
+      "type": "number"
+    },
+    "bodySmall": {
+      "value": "1.29",
+      "type": "number"
+    },
+    "body": {
+      "value": "1.47",
+      "type": "number"
+    },
+    "subheading": {
+      "value": "1.24",
+      "type": "number"
+    },
+    "headingSmall": {
+      "value": "1.18",
+      "type": "number"
+    },
+    "heading": {
+      "value": "1.14",
+      "type": "number"
+    },
+    "headingLarge": {
+      "value": "1.18",
+      "type": "number"
+    },
+    "display": {
+      "value": "1.07",
+      "type": "number"
+    }
+  },
+  "radius": {
+    "cards": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "images": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "inputs": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "tags": {
+      "value": "980px",
+      "type": "dimension"
+    },
+    "buttons": {
+      "value": "980px",
+      "type": "dimension"
+    }
+  },
+  "space": {
+    "base": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "elementGap": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "cardPadding": {
+      "value": "24px",
+      "type": "dimension"
+    },
+    "sectionGap": {
+      "value": "64px",
+      "type": "dimension"
+    },
+    "maxWidth": {
+      "value": "1440px",
+      "type": "dimension"
+    }
+  },
+  "shadow": {
+    "productImage": {
+      "value": "rgba(0, 0, 0, 0.22) 3px 5px 30px 0px",
+      "type": "shadow"
+    },
+    "chrome": {
+      "value": "none",
+      "type": "shadow"
+    }
+  }
+}
+

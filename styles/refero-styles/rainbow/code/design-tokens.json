@@ -1,0 +1,282 @@
+{
+  "name": "Rainbow",
+  "slug": "rainbow",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/1680693c-aed8-47e8-917a-04eb89497b09",
+    "productUrl": "https://rainbow.me"
+  },
+  "theme": {
+    "mode": "light",
+    "summary": "Soft consumer wallet with rounded utility, tiny rainbow sparks, and confident black actions.",
+    "principles": [
+      "Keep the base interface neutral and very light.",
+      "Use black for the most important action.",
+      "Use rainbow colors only as localized accents.",
+      "Use rounded cards and pill controls to keep the product friendly.",
+      "Keep wallet data compact and scannable."
+    ]
+  },
+  "colors": {
+    "core": {
+      "ink": {
+        "value": "#111111",
+        "token": "--color-ink",
+        "role": "Primary text, primary CTA fill, strongest icons"
+      },
+      "canvas": {
+        "value": "#f9fafb",
+        "token": "--color-canvas",
+        "role": "Main page background"
+      },
+      "softCanvas": {
+        "value": "#f7f8fa",
+        "token": "--color-soft-canvas",
+        "role": "Alternate section background and app shell"
+      },
+      "card": {
+        "value": "#ffffff",
+        "token": "--color-card",
+        "role": "Cards, panels, app-store buttons, wallet modules"
+      },
+      "border": {
+        "value": "rgba(0,0,0,0.06)",
+        "token": "--color-border",
+        "role": "Card borders, separators, control outlines"
+      },
+      "textMuted": {
+        "value": "#6b7280",
+        "token": "--color-text-muted",
+        "role": "Secondary text, captions, helper text"
+      },
+      "textSoft": {
+        "value": "#9ca3af",
+        "token": "--color-text-soft",
+        "role": "Disabled text, timestamps, low-priority labels"
+      }
+    },
+    "accent": {
+      "blue": {
+        "value": "#3b82f6",
+        "token": "--color-blue",
+        "role": "Wallet accent, links, selected states"
+      },
+      "purple": {
+        "value": "#8b5cf6",
+        "token": "--color-purple",
+        "role": "Token accent, decorative badge, gradient stop"
+      },
+      "pink": {
+        "value": "#ec4899",
+        "token": "--color-pink",
+        "role": "Tiny badge and playful status accent"
+      },
+      "green": {
+        "value": "#22c55e",
+        "token": "--color-green",
+        "role": "Success, positive change, verified state"
+      },
+      "yellow": {
+        "value": "#facc15",
+        "token": "--color-yellow",
+        "role": "Warning-light badge, collectible accent"
+      },
+      "orange": {
+        "value": "#fb923c",
+        "token": "--color-orange",
+        "role": "Warm accent and localized illustration color"
+      }
+    }
+  },
+  "surfaces": {
+    "page": "#f9fafb",
+    "app": "#f7f8fa",
+    "card": "#ffffff"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": {
+        "name": "Inter",
+        "fallbacks": ["system-ui", "sans-serif"],
+        "role": "All UI, body, headings, labels, buttons"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": 1.33,
+        "fontWeight": 500
+      },
+      "label": {
+        "fontSize": "13px",
+        "lineHeight": 1.38,
+        "fontWeight": 600
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": 1.43,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": 1.5,
+        "fontWeight": 400
+      },
+      "balance": {
+        "fontSize": "32px",
+        "lineHeight": 1.1,
+        "fontWeight": 700
+      },
+      "headingSm": {
+        "fontSize": "24px",
+        "lineHeight": 1.2,
+        "fontWeight": 700
+      },
+      "heading": {
+        "fontSize": "40px",
+        "lineHeight": 1.1,
+        "fontWeight": 700
+      },
+      "display": {
+        "fontSize": "64px",
+        "lineHeight": 1,
+        "fontWeight": 800
+      }
+    },
+    "letterSpacing": "normal"
+  },
+  "spacing": {
+    "density": "compact",
+    "baseUnit": "4px",
+    "maxWidth": "1120px",
+    "sectionGap": "72px",
+    "cardPadding": "20px to 24px",
+    "elementGap": "12px",
+    "scale": ["4px", "6px", "8px", "10px", "12px", "16px", "20px", "24px", "32px", "48px", "64px", "72px"]
+  },
+  "shape": {
+    "radii": {
+      "controls": "12px",
+      "cards": "20px",
+      "phoneMockups": "36px",
+      "pills": "9999px"
+    },
+    "border": {
+      "default": "1px solid rgba(0,0,0,0.06)"
+    },
+    "elevation": {
+      "card": "0 4px 16px rgba(15,23,42,0.06)"
+    }
+  },
+  "components": {
+    "primaryBlackCTA": {
+      "background": "#111111",
+      "color": "#ffffff",
+      "radius": "12px",
+      "padding": "12px 18px",
+      "font": "14px Inter 700",
+      "usage": "main action only"
+    },
+    "secondaryPillButton": {
+      "background": "#ffffff or #f7f8fa",
+      "color": "#111111",
+      "border": "1px solid rgba(0,0,0,0.06)",
+      "radius": "9999px",
+      "padding": "10px 16px",
+      "font": "14px Inter 600"
+    },
+    "walletBalanceCard": {
+      "background": "#ffffff",
+      "border": "1px solid rgba(0,0,0,0.06)",
+      "radius": "20px",
+      "padding": "24px",
+      "shadow": "0 4px 16px rgba(15,23,42,0.06)",
+      "balanceText": "32px Inter 700 #111111"
+    },
+    "tokenRow": {
+      "background": "transparent or white",
+      "height": "56px to 64px",
+      "icon": "36px to 40px circle with token color or image",
+      "name": "14px to 16px Inter 600",
+      "meta": "13px to 14px muted gray",
+      "change": "green for positive, red only for negative"
+    },
+    "pastelBadge": {
+      "background": "light tint from accent color",
+      "color": "darker matching accent or black",
+      "radius": "9999px",
+      "padding": "4px 10px",
+      "font": "12px Inter 600"
+    },
+    "appStoreButton": {
+      "background": "#111111 or #ffffff",
+      "color": "white on black, black on white",
+      "radius": "14px",
+      "padding": "10px 16px",
+      "border": "white variant uses soft border"
+    },
+    "roundedInput": {
+      "background": "#ffffff",
+      "color": "#111111",
+      "placeholder": "#9ca3af",
+      "border": "1px solid rgba(0,0,0,0.06)",
+      "radius": "12px",
+      "padding": "12px 14px"
+    },
+    "segmentedTabs": {
+      "container": "#f7f8fa, 9999px radius, 4px padding",
+      "activeTab": "white or black depending on context",
+      "inactiveText": "#6b7280",
+      "font": "13px Inter 600"
+    },
+    "onboardingPanel": {
+      "background": "#ffffff",
+      "radius": "20px",
+      "padding": "24px",
+      "content": "friendly heading, short copy, token/app icons, black CTA",
+      "accent": "one small gradient or pastel badge"
+    }
+  },
+  "layout": {
+    "patterns": [
+      "Hero with large friendly headline, black CTA, app-store buttons, and phone mockup",
+      "Wallet balance card with token list below",
+      "Token rows grouped into rounded white panels",
+      "Feature cards with tiny pastel badges and app icons",
+      "Onboarding checklist with a single black action",
+      "Segmented tabs for wallet sections like tokens, NFTs, and activity"
+    ],
+    "imagery": "Phone screenshots, app mockups, wallet cards, token icons, NFT previews, and tiny app illustrations"
+  },
+  "motion": {
+    "duration": "150ms to 250ms",
+    "easing": "ease",
+    "usage": "Small press/hover feedback and gentle mobile-app-like interactions"
+  },
+  "do": [
+    "Use near-white backgrounds and white cards.",
+    "Use black for the main filled CTA.",
+    "Use Inter for the entire interface.",
+    "Keep wallet data compact and easy to scan.",
+    "Use 20px card radius and 12px control radius.",
+    "Use 9999px pills for badges, filters, and token chips.",
+    "Use rainbow color only in tiny accent moments.",
+    "Make touch targets at least 40px high."
+  ],
+  "dont": [
+    "Do not turn the entire interface into a rainbow gradient.",
+    "Do not use multiple filled CTA colors.",
+    "Do not use harsh black borders around every card.",
+    "Do not add heavy shadows or glassmorphism.",
+    "Do not use serif or monospace fonts.",
+    "Do not make desktop layouts feel like enterprise dashboards.",
+    "Do not overload token rows with too much metadata."
+  ]
+}

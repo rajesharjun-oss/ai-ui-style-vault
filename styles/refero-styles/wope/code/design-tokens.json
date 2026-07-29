@@ -1,0 +1,173 @@
+{
+  "name": "Wope",
+  "version": "2026-07-28",
+  "colors": {
+    "nightViolet": {
+      "value": "#0a0118",
+      "role": "Global canvas, dark cards, footer, and screenshot frames"
+    },
+    "voidPlum": {
+      "value": "#0c0616",
+      "role": "Deep UI detail and occasional dark text on pale treatments"
+    },
+    "softQuartz": {
+      "value": "#ffffff",
+      "role": "Primary headings, high-emphasis copy, icons, borders, and button text"
+    },
+    "mutedSteel": {
+      "value": "#d2d0dd",
+      "role": "Secondary headings and brighter muted copy"
+    },
+    "ashLilac": {
+      "value": "#9b96b0",
+      "role": "Body copy, navigation links, labels, and supporting UI"
+    },
+    "dimFog": {
+      "value": "#85808c",
+      "role": "Inactive icons, subtle separators, and tertiary details"
+    },
+    "ultravioletCore": {
+      "value": "#713dff",
+      "role": "Primary accent, active links, luminous highlights, and focal glow"
+    },
+    "lilacBeam": {
+      "value": "#b7a4fb",
+      "role": "Cool flare color for light rays and glow edges"
+    },
+    "horizonGlow": {
+      "value": "#8562ff",
+      "role": "Brighter violet midpoint for underlit effects"
+    },
+    "glassWhite04": {
+      "value": "rgba(255, 255, 255, 0.04)",
+      "role": "Ghost pill fills, badge backgrounds, and translucent overlays"
+    },
+    "glassWhite10": {
+      "value": "rgba(255, 255, 255, 0.10)",
+      "role": "Hairline borders on pills and glass panels"
+    }
+  },
+  "gradients": {
+    "ultravioletHorizon": {
+      "value": "linear-gradient(180deg, rgba(183, 164, 251, 0) 0%, rgba(183, 164, 251, 0.5) 50%, rgba(133, 98, 255, 0.5) 75%, rgba(133, 98, 255, 0) 100%)",
+      "role": "Ambient underlight and hero glow field"
+    },
+    "violetBeam": {
+      "value": "linear-gradient(180deg, rgba(183, 164, 251, 0) 0%, #b7a4fb 50%, #8562ff 75%, rgba(133, 98, 255, 0) 100%)",
+      "role": "Crisp beam and halo treatments"
+    },
+    "deepFadeVeil": {
+      "value": "linear-gradient(180deg, rgba(11, 2, 23, 0) 22.69%, rgba(22, 9, 42, 0.5) 100%)",
+      "role": "Darkening overlays and bottom fades"
+    }
+  },
+  "font": {
+    "primary": {
+      "family": "Inter V, Inter, system-ui, sans-serif",
+      "weights": {
+        "regular": 400,
+        "medium": 500,
+        "bold": 700
+      }
+    },
+    "display": {
+      "family": "Rebond Grotesque, Sora, Inter, system-ui, sans-serif",
+      "weights": {
+        "bold": 700
+      }
+    }
+  },
+  "typeScale": {
+    "caption": {
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "letterSpacing": "-0.28px",
+      "font": "primary"
+    },
+    "body": {
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "21px",
+      "letterSpacing": "-0.16px",
+      "font": "primary"
+    },
+    "subheading": {
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "lineHeight": "28px",
+      "letterSpacing": "-0.36px",
+      "font": "primary"
+    },
+    "headingSm": {
+      "fontSize": "24px",
+      "fontWeight": 700,
+      "lineHeight": "36px",
+      "letterSpacing": "-0.48px",
+      "font": "display"
+    },
+    "utilityHeading": {
+      "fontSize": "28px",
+      "fontWeight": 400,
+      "lineHeight": "48px",
+      "letterSpacing": "2.24px",
+      "font": "primary"
+    },
+    "headingLg": {
+      "fontSize": "56px",
+      "fontWeight": 700,
+      "lineHeight": "74px",
+      "letterSpacing": "-1.12px",
+      "font": "display"
+    },
+    "display": {
+      "fontSize": "72px",
+      "fontWeight": 700,
+      "lineHeight": "80px",
+      "letterSpacing": "-1.44px",
+      "font": "display"
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "unit": "4px",
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "28": "28px",
+    "32": "32px",
+    "40": "40px",
+    "64": "64px",
+    "80": "80px",
+    "96": "96px",
+    "108": "108px",
+    "112": "112px",
+    "120": "120px",
+    "124": "124px",
+    "maxWidth": "1248px",
+    "sectionGap": "108px",
+    "majorBandPadding": "124px",
+    "cardPadding": "28px",
+    "elementGap": "16px"
+  },
+  "radius": {
+    "inputs": "0px",
+    "overlayCards": "10px",
+    "cards": "16px",
+    "buttons": "999px",
+    "badges": "999px"
+  },
+  "elevation": {
+    "rule": "Use glow, blur, and translucent borders instead of conventional shadows.",
+    "border": "1px solid rgba(255, 255, 255, 0.10)"
+  },
+  "imagery": {
+    "primary": "Large contained product screenshots in dark frames",
+    "atmosphere": ["grid lines", "light rays", "violet horizon glow", "dark fade veils"],
+    "avoid": ["stock photography", "bright multicolor graphics", "opaque white dashboard cards"]
+  }
+}
+

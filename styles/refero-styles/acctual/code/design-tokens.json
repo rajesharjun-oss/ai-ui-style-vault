@@ -1,0 +1,114 @@
+{
+  "name": "Acctual",
+  "slug": "acctual",
+  "color": {
+    "electricBlue": { "value": "#0098f2", "role": "Checkmarks, payment rates, eyebrow labels, inline highlights" },
+    "iris": { "value": "#6c56fc", "role": "Decorative invoice chips and secondary brand detail" },
+    "magenta": { "value": "#f200ca", "role": "Decorative invoice chips and small graphic details" },
+    "leaf": { "value": "#5d9c06", "role": "Supporting text accent and tags" },
+    "coral": { "value": "#ff6363", "role": "Small icon or mark accent" },
+    "ice": { "value": "#cfeafa", "role": "Light blue highlight surfaces" },
+    "lavender": { "value": "#e1e0fc", "role": "Light violet feature blocks" },
+    "blush": { "value": "#f6d2f4", "role": "Light pink cards and decorative highlight blocks" },
+    "carbon": { "value": "#0f0f0f", "role": "Deep body text and secondary dark actions" },
+    "midnight": { "value": "#0d111b", "role": "Primary filled button background" },
+    "ink": { "value": "#1e1e1e", "role": "Headings and primary body text" },
+    "smoke": { "value": "#666666", "role": "Secondary body text and descriptions" },
+    "fog": { "value": "#8d8d8d", "role": "Tertiary text, nav links, muted metadata" },
+    "ash": { "value": "#999999", "role": "Placeholder and disabled text" },
+    "concrete": { "value": "#afb0b1", "role": "Muted surface fills and inactive chips" },
+    "mist": { "value": "#ccd1da", "role": "Borders, input outlines, divider lines" },
+    "snow": { "value": "#f7fafc", "role": "Subtle section backgrounds" },
+    "softSurface": { "value": "#fafafa", "role": "Feature card backgrounds and alternating bands" },
+    "paper": { "value": "#ffffff", "role": "Page canvas and card surfaces" }
+  },
+  "font": {
+    "openRunde": {
+      "value": "\"Open Runde\", Inter, \"DM Sans\", Outfit, Arial, sans-serif",
+      "weights": [500, 600],
+      "features": ["ss01"],
+      "usage": "Headings, body, nav, buttons, labels, and invoice UI"
+    },
+    "caveat": {
+      "value": "Caveat, \"Dancing Script\", Kalam, cursive",
+      "weights": [600],
+      "usage": "Testimonial attribution only"
+    }
+  },
+  "size": {
+    "eyebrow": "11px",
+    "bodySm": "14px",
+    "body": "16px",
+    "bodyLg": "22px",
+    "subheading": "24px",
+    "headingSm": "32px",
+    "heading": "40px",
+    "headingLg": "48px",
+    "display": "64px"
+  },
+  "lineHeight": {
+    "eyebrow": 1.62,
+    "bodySm": 1.43,
+    "body": 1.5,
+    "bodyLg": 1.29,
+    "subheading": 1.33,
+    "headingSm": 1.25,
+    "heading": 1.2,
+    "headingLg": 1.17,
+    "display": 1.13
+  },
+  "letterSpacing": {
+    "eyebrow": "0.22px",
+    "bodySm": "-0.28px",
+    "body": "-0.32px",
+    "subheading": "-0.72px",
+    "headingSm": "-0.96px",
+    "heading": "-1.2px",
+    "headingLg": "-1.44px",
+    "display": "-1.92px"
+  },
+  "fontWeight": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600
+  },
+  "space": {
+    "unit": "4px",
+    "4": "4px",
+    "8": "8px",
+    "12": "12px",
+    "16": "16px",
+    "20": "20px",
+    "24": "24px",
+    "28": "28px",
+    "32": "32px",
+    "36": "36px",
+    "40": "40px",
+    "48": "48px",
+    "64": "64px",
+    "80": "80px",
+    "96": "96px"
+  },
+  "layout": {
+    "pageMaxWidth": "1200px",
+    "sectionGap": "96px",
+    "cardPadding": "24px",
+    "elementGap": "12px"
+  },
+  "radius": {
+    "lg": "10px",
+    "cards": "16px",
+    "images": "20px",
+    "largeCards": "32px",
+    "tags": "100px",
+    "buttons": "100px",
+    "icons": "888px"
+  },
+  "shadow": {
+    "subtle": "rgba(10, 13, 20, 0.03) 0px 1px 2px 0px",
+    "button": "rgb(36, 38, 40) 0px 0px 0px 1px, rgba(27, 28, 29, 0.48) 0px 1px 2px 0px",
+    "elevatedCard": "rgba(0, 0, 0, 0.05) 0px 1.78px 8px 0px, rgba(0, 0, 0, 0.04) 0px 0.89px 2.67px 0px",
+    "softCard": "rgba(0, 0, 0, 0.06) 0px 2px 3px -1px"
+  }
+}
+

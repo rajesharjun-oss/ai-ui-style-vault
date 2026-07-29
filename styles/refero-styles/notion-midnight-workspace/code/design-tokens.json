@@ -1,0 +1,79 @@
+{
+  "name": "Notion Midnight Workspace",
+  "theme": "mixed",
+  "colors": {
+    "midnightInk": "#02093a",
+    "signalBlue": "#0075de",
+    "skyTint": "#62aef0",
+    "royalViolet": "#2537b1",
+    "periwinkle": "#455dd3",
+    "cerulean": "#097fe8",
+    "paperWhite": "#f6f5f4",
+    "pureWhite": "#ffffff",
+    "onyx": "#000000",
+    "graphite": "#0b0b0b",
+    "warmGray": "#615d59",
+    "stone": "#a39e98",
+    "smoke": "#c6c6c5",
+    "faintLine": "#dddddd",
+    "charcoal": "#31302e"
+  },
+  "typography": {
+    "fontFamilies": {
+      "sans": "\"NotionInter\", Inter, ui-sans-serif, system-ui, sans-serif",
+      "serif": "\"Lyon Text\", \"Source Serif Pro\", Georgia, serif"
+    },
+    "fontWeights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "scale": {
+      "caption": { "fontSize": "12px", "lineHeight": "1.5", "letterSpacing": "0.12px" },
+      "bodySmall": { "fontSize": "14px", "lineHeight": "1.43", "letterSpacing": "-0.084px" },
+      "body": { "fontSize": "16px", "lineHeight": "1.5", "letterSpacing": "-0.16px" },
+      "subheading": { "fontSize": "20px", "lineHeight": "1.4", "letterSpacing": "-0.22px" },
+      "headingSmall": { "fontSize": "24px", "lineHeight": "1.33", "letterSpacing": "-0.264px" },
+      "heading": { "fontSize": "40px", "lineHeight": "1.2", "letterSpacing": "-0.88px" },
+      "headingLarge": { "fontSize": "54px", "lineHeight": "1.04", "letterSpacing": "-1.89px" },
+      "display": { "fontSize": "64px", "lineHeight": "1", "letterSpacing": "-2.3px" },
+      "editorialAccent": { "fontSize": "32px", "lineHeight": "1.25", "letterSpacing": "0" }
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "28": "28px",
+      "32": "32px",
+      "36": "36px",
+      "40": "40px",
+      "64": "64px",
+      "80": "80px",
+      "180": "180px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "80px",
+      "cardPadding": "24px",
+      "elementGap": "16px"
+    }
+  },
+  "radii": {
+    "tags": "9999px",
+    "cards": "12px",
+    "small": "5px",
+    "badges": "9999px",
+    "inputs": "8px",
+    "buttons": "8px"
+  },
+  "shadows": {
+    "heroMockup": "rgba(0, 0, 0, 0.01) 0px 1px 3px 0px, rgba(0, 0, 0, 0.02) 0px 3px 7px 0px, rgba(0, 0, 0, 0.02) 0px 7px 15px 0px, rgba(0, 0, 0, 0.04) 0px 14px 28px 0px, rgba(0, 0, 0, 0.05) 0px 23px 52px 0px"
+  }
+}

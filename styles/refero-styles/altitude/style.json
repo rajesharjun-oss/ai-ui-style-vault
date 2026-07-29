@@ -1,0 +1,252 @@
+{
+  "id": "0e971626-ca51-45ba-acf6-35a53c561b2c",
+  "name": "Altitude",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/0e971626-ca51-45ba-acf6-35a53c561b2c",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "mood": "Midnight financial editorial: carbon canvas, bone serif headlines, thin gray surface layers, terminal details, alpine imagery, and a single blue accent.",
+  "bestFor": [
+    "financial AI products",
+    "investment research tools",
+    "terminal-style dashboards",
+    "portfolio analytics",
+    "enterprise intelligence products",
+    "technical editorial landing pages"
+  ],
+  "tags": [
+    "dark",
+    "finance",
+    "editorial",
+    "terminal",
+    "alpine",
+    "monochrome",
+    "blue-accent",
+    "libre-baskerville",
+    "inter",
+    "fira-code",
+    "dashboard",
+    "research"
+  ],
+  "colors": {
+    "carbonCanvas": {
+      "value": "#181818",
+      "token": "--color-carbon-canvas",
+      "role": "Primary page background and dominant dark surface."
+    },
+    "obsidian": {
+      "value": "#111111",
+      "token": "--color-obsidian",
+      "role": "Deepest surface layer for footers, contrast wells, and dark recesses."
+    },
+    "graphiteCard": {
+      "value": "#1f1f1f",
+      "token": "--color-graphite-card",
+      "role": "Card, input, terminal, and contained panel surface."
+    },
+    "slateElevated": {
+      "value": "#262626",
+      "token": "--color-slate-elevated",
+      "role": "Hover rows, secondary panels, dividers, and raised surfaces."
+    },
+    "ironPeak": {
+      "value": "#323232",
+      "token": "--color-iron-peak",
+      "role": "Top dark tier for popovers, active rows, and selected controls."
+    },
+    "bone": {
+      "value": "#eeeeee",
+      "token": "--color-bone",
+      "role": "Primary text, major labels, and bright hairline details."
+    },
+    "ash": {
+      "value": "#e4e4e4",
+      "token": "--color-ash",
+      "role": "Secondary borders and light-card outlines."
+    },
+    "fog": {
+      "value": "#a4a19b",
+      "token": "--color-fog",
+      "role": "Muted helper text, icon strokes, captions, and disabled labels."
+    },
+    "smoke": {
+      "value": "#5e5d59",
+      "token": "--color-smoke",
+      "role": "Low-emphasis text, subtle dividers, and quiet badge fills."
+    },
+    "pewter": {
+      "value": "#4b4b4b",
+      "token": "--color-pewter",
+      "role": "Deep borders and table separators."
+    },
+    "pureWhite": {
+      "value": "#ffffff",
+      "token": "--color-pure-white",
+      "role": "Maximum contrast details and light contrast panels."
+    },
+    "voltageBlue": {
+      "value": "#2b7fff",
+      "token": "--color-voltage-blue",
+      "role": "Only saturated accent for links, focus rings, active states, and terminal highlights."
+    },
+    "midNavy": {
+      "value": "#1a365d",
+      "token": "--color-mid-navy",
+      "role": "Subtle blue depth for icons, thin decorative marks, and restrained heading tints."
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "Libre Baskerville",
+      "body": "Inter",
+      "code": "Fira Code"
+    },
+    "fallbacks": {
+      "display": "Source Serif Pro, Lora, Crimson Text, serif",
+      "body": "system-ui, -apple-system, Segoe UI, sans-serif",
+      "code": "JetBrains Mono, IBM Plex Mono, monospace"
+    },
+    "rules": [
+      "Use Libre Baskerville only for display and section headlines.",
+      "Use Inter for all functional UI and body copy.",
+      "Use Fira Code only for code, terminal, command, and data-identifier contexts.",
+      "Keep serif headlines at 400 or 500 weight.",
+      "Use positive tracking on tiny uppercase labels."
+    ],
+    "scale": {
+      "caption": {
+        "size": "10px",
+        "lineHeight": 1.5,
+        "letterSpacing": "0.5px",
+        "token": "--text-caption"
+      },
+      "body": {
+        "size": "14px",
+        "lineHeight": 1.5,
+        "letterSpacing": "0",
+        "token": "--text-body"
+      },
+      "headingSm": {
+        "size": "18px",
+        "lineHeight": 1.43,
+        "letterSpacing": "-0.45px",
+        "token": "--text-heading-sm"
+      },
+      "heading": {
+        "size": "28px",
+        "lineHeight": 1.38,
+        "letterSpacing": "-0.7px",
+        "token": "--text-heading"
+      },
+      "headingLg": {
+        "size": "36px",
+        "lineHeight": 1.15,
+        "letterSpacing": "-0.9px",
+        "token": "--text-heading-lg"
+      },
+      "display": {
+        "size": "72px",
+        "lineHeight": 1.1,
+        "letterSpacing": "-1.8px",
+        "token": "--text-display"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "pageMaxWidth": "1200px",
+    "sectionGap": "80px",
+    "cardPadding": "12px",
+    "elementGap": "8px",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "48": "48px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "128": "128px",
+      "136": "136px",
+      "224": "224px"
+    }
+  },
+  "radii": {
+    "icons": "4px",
+    "badges": "4px",
+    "inputs": "4px",
+    "buttons": "4px",
+    "cards": "8px",
+    "largeSurfaces": "16px"
+  },
+  "shadows": {
+    "card": "rgba(51, 51, 51, 0.05) 0px 2px 15px 0px, rgba(51, 51, 51, 0.05) 0px 1px 2px -1px",
+    "button": "oklab(0 0 0 / 0.2) 0px 0px 0px 1px, rgba(51, 51, 51, 0.05) 0px 2px 15px 0px, rgba(51, 51, 51, 0.05) 0px 1px 2px -1px",
+    "modal": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 8px 24px 0px, rgba(0, 0, 0, 0.2) 0px 2px 8px 0px"
+  },
+  "components": [
+    {
+      "name": "Neutral Button",
+      "recipe": "Transparent or Graphite Card surface, 1px Slate border, 4px radius, Inter 14px/600, Bone text, compact padding."
+    },
+    {
+      "name": "Serif Section Header",
+      "recipe": "Libre Baskerville 36-72px, weight 400, tight tracking, Bone text on dark backgrounds with Fog Inter support copy."
+    },
+    {
+      "name": "Workflow Tile",
+      "recipe": "Light stone or Pure White surface, 8px radius, 12-24px padding, Ash border, centered outline icon, dark Inter label."
+    },
+    {
+      "name": "Terminal Window",
+      "recipe": "Graphite Card background, 8px radius, 1px Slate Elevated border, compact chrome, and Fira Code content."
+    },
+    {
+      "name": "Data Table Row",
+      "recipe": "Inter 13px, Bone text, Slate row separators, alternating transparent and Slate Elevated row backgrounds."
+    },
+    {
+      "name": "Small Badge",
+      "recipe": "4px radius, tiny Inter uppercase text with positive tracking, neutral fill; use Voltage Blue only for active state."
+    }
+  ],
+  "guidelines": {
+    "do": [
+      "Use the stepped dark gray surface stack as the foundation.",
+      "Use Libre Baskerville for page-level statements only.",
+      "Use Inter for body and functional UI.",
+      "Use Fira Code for terminal and data identifiers.",
+      "Reserve Voltage Blue for functional accents.",
+      "Use thin borders and restrained shadows.",
+      "Use mountain landscapes, ridge line art, and product terminal screenshots as imagery."
+    ],
+    "dont": [
+      "Do not introduce extra accent colors.",
+      "Do not use bold serif headlines.",
+      "Do not use serif text for body or UI controls.",
+      "Do not use gradient meshes, glowing orbs, or glass effects.",
+      "Do not make all content sections black.",
+      "Do not use heavy shadows.",
+      "Do not turn badges and buttons into large pills."
+    ]
+  },
+  "imagery": {
+    "style": "Muted alpine landscape photography, thin mountain ridge line art, and terminal/product screenshots.",
+    "rules": [
+      "Use mountain or summit imagery in blue-gray tones.",
+      "Use thin 1px line art as a restrained graphic motif.",
+      "Avoid lifestyle stock photography.",
+      "Avoid abstract gradient art and 3D decorative objects."
+    ]
+  },
+  "layout": {
+    "structure": "Centered 1200px max-width dark page with simple top nav, editorial hero, dark product sections, and one light workflow grid interruption.",
+    "navigation": "Simple 64px top bar with wordmark, centered links, and right-side login or action.",
+    "sectionRhythm": "Use 80px vertical rhythm between sections."
+  }
+}

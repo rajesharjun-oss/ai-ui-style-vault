@@ -1,0 +1,115 @@
+{
+  "name": "T1 Energy",
+  "slug": "t1-energy",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/e79b761d-f476-4c5d-8943-e31a58664e4d",
+    "style_id": "e79b761d-f476-4c5d-8943-e31a58664e4d",
+    "reference_site": "https://t1energy.com",
+    "captured_at": "2026-07-28"
+  },
+  "theme": "light",
+  "mood": "factory floor blueprint on warm vellum",
+  "summary": "A monochrome industrial system with warm Vellum canvas, Carbon Warm typography and controls, T1 Sans weight 300 display, 80px image cards, 100px pill buttons, square section labels, and shadowless tonal layering.",
+  "use_cases": [
+    "Energy infrastructure",
+    "Industrial manufacturing",
+    "Solar products",
+    "Factory automation",
+    "Robotics",
+    "Climate tech",
+    "Technical specification pages"
+  ],
+  "colors": {
+    "vellum": "#f0efe9",
+    "paper_white": "#ffffff",
+    "carbon_warm": "#322d2a",
+    "onyx_depth": "#0f0e12",
+    "mercury": "#8b8b8b",
+    "pure_black": "#000000"
+  },
+  "typography": {
+    "primary_font": "T1 Sans",
+    "fallback": "Inter, Sohne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
+    "weights": [300, 400],
+    "letter_spacing": "0.01em",
+    "scale": {
+      "label": {
+        "size": "12px",
+        "line_height": "1.3",
+        "letter_spacing": "0.12px",
+        "weight": 400
+      },
+      "body_sm": {
+        "size": "14px",
+        "line_height": "1.3",
+        "letter_spacing": "0.14px",
+        "weight": 400
+      },
+      "body": {
+        "size": "16px",
+        "line_height": "1.4",
+        "letter_spacing": "0.16px",
+        "weight": 400
+      },
+      "subheading": {
+        "size": "22px",
+        "line_height": "1.3",
+        "letter_spacing": "0.22px",
+        "weight": 400
+      },
+      "heading": {
+        "size": "32px",
+        "line_height": "1.2",
+        "letter_spacing": "0.32px",
+        "weight": 300
+      },
+      "display": {
+        "size": "52px",
+        "line_height": "1",
+        "letter_spacing": "0.52px",
+        "weight": 300
+      }
+    }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "density": "comfortable",
+    "page_max_width": "1200px",
+    "section_gap": "48px",
+    "card_padding": "22px",
+    "element_gap": "8px"
+  },
+  "radius": {
+    "small": "8px",
+    "body": "12px",
+    "nav": "16px",
+    "buttons": "16px for nav-like controls, 100px for action pills",
+    "cards": "80px",
+    "pills": "100px"
+  },
+  "components": [
+    "Pill Navigation Bar",
+    "Logo Mark",
+    "Filled Primary Button",
+    "Ghost Outlined Button",
+    "Section Label",
+    "Display Headline",
+    "Case Study Card",
+    "Image Card",
+    "Accordion Item",
+    "Hero Overlay",
+    "Footer"
+  ],
+  "rules": [
+    "Use T1 Sans weight 300 at 52px for display headlines.",
+    "Use Carbon Warm for text, borders, and filled controls.",
+    "Never use Pure Black for text or backgrounds.",
+    "Use 80px radius on image containers.",
+    "Use 100px radius on interactive pills.",
+    "Prefix section labels with a 4px square.",
+    "Use no accent colors.",
+    "Use no shadows.",
+    "Keep imagery full-bleed and unframed."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Air",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/d3289fe7-a85e-42d8-96b7-eb7faa62a104",
+  "capturedOn": "2026-07-28",
+  "theme": "dark",
+  "color": {
+    "whiteout": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "haze": {
+      "value": "#f5f5f5",
+      "type": "color"
+    },
+    "ink": {
+      "value": "#1b1b1b",
+      "type": "color"
+    },
+    "blackVoid": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "twilightBlue": {
+      "value": "#426188",
+      "type": "color"
+    },
+    "signalBlue": {
+      "value": "#2b7fff",
+      "type": "color"
+    }
+  },
+  "font": {
+    "control": {
+      "value": "Control",
+      "type": "fontFamily"
+    },
+    "controlCompressed": {
+      "value": "Control Compressed",
+      "type": "fontFamily"
+    },
+    "controlCursive": {
+      "value": "Control Cursive",
+      "type": "fontFamily"
+    },
+    "controlTnt": {
+      "value": "Control TNT",
+      "type": "fontFamily"
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "value": 400,
+      "type": "fontWeight"
+    },
+    "medium": {
+      "value": 500,
+      "type": "fontWeight"
+    },
+    "displayBlack": {
+      "value": 900,
+      "type": "fontWeight"
+    }
+  },
+  "fontSize": {
+    "caption": {
+      "value": "13px",
+      "type": "dimension"
+    },
+    "body": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "subheading": {
+      "value": "20px",
+      "type": "dimension"
+    },
+    "heading": {
+      "value": "32px",
+      "type": "dimension"
+    },
+    "headingLarge": {
+      "value": "56px",
+      "type": "dimension"
+    },
+    "display": {
+      "value": "259px",
+      "type": "dimension"
+    }
+  },
+  "lineHeight": {
+    "caption": {
+      "value": "1.5",
+      "type": "number"
+    },
+    "body": {
+      "value": "1.5",
+      "type": "number"
+    },
+    "subheading": {
+      "value": "1.4",
+      "type": "number"
+    },
+    "heading": {
+      "value": "1.1",
+      "type": "number"
+    },
+    "headingLarge": {
+      "value": "1",
+      "type": "number"
+    },
+    "display": {
+      "value": "0.85",
+      "type": "number"
+    }
+  },
+  "radius": {
+    "cards": {
+      "value": "12px",
+      "type": "dimension"
+    },
+    "pills": {
+      "value": "9999px",
+      "type": "dimension"
+    },
+    "images": {
+      "value": "11px",
+      "type": "dimension"
+    },
+    "inputs": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "buttons": {
+      "value": "8px",
+      "type": "dimension"
+    }
+  },
+  "space": {
+    "base": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "elementGap": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "cardPadding": {
+      "value": "20px",
+      "type": "dimension"
+    },
+    "sectionGap": {
+      "value": "48px",
+      "type": "dimension"
+    },
+    "maxWidth": {
+      "value": "1150px",
+      "type": "dimension"
+    }
+  },
+  "shadow": {
+    "card": {
+      "value": "none",
+      "type": "shadow"
+    },
+    "button": {
+      "value": "none",
+      "type": "shadow"
+    }
+  }
+}
+

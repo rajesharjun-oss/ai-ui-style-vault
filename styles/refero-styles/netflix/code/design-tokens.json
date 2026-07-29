@@ -1,0 +1,104 @@
+{
+  "name": "Netflix",
+  "slug": "netflix",
+  "source": "https://styles.refero.design/style/32959012-f50d-4465-bb01-2aa4d506e0a8",
+  "tokens": {
+    "color": {
+      "netflixRed": { "value": "#e50914", "type": "color" },
+      "featureCardBase": { "value": "#1d153f", "type": "color" },
+      "deepSpace": { "value": "#000000", "type": "color" },
+      "graphite": { "value": "#2d2d2d", "type": "color" },
+      "charcoal": { "value": "#414141", "type": "color" },
+      "slate": { "value": "#5a5a5a", "type": "color" },
+      "ash": { "value": "#808080", "type": "color" },
+      "silver": { "value": "#b3b3b3", "type": "color" },
+      "chalkWhite": { "value": "#ffffff", "type": "color" }
+    },
+    "gradient": {
+      "featureCard": { "value": "linear-gradient(149deg, #192247, #210e17)", "type": "gradient" }
+    },
+    "fontFamily": {
+      "sans": { "value": "Netflix Sans, Roboto, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif", "type": "fontFamily" }
+    },
+    "fontSize": {
+      "caption": { "value": "13px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "subheading": { "value": "20px", "type": "dimension" },
+      "headingSmall": { "value": "24px", "type": "dimension" },
+      "heading": { "value": "56px", "type": "dimension" },
+      "display": { "value": "100px", "type": "dimension" }
+    },
+    "lineHeight": {
+      "caption": { "value": "1.5", "type": "number" },
+      "body": { "value": "1.5", "type": "number" },
+      "subheading": { "value": "1.25", "type": "number" },
+      "headingSmall": { "value": "1.2", "type": "number" },
+      "heading": { "value": "1.17", "type": "number" },
+      "display": { "value": "1", "type": "number" }
+    },
+    "fontWeight": {
+      "regular": { "value": 400, "type": "fontWeight" },
+      "medium": { "value": 500, "type": "fontWeight" },
+      "bold": { "value": 700, "type": "fontWeight" },
+      "black": { "value": 900, "type": "fontWeight" }
+    },
+    "space": {
+      "base": { "value": "4px", "type": "dimension" },
+      "xs": { "value": "8px", "type": "dimension" },
+      "sm": { "value": "12px", "type": "dimension" },
+      "md": { "value": "16px", "type": "dimension" },
+      "lg": { "value": "24px", "type": "dimension" },
+      "xl": { "value": "32px", "type": "dimension" },
+      "sectionGap": { "value": "48px", "type": "dimension" },
+      "pageMaxWidth": { "value": "1280px", "type": "dimension" },
+      "rankNumber": { "value": "100px", "type": "dimension" }
+    },
+    "radius": {
+      "sm": { "value": "2px", "type": "dimension" },
+      "control": { "value": "4px", "type": "dimension" },
+      "banner": { "value": "8px", "type": "dimension" },
+      "card": { "value": "16px", "type": "dimension" }
+    },
+    "border": {
+      "input": { "value": "1px solid #5a5a5a", "type": "border" },
+      "utility": { "value": "1px solid #808080", "type": "border" }
+    },
+    "shadow": {
+      "none": { "value": "none", "type": "shadow" }
+    }
+  },
+  "componentRecipes": {
+    "heroCta": {
+      "background": "{color.netflixRed}",
+      "color": "{color.chalkWhite}",
+      "radius": "{radius.control}",
+      "padding": "16px 24px",
+      "fontFamily": "{fontFamily.sans}",
+      "fontSize": "{fontSize.headingSmall}",
+      "fontWeight": "{fontWeight.bold}",
+      "shadow": "{shadow.none}"
+    },
+    "emailInput": {
+      "background": "rgba(22, 22, 22, 0.7)",
+      "border": "{border.input}",
+      "color": "{color.chalkWhite}",
+      "placeholderColor": "{color.ash}",
+      "radius": "{radius.control}",
+      "padding": "20px 16px"
+    },
+    "featureCard": {
+      "background": "{gradient.featureCard}",
+      "color": "{color.chalkWhite}",
+      "radius": "{radius.card}",
+      "padding": "{space.lg}",
+      "shadow": "{shadow.none}"
+    },
+    "footerLink": {
+      "color": "{color.silver}",
+      "fontFamily": "{fontFamily.sans}",
+      "fontSize": "14px",
+      "fontWeight": "{fontWeight.regular}"
+    }
+  }
+}
+

@@ -1,0 +1,77 @@
+@theme {
+  --color-iris-bolt: #4255ff;
+  --color-ink-charcoal: #282e3e;
+  --color-deep-indigo: #2e3856;
+  --color-slate-veil: #586380;
+  --color-fog-mist: #939bb4;
+  --color-pure-black: #000000;
+  --color-chalk-canvas: #f6f7fb;
+  --color-paper-white: #ffffff;
+  --color-lilac-wash: #edefff;
+  --color-mist-border: #d9dde8;
+  --color-feature-pastel: #dbdfff;
+
+  --font-hurme: "hurme_no2-webfont", "Hurme Geometric Sans", Inter, Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-subheading: 20px;
+  --text-heading-sm: 24px;
+  --text-heading: 32px;
+  --text-display: 44px;
+
+  --radius-pill: 200px;
+  --radius-card: 8px;
+  --radius-feature: 24px;
+  --radius-utility: 4px;
+
+  --spacing-element: 8px;
+  --spacing-study-card: 16px;
+  --spacing-card: 24px;
+  --spacing-section: 80px;
+  --spacing-page-max: 1200px;
+}
+
+@utility quizlet-page {
+  background: var(--color-chalk-canvas);
+  color: var(--color-ink-charcoal);
+  font-family: var(--font-hurme);
+}
+
+@utility quizlet-card {
+  background: var(--color-paper-white);
+  border: 1px solid var(--color-mist-border);
+  border-radius: var(--radius-card);
+  padding: var(--spacing-study-card);
+}
+
+@utility quizlet-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-iris-bolt);
+  color: var(--color-paper-white);
+  padding: 10px 24px;
+  font-family: var(--font-hurme);
+  font-size: var(--text-body);
+  font-weight: 600;
+  box-shadow: rgba(40, 46, 62, 0.1) 0px 2px 4px 0px;
+}
+
+@utility quizlet-search {
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-chalk-canvas);
+  color: var(--color-ink-charcoal);
+  padding: 8px 16px;
+  font-family: var(--font-hurme);
+}
+
+@utility quizlet-feature-card {
+  border-radius: var(--radius-feature);
+  background: var(--color-feature-pastel);
+  padding: var(--spacing-card);
+}

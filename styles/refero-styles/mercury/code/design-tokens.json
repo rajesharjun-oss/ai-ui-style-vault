@@ -1,0 +1,293 @@
+{
+  "name": "Mercury",
+  "slug": "mercury",
+  "source": {
+    "provider": "Refero Styles",
+    "url": "https://styles.refero.design/style/3172cd4d-118a-4a16-a259-6b634d32322e",
+    "productUrl": "https://mercury.com"
+  },
+  "theme": {
+    "mode": "dark",
+    "summary": "Alpine fintech nightscape with calm banking precision and one cobalt action color.",
+    "principles": [
+      "Keep the canvas dark and stable.",
+      "Use one blue for action and emphasis.",
+      "Use grayscale surface depth instead of decorative color.",
+      "Let mountain photography carry the hero mood.",
+      "Keep financial UI calm, compact, and legible."
+    ]
+  },
+  "colors": {
+    "brand": {
+      "mercuryCobalt": {
+        "value": "#546de5",
+        "token": "--color-mercury-cobalt",
+        "role": "Primary CTA, active state, key product highlight"
+      }
+    },
+    "darkNeutral": {
+      "onyx": {
+        "value": "#0f0f0f",
+        "token": "--color-onyx",
+        "role": "Page canvas and deepest background"
+      },
+      "graphite": {
+        "value": "#1c1c1c",
+        "token": "--color-graphite",
+        "role": "Cards, nav, elevated panels"
+      },
+      "charcoal": {
+        "value": "#242424",
+        "token": "--color-charcoal",
+        "role": "Secondary panels and hover surfaces"
+      },
+      "deepSteel": {
+        "value": "#2a2a2a",
+        "token": "--color-deep-steel",
+        "role": "Dashboard panels and separators"
+      },
+      "borderSteel": {
+        "value": "#3a3a3a",
+        "token": "--color-border-steel",
+        "role": "Hairline borders and card outlines"
+      },
+      "slate": {
+        "value": "#5f5f5f",
+        "token": "--color-slate",
+        "role": "Muted icons, secondary strokes"
+      }
+    },
+    "textAndLight": {
+      "linen": {
+        "value": "#f7f4ef",
+        "token": "--color-linen",
+        "role": "Warm primary headline text on dark"
+      },
+      "white": {
+        "value": "#ffffff",
+        "token": "--color-white",
+        "role": "High-contrast text, CTA text"
+      },
+      "silver": {
+        "value": "#c7c7c7",
+        "token": "--color-silver",
+        "role": "Body copy on dark"
+      },
+      "ash": {
+        "value": "#a3a3a3",
+        "token": "--color-ash",
+        "role": "Secondary copy and metadata"
+      },
+      "smoke": {
+        "value": "#8a8a8a",
+        "token": "--color-smoke",
+        "role": "Muted nav, captions, disabled labels"
+      }
+    },
+    "state": {
+      "successGreen": {
+        "value": "#60a56c",
+        "token": "--color-success-green",
+        "role": "Positive financial state, completed status"
+      },
+      "warningGold": {
+        "value": "#d6a64f",
+        "token": "--color-warning-gold",
+        "role": "Risk, pending, or caution state"
+      }
+    }
+  },
+  "surfaces": {
+    "page": "#0f0f0f",
+    "card": "#1c1c1c",
+    "panel": "#242424",
+    "dashboard": "#2a2a2a"
+  },
+  "typography": {
+    "fontFamilies": {
+      "display": {
+        "name": "Arcadia",
+        "fallbacks": ["Tiempos", "Georgia", "serif"],
+        "role": "Display headings, hero copy, premium editorial moments"
+      },
+      "sans": {
+        "name": "Sans",
+        "fallbacks": ["Inter", "system-ui", "sans-serif"],
+        "role": "Body, nav, buttons, labels, dashboard data, tables"
+      }
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "12px",
+        "lineHeight": 1.33,
+        "fontWeight": 500
+      },
+      "bodySm": {
+        "fontSize": "14px",
+        "lineHeight": 1.43,
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": 1.5,
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "18px",
+        "lineHeight": 1.56,
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "21px",
+        "lineHeight": 1.33,
+        "fontWeight": 500
+      },
+      "headingSm": {
+        "fontSize": "32px",
+        "lineHeight": 1.16,
+        "fontWeight": 500
+      },
+      "heading": {
+        "fontSize": "48px",
+        "lineHeight": 1.08,
+        "fontWeight": 500
+      },
+      "display": {
+        "fontSize": "64px",
+        "lineHeight": 1,
+        "fontWeight": 500
+      }
+    },
+    "letterSpacing": "normal or subtly tight"
+  },
+  "spacing": {
+    "density": "comfortable",
+    "maxWidth": "1200px to 1280px",
+    "sectionGap": "96px",
+    "cardPadding": "24px",
+    "elementGap": "12px",
+    "scale": ["4px", "8px", "10px", "12px", "16px", "20px", "24px", "32px", "48px", "64px", "80px", "96px"]
+  },
+  "shape": {
+    "radii": {
+      "buttons": "6px",
+      "cards": "12px",
+      "inputs": "10px",
+      "badges": "999px"
+    },
+    "border": {
+      "default": "1px solid #3a3a3a"
+    },
+    "elevation": {
+      "cards": "none",
+      "product": "0 16px 48px rgba(0,0,0,0.18)"
+    }
+  },
+  "components": {
+    "primaryCobaltCTA": {
+      "background": "#546de5",
+      "color": "#ffffff",
+      "radius": "6px",
+      "padding": "12px 18px",
+      "font": "14px sans 500",
+      "usage": "main conversion action only"
+    },
+    "secondaryDarkButton": {
+      "background": "#1c1c1c",
+      "color": "#f7f4ef",
+      "border": "1px solid #3a3a3a",
+      "radius": "6px",
+      "padding": "12px 18px"
+    },
+    "navigationBar": {
+      "background": "transparent or rgba(15,15,15,0.82)",
+      "text": "14px sans, muted gray",
+      "activeOrCTA": "cobalt or linen",
+      "border": "optional 1px solid #3a3a3a",
+      "backdrop": "subtle blur only if over photography"
+    },
+    "graphiteCard": {
+      "background": "#1c1c1c",
+      "border": "1px solid #3a3a3a",
+      "radius": "12px",
+      "padding": "24px",
+      "shadow": "none"
+    },
+    "financeMetricTile": {
+      "background": "#1c1c1c",
+      "border": "1px solid #3a3a3a",
+      "radius": "12px",
+      "label": "12px muted sans",
+      "value": "32px Arcadia or sans, linen",
+      "delta": "green positive, gold warning, cobalt selected"
+    },
+    "dashboardPreview": {
+      "background": "#0f0f0f or #1c1c1c",
+      "border": "1px solid #3a3a3a",
+      "radius": "12px",
+      "content": "accounts, balances, transfer rows, treasury metrics",
+      "accent": "cobalt active row or chart line"
+    },
+    "transactionRow": {
+      "height": "52px to 60px",
+      "borderBottom": "1px solid #2a2a2a",
+      "merchant": "14px to 16px sans",
+      "metadata": "muted gray",
+      "amount": "right-aligned, high contrast"
+    },
+    "statusBadge": {
+      "background": "#242424",
+      "color": "#c7c7c7",
+      "border": "1px solid #3a3a3a",
+      "radius": "999px",
+      "padding": "4px 10px",
+      "font": "12px sans 500"
+    },
+    "photographicHero": {
+      "canvas": "#0f0f0f",
+      "image": "full-width mountain or terrain photography",
+      "overlay": "dark gradient only for readability",
+      "text": "linen Arcadia display",
+      "cta": "cobalt button and secondary dark button"
+    }
+  },
+  "layout": {
+    "patterns": [
+      "Dark hero with mountain or terrain photography, Arcadia display heading, subhead, and CTA row",
+      "Graphite dashboard preview beneath or beside hero copy",
+      "Finance metric cards arranged in calm grids",
+      "Treasury or banking feature cards with one cobalt highlight",
+      "Transaction rows and account panels in compact product UI",
+      "Legal, compliance, and footer sections in muted dark surfaces"
+    ],
+    "imagery": "Atmospheric mountain, terrain, sky, and horizon photography"
+  },
+  "motion": {
+    "duration": "180ms to 240ms",
+    "easing": "ease",
+    "usage": "Subtle UI transitions and slow calm product transitions"
+  },
+  "do": [
+    "Use onyx and graphite as the main surfaces.",
+    "Reserve cobalt for primary action and active states.",
+    "Use Arcadia for major headings.",
+    "Use sans for all operational UI and financial data.",
+    "Use landscape or terrain imagery for atmospheric depth.",
+    "Keep finance cards calm and legible.",
+    "Use 12px cards and 6px buttons.",
+    "Use subtle hairline borders for structure."
+  ],
+  "dont": [
+    "Do not add neon gradients or multiple accent colors.",
+    "Do not use playful illustration.",
+    "Do not make finance dashboards overly colorful.",
+    "Do not use heavy shadows on normal cards.",
+    "Do not use large pill CTAs everywhere.",
+    "Do not use pure white page sections in the dark flow.",
+    "Do not let photography make text unreadable."
+  ]
+}

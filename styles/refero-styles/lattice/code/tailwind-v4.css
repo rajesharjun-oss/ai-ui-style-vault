@@ -1,0 +1,79 @@
+@theme {
+  --font-lattice: "Inter Tight", "Inter", system-ui, sans-serif;
+
+  --color-lattice-charcoal: #282a2a;
+  --color-lattice-warm-paper: #f4f3ef;
+  --color-lattice-paper: #ffffff;
+  --color-lattice-mist-blue: #c6d7db;
+  --color-lattice-muted-green: #749f99;
+  --color-lattice-slate-teal: #477d78;
+  --color-lattice-amber-glow: #e7ae3c;
+  --color-lattice-soft-coral: #e78876;
+  --color-lattice-lavender-haze: #a78fb2;
+  --color-lattice-pale-sky: #d7e7ea;
+  --color-lattice-line-mist: #d7d7d2;
+  --color-lattice-body-gray: #5c6060;
+
+  --radius-lattice-card: 16px;
+  --radius-lattice-panel: 24px;
+  --radius-lattice-input: 12px;
+  --radius-lattice-button: 9999px;
+  --radius-lattice-control: 12px;
+  --radius-lattice-pill: 9999px;
+
+  --spacing-lattice-1: 4px;
+  --spacing-lattice-2: 8px;
+  --spacing-lattice-3: 12px;
+  --spacing-lattice-4: 16px;
+  --spacing-lattice-5: 20px;
+  --spacing-lattice-6: 24px;
+  --spacing-lattice-7: 28px;
+  --spacing-lattice-8: 32px;
+  --spacing-lattice-12: 48px;
+  --spacing-lattice-18: 72px;
+  --spacing-lattice-24: 96px;
+  --spacing-lattice-max: 1180px;
+
+  --text-lattice-micro: 12px;
+  --text-lattice-micro--line-height: 1.3;
+  --text-lattice-ui: 14px;
+  --text-lattice-ui--line-height: 1.4;
+  --text-lattice-body: 16px;
+  --text-lattice-body--line-height: 1.6;
+  --text-lattice-card-title: 18px;
+  --text-lattice-card-title--line-height: 1.3;
+  --text-lattice-section: 28px;
+  --text-lattice-section--line-height: 1.2;
+  --text-lattice-hero: 56px;
+  --text-lattice-hero--line-height: 1.05;
+}
+
+@utility lattice-page {
+  background: var(--color-lattice-warm-paper);
+  color: var(--color-lattice-charcoal);
+  font-family: var(--font-lattice);
+}
+
+@utility lattice-hero-title {
+  color: var(--color-lattice-charcoal);
+  font-size: clamp(38px, 7vw, var(--text-lattice-hero));
+  line-height: var(--text-lattice-hero--line-height);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+@utility lattice-panel {
+  border-radius: var(--radius-lattice-panel);
+  background: var(--color-lattice-mist-blue);
+  padding: clamp(32px, 5vw, 48px);
+}
+
+@utility lattice-cta {
+  border-radius: var(--radius-lattice-button);
+  border: 1px solid var(--color-lattice-amber-glow);
+  background: var(--color-lattice-amber-glow);
+  color: var(--color-lattice-charcoal);
+  padding: 10px 20px;
+  font-size: var(--text-lattice-ui);
+  font-weight: 600;
+}

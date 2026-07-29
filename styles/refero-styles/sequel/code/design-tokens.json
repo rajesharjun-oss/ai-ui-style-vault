@@ -1,0 +1,150 @@
+{
+  "name": "Sequel",
+  "theme": "dark",
+  "colors": {
+    "lampCream": {
+      "value": "#f5f5f0",
+      "role": "Primary filled action and only warm accent"
+    },
+    "voidBlack": {
+      "value": "#000000",
+      "role": "Page canvas, nav background, deepest icon fill"
+    },
+    "charcoal": {
+      "value": "#202020",
+      "role": "Elevated card and panel surface"
+    },
+    "graphite": {
+      "value": "#333333",
+      "role": "Hairline borders, badge outlines, and subtle dividers"
+    },
+    "smoke": {
+      "value": "#999999",
+      "role": "Muted text, captions, and secondary labels"
+    },
+    "pureWhite": {
+      "value": "#ffffff",
+      "role": "Primary text, ghost button border, and icon strokes"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": {
+        "value": "\"VisueltPro\", \"Inter\", \"Satoshi\", \"General Sans\", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif"
+      },
+      "accentSerif": {
+        "value": "\"Bradford\", \"Canela\", \"Tiempos Headline\", \"GT Super\", Georgia, serif"
+      }
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500
+    },
+    "fontFeatureSettings": {
+      "value": "\"ss01\" 1, \"cv11\" 1"
+    },
+    "letterSpacing": {
+      "label": "0.55px",
+      "smallCaps": "0.05em",
+      "caption": "0.08em",
+      "subheading": "-0.75px",
+      "headingLg": "-2.85px",
+      "display": "-3.2px"
+    },
+    "scale": {
+      "labelSm": {
+        "fontSize": "11px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0.55px",
+        "fontWeight": 500
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "bodyLg": {
+        "fontSize": "20px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0",
+        "fontWeight": 400
+      },
+      "subheading": {
+        "fontSize": "30px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.75px",
+        "fontWeight": 500
+      },
+      "heading": {
+        "fontSize": "54px",
+        "lineHeight": "1.2",
+        "letterSpacing": "0",
+        "fontWeight": 300
+      },
+      "headingLg": {
+        "fontSize": "57px",
+        "lineHeight": "1",
+        "letterSpacing": "-2.85px",
+        "fontWeight": 500
+      },
+      "display": {
+        "fontSize": "128px",
+        "lineHeight": "1",
+        "letterSpacing": "-3.2px",
+        "fontWeight": 500
+      }
+    }
+  },
+  "spacing": {
+    "unit": "4px",
+    "density": "comfortable",
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "28": "28px",
+      "32": "32px",
+      "40": "40px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "120": "120px"
+    },
+    "layout": {
+      "pageMaxWidth": "1200px",
+      "sectionGap": "96px to 120px",
+      "cardPadding": "0px",
+      "elementGap": "16px"
+    }
+  },
+  "radius": {
+    "cards": "10px",
+    "media": "10px",
+    "buttons": "9999px",
+    "badges": "9999px",
+    "chips": "9999px",
+    "inputs": "0px",
+    "playButton": "50%"
+  },
+  "borders": {
+    "graphite": "1px solid #333333",
+    "white": "1px solid #ffffff"
+  },
+  "shadow": {
+    "button": "rgba(0, 0, 0, 0.15) 0px 4px 20px 0px",
+    "glassBadge": "rgba(0, 0, 0, 0.35) 0px 10px 30px 0px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",
+    "content": "No shadows on cards, images, panels, or sections"
+  },
+  "surfaces": {
+    "canvas": "#000000",
+    "card": "#202020",
+    "border": "#333333",
+    "text": "#ffffff",
+    "mutedText": "#999999"
+  }
+}

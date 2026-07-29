@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pale-sage: #eef2e3;
+  --color-paper-white: #fcfcfc;
+  --color-ink-black: #000000;
+  --color-charcoal: #242423;
+  --color-deep-forest: #043f2e;
+  --color-chartreuse-lime: #c8f169;
+  --color-forest-mid: #2a6f2b;
+  --color-vivid-green: #78c51c;
+
+  --font-grenette: "Grenette", "Fraunces", "Source Serif 4", "Tiempos Headline", serif;
+  --font-graphik: "Graphik", "Inter", "Sohne", "Untitled Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --text-caption: 12px;
+  --text-body-sm: 14px;
+  --text-body: 16px;
+  --text-subheading: 18px;
+  --text-heading-sm: 22px;
+  --text-heading: 36px;
+  --text-heading-lg: 56px;
+  --text-display: 96px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-56: 56px;
+  --spacing-88: 88px;
+  --spacing-100: 100px;
+  --spacing-120: 120px;
+  --spacing-128: 128px;
+  --spacing-200: 200px;
+  --spacing-page: 1200px;
+
+  --radius-small: 4px;
+  --radius-large: 16px;
+  --radius-pill: 9999px;
+}
+
+@layer base {
+  .mode {
+    background: var(--color-pale-sage);
+    color: var(--color-deep-forest);
+    font-family: var(--font-graphik);
+  }
+}
+
+@layer components {
+  .mode-display {
+    @apply font-grenette text-heading-lg font-normal leading-[1.1] tracking-[-1.68px] text-deep-forest md:text-display md:leading-[0.9] md:tracking-[-2.98px];
+  }
+
+  .mode-heading {
+    @apply font-grenette text-heading font-normal leading-[1.1] tracking-[-0.72px] text-deep-forest;
+  }
+
+  .mode-eyebrow {
+    @apply font-graphik text-caption font-medium uppercase tracking-[0.06em] text-deep-forest;
+  }
+
+  .mode-primary {
+    @apply inline-flex items-center justify-center rounded-small border-0 bg-chartreuse-lime px-20 py-12 font-graphik text-body font-medium leading-none text-ink-black;
+  }
+
+  .mode-secondary {
+    @apply inline-flex items-center justify-center rounded-small border border-ink-black bg-transparent px-20 py-12 font-graphik text-body font-medium leading-none text-ink-black;
+  }
+
+  .mode-card {
+    @apply rounded-large bg-paper-white p-24 text-deep-forest shadow-none;
+  }
+
+  .mode-sage-card {
+    @apply rounded-large bg-pale-sage p-24 text-deep-forest shadow-none;
+  }
+
+  .mode-forest-card {
+    @apply rounded-large bg-deep-forest p-24 text-paper-white shadow-none;
+  }
+}

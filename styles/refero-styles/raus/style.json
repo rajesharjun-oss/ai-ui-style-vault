@@ -1,0 +1,154 @@
+{
+  "id": "d28732de-1b7a-4d37-b7aa-edfa7caf428b",
+  "name": "Raus",
+  "slug": "raus",
+  "theme": "light",
+  "sourceUrl": "https://styles.refero.design/style/d28732de-1b7a-4d37-b7aa-edfa7caf428b",
+  "referenceSite": "https://www.raus.life",
+  "capturedAt": "2026-07-28",
+  "industry": "travel / hospitality",
+  "mood": "trail-map cabin ledger",
+  "summary": "A warm cabin booking system with paper surfaces, rounded cards, topographic map panels, forest-green markers, ochre booking actions, quiet Inter typography, and product-real outdoor imagery.",
+  "useWhen": [
+    "Cabin booking sites",
+    "Outdoor travel platforms",
+    "Retreat marketplaces",
+    "Map-led search products",
+    "Nature hospitality pages",
+    "Stay planning interfaces"
+  ],
+  "avoidWhen": [
+    "Urban hotel marketplaces",
+    "Dense admin dashboards",
+    "Neon travel campaigns",
+    "Dark cinematic pages",
+    "Interfaces that need high-chrome SaaS styling"
+  ],
+  "colors": {
+    "charcoalInk": {
+      "value": "#25231f",
+      "role": "Primary text, headings, dark UI, map labels"
+    },
+    "warmPaper": {
+      "value": "#f7f4ed",
+      "role": "Page canvas and main warm background"
+    },
+    "pureWhite": {
+      "value": "#ffffff",
+      "role": "Elevated cards, nav surfaces, modal surfaces"
+    },
+    "parchmentBorder": {
+      "value": "#e8e0d2",
+      "role": "Hairline borders, input outlines, separators"
+    },
+    "stoneGray": {
+      "value": "#8f887d",
+      "role": "Secondary text, metadata, helper copy"
+    },
+    "campfireOchre": {
+      "value": "#c98a3f",
+      "role": "Primary booking CTA and warm action highlights"
+    },
+    "forestGreen": {
+      "value": "#1f4f3a",
+      "role": "Map markers, nature icons, selected location accents"
+    },
+    "sand": {
+      "value": "#d8c6a3",
+      "role": "Map panels, contour-line backgrounds, muted outdoor washes"
+    },
+    "linenWash": {
+      "value": "#f1ece3",
+      "role": "Muted section bands, input fills, nested panels"
+    },
+    "taupe": {
+      "value": "#b7a98d",
+      "role": "Disabled states, tertiary labels, inactive map detail"
+    }
+  },
+  "typography": {
+    "family": "\"Inter\", system-ui, sans-serif",
+    "monoFamily": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+    "roles": {
+      "micro": {
+        "fontSize": "12px",
+        "lineHeight": "1.33",
+        "fontWeight": 500,
+        "letterSpacing": "0"
+      },
+      "smallUi": {
+        "fontSize": "14px",
+        "lineHeight": "1.43",
+        "fontWeight": 500,
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "16px",
+        "lineHeight": "1.6",
+        "fontWeight": 400,
+        "letterSpacing": "0"
+      },
+      "lead": {
+        "fontSize": "18px",
+        "lineHeight": "1.55",
+        "fontWeight": 400,
+        "letterSpacing": "0"
+      },
+      "cardTitle": {
+        "fontSize": "24px",
+        "lineHeight": "1.25",
+        "fontWeight": 600,
+        "letterSpacing": "-0.01em"
+      },
+      "section": {
+        "fontSize": "40px",
+        "lineHeight": "1.1",
+        "fontWeight": 600,
+        "letterSpacing": "-0.03em"
+      },
+      "hero": {
+        "fontSize": "64px",
+        "lineHeight": "0.95",
+        "fontWeight": 600,
+        "letterSpacing": "-0.05em"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "96px",
+    "cardPadding": "24px to 32px",
+    "elementGap": "16px",
+    "mapMarkerSize": "40px",
+    "bookingPanelWidth": "360px"
+  },
+  "shape": {
+    "card": "20px",
+    "bookingCard": "24px",
+    "button": "9999px",
+    "input": "12px",
+    "mapMarker": "9999px"
+  },
+  "elevation": {
+    "strategy": "Subtle geographic depth with warm, low-contrast shadows",
+    "cardShadow": "0 20px 50px -24px rgba(37,35,31,0.08)",
+    "markerShadow": "0 8px 20px -8px rgba(37,35,31,0.25)"
+  },
+  "components": [
+    "Header Navigation",
+    "Primary CTA Pill",
+    "Outline Pill Filter",
+    "Location Card",
+    "Booking Panel",
+    "Map Marker Button",
+    "Topographic Map Panel",
+    "Date Input",
+    "Editorial Card"
+  ],
+  "imagery": {
+    "style": "Cabin photography, nature scenes, topographic lines, map pins, route/location diagrams",
+    "avoid": "Generic hotel stock photos, default map tiles, loud travel gradients, glossy SaaS cards"
+  }
+}

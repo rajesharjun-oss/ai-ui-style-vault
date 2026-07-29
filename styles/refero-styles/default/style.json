@@ -1,0 +1,95 @@
+{
+  "id": "eeeb6ac9-fc07-4965-935a-e1989ed831f1",
+  "name": "Default",
+  "slug": "default",
+  "theme": "dark",
+  "sourceUrl": "https://styles.refero.design/style/eeeb6ac9-fc07-4965-935a-e1989ed831f1",
+  "referenceSite": "https://www.default.com",
+  "capturedAt": "2026-07-28",
+  "mood": [
+    "mission control behind frosted glass",
+    "matte-black infrastructure UI",
+    "thin blue ring-light accents",
+    "weight-400 Inter headlines",
+    "compact workflow panels"
+  ],
+  "summary": "A dark infrastructure design system with near-black canvas, matte panels, 0.5px hairlines, Inter everywhere, weight-400 display headlines, off-white CTA pills, Signal Blue for links and active states, and compact product-heavy layouts.",
+  "useWhen": [
+    "Developer tools",
+    "Infrastructure SaaS",
+    "Workflow automation",
+    "AI operations consoles",
+    "Compact technical dashboards"
+  ],
+  "avoidWhen": [
+    "Bright consumer apps",
+    "Editorial serif sites",
+    "Playful illustrated products",
+    "Marketing-heavy landing pages",
+    "Apps needing colorful CTA systems"
+  ],
+  "colors": {
+    "void": "#0b0c0e",
+    "graphite": "#131416",
+    "charcoal": "#1f1f21",
+    "ink": "#333333",
+    "smoke": "#3c3d3e",
+    "steel": "#71717a",
+    "fog": "#858687",
+    "ash": "#9d9e9f",
+    "chalk": "#cececf",
+    "bone": "#f2f2f2",
+    "snow": "#ffffff",
+    "signalBlue": "#3b82f6",
+    "arcBlue": "#60a5fa",
+    "ringBlue": "#93c5fd",
+    "mint": "#4ade80",
+    "fern": "#22c55e",
+    "coral": "#f87171",
+    "ember": "#ea580c",
+    "iris": "#314ef0"
+  },
+  "typography": {
+    "display": {
+      "family": "Inter",
+      "fallback": "Inter variable",
+      "weights": [400],
+      "sizes": ["32px", "42px", "52px", "64px"],
+      "lineHeight": "0.94-1.25",
+      "letterSpacing": "-0.64px to -1.3px",
+      "features": ["ss01", "ss03"]
+    },
+    "body": {
+      "family": "Inter",
+      "fallback": "system-ui",
+      "weights": [400, 420, 440, 450, 480, 500, 580],
+      "sizes": ["8px", "9px", "10px", "11px", "12px", "13px", "14px", "15px", "16px", "17px", "18px"],
+      "lineHeight": "1.0-1.8",
+      "letterSpacing": "-0.015em to -0.034em",
+      "features": ["ss01", "ss03"]
+    }
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "density": "compact",
+    "maxWidth": "1080px",
+    "sectionGap": "96px",
+    "cardPadding": "28px",
+    "elementGap": "8px",
+    "scale": ["4px", "8px", "12px", "16px", "20px", "24px", "28px", "32px", "36px", "48px", "52px", "64px", "68px", "80px", "96px", "116px"]
+  },
+  "shape": {
+    "xs": "5.26px",
+    "sm": "8.77px",
+    "pills": "10px",
+    "buttons": "10px",
+    "md": "12px",
+    "cards": "12px",
+    "lg": "16px",
+    "xl": "20px",
+    "2xl": "24px"
+  },
+  "imagery": {
+    "notes": "Use product mockups, workflow nodes, tables, logs, and dark operational panels. Keep accent color limited to blue active states and tiny status marks."
+  }
+}

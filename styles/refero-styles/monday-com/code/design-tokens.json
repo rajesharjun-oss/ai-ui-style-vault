@@ -1,0 +1,132 @@
+{
+  "name": "monday.com",
+  "slug": "monday-com",
+  "sourceUrl": "https://styles.refero.design/style/77ee57e9-9f8e-4ec1-93f7-cc1c4b84307a",
+  "referenceSite": "https://monday.com",
+  "theme": "light",
+  "colors": {
+    "monday-violet": "#6161ff",
+    "prism": "conic-gradient(from 270deg, rgb(129, 129, 255) 15%, rgb(51, 219, 219) 40%, rgb(51, 213, 142) 55%, rgb(255, 214, 51) 65%, rgb(252, 82, 125) 85%, rgb(129, 129, 255) 100%)",
+    "mint": "#bcfe90",
+    "sky": "#abf0ff",
+    "apricot": "linear-gradient(90deg, rgb(254, 129, 228), rgb(254, 129, 228) 31%, rgb(253, 169, 0) 88%)",
+    "lavender": "#eddff7",
+    "periwinkle": "#e7ecff",
+    "cornflower": "#93beff",
+    "aqua": "#d1faff",
+    "cotton-candy": "#e98dfe",
+    "ultra-violet": "#9450fd",
+    "electric-cyan": "#3ac9ff",
+    "forest": "#2a5c4e",
+    "peony": "#fcd0f8",
+    "periwinkle-wash": "#dbdbff",
+    "ink": "#333333",
+    "slate": "#535768",
+    "iron": "#808080",
+    "fog": "#cacbcd",
+    "mist": "#d0d4e4",
+    "pebble": "#dddfeb",
+    "shadow-dust": "#e6e7ea",
+    "cloud": "#f5f6f8",
+    "snow": "#ffffff"
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "\"Poppins\", \"Manrope\", \"DM Sans\", \"Plus Jakarta Sans\", Arial, sans-serif"
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "fontSize": {
+      "micro": "8px",
+      "caption": "12px",
+      "body-sm": "14px",
+      "body": "16px",
+      "body-lg": "18px",
+      "subheading": "20px",
+      "heading-sm": "24px",
+      "heading": "36px",
+      "heading-lg": "48px",
+      "display": "64px"
+    },
+    "lineHeight": {
+      "caption": "1.45",
+      "body": "1.5",
+      "subheading": "1.4",
+      "heading-sm": "1.3",
+      "heading": "1.2",
+      "display": "1.15"
+    },
+    "letterSpacing": {
+      "caption": "-0.12px",
+      "body": "-0.16px",
+      "subheading": "-0.22px",
+      "heading-sm": "-0.36px",
+      "heading": "-0.54px",
+      "heading-lg": "-0.96px",
+      "display": "-2.56px",
+      "uppercase": "0.2em"
+    }
+  },
+  "spacing": {
+    "8": "8px",
+    "16": "16px",
+    "24": "24px",
+    "32": "32px",
+    "40": "40px",
+    "48": "48px",
+    "64": "64px",
+    "80": "80px",
+    "96": "96px"
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "sectionGap": "64px",
+    "cardPadding": "24px",
+    "elementGap": "8px"
+  },
+  "radius": {
+    "nav": "6px",
+    "badge": "6px",
+    "input": "6px",
+    "image": "12px",
+    "card": "24px",
+    "button": "160px"
+  },
+  "shadow": {
+    "board-mockup": "rgba(205, 208, 223, 0.4) 0px 2px 48px 0px",
+    "elevated-card": "rgba(0, 0, 0, 0.15) 0px 5px 45px 0px",
+    "active-ai-card": "rgba(0, 0, 0, 0.15) 0px 4px 40px 0px",
+    "inset-emphasis": "rgb(0, 0, 0) 0px -2px 0px 0px inset"
+  },
+  "components": {
+    "primary-pill-button": {
+      "background": "{colors.monday-violet}",
+      "text": "{colors.snow}",
+      "radius": "{radius.button}",
+      "padding": "13px 24px",
+      "fontWeight": "{typography.fontWeight.medium}"
+    },
+    "pastel-feature-card": {
+      "background": "{colors.sky}",
+      "text": "{colors.ink}",
+      "radius": "{radius.card}",
+      "padding": "{layout.cardPadding}"
+    },
+    "board-mockup-card": {
+      "background": "{colors.snow}",
+      "border": "1px solid {colors.mist}",
+      "radius": "{radius.card}",
+      "shadow": "{shadow.board-mockup}"
+    },
+    "status-pill": {
+      "radius": "{radius.badge}",
+      "padding": "2px 8px",
+      "fontSize": "{typography.fontSize.caption}",
+      "fontWeight": "{typography.fontWeight.medium}"
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "e9f5e976-53f7-42f5-a882-4e63b3c2f734",
+  "name": "Ease Health",
+  "source": "Refero Styles",
+  "sourceUrl": "https://styles.refero.design/style/e9f5e976-53f7-42f5-a882-4e63b3c2f734",
+  "referenceUrl": "https://easehealth.com",
+  "capturedOn": "2026-07-28",
+  "theme": "light",
+  "mood": "Botanical greenhouse on cream paper with clinical calm, forest-green ink, sage/keylime panels, slate product previews, and whisper-weight serif headings.",
+  "bestFor": [
+    "healthtech landing pages",
+    "behavioral health platforms",
+    "clinic operations",
+    "EHR tools",
+    "CRM tools",
+    "RCM tools",
+    "care coordination products",
+    "provider portals"
+  ],
+  "tags": [
+    "light",
+    "healthtech",
+    "clinical-botanical",
+    "cream-paper",
+    "forest-green",
+    "sage",
+    "keylime",
+    "slate-panel",
+    "editorial-serif",
+    "flat-surfaces",
+    "no-shadows",
+    "product-preview"
+  ],
+  "colors": {
+    "brand": {
+      "forestInk": {
+        "value": "#0f3e17",
+        "token": "--color-forest-ink",
+        "role": "Primary action buttons, headings, links, and icon strokes."
+      },
+      "sageMist": {
+        "value": "#b1dbb8",
+        "token": "--color-sage-mist",
+        "role": "Mid-tone card backgrounds, feature highlights, and decorative washes."
+      },
+      "keylimeWash": {
+        "value": "#e1f4df",
+        "token": "--color-keylime-wash",
+        "role": "Hero panel background and light card surfaces."
+      },
+      "mintVeil": {
+        "value": "#cfe7d3",
+        "token": "--color-mint-veil",
+        "role": "Accent card surfaces and soft section dividers."
+      }
+    },
+    "accent": {
+      "slateHush": {
+        "value": "#b6ced5",
+        "token": "--color-slate-hush",
+        "role": "Cool counterbalance panel for product previews and feature blocks."
+      }
+    },
+    "neutrals": {
+      "forestShadow": {
+        "value": "#0c2f10",
+        "token": "--color-forest-shadow",
+        "role": "Supporting dark green for hover states and tiny contrast accents."
+      },
+      "charcoal": {
+        "value": "#222222",
+        "token": "--color-charcoal",
+        "role": "Navigation text, body copy, and minor UI strokes."
+      },
+      "borderMist": {
+        "value": "#efeeeb",
+        "token": "--color-border-mist",
+        "role": "Hairline dividers and subtle borders."
+      },
+      "creamPaper": {
+        "value": "#fffefc",
+        "token": "--color-cream-paper",
+        "role": "Page background, badge backgrounds, button text, and product card fill."
+      }
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "Faire Octave",
+      "displayFallback": "Cormorant Garamond, Playfair Display, serif",
+      "body": "Suisse Intl",
+      "bodyFallback": "Inter, Soehne, Helvetica Neue, sans-serif"
+    },
+    "weights": {
+      "display": 300,
+      "bodyLight": 300,
+      "bodyRegular": 400,
+      "bodySemibold": 600
+    },
+    "scale": {
+      "caption": {
+        "fontSize": "10px",
+        "lineHeight": "1.61",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontSize": "14px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "subheading": {
+        "fontSize": "18px",
+        "lineHeight": "1.3",
+        "letterSpacing": "0"
+      },
+      "headingSmall": {
+        "fontSize": "23px",
+        "lineHeight": "1.5",
+        "letterSpacing": "0"
+      },
+      "heading": {
+        "fontSize": "40px",
+        "lineHeight": "1.35",
+        "letterSpacing": "-0.4px"
+      },
+      "headingLarge": {
+        "fontSize": "56px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-1.68px"
+      },
+      "display": {
+        "fontSize": "74px",
+        "lineHeight": "1.05",
+        "letterSpacing": "-2.22px"
+      }
+    }
+  },
+  "spacing": {
+    "density": "comfortable",
+    "baseUnit": "4px",
+    "maxWidth": "1200px",
+    "sectionGap": "64-96px",
+    "cardPadding": "28-42px",
+    "elementGap": "14-21px",
+    "scalePx": [4, 7, 9, 11, 14, 18, 21, 28, 35, 42, 49, 56, 70, 76, 99, 156]
+  },
+  "radii": {
+    "nav": "7px",
+    "cards": "14px",
+    "badges": "999px",
+    "buttons": "14px",
+    "sections": "9999px"
+  },
+  "surfaces": [
+    {
+      "level": 0,
+      "name": "Cream Paper",
+      "value": "#fffefc",
+      "purpose": "Base page background."
+    },
+    {
+      "level": 1,
+      "name": "Keylime Wash",
+      "value": "#e1f4df",
+      "purpose": "Primary tinted panel and light feature block."
+    },
+    {
+      "level": 2,
+      "name": "Mint Veil",
+      "value": "#cfe7d3",
+      "purpose": "Mid-tone section surface."
+    },
+    {
+      "level": 3,
+      "name": "Sage Mist",
+      "value": "#b1dbb8",
+      "purpose": "Heavier tinted panel and feature highlight."
+    },
+    {
+      "level": 4,
+      "name": "Slate Hush",
+      "value": "#b6ced5",
+      "purpose": "Cool product showcase panel."
+    }
+  ],
+  "components": [
+    "Primary Forest Button",
+    "Large Forest Button",
+    "Pill Badge / Tag",
+    "Sage Feature Card",
+    "Keylime Soft Card",
+    "Slate Product Panel",
+    "Product Preview Card",
+    "Navigation Bar",
+    "Eyebrow Label",
+    "FAQ Row",
+    "Investor Logo Strip"
+  ],
+  "guidance": {
+    "do": [
+      "Use Forest Ink for every CTA, heading, and primary link.",
+      "Set all display headings in a weight-300 serif with tight tracking.",
+      "Pair serif questions with sans-serif answers in FAQ and feature blocks.",
+      "Layer surfaces cream, keylime, mint, sage, and slate to create depth without shadows.",
+      "Use 14px radius on cards and buttons.",
+      "Use 999px radius on badges and tags.",
+      "Apply uppercase 0.08em tracking only to 11px semibold eyebrow labels.",
+      "Keep Slate Hush as the exclusive home for product screenshots."
+    ],
+    "dont": [
+      "Do not add box shadows to cards.",
+      "Do not use Forest Ink as a background tint.",
+      "Do not mix multiple heading weights.",
+      "Do not place colored borders on cards.",
+      "Do not use more than one serif.",
+      "Do not introduce new accent hues beyond botanical greens and slate.",
+      "Do not use tight padding under 21px on cards.",
+      "Do not use sage or keylime tones for text."
+    ]
+  }
+}
+
