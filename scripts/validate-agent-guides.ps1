@@ -5,8 +5,11 @@ $root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 $requiredFiles = @(
   "AGENTS.md",
   "guides/AGENT_USAGE.md",
+  "guides/AGENT_BUILD_CHECKLIST.md",
   "guides/STYLE_SELECTION_GUIDE.md",
   "guides/WEB_TOOL_DESIGN_MATRIX.md",
+  "templates/VAULT_SELECTION.md",
+  "scripts/validate-generated-site.ps1",
   "agent-index.json",
   "catalog.json",
   "screen-catalog.json",
@@ -53,8 +56,10 @@ if (-not $sources.sources -or $sources.sources.Count -lt 1) {
 $requiredEntryPoints = @(
   "agentInstructions",
   "agentUsageGuide",
+  "buildChecklist",
   "styleSelectionGuide",
   "webToolDesignMatrix",
+  "generatedSiteValidator",
   "styleCatalog",
   "screenCatalog"
 )

@@ -14,6 +14,7 @@ The vault should help an agent make a deliberate design choice, not randomly cop
 
 2. Read the vault indexes.
    - Start with `agent-index.json` for the machine-readable workflow.
+   - Read `guides/AGENT_BUILD_CHECKLIST.md` for required asset and visual QA gates.
    - Use `catalog.json` to find global style systems.
    - Use `screen-catalog.json` to find page-type examples.
    - Use `CAPTURED_STYLES.md` and `SCREEN_REFERENCES.md` when a human-readable scan is faster.
@@ -27,19 +28,26 @@ The vault should help an agent make a deliberate design choice, not randomly cop
    - Select up to 2 supporting style bundles only when they solve a clear missing need.
    - Select 1 screen reference per important page type.
 
-5. Read the selected folders deeply.
+5. Create the selection record.
+   - Copy `templates/VAULT_SELECTION.md` into the generated project or target repo.
+   - Fill in the primary style, supporting references, fit rationale, adaptation plan, asset policy, and QA plan before implementation.
+
+6. Read the selected folders deeply.
    - For styles, read `README.md`, `DESIGN.md`, `implementation-prompt.md`, `style.json`, `tokens/`, and `code/`.
    - For screens, read `README.md`, `implementation-prompt.md`, `screen.json`, `tokens/`, and `code/`.
 
-6. Implement in the target repo.
+7. Implement in the target repo.
    - Use the target repo's existing stack and conventions.
    - Translate vault tokens into the target design system.
    - Build complete, responsive, accessible UI.
    - Add loading, empty, error, focus, disabled, hover, and active states.
 
-7. Verify.
+8. Verify.
    - Run lint, typecheck, tests, and build when available.
+   - Run `scripts/validate-generated-site.ps1` for static or browser-rendered outputs.
    - Check mobile and desktop layouts.
+   - Check section anchors, forms, legends, sticky or fixed headers, and text wrapping.
+   - Confirm no target-site images, logos, screenshots, or exact page layouts were copied.
    - Confirm the result is inspired by the references but not a brand clone.
 
 ## Prompt Pattern
@@ -50,9 +58,10 @@ Use ai-ui-style-vault as the design reference source.
 First inspect this target repo and summarize the app type, audience, pages, stack, and existing UI conventions.
 Then read the vault indexes and select one primary style bundle plus page-specific screen references.
 Explain why those references fit.
+Create a VAULT_SELECTION.md record before implementation.
 Implement an original UI using the selected tokens, rhythm, component rules, and page patterns.
 Do not copy protected logos, screenshots, brand assets, exact copy, or proprietary layouts.
-Run the available checks and summarize the result.
+Run the generated-site validator, visual QA, and available project checks. Summarize the result.
 ```
 
 ## What "Exact Design" Means Here

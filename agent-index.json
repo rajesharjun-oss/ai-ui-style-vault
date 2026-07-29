@@ -6,13 +6,16 @@
     "humanReadme": "README.md",
     "agentInstructions": "AGENTS.md",
     "agentUsageGuide": "guides/AGENT_USAGE.md",
+    "buildChecklist": "guides/AGENT_BUILD_CHECKLIST.md",
     "styleSelectionGuide": "guides/STYLE_SELECTION_GUIDE.md",
     "webToolDesignMatrix": "guides/WEB_TOOL_DESIGN_MATRIX.md",
     "styleCatalog": "catalog.json",
     "screenCatalog": "screen-catalog.json",
     "capturedStyles": "CAPTURED_STYLES.md",
     "screenReferences": "SCREEN_REFERENCES.md",
-    "sources": "sources.json"
+    "sources": "sources.json",
+    "vaultSelectionTemplate": "templates/VAULT_SELECTION.md",
+    "generatedSiteValidator": "scripts/validate-generated-site.ps1"
   },
   "inventory": {
     "styleBundles": 280,
@@ -23,12 +26,15 @@
   },
   "selectionProtocol": [
     "Inspect the target repository and identify product type, audience, page needs, interaction density, tone, accessibility constraints, and styling stack.",
+    "Read guides/AGENT_BUILD_CHECKLIST.md before building, including visual QA, asset QA, and handoff gates.",
+    "Create a VAULT_SELECTION.md record from templates/VAULT_SELECTION.md before implementation.",
     "Read catalog.json and shortlist 3 to 5 style bundles using category, bestFor, tags, theme, northStar, primaryColors, fonts, and available files.",
     "Read screen-catalog.json and shortlist page-specific screen references for required page types.",
     "Score style candidates using product fit, page coverage, density fit, tone fit, implementation fit, accessibility fit, and license risk.",
     "Choose one primary style bundle, optional supporting style bundles only for clear gaps, and one screen reference per important page type.",
     "Read the selected folders deeply before implementation.",
-    "Implement an original UI in the target repository using the selected tokens, rules, and page patterns."
+    "Implement an original UI in the target repository using the selected tokens, rules, and page patterns.",
+    "Run generated-site, visual, asset, responsive, and available project checks before handoff."
   ],
   "scoringWeights": {
     "productDomainFit": 25,
@@ -129,8 +135,23 @@
     "supportingReferences": "Screen or style paths used for page-specific behavior.",
     "fitRationale": "Short explanation tied to product type, audience, density, tone, and stack.",
     "adaptationPlan": "Tokens, components, layout patterns, and states to implement.",
-    "copyAssetPolicy": "State that protected logos, screenshots, exact product copy, and proprietary layouts will not be copied."
+    "copyAssetPolicy": "State that protected logos, screenshots, exact product copy, and proprietary layouts will not be copied.",
+    "selectionRecord": "Create or update VAULT_SELECTION.md in the generated project or target repo before implementation."
   },
+  "requiredBuildArtifacts": [
+    "VAULT_SELECTION.md or equivalent filled selection record",
+    "Visual QA evidence or notes for desktop and mobile",
+    "Asset audit result",
+    "Available lint, typecheck, test, and build results",
+    "Localhost URL when the user asks to see the build locally"
+  ],
+  "requiredGeneratedSiteChecks": [
+    "No hotlinked target-site images or copied protected media",
+    "No placeholder, lorem ipsum, TODO-heavy UI, or console debugging",
+    "Headers and sticky elements do not cover headings, forms, cards, or anchor targets",
+    "Forms, fieldsets, labels, legends, focus states, and text wrapping are visually checked",
+    "Desktop and mobile layouts have no obvious overlap"
+  ],
   "safetyRules": [
     "Use references as inspiration for original implementation unless a source explicitly grants reuse rights.",
     "Do not vendor screenshots, videos, logos, or brand assets without permission.",

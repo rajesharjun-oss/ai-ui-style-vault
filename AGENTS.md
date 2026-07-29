@@ -8,11 +8,12 @@ When a user asks you to use this vault for a product build, read these files fir
 
 1. `README.md`
 2. `guides/AGENT_USAGE.md`
-3. `guides/STYLE_SELECTION_GUIDE.md`
-4. `guides/WEB_TOOL_DESIGN_MATRIX.md`
-5. `agent-index.json`
-6. `catalog.json`
-7. `screen-catalog.json`
+3. `guides/AGENT_BUILD_CHECKLIST.md`
+4. `guides/STYLE_SELECTION_GUIDE.md`
+5. `guides/WEB_TOOL_DESIGN_MATRIX.md`
+6. `agent-index.json`
+7. `catalog.json`
+8. `screen-catalog.json`
 
 ## Selection Rule
 
@@ -56,4 +57,18 @@ Before implementation, state the selected references:
 - What will be adapted
 - What will not be copied
 
+Create a `VAULT_SELECTION.md` record from `templates/VAULT_SELECTION.md` in the generated project or target repo before building.
+
 Then implement using the target repository stack and conventions.
+
+## QA Rule
+
+Before handoff, run the visual, asset, and generated-site checks from `guides/AGENT_BUILD_CHECKLIST.md`.
+
+For browser-rendered or static sites, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\validate-generated-site.ps1 -SiteRoot <site-root>
+```
+
+Do not hand off as complete if the build hotlinks target-site images, has missing vault selection notes, contains placeholders, or has obvious desktop/mobile overlap.
