@@ -1,4 +1,4 @@
-﻿param(
+param(
   [string]$VaultRoot = ".\outputs\ai-ui-style-vault\styles\refero-styles",
   [string]$TempRoot = "C:\tmp"
 )
@@ -6,22 +6,22 @@
 $ErrorActionPreference = "Stop"
 
 $styles = @(
-  @{ id = "01d6013d-a176-4a22-b7dd-fbd113592956"; short = "01d6013d" },
-  @{ id = "03e03554-d7aa-40da-9764-79320ecfa1d0"; short = "03e03554" },
-  @{ id = "0769ff4c-f719-4865-98df-de2f44c694a6"; short = "0769ff4c" },
-  @{ id = "08c8700c-f278-42bc-812e-f60dc6ce996e"; short = "08c8700c" },
-  @{ id = "0acef011-07da-4416-b874-ccdd675140f6"; short = "0acef011" },
-  @{ id = "0b9da6ef-bec5-4073-90af-66c67e72f2a4"; short = "0b9da6ef" },
-  @{ id = "0c0b6140-2b6c-44f8-8bba-4ecfcadba420"; short = "0c0b6140" },
-  @{ id = "0ed4e85f-f3e9-438c-bc34-2a726863c602"; short = "0ed4e85f" },
-  @{ id = "0f0d4cb7-5109-4e81-8c8d-f6bd0441b27c"; short = "0f0d4cb7" },
-  @{ id = "14f10100-a102-427a-88d1-7cc80cbb332d"; short = "14f10100" },
-  @{ id = "16a8de02-a4c6-4077-9d3a-ef6b5c10db12"; short = "16a8de02" },
-  @{ id = "16be276a-d8ce-484e-8f7a-cbbb09f717f7"; short = "16be276a" },
-  @{ id = "186775da-7568-49e5-8110-4fd0bbc7bbe3"; short = "186775da" },
-  @{ id = "19d4103a-9f4a-49f0-ad7d-af6588bab904"; short = "19d4103a" },
-  @{ id = "1ad4f49f-275a-4268-8ed1-677dc3c6e475"; short = "1ad4f49f" },
-  @{ id = "1b010453-80df-406a-8b1a-72630c4a5165"; short = "1b010453" }
+  @{ id = "1b44386e-31a8-40b0-a577-27c088b51264"; short = "1b44386e" },
+  @{ id = "1c1d3939-8d82-4907-aa3c-c9b2fcfbab4f"; short = "1c1d3939" },
+  @{ id = "1c60b014-473b-443b-b0f5-220612feebb7"; short = "1c60b014" },
+  @{ id = "1d4cbd69-ee0f-4f13-ba7d-14d3eaed7349"; short = "1d4cbd69" },
+  @{ id = "1db2adc9-2f10-4f20-af1b-27fa4b25f729"; short = "1db2adc9" },
+  @{ id = "1ded7f89-3df0-4e7c-9cac-28218d038575"; short = "1ded7f89" },
+  @{ id = "1e93f444-0b01-4412-aa2b-877be5ef08d7"; short = "1e93f444" },
+  @{ id = "1f69df96-675d-4ee0-aa85-e085d9d39981"; short = "1f69df96" },
+  @{ id = "1f782141-d407-4c27-8cee-2246720a9f42"; short = "1f782141" },
+  @{ id = "1f9089e1-4170-482f-b988-afe1124a70a9"; short = "1f9089e1" },
+  @{ id = "2186dddd-60ee-4898-b11d-88483daf477e"; short = "2186dddd" },
+  @{ id = "21b71be3-78a0-4681-a5b9-64cc4b40eb67"; short = "21b71be3" },
+  @{ id = "2230ba53-445e-411d-b483-16410a072639"; short = "2230ba53" },
+  @{ id = "225059ac-0450-49d3-b2b7-d0e98b7ae938"; short = "225059ac" },
+  @{ id = "227ff379-9b46-44fc-8ff1-37e0472239a6"; short = "227ff379" },
+  @{ id = "234e9a17-236d-4446-9d58-f83f6806d012"; short = "234e9a17" }
 )
 function Normalize-Ascii([string]$Text) {
   if ($null -eq $Text) { return "" }

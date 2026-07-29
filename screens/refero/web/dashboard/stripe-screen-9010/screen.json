@@ -1,0 +1,103 @@
+{
+ "id": "9010",
+ "uuid": "5f9b93d3-6315-4656-8f74-cd26b07f1069",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Stripe",
+ "description": "Payment Processing Platform for the Internet",
+ "url": "https://dashboard.stripe.com/test/revenue-recognition",
+ "iconUrl": "https://images.refero.design/favicon/stripe.com/ebf153fa-a02b-4732-82fa-d33b398c6825.jpg",
+ "backgroundColor": "",
+ "id": "9"
+ },
+ "createdAt": "2022-11-09T11:54:06.549Z",
+ "referoViewUrl": "https://refero.design/view/5f9b93d3-6315-4656-8f74-cd26b07f1069",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/stripe.com/desktop/00d07674-325b-44e8-af0c-f2f5df70dbee_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86/0.jpg",
+ "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86/1.jpg",
+ "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86/2.jpg",
+ "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86/3.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#6866d2",
+ "rgb": [
+ 104,
+ 102,
+ 210
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#46474d",
+ "rgb": [
+ 70,
+ 71,
+ 77
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#999ba6",
+ "rgb": [
+ 153,
+ 155,
+ 166
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#c2c8d2",
+ "rgb": [
+ 194,
+ 200,
+ 210
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#db7027",
+ "rgb": [
+ 219,
+ 112,
+ 39
+ ]
+ }
+ ],
+ "designPatterns": "Stats",
+ "pageElements": [
+ "Table",
+ "Line \u0026 Bar Chart",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Switch \u0026 Toggle",
+ "Skeleton",
+ "Navigation Bar",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Avatar"
+ ],
+ "pageTypes": [
+ "Profile \u0026 Account",
+ "Dashboard"
+ ],
+ "fonts": "San Francisco",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

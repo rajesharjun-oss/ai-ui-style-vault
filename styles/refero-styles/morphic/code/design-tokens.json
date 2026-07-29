@@ -1,0 +1,348 @@
+{
+ "name": "Morphic",
+ "slug": "morphic",
+ "colors": [
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Page canvas, hero backgrounds, full-bleed sections - the void that makes all imagery and accent color read as luminous"
+ },
+ {
+ "name": "Surface One",
+ "value": "#212121",
+ "token": "--color-surface-one",
+ "role": "Primary card surface, elevated panels, and section backgrounds one level above the canvas"
+ },
+ {
+ "name": "Surface Two",
+ "value": "#292929",
+ "token": "--color-surface-two",
+ "role": "Secondary button background (ghost/outlined), nested cards, and hover surfaces one step lighter than Surface One"
+ },
+ {
+ "name": "Surface Three",
+ "value": "#333333",
+ "token": "--color-surface-three",
+ "role": "Tertiary button background, highest elevation layer, and active-state surface tints"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary headings, button text, logo, and high-emphasis copy on dark surfaces"
+ },
+ {
+ "name": "Fog",
+ "value": "#e5e7eb",
+ "token": "--color-fog",
+ "role": "Hairline borders and dividers - applied at very low opacity so cards have edge definition without visual weight"
+ },
+ {
+ "name": "Mist",
+ "value": "#f5f5f5",
+ "token": "--color-mist",
+ "role": "Soft highlight washes, secondary text on light surfaces, and subtle icon fills"
+ },
+ {
+ "name": "Mid Gray",
+ "value": "#999999",
+ "token": "--color-mid-gray",
+ "role": "Muted body text, inactive labels, and disabled-state copy"
+ },
+ {
+ "name": "Steel",
+ "value": "#737373",
+ "token": "--color-steel",
+ "role": "Link text in resting state, secondary annotations, and icon strokes at low contrast"
+ },
+ {
+ "name": "Graphite",
+ "value": "#666666",
+ "token": "--color-graphite",
+ "role": "Tertiary headings, caption text, and supporting metadata"
+ },
+ {
+ "name": "Slate",
+ "value": "#525252",
+ "token": "--color-slate",
+ "role": "Lowest-emphasis body text, helper copy, and subdued annotations"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#404040",
+ "token": "--color-charcoal",
+ "role": "Icon strokes and outlines at medium contrast, secondary borders"
+ },
+ {
+ "name": "Electric Blue",
+ "value": "#0075ff",
+ "token": "--color-electric-blue",
+ "role": "Blue action color for filled buttons, selected navigation states, and focused conversion moments."
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Sole typeface across all UI, headings, and body. The complete weight range (400-700) allows a single family to carry the full hierarchy: 700 for display headlines, 600 for section headers, 500 for buttons and nav, 400 for body and captions. Inter\u0027s geometric neutrality and tall x-height make it ideal for a dark canvas where character width and spacing carry more visual weight than personality."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.4",
+ "-0.1px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.5",
+ "-0.14px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.4",
+ "-0.4px",
+ "--text-body-lg"
+ ],
+ [
+ "heading-sm",
+ "20px",
+ "1.33",
+ "-0.44px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.15",
+ "-1.9px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "52px",
+ "1.15",
+ "-3.2px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1280px",
+ "sectionGap": "96px",
+ "cardPadding": "12px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "140",
+ "140px",
+ "`--spacing-140`"
+ ],
+ [
+ "180",
+ "180px",
+ "`--spacing-180`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "100px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "pills",
+ "100px"
+ ],
+ [
+ "badges",
+ "7px"
+ ],
+ [
+ "modals",
+ "24px"
+ ],
+ [
+ "buttons",
+ "7px"
+ ],
+ [
+ "large-cards",
+ "16px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "The only filled chromatic action in the system"
+ },
+ {
+ "name": "Secondary Button",
+ "role": "Non-primary action button on dark surfaces"
+ },
+ {
+ "name": "Outline Button",
+ "role": "Tertiary or navigation-adjacent action"
+ },
+ {
+ "name": "Pill Tag",
+ "role": "Category or filter label in card grids"
+ },
+ {
+ "name": "New Badge",
+ "role": "Announcement indicator for new features"
+ },
+ {
+ "name": "Image Showcase Card",
+ "role": "Display container for AI-generated images in the gallery grid"
+ },
+ {
+ "name": "Workflow Card",
+ "role": "Horizontally-scrolling content card with title and description"
+ },
+ {
+ "name": "Tab Control",
+ "role": "Product mode switcher in the Canvas product UI"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Hero Headline Block",
+ "role": "Two-line display headline in the hero section"
+ },
+ {
+ "name": "Section Header",
+ "role": "Repeating section title pattern (e.g., \u0027Workflows / Built for speed\u0027)"
+ },
+ {
+ "name": "Avatar Stack",
+ "role": "Social proof element (e.g., review author avatars)"
+ },
+ {
+ "name": "Product UI Mockup Panel",
+ "role": "Embedded screenshot of the Morphic product interface"
+ },
+ {
+ "name": "Navigation Link Arrow",
+ "role": "Chevron or arrow indicator next to nav items"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #0075ff exclusively for primary actions and the \u0027New\u0027 badge - never as a decorative accent, background tint, or text color outside of a clickable element",
+ "Apply the two-tone headline pattern (white line 1, #999999 line 2) for all section headers and the hero - this is the site\u0027s signature typographic device",
+ "Use the surface stack #000000 #212121 #292929 #333333 for hierarchy; never introduce a new shade between steps",
+ "Apply -0.0620em letter-spacing at 52px and -0.0480em at 40px for display text - the tight tracking is what makes the headlines feel cinematic",
+ "Use 10px radius for image/showcase cards and 7px radius for buttons - these are the only two radii that should appear in the main content flow",
+ "Keep all borders at 1px #e5e7eb at very low opacity (10-20%) - borders should be felt, not seen",
+ "Use Inter at weight 500 for all buttons, 700 for display, 400 for body - never mix more than two weights on a single screen"
+ ],
+ "doNot": [
+ "Never use a second chromatic color - the system is deliberately monochromatic with one blue accent; adding any other hue breaks the cinema-canvas concept",
+ "Never apply drop shadows to UI components - shadows are reserved for image cards in the showcase grid only",
+ "Never use #ffffff text for body copy - body text should be #999999 or lower contrast; white is reserved for headings, buttons, and high-emphasis labels",
+ "Never center-align body paragraphs - only headlines, CTAs, and the hero text block are centered; body copy is left-aligned",
+ "Never use border-radius values outside the defined scale (7px, 10px, 16px, 24px, 32px, 100px) - ad-hoc radii will break the system\u0027s geometric consistency",
+ "Never place a colored background behind text blocks - the canvas must remain pure black; cards float on the void, they don\u0027t fill it",
+ "Never use gradient backgrounds - the system is strictly flat; depth comes from the surface stack, not color transitions"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1d4cbd69-ee0f-4f13-ba7d-14d3eaed7349",
+ "referenceSite": "https://morphic.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-07T18:58:00.502Z",
+ "articleModifiedAt": "2026-06-03T19:35:01.756Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/dbea98f8-3b93-463f-8eb4-b5fed7cc05fe.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/917d8207-465f-4ba7-888f-9fbd98fbec2e.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/9cb28aa1-8f5f-4b64-93d1-023256ba48f2.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/24b64567-c582-448a-b02d-0b8762bef788.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/fc383f65-6a1d-4df1-b35f-8e62317be79a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/29a24cdf-f84b-4257-a9d3-2d1468fa939a.png"
+ }
+ }
+}

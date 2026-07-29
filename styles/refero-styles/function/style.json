@@ -1,0 +1,342 @@
+{
+ "id": "21b71be3-78a0-4681-a5b9-64cc4b40eb67",
+ "name": "Function",
+ "slug": "function",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/21b71be3-78a0-4681-a5b9-64cc4b40eb67",
+ "referenceSite": "https://www.functionhealth.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T00:12:10.227Z",
+ "articleModifiedAt": "2026-06-05T01:03:10.354Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/166bdb7d-2154-460a-8879-3c7240c34463.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f1f2db12-bc0b-487e-9ed9-275c1ea6d589.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ceb50923-99d0-46e4-9a8d-e94cba91b8f9.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/0d45aa7a-ff71-4d90-a6e1-55cbf6fa8196.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/a413569d-af14-4ac6-9324-a00dec0efc9b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9dbb9d49-1cbb-4f4a-a64c-330b8563bb01.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "warm apothecary journal on parchment",
+ "summary": "Explore Function\u0027s light Other design system: Terracotta Seal #b05a36, Parchment #fef9ef colors, Financier Display, Ftbase typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Parchment",
+ "value": "#fef9ef",
+ "token": "--color-parchment",
+ "role": "Page canvas and primary surface - never use pure white; this warm off-white is the system\u0027s base tone"
+ },
+ {
+ "name": "Aged Paper",
+ "value": "#f5eee1",
+ "token": "--color-aged-paper",
+ "role": "Card and panel surfaces, subtle wash backgrounds - one step deeper than the canvas to create soft elevation without shadows"
+ },
+ {
+ "name": "Warm Taupe",
+ "value": "#d1c9bf",
+ "token": "--color-warm-taupe",
+ "role": "Hairline borders, divider lines, card outlines - replaces cold gray with a tone that belongs to the cream family"
+ },
+ {
+ "name": "Ink",
+ "value": "#2a2b2f",
+ "token": "--color-ink",
+ "role": "Primary text, heading fills, strong borders - near-black with a barely-warm cast to harmonize with parchment rather than fight it"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#333333",
+ "token": "--color-charcoal",
+ "role": "Secondary text, body copy, default icon fills, structural borders - slightly softer than Ink for reading-length passages"
+ },
+ {
+ "name": "Graphite",
+ "value": "#515151",
+ "token": "--color-graphite",
+ "role": "Muted helper text, captions, secondary metadata - never below 14px without sufficient weight to maintain AAA contrast on parchment"
+ },
+ {
+ "name": "Ash",
+ "value": "#808988",
+ "token": "--color-ash",
+ "role": "Input borders, disabled state outlines, placeholder text - the only cool-leaning neutral, used only on form elements"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "SVG fill default, logo mark - reserve for vector illustration, never use as text or background"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Financier Display",
+ "token": "--font-financier-display",
+ "role": "Display and editorial headlines - weight 400 for roman, weight 300 for italic accent words within the same headline (e.g. \u0027Testing is easy\u0027 pairs roman with italic). The mix of roman + italic serif in one line is the system\u0027s most distinctive typographic move. Substitute: GT Super, Domaine Display, Tiempos Headline"
+ },
+ {
+ "name": "Ftbase",
+ "token": "--font-ftbase",
+ "role": "Body, navigation, buttons, UI labels, and all interface text. Weight 300 is used for hero subhead and large descriptive passages; weight 400 for body; weight 600 for button labels and strong UI; weight 700 reserved for emphasis. The consistent -0.023em tracking pulls the type into a tight, confident block that contrasts the generous serif spacing. Substitute: Inter, Sohne, or Untitled Sans"
+ },
+ {
+ "name": "Fragment mono",
+ "token": "--font-fragment-mono",
+ "role": "Tiny all-caps labels in badge and eyebrow contexts - monospace gives a clinical, data-precise feel for markers like \u0027HSA/FSA Eligible\u0027. Use sparingly; Ftbase caps at 600+ serve most label needs"
+ }
+ ],
+ "typeScale": [
+ [
+ "eyebrow",
+ "12px",
+ "1.4",
+ "-0.28px",
+ "--text-eyebrow"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-0.32px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.37px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.4",
+ "-0.41px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.3",
+ "-0.46px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "34px",
+ "1.15",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "45px",
+ "1.1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "64px",
+ "1",
+ "-",
+ "--text-display"
+ ],
+ [
+ "hero",
+ "80px",
+ "0.95",
+ "-",
+ "--text-hero"
+ ],
+ [
+ "display-xl",
+ "88px",
+ "0.9",
+ "-",
+ "--text-display-xl"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "64-96px",
+ "cardPadding": "24-32px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "240",
+ "240px",
+ "`--spacing-240`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "12px"
+ ],
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "24px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "9999px"
+ ],
+ [
+ "buttons",
+ "40px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "Main conversion action - \u0027Start testing\u0027, \u0027Get started\u0027"
+ },
+ {
+ "name": "Outlined Secondary Button",
+ "role": "Supporting action - \u0027See how it works\u0027, \u0027Learn more\u0027"
+ },
+ {
+ "name": "Ghost Text Button",
+ "role": "Nav links, low-priority actions, \u0027Log in\u0027"
+ },
+ {
+ "name": "Announcement Bar",
+ "role": "Top-of-page promotional message - \u0027Use your HSA/FSA funds\u0027"
+ },
+ {
+ "name": "Primary Navigation Bar",
+ "role": "Site-wide navigation"
+ },
+ {
+ "name": "Numbered Step Card",
+ "role": "How-it-works feature step (\u002701\u0027, \u002702\u0027, \u002703\u0027)"
+ },
+ {
+ "name": "Doctor Testimonial Card",
+ "role": "Social proof with credentialed endorsement"
+ },
+ {
+ "name": "Hero Stat Block",
+ "role": "Key metric in hero or feature sections - \u0027160+ lab tests\u0027, \u0027$1 per day\u0027"
+ },
+ {
+ "name": "Eyebrow Label",
+ "role": "Section pre-title - \u0027HSA/FSA Eligible\u0027, \u0027Step 01\u0027"
+ },
+ {
+ "name": "Disease Tag",
+ "role": "Inline condition marker - \u0027Prostate cancer\u0027, \u0027Anemia\u0027"
+ },
+ {
+ "name": "Bar Chart Widget",
+ "role": "Data visualization in feature cards and results previews"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form input - search, email, date"
+ },
+ {
+ "name": "Search Icon Button",
+ "role": "Toggle search overlay"
+ },
+ {
+ "name": "Calendar Picker Widget",
+ "role": "Date selection inside step cards"
+ }
+ ],
+ "dos": [
+ "Use Financier Display for all editorial headlines, always pairing roman and italic weights within the same line to create the signature typographic rhythm",
+ "Set body and UI text in Ftbase with the global -0.023em tracking, never override it per element",
+ "Default to the cream surface stack (Parchment Aged Paper Taupe Outline) for elevation before reaching for shadows",
+ "Apply the 40px border-radius to all buttons and the 24px radius to all cards - rectangular shapes break the system\u0027s identity",
+ "Reserve #b05a36 for exactly three uses: primary CTAs, eyebrow labels, and active/selected states - never as body text or large surface fills",
+ "Use the terracotta bullet \u0027-\u0027 with 16px horizontal spacing when listing inline items like diseases or categories",
+ "Keep hero photography warm-toned with a dark overlay so headlines in white or parchment remain legible"
+ ],
+ "donts": [
+ "Never use pure white (#ffffff) as a background - it kills the parchment warmth that defines the brand",
+ "Don\u0027t set body text in anything other than Ftbase; the serif is for editorial headlines only",
+ "Don\u0027t use small sharp drop shadows; elevation must come from color stepping or the two approved shadow recipes",
+ "Don\u0027t apply the terracotta to large background areas, decorative blocks, or text over 24px - it overwhelms when undiluted",
+ "Avoid rectangular buttons or square card corners; the rounded shape family (40px / 24px / 9999px) is non-negotiable",
+ "Don\u0027t introduce a second accent color - the system is monochromatic warm with one rust accent, and a second hue breaks the apothecary mood",
+ "Don\u0027t use the -0.023em tracking on the serif Financier Display - it belongs only to Ftbase"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Parchment Canvas | `#fef9ef` | Page background - warm cream replaces pure white |\n| 1 | Aged Paper | `#f5eee1` | Card and panel surfaces - soft step up from canvas |\n| 2 | Taupe Outline | `#d1c9bf` | Bordered containers and dividers - never use shadow for primary elevation |\n| 3 | Terracotta Seal | `#b05a36` | Active/elevated interactive states and hero overlays |",
+ "elevation": "- **Floating card / modal:** `rgba(42, 43, 47, 0.1) 12px 32px 80px 0px`\n- **Subtle UI glow (search, inputs):** `rgba(0, 0, 0, 0.15) 0px 0px 20px 0px`",
+ "imagery": "Photography is warm-toned, cinematic, and human: golden-hour running silhouettes, organic outdoor movement, moody earth-and-sky palettes. Images are full-bleed in the hero with a dark warm overlay (~60% opacity) to keep headline text legible; in lower sections they are contained with 24px radius. Illustrations are minimal - the system favors real photography and small inline UI previews (calendars, bar charts) over decorative illustration. Icons are outlined with a 1.5-2px stroke in Ink or terracotta, never filled, never multicolor. No product screenshots; the \u0027product\u0027 is implied through micro-UI vignettes inside cards.",
+ "layout": "Max-width 1280px centered with 24-40px outer page padding. The hero is full-bleed photography with centered or left-aligned serif headline at 80-88px. Below the hero, sections alternate between Parchment (#fef9ef) and Aged Paper (#f5eee1) in a slow rhythm separated by 64-96px vertical gaps - not a strict checkerboard, but a gentle tonal cadence. Content is typically 3-column card grids for features, centered stacks for testimonials, and inline horizontal flows for disease/category lists. Navigation is a single sticky top bar; no sidebar, no mega-menu. Density is comfortable - cards breathe with 40px internal padding, and whitespace is treated as a design material rather than a gap filler."
+}

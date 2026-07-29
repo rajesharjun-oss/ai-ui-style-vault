@@ -1,0 +1,91 @@
+{
+ "id": "54827",
+ "uuid": "6a6f0f51-4789-4f72-a1da-b6924531233b",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Gmail",
+ "description": "Secure, fast \u0026 organized email",
+ "url": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480",
+ "iconUrl": "https://images.refero.design/favicon/app_69/eaec3b7d-2948-4052-ae80-363cdc108dbd.jpg",
+ "backgroundColor": "1174e9",
+ "id": "69"
+ },
+ "createdAt": "2023-12-01T13:01:30.094Z",
+ "referoViewUrl": "https://refero.design/view/6a6f0f51-4789-4f72-a1da-b6924531233b",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/69/mobile/7f0658a7-d699-4f65-9a90-d981db9de380_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/69/mobile/7f0658a7-d699-4f65-9a90-d981db9de380.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f5f6f6",
+ "rgb": [
+ 245,
+ 246,
+ 246
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#df443a",
+ "rgb": [
+ 223,
+ 68,
+ 58
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#1566ce",
+ "rgb": [
+ 21,
+ 102,
+ 206
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#4795ea",
+ "rgb": [
+ 71,
+ 149,
+ 234
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#b09e9f",
+ "rgb": [
+ 176,
+ 158,
+ 159
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Browser",
+ "Error"
+ ],
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "Log In",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

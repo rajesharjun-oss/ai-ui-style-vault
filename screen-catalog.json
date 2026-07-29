@@ -1,0 +1,5473 @@
+{
+ "name": "AI UI Style Vault - Refero Screen References",
+ "generatedAt": "2026-07-29",
+ "totalScreenReferences": 48,
+ "sources": [
+ {
+ "name": "Refero iOS Apps",
+ "slug": "refero-ios-apps",
+ "url": "https://refero.design/apps/search",
+ "count": 18,
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+ },
+ {
+ "name": "Refero Web Screens",
+ "slug": "refero-web-screens",
+ "url": "https://refero.design/search",
+ "count": 30,
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+ }
+ ],
+ "pageTypes": [
+ {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard",
+ "mode": "apps-first",
+ "iosAppMatches": 2292,
+ "webMatches": 1234,
+ "captured": 4
+ },
+ {
+ "id": 44,
+ "name": "Product Page \u0026 Landing",
+ "slug": "product-page-landing",
+ "mode": "web-first",
+ "iosAppMatches": 0,
+ "webMatches": 4311,
+ "captured": 2
+ },
+ {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription",
+ "mode": "apps-first",
+ "iosAppMatches": 1158,
+ "webMatches": 706,
+ "captured": 4
+ },
+ {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login",
+ "mode": "apps-first",
+ "iosAppMatches": 865,
+ "webMatches": 1532,
+ "captured": 4
+ },
+ {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details",
+ "mode": "apps-first",
+ "iosAppMatches": 1264,
+ "webMatches": 925,
+ "captured": 4
+ },
+ {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account",
+ "mode": "apps-first",
+ "iosAppMatches": 2111,
+ "webMatches": 1911,
+ "captured": 4
+ },
+ {
+ "id": 41,
+ "name": "404 Page",
+ "slug": "404-page",
+ "mode": "web-first",
+ "iosAppMatches": 0,
+ "webMatches": 534,
+ "captured": 2
+ },
+ {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page",
+ "mode": "apps-first",
+ "iosAppMatches": 861,
+ "webMatches": 631,
+ "captured": 4
+ },
+ {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog",
+ "mode": "web-first",
+ "iosAppMatches": 154,
+ "webMatches": 440,
+ "captured": 4
+ },
+ {
+ "id": 33,
+ "name": "About",
+ "slug": "about",
+ "mode": "web-first",
+ "iosAppMatches": 227,
+ "webMatches": 465,
+ "captured": 4
+ },
+ {
+ "id": 35,
+ "name": "Careers",
+ "slug": "careers",
+ "mode": "web-first",
+ "iosAppMatches": 0,
+ "webMatches": 469,
+ "captured": 2
+ },
+ {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts",
+ "mode": "web-first",
+ "iosAppMatches": 105,
+ "webMatches": 471,
+ "captured": 4
+ },
+ {
+ "id": 39,
+ "name": "Developers Page",
+ "slug": "developers-page",
+ "mode": "web-first",
+ "iosAppMatches": 0,
+ "webMatches": 280,
+ "captured": 2
+ },
+ {
+ "id": 40,
+ "name": "Integration Page",
+ "slug": "integration-page",
+ "mode": "web-first",
+ "iosAppMatches": 0,
+ "webMatches": 524,
+ "captured": 2
+ },
+ {
+ "id": 36,
+ "name": "Media Kit",
+ "slug": "media-kit",
+ "mode": "web-first",
+ "iosAppMatches": 0,
+ "webMatches": 106,
+ "captured": 2
+ }
+ ],
+ "references": [
+ {
+ "id": "45256",
+ "uuid": "61d93e66-7d99-4a9a-aa95-7a687998f16d",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Lungy",
+ "description": "Calm Breath \u0026 Stress Coach",
+ "url": "https://apps.apple.com/us/app/lungy-breathing-exercises/id1545223887",
+ "iconUrl": "https://images.refero.design/favicon/app_52/c2c42a52-a360-4325-90c2-c11127b8e10d.jpg",
+ "backgroundColor": "8383ec",
+ "id": "52"
+ },
+ "createdAt": "2023-09-21T14:13:45.400Z",
+ "referoViewUrl": "https://refero.design/view/61d93e66-7d99-4a9a-aa95-7a687998f16d",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/52/mobile/fafd56f5-2ea7-42e8-9454-f0db2a59ab10_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/52/mobile/fafd56f5-2ea7-42e8-9454-f0db2a59ab10.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#543cfc",
+ "rgb": [
+ 84,
+ 60,
+ 252
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#e3d9f3",
+ "rgb": [
+ 227,
+ 217,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#8c6cee",
+ "rgb": [
+ 140,
+ 108,
+ 238
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#664bfb",
+ "rgb": [
+ 102,
+ 75,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#7c6cfc",
+ "rgb": [
+ 124,
+ 108,
+ 252
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Success",
+ "Stats"
+ ],
+ "pageElements": [
+ "Carousel",
+ "Floating Button",
+ "Illustration"
+ ],
+ "pageTypes": "Dashboard",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/dashboard/lungy-screen-45256",
+ "files": {
+ "readme": "screens/refero/ios-apps/dashboard/lungy-screen-45256/README.md",
+ "source": "screens/refero/ios-apps/dashboard/lungy-screen-45256/source.md",
+ "prompt": "screens/refero/ios-apps/dashboard/lungy-screen-45256/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/dashboard/lungy-screen-45256/screen.json",
+ "colors": "screens/refero/ios-apps/dashboard/lungy-screen-45256/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/dashboard/lungy-screen-45256/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/dashboard/lungy-screen-45256/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/dashboard/lungy-screen-45256/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/dashboard/lungy-screen-45256/screenshots/README.md"
+ }
+ },
+ {
+ "id": "47774",
+ "uuid": "a35a2453-25fa-463b-bbd2-6221e7d9fbc1",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "CARROT Weather",
+ "description": "Local Forecasts \u0026 Live Maps",
+ "url": "https://apps.apple.com/us/app/carrot-weather-alerts-radar/id961390574?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_56/f44f15fe-7e1e-438a-bf00-ea5d6b10d38b.jpg",
+ "backgroundColor": "6406b2",
+ "id": "56"
+ },
+ "createdAt": "2023-10-05T20:31:57.879Z",
+ "referoViewUrl": "https://refero.design/view/a35a2453-25fa-463b-bbd2-6221e7d9fbc1",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/56/mobile/4bc19cad-bb38-4927-96c6-0abe887be4c2_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/56/mobile/4bc19cad-bb38-4927-96c6-0abe887be4c2.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#bfc0c3",
+ "rgb": [
+ 191,
+ 192,
+ 195
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#2ca4fb",
+ "rgb": [
+ 44,
+ 164,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5e5e5f",
+ "rgb": [
+ 94,
+ 94,
+ 95
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#1168bc",
+ "rgb": [
+ 17,
+ 104,
+ 188
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f2b404",
+ "rgb": [
+ 242,
+ 180,
+ 4
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Stats",
+ "Timeline \u0026 History",
+ "Dark Mode"
+ ],
+ "pageElements": [
+ "Carousel",
+ "Button",
+ "Tabs",
+ "Navigation Bar",
+ "Icon"
+ ],
+ "pageTypes": "Dashboard",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774",
+ "files": {
+ "readme": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/README.md",
+ "source": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/source.md",
+ "prompt": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/screen.json",
+ "colors": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/dashboard/carrot-weather-screen-47774/screenshots/README.md"
+ }
+ },
+ {
+ "id": "9010",
+ "uuid": "5f9b93d3-6315-4656-8f74-cd26b07f1069",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Stripe",
+ "description": "Payment Processing Platform for the Internet",
+ "url": "https://dashboard.stripe.com/test/revenue-recognition",
+ "iconUrl": "https://images.refero.design/favicon/stripe.com/ebf153fa-a02b-4732-82fa-d33b398c6825.jpg",
+ "backgroundColor": "",
+ "id": "9"
+ },
+ "createdAt": "2022-11-09T11:54:06.549Z",
+ "referoViewUrl": "https://refero.design/view/5f9b93d3-6315-4656-8f74-cd26b07f1069",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/stripe.com/desktop/00d07674-325b-44e8-af0c-f2f5df70dbee_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86/0.jpg",
+ "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86/1.jpg",
+ "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86/2.jpg",
+ "https://images.refero.design/screenshots/stripe.com/desktop/bf64c9d0-e247-4500-b7d4-ef10ebd2dc86/3.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#6866d2",
+ "rgb": [
+ 104,
+ 102,
+ 210
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#46474d",
+ "rgb": [
+ 70,
+ 71,
+ 77
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#999ba6",
+ "rgb": [
+ 153,
+ 155,
+ 166
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#c2c8d2",
+ "rgb": [
+ 194,
+ 200,
+ 210
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#db7027",
+ "rgb": [
+ 219,
+ 112,
+ 39
+ ]
+ }
+ ],
+ "designPatterns": "Stats",
+ "pageElements": [
+ "Table",
+ "Line \u0026 Bar Chart",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Switch \u0026 Toggle",
+ "Skeleton",
+ "Navigation Bar",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Avatar"
+ ],
+ "pageTypes": [
+ "Profile \u0026 Account",
+ "Dashboard"
+ ],
+ "fonts": "San Francisco",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/dashboard/stripe-screen-9010",
+ "files": {
+ "readme": "screens/refero/web/dashboard/stripe-screen-9010/README.md",
+ "source": "screens/refero/web/dashboard/stripe-screen-9010/source.md",
+ "prompt": "screens/refero/web/dashboard/stripe-screen-9010/implementation-prompt.md",
+ "screen": "screens/refero/web/dashboard/stripe-screen-9010/screen.json",
+ "colors": "screens/refero/web/dashboard/stripe-screen-9010/tokens/colors.md",
+ "pageElements": "screens/refero/web/dashboard/stripe-screen-9010/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/dashboard/stripe-screen-9010/code/css-variables.css",
+ "designTokens": "screens/refero/web/dashboard/stripe-screen-9010/code/design-tokens.json",
+ "screenshots": "screens/refero/web/dashboard/stripe-screen-9010/screenshots/README.md"
+ }
+ },
+ {
+ "id": "61533",
+ "uuid": "110cd29d-f585-4903-9736-109fd5451abd",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Zapier",
+ "description": "Workflow automation software for everyone",
+ "url": "https://zapier.com/app/dashboard",
+ "iconUrl": "https://images.refero.design/favicon/zapier.com/7994b67d-21f3-4ca9-881a-2c419c88e44f.jpg",
+ "backgroundColor": "",
+ "id": "438"
+ },
+ "createdAt": "2024-01-30T11:08:42.243Z",
+ "referoViewUrl": "https://refero.design/view/110cd29d-f585-4903-9736-109fd5451abd",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/zapier.com/desktop/8c22f164-aca3-4be4-baf8-fdcef65aaae3_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/zapier.com/desktop/110cd29d-f585-4903-9736-109fd5451abd_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/zapier.com/desktop/8c22f164-aca3-4be4-baf8-fdcef65aaae3/0.jpg",
+ "https://images.refero.design/screenshots/zapier.com/desktop/8c22f164-aca3-4be4-baf8-fdcef65aaae3/1.jpg",
+ "https://images.refero.design/screenshots/zapier.com/desktop/8c22f164-aca3-4be4-baf8-fdcef65aaae3/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1f1817",
+ "rgb": [
+ 31,
+ 24,
+ 23
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f5be6a",
+ "rgb": [
+ 245,
+ 190,
+ 106
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#9f9b95",
+ "rgb": [
+ 159,
+ 155,
+ 149
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#c2b2d1",
+ "rgb": [
+ 194,
+ 178,
+ 209
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#ca4f3e",
+ "rgb": [
+ 202,
+ 79,
+ 62
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Templates",
+ "Suggestion \u0026 Similar Items",
+ "Ads \u0026 Promo Offer",
+ "AI Assistant"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Floating Button",
+ "Text Field",
+ "Navigation Bar",
+ "Sidebar \u0026 Drawer",
+ "Footer",
+ "Icon",
+ "Thumbnail",
+ "Avatar"
+ ],
+ "pageTypes": [
+ "Dashboard",
+ "Home Page"
+ ],
+ "fonts": [
+ "degular display",
+ "Inter",
+ "Intercom"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/dashboard/zapier-screen-61533",
+ "files": {
+ "readme": "screens/refero/web/dashboard/zapier-screen-61533/README.md",
+ "source": "screens/refero/web/dashboard/zapier-screen-61533/source.md",
+ "prompt": "screens/refero/web/dashboard/zapier-screen-61533/implementation-prompt.md",
+ "screen": "screens/refero/web/dashboard/zapier-screen-61533/screen.json",
+ "colors": "screens/refero/web/dashboard/zapier-screen-61533/tokens/colors.md",
+ "pageElements": "screens/refero/web/dashboard/zapier-screen-61533/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/dashboard/zapier-screen-61533/code/css-variables.css",
+ "designTokens": "screens/refero/web/dashboard/zapier-screen-61533/code/design-tokens.json",
+ "screenshots": "screens/refero/web/dashboard/zapier-screen-61533/screenshots/README.md"
+ }
+ },
+ {
+ "id": "13186",
+ "uuid": "730589a2-b304-4e65-af24-a8ab321c436e",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 44,
+ "name": "Product Page \u0026 Landing",
+ "slug": "product-page-landing"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "LEGO",
+ "description": "Explore the world of LEGO",
+ "url": "https://www.lego.com/en-us/life/app",
+ "iconUrl": "https://images.refero.design/favicon/lego.com/d6d9d343-a1bd-4fc1-91fc-f2a3f59edc8f.jpg",
+ "backgroundColor": "",
+ "id": "249"
+ },
+ "createdAt": "2023-01-19T14:29:30.789Z",
+ "referoViewUrl": "https://refero.design/view/730589a2-b304-4e65-af24-a8ab321c436e",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=44\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=44",
+ "thumbnailUrl": "https://images.refero.design/screenshots/lego.com/desktop/793a86cd-48df-4f82-9fdc-0391e8eb2e9c_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/lego.com/desktop/c48a5454-2784-4bc9-b3db-577520a91fc1_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/lego.com/desktop/793a86cd-48df-4f82-9fdc-0391e8eb2e9c/0.jpg",
+ "https://images.refero.design/screenshots/lego.com/desktop/793a86cd-48df-4f82-9fdc-0391e8eb2e9c/1.jpg",
+ "https://images.refero.design/screenshots/lego.com/desktop/793a86cd-48df-4f82-9fdc-0391e8eb2e9c/2.jpg",
+ "https://images.refero.design/screenshots/lego.com/desktop/793a86cd-48df-4f82-9fdc-0391e8eb2e9c/3.jpg",
+ "https://images.refero.design/screenshots/lego.com/desktop/793a86cd-48df-4f82-9fdc-0391e8eb2e9c/4.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#0a0807",
+ "rgb": [
+ 10,
+ 8,
+ 7
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#fbd204",
+ "rgb": [
+ 251,
+ 210,
+ 4
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#f2efee",
+ "rgb": [
+ 242,
+ 239,
+ 238
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#231c44",
+ "rgb": [
+ 35,
+ 28,
+ 68
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#6e513f",
+ "rgb": [
+ 110,
+ 81,
+ 63
+ ]
+ }
+ ],
+ "designPatterns": "Upload \u0026 Download",
+ "pageElements": [
+ "Button",
+ "Tabs",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Product Image"
+ ],
+ "pageTypes": "Product Page \u0026 Landing",
+ "fonts": [
+ "times",
+ "embeddedserviceiconfont",
+ "Arial",
+ "Cera Pro"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/product-page-landing/lego-screen-13186",
+ "files": {
+ "readme": "screens/refero/web/product-page-landing/lego-screen-13186/README.md",
+ "source": "screens/refero/web/product-page-landing/lego-screen-13186/source.md",
+ "prompt": "screens/refero/web/product-page-landing/lego-screen-13186/implementation-prompt.md",
+ "screen": "screens/refero/web/product-page-landing/lego-screen-13186/screen.json",
+ "colors": "screens/refero/web/product-page-landing/lego-screen-13186/tokens/colors.md",
+ "pageElements": "screens/refero/web/product-page-landing/lego-screen-13186/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/product-page-landing/lego-screen-13186/code/css-variables.css",
+ "designTokens": "screens/refero/web/product-page-landing/lego-screen-13186/code/design-tokens.json",
+ "screenshots": "screens/refero/web/product-page-landing/lego-screen-13186/screenshots/README.md"
+ }
+ },
+ {
+ "id": "16306",
+ "uuid": "7f304225-4c65-49bf-b333-509edabaab70",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 44,
+ "name": "Product Page \u0026 Landing",
+ "slug": "product-page-landing"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Equals",
+ "description": "The fastest way for startups to do any analysis",
+ "url": "https://equals.app/",
+ "iconUrl": "https://images.refero.design/favicon/equals.app/ef109cdf-61ad-4794-9f51-cf141aadc322.jpg",
+ "backgroundColor": "",
+ "id": "289"
+ },
+ "createdAt": "2023-02-27T17:18:30.395Z",
+ "referoViewUrl": "https://refero.design/view/7f304225-4c65-49bf-b333-509edabaab70",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=44\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=44",
+ "thumbnailUrl": "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/equals.app/desktop/cd600ead-107a-4b6a-84b1-f4f82f61ac64_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/0.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/1.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/2.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/3.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/4.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/5.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/6.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/7.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/8.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/9.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/10.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/11.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/12.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/13.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#3cd2e2",
+ "rgb": [
+ 60,
+ 210,
+ 226
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#0d0d10",
+ "rgb": [
+ 13,
+ 13,
+ 16
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#83f8c1",
+ "rgb": [
+ 131,
+ 248,
+ 193
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#dbc3fa",
+ "rgb": [
+ 219,
+ 195,
+ 250
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f7f79d",
+ "rgb": [
+ 247,
+ 247,
+ 157
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Testimonials",
+ "Video Player"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Logo Wall",
+ "Product Image"
+ ],
+ "pageTypes": [
+ "Product Page \u0026 Landing",
+ "Home Page"
+ ],
+ "fonts": [
+ "Intercom",
+ "Aeonik"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/product-page-landing/equals-screen-16306",
+ "files": {
+ "readme": "screens/refero/web/product-page-landing/equals-screen-16306/README.md",
+ "source": "screens/refero/web/product-page-landing/equals-screen-16306/source.md",
+ "prompt": "screens/refero/web/product-page-landing/equals-screen-16306/implementation-prompt.md",
+ "screen": "screens/refero/web/product-page-landing/equals-screen-16306/screen.json",
+ "colors": "screens/refero/web/product-page-landing/equals-screen-16306/tokens/colors.md",
+ "pageElements": "screens/refero/web/product-page-landing/equals-screen-16306/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/product-page-landing/equals-screen-16306/code/css-variables.css",
+ "designTokens": "screens/refero/web/product-page-landing/equals-screen-16306/code/design-tokens.json",
+ "screenshots": "screens/refero/web/product-page-landing/equals-screen-16306/screenshots/README.md"
+ }
+ },
+ {
+ "id": "57657",
+ "uuid": "f2a5bf6d-e8d3-4cc4-99bd-acd8140eccdd",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Revolut",
+ "description": "Travel, transfer, and exchange",
+ "url": "https://apps.apple.com/us/app/revolut-send-spend-and-save/id932493382?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_74/7e2cfaa2-5436-461f-8117-cebe3c69a461.jpg",
+ "backgroundColor": "",
+ "id": "74"
+ },
+ "createdAt": "2023-12-20T14:35:34.413Z",
+ "referoViewUrl": "https://refero.design/view/f2a5bf6d-e8d3-4cc4-99bd-acd8140eccdd",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/74/mobile/ae83b6ab-e469-48c1-9414-a005e9337baa_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/74/mobile/ae83b6ab-e469-48c1-9414-a005e9337baa.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f5f5f5",
+ "rgb": [
+ 245,
+ 245,
+ 245
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#5f5663",
+ "rgb": [
+ 95,
+ 86,
+ 99
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#97999f",
+ "rgb": [
+ 151,
+ 153,
+ 159
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#7a8592",
+ "rgb": [
+ 122,
+ 133,
+ 146
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#84737d",
+ "rgb": [
+ 132,
+ 115,
+ 125
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Product Features",
+ "Trial \u0026 Freemium"
+ ],
+ "pageElements": [
+ "Carousel",
+ "List",
+ "Button",
+ "Floating Button",
+ "Tabs",
+ "Badge",
+ "Navigation Bar",
+ "Icon",
+ "Product Image",
+ "Currency",
+ "Animation"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657",
+ "files": {
+ "readme": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/README.md",
+ "source": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/source.md",
+ "prompt": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/screen.json",
+ "colors": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/paywall-subscription/revolut-screen-57657/screenshots/README.md"
+ }
+ },
+ {
+ "id": "59440",
+ "uuid": "ea8ee7ef-8b63-4322-beb8-67a08a517b02",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Andante",
+ "description": "Perfect your practice",
+ "url": "https://apps.apple.com/us/app/andante-practice-journal/id1530262372?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_79/d89097ef-bcff-45ae-a54f-a5999847ea40.jpg",
+ "backgroundColor": "fd6643",
+ "id": "79"
+ },
+ "createdAt": "2024-01-11T11:58:32.797Z",
+ "referoViewUrl": "https://refero.design/view/ea8ee7ef-8b63-4322-beb8-67a08a517b02",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/79/mobile/f3a5b53b-cefb-43fc-8a43-b256476b09b0_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/79/mobile/f3a5b53b-cefb-43fc-8a43-b256476b09b0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9fa",
+ "rgb": [
+ 249,
+ 249,
+ 250
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#cb4a34",
+ "rgb": [
+ 203,
+ 74,
+ 52
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#4ad296",
+ "rgb": [
+ 74,
+ 210,
+ 150
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5c5d5e",
+ "rgb": [
+ 92,
+ 93,
+ 94
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#a69c9d",
+ "rgb": [
+ 166,
+ 156,
+ 157
+ ]
+ }
+ ],
+ "designPatterns": "Product Features",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440",
+ "files": {
+ "readme": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/README.md",
+ "source": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/source.md",
+ "prompt": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/screen.json",
+ "colors": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/paywall-subscription/andante-screen-59440/screenshots/README.md"
+ }
+ },
+ {
+ "id": "9771",
+ "uuid": "f4314cf4-512a-4ddc-9ddc-0564654e3f4e",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Calm",
+ "description": "#1 app for sleep and meditation",
+ "url": "https://business.calm.com/plans/",
+ "iconUrl": "https://images.refero.design/favicon/calm.com/a7d5a2cd-d384-4afc-94b9-8b8a057384c6.jpg",
+ "backgroundColor": "",
+ "id": "227"
+ },
+ "createdAt": "2022-12-01T15:39:08.378Z",
+ "referoViewUrl": "https://refero.design/view/f4314cf4-512a-4ddc-9ddc-0564654e3f4e",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/calm.com/desktop/cc191b26-068b-4a1c-a2b9-892e2735c695_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/calm.com/desktop/9bea97ce-660e-4a5a-89af-0a482638a1df_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/calm.com/desktop/cc191b26-068b-4a1c-a2b9-892e2735c695/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f2f3f3",
+ "rgb": [
+ 242,
+ 243,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#4b4b4b",
+ "rgb": [
+ 75,
+ 75,
+ 75
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5b88df",
+ "rgb": [
+ 91,
+ 136,
+ 223
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#141e30",
+ "rgb": [
+ 20,
+ 30,
+ 48
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#68b8bf",
+ "rgb": [
+ 104,
+ 184,
+ 191
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Floating Button",
+ "Slider",
+ "Dialog \u0026 Modal Window",
+ "Currency"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": [
+ "San Francisco",
+ "Helvetica",
+ "Avenir"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/paywall-subscription/calm-screen-9771",
+ "files": {
+ "readme": "screens/refero/web/paywall-subscription/calm-screen-9771/README.md",
+ "source": "screens/refero/web/paywall-subscription/calm-screen-9771/source.md",
+ "prompt": "screens/refero/web/paywall-subscription/calm-screen-9771/implementation-prompt.md",
+ "screen": "screens/refero/web/paywall-subscription/calm-screen-9771/screen.json",
+ "colors": "screens/refero/web/paywall-subscription/calm-screen-9771/tokens/colors.md",
+ "pageElements": "screens/refero/web/paywall-subscription/calm-screen-9771/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/paywall-subscription/calm-screen-9771/code/css-variables.css",
+ "designTokens": "screens/refero/web/paywall-subscription/calm-screen-9771/code/design-tokens.json",
+ "screenshots": "screens/refero/web/paywall-subscription/calm-screen-9771/screenshots/README.md"
+ }
+ },
+ {
+ "id": "14457",
+ "uuid": "c15db544-597c-4319-96cb-183893e03367",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Creative Market",
+ "description": "Bring your creative ideas to life",
+ "url": "https://creativemarket.com/licenses/general",
+ "iconUrl": "https://images.refero.design/favicon/creativemarket.com/6512c074-7752-4a50-9292-5698db46c870.jpg",
+ "backgroundColor": "",
+ "id": "264"
+ },
+ "createdAt": "2023-02-05T15:41:41.807Z",
+ "referoViewUrl": "https://refero.design/view/c15db544-597c-4319-96cb-183893e03367",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/creativemarket.com/desktop/87081c6d-5c30-4188-974d-b59997ac9971_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735/0.jpg",
+ "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735/1.jpg",
+ "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735/2.jpg",
+ "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735/3.jpg",
+ "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735/4.jpg",
+ "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735/5.jpg",
+ "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735/6.jpg",
+ "https://images.refero.design/screenshots/creativemarket.com/desktop/2aae8fa2-546c-48a0-895d-61cf334af735/7.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#8c8ac9",
+ "rgb": [
+ 140,
+ 138,
+ 201
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#343636",
+ "rgb": [
+ 52,
+ 54,
+ 54
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#b4b9e8",
+ "rgb": [
+ 180,
+ 185,
+ 232
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#6c6c6c",
+ "rgb": [
+ 108,
+ 108,
+ 108
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f3f1f7",
+ "rgb": [
+ 243,
+ 241,
+ 247
+ ]
+ }
+ ],
+ "designPatterns": "FAQ",
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Badge",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Illustration",
+ "Hero Image",
+ "Currency"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": [
+ "Averta",
+ "Lyon Display"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/paywall-subscription/creative-market-screen-14457",
+ "files": {
+ "readme": "screens/refero/web/paywall-subscription/creative-market-screen-14457/README.md",
+ "source": "screens/refero/web/paywall-subscription/creative-market-screen-14457/source.md",
+ "prompt": "screens/refero/web/paywall-subscription/creative-market-screen-14457/implementation-prompt.md",
+ "screen": "screens/refero/web/paywall-subscription/creative-market-screen-14457/screen.json",
+ "colors": "screens/refero/web/paywall-subscription/creative-market-screen-14457/tokens/colors.md",
+ "pageElements": "screens/refero/web/paywall-subscription/creative-market-screen-14457/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/paywall-subscription/creative-market-screen-14457/code/css-variables.css",
+ "designTokens": "screens/refero/web/paywall-subscription/creative-market-screen-14457/code/design-tokens.json",
+ "screenshots": "screens/refero/web/paywall-subscription/creative-market-screen-14457/screenshots/README.md"
+ }
+ },
+ {
+ "id": "54827",
+ "uuid": "6a6f0f51-4789-4f72-a1da-b6924531233b",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Gmail",
+ "description": "Secure, fast \u0026 organized email",
+ "url": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480",
+ "iconUrl": "https://images.refero.design/favicon/app_69/eaec3b7d-2948-4052-ae80-363cdc108dbd.jpg",
+ "backgroundColor": "1174e9",
+ "id": "69"
+ },
+ "createdAt": "2023-12-01T13:01:30.094Z",
+ "referoViewUrl": "https://refero.design/view/6a6f0f51-4789-4f72-a1da-b6924531233b",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/69/mobile/7f0658a7-d699-4f65-9a90-d981db9de380_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/69/mobile/7f0658a7-d699-4f65-9a90-d981db9de380.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f5f6f6",
+ "rgb": [
+ 245,
+ 246,
+ 246
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#df443a",
+ "rgb": [
+ 223,
+ 68,
+ 58
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#1566ce",
+ "rgb": [
+ 21,
+ 102,
+ 206
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#4795ea",
+ "rgb": [
+ 71,
+ 149,
+ 234
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#b09e9f",
+ "rgb": [
+ 176,
+ 158,
+ 159
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Browser",
+ "Error"
+ ],
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "Log In",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/login/gmail-screen-54827",
+ "files": {
+ "readme": "screens/refero/ios-apps/login/gmail-screen-54827/README.md",
+ "source": "screens/refero/ios-apps/login/gmail-screen-54827/source.md",
+ "prompt": "screens/refero/ios-apps/login/gmail-screen-54827/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/login/gmail-screen-54827/screen.json",
+ "colors": "screens/refero/ios-apps/login/gmail-screen-54827/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/login/gmail-screen-54827/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/login/gmail-screen-54827/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/login/gmail-screen-54827/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/login/gmail-screen-54827/screenshots/README.md"
+ }
+ },
+ {
+ "id": "56098",
+ "uuid": "ae68783e-1d62-40e3-82b6-0071864d4827",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Craft",
+ "description": "Journal ideas, meeting notes",
+ "url": "https://apps.apple.com/us/app/craft-write-docs-ai-editing/id1487937127",
+ "iconUrl": "https://images.refero.design/favicon/app_71/9936193b-5237-4bbb-a88b-8fff7607ae1c.jpg",
+ "backgroundColor": "81a0fe",
+ "id": "71"
+ },
+ "createdAt": "2023-12-07T14:43:47.470Z",
+ "referoViewUrl": "https://refero.design/view/ae68783e-1d62-40e3-82b6-0071864d4827",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/71/mobile/c8eaf990-6ea3-40a1-a361-a4e698eb1628_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/71/mobile/c8eaf990-6ea3-40a1-a361-a4e698eb1628.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f4f4f6",
+ "rgb": [
+ 244,
+ 244,
+ 246
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#a2a3a6",
+ "rgb": [
+ 162,
+ 163,
+ 166
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5b5b5b",
+ "rgb": [
+ 91,
+ 91,
+ 91
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8b8c8c",
+ "rgb": [
+ 139,
+ 140,
+ 140
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Navigation Bar",
+ "Icon",
+ "Onscreen Keyboard"
+ ],
+ "pageTypes": [
+ "Sign Up",
+ "Verification",
+ "Log In"
+ ],
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/login/craft-screen-56098",
+ "files": {
+ "readme": "screens/refero/ios-apps/login/craft-screen-56098/README.md",
+ "source": "screens/refero/ios-apps/login/craft-screen-56098/source.md",
+ "prompt": "screens/refero/ios-apps/login/craft-screen-56098/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/login/craft-screen-56098/screen.json",
+ "colors": "screens/refero/ios-apps/login/craft-screen-56098/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/login/craft-screen-56098/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/login/craft-screen-56098/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/login/craft-screen-56098/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/login/craft-screen-56098/screenshots/README.md"
+ }
+ },
+ {
+ "id": "5537",
+ "uuid": "46b3c61c-bd0b-4a20-a18a-b7614278d633",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "LinkedIn",
+ "description": "Manage your professional identity",
+ "url": "https://www.linkedin.com/login?fromSignIn=true\u0026trk=guest_homepage-basic_nav-header-signin",
+ "iconUrl": "https://images.refero.design/favicon/linkedin.com/8bb26757-f842-45e5-a943-f029f346d678.jpg",
+ "backgroundColor": "",
+ "id": "187"
+ },
+ "createdAt": "2022-08-14T17:17:49.172Z",
+ "referoViewUrl": "https://refero.design/view/46b3c61c-bd0b-4a20-a18a-b7614278d633",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/linkedin.com/desktop/32d5d178-d952-4c1f-9aa6-cf2e7fcd1c29_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/linkedin.com/desktop/5fa4e659-dc1a-422d-9143-e5834767fb24_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/linkedin.com/desktop/32d5d178-d952-4c1f-9aa6-cf2e7fcd1c29/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#646464",
+ "rgb": [
+ 100,
+ 100,
+ 100
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#1a1b1a",
+ "rgb": [
+ 26,
+ 27,
+ 26
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#0d64c1",
+ "rgb": [
+ 13,
+ 100,
+ 193
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#7f8184",
+ "rgb": [
+ 127,
+ 129,
+ 132
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f3f5f5",
+ "rgb": [
+ 243,
+ 245,
+ 245
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "Log In",
+ "fonts": "San Francisco",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/login/linkedin-screen-5537",
+ "files": {
+ "readme": "screens/refero/web/login/linkedin-screen-5537/README.md",
+ "source": "screens/refero/web/login/linkedin-screen-5537/source.md",
+ "prompt": "screens/refero/web/login/linkedin-screen-5537/implementation-prompt.md",
+ "screen": "screens/refero/web/login/linkedin-screen-5537/screen.json",
+ "colors": "screens/refero/web/login/linkedin-screen-5537/tokens/colors.md",
+ "pageElements": "screens/refero/web/login/linkedin-screen-5537/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/login/linkedin-screen-5537/code/css-variables.css",
+ "designTokens": "screens/refero/web/login/linkedin-screen-5537/code/design-tokens.json",
+ "screenshots": "screens/refero/web/login/linkedin-screen-5537/screenshots/README.md"
+ }
+ },
+ {
+ "id": "15861",
+ "uuid": "eb25afed-2377-479d-aa21-cd1a650b5a17",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Awwwards",
+ "description": "Best Web Design Trends",
+ "url": "https://www.awwwards.com/",
+ "iconUrl": "https://images.refero.design/favicon/awwwards.com/189664f9-7293-46cb-92a8-cca2d93a78a1.jpg",
+ "backgroundColor": "",
+ "id": "285"
+ },
+ "createdAt": "2023-02-22T10:13:32.297Z",
+ "referoViewUrl": "https://refero.design/view/eb25afed-2377-479d-aa21-cd1a650b5a17",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/awwwards.com/desktop/de797c6f-f710-470f-a075-0d3a401e00be_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/awwwards.com/desktop/221b092b-6fa7-4f3f-9f97-b42b5c384319_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/awwwards.com/desktop/de797c6f-f710-470f-a075-0d3a401e00be/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#242424",
+ "rgb": [
+ 36,
+ 36,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ececec",
+ "rgb": [
+ 236,
+ 236,
+ 236
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#502fd2",
+ "rgb": [
+ 80,
+ 47,
+ 210
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fcfbfb",
+ "rgb": [
+ 252,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#aeeac6",
+ "rgb": [
+ 174,
+ 234,
+ 198
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Checkbox \u0026 Radio",
+ "Text Field",
+ "Dialog \u0026 Modal Window",
+ "Illustration"
+ ],
+ "pageTypes": "Log In",
+ "fonts": "Apercu",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/login/awwwards-screen-15861",
+ "files": {
+ "readme": "screens/refero/web/login/awwwards-screen-15861/README.md",
+ "source": "screens/refero/web/login/awwwards-screen-15861/source.md",
+ "prompt": "screens/refero/web/login/awwwards-screen-15861/implementation-prompt.md",
+ "screen": "screens/refero/web/login/awwwards-screen-15861/screen.json",
+ "colors": "screens/refero/web/login/awwwards-screen-15861/tokens/colors.md",
+ "pageElements": "screens/refero/web/login/awwwards-screen-15861/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/login/awwwards-screen-15861/code/css-variables.css",
+ "designTokens": "screens/refero/web/login/awwwards-screen-15861/code/design-tokens.json",
+ "screenshots": "screens/refero/web/login/awwwards-screen-15861/screenshots/README.md"
+ }
+ },
+ {
+ "id": "20068",
+ "uuid": "c5a38ed6-e94f-4b6e-ab3d-dae070868af4",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Asos",
+ "description": "Discover fashion online",
+ "url": "https://apps.apple.com/us/app/asos/id457876088",
+ "iconUrl": "https://images.refero.design/favicon/app_6/3b9a2cf0-5e53-43c2-8e9d-be27acc86211.jpg",
+ "backgroundColor": "",
+ "id": "6"
+ },
+ "createdAt": "2023-03-28T13:32:50.747Z",
+ "referoViewUrl": "https://refero.design/view/c5a38ed6-e94f-4b6e-ab3d-dae070868af4",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=47\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=47",
+ "thumbnailUrl": "https://images.refero.design/screenshots/6/mobile/499d80a9-d5bc-448c-9bd2-e49ced75849a_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/6/mobile/499d80a9-d5bc-448c-9bd2-e49ced75849a.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#bfb5a0",
+ "rgb": [
+ 191,
+ 181,
+ 160
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#41bea2",
+ "rgb": [
+ 65,
+ 190,
+ 162
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#4444bd",
+ "rgb": [
+ 68,
+ 68,
+ 189
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#c11f83",
+ "rgb": [
+ 193,
+ 31,
+ 131
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#bba51f",
+ "rgb": [
+ 187,
+ 165,
+ 31
+ ]
+ }
+ ],
+ "designPatterns": "Suggestion \u0026 Similar Items",
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Cards \u0026 Tiles",
+ "Icon",
+ "Thumbnail"
+ ],
+ "pageTypes": "Product Details",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/product-details/asos-screen-20068",
+ "files": {
+ "readme": "screens/refero/ios-apps/product-details/asos-screen-20068/README.md",
+ "source": "screens/refero/ios-apps/product-details/asos-screen-20068/source.md",
+ "prompt": "screens/refero/ios-apps/product-details/asos-screen-20068/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/product-details/asos-screen-20068/screen.json",
+ "colors": "screens/refero/ios-apps/product-details/asos-screen-20068/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/product-details/asos-screen-20068/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/product-details/asos-screen-20068/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/product-details/asos-screen-20068/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/product-details/asos-screen-20068/screenshots/README.md"
+ }
+ },
+ {
+ "id": "53058",
+ "uuid": "f5bfd7a9-cb72-4093-af5a-b8cefae7582c",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Glow",
+ "description": "Your new favorite wallet",
+ "url": "https://apps.apple.com/us/app/glow-solana-wallet/id1599584512",
+ "iconUrl": "https://images.refero.design/favicon/app_66/cd47f827-6c76-4edb-9d2f-ae7767b9a228.jpg",
+ "backgroundColor": "aa34d7",
+ "id": "66"
+ },
+ "createdAt": "2023-11-14T16:29:17.650Z",
+ "referoViewUrl": "https://refero.design/view/f5bfd7a9-cb72-4093-af5a-b8cefae7582c",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=47\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=47",
+ "thumbnailUrl": "https://images.refero.design/screenshots/66/mobile/d720494c-95fe-421f-a59e-b79079a2c354_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/66/mobile/d720494c-95fe-421f-a59e-b79079a2c354.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#c9c9c9",
+ "rgb": [
+ 201,
+ 201,
+ 201
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#49403f",
+ "rgb": [
+ 73,
+ 64,
+ 63
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#312e30",
+ "rgb": [
+ 49,
+ 46,
+ 48
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#1b1c1c",
+ "rgb": [
+ 27,
+ 28,
+ 28
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#3c3b44",
+ "rgb": [
+ 60,
+ 59,
+ 68
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Shopping",
+ "Timeline \u0026 History"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "List",
+ "Icon",
+ "Currency"
+ ],
+ "pageTypes": "Product Details",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/product-details/glow-screen-53058",
+ "files": {
+ "readme": "screens/refero/ios-apps/product-details/glow-screen-53058/README.md",
+ "source": "screens/refero/ios-apps/product-details/glow-screen-53058/source.md",
+ "prompt": "screens/refero/ios-apps/product-details/glow-screen-53058/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/product-details/glow-screen-53058/screen.json",
+ "colors": "screens/refero/ios-apps/product-details/glow-screen-53058/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/product-details/glow-screen-53058/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/product-details/glow-screen-53058/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/product-details/glow-screen-53058/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/product-details/glow-screen-53058/screenshots/README.md"
+ }
+ },
+ {
+ "id": "9981",
+ "uuid": "6bee035c-140d-4e98-af2a-710793a9934a",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Pattern Brands",
+ "description": "Design-forward goods for everyday living",
+ "url": "https://www.patternbrands.com/shop/10piece-best-sellers-set/?variant=41109278785733",
+ "iconUrl": "https://images.refero.design/favicon/patternbrands.com/b57fe0e8-427c-4613-ab62-a1b7eba93889.jpg",
+ "backgroundColor": "",
+ "id": "229"
+ },
+ "createdAt": "2022-12-05T11:21:59.348Z",
+ "referoViewUrl": "https://refero.design/view/6bee035c-140d-4e98-af2a-710793a9934a",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=47\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=47",
+ "thumbnailUrl": "https://images.refero.design/screenshots/patternbrands.com/desktop/0a85929b-35d5-4a3d-866a-12ffc4a137ec_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/patternbrands.com/desktop/233f6bac-27c1-432d-bba5-856998be87c6_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/patternbrands.com/desktop/0a85929b-35d5-4a3d-866a-12ffc4a137ec/0.jpg",
+ "https://images.refero.design/screenshots/patternbrands.com/desktop/0a85929b-35d5-4a3d-866a-12ffc4a137ec/1.jpg",
+ "https://images.refero.design/screenshots/patternbrands.com/desktop/0a85929b-35d5-4a3d-866a-12ffc4a137ec/2.jpg",
+ "https://images.refero.design/screenshots/patternbrands.com/desktop/0a85929b-35d5-4a3d-866a-12ffc4a137ec/3.jpg",
+ "https://images.refero.design/screenshots/patternbrands.com/desktop/0a85929b-35d5-4a3d-866a-12ffc4a137ec/4.jpg",
+ "https://images.refero.design/screenshots/patternbrands.com/desktop/0a85929b-35d5-4a3d-866a-12ffc4a137ec/5.jpg",
+ "https://images.refero.design/screenshots/patternbrands.com/desktop/0a85929b-35d5-4a3d-866a-12ffc4a137ec/6.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#9f4e36",
+ "rgb": [
+ 159,
+ 78,
+ 54
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#bca085",
+ "rgb": [
+ 188,
+ 160,
+ 133
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#282f26",
+ "rgb": [
+ 40,
+ 47,
+ 38
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#af8750",
+ "rgb": [
+ 175,
+ 135,
+ 80
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f7ebdc",
+ "rgb": [
+ 247,
+ 235,
+ 220
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Suggestion \u0026 Similar Items",
+ "Shopping",
+ "Reviews \u0026 Rating"
+ ],
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Carousel",
+ "Button",
+ "Color Picker",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Stepper",
+ "Currency"
+ ],
+ "pageTypes": "Product Details",
+ "fonts": [
+ "times",
+ "Arial",
+ "P22 Mackinac",
+ "Cadiz"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/product-details/pattern-brands-screen-9981",
+ "files": {
+ "readme": "screens/refero/web/product-details/pattern-brands-screen-9981/README.md",
+ "source": "screens/refero/web/product-details/pattern-brands-screen-9981/source.md",
+ "prompt": "screens/refero/web/product-details/pattern-brands-screen-9981/implementation-prompt.md",
+ "screen": "screens/refero/web/product-details/pattern-brands-screen-9981/screen.json",
+ "colors": "screens/refero/web/product-details/pattern-brands-screen-9981/tokens/colors.md",
+ "pageElements": "screens/refero/web/product-details/pattern-brands-screen-9981/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/product-details/pattern-brands-screen-9981/code/css-variables.css",
+ "designTokens": "screens/refero/web/product-details/pattern-brands-screen-9981/code/design-tokens.json",
+ "screenshots": "screens/refero/web/product-details/pattern-brands-screen-9981/screenshots/README.md"
+ }
+ },
+ {
+ "id": "48574",
+ "uuid": "d79f95be-0a8b-43c2-8f18-a0032411a992",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "ZARA",
+ "description": "Discover the new ZARA collection online",
+ "url": "https://www.zara.com/us/en/eye-pencil-p24790200.html?v1=276419907\u0026v2=1881259",
+ "iconUrl": "https://images.refero.design/favicon/zara.com/fadd8c75-174f-4b24-9f4e-70af328c0d91.jpg",
+ "backgroundColor": "",
+ "id": "390"
+ },
+ "createdAt": "2023-10-10T13:05:35.450Z",
+ "referoViewUrl": "https://refero.design/view/d79f95be-0a8b-43c2-8f18-a0032411a992",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=47\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=47",
+ "thumbnailUrl": "https://images.refero.design/screenshots/zara.com/desktop/d322d070-a68b-4cad-9697-135528a99835_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/zara.com/desktop/b7fa5c91-1c1d-43b9-9ce8-dab55117c4b7_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/zara.com/desktop/d322d070-a68b-4cad-9697-135528a99835/0.jpg",
+ "https://images.refero.design/screenshots/zara.com/desktop/d322d070-a68b-4cad-9697-135528a99835/1.jpg",
+ "https://images.refero.design/screenshots/zara.com/desktop/d322d070-a68b-4cad-9697-135528a99835/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#dfaf8c",
+ "rgb": [
+ 223,
+ 175,
+ 140
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#8b5c3c",
+ "rgb": [
+ 139,
+ 92,
+ 60
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#72412f",
+ "rgb": [
+ 114,
+ 65,
+ 47
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#e3e3e4",
+ "rgb": [
+ 227,
+ 227,
+ 228
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#140c09",
+ "rgb": [
+ 20,
+ 12,
+ 9
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Shopping",
+ "Video Player"
+ ],
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Carousel",
+ "Button",
+ "Color Picker",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Thumbnail",
+ "Currency"
+ ],
+ "pageTypes": "Product Details",
+ "fonts": [
+ "Open Sans",
+ "Arial",
+ "Verdana",
+ "Zara Athleticz"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/product-details/zara-screen-48574",
+ "files": {
+ "readme": "screens/refero/web/product-details/zara-screen-48574/README.md",
+ "source": "screens/refero/web/product-details/zara-screen-48574/source.md",
+ "prompt": "screens/refero/web/product-details/zara-screen-48574/implementation-prompt.md",
+ "screen": "screens/refero/web/product-details/zara-screen-48574/screen.json",
+ "colors": "screens/refero/web/product-details/zara-screen-48574/tokens/colors.md",
+ "pageElements": "screens/refero/web/product-details/zara-screen-48574/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/product-details/zara-screen-48574/code/css-variables.css",
+ "designTokens": "screens/refero/web/product-details/zara-screen-48574/code/design-tokens.json",
+ "screenshots": "screens/refero/web/product-details/zara-screen-48574/screenshots/README.md"
+ }
+ },
+ {
+ "id": "29434",
+ "uuid": "e0d91b16-3912-4d59-a217-ba388651ae47",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Spotify",
+ "description": "Discover the latest songs",
+ "url": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",
+ "iconUrl": "https://images.refero.design/favicon/app_1/2ba1ae0c-efb2-4b3c-9b3a-59f899c2460f.jpg",
+ "backgroundColor": "36c45a",
+ "id": "1"
+ },
+ "createdAt": "2023-05-16T20:50:52.335Z",
+ "referoViewUrl": "https://refero.design/view/e0d91b16-3912-4d59-a217-ba388651ae47",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/1/mobile/d726d8c9-b5ca-4f58-91e1-3db257f94f6c_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/1/mobile/d726d8c9-b5ca-4f58-91e1-3db257f94f6c.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#915a51",
+ "rgb": [
+ 145,
+ 90,
+ 81
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#61433e",
+ "rgb": [
+ 97,
+ 67,
+ 62
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#e9e9dd",
+ "rgb": [
+ 233,
+ 233,
+ 221
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#2e2221",
+ "rgb": [
+ 46,
+ 34,
+ 33
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#b9b3b3",
+ "rgb": [
+ 185,
+ 179,
+ 179
+ ]
+ }
+ ],
+ "designPatterns": "Mini Player",
+ "pageElements": [
+ "List",
+ "Button",
+ "Progress Bar",
+ "Icon",
+ "Thumbnail",
+ "Avatar",
+ "Tabbar"
+ ],
+ "pageTypes": "Profile \u0026 Account",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/profile-account/spotify-screen-29434",
+ "files": {
+ "readme": "screens/refero/ios-apps/profile-account/spotify-screen-29434/README.md",
+ "source": "screens/refero/ios-apps/profile-account/spotify-screen-29434/source.md",
+ "prompt": "screens/refero/ios-apps/profile-account/spotify-screen-29434/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/profile-account/spotify-screen-29434/screen.json",
+ "colors": "screens/refero/ios-apps/profile-account/spotify-screen-29434/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/profile-account/spotify-screen-29434/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/profile-account/spotify-screen-29434/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/profile-account/spotify-screen-29434/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/profile-account/spotify-screen-29434/screenshots/README.md"
+ }
+ },
+ {
+ "id": "45915",
+ "uuid": "e0d04deb-9762-4276-a5b3-806eb1518b73",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Google Maps",
+ "description": "Places, Navigation \u0026 Traffic",
+ "url": "https://apps.apple.com/us/app/google-maps/id585027354",
+ "iconUrl": "https://images.refero.design/favicon/app_53/19ae49f6-01f2-4795-bdca-c7c32dcab246.jpg",
+ "backgroundColor": "",
+ "id": "53"
+ },
+ "createdAt": "2023-09-23T11:29:51.121Z",
+ "referoViewUrl": "https://refero.design/view/e0d04deb-9762-4276-a5b3-806eb1518b73",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/53/mobile/76468927-ab4d-47cf-8b40-3826b9441cdf_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/53/mobile/76468927-ab4d-47cf-8b40-3826b9441cdf.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9f9",
+ "rgb": [
+ 249,
+ 249,
+ 249
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#5b5448",
+ "rgb": [
+ 91,
+ 84,
+ 72
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a8a196",
+ "rgb": [
+ 168,
+ 161,
+ 150
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#9d985a",
+ "rgb": [
+ 157,
+ 152,
+ 90
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#9c6644",
+ "rgb": [
+ 156,
+ 102,
+ 68
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Cards \u0026 Tiles",
+ "Media Gallery",
+ "Carousel",
+ "Button",
+ "Tags \u0026 Chips",
+ "Badge",
+ "Navigation Bar",
+ "Icon",
+ "Thumbnail",
+ "Avatar"
+ ],
+ "pageTypes": "Profile \u0026 Account",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/profile-account/google-maps-screen-45915",
+ "files": {
+ "readme": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/README.md",
+ "source": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/source.md",
+ "prompt": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/screen.json",
+ "colors": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/profile-account/google-maps-screen-45915/screenshots/README.md"
+ }
+ },
+ {
+ "id": "2521",
+ "uuid": "382462bf-5211-4378-bf18-09fd57a1af7b",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Apollo GraphQL",
+ "description": "The supergraph: a new layer in your stack",
+ "url": "https://studio.apollographql.com/org/stepan-smirnovs-team/usage",
+ "iconUrl": "https://images.refero.design/favicon/apollographql.com/7f9953cf-c53e-452c-a825-0c1fdf032e1b.jpg",
+ "backgroundColor": "",
+ "id": "79"
+ },
+ "createdAt": "2022-06-15T12:22:25.233Z",
+ "referoViewUrl": "https://refero.design/view/382462bf-5211-4378-bf18-09fd57a1af7b",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/apollographql.com/desktop/d8fbe80e-f0c0-4d16-ae7b-072577c16237_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/apollographql.com/desktop/e297250e-da6c-4f1a-8fcc-aa9957c4f5d7_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/apollographql.com/desktop/d8fbe80e-f0c0-4d16-ae7b-072577c16237/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+
+ ],
+ "designPatterns": "Empty State",
+ "pageElements": [
+ "Button",
+ "Tabs",
+ "Badge",
+ "Navigation Bar",
+ "Icon",
+ "Illustration",
+ "Avatar"
+ ],
+ "pageTypes": "Profile \u0026 Account",
+ "fonts": "Source Sans Pro",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/profile-account/apollo-graphql-screen-2521",
+ "files": {
+ "readme": "screens/refero/web/profile-account/apollo-graphql-screen-2521/README.md",
+ "source": "screens/refero/web/profile-account/apollo-graphql-screen-2521/source.md",
+ "prompt": "screens/refero/web/profile-account/apollo-graphql-screen-2521/implementation-prompt.md",
+ "screen": "screens/refero/web/profile-account/apollo-graphql-screen-2521/screen.json",
+ "colors": "screens/refero/web/profile-account/apollo-graphql-screen-2521/tokens/colors.md",
+ "pageElements": "screens/refero/web/profile-account/apollo-graphql-screen-2521/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/profile-account/apollo-graphql-screen-2521/code/css-variables.css",
+ "designTokens": "screens/refero/web/profile-account/apollo-graphql-screen-2521/code/design-tokens.json",
+ "screenshots": "screens/refero/web/profile-account/apollo-graphql-screen-2521/screenshots/README.md"
+ }
+ },
+ {
+ "id": "4770",
+ "uuid": "f1b92055-6cb0-437d-896a-d17221ab6771",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Kraken",
+ "description": "Bitcoin \u0026 Cryptocurrency Exchange",
+ "url": "https://www.kraken.com/u/settings/account",
+ "iconUrl": "https://images.refero.design/favicon/kraken.com/241088b7-8201-4996-8b04-1a80724a5632.jpg",
+ "backgroundColor": "",
+ "id": "161"
+ },
+ "createdAt": "2022-07-29T15:17:42.290Z",
+ "referoViewUrl": "https://refero.design/view/f1b92055-6cb0-437d-896a-d17221ab6771",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/kraken.com/desktop/f1b92055-6cb0-437d-896a-d17221ab6771_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a/0.jpg",
+ "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#040483",
+ "rgb": [
+ 4,
+ 4,
+ 131
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#232324",
+ "rgb": [
+ 35,
+ 35,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#8a8b94",
+ "rgb": [
+ 138,
+ 139,
+ 148
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f4f4f4",
+ "rgb": [
+ 244,
+ 244,
+ 244
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#2b24b3",
+ "rgb": [
+ 43,
+ 36,
+ 179
+ ]
+ }
+ ],
+ "designPatterns": "Edit",
+ "pageElements": [
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Text Field",
+ "Navigation Bar",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": [
+ "Profile \u0026 Account",
+ "Settings"
+ ],
+ "fonts": [
+ "IBM Plex Sans",
+ "Kraken Plex"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/profile-account/kraken-screen-4770",
+ "files": {
+ "readme": "screens/refero/web/profile-account/kraken-screen-4770/README.md",
+ "source": "screens/refero/web/profile-account/kraken-screen-4770/source.md",
+ "prompt": "screens/refero/web/profile-account/kraken-screen-4770/implementation-prompt.md",
+ "screen": "screens/refero/web/profile-account/kraken-screen-4770/screen.json",
+ "colors": "screens/refero/web/profile-account/kraken-screen-4770/tokens/colors.md",
+ "pageElements": "screens/refero/web/profile-account/kraken-screen-4770/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/profile-account/kraken-screen-4770/code/css-variables.css",
+ "designTokens": "screens/refero/web/profile-account/kraken-screen-4770/code/design-tokens.json",
+ "screenshots": "screens/refero/web/profile-account/kraken-screen-4770/screenshots/README.md"
+ }
+ },
+ {
+ "id": "123401",
+ "uuid": "b2587e75-e96b-4974-9c6f-1031b06801fb",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 41,
+ "name": "404 Page",
+ "slug": "404-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Airbnb",
+ "description": "Vacation rentals, cabins, beach houses, \u0026 more",
+ "url": "https://www.airbnb.com/roo%D0%B2%D0%B0%D0%BF%D0%B2%D0%B0%D0%BF%D0%B2%D0%B0%D0%BFms/17619720?check_in=2025-07-18\u0026check_out=2025-07-20\u0026photo_id=283136826\u0026source_impression_id=p3_1749478283_P3RnvO3isC0eA9qj\u0026previous_page_section_name=1000",
+ "iconUrl": "https://images.refero.design/favicon/airbnb.com/4090b8cd-8e04-4dbf-8b6b-199db577bea7.jpg",
+ "backgroundColor": "",
+ "id": "72"
+ },
+ "createdAt": "2025-06-09T14:11:57.860Z",
+ "referoViewUrl": "https://refero.design/view/b2587e75-e96b-4974-9c6f-1031b06801fb",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=41\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=41",
+ "thumbnailUrl": "https://images.refero.design/screenshots/airbnb.com/desktop/662731fb-9930-449d-9cae-35ec0fd682c1_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/airbnb.com/desktop/662731fb-9930-449d-9cae-35ec0fd682c1_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/airbnb.com/desktop/662731fb-9930-449d-9cae-35ec0fd682c1/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#4d4a4c",
+ "rgb": [
+ 77,
+ 74,
+ 76
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#a22158",
+ "rgb": [
+ 162,
+ 33,
+ 88
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#11d2c2",
+ "rgb": [
+ 17,
+ 210,
+ 194
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#177e85",
+ "rgb": [
+ 23,
+ 126,
+ 133
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#faab93",
+ "rgb": [
+ 250,
+ 171,
+ 147
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": "Illustration",
+ "pageTypes": "404 Page",
+ "fonts": "Circular",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/404-page/airbnb-screen-123401",
+ "files": {
+ "readme": "screens/refero/web/404-page/airbnb-screen-123401/README.md",
+ "source": "screens/refero/web/404-page/airbnb-screen-123401/source.md",
+ "prompt": "screens/refero/web/404-page/airbnb-screen-123401/implementation-prompt.md",
+ "screen": "screens/refero/web/404-page/airbnb-screen-123401/screen.json",
+ "colors": "screens/refero/web/404-page/airbnb-screen-123401/tokens/colors.md",
+ "pageElements": "screens/refero/web/404-page/airbnb-screen-123401/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/404-page/airbnb-screen-123401/code/css-variables.css",
+ "designTokens": "screens/refero/web/404-page/airbnb-screen-123401/code/design-tokens.json",
+ "screenshots": "screens/refero/web/404-page/airbnb-screen-123401/screenshots/README.md"
+ }
+ },
+ {
+ "id": "159884",
+ "uuid": "0367aa23-bb28-4d66-b31c-fa74b1119aba",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 41,
+ "name": "404 Page",
+ "slug": "404-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "adidas",
+ "description": "More than sportswear and workout clothes",
+ "url": "https://www.adidas.com/us/hefgsdfgsdfglp/us-company-information/what-are-the-terms-and-conditions",
+ "iconUrl": "https://images.refero.design/favicon/adidas.com/f1d16f47-80f3-4e42-9e72-38e3ba071c37.jpg",
+ "backgroundColor": "",
+ "id": "46"
+ },
+ "createdAt": "2026-02-25T09:47:22.335Z",
+ "referoViewUrl": "https://refero.design/view/0367aa23-bb28-4d66-b31c-fa74b1119aba",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=41\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=41",
+ "thumbnailUrl": "https://images.refero.design/screenshots/adidas.com/desktop/160b8dff-0353-4ca1-a422-e81776de133f_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/adidas.com/desktop/160b8dff-0353-4ca1-a422-e81776de133f_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/adidas.com/desktop/160b8dff-0353-4ca1-a422-e81776de133f/0.jpg",
+ "https://images.refero.design/screenshots/adidas.com/desktop/160b8dff-0353-4ca1-a422-e81776de133f/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#438464",
+ "rgb": [
+ 67,
+ 132,
+ 100
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#fafafb",
+ "rgb": [
+ 250,
+ 250,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#596a64",
+ "rgb": [
+ 89,
+ 106,
+ 100
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#9b9c9c",
+ "rgb": [
+ 155,
+ 156,
+ 156
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#848484",
+ "rgb": [
+ 132,
+ 132,
+ 132
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "404 Page",
+ "fonts": [
+ "Arial",
+ "AdiHaus",
+ "Adidas FG"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/404-page/adidas-screen-159884",
+ "files": {
+ "readme": "screens/refero/web/404-page/adidas-screen-159884/README.md",
+ "source": "screens/refero/web/404-page/adidas-screen-159884/source.md",
+ "prompt": "screens/refero/web/404-page/adidas-screen-159884/implementation-prompt.md",
+ "screen": "screens/refero/web/404-page/adidas-screen-159884/screen.json",
+ "colors": "screens/refero/web/404-page/adidas-screen-159884/tokens/colors.md",
+ "pageElements": "screens/refero/web/404-page/adidas-screen-159884/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/404-page/adidas-screen-159884/code/css-variables.css",
+ "designTokens": "screens/refero/web/404-page/adidas-screen-159884/code/design-tokens.json",
+ "screenshots": "screens/refero/web/404-page/adidas-screen-159884/screenshots/README.md"
+ }
+ },
+ {
+ "id": "80970",
+ "uuid": "1ba52fd2-37bd-4474-bd90-6c00e1b7292f",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "TikTok",
+ "description": "Videos, Music \u0026 Live Streams",
+ "url": "https://apps.apple.com/us/app/tiktok/id835599320",
+ "iconUrl": "https://images.refero.design/favicon/app_116/3f3802c6-1685-471f-ac3d-be1ee09598d3.jpg",
+ "backgroundColor": "24bcbc",
+ "id": "116"
+ },
+ "createdAt": "2024-06-10T21:02:35.261Z",
+ "referoViewUrl": "https://refero.design/view/1ba52fd2-37bd-4474-bd90-6c00e1b7292f",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/116/mobile/56dfa50a-bb28-4bda-80e7-d3b9ebd4d191_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/116/mobile/56dfa50a-bb28-4bda-80e7-d3b9ebd4d191.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f6f6f6",
+ "rgb": [
+ 246,
+ 246,
+ 246
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a3a3a3",
+ "rgb": [
+ 163,
+ 163,
+ 163
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#535353",
+ "rgb": [
+ 83,
+ 83,
+ 83
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#848484",
+ "rgb": [
+ 132,
+ 132,
+ 132
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Loading \u0026 Connecting",
+ "Shopping",
+ "Searching"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Skeleton",
+ "Navigation Bar",
+ "Search Field",
+ "Icon"
+ ],
+ "pageTypes": "Catalog Page",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970",
+ "files": {
+ "readme": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/README.md",
+ "source": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/source.md",
+ "prompt": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/screen.json",
+ "colors": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/catalog-page/tiktok-screen-80970/screenshots/README.md"
+ }
+ },
+ {
+ "id": "81034",
+ "uuid": "ff82cfaa-bd0a-43f2-98e5-0c45c1a073aa",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "TikTok",
+ "description": "Videos, Music \u0026 Live Streams",
+ "url": "https://apps.apple.com/us/app/tiktok/id835599320",
+ "iconUrl": "https://images.refero.design/favicon/app_116/3f3802c6-1685-471f-ac3d-be1ee09598d3.jpg",
+ "backgroundColor": "24bcbc",
+ "id": "116"
+ },
+ "createdAt": "2024-06-10T21:07:48.793Z",
+ "referoViewUrl": "https://refero.design/view/ff82cfaa-bd0a-43f2-98e5-0c45c1a073aa",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/116/mobile/6f0834fd-df09-44d7-a830-325945a5f4bc_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/116/mobile/6f0834fd-df09-44d7-a830-325945a5f4bc.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f8f8f8",
+ "rgb": [
+ 248,
+ 248,
+ 248
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#dd3b58",
+ "rgb": [
+ 221,
+ 59,
+ 88
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#1db7bb",
+ "rgb": [
+ 29,
+ 183,
+ 187
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#b39fa2",
+ "rgb": [
+ 179,
+ 159,
+ 162
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#604a41",
+ "rgb": [
+ 96,
+ 74,
+ 65
+ ]
+ }
+ ],
+ "designPatterns": "Shopping",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "List",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Badge",
+ "Navigation Bar",
+ "Icon",
+ "Thumbnail",
+ "Avatar",
+ "Currency"
+ ],
+ "pageTypes": [
+ "Profile \u0026 Account",
+ "Catalog Page"
+ ],
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034",
+ "files": {
+ "readme": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/README.md",
+ "source": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/source.md",
+ "prompt": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/screen.json",
+ "colors": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/catalog-page/tiktok-screen-81034/screenshots/README.md"
+ }
+ },
+ {
+ "id": "22569",
+ "uuid": "47a2d551-a462-479a-a387-35e68c07073f",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Asos",
+ "description": "Online Shopping",
+ "url": "https://www.asos.com/men/sale/suits-tailoring/cat/?cid=8134\u0026ctaref=hp|mw|sale|carousel|2|category|tailoring",
+ "iconUrl": "https://images.refero.design/favicon/asos.com/4363407e-c6fa-41e1-889c-125ea190a392.jpg",
+ "backgroundColor": "",
+ "id": "66"
+ },
+ "createdAt": "2023-04-07T09:10:42.022Z",
+ "referoViewUrl": "https://refero.design/view/47a2d551-a462-479a-a387-35e68c07073f",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/asos.com/desktop/f6285bff-7a38-4244-9899-faab7afb0051_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/0.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/1.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/2.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/3.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/4.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/5.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/6.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/7.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/8.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/9.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/10.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/11.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/12.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/13.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#9944b3",
+ "rgb": [
+ 153,
+ 68,
+ 179
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#26262a",
+ "rgb": [
+ 38,
+ 38,
+ 42
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#18c0bd",
+ "rgb": [
+ 24,
+ 192,
+ 189
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8c8c8d",
+ "rgb": [
+ 140,
+ 140,
+ 141
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#565353",
+ "rgb": [
+ 86,
+ 83,
+ 83
+ ]
+ }
+ ],
+ "designPatterns": "Shopping",
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Page Control \u0026 Pagination",
+ "Breadcrumb",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Thumbnail",
+ "Currency"
+ ],
+ "pageTypes": "Catalog Page",
+ "fonts": [
+ "Arial",
+ "Futura PT"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/catalog-page/asos-screen-22569",
+ "files": {
+ "readme": "screens/refero/web/catalog-page/asos-screen-22569/README.md",
+ "source": "screens/refero/web/catalog-page/asos-screen-22569/source.md",
+ "prompt": "screens/refero/web/catalog-page/asos-screen-22569/implementation-prompt.md",
+ "screen": "screens/refero/web/catalog-page/asos-screen-22569/screen.json",
+ "colors": "screens/refero/web/catalog-page/asos-screen-22569/tokens/colors.md",
+ "pageElements": "screens/refero/web/catalog-page/asos-screen-22569/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/catalog-page/asos-screen-22569/code/css-variables.css",
+ "designTokens": "screens/refero/web/catalog-page/asos-screen-22569/code/design-tokens.json",
+ "screenshots": "screens/refero/web/catalog-page/asos-screen-22569/screenshots/README.md"
+ }
+ },
+ {
+ "id": "90224",
+ "uuid": "e5e82042-e95c-4a90-a806-2dfce3f5efa5",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Urban Outfitters",
+ "description": "Clothing, accessories and apartment items for men and women",
+ "url": "https://www.urbanoutfitters.com/search?q=jeans",
+ "iconUrl": "https://images.refero.design/favicon/urbanoutfitters.com/a18ad84f-d3ef-44c2-b990-49014ff90ea3.jpg",
+ "backgroundColor": "",
+ "id": "379"
+ },
+ "createdAt": "2024-08-13T10:41:25.506Z",
+ "referoViewUrl": "https://refero.design/view/e5e82042-e95c-4a90-a806-2dfce3f5efa5",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/d3eb62bb-d574-4931-98ff-f6c83646cc83_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/0.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/1.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/2.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/3.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/4.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/5.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/6.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/7.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/8.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/9.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/10.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/11.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/12.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/13.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/14.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/15.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/16.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/17.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/18.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/19.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/20.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/21.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/22.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/23.jpg",
+ "https://images.refero.design/screenshots/urbanoutfitters.com/desktop/feb0090b-72e0-4e9f-bd31-4828c7590cd5/24.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#2c3141",
+ "rgb": [
+ 44,
+ 49,
+ 65
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#86908c",
+ "rgb": [
+ 134,
+ 144,
+ 140
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#814e3f",
+ "rgb": [
+ 129,
+ 78,
+ 63
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#b9b7b2",
+ "rgb": [
+ 185,
+ 183,
+ 178
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#a0765c",
+ "rgb": [
+ 160,
+ 118,
+ 92
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Email Subscription",
+ "Select",
+ "Shopping",
+ "Searching"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Page Control \u0026 Pagination",
+ "Text Field",
+ "Color Picker",
+ "Badge",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Icon",
+ "Thumbnail",
+ "Currency"
+ ],
+ "pageTypes": "Catalog Page",
+ "fonts": [
+ "times",
+ "sans serif",
+ "embeddedserviceiconfont",
+ "Helvetica"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/catalog-page/urban-outfitters-screen-90224",
+ "files": {
+ "readme": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/README.md",
+ "source": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/source.md",
+ "prompt": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/implementation-prompt.md",
+ "screen": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/screen.json",
+ "colors": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/tokens/colors.md",
+ "pageElements": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/code/css-variables.css",
+ "designTokens": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/code/design-tokens.json",
+ "screenshots": "screens/refero/web/catalog-page/urban-outfitters-screen-90224/screenshots/README.md"
+ }
+ },
+ {
+ "id": "132929",
+ "uuid": "2f91c1e5-5a98-481d-bbc3-b9c5ade8d711",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Train Fitness",
+ "description": "Auto-tracking for Apple Watch",
+ "url": "https://apps.apple.com/us/app/train-fitness-workout-tracker/id1548577496",
+ "iconUrl": "https://images.refero.design/favicon/app_211/234d8366-a951-4a60-8d62-b8696691b339.jpg",
+ "backgroundColor": "d3a417",
+ "id": "211"
+ },
+ "createdAt": "2025-08-17T13:01:23.435Z",
+ "referoViewUrl": "https://refero.design/view/2f91c1e5-5a98-481d-bbc3-b9c5ade8d711",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=46\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=46",
+ "thumbnailUrl": "https://images.refero.design/screenshots/211/mobile/a9702b2b-16ea-4d2b-9370-c3002fbdae68_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/211/mobile/a9702b2b-16ea-4d2b-9370-c3002fbdae68.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#171311",
+ "rgb": [
+ 23,
+ 19,
+ 17
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#975f46",
+ "rgb": [
+ 151,
+ 95,
+ 70
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#989898",
+ "rgb": [
+ 152,
+ 152,
+ 152
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5a5a57",
+ "rgb": [
+ 90,
+ 90,
+ 87
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#cecdcc",
+ "rgb": [
+ 206,
+ 205,
+ 204
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "List",
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Thumbnail",
+ "Tabbar"
+ ],
+ "pageTypes": "Blog",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/blog/train-fitness-screen-132929",
+ "files": {
+ "readme": "screens/refero/ios-apps/blog/train-fitness-screen-132929/README.md",
+ "source": "screens/refero/ios-apps/blog/train-fitness-screen-132929/source.md",
+ "prompt": "screens/refero/ios-apps/blog/train-fitness-screen-132929/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/blog/train-fitness-screen-132929/screen.json",
+ "colors": "screens/refero/ios-apps/blog/train-fitness-screen-132929/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/blog/train-fitness-screen-132929/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/blog/train-fitness-screen-132929/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/blog/train-fitness-screen-132929/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/blog/train-fitness-screen-132929/screenshots/README.md"
+ }
+ },
+ {
+ "id": "76678",
+ "uuid": "873f80e1-d79f-4683-8aea-a6fbb42e7e27",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "VSCO",
+ "description": "Filters, Effects \u0026 Collages",
+ "url": "https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838",
+ "iconUrl": "https://images.refero.design/favicon/app_107/eb385f3e-852b-409c-bf2b-a5b4077e18c3.jpg",
+ "backgroundColor": "c2c2c2",
+ "id": "107"
+ },
+ "createdAt": "2024-05-14T13:00:06.403Z",
+ "referoViewUrl": "https://refero.design/view/873f80e1-d79f-4683-8aea-a6fbb42e7e27",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=46\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=46",
+ "thumbnailUrl": "https://images.refero.design/screenshots/107/mobile/56edb9e4-33f3-4d29-9db0-80f22fd03239_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/107/mobile/56edb9e4-33f3-4d29-9db0-80f22fd03239.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#d8d8d7",
+ "rgb": [
+ 216,
+ 216,
+ 215
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#635041",
+ "rgb": [
+ 99,
+ 80,
+ 65
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#638c9f",
+ "rgb": [
+ 99,
+ 140,
+ 159
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#94918a",
+ "rgb": [
+ 148,
+ 145,
+ 138
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#3e7291",
+ "rgb": [
+ 62,
+ 114,
+ 145
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Dark Mode",
+ "Searching"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Navigation Bar",
+ "Search Field",
+ "Icon",
+ "Thumbnail",
+ "Tabbar"
+ ],
+ "pageTypes": "Blog",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/blog/vsco-screen-76678",
+ "files": {
+ "readme": "screens/refero/ios-apps/blog/vsco-screen-76678/README.md",
+ "source": "screens/refero/ios-apps/blog/vsco-screen-76678/source.md",
+ "prompt": "screens/refero/ios-apps/blog/vsco-screen-76678/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/blog/vsco-screen-76678/screen.json",
+ "colors": "screens/refero/ios-apps/blog/vsco-screen-76678/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/blog/vsco-screen-76678/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/blog/vsco-screen-76678/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/blog/vsco-screen-76678/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/blog/vsco-screen-76678/screenshots/README.md"
+ }
+ },
+ {
+ "id": "100760",
+ "uuid": "47fa9965-d1ca-424e-aa3c-153094c3d0d3",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Expedia",
+ "description": "Vacation Homes, Hotels, Car Rentals, Flights",
+ "url": "https://www.expedia.com/magazine/?BRANDCID=EXPEDIA-US.DTI-HOMEPAGE.EDITORIAL.MAGAZINE.GENERIC",
+ "iconUrl": "https://images.refero.design/favicon/expedia.com/52906e97-2cbb-4b7e-811b-65f5adcf3275.jpg",
+ "backgroundColor": "",
+ "id": "172"
+ },
+ "createdAt": "2024-12-13T12:47:25.448Z",
+ "referoViewUrl": "https://refero.design/view/47fa9965-d1ca-424e-aa3c-153094c3d0d3",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=46\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=46",
+ "thumbnailUrl": "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/0.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/1.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/2.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/3.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/4.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/5.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/6.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/7.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/8.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/9.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/10.jpg",
+ "https://images.refero.design/screenshots/expedia.com/desktop/7d9005b1-0e74-4719-a134-216445662b3d/11.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1d1d36",
+ "rgb": [
+ 29,
+ 29,
+ 54
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#e9d23c",
+ "rgb": [
+ 233,
+ 210,
+ 60
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#755542",
+ "rgb": [
+ 117,
+ 85,
+ 66
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#809aab",
+ "rgb": [
+ 128,
+ 154,
+ 171
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f9faf7",
+ "rgb": [
+ 249,
+ 250,
+ 247
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "Button",
+ "Page Control \u0026 Pagination",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon"
+ ],
+ "pageTypes": "Blog",
+ "fonts": [
+ "times",
+ "Repro",
+ "Centra No.2"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/blog/expedia-screen-100760",
+ "files": {
+ "readme": "screens/refero/web/blog/expedia-screen-100760/README.md",
+ "source": "screens/refero/web/blog/expedia-screen-100760/source.md",
+ "prompt": "screens/refero/web/blog/expedia-screen-100760/implementation-prompt.md",
+ "screen": "screens/refero/web/blog/expedia-screen-100760/screen.json",
+ "colors": "screens/refero/web/blog/expedia-screen-100760/tokens/colors.md",
+ "pageElements": "screens/refero/web/blog/expedia-screen-100760/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/blog/expedia-screen-100760/code/css-variables.css",
+ "designTokens": "screens/refero/web/blog/expedia-screen-100760/code/design-tokens.json",
+ "screenshots": "screens/refero/web/blog/expedia-screen-100760/screenshots/README.md"
+ }
+ },
+ {
+ "id": "58248",
+ "uuid": "9a92f42d-8d75-4f24-b303-47797cc92ef9",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Parallel",
+ "description": "Make what you love your work",
+ "url": "https://www.useparallel.com/blog/company",
+ "iconUrl": "https://images.refero.design/favicon/useparallel.com/ca30f739-96a1-421b-baf5-d627c3e7ef82.jpg",
+ "backgroundColor": "",
+ "id": "383"
+ },
+ "createdAt": "2023-12-21T12:10:49.854Z",
+ "referoViewUrl": "https://refero.design/view/9a92f42d-8d75-4f24-b303-47797cc92ef9",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=46\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=46",
+ "thumbnailUrl": "https://images.refero.design/screenshots/useparallel.com/desktop/464cc823-6d64-49bc-983a-4b3075f4e479_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/useparallel.com/desktop/8ee80d95-f750-40bd-b55d-11231a2571c0_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/useparallel.com/desktop/464cc823-6d64-49bc-983a-4b3075f4e479/0.jpg",
+ "https://images.refero.design/screenshots/useparallel.com/desktop/464cc823-6d64-49bc-983a-4b3075f4e479/1.jpg",
+ "https://images.refero.design/screenshots/useparallel.com/desktop/464cc823-6d64-49bc-983a-4b3075f4e479/2.jpg",
+ "https://images.refero.design/screenshots/useparallel.com/desktop/464cc823-6d64-49bc-983a-4b3075f4e479/3.jpg",
+ "https://images.refero.design/screenshots/useparallel.com/desktop/464cc823-6d64-49bc-983a-4b3075f4e479/4.jpg",
+ "https://images.refero.design/screenshots/useparallel.com/desktop/464cc823-6d64-49bc-983a-4b3075f4e479/5.jpg",
+ "https://images.refero.design/screenshots/useparallel.com/desktop/464cc823-6d64-49bc-983a-4b3075f4e479/6.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#d8d1e5",
+ "rgb": [
+ 216,
+ 209,
+ 229
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#e4f230",
+ "rgb": [
+ 228,
+ 242,
+ 48
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#b1936f",
+ "rgb": [
+ 177,
+ 147,
+ 111
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5f4439",
+ "rgb": [
+ 95,
+ 68,
+ 57
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#92503a",
+ "rgb": [
+ 146,
+ 80,
+ 58
+ ]
+ }
+ ],
+ "designPatterns": "Email Subscription",
+ "pageElements": [
+ "List",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Text Field",
+ "Tags \u0026 Chips",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Illustration"
+ ],
+ "pageTypes": "Blog",
+ "fonts": "Work Sans",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/blog/parallel-screen-58248",
+ "files": {
+ "readme": "screens/refero/web/blog/parallel-screen-58248/README.md",
+ "source": "screens/refero/web/blog/parallel-screen-58248/source.md",
+ "prompt": "screens/refero/web/blog/parallel-screen-58248/implementation-prompt.md",
+ "screen": "screens/refero/web/blog/parallel-screen-58248/screen.json",
+ "colors": "screens/refero/web/blog/parallel-screen-58248/tokens/colors.md",
+ "pageElements": "screens/refero/web/blog/parallel-screen-58248/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/blog/parallel-screen-58248/code/css-variables.css",
+ "designTokens": "screens/refero/web/blog/parallel-screen-58248/code/design-tokens.json",
+ "screenshots": "screens/refero/web/blog/parallel-screen-58248/screenshots/README.md"
+ }
+ },
+ {
+ "id": "53628",
+ "uuid": "cdf9aa1e-6fd2-4b86-bc9b-5b8478b9e299",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Momently",
+ "description": "Store your moments privately",
+ "url": "https://apps.apple.com/us/app/momently/id1557152902",
+ "iconUrl": "https://images.refero.design/favicon/app_67/7ea27648-0309-4081-b147-ad3de75de8f3.jpg",
+ "backgroundColor": "f97436",
+ "id": "67"
+ },
+ "createdAt": "2023-11-22T16:22:37.557Z",
+ "referoViewUrl": "https://refero.design/view/cdf9aa1e-6fd2-4b86-bc9b-5b8478b9e299",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=33\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=33",
+ "thumbnailUrl": "https://images.refero.design/screenshots/67/mobile/7ea9adbc-0e2c-4399-a54d-bee5de62c8de_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/67/mobile/7ea9adbc-0e2c-4399-a54d-bee5de62c8de.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#2c2c2c",
+ "rgb": [
+ 44,
+ 44,
+ 44
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f5edeb",
+ "rgb": [
+ 245,
+ 237,
+ 235
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#fb6b38",
+ "rgb": [
+ 251,
+ 107,
+ 56
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f54b46",
+ "rgb": [
+ 245,
+ 75,
+ 70
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#14141c",
+ "rgb": [
+ 20,
+ 20,
+ 28
+ ]
+ }
+ ],
+ "designPatterns": "Dark Mode",
+ "pageElements": [
+ "List",
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "About",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/about/momently-screen-53628",
+ "files": {
+ "readme": "screens/refero/ios-apps/about/momently-screen-53628/README.md",
+ "source": "screens/refero/ios-apps/about/momently-screen-53628/source.md",
+ "prompt": "screens/refero/ios-apps/about/momently-screen-53628/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/about/momently-screen-53628/screen.json",
+ "colors": "screens/refero/ios-apps/about/momently-screen-53628/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/about/momently-screen-53628/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/about/momently-screen-53628/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/about/momently-screen-53628/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/about/momently-screen-53628/screenshots/README.md"
+ }
+ },
+ {
+ "id": "62456",
+ "uuid": "8ed77d39-6734-4cd4-b5c2-487d76a6fc8d",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Camera M",
+ "description": "Powerful Pro Controls",
+ "url": "https://apps.apple.com/us/app/camera-m-pro-manual-camera/id1239098425",
+ "iconUrl": "https://images.refero.design/favicon/app_83/b2f4f8d9-7623-47c6-8d41-00f45d7ae47e.jpg",
+ "backgroundColor": "d3a417",
+ "id": "83"
+ },
+ "createdAt": "2024-02-05T15:59:22.552Z",
+ "referoViewUrl": "https://refero.design/view/8ed77d39-6734-4cd4-b5c2-487d76a6fc8d",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=33\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=33",
+ "thumbnailUrl": "https://images.refero.design/screenshots/83/mobile/1820dba0-1372-4b64-a707-a22b676bbf2c_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/83/mobile/1820dba0-1372-4b64-a707-a22b676bbf2c.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#dbd9d6",
+ "rgb": [
+ 219,
+ 217,
+ 214
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#605f5c",
+ "rgb": [
+ 96,
+ 95,
+ 92
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#0ff487",
+ "rgb": [
+ 15,
+ 244,
+ 135
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8d8b8b",
+ "rgb": [
+ 141,
+ 139,
+ 139
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f05504",
+ "rgb": [
+ 240,
+ 85,
+ 4
+ ]
+ }
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Hero Image",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "About",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/about/camera-m-screen-62456",
+ "files": {
+ "readme": "screens/refero/ios-apps/about/camera-m-screen-62456/README.md",
+ "source": "screens/refero/ios-apps/about/camera-m-screen-62456/source.md",
+ "prompt": "screens/refero/ios-apps/about/camera-m-screen-62456/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/about/camera-m-screen-62456/screen.json",
+ "colors": "screens/refero/ios-apps/about/camera-m-screen-62456/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/about/camera-m-screen-62456/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/about/camera-m-screen-62456/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/about/camera-m-screen-62456/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/about/camera-m-screen-62456/screenshots/README.md"
+ }
+ },
+ {
+ "id": "171829",
+ "uuid": "8b6c2359-8df2-4075-b86a-9c77ec176daf",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Duolingo",
+ "description": "The world\u0027s most popular way to learn",
+ "url": "https://www.duolingo.com/efficacy/studies",
+ "iconUrl": "https://images.refero.design/favicon/duolingo.com/b3c7e139-ccf0-44ba-a781-d505dc6004ed.jpg",
+ "backgroundColor": "",
+ "id": "147"
+ },
+ "createdAt": "2026-05-13T13:31:02.277Z",
+ "referoViewUrl": "https://refero.design/view/8b6c2359-8df2-4075-b86a-9c77ec176daf",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=33\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=33",
+ "thumbnailUrl": "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/0.jpg",
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/1.jpg",
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/2.jpg",
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/3.jpg",
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/4.jpg",
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/5.jpg",
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/6.jpg",
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/7.jpg",
+ "https://images.refero.design/screenshots/duolingo.com/desktop/8b6c2359-8df2-4075-b86a-9c77ec176daf/8.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#57cb0d",
+ "rgb": [
+ 87,
+ 203,
+ 13
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#44cef7",
+ "rgb": [
+ 68,
+ 206,
+ 247
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#4d4d4d",
+ "rgb": [
+ 77,
+ 77,
+ 77
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#96d02d",
+ "rgb": [
+ 150,
+ 208,
+ 45
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#84808a",
+ "rgb": [
+ 132,
+ 128,
+ 138
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "List",
+ "Button",
+ "Dropdown",
+ "Tags \u0026 Chips",
+ "Navigation Bar",
+ "Footer",
+ "Icon",
+ "Illustration",
+ "Hero Image"
+ ],
+ "pageTypes": "About",
+ "fonts": [
+ "feather",
+ "DIN Next Rounded"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/about/duolingo-screen-171829",
+ "files": {
+ "readme": "screens/refero/web/about/duolingo-screen-171829/README.md",
+ "source": "screens/refero/web/about/duolingo-screen-171829/source.md",
+ "prompt": "screens/refero/web/about/duolingo-screen-171829/implementation-prompt.md",
+ "screen": "screens/refero/web/about/duolingo-screen-171829/screen.json",
+ "colors": "screens/refero/web/about/duolingo-screen-171829/tokens/colors.md",
+ "pageElements": "screens/refero/web/about/duolingo-screen-171829/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/about/duolingo-screen-171829/code/css-variables.css",
+ "designTokens": "screens/refero/web/about/duolingo-screen-171829/code/design-tokens.json",
+ "screenshots": "screens/refero/web/about/duolingo-screen-171829/screenshots/README.md"
+ }
+ },
+ {
+ "id": "27020",
+ "uuid": "7922e89f-9302-43f1-be0b-d489c3e03629",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Buy Me a Coffee",
+ "description": "For Creators and Artists",
+ "url": "https://www.buymeacoffee.com/about",
+ "iconUrl": "https://images.refero.design/favicon/buymeacoffee.com/d8359524-771d-4d6e-b4c1-53a993d503f2.jpg",
+ "backgroundColor": "",
+ "id": "334"
+ },
+ "createdAt": "2023-04-30T16:50:23.632Z",
+ "referoViewUrl": "https://refero.design/view/7922e89f-9302-43f1-be0b-d489c3e03629",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=33\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=33",
+ "thumbnailUrl": "https://images.refero.design/screenshots/buymeacoffee.com/desktop/998d959e-7e0c-41ff-90d5-6f78195e4888_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/buymeacoffee.com/desktop/c2e01d70-f487-418d-a2ca-b5187fe758c0_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/buymeacoffee.com/desktop/998d959e-7e0c-41ff-90d5-6f78195e4888/0.jpg",
+ "https://images.refero.design/screenshots/buymeacoffee.com/desktop/998d959e-7e0c-41ff-90d5-6f78195e4888/1.jpg",
+ "https://images.refero.design/screenshots/buymeacoffee.com/desktop/998d959e-7e0c-41ff-90d5-6f78195e4888/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#20201e",
+ "rgb": [
+ 32,
+ 32,
+ 30
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#b59f8c",
+ "rgb": [
+ 181,
+ 159,
+ 140
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#b26946",
+ "rgb": [
+ 178,
+ 105,
+ 70
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fbfae3",
+ "rgb": [
+ 251,
+ 250,
+ 227
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#e0c823",
+ "rgb": [
+ 224,
+ 200,
+ 35
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Logo Wall"
+ ],
+ "pageTypes": "About",
+ "fonts": [
+ "UI Sans Serif",
+ "Arial",
+ "Circular Std",
+ "Circular"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/about/buy-me-a-coffee-screen-27020",
+ "files": {
+ "readme": "screens/refero/web/about/buy-me-a-coffee-screen-27020/README.md",
+ "source": "screens/refero/web/about/buy-me-a-coffee-screen-27020/source.md",
+ "prompt": "screens/refero/web/about/buy-me-a-coffee-screen-27020/implementation-prompt.md",
+ "screen": "screens/refero/web/about/buy-me-a-coffee-screen-27020/screen.json",
+ "colors": "screens/refero/web/about/buy-me-a-coffee-screen-27020/tokens/colors.md",
+ "pageElements": "screens/refero/web/about/buy-me-a-coffee-screen-27020/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/about/buy-me-a-coffee-screen-27020/code/css-variables.css",
+ "designTokens": "screens/refero/web/about/buy-me-a-coffee-screen-27020/code/design-tokens.json",
+ "screenshots": "screens/refero/web/about/buy-me-a-coffee-screen-27020/screenshots/README.md"
+ }
+ },
+ {
+ "id": "107562",
+ "uuid": "bba16cbf-3d61-4065-a6e7-8ee9b329ab11",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 35,
+ "name": "Careers",
+ "slug": "careers"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "OpenAI",
+ "description": "System that can solve human-level problems",
+ "url": "https://openai.com/careers/search/",
+ "iconUrl": "https://images.refero.design/favicon/openai.com/fdd1bf5b-c386-43ab-a2e8-e5db5fdc374b.jpg",
+ "backgroundColor": "",
+ "id": "180"
+ },
+ "createdAt": "2025-02-10T13:40:18.407Z",
+ "referoViewUrl": "https://refero.design/view/bba16cbf-3d61-4065-a6e7-8ee9b329ab11",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=35\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=35",
+ "thumbnailUrl": "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/0.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/1.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/2.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/3.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/4.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/5.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/6.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/7.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/8.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/9.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/10.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/11.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/12.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/13.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/14.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/15.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/16.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/17.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/18.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/19.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/20.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/21.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/22.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/23.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/24.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/25.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/26.jpg",
+ "https://images.refero.design/screenshots/openai.com/desktop/a31dc674-8f1e-4a61-825a-58e4146f4417/27.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#fcfcfc",
+ "rgb": [
+ 252,
+ 252,
+ 252
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#6c6c6c",
+ "rgb": [
+ 108,
+ 108,
+ 108
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a1a1a1",
+ "rgb": [
+ 161,
+ 161,
+ 161
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#747474",
+ "rgb": [
+ 116,
+ 116,
+ 116
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#7c7c7c",
+ "rgb": [
+ 124,
+ 124,
+ 124
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "List",
+ "Button",
+ "Dropdown",
+ "Navigation Bar",
+ "Sidebar \u0026 Drawer",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "Careers",
+ "fonts": "OpenAI Sans",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/careers/openai-screen-107562",
+ "files": {
+ "readme": "screens/refero/web/careers/openai-screen-107562/README.md",
+ "source": "screens/refero/web/careers/openai-screen-107562/source.md",
+ "prompt": "screens/refero/web/careers/openai-screen-107562/implementation-prompt.md",
+ "screen": "screens/refero/web/careers/openai-screen-107562/screen.json",
+ "colors": "screens/refero/web/careers/openai-screen-107562/tokens/colors.md",
+ "pageElements": "screens/refero/web/careers/openai-screen-107562/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/careers/openai-screen-107562/code/css-variables.css",
+ "designTokens": "screens/refero/web/careers/openai-screen-107562/code/design-tokens.json",
+ "screenshots": "screens/refero/web/careers/openai-screen-107562/screenshots/README.md"
+ }
+ },
+ {
+ "id": "164403",
+ "uuid": "3defd6c7-94f0-4506-a8b1-a7dc78827aab",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 35,
+ "name": "Careers",
+ "slug": "careers"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Deezer",
+ "description": "Listen to music online",
+ "url": "https://www.deezerjobs.com/en/job-details/?jid=REF1894N",
+ "iconUrl": "https://images.refero.design/favicon/deezer.com/c10b64ba-c76f-415c-bb50-8c5e6bcde4c5.jpg",
+ "backgroundColor": "",
+ "id": "853"
+ },
+ "createdAt": "2026-03-18T16:04:58.585Z",
+ "referoViewUrl": "https://refero.design/view/3defd6c7-94f0-4506-a8b1-a7dc78827aab",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=35\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=35",
+ "thumbnailUrl": "https://images.refero.design/screenshots/deezerjobs.com/desktop/3defd6c7-94f0-4506-a8b1-a7dc78827aab_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/deezerjobs.com/desktop/3defd6c7-94f0-4506-a8b1-a7dc78827aab_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/deezerjobs.com/desktop/3defd6c7-94f0-4506-a8b1-a7dc78827aab/0.jpg",
+ "https://images.refero.design/screenshots/deezerjobs.com/desktop/3defd6c7-94f0-4506-a8b1-a7dc78827aab/1.jpg",
+ "https://images.refero.design/screenshots/deezerjobs.com/desktop/3defd6c7-94f0-4506-a8b1-a7dc78827aab/2.jpg",
+ "https://images.refero.design/screenshots/deezerjobs.com/desktop/3defd6c7-94f0-4506-a8b1-a7dc78827aab/3.jpg",
+ "https://images.refero.design/screenshots/deezerjobs.com/desktop/3defd6c7-94f0-4506-a8b1-a7dc78827aab/4.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#202020",
+ "rgb": [
+ 32,
+ 32,
+ 32
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#a33cf9",
+ "rgb": [
+ 163,
+ 60,
+ 249
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#989899",
+ "rgb": [
+ 152,
+ 152,
+ 153
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#676768",
+ "rgb": [
+ 103,
+ 103,
+ 104
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Suggestion \u0026 Similar Items",
+ "Article \u0026 Text"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dropdown",
+ "Navigation Bar",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "Careers",
+ "fonts": [
+ "times",
+ "Helvetica",
+ "Inter",
+ "Deezer Product"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/careers/deezer-screen-164403",
+ "files": {
+ "readme": "screens/refero/web/careers/deezer-screen-164403/README.md",
+ "source": "screens/refero/web/careers/deezer-screen-164403/source.md",
+ "prompt": "screens/refero/web/careers/deezer-screen-164403/implementation-prompt.md",
+ "screen": "screens/refero/web/careers/deezer-screen-164403/screen.json",
+ "colors": "screens/refero/web/careers/deezer-screen-164403/tokens/colors.md",
+ "pageElements": "screens/refero/web/careers/deezer-screen-164403/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/careers/deezer-screen-164403/code/css-variables.css",
+ "designTokens": "screens/refero/web/careers/deezer-screen-164403/code/design-tokens.json",
+ "screenshots": "screens/refero/web/careers/deezer-screen-164403/screenshots/README.md"
+ }
+ },
+ {
+ "id": "29584",
+ "uuid": "413c261c-8740-4084-b754-8dcc4bdcd671",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Spotify",
+ "description": "Discover the latest songs",
+ "url": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",
+ "iconUrl": "https://images.refero.design/favicon/app_1/2ba1ae0c-efb2-4b3c-9b3a-59f899c2460f.jpg",
+ "backgroundColor": "36c45a",
+ "id": "1"
+ },
+ "createdAt": "2023-05-16T21:06:35.512Z",
+ "referoViewUrl": "https://refero.design/view/413c261c-8740-4084-b754-8dcc4bdcd671",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/1/mobile/e19443ba-4ea4-4c99-bfc7-632545b696e6_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/1/mobile/e19443ba-4ea4-4c99-bfc7-632545b696e6.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#d8d7d6",
+ "rgb": [
+ 216,
+ 215,
+ 214
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#279850",
+ "rgb": [
+ 39,
+ 152,
+ 80
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#14572d",
+ "rgb": [
+ 20,
+ 87,
+ 45
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#450e0e",
+ "rgb": [
+ 69,
+ 14,
+ 14
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#141414",
+ "rgb": [
+ 20,
+ 20,
+ 20
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Mini Player",
+ "Browser"
+ ],
+ "pageElements": [
+ "Button",
+ "Progress Bar",
+ "Icon",
+ "Thumbnail",
+ "Avatar",
+ "Gradient",
+ "Tabbar"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/contacts/spotify-screen-29584",
+ "files": {
+ "readme": "screens/refero/ios-apps/contacts/spotify-screen-29584/README.md",
+ "source": "screens/refero/ios-apps/contacts/spotify-screen-29584/source.md",
+ "prompt": "screens/refero/ios-apps/contacts/spotify-screen-29584/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/contacts/spotify-screen-29584/screen.json",
+ "colors": "screens/refero/ios-apps/contacts/spotify-screen-29584/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/contacts/spotify-screen-29584/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/contacts/spotify-screen-29584/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/contacts/spotify-screen-29584/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/contacts/spotify-screen-29584/screenshots/README.md"
+ }
+ },
+ {
+ "id": "40863",
+ "uuid": "141ddb81-aa0d-458f-877b-dd6c8421190b",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Telegram",
+ "description": "Fast. Secure. Powerful.",
+ "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+ "iconUrl": "https://images.refero.design/favicon/app_46/5be247f7-9921-4077-9139-c636e5d19049.jpg",
+ "backgroundColor": "3db4db",
+ "id": "46"
+ },
+ "createdAt": "2023-08-22T19:08:29.088Z",
+ "referoViewUrl": "https://refero.design/view/141ddb81-aa0d-458f-877b-dd6c8421190b",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/46/mobile/00885ed2-5d5b-42fb-abea-e649d3658eb8_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/46/mobile/00885ed2-5d5b-42fb-abea-e649d3658eb8.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f8f9f9",
+ "rgb": [
+ 248,
+ 249,
+ 249
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#4099fc",
+ "rgb": [
+ 64,
+ 153,
+ 252
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#9ca7b4",
+ "rgb": [
+ 156,
+ 167,
+ 180
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#057cfc",
+ "rgb": [
+ 5,
+ 124,
+ 252
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ }
+ ],
+ "designPatterns": "Empty State",
+ "pageElements": [
+ "Button",
+ "Search Field",
+ "Icon",
+ "Tabbar"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/ios-apps/contacts/telegram-screen-40863",
+ "files": {
+ "readme": "screens/refero/ios-apps/contacts/telegram-screen-40863/README.md",
+ "source": "screens/refero/ios-apps/contacts/telegram-screen-40863/source.md",
+ "prompt": "screens/refero/ios-apps/contacts/telegram-screen-40863/implementation-prompt.md",
+ "screen": "screens/refero/ios-apps/contacts/telegram-screen-40863/screen.json",
+ "colors": "screens/refero/ios-apps/contacts/telegram-screen-40863/tokens/colors.md",
+ "pageElements": "screens/refero/ios-apps/contacts/telegram-screen-40863/tokens/page-elements.md",
+ "cssVariables": "screens/refero/ios-apps/contacts/telegram-screen-40863/code/css-variables.css",
+ "designTokens": "screens/refero/ios-apps/contacts/telegram-screen-40863/code/design-tokens.json",
+ "screenshots": "screens/refero/ios-apps/contacts/telegram-screen-40863/screenshots/README.md"
+ }
+ },
+ {
+ "id": "8146",
+ "uuid": "de9d1f32-6c4b-4569-a7df-daf7654c910a",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Tilda",
+ "description": "Create a Website for Free",
+ "url": "https://crm.tilda.cc/contacts/",
+ "iconUrl": "https://images.refero.design/favicon/tilda.cc/f128a9b3-102b-45cc-a59c-26b01d82a276.jpg",
+ "backgroundColor": "",
+ "id": "93"
+ },
+ "createdAt": "2022-10-20T17:27:24.097Z",
+ "referoViewUrl": "https://refero.design/view/de9d1f32-6c4b-4569-a7df-daf7654c910a",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/tilda.cc/desktop/e7294905-a0d7-4365-bc42-e69e643de5af_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/tilda.cc/desktop/c2b5c179-4ec6-4fb4-920f-494f2f473a33_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/tilda.cc/desktop/e7294905-a0d7-4365-bc42-e69e643de5af/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#eb957b",
+ "rgb": [
+ 235,
+ 149,
+ 123
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f4f4f3",
+ "rgb": [
+ 244,
+ 244,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#1b1b1b",
+ "rgb": [
+ 27,
+ 27,
+ 27
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#edac83",
+ "rgb": [
+ 237,
+ 172,
+ 131
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#cc7f5b",
+ "rgb": [
+ 204,
+ 127,
+ 91
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Dialog \u0026 Modal Window",
+ "Gradient"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": "Futura PT",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/contacts/tilda-screen-8146",
+ "files": {
+ "readme": "screens/refero/web/contacts/tilda-screen-8146/README.md",
+ "source": "screens/refero/web/contacts/tilda-screen-8146/source.md",
+ "prompt": "screens/refero/web/contacts/tilda-screen-8146/implementation-prompt.md",
+ "screen": "screens/refero/web/contacts/tilda-screen-8146/screen.json",
+ "colors": "screens/refero/web/contacts/tilda-screen-8146/tokens/colors.md",
+ "pageElements": "screens/refero/web/contacts/tilda-screen-8146/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/contacts/tilda-screen-8146/code/css-variables.css",
+ "designTokens": "screens/refero/web/contacts/tilda-screen-8146/code/design-tokens.json",
+ "screenshots": "screens/refero/web/contacts/tilda-screen-8146/screenshots/README.md"
+ }
+ },
+ {
+ "id": "16817",
+ "uuid": "adc8e43c-fcbc-4bdd-9110-3a0e6d0e24bd",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Overflow",
+ "description": "User flows done right",
+ "url": "https://support.overflow.io/hc/en-us/requests/new",
+ "iconUrl": "https://images.refero.design/favicon/overflow.io/0494d1b8-a51a-42cd-b210-841ea26bb2db.jpg",
+ "backgroundColor": "",
+ "id": "293"
+ },
+ "createdAt": "2023-03-02T09:32:50.765Z",
+ "referoViewUrl": "https://refero.design/view/adc8e43c-fcbc-4bdd-9110-3a0e6d0e24bd",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/overflow.io/desktop/90d2bf4c-5988-4388-9bbe-99faeeeaf7c2_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/overflow.io/desktop/14f31044-4bf9-4eb5-b62d-ea5a0ca6b7de_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/overflow.io/desktop/90d2bf4c-5988-4388-9bbe-99faeeeaf7c2/0.jpg",
+ "https://images.refero.design/screenshots/overflow.io/desktop/90d2bf4c-5988-4388-9bbe-99faeeeaf7c2/1.jpg",
+ "https://images.refero.design/screenshots/overflow.io/desktop/90d2bf4c-5988-4388-9bbe-99faeeeaf7c2/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#2b2b93",
+ "rgb": [
+ 43,
+ 43,
+ 147
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ebeced",
+ "rgb": [
+ 235,
+ 236,
+ 237
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#242a3e",
+ "rgb": [
+ 36,
+ 42,
+ 62
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#7a7c84",
+ "rgb": [
+ 122,
+ 124,
+ 132
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#62abda",
+ "rgb": [
+ 98,
+ 171,
+ 218
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Files",
+ "Upload \u0026 Download",
+ "Suggestion \u0026 Similar Items"
+ ],
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": [
+ "copenhagen icons",
+ "sans serif",
+ "Inter",
+ "Entypo"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/contacts/overflow-screen-16817",
+ "files": {
+ "readme": "screens/refero/web/contacts/overflow-screen-16817/README.md",
+ "source": "screens/refero/web/contacts/overflow-screen-16817/source.md",
+ "prompt": "screens/refero/web/contacts/overflow-screen-16817/implementation-prompt.md",
+ "screen": "screens/refero/web/contacts/overflow-screen-16817/screen.json",
+ "colors": "screens/refero/web/contacts/overflow-screen-16817/tokens/colors.md",
+ "pageElements": "screens/refero/web/contacts/overflow-screen-16817/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/contacts/overflow-screen-16817/code/css-variables.css",
+ "designTokens": "screens/refero/web/contacts/overflow-screen-16817/code/design-tokens.json",
+ "screenshots": "screens/refero/web/contacts/overflow-screen-16817/screenshots/README.md"
+ }
+ },
+ {
+ "id": "108851",
+ "uuid": "dd2e4755-9da8-409d-80e5-9c049fe66d23",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 39,
+ "name": "Developers Page",
+ "slug": "developers-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Enode",
+ "description": "One integration, connect to 1000+ energy devices",
+ "url": "https://developers.enode.com/docs/link-ui/introduction",
+ "iconUrl": "https://images.refero.design/favicon/enode.com/d278af91-d41b-4481-bb9f-79e1939f2596.jpg",
+ "backgroundColor": "",
+ "id": "599"
+ },
+ "createdAt": "2025-02-17T08:33:32.598Z",
+ "referoViewUrl": "https://refero.design/view/dd2e4755-9da8-409d-80e5-9c049fe66d23",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=39\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=39",
+ "thumbnailUrl": "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/0.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/1.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/2.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/3.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/4.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/5.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/6.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/7.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/8.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/9.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/10.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/11.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/12.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/13.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/14.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/15.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/16.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/17.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/18.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/19.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/20.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9f5",
+ "rgb": [
+ 249,
+ 249,
+ 245
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#141413",
+ "rgb": [
+ 20,
+ 20,
+ 19
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#636f3d",
+ "rgb": [
+ 99,
+ 111,
+ 61
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#9fa09b",
+ "rgb": [
+ 159,
+ 160,
+ 155
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#7e9852",
+ "rgb": [
+ 126,
+ 152,
+ 82
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Article \u0026 Text",
+ "Tutorial \u0026 Education",
+ "Dark Mode"
+ ],
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "List",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Page Control \u0026 Pagination",
+ "Navigation Bar",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Product Image",
+ "Code Snippet"
+ ],
+ "pageTypes": "Developers Page",
+ "fonts": [
+ "Whyte Inktrap",
+ "Whyte"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/developers-page/enode-screen-108851",
+ "files": {
+ "readme": "screens/refero/web/developers-page/enode-screen-108851/README.md",
+ "source": "screens/refero/web/developers-page/enode-screen-108851/source.md",
+ "prompt": "screens/refero/web/developers-page/enode-screen-108851/implementation-prompt.md",
+ "screen": "screens/refero/web/developers-page/enode-screen-108851/screen.json",
+ "colors": "screens/refero/web/developers-page/enode-screen-108851/tokens/colors.md",
+ "pageElements": "screens/refero/web/developers-page/enode-screen-108851/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/developers-page/enode-screen-108851/code/css-variables.css",
+ "designTokens": "screens/refero/web/developers-page/enode-screen-108851/code/design-tokens.json",
+ "screenshots": "screens/refero/web/developers-page/enode-screen-108851/screenshots/README.md"
+ }
+ },
+ {
+ "id": "150889",
+ "uuid": "c76ef543-4d5a-40e1-b651-608bc7825a4f",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 39,
+ "name": "Developers Page",
+ "slug": "developers-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Chargetrip",
+ "description": "EV routing and e-mobility software",
+ "url": "https://developers.chargetrip.com/",
+ "iconUrl": "https://images.refero.design/favicon/chargetrip.com/2e4f9b62-8512-4526-9bf5-a05ac8d15a34.jpg",
+ "backgroundColor": "",
+ "id": "798"
+ },
+ "createdAt": "2025-12-25T09:59:47.126Z",
+ "referoViewUrl": "https://refero.design/view/c76ef543-4d5a-40e1-b651-608bc7825a4f",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=39\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=39",
+ "thumbnailUrl": "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf/0.jpg",
+ "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf/1.jpg",
+ "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#077bfb",
+ "rgb": [
+ 7,
+ 123,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#721ddc",
+ "rgb": [
+ 114,
+ 29,
+ 220
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#3d3f43",
+ "rgb": [
+ 61,
+ 63,
+ 67
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8736e0",
+ "rgb": [
+ 135,
+ 54,
+ 224
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f4f4fb",
+ "rgb": [
+ 244,
+ 244,
+ 251
+ ]
+ }
+ ],
+ "designPatterns": "Tutorial \u0026 Education",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Floating Button",
+ "Navigation Bar",
+ "Footer",
+ "Icon",
+ "Product Image"
+ ],
+ "pageTypes": "Developers Page",
+ "fonts": [
+ "San Francisco",
+ "UI Sans Serif",
+ "Inter"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/developers-page/chargetrip-screen-150889",
+ "files": {
+ "readme": "screens/refero/web/developers-page/chargetrip-screen-150889/README.md",
+ "source": "screens/refero/web/developers-page/chargetrip-screen-150889/source.md",
+ "prompt": "screens/refero/web/developers-page/chargetrip-screen-150889/implementation-prompt.md",
+ "screen": "screens/refero/web/developers-page/chargetrip-screen-150889/screen.json",
+ "colors": "screens/refero/web/developers-page/chargetrip-screen-150889/tokens/colors.md",
+ "pageElements": "screens/refero/web/developers-page/chargetrip-screen-150889/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/developers-page/chargetrip-screen-150889/code/css-variables.css",
+ "designTokens": "screens/refero/web/developers-page/chargetrip-screen-150889/code/design-tokens.json",
+ "screenshots": "screens/refero/web/developers-page/chargetrip-screen-150889/screenshots/README.md"
+ }
+ },
+ {
+ "id": "55999",
+ "uuid": "7ea6231f-9be1-4aa7-9eb3-67f65ffbf19e",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 40,
+ "name": "Integration Page",
+ "slug": "integration-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Patreon",
+ "description": "Creativity powered by membership",
+ "url": "https://www.patreon.com/en-GB/apps/99designs",
+ "iconUrl": "https://images.refero.design/favicon/patreon.com/456e7e20-ec48-4238-9f60-ddcfbfa71418.jpg",
+ "backgroundColor": "",
+ "id": "158"
+ },
+ "createdAt": "2023-12-07T09:00:59.784Z",
+ "referoViewUrl": "https://refero.design/view/7ea6231f-9be1-4aa7-9eb3-67f65ffbf19e",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=40\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=40",
+ "thumbnailUrl": "https://images.refero.design/screenshots/patreon.com/desktop/3e83a7af-4897-43c3-ae0e-55e27b9e7339_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/patreon.com/desktop/3802bfbd-e04d-4c05-bf8b-ffc7b40f18e8_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/patreon.com/desktop/3e83a7af-4897-43c3-ae0e-55e27b9e7339/0.jpg",
+ "https://images.refero.design/screenshots/patreon.com/desktop/3e83a7af-4897-43c3-ae0e-55e27b9e7339/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#050505",
+ "rgb": [
+ 5,
+ 5,
+ 5
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#909193",
+ "rgb": [
+ 144,
+ 145,
+ 147
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#d47e69",
+ "rgb": [
+ 212,
+ 126,
+ 105
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5a5c5d",
+ "rgb": [
+ 90,
+ 92,
+ 93
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#5e98a8",
+ "rgb": [
+ 94,
+ 152,
+ 168
+ ]
+ }
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Icon",
+ "Thumbnail",
+ "Product Image"
+ ],
+ "pageTypes": "Integration Page",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/integration-page/patreon-screen-55999",
+ "files": {
+ "readme": "screens/refero/web/integration-page/patreon-screen-55999/README.md",
+ "source": "screens/refero/web/integration-page/patreon-screen-55999/source.md",
+ "prompt": "screens/refero/web/integration-page/patreon-screen-55999/implementation-prompt.md",
+ "screen": "screens/refero/web/integration-page/patreon-screen-55999/screen.json",
+ "colors": "screens/refero/web/integration-page/patreon-screen-55999/tokens/colors.md",
+ "pageElements": "screens/refero/web/integration-page/patreon-screen-55999/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/integration-page/patreon-screen-55999/code/css-variables.css",
+ "designTokens": "screens/refero/web/integration-page/patreon-screen-55999/code/design-tokens.json",
+ "screenshots": "screens/refero/web/integration-page/patreon-screen-55999/screenshots/README.md"
+ }
+ },
+ {
+ "id": "74174",
+ "uuid": "882a0544-2ae3-4892-8b7d-6e021708f0b9",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 40,
+ "name": "Integration Page",
+ "slug": "integration-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Loom",
+ "description": "Async Video Messaging for Work",
+ "url": "https://www.loom.com/settings/workspace#integrations",
+ "iconUrl": "https://images.refero.design/favicon/loom.com/572030eb-2d64-4a87-8ee5-79a1d8bfb13b.jpg",
+ "backgroundColor": "",
+ "id": "74"
+ },
+ "createdAt": "2024-04-24T15:32:47.692Z",
+ "referoViewUrl": "https://refero.design/view/882a0544-2ae3-4892-8b7d-6e021708f0b9",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=40\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=40",
+ "thumbnailUrl": "https://images.refero.design/screenshots/loom.com/desktop/105b044c-c1df-4ac3-aa2d-befcde6c829f_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/loom.com/desktop/7111ec10-53bc-4b61-9952-72369cac34da_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/loom.com/desktop/105b044c-c1df-4ac3-aa2d-befcde6c829f/0.jpg",
+ "https://images.refero.design/screenshots/loom.com/desktop/105b044c-c1df-4ac3-aa2d-befcde6c829f/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#546ded",
+ "rgb": [
+ 84,
+ 109,
+ 237
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#272729",
+ "rgb": [
+ 39,
+ 39,
+ 41
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#999dac",
+ "rgb": [
+ 153,
+ 157,
+ 172
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#cf4853",
+ "rgb": [
+ 207,
+ 72,
+ 83
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "List",
+ "Button",
+ "Tabs",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Side Sheet"
+ ],
+ "pageTypes": [
+ "Settings",
+ "Integration Page"
+ ],
+ "fonts": [
+ "Arial",
+ "Circular"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/integration-page/loom-screen-74174",
+ "files": {
+ "readme": "screens/refero/web/integration-page/loom-screen-74174/README.md",
+ "source": "screens/refero/web/integration-page/loom-screen-74174/source.md",
+ "prompt": "screens/refero/web/integration-page/loom-screen-74174/implementation-prompt.md",
+ "screen": "screens/refero/web/integration-page/loom-screen-74174/screen.json",
+ "colors": "screens/refero/web/integration-page/loom-screen-74174/tokens/colors.md",
+ "pageElements": "screens/refero/web/integration-page/loom-screen-74174/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/integration-page/loom-screen-74174/code/css-variables.css",
+ "designTokens": "screens/refero/web/integration-page/loom-screen-74174/code/design-tokens.json",
+ "screenshots": "screens/refero/web/integration-page/loom-screen-74174/screenshots/README.md"
+ }
+ },
+ {
+ "id": "3232",
+ "uuid": "4cb01eac-9475-469a-8427-f6e6fb8dfc5b",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 36,
+ "name": "Media Kit",
+ "slug": "media-kit"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Vevo",
+ "description": "The World\u0027s Leading Music Video Network",
+ "url": "https://brand.vevo.com/photography/",
+ "iconUrl": "https://images.refero.design/favicon/vevo.com/075cef9d-3b64-4ad2-91de-128cd463d3cd.jpg",
+ "backgroundColor": "",
+ "id": "104"
+ },
+ "createdAt": "2022-07-09T08:38:19.744Z",
+ "referoViewUrl": "https://refero.design/view/4cb01eac-9475-469a-8427-f6e6fb8dfc5b",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=36\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=36",
+ "thumbnailUrl": "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/vevo.com/desktop/cc2f141a-ebb0-4b05-bef6-c43260d10e07_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/0.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/1.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/2.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/3.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/4.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/5.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/6.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/7.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/8.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/9.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/10.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/11.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/12.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/13.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/14.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/15.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/16.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/17.jpg",
+ "https://images.refero.design/screenshots/vevo.com/desktop/5e490ea9-55e3-4e73-8d85-d00295e53bf4/18.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#050506",
+ "rgb": [
+ 5,
+ 5,
+ 6
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#cf8466",
+ "rgb": [
+ 207,
+ 132,
+ 102
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#614a4c",
+ "rgb": [
+ 97,
+ 74,
+ 76
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#65199b",
+ "rgb": [
+ 101,
+ 25,
+ 155
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#768583",
+ "rgb": [
+ 118,
+ 133,
+ 131
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Photo",
+ "Product Image"
+ ],
+ "pageTypes": [
+ "Media Kit",
+ "Product Page \u0026 Landing"
+ ],
+ "fonts": "Plain",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/media-kit/vevo-screen-3232",
+ "files": {
+ "readme": "screens/refero/web/media-kit/vevo-screen-3232/README.md",
+ "source": "screens/refero/web/media-kit/vevo-screen-3232/source.md",
+ "prompt": "screens/refero/web/media-kit/vevo-screen-3232/implementation-prompt.md",
+ "screen": "screens/refero/web/media-kit/vevo-screen-3232/screen.json",
+ "colors": "screens/refero/web/media-kit/vevo-screen-3232/tokens/colors.md",
+ "pageElements": "screens/refero/web/media-kit/vevo-screen-3232/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/media-kit/vevo-screen-3232/code/css-variables.css",
+ "designTokens": "screens/refero/web/media-kit/vevo-screen-3232/code/design-tokens.json",
+ "screenshots": "screens/refero/web/media-kit/vevo-screen-3232/screenshots/README.md"
+ }
+ },
+ {
+ "id": "106640",
+ "uuid": "33ca8740-eb1b-4272-afb5-02541182d6aa",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 36,
+ "name": "Media Kit",
+ "slug": "media-kit"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Hashnode",
+ "description": "Create, collaborate, and scale your blogs and docs",
+ "url": "https://hashnode.com/brand-resources?source=hashnode-footer",
+ "iconUrl": "https://images.refero.design/favicon/hashnode.com/0431dd09-0ad0-4ea9-bcfc-11746f09bd3f.jpg",
+ "backgroundColor": "",
+ "id": "194"
+ },
+ "createdAt": "2025-02-04T12:34:40.837Z",
+ "referoViewUrl": "https://refero.design/view/33ca8740-eb1b-4272-afb5-02541182d6aa",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=36\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=36",
+ "thumbnailUrl": "https://images.refero.design/screenshots/hashnode.com/desktop/3d25d4c3-4fdc-42c3-8ac3-0a32796895d7_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/hashnode.com/desktop/3d25d4c3-4fdc-42c3-8ac3-0a32796895d7_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/hashnode.com/desktop/3d25d4c3-4fdc-42c3-8ac3-0a32796895d7/0.jpg",
+ "https://images.refero.design/screenshots/hashnode.com/desktop/3d25d4c3-4fdc-42c3-8ac3-0a32796895d7/1.jpg",
+ "https://images.refero.design/screenshots/hashnode.com/desktop/3d25d4c3-4fdc-42c3-8ac3-0a32796895d7/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#405cea",
+ "rgb": [
+ 64,
+ 92,
+ 234
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#1b1c1f",
+ "rgb": [
+ 27,
+ 28,
+ 31
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#6d6d71",
+ "rgb": [
+ 109,
+ 109,
+ 113
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#7d66a8",
+ "rgb": [
+ 125,
+ 102,
+ 168
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dropdown",
+ "Navigation Bar",
+ "Footer",
+ "Icon",
+ "Product Image"
+ ],
+ "pageTypes": "Media Kit",
+ "fonts": [
+ "Inter",
+ "Suisse"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed",
+ "path": "screens/refero/web/media-kit/hashnode-screen-106640",
+ "files": {
+ "readme": "screens/refero/web/media-kit/hashnode-screen-106640/README.md",
+ "source": "screens/refero/web/media-kit/hashnode-screen-106640/source.md",
+ "prompt": "screens/refero/web/media-kit/hashnode-screen-106640/implementation-prompt.md",
+ "screen": "screens/refero/web/media-kit/hashnode-screen-106640/screen.json",
+ "colors": "screens/refero/web/media-kit/hashnode-screen-106640/tokens/colors.md",
+ "pageElements": "screens/refero/web/media-kit/hashnode-screen-106640/tokens/page-elements.md",
+ "cssVariables": "screens/refero/web/media-kit/hashnode-screen-106640/code/css-variables.css",
+ "designTokens": "screens/refero/web/media-kit/hashnode-screen-106640/code/design-tokens.json",
+ "screenshots": "screens/refero/web/media-kit/hashnode-screen-106640/screenshots/README.md"
+ }
+ }
+ ]
+}

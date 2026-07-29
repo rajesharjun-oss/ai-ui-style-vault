@@ -1,0 +1,86 @@
+{
+ "pageType": {
+ "id": 40,
+ "name": "Integration Page",
+ "slug": "integration-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Patreon",
+ "description": "Creativity powered by membership",
+ "url": "https://www.patreon.com/en-GB/apps/99designs",
+ "iconUrl": "https://images.refero.design/favicon/patreon.com/456e7e20-ec48-4238-9f60-ddcfbfa71418.jpg",
+ "backgroundColor": "",
+ "id": "158"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#050505",
+ "rgb": [
+ 5,
+ 5,
+ 5
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#909193",
+ "rgb": [
+ 144,
+ 145,
+ 147
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#d47e69",
+ "rgb": [
+ 212,
+ 126,
+ 105
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5a5c5d",
+ "rgb": [
+ 90,
+ 92,
+ 93
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#5e98a8",
+ "rgb": [
+ 94,
+ 152,
+ 168
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Icon",
+ "Thumbnail",
+ "Product Image"
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/patreon.com/desktop/3e83a7af-4897-43c3-ae0e-55e27b9e7339_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/patreon.com/desktop/3802bfbd-e04d-4c05-bf8b-ffc7b40f18e8_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/patreon.com/desktop/3e83a7af-4897-43c3-ae0e-55e27b9e7339/0.jpg",
+ "https://images.refero.design/screenshots/patreon.com/desktop/3e83a7af-4897-43c3-ae0e-55e27b9e7339/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

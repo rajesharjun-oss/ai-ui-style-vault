@@ -1,0 +1,83 @@
+{
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Spotify",
+ "description": "Discover the latest songs",
+ "url": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",
+ "iconUrl": "https://images.refero.design/favicon/app_1/2ba1ae0c-efb2-4b3c-9b3a-59f899c2460f.jpg",
+ "backgroundColor": "36c45a",
+ "id": "1"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#915a51",
+ "rgb": [
+ 145,
+ 90,
+ 81
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#61433e",
+ "rgb": [
+ 97,
+ 67,
+ 62
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#e9e9dd",
+ "rgb": [
+ 233,
+ 233,
+ 221
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#2e2221",
+ "rgb": [
+ 46,
+ 34,
+ 33
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#b9b3b3",
+ "rgb": [
+ 185,
+ 179,
+ 179
+ ]
+ }
+ ],
+ "pageElements": [
+ "List",
+ "Button",
+ "Progress Bar",
+ "Icon",
+ "Thumbnail",
+ "Avatar",
+ "Tabbar"
+ ],
+ "designPatterns": "Mini Player",
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/1/mobile/d726d8c9-b5ca-4f58-91e1-3db257f94f6c_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/1/mobile/d726d8c9-b5ca-4f58-91e1-3db257f94f6c.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

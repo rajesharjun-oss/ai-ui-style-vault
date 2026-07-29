@@ -1,0 +1,109 @@
+{
+ "id": "61533",
+ "uuid": "110cd29d-f585-4903-9736-109fd5451abd",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Zapier",
+ "description": "Workflow automation software for everyone",
+ "url": "https://zapier.com/app/dashboard",
+ "iconUrl": "https://images.refero.design/favicon/zapier.com/7994b67d-21f3-4ca9-881a-2c419c88e44f.jpg",
+ "backgroundColor": "",
+ "id": "438"
+ },
+ "createdAt": "2024-01-30T11:08:42.243Z",
+ "referoViewUrl": "https://refero.design/view/110cd29d-f585-4903-9736-109fd5451abd",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/zapier.com/desktop/8c22f164-aca3-4be4-baf8-fdcef65aaae3_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/zapier.com/desktop/110cd29d-f585-4903-9736-109fd5451abd_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/zapier.com/desktop/8c22f164-aca3-4be4-baf8-fdcef65aaae3/0.jpg",
+ "https://images.refero.design/screenshots/zapier.com/desktop/8c22f164-aca3-4be4-baf8-fdcef65aaae3/1.jpg",
+ "https://images.refero.design/screenshots/zapier.com/desktop/8c22f164-aca3-4be4-baf8-fdcef65aaae3/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1f1817",
+ "rgb": [
+ 31,
+ 24,
+ 23
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f5be6a",
+ "rgb": [
+ 245,
+ 190,
+ 106
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#9f9b95",
+ "rgb": [
+ 159,
+ 155,
+ 149
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#c2b2d1",
+ "rgb": [
+ 194,
+ 178,
+ 209
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#ca4f3e",
+ "rgb": [
+ 202,
+ 79,
+ 62
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Templates",
+ "Suggestion \u0026 Similar Items",
+ "Ads \u0026 Promo Offer",
+ "AI Assistant"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Floating Button",
+ "Text Field",
+ "Navigation Bar",
+ "Sidebar \u0026 Drawer",
+ "Footer",
+ "Icon",
+ "Thumbnail",
+ "Avatar"
+ ],
+ "pageTypes": [
+ "Dashboard",
+ "Home Page"
+ ],
+ "fonts": [
+ "degular display",
+ "Inter",
+ "Intercom"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

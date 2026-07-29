@@ -1,0 +1,252 @@
+{
+ "name": "Incommonwith",
+ "slug": "incommonwith",
+ "colors": [
+ {
+ "name": "Oxblood Ink",
+ "value": "#4a0a05",
+ "token": "--color-oxblood-ink",
+ "role": "All body text, headings, links, borders, outlined actions, and footer type - the singular chromatic voice; warmth and gravity without aggression"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#fafaf9",
+ "token": "--color-cream-paper",
+ "role": "Primary page background; the warm off-white that gives the site its paper-stock feel"
+ },
+ {
+ "name": "Aged Linen",
+ "value": "#f8f7f1",
+ "token": "--color-aged-linen",
+ "role": "Secondary surface, subtle card backgrounds, and pill-tag fills - slightly greener/warmer than the page, used for soft differentiation"
+ },
+ {
+ "name": "Warm Stone",
+ "value": "#bcb6a6",
+ "token": "--color-warm-stone",
+ "role": "Muted background wash and tertiary surface - the only mid-tone neutral, used sparingly for section backgrounds"
+ },
+ {
+ "name": "Dusty Clay",
+ "value": "#a2827f",
+ "token": "--color-dusty-clay",
+ "role": "Muted captions, helper text, and de-emphasized UI labels. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Mier A",
+ "token": "--font-mier-a",
+ "role": "Primary UI and body sans - used for navigation, body copy, captions, dates, links, and all functional text. Weight 400 only; the system trusts size and color contrast to carry hierarchy, never weight. Substitute: Inter or Untitled Sans (free: Inter)."
+ },
+ {
+ "name": "Caslon Ionic",
+ "token": "--font-caslon-ionic",
+ "role": "Sole serif - reserved exclusively for category names, journal headlines, and brand wordmark at 24px. The single appearance of a classical letterform creates a literary counterpoint to the neo-grotesque UI. Substitute: Cormorant Garamond or Libre Caslon Text."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "18px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "26px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "0px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Editorial Top Navigation",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Full-Bleed Hero with Overlaid Headline",
+ "role": "Landing page hero"
+ },
+ {
+ "name": "Product Category Card",
+ "role": "Catalog category tile"
+ },
+ {
+ "name": "Journal Editorial Card",
+ "role": "Editorial/press content card"
+ },
+ {
+ "name": "Text Link / Outlined Action",
+ "role": "Primary interactive element"
+ },
+ {
+ "name": "Sidebar Section Label",
+ "role": "Section identifier"
+ },
+ {
+ "name": "Horizontal Scroll Carousel",
+ "role": "Product category browser"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Vertical rhythm separator"
+ },
+ {
+ "name": "Pill Tag",
+ "role": "Category or filter label"
+ },
+ {
+ "name": "Multi-Column Footer",
+ "role": "Site footer with contact and navigation"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #4a0a05 oxblood for all text, borders, and links - it is the only chromatic color and must carry every word, rule, and interactive element",
+ "Pair Caslon Ionic serif at 24px for category names, journal headlines, and the wordmark with Mier A sans at 13-18px for all body, nav, and UI text",
+ "Let photography fill its container edge-to-edge with 0px border-radius and 0px padding - images are full-bleed, never framed or rounded",
+ "Use 12px gaps in navigation rows and between related elements; 64px between major sections to let photography breathe",
+ "Set page backgrounds to #fafaf9 warm cream - never pure #ffffff; the warm off-white is essential to the paper-stock feel",
+ "Use horizontal scroll carousels with small arrow controls for product categories rather than paginated grids or filters",
+ "Date-stamp journal cards with small sidebar labels in a separate column, not badges or pills overlaid on images"
+ ],
+ "doNot": [
+ "Don\u0027t use filled colored buttons - the system is entirely text-link driven; an outlined/underlined text link in #4a0a05 is the only action style",
+ "Don\u0027t apply border-radius to images, cards, or panels - only pill tags at 9999px may be rounded; everything else is sharp",
+ "Don\u0027t use drop shadows for elevation - depth comes from photography and warm color temperature, never from box-shadow",
+ "Don\u0027t use pure white (#ffffff) backgrounds - always use #fafaf9 or #f8f7f1; the warmth is the brand",
+ "Don\u0027t introduce accent colors beyond oxblood - the palette is intentionally narrow; adding blue, green, or other hues breaks the editorial coherence",
+ "Don\u0027t use system fonts or substitute the Caslon/Mier pairing - the serif-sans tension is the brand\u0027s typographic identity",
+ "Don\u0027t center-align body text or use large display headlines - the system is left-aligned and restrained; headlines are 24px, not 48px+"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1f9089e1-4170-482f-b988-afe1124a70a9",
+ "referenceSite": "https://www.incommonwith.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T00:26:33.269Z",
+ "articleModifiedAt": "2026-06-03T19:06:51.716Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d6d39093-fd34-4299-b22d-b3893042836f.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/15ec292b-369f-4bc0-a687-b9db2fd543f9.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/99adcb9c-9be7-4d82-9c41-ee8622eaae3b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/75d96cf7-b5e8-4c42-aec1-cf8dae92554f.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/21ed64f6-cabd-4fcd-96de-97c1ac6631e8.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "5537",
+ "uuid": "46b3c61c-bd0b-4a20-a18a-b7614278d633",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "LinkedIn",
+ "description": "Manage your professional identity",
+ "url": "https://www.linkedin.com/login?fromSignIn=true\u0026trk=guest_homepage-basic_nav-header-signin",
+ "iconUrl": "https://images.refero.design/favicon/linkedin.com/8bb26757-f842-45e5-a943-f029f346d678.jpg",
+ "backgroundColor": "",
+ "id": "187"
+ },
+ "createdAt": "2022-08-14T17:17:49.172Z",
+ "referoViewUrl": "https://refero.design/view/46b3c61c-bd0b-4a20-a18a-b7614278d633",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/linkedin.com/desktop/32d5d178-d952-4c1f-9aa6-cf2e7fcd1c29_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/linkedin.com/desktop/5fa4e659-dc1a-422d-9143-e5834767fb24_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/linkedin.com/desktop/32d5d178-d952-4c1f-9aa6-cf2e7fcd1c29/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#646464",
+ "rgb": [
+ 100,
+ 100,
+ 100
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#1a1b1a",
+ "rgb": [
+ 26,
+ 27,
+ 26
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#0d64c1",
+ "rgb": [
+ 13,
+ 100,
+ 193
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#7f8184",
+ "rgb": [
+ 127,
+ 129,
+ 132
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f3f5f5",
+ "rgb": [
+ 243,
+ 245,
+ 245
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "Log In",
+ "fonts": "San Francisco",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

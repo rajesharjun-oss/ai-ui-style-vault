@@ -1,0 +1,272 @@
+{
+ "id": "1f9089e1-4170-482f-b988-afe1124a70a9",
+ "name": "Incommonwith",
+ "slug": "incommonwith",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1f9089e1-4170-482f-b988-afe1124a70a9",
+ "referenceSite": "https://www.incommonwith.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T00:26:33.269Z",
+ "articleModifiedAt": "2026-06-03T19:06:51.716Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d6d39093-fd34-4299-b22d-b3893042836f.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/15ec292b-369f-4bc0-a687-b9db2fd543f9.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/99adcb9c-9be7-4d82-9c41-ee8622eaae3b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/75d96cf7-b5e8-4c42-aec1-cf8dae92554f.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/21ed64f6-cabd-4fcd-96de-97c1ac6631e8.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Editorial atelier in oxblood ink - warm cream pages, sunlit interior photography, and a single deep burgundy ink that carries every word, border, and link like fine letterpress.",
+ "summary": "Explore Incommonwith\u0027s light E-commerce design system: Oxblood Ink #4a0a05, Cream Paper #fafaf9 colors, Mier A, Caslon Ionic typography, and DESIGN.md for...",
+ "colors": [
+ {
+ "name": "Oxblood Ink",
+ "value": "#4a0a05",
+ "token": "--color-oxblood-ink",
+ "role": "All body text, headings, links, borders, outlined actions, and footer type - the singular chromatic voice; warmth and gravity without aggression"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#fafaf9",
+ "token": "--color-cream-paper",
+ "role": "Primary page background; the warm off-white that gives the site its paper-stock feel"
+ },
+ {
+ "name": "Aged Linen",
+ "value": "#f8f7f1",
+ "token": "--color-aged-linen",
+ "role": "Secondary surface, subtle card backgrounds, and pill-tag fills - slightly greener/warmer than the page, used for soft differentiation"
+ },
+ {
+ "name": "Warm Stone",
+ "value": "#bcb6a6",
+ "token": "--color-warm-stone",
+ "role": "Muted background wash and tertiary surface - the only mid-tone neutral, used sparingly for section backgrounds"
+ },
+ {
+ "name": "Dusty Clay",
+ "value": "#a2827f",
+ "token": "--color-dusty-clay",
+ "role": "Muted captions, helper text, and de-emphasized UI labels. Do not promote it to the primary CTA color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Mier A",
+ "token": "--font-mier-a",
+ "role": "Primary UI and body sans - used for navigation, body copy, captions, dates, links, and all functional text. Weight 400 only; the system trusts size and color contrast to carry hierarchy, never weight. Substitute: Inter or Untitled Sans (free: Inter)."
+ },
+ {
+ "name": "Caslon Ionic",
+ "token": "--font-caslon-ionic",
+ "role": "Sole serif - reserved exclusively for category names, journal headlines, and brand wordmark at 24px. The single appearance of a classical letterform creates a literary counterpoint to the neo-grotesque UI. Substitute: Cormorant Garamond or Libre Caslon Text."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "18px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "26px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "0px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Editorial Top Navigation",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Full-Bleed Hero with Overlaid Headline",
+ "role": "Landing page hero"
+ },
+ {
+ "name": "Product Category Card",
+ "role": "Catalog category tile"
+ },
+ {
+ "name": "Journal Editorial Card",
+ "role": "Editorial/press content card"
+ },
+ {
+ "name": "Text Link / Outlined Action",
+ "role": "Primary interactive element"
+ },
+ {
+ "name": "Sidebar Section Label",
+ "role": "Section identifier"
+ },
+ {
+ "name": "Horizontal Scroll Carousel",
+ "role": "Product category browser"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Vertical rhythm separator"
+ },
+ {
+ "name": "Pill Tag",
+ "role": "Category or filter label"
+ },
+ {
+ "name": "Multi-Column Footer",
+ "role": "Site footer with contact and navigation"
+ }
+ ],
+ "dos": [
+ "Use #4a0a05 oxblood for all text, borders, and links - it is the only chromatic color and must carry every word, rule, and interactive element",
+ "Pair Caslon Ionic serif at 24px for category names, journal headlines, and the wordmark with Mier A sans at 13-18px for all body, nav, and UI text",
+ "Let photography fill its container edge-to-edge with 0px border-radius and 0px padding - images are full-bleed, never framed or rounded",
+ "Use 12px gaps in navigation rows and between related elements; 64px between major sections to let photography breathe",
+ "Set page backgrounds to #fafaf9 warm cream - never pure #ffffff; the warm off-white is essential to the paper-stock feel",
+ "Use horizontal scroll carousels with small arrow controls for product categories rather than paginated grids or filters",
+ "Date-stamp journal cards with small sidebar labels in a separate column, not badges or pills overlaid on images"
+ ],
+ "donts": [
+ "Don\u0027t use filled colored buttons - the system is entirely text-link driven; an outlined/underlined text link in #4a0a05 is the only action style",
+ "Don\u0027t apply border-radius to images, cards, or panels - only pill tags at 9999px may be rounded; everything else is sharp",
+ "Don\u0027t use drop shadows for elevation - depth comes from photography and warm color temperature, never from box-shadow",
+ "Don\u0027t use pure white (#ffffff) backgrounds - always use #fafaf9 or #f8f7f1; the warmth is the brand",
+ "Don\u0027t introduce accent colors beyond oxblood - the palette is intentionally narrow; adding blue, green, or other hues breaks the editorial coherence",
+ "Don\u0027t use system fonts or substitute the Caslon/Mier pairing - the serif-sans tension is the brand\u0027s typographic identity",
+ "Don\u0027t center-align body text or use large display headlines - the system is left-aligned and restrained; headlines are 24px, not 48px+"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Cream Paper | `#fafaf9` | Page background; the default canvas for all editorial content |\n| 1 | Aged Linen | `#f8f7f1` | Subtle surface lift for tags, secondary panels, and quiet differentiation |\n| 2 | Warm Stone | `#bcb6a6` | Mid-tone wash for section backgrounds or accent surfaces |",
+ "elevation": "No shadows. Depth and hierarchy are created through warm color temperature, full-bleed photography, and generous negative space. Elements sit on the same flat plane; the eye moves between them through contrast in color temperature and scale, not elevation. This is a deliberate editorial choice - the design reads as printed paper, not a screen UI.",
+ "imagery": "Full-bleed interior photography dominates the visual field. All images are atmospheric, warm-toned scenes of rooms and objects in context - golden-hour light, candlelit interiors, textured walls, no people, no isolated product shots on white. Images have no border-radius, no padding around them, no visible frames; they sit flush against the cream page. Color treatment is consistently warm: amber, terracotta, deep shadow, muted greens from plants. Photography serves as both content and atmosphere - it IS the page chrome. No illustrations, no icons, no decorative graphics; the wordmark and category names do the work of branding.",
+ "layout": "Full-bleed hero with overlaid serif headline positioned lower-left. Below the fold: centered max-width content (~1200px) with a persistent narrow left sidebar column for section labels (\u0027Our Catalog\u0027, \u0027Lathely\u0027, \u0027Featured\u0027). Horizontal scroll product carousel with small arrow controls at the right edge. Two-column side-by-side journal cards with date stamps. Footer with multi-column text links. The layout rhythm alternates between full-bleed photographic moments and quiet, text-driven editorial pages - photography is the punctuation, text is the prose. Navigation is a single thin top bar of text links, no background fill, no border."
+}

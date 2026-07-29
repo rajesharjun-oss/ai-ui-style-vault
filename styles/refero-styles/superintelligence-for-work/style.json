@@ -1,0 +1,283 @@
+{
+ "id": "1db2adc9-2f10-4f20-af1b-27fa4b25f729",
+ "name": "Superintelligence for work",
+ "slug": "superintelligence-for-work",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1db2adc9-2f10-4f20-af1b-27fa4b25f729",
+ "referenceSite": "https://sanalabs.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T00:16:29.774Z",
+ "articleModifiedAt": "2026-06-05T00:23:14.900Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/a30235ab-29cf-49a4-a66d-683577b32fc8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/56d6fc71-1d91-4f0d-acd4-da380baa4f8c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/f66e0fd1-f429-4a47-aa7a-dd1b78d554af.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/10afda15-630b-4af6-99e7-9f0f4bd7363f.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/7845f82f-5311-43e2-85a0-47f2a5a00aeb.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/b7c7829d-f01c-4a7b-80c0-acdbef44bb49.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "AI",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "AI",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Architectural monograph on vellum - where the only ornament is letter-spacing and the only color is a single electric blue pressed into white space.",
+ "summary": "Explore Superintelligence for work\u0027s light AI design system: Ink #090909, Pure Black #000000 colors, Sana Sans typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#090909",
+ "token": "--color-ink",
+ "role": "Primary text, hairlines, card and input borders, list dividers, link underlines - the dominant dark anchor of the system"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Icon fills, heading underlines, occasional deep accents where maximum weight is needed"
+ },
+ {
+ "name": "Bone",
+ "value": "#ffffff",
+ "token": "--color-bone",
+ "role": "Page background, card surface, text on filled buttons, button borders for ghost controls"
+ },
+ {
+ "name": "Linen",
+ "value": "#efefed",
+ "token": "--color-linen",
+ "role": "Section band background, elevated card surface, the warm neutral that gives the white space its temperature"
+ },
+ {
+ "name": "Ash",
+ "value": "#d9d9d9",
+ "token": "--color-ash",
+ "role": "Footer divider, hairline rules where Ink would be too heavy"
+ },
+ {
+ "name": "Cobalt Pulse",
+ "value": "#0057f3",
+ "token": "--color-cobalt-pulse",
+ "role": "Single primary action fill per page - the only chromatic punctuation, reserved for the decisive CTA and never used decoratively"
+ },
+ {
+ "name": "Ember Signal",
+ "value": "#ff5102",
+ "token": "--color-ember-signal",
+ "role": "Rare secondary action or notification accent - a warm counterpoint to Cobalt Pulse, used at most once per surface"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Sana Sans",
+ "token": "--font-sana-sans",
+ "role": "Sole typeface across the entire system - display headlines at 83px set weight 500 with -2.5% tracking for a carved, architectural feel; section headings at 48px weight 500 with -0.96px tracking; body copy at 15-16px weight 400 with barely-perceptible negative tracking. The font is geometric and humanist, and the refusal to go above weight 500 is deliberate: confidence comes from restraint, not boldness."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "20",
+ "-0.06px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "24",
+ "-0.06px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "32px",
+ "39",
+ "-0.32px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "40px",
+ "44",
+ "-0.44px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "48",
+ "-0.96px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "83px",
+ "79",
+ "-2.49px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80-120px",
+ "cardPadding": "16-24px",
+ "elementGap": "8-16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "6px"
+ ],
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "buttons",
+ "32px"
+ ],
+ [
+ "cards-elevated",
+ "24px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "The single decisive action on any page"
+ },
+ {
+ "name": "Ghost Navigation Button",
+ "role": "Secondary action in the header"
+ },
+ {
+ "name": "Pill Notification Toast",
+ "role": "Persistent status banner (e.g. acquisition announcement)"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Brand Logo Strip",
+ "role": "Social proof via customer logos"
+ },
+ {
+ "name": "Feature Pill Item",
+ "role": "Sub-feature below a product section header"
+ },
+ {
+ "name": "Section Header Block",
+ "role": "Centered title and subtitle for each product section"
+ },
+ {
+ "name": "Editorial Product Showcase",
+ "role": "Full-bleed photographic still-life that presents a product screenshot in a real-world context"
+ },
+ {
+ "name": "Testimonial Video Card",
+ "role": "Full-bleed video preview with quote overlay"
+ },
+ {
+ "name": "Card with Soft Radius",
+ "role": "Elevated content blocks (pricing, features, content tiles)"
+ },
+ {
+ "name": "Footer",
+ "role": "Site-wide footer with links and legal"
+ }
+ ],
+ "dos": [
+ "Use Sana Sans weight 500 for all headings and never exceed weight 500 - confidence comes from size and tracking, not boldness",
+ "Set display headlines at 83px with -2.49px letter-spacing so the type reads as carved, not rendered",
+ "Reserve Cobalt Pulse #0057f3 for exactly one filled CTA per visible surface; every other button stays ghost or neutral",
+ "Use Linen #efefed bands to separate sections instead of borders, shadows, or dividers",
+ "Make all buttons pill-shaped with 32-36px radius - angular buttons break the editorial language",
+ "Default to 4px multiples for all spacing; element gap 8-16px, card padding 16-24px, section gap 80-120px",
+ "Set body copy at 15-16px with line-height 1.4-1.6 in Sana Sans weight 400"
+ ],
+ "donts": [
+ "Don\u0027t add box-shadow to any component - depth comes from surface color shifts, not elevation",
+ "Don\u0027t use Cobalt Pulse decoratively on icons, illustrations, tags, or backgrounds - it is a CTA color only",
+ "Don\u0027t introduce gradients - the system is built on flat, single-value surfaces",
+ "Don\u0027t go above weight 500 in the type scale; bold/700 breaks the restrained voice",
+ "Don\u0027t use #0000ee or any unstyled link blue - links inherit Ink #090909",
+ "Don\u0027t add corner radii smaller than 6px or use sharp 0px corners on content blocks",
+ "Don\u0027t place colored backgrounds under text - every text surface is white, linen, or photographic"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#ffffff` | Primary page background - the default reading surface |\n| 1 | Band | `#efefed` | Section background that breaks the page into rhythmic alternating bands without using color or shadows |\n| 2 | Card | `#ffffff` | Card surface on Linen bands - white-on-warm-white creates the only soft elevation in the system |",
+ "elevation": "The system intentionally avoids shadows entirely. Depth is achieved through surface color shifts (#ffffff on #efefed) and through photography, not through drop shadows. This keeps the visual language feeling like printed editorial design rather than software UI. Never add box-shadow to components.",
+ "imagery": "Photography is the only chromatic element in the system and is treated as editorial content, not decoration. Two dominant types: (1) editorial product still-lifes - laptops, notebooks, coffee cups, and office objects arranged in tactile compositions on neutral surfaces, used to present product screenshots within a real-world context; (2) full-bleed portrait photography for testimonials, warm-toned and slightly underexposed, with the subject\u0027s face partially in shadow. Both styles are desaturated, warm, and unglamorous - they feel like magazine photography, not marketing photography. Product UI itself is shown only as a screenshot inside the editorial photography, never as a floating mockup with shadow. The only other visual element is a small set of monochrome line icons (24px, Ink stroke) used sparingly for feature labels.",
+ "layout": "Centered, max-width-1200px contained layout with full-bleed photographic sections breaking the container. The page rhythm is: minimal top nav centered hero with oversized headline monochrome logo strip centered product section header (Sana Learn) on a Linen band with a 4-column feature row below full-bleed editorial product showcase full-bleed testimonial with overlaid quote footer. Hero is a single centered headline with no hero image. Section transitions alternate between white and Linen #efefed bands rather than using dividers. Feature grids use 4 equal columns at 24-40px gaps. The entire layout breathes: vertical section gaps of 80-120px and generous internal padding give it the feel of a printed document rather than a dashboard."
+}

@@ -1,0 +1,90 @@
+{
+ "id": "15861",
+ "uuid": "eb25afed-2377-479d-aa21-cd1a650b5a17",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Awwwards",
+ "description": "Best Web Design Trends",
+ "url": "https://www.awwwards.com/",
+ "iconUrl": "https://images.refero.design/favicon/awwwards.com/189664f9-7293-46cb-92a8-cca2d93a78a1.jpg",
+ "backgroundColor": "",
+ "id": "285"
+ },
+ "createdAt": "2023-02-22T10:13:32.297Z",
+ "referoViewUrl": "https://refero.design/view/eb25afed-2377-479d-aa21-cd1a650b5a17",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/awwwards.com/desktop/de797c6f-f710-470f-a075-0d3a401e00be_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/awwwards.com/desktop/221b092b-6fa7-4f3f-9f97-b42b5c384319_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/awwwards.com/desktop/de797c6f-f710-470f-a075-0d3a401e00be/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#242424",
+ "rgb": [
+ 36,
+ 36,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ececec",
+ "rgb": [
+ 236,
+ 236,
+ 236
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#502fd2",
+ "rgb": [
+ 80,
+ 47,
+ 210
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fcfbfb",
+ "rgb": [
+ 252,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#aeeac6",
+ "rgb": [
+ 174,
+ 234,
+ 198
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Checkbox \u0026 Radio",
+ "Text Field",
+ "Dialog \u0026 Modal Window",
+ "Illustration"
+ ],
+ "pageTypes": "Log In",
+ "fonts": "Apercu",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

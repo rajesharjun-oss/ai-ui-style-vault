@@ -1,0 +1,85 @@
+{
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "CARROT Weather",
+ "description": "Local Forecasts \u0026 Live Maps",
+ "url": "https://apps.apple.com/us/app/carrot-weather-alerts-radar/id961390574?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_56/f44f15fe-7e1e-438a-bf00-ea5d6b10d38b.jpg",
+ "backgroundColor": "6406b2",
+ "id": "56"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#bfc0c3",
+ "rgb": [
+ 191,
+ 192,
+ 195
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#2ca4fb",
+ "rgb": [
+ 44,
+ 164,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5e5e5f",
+ "rgb": [
+ 94,
+ 94,
+ 95
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#1168bc",
+ "rgb": [
+ 17,
+ 104,
+ 188
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f2b404",
+ "rgb": [
+ 242,
+ 180,
+ 4
+ ]
+ }
+ ],
+ "pageElements": [
+ "Carousel",
+ "Button",
+ "Tabs",
+ "Navigation Bar",
+ "Icon"
+ ],
+ "designPatterns": [
+ "Stats",
+ "Timeline \u0026 History",
+ "Dark Mode"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/56/mobile/4bc19cad-bb38-4927-96c6-0abe887be4c2_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/56/mobile/4bc19cad-bb38-4927-96c6-0abe887be4c2.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

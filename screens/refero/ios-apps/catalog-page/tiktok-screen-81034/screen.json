@@ -1,0 +1,99 @@
+{
+ "id": "81034",
+ "uuid": "ff82cfaa-bd0a-43f2-98e5-0c45c1a073aa",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "TikTok",
+ "description": "Videos, Music \u0026 Live Streams",
+ "url": "https://apps.apple.com/us/app/tiktok/id835599320",
+ "iconUrl": "https://images.refero.design/favicon/app_116/3f3802c6-1685-471f-ac3d-be1ee09598d3.jpg",
+ "backgroundColor": "24bcbc",
+ "id": "116"
+ },
+ "createdAt": "2024-06-10T21:07:48.793Z",
+ "referoViewUrl": "https://refero.design/view/ff82cfaa-bd0a-43f2-98e5-0c45c1a073aa",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/116/mobile/6f0834fd-df09-44d7-a830-325945a5f4bc_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/116/mobile/6f0834fd-df09-44d7-a830-325945a5f4bc.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f8f8f8",
+ "rgb": [
+ 248,
+ 248,
+ 248
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#dd3b58",
+ "rgb": [
+ 221,
+ 59,
+ 88
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#1db7bb",
+ "rgb": [
+ 29,
+ 183,
+ 187
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#b39fa2",
+ "rgb": [
+ 179,
+ 159,
+ 162
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#604a41",
+ "rgb": [
+ 96,
+ 74,
+ 65
+ ]
+ }
+ ],
+ "designPatterns": "Shopping",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "List",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Badge",
+ "Navigation Bar",
+ "Icon",
+ "Thumbnail",
+ "Avatar",
+ "Currency"
+ ],
+ "pageTypes": [
+ "Profile \u0026 Account",
+ "Catalog Page"
+ ],
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

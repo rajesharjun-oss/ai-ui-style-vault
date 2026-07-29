@@ -1,0 +1,98 @@
+{
+ "id": "45915",
+ "uuid": "e0d04deb-9762-4276-a5b3-806eb1518b73",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Google Maps",
+ "description": "Places, Navigation \u0026 Traffic",
+ "url": "https://apps.apple.com/us/app/google-maps/id585027354",
+ "iconUrl": "https://images.refero.design/favicon/app_53/19ae49f6-01f2-4795-bdca-c7c32dcab246.jpg",
+ "backgroundColor": "",
+ "id": "53"
+ },
+ "createdAt": "2023-09-23T11:29:51.121Z",
+ "referoViewUrl": "https://refero.design/view/e0d04deb-9762-4276-a5b3-806eb1518b73",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/53/mobile/76468927-ab4d-47cf-8b40-3826b9441cdf_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/53/mobile/76468927-ab4d-47cf-8b40-3826b9441cdf.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9f9",
+ "rgb": [
+ 249,
+ 249,
+ 249
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#5b5448",
+ "rgb": [
+ 91,
+ 84,
+ 72
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a8a196",
+ "rgb": [
+ 168,
+ 161,
+ 150
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#9d985a",
+ "rgb": [
+ 157,
+ 152,
+ 90
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#9c6644",
+ "rgb": [
+ 156,
+ 102,
+ 68
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Cards \u0026 Tiles",
+ "Media Gallery",
+ "Carousel",
+ "Button",
+ "Tags \u0026 Chips",
+ "Badge",
+ "Navigation Bar",
+ "Icon",
+ "Thumbnail",
+ "Avatar"
+ ],
+ "pageTypes": "Profile \u0026 Account",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

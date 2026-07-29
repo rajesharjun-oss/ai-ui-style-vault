@@ -1,0 +1,95 @@
+{
+ "id": "29584",
+ "uuid": "413c261c-8740-4084-b754-8dcc4bdcd671",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Spotify",
+ "description": "Discover the latest songs",
+ "url": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",
+ "iconUrl": "https://images.refero.design/favicon/app_1/2ba1ae0c-efb2-4b3c-9b3a-59f899c2460f.jpg",
+ "backgroundColor": "36c45a",
+ "id": "1"
+ },
+ "createdAt": "2023-05-16T21:06:35.512Z",
+ "referoViewUrl": "https://refero.design/view/413c261c-8740-4084-b754-8dcc4bdcd671",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/1/mobile/e19443ba-4ea4-4c99-bfc7-632545b696e6_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/1/mobile/e19443ba-4ea4-4c99-bfc7-632545b696e6.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#d8d7d6",
+ "rgb": [
+ 216,
+ 215,
+ 214
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#279850",
+ "rgb": [
+ 39,
+ 152,
+ 80
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#14572d",
+ "rgb": [
+ 20,
+ 87,
+ 45
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#450e0e",
+ "rgb": [
+ 69,
+ 14,
+ 14
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#141414",
+ "rgb": [
+ 20,
+ 20,
+ 20
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Mini Player",
+ "Browser"
+ ],
+ "pageElements": [
+ "Button",
+ "Progress Bar",
+ "Icon",
+ "Thumbnail",
+ "Avatar",
+ "Gradient",
+ "Tabbar"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

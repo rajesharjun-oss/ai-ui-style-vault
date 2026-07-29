@@ -1,0 +1,91 @@
+{
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Buy Me a Coffee",
+ "description": "For Creators and Artists",
+ "url": "https://www.buymeacoffee.com/about",
+ "iconUrl": "https://images.refero.design/favicon/buymeacoffee.com/d8359524-771d-4d6e-b4c1-53a993d503f2.jpg",
+ "backgroundColor": "",
+ "id": "334"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#20201e",
+ "rgb": [
+ 32,
+ 32,
+ 30
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#b59f8c",
+ "rgb": [
+ 181,
+ 159,
+ 140
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#b26946",
+ "rgb": [
+ 178,
+ 105,
+ 70
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fbfae3",
+ "rgb": [
+ 251,
+ 250,
+ 227
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#e0c823",
+ "rgb": [
+ 224,
+ 200,
+ 35
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Logo Wall"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": [
+ "UI Sans Serif",
+ "Arial",
+ "Circular Std",
+ "Circular"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/buymeacoffee.com/desktop/998d959e-7e0c-41ff-90d5-6f78195e4888_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/buymeacoffee.com/desktop/c2e01d70-f487-418d-a2ca-b5187fe758c0_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/buymeacoffee.com/desktop/998d959e-7e0c-41ff-90d5-6f78195e4888/0.jpg",
+ "https://images.refero.design/screenshots/buymeacoffee.com/desktop/998d959e-7e0c-41ff-90d5-6f78195e4888/1.jpg",
+ "https://images.refero.design/screenshots/buymeacoffee.com/desktop/998d959e-7e0c-41ff-90d5-6f78195e4888/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

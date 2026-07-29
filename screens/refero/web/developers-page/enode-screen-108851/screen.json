@@ -1,0 +1,123 @@
+{
+ "id": "108851",
+ "uuid": "dd2e4755-9da8-409d-80e5-9c049fe66d23",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 39,
+ "name": "Developers Page",
+ "slug": "developers-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Enode",
+ "description": "One integration, connect to 1000+ energy devices",
+ "url": "https://developers.enode.com/docs/link-ui/introduction",
+ "iconUrl": "https://images.refero.design/favicon/enode.com/d278af91-d41b-4481-bb9f-79e1939f2596.jpg",
+ "backgroundColor": "",
+ "id": "599"
+ },
+ "createdAt": "2025-02-17T08:33:32.598Z",
+ "referoViewUrl": "https://refero.design/view/dd2e4755-9da8-409d-80e5-9c049fe66d23",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=39\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=39",
+ "thumbnailUrl": "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/0.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/1.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/2.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/3.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/4.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/5.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/6.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/7.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/8.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/9.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/10.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/11.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/12.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/13.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/14.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/15.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/16.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/17.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/18.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/19.jpg",
+ "https://images.refero.design/screenshots/enode.com/desktop/39c8b1bd-8293-4036-ae3a-3120d4e8ca8d/20.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9f5",
+ "rgb": [
+ 249,
+ 249,
+ 245
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#141413",
+ "rgb": [
+ 20,
+ 20,
+ 19
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#636f3d",
+ "rgb": [
+ 99,
+ 111,
+ 61
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#9fa09b",
+ "rgb": [
+ 159,
+ 160,
+ 155
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#7e9852",
+ "rgb": [
+ 126,
+ 152,
+ 82
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Article \u0026 Text",
+ "Tutorial \u0026 Education",
+ "Dark Mode"
+ ],
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "List",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Page Control \u0026 Pagination",
+ "Navigation Bar",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Product Image",
+ "Code Snippet"
+ ],
+ "pageTypes": "Developers Page",
+ "fonts": [
+ "Whyte Inktrap",
+ "Whyte"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

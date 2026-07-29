@@ -1,0 +1,90 @@
+{
+ "id": "62456",
+ "uuid": "8ed77d39-6734-4cd4-b5c2-487d76a6fc8d",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Camera M",
+ "description": "Powerful Pro Controls",
+ "url": "https://apps.apple.com/us/app/camera-m-pro-manual-camera/id1239098425",
+ "iconUrl": "https://images.refero.design/favicon/app_83/b2f4f8d9-7623-47c6-8d41-00f45d7ae47e.jpg",
+ "backgroundColor": "d3a417",
+ "id": "83"
+ },
+ "createdAt": "2024-02-05T15:59:22.552Z",
+ "referoViewUrl": "https://refero.design/view/8ed77d39-6734-4cd4-b5c2-487d76a6fc8d",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=33\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=33",
+ "thumbnailUrl": "https://images.refero.design/screenshots/83/mobile/1820dba0-1372-4b64-a707-a22b676bbf2c_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/83/mobile/1820dba0-1372-4b64-a707-a22b676bbf2c.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#dbd9d6",
+ "rgb": [
+ 219,
+ 217,
+ 214
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#605f5c",
+ "rgb": [
+ 96,
+ 95,
+ 92
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#0ff487",
+ "rgb": [
+ 15,
+ 244,
+ 135
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8d8b8b",
+ "rgb": [
+ 141,
+ 139,
+ 139
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f05504",
+ "rgb": [
+ 240,
+ 85,
+ 4
+ ]
+ }
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Hero Image",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "About",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

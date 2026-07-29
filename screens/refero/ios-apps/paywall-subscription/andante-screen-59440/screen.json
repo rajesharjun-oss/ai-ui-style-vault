@@ -1,0 +1,88 @@
+{
+ "id": "59440",
+ "uuid": "ea8ee7ef-8b63-4322-beb8-67a08a517b02",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Andante",
+ "description": "Perfect your practice",
+ "url": "https://apps.apple.com/us/app/andante-practice-journal/id1530262372?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_79/d89097ef-bcff-45ae-a54f-a5999847ea40.jpg",
+ "backgroundColor": "fd6643",
+ "id": "79"
+ },
+ "createdAt": "2024-01-11T11:58:32.797Z",
+ "referoViewUrl": "https://refero.design/view/ea8ee7ef-8b63-4322-beb8-67a08a517b02",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/79/mobile/f3a5b53b-cefb-43fc-8a43-b256476b09b0_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/79/mobile/f3a5b53b-cefb-43fc-8a43-b256476b09b0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9fa",
+ "rgb": [
+ 249,
+ 249,
+ 250
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#cb4a34",
+ "rgb": [
+ 203,
+ 74,
+ 52
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#4ad296",
+ "rgb": [
+ 74,
+ 210,
+ 150
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5c5d5e",
+ "rgb": [
+ 92,
+ 93,
+ 94
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#a69c9d",
+ "rgb": [
+ 166,
+ 156,
+ 157
+ ]
+ }
+ ],
+ "designPatterns": "Product Features",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

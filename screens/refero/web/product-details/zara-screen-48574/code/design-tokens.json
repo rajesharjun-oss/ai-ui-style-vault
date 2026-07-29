@@ -1,0 +1,97 @@
+{
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "ZARA",
+ "description": "Discover the new ZARA collection online",
+ "url": "https://www.zara.com/us/en/eye-pencil-p24790200.html?v1=276419907\u0026v2=1881259",
+ "iconUrl": "https://images.refero.design/favicon/zara.com/fadd8c75-174f-4b24-9f4e-70af328c0d91.jpg",
+ "backgroundColor": "",
+ "id": "390"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#dfaf8c",
+ "rgb": [
+ 223,
+ 175,
+ 140
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#8b5c3c",
+ "rgb": [
+ 139,
+ 92,
+ 60
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#72412f",
+ "rgb": [
+ 114,
+ 65,
+ 47
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#e3e3e4",
+ "rgb": [
+ 227,
+ 227,
+ 228
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#140c09",
+ "rgb": [
+ 20,
+ 12,
+ 9
+ ]
+ }
+ ],
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Carousel",
+ "Button",
+ "Color Picker",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Thumbnail",
+ "Currency"
+ ],
+ "designPatterns": [
+ "Shopping",
+ "Video Player"
+ ],
+ "fonts": [
+ "Open Sans",
+ "Arial",
+ "Verdana",
+ "Zara Athleticz"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/zara.com/desktop/d322d070-a68b-4cad-9697-135528a99835_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/zara.com/desktop/b7fa5c91-1c1d-43b9-9ce8-dab55117c4b7_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/zara.com/desktop/d322d070-a68b-4cad-9697-135528a99835/0.jpg",
+ "https://images.refero.design/screenshots/zara.com/desktop/d322d070-a68b-4cad-9697-135528a99835/1.jpg",
+ "https://images.refero.design/screenshots/zara.com/desktop/d322d070-a68b-4cad-9697-135528a99835/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

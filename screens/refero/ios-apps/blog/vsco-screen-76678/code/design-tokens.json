@@ -1,0 +1,86 @@
+{
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "VSCO",
+ "description": "Filters, Effects \u0026 Collages",
+ "url": "https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838",
+ "iconUrl": "https://images.refero.design/favicon/app_107/eb385f3e-852b-409c-bf2b-a5b4077e18c3.jpg",
+ "backgroundColor": "c2c2c2",
+ "id": "107"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#d8d8d7",
+ "rgb": [
+ 216,
+ 216,
+ 215
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#635041",
+ "rgb": [
+ 99,
+ 80,
+ 65
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#638c9f",
+ "rgb": [
+ 99,
+ 140,
+ 159
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#94918a",
+ "rgb": [
+ 148,
+ 145,
+ 138
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#3e7291",
+ "rgb": [
+ 62,
+ 114,
+ 145
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Navigation Bar",
+ "Search Field",
+ "Icon",
+ "Thumbnail",
+ "Tabbar"
+ ],
+ "designPatterns": [
+ "Dark Mode",
+ "Searching"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/107/mobile/56edb9e4-33f3-4d29-9db0-80f22fd03239_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/107/mobile/56edb9e4-33f3-4d29-9db0-80f22fd03239.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

@@ -1,13 +1,13 @@
 {
     "name":  "AI UI Style Vault",
     "generatedAt":  "2026-07-29",
-    "totalStyles":  240,
+    "totalStyles":  256,
     "sources":  [
                     {
                         "name":  "Refero Styles",
                         "slug":  "refero-styles",
                         "url":  "https://styles.refero.design/",
-                        "count":  240,
+                        "count":  256,
                         "licenseStatus":  "inspiration-only-unless-explicitly-licensed"
                     }
                 ],
@@ -188,6 +188,50 @@
                                      "cssVariables":  "styles/refero-styles/acctual/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/acctual/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/acctual/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "234e9a17-236d-4446-9d58-f83f6806d012",
+                       "name":  "Acne Studios",
+                       "slug":  "acne-studios",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/234e9a17-236d-4446-9d58-f83f6806d012",
+                       "referenceSite":  "https://acnestudios.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-02-16T12:02:09.000Z",
+                       "articleModifiedAt":  "2026-06-05T04:29:01.005Z",
+                       "theme":  "light",
+                       "category":  "E-commerce",
+                       "northStar":  "Minimalist gallery white space with bold photographic moments - a fashion magazine laid flat on marble.",
+                       "summary":  "Explore Acne Studios\u0027s light E-commerce design system: Electric Cobalt #0018a8, Ink Black #000000 colors, Helvetica Monospaced Pro, Acne Studios (custom...",
+                       "bestFor":  "E-commerce AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "e-commerce",
+                                    "e-commerce ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Electric Cobalt #0018a8",
+                                             "Ink Black #000000",
+                                             "Graphite #6b6b6b",
+                                             "Paper White #ffffff",
+                                             "Bone #f2f2f2"
+                                         ],
+                       "fonts":  [
+                                     "Helvetica Monospaced Pro",
+                                     "Acne Studios (custom wordmark)",
+                                     "Helvetica Neue / system sans"
+                                 ],
+                       "path":  "styles/refero-styles/acne-studios",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/acne-studios/README.md",
+                                     "source":  "styles/refero-styles/acne-studios/source.md",
+                                     "design":  "styles/refero-styles/acne-studios/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/acne-studios/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/acne-studios/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/acne-studios/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/acne-studios/code/design-tokens.json"
                                  }
                    },
                    {
@@ -543,6 +587,52 @@
                                      "cssVariables":  "styles/refero-styles/altitude/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/altitude/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/altitude/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "227ff379-9b46-44fc-8ff1-37e0472239a6",
+                       "name":  "Altius",
+                       "slug":  "altius",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/227ff379-9b46-44fc-8ff1-37e0472239a6",
+                       "referenceSite":  "https://www.altiuslabs.xyz",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-05-10T23:13:58.887Z",
+                       "articleModifiedAt":  "2026-06-03T21:39:22.702Z",
+                       "theme":  "dark",
+                       "category":  "Crypto",
+                       "northStar":  "Molten embers on obsidian. A blockchain command center lit from within by coral fire, where dark surfaces breathe warm light through hairline gaps and inset glows.",
+                       "summary":  "Explore Altius\u0027s dark Crypto design system: Obsidian Ember #190501, Dark Cocoa #340a01 colors, Matter, Fabrikatmono typography, and DESIGN.md for AI agents.",
+                       "bestFor":  "Crypto AI-assisted UI implementation",
+                       "tags":  [
+                                    "dark",
+                                    "crypto",
+                                    "crypto ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Obsidian Ember #190501",
+                                             "Dark Cocoa #340a01",
+                                             "Molten Core #631303",
+                                             "Signal Red #951c04",
+                                             "Flare Orange #fa5838",
+                                             "Warm Blush #fcac9c",
+                                             "Vapor Peach #feeae6",
+                                             "Linen #f7f6ff"
+                                         ],
+                       "fonts":  [
+                                     "Matter",
+                                     "Fabrikatmono"
+                                 ],
+                       "path":  "styles/refero-styles/altius",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/altius/README.md",
+                                     "source":  "styles/refero-styles/altius/source.md",
+                                     "design":  "styles/refero-styles/altius/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/altius/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/altius/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/altius/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/altius/code/design-tokens.json"
                                  }
                    },
                    {
@@ -2496,6 +2586,49 @@
                                  }
                    },
                    {
+                       "id":  "1c60b014-473b-443b-b0f5-220612feebb7",
+                       "name":  "Chronicle",
+                       "slug":  "chronicle",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1c60b014-473b-443b-b0f5-220612feebb7",
+                       "referenceSite":  "https://chroniclehq.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-02-05T09:57:52.000Z",
+                       "articleModifiedAt":  "2026-05-11T16:25:39.831Z",
+                       "theme":  "light",
+                       "category":  "SaaS",
+                       "northStar":  "Typographer\u0027s proof sheet - a composited page where precision of letterform carries the entire visual weight, color is an intrusion, and the grid is the design.",
+                       "summary":  "Explore Chronicle\u0027s light SaaS design system: Pitch Black #050505, Midnight #000000 colors, Diatype typography, and DESIGN.md for AI agents.",
+                       "bestFor":  "SaaS AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "saas",
+                                    "saas ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Pitch Black #050505",
+                                             "Midnight #000000",
+                                             "Charcoal #151515",
+                                             "Obsidian #292929",
+                                             "Graphite #6b6b6b",
+                                             "Pewter #7e7e7e",
+                                             "Ash #929292",
+                                             "Silver #b3b3b3"
+                                         ],
+                       "fonts":  "Diatype",
+                       "path":  "styles/refero-styles/chronicle",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/chronicle/README.md",
+                                     "source":  "styles/refero-styles/chronicle/source.md",
+                                     "design":  "styles/refero-styles/chronicle/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/chronicle/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/chronicle/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/chronicle/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/chronicle/code/design-tokens.json"
+                                 }
+                   },
+                   {
                        "id":  "a1b78a21-a304-482b-8ce5-f612d95d44fe",
                        "name":  "Ciridae",
                        "slug":  "ciridae",
@@ -3884,6 +4017,52 @@
                                  }
                    },
                    {
+                       "id":  "1e93f444-0b01-4412-aa2b-877be5ef08d7",
+                       "name":  "Emmalewisham",
+                       "slug":  "emmalewisham",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1e93f444-0b01-4412-aa2b-877be5ef08d7",
+                       "referenceSite":  "https://emmalewisham.co.uk",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-04-30T02:18:34.138Z",
+                       "articleModifiedAt":  "2026-06-05T07:48:47.419Z",
+                       "theme":  "light",
+                       "category":  "E-commerce",
+                       "northStar":  "porcelain apothecary at golden hour. Warm linen surfaces cradle jewel-toned glass vessels; the brand violet traces hairlines through the room; serif labels float over clean sans-serif UI like engraved pharmacy signs.",
+                       "summary":  "Explore Emmalewisham\u0027s light E-commerce design system: Iris Violet #49369e, Soft Lavender #a9a7db colors, Martina Plantijn, Regola Pro Book typography, and...",
+                       "bestFor":  "E-commerce AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "e-commerce",
+                                    "e-commerce ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Iris Violet #49369e",
+                                             "Soft Lavender #a9a7db",
+                                             "Iris Focus #524eb7",
+                                             "Blush Petal #ec9bad",
+                                             "Pure White #ffffff",
+                                             "Stone Linen #f2f1ef",
+                                             "Warm Ash #a09c97",
+                                             "Charcoal #333333"
+                                         ],
+                       "fonts":  [
+                                     "Martina Plantijn",
+                                     "Regola Pro Book"
+                                 ],
+                       "path":  "styles/refero-styles/emmalewisham",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/emmalewisham/README.md",
+                                     "source":  "styles/refero-styles/emmalewisham/source.md",
+                                     "design":  "styles/refero-styles/emmalewisham/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/emmalewisham/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/emmalewisham/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/emmalewisham/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/emmalewisham/code/design-tokens.json"
+                                 }
+                   },
+                   {
                        "id":  "6eb778ca-6808-4cc6-ac8a-7beea5a25c36",
                        "name":  "EPIC agency",
                        "slug":  "epic-agency",
@@ -4158,6 +4337,56 @@
                                  }
                    },
                    {
+                       "id":  "1ded7f89-3df0-4e7c-9cac-28218d038575",
+                       "name":  "Flatfile",
+                       "slug":  "flatfile",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1ded7f89-3df0-4e7c-9cac-28218d038575",
+                       "referenceSite":  "https://flatfile.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-05-10T22:04:47.619Z",
+                       "articleModifiedAt":  "2026-06-05T09:46:55.334Z",
+                       "theme":  "light",
+                       "category":  "Dev Tools",
+                       "northStar":  "Quiet data journal on warm parchment",
+                       "summary":  "Explore Flatfile\u0027s light Dev Tools design system: Midnight Ink #090b2b, Obsidian #151515 colors, FlatfileDiatypeVariable, Flatfile Diatype (Variable)...",
+                       "bestFor":  "Dev Tools AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "dev tools",
+                                    "dev tools ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Midnight Ink #090b2b",
+                                             "Obsidian #151515",
+                                             "Graphite #1b1b1e",
+                                             "Charcoal #262626",
+                                             "Steel #808080",
+                                             "Silver #aaaaaa",
+                                             "Fog #d7d7d7",
+                                             "Mist #e5e7eb"
+                                         ],
+                       "fonts":  [
+                                     "FlatfileDiatypeVariable",
+                                     "Flatfile Diatype (Variable)",
+                                     "Flatfile Diatype (Static)",
+                                     "Source Serif 4",
+                                     "Sharp Grotesk",
+                                     "Booton"
+                                 ],
+                       "path":  "styles/refero-styles/flatfile",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/flatfile/README.md",
+                                     "source":  "styles/refero-styles/flatfile/source.md",
+                                     "design":  "styles/refero-styles/flatfile/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/flatfile/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/flatfile/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/flatfile/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/flatfile/code/design-tokens.json"
+                                 }
+                   },
+                   {
                        "id":  "",
                        "name":  "Flying Papers",
                        "slug":  "flying-papers",
@@ -4392,6 +4621,53 @@
                                      "cssVariables":  "styles/refero-styles/frontify/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/frontify/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/frontify/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "21b71be3-78a0-4681-a5b9-64cc4b40eb67",
+                       "name":  "Function",
+                       "slug":  "function",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/21b71be3-78a0-4681-a5b9-64cc4b40eb67",
+                       "referenceSite":  "https://www.functionhealth.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-04-30T00:12:10.227Z",
+                       "articleModifiedAt":  "2026-06-05T01:03:10.354Z",
+                       "theme":  "light",
+                       "category":  "Other",
+                       "northStar":  "warm apothecary journal on parchment",
+                       "summary":  "Explore Function\u0027s light Other design system: Terracotta Seal #b05a36, Parchment #fef9ef colors, Financier Display, Ftbase typography, and DESIGN.md for AI...",
+                       "bestFor":  "Other AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "other",
+                                    "other ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Parchment #fef9ef",
+                                             "Aged Paper #f5eee1",
+                                             "Warm Taupe #d1c9bf",
+                                             "Ink #2a2b2f",
+                                             "Charcoal #333333",
+                                             "Graphite #515151",
+                                             "Ash #808988",
+                                             "Pure Black #000000"
+                                         ],
+                       "fonts":  [
+                                     "Financier Display",
+                                     "Ftbase",
+                                     "Fragment mono"
+                                 ],
+                       "path":  "styles/refero-styles/function",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/function/README.md",
+                                     "source":  "styles/refero-styles/function/source.md",
+                                     "design":  "styles/refero-styles/function/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/function/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/function/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/function/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/function/code/design-tokens.json"
                                  }
                    },
                    {
@@ -4804,6 +5080,52 @@
                                  }
                    },
                    {
+                       "id":  "1c1d3939-8d82-4907-aa3c-c9b2fcfbab4f",
+                       "name":  "Grafbase",
+                       "slug":  "grafbase",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1c1d3939-8d82-4907-aa3c-c9b2fcfbab4f",
+                       "referenceSite":  "https://grafbase.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-01-25T11:19:26.000Z",
+                       "articleModifiedAt":  "2026-06-03T16:06:30.187Z",
+                       "theme":  "light",
+                       "category":  "Dev Tools",
+                       "northStar":  "engineering blueprint on cool marble",
+                       "summary":  "Explore Grafbase\u0027s light Dev Tools design system: Graphite Ink #1b1b1b, Marble #ffffff colors, Inter, sans (custom utility) typography, and DESIGN.md for AI...",
+                       "bestFor":  "Dev Tools AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "dev tools",
+                                    "dev tools ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Graphite Ink #1b1b1b",
+                                             "Marble #ffffff",
+                                             "Drafting Gray #eaeaea",
+                                             "Steel #60646c",
+                                             "Ash #7c7c7c",
+                                             "Hairline #e0e1e6",
+                                             "Mint Signal #00f2e6",
+                                             "Moss #8dc63f"
+                                         ],
+                       "fonts":  [
+                                     "Inter",
+                                     "sans (custom utility)"
+                                 ],
+                       "path":  "styles/refero-styles/grafbase",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/grafbase/README.md",
+                                     "source":  "styles/refero-styles/grafbase/source.md",
+                                     "design":  "styles/refero-styles/grafbase/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/grafbase/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/grafbase/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/grafbase/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/grafbase/code/design-tokens.json"
+                                 }
+                   },
+                   {
                        "id":  "7f7d3ff7-7a74-40f1-9098-a946ce53d4d4",
                        "name":  "Grove AI",
                        "slug":  "grove-ai",
@@ -5045,6 +5367,52 @@
                                      "cssVariables":  "styles/refero-styles/henry/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/henry/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/henry/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "2230ba53-445e-411d-b483-16410a072639",
+                       "name":  "Home",
+                       "slug":  "home",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/2230ba53-445e-411d-b483-16410a072639",
+                       "referenceSite":  "https://www.useparallel.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-05-07T18:04:46.669Z",
+                       "articleModifiedAt":  "2026-06-03T15:53:28.462Z",
+                       "theme":  "light",
+                       "category":  "SaaS",
+                       "northStar":  "Warm editorial atelier. Cream paper, charcoal ink, and one ember-orange period of emphasis - a job platform that feels like an art-book spread photographed under amber light.",
+                       "summary":  "Explore Home\u0027s light SaaS design system: Cream Paper #e4dfd9, Pure White #ffffff colors, Rules Font, ui-sans-serif typography, and DESIGN.md for AI agents.",
+                       "bestFor":  "SaaS AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "saas",
+                                    "saas ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Cream Paper #e4dfd9",
+                                             "Pure White #ffffff",
+                                             "Charcoal Ink #000000",
+                                             "Near Black #050505",
+                                             "Pressed Graphite #171717",
+                                             "Slate #737373",
+                                             "Iron #4b4b4b",
+                                             "Stone #999694"
+                                         ],
+                       "fonts":  [
+                                     "Rules Font",
+                                     "ui-sans-serif"
+                                 ],
+                       "path":  "styles/refero-styles/home",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/home/README.md",
+                                     "source":  "styles/refero-styles/home/source.md",
+                                     "design":  "styles/refero-styles/home/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/home/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/home/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/home/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/home/code/design-tokens.json"
                                  }
                    },
                    {
@@ -5377,6 +5745,49 @@
                                      "cssVariables":  "styles/refero-styles/impossible-foods/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/impossible-foods/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/impossible-foods/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "1f9089e1-4170-482f-b988-afe1124a70a9",
+                       "name":  "Incommonwith",
+                       "slug":  "incommonwith",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1f9089e1-4170-482f-b988-afe1124a70a9",
+                       "referenceSite":  "https://www.incommonwith.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-04-30T00:26:33.269Z",
+                       "articleModifiedAt":  "2026-06-03T19:06:51.716Z",
+                       "theme":  "light",
+                       "category":  "E-commerce",
+                       "northStar":  "Editorial atelier in oxblood ink - warm cream pages, sunlit interior photography, and a single deep burgundy ink that carries every word, border, and link like fine letterpress.",
+                       "summary":  "Explore Incommonwith\u0027s light E-commerce design system: Oxblood Ink #4a0a05, Cream Paper #fafaf9 colors, Mier A, Caslon Ionic typography, and DESIGN.md for...",
+                       "bestFor":  "E-commerce AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "e-commerce",
+                                    "e-commerce ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Oxblood Ink #4a0a05",
+                                             "Cream Paper #fafaf9",
+                                             "Aged Linen #f8f7f1",
+                                             "Warm Stone #bcb6a6",
+                                             "Dusty Clay #a2827f"
+                                         ],
+                       "fonts":  [
+                                     "Mier A",
+                                     "Caslon Ionic"
+                                 ],
+                       "path":  "styles/refero-styles/incommonwith",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/incommonwith/README.md",
+                                     "source":  "styles/refero-styles/incommonwith/source.md",
+                                     "design":  "styles/refero-styles/incommonwith/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/incommonwith/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/incommonwith/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/incommonwith/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/incommonwith/code/design-tokens.json"
                                  }
                    },
                    {
@@ -5744,6 +6155,57 @@
                                      "cssVariables":  "styles/refero-styles/jitter/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/jitter/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/jitter/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "2186dddd-60ee-4898-b11d-88483daf477e",
+                       "name":  "Juicebox.ai",
+                       "slug":  "juicebox-ai",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/2186dddd-60ee-4898-b11d-88483daf477e",
+                       "referenceSite":  "https://juicebox.ai",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-05-07T22:37:37.205Z",
+                       "articleModifiedAt":  "2026-06-03T22:07:16.832Z",
+                       "theme":  "light",
+                       "category":  "SaaS",
+                       "northStar":  "Talent command center on cream paper",
+                       "summary":  "Explore Juicebox.ai\u0027s light SaaS design system: Royal Plum #6a2f8d, Plum Mist #eee8fd colors, sans-serif, Roobert typography, and DESIGN.md for AI agents.",
+                       "bestFor":  "SaaS AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "saas",
+                                    "saas ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Royal Plum #6a2f8d",
+                                             "Plum Mist #eee8fd",
+                                             "Lilac Outline #da9efd",
+                                             "Forest Mark #2f8d6e",
+                                             "Obsidian #1d161d",
+                                             "Graphite #2a232a",
+                                             "Smoke #574e57",
+                                             "Warm Gray #786c78"
+                                         ],
+                       "fonts":  [
+                                     "sans-serif",
+                                     "Roobert",
+                                     "Haas Grot Text Web (55 Roman + 65 Medium)",
+                                     "DM Mono",
+                                     "Haas Grot Text Web 65 Medium",
+                                     "Inter",
+                                     "Neue Haas Grotesk Text"
+                                 ],
+                       "path":  "styles/refero-styles/juicebox-ai",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/juicebox-ai/README.md",
+                                     "source":  "styles/refero-styles/juicebox-ai/source.md",
+                                     "design":  "styles/refero-styles/juicebox-ai/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/juicebox-ai/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/juicebox-ai/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/juicebox-ai/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/juicebox-ai/code/design-tokens.json"
                                  }
                    },
                    {
@@ -6346,6 +6808,52 @@
                                  }
                    },
                    {
+                       "id":  "1f782141-d407-4c27-8cee-2246720a9f42",
+                       "name":  "Lottielab",
+                       "slug":  "lottielab",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1f782141-d407-4c27-8cee-2246720a9f42",
+                       "referenceSite":  "https://www.lottielab.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-05-07T12:13:20.844Z",
+                       "articleModifiedAt":  "2026-06-03T22:00:45.943Z",
+                       "theme":  "light",
+                       "category":  "Design",
+                       "northStar":  "Animation studio on bright paper",
+                       "summary":  "Explore Lottielab\u0027s light Design design system: Electric Violet #7270ff, Signal Blue #1560fb colors, Plus Jakarta Sans, Google Sans Code typography, and...",
+                       "bestFor":  "Design AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "design",
+                                    "design ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Electric Violet #7270ff",
+                                             "Signal Blue #1560fb",
+                                             "Deep Indigo #2f2b4a",
+                                             "Midnight Ink #1c1a2c",
+                                             "Slate #4b5563",
+                                             "Silver #9ca3af",
+                                             "Fog #d9dbda",
+                                             "Mist #e5e7eb"
+                                         ],
+                       "fonts":  [
+                                     "Plus Jakarta Sans",
+                                     "Google Sans Code"
+                                 ],
+                       "path":  "styles/refero-styles/lottielab",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/lottielab/README.md",
+                                     "source":  "styles/refero-styles/lottielab/source.md",
+                                     "design":  "styles/refero-styles/lottielab/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/lottielab/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/lottielab/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/lottielab/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/lottielab/code/design-tokens.json"
+                                 }
+                   },
+                   {
                        "id":  "",
                        "name":  "LUNCH",
                        "slug":  "lunch",
@@ -6383,6 +6891,49 @@
                                      "cssVariables":  "styles/refero-styles/lunch/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/lunch/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/lunch/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "1b44386e-31a8-40b0-a577-27c088b51264",
+                       "name":  "Lusion",
+                       "slug":  "lusion",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1b44386e-31a8-40b0-a577-27c088b51264",
+                       "referenceSite":  "https://lusion.co",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-01-28T19:49:45.000Z",
+                       "articleModifiedAt":  "2026-06-05T04:12:58.340Z",
+                       "theme":  "light",
+                       "category":  "Agency",
+                       "northStar":  "3D sculpture gallery on a frosted lavender plane. Every interface element should feel like a tactile object resting on a pale, slightly cool gallery floor, with the 3D content doing all the chromatic and dramatic work.",
+                       "summary":  "Explore Lusion\u0027s light Agency design system: Lavender Mist #f0f1fa, Paper White #ffffff colors, Aeonik typography, and DESIGN.md for AI agents.",
+                       "bestFor":  "Agency AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "agency",
+                                    "agency ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Lavender Mist #f0f1fa",
+                                             "Paper White #ffffff",
+                                             "Ink #000000",
+                                             "Graphite #2b2e3a",
+                                             "Haze #e4e6ef",
+                                             "Slate Hollow #34393f",
+                                             "Electric Indigo #1a2ffb",
+                                             "Acid Lime #c1ff00"
+                                         ],
+                       "fonts":  "Aeonik",
+                       "path":  "styles/refero-styles/lusion",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/lusion/README.md",
+                                     "source":  "styles/refero-styles/lusion/source.md",
+                                     "design":  "styles/refero-styles/lusion/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/lusion/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/lusion/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/lusion/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/lusion/code/design-tokens.json"
                                  }
                    },
                    {
@@ -6575,6 +7126,52 @@
                                      "cssVariables":  "styles/refero-styles/micro/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/micro/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/micro/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "225059ac-0450-49d3-b2b7-d0e98b7ae938",
+                       "name":  "Midjourney",
+                       "slug":  "midjourney",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/225059ac-0450-49d3-b2b7-d0e98b7ae938",
+                       "referenceSite":  "https://midjourney.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-03-12T13:16:36.000Z",
+                       "articleModifiedAt":  "2026-06-05T01:26:17.330Z",
+                       "theme":  "dark",
+                       "category":  "AI",
+                       "northStar":  "Deep-ocean bioluminescent terminal. A pressurized darkness where intelligence visibly generates itself in ASCII streams, and controls appear as faintly glowing specimens.",
+                       "summary":  "Explore Midjourney\u0027s dark AI design system: Cosmic Void #06051d, Abyssal Blue #0f1c36 colors, JetBrains Mono, DM Sans typography, and DESIGN.md for AI agents.",
+                       "bestFor":  "AI AI-assisted UI implementation",
+                       "tags":  [
+                                    "dark",
+                                    "ai",
+                                    "ai ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Abyssal Blue #0f1c36",
+                                             "Steel Navy #1d293d",
+                                             "Deep Slate #314062",
+                                             "Mist #cad5e2",
+                                             "Fog #e5e7eb",
+                                             "Ash #2e3038",
+                                             "Ghost White #ffffff",
+                                             "Ice Blue #ebf8ff"
+                                         ],
+                       "fonts":  [
+                                     "JetBrains Mono",
+                                     "DM Sans"
+                                 ],
+                       "path":  "styles/refero-styles/midjourney",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/midjourney/README.md",
+                                     "source":  "styles/refero-styles/midjourney/source.md",
+                                     "design":  "styles/refero-styles/midjourney/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/midjourney/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/midjourney/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/midjourney/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/midjourney/code/design-tokens.json"
                                  }
                    },
                    {
@@ -6942,6 +7539,49 @@
                                      "cssVariables":  "styles/refero-styles/monopo-saigon/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/monopo-saigon/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/monopo-saigon/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "1d4cbd69-ee0f-4f13-ba7d-14d3eaed7349",
+                       "name":  "Morphic",
+                       "slug":  "morphic",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1d4cbd69-ee0f-4f13-ba7d-14d3eaed7349",
+                       "referenceSite":  "https://morphic.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-05-07T18:58:00.502Z",
+                       "articleModifiedAt":  "2026-06-03T19:35:01.756Z",
+                       "theme":  "dark",
+                       "category":  "AI",
+                       "northStar":  "Dark cinema canvas for AI storytelling. Pure black absorbs everything except the blue pulse of a single accent and the glow of generated imagery.",
+                       "summary":  "Explore Morphic\u0027s dark AI design system: Pure Black #000000, Surface One #212121 colors, Inter typography, and DESIGN.md for AI agents.",
+                       "bestFor":  "AI AI-assisted UI implementation",
+                       "tags":  [
+                                    "dark",
+                                    "ai",
+                                    "ai ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Pure Black #000000",
+                                             "Surface One #212121",
+                                             "Surface Two #292929",
+                                             "Surface Three #333333",
+                                             "Paper White #ffffff",
+                                             "Fog #e5e7eb",
+                                             "Mist #f5f5f5",
+                                             "Mid Gray #999999"
+                                         ],
+                       "fonts":  "Inter",
+                       "path":  "styles/refero-styles/morphic",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/morphic/README.md",
+                                     "source":  "styles/refero-styles/morphic/source.md",
+                                     "design":  "styles/refero-styles/morphic/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/morphic/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/morphic/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/morphic/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/morphic/code/design-tokens.json"
                                  }
                    },
                    {
@@ -9545,6 +10185,53 @@
                                  }
                    },
                    {
+                       "id":  "1f69df96-675d-4ee0-aa85-e085d9d39981",
+                       "name":  "Splice",
+                       "slug":  "splice",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1f69df96-675d-4ee0-aa85-e085d9d39981",
+                       "referenceSite":  "https://splice.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-02-24T14:22:25.000Z",
+                       "articleModifiedAt":  "2026-06-05T08:39:05.264Z",
+                       "theme":  "dark",
+                       "category":  "Media",
+                       "northStar":  "midnight recording studio - a dark, weightless space where the only thing that ever gets loud is the music.",
+                       "summary":  "Explore Splice\u0027s dark Media design system: Signal Blue #528fff, Button Blue #1253ff colors, InterVariable (custom), SoehneBreit (custom) typography, and...",
+                       "bestFor":  "Media AI-assisted UI implementation",
+                       "tags":  [
+                                    "dark",
+                                    "media",
+                                    "media ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Signal Blue #528fff",
+                                             "Button Blue #1253ff",
+                                             "Voltage Yellow #f1f607",
+                                             "Carbon #121214",
+                                             "Obsidian #000000",
+                                             "Platinum #ffffff",
+                                             "Graphite #232426",
+                                             "Fog #a6a8ad"
+                                         ],
+                       "fonts":  [
+                                     "InterVariable (custom)",
+                                     "SoehneBreit (custom)",
+                                     "Soehne (custom)"
+                                 ],
+                       "path":  "styles/refero-styles/splice",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/splice/README.md",
+                                     "source":  "styles/refero-styles/splice/source.md",
+                                     "design":  "styles/refero-styles/splice/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/splice/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/splice/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/splice/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/splice/code/design-tokens.json"
+                                 }
+                   },
+                   {
                        "id":  "",
                        "name":  "Steep",
                        "slug":  "steep",
@@ -9877,6 +10564,48 @@
                                      "cssVariables":  "styles/refero-styles/superhuman/code/css-variables.css",
                                      "tailwind":  "styles/refero-styles/superhuman/code/tailwind-v4.css",
                                      "designTokens":  "styles/refero-styles/superhuman/code/design-tokens.json"
+                                 }
+                   },
+                   {
+                       "id":  "1db2adc9-2f10-4f20-af1b-27fa4b25f729",
+                       "name":  "Superintelligence for work",
+                       "slug":  "superintelligence-for-work",
+                       "source":  "Refero Styles",
+                       "sourceSlug":  "refero-styles",
+                       "sourceUrl":  "https://styles.refero.design/style/1db2adc9-2f10-4f20-af1b-27fa4b25f729",
+                       "referenceSite":  "https://sanalabs.com",
+                       "capturedOn":  "2026-07-29",
+                       "publishedAt":  "2026-04-30T00:16:29.774Z",
+                       "articleModifiedAt":  "2026-06-05T00:23:14.900Z",
+                       "theme":  "light",
+                       "category":  "AI",
+                       "northStar":  "Architectural monograph on vellum - where the only ornament is letter-spacing and the only color is a single electric blue pressed into white space.",
+                       "summary":  "Explore Superintelligence for work\u0027s light AI design system: Ink #090909, Pure Black #000000 colors, Sana Sans typography, and DESIGN.md for AI agents.",
+                       "bestFor":  "AI AI-assisted UI implementation",
+                       "tags":  [
+                                    "light",
+                                    "ai",
+                                    "ai ai-assisted ui implementation"
+                                ],
+                       "primaryColors":  [
+                                             "Ink #090909",
+                                             "Pure Black #000000",
+                                             "Bone #ffffff",
+                                             "Linen #efefed",
+                                             "Ash #d9d9d9",
+                                             "Cobalt Pulse #0057f3",
+                                             "Ember Signal #ff5102"
+                                         ],
+                       "fonts":  "Sana Sans",
+                       "path":  "styles/refero-styles/superintelligence-for-work",
+                       "files":  {
+                                     "readme":  "styles/refero-styles/superintelligence-for-work/README.md",
+                                     "source":  "styles/refero-styles/superintelligence-for-work/source.md",
+                                     "design":  "styles/refero-styles/superintelligence-for-work/DESIGN.md",
+                                     "prompt":  "styles/refero-styles/superintelligence-for-work/implementation-prompt.md",
+                                     "cssVariables":  "styles/refero-styles/superintelligence-for-work/code/css-variables.css",
+                                     "tailwind":  "styles/refero-styles/superintelligence-for-work/code/tailwind-v4.css",
+                                     "designTokens":  "styles/refero-styles/superintelligence-for-work/code/design-tokens.json"
                                  }
                    },
                    {

@@ -1,0 +1,94 @@
+{
+ "id": "47774",
+ "uuid": "a35a2453-25fa-463b-bbd2-6221e7d9fbc1",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "CARROT Weather",
+ "description": "Local Forecasts \u0026 Live Maps",
+ "url": "https://apps.apple.com/us/app/carrot-weather-alerts-radar/id961390574?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_56/f44f15fe-7e1e-438a-bf00-ea5d6b10d38b.jpg",
+ "backgroundColor": "6406b2",
+ "id": "56"
+ },
+ "createdAt": "2023-10-05T20:31:57.879Z",
+ "referoViewUrl": "https://refero.design/view/a35a2453-25fa-463b-bbd2-6221e7d9fbc1",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/56/mobile/4bc19cad-bb38-4927-96c6-0abe887be4c2_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/56/mobile/4bc19cad-bb38-4927-96c6-0abe887be4c2.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#bfc0c3",
+ "rgb": [
+ 191,
+ 192,
+ 195
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#2ca4fb",
+ "rgb": [
+ 44,
+ 164,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5e5e5f",
+ "rgb": [
+ 94,
+ 94,
+ 95
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#1168bc",
+ "rgb": [
+ 17,
+ 104,
+ 188
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f2b404",
+ "rgb": [
+ 242,
+ 180,
+ 4
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Stats",
+ "Timeline \u0026 History",
+ "Dark Mode"
+ ],
+ "pageElements": [
+ "Carousel",
+ "Button",
+ "Tabs",
+ "Navigation Bar",
+ "Icon"
+ ],
+ "pageTypes": "Dashboard",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

@@ -1,0 +1,99 @@
+{
+ "id": "4770",
+ "uuid": "f1b92055-6cb0-437d-896a-d17221ab6771",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Kraken",
+ "description": "Bitcoin \u0026 Cryptocurrency Exchange",
+ "url": "https://www.kraken.com/u/settings/account",
+ "iconUrl": "https://images.refero.design/favicon/kraken.com/241088b7-8201-4996-8b04-1a80724a5632.jpg",
+ "backgroundColor": "",
+ "id": "161"
+ },
+ "createdAt": "2022-07-29T15:17:42.290Z",
+ "referoViewUrl": "https://refero.design/view/f1b92055-6cb0-437d-896a-d17221ab6771",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/kraken.com/desktop/f1b92055-6cb0-437d-896a-d17221ab6771_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a/0.jpg",
+ "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#040483",
+ "rgb": [
+ 4,
+ 4,
+ 131
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#232324",
+ "rgb": [
+ 35,
+ 35,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#8a8b94",
+ "rgb": [
+ 138,
+ 139,
+ 148
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f4f4f4",
+ "rgb": [
+ 244,
+ 244,
+ 244
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#2b24b3",
+ "rgb": [
+ 43,
+ 36,
+ 179
+ ]
+ }
+ ],
+ "designPatterns": "Edit",
+ "pageElements": [
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Text Field",
+ "Navigation Bar",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": [
+ "Profile \u0026 Account",
+ "Settings"
+ ],
+ "fonts": [
+ "IBM Plex Sans",
+ "Kraken Plex"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

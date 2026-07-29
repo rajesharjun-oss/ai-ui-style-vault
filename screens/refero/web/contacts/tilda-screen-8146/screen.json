@@ -1,0 +1,88 @@
+{
+ "id": "8146",
+ "uuid": "de9d1f32-6c4b-4569-a7df-daf7654c910a",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Tilda",
+ "description": "Create a Website for Free",
+ "url": "https://crm.tilda.cc/contacts/",
+ "iconUrl": "https://images.refero.design/favicon/tilda.cc/f128a9b3-102b-45cc-a59c-26b01d82a276.jpg",
+ "backgroundColor": "",
+ "id": "93"
+ },
+ "createdAt": "2022-10-20T17:27:24.097Z",
+ "referoViewUrl": "https://refero.design/view/de9d1f32-6c4b-4569-a7df-daf7654c910a",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/tilda.cc/desktop/e7294905-a0d7-4365-bc42-e69e643de5af_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/tilda.cc/desktop/c2b5c179-4ec6-4fb4-920f-494f2f473a33_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/tilda.cc/desktop/e7294905-a0d7-4365-bc42-e69e643de5af/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#eb957b",
+ "rgb": [
+ 235,
+ 149,
+ 123
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f4f4f3",
+ "rgb": [
+ 244,
+ 244,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#1b1b1b",
+ "rgb": [
+ 27,
+ 27,
+ 27
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#edac83",
+ "rgb": [
+ 237,
+ 172,
+ 131
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#cc7f5b",
+ "rgb": [
+ 204,
+ 127,
+ 91
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Dialog \u0026 Modal Window",
+ "Gradient"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": "Futura PT",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

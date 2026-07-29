@@ -1,0 +1,101 @@
+{
+ "id": "74174",
+ "uuid": "882a0544-2ae3-4892-8b7d-6e021708f0b9",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 40,
+ "name": "Integration Page",
+ "slug": "integration-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Loom",
+ "description": "Async Video Messaging for Work",
+ "url": "https://www.loom.com/settings/workspace#integrations",
+ "iconUrl": "https://images.refero.design/favicon/loom.com/572030eb-2d64-4a87-8ee5-79a1d8bfb13b.jpg",
+ "backgroundColor": "",
+ "id": "74"
+ },
+ "createdAt": "2024-04-24T15:32:47.692Z",
+ "referoViewUrl": "https://refero.design/view/882a0544-2ae3-4892-8b7d-6e021708f0b9",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=40\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=40",
+ "thumbnailUrl": "https://images.refero.design/screenshots/loom.com/desktop/105b044c-c1df-4ac3-aa2d-befcde6c829f_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/loom.com/desktop/7111ec10-53bc-4b61-9952-72369cac34da_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/loom.com/desktop/105b044c-c1df-4ac3-aa2d-befcde6c829f/0.jpg",
+ "https://images.refero.design/screenshots/loom.com/desktop/105b044c-c1df-4ac3-aa2d-befcde6c829f/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#546ded",
+ "rgb": [
+ 84,
+ 109,
+ 237
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#272729",
+ "rgb": [
+ 39,
+ 39,
+ 41
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#999dac",
+ "rgb": [
+ 153,
+ 157,
+ 172
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#cf4853",
+ "rgb": [
+ 207,
+ 72,
+ 83
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "List",
+ "Button",
+ "Tabs",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Side Sheet"
+ ],
+ "pageTypes": [
+ "Settings",
+ "Integration Page"
+ ],
+ "fonts": [
+ "Arial",
+ "Circular"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

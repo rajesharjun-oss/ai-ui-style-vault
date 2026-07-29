@@ -1,0 +1,95 @@
+{
+ "id": "76678",
+ "uuid": "873f80e1-d79f-4683-8aea-a6fbb42e7e27",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "VSCO",
+ "description": "Filters, Effects \u0026 Collages",
+ "url": "https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838",
+ "iconUrl": "https://images.refero.design/favicon/app_107/eb385f3e-852b-409c-bf2b-a5b4077e18c3.jpg",
+ "backgroundColor": "c2c2c2",
+ "id": "107"
+ },
+ "createdAt": "2024-05-14T13:00:06.403Z",
+ "referoViewUrl": "https://refero.design/view/873f80e1-d79f-4683-8aea-a6fbb42e7e27",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=46\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=46",
+ "thumbnailUrl": "https://images.refero.design/screenshots/107/mobile/56edb9e4-33f3-4d29-9db0-80f22fd03239_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/107/mobile/56edb9e4-33f3-4d29-9db0-80f22fd03239.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#d8d8d7",
+ "rgb": [
+ 216,
+ 216,
+ 215
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#635041",
+ "rgb": [
+ 99,
+ 80,
+ 65
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#638c9f",
+ "rgb": [
+ 99,
+ 140,
+ 159
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#94918a",
+ "rgb": [
+ 148,
+ 145,
+ 138
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#3e7291",
+ "rgb": [
+ 62,
+ 114,
+ 145
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Dark Mode",
+ "Searching"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Navigation Bar",
+ "Search Field",
+ "Icon",
+ "Thumbnail",
+ "Tabbar"
+ ],
+ "pageTypes": "Blog",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

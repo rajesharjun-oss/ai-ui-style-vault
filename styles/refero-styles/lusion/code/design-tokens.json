@@ -1,0 +1,264 @@
+{
+ "name": "Lusion",
+ "slug": "lusion",
+ "colors": [
+ {
+ "name": "Lavender Mist",
+ "value": "#f0f1fa",
+ "token": "--color-lavender-mist",
+ "role": "Page canvas - the dominant background, a cool off-white with a barely-perceptible lavender cast that makes pure black text feel sharper than it would on pure white"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Elevated card and surface backgrounds, button text on dark fills, inverted surfaces"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary text, all headings, body copy, icons, and link text - pure black with no softening"
+ },
+ {
+ "name": "Graphite",
+ "value": "#2b2e3a",
+ "token": "--color-graphite",
+ "role": "Supporting neutral for secondary UI, dividers, and muted labels. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Haze",
+ "value": "#e4e6ef",
+ "token": "--color-haze",
+ "role": "Light supporting surface for subtle backgrounds and section separation. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Slate Hollow",
+ "value": "#34393f",
+ "token": "--color-slate-hollow",
+ "role": "Deep surface layer for dark bands or modal overlays, darker than graphite for clear hierarchy separation"
+ },
+ {
+ "name": "Electric Indigo",
+ "value": "#1a2ffb",
+ "token": "--color-electric-indigo",
+ "role": "Chromatic brand accent - appears as icon stroke, inline highlight marks, and as the signature color inside the 3D hero render. The single source of energy against the otherwise achromatic UI"
+ },
+ {
+ "name": "Acid Lime",
+ "value": "#c1ff00",
+ "token": "--color-acid-lime",
+ "role": "Highlight wash for emphasis zones, secondary accent inside 3D compositions - used sparingly as a surprise contrast"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Aeonik",
+ "token": "--font-aeonik",
+ "role": "Used for every text element on the site - navigation, body, headings, buttons, inputs. The deliberate weight ceiling at 500 (no bold) and uniformly tight -0.02em tracking create a uniform geometric confidence. Display sizes compress line-height to 0.90, letting the largest headlines (108-144px) feel sculpted rather than set. The 400 weight is the workhorse; 500 is reserved for navigation, labels, and button text where a slight emphasis is needed."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-0.24px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "-0.28px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-0.32px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-0.4px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.2",
+ "-0.52px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "38px",
+ "1.15",
+ "-0.76px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "50px",
+ "1.1",
+ "-1px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "144px",
+ "0.9",
+ "-2.88px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "1400px",
+ "sectionGap": "72px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "168",
+ "168px",
+ "`--spacing-168`"
+ ],
+ [
+ "216",
+ "216px",
+ "`--spacing-216`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "15px"
+ ],
+ [
+ "inputs",
+ "18px"
+ ],
+ [
+ "buttons",
+ "87.5px"
+ ],
+ [
+ "smallDetails",
+ "3px"
+ ],
+ [
+ "imageContainers",
+ "100px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill Action Button",
+ "role": "Primary call-to-action (e.g. \u0027LET\u0027S TALK\u0027)"
+ },
+ {
+ "name": "Ghost Navigation Link",
+ "role": "Header menu items and inline links"
+ },
+ {
+ "name": "Menu Toggle Button",
+ "role": "Header right-side menu trigger"
+ },
+ {
+ "name": "Hero Image Container",
+ "role": "Large 3D artwork display"
+ },
+ {
+ "name": "Card Surface",
+ "role": "Content cards, secondary information blocks"
+ },
+ {
+ "name": "Scroll Indicator",
+ "role": "Bottom-of-viewport prompt"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form inputs in contact or newsletter areas"
+ },
+ {
+ "name": "Header Bar",
+ "role": "Site-wide navigation"
+ },
+ {
+ "name": "Section Divider Tick",
+ "role": "Visual rhythm element between sections"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Lavender Mist (#f0f1fa) as the canvas for every full-page background; never use pure white as the page base - the slight lavender cast is the brand",
+ "Set all text to pure black (#000000) with Aeonik at weight 400-500 and tracking -0.02em; never introduce a bold weight or a softer gray for emphasis",
+ "Use the 87.5px pill radius for all action buttons and the 100px radius for all image/hero containers; these two radii are the signature shape language",
+ "Reach for Electric Indigo (#1a2ffb) only as a chromatic punctuation - icon stroke, inline highlight, focus ring on inputs - never as a large filled surface",
+ "Keep shadows at the single 4% black whisper stack (0px 6px 10px + 0px 2px 4px); do not stack multiple elevations or introduce colored shadows",
+ "Space sections at 72px vertical rhythm; let the generous breathing room and 3D content do the work rather than adding dividers or borders",
+ "Use Aeonik at the full size range from 12px caption through 144px display; let the type scale itself create hierarchy rather than color or weight variation"
+ ],
+ "doNot": [
+ "Don\u0027t introduce a third type weight above 500 - bold or black weights break the restrained typographic system",
+ "Don\u0027t use white (#ffffff) as the page background; the Lavender Mist canvas is what makes black text and 3D content feel cut and crisp",
+ "Don\u0027t fill large UI surfaces with Electric Indigo; it is an accent, not a brand wash - large indigo blocks destroy the gallery-floor metaphor",
+ "Don\u0027t add decorative gradients, glassmorphism, or blur effects; surfaces are flat and physical",
+ "Don\u0027t use 8px, 12px, or 20px border-radii on cards, buttons, or containers - stick to the defined 3px, 15px, 18px, 87.5px, and 100px values",
+ "Don\u0027t add hover states that change background fill or introduce color; rely on opacity shifts and underline reveals against the static canvas",
+ "Don\u0027t use the Acid Lime (#c1ff00) as a CTA or text background; it lacks the contrast hierarchy needed for interactive elements and belongs only inside 3D compositions or highlight washes"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1b44386e-31a8-40b0-a577-27c088b51264",
+ "referenceSite": "https://lusion.co",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-01-28T19:49:45.000Z",
+ "articleModifiedAt": "2026-06-05T04:12:58.340Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/2ae3d3b0-32e1-45b7-8bff-edf2d8a91844.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/38d5862c-5253-48fe-b7f4-48bad3d6b1db.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1dbf6d00-d6fa-4139-b745-3629e472ffc1.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a5ab3ae4-ddd4-4b89-bd15-89747902e1fd.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/e28b104f-6c0d-42ea-ae8e-60d3ff044aed.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/0924bb48-33c8-46a9-be74-4f3af7e95e66.png"
+ }
+ }
+}

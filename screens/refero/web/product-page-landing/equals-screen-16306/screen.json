@@ -1,0 +1,118 @@
+{
+ "id": "16306",
+ "uuid": "7f304225-4c65-49bf-b333-509edabaab70",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 44,
+ "name": "Product Page \u0026 Landing",
+ "slug": "product-page-landing"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Equals",
+ "description": "The fastest way for startups to do any analysis",
+ "url": "https://equals.app/",
+ "iconUrl": "https://images.refero.design/favicon/equals.app/ef109cdf-61ad-4794-9f51-cf141aadc322.jpg",
+ "backgroundColor": "",
+ "id": "289"
+ },
+ "createdAt": "2023-02-27T17:18:30.395Z",
+ "referoViewUrl": "https://refero.design/view/7f304225-4c65-49bf-b333-509edabaab70",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=44\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=44",
+ "thumbnailUrl": "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/equals.app/desktop/cd600ead-107a-4b6a-84b1-f4f82f61ac64_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/0.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/1.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/2.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/3.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/4.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/5.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/6.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/7.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/8.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/9.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/10.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/11.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/12.jpg",
+ "https://images.refero.design/screenshots/equals.app/desktop/9866b5e4-43d3-45a9-8960-affd22783c0a/13.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#3cd2e2",
+ "rgb": [
+ 60,
+ 210,
+ 226
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#0d0d10",
+ "rgb": [
+ 13,
+ 13,
+ 16
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#83f8c1",
+ "rgb": [
+ 131,
+ 248,
+ 193
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#dbc3fa",
+ "rgb": [
+ 219,
+ 195,
+ 250
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f7f79d",
+ "rgb": [
+ 247,
+ 247,
+ 157
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Testimonials",
+ "Video Player"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Logo Wall",
+ "Product Image"
+ ],
+ "pageTypes": [
+ "Product Page \u0026 Landing",
+ "Home Page"
+ ],
+ "fonts": [
+ "Intercom",
+ "Aeonik"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

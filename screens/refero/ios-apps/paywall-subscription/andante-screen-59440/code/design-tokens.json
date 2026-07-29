@@ -1,0 +1,79 @@
+{
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Andante",
+ "description": "Perfect your practice",
+ "url": "https://apps.apple.com/us/app/andante-practice-journal/id1530262372?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_79/d89097ef-bcff-45ae-a54f-a5999847ea40.jpg",
+ "backgroundColor": "fd6643",
+ "id": "79"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9fa",
+ "rgb": [
+ 249,
+ 249,
+ 250
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#cb4a34",
+ "rgb": [
+ 203,
+ 74,
+ 52
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#4ad296",
+ "rgb": [
+ 74,
+ 210,
+ 150
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5c5d5e",
+ "rgb": [
+ 92,
+ 93,
+ 94
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#a69c9d",
+ "rgb": [
+ 166,
+ 156,
+ 157
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Bottom Sheet (Expanded)"
+ ],
+ "designPatterns": "Product Features",
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/79/mobile/f3a5b53b-cefb-43fc-8a43-b256476b09b0_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/79/mobile/f3a5b53b-cefb-43fc-8a43-b256476b09b0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

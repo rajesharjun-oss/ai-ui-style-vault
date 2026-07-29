@@ -1,0 +1,319 @@
+{
+ "name": "Flatfile",
+ "slug": "flatfile",
+ "colors": [
+ {
+ "name": "Midnight Ink",
+ "value": "#090b2b",
+ "token": "--color-midnight-ink",
+ "role": "Primary brand color for headings, logo, emphasized text, nav labels, and icon strokes - a near-black with a faint violet cast that reads as ink rather than pure black against the cream canvas"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#151515",
+ "token": "--color-obsidian",
+ "role": "Dark elevated surface for cards, headers, and contained panels. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Graphite",
+ "value": "#1b1b1e",
+ "token": "--color-graphite",
+ "role": "Primary body and heading text, dark card fills, and icon fills - the workhorse near-black with the faintest cool cast"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#262626",
+ "token": "--color-charcoal",
+ "role": "Secondary dark surfaces and muted borders for inverted panels"
+ },
+ {
+ "name": "Steel",
+ "value": "#808080",
+ "token": "--color-steel",
+ "role": "Mid-gray for supporting UI marks, icon fills, and medium borders"
+ },
+ {
+ "name": "Silver",
+ "value": "#aaaaaa",
+ "token": "--color-silver",
+ "role": "Lighter mid-gray for tertiary text, placeholder copy, and decorative fills"
+ },
+ {
+ "name": "Fog",
+ "value": "#d7d7d7",
+ "token": "--color-fog",
+ "role": "Subtle border tone for ghost controls and quiet dividers"
+ },
+ {
+ "name": "Mist",
+ "value": "#e5e7eb",
+ "token": "--color-mist",
+ "role": "The system\u0027s structural hairline - dominant border, divider, and table-rule color across every layout context"
+ },
+ {
+ "name": "Parchment",
+ "value": "#e5ebd3",
+ "token": "--color-parchment",
+ "role": "Warm sage-cream wash used as the hero background and as the secondary button fill - gives the page its printed-paper atmosphere"
+ },
+ {
+ "name": "Linen",
+ "value": "#f8f8f8",
+ "token": "--color-linen",
+ "role": "Card and elevated surface background - one step off the page to create depth without shadows"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Pure white reserved for inverted buttons, tag chips, and high-contrast list items where Mist would be too muted"
+ },
+ {
+ "name": "Slate Link",
+ "value": "#8c8c8c",
+ "token": "--color-slate-link",
+ "role": "Default link and breadcrumb text color, distinct from body text gray"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "FlatfileDiatypeVariable",
+ "token": "--font-flatfilediatypevariable",
+ "role": "FlatfileDiatypeVariable - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Flatfile Diatype (Variable)",
+ "token": "--font-flatfile-diatype-variable",
+ "role": "Primary UI and body sans - nav links, buttons, body copy, small labels, and card content. The variable axis lets the system shift between neutral body weight and slightly heavier button weight without changing family."
+ },
+ {
+ "name": "Flatfile Diatype (Static)",
+ "token": "--font-flatfile-diatype-static",
+ "role": "Display and section heading sizes. Uses tighter tracking as size grows - the 60px display sits at -0.0320em, pulling letters into a compact editorial block."
+ },
+ {
+ "name": "Source Serif 4",
+ "token": "--font-source-serif-4",
+ "role": "Reserved exclusively for customer-quote hero text in testimonial cards. The serif italic-leaning humanist voice creates a print-publication contrast against the otherwise sans-only system."
+ },
+ {
+ "name": "Sharp Grotesk",
+ "token": "--font-sharp-grotesk",
+ "role": "Secondary display face for product-feature subheadings where a more condensed, technical voice is needed - used sparingly to break up the Diatype rhythm."
+ },
+ {
+ "name": "Booton",
+ "token": "--font-booton",
+ "role": "Booton - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.42",
+ "-0.144px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-0.224px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.08px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.42",
+ "-0.352px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.42",
+ "-0.26px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "38px",
+ "1.18",
+ "-1.14px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "60px",
+ "1",
+ "-1.92px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64-88px",
+ "cardPadding": "24-32px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ],
+ [
+ "112",
+ "112px",
+ "`--spacing-112`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "99px"
+ ],
+ [
+ "tags",
+ "8px"
+ ],
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "buttons",
+ "99px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Pill (Book a demo)",
+ "role": "Main conversion action"
+ },
+ {
+ "name": "Secondary CTA Pill (Check out Obvious)",
+ "role": "Soft secondary action"
+ },
+ {
+ "name": "Ghost Nav Link",
+ "role": "Top-bar navigation item"
+ },
+ {
+ "name": "Floating File Card",
+ "role": "Hero product showcase card"
+ },
+ {
+ "name": "Sticky Top Nav Bar",
+ "role": "Global navigation"
+ },
+ {
+ "name": "Testimonial Card",
+ "role": "Customer quote block"
+ },
+ {
+ "name": "Carousel Arrow Button",
+ "role": "Testimonial pagination"
+ },
+ {
+ "name": "Step Tab Bar (Extract / Prepare / Map / Build)",
+ "role": "Process-step indicator"
+ },
+ {
+ "name": "Gradient Hero Band",
+ "role": "Full-bleed atmospheric divider"
+ },
+ {
+ "name": "Section Heading Block",
+ "role": "Page-section opener"
+ },
+ {
+ "name": "Link List Item",
+ "role": "Footer or nav text link"
+ },
+ {
+ "name": "File Extension Tag",
+ "role": "Format indicator chip"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #151515 filled pills at 99px radius for all primary CTAs - never a rectangular button.",
+ "Set every display heading at 60px in Flatfile Diatype weight 400 with -1.92px tracking; never go bolder than 500 for the display voice.",
+ "Use #e5e7eb for all structural dividers and table rules; it is the system\u0027s connective tissue.",
+ "Reserve Source Serif 4 exclusively for the customer-quote hero text inside testimonial cards.",
+ "Layer the canvas as Parchment (#e5ebd3) Paper (#ffffff) Linen (#f8f8f8) for depth instead of adding shadows.",
+ "Use 88px section padding above every new page section to preserve the editorial breathing room.",
+ "Center the page content at max-width 1200px; never edge-to-edge inside content zones."
+ ],
+ "doNot": [
+ "Do not introduce a secondary chromatic brand color - Midnight Ink (#090b2b) is the only one.",
+ "Do not use box-shadows to separate cards; shift the surface color one step instead.",
+ "Do not set body text in anything other than Graphite (#1b1b1e) or #090b2b - no chromatic body copy.",
+ "Do not use rectangular (non-pill) buttons; the 99px radius is a signature.",
+ "Do not pair a chromatic icon color with chromatic background - keep the surface white and the icon the only color.",
+ "Do not apply letter-spacing looser than -0.0050em - the system is built on tight, compact tracking at every size.",
+ "Do not use the Parchment (#e5ebd3) wash outside the hero - it is a hero-only atmosphere, not a general surface."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1ded7f89-3df0-4e7c-9cac-28218d038575",
+ "referenceSite": "https://flatfile.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T22:04:47.619Z",
+ "articleModifiedAt": "2026-06-05T09:46:55.334Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/36c69146-ef71-402d-9741-50d2fc8c81f9.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/165ada6b-a8b7-4d38-be99-6eabd0730262.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/35419bdf-1d6a-4bd6-b083-e3097c0b36aa.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8b5c96dd-5c4e-4037-85db-4d6b905e2182.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5e9e1d93-f7cb-43fd-bcc9-612059c0c81c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/38ee9ed6-6685-40e8-ab9a-fa9bff55a659.png"
+ }
+ }
+}

@@ -1,0 +1,302 @@
+{
+ "name": "Emmalewisham",
+ "slug": "emmalewisham",
+ "colors": [
+ {
+ "name": "Iris Violet",
+ "value": "#49369e",
+ "token": "--color-iris-violet",
+ "role": "Outlined action borders, link color, heading accents, navigation emphasis - the singular brand hue, deployed as a fine outline or thin underline rather than a filled mass"
+ },
+ {
+ "name": "Soft Lavender",
+ "value": "#a9a7db",
+ "token": "--color-soft-lavender",
+ "role": "Muted secondary accent for list borders, decorative link borders, and subtle dividers - the diluted echo of Iris Violet used when the full intensity would overpower"
+ },
+ {
+ "name": "Iris Focus",
+ "value": "#524eb7",
+ "token": "--color-iris-focus",
+ "role": "Input focus state text/border - a slightly lifted tonal variant of Iris Violet to signal active text fields"
+ },
+ {
+ "name": "Blush Petal",
+ "value": "#ec9bad",
+ "token": "--color-blush-petal",
+ "role": "Atmospheric surface wash and decorative accent - warm pink used for full-bleed product stage backgrounds and occasional badge fills"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, product image cutouts, nav and button borders, inverted text on dark or violet fields"
+ },
+ {
+ "name": "Stone Linen",
+ "value": "#f2f1ef",
+ "token": "--color-stone-linen",
+ "role": "Page canvas - the warm off-white that grounds every section, used as the base layer beneath product stages and text blocks"
+ },
+ {
+ "name": "Warm Ash",
+ "value": "#a09c97",
+ "token": "--color-warm-ash",
+ "role": "Muted background panels, announcement bar, low-emphasis surfaces"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#333333",
+ "token": "--color-charcoal",
+ "role": "Secondary text and low-emphasis fills - softer than pure black for body copy and metadata"
+ },
+ {
+ "name": "Graphite",
+ "value": "#000000",
+ "token": "--color-graphite",
+ "role": "Primary text, button outlines, icon strokes - used at hairline weights to stay quiet"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Martina Plantijn",
+ "token": "--font-martina-plantijn",
+ "role": "Primary UI and body sans-serif - used for navigation, buttons, body text, product copy, form fields, badges, and micro-labels. The weight 300 thin gives the system its airy, unforced feel; weight 700 is reserved for navigation emphasis and select labels. This is the workhorse - almost everything visible reads in this face."
+ },
+ {
+ "name": "Regola Pro Book",
+ "token": "--font-regola-pro-book",
+ "role": "Display and editorial serif - used for the brand wordmark and large hero/display copy. Its 80px presence carries the entire brand identity: the \u0027EMMA LEWISHAM\u0027 logotype and product-feature headlines float in Regola Pro Book, creating a distinctive serif-on-sans pairing. The single weight keeps the display quiet and editorial rather than decorative."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "16px",
+ "1.69",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.38",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.25",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "display",
+ "80px",
+ "1.2",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "48-80px",
+ "cardPadding": "20-30px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "22",
+ "22px",
+ "`--spacing-22`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "90",
+ "90px",
+ "`--spacing-90`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "50px"
+ ],
+ [
+ "cards",
+ "30px"
+ ],
+ [
+ "badges",
+ "10px"
+ ],
+ [
+ "buttons",
+ "3px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Brand Wordmark",
+ "role": "Primary brand identity lockup"
+ },
+ {
+ "name": "Outlined Action Button",
+ "role": "Primary interactive element"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Secondary navigation and inline links"
+ },
+ {
+ "name": "Announcement Bar",
+ "role": "Top-of-page utility message"
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Full-Bleed Product Stage",
+ "role": "Hero and product showcase sections"
+ },
+ {
+ "name": "Product Card",
+ "role": "Grid item for product listings"
+ },
+ {
+ "name": "Badge",
+ "role": "Small status indicators and cart count"
+ },
+ {
+ "name": "Text Input",
+ "role": "Form fields for email, search, checkout"
+ },
+ {
+ "name": "Body Copy Block",
+ "role": "Editorial text sections"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Major section titles"
+ },
+ {
+ "name": "Footer Link List",
+ "role": "Footer navigation columns"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Iris Violet (#49369e) exclusively for outlined action borders and link text - never fill a button or surface with it",
+ "Set the brand wordmark and all display headings in Regola Pro Book at 400 weight, never bold it",
+ "Keep all borders at 1px hairline weight; the system rejects thick borders and shadows",
+ "Use Stone Linen (#f2f1ef) as the default canvas beneath all content; let Blush Petal (#ec9bad) and other atmospheric colors serve as full-bleed product stages, not inline backgrounds",
+ "Use 30px radius on cards and 3px on buttons - the wide card / tight button ratio is the system\u0027s signature geometry",
+ "Let product photography occupy the full viewport in hero sections with zero padding around the object",
+ "Pair the sans-serif Martina Plantijn (UI) with the serif Regola Pro Book (display) - never use the serif for body copy or the sans for the wordmark"
+ ],
+ "doNot": [
+ "Don\u0027t fill buttons with Iris Violet or any other brand color - the action style is always outlined, never filled",
+ "Don\u0027t apply box-shadows to cards, buttons, or nav - the system is shadow-free and uses hairline borders for definition",
+ "Don\u0027t use bold or heavy weights in the serif (Regola Pro Book is 400 only) - the display must stay quiet",
+ "Don\u0027t use Blush Petal (#ec9bad) as a text color or border - it\u0027s an atmospheric surface wash only",
+ "Don\u0027t crowd the canvas with cards or panels - the layout breathes; let sections flow directly on Stone Linen",
+ "Don\u0027t use more than one atmospheric color per section - the hero uses Blush Petal alone, never mixed with lavender or violet washes",
+ "Don\u0027t use the 50px nav radius on anything other than the cart badge - it is a single accent, not a system-wide pattern"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1e93f444-0b01-4412-aa2b-877be5ef08d7",
+ "referenceSite": "https://emmalewisham.co.uk",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-04-30T02:18:34.138Z",
+ "articleModifiedAt": "2026-06-05T07:48:47.419Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/76d7d82e-7912-4a2a-879c-ba49892fa267.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/1d8eca1e-5900-4219-b5fa-66ac03bb7d63.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/be7eef36-ef70-48b6-891f-ae8cc9aa70b1.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/61fc0104-d92a-4f58-b06e-f2dc3a8b7749.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f943efd2-e84f-4354-b880-1123707293c3.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/71d5a31e-98e2-498b-8bcc-57c820e410ec.png"
+ }
+ }
+}

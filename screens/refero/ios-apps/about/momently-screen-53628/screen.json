@@ -1,0 +1,90 @@
+{
+ "id": "53628",
+ "uuid": "cdf9aa1e-6fd2-4b86-bc9b-5b8478b9e299",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Momently",
+ "description": "Store your moments privately",
+ "url": "https://apps.apple.com/us/app/momently/id1557152902",
+ "iconUrl": "https://images.refero.design/favicon/app_67/7ea27648-0309-4081-b147-ad3de75de8f3.jpg",
+ "backgroundColor": "f97436",
+ "id": "67"
+ },
+ "createdAt": "2023-11-22T16:22:37.557Z",
+ "referoViewUrl": "https://refero.design/view/cdf9aa1e-6fd2-4b86-bc9b-5b8478b9e299",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=33\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=33",
+ "thumbnailUrl": "https://images.refero.design/screenshots/67/mobile/7ea9adbc-0e2c-4399-a54d-bee5de62c8de_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/67/mobile/7ea9adbc-0e2c-4399-a54d-bee5de62c8de.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#2c2c2c",
+ "rgb": [
+ 44,
+ 44,
+ 44
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f5edeb",
+ "rgb": [
+ 245,
+ 237,
+ 235
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#fb6b38",
+ "rgb": [
+ 251,
+ 107,
+ 56
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f54b46",
+ "rgb": [
+ 245,
+ 75,
+ 70
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#14141c",
+ "rgb": [
+ 20,
+ 20,
+ 28
+ ]
+ }
+ ],
+ "designPatterns": "Dark Mode",
+ "pageElements": [
+ "List",
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "About",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

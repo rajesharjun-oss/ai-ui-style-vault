@@ -1,0 +1,94 @@
+{
+ "id": "9771",
+ "uuid": "f4314cf4-512a-4ddc-9ddc-0564654e3f4e",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Calm",
+ "description": "#1 app for sleep and meditation",
+ "url": "https://business.calm.com/plans/",
+ "iconUrl": "https://images.refero.design/favicon/calm.com/a7d5a2cd-d384-4afc-94b9-8b8a057384c6.jpg",
+ "backgroundColor": "",
+ "id": "227"
+ },
+ "createdAt": "2022-12-01T15:39:08.378Z",
+ "referoViewUrl": "https://refero.design/view/f4314cf4-512a-4ddc-9ddc-0564654e3f4e",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/calm.com/desktop/cc191b26-068b-4a1c-a2b9-892e2735c695_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/calm.com/desktop/9bea97ce-660e-4a5a-89af-0a482638a1df_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/calm.com/desktop/cc191b26-068b-4a1c-a2b9-892e2735c695/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f2f3f3",
+ "rgb": [
+ 242,
+ 243,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#4b4b4b",
+ "rgb": [
+ 75,
+ 75,
+ 75
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5b88df",
+ "rgb": [
+ 91,
+ 136,
+ 223
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#141e30",
+ "rgb": [
+ 20,
+ 30,
+ 48
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#68b8bf",
+ "rgb": [
+ 104,
+ 184,
+ 191
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Floating Button",
+ "Slider",
+ "Dialog \u0026 Modal Window",
+ "Currency"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": [
+ "San Francisco",
+ "Helvetica",
+ "Avenir"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

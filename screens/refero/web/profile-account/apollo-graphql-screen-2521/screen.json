@@ -1,0 +1,46 @@
+{
+ "id": "2521",
+ "uuid": "382462bf-5211-4378-bf18-09fd57a1af7b",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Apollo GraphQL",
+ "description": "The supergraph: a new layer in your stack",
+ "url": "https://studio.apollographql.com/org/stepan-smirnovs-team/usage",
+ "iconUrl": "https://images.refero.design/favicon/apollographql.com/7f9953cf-c53e-452c-a825-0c1fdf032e1b.jpg",
+ "backgroundColor": "",
+ "id": "79"
+ },
+ "createdAt": "2022-06-15T12:22:25.233Z",
+ "referoViewUrl": "https://refero.design/view/382462bf-5211-4378-bf18-09fd57a1af7b",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/apollographql.com/desktop/d8fbe80e-f0c0-4d16-ae7b-072577c16237_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/apollographql.com/desktop/e297250e-da6c-4f1a-8fcc-aa9957c4f5d7_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/apollographql.com/desktop/d8fbe80e-f0c0-4d16-ae7b-072577c16237/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+
+ ],
+ "designPatterns": "Empty State",
+ "pageElements": [
+ "Button",
+ "Tabs",
+ "Badge",
+ "Navigation Bar",
+ "Icon",
+ "Illustration",
+ "Avatar"
+ ],
+ "pageTypes": "Profile \u0026 Account",
+ "fonts": "Source Sans Pro",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

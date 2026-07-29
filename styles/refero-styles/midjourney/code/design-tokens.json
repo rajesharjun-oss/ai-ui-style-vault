@@ -1,0 +1,266 @@
+{
+ "name": "Midjourney",
+ "slug": "midjourney",
+ "colors": [
+ {
+ "name": "Abyssal Blue",
+ "value": "#0f1c36",
+ "token": "--color-abyssal-blue",
+ "role": "Secondary surface backgrounds, button background variant - a step lighter than Cosmic Void for subtle depth layering"
+ },
+ {
+ "name": "Steel Navy",
+ "value": "#1d293d",
+ "token": "--color-steel-navy",
+ "role": "Card surfaces, nav background, interactive container backgrounds"
+ },
+ {
+ "name": "Deep Slate",
+ "value": "#314062",
+ "token": "--color-deep-slate",
+ "role": "Elevated card or hover state backgrounds"
+ },
+ {
+ "name": "Mist",
+ "value": "#cad5e2",
+ "token": "--color-mist",
+ "role": "Primary body text, general UI text - slightly blue-gray rather than pure white, reducing harshness against the dark void backgrounds"
+ },
+ {
+ "name": "Fog",
+ "value": "#e5e7eb",
+ "token": "--color-fog",
+ "role": "Borders, dividers, icon strokes throughout the UI"
+ },
+ {
+ "name": "Ash",
+ "value": "#2e3038",
+ "token": "--color-ash",
+ "role": "Secondary text, subdued labels"
+ },
+ {
+ "name": "Ghost White",
+ "value": "#ffffff",
+ "token": "--color-ghost-white",
+ "role": "Heading text at maximum contrast"
+ },
+ {
+ "name": "Ice Blue",
+ "value": "#ebf8ff",
+ "token": "--color-ice-blue",
+ "role": "High-brightness text on dark surfaces, link contrast text"
+ },
+ {
+ "name": "Portal Blue",
+ "value": "#63b3ed",
+ "token": "--color-portal-blue",
+ "role": "Hyperlinks, inline text links - the single fully saturated accent visible in body content, connecting to Midjourney\u0027s Discord/community ecosystem"
+ },
+ {
+ "name": "Bioluminescent Green",
+ "value": "#004f3b",
+ "token": "--color-bioluminescent-green",
+ "role": "Sign Up pill button background (20% opacity tint) - deep green specimen glow against void"
+ },
+ {
+ "name": "Terminal Amber",
+ "value": "#733e0a",
+ "token": "--color-terminal-amber",
+ "role": "Explore pill button background (20% opacity tint) - amber specimen variant"
+ },
+ {
+ "name": "Crimson Depth",
+ "value": "#8b0836",
+ "token": "--color-crimson-depth",
+ "role": "Log In pill button background (20% opacity tint) - deep red specimen variant"
+ },
+ {
+ "name": "Specimen Green",
+ "value": "#00bc7d",
+ "token": "--color-specimen-green",
+ "role": "Icon strokes and decorative SVG fills - vivid but used sparingly in iconography only"
+ },
+ {
+ "name": "Warning Amber",
+ "value": "#f0b100",
+ "token": "--color-warning-amber",
+ "role": "Icon and UI accent strokes - section heading icons (Projects , About )"
+ },
+ {
+ "name": "Fault Red",
+ "value": "#ff2056",
+ "token": "--color-fault-red",
+ "role": "Icon strokes, error-adjacent SVG fills"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "JetBrains Mono",
+ "token": "--font-jetbrains-mono",
+ "role": "Every typographic role on this site - navigation labels, body copy, headings, buttons, links. Using a monospace font as the universal typeface (not just for code) makes the entire interface read as an active terminal output. 30px at lineHeight 1.25 serves section headings; 16px at 1.50 serves body and UI labels; 14px at 1.63 serves captions and metadata."
+ },
+ {
+ "name": "DM Sans",
+ "token": "--font-dm-sans",
+ "role": "Secondary UI copy and body text in prose sections - appears at 16px only. Weight 500 for emphasis within body blocks. Provides a subtle humanist contrast against the monospace primary, used sparingly so the terminal character of JetBrains Mono dominates."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.63",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.25",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "800px",
+ "sectionGap": "64px",
+ "cardPadding": "32px",
+ "elementGap": "8-16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "images",
+ "8px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Sign Up Pill Button",
+ "role": "Primary registration CTA in navigation"
+ },
+ {
+ "name": "Log In Pill Button",
+ "role": "Secondary auth action in navigation"
+ },
+ {
+ "name": "Explore Pill Button",
+ "role": "Navigation action for main product discovery"
+ },
+ {
+ "name": "Documentation Tab",
+ "role": "Navigation label for technical docs section"
+ },
+ {
+ "name": "Section Heading with Icon",
+ "role": "Page section titles (About, Projects, Careers)"
+ },
+ {
+ "name": "Project Image Card",
+ "role": "Visual showcase grid for AI-generated imagery"
+ },
+ {
+ "name": "Sticky Navigation Bar",
+ "role": "Primary site navigation across all pages"
+ },
+ {
+ "name": "Hero ASCII Animation Background",
+ "role": "Full-viewport hero visual"
+ },
+ {
+ "name": "Inline Body Link",
+ "role": "Hyperlinks within prose content"
+ },
+ {
+ "name": "Background Gradient Surface",
+ "role": "Full-page atmospheric depth layer"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use JetBrains Mono as the primary typeface for all UI elements - navigation, headings, buttons, body copy - treating monospace as the visual identity, not a code-context exception.",
+ "Apply the three-color pill button system (green/amber/red tints at ~20% opacity) only for the Sign Up / Explore / Log In triad - do not extend the specimen-color scheme to other button types.",
+ "Set all page backgrounds to #06051d or the gradient variant linear-gradient(0deg, #06051d 30%, #061434) - never use pure #000000, which would flatten the violet cosmic depth.",
+ "Use 9999px border-radius for all pill buttons and 8px for all card/image containers - no intermediate values; the contrast between fully rounded and gently rounded is the shape system.",
+ "Render section headings at 30px JetBrains Mono weight 400 with a small amber #f0b100 icon prefix - never increase to bold weights, the whisper-weight at large sizes is the signature.",
+ "Use #63b3ed Portal Blue exclusively for inline hyperlinks and flat navigation text links - it is the only fully visible chromatic color in body content.",
+ "Maintain 64px vertical gap between page sections to preserve the spacious, pressurized-void atmosphere between content blocks."
+ ],
+ "doNot": [
+ "Do not use any sans-serif or serif font as a heading font - DM Sans is for body prose only; JetBrains Mono must dominate the typographic hierarchy.",
+ "Do not create solid-fill opaque buttons - the translucent 20% opacity tinted backgrounds on pills are the system; solid fills break the bioluminescent specimen aesthetic.",
+ "Do not introduce light backgrounds (#ffffff, light grays) into page sections - the design has no light mode; all surfaces must remain within the #06051d to #314062 dark range.",
+ "Do not use more than three accent tint colors for buttons - the red/green/amber specimen triad is a closed system; adding new button colors dilutes the precision.",
+ "Do not bold section headings or use font-weight above 500 anywhere in the UI - weight 400 at display sizes is the deliberate anti-convention choice that defines the visual voice.",
+ "Do not add decorative imagery or photography - the only permitted visuals are AI-generated monochromatic renders and the ASCII/generative text hero.",
+ "Do not apply colored backgrounds to body text sections - prose content must sit directly on #06051d Cosmic Void with #cad5e2 Mist text, no content cards with contrasting backgrounds."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/225059ac-0450-49d3-b2b7-d0e98b7ae938",
+ "referenceSite": "https://midjourney.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-03-12T13:16:36.000Z",
+ "articleModifiedAt": "2026-06-05T01:26:17.330Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/698dd6e9-1f77-4eb4-a8a6-b50df6bbda02.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/95eb5c46-271c-4503-81a5-d1003a95efcc.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2287534d-d905-4482-9200-e26a38eaa6be.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/ba47d8aa-c8b5-4478-b48c-23566d0c9f57.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/50e75698-0356-4fbf-ba94-15381261bacf.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/346a383f-0a72-4aa4-89c5-150e52a0b91a.png"
+ }
+ }
+}

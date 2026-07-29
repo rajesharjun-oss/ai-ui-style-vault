@@ -1,0 +1,100 @@
+{
+ "id": "16817",
+ "uuid": "adc8e43c-fcbc-4bdd-9110-3a0e6d0e24bd",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Overflow",
+ "description": "User flows done right",
+ "url": "https://support.overflow.io/hc/en-us/requests/new",
+ "iconUrl": "https://images.refero.design/favicon/overflow.io/0494d1b8-a51a-42cd-b210-841ea26bb2db.jpg",
+ "backgroundColor": "",
+ "id": "293"
+ },
+ "createdAt": "2023-03-02T09:32:50.765Z",
+ "referoViewUrl": "https://refero.design/view/adc8e43c-fcbc-4bdd-9110-3a0e6d0e24bd",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/overflow.io/desktop/90d2bf4c-5988-4388-9bbe-99faeeeaf7c2_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/overflow.io/desktop/14f31044-4bf9-4eb5-b62d-ea5a0ca6b7de_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/overflow.io/desktop/90d2bf4c-5988-4388-9bbe-99faeeeaf7c2/0.jpg",
+ "https://images.refero.design/screenshots/overflow.io/desktop/90d2bf4c-5988-4388-9bbe-99faeeeaf7c2/1.jpg",
+ "https://images.refero.design/screenshots/overflow.io/desktop/90d2bf4c-5988-4388-9bbe-99faeeeaf7c2/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#2b2b93",
+ "rgb": [
+ 43,
+ 43,
+ 147
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ebeced",
+ "rgb": [
+ 235,
+ 236,
+ 237
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#242a3e",
+ "rgb": [
+ 36,
+ 42,
+ 62
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#7a7c84",
+ "rgb": [
+ 122,
+ 124,
+ 132
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#62abda",
+ "rgb": [
+ 98,
+ 171,
+ 218
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Files",
+ "Upload \u0026 Download",
+ "Suggestion \u0026 Similar Items"
+ ],
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": [
+ "copenhagen icons",
+ "sans serif",
+ "Inter",
+ "Entypo"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

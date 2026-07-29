@@ -1,0 +1,306 @@
+{
+ "name": "Altius",
+ "slug": "altius",
+ "colors": [
+ {
+ "name": "Obsidian Ember",
+ "value": "#190501",
+ "token": "--color-obsidian-ember",
+ "role": "Primary dark canvas - page background in dark sections, card surface, deepest borders. The black-with-warmth that defines the brand atmosphere"
+ },
+ {
+ "name": "Dark Cocoa",
+ "value": "#340a01",
+ "token": "--color-dark-cocoa",
+ "role": "Secondary dark surface, deep link borders, icon outlines - one step lifted from obsidian for layering depth"
+ },
+ {
+ "name": "Molten Core",
+ "value": "#631303",
+ "token": "--color-molten-core",
+ "role": "Inset glow shadow source, deep red-brown accents - the pressed-ember tone that gives buttons their internal fire"
+ },
+ {
+ "name": "Signal Red",
+ "value": "#951c04",
+ "token": "--color-signal-red",
+ "role": "Outlined/ghost action border, nav borders, icon strokes, interactive outlines - the chromatic action color used for outlined buttons and active control edges"
+ },
+ {
+ "name": "Flare Orange",
+ "value": "#fa5838",
+ "token": "--color-flare-orange",
+ "role": "Primary brand accent - links, decorative borders, the hero gradient spectrum, highlight washes. The single hottest color in the system; used sparingly as functional punctuation"
+ },
+ {
+ "name": "Warm Blush",
+ "value": "#fcac9c",
+ "token": "--color-warm-blush",
+ "role": "Soft surface wash, secondary peach background, decorative highlight fields - the diffused ember tone for breathing sections"
+ },
+ {
+ "name": "Vapor Peach",
+ "value": "#feeae6",
+ "token": "--color-vapor-peach",
+ "role": "Light section background, light-mode card surface, body text on dark, ghost button text - the warm off-white that breaks the dark rhythm"
+ },
+ {
+ "name": "Linen",
+ "value": "#f7f6ff",
+ "token": "--color-linen",
+ "role": "Primary text on dark, crisp borders on dark sections, inverse text. The near-white that carries most typography on dark surfaces"
+ },
+ {
+ "name": "Warm Ash",
+ "value": "#baadab",
+ "token": "--color-warm-ash",
+ "role": "Muted button borders on light sections, tertiary text, subtle dividers - a warm gray that softens edges without going cold"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Decorative SVG fills, icon line art, graphical accents - high-contrast details that read as deep-ink on the warm canvas"
+ },
+ {
+ "name": "Mist",
+ "value": "#cccccc",
+ "token": "--color-mist",
+ "role": "Input field borders on light backgrounds - the only cool-neutral in the system, used minimally for form controls"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Matter",
+ "token": "--font-matter",
+ "role": "Primary typeface - body, display, headings, buttons, navigation, icons. Weight 700 carries display headlines; 500 for emphasis in body; 400 for regular text. Tight tracking across all sizes creates a compressed, confident read."
+ },
+ {
+ "name": "Fabrikatmono",
+ "token": "--font-fabrikatmono",
+ "role": "Monospace accent - section labels, tags, technical metadata, trust signals. Used in uppercase for eyebrow labels like \u0027THE PROBLEM\u0027 and \u0027SOLUTIONS\u0027. The technical-utility voice that contrasts Matter\u0027s editorial confidence."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "21",
+ "-0.14px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "24",
+ "-0.16px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "25",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "28",
+ "-0.8px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "54",
+ "-1.92px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "60px",
+ "65",
+ "-2.58px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "32px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "108",
+ "108px",
+ "`--spacing-108`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "4px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site-wide header"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Landing page hero"
+ },
+ {
+ "name": "Filled Primary Button",
+ "role": "Primary action"
+ },
+ {
+ "name": "Outlined Ghost Button",
+ "role": "Secondary action"
+ },
+ {
+ "name": "Investor Logo Grid",
+ "role": "Social proof band"
+ },
+ {
+ "name": "Section Header (Tag + Heading)",
+ "role": "Section introduction"
+ },
+ {
+ "name": "Problem Statement Card",
+ "role": "Light-section content card"
+ },
+ {
+ "name": "Solutions Feature Card",
+ "role": "Feature highlight (dark variant)"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form control"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer"
+ },
+ {
+ "name": "Hero Gradient Bar",
+ "role": "Decorative hero element"
+ },
+ {
+ "name": "Eyebrow Tag Label",
+ "role": "Section category indicator"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Obsidian Ember (#190501) as the default canvas for all primary content sections",
+ "Apply 60px Matter weight 700 with -2.58px letter-spacing for display headlines",
+ "Use the Flare Orange (#fa5838) sparingly as functional punctuation - links, accents, single highlight elements per section",
+ "Include the 20px inset ember-glow shadow (rgb(99,19,3)) on all filled primary buttons",
+ "Alternate between dark and Vapor Peach (#feeae6) sections to create thermal rhythm across the page",
+ "Set all buttons to 4px radius and cards to 8px radius - sharp enough to feel technical, soft enough to feel crafted",
+ "Use Fabrikatmono 14px uppercase in Flare Orange for all section tags and technical labels"
+ ],
+ "doNot": [
+ "Don\u0027t add drop shadows to cards or panels - the system uses hairline borders and surface differentiation only",
+ "Don\u0027t use blue or cool tones - the entire palette is warm, from Vapor Peach through Molten Core",
+ "Don\u0027t create filled buttons with Flare Orange (#fa5838) background - Flare Orange is for accents, not button fills",
+ "Don\u0027t use display sizes below 48px or above 60px - the type scale is compressed and confident",
+ "Don\u0027t let dark sections run more than 2-3 before introducing a Vapor Peach break - the thermal alternation is structural",
+ "Don\u0027t use generic sans-serif fallbacks as the primary face - Matter\u0027s tight tracking is part of the voice",
+ "Don\u0027t apply color to body text - keep body text in Linen (#f7f6ff) on dark or Obsidian Ember (#190501) on light"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/227ff379-9b46-44fc-8ff1-37e0472239a6",
+ "referenceSite": "https://www.altiuslabs.xyz",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:13:58.887Z",
+ "articleModifiedAt": "2026-06-03T21:39:22.702Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/27b643c5-afe9-4bb4-aed5-5c7dcde86385.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/d7968ea5-cad3-492e-abd8-ec2c92f9afb4.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/8d292e45-3977-4573-a24e-29d7d84f75a5.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d7be6a2d-e1ac-40f9-bb86-2fc3402278f7.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b44bbc39-f1a1-4c1e-b1ec-a1138ed2f1e2.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/8051097c-239d-4b1e-b0c6-0e58cacf9f3f.png"
+ }
+ }
+}

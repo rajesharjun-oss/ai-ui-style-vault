@@ -1,0 +1,87 @@
+{
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Kraken",
+ "description": "Bitcoin \u0026 Cryptocurrency Exchange",
+ "url": "https://www.kraken.com/u/settings/account",
+ "iconUrl": "https://images.refero.design/favicon/kraken.com/241088b7-8201-4996-8b04-1a80724a5632.jpg",
+ "backgroundColor": "",
+ "id": "161"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#040483",
+ "rgb": [
+ 4,
+ 4,
+ 131
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#232324",
+ "rgb": [
+ 35,
+ 35,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#8a8b94",
+ "rgb": [
+ 138,
+ 139,
+ 148
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f4f4f4",
+ "rgb": [
+ 244,
+ 244,
+ 244
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#2b24b3",
+ "rgb": [
+ 43,
+ 36,
+ 179
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Text Field",
+ "Navigation Bar",
+ "Footer",
+ "Icon"
+ ],
+ "designPatterns": "Edit",
+ "fonts": [
+ "IBM Plex Sans",
+ "Kraken Plex"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/kraken.com/desktop/f1b92055-6cb0-437d-896a-d17221ab6771_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a/0.jpg",
+ "https://images.refero.design/screenshots/kraken.com/desktop/da5d705c-114f-4a5e-8f77-bc3c45ae181a/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

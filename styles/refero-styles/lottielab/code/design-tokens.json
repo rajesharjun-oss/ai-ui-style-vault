@@ -1,0 +1,323 @@
+{
+ "name": "Lottielab",
+ "slug": "lottielab",
+ "colors": [
+ {
+ "name": "Electric Violet",
+ "value": "#7270ff",
+ "token": "--color-electric-violet",
+ "role": "Primary CTA buttons, active nav items, accent keywords in headlines, focus rings - the only chromatic element allowed to break the monochrome canvas, making every action feel switched on"
+ },
+ {
+ "name": "Signal Blue",
+ "value": "#1560fb",
+ "token": "--color-signal-blue",
+ "role": "Secondary accent for interactive highlights, selected states in tool surfaces, and inline brand emphasis where a cooler note is needed"
+ },
+ {
+ "name": "Deep Indigo",
+ "value": "#2f2b4a",
+ "token": "--color-deep-indigo",
+ "role": "Primary text and headings - a near-black with a violet undertone that warms the monochrome palette and distinguishes the brand from flat-charcoal SaaS defaults"
+ },
+ {
+ "name": "Midnight Ink",
+ "value": "#1c1a2c",
+ "token": "--color-midnight-ink",
+ "role": "Heaviest text weight, section titles, and surface-dark contexts - a deeper step than Deep Indigo for maximum contrast moments"
+ },
+ {
+ "name": "Slate",
+ "value": "#4b5563",
+ "token": "--color-slate",
+ "role": "Secondary body text, descriptions, metadata - sits between Deep Indigo and Silver for layered reading hierarchy"
+ },
+ {
+ "name": "Silver",
+ "value": "#9ca3af",
+ "token": "--color-silver",
+ "role": "Muted helper text, placeholder copy, disabled labels, and icon secondary tones"
+ },
+ {
+ "name": "Fog",
+ "value": "#d9dbda",
+ "token": "--color-fog",
+ "role": "Icon strokes at rest, subtle surface borders, low-emphasis dividers"
+ },
+ {
+ "name": "Mist",
+ "value": "#e5e7eb",
+ "token": "--color-mist",
+ "role": "Primary hairline borders across cards, inputs, dividers, and component edges - the dominant structural neutral"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Card surfaces, elevated panels, button text on violet fills, inverted icon strokes"
+ },
+ {
+ "name": "Bone",
+ "value": "#f9fafb",
+ "token": "--color-bone",
+ "role": "Alternate surface for nested panels, input fills, quiet sections within white pages"
+ },
+ {
+ "name": "Pebble",
+ "value": "#f3f4f6",
+ "token": "--color-pebble",
+ "role": "Page canvas, section bands between white blocks, product mockup backgrounds, footer wash"
+ },
+ {
+ "name": "Sunset Gradient",
+ "value": "#facc15",
+ "token": "--color-sunset-gradient",
+ "role": "Decorative gradient endpoint for marketing visuals and showcase cards"
+ },
+ {
+ "name": "Bloom Gradient",
+ "value": "#ec4899",
+ "token": "--color-bloom-gradient",
+ "role": "Decorative gradient endpoint for showcase cards and hero illustration accents"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Plus Jakarta Sans",
+ "token": "--font-plus-jakarta-sans",
+ "role": "Sole typeface across the product. Geometric humanist sans with subtly squared terminals - contemporary but not cold. Weight 700 carries display and headings for confident vertical presence; weight 500 serves UI controls and labels; weight 400 handles body and descriptions. The slight openness in counters at small sizes keeps labels legible on dense tool surfaces."
+ },
+ {
+ "name": "Google Sans Code",
+ "token": "--font-google-sans-code",
+ "role": "Google Sans Code - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.71",
+ "0.3px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.56",
+ "0.35px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "0.4px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.43",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "36px",
+ "1.11",
+ "-0.9px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.11",
+ "-1.2px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "60px",
+ "1",
+ "-1.5px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "192",
+ "192px",
+ "`--spacing-192`"
+ ],
+ [
+ "224",
+ "224px",
+ "`--spacing-224`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "4px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "icons",
+ "9999px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "12px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "Single decisive conversion action on every page"
+ },
+ {
+ "name": "Outlined Nav Button",
+ "role": "Secondary action in the header"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Inline navigation and tertiary actions"
+ },
+ {
+ "name": "Product Mockup Frame",
+ "role": "Browser-style container around the editor preview"
+ },
+ {
+ "name": "Animation Preview Card",
+ "role": "Showcase tile in the product gallery"
+ },
+ {
+ "name": "Timeline Track Row",
+ "role": "Animation keyframe row inside the editor"
+ },
+ {
+ "name": "Trust Logo Strip",
+ "role": "Social proof bar below the hero"
+ },
+ {
+ "name": "Section Heading Block",
+ "role": "Centered text intro before content sections"
+ },
+ {
+ "name": "Input Field",
+ "role": "Text entry in forms and editor"
+ },
+ {
+ "name": "Nav Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Brand Logo Mark",
+ "role": "Lottielab identity"
+ },
+ {
+ "name": "Gradient Showcase Card",
+ "role": "Decorative card in feature sections"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #7270ff as the only chromatic fill on the page - every other surface stays in the neutral scale from #f3f4f6 to #2f2b4a.",
+ "Set display text at 60px and headings at 48px with letter-spacing -1.5px and -1.2px respectively to match the contemporary tight-tracking rhythm.",
+ "Apply 8px radius to all cards and panels, 12px to buttons, 9999px to tags and icon containers - the three-tier system is non-negotiable.",
+ "Use Mist (#e5e7eb) 1px borders instead of shadows to separate layers; elevation comes from background stepping, not blur.",
+ "Highlight one keyword per headline in Electric Violet (#7270ff) - the rest of the sentence stays Deep Indigo to create a single beat of color.",
+ "Pair Plus Jakarta Sans weight 700 with 1.00-1.11 line-height for headlines; reserve weight 500 for UI labels and weight 400 for body copy.",
+ "Alternate between #ffffff and #f3f4f6 section bands to create rhythm without using color or shadows."
+ ],
+ "doNot": [
+ "Don\u0027t introduce additional brand hues - the palette is intentionally violet-only; resist adding teals, greens, or pinks to core UI.",
+ "Don\u0027t use shadows, glows, or blur effects for elevation; rely on surface color stepping and 1px hairline borders instead.",
+ "Don\u0027t set body text below 14px or use weights under 400 - the type system is calibrated for comfortable reading at 16px+.",
+ "Don\u0027t apply gradient fills to buttons, inputs, or navigation - gradients are reserved for showcase and marketing visuals only.",
+ "Don\u0027t use pure #000000 for text on light backgrounds; use Deep Indigo (#2f2b4a) to preserve the warm violet undertone of the brand.",
+ "Don\u0027t break the 8px spacing grid - all padding, gaps, and margins should land on multiples of 8 (with 4px and 2px allowed only for micro-adjustments inside components).",
+ "Don\u0027t stack multiple violet elements on a single screen - one chromatic moment per viewport keeps the accent meaningful."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1f782141-d407-4c27-8cee-2246720a9f42",
+ "referenceSite": "https://www.lottielab.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-07T12:13:20.844Z",
+ "articleModifiedAt": "2026-06-03T22:00:45.943Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d0872642-aabf-4251-9e72-8d4ab87c6966.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/5e91b71b-da5a-4f5c-bc19-330d723b78b8.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7a85725c-16e0-4999-8690-e29dbc9168eb.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/59277f8a-cc65-4e87-b81e-7aeeff838677.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/09a2ef2a-1b72-4a5c-b46e-b6b98ee6195f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/d16ce3a9-b1c1-4df7-9bb6-878368886e7a.png"
+ }
+ }
+}

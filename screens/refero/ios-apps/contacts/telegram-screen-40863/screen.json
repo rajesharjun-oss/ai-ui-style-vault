@@ -1,0 +1,89 @@
+{
+ "id": "40863",
+ "uuid": "141ddb81-aa0d-458f-877b-dd6c8421190b",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Telegram",
+ "description": "Fast. Secure. Powerful.",
+ "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+ "iconUrl": "https://images.refero.design/favicon/app_46/5be247f7-9921-4077-9139-c636e5d19049.jpg",
+ "backgroundColor": "3db4db",
+ "id": "46"
+ },
+ "createdAt": "2023-08-22T19:08:29.088Z",
+ "referoViewUrl": "https://refero.design/view/141ddb81-aa0d-458f-877b-dd6c8421190b",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/46/mobile/00885ed2-5d5b-42fb-abea-e649d3658eb8_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/46/mobile/00885ed2-5d5b-42fb-abea-e649d3658eb8.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f8f9f9",
+ "rgb": [
+ 248,
+ 249,
+ 249
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#4099fc",
+ "rgb": [
+ 64,
+ 153,
+ 252
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#9ca7b4",
+ "rgb": [
+ 156,
+ 167,
+ 180
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#057cfc",
+ "rgb": [
+ 5,
+ 124,
+ 252
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ }
+ ],
+ "designPatterns": "Empty State",
+ "pageElements": [
+ "Button",
+ "Search Field",
+ "Icon",
+ "Tabbar"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

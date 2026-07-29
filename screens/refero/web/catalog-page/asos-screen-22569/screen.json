@@ -1,0 +1,115 @@
+{
+ "id": "22569",
+ "uuid": "47a2d551-a462-479a-a387-35e68c07073f",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Asos",
+ "description": "Online Shopping",
+ "url": "https://www.asos.com/men/sale/suits-tailoring/cat/?cid=8134\u0026ctaref=hp|mw|sale|carousel|2|category|tailoring",
+ "iconUrl": "https://images.refero.design/favicon/asos.com/4363407e-c6fa-41e1-889c-125ea190a392.jpg",
+ "backgroundColor": "",
+ "id": "66"
+ },
+ "createdAt": "2023-04-07T09:10:42.022Z",
+ "referoViewUrl": "https://refero.design/view/47a2d551-a462-479a-a387-35e68c07073f",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/asos.com/desktop/f6285bff-7a38-4244-9899-faab7afb0051_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/0.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/1.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/2.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/3.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/4.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/5.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/6.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/7.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/8.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/9.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/10.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/11.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/12.jpg",
+ "https://images.refero.design/screenshots/asos.com/desktop/ad83b2c6-c623-4aa0-a978-85be390b7e22/13.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#9944b3",
+ "rgb": [
+ 153,
+ 68,
+ 179
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#26262a",
+ "rgb": [
+ 38,
+ 38,
+ 42
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#18c0bd",
+ "rgb": [
+ 24,
+ 192,
+ 189
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8c8c8d",
+ "rgb": [
+ 140,
+ 140,
+ 141
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#565353",
+ "rgb": [
+ 86,
+ 83,
+ 83
+ ]
+ }
+ ],
+ "designPatterns": "Shopping",
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Page Control \u0026 Pagination",
+ "Breadcrumb",
+ "Navigation Bar",
+ "Search Field",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Thumbnail",
+ "Currency"
+ ],
+ "pageTypes": "Catalog Page",
+ "fonts": [
+ "Arial",
+ "Futura PT"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

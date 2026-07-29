@@ -1,0 +1,83 @@
+{
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Craft",
+ "description": "Journal ideas, meeting notes",
+ "url": "https://apps.apple.com/us/app/craft-write-docs-ai-editing/id1487937127",
+ "iconUrl": "https://images.refero.design/favicon/app_71/9936193b-5237-4bbb-a88b-8fff7607ae1c.jpg",
+ "backgroundColor": "81a0fe",
+ "id": "71"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f4f4f6",
+ "rgb": [
+ 244,
+ 244,
+ 246
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#a2a3a6",
+ "rgb": [
+ 162,
+ 163,
+ 166
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5b5b5b",
+ "rgb": [
+ 91,
+ 91,
+ 91
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8b8c8c",
+ "rgb": [
+ 139,
+ 140,
+ 140
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Navigation Bar",
+ "Icon",
+ "Onscreen Keyboard"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/71/mobile/c8eaf990-6ea3-40a1-a361-a4e698eb1628_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/71/mobile/c8eaf990-6ea3-40a1-a361-a4e698eb1628.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

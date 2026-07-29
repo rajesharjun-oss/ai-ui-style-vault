@@ -1,6 +1,6 @@
 # Captured Styles
 
-Total styles: 240
+Total styles: 256
 
 Each entry links to a local source-derived bundle with design notes, implementation prompt, tokens, code artifacts, source metadata, and media handling notes.
 
@@ -10,6 +10,7 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [21 TSI](styles/refero-styles/21-tsi/) | dark | fashion, luxury, editorial brand | - | [Refero](https://styles.refero.design/style/7b28c99e-ed17-451b-a39e-bd4722bc43f5) | $folder/ |
 | [247Studio](styles/refero-styles/247studio/) | light | agency, branding studio, editorial portfolio | branding agency sites studio portfolios case-study indexes client logo grids minimal editorial landing pages | [Refero](https://styles.refero.design/style/c43237e3-dae2-4fc6-a917-519b25c870e5) | $folder/ |
 | [Acctual](styles/refero-styles/acctual/) | light | - | invoicing products payments SaaS billing workflows finance operations tools freelancer and agency finance apps | [Refero](https://styles.refero.design/style/aeefc294-a8f7-443d-b76a-538dddc29afe) | $folder/ |
+| [Acne Studios](styles/refero-styles/acne-studios/) | light | E-commerce | E-commerce AI-assisted UI implementation | [Refero](https://styles.refero.design/style/234e9a17-236d-4446-9d58-f83f6806d012) | $folder/ |
 | [Active Theory](styles/refero-styles/active-theory/) | - | - | immersive-webgl-sites creative-studio-portfolios 3d-experience-sites dark-agency-sites cinematic-brand-sites interactive-installation-pages | [Refero](https://styles.refero.design/style/3416bd14-96bb-4c23-bd01-b2ea178ba5ce) | $folder/ |
 | [AI for Business](styles/refero-styles/ai-for-business/) | light | - | AI business platforms enterprise SaaS consulting productized services use-case libraries B2B landing pages editorial product showrooms | [Refero](https://styles.refero.design/style/ee403055-480e-4bd4-9216-07c9ae2dde2e) | $folder/ |
 | [AI Product Generation](styles/refero-styles/ai-product-generation/) | light | AI | AI AI-assisted UI implementation | [Refero](https://styles.refero.design/style/186775da-7568-49e5-8110-4fd0bbc7bbe3) | $folder/ |
@@ -17,6 +18,7 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [Airbnb](styles/refero-styles/airbnb/) | light | - | - | Refero | $folder/ |
 | [Alden](styles/refero-styles/alden/) | light | healthcare, advisory care, patient support | - | [Refero](https://styles.refero.design/style/b6f25b86-ffcf-42f1-9f37-5e37d08cb4ce) | $folder/ |
 | [Altitude](styles/refero-styles/altitude/) | dark | - | financial AI products investment research tools terminal-style dashboards portfolio analytics enterprise intelligence products technical editorial landing pages | [Refero](https://styles.refero.design/style/0e971626-ca51-45ba-acf6-35a53c561b2c) | $folder/ |
+| [Altius](styles/refero-styles/altius/) | dark | Crypto | Crypto AI-assisted UI implementation | [Refero](https://styles.refero.design/style/227ff379-9b46-44fc-8ff1-37e0472239a6) | $folder/ |
 | [Amaterasu](styles/refero-styles/amaterasu/) | dark | AI, cinematic brand site, wellness technology | AI product pages research brands wellness technology premium dark landing pages | [Refero](https://styles.refero.design/style/01b3bfc1-95df-425f-9b7a-15cff09adc5f) | $folder/ |
 | [Ameba](styles/refero-styles/ameba/) | dark | SaaS, AI, enterprise operations | - | [Refero](https://styles.refero.design/style/371df039-a090-402b-b2e4-21ab38e07625) | $folder/ |
 | [Amplemarket](styles/refero-styles/amplemarket/) | light | SaaS, sales automation, AI | - | [Refero](https://styles.refero.design/style/db451eca-8de6-43a9-a5d5-35271befdffd) | $folder/ |
@@ -60,6 +62,7 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [Champions4good](styles/refero-styles/champions4good/) | dark | sports, community, social impact | - | [Refero](https://styles.refero.design/style/e02671e1-ba31-465f-bb7f-b124bf91ab5e) | $folder/ |
 | [Changelog](styles/refero-styles/changelog/) | dark | productivity, developer tooling, changelog | changelogs release notes developer docs technical blogs product update feeds engineering dashboards | [Refero](https://styles.refero.design/style/a5cc9b0f-d274-458a-b990-d18482b70838) | $folder/ |
 | [ChatGPT](styles/refero-styles/chatgpt/) | light | - | - | Refero | $folder/ |
+| [Chronicle](styles/refero-styles/chronicle/) | light | SaaS | SaaS AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1c60b014-473b-443b-b0f5-220612feebb7) | $folder/ |
 | [Ciridae](styles/refero-styles/ciridae/) | dark | AI | AI AI-assisted UI implementation | [Refero](https://styles.refero.design/style/a1b78a21-a304-482b-8ce5-f612d95d44fe) | $folder/ |
 | [Claude](styles/refero-styles/claude/) | light | - | AI assistants research tools knowledge products pricing pages editorial SaaS help centers quiet productivity tools | [Refero](https://styles.refero.design/style/47cb86b6-cb2d-41c8-94ba-8607cd7c41cd) | $folder/ |
 | [Clearbit](styles/refero-styles/clearbit/) | light | - | - | Refero | $folder/ |
@@ -89,17 +92,20 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [Ease Health](styles/refero-styles/ease-health/) | light | - | healthtech landing pages behavioral health platforms clinic operations EHR tools CRM tools RCM tools care coordination products provider portals | [Refero](https://styles.refero.design/style/e9f5e976-53f7-42f5-a882-4e63b3c2f734) | $folder/ |
 | [Eindhoven Design District](styles/refero-styles/eindhoven-design-district/) | light | - | - | [Refero](https://styles.refero.design/style/c90b584e-de5b-4971-9e13-8ab991bd96c0) | $folder/ |
 | [ElevenLabs](styles/refero-styles/elevenlabs/) | light | - | AI voice products audio tools creator platforms developer APIs voice-agent products editorial AI landing pages | [Refero](https://styles.refero.design/style/031056ff-7af1-46db-8daa-115f731c5d26) | $folder/ |
+| [Emmalewisham](styles/refero-styles/emmalewisham/) | light | E-commerce | E-commerce AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1e93f444-0b01-4412-aa2b-877be5ef08d7) | $folder/ |
 | [EPIC agency](styles/refero-styles/epic-agency/) | dark | - | - | [Refero](https://styles.refero.design/style/6eb778ca-6808-4cc6-ac8a-7beea5a25c36) | $folder/ |
 | [Evernote](styles/refero-styles/evernote/) | light | Productivity | Productivity AI-assisted UI implementation | [Refero](https://styles.refero.design/style/0c0b6140-2b6c-44f8-8bba-4ecfcadba420) | $folder/ |
 | [Factory](styles/refero-styles/factory/) | - | - | developer-tools engineering-dashboards terminal-style-saas observability analytics product-led-hero | [Refero](https://styles.refero.design/style/13d6fc89-eba2-4724-ac37-20f4f2e5efec) | $folder/ |
 | [Family](styles/refero-styles/family/) | light | Crypto | - | [Refero](https://styles.refero.design/style/1bcae895-2245-4d33-aa43-1c1e80719554) | $folder/ |
 | [Ferrari](styles/refero-styles/ferrari/) | dark | - | - | Refero | $folder/ |
 | [Fey](styles/refero-styles/fey/) | dark | fintech, investing, market data | - | [Refero](https://styles.refero.design/style/a0630421-7b66-48b4-aa14-6194a3b2c2b9) | $folder/ |
+| [Flatfile](styles/refero-styles/flatfile/) | light | Dev Tools | Dev Tools AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1ded7f89-3df0-4e7c-9cac-28218d038575) | $folder/ |
 | [Flying Papers](styles/refero-styles/flying-papers/) | light | - | - | Refero | $folder/ |
 | [Fold](styles/refero-styles/fold/) | light | - | fintech apps consumer banking spending analytics personal finance app landing pages | [Refero](https://styles.refero.design/style/4d1d50ff-18b8-4acf-a356-48eb5c414711) | $folder/ |
 | [Foodnoms](styles/refero-styles/foodnoms/) | light | Productivity | Productivity AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1e7dae3b-cb34-4fcf-8c32-051152aebbab) | $folder/ |
 | [Frame.io](styles/refero-styles/frame-io/) | dark | - | creative collaboration tools video review platforms media asset management filmmaker portfolios post-production workflows cinematic SaaS landing pages | [Refero](https://styles.refero.design/style/30c3aa18-4323-4448-8ddd-3ca933fe5780) | $folder/ |
 | [Frontify](styles/refero-styles/frontify/) | light | brand management, creative operations, design systems | - | [Refero](https://styles.refero.design/style/8f42603d-7ff9-446e-99a3-6bdd1f388ae5) | $folder/ |
+| [Function](styles/refero-styles/function/) | light | Other | Other AI-assisted UI implementation | [Refero](https://styles.refero.design/style/21b71be3-78a0-4681-a5b9-64cc4b40eb67) | $folder/ |
 | [Galileo-ft](styles/refero-styles/galileo-ft/) | dark | - | - | Refero | $folder/ |
 | [General Intelligence Company](styles/refero-styles/general-intelligence-company/) | light | - | - | Refero | $folder/ |
 | [Geniestudio](styles/refero-styles/geniestudio/) | light | AI | AI AI-assisted UI implementation | [Refero](https://styles.refero.design/style/2ffd50d4-93b7-4acf-9bc2-e86e61b63f27) | $folder/ |
@@ -109,11 +115,13 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [GitHub](styles/refero-styles/github/) | dark | - | - | [Refero](https://styles.refero.design/style/c3ceca5c-d329-4559-b947-016172941ba2) | $folder/ |
 | [Glassnode](styles/refero-styles/glassnode/) | mixed | crypto analytics, financial research, market data | crypto analytics sites financial research pages market dashboards report libraries data product landing pages | [Refero](https://styles.refero.design/style/a79b6a74-6b67-4c9f-9d69-bff80869b943) | $folder/ |
 | [Goodnotes](styles/refero-styles/goodnotes/) | light | Productivity | Productivity AI-assisted UI implementation | [Refero](https://styles.refero.design/style/c7fe6b78-9ce3-4d69-a3f0-b8310c779e7a) | $folder/ |
+| [Grafbase](styles/refero-styles/grafbase/) | light | Dev Tools | Dev Tools AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1c1d3939-8d82-4907-aa3c-c9b2fcfbab4f) | $folder/ |
 | [Grove AI](styles/refero-styles/grove-ai/) | light | AI | AI AI-assisted UI implementation | [Refero](https://styles.refero.design/style/7f7d3ff7-7a74-40f1-9098-a946ce53d4d4) | $folder/ |
 | [GSAP](styles/refero-styles/gsap/) | dark | - | animation libraries creative developer tools motion portfolios interactive showcases dark launch pages technical brand systems | [Refero](https://styles.refero.design/style/00537a20-e99e-4ef2-b119-c6f532c44cc9) | $folder/ |
 | [Handsome Frank](styles/refero-styles/handsome-frank/) | light | Agency | Agency AI-assisted UI implementation | [Refero](https://styles.refero.design/style/19d4103a-9f4a-49f0-ad7d-af6588bab904) | $folder/ |
 | [Harness.io](styles/refero-styles/harness-io/) | dark | - | DevOps platforms Git hosting CI/CD dashboards developer infrastructure security tooling observability tools dark admin consoles | [Refero](https://styles.refero.design/style/6f3652cf-583f-411d-a117-3a03f6342917) | $folder/ |
 | [Henry](styles/refero-styles/henry/) | mixed | - | - | Refero | $folder/ |
+| [Home](styles/refero-styles/home/) | light | SaaS | SaaS AI-assisted UI implementation | [Refero](https://styles.refero.design/style/2230ba53-445e-411d-b483-16410a072639) | $folder/ |
 | [Huly](styles/refero-styles/huly/) | mixed | Productivity | SaaS Productivity Dashboard Dark-mode landing page Product-led hero | [Refero](https://styles.refero.design/style/d018e81d-6bb6-4445-86d7-39fd6be7e74d) | $folder/ |
 | [Hungry Tiger](styles/refero-styles/hungry-tiger/) | dark | - | - | Refero | $folder/ |
 | [Hyer Aviation](styles/refero-styles/hyer-aviation/) | mixed | - | aviation luxury travel concierge services premium logistics destination products high-end booking experiences | [Refero](https://styles.refero.design/style/f61cf515-ccd5-4494-bdd1-be9fe4d7258c) | $folder/ |
@@ -121,6 +129,7 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [Hyperstudio](styles/refero-styles/hyperstudio/) | dark | - | AI consultancies venture studios technical agencies editorial SaaS portfolio operating systems dark-mode service pages | [Refero](https://styles.refero.design/style/8eb9c53e-d69c-497a-b640-610856cf3a60) | $folder/ |
 | [Impilo](styles/refero-styles/impilo/) | dark | Other | Other AI-assisted UI implementation | [Refero](https://styles.refero.design/style/b44b0bb2-4ba3-4599-9706-3c3e0c8c2522) | $folder/ |
 | [Home page \| Impossible Foods](styles/refero-styles/impossible-foods/) | dark | food, plant-based products, consumer packaged goods | - | [Refero](https://styles.refero.design/style/04961c7d-8ca6-4e87-ba88-6ad7ffa3b245) | $folder/ |
+| [Incommonwith](styles/refero-styles/incommonwith/) | light | E-commerce | E-commerce AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1f9089e1-4170-482f-b988-afe1124a70a9) | $folder/ |
 | [Increase](styles/refero-styles/increase/) | light | Fintech | Fintech AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1ad4f49f-275a-4268-8ed1-677dc3c6e475) | $folder/ |
 | [Index](styles/refero-styles/index/) | dark | - | - | [Refero](https://styles.refero.design/style/7f8c0c07-86e9-4b7c-a042-a7563b169143) | $folder/ |
 | [INO](styles/refero-styles/ino/) | light | jewelry, luxury retail, product gallery | - | [Refero](https://styles.refero.design/style/57388b47-f789-441f-8b8d-13f1838a9ac6) | $folder/ |
@@ -129,6 +138,7 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [Isla Beauty](styles/refero-styles/isla-beauty/) | light | E-commerce | E-commerce AI-assisted UI implementation | [Refero](https://styles.refero.design/style/0b9da6ef-bec5-4073-90af-66c67e72f2a4) | $folder/ |
 | [Jeton](styles/refero-styles/jeton/) | light | - | editorial fintech banking tools payment infrastructure money movement personal finance premium financial dashboards wallet products | [Refero](https://styles.refero.design/style/1f32d914-6fdd-4692-b4fc-fcee2c414766) | $folder/ |
 | [Jitter](styles/refero-styles/jitter/) | light | design / motion | - | [Refero](https://styles.refero.design/style/ab1e41e9-7d21-4762-b498-51b8c63ae7ce) | $folder/ |
+| [Juicebox.ai](styles/refero-styles/juicebox-ai/) | light | SaaS | SaaS AI-assisted UI implementation | [Refero](https://styles.refero.design/style/2186dddd-60ee-4898-b11d-88483daf477e) | $folder/ |
 | [Kajabi](styles/refero-styles/kajabi/) | light | - | - | [Refero](https://styles.refero.design/style/a6bf8730-6515-4a47-9d5f-927e1e0c67d5) | $folder/ |
 | [Karl](styles/refero-styles/karl/) | - | - | motion-designer-portfolios illustrated-personal-sites creative-studio-portfolios playful-editorial-sites full-bleed-storytelling-pages | [Refero](https://styles.refero.design/style/dd8b7191-a992-4dab-88f8-f67e8819b461) | $folder/ |
 | [Kobu](styles/refero-styles/kobu/) | light | - | - | Refero | $folder/ |
@@ -142,11 +152,14 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [Lightdash](styles/refero-styles/lightdash/) | light | analytics, business intelligence, data tooling | - | [Refero](https://styles.refero.design/style/d0f65d12-a8e6-4631-99f7-bb7cdcd5b6c5) | $folder/ |
 | [Limon](styles/refero-styles/limon/) | dark | - | - | Refero | $folder/ |
 | [Linear](styles/refero-styles/linear/) | - | - | developer-tools issue-trackers project-management-products ai-agent-workspaces engineering-dashboards command-centers productivity-saas | [Refero](https://styles.refero.design/style/90ce5883-bb24-4466-93f7-801cd617b0d1) | $folder/ |
+| [Lottielab](styles/refero-styles/lottielab/) | light | Design | Design AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1f782141-d407-4c27-8cee-2246720a9f42) | $folder/ |
 | [LUNCH](styles/refero-styles/lunch/) | mixed | - | fashion concept stores boutique ecommerce editorial lookbooks product galleries designer catalogs | [Refero](https://styles.refero.design/style/cd3fbf9d-8d35-411b-9e69-89a03018b677) | $folder/ |
+| [Lusion](styles/refero-styles/lusion/) | light | Agency | Agency AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1b44386e-31a8-40b0-a577-27c088b51264) | $folder/ |
 | [Max Yinger](styles/refero-styles/max-yinger/) | dark | - | - | Refero | $folder/ |
 | [Mercury](styles/refero-styles/mercury/) | - | - | fintech-sites banking-dashboards b2b-saas-landing-pages treasury-products startup-finance-tools premium-admin-panels founder-focused-products | [Refero](https://styles.refero.design/style/3172cd4d-118a-4a16-a259-6b634d32322e) | $folder/ |
 | [Metaview](styles/refero-styles/metaview/) | dark | - | AI recruiting tools agent dashboards product-led SaaS dark control panels chat interfaces technical conversion pages | [Refero](https://styles.refero.design/style/f99856e1-3627-4624-a811-f6053a978b62) | $folder/ |
 | [Micro](styles/refero-styles/micro/) | light | - | productivity workspaces personal CRM tools AI inboxes task systems context graphs product-led landing pages | [Refero](https://styles.refero.design/style/cc43cfe3-195b-4081-b586-c42db054a466) | $folder/ |
+| [Midjourney](styles/refero-styles/midjourney/) | dark | AI | AI AI-assisted UI implementation | [Refero](https://styles.refero.design/style/225059ac-0450-49d3-b2b7-d0e98b7ae938) | $folder/ |
 | [MindMarket](styles/refero-styles/mindmarket/) | light | - | market research brands insight products friendly agency sites illustrated landing pages human-centered service pages | [Refero](https://styles.refero.design/style/9130ad37-bf80-458f-b808-ac0ef6a8d1e9) | $folder/ |
 | [Minimal Collective](styles/refero-styles/minimal-collective/) | dark | design studio, creative agency, digital portfolio | - | [Refero](https://styles.refero.design/style/94c15607-2f19-4dc4-9aec-2b40f28b754f) | $folder/ |
 | [Modal](styles/refero-styles/modal/) | dark | - | developer platforms AI compute products cloud infrastructure terminal tools technical SaaS | [Refero](https://styles.refero.design/style/68c15685-5db9-4869-b71d-27240568c9d8) | $folder/ |
@@ -155,6 +168,7 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [monday.com](styles/refero-styles/monday-com/) | light | - | - | [Refero](https://styles.refero.design/style/77ee57e9-9f8e-4ec1-93f7-cc1c4b84307a) | $folder/ |
 | [Monologue](styles/refero-styles/monologue/) | dark | - | - | [Refero](https://styles.refero.design/style/8401cb26-91a3-4b46-941e-1c75790821eb) | $folder/ |
 | [monopo saigon](styles/refero-styles/monopo-saigon/) | light | - | creative studio portfolios editorial agency sites immersive case studies gallery-like brand experiences campaign archives text-led landing pages | [Refero](https://styles.refero.design/style/3e52dd36-6ab1-48c6-bc40-47ef6d33abc2) | $folder/ |
+| [Morphic](styles/refero-styles/morphic/) | dark | AI | AI AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1d4cbd69-ee0f-4f13-ba7d-14d3eaed7349) | $folder/ |
 | [Netflix](styles/refero-styles/netflix/) | dark | media, streaming, entertainment | streaming landing pages poster carousels media browsing UIs subscription signup pages entertainment dashboards | [Refero](https://styles.refero.design/style/32959012-f50d-4465-bb01-2aa4d506e0a8) | $folder/ |
 | [New Form](styles/refero-styles/new-form/) | light | - | - | Refero | $folder/ |
 | [Nike.com](styles/refero-styles/nike-com/) | mixed | - | sports ecommerce fashion retail product drops editorial commerce product photography galleries | [Refero](https://styles.refero.design/style/d7ace114-0548-41f5-a2ff-2afbf32be94d) | $folder/ |
@@ -212,6 +226,7 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [Slash](styles/refero-styles/slash/) | dark | - | fintech corporate spend banking tools finance dashboards premium SaaS editorial finance content data-heavy product marketing | [Refero](https://styles.refero.design/style/7c38e84b-aea0-4c8f-b3e9-60b994ee6c6b) | $folder/ |
 | [SpaceX](styles/refero-styles/spacex/) | dark | - | - | [Refero](https://styles.refero.design/style/13b74e34-b824-4d1d-bd2c-bb9bfbc2d6e1) | $folder/ |
 | [SpatialChat](styles/refero-styles/spatialchat/) | light | - | - | Refero | $folder/ |
+| [Splice](styles/refero-styles/splice/) | dark | Media | Media AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1f69df96-675d-4ee0-aa85-e085d9d39981) | $folder/ |
 | [Steep](styles/refero-styles/steep/) | - | - | analytics-products business-intelligence ai-analytics editorial-saas light-landing-pages product-led-hero | [Refero](https://styles.refero.design/style/75fdb89f-ca64-41b3-af36-7a78bd09448e) | $folder/ |
 | [Stripe](styles/refero-styles/stripe/) | light | - | fintech payments infrastructure SaaS developer platforms API products enterprise dashboards marketplaces global operations tools | [Refero](https://styles.refero.design/style/48e5de76-05d5-4c4e-a269-c7c245b291ec) | $folder/ |
 | [Structured](styles/refero-styles/structured/) | mixed | - | finance products Bitcoin yield products premium fintech crypto landing pages art-directed portfolios gallery-like product sites editorial launch pages | [Refero](https://styles.refero.design/style/6c0b77d3-71f9-469d-98aa-4ce1d6d76ac8) | $folder/ |
@@ -219,6 +234,7 @@ Each entry links to a local source-derived bundle with design notes, implementat
 | [Supabase](styles/refero-styles/supabase/) | dark | devtools | - | Refero | $folder/ |
 | [Supahub](styles/refero-styles/supahub/) | light | SaaS, feedback platform, feature request tool | feedback portals feature request tools customer testimonial pages SaaS landing pages changelog products | [Refero](https://styles.refero.design/style/a6d39bad-6e32-462e-afce-67c9cb76cf40) | $folder/ |
 | [Superhuman](styles/refero-styles/superhuman/) | light | - | - | [Refero](https://styles.refero.design/style/418b374a-be64-44f0-b17e-1d45308c7e62) | $folder/ |
+| [Superintelligence for work](styles/refero-styles/superintelligence-for-work/) | light | AI | AI AI-assisted UI implementation | [Refero](https://styles.refero.design/style/1db2adc9-2f10-4f20-af1b-27fa4b25f729) | $folder/ |
 | [Superpower](styles/refero-styles/superpower/) | light | - | - | Refero | $folder/ |
 | [Superr](styles/refero-styles/superr/) | light | - | - | Refero | $folder/ |
 | [Superwhisper](styles/refero-styles/superwhisper/) | dark | AI / voice productivity | - | [Refero](https://styles.refero.design/style/b8a8976c-52d9-4ebb-95ea-4c40f4a9acab) | $folder/ |

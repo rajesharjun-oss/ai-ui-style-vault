@@ -1,0 +1,305 @@
+{
+ "name": "Splice",
+ "slug": "splice",
+ "colors": [
+ {
+ "name": "Signal Blue",
+ "value": "#528fff",
+ "token": "--color-signal-blue",
+ "role": "Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Button Blue",
+ "value": "#1253ff",
+ "token": "--color-button-blue",
+ "role": "Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Voltage Yellow",
+ "value": "#f1f607",
+ "token": "--color-voltage-yellow",
+ "role": "Rare text accent - highlight punctuation, featured labels, emphasis. Used sparingly, only when a word needs to flash against the dark canvas. Never on backgrounds"
+ },
+ {
+ "name": "Carbon",
+ "value": "#121214",
+ "token": "--color-carbon",
+ "role": "Primary page canvas, card surfaces, input fields, footer. The dominant working surface at 425 occurrences across every context"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Deepest dark - image containers, nav surface, full-bleed backgrounds. Creates the bottom of the surface stack"
+ },
+ {
+ "name": "Platinum",
+ "value": "#ffffff",
+ "token": "--color-platinum",
+ "role": "Primary text, inverted button text, icon fills. The only true white in the system; appears 1506 times across every text context"
+ },
+ {
+ "name": "Graphite",
+ "value": "#232426",
+ "token": "--color-graphite",
+ "role": "Dominant canvas background, secondary button surface. Sits one step lighter than Carbon, used when a surface needs to feel like a different plane without using shadow"
+ },
+ {
+ "name": "Fog",
+ "value": "#a6a8ad",
+ "token": "--color-fog",
+ "role": "Muted text, nav items, secondary labels, inactive links. The first step down from white in the type hierarchy"
+ },
+ {
+ "name": "Ash",
+ "value": "#c8c9cc",
+ "token": "--color-ash",
+ "role": "Button borders, icon strokes, hairline dividers, ghost control outlines. The border that doesn\u0027t feel like a border"
+ },
+ {
+ "name": "Slate",
+ "value": "#63656d",
+ "token": "--color-slate",
+ "role": "Borders, dividers, inactive controls. Darker than Ash for when a divider needs to recede further"
+ },
+ {
+ "name": "Iron",
+ "value": "#45464d",
+ "token": "--color-iron",
+ "role": "Elevated surfaces, button borders, nav separators. The highest dark in the stack - used for the 1px inset stroke that replaces shadows"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "InterVariable (custom)",
+ "token": "--font-intervariable-custom",
+ "role": "Workhorse for all UI text - body, nav, buttons, inputs, cards, footer. The variable axis allows weight shifts (400 500 600 700) within a single family. Universal -0.015em tracking creates a compact, efficient reading rhythm across every size."
+ },
+ {
+ "name": "SoehneBreit (custom)",
+ "token": "--font-soehnebreit-custom",
+ "role": "Editorial display headlines. The wider, geometric cut of SoehneBreit at weight 400 creates a distinctive voice - headlines don\u0027t shout, they announce with quiet authority. The 0.071em tracking (applied at 14px) appears on uppercase eyebrow labels, creating the system\u0027s only wide-tracked text. Weight 400 only - bold is never used."
+ },
+ {
+ "name": "Soehne (custom)",
+ "token": "--font-soehne-custom",
+ "role": "Subheadings - bridges the gap between SoehneBreit display and Inter body. Used at 20px for secondary headings that need editorial weight without display scale."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-0.18px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-0.21px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.24px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.25",
+ "-0.3px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.25",
+ "-0.42px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.25",
+ "-0.54px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.25",
+ "-0.72px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "54px",
+ "1.25",
+ "-0.81px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "80px",
+ "cardPadding": "20-32px",
+ "elementGap": "8-16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "1440px"
+ ],
+ [
+ "cards",
+ "4px"
+ ],
+ [
+ "images",
+ "4px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ],
+ [
+ "pill-buttons",
+ "60px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Promotional Banner",
+ "role": "Top-of-page announcement strip"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Filled Button (Primary)",
+ "role": "Interactive action trigger"
+ },
+ {
+ "name": "Ghost Button",
+ "role": "Secondary interactive trigger"
+ },
+ {
+ "name": "Pill Button",
+ "role": "Rounded utility button"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Full-bleed landing visual"
+ },
+ {
+ "name": "Content Card",
+ "role": "Grouped content surface"
+ },
+ {
+ "name": "Input Field",
+ "role": "Text input control"
+ },
+ {
+ "name": "Inline Link",
+ "role": "Text-level navigation"
+ },
+ {
+ "name": "Footer",
+ "role": "Site-bottom content"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #528fff Signal Blue for all links and interactive text - it is the system\u0027s only persistent color voice",
+ "Apply -0.015em letter-spacing to all text at all sizes for the compact reading rhythm",
+ "Use SoehneBreit weight 400 for headlines - never bold, the whisper-weight is the voice",
+ "Separate surfaces with 1px borders in #45464d or #232426, never with drop shadows",
+ "Use 8px radius for standard buttons and 60px for pill-shaped interactive elements",
+ "Apply 0.071em tracking to uppercase SoehneBreit labels at 14px for the editorial eyebrow pattern",
+ "Let photography provide all visual elevation - full-bleed images carry the weight that shadows would"
+ ],
+ "doNot": [
+ "Never use #f1f607 Voltage Yellow on backgrounds - it is text-only punctuation",
+ "Don\u0027t add drop shadows to cards or panels - the system is intentionally flat",
+ "Never set SoehneBreit to bold weight - it only exists at 400 in this system",
+ "Don\u0027t introduce new accent colors - the palette is grayscale plus two signals (blue, yellow-green)",
+ "Avoid pure white backgrounds - the canvas is always Carbon #121214 or Graphite #232426",
+ "Don\u0027t center-align body text - left-align for editorial reading rhythm",
+ "Never use more than one chromatic color per component - the system rations color"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1f69df96-675d-4ee0-aa85-e085d9d39981",
+ "referenceSite": "https://splice.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-02-24T14:22:25.000Z",
+ "articleModifiedAt": "2026-06-05T08:39:05.264Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/f481124b-f257-4660-b5dc-274e7863f85a.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f264e780-b171-4f41-8c6f-83a4a5edb46f.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1e50f4f5-7802-4baa-826e-58d6789b0c28.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/34800873-4f9f-4d17-bfac-23d309d12773.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/64800698-52f7-4813-a50c-fcdbea7bf567.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/90367b20-9ad0-44e5-ae1d-07ce6c658c48.png"
+ }
+ }
+}

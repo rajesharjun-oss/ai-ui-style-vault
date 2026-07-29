@@ -1,0 +1,86 @@
+{
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "TikTok",
+ "description": "Videos, Music \u0026 Live Streams",
+ "url": "https://apps.apple.com/us/app/tiktok/id835599320",
+ "iconUrl": "https://images.refero.design/favicon/app_116/3f3802c6-1685-471f-ac3d-be1ee09598d3.jpg",
+ "backgroundColor": "24bcbc",
+ "id": "116"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f6f6f6",
+ "rgb": [
+ 246,
+ 246,
+ 246
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a3a3a3",
+ "rgb": [
+ 163,
+ 163,
+ 163
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#535353",
+ "rgb": [
+ 83,
+ 83,
+ 83
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#848484",
+ "rgb": [
+ 132,
+ 132,
+ 132
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Skeleton",
+ "Navigation Bar",
+ "Search Field",
+ "Icon"
+ ],
+ "designPatterns": [
+ "Loading \u0026 Connecting",
+ "Shopping",
+ "Searching"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/116/mobile/56dfa50a-bb28-4bda-80e7-d3b9ebd4d191_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/116/mobile/56dfa50a-bb28-4bda-80e7-d3b9ebd4d191.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

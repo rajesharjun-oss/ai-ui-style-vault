@@ -1,0 +1,319 @@
+{
+ "id": "1c60b014-473b-443b-b0f5-220612feebb7",
+ "name": "Chronicle",
+ "slug": "chronicle",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1c60b014-473b-443b-b0f5-220612feebb7",
+ "referenceSite": "https://chroniclehq.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-02-05T09:57:52.000Z",
+ "articleModifiedAt": "2026-05-11T16:25:39.831Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/059736dd-d2eb-4869-9807-3c579d9cd00b.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/b208af5f-8f12-4336-a4b2-bb18ceec5e59.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e5941a84-bccd-4a08-bf71-bcf7e82f82fe.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/40e98ce7-365e-4975-8e16-faaf51be2ed9.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/6b6dfbfb-dc8b-4442-bd91-bce06e12a2d5.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/caea0e32-2178-4159-80c9-2210507c3f56.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Typographer\u0027s proof sheet - a composited page where precision of letterform carries the entire visual weight, color is an intrusion, and the grid is the design.",
+ "summary": "Explore Chronicle\u0027s light SaaS design system: Pitch Black #050505, Midnight #000000 colors, Diatype typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Pitch Black",
+ "value": "#050505",
+ "token": "--color-pitch-black",
+ "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Midnight",
+ "value": "#000000",
+ "token": "--color-midnight",
+ "role": "Filled action button backgrounds (Try Chronicle, Talk to sales, Try for free); icon fills; strongest contrast anchor"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#151515",
+ "token": "--color-charcoal",
+ "role": "Navigation link text and active nav states"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#292929",
+ "token": "--color-obsidian",
+ "role": "Footer fine print and copyright text"
+ },
+ {
+ "name": "Graphite",
+ "value": "#6b6b6b",
+ "token": "--color-graphite",
+ "role": "Body text, UI borders, ghost button borders and text - the workhorse mid-tone"
+ },
+ {
+ "name": "Pewter",
+ "value": "#7e7e7e",
+ "token": "--color-pewter",
+ "role": "Secondary body copy and captions"
+ },
+ {
+ "name": "Ash",
+ "value": "#929292",
+ "token": "--color-ash",
+ "role": "Disabled or inactive button text and borders"
+ },
+ {
+ "name": "Silver",
+ "value": "#b3b3b3",
+ "token": "--color-silver",
+ "role": "Subtle background dividers and muted separators"
+ },
+ {
+ "name": "Fog",
+ "value": "#e2e2e2",
+ "token": "--color-fog",
+ "role": "Card borders, image borders, input borders - the hairline rule color"
+ },
+ {
+ "name": "Limestone",
+ "value": "#f3f3f3",
+ "token": "--color-limestone",
+ "role": "Alternating section backgrounds, testimonial section canvas, muted surface fills"
+ },
+ {
+ "name": "Cloud",
+ "value": "#ffffff",
+ "token": "--color-cloud",
+ "role": "Primary page canvas, card surfaces, link text on filled black buttons"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Diatype",
+ "token": "--font-diatype",
+ "role": "Single typeface for the entire system - headings, body, nav, buttons. Weight 400 for body and secondary text; weight 500 for prominent headings and CTAs. Negative tracking of -0.03em at display sizes creates mechanical compression uncommon in SaaS type - the letterforms feel pressed into the page rather than set on it. No serif, no decorative fallback: if Diatype is absent, the design loses its primary identity marker."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-0.4px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.1",
+ "-0.74px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.05",
+ "-1.44px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "54px",
+ "1",
+ "-1.62px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1212px",
+ "sectionGap": "80-128px",
+ "cardPadding": "24-30px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "4px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "images",
+ "4px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Filled Black CTA Button",
+ "role": "Primary call-to-action - \u0027Try for free\u0027, \u0027Try Chronicle\u0027"
+ },
+ {
+ "name": "Ghost Underline Button",
+ "role": "Secondary text action - \u0027Watch video\u0027, tab-style navigation items"
+ },
+ {
+ "name": "Muted Ghost Button",
+ "role": "Inactive or de-emphasized action"
+ },
+ {
+ "name": "Pill Tab Button",
+ "role": "Horizontal tab navigation - presentation type selectors (Sales proposal, Pitch deck, etc.)"
+ },
+ {
+ "name": "Testimonial Card",
+ "role": "Social proof - customer quote with logo, name, role"
+ },
+ {
+ "name": "Product Preview Frame",
+ "role": "In-page presentation screenshot / app preview"
+ },
+ {
+ "name": "Logo Trust Bar",
+ "role": "Social proof partner / customer logos"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Primary site header"
+ },
+ {
+ "name": "Section Divider Tab Row",
+ "role": "Tabbed content switcher above the hero product preview"
+ },
+ {
+ "name": "AI Prompt Input Card",
+ "role": "Product UI element - chat/prompt card visible in feature section"
+ }
+ ],
+ "dos": [
+ "Use #000000 or #050505 as the filled button background - never use a chromatic color for any interactive element",
+ "Apply Diatype with letter-spacing -0.030em at 54px display and -0.023em at 32px headings; body text at 16px uses 0 tracking",
+ "Alternate page sections between #ffffff and #f3f3f3 backgrounds to create rhythm without decorative elements",
+ "Use 4px border-radius for all buttons, inputs, and tags; 8px for cards and image frames only",
+ "Maintain 1px solid #e2e2e2 hairline borders on image frames and card edges - never use thicker strokes",
+ "Reserve electric blue and any chromatic color strictly for rendered product UI content inside frames, never in navigation, buttons, or backgrounds",
+ "Use the single shadow token (rgba(5,5,5,0.08) 0px 2px 24px 0px) only for white cards sitting on gray surfaces - no shadow on white-on-white"
+ ],
+ "donts": [
+ "Never introduce a brand color (blue, purple, green) into navigation, buttons, section backgrounds, or typography - the UI is intentionally achromatic",
+ "Never round buttons or inputs beyond 4px - pill-shaped buttons would break the editorial typographic register",
+ "Never use font weights above 500 - Diatype at 400/500 is the full weight range; heavier weights crush the mechanical letterform quality",
+ "Never stack more than two type sizes within a single content block without re-establishing hierarchy through #6b6b6b muted color rather than additional size steps",
+ "Never apply more than one shadow elevation level - the system uses a single subtle card shadow; adding layered shadows introduces unwanted depth",
+ "Never center-align body paragraphs or subheadings - all text below headline level is left-aligned",
+ "Never use #b3b3b3 or #929292 as text colors for meaningful content - these tones exist only for disabled states and decorative separators"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Canvas | `#ffffff` | Primary page background for hero and main content sections |\n| 2 | Tinted Surface | `#f3f3f3` | Alternating section backgrounds - testimonials, feature band, footer area |\n| 3 | Card Surface | `#ffffff` | White cards elevated above gray sections with 8px radius and soft shadow |\n| 4 | Border Plane | `#e2e2e2` | Image frames, card outlines, input borders - structural hairlines |",
+ "elevation": "- **Content Card:** `rgba(5, 5, 5, 0.08) 0px 2px 24px 0px`",
+ "imagery": "Imagery is sparse and purposeful: the hero features a product screenshot (the Chronicle editor) rendered inside a browser/application frame with a vivid electric-blue slide canvas - this is the only color on the entire page and functions as proof-of-product rather than decoration. Below the fold, a full-bleed photograph of an urban street scene (San Francisco neighborhood) appears as a muted, journalistic background behind a product UI overlay card, creating a contrast between raw real-world context and the polished editor interface. Testimonial cards show small circular headshots (natural photography, tight crops, no stylization). Icons are monochrome filled symbols at ~16px, single-weight, achromatic. The overall density is text-dominant - imagery occupies roughly 30% of screen real estate and always frames the product rather than evoking lifestyle.",
+ "layout": "Max-width 1212px centered on a white canvas. Hero is a two-column split: large left-aligned headline stack (Diatype 54px) with two buttons below, and a right-aligned product preview frame occupying roughly 55% of the viewport width. Below the hero, horizontal tab row switches between presentation type previews. Sections alternate between white (#ffffff) and warm gray (#f3f3f3) bands with 80-128px vertical separation - no decorative dividers, just background color shifts. Feature sections use a 50/50 split (photo or product UI left, stepped text list right) with left-to-right reading flow. Testimonials appear in a horizontal 3-column card grid on the gray surface. Footer CTA is a centered stack on white with a single filled black pill button. Navigation is a top sticky bar with logo-left / links-center / actions-right pattern."
+}

@@ -1,0 +1,84 @@
+{
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Glow",
+ "description": "Your new favorite wallet",
+ "url": "https://apps.apple.com/us/app/glow-solana-wallet/id1599584512",
+ "iconUrl": "https://images.refero.design/favicon/app_66/cd47f827-6c76-4edb-9d2f-ae7767b9a228.jpg",
+ "backgroundColor": "aa34d7",
+ "id": "66"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#c9c9c9",
+ "rgb": [
+ 201,
+ 201,
+ 201
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#49403f",
+ "rgb": [
+ 73,
+ 64,
+ 63
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#312e30",
+ "rgb": [
+ 49,
+ 46,
+ 48
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#1b1c1c",
+ "rgb": [
+ 27,
+ 28,
+ 28
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#3c3b44",
+ "rgb": [
+ 60,
+ 59,
+ 68
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "List",
+ "Icon",
+ "Currency"
+ ],
+ "designPatterns": [
+ "Shopping",
+ "Timeline \u0026 History"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/66/mobile/d720494c-95fe-421f-a59e-b79079a2c354_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/66/mobile/d720494c-95fe-421f-a59e-b79079a2c354.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

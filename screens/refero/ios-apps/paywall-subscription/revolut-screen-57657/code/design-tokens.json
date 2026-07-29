@@ -1,0 +1,90 @@
+{
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Revolut",
+ "description": "Travel, transfer, and exchange",
+ "url": "https://apps.apple.com/us/app/revolut-send-spend-and-save/id932493382?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_74/7e2cfaa2-5436-461f-8117-cebe3c69a461.jpg",
+ "backgroundColor": "",
+ "id": "74"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f5f5f5",
+ "rgb": [
+ 245,
+ 245,
+ 245
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#5f5663",
+ "rgb": [
+ 95,
+ 86,
+ 99
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#97999f",
+ "rgb": [
+ 151,
+ 153,
+ 159
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#7a8592",
+ "rgb": [
+ 122,
+ 133,
+ 146
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#84737d",
+ "rgb": [
+ 132,
+ 115,
+ 125
+ ]
+ }
+ ],
+ "pageElements": [
+ "Carousel",
+ "List",
+ "Button",
+ "Floating Button",
+ "Tabs",
+ "Badge",
+ "Navigation Bar",
+ "Icon",
+ "Product Image",
+ "Currency",
+ "Animation"
+ ],
+ "designPatterns": [
+ "Product Features",
+ "Trial \u0026 Freemium"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/74/mobile/ae83b6ab-e469-48c1-9414-a005e9337baa_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/74/mobile/ae83b6ab-e469-48c1-9414-a005e9337baa.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "pageType": {
+ "id": 39,
+ "name": "Developers Page",
+ "slug": "developers-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Chargetrip",
+ "description": "EV routing and e-mobility software",
+ "url": "https://developers.chargetrip.com/",
+ "iconUrl": "https://images.refero.design/favicon/chargetrip.com/2e4f9b62-8512-4526-9bf5-a05ac8d15a34.jpg",
+ "backgroundColor": "",
+ "id": "798"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#077bfb",
+ "rgb": [
+ 7,
+ 123,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#721ddc",
+ "rgb": [
+ 114,
+ 29,
+ 220
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#3d3f43",
+ "rgb": [
+ 61,
+ 63,
+ 67
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8736e0",
+ "rgb": [
+ 135,
+ 54,
+ 224
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f4f4fb",
+ "rgb": [
+ 244,
+ 244,
+ 251
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Floating Button",
+ "Navigation Bar",
+ "Footer",
+ "Icon",
+ "Product Image"
+ ],
+ "designPatterns": "Tutorial \u0026 Education",
+ "fonts": [
+ "San Francisco",
+ "UI Sans Serif",
+ "Inter"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf/0.jpg",
+ "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf/1.jpg",
+ "https://images.refero.design/screenshots/chargetrip.com/desktop/6d346c95-b58b-418a-837d-29f7b763fccf/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Asos",
+ "description": "Discover fashion online",
+ "url": "https://apps.apple.com/us/app/asos/id457876088",
+ "iconUrl": "https://images.refero.design/favicon/app_6/3b9a2cf0-5e53-43c2-8e9d-be27acc86211.jpg",
+ "backgroundColor": "",
+ "id": "6"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#bfb5a0",
+ "rgb": [
+ 191,
+ 181,
+ 160
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#41bea2",
+ "rgb": [
+ 65,
+ 190,
+ 162
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#4444bd",
+ "rgb": [
+ 68,
+ 68,
+ 189
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#c11f83",
+ "rgb": [
+ 193,
+ 31,
+ 131
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#bba51f",
+ "rgb": [
+ 187,
+ 165,
+ 31
+ ]
+ }
+ ],
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Cards \u0026 Tiles",
+ "Icon",
+ "Thumbnail"
+ ],
+ "designPatterns": "Suggestion \u0026 Similar Items",
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/6/mobile/499d80a9-d5bc-448c-9bd2-e49ced75849a_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/6/mobile/499d80a9-d5bc-448c-9bd2-e49ced75849a.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

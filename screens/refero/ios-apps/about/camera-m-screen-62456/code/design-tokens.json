@@ -1,0 +1,81 @@
+{
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Camera M",
+ "description": "Powerful Pro Controls",
+ "url": "https://apps.apple.com/us/app/camera-m-pro-manual-camera/id1239098425",
+ "iconUrl": "https://images.refero.design/favicon/app_83/b2f4f8d9-7623-47c6-8d41-00f45d7ae47e.jpg",
+ "backgroundColor": "d3a417",
+ "id": "83"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#dbd9d6",
+ "rgb": [
+ 219,
+ 217,
+ 214
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#605f5c",
+ "rgb": [
+ 96,
+ 95,
+ 92
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#0ff487",
+ "rgb": [
+ 15,
+ 244,
+ 135
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8d8b8b",
+ "rgb": [
+ 141,
+ 139,
+ 139
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f05504",
+ "rgb": [
+ 240,
+ 85,
+ 4
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Hero Image",
+ "Bottom Sheet (Expanded)"
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/83/mobile/1820dba0-1372-4b64-a707-a22b676bbf2c_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/83/mobile/1820dba0-1372-4b64-a707-a22b676bbf2c.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

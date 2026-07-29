@@ -1,48 +1,84 @@
 {
-  "sources": [
-    {
-      "name": "Refero Styles",
-      "slug": "refero-styles",
-      "url": "https://styles.refero.design/",
-      "captureMode": "manual-review",
-      "defaultLicenseStatus": "inspiration-only-unless-explicitly-licensed",
-      "recommendedArtifacts": [
-        "DESIGN.md",
-        "Tailwind v4 tokens when available",
-        "CSS variables when available",
-        "Design tokens when available",
-        "source link",
-        "AI implementation prompt",
-        "manual notes"
-      ]
-    },
-    {
-      "name": "shadcn/ui",
-      "slug": "shadcn-ui",
-      "url": "https://ui.shadcn.com/",
-      "captureMode": "open-source-reference",
-      "defaultLicenseStatus": "check-project-license",
-      "recommendedArtifacts": [
-        "component links",
-        "block links",
-        "usage notes",
-        "license notes"
-      ]
-    },
-    {
-      "name": "Figma Community",
-      "slug": "figma-community",
-      "url": "https://www.figma.com/community",
-      "captureMode": "license-review-required",
-      "defaultLicenseStatus": "varies-by-file",
-      "recommendedArtifacts": [
-        "file link",
-        "creator",
-        "license notes",
-        "tags",
-        "AI usage notes"
-      ]
-    }
-  ]
+    "sources":  [
+                    {
+                        "name":  "Refero Styles",
+                        "slug":  "refero-styles",
+                        "url":  "https://styles.refero.design/",
+                        "captureMode":  "manual-review",
+                        "defaultLicenseStatus":  "inspiration-only-unless-explicitly-licensed",
+                        "recommendedArtifacts":  [
+                                                     "DESIGN.md",
+                                                     "Tailwind v4 tokens when available",
+                                                     "CSS variables when available",
+                                                     "Design tokens when available",
+                                                     "source link",
+                                                     "AI implementation prompt",
+                                                     "manual notes"
+                                                 ]
+                    },
+                    {
+                        "name":  "Refero iOS Apps",
+                        "slug":  "refero-ios-apps",
+                        "url":  "https://refero.design/apps/search",
+                        "captureMode":  "bounded-public-api-reference",
+                        "defaultLicenseStatus":  "inspiration-only-unless-explicitly-licensed",
+                        "recommendedArtifacts":  [
+                                                     "screen metadata",
+                                                     "page type",
+                                                     "app store link",
+                                                     "Refero view link",
+                                                     "remote media reference links",
+                                                     "colors",
+                                                     "page elements",
+                                                     "design patterns",
+                                                     "AI implementation prompt"
+                                                 ]
+                    },
+                    {
+                        "name":  "Refero Web Screens",
+                        "slug":  "refero-web-screens",
+                        "url":  "https://refero.design/search",
+                        "captureMode":  "bounded-public-api-reference",
+                        "defaultLicenseStatus":  "inspiration-only-unless-explicitly-licensed",
+                        "recommendedArtifacts":  [
+                                                     "screen metadata",
+                                                     "page type",
+                                                     "source page link",
+                                                     "Refero view link",
+                                                     "remote media reference links",
+                                                     "colors",
+                                                     "fonts",
+                                                     "page elements",
+                                                     "design patterns",
+                                                     "AI implementation prompt"
+                                                 ]
+                    },
+                    {
+                        "name":  "shadcn/ui",
+                        "slug":  "shadcn-ui",
+                        "url":  "https://ui.shadcn.com/",
+                        "captureMode":  "open-source-reference",
+                        "defaultLicenseStatus":  "check-project-license",
+                        "recommendedArtifacts":  [
+                                                     "component links",
+                                                     "block links",
+                                                     "usage notes",
+                                                     "license notes"
+                                                 ]
+                    },
+                    {
+                        "name":  "Figma Community",
+                        "slug":  "figma-community",
+                        "url":  "https://www.figma.com/community",
+                        "captureMode":  "license-review-required",
+                        "defaultLicenseStatus":  "varies-by-file",
+                        "recommendedArtifacts":  [
+                                                     "file link",
+                                                     "creator",
+                                                     "license notes",
+                                                     "tags",
+                                                     "AI usage notes"
+                                                 ]
+                    }
+                ]
 }
-

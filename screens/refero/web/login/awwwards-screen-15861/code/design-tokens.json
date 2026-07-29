@@ -1,0 +1,81 @@
+{
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Awwwards",
+ "description": "Best Web Design Trends",
+ "url": "https://www.awwwards.com/",
+ "iconUrl": "https://images.refero.design/favicon/awwwards.com/189664f9-7293-46cb-92a8-cca2d93a78a1.jpg",
+ "backgroundColor": "",
+ "id": "285"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#242424",
+ "rgb": [
+ 36,
+ 36,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ececec",
+ "rgb": [
+ 236,
+ 236,
+ 236
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#502fd2",
+ "rgb": [
+ 80,
+ 47,
+ 210
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fcfbfb",
+ "rgb": [
+ 252,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#aeeac6",
+ "rgb": [
+ 174,
+ 234,
+ 198
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Checkbox \u0026 Radio",
+ "Text Field",
+ "Dialog \u0026 Modal Window",
+ "Illustration"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": "Apercu",
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/awwwards.com/desktop/de797c6f-f710-470f-a075-0d3a401e00be_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/awwwards.com/desktop/221b092b-6fa7-4f3f-9f97-b42b5c384319_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/awwwards.com/desktop/de797c6f-f710-470f-a075-0d3a401e00be/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}
