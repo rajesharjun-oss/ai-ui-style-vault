@@ -8,10 +8,30 @@ Current contents: 256 Refero Styles bundles and 48 Refero screen references.
 
 ## Quick Use
 
-1. Open [CAPTURED_STYLES.md](CAPTURED_STYLES.md), [SCREEN_REFERENCES.md](SCREEN_REFERENCES.md), [catalog.json](catalog.json), or [screen-catalog.json](screen-catalog.json).
-2. For a full visual system, choose a folder under `styles/refero-styles/<style-slug>/` and give the AI builder `implementation-prompt.md` plus the `tokens/` and `code/` folders.
-3. For a specific page type, choose a folder under `screens/refero/<channel>/<page-type>/<screen-slug>/` and give the AI builder `implementation-prompt.md`, `screen.json`, and the linked screenshot references.
-4. Use every bundle as inspiration for an original UI. Do not copy logos, brand assets, screenshots, product copy, or proprietary layouts.
+1. If an AI agent is choosing a design for a target repo, start with [AGENTS.md](AGENTS.md), [agent-index.json](agent-index.json), and [guides/AGENT_USAGE.md](guides/AGENT_USAGE.md).
+2. Open [CAPTURED_STYLES.md](CAPTURED_STYLES.md), [SCREEN_REFERENCES.md](SCREEN_REFERENCES.md), [catalog.json](catalog.json), or [screen-catalog.json](screen-catalog.json).
+3. For a full visual system, choose a folder under `styles/refero-styles/<style-slug>/` and give the AI builder `implementation-prompt.md` plus the `tokens/` and `code/` folders.
+4. For a specific page type, choose a folder under `screens/refero/<channel>/<page-type>/<screen-slug>/` and give the AI builder `implementation-prompt.md`, `screen.json`, and the linked screenshot references.
+5. Use every bundle as inspiration for an original UI. Do not copy logos, brand assets, screenshots, product copy, or proprietary layouts.
+
+## Agent-Ready Selection
+
+This repo is organized so an AI builder can inspect a target GitHub repository, choose the best matching visual direction, and adapt it to the product.
+
+- [AGENTS.md](AGENTS.md): top-level agent instructions.
+- [agent-index.json](agent-index.json): machine-readable entry point, scoring weights, archetypes, and output contract.
+- [guides/AGENT_USAGE.md](guides/AGENT_USAGE.md): full workflow for using the vault with a target repo.
+- [guides/STYLE_SELECTION_GUIDE.md](guides/STYLE_SELECTION_GUIDE.md): scoring method and reading order for style and screen folders.
+- [guides/WEB_TOOL_DESIGN_MATRIX.md](guides/WEB_TOOL_DESIGN_MATRIX.md): product archetypes mapped to useful starting points.
+
+Recommended agent behavior:
+
+1. Inspect the target repo and identify product type, audience, page needs, density, tone, and stack.
+2. Shortlist styles from `catalog.json`.
+3. Shortlist page references from `screen-catalog.json`.
+4. Choose one primary style bundle and page-specific screen references.
+5. Read the selected folders deeply.
+6. Implement an original UI using the target repo's conventions.
 
 ## Style Bundle Contents
 
@@ -43,15 +63,22 @@ Each Refero screen reference includes:
 ```text
 ai-ui-style-vault/
   README.md
+  AGENTS.md
+  agent-index.json
   CAPTURED_STYLES.md
   SCREEN_REFERENCES.md
   catalog.json
   screen-catalog.json
   sources.json
+  guides/
+    AGENT_USAGE.md
+    STYLE_SELECTION_GUIDE.md
+    WEB_TOOL_DESIGN_MATRIX.md
   scripts/
     capture-autonomous-refero-batch.ps1
     generate-catalog.ps1
     generate-refero-screen-references.ps1
+    validate-agent-guides.ps1
     validate-screen-references.ps1
     validate-vault.ps1
   styles/
@@ -101,6 +128,7 @@ Validate before committing:
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-vault.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-screen-references.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\validate-agent-guides.ps1
 ```
 
 ## Capture Policy
