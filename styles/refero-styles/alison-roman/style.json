@@ -1,0 +1,290 @@
+{
+ "id": "b2ace2c1-d6ee-4d57-915e-901224cded11",
+ "name": "Alison Roman",
+ "slug": "alison-roman",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/b2ace2c1-d6ee-4d57-915e-901224cded11",
+ "referenceSite": "https://www.alisoneroman.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T22:33:49.199Z",
+ "articleModifiedAt": "2026-06-05T10:32:44.319Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ae45e02c-c237-4235-b076-72821aff1d2c.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f6cc7c72-7eaf-4f7e-9b14-732212ef7890.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/c93fb610-421e-465e-86ca-e030ddd12985.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8839e688-058b-4255-aae6-aa5a07c258fa.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0c301d44-fc42-4d71-bcd1-96a83b9a8dea.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/5f24d49c-cc3e-4519-9348-2df1cdce2cd0.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "cookbook pages on warm cream paper - a printed spread from an artisan food memoir, translated to screen with zero loss of tactility",
+ "summary": "Explore Alison Roman\u0027s light Other design system: Aubergine Ink #290a08, Vintage Burgundy #810c00 colors, Jannon Neo, Modale Antique typography, and...",
+ "colors": [
+ {
+ "name": "Aubergine Ink",
+ "value": "#290a08",
+ "token": "--color-aubergine-ink",
+ "role": "Primary text, headings, filled action buttons, footer text - the warm near-black that anchors every screen; it is the only chromatic dark in the system and the only acceptable fill for primary actions"
+ },
+ {
+ "name": "Vintage Burgundy",
+ "value": "#810c00",
+ "token": "--color-vintage-burgundy",
+ "role": "Orange wash for highlight backgrounds, decorative bands, and soft emphasis behind content."
+ },
+ {
+ "name": "Buttery Highlight",
+ "value": "#fff3cc",
+ "token": "--color-buttery-highlight",
+ "role": "Link text and selected heading accent - a pale custard yellow used sparingly to mark hyperlinks and tiny editorial highlights, sitting at AAA contrast on the ink"
+ },
+ {
+ "name": "Parchment Canvas",
+ "value": "#f6f0e1",
+ "token": "--color-parchment-canvas",
+ "role": "Page background - the dominant warm cream that defines the entire site mood; every screen sits on this surface"
+ },
+ {
+ "name": "Linen Card",
+ "value": "#fffaec",
+ "token": "--color-linen-card",
+ "role": "Card surfaces, list-item backgrounds, subtle elevated zones - a step lighter than the canvas, the only card treatment in the system"
+ },
+ {
+ "name": "Hairline Mist",
+ "value": "#e5e7eb",
+ "token": "--color-hairline-mist",
+ "role": "All borders and dividers throughout the system; used on cards, body blocks, links, and structural dividers - the single hairline color of the site"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Button borders, reverse text on dark fills, and the lightest possible surface lift; the only true white in the palette"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Jannon Neo",
+ "token": "--font-jannon-neo",
+ "role": "Display and heading serif - carries every headline, section title, and large editorial moment from 20px through a dramatic 120px. The custom transitional serif with weight 300 for the largest sizes is the signature choice: the \u0027Books by Alison Roman\u0027 hero and book titles sit at whisper-light weight, giving the page a printed-book authority rather than a SaaS-bold shout. Substitute with Cormorant Garamond or EB Garamond at light weights."
+ },
+ {
+ "name": "Modale Antique",
+ "token": "--font-modale-antique",
+ "role": "Body, button, card, and UI serif - a slightly more grounded old-style serif for all running text, button labels, card descriptions, and footer lines. The workhorse that lets Jannon Neo\u0027s headlines breathe. Substitute with Lora or Source Serif Pro."
+ },
+ {
+ "name": "-apple-system",
+ "token": "--font-apple-system",
+ "role": "System fallback for legacy card content blocks; only present at 29px with normal tracking - used as a safety net rather than a deliberate voice"
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "18px",
+ "1.5",
+ "-0.18px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "20px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "26px",
+ "1.2",
+ "-0.26px",
+ "--text-subheading"
+ ],
+ [
+ "subheading-lg",
+ "29px",
+ "1.5",
+ "-",
+ "--text-subheading-lg"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.1",
+ "-0.64px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.1",
+ "-1.44px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "80px",
+ "1",
+ "-2.4px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "120px",
+ "1",
+ "-3.6px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80-96px",
+ "cardPadding": "24-48px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Filled Order Button",
+ "role": "Primary action for purchasing a book"
+ },
+ {
+ "name": "Editorial Book Section",
+ "role": "Showcase a single book with cover and description"
+ },
+ {
+ "name": "Hero Headline Block",
+ "role": "Page-level title like \u0027Books by Alison Roman\u0027"
+ },
+ {
+ "name": "Inline Editorial Link",
+ "role": "Hyperlink within body copy (e.g. \u0027here\u0027)"
+ },
+ {
+ "name": "Description Card / Book Plate",
+ "role": "The cream rectangle behind a book cover in the visual stack"
+ },
+ {
+ "name": "Footer / Nav Bar",
+ "role": "Top navigation and bottom footer"
+ },
+ {
+ "name": "Book Cover Image",
+ "role": "Primary product visual"
+ },
+ {
+ "name": "Section Divider Spacer",
+ "role": "Vertical separation between book sections"
+ }
+ ],
+ "dos": [
+ "Set every page background to Parchment Canvas (#f6f0e1); do not introduce a true white page.",
+ "Use Jannon Neo weight 300 for any text 48px or larger; the whisper-light serif is the headline voice.",
+ "Reserve the Filled Order Button as the only chromatic action - fill #290a08, text #ffffff, 0px radius, 8px 16px padding.",
+ "Space sections 80-96px apart with whitespace alone; never use a horizontal rule or background band to separate sections.",
+ "Apply -0.03em letter-spacing to any display-size Jannon Neo text; the tight tracking is what makes the serif feel printed rather than digital.",
+ "Mark every inline link with Buttery Highlight (#fff3cc) text color - do not use blue, do not use underline.",
+ "Use Linen (#fffaec) for any card or list surface that needs to lift off the canvas; 0px radius, no border, no shadow."
+ ],
+ "donts": [
+ "Do not introduce drop shadows, glows, or blurred elevations anywhere - the system is intentionally flat.",
+ "Do not use a border-radius on any element; the 0px geometry is the design\u0027s signature.",
+ "Do not use blue for links, buttons, or accents - Buttery Highlight is the only accent color for hyperlinks.",
+ "Do not use Vintage Burgundy (#810c00) for UI chrome, text, or buttons; it is reserved for book-cover backgrounds only.",
+ "Do not use system sans-serifs (Inter, Helvetica) for headlines - the Jannon Neo serif is the identity.",
+ "Do not fill more than 15% of any page with a non-cream, non-ink color; the system is overwhelmingly two-tone.",
+ "Do not stack sections on alternating background colors; the cream canvas is continuous from top to bottom."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Parchment Canvas | `#f6f0e1` | Default page background - every screen starts here |\n| 2 | Linen Card | `#fffaec` | Card and list-item surfaces, elevated slightly above the canvas |\n| 3 | Paper White | `#ffffff` | Highest surface lift, used for book-cover image wells and reverse-text buttons |\n| 4 | Aubergine Ink | `#290a08` | Darkest surface - the filled button and any dark inversion blocks |",
+ "elevation": "The design is intentionally shadowless. Elevation is communicated entirely through cream-to-white surface steps (#f6f0e1 #fffaec #ffffff) and through 1px hairline borders in #e5e7eb. No drop shadows, no glows, no blurred halos - the page reads as a flat printed spread, not a software UI. This is a deliberate anti-SaaS choice: shadows would make the editorial typography feel like a product dashboard.",
+ "imagery": "Imagery is book-cover photography and food photography only - no abstract graphics, no illustrations, no icons. Book covers are presented as raw product crops at full editorial scale on the left side of each book section, sitting on the parchment canvas with no frame or radius. Food photography inside the book covers is warm, natural-lit, and ingredient-forward (a bowl of tomatoes, a hand holding a dessert glass with berries). Images are always square or 4:5, always left-aligned, always paired with a right-column of text. No overlap, no masking, no decorative treatment - the photo is the artifact, not a styled element.",
+ "layout": "Max-width 1200px, centered, fully contained - no full-bleed sections. The page reads as a single editorial column of stacked book sections. The hero is a centered serif headline (\u0027Books by Alison Roman\u0027) with enormous breathing room above and below (96px+ top/bottom padding). Each book section is a two-column split: book cover image on the left at native ratio, title + description + \u0027Order\u0027 button on the right, with the title left-aligned in Jannon Neo. Sections are separated by 80-96px of vertical whitespace, never by dividers or color bands. Navigation is minimal - a simple top bar with text links. The rhythm is print-magazine, not dashboard: large headings, short body paragraphs, single action per section, generous margins on both sides."
+}

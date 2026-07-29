@@ -1,0 +1,309 @@
+{
+ "name": "Apollo",
+ "slug": "apollo",
+ "colors": [
+ {
+ "name": "Espresso Bark",
+ "value": "#3c261c",
+ "token": "--color-espresso-bark",
+ "role": "Primary text, navigation background, structural borders - a warm near-black that anchors every screen without the harshness of pure #000000"
+ },
+ {
+ "name": "Terracotta Ember",
+ "value": "#e97451",
+ "token": "--color-terracotta-ember",
+ "role": "Primary action borders, active nav state, decorative accents - rationed to moments of intent, never used as a large surface fill"
+ },
+ {
+ "name": "Iris Ink",
+ "value": "#4a43dd",
+ "token": "--color-iris-ink",
+ "role": "Decorative display headings, logo monogram stroke - a vivid violet that breaks the warm palette for brand-voice headlines only"
+ },
+ {
+ "name": "Honey Parchment",
+ "value": "#f7efc5",
+ "token": "--color-honey-parchment",
+ "role": "Subtle highlight washes, eyebrow label backgrounds, warm text tint - a muted yellow that warms the cream canvas without competing with terracotta"
+ },
+ {
+ "name": "Warm Linen",
+ "value": "#f9f8f0",
+ "token": "--color-warm-linen",
+ "role": "Page canvas, content section backgrounds - the dominant surface, never pure white, always slightly cream"
+ },
+ {
+ "name": "Ash Mist",
+ "value": "#dddedf",
+ "token": "--color-ash-mist",
+ "role": "Hairline borders, dividers, card edges - the most-used color on the site (1,300+ occurrences), creates the cool rule-lines that structure every layout"
+ },
+ {
+ "name": "Blush Cream",
+ "value": "#fcede8",
+ "token": "--color-blush-cream",
+ "role": "Warm tinted surface for hover states and soft callout blocks - a peach wash that warms the cream canvas"
+ },
+ {
+ "name": "Lilac Mist",
+ "value": "#e4e3f2",
+ "token": "--color-lilac-mist",
+ "role": "Cool surface accent for secondary panels - a lavender-tinted gray that introduces gentle contrast against the warm cream"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "True black used sparingly for image fills and footer text - Espresso Bark handles all structural dark needs"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "MonaSans",
+ "token": "--font-monasans",
+ "role": "Body text, navigation, buttons, section headings, UI labels - the workhorse sans-serif. Uppercase instances at 0.07-0.1em tracking are signature; the wide tracking on 12-14px labels reads like a museum placard, not a UI label."
+ },
+ {
+ "name": "paradigm-pro",
+ "token": "--font-paradigm-pro",
+ "role": "Display headings and hero text only - a whisper-thin custom serif at weight 300. The ultra-light weight is anti-convention: most editorial sites use 400-500 serifs for headlines, but this 300 creates authority through restraint. Tight line-height (0.95) lets the letters interlock like a logotype."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.84",
+ "1.2px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "0.42px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.55",
+ "0.54px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "20px",
+ "1.49",
+ "0.6px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "32px",
+ "1.27",
+ "2.24px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.17",
+ "2.52px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "47px",
+ "0.95",
+ "3.76px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "68px",
+ "cardPadding": "45px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "23",
+ "23px",
+ "`--spacing-23`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "34",
+ "34px",
+ "`--spacing-34`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "45",
+ "45px",
+ "`--spacing-45`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "68",
+ "68px",
+ "`--spacing-68`"
+ ],
+ [
+ "90",
+ "90px",
+ "`--spacing-90`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "3px"
+ ],
+ [
+ "cards",
+ "3px"
+ ],
+ [
+ "images",
+ "3px"
+ ],
+ [
+ "inputs",
+ "3px"
+ ],
+ [
+ "buttons",
+ "3px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "Main conversion action - reserve space, book a tour"
+ },
+ {
+ "name": "Ghost Button",
+ "role": "Secondary actions on dark navigation"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation, sticky"
+ },
+ {
+ "name": "W Logo Monogram",
+ "role": "Brand identity mark, center of navigation"
+ },
+ {
+ "name": "Hero Display Headline",
+ "role": "Full-bleed hero text overlay"
+ },
+ {
+ "name": "Hero Eyebrow Label",
+ "role": "Pre-headline context above the hero display"
+ },
+ {
+ "name": "Section Eyebrow Label",
+ "role": "Small uppercase label introducing each content section"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Primary heading for content sections"
+ },
+ {
+ "name": "Display Heading (Serif)",
+ "role": "Hero or large editorial display text on content sections"
+ },
+ {
+ "name": "Body Text Block",
+ "role": "Primary paragraph content"
+ },
+ {
+ "name": "Feature List",
+ "role": "Bulleted feature list in content sections"
+ },
+ {
+ "name": "Content Section",
+ "role": "Alternating text+image content blocks"
+ },
+ {
+ "name": "Image Container",
+ "role": "All photographic and illustrative imagery"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 3px border-radius on every interactive element, card, and image - this is non-negotiable and defines the print-publication feel",
+ "Use Ash Mist (#dddedf) for all hairline borders, dividers, and card edges - it is the most-used color on the site and structures every layout",
+ "Use Espresso Bark (#3c261c) for all body text and structural dark needs; reserve #000000 for image fills only",
+ "Use Terracotta Ember (#e97451) only for primary action borders, active nav states, and the logo monogram - never as a large surface fill",
+ "Use paradigm-pro at weight 300 for all display and hero headlines - the whisper-thin serif is the site\u0027s most distinctive typographic signature",
+ "Apply uppercase with 0.07-0.1em letter-spacing to all section headings, nav links, and eyebrow labels - this tracking is what makes the design read as editorial rather than web",
+ "Maintain 68px vertical section gaps and 45px card/section padding for the spacious, breathing-room rhythm"
+ ],
+ "doNot": [
+ "Do not use border-radius larger than 3px - no pill buttons, no rounded cards, no soft corners anywhere",
+ "Do not use #ffffff as a background - always use Warm Linen (#f9f8f0) to maintain the cream canvas warmth",
+ "Do not use drop shadows or box-shadow elevation - separation comes from hairline borders and tonal surface shifts only",
+ "Do not use Terracotta Ember as a large fill color - it is an accent, rationed to borders, active states, and the logo only",
+ "Do not use Iris Ink (#4a43dd) for body text or navigation - it is reserved for decorative display headings and the logo monogram stroke",
+ "Do not use font-weight above 300 for the paradigm-pro display serif - the whisper-thin weight is the entire point",
+ "Do not mix multiple accent colors in a single view - terracotta speaks alone; adding iris or honey to the same component creates noise"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/5fbdad0a-d102-41c2-8253-f201ad6a6673",
+ "referenceSite": "https://apolloworkspace.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:17:25.659Z",
+ "articleModifiedAt": "2026-06-03T17:48:32.675Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/6e0cee11-274d-41dd-8fce-563a212728d0.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0512045c-8c47-4ce5-840a-db80e21fd3c5.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/19809731-c987-4340-b0db-19b84db2d83d.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/fedb3f0c-dc8e-46ec-8d81-dc4ff2257dba.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/710bbf79-8e46-4fd4-8635-610cb3c07d31.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/ffa39020-c3bb-4f9e-89a5-2fa76878a80b.png"
+ }
+ }
+}

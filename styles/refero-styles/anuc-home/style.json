@@ -1,0 +1,265 @@
+{
+ "id": "5e9409c4-d130-42f3-b224-5bd66cdfbe28",
+ "name": "Anuc Home",
+ "slug": "anuc-home",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/5e9409c4-d130-42f3-b224-5bd66cdfbe28",
+ "referenceSite": "https://www.anuchome.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:16:46.617Z",
+ "articleModifiedAt": "2026-06-03T20:31:22.395Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ccdb9a97-1db2-4d18-943d-8521c374135e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/81c93436-b9fa-4730-8772-68742f392473.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ee75b934-efe7-4333-b5db-91aa023b3ef9.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a5b0a8b5-00ce-46b6-8f75-1b4a7ff01f0e.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/085539f8-af2e-4a3a-8ce5-9e85f1efb991.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/2f975b07-cae1-4530-8d13-a56d22642018.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "editorial gallery in warm white - a quiet, magazine-like space where oversized serif headlines and monumental rounded geometric letterforms frame intimate interior photography",
+ "summary": "Explore Anuc Home\u0027s light Agency design system: Ink #1a1a1e, Canvas #f3f3f2 colors, Instrument Sans, Instrument Serif typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#1a1a1e",
+ "token": "--color-ink",
+ "role": "Primary text, all borders, logo forms, icon strokes - the structural near-black that defines every contour across the system"
+ },
+ {
+ "name": "Canvas",
+ "value": "#f3f3f2",
+ "token": "--color-canvas",
+ "role": "Page background - warm off-white that gives the entire system its gallery-wall warmth rather than clinical white"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Card surfaces, article blocks, elevated panels - pure white sits on top of Canvas to create subtle layering without shadows"
+ },
+ {
+ "name": "Ash",
+ "value": "#d1d1d2",
+ "token": "--color-ash",
+ "role": "Hairline borders, divider lines, subtle structural rules - the thinnest visible grid"
+ },
+ {
+ "name": "Stone",
+ "value": "#c1c2bd",
+ "token": "--color-stone",
+ "role": "Secondary borders, muted fills, icon strokes at lower emphasis"
+ },
+ {
+ "name": "Linen",
+ "value": "#e7e6e4",
+ "token": "--color-linen",
+ "role": "Muted surface for category tags, soft chips, low-emphasis backgrounds - warm-tinted neutral that steps between Paper and Canvas"
+ },
+ {
+ "name": "Graphite",
+ "value": "#4d4942",
+ "token": "--color-graphite",
+ "role": "Muted body text, secondary copy - warm dark gray for hierarchy below Ink"
+ },
+ {
+ "name": "Mist",
+ "value": "#8d8d8f",
+ "token": "--color-mist",
+ "role": "Tertiary text, timestamps, metadata - the lightest readable gray"
+ },
+ {
+ "name": "Bronze",
+ "value": "#9a682c",
+ "token": "--color-bronze",
+ "role": "Sparingly used warm accent - appears as small punctuation dots or category indicators, never as fills; adds a whisper of warmth to the achromatic system"
+ },
+ {
+ "name": "Slate",
+ "value": "#4a626f",
+ "token": "--color-slate",
+ "role": "Secondary accent - cool counterpoint to Bronze, used in equally restrained dot/tag contexts to create subtle color rhythm"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Instrument Sans",
+ "token": "--font-instrument-sans",
+ "role": "All UI, navigation, body copy, button labels, and small headlines. Weight 500 carries nav and button emphasis; weight 400 is the default reading voice. Free substitute: Inter, DM Sans."
+ },
+ {
+ "name": "Instrument Serif",
+ "token": "--font-instrument-serif",
+ "role": "All display and editorial headlines - the 52px and 74px sizes carry the brand\u0027s magazine-portfolio voice. The contrast between this high-contrast serif and the neutral sans is the system\u0027s signature typographic gesture. Free substitute: Playfair Display, Cormorant Garamond."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "15px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.2",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "32px",
+ "1.1",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "52px",
+ "1.05",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "74px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "96px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "240",
+ "240px",
+ "`--spacing-240`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ],
+ [
+ "logoShapes",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "ANUC Wordmark",
+ "role": "Primary brand identity - monumental geometric letterforms"
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Minimal site navigation"
+ },
+ {
+ "name": "Hero Image Grid",
+ "role": "Full-viewport visual statement for the landing"
+ },
+ {
+ "name": "Editorial Section Heading",
+ "role": "Large display text for section openers"
+ },
+ {
+ "name": "Article Card",
+ "role": "Content preview block in articles section"
+ },
+ {
+ "name": "Category Tag",
+ "role": "Small label chip for content categorization"
+ },
+ {
+ "name": "CTA Button - Outlined Ghost",
+ "role": "Primary action button (e.g., \u0027AGENDAR CONSULTA\u0027)"
+ },
+ {
+ "name": "Two-Column Editorial Section",
+ "role": "Content layout pattern for text+image or label+content"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Structural separation between sections and grid cells"
+ },
+ {
+ "name": "Section Label",
+ "role": "Small uppercase section identifier (e.g., \u0027SERVICIOS\u0027, \u0027ARTICULOS\u0027)"
+ }
+ ],
+ "dos": [
+ "Use Instrument Serif 400 at 52-74px for all display headlines - the high-contrast serif at oversized scale is the brand\u0027s signature typographic moment",
+ "Set all radii to 0px for buttons, cards, and tags - the system is architectural, not soft; sharpness communicates precision",
+ "Maintain the warm off-white Canvas (#f3f3f2) as the dominant background; never use pure clinical white for full-page backgrounds",
+ "Use Ink (#1a1a1e) for all text and borders; let color do no work - the system is deliberately achromatic",
+ "Separate image grid cells with 1-2px hairline borders in Ink to create the gallery-grid structure",
+ "Precede every display headline with a small uppercase Instrument Sans 500 label (15px) to create the editorial section-opening rhythm",
+ "Apply 96px minimum vertical spacing between major sections to maintain the gallery-walk pacing"
+ ],
+ "donts": [
+ "Do not introduce shadows, glows, or blur effects - the system communicates elevation through background color steps (Canvas Paper Linen), never through box-shadow",
+ "Do not use border-radius greater than 0px on any UI element - rounded buttons or cards would break the architectural language; the only rounded forms are the monumental logo shapes",
+ "Do not add chromatic fills to buttons, backgrounds, or large UI surfaces - Bronze and Slate are reserved for dot punctuation only",
+ "Do not use Instrument Sans for display headlines - the serif/sans contrast is the system\u0027s signature; flattening both to sans destroys the editorial voice",
+ "Do not place body copy at sizes below 15px - the system is generous with reading size, not compact",
+ "Do not stack dense information without the 96px section gap - the gallery-walk rhythm requires breathing room between content blocks",
+ "Do not use decorative gradients, textures, or background imagery behind text - every text surface must sit on a flat, untextured neutral"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Canvas | `#f3f3f2` | Base page background - the warm off-white gallery wall |\n| 2 | Paper | `#ffffff` | Card surfaces and article blocks that float above Canvas |\n| 3 | Linen | `#e7e6e4` | Soft chip and tag backgrounds - the most recessed surface |",
+ "elevation": "The system deliberately avoids shadows entirely. Elevation is communicated exclusively through flat background color stepping: Canvas (#f3f3f2) Paper (#ffffff) Linen (#e7e6e4). This creates a paper-architecture feel where every surface feels physically placed, like prints mounted on a gallery wall, rather than digitally floating.",
+ "imagery": "Photography is the visual centerpiece: large, warm-toned interior design photographs styled with natural light, organic materials (linen, wood, ceramics), and lived-in warmth. Images are treated as full-bleed grid tiles with no overlays, no rounded corners, and no color grading beyond natural warmth. The objects and spaces ARE the heroes - no lifestyle models, no abstract graphics, no illustration. The brand identity itself is geometric shapes rather than photography or illustration, creating a deliberate contrast between organic interiors and architectural wordmark.",
+ "layout": "Full-bleed hero with multi-column image grid (4-5 columns) that spans the entire viewport, with the monumental ANUC wordmark as oversized negative-space shapes overlaying the grid. Below the hero, the layout shifts to a generous max-width (~1200-1440px) centered container for editorial sections. Section pattern is consistently two-column: a wide left column for the small label + oversized serif headline, and a right column for compact lists or article cards. Vertical rhythm is gallery-like: 96px+ between major sections, with flat transitions rather than alternating color bands. Navigation is a single minimal top bar. Content arrangement is left-aligned and asymmetric, with whitespace carrying the compositional weight rather than borders or rules."
+}

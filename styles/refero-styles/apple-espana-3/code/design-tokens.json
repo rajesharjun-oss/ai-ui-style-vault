@@ -1,0 +1,369 @@
+{
+ "name": "Apple (Espana)",
+ "slug": "apple-espana-3",
+ "colors": [
+ {
+ "name": "Apple Blue",
+ "value": "#0071e3",
+ "token": "--color-apple-blue",
+ "role": "Primary CTA fill - the single saturated button on the page (Comprar, Learn more). Vivid mid-blue that reads as a switch-on moment against matte neutrals"
+ },
+ {
+ "name": "Link Blue",
+ "value": "#0066cc",
+ "token": "--color-link-blue",
+ "role": "Inline text links, footnote references, and underlined link borders. Slightly deeper and cooler than the CTA blue so links and buttons read as distinct actions"
+ },
+ {
+ "name": "Signal Green",
+ "value": "#03aa49",
+ "token": "--color-signal-green",
+ "role": "Accent stroke for positive health/sleep metric visualizations and decorative data highlights on product UI"
+ },
+ {
+ "name": "Ember Orange",
+ "value": "#ed6300",
+ "token": "--color-ember-orange",
+ "role": "Orange outline accent for tags, dividers, and focused UI edges"
+ },
+ {
+ "name": "Iris Violet",
+ "value": "#8668ff",
+ "token": "--color-iris-violet",
+ "role": "Tertiary accent for multicolor data rings, decorative product UI, and illustration strokes"
+ },
+ {
+ "name": "Deep Teal",
+ "value": "#00a1b3",
+ "token": "--color-deep-teal",
+ "role": "Quaternary accent completing the Apple Watch activity ring palette"
+ },
+ {
+ "name": "Space Black",
+ "value": "#1d1d1f",
+ "token": "--color-space-black",
+ "role": "Primary text, heading fills, icon strokes, and card borders. Apple\u0027s near-black - softer than #000, reads warm against white"
+ },
+ {
+ "name": "Sterling",
+ "value": "#707070",
+ "token": "--color-sterling",
+ "role": "Secondary/muted text, nav borders, list dividers, and subdued UI labels"
+ },
+ {
+ "name": "Graphite",
+ "value": "#474747",
+ "token": "--color-graphite",
+ "role": "Nav border-bottom, link muted state, and mid-contrast UI text"
+ },
+ {
+ "name": "Slate",
+ "value": "#333336",
+ "token": "--color-slate",
+ "role": "Nav-specific dark text and borders in the top utility bar"
+ },
+ {
+ "name": "Smoke",
+ "value": "#777779",
+ "token": "--color-smoke",
+ "role": "Disabled or de-emphasized button/link background fill"
+ },
+ {
+ "name": "Pebble",
+ "value": "#d6d6d6",
+ "token": "--color-pebble",
+ "role": "Hairline borders, inactive dividers, and subdued list separators"
+ },
+ {
+ "name": "Concrete",
+ "value": "#e2e2e5",
+ "token": "--color-concrete",
+ "role": "Light surface tone for secondary buttons and list-item fills sitting on white"
+ },
+ {
+ "name": "Fog",
+ "value": "#f5f5f7",
+ "token": "--color-fog",
+ "role": "Page canvas and section background - the dominant pale-gray that separates content bands from pure white card surfaces"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, button text on dark fills, nav backgrounds, and badge interiors"
+ },
+ {
+ "name": "Absolute",
+ "value": "#000000",
+ "token": "--color-absolute",
+ "role": "True black for hero image overlays, icon fills, and high-contrast heading strokes"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "SF Pro Display",
+ "token": "--font-sf-pro-display",
+ "role": "Headlines and display. The 48-64px range carries section titles like \u0027Lo principal.\u0027 and \u0027Mas de cerca.\u0027 with aggressively tight letter-spacing (-0.015em to -0.003em) that lets words lock into a single visual block. Weight 600 is the workhorse; 700 appears on the most emphatic display sizes. 260px is the extreme hero-numeral scale. Substitute: Inter, system-ui."
+ },
+ {
+ "name": "SF Pro Text",
+ "token": "--font-sf-pro-text",
+ "role": "Body, nav, buttons, legal copy, and supporting UI. 17px is the canonical body size; 14px carries secondary descriptions and footnote text; 12px is reserved for micro-labels and legal fine print. Weight 400 for body, 600 for nav items, button labels, and emphasis. Tight tracking throughout (-0.022em at 12px down to -0.003em at 44px) keeps even long paragraphs visually dense. Substitute: Inter, -apple-system."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "-0.22px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-0.19px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "17px",
+ "1.47",
+ "-0.27px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "21px",
+ "1.38",
+ "-0.32px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.14",
+ "-0.42px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.1",
+ "-0.6px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1.07",
+ "-0.28px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "64px",
+ "1.06",
+ "-0.19px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "80px",
+ "cardPadding": "28px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "89",
+ "89px",
+ "`--spacing-89`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "28px"
+ ],
+ [
+ "chips",
+ "28px"
+ ],
+ [
+ "links",
+ "10px"
+ ],
+ [
+ "buttons",
+ "980px"
+ ],
+ [
+ "accordions",
+ "28px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill CTA Button (Primary)",
+ "role": "The single saturated blue action - \u0027Comprar\u0027, \u0027Buy\u0027, primary download."
+ },
+ {
+ "name": "Pricing Chip",
+ "role": "Adjacent price display next to a primary CTA - \u0027Desde 449 \u0027."
+ },
+ {
+ "name": "Outline Ghost Link",
+ "role": "Secondary action - \u0027Learn more\u0027, \u0027Compare\u0027, section deep-links."
+ },
+ {
+ "name": "Eyebrow Label",
+ "role": "Category tag above a hero headline - \u0027WATCH SERIES 11\u0027."
+ },
+ {
+ "name": "Section Headline",
+ "role": "Opening line of each content band - \u0027Lo principal.\u0027, \u0027Mas de cerca.\u0027."
+ },
+ {
+ "name": "Feature Accordion Row",
+ "role": "Expandable feature list item in product deep-dive sections."
+ },
+ {
+ "name": "Product Feature Card",
+ "role": "White surface card pairing a product image with a short feature description."
+ },
+ {
+ "name": "Global Nav Bar",
+ "role": "Sticky top utility bar with product category links."
+ },
+ {
+ "name": "Promo Banner",
+ "role": "Thin announcement strip above the nav - education pricing, trade-in."
+ },
+ {
+ "name": "Hero Section",
+ "role": "Full-bleed cinematic opener with overlaid editorial text."
+ },
+ {
+ "name": "Split Feature Block",
+ "role": "Two-column section: short text on one side, product image on the other."
+ },
+ {
+ "name": "List Separator",
+ "role": "Horizontal divider within stacked content rows."
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set every section background to #f5f5f7 and every card surface to #ffffff - this is the only elevation system in use",
+ "End every section headline with a period: \u0027Lo principal.\u0027, \u0027Mas de cerca.\u0027 - the full stop is a signature editorial move",
+ "Use SF Pro Display at 48-56px weight 600 for section openers, with letter-spacing -0.005em",
+ "Use the 28px radius for every card, accordion pill, and chip; reserve 980px only for true pill-shaped buttons",
+ "Pair every CTA blue (#0071e3) with a white pricing chip (#333336 60%) when the price is part of the call to action",
+ "Place the eyebrow label as \u0027PRODUCT ICON + ALL-CAPS 12px/600\u0027 directly above the hero headline at 3px gap",
+ "Keep body paragraphs to a single 17px sentence per line - the system edits for visual silence, not information density"
+ ],
+ "doNot": [
+ "Never use #0066cc as a button fill - it is a link/underline color only; buttons use #0071e3",
+ "Never apply a drop shadow to a card or button - tonal contrast against #f5f5f7 is the only depth signal",
+ "Never set body type below 14px or above 21px - the 17px body / 14px secondary split is fixed",
+ "Never use #000000 for body text - use #1d1d1f; reserve pure black for hero overlays and icon fills on white",
+ "Never introduce a chromatic accent outside the activity-ring palette (green/orange/violet/teal) - these are decorative only, never CTA",
+ "Never end a headline without a period or use a question mark - the system is declarative, not interrogative",
+ "Never use a border-radius below 10px or above 28px for any container - the 28px radius is the lower bound for everything"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/96eae189-95ad-4a38-83d1-840497e5daf3",
+ "referenceSite": "https://www.apple.com/apple-watch-series-11",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:17:24.680Z",
+ "articleModifiedAt": "2026-06-03T19:26:49.392Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/6acd0c33-3346-4d6e-92ca-d6dc1ad5ee6d.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/5d45250e-c8c7-4098-b637-c4a9c87b9cbf.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/64ae5907-d98c-4d01-b6b7-8fb0b1d181c0.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a6e69d75-cee4-440f-931c-51e28439172a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/99329db5-a7d3-4ffa-9048-291d3074f36f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/cb94ca78-5955-40cf-8093-a94374db66ff.png"
+ }
+ }
+}

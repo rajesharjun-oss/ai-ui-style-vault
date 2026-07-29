@@ -1,0 +1,298 @@
+{
+ "id": "12db22d6-7738-4aee-ab6b-6d6731c7e1e0",
+ "name": "CQCM",
+ "slug": "cqcm",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/12db22d6-7738-4aee-ab6b-6d6731c7e1e0",
+ "referenceSite": "https://cqcm.coop",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:40:48.837Z",
+ "articleModifiedAt": "2026-06-03T19:59:10.805Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/5fda5414-4a9f-4a4d-82ed-cb0e525bf688.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/8c6f8c42-b400-4021-aa0e-7a80659389a4.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/3a18ae84-51e3-4f24-84db-6a0e33be3dc1.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2bc1c68c-92b3-46f6-ac7e-5c2cd70d40d1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/7d32ca37-c126-46f0-af6b-1912d65a653d.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/0704e85f-938b-405c-a287-63e333c5b4c5.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Verdant cooperative megaphone. A vivid green slab screams a civic message across a white grid while black pill buttons ground the chromatic energy.",
+ "summary": "Explore CQCM\u0027s light Other design system: Cooperative Green #44d991, Civic Blue #4c92e9 colors, Athletics, Manrope typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Cooperative Green",
+ "value": "#44d991",
+ "token": "--color-cooperative-green",
+ "role": "Hero panel fill, primary stat block, decorative dot overlays - the loudest brand voice; the color that makes the page feel activated"
+ },
+ {
+ "name": "Civic Blue",
+ "value": "#4c92e9",
+ "token": "--color-civic-blue",
+ "role": "News card surfaces, secondary stat blocks - chromatic but cooler, reserved for media/content contexts rather than primary brand expression"
+ },
+ {
+ "name": "Sunset Coral",
+ "value": "#ff6a51",
+ "token": "--color-sunset-coral",
+ "role": "Accent stat block only - appears once as data emphasis, treated as a single-note punctuation rather than a system color"
+ },
+ {
+ "name": "Mint Whisper",
+ "value": "#eaf9f2",
+ "token": "--color-mint-whisper",
+ "role": "Card and nav surface tint - a barely-there green echo of the hero green, softens white space without breaking the light theme"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, pill button fill, all borders and dividers - does the structural work of the system, the only color used for controls"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, text on filled buttons, image surfaces"
+ },
+ {
+ "name": "Steel Gray",
+ "value": "#666666",
+ "token": "--color-steel-gray",
+ "role": "Muted helper text, secondary nav borders - the only mid-gray in the system, used sparingly for de-emphasis"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Athletics",
+ "token": "--font-athletics",
+ "role": "Display and badge type - used for hero headlines (48-78px), card labels, and uppercase tags. The wide letter-spacing (0.04em) is a French institutional signature that turns every headline into a civic declaration. Custom face; substitute with Archivo Black, Anton, or Druk for similar uppercase weight and tracking, or with a wide-tracked geometric like Bebas Neue for closer feel."
+ },
+ {
+ "name": "Manrope",
+ "token": "--font-manrope",
+ "role": "Body, navigation, button labels, and small text - the working font. Slightly opened tracking (0.01-0.011em) is a subtle departure from default; it keeps dense French text feeling breathable without becoming display-like. Pairs cleanly with Athletics because both share geometric, humanist proportions."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.3",
+ "0.12px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.3",
+ "0.14px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "0.16px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.3",
+ "0.18px",
+ "--text-subheading"
+ ],
+ [
+ "subheading-lg",
+ "20px",
+ "1.3",
+ "0.22px",
+ "--text-subheading-lg"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1",
+ "0.88px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1",
+ "1.92px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "59px",
+ "1",
+ "2.36px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "78px",
+ "1",
+ "3.12px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "200",
+ "200px",
+ "`--spacing-200`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "badges",
+ "4px"
+ ],
+ [
+ "images",
+ "4px"
+ ],
+ [
+ "buttons",
+ "100px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Green Panel",
+ "role": "Primary brand surface - declares the organization\u0027s mission at full volume"
+ },
+ {
+ "name": "Pill Button (Filled)",
+ "role": "Primary action - the only filled button variant in the system"
+ },
+ {
+ "name": "Pill Button (Ghost)",
+ "role": "Secondary navigation - for less prominent calls"
+ },
+ {
+ "name": "Circular Image Frame",
+ "role": "Signature image treatment - softens the grid-heavy layout"
+ },
+ {
+ "name": "Dot Pattern Overlay",
+ "role": "Decorative brand texture on hero imagery"
+ },
+ {
+ "name": "News Card",
+ "role": "Content card for articles, communiques, and nouvelles"
+ },
+ {
+ "name": "Stat Block",
+ "role": "Large data display - one color per metric, stacked for rhythm"
+ },
+ {
+ "name": "Category Tag",
+ "role": "Content classification - COMMUNIQUE, NOUVELLES, etc."
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "\u0027See All\u0027 Link",
+ "role": "Section-level navigation - to full listings"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Top-of-section title - minimalist and structural"
+ },
+ {
+ "name": "Hero Image Panel",
+ "role": "Left half of the hero - photography with brand dot overlay"
+ }
+ ],
+ "dos": [
+ "Use Athletics 400-500 for all display and badge text with letter-spacing 0.04em - the wide tracking is the brand\u0027s typographic identity, not a stylistic option",
+ "Set pill buttons at 100px radius with #000000 fill and #ffffff text in 14-16px Manrope, uppercase",
+ "Reach for #44d991 (Cooperative Green) as the dominant chromatic surface - hero, stat blocks, and decorative dots - not for buttons or text accents",
+ "Crop images to circles inside blue (#4c92e9) news cards; reserve the circle shape for imagery only",
+ "Stack stat blocks in a 5-block staircase with ~30px vertical and horizontal offset between each",
+ "Use #eaf9f2 (Mint Whisper) for soft card and nav surfaces when white feels too clinical",
+ "Separate nav items with 20-30px horizontal gap; keep the nav a single non-sticky white bar"
+ ],
+ "donts": [
+ "Do not use any chromatic color as a button fill - buttons are always #000000 or outlined; color is for surfaces and decoration only",
+ "Do not add shadows to cards, buttons, or content - the system is flat by design; the only shadow is the nav bar\u0027s soft halo",
+ "Do not mix Athletics into body copy or Manrope into hero headlines - the font split is strict: Athletics displays, Manrope reads",
+ "Do not use letter-spacing tighter than 0.01em on Manrope or 0.04em on Athletics - the opened tracking is part of the brand\u0027s breathable French-institutional feel",
+ "Do not use coral (#ff6a51) more than once per surface - it is a single-note punctuation, not a system color",
+ "Do not use square corners on buttons - pill shape (100px) is the only button geometry; cards get 8px, small elements get 4px",
+ "Do not introduce gradients, blurs, or glass effects - the system is unapologetically flat, saturated, and solid"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper | `#ffffff` | Page canvas, default reading surface |\n| 1 | Mint | `#eaf9f2` | Soft card surface, quiet nav fill, feature panel background |\n| 2 | Civic Blue | `#4c92e9` | News and media card surfaces, chromatically distinct content layer |\n| 3 | Cooperative Green | `#44d991` | Hero panel, stat blocks, brand-dominant content surfaces |\n| 4 | Sunset Coral | `#ff6a51` | Single data-emphasis block, used once for accent stat |",
+ "elevation": "- **Navigation bar:** `rgba(0, 0, 0, 0.1) 0px 0px 20px 0px`",
+ "imagery": "Imagery is photographic, human-centered, and tightly cropped - close-up portraits and candid workplace moments, never staged stock photography. Treatment is high-key and natural-light, full-color, with no filters or duotone. The signature visual treatment is the green dot grid overlaid on the hero portrait; subsequent images appear as circular cutouts inside blue card surfaces. The system avoids decorative illustration entirely - it is a photography-and-typography system, not an illustration system.",
+ "layout": "The page is max-width 1280px contained, with a strong split-hero pattern: photograph left, solid green panel right. Below the hero, sections flow as full-width bands separated by 60-80px vertical gaps. The stats section uses an offset staircase of chromatic blocks (5 blocks, each shifted ~30px down and to the right) - this is the page\u0027s signature compositional move. News and feature sections use a 3-column card grid with 20px gutters. The navigation is a single top bar, not sticky, with a clean white background. Content density is comfortable - sections breathe, never feel packed. The overall rhythm alternates between solid chromatic blocks (green hero, blue news cards, multicolor stat stack) and white reading surfaces, creating high-contrast visual punctuation without literal dividers."
+}

@@ -1,0 +1,365 @@
+{
+ "id": "261a4ad3-e835-4f7a-beb7-72187f84d462",
+ "name": "amp",
+ "slug": "amp",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/261a4ad3-e835-4f7a-beb7-72187f84d462",
+ "referenceSite": "https://ampfit.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:15:37.674Z",
+ "articleModifiedAt": "2026-06-03T19:15:38.833Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/11752e5e-8721-415b-b562-1e81bf33e59a.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/5b9af69d-b353-4917-8b8a-0730893d0e4b.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/d1298234-95e3-4b71-8a93-a7489a037ea0.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/86cb8a7e-6d24-45e1-92be-a01e16678b25.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/9f4a748e-c053-469a-adf4-a7d1fde662ad.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/43af3dc5-7847-46e2-a219-3aa7ed584fc8.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "warm orange pill on cool white. The design feels like a premium fitness product photographed in a sunlit loft: one object, one accent, one confident typeface doing all the work.",
+ "summary": "Explore amp\u0027s light E-commerce design system: Amp Orange #ff6105, Amp Glow #ffa069 colors, PublicaSans typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Amp Orange",
+ "value": "#ff6105",
+ "token": "--color-amp-orange",
+ "role": "Primary action fill, active step badge, accent rule, and brand strokes - the only chromatic color in the interface. Used at high contrast on white surfaces (7.0:1 against #ffffff) and as a warm border tint on cards and inputs"
+ },
+ {
+ "name": "Amp Glow",
+ "value": "#ffa069",
+ "token": "--color-amp-glow",
+ "role": "Orange supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Peach Wash",
+ "value": "#ffdfcd",
+ "token": "--color-peach-wash",
+ "role": "Soft highlight surface for featured cards and step accents. A near-gray peach that stays quiet while adding warmth to a card stack"
+ },
+ {
+ "name": "Ink",
+ "value": "#0a0a0a",
+ "token": "--color-ink",
+ "role": "Primary text, logo mark, button text. 19.8:1 against white - the highest-contrast neutral in the stack"
+ },
+ {
+ "name": "Carbon",
+ "value": "#292b2a",
+ "token": "--color-carbon",
+ "role": "Secondary text and nav links, slightly softer than Ink. Icon strokes also draw from this level"
+ },
+ {
+ "name": "Slate",
+ "value": "#7a7b7b",
+ "token": "--color-slate",
+ "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated."
+ },
+ {
+ "name": "Ash",
+ "value": "#a2a3a2",
+ "token": "--color-ash",
+ "role": "Disabled link text and placeholder-level text - the quietest text tone before disappearing"
+ },
+ {
+ "name": "Graphite Hairline",
+ "value": "#e5e5e5",
+ "token": "--color-graphite-hairline",
+ "role": "The dominant border color across the site - dividers, card borders, button outlines, and structural rules. By far the most-used neutral (1628+ borderColor occurrences)"
+ },
+ {
+ "name": "Fog",
+ "value": "#dfe0df",
+ "token": "--color-fog",
+ "role": "Soft border for cards and body blocks where #e5e5e5 reads as too crisp against off-white"
+ },
+ {
+ "name": "Bone",
+ "value": "#e5e7eb",
+ "token": "--color-bone",
+ "role": "Neutral button fill (88 occurrences) - the ghost/secondary button background. A light step above canvas"
+ },
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Page background, card surfaces, button text on dark and orange fills. The base of the surface stack"
+ },
+ {
+ "name": "Linen",
+ "value": "#f3f4f3",
+ "token": "--color-linen",
+ "role": "Off-white alt surface - secondary button fills and surface tints where pure white is too clinical"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#202120",
+ "token": "--color-charcoal",
+ "role": "Dark elevated surface for cards, headers, and contained panels."
+ },
+ {
+ "name": "Smoke",
+ "value": "#3c3e3d",
+ "token": "--color-smoke",
+ "role": "Heading underline accent in dark sections, heavier than Carbon"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "PublicaSans",
+ "token": "--font-publicasans",
+ "role": "The only typeface in the system. Light 300 for display headlines, Regular 400 for body and UI, Medium 500 for buttons and emphasis. Tracking tightens with size: -0.036em at 72-78px, -0.030em at 48px, -0.020em at 32px, -0.010em at 16-18px, near-zero at body. The progressive tightening gives display sizes a magazine-cover feel while body text stays open and readable."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.56",
+ "-0.01px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.5",
+ "-0.01px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.33",
+ "-0.02px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.22",
+ "-0.02px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.2",
+ "-0.03px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "72px",
+ "1.1",
+ "-0.036px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "16px",
+ "elementGap": "5-8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "112",
+ "112px",
+ "`--spacing-112`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "40px"
+ ],
+ [
+ "cards",
+ "5px"
+ ],
+ [
+ "images",
+ "8px"
+ ],
+ [
+ "inputs",
+ "50px"
+ ],
+ [
+ "buttons-small",
+ "8px"
+ ],
+ [
+ "buttons-primary",
+ "50px"
+ ],
+ [
+ "buttons-secondary",
+ "24px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Pill Button",
+ "role": "The single CTA on most pages - Buy Now, Get Started."
+ },
+ {
+ "name": "Secondary Pill Button",
+ "role": "Lower-emphasis action when a primary exists on the same surface."
+ },
+ {
+ "name": "Nav Buy Now Button",
+ "role": "Persistent top-right CTA across all pages."
+ },
+ {
+ "name": "Step Indicator Row",
+ "role": "Onboarding step list with active state."
+ },
+ {
+ "name": "Press Logo Strip",
+ "role": "As-row, grayscale media logos under \u0027FEATURED ON\u0027 label."
+ },
+ {
+ "name": "Editorial Section Heading",
+ "role": "Large section title with accent rule underneath."
+ },
+ {
+ "name": "Dark Feature Band",
+ "role": "Full-bleed atmospheric section over a darkened product photo."
+ },
+ {
+ "name": "Featured Card (Peach)",
+ "role": "Highlighted callout in a stack - e.g. the app onboarding card."
+ },
+ {
+ "name": "Ghost Card",
+ "role": "Default card surface in a feature grid."
+ },
+ {
+ "name": "Announcement Bar",
+ "role": "Thin top bar below the nav with a time-sensitive message."
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Persistent header across all pages."
+ },
+ {
+ "name": "Input Field (Pill)",
+ "role": "Single-line input in onboarding and form contexts."
+ }
+ ],
+ "dos": [
+ "Use #ff6105 only for the primary CTA fill, the active step badge, the accent rule, and key brand strokes - never for body text or large background washes.",
+ "Set display headlines at 48-78px in weight 300 with tracking between -0.030em and -0.036em; this is the signature editorial moment of the system.",
+ "Round the primary CTA to 50px, secondary buttons to 24px, and cards to 5px - the radius ladder (5 / 8 / 24 / 32 / 50) defines component hierarchy.",
+ "Apply the two-layer shadow stack (orange glow + neutral 1px lift) only to the primary CTA - no other element should carry elevation.",
+ "Stack the surface ladder in this order: #ffffff #f3f4f3 #e5e7eb #ffdfcd #202120. Each step should feel like a deliberate lift, not a tint shift.",
+ "Keep body copy in PublicaSans 16px weight 400 at line-height 1.5 with -0.01em tracking; reserve weight 500 for buttons, step titles, and short labels.",
+ "Use the 2-3px #ff6105 accent rule beneath editorial headlines at roughly one-third of the heading width - it is the visual punctuation mark of the brand."
+ ],
+ "donts": [
+ "Don\u0027t introduce a second accent color or a secondary brand hue - the system is monochrome + one orange, and any chromatic addition breaks the rationing.",
+ "Don\u0027t use weight 600 or 700 in PublicaSans; the system tops out at 500. Heavier weights are not part of the type scale.",
+ "Don\u0027t apply shadows to cards, images, or non-primary buttons. Flat-with-hairline-border is the default; elevation is a privilege, not a default.",
+ "Don\u0027t use the 50px radius on anything except the primary CTA and inputs. 24px is the cap for secondary buttons, 5px for cards.",
+ "Don\u0027t set display text in all-caps or with positive letter-spacing. Tracking only tightens as size grows; never loosens.",
+ "Don\u0027t fill large areas with #ff6105. The orange is a punctuation mark - let it punctuate, not paint.",
+ "Don\u0027t mix rounded and square corner systems on the same page. Pick from the 5 / 8 / 24 / 32 / 50 ladder and stay on it."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#ffffff` | Page background, base layer |\n| 1 | Linen | `#f3f4f3` | Off-white alt surface for secondary buttons and warm sections |\n| 2 | Bone | `#e5e7eb` | Ghost button fill, raised neutral control |\n| 3 | Peach Wash | `#ffdfcd` | Featured card highlight, warm accent surface |\n| 4 | Charcoal | `#202120` | Dark full-bleed feature band background |",
+ "elevation": "- **Primary Pill Button:** `rgba(255, 97, 5, 0.6) 1px 6px 14px 0px, rgba(0, 0, 0, 0.06) 0px 1px 4px 0px`",
+ "imagery": "Full-bleed product photography is the dominant visual asset - the amp column photographed in a warm beige interior with soft directional lighting. No lifestyle scenes, no people-only shots, no illustration system. Phone mockups appear in onboarding sections, framed by Peach Wash cards. Image radius is 8px consistently. The product is always shot isolated on a neutral surface - the object IS the hero. Press logos in the social proof band are desaturated to single-tone Ink.",
+ "layout": "Max-width 1200px centered, with full-bleed sections that break out for product photography and dark feature bands. Hero is a full-viewport product image with a single Buy Now CTA pill anchored at the bottom-center. The \u0027How to use amp\u0027 section uses a 2-column layout (50/50) - step list left, phone mockup right. The press strip is a single horizontal row. The dark feature band (\u0027Designed to move you\u0027) is a full-bleed photo with a centered headline and accent rule. Vertical rhythm is generous: 80-120px between sections. Navigation is a simple top bar with no sidebar or mega-menu. The system favors centered stacks and split text+image compositions over asymmetric or grid-heavy layouts."
+}

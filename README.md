@@ -4,7 +4,7 @@ A curated, repo-friendly library of UI style references for AI-assisted implemen
 
 This vault stores public source links, source-derived design notes, tokens, component guidance, screen-reference metadata, and ready-to-paste implementation prompts. It is meant to help Codex or another AI builder create original interfaces with a clear visual direction, without copying protected brand assets or proprietary layouts.
 
-Current contents: 256 Refero Styles bundles and 48 Refero screen references.
+Current contents: 280 Refero Styles bundles and 48 Refero screen references.
 
 ## Quick Use
 

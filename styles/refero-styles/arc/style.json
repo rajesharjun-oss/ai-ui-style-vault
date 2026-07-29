@@ -1,0 +1,329 @@
+{
+ "id": "acfb6fa1-3aed-4e64-8522-7f332a796de8",
+ "name": "Arc",
+ "slug": "arc",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/acfb6fa1-3aed-4e64-8522-7f332a796de8",
+ "referenceSite": "https://arcboats.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:41:30.025Z",
+ "articleModifiedAt": "2026-06-03T18:21:23.128Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b2ba8acd-8b20-47e1-be8d-b14af2ac99f7.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c59a887b-858b-4b52-a34c-8e0441171ec8.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/00aa9cb6-a2d8-4da2-9ecd-f26994d661df.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d3bdf9a2-8bc5-4692-a08d-dc62686739e6.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/da4631c8-4a01-4b34-8694-189a30ba048b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3ddff54a-8724-40f3-88b9-0236020aedd7.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "industrial white gallery above midnight water",
+ "summary": "Explore Arc\u0027s light E-commerce design system: Bone #e5e7eb, Charcoal #0a0a0a colors, Soehne typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Bone",
+ "value": "#e5e7eb",
+ "token": "--color-bone",
+ "role": "Page canvas, card surfaces, hairline dividers between sections, ghost-button borders - the lightest structural gray carries borders, surface, and the dominant background in a near-white mode"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#0a0a0a",
+ "token": "--color-charcoal",
+ "role": "Primary body and heading text, nav links, footer text, filled button text - near-black for maximum legibility without the harshness of pure black"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Card surfaces, filled button backgrounds, image overlays, reverse text on dark sections - the brightest structural white"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Headings on light canvas where maximum contrast is required, nav background accents - used sparingly only where absolute black is needed"
+ },
+ {
+ "name": "Deep Current",
+ "value": "#031e25",
+ "token": "--color-deep-current",
+ "role": "Dark feature section backgrounds (alternating bands), large image containers - the navy-black that recedes like deep ocean water"
+ },
+ {
+ "name": "Slate Depth",
+ "value": "#1d1d1e",
+ "token": "--color-slate-depth",
+ "role": "Secondary dark section background, elevated panels over Deep Current - one step lighter to layer depth within dark bands"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Soehne",
+ "token": "--font-soehne",
+ "role": "All interface type: weight 300 reserved for display headings (48-140px) to create a quiet engineering voice, 400 for body and subheadings, 500 for nav and meta, 600 for button labels. Soehne\u0027s geometric neutrality with the extreme -0.043em tracking on display sizes is the signature - it makes headlines feel architectural rather than editorial. Substitute: Inter (closest free analog with matching weights and tracking) or Untitled Sans."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.3",
+ "0.185px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.44",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.44",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.44",
+ "-0.01px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.33",
+ "-0.012px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.3",
+ "-0.016px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.16",
+ "-0.021px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "140px",
+ "1",
+ "-0.043px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "36-64px",
+ "cardPadding": "20px",
+ "elementGap": "18-20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "45",
+ "45px",
+ "`--spacing-45`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "81",
+ "81px",
+ "`--spacing-81`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "215",
+ "215px",
+ "`--spacing-215`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "2.25px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "32px"
+ ],
+ [
+ "inputs",
+ "5px"
+ ],
+ [
+ "buttons",
+ "5px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Ghost Navigation Button",
+ "role": "Header nav links (SPORT, COAST, COMMERCIAL) and CTAs"
+ },
+ {
+ "name": "Outlined CTA Button",
+ "role": "Primary action on hero (RECREATION, COMMERCIAL) and section CTAs"
+ },
+ {
+ "name": "Filled Reversed Button",
+ "role": "Dark-section actions"
+ },
+ {
+ "name": "Hero Image Container",
+ "role": "Full-bleed opening section with aerial marine photography"
+ },
+ {
+ "name": "Feature Card",
+ "role": "Three-column grid in dark feature section (Advanced Software, Quiet power, etc.)"
+ },
+ {
+ "name": "Centered Statement Block",
+ "role": "Section transition moments (e.g., \u0027Electric power built for everything the water demands.\u0027)"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Section separators and grid lines"
+ },
+ {
+ "name": "Logo Mark",
+ "role": "Brand identity in nav"
+ },
+ {
+ "name": "Overlay Image Frame",
+ "role": "In-section photography (product crops, dashboard screenshots)"
+ },
+ {
+ "name": "Footer Link Row",
+ "role": "Footer navigation"
+ },
+ {
+ "name": "Hamburger Menu Trigger",
+ "role": "Mobile or secondary nav"
+ },
+ {
+ "name": "Meta Label",
+ "role": "Pre-headline tags (e.g., \u0027DESIGNED AND BUILT IN THE USA\u0027)"
+ },
+ {
+ "name": "Card Grid Container",
+ "role": "Three-column feature layout in dark section"
+ }
+ ],
+ "dos": [
+ "Use only Soehne (or Inter substitute) at the weights 300/400/500/600 - never introduce a second typeface family",
+ "Set display headings at 48-140px weight 300 with tracking between -0.021em and -0.043em; the whisper-weight is the signature",
+ "Use 5px radius for all controls (buttons, inputs) and 32px radius for all imagery - never mix or round to 8/12/16px",
+ "Alternate between #e5e7eb / #ffffff light bands and #1d1d1 / #031e25 dark bands for section rhythm - no mid-gray bridges",
+ "Reserve uppercase +0.15em-0.185em tracking for labels, meta, nav, and button text only - never for body or headings",
+ "Let full-bleed aerial marine photography carry the visual weight of hero and feature sections; do not compete with overlaid illustrations or graphics",
+ "Use #e5e7eb hairline 1px borders for all dividers and card edges; avoid colored borders"
+ ],
+ "donts": [
+ "Never introduce a chromatic accent color - the system is deliberately monochromatic plus dark teal-navy",
+ "Never use weight 700 or higher - the heaviest weight in the system is 600, and display text stays at 300",
+ "Never add drop shadows, glows, or blur effects to elements beyond the single detected hero shadow",
+ "Never use a border-radius between 6px and 31px - controls stay at 5px, images at 32px, nothing in between",
+ "Never place text directly on a photograph without a darkening overlay or contained card surface",
+ "Never use centered body copy longer than two lines; long-form content goes left-aligned in contained columns",
+ "Never use illustrations, icons-as-decoration, or 3D renders - photography and type are the only visual vocabulary",
+ "Never set body text above 18px or below 14px - the 14-18px range is the readable band"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#e5e7eb` | Default page background for light sections - a slightly warm light gray that feels industrial rather than clinical |\n| 1 | Paper | `#ffffff` | Section backgrounds, card surfaces, button fills, image frames - the bright neutral that creates breathing room |\n| 2 | Deep Section | `#1d1d1` | Dark band background for feature sections and image-forward blocks |\n| 3 | Ocean Floor | `#031e25` | Deepest dark surface - the bottom of the elevation stack, used for hero overlays and full-bleed photographic sections |",
+ "elevation": "Arc avoids shadow almost entirely. The single detected shadow (rgba(0,0,0,0.05) 0 10px 15px -3px) is an isolated instance on the hero - likely a subtle text-lift on the headline. Depth comes from tonal jumps between #e5e7eb, #ffffff, #1d1d1, and #031e25, not from cast shadows. This reinforces the flat, engineering-precise aesthetic: surfaces sit on top of each other through color contrast, not blur.",
+ "imagery": "Photography is the primary visual medium and it is always marine and always aerial or high-angle. Shots are full-bleed or 32px-radius framed, never square, never with decoration. Color treatment is naturalistic - the deep teal-green of open water carries the only chromatic energy in the system. No illustration, no iconography beyond the smallest utility glyphs (hamburger, flag), no 3D renders, no abstract graphics. The product itself (boats) is always shown in motion from above, creating wake and speed lines. Screenshots of software interfaces appear as flat product evidence inside feature cards. Density is image-dominant in the hero and feature sections, text-dominant in transition and detail sections.",
+ "layout": "Page model is full-bleed for all hero and feature imagery, with max-width 1200px contained for text and component grids. The hero is a 100vh full-bleed dark photograph with text overlaid in the bottom-left quadrant - no centered headline, no split layout. The first scroll section drops to a #ffffff band with a single centered statement (max-width ~720px), creating a moment of silence. The third section is a #031e25 dark band with a 3-column card grid of image-top / text-below cards. Section rhythm alternates: dark photo white statement dark feature grid light detail blocks. Navigation is a minimal top bar with logo-left, links-center, hamburger-right, transparent background over the hero. Spacing is generous - 36-64px between sections, 18-20px between elements, 20px inside cards. No sidebar, no mega-menu, no sticky behavior visible in static frames."
+}

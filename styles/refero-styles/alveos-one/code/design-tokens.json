@@ -1,0 +1,385 @@
+{
+ "name": "Alveos One",
+ "slug": "alveos-one",
+ "colors": [
+ {
+ "name": "Linen Canvas",
+ "value": "#fcf9f7",
+ "token": "--color-linen-canvas",
+ "role": "Page background, hero gradient origin - warm cream base that absorbs the entire site into a unified off-white"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Card surfaces, section backgrounds, raised panels against the linen canvas"
+ },
+ {
+ "name": "Graphite Ink",
+ "value": "#000000",
+ "token": "--color-graphite-ink",
+ "role": "Primary text, dominant border color across cards and sections - the system\u0027s typographic anchor"
+ },
+ {
+ "name": "Nightshade Black",
+ "value": "#05060b",
+ "token": "--color-nightshade-black",
+ "role": "Primary action button fill, footer background - near-black with a faint cool undertone"
+ },
+ {
+ "name": "Deep Harbor",
+ "value": "#030f1c",
+ "token": "--color-deep-harbor",
+ "role": "Alternate dark surface, nav background - indistinguishable from Nightshade but carries a subtle navy tilt"
+ },
+ {
+ "name": "Charcoal Slate",
+ "value": "#1d1d1d",
+ "token": "--color-charcoal-slate",
+ "role": "Body borders, secondary surfaces, image card borders - slightly softer than pure black"
+ },
+ {
+ "name": "Iron Grey",
+ "value": "#262628",
+ "token": "--color-iron-grey",
+ "role": "Icon strokes, heading borders, secondary fills - mid-dark neutral for iconography"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#111112",
+ "token": "--color-obsidian",
+ "role": "Nav text, body borders - the darkest readable neutral after Nightshade"
+ },
+ {
+ "name": "Stone Grey",
+ "value": "#575757",
+ "token": "--color-stone-grey",
+ "role": "Muted body text, default body border - the primary mid-grey for paragraph copy and dividers"
+ },
+ {
+ "name": "Ash",
+ "value": "#717171",
+ "token": "--color-ash",
+ "role": "Helper text, icon strokes, link borders - lighter mid-grey for secondary metadata"
+ },
+ {
+ "name": "Pebble",
+ "value": "#989695",
+ "token": "--color-pebble",
+ "role": "Subtle body borders, low-emphasis copy - barely-there dividers"
+ },
+ {
+ "name": "Concrete",
+ "value": "#a5a5a5",
+ "token": "--color-concrete",
+ "role": "Faint body text and dividers - used sparingly for ultra-low emphasis"
+ },
+ {
+ "name": "Dove",
+ "value": "#bababa",
+ "token": "--color-dove",
+ "role": "Button border, icon fill, disabled-state borders - the lightest mid-tone"
+ },
+ {
+ "name": "Clay Shadow",
+ "value": "#d1cfcd",
+ "token": "--color-clay-shadow",
+ "role": "Soft shadow color, card box-shadows, subtle background fills - warm-tinted shadow grey that matches the canvas"
+ },
+ {
+ "name": "Haze",
+ "value": "#ecedef",
+ "token": "--color-haze",
+ "role": "Subtle card borders, low-contrast dividers - the cool counterpoint to Clay Shadow"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Hanken Grotesk",
+ "token": "--font-hanken-grotesk",
+ "role": "Primary brand typeface for all navigation, body, headings, and lists. Weight 400 carries body and long-form copy; 500-600 lifts subheadings and buttons; 700 anchors the largest display sizes. Carries custom OpenType features (blwf, cv03, cv04, cv09, cv11) that shape the letterforms into their editorial geometry - not a system stack."
+ },
+ {
+ "name": "System Sans",
+ "token": "--font-system-sans",
+ "role": "Utility and icon font. Used at micro sizes (10-12px) for eyebrow labels, meta tags, and icon-adjacent text, where the unusually wide 0.4440em tracking creates the spaced-out all-caps aesthetic typical of premium wellness branding."
+ },
+ {
+ "name": "SF Mono",
+ "token": "--font-sf-mono",
+ "role": "Micro-verification labels (e.g. \u0027Verified by BrandPush.co\u0027). Tight 0.02em tracking, monospaced at 9px - the smallest typographic element on the site, sitting beneath press logos."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Occasional fallback body copy. Lowest frequency of all fonts - appears sparingly in body contexts."
+ },
+ {
+ "name": "-apple-system",
+ "token": "--font-apple-system",
+ "role": "-apple-system - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "micro",
+ "10px",
+ "1.2",
+ "4.44px",
+ "--text-micro"
+ ],
+ [
+ "caption",
+ "12px",
+ "1.3",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.6",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "20px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.4",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "38px",
+ "1.2",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "52px",
+ "1.1",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "150",
+ "150px",
+ "`--spacing-150`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "25px"
+ ],
+ [
+ "icons",
+ "25px"
+ ],
+ [
+ "pills",
+ "100px"
+ ],
+ [
+ "images",
+ "25px"
+ ],
+ [
+ "buttons",
+ "12px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Sticky header over hero and scroll content"
+ },
+ {
+ "name": "Pre-Order CTA Button",
+ "role": "Primary action - the only conversion button in the header and repeated throughout the site"
+ },
+ {
+ "name": "Pill Eyebrow Label",
+ "role": "Section intro tag sitting above the hero headline"
+ },
+ {
+ "name": "Hero Section with Spotlight",
+ "role": "Full-viewport opening that frames the product"
+ },
+ {
+ "name": "Image Feature Card",
+ "role": "Large rounded lifestyle photograph with overlaid text - the primary content card"
+ },
+ {
+ "name": "Two-Column Card Grid",
+ "role": "Primary content arrangement for feature showcases"
+ },
+ {
+ "name": "Press Logos Bar",
+ "role": "Social proof section - \u0027AS SEEN ON\u0027"
+ },
+ {
+ "name": "Outlined Secondary Button",
+ "role": "Alternative to the filled CTA for non-primary actions"
+ },
+ {
+ "name": "Dark Footer",
+ "role": "Site footer on Nightshade Black background"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 25px border-radius for all image cards, feature cards, and photograph containers - this is the dominant corner geometry and defines the soft, premium feel",
+ "Use Nightshade Black #05060b as the primary action button fill with white text and 12px radius - never introduce a chromatic CTA color",
+ "Set the page canvas to Linen Canvas #fcf9f7 for all body sections and let Bone White #ffffff surface only as raised cards",
+ "Use Hanken Grotesk for all primary type and enable its custom OpenType features (\u0027blwf\u0027, \u0027cv03\u0027, \u0027cv04\u0027, \u0027cv09\u0027, \u0027cv11\u0027) to preserve the editorial letterform shapes",
+ "Apply 0.4440em letter-spacing to small all-caps labels (10-12px) - the wide tracking is a signature element of the brand voice",
+ "Use the warm radial gradient (Linen Canvas Clay Shadow) only for the hero spotlight - do not reuse it in content sections",
+ "Keep shadows nearly invisible: rgba(0,0,0,0.05-0.08) at low blur radii. Elevation should be implied through contrast and radius, not drop-shadow weight"
+ ],
+ "doNot": [
+ "Do not introduce any chromatic color - the system is 0% colorful by design and any saturated hue would break the wellness aesthetic",
+ "Do not use sharp 0px corners or small 4px radii on feature cards - the 25px radius is what makes the imagery feel like spa product photography",
+ "Do not use a brand-colored CTA (blue, green, red) - the near-black filled button is a deliberate anti-convention choice that signals premium health product, not SaaS",
+ "Do not use heavy or layered shadows - the design relies on a single faint shadow or no shadow at all",
+ "Do not use multiple gradients across the site - the radial hero gradient is the only one; content sections stay flat",
+ "Do not pair Hanken Grotesk with a geometric or condensed display face - the brand voice is built on a single grotesque family at varied weights",
+ "Do not center-align long body paragraphs - use centered alignment only for headlines, hero copy, and single-line metadata; body text in cards and sections should remain left-aligned"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/811f0fc6-3353-4ed6-bf3e-c98b261dcc1c",
+ "referenceSite": "https://www.alveoslabs.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:14:36.585Z",
+ "articleModifiedAt": "2026-06-03T19:54:31.498Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0b6e5059-cb74-49e0-8143-1e35c5d4c491.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/68f2f6a3-4b97-4253-a048-c56307ce5dbe.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/67e83f76-b8b6-4ecf-9b08-6fe11cf32a7a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/6949b3f5-835f-407f-b41b-9e62dcdfc67c.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/9300de65-0019-4e40-bb0d-289061a45ece.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/71d5a31e-98e2-498b-8bcc-57c820e410ec.png"
+ }
+ }
+}

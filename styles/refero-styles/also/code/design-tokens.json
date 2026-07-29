@@ -1,0 +1,325 @@
+{
+ "name": "ALSO",
+ "slug": "also",
+ "colors": [
+ {
+ "name": "Cream Paper",
+ "value": "#fcf7fa",
+ "token": "--color-cream-paper",
+ "role": "Page canvas, soft section background - warm off-white with a barely-there pink cast, never pure white"
+ },
+ {
+ "name": "Pure Card",
+ "value": "#ffffff",
+ "token": "--color-pure-card",
+ "role": "Card surfaces, elevated panels, button text on violet fills"
+ },
+ {
+ "name": "Ash Mist",
+ "value": "#f1f1f1",
+ "token": "--color-ash-mist",
+ "role": "Tertiary surface, muted dividers, subtle background washes"
+ },
+ {
+ "name": "Carbon Black",
+ "value": "#000000",
+ "token": "--color-carbon-black",
+ "role": "Primary text, default borders, icon strokes - the structural ink of the system"
+ },
+ {
+ "name": "Graphite Input",
+ "value": "#212121",
+ "token": "--color-graphite-input",
+ "role": "Input field borders, secondary dark surfaces"
+ },
+ {
+ "name": "Obsidian Pill",
+ "value": "#1a1a1a",
+ "token": "--color-obsidian-pill",
+ "role": "Dark CTA fill - the secondary action button (e.g. Reserve), pairs with white text and violet shadow"
+ },
+ {
+ "name": "Electric Violet",
+ "value": "#ac74fc",
+ "token": "--color-electric-violet",
+ "role": "Primary accent - link borders, active states, icon highlights, section accent borders. The brand\u0027s signal color"
+ },
+ {
+ "name": "Lilac Pill",
+ "value": "#c181ff",
+ "token": "--color-lilac-pill",
+ "role": "Primary CTA button fill - the dominant call-to-action, sits on violet hard shadow with black text"
+ },
+ {
+ "name": "Deep Plum",
+ "value": "#381b5e",
+ "token": "--color-deep-plum",
+ "role": "Dark violet text variant, deep accent borders, section-level emphasis when Electric Violet feels too bright"
+ },
+ {
+ "name": "Shadow Plum",
+ "value": "#48316a",
+ "token": "--color-shadow-plum",
+ "role": "Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Acid Lime",
+ "value": "#b1ff8f",
+ "token": "--color-acid-lime",
+ "role": "Sparingly used highlight wash or accent surface for urgency moments (limited drops, reservation states)"
+ },
+ {
+ "name": "Signal Blue",
+ "value": "#1276a9",
+ "token": "--color-signal-blue",
+ "role": "Outlined action border - secondary ghost button or informational outline accent"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "ABCCameraPlainVariable",
+ "token": "--font-abccameraplainvariable",
+ "role": "Primary UI and display typeface - handles body, headings, navigation, and product copy"
+ },
+ {
+ "name": "SerialC-Heavy",
+ "token": "--font-serialc-heavy",
+ "role": "Uppercase eyebrows, button text, section labels, mono-influenced captions"
+ },
+ {
+ "name": "SerialC",
+ "token": "--font-serialc",
+ "role": "SerialC - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-0.6px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.2",
+ "-0.75px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.09",
+ "-0.9px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.13",
+ "-1px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.17",
+ "-0.8px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "44px",
+ "1",
+ "-0.7px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "0.93",
+ "3px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "12px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "feature-cards",
+ "56px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button (Lilac Pill)",
+ "role": "The dominant call-to-action - \"LEARN MORE\", \"EXPLORE\", primary product actions"
+ },
+ {
+ "name": "Dark CTA Button (Obsidian Pill)",
+ "role": "Secondary high-emphasis action - \"RESERVE NOW\" top banner button"
+ },
+ {
+ "name": "Green CTA Button (Acid Lime)",
+ "role": "Scarce/limited state CTA - reservation confirmations, low-stock urgency"
+ },
+ {
+ "name": "Ghost Navigation Link",
+ "role": "Top-bar nav items (BIKE, QUAD, HELMET, GEAR, COMPANY)"
+ },
+ {
+ "name": "Section Eyebrow Label",
+ "role": "Uppercase section markers - \"WHEN YOU RIDE ON ALSO, YOU SEE, FEEL, AND NOTICE THINGS\""
+ },
+ {
+ "name": "Product Card (Hero Showcase)",
+ "role": "Large illustrated/photographic product cards in the grid - bikes, quads, helmets, riders"
+ },
+ {
+ "name": "Feature Card (Three-Column Grid)",
+ "role": "Editorial cards in the \"SEE, FEEL, NOTICE\" section - TM-B, Alpha Wave, Our Company"
+ },
+ {
+ "name": "Story Card (Purple Section)",
+ "role": "Editorial story cards in the Stories carousel - \"Join ALSO at the Sea Otter Classic 2026\""
+ },
+ {
+ "name": "Pagination Control",
+ "role": "Carousel navigation - \"01/03\" counter with prev/next circle buttons"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form inputs (email, address, reservation details)"
+ },
+ {
+ "name": "Top Announcement Bar",
+ "role": "Site-wide reservation banner - \"RESERVE NOW TO RIDE SOONER\""
+ },
+ {
+ "name": "Logo Wordmark",
+ "role": "Brand mark - \"ALSO.\" with period"
+ },
+ {
+ "name": "Rider Counter Tag",
+ "role": "Small numerical labels next to product cutouts - \"1,043\", \"2,803\", \"2,041\""
+ },
+ {
+ "name": "Chat Bubble (Bottom-Right)",
+ "role": "Persistent customer support / reservation concierge entry point"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set all buttons and tags to 9999px radius - the pill is non-negotiable across every variant (primary, dark, green, ghost).",
+ "Use the single Shadow Plum (#48316a) 2px solid hard shadow on every elevated element - never use blur, never stack shadows, never change the offset.",
+ "Use Electric Violet (#ac74fc) for links, active states, icon highlights, and section borders - it is the signal color and should appear in functional roles, not decoration.",
+ "Set SerialC-Heavy labels in uppercase with positive tracking (0.036-0.063em) - never use it in mixed case or tight tracking.",
+ "Push ABCCameraPlainVariable line-heights tighter as size grows: 1.5 at body, 1.0 at heading-lg, 0.93 at display - the system is defined by compression at scale.",
+ "Maintain 8px base unit spacing: 16px element gap, 24px card padding, 80px section gap - never break to a 4px or 12px base.",
+ "When a section flips to Electric Violet (#ac74fc) background, keep the same component structure, shadows, and type system - only the canvas color changes."
+ ],
+ "doNot": [
+ "Never use soft drop shadows with blur - the 2px solid hard shadow is the only shadow in the system.",
+ "Never use Pure White (#ffffff) as page canvas - always start from Cream Paper (#fcf7fa); white is reserved for cards and elevated surfaces.",
+ "Never set ABCCameraPlainVariable with positive letter-spacing on body or heading text - the system compresses at scale, it does not expand.",
+ "Never use rounded corners on product images, story cards, or hero photography - these are sharp-edged; only buttons, inputs, and feature cards get radius.",
+ "Never add a second chromatic accent - Electric Violet is the system; Acid Lime and Signal Blue are rare utility colors for specific states only.",
+ "Never use a different shadow color - Shadow Plum (#48316a) stays constant even on dark or green buttons, keeping the brand cohesive across all CTA variants.",
+ "Never set SerialC-Heavy in lowercase or sentence case - it is an uppercase-only typeface in this system; using it otherwise breaks the typographic rhythm."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/d04a3970-45f0-4030-8375-d0d26c083c0f",
+ "referenceSite": "https://ridealso.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T22:35:03.443Z",
+ "articleModifiedAt": "2026-06-03T21:02:20.560Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/04e7cb1d-2707-4551-abe4-d4c0580a2749.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c75611da-e327-454b-bc64-c15cbdfb4219.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/512a841a-1d1e-4290-be48-ecc670720089.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/f9e7557c-e2e0-430a-aa45-5885fc7d3d80.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/d6ceac7d-e7eb-4d81-b760-48be92f582d7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ }
+}

@@ -1,0 +1,268 @@
+{
+ "name": "Altitude Beverages",
+ "slug": "altitude-beverages",
+ "colors": [
+ {
+ "name": "Canvas White",
+ "value": "#fafafa",
+ "token": "--color-canvas-white",
+ "role": "Page background, card surfaces, primary canvas - the dominant near-white that lets photography and type carry all visual weight"
+ },
+ {
+ "name": "Warm Ash",
+ "value": "#d9d9d9",
+ "token": "--color-warm-ash",
+ "role": "Elevated surface backgrounds for cards, buttons, and nav pill container - a warm gray one step darker than canvas for subtle layering without shadows"
+ },
+ {
+ "name": "Mid Gray",
+ "value": "#cdcdce",
+ "token": "--color-mid-gray",
+ "role": "Hairline borders, link underlines, and divider lines - sits between canvas and text to create structure without weight"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#07060b",
+ "token": "--color-ink-black",
+ "role": "Primary text, button labels, heading copy - a near-pure black with a faint blue undertone for maximum contrast against the warm canvas"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Navigation borders and secondary text accents - used sparingly where a slightly harder edge is needed"
+ },
+ {
+ "name": "Glacial Mist",
+ "value": "#ddfcff",
+ "token": "--color-glacial-mist",
+ "role": "Faint cool-tinted accent on borders and fills - a barely-perceptible icy wash that adds micro-contrast without breaking the monochrome discipline"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "HelveticaNowDisplay",
+ "token": "--font-helveticanowdisplay",
+ "role": "Display and hero headlines - weight 800 at 160px with -0.05em tracking is the signature: massively compressed, ultra-bold statement type that dominates the viewport. Also used at 18px/500 for emphasized inline labels and 11px for caption-level brand marks"
+ },
+ {
+ "name": "EditorialNew",
+ "token": "--font-editorialnew",
+ "role": "Editorial body and subheadings - the light-weight serif (weight 200) at 40-60px creates the \u0027fashion magazine pull-quote\u0027 feeling. The extreme thinness against the massive Helvetica display generates typographic tension. Also flows at 14-16px for editorial paragraph text"
+ },
+ {
+ "name": "DepartureMono",
+ "token": "--font-departuremono",
+ "role": "Monospaced utility face for navigation labels, button text, form inputs, and small data - uppercase tracked monospace signals \u0027technical/informational\u0027 against the display serif and sans"
+ },
+ {
+ "name": "ui-sans-serif",
+ "token": "--font-ui-sans-serif",
+ "role": "Fallback body text and generic UI copy - system sans at 16px handles the long tail of small interface labels that don\u0027t warrant the custom faces"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.79",
+ "-0.78px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-1.14px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.43",
+ "-0.9px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "40px",
+ "1.06",
+ "-1px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "60px",
+ "1.06",
+ "-1.5px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "160px",
+ "0.9",
+ "-8px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "36-80px",
+ "cardPadding": "16-24px",
+ "elementGap": "8-16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "100px"
+ ],
+ [
+ "cards",
+ "44px"
+ ],
+ [
+ "inputs",
+ "44px"
+ ],
+ [
+ "buttons",
+ "100px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Pill Text Button",
+ "role": "Outlined/ghost action trigger"
+ },
+ {
+ "name": "Display Hero Headline",
+ "role": "Primary page statement"
+ },
+ {
+ "name": "Editorial Subheadline",
+ "role": "Supporting editorial text below display"
+ },
+ {
+ "name": "Product Feature Card",
+ "role": "Large hero product showcase"
+ },
+ {
+ "name": "Floating Product Card",
+ "role": "Compact product preview with details"
+ },
+ {
+ "name": "Dark Gradient Section",
+ "role": "Full-bleed tonal reset between light sections"
+ },
+ {
+ "name": "Monospace Label Tag",
+ "role": "Small category or metadata indicator"
+ },
+ {
+ "name": "Circular Icon Button",
+ "role": "Standalone utility action (profile, account)"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Structural separation between elements"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use HelveticaNowDisplay weight 800 at 160px for the primary hero headline - it must feel oversized and compressed, never comfortable or safe",
+ "Pair the ultra-bold display with EditorialNew weight 200 for subheadings - the 200-vs-800 contrast is the typographic identity",
+ "Keep all UI chrome to the monochrome palette (#fafafa, #d9d9d9, #07060b, #cdcdce) - color belongs only in product photography",
+ "Use 100px border-radius for navigation pills and primary buttons; 44px for product cards and content containers",
+ "Set all navigation, button labels, and metadata in DepartureMono uppercase at 11-12px with -0.071em tracking",
+ "Maintain a section gap of 36-80px between major content blocks to let the editorial whitespace breathe",
+ "Let product photography be the only chromatic element - never introduce a brand accent color into UI components"
+ ],
+ "doNot": [
+ "Do not add shadows to any component - use surface color steps (#fafafa #d9d9d9) and gradient transitions for all depth",
+ "Do not use rounded corners below 44px for cards or 100px for buttons - the system is defined by its pill/lozenge geometry",
+ "Do not set body text in HelveticaNowDisplay - reserve that face for display headlines at 60px+ only",
+ "Do not use color for buttons, badges, or interactive elements - all actions are black text on warm gray or white surfaces",
+ "Do not break the light/dark alternation with a chromatic section - the dark gradient is the only non-monochrome surface",
+ "Do not use line-heights above 1.06 for headlines - the tight leading is part of the compressed, editorial feel",
+ "Do not add icons or illustrations to the UI - the system relies on photography, monogram marks, and pure typography"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/243a3dde-80a8-47a9-87f8-c549726ec6f3",
+ "referenceSite": "https://altitudebev.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:13:55.585Z",
+ "articleModifiedAt": "2026-06-03T20:48:52.020Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/79e75872-5c9d-4fb6-ad59-adb371b1ae1a.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/9038317d-c443-4035-94e8-6bfa405f62fd.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/9663e7c1-ee7b-4de3-9c1d-6aee80e4a9d9.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8e00e7e9-cdb3-41c3-916a-a500ac3bd614.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/cc922a4e-2771-418c-8894-dd7df184e0b8.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ }
+}

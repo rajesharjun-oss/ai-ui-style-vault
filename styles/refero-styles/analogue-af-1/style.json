@@ -1,0 +1,338 @@
+{
+ "id": "6607e4ff-2de6-4a6a-a7ed-53a9e4b550b9",
+ "name": "Analogue aF-1",
+ "slug": "analogue-af-1",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/6607e4ff-2de6-4a6a-a7ed-53a9e4b550b9",
+ "referenceSite": "https://af1.analogueshop.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:16:11.553Z",
+ "articleModifiedAt": "2026-06-03T21:18:03.331Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/769fef83-e19c-4b6b-a98f-70f4b02737db.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/52f80bb9-68d1-4405-94e0-5c32ad953a91.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2c36760e-cddf-44c2-b09e-ce163d277821.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2f37c53e-c15e-4e11-9975-38b278ee554a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/27f18510-6b05-48d6-90e4-893f9999871a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/cb94ca78-5955-40cf-8093-a94374db66ff.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Vogue spread meets Bauhaus blueprint",
+ "summary": "Explore Analogue aF-1\u0027s light E-commerce design system: Cobalt Signal #002fff, Pure White #ffffff colors, ITC Garamond Std Light Narrow, Graphik Medium...",
+ "colors": [
+ {
+ "name": "Cobalt Signal",
+ "value": "#002fff",
+ "token": "--color-cobalt-signal",
+ "role": "Violet action color for filled buttons, selected navigation states, and focused conversion moments."
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page canvas, card surfaces, button text on cobalt fill, heading text on dark sections"
+ },
+ {
+ "name": "Graphite",
+ "value": "#171717",
+ "token": "--color-graphite",
+ "role": "Primary body text, heading text, hairline borders, icon strokes - the workhorse near-black that carries UI structure"
+ },
+ {
+ "name": "Carbon",
+ "value": "#070707",
+ "token": "--color-carbon",
+ "role": "Deepest text, dark gradient anchor points, near-black accents where maximum contrast is needed"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Absolute black for borders, icons, and the film-strip frame effect - appears most in structural borders rather than type"
+ },
+ {
+ "name": "Fog",
+ "value": "#ededed",
+ "token": "--color-fog",
+ "role": "Soft card surface lift, input fields, subtle background differentiation from pure white canvas"
+ },
+ {
+ "name": "Mist",
+ "value": "#b9b9b9",
+ "token": "--color-mist",
+ "role": "Light surface wash, disabled or decorative backgrounds"
+ },
+ {
+ "name": "Dove",
+ "value": "#c3c3c3",
+ "token": "--color-dove",
+ "role": "Mid-neutral border for tertiary dividers"
+ },
+ {
+ "name": "Iron",
+ "value": "#696969",
+ "token": "--color-iron",
+ "role": "Muted body copy, secondary borders, placeholder text - the dominant mid-gray carrying prose-level hierarchy"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "ITC Garamond Std Light Narrow",
+ "token": "--font-itc-garamond-std-light-narrow",
+ "role": "Editorial serif - deployed for the brand-defining typographic moments: the \u0027Analogue aF-1\u0027 wordmark, the nostalgic pull-quote (\u0027Remember when every shot was a moment to cherish?\u0027), and section-level statements. Light weight at large sizes is deliberately anti-luxury-tech; a Garamond at 64px weight 400 whispers where most product pages shout with bold sans. Narrow variant tightens the serif into modern proportions."
+ },
+ {
+ "name": "Graphik Medium",
+ "token": "--font-graphik-medium",
+ "role": "Geometric sans for all functional UI: navigation, buttons, input fields, captions, body labels, and the massive 150px display headline. Single weight (400) at every size creates a remarkably consistent voice - no bold/light toggle. The 150px instance is the \u0027af-1\u0027 hero display. Extremely tight tracking (-0.067em at the largest size) pushes the geometric forms into near-architectural density."
+ },
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.2",
+ "-0.26px",
+ "--text-body"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.2",
+ "-0.46px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "34px",
+ "1",
+ "-1.02px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1",
+ "-0.88px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "64px",
+ "0.9",
+ "-1.15px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "50px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "29",
+ "29px",
+ "`--spacing-29`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "pills",
+ "100px"
+ ],
+ [
+ "images",
+ "30px"
+ ],
+ [
+ "inputs",
+ "15px"
+ ],
+ [
+ "buttons",
+ "10px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Action Button",
+ "role": "The single most important interactive element - a filled cobalt blue pill that commands the visual hierarchy"
+ },
+ {
+ "name": "Ghost/Dismiss Button",
+ "role": "Secondary negative action - opt-out companion to the primary CTA"
+ },
+ {
+ "name": "Email Input Field",
+ "role": "Signup form input for the hero newsletter capture"
+ },
+ {
+ "name": "Scroll Prompt Pill",
+ "role": "Persistent floating CTA at the bottom of hero sections"
+ },
+ {
+ "name": "Product Image Card",
+ "role": "Showcase of the camera product at multiple angles"
+ },
+ {
+ "name": "Pre-Order Action Card",
+ "role": "Right-column purchase block in the product detail section"
+ },
+ {
+ "name": "Testimonial Mini Card",
+ "role": "Social proof - features a person and their handle"
+ },
+ {
+ "name": "Film-Strip Full-Bleed Frame",
+ "role": "Editorial photography section with analog film border treatment"
+ },
+ {
+ "name": "Hero Gradient Banner",
+ "role": "Atmospheric product reveal at page top"
+ },
+ {
+ "name": "Brand Wordmark",
+ "role": "Top-center logo lockup"
+ },
+ {
+ "name": "Language Selector",
+ "role": "Top-right locale switcher"
+ },
+ {
+ "name": "Press Logo Strip",
+ "role": "Media mention band at section transition"
+ }
+ ],
+ "dos": [
+ "Use Garamond weight 400 at 40-64px for editorial moments - quotes, product names, section openers. This is the system\u0027s signature voice.",
+ "Reserve #002fff exclusively for the single primary action on any given screen. Never use it for decoration, tags, or secondary buttons.",
+ "Apply 20px radius to cards and 30px radius to product imagery. The rounded softness is a counterpoint to the stark black/white palette.",
+ "Anchor sections with 50px vertical gaps and keep card padding at 20px. The compact density is intentional - the system breathes through whitespace, not through padding bloat.",
+ "Use Graphik Medium at weight 400 exclusively. Do not introduce bold or light variants - the single-weight consistency is the design language.",
+ "Frame full-bleed photography with the film-strip perforation motif when presenting analog/nostalgic imagery. The border IS the brand statement.",
+ "Set letter-spacing at -0.018em or tighter for any display text above 30px. The tight tracking pushes geometric forms into architectural density."
+ ],
+ "donts": [
+ "Never apply #002fff to backgrounds, icons, or text - it is a button fill only. Decorative blue dilutes its power as the system\u0027s one action color.",
+ "Do not introduce drop shadows. The system uses flat surfaces and hairline borders. The only shadow permitted is the inset white glow on inputs.",
+ "Do not use bold weights on Garamond. The light weight is the point - bold Garamond breaks the editorial whisper into a shout.",
+ "Never use corner radii below 10px for interactive elements. The rounded geometry is non-negotiable for the premium feel.",
+ "Do not add gradients to UI components. Gradients appear only as atmospheric washes on full-bleed sections, never on buttons, cards, or inputs.",
+ "Do not use warm colors, greens, oranges, or reds for any state. The system is achromatic + cobalt. If you need a success/error state, use the neutral scale (#171717, #696969).",
+ "Do not use Garamond for functional UI text (buttons, labels, inputs). It is reserved for editorial moments. Graphik handles everything functional."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Canvas | `#ffffff` | Primary page background - dominant surface across all sections |\n| 2 | Fog Surface | `#ededed` | Elevated card surface, input field backgrounds, subtle differentiation |\n| 3 | Blue Wash | `#00368c` | Atmospheric radial gradient vignette in the hero - the only chromatic surface treatment |",
+ "elevation": "The system is intentionally flat. Elevation is communicated through surface color shifts (white #ededed) and generous border-radius, never through shadows. The only shadow in the entire system is an inset white glow on input fields. This is a deliberate editorial-print aesthetic - like ink on paper, not like glass on glass.",
+ "imagery": "The visual language is editorial photography with product renders. The hero features a high-fidelity 3D product render of the Analogue aF-1 camera on a soft blue radial wash - the product is presented dead-center, no lifestyle context, the object IS the hero. The second section is full-bleed dark editorial photography (couple on a beach at dusk) framed by a black film-strip perforation pattern on left and right edges - this is the signature motif, a literal analog film border. Lower sections show additional product renders at multiple angles (back, front, side) on soft #ededed card backgrounds. Photography treatment is moody, cinematic, low-key - warm skin tones against deep blue dusk. No stock-photo feel anywhere. Icons are minimal: a globe for language, no decorative iconography.",
+ "layout": "Page is max-width 1200px centered. Hero is full-bleed with centered text and centered product render - symmetric, vertical stack. Second section is full-bleed with film-strip borders on edges, headline centered over image. Third section splits into a two-column layout: left column is a vertical stack of product detail cards (alternating image orientations, 20px radius), right column is a sticky-ish pre-order action card with text + CTA stack. A small floating testimonial card overlaps the product stack. The grid is asymmetric in the product section but symmetric in hero and editorial photo sections. Navigation is minimal: centered wordmark top, language selector top-right, no visible menu until scroll. Section rhythm: white full-bleed dark image white with 2-column product grid. Spacing is compact (50px section gaps) with generous internal padding around the hero gradient."
+}

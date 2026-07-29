@@ -1,0 +1,340 @@
+{
+ "id": "1995b916-d3f1-4b13-8eb0-c1317ab63ccb",
+ "name": "Alpine Bio",
+ "slug": "alpine-bio",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1995b916-d3f1-4b13-8eb0-c1317ab63ccb",
+ "referenceSite": "https://alpbio.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T22:34:41.324Z",
+ "articleModifiedAt": "2026-06-03T22:08:59.611Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/998dbf4b-1ccc-4ca9-b10e-018519808a59.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/bb8e8ed3-6107-4eb1-9125-7f698c031af3.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/aa1a50fa-d8f8-4ab2-a778-fe4f8d29db1b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/36396f7c-4ac2-4cb5-9b35-bddfea1a935a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/fa72aa72-210c-4ca0-a7a7-fb845d5da79c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/6e0c3346-4783-4a4b-ba48-34d754f8b55f.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Sun-drenched botanical apothecary on cream parchment",
+ "summary": "Explore Alpine Bio\u0027s light Other design system: Parchment #f5f5f5, Warm Cream #f8f4e6 colors, Switzer, Geist typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Parchment",
+ "value": "#f5f5f5",
+ "token": "--color-parchment",
+ "role": "Page canvas and base background - the neutral ground everything sits on"
+ },
+ {
+ "name": "Warm Cream",
+ "value": "#f8f4e6",
+ "token": "--color-warm-cream",
+ "role": "Section backgrounds, footer surface, and warm page rhythm - gives the system its apothecary warmth"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Text on dark imagery, elevated card surfaces, and bright contrast moments"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#e9e9e9",
+ "token": "--color-mist-gray",
+ "role": "Subtle surface fills - nav background, button hover rests, and quiet UI layers"
+ },
+ {
+ "name": "Ink",
+ "value": "#1e1e1f",
+ "token": "--color-ink",
+ "role": "Primary body text and structural borders - softer than pure black, warmer against the cream"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "Heading text, heavy borders, icon strokes - the highest-contrast neutral in the system"
+ },
+ {
+ "name": "Sky Blue",
+ "value": "#8ec7e2",
+ "token": "--color-sky-blue",
+ "role": "Blue wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Pollen Yellow",
+ "value": "#f7ca50",
+ "token": "--color-pollen-yellow",
+ "role": "Highlight labels, breadcrumb tags, scroll-indicator text - rare warm punctuation against the cream"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Switzer",
+ "token": "--font-switzer",
+ "role": "Display and heading type - geometric sans with consistent tight tracking, carries the editorial voice from 20px subheads up to 76px hero headlines"
+ },
+ {
+ "name": "Geist",
+ "token": "--font-geist",
+ "role": "Body and intermediate type - comfortable reading at 15-18px, scales up to 42px for feature sub-heads"
+ },
+ {
+ "name": "PT Mono",
+ "token": "--font-pt-mono",
+ "role": "Nav items, category labels, and small uppercase tags - the only monospace, used to signal nav/system elements distinct from editorial body"
+ },
+ {
+ "name": "system sans-serif",
+ "token": "--font-system-sans-serif",
+ "role": "Micro-copy and fallback - only appears at 12px in utility positions"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.35",
+ "-0.75px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.35",
+ "-0.9px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.2",
+ "-0.66px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.1",
+ "-1.6px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.1",
+ "-2.4px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "76px",
+ "1.1",
+ "-3.8px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "80px",
+ "cardPadding": "12px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "63",
+ "63px",
+ "`--spacing-63`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "110",
+ "110px",
+ "`--spacing-110`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "150",
+ "150px",
+ "`--spacing-150`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "3px"
+ ],
+ [
+ "cards",
+ "22px"
+ ],
+ [
+ "pills",
+ "22px"
+ ],
+ [
+ "buttons",
+ "22px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Pill Button",
+ "role": "The sole action button variant - used for Contact Us, Request a Sample, Learn More, View All"
+ },
+ {
+ "name": "Ghost Nav Button",
+ "role": "The \u0027Contact Us\u0027 control in the top-right of the navigation"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Sticky top header carrying brand + section links"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Full-viewport opening with product imagery and overlay headline"
+ },
+ {
+ "name": "Editorial Body Block",
+ "role": "Long-form introductory paragraph below the hero"
+ },
+ {
+ "name": "Application Showcase Card",
+ "role": "Large product photograph cards in a 3-column carousel"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Large editorial headings like \u0027Applications Showcase\u0027"
+ },
+ {
+ "name": "Pollen Label",
+ "role": "Small warm-amber tag for breadcrumb and category markers"
+ },
+ {
+ "name": "Carousel Arrow Control",
+ "role": "Navigation for the Application Showcase carousel"
+ },
+ {
+ "name": "Carousel Dot Indicator",
+ "role": "Position indicator beneath the Application Showcase"
+ },
+ {
+ "name": "Scroll Indicator",
+ "role": "\u0027SCROLL DOWN\u0027 text at the very bottom of the hero"
+ },
+ {
+ "name": "Footer Surface",
+ "role": "Closing section with warm cream background"
+ }
+ ],
+ "dos": [
+ "Use #8ec7e2 fill with #000000 text and 22px radius for every action - this is the only button style in the system",
+ "Apply -0.0500em letter-spacing to every Switzer and Geist heading - the tight tracking is what makes the type feel editorial",
+ "Use Pollen Yellow (#f7ca50) only for small typographic accents: breadcrumb labels, scroll cues, and footer highlights - never as a button fill or large background",
+ "Pair every pill button with a right-side circular arrow icon - the arrow is part of the button\u0027s identity, not decoration",
+ "Default to full-bleed left-aligned layouts - content starts from the left edge rather than centering in a max-width container",
+ "Use Warm Cream (#f8f4e6) for alternating section backgrounds to create warm/cool rhythm against the gray canvas",
+ "Choose Switzer for all display and heading sizes 20px and above; reserve Geist for body and PT Mono for nav/labels"
+ ],
+ "donts": [
+ "Don\u0027t add drop shadows to cards, buttons, or modals - the system is intentionally flat, depth comes from surface color only",
+ "Don\u0027t introduce new chromatic colors - the palette is sky blue + pollen yellow + warm neutrals, nothing else",
+ "Don\u0027t use the pollen yellow as a CTA or button background - it\u0027s a typographic accent only",
+ "Don\u0027t center content in a max-width container for body sections - the editorial feel depends on left-aligned, edge-to-edge composition",
+ "Don\u0027t use type weights above 500 - Switzer and Geist at 400-500 carry the whole system, bolder weights would break the quiet tone",
+ "Don\u0027t apply borders to the Primary Pill Button - it relies on the sky-blue fill alone for its identity",
+ "Don\u0027t use dark mode - the entire system is calibrated around the cream canvas; inverting it would destroy the apothecary warmth"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Canvas | `#f5f5f5` | Base page background, the default resting surface |\n| 2 | Warm Cream Section | `#f8f4e6` | Alternating section background - adds apothecary warmth and section rhythm |\n| 3 | Mist | `#e9e9e9` | Nav bar fill, quiet button-hover surface |\n| 4 | Paper White | `#ffffff` | Elevated cards, light text on dark imagery |",
+ "elevation": "The system uses zero drop shadows. Depth is communicated entirely through surface color shifts (canvas warm cream mist) and the 22px pill rounding. Every component is flat against its surface - no hover lifts, no modal shadows, no card elevation. The result is an interface that reads like printed matter, not software.",
+ "imagery": "Photography carries all atmospheric weight. The site uses full-bleed, high-resolution product close-ups: a glass being filled with amber liquid in the hero, overhead shots of RTD shakes, protein bars on a light surface, and coffee cream pours. Style is natural-light, warm-toned, intimate, and product-focused - no lifestyle context, no people, no props beyond the food itself. All images sit on the cream/neutral palette, so photography is the only place saturated color appears in the system. No illustrations, no abstract graphics, no 3D renders, no icons beyond a thin arrow chevron used in buttons.",
+ "layout": "Full-bleed, left-aligned layout with no centered max-width container. The hero is a full-viewport image with centered overlay text. Below, editorial body sections start from the left edge with content extending to roughly half the viewport width, creating a strong asymmetric left-weighted reading flow. The Applications Showcase uses a 3-column card grid where each card is a large image filling its column, arranged in a horizontal carousel. Vertical rhythm is generous - 80px section gaps separate major blocks. Navigation is a sticky top bar with the logo left, section links center-left in monospace, and a pill Contact Us button right. The overall feel is closer to a printed editorial than a typical SaaS product page."
+}

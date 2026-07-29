@@ -1,0 +1,211 @@
+{
+ "name": "Akash Tyagi",
+ "slug": "akash-tyagi",
+ "colors": [
+ {
+ "name": "Obsidian Canvas",
+ "value": "#000000",
+ "token": "--color-obsidian-canvas",
+ "role": "Page background, card surfaces, inverted text on pink fills"
+ },
+ {
+ "name": "Parchment",
+ "value": "#efe6d8",
+ "token": "--color-parchment",
+ "role": "Primary body and heading text - warm near-white with sepia undertone, replaces the typical cool white of dark UIs"
+ },
+ {
+ "name": "Bone",
+ "value": "#aca69c",
+ "token": "--color-bone",
+ "role": "Secondary text, button borders, metadata - mid-tone warm gray"
+ },
+ {
+ "name": "Ash",
+ "value": "#736e68",
+ "token": "--color-ash",
+ "role": "Muted body text, subtle link borders, inactive labels"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#605c56",
+ "token": "--color-charcoal",
+ "role": "Hairline dividers, low-emphasis borders, heading underlines on dark"
+ },
+ {
+ "name": "Neon Petal",
+ "value": "#ffa1f7",
+ "token": "--color-neon-petal",
+ "role": "Primary action buttons, active nav states, selected markers, occasional heading accents - the single chromatic punctuation in the system"
+ },
+ {
+ "name": "Acid Lime",
+ "value": "#4dff00",
+ "token": "--color-acid-lime",
+ "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Geist",
+ "token": "--font-geist",
+ "role": "Primary UI and body typeface - medium and semibold weights, tight negative tracking at -0.013em to -0.031em. Used for body copy, links, navigation, and small headings."
+ },
+ {
+ "name": "Geist Pixel Triangle",
+ "token": "--font-geist-pixel-triangle",
+ "role": "Display and section-label typeface - pixel/decorative variant used for all-caps section headers like \u0027SELECTED WORK\u0027 and the year range \u00272015 - 2026\u0027. The pixel treatment gives editorial weight without serifs."
+ },
+ {
+ "name": "Geist Mono",
+ "token": "--font-geist-mono",
+ "role": "Metadata typeface - timestamps, email, technical labels, year stamps. The monospace signals system/data language against the proportional body."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "15px",
+ "1.4",
+ "-0.2px",
+ "--text-body-lg"
+ ],
+ [
+ "display",
+ "30px",
+ "1.33",
+ "-1px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1400px",
+ "sectionGap": "200px",
+ "cardPadding": "0px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "104",
+ "104px",
+ "`--spacing-104`"
+ ],
+ [
+ "200",
+ "200px",
+ "`--spacing-200`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "pills",
+ "1000px"
+ ],
+ [
+ "buttons",
+ "40px"
+ ],
+ [
+ "indicators",
+ "1000px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill CTA Button",
+ "role": "Primary action trigger"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Secondary navigation and inline links"
+ },
+ {
+ "name": "Status Availability Indicator",
+ "role": "Live availability signal"
+ },
+ {
+ "name": "Section Header with Date Range",
+ "role": "Editorial section divider"
+ },
+ {
+ "name": "Project Showcase Card",
+ "role": "Portfolio project entry"
+ },
+ {
+ "name": "Minimal Header Bar",
+ "role": "Identity and time stamp"
+ },
+ {
+ "name": "Two-Column Intro Block",
+ "role": "Personal statement"
+ },
+ {
+ "name": "Footer Social Link",
+ "role": "External profile references"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #000000 as the universal background for every screen - never introduce a lighter or colored canvas",
+ "Apply #ffa1f7 only to the single primary action per view; treat it as the system\u0027s only chromatic voice",
+ "Set section labels in Geist Pixel Triangle 30px with -0.033em tracking for editorial weight",
+ "Maintain 200px vertical gaps between major sections to preserve the gallery-wall rhythm",
+ "Use warm neutrals (#efe6d8 #aca69c #736e68 #605c56) in descending tonal order for text hierarchy",
+ "Use the green dot (#4dff00) exclusively for live status/availability - never as a generic accent or button color",
+ "Render all project imagery edge-to-edge with no card chrome, radius, or shadow"
+ ],
+ "doNot": [
+ "Never introduce box-shadows, gradients, or glow effects - flatness is the point",
+ "Never use #ffa1f7 for body text, backgrounds, or decorative purposes - it is an action color only",
+ "Never round image corners on project showcases - images must meet the canvas edge",
+ "Never add more than one filled CTA per screen - the system is single-action",
+ "Never use cool blue-grays or pure whites for text - the warm sepia palette is the identity",
+ "Never use icons in the header or footer - plain text links only",
+ "Never reduce section gaps below 104px - the generous whitespace is structural, not optional"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/f3d2bfdb-ba92-42c4-91c6-58c829b094bf",
+ "referenceSite": "https://akashtyagi.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T22:34:05.662Z",
+ "articleModifiedAt": "2026-06-03T22:04:07.524Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b56a3239-c6c5-46fd-8ccb-19f3578516af.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f595709a-df82-4666-a538-22c9019afebb.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/106edbb2-8f5a-450f-8614-f77845953ff9.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/bd3e1559-b8c3-4514-b45b-eaea385df126.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/27fb6ade-4613-4546-b426-d1e9587a0a7b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/8a48605d-78d6-4eae-9a84-e1fa7e07f738.png"
+ }
+ }
+}

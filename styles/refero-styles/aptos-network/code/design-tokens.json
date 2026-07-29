@@ -1,0 +1,303 @@
+{
+ "name": "Aptos Network",
+ "slug": "aptos-network",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#0f0e0b",
+ "token": "--color-ink",
+ "role": "Primary text, hairline borders, icon strokes, nav outlines - the near-black that carries 90% of all foreground weight. Not pure black: a warm brown-black that feels printed, not screened"
+ },
+ {
+ "name": "Bone",
+ "value": "#f9f9f0",
+ "token": "--color-bone",
+ "role": "Page canvas, card surfaces, nav-pill fill, button text on dark - a warm off-white with the faintest yellow-green cast that matches the sage and sand sections without competing"
+ },
+ {
+ "name": "Ash",
+ "value": "#6d6c67",
+ "token": "--color-ash",
+ "role": "Secondary text, subtle borders, muted metadata - a mid neutral that sits between Ink and the page; used when primary text would be too heavy"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#21201c",
+ "token": "--color-charcoal",
+ "role": "Filled CTA buttons, active markers - slightly warmer than Ink; the button fill that reads as a dense matte stamp rather than a flat black"
+ },
+ {
+ "name": "Graphite",
+ "value": "#555450",
+ "token": "--color-graphite",
+ "role": "Tertiary text, low-emphasis borders - for labels and helper text that should recede further than Ash"
+ },
+ {
+ "name": "Mist",
+ "value": "#84837d",
+ "token": "--color-mist",
+ "role": "Heading borders, de-emphasized dividers - the lightest neutral that still registers as a line on Bone"
+ },
+ {
+ "name": "Deep Earth",
+ "value": "#3d3b34",
+ "token": "--color-deep-earth",
+ "role": "Alternate surface for code-adjacent panels and inset blocks - a warm dark that bridges Ink and the mid neutrals"
+ },
+ {
+ "name": "Soft Sand",
+ "value": "#ccc5a3",
+ "token": "--color-soft-sand",
+ "role": "Secondary section background, 1px sand-colored hairline dividers, striped-pattern accent - the warm neutral that lives between the chromatic sections and true gray"
+ },
+ {
+ "name": "Warm Stone",
+ "value": "#9d937c",
+ "token": "--color-warm-stone",
+ "role": "Khaki section background, tonal counterpoint to Sage - the muted olive-khaki that fills body-text sections and grounds the palette\u0027s middle register"
+ },
+ {
+ "name": "Sage",
+ "value": "#d5fad3",
+ "token": "--color-sage",
+ "role": "Hero section background, signature accent - a desaturated mint that signals freshness without being loud; the only color bold enough to hold a 120px headline"
+ },
+ {
+ "name": "Powder Blue",
+ "value": "#badbee",
+ "token": "--color-powder-blue",
+ "role": "Code-panel background, striped-pattern accent, 1px blue hairlines - the cool counterweight to all the warm earth tones; appears wherever monospace code or technical data lives"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Season Serif",
+ "token": "--font-season-serif",
+ "role": "Sole typeface - display, headings, body, nav, buttons, footer, code labels. Custom variable serif with fractional weights (no standard 300/400/700 scale) that allow whisper-light display at 335-340 and confident body at 420-444."
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.3",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.25",
+ "-0.24px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "55px",
+ "1.1",
+ "-1.1px",
+ "--text-heading-lg"
+ ],
+ [
+ "display-sm",
+ "90px",
+ "1",
+ "-2.7px",
+ "--text-display-sm"
+ ],
+ [
+ "display",
+ "120px",
+ "1",
+ "-3.6px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "90-150px",
+ "cardPadding": "30px",
+ "elementGap": "15-30px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "45",
+ "45px",
+ "`--spacing-45`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "90",
+ "90px",
+ "`--spacing-90`"
+ ],
+ [
+ "150",
+ "150px",
+ "`--spacing-150`"
+ ],
+ [
+ "180",
+ "180px",
+ "`--spacing-180`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "nav-pill",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Floating Nav Pill",
+ "role": "Primary site navigation container"
+ },
+ {
+ "name": "Filled Pill CTA",
+ "role": "Primary action button"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Secondary inline action or nav item"
+ },
+ {
+ "name": "Full-Bleed Color Section",
+ "role": "Page section with solid muted-color background"
+ },
+ {
+ "name": "Section Hairline Divider",
+ "role": "Horizontal divider between sections or within sections"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Hero and section-opening title"
+ },
+ {
+ "name": "Body Copy Block",
+ "role": "Editorial prose section content"
+ },
+ {
+ "name": "Code Panel",
+ "role": "Monospace code display"
+ },
+ {
+ "name": "Striped Geometric Panel",
+ "role": "Decorative right-side pattern"
+ },
+ {
+ "name": "Nav Dropdown Item",
+ "role": "Submenu item within nav pill"
+ },
+ {
+ "name": "Section Opening Label",
+ "role": "Small caption above headlines or between sections"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Season Serif for all text - there is no secondary typeface. Weight 335-340 for display 55px+, weight 400-420 for body and UI, weight 420-444 for emphasis.",
+ "Apply -0.030em letter-spacing to any type 90px or larger. Positive tracking (+0.01em) only at 9px caption size. Body text uses normal tracking.",
+ "Use full-bleed color section backgrounds (Sage, Warm Stone, Soft Sand, Powder Blue) at 90-150px vertical padding. Never constrain sections to a max-width background.",
+ "Draw all dividers as `inset 0 0 0 1px {color}` box-shadows, not as border properties. Rotate colors: Ink, Soft Sand, Powder Blue.",
+ "Use 9999px radius for all buttons, nav container, and tags. Use 0px radius for all other surfaces (cards, code panels, inputs).",
+ "Enable `font-feature-settings: \"calt\"` on all Season Serif text - contextual alternates are part of the brand voice.",
+ "Split every section into left text / right decoration at roughly 55/45. Text left-aligns; decorative striped panel occupies the right."
+ ],
+ "doNot": [
+ "Do not use any sans-serif typeface. Season Serif carries everything, including buttons, nav, and code labels.",
+ "Do not use drop shadows. The system is flat by design - all line work is 1px inset.",
+ "Do not use border-radius on cards, panels, code blocks, or images. Only buttons and the nav pill are rounded (9999px).",
+ "Do not use bright or saturated colors. Every chromatic value is muted: sage, khaki, sand, powder blue. Saturation above 40% breaks the system.",
+ "Do not use smooth gradients. The decorative right-side panels are hard-edge striped patterns implemented with sharp linear-gradient color stops.",
+ "Do not use standard font weights (300, 400, 700). Season Serif uses fractional weights (335, 340, 420, 444) - pick from the available scale.",
+ "Do not place text on both halves of a split section. The right side is always decorative (striped pattern or code panel), never text."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9a23d457-a23a-404a-9f75-12007ea7eb0f",
+ "referenceSite": "https://aptosnetwork.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:40:48.500Z",
+ "articleModifiedAt": "2026-06-03T20:32:43.164Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/af38c62c-fcc9-4a2b-96df-cc866cff7bde.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/55167867-9c87-4481-8064-f4c893ae297c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/8207691f-a746-40f0-98bf-5e5e52012441.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d458b1e7-47f4-4055-aeed-d6250c79175c.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0a7347b5-cd8f-4b11-aed4-0b64b69bc320.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/f5970904-0613-47e3-be49-e7acec00b563.png"
+ }
+ }
+}

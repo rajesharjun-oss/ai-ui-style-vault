@@ -1,0 +1,200 @@
+{
+ "name": "Andrei Rybin",
+ "slug": "andrei-rybin",
+ "colors": [
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page background, card surfaces, image holders - the dominant canvas; everything sits on this"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary text, link text, icon strokes, thin section dividers - the only mark-making color"
+ },
+ {
+ "name": "Graphite",
+ "value": "#858585",
+ "token": "--color-graphite",
+ "role": "Secondary text, muted metadata, and softer border lines that recede behind primary ink"
+ },
+ {
+ "name": "Stone",
+ "value": "#8e8e90",
+ "token": "--color-stone",
+ "role": "Cool-toned border and divider strokes for borders that need a hairline without competing with Ink"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Body copy, project captions, and the larger intro paragraphs. Used at a single weight - regularity IS the signature; no bold headlines shout, no light weight whispers."
+ },
+ {
+ "name": "system-ui (sans-serif)",
+ "token": "--font-system-ui-sans-serif",
+ "role": "Small UI labels, tag text, icon-adjacent microcopy. Appears wherever a single token of body-size type recurs - utility, not statement."
+ },
+ {
+ "name": ".SFNSText",
+ "token": "--font-sfnstext",
+ "role": ".SFNSText - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.23",
+ "-0.4px",
+ "--text-subheading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "120px",
+ "cardPadding": "16px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "40px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "icons",
+ "16px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Project Tile Card",
+ "role": "Container for a single showcase image (phone mockup) with label and navigation arrow"
+ },
+ {
+ "name": "Pill Label",
+ "role": "Project category tag overlaid on each card"
+ },
+ {
+ "name": "Arrow Navigation Button",
+ "role": "Compact circular control to open a project"
+ },
+ {
+ "name": "Header Bar",
+ "role": "Top-of-page identity, nav, and social link strip"
+ },
+ {
+ "name": "Intro Block",
+ "role": "Two-column intro: contact email on the left, welcome paragraph on the right"
+ },
+ {
+ "name": "Project Grid",
+ "role": "Responsive grid of project tiles filling the rest of the page"
+ },
+ {
+ "name": "Caption Label",
+ "role": "One-line description under each tile describing the project type"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Keep the entire interface achromatic - Ink on Paper, with Graphite and Stone for soft hierarchy.",
+ "Use 8px radius for project tiles, 16px for icon containers, 40px (or 9999px) for pill labels and circular buttons.",
+ "Set body and caption type at Inter 12px with -0.0170em letter-spacing; reserve 24px Inter for the single intro paragraph.",
+ "Separate header columns with whitespace alone - no vertical rules or dividers between nav items.",
+ "Use 10px element gap inside cards and 120px section gap between page bands.",
+ "Let image weight carry the page; the system should be invisible behind the work."
+ ],
+ "doNot": [
+ "Do not introduce any chromatic color - no accent, no brand hue, no semantic state color.",
+ "Do not use multiple font weights - Inter 400 is the only voice; no bold, no light, no italic.",
+ "Do not apply shadows, gradients, or fills to tiles or buttons; borders are the only separator.",
+ "Do not center body text - captions and metadata are left- or context-aligned, not centered except where a tile naturally centers its caption beneath.",
+ "Do not use a border radius below 8px on cards or above 16px on icons - the radii carry the system\u0027s softness and must stay consistent.",
+ "Do not add navigation patterns (hamburgers, sidebars, mega-menus); the header is a single text strip.",
+ "Do not break the grid with asymmetric or overlapping tile placements - the grid is the page\u0027s structural truth."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/519ca09b-9a85-4eec-8630-0d7aae5ac2da",
+ "referenceSite": "https://andreirybin.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:16:10.663Z",
+ "articleModifiedAt": "2026-06-03T21:51:21.076Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ebe0d93d-a4d9-4667-a60e-cc8ce3a033b1.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/60c42d23-fcce-4561-a485-d9c5c89648f5.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ef00de4f-2928-4576-ae36-1824c736f976.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9a00854b-ea8c-48a3-9006-08311f30bdce.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/3cfbff8d-79c4-48ac-9421-30efc0821f23.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

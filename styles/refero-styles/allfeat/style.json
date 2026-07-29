@@ -1,0 +1,280 @@
+{
+ "id": "2f9bf724-3829-4c62-bcc8-391b32925d1b",
+ "name": "Allfeat",
+ "slug": "allfeat",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/2f9bf724-3829-4c62-bcc8-391b32925d1b",
+ "referenceSite": "https://allfeat.org",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T22:34:07.514Z",
+ "articleModifiedAt": "2026-06-03T21:51:30.357Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/04d2484a-34ad-4346-810c-658ac5226376.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/78fb0cba-743e-43ae-8fe1-de018bf99882.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ec147f2c-1b14-4a9d-9db6-0072f21d0340.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/55c37c5a-26d0-4725-8af8-9fb0e1c18897.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/a8e06c89-c16e-4652-9b14-98441a63014e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/0de9e8b4-f6a4-4fa7-8c3c-ed00084d1f8f.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Crypto",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Crypto",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Backstage monitor at midnight - one teal stage light cutting through warm cream type on charcoal glass.",
+ "summary": "Explore Allfeat\u0027s dark Crypto design system: Charcoal Stage #151515, Warm Cream #fffbeb colors, TASA Orbiter typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Charcoal Stage",
+ "value": "#151515",
+ "token": "--color-charcoal-stage",
+ "role": "Page canvas, primary surface, all dark backgrounds - the base layer every other color sits on"
+ },
+ {
+ "name": "Warm Cream",
+ "value": "#fffbeb",
+ "token": "--color-warm-cream",
+ "role": "Primary text, nav links, heading copy, hairline borders on dark surfaces - never pure white, always slightly buttered"
+ },
+ {
+ "name": "Card Edge",
+ "value": "#383835",
+ "token": "--color-card-edge",
+ "role": "Inset 1px card borders, card ambient shadow, subtle separator lines on elevated surfaces"
+ },
+ {
+ "name": "Mute Cream",
+ "value": "#b8b8b8",
+ "token": "--color-mute-cream",
+ "role": "Secondary body text, subdued descriptions, muted helper copy"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#a6a6a6",
+ "token": "--color-ash-gray",
+ "role": "Subdued heading text, list separators, inactive link borders"
+ },
+ {
+ "name": "Bronze Veil",
+ "value": "#504f4a",
+ "token": "--color-bronze-veil",
+ "role": "Badge borders, card hairline accents, low-emphasis outline treatments"
+ },
+ {
+ "name": "Signal Teal",
+ "value": "#00b18c",
+ "token": "--color-signal-teal",
+ "role": "Teal action color for filled buttons, selected navigation states, and focused conversion moments."
+ },
+ {
+ "name": "Ember Coral",
+ "value": "#ff4a5f",
+ "token": "--color-ember-coral",
+ "role": "Red action color for filled buttons, selected navigation states, and focused conversion moments"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "TASA Orbiter",
+ "token": "--font-tasa-orbiter",
+ "role": "Single typeface across the entire system. Weight 600 for hero and section headlines, weight 500 for subheadings and emphasized body runs, weight 400 for body and metadata. The tight -0.02em tracking on display sizes (54-56px) collapses the headline into a confident slab; the 0.02em loosening on badge/eyebrow text (13-14px) makes labels feel like printed marks."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.1",
+ "0.2px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.2",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.1",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "56px",
+ "0.95",
+ "-1.12px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "900px"
+ ],
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "badges",
+ "900px"
+ ],
+ [
+ "images",
+ "12px"
+ ],
+ [
+ "buttons",
+ "900px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Pill Primary Button",
+ "role": "The default call-to-action - teal fill on charcoal"
+ },
+ {
+ "name": "Pill Ghost Button",
+ "role": "Secondary navigation action - text only inside a pill outline"
+ },
+ {
+ "name": "Nav Capsule",
+ "role": "The header pill containing all nav controls"
+ },
+ {
+ "name": "Inset-Border Card",
+ "role": "Feature/product/insight card - the system\u0027s only card pattern"
+ },
+ {
+ "name": "Hero Radial Wash",
+ "role": "Atmospheric background for hero and section transitions"
+ },
+ {
+ "name": "Display Headline Block",
+ "role": "Section-spanning typographic statement"
+ },
+ {
+ "name": "Eyebrow Label",
+ "role": "Section pre-titles - \u0027OUR SOLUTION\u0027, \u0027PRELUDE\u0027"
+ },
+ {
+ "name": "Pill Badge",
+ "role": "Status, tag, and identifier labels"
+ },
+ {
+ "name": "Community Node",
+ "role": "Circular avatar/badge element in the hero orbital layout"
+ },
+ {
+ "name": "Central Brand Mark",
+ "role": "Hero focal point - the Allfeat logo with headline"
+ },
+ {
+ "name": "Gradient Accent Border",
+ "role": "Decorative hairline that traces card or section edges in coral"
+ }
+ ],
+ "dos": [
+ "Use #00b18c fill as the only chromatic CTA - every interactive filled button in the system is this exact teal",
+ "Set all buttons, badges, and nav capsules to 900px radius - this is non-negotiable, the only allowed exception is cards/images at 12px",
+ "Pull all display type to letter-spacing -0.02em and line-height 0.95-1.00 so headlines collapse into confident slabs",
+ "Use the 1px inset #383835 border as the sole card depth treatment - never add a drop shadow on top of it",
+ "Reserve #ff4a5f for eyebrow labels, gradient accents, and emotional emphasis runs inside headlines - never as a button fill or body text color",
+ "Anchor every hero and major section in a soft teal radial wash fading from #00b18c at ~25% opacity to transparent",
+ "Keep body text in TASA Orbiter weight 400 at 16-18px in #fffbeb or #b8b8b8; never go below 13px"
+ ],
+ "donts": [
+ "Don\u0027t introduce a new accent color - teal and coral are the only chromatic voices in the system",
+ "Don\u0027t use 8px or 16px radius on cards or images; the system is strictly 12px for containers and 900px for interactive elements",
+ "Don\u0027t use pure white (#ffffff) for text - always #fffbeb, the warm cream tint is part of the brand",
+ "Don\u0027t apply drop shadows anywhere - the entire elevation system is inset-only",
+ "Don\u0027t break the single-typeface rule by introducing a second font; TASA Orbiter at 400/500/600 covers every need",
+ "Don\u0027t set headlines in light or thin weights - 600 is the floor for display sizes, mixing in 400-500 only as muted secondary clauses",
+ "Don\u0027t fill buttons with #ff4a5f coral - coral is atmospheric, not actionable; only #00b18c signals an action"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Charcoal Canvas | `#151515` | Page base, hero background beneath the teal radial wash |\n| 1 | Card Surface | `#151515` | Card interior - same color as canvas, distinguished only by the 1px inset border in #383835 |\n| 2 | Teal Wash | `#00b18c` | Hero radial gradient overlay creating atmospheric depth, not a true surface |",
+ "elevation": "- **Inset-Border Card:** `rgb(56, 56, 53) 0px 0px 0px 1px inset`\n- **Pill Primary Button:** `rgba(255, 251, 235, 0.25) 0px 0px 0px 2px inset`",
+ "imagery": "Visuals are dominated by illustrated 3D isometric graphics (a translucent cube on a grid, networked circular nodes with geometric face patterns) rendered in a limited palette of teal, coral, cream, and charcoal. Photography is restricted to small circular partner portraits in the community orbital hero, presented as soft black-and-white crops. Icons are monoline geometric marks (ISRC, IPI, ISWC badges) in #b8b8b8. The illustrative style is flat-isometric with hard edges, no gradients on the objects themselves - the only gradient in the system is the atmospheric teal wash behind them.",
+ "layout": "Max-width 1200px centered, full-bleed dark canvas. The hero is a full-viewport radial teal wash with the brand mark, headline, and single CTA dead-centered; the community nodes orbit this center as fixed-position circles. Below the fold, content arranges in alternating 2-column card grids (2-up on desktop, stacked on mobile) with generous 80px vertical section gaps. Each section opens with a centered eyebrow + display headline, then drops into 2-up or 3-up card rows. Navigation is a fixed top-left wordmark plus a top-right floating pill capsule - no full-width nav bar. The footer is compact, dark, and text-only. The overall rhythm is: one big centered moment, then a long quiet section of paired cards, then another big centered moment."
+}

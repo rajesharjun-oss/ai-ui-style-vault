@@ -1,0 +1,290 @@
+{
+ "name": "Andre Candido",
+ "slug": "andre-candido",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#111118",
+ "token": "--color-ink-black",
+ "role": "Primary text, nav text, dark footer surface, filled button background, badge fills - near-black with a barely-perceptible cool tint reads as warmer than pure #000 in print contexts"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, card surfaces, button text on dark fills, inverted button text - the dominant ground"
+ },
+ {
+ "name": "Soft Ash",
+ "value": "#dddddd",
+ "token": "--color-soft-ash",
+ "role": "Muted borders, image placeholder backgrounds, secondary dividers"
+ },
+ {
+ "name": "Stone Gray",
+ "value": "#bdbdbd",
+ "token": "--color-stone-gray",
+ "role": "List dividers, body-level borders, tertiary structural lines"
+ },
+ {
+ "name": "Slate",
+ "value": "#7c7c7c",
+ "token": "--color-slate",
+ "role": "Helper text, de-emphasized body copy, subtle metadata"
+ },
+ {
+ "name": "Graphite",
+ "value": "#333333",
+ "token": "--color-graphite",
+ "role": "Link text and link borders in body context - slight lift from pure ink"
+ },
+ {
+ "name": "True Black",
+ "value": "#000000",
+ "token": "--color-true-black",
+ "role": "Hard border accent in lists and structural dividers where maximum contrast is needed"
+ },
+ {
+ "name": "Night Forest",
+ "value": "#283338",
+ "token": "--color-night-forest",
+ "role": "Navigation-specific borders and text - a cool desaturated charcoal distinct from the warm Ink Black"
+ },
+ {
+ "name": "Highlighter Yellow",
+ "value": "#fef199",
+ "token": "--color-highlighter-yellow",
+ "role": "Yellow wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "PP Mori",
+ "token": "--font-pp-mori",
+ "role": "Body, nav, UI, and secondary display - the workhorse sans. Weight 200 carries small labels with editorial lightness; 400 is body; 600 is reserved for button text and emphasis. The unusually wide 0.107em letter-spacing on small text (12-15px) gives nav and badges an open, tracked-out feel typical of fashion-editorial UI."
+ },
+ {
+ "name": "Editorial New",
+ "token": "--font-editorial-new",
+ "role": "Hero and section display headlines only - a thin didone serif at extreme sizes (70-160px) with 1.0 line-height. The whisper-thin weight 200 is the signature: most serif sites use 400-600 for display, this site lets the letterforms almost disappear, making the few words monumental. The contrast between the ultra-thin serif and the heavier PP Mori body creates the magazine-cover tension that defines the brand."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.4",
+ "1.28px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "1.5px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "72px",
+ "1.1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "160px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "80-120px",
+ "cardPadding": "24px",
+ "elementGap": "16-24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "112",
+ "112px",
+ "`--spacing-112`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "80px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "links",
+ "8px"
+ ],
+ [
+ "badges",
+ "50px"
+ ],
+ [
+ "images",
+ "800px"
+ ],
+ [
+ "buttons",
+ "24px"
+ ],
+ [
+ "headings",
+ "150px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Filled Pill Button (Light)",
+ "role": "Primary CTA on light backgrounds"
+ },
+ {
+ "name": "Ghost Pill Button",
+ "role": "Secondary action on light backgrounds"
+ },
+ {
+ "name": "Capsule Link Button",
+ "role": "Inline text-link with border treatment"
+ },
+ {
+ "name": "Work Card",
+ "role": "Portfolio project tile in the grid"
+ },
+ {
+ "name": "About Card (Sidebar)",
+ "role": "\u0027Your New Partner\u0027 intro block"
+ },
+ {
+ "name": "Footer CTA Panel",
+ "role": "Dark closing section with primary conversion"
+ },
+ {
+ "name": "Circular Text Badge",
+ "role": "Decorative availability indicator (the \u0027AVAILABLE NOW\u0027 element)"
+ },
+ {
+ "name": "Service/Client Logo Row",
+ "role": "Trust strip showing partner brands"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Project Detail Image Card",
+ "role": "Large showcase image within portfolio pages"
+ },
+ {
+ "name": "Headline Display Block",
+ "role": "Section-opening serif statement"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Editorial New weight 200 exclusively for display headlines at 48px or larger - never below 48px, never above weight 200",
+ "Keep the page 97% achromatic: Ink Black, Paper White, and grayscale neutrals handle 95% of the visual load",
+ "Apply 0.107em letter-spacing to all PP Mori text at 12-15px - this tracked-out feel is the small-type signature",
+ "Use 24px radius for buttons, 8px for cards, 800px for images - the radius scale is dramatic and must be preserved",
+ "Reserve #fef199 yellow for the dark footer panel only - it is the single chromatic event on the page",
+ "Maintain generous section gaps of 80-120px between major blocks; the airy rhythm is editorial, not compact",
+ "Let display headlines run full-width without max-width constraints; the oversized serif is the layout"
+ ],
+ "doNot": [
+
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/b3fb8359-84c7-4bc0-b1cf-e8d225bcaa77",
+ "referenceSite": "https://www.andre-candido.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:16:45.260Z",
+ "articleModifiedAt": "2026-06-03T17:58:46.345Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/e92365b5-bb1a-4e91-8208-3d6a05caa801.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/32b33b1c-1722-44dd-82bc-a0c02ee36fb1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/3f24106a-c57c-424c-b008-b6fb36a388f0.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/c2fa06e2-1392-4b88-9684-2267c8825165.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/e4d0f032-9403-40fe-b3e8-856934e9896f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/bced1f8c-d3d7-4f36-aa0c-a1328653627c.png"
+ }
+ }
+}

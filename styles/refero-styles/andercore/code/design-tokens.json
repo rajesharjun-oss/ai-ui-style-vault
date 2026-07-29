@@ -1,0 +1,248 @@
+{
+ "name": "Andercore",
+ "slug": "andercore",
+ "colors": [
+ {
+ "name": "Signal Red",
+ "value": "#e32735",
+ "token": "--color-signal-red",
+ "role": "Red action color for filled buttons, selected navigation states, and focused conversion moments"
+ },
+ {
+ "name": "Carbon",
+ "value": "#0b0405",
+ "token": "--color-carbon",
+ "role": "Primary section background, full-bleed dark canvases, secondary button fill"
+ },
+ {
+ "name": "Graphite",
+ "value": "#150e0f",
+ "token": "--color-graphite",
+ "role": "Alternate near-black surface for cards and elevated panels on dark sections"
+ },
+ {
+ "name": "Steel",
+ "value": "#382e30",
+ "token": "--color-steel",
+ "role": "Hairline borders on dark surfaces, card edges, table dividers, UI mockup outlines"
+ },
+ {
+ "name": "Slate",
+ "value": "#858182",
+ "token": "--color-slate",
+ "role": "Secondary text, badge borders, badge labels, muted helper copy"
+ },
+ {
+ "name": "Chalk",
+ "value": "#ffffff",
+ "token": "--color-chalk",
+ "role": "Primary text on dark, nav and hero overlay type, inverted button text, light section backgrounds"
+ },
+ {
+ "name": "Foil",
+ "value": "#000000",
+ "token": "--color-foil",
+ "role": "SVG icon fills, decorative vector detail"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Archivo",
+ "token": "--font-archivo",
+ "role": "All interface type - headlines (40/56px, weight 500), subheads (24px, weight 500), body and UI (14/16px, weight 400), nav links (12/14px). The geometric grotesque with tight -0.02em tracking gives industrial precision; weight 500 (not 700) for display type keeps the system restrained rather than shouty."
+ },
+ {
+ "name": "Space Mono",
+ "token": "--font-space-mono",
+ "role": "Badge labels, step counters (\u002701\u0027, \u002702\u0027, \u002703\u0027), industrial tag stamps - the monospace face signals instrumentation and serial-number precision, contrasting Archivo\u0027s proportional geometry"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-0.28px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.32px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "-0.48px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.2",
+ "-0.8px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "56px",
+ "1.1",
+ "-1.12px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "32px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "4px"
+ ],
+ [
+ "badges",
+ "4px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button (Red Filled)",
+ "role": "The single high-priority action on any surface"
+ },
+ {
+ "name": "Ghost/Dark Button",
+ "role": "Secondary action when a primary red CTA is present"
+ },
+ {
+ "name": "Navigation Header",
+ "role": "Top-level site navigation and authentication"
+ },
+ {
+ "name": "Industrial Badge / Tag",
+ "role": "Category labels, section eyebrows, status stamps"
+ },
+ {
+ "name": "Step Progress Indicator",
+ "role": "Multi-step process navigation (Request Quote Track\u0027n\u0027Trace)"
+ },
+ {
+ "name": "Feature Card with UI Mockup",
+ "role": "Three-column challenge/solution display"
+ },
+ {
+ "name": "Dark Content Section",
+ "role": "Primary content blocks after the hero"
+ },
+ {
+ "name": "Chat Interface Card",
+ "role": "Product walkthrough visualization"
+ },
+ {
+ "name": "Hero with Photographic Overlay",
+ "role": "Above-the-fold brand statement"
+ },
+ {
+ "name": "Connector Line / Accent Divider",
+ "role": "Visual flow between cards or sections"
+ },
+ {
+ "name": "Eyebrow / Section Label",
+ "role": "Tiny uppercase or tracked label above section headings"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Signal Red #e32735 exclusively for the single primary action per surface - never as a decorative or background fill",
+ "Set all corners to 4px radius - no exceptions, no pill shapes, no zero-radius hard edges",
+ "Separate dark sections with 80px vertical padding and rely on background-value shift rather than dividers or shadows",
+ "Use Archivo 500 (not 700) for headings 40px and above to keep weight restrained and consistent",
+ "Apply -0.02em letter-spacing to all Archivo type at all sizes for tight industrial density",
+ "Stamp step numbers, serial codes, and technical labels in Space Mono 12px - never Archivo for these",
+ "Define card and panel edges with 1px #382e30 borders on dark, never with box-shadow or background tint shifts"
+ ],
+ "doNot": [
+ "Don\u0027t introduce drop shadows, glows, or blur-based elevation - structure is line-based only",
+ "Don\u0027t use #e32735 for body text, icons, or secondary UI - it\u0027s an action color, rationed",
+ "Don\u0027t round corners beyond 4px - no 8px, 12px, 16px, or pill radii anywhere",
+ "Don\u0027t set headings in bold (700+); weight 500 Archivo at 40-56px is the maximum voice",
+ "Don\u0027t alternate between light and dark sections within a single content flow - the page is dark-dominant after the hero",
+ "Don\u0027t use Archivo for numeric step counters, product codes, or instrumentation labels - those are Space Mono territory",
+ "Don\u0027t add gradient fills to buttons or cards - the one gradient in the system (white red) is reserved for the hero-to-content transition"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/2d4ced28-e579-4fa0-84bc-836dd008034f",
+ "referenceSite": "https://www.andercore.com",
+ "capturedAt": "2026-07-29",
+ "publishedAt": "2026-05-10T23:16:14.919Z",
+ "articleModifiedAt": "2026-06-03T19:50:37.310Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/a83440b3-a1f4-4595-95fd-15db7e5def50.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f0d449dd-e287-4215-a14a-4d86f6617323.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/54c55518-b873-48da-bf68-cea3e5cddf31.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2fe2bff4-7d75-47c7-bd15-4ee6ba2b7135.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c40e170b-42b9-4ddc-aaad-3968fa390ec7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9e441c71-3096-47a1-b555-ca234ccfe870.png"
+ }
+ }
+}
