@@ -1,0 +1,213 @@
+{
+ "name": "Wemakethings",
+ "slug": "wemakethings",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, all borders, outline strokes, link underlines, background type fill"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, card surface, filled button background"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Maison Neue",
+ "token": "--font-maison-neue",
+ "role": "Primary UI and headline typeface - used for nav links, body copy, button text, and bold all-caps hero statements. The 65px weight 500 is the signature headline voice: tight leading (1.11), all-caps, commanding without decorative weight. Substitute: Inter, Helvetica Neue, Neue Haas Grotesk"
+ },
+ {
+ "name": "BASEBLOOM",
+ "token": "--font-basebloom",
+ "role": "Architectural display layer - rendered as massive outlined characters (864px, line-height 0.83) that sit behind body content as visual scaffolding, never carrying readable information. Substitute: a custom ultra-condensed display face or CSS stroke text"
+ },
+ {
+ "name": "Unzyale",
+ "token": "--font-unzyale",
+ "role": "Rare secondary display use - appears in link context at 58px as a typographic accent. Substitute: a condensed or script contrast face"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "16px",
+ "1.33",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.2",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "43px",
+ "1.11",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "65px",
+ "1.11",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "80-120px",
+ "cardPadding": "20px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site-wide header"
+ },
+ {
+ "name": "Logo Mark",
+ "role": "Brand identifier"
+ },
+ {
+ "name": "Hero Headline Statement",
+ "role": "Opening page message"
+ },
+ {
+ "name": "Architectural Background Type",
+ "role": "Decorative typographic layer"
+ },
+ {
+ "name": "Body Paragraph",
+ "role": "Informational text"
+ },
+ {
+ "name": "Inline Section Label",
+ "role": "Small typographic tag"
+ },
+ {
+ "name": "Brand Column Card",
+ "role": "Brand listing entry"
+ },
+ {
+ "name": "Text Link with Arrow",
+ "role": "Navigation and CTA link"
+ },
+ {
+ "name": "Scroll Indicator",
+ "role": "Page-scroll affordance"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Inter-section separator"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use only #000000 and #ffffff - no chromatic colors anywhere in the UI",
+ "Set all headlines in Maison Neue weight 500, all-caps, 43-65px with tight 1.11 line-height",
+ "Render at least one massive outlined display type element (800px+) as architectural scaffolding behind primary content",
+ "Separate brand listings with 1px black hairline borders, not background fills or shadows",
+ "Use Maison Neue weight 400 at 16px with 1.33 line-height for all body copy",
+ "Append arrow characters to nav links and CTAs - the arrow IS the affordance",
+ "Maintain 80-120px vertical padding between major sections"
+ ],
+ "doNot": [
+ "Never introduce color, gradients, or tinted backgrounds - the system is strictly monochromatic",
+ "Never use border-radius on buttons, cards, inputs, or tags - all corners are sharp at 0px",
+ "Never add drop shadows or box-shadows - depth comes from typographic layering, not elevation",
+ "Never use photographic imagery or illustration - type is the only visual material",
+ "Never use rounded or soft type - all display text is all-caps with tight leading",
+ "Never center body paragraphs - left-align with a constrained reading column",
+ "Never decorate links with fills, pills, or button chrome - links are bare text with optional underline and arrow"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/15d57573-513b-49aa-91c7-1b7f87bb1a55",
+ "referenceSite": "https://wemakethings.de",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:36:05.380Z",
+ "articleModifiedAt": "2026-06-05T12:21:28.706Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0bbe4099-d8af-4c56-8586-35d4192bce17.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/6042d7bb-d5bc-4d09-8cbe-0e93d5abdbc7.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/7df415eb-dc52-4701-8de4-823bd0fcb791.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b4dc9d6c-2cfb-49d6-9a44-876ee22716f9.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/c6d80560-c69e-495d-9e13-10c183c1a54e.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/fda76f3e-7488-4a4a-b39f-ca72837780a6.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

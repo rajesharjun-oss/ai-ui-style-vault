@@ -15,6 +15,7 @@ The vault should help an agent make a deliberate design choice, not randomly cop
 2. Read the vault indexes.
    - Start with `agent-index.json` for the machine-readable workflow.
    - Read `guides/AGENT_BUILD_CHECKLIST.md` for required asset and visual QA gates.
+   - Read `guides/SITE_INTERACTION_PATTERNS.md` when the site needs rotating hero imagery, dropdowns, mega menus, category browsing, brand grids, or top-nav interaction.
    - Use `catalog.json` to find global style systems.
    - Use `screen-catalog.json` to find page-type examples.
    - Use `CAPTURED_STYLES.md` and `SCREEN_REFERENCES.md` when a human-readable scan is faster.
@@ -71,3 +72,9 @@ Use exact captured tokens and rules when they are available, such as colors, spa
 Do not use exact protected brand expression, such as the same logos, images, product text, brand-specific compositions, or screen-by-screen clones.
 
 The correct result should feel like the chosen style system was professionally adapted to the user's product.
+
+## Interaction Pattern Add-On
+
+When a target site needs richer navigation, browse-driven discovery, or multiple first-screen messages, also consult `guides/SITE_INTERACTION_PATTERNS.md`.
+
+Useful add-ons include rotating editorial heroes, product taxonomy mega menus, brand logo mega menus, split utility menus, and icon category drawers. Use these as interaction patterns only; pair them with the selected visual style and adapt the content, media, and structure to the target product.

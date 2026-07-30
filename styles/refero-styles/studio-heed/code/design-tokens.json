@@ -1,0 +1,166 @@
+{
+ "name": "Studio HEED",
+ "slug": "studio-heed",
+ "colors": [
+ {
+ "name": "Void",
+ "value": "#000000",
+ "token": "--color-void",
+ "role": "Page canvas, dominant card surface - the near-black that absorbs the eye and lets project imagery carry all visual weight"
+ },
+ {
+ "name": "White",
+ "value": "#ffffff",
+ "token": "--color-white",
+ "role": "Hairline borders, text, link borders, and the 124 link borders form the white wireframe structure of every tile and section"
+ },
+ {
+ "name": "Midnight Navy",
+ "value": "#00174f",
+ "token": "--color-midnight-navy",
+ "role": "Accent card surface and decorative panels - the only chromatic hue in the system, used sparingly as a deep tonal interruption against the void"
+ },
+ {
+ "name": "Cement",
+ "value": "#c2c1bf",
+ "token": "--color-cement",
+ "role": "Alternate card surface - a warm desaturated gray that breaks the black/navy rhythm when a tile needs to feel physical or grounded"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Suisse Intl",
+ "token": "--font-suisse-intl",
+ "role": "Exclusive display and body font - the studio\u0027s signature is deploying a weight 600 grotesque at a whisper-small 12-14px for absolutely everything, from navigation to project labels to body copy. This uniform micro-size is anti-convention; most agencies use a dramatic type scale, but HEED treats 12-14px weight 600 as a single visual register, like a single monospace that carries every function."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "-",
+ "--text-body-sm"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "14px",
+ "scale": [
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "all",
+ "5px"
+ ],
+ [
+ "cards",
+ "5px"
+ ],
+ [
+ "images",
+ "5px"
+ ],
+ [
+ "buttons",
+ "5px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Project Gallery Tile",
+ "role": "Primary content unit - the exhibition piece hanging on the gallery wall"
+ },
+ {
+ "name": "Project Caption Label",
+ "role": "The two-line label identifying each gallery tile"
+ },
+ {
+ "name": "Studio Header Block",
+ "role": "Top-of-page identity, navigation, and contact information"
+ },
+ {
+ "name": "Nav Link",
+ "role": "Primary site navigation items"
+ },
+ {
+ "name": "Language Toggle",
+ "role": "Bilingual site switcher"
+ },
+ {
+ "name": "Contact Info Line",
+ "role": "Email, phone, and social handles displayed in the header"
+ },
+ {
+ "name": "Description Paragraph",
+ "role": "Studio self-description below the header identity"
+ },
+ {
+ "name": "Gallery Row",
+ "role": "Horizontal strip of project tiles"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #000000 as the default page canvas for every section - the void IS the brand",
+ "Apply 5px border-radius to every card, image, and interactive surface - never deviate",
+ "Keep all type at 12px or 14px weight 600 Suisse Intl - the micro-type register is the signature",
+ "Maintain 14px gaps between gallery tiles and between stacked metadata lines",
+ "Use #ffffff for all text and hairline borders - the white wireframe IS the UI structure",
+ "Present projects as equal-height tiles in a horizontal row, separated by 14px gaps",
+ "Let the four surface colors (void, white, midnight navy, cement) carry all visual variety - no gradients, no shadows, no decorative elements"
+ ],
+ "doNot": [
+ "Never add drop shadows, elevation, or glow effects to any surface",
+ "Never use a type size larger than 14px - the micro-type register is non-negotiable",
+ "Never introduce additional colors beyond the four surface tones - the palette is closed",
+ "Never use soft radii (8px+) or pill shapes (9999px) - 5px is the only radius in the system",
+ "Never use font weights below 600 - the uniform semibold weight carries the entire voice",
+ "Never add underlines, backgrounds, or color differentiation to active nav states",
+ "Never use gradients, photographic backgrounds, or illustrated section dividers between content blocks"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/10b9e7bb-9ffb-43eb-9360-5628d8390107",
+ "referenceSite": "https://www.studioheed.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T01:32:23.927Z",
+ "articleModifiedAt": "2026-06-05T12:39:54.561Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/120a8337-2f1a-48ec-82ba-45af55f30783.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e21cda26-e911-4df5-8872-c64085d42c0e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/99b923c1-3443-40ef-a900-1288b21f9530.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/19c3e65d-32a5-48a1-9b66-e13a0275120e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/66c214fa-acc3-4a2a-8758-1d4a45c48d45.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/37486463-fac0-480f-80bb-57efc199be7b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9c9fe01-bc59-4e9c-9871-d837ccf89c31.png"
+ }
+ }
+}

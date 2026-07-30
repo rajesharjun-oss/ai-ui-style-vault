@@ -1,0 +1,234 @@
+{
+ "id": "e9fff87a-63ce-4c19-840f-98233db62f58",
+ "name": "Perplexity AI",
+ "slug": "perplexity-ai-2",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e9fff87a-63ce-4c19-840f-98233db62f58",
+ "referenceSite": "https://www.perplexity.ai",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-29T00:14:05.186Z",
+ "articleModifiedAt": "2026-06-05T12:44:28.031Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/f61f3fbb-3892-49fc-afce-b599ec5347f9.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/7640f26b-bcd7-4c41-a406-26135bb7da95.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/9b37922e-24a3-427a-96d7-2a65cfc756f2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e6aa42b9-70b8-4717-93cf-d18ec69f1a42.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/23f333b9-fda4-4ce2-9c2c-a3a8b0af0e59.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/3ae08eab-359f-4cb0-9d54-0cf21408bf85.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/cf63b382-4237-4e5b-85fe-82fc38f4d581.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "AI",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "AI",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Warm research terminal. A cream-toned search bar floats on aged-paper canvas, surrounded by quiet monochrome controls - the calm of a library reading desk distilled into a single input field.",
+ "summary": "Explore Perplexity AI\u0027s light AI design system: Aged Paper #faf8f5, Ink Black #000000 colors, pplxSans typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Aged Paper",
+ "value": "#faf8f5",
+ "token": "--color-aged-paper",
+ "role": "Page canvas and card surfaces - warm off-white replaces sterile pure white, giving the interface a document-like, paper-textured quality"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, icon strokes, and the dominant fill across navigation and body copy"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#27251e",
+ "token": "--color-charcoal",
+ "role": "Primary action button background and high-emphasis text - warm near-black that pairs with the cream canvas for a softer than pure-black contrast"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#72706b",
+ "token": "--color-ash-gray",
+ "role": "Secondary text, muted icons, and inactive nav fills - carries the warm tint of the palette"
+ },
+ {
+ "name": "Stone",
+ "value": "#92918b",
+ "token": "--color-stone",
+ "role": "Tertiary/placeholder text and low-emphasis labels"
+ },
+ {
+ "name": "Pebble",
+ "value": "#d1d1cd",
+ "token": "--color-pebble",
+ "role": "Hairline borders on cards and input containers - warm gray that recedes against the cream canvas"
+ },
+ {
+ "name": "Deep Teal",
+ "value": "#016a71",
+ "token": "--color-deep-teal",
+ "role": "Sole chromatic accent - active nav indicator and selected state fill, provides the only color punctuation in the interface"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "pplxSans",
+ "token": "--font-pplxsans",
+ "role": "All interface text - the deliberately narrow scale (3 sizes, 2 weights) makes the system feel document-like. Weight 400 handles body, labels, and input text; weight 500 is reserved for active/selected states and emphasis. The custom typeface is geometric and humanist, tighter and more distinctive than a system sans like Inter. Normal letter-spacing throughout."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.43",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.43",
+ "-",
+ "--text-body"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "compact",
+ "maxWidth": "640px",
+ "sectionGap": "32px",
+ "cardPadding": "12px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "input",
+ "12px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "nav-items",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Search Input",
+ "role": "Central input field - the primary action surface of the product"
+ },
+ {
+ "name": "Primary Submit Button",
+ "role": "Search submission - the only filled dark button in the interface"
+ },
+ {
+ "name": "Sidebar Nav Item",
+ "role": "Left rail navigation links"
+ },
+ {
+ "name": "Top Nav Link",
+ "role": "Horizontal category links in the header"
+ },
+ {
+ "name": "Mode Toggle Chip",
+ "role": "Inline capability selector within the search input"
+ },
+ {
+ "name": "Status Card",
+ "role": "System/connection status notification below the search"
+ },
+ {
+ "name": "Skeleton Placeholder",
+ "role": "Loading state for content cards"
+ },
+ {
+ "name": "Sign In Button",
+ "role": "Authentication entry at sidebar bottom"
+ },
+ {
+ "name": "Model Selector",
+ "role": "Dropdown trigger for AI model selection"
+ }
+ ],
+ "dos": [
+ "Use 9999px border-radius for all interactive controls (buttons, nav items, toggle chips, tags)",
+ "Maintain the narrow type scale: 12px caption, 14px body-sm, 16px body - do not introduce sizes outside this set",
+ "Set all card and input backgrounds to #ffffff on the #faf8f5 canvas to create the paper-on-paper layering effect",
+ "Use 1px #d1d1cd borders for all container separation - avoid shadows except the single whisper-soft card shadow",
+ "Use #016a71 teal only for active/selected state indicators - it should appear on fewer than 5% of elements",
+ "Keep the main content column at 640px max-width centered - the search bar is the focal point, not a wide canvas",
+ "Use pplxSans weight 500 exclusively for emphasis and active states; weight 400 for all default and body text"
+ ],
+ "donts": [
+ "Do not introduce new colors - the palette is deliberately minimal: cream, black, warm grays, and one teal",
+ "Do not use bold weights (600+) - the system maxes at weight 500",
+ "Do not use 0px or 4px border-radius on interactive elements - always pill (9999px) or 12px minimum",
+ "Do not apply heavy shadows or multiple shadow layers - the design is intentionally flat",
+ "Do not use pure white (#ffffff) as a page background - the warm #faf8f5 canvas is a signature choice",
+ "Do not center-align body text - left-align all labels, descriptions, and input text",
+ "Do not use the teal accent decoratively - it signals a functional state (active, selected, live)"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#faf8f5` | Page background - warm off-white that reads as paper or aged cream |\n| 1 | Card | `#ffffff` | Elevated container surfaces - input fields, status cards, content blocks |\n| 2 | Subtle Fill | `#e8e6e1` | Active nav item backgrounds, hover states - a barely-visible warm gray |",
+ "elevation": "- **Status Card:** `rgba(0, 0, 0, 0.08) 0px 1px 2px 0px`",
+ "imagery": "No photography, illustration, or decorative graphics. The visual language is pure UI - typography, whitespace, and a single teal accent do all the work. Icons are minimal line-style at 16-20px, rendered in #27251 or #72706b. The brand wordmark \u0027perplexity\u0027 is the only typographic identity element. There are no product screenshots, hero images, or marketing visuals on the primary search interface.",
+ "layout": "Centered single-column layout at 640px max-width. Left sidebar (220px) contains primary navigation (New, Computer, Spaces, Customize, History) with a Sign In button pinned at the bottom. Top header bar (56px) holds horizontal category links (Discover, Finance, Health, Academic, Patents) right-aligned. The main content area is dominated by the centered \u0027perplexity\u0027 wordmark and the search input - the hero is literally a search bar, not a visual. Below the search, a status card and skeleton placeholders extend the column. The layout is deliberately minimal: no multi-column grids, no hero imagery, no card carousels on the primary screen. Navigation is a compact sidebar + thin top bar. Section rhythm is defined by generous vertical breathing room (32px+) rather than visual dividers."
+}

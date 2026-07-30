@@ -1,0 +1,154 @@
+{
+ "id": "733e6475-892a-4138-8835-bf40344df317",
+ "name": "Fey",
+ "slug": "fey-2",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/733e6475-892a-4138-8835-bf40344df317",
+ "referenceSite": "https://feyapp.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-01-31T13:04:03.000Z",
+ "articleModifiedAt": "2026-07-03T11:04:52.763Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/45ee0c02-2aa7-4061-9679-6d174f0e73d8.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/dd8922ee-7769-4905-ae7a-626ed3190e66.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4177608a-3c28-437c-8dea-d5fcec9853f1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/abadb4e4-3606-4094-9869-80316920531e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/4f67c498-2d68-4af6-987e-a8db5f91de72.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/3675aa07-a76e-448d-bec2-a0521000df0c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/083b0353-63c7-4609-94e7-e949c597350b.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Fintech",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Fintech",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "a printed broadsheet on warm paper - type and silence, nothing else.",
+ "summary": "Explore Fey\u0027s light Fintech design system: Warm Paper #fafafa, Graphite #595959 colors, -apple-system, Wealthsimple Sans Display typography, and DESIGN.md...",
+ "colors": [
+ {
+ "name": "Warm Paper",
+ "value": "#fafafa",
+ "token": "--color-warm-paper",
+ "role": "Page background - the only surface; everything floats on this warm off-white"
+ },
+ {
+ "name": "Graphite",
+ "value": "#595959",
+ "token": "--color-graphite",
+ "role": "Body text, nav labels, footer copy - medium-dark gray keeps long-form reading comfortable without high-contrast harshness"
+ },
+ {
+ "name": "Ink",
+ "value": "#1c1c1c",
+ "token": "--color-ink",
+ "role": "Secondary body text, navigation labels, and subdued headings."
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "-apple-system",
+ "token": "--font-apple-system",
+ "role": "Body and navigation. At 21px / 600 / line-height 1.55 with -0.01em tracking, the system stack carries the entire page - the signature is the size and rhythm, not a custom face. 13px / 400 nav labels use the same -0.002em micro-tracking. A 16px / 400 utility size appears for small captions."
+ },
+ {
+ "name": "Wealthsimple Sans Display",
+ "token": "--font-wealthsimple-sans-display",
+ "role": "Reserved for the \"Wealthsimple\" link - a single display-grade cut at 21px / 700 / -0.01em. It signals partnership without changing the page\u0027s monochrome restraint."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.55",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.55",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "21px",
+ "1.55",
+ "-",
+ "--text-body"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "520px",
+ "sectionGap": "48px",
+ "cardPadding": "0px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "29",
+ "29px",
+ "`--spacing-29`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ "none",
+ "0px"
+ ]
+ },
+ "components": [
+ {
+ "name": "Editorial Text Column",
+ "role": "Main content container"
+ },
+ {
+ "name": "Inline Emphasis Word",
+ "role": "Inline bold highlight within a paragraph"
+ },
+ {
+ "name": "Inline Text Link",
+ "role": "The single navigational link in the body"
+ },
+ {
+ "name": "Signature Hand-Off Glyphs",
+ "role": "Closing illustration"
+ }
+ ],
+ "dos": [
+ "Set body copy at 21px / weight 600 / line-height 1.55 with -0.01em tracking - this IS the brand voice.",
+ "Use exactly two text colors: #595959 for narrative and #1c1c1c for emphasis and links. Nothing else.",
+ "Constrain content to a ~520px centered column; let white space do the layout work.",
+ "Separate paragraphs with ~29px margin-bottom for editorial rhythm.",
+ "Keep the page to a single surface color (#fafafa) - no cards, no panels, no shadows."
+ ],
+ "donts": [
+ "Do not introduce accent colors, buttons, or CTAs - this page is a declaration, not an action.",
+ "Do not add headings (h1/h2/h3) - the 21px body carries the hierarchy through weight and color alone.",
+ "Do not use shadows, borders, or background fills on text containers.",
+ "Do not break the 520px column with sidebars, images, or multi-column layouts.",
+ "Do not use a display or serif font for body copy - the system stack at 21px / 600 is the intended voice.",
+ "Do not add hover states beyond color/weight transitions on links; no transform, scale, or shadow effects."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Warm Paper | `#fafafa` | The only surface - page background and text container share this single warm off-white |",
+ "elevation": "No elevation. The design deliberately avoids shadows, borders, and surface layering - everything exists on a single flat plane (#fafafa). Hierarchy is created through type weight, color contrast, and whitespace alone.",
+ "imagery": "Pure typography page - no photography, no product screenshots, no illustration beyond three small hand-drawn line glyphs at the bottom that serve as a closing signature. The visual language is absence: white space, two ink tones, and the texture of the type itself.",
+ "layout": "Single narrow centered column (~520px max-width) on a full-bleed #fafafa canvas. No hero, no grid, no sections - just one vertical flow of text paragraphs separated by ~29px gaps, with a tiny left-edge nav indicator aligned to the column. The page reads top-to-bottom like a printed letter: announcement, context, continuation, signature marks."
+}

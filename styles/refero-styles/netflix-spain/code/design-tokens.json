@@ -1,0 +1,321 @@
+{
+ "name": "Netflix Spain",
+ "slug": "netflix-spain",
+ "colors": [
+ {
+ "name": "Netflix Red",
+ "value": "#e50914",
+ "token": "--color-netflix-red",
+ "role": "Primary CTAs, brand logo, active states, and the single chromatic accent in the entire system - the only warm color allowed to break the black void"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Dominant page canvas and deepest surface - the cinematic background that swallows everything non-essential"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#0f0f0f",
+ "token": "--color-obsidian",
+ "role": "Elevated surface tone, barely distinguishable from black - used for subtle layering and section dividers"
+ },
+ {
+ "name": "Carbon",
+ "value": "#232323",
+ "token": "--color-carbon",
+ "role": "Card and button surface background - the primary elevated layer above pure black"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#2d2d2d",
+ "token": "--color-charcoal",
+ "role": "Deeper card surface and input field background - secondary surface level for nested elements"
+ },
+ {
+ "name": "Graphite",
+ "value": "#323232",
+ "token": "--color-graphite",
+ "role": "Rounded card backgrounds and tertiary surface treatment"
+ },
+ {
+ "name": "Slate",
+ "value": "#393939",
+ "token": "--color-slate",
+ "role": "Hover states and pressed button backgrounds - a step lighter than carbon for interaction feedback"
+ },
+ {
+ "name": "Ash",
+ "value": "#5a5a5a",
+ "token": "--color-ash",
+ "role": "Hairline borders and subtle dividers on dark surfaces"
+ },
+ {
+ "name": "Steel",
+ "value": "#808080",
+ "token": "--color-steel",
+ "role": "Muted body text and inactive helper copy"
+ },
+ {
+ "name": "Fog",
+ "value": "#b3b3b3",
+ "token": "--color-fog",
+ "role": "Secondary body text, metadata, footer links, and de-emphasized descriptions"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary headings, body text, input text, and icon fills - the sole text color that carries information weight"
+ },
+ {
+ "name": "Cinema Indigo",
+ "value": "#192247",
+ "token": "--color-cinema-indigo",
+ "role": "Feature card gradient origin - deep blue-violet used as the cool terminus in card background gradients"
+ },
+ {
+ "name": "Bordeaux Glow",
+ "value": "#461518",
+ "token": "--color-bordeaux-glow",
+ "role": "Radial highlight origin on feature cards - a warm deep red that adds atmospheric luminosity to card edges"
+ },
+ {
+ "name": "Ember Arc",
+ "value": "#6f181d",
+ "token": "--color-ember-arc",
+ "role": "Horizontal light beam across card midlines - a thin warm glow that bisects feature cards with a soft red line"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Netflix Sans",
+ "token": "--font-netflix-sans",
+ "role": "Netflix Sans is a custom geometric sans optimized for on-screen readability across devices. The wide weight range (400-900) creates a dramatic hierarchy where 900-weight headlines at 56-100px feel like movie marquee titles. Body text stays at 400/500 with tight tracking. The extreme size jump from 24px to 56px signals a sharp two-tier heading system: section titles, then hero displays."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.17",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "56px",
+ "1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "100px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "12px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "148",
+ "148px",
+ "`--spacing-148`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "links",
+ "2px"
+ ],
+ [
+ "tiles",
+ "16px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button (Red Filled)",
+ "role": "The single most important interaction element - sign-up, get started, submit"
+ },
+ {
+ "name": "Header Sign-In Button",
+ "role": "Navigation authentication entry point"
+ },
+ {
+ "name": "Email Input Field",
+ "role": "Email capture for membership registration"
+ },
+ {
+ "name": "Email Capture Composite",
+ "role": "Hero email-to-CTA pattern - the membership conversion unit"
+ },
+ {
+ "name": "Hero Background Collage",
+ "role": "Cinematic atmosphere generator for the landing page"
+ },
+ {
+ "name": "Trending Rank Card",
+ "role": "Numbered content tile showing top-10/popular content with rank overlay"
+ },
+ {
+ "name": "Feature Reason Card",
+ "role": "Marketing card explaining a membership benefit"
+ },
+ {
+ "name": "Content Row Section",
+ "role": "Horizontally scrollable strip of content thumbnails"
+ },
+ {
+ "name": "Language Selector",
+ "role": "Locale switcher in the header"
+ },
+ {
+ "name": "Pricing Banner",
+ "role": "Promotional strip advertising the ad-supported tier"
+ },
+ {
+ "name": "Horizontal Divider with Glow",
+ "role": "Section separator that doubles as a atmospheric light line"
+ },
+ {
+ "name": "Footer Link List",
+ "role": "Site navigation links in the footer"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #e50914 exclusively for the single primary action per view - never decorate, never use it for icons, tags, or secondary links",
+ "Keep all surfaces in the pure black to charcoal range (#000000-#2d2d2d) - the darkness is the brand",
+ "Let content artwork fill 80%+ of the visual real estate; UI chrome should recede",
+ "Use Netflix Sans weight 900 at 56-100px for hero/display headlines to create a marquee-title impact",
+ "Apply 8px border-radius consistently to cards, buttons, and inputs - the system has exactly two radii (2px for links, 8px for containers)",
+ "Layer content posters at slight rotations in hero/collage contexts to create a sense of depth and abundance",
+ "Use #b3b3b3 for all secondary and metadata text - never use a chromatic gray"
+ ],
+ "doNot": [
+ "Do not introduce any chromatic color other than #e50914 into the system - no blues, greens, or purples as UI accents (gradients on feature cards are the sole exception and are decorative only)",
+ "Do not use drop shadows or box-shadows for elevation - depth comes from surface tone shifts only",
+ "Do not add borders to cards - use tonal contrast between the card surface (#232323) and the page (#000000) instead",
+ "Do not use rounded corners above 16px - the system is rectilinear with subtle softening, never pill-shaped except for tag/badge contexts",
+ "Do not use Netflix Sans weight 400 for headings - reserve it for body copy; headings should be 700 or 900",
+ "Do not place UI text directly on poster artwork without a dark scrim overlay - always protect legibility",
+ "Do not introduce additional accent colors for states (hover, focus) - use #393939 (hover surface) and keep the red button as the only action signal"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0e4d933c-aa07-4787-9884-40a0e6c338e4",
+ "referenceSite": "https://www.netflix.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-29T00:47:24.716Z",
+ "articleModifiedAt": "2026-06-05T12:54:37.146Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/3b62f5fa-13cf-489a-9f98-9ba781c06dd3.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a8fb16c8-a5aa-4a4a-9661-254fb41751de.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/2f3b738e-4906-4299-8249-e1b3849a480f.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4462068d-8683-4140-9573-20f60bd44c58.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d32dd36e-e590-4185-be1e-1205b794c5d6.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0064b8f1-c049-46ab-af2a-02bb3f066893.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/d40f7ef3-ee6d-4363-a560-2a275ce11450.png"
+ }
+ }
+}

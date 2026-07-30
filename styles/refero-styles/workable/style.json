@@ -1,0 +1,336 @@
+{
+ "id": "0ab4c544-6147-4998-8365-3a0f6191e54f",
+ "name": "Workable",
+ "slug": "workable",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0ab4c544-6147-4998-8365-3a0f6191e54f",
+ "referenceSite": "https://www.workable.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:53:19.366Z",
+ "articleModifiedAt": "2026-07-03T11:20:35.628Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/76f9e519-613c-4029-973a-c977dee22788.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/57e32cc7-07bf-4490-ab6f-c800a5c076b5.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f07b2e6c-f27c-4a86-a9ff-9c5c5c82cec7.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/6da83b69-5f70-4316-8545-830dd5c0b35f.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/62e41a9f-73c2-4b86-a5eb-9d1ed8087126.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/17af07cd-9350-4acf-bdbf-8754e7cca52d.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/44910a4d-586e-4256-989f-eef2504cf263.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "warm newsroom with teal ink",
+ "summary": "Explore Workable\u0027s light SaaS design system: Workable Ink #0f161e, Page Canvas #fbfaf8 colors, Proxima Nova typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Workable Ink",
+ "value": "#0f161e",
+ "token": "--color-workable-ink",
+ "role": "Headlines, body copy, icon fills, dark UI surfaces - near-black with a blue-ink undertone, softer than pure black"
+ },
+ {
+ "name": "Page Canvas",
+ "value": "#fbfaf8",
+ "token": "--color-page-canvas",
+ "role": "Default page background and warm card surface - slightly cream-tinted off-white that gives the whole site a paper-like warmth"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Elevated card surfaces on warm canvas, nav background - true white used sparingly for crisp product panels against the cream page"
+ },
+ {
+ "name": "Body Graphite",
+ "value": "#3d3e45",
+ "token": "--color-body-graphite",
+ "role": "Body paragraph text, secondary link color - softened dark gray for readable prose without the weight of ink-black"
+ },
+ {
+ "name": "Muted Slate",
+ "value": "#6f7073",
+ "token": "--color-muted-slate",
+ "role": "Eyebrow labels, helper text, metadata - medium gray for de-emphasized copy like section kickers and timestamps"
+ },
+ {
+ "name": "Hairline Gray",
+ "value": "#efefef",
+ "token": "--color-hairline-gray",
+ "role": "Disabled button background, subtle dividers - the lightest neutral surface"
+ },
+ {
+ "name": "Forest Teal",
+ "value": "#004038",
+ "token": "--color-forest-teal",
+ "role": "Teal text accent for links, tags, and emphasized short phrases. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Midnight Violet",
+ "value": "#1d0953",
+ "token": "--color-midnight-violet",
+ "role": "Secondary action (Check it out pill), stat callout headings - deep indigo-violet used sparingly for the announcement bar and number highlights"
+ },
+ {
+ "name": "Lavender Wash",
+ "value": "#e5d3f7",
+ "token": "--color-lavender-wash",
+ "role": "Soft feature card background - pastel lavender for the most prominent colored card surface, gives sections a calm purple identity"
+ },
+ {
+ "name": "Peach Cream",
+ "value": "#fef1e1",
+ "token": "--color-peach-cream",
+ "role": "Section background wash, hero-adjacent panels - warm peach-cream used as a large surface band, the dominant chromatic neutral"
+ },
+ {
+ "name": "Butter Yellow",
+ "value": "#fde8ce",
+ "token": "--color-butter-yellow",
+ "role": "Card background for warm-themed feature panels - muted butter for secondary colored cards"
+ },
+ {
+ "name": "Periwinkle",
+ "value": "#c6c4f4",
+ "token": "--color-periwinkle",
+ "role": "Violet wash for highlight backgrounds, decorative bands, and soft emphasis behind content."
+ },
+ {
+ "name": "Sky Tint",
+ "value": "#bee9f4",
+ "token": "--color-sky-tint",
+ "role": "Cool-tone card background - pale sky blue for variety in the pastel card rotation"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Proxima Nova",
+ "token": "--font-proxima-nova",
+ "role": "Single sans family carries all UI - bold 700 at 56-72px with tight 1.14 line-height creates editorial display weight, while 400 at 18-20px with 1.56-1.67 line-height keeps body comfortable. The Minor Third scale (1.2 ratio, 16px base) produces a restrained 8-step hierarchy."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.67",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.38",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.56",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.5",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.13",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1.14",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "72px",
+ "1.22",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "32px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ],
+ [
+ "104",
+ "104px",
+ "`--spacing-104`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "pills",
+ "16px"
+ ],
+ [
+ "images",
+ "16px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Teal CTA (Filled)",
+ "role": "Main conversion button - Request a demo"
+ },
+ {
+ "name": "Ghost Outline Button",
+ "role": "Secondary action - Start a free trial, Log in"
+ },
+ {
+ "name": "Underline Link Button",
+ "role": "Tertiary action - Start a free trial (text link variant)"
+ },
+ {
+ "name": "Midnight Pill (Announcement)",
+ "role": "Top-bar release announcement - Check it out"
+ },
+ {
+ "name": "White Product Card",
+ "role": "Feature showcase card on white canvas"
+ },
+ {
+ "name": "Lavender Feature Card",
+ "role": "Pastel card for AI/agent feature blocks"
+ },
+ {
+ "name": "Peach Feature Card",
+ "role": "Warm-tone card for evaluation/HR feature blocks"
+ },
+ {
+ "name": "Butter Feature Card",
+ "role": "Secondary warm card"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Sticky header with brand wordmark and primary actions"
+ },
+ {
+ "name": "Announcement Banner",
+ "role": "Lavender pill above nav for product news"
+ },
+ {
+ "name": "Section Eyebrow Label",
+ "role": "Kicker text above section headings"
+ },
+ {
+ "name": "Hero Product Visual",
+ "role": "Right-side product screenshot with gradient framing"
+ },
+ {
+ "name": "Client Logo Strip",
+ "role": "Social proof band - trusted companies"
+ },
+ {
+ "name": "Play Button (Video CTA)",
+ "role": "Watch demo trigger"
+ }
+ ],
+ "dos": [
+ "Use #004038 Forest Teal as the only filled CTA color - buttons are either teal-filled (primary) or teal-outlined (ghost), never a third color",
+ "Set card border-radius to 16px and button border-radius to 8px consistently - the 8px difference is intentional, cards feel soft, buttons feel crisp",
+ "Apply the warm #fbfaf8 canvas to all section backgrounds and let #ffffff cards float on top - the cream-to-white surface contrast creates depth without shadows",
+ "Use display weight 700 at 56-72px with tight 1.14-1.22 line-height for headlines - heavy weight + tight leading is the editorial signature",
+ "Set body copy at 18px with 1.56 line-height in #3d3e45 Body Graphite - never use #0f161 ink for long-form paragraphs, the contrast is too aggressive",
+ "Rotate pastel cards through #e5d3f7, #fef1e1, #fde8ce, #c6c4f4, #bee9f4 within a grid - the pastel rotation signals feature grouping without needing borders",
+ "Use 12px all-caps #6f7073 Muted Slate for section eyebrow labels with 8px margin to the heading below"
+ ],
+ "donts": [
+ "Don\u0027t add drop shadows to cards or buttons - the system is intentionally flat, depth comes from surface color contrast only",
+ "Don\u0027t use #1d0953 Midnight Violet as a general CTA - it\u0027s reserved for the announcement bar pill and number callouts, not buttons",
+ "Don\u0027t apply the teal lime violet gradient to buttons, backgrounds, or text - it\u0027s only for the Workable \u0027w\u0027 app icon and AI-agent visuals",
+ "Don\u0027t use #0f161 ink for body paragraphs - reserve it for headlines, icons, and UI chrome; use #3d3e45 for readable prose",
+ "Don\u0027t introduce additional saturated accent colors - the system is built on teal + pastel rotation; adding a new hue breaks the restrained palette",
+ "Don\u0027t use sharp 0px or 4px radius on cards - the 16px softness is a signature, all elevated surfaces should feel rounded",
+ "Don\u0027t set body line-height below 1.5 - the generous 1.56 line-height at 18px is what makes the dense type feel airy"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Page Canvas | `#fbfaf8` | Warm off-white default background for all sections - gives the entire site its paper-like warmth |\n| 1 | White Card | `#ffffff` | Elevated product surfaces and feature cards - true white for crispest contrast against the cream canvas |\n| 2 | Lavender Surface | `#e5d3f7` | AI/agent-themed section backgrounds and announcement bar |\n| 3 | Peach Surface | `#fef1e1` | Warm HR/evaluation-themed section backgrounds |\n| 4 | Butter Surface | `#fde8ce` | Secondary warm card surface for visual variety |",
+ "elevation": "Workable deliberately avoids shadows - every card is flat with a 16px radius and no drop shadow. Depth comes from surface color contrast (white card on cream canvas, pastel cards on cream) rather than elevation. This keeps the design feeling light and editorial rather than heavy or product-app-like.",
+ "imagery": "Imagery is dominated by product UI screenshots framed as floating panels - the ATS interface, candidate profile cards, mobile screens - with 16px rounded corners. The Workable \u0027w\u0027 app icon appears as a glowing squircle filled with the teal lime violet gradient. Photography is minimal: only human avatars in product screenshots (small circular crops). Illustrations are absent - the gradient on the app icon is the brand\u0027s only graphical flourish. Client logos appear as monochrome gray marks in a scrolling marquee for social proof. Overall image density is low: product UI shots carry the visual weight, text and whitespace dominate the layout.",
+ "layout": "Full-bleed page with centered max-width ~1200px content container. Hero is asymmetric: text-left / product-visual-right split, with headline at 56px on the left and a rounded product UI screenshot on the right. Section rhythm alternates between cream canvas (#fbfaf8) and white panels, with occasional pastel (lavender, peach) section bands that signal a new content area. Centered stacked layouts for section headlines with single-column body copy below. Feature grids are 2-column or 3-column card rows with 32px gaps. Logo strip is a full-width marquee band separating sections. Navigation is a sticky top bar with brand wordmark left, links center, and dual CTAs right (ghost outline + filled teal). The announcement banner sits above the nav as a separate lavender band."
+}

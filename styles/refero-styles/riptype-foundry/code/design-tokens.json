@@ -1,0 +1,204 @@
+{
+ "name": "Riptype Foundry",
+ "slug": "riptype-foundry",
+ "colors": [
+ {
+ "name": "Workshop Black",
+ "value": "#121212",
+ "token": "--color-workshop-black",
+ "role": "Page background, primary canvas - the dark surface the type sits on"
+ },
+ {
+ "name": "Platen Gray",
+ "value": "#292929",
+ "token": "--color-platen-gray",
+ "role": "Raised surface for buttons, hover fills, interactive plate"
+ },
+ {
+ "name": "Bone",
+ "value": "#d0d0d0",
+ "token": "--color-bone",
+ "role": "Default body text, link strokes, hairline rules, icon outlines"
+ },
+ {
+ "name": "Ash",
+ "value": "#a0a0a0",
+ "token": "--color-ash",
+ "role": "Secondary text, metadata, subdued borders and captions"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Headings, display type, high-contrast text, image borders"
+ },
+ {
+ "name": "Acid Flash",
+ "value": "#d9ff00",
+ "token": "--color-acid-flash",
+ "role": "Green outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Office",
+ "token": "--font-office",
+ "role": "Sole typeface - used for navigation, body, buttons, specimens, and display. The foundry sells custom type so the UI type IS the product showcase. Weights 400 (regular) for UI and body, 700 (bold) for the large display announcement and emphasis."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.19",
+ "0.083px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.58",
+ "0.016px",
+ "--text-body"
+ ],
+ [
+ "display",
+ "43px",
+ "1",
+ "0.083px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "84px",
+ "cardPadding": "13px",
+ "elementGap": "6px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "pills",
+ "144px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Sidebar Nav Link",
+ "role": "Primary navigation entry"
+ },
+ {
+ "name": "Acid Download Pill",
+ "role": "Primary CTA - the single most important action on the site"
+ },
+ {
+ "name": "Platen Button",
+ "role": "Secondary action, secondary CTA"
+ },
+ {
+ "name": "Font Specimen Row",
+ "role": "Core content unit - the product itself"
+ },
+ {
+ "name": "Annotation Block",
+ "role": "Descriptive copy paired with specimens"
+ },
+ {
+ "name": "Custom Type Image Card",
+ "role": "Showcase of a commissioned type project"
+ },
+ {
+ "name": "Release Announcement Panel",
+ "role": "Featured product launch banner"
+ },
+ {
+ "name": "Decorative Star Mark",
+ "role": "Ornamental accent on nav and section headers"
+ },
+ {
+ "name": "Cart Badge",
+ "role": "Persistent shopping indicator"
+ },
+ {
+ "name": "Section Header",
+ "role": "Major content section title"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #d9ff00 exclusively for the Download Pill CTA and decorative star marks - the acid green\u0027s power comes from scarcity",
+ "Pair all body text (#d0d0d0) with the Workshop Black (#121212) canvas - contrast ratio 12.2:1 exceeds AAA",
+ "Set type specimens at 43px+ with 0.083em letter-spacing to give the display characters room to demonstrate their own proportions",
+ "Use 6px as the default element gap; 7px rowGap is the specimen-book rhythm",
+ "Communicate elevation through surface tone (#121212 #292929) and 1px #d0d0d0 hairlines, never through shadows",
+ "Keep radius at 0px for cards and images - the only rounded elements are the 144px pill CTA and the 4px standard button",
+ "Default to Office 400 for all UI; reach for Office 700 only for display specimens and emphasis moments"
+ ],
+ "doNot": [
+ "Do not introduce additional chromatic colors - the red announcement panel and acid green are the only breaks from monochrome",
+ "Do not add drop shadows to any component - the system is intentionally flat and print-referenced",
+ "Do not use rounded corners on cards or images beyond what the data specifies (0px)",
+ "Do not substitute a different display font for specimens - the typeforms on this site ARE the product catalog",
+ "Do not soften the dark canvas with gradients or tints - #121212 is absolute and edge-to-edge",
+ "Do not apply the acid green to body text, icons, or large areas - it loses signal value at any surface area larger than the pill button",
+ "Do not add decorative dividers, background tints, or section backgrounds - content is separated by whitespace and hairlines only"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/3e397dc6-0e68-435f-9dee-1966a9d245d3",
+ "referenceSite": "https://www.riptype.xyz",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T02:06:28.471Z",
+ "articleModifiedAt": "2026-06-05T12:57:01.052Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/db676c00-0b8c-4a69-9373-3a065403c675.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c65cf3db-2be2-4200-87a1-2be1f4cbf676.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/1c5cb159-9de8-46cf-b39a-e4edca9032df.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/70ae0b27-f457-42dd-aa32-b913f8c5619b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/5d687381-21bc-4523-bab2-74ae964460bc.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/43425023-234c-4f24-8654-910aae9c6b8a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/916badbb-a595-4416-ad32-40c6aea50a52.png"
+ }
+ }
+}

@@ -1,0 +1,338 @@
+{
+ "id": "e869e214-f672-4ac3-bfc2-bd25de7b003b",
+ "name": "Base44",
+ "slug": "base44",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e869e214-f672-4ac3-bfc2-bd25de7b003b",
+ "referenceSite": "https://base44.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-03-16T14:12:04.000Z",
+ "articleModifiedAt": "2026-07-03T10:50:53.599Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/942ee810-77ed-444a-866d-ae01892a910b.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/0c516347-4342-46a2-af46-136bac42d825.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4bb58715-cc40-4c95-8831-66a7d8e675c6.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/08888c8b-dc89-4537-9b58-f7c23630a1b8.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d274d936-168d-49a7-b103-32fc47466de7.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/cb4991d6-b00f-4df1-9d8b-24b717c5d98e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/543c105c-51b7-49f6-9e64-0a4a117d4409.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "AI",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "AI",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "sunlit notepad with a lime highlighter",
+ "summary": "Explore Base44\u0027s light AI design system: Canvas Bone #faf9f7, Card White #ffffff colors, WixMadeforText, WixMisoRegular typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Canvas Bone",
+ "value": "#faf9f7",
+ "token": "--color-canvas-bone",
+ "role": "Page background, section bands, large surface fills - the warm off-white that defines the entire atmosphere"
+ },
+ {
+ "name": "Card White",
+ "value": "#ffffff",
+ "token": "--color-card-white",
+ "role": "Card surfaces, elevated panels, input backgrounds, footer - pure white sitting on the bone canvas"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#0f0f0f",
+ "token": "--color-ink-black",
+ "role": "Primary text, filled action buttons, icon strokes, nav color - the dominant near-black that carries all type and the filled dark CTA"
+ },
+ {
+ "name": "Graphite",
+ "value": "#232529",
+ "token": "--color-graphite",
+ "role": "Secondary text, button text, nav strokes - slightly softer than Ink Black for de-emphasized copy"
+ },
+ {
+ "name": "Hairline",
+ "value": "#d1d1d1",
+ "token": "--color-hairline",
+ "role": "Default 1px borders on cards, inputs, dividers - the thinnest structural line"
+ },
+ {
+ "name": "Soft Border",
+ "value": "#e6e6e6",
+ "token": "--color-soft-border",
+ "role": "Secondary borders, subtle surface backgrounds - softer than Hairline for nested edges"
+ },
+ {
+ "name": "Muted Ink",
+ "value": "#a0a0a0",
+ "token": "--color-muted-ink",
+ "role": "Tertiary text, disabled states, muted icon strokes"
+ },
+ {
+ "name": "Lime Wash",
+ "value": "#ebffb1",
+ "token": "--color-lime-wash",
+ "role": "Primary CTA fill (Start Building button) - a pale lime that glows against the bone canvas like a fresh highlighter mark"
+ },
+ {
+ "name": "Lime Edge",
+ "value": "#ade900",
+ "token": "--color-lime-edge",
+ "role": "Green accent for outlined action borders, linked labels, and lightweight interactive emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Ember Orange",
+ "value": "#ff631f",
+ "token": "--color-ember-orange",
+ "role": "Logo color, decorative fill accents, secondary action - vivid orange used sparingly to anchor brand identity"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "WixMadeforText",
+ "token": "--font-wixmadefortext",
+ "role": "Primary UI sans - body text, buttons, nav, inputs, badges, all chrome. The geometric forms and slightly expanded tracking on small sizes (0.025em at 12px, 0.18em uppercase) give it a friendly, slightly humanist feel that keeps 16px body text comfortable to scan"
+ },
+ {
+ "name": "WixMisoRegular",
+ "token": "--font-wixmisoregular",
+ "role": "Display headline face - used at 48-56px with tight tracking (-0.02em) and very tight line-height (1.05). The single weight at 400 creates a calm, confident headline that doesn\u0027t shout - authority through spaciousness. Body sizes (20-24px) share the same character, keeping the type system coherent across scales"
+ },
+ {
+ "name": "WixMisoLight",
+ "token": "--font-wixmisolight",
+ "role": "Secondary display - lighter weight version for subheadings (25px) and lead body text (17px), creating tonal contrast against the Regular headlines. Same family guarantees harmony while the weight difference adds hierarchy without size jumps"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.25",
+ "0.3px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.1",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "25px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.05",
+ "-0.96px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "54px",
+ "1.2",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "56px",
+ "1.05",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "large-cards",
+ "30px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Lime CTA Pill",
+ "role": "Primary action button"
+ },
+ {
+ "name": "Ink Filled Pill",
+ "role": "Secondary dark action"
+ },
+ {
+ "name": "Ghost Pill Button",
+ "role": "Tertiary action, suggestion chips"
+ },
+ {
+ "name": "Frosted Nav Pill",
+ "role": "Sticky header CTA container"
+ },
+ {
+ "name": "Text Link Button",
+ "role": "Inline nav and footer links"
+ },
+ {
+ "name": "Flat White Card",
+ "role": "Standard content card, FAQ items, feature blocks"
+ },
+ {
+ "name": "Soft Shadow Card",
+ "role": "Hero input container, elevated prompt card"
+ },
+ {
+ "name": "Ghost Input",
+ "role": "Prompt input, search field"
+ },
+ {
+ "name": "Orange Submit Circle",
+ "role": "Action trigger inside input"
+ },
+ {
+ "name": "Uppercase Eyebrow Label",
+ "role": "Section labels, category tags"
+ },
+ {
+ "name": "Accordion FAQ Row",
+ "role": "FAQ item"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site header"
+ },
+ {
+ "name": "Sunset Gradient Band",
+ "role": "Atmospheric section divider"
+ }
+ ],
+ "dos": [
+ "Use WixMisoRegular at 48-56px weight 400 with -0.96px tracking for all primary headlines - the single-weight serif creates calm authority without shouting",
+ "Set all buttons and tags to 9999px (pill) radius - the fully-rounded shape is the system\u0027s defining silhouette",
+ "Use #ebffb1 fill + #ade900 border for the primary CTA, never plain black or blue - the lime glow is the brand\u0027s signature action",
+ "Maintain hairline borders at 1px #d1d1d1 for all structural dividers - never use heavier borders or visible elevation to separate content",
+ "Keep the page canvas at #faf9f7 (warm bone) and use #ffffff only for cards that need to lift off the canvas - the two-tone surface system is the entire depth model",
+ "Apply the uppercase eyebrow label treatment (12px, 0.18em tracking, weight 500) to all section labels - it transforms small text into architectural wayfinding",
+ "Use cubic-bezier(0.22, 1, 0.36, 1) for all entrance animations - the spring-like ease-out matches the warm, unhurried atmosphere"
+ ],
+ "donts": [
+ "Don\u0027t add drop shadows to cards - the system uses background contrast (white on bone) for hierarchy, not elevation. Reserve the single shadow for the hero prompt card only",
+ "Don\u0027t use #ff631f orange on text or large fills - it\u0027s reserved for the logo, decorative accents, and the submit circle inside the input",
+ "Don\u0027t set headline weight above 400 - the system uses weight and tracking for hierarchy, not boldness. Heavier weights would break the calm, spacious feel",
+ "Don\u0027t use saturated blue for links or actions - the system has no traditional \u0027info blue\u0027; interactive elements are either lime, black, or ghost",
+ "Don\u0027t create dark sections - the page is entirely light-mode. Use the sunset gradient band for atmospheric breaks, never a full dark background",
+ "Don\u0027t use borders heavier than 1px - the hairline aesthetic is the entire structural language. Thicker borders feel heavy and corporate",
+ "Don\u0027t use corner radii below 8px on any surface - the system rounds generously (8px cards, 30px hero card, 9999px pills). Sharp corners clash with the warm, friendly tone"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas Bone | `#faf9f7` | Page background, large section fills - the warm off-white that defines atmosphere |\n| 1 | Card White | `#ffffff` | Content cards, FAQ rows, standard elevated surfaces - pure white sitting on bone |\n| 2 | Soft Cream | `#fefcfb` | Hero prompt card, focal interactive surfaces - nearly-white cream with the single soft shadow |\n| 3 | Lime Wash | `#ebffb1` | Primary CTA fill - the action surface that breaks the monochrome |",
+ "elevation": "Elevation is deliberately minimal: most surfaces are flat with hairline borders, and the single soft shadow (rgba(0,0,0,0.07) 0px 6px 20px) is reserved for the hero prompt card only. Depth comes from background contrast (white card on bone canvas) and generous spacing, not from stacked shadows. The system treats elevation as an exception, not a tool.",
+ "imagery": "Imagery is minimal and product-focused: the hero features a centered prompt-input card (the product itself as the hero visual), followed by full-bleed gradient bands (sky-blue radial wash, sunset horizontal band) that act as atmospheric dividers rather than decorative images. No photography, no stock illustrations, no product screenshots in the visible sections. Icons are simple line/stroke style in #0f0f0f, with the brand logo using a solid orange disc with black horizontal lines (a stylized database/server icon). The visual density is text-dominant with the product UI (the input card) serving as the primary visual anchor.",
+ "layout": "Max-width 1200px centered container with generous side padding. The hero is a full-bleed light section with a centered headline stack (56px display + 18px subtext) and the prompt input card as the visual anchor, all sitting under a sky-blue radial gradient wash. Below the hero, a full-bleed sunset gradient band breaks the monochrome before returning to the bone canvas for content sections. Section rhythm is consistent: large vertical breathing room (~80px section gaps), centered text stacks alternating with asymmetric two-column layouts. The FAQ section uses a split layout: left-aligned heading column and right-aligned accordion list. Navigation is a sticky top bar with frosted-glass CTA pill, logo left, centered nav, and actions right. The footer is a dark band (contrasting with the light body) at the very bottom."
+}

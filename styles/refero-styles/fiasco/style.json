@@ -1,0 +1,363 @@
+{
+ "id": "ef73c742-1c3b-48b9-a174-de365ecc4691",
+ "name": "Fiasco",
+ "slug": "fiasco",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/ef73c742-1c3b-48b9-a174-de365ecc4691",
+ "referenceSite": "https://fiasco.design",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:27:41.225Z",
+ "articleModifiedAt": "2026-06-05T12:34:07.619Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8327f2f7-3080-46de-9dcb-dc3f83679c9b.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a1e3f1ec-7650-49b8-867f-3031a2b3a8c1.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/7d9056fa-5e99-4fa2-aad2-083dfcc584c9.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e4d68f59-3b2c-4284-9d2c-acf6251b8b70.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/07644224-f78e-442c-9eb3-384bec5d6186.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f4510193-b3f8-4447-bc34-4f378ff44525.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "\"editorial gallery on cream paper\" - warm off-white canvas with confident black type and single-color project cards.",
+ "summary": "Explore Fiasco\u0027s light Agency design system: Canvas Cream #f8f9f3, Ink Black #1d1e19 colors, area-normal, HAL Timezone typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Canvas Cream",
+ "value": "#f8f9f3",
+ "token": "--color-canvas-cream",
+ "role": "Page background, button borders, soft surface"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#1d1e19",
+ "token": "--color-ink-black",
+ "role": "Primary text, nav borders, link borders, all structural outlines"
+ },
+ {
+ "name": "Stone Mist",
+ "value": "#e9eae2",
+ "token": "--color-stone-mist",
+ "role": "Nav borders, icon strokes, subtle dividers, secondary borders"
+ },
+ {
+ "name": "Shadow Stone",
+ "value": "#d0d1cc",
+ "token": "--color-shadow-stone",
+ "role": "Card and hero box-shadow base, low-contrast elevation"
+ },
+ {
+ "name": "Carbon",
+ "value": "#151612",
+ "token": "--color-carbon",
+ "role": "Footer background, deep surface for dark sections"
+ },
+ {
+ "name": "Pewter",
+ "value": "#686e77",
+ "token": "--color-pewter",
+ "role": "Input border, muted form fields"
+ },
+ {
+ "name": "Sulfur Yellow",
+ "value": "#fff714",
+ "token": "--color-sulfur-yellow",
+ "role": "Featured project card fill, callout blocks - the loudest accent, reserved for hero-grade emphasis"
+ },
+ {
+ "name": "Carnation Pink",
+ "value": "#fbc2d1",
+ "token": "--color-carnation-pink",
+ "role": "Project card background, soft accent block"
+ },
+ {
+ "name": "Sky Blue",
+ "value": "#84bdff",
+ "token": "--color-sky-blue",
+ "role": "Project card background, cool accent block"
+ },
+ {
+ "name": "Ember Orange",
+ "value": "#fd6b01",
+ "token": "--color-ember-orange",
+ "role": "Project card background, warm accent block"
+ },
+ {
+ "name": "Cobalt Violet",
+ "value": "#204ce5",
+ "token": "--color-cobalt-violet",
+ "role": "Filled button background - the only chromatic action in the system, used sparingly"
+ },
+ {
+ "name": "Midnight",
+ "value": "#112337",
+ "token": "--color-midnight",
+ "role": "Input text, deep navy utility for form labels"
+ },
+ {
+ "name": "Lichen Green",
+ "value": "#03ac47",
+ "token": "--color-lichen-green",
+ "role": "Project card background, rare accent block"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "area-normal",
+ "token": "--font-area-normal",
+ "role": "Primary workhorse - body, UI labels, buttons, inputs, project titles. Wide weight range lets it carry both fine 14px body copy and 80px display headlines without leaving the family."
+ },
+ {
+ "name": "HAL Timezone",
+ "token": "--font-hal-timezone",
+ "role": "Nav labels, small caps treatments, secondary headings. The 100-weight gives nav items a thin, almost editorial feel that contrasts with the bolder body sans."
+ },
+ {
+ "name": "Gooper",
+ "token": "--font-gooper",
+ "role": "Display and editorial headlines with personality - used for large pull-quotes, italic-feeling treatments, and section titles. The tight 0.8 line-height at 40px gives headlines a compressed, magazine-like density."
+ },
+ {
+ "name": "OC Highway",
+ "token": "--font-oc-highway",
+ "role": "Micro-labels and tracked-out uppercase tags (e.g. \u002701:27 UK\u0027 timestamp). The +0.10em tracking makes 10px text readable as a label."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "14.4",
+ "-0.15px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "20",
+ "-0.07px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "25.2",
+ "-0.23px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "28",
+ "-0.4px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "36",
+ "-0.9px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "32",
+ "-1px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "60px",
+ "66",
+ "-1.74px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "80px",
+ "88",
+ "-2.32px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "22px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "68",
+ "68px",
+ "`--spacing-68`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "hero",
+ "40px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "links",
+ "44px"
+ ],
+ [
+ "inputs",
+ "3px"
+ ],
+ [
+ "buttons",
+ "800px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Pill Button (Primary)",
+ "role": "Primary CTA"
+ },
+ {
+ "name": "Ghost Pill Button",
+ "role": "Secondary action"
+ },
+ {
+ "name": "Project Card",
+ "role": "Work/case study tile"
+ },
+ {
+ "name": "Hero Block",
+ "role": "Above-the-fold showcase"
+ },
+ {
+ "name": "Text Input",
+ "role": "Form field"
+ },
+ {
+ "name": "Tag Pill",
+ "role": "Category/discipline label"
+ },
+ {
+ "name": "Nav Link",
+ "role": "Top navigation item"
+ },
+ {
+ "name": "Section Heading (Display)",
+ "role": "Hero/page title"
+ },
+ {
+ "name": "Project Title (Italic)",
+ "role": "Card heading"
+ },
+ {
+ "name": "Section Label",
+ "role": "Pre-title / kicker"
+ },
+ {
+ "name": "Footer Block",
+ "role": "Site footer"
+ }
+ ],
+ "dos": [
+ "Use pill-shaped buttons (800px radius) for every interactive element - never square or slightly-rounded buttons",
+ "Let project cards own color: pick one vivid hex from the accent set per card, keep the rest of the page in warm neutrals",
+ "Set body copy at 18px in area-normal 400 - the system reads at editorial size, not product-UI size",
+ "Anchor all headlines in Ink Black (#1d1e19) and let the canvas (#f8f9f3) carry the warmth - never introduce white",
+ "Reserve 40px radius exclusively for hero and feature surfaces; cards stay at 8px to maintain the gallery hierarchy",
+ "Apply the heavy 0 28px 80px shadow only to hero blocks and project cards - the depth comes from a small number of well-placed shadows, not constant elevation",
+ "Use OC Highway at 10px with +0.10em tracking for micro-labels and timestamps - the tracked uppercase is a signature detail"
+ ],
+ "donts": [
+ "Don\u0027t use the chromatic accent palette for buttons, nav, or text - they belong only to project card backgrounds",
+ "Don\u0027t mix multiple vivid colors on the same card or section - one color field per surface",
+ "Don\u0027t introduce pure black (#000000) as a fill - Ink Black (#1d1e19) is the system black, the tiny warm shift is the difference",
+ "Don\u0027t use more than one shadow tier per page level - the heavy shadow is for cards/hero, the faint one for inputs, nothing else",
+ "Don\u0027t set body text below 18px - the system is editorial, not data-dense",
+ "Don\u0027t use Cobalt Violet (#204ce5) for anything other than a single filled primary action - it\u0027s the system\u0027s only chromatic action and overuse flattens its meaning",
+ "Don\u0027t round inputs at 8px - the 3px input radius creates a deliberate contrast with the pill buttons and is part of the system language"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#f8f9f3` | Default page background, warm off-white paper |\n| 1 | Colored Card | `#fff714 / #fbc2d1 / #84bdff / #fd6b01 / #03ac47` | Project card backgrounds, each a different vivid hue |\n| 2 | Quiet Card | `#e9eae2` | Subtle secondary surfaces, nav-adjacent blocks |\n| 3 | Deep Surface | `#151612` | Footer and dark contrast sections |",
+ "elevation": "- **Hero block:** `rgba(0, 0, 0, 0.16) 0px 28px 80px 0px`\n- **Project card:** `rgba(0, 0, 0, 0.16) 0px 28px 80px 0px`\n- **Input field:** `rgba(18, 25, 97, 0.08) 0px 1px 4px 0px`\n- **Button:** `rgba(18, 25, 97, 0.08) 0px 1px 4px 0px`",
+ "imagery": "Imagery is project-led: each case study carries a full-bleed photograph or render inside the card, and the colored card background acts as a matte frame. Photography is real-world, cinematic, and editorial - city streets, product launches, festival signage, aerial shots - never stock-staged. No illustrations, no abstract graphics, no icon system beyond simple geometric tags. Hero sections use a single dominant visual (video or still) inside a 40px-radius container rather than collage or grid. Icons are minimal: small line weights used only for nav arrows and timestamp markers. The overall feel is photo-journalistic, not product-shot.",
+ "layout": "Page model is max-width 1200px, centered, with generous outer margins on desktop. The hero opens with a centered display headline over the warm cream canvas, immediately followed by a full-bleed 40px-radius hero visual. Sections alternate between cream canvas and slightly tinted cards without ever using a full dark band until the footer. The work grid is a 2-column layout with generous gutters - each card is large enough to feel like a magazine spread, not a thumbnail. Section rhythm is unhurried: ~80px vertical gaps between major sections, with small labels (italic Gooper) providing quiet dividers. Navigation is a single top bar with a left-aligned wordmark (\u0027Fiasco\u0027) and a right-aligned cluster of HAL Timezone links plus an editorial timestamp. No sidebar, no sticky behavior visible in the data. The footer inverts to dark Carbon for a clean closing band."
+}

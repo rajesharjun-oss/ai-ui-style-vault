@@ -1,0 +1,394 @@
+{
+ "name": "Contractbook",
+ "slug": "contractbook",
+ "colors": [
+ {
+ "name": "Ultramarine",
+ "value": "#1009f6",
+ "token": "--color-ultramarine",
+ "role": "Feature card backgrounds, brand-emphasis headlines, footer primary CTA - vivid violet-blue carries the entire brand voice, used as punctuation against the monochromatic cream field"
+ },
+ {
+ "name": "Gold",
+ "value": "#ffba09",
+ "token": "--color-gold",
+ "role": "Primary action buttons (Request a demo), accent cards - warm yellow against neutral surfaces creates the only chromatic urgency in an otherwise achromatic system"
+ },
+ {
+ "name": "Forest",
+ "value": "#304801",
+ "token": "--color-forest",
+ "role": "Decorative illustration and testimonial card accents - deep dark green used in editorial color blocks"
+ },
+ {
+ "name": "Tangerine",
+ "value": "#ff3b09",
+ "token": "--color-tangerine",
+ "role": "Decorative scribble accents and highlight strokes in illustrations"
+ },
+ {
+ "name": "Royal",
+ "value": "#505cf9",
+ "token": "--color-royal",
+ "role": "Soft highlight washes and secondary illustration fills - lighter companion to ultramarine"
+ },
+ {
+ "name": "Sky",
+ "value": "#add3e5",
+ "token": "--color-sky",
+ "role": "Pastel card surfaces and muted testimonial accents - near-gray blue used as a quiet cool counterpoint to the warm beige field"
+ },
+ {
+ "name": "Thistle",
+ "value": "#e3c7de",
+ "token": "--color-thistle",
+ "role": "Pastel illustration fills and testimonial card tints - near-gray mauve"
+ },
+ {
+ "name": "Mint",
+ "value": "#00e9a7",
+ "token": "--color-mint",
+ "role": "Decorative green accent for illustration highlights"
+ },
+ {
+ "name": "Cream",
+ "value": "#f0f0ec",
+ "token": "--color-cream",
+ "role": "Page background, card surfaces, input fills - warm off-white dominates the entire canvas"
+ },
+ {
+ "name": "Pearl",
+ "value": "#f7f7f3",
+ "token": "--color-pearl",
+ "role": "Elevated card surfaces, lighter than cream - used for nested content blocks"
+ },
+ {
+ "name": "White",
+ "value": "#ffffff",
+ "token": "--color-white",
+ "role": "Pure white cards and inverted button text"
+ },
+ {
+ "name": "Smoke",
+ "value": "#d4d4d0",
+ "token": "--color-smoke",
+ "role": "Muted helper text and secondary labels"
+ },
+ {
+ "name": "Concrete",
+ "value": "#eaeae6",
+ "token": "--color-concrete",
+ "role": "Hairline borders, subtle dividers, disabled states"
+ },
+ {
+ "name": "Washed Black",
+ "value": "#1a1a1a",
+ "token": "--color-washed-black",
+ "role": "Primary text, headings, body copy - slightly softer than pure black for warmer reading"
+ },
+ {
+ "name": "Ink",
+ "value": "#222222",
+ "token": "--color-ink",
+ "role": "Secondary text and nav items"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#4d4d4d",
+ "token": "--color-charcoal",
+ "role": "Muted body text, captions, metadata"
+ },
+ {
+ "name": "Dim",
+ "value": "#6d6868",
+ "token": "--color-dim",
+ "role": "Tertiary text, timestamps, fine print"
+ },
+ {
+ "name": "Black",
+ "value": "#000000",
+ "token": "--color-black",
+ "role": "Button text on bright fills, strong borders"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Abcwhyte",
+ "token": "--font-abcwhyte",
+ "role": "Single sans-serif family used for everything - display headings, body, nav, buttons, inputs, footer. At 48px/700 with tight 1.25 line-height for hero headlines, dropping to 16px/400 with 1.5 line-height for body. The uniformity of one family at all sizes gives the system a document-like coherence rather than a display/body contrast."
+ },
+ {
+ "name": "Abcwhyte",
+ "token": "--font-abcwhyte",
+ "role": "UI micro-copy - nav labels, tag chips, small captions, footer links"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.87",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "25px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.3",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.3",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.2",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "48px",
+ "1.25",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "120px",
+ "cardPadding": "48px",
+ "elementGap": "14px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "21",
+ "21px",
+ "`--spacing-21`"
+ ],
+ [
+ "22",
+ "22px",
+ "`--spacing-22`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "24px"
+ ],
+ [
+ "chips",
+ "999px"
+ ],
+ [
+ "images",
+ "40px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "999px"
+ ],
+ [
+ "hero-panels",
+ "40px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Gold Pill Button (Primary)",
+ "role": "Highest-emphasis call-to-action"
+ },
+ {
+ "name": "Outlined Pill Button",
+ "role": "Secondary action"
+ },
+ {
+ "name": "White Pill Button",
+ "role": "Inverted secondary"
+ },
+ {
+ "name": "Cream Feature Card",
+ "role": "Content card with generous padding"
+ },
+ {
+ "name": "Hero Panel Card",
+ "role": "Large rounded content block"
+ },
+ {
+ "name": "Ultramarine Brand Card",
+ "role": "Full-bleed accent card"
+ },
+ {
+ "name": "Form Input",
+ "role": "Text and select input fields"
+ },
+ {
+ "name": "Nav Bar",
+ "role": "Top navigation"
+ },
+ {
+ "name": "Testimonial Card",
+ "role": "Customer quote block"
+ },
+ {
+ "name": "Video Player Thumbnail",
+ "role": "Embedded video preview"
+ },
+ {
+ "name": "Demo Request Form",
+ "role": "Contact/sales form"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer"
+ },
+ {
+ "name": "Tag/Chip",
+ "role": "Category label"
+ },
+ {
+ "name": "Scribble Decoration",
+ "role": "Hand-drawn squiggle and line illustrations in #ffba09 or #ff3b09, placed as decorative accents around sections. Adds warmth and personality without formal imagery."
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 999px or 9999px border-radius on ALL buttons, nav items, and tags - pill shapes are non-negotiable",
+ "Use #ffba09 fill with #1a1a1a text for the single highest-emphasis action on any page",
+ "Use #f0f0ec as the default page background and #ffffff or #f7f7f3 for elevated card surfaces",
+ "Use Abcwhyte (or substitute Inter/DM Sans) as the ONLY font family across all sizes and weights",
+ "Use 24px radius for standard cards and 40px radius for hero panels and images - never intermediate values",
+ "Separate content layers with color and spacing, not shadows - this system is intentionally flat",
+ "Use #1009f6 ultramarine sparingly: feature panels, brand headlines, footer CTA - never as a general accent"
+ ],
+ "doNot": [
+ "Do not add box-shadow to any card, button, or panel - elevation comes from color and space, never shadow",
+ "Do not use a serif or display font for headlines - the single-family approach is the signature",
+ "Do not use #1009f6 for body text or borders - reserve ultramarine for card backgrounds and brand emphasis only",
+ "Do not use sharp corners (0-8px radius) on content cards - minimum card radius is 24px",
+ "Do not introduce a second primary action color - gold (#ffba09) is the only filled chromatic button",
+ "Do not use pure black (#000000) for body text - use #1a1a1a for warmer reading",
+ "Do not crowd sections - maintain 120px vertical gaps between major sections"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/fbc60c55-da20-4684-a279-0ed86590272e",
+ "referenceSite": "https://contractbook.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:46:08.441Z",
+ "articleModifiedAt": "2026-07-03T11:21:58.496Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8c7f75c5-4693-49e1-9731-0c2745e54bfb.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/50656fd5-f23d-4245-860b-8e12d995e71d.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/62076eba-d16b-446f-a05a-21de99cc56b0.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e45caf42-cc80-4b94-8909-3f67b92a682d.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9d00ef79-a621-4ad6-a87f-e76a7f1d7954.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/4fa9af5b-eb72-4dd7-aaf6-6cae62c387b1.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/74b45693-28d2-4bc2-a771-b64b4327b219.png"
+ }
+ }
+}

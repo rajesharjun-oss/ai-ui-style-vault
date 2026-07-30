@@ -1,0 +1,324 @@
+{
+ "id": "ea9c37e8-c56c-42aa-8e81-9b55222a5cd3",
+ "name": "Stark",
+ "slug": "stark",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/ea9c37e8-c56c-42aa-8e81-9b55222a5cd3",
+ "referenceSite": "https://www.getstark.co",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:35:01.793Z",
+ "articleModifiedAt": "2026-06-05T13:00:11.641Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/5b63e915-7c27-4e2c-86e1-e8b46617dcb1.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/dee95962-eeb4-45cc-bbc8-0780de998ce8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/1708dc82-0283-457f-9462-99aeb49c9f35.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e2963ab7-e0b6-4833-aa35-e6bb2e12b98f.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/612b6598-24e6-4087-8bd5-0eb9c7539e40.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/a554517d-7151-4537-8c89-364105ada06f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/346a383f-0a72-4aa4-89c5-150e52a0b91a.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "midnight lecture hall with yellow highlighter",
+ "summary": "Explore Stark\u0027s light SaaS design system: Midnight Navy #10284b, Stark Violet #381fd1 colors, ArminGrotesk, RobotoMono typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Midnight Navy",
+ "value": "#10284b",
+ "token": "--color-midnight-navy",
+ "role": "Hero background, primary headings, footer surface - the dominant brand color establishes authority and anchors the dark-to-light page split. Used as a background field for the above-the-fold section and as body-text color on the cream secondary surface"
+ },
+ {
+ "name": "Stark Violet",
+ "value": "#381fd1",
+ "token": "--color-stark-violet",
+ "role": "Primary action fills (Get started, Sign up, Request demo), card border accents, active nav state, decorative icon strokes, and inline emphasis text. The vivid violet against midnight navy creates a switched-on, electric feel without aggression"
+ },
+ {
+ "name": "Highlighter Yellow",
+ "value": "#fedb63",
+ "token": "--color-highlighter-yellow",
+ "role": "Diagonal text-highlight gradient fill, one specific secondary CTA, and illustration accent. Yellow never decorates broadly - it marks, underlines, and punctuates specific words within dark-on-light headlines"
+ },
+ {
+ "name": "Lilac Tint",
+ "value": "#e5e0ff",
+ "token": "--color-lilac-tint",
+ "role": "Soft button surface variant, gentle tinted card backgrounds. A desaturated wash of the violet brand that softens interactive elements without competing with the primary action"
+ },
+ {
+ "name": "Mint Splash",
+ "value": "#99d6cc",
+ "token": "--color-mint-splash",
+ "role": "Decorative illustration accent in feature cards and dashboard widgets. Used sparingly in flat geometric shapes within artwork, not in core UI controls"
+ },
+ {
+ "name": "Page Canvas",
+ "value": "#faf5ff",
+ "token": "--color-page-canvas",
+ "role": "Lightly purple-tinted near-white page background. The faint violet cast unifies the cream and white surfaces under one chromatic family"
+ },
+ {
+ "name": "Cream Field",
+ "value": "#f6f6eb",
+ "token": "--color-cream-field",
+ "role": "Secondary section surface and body-text color on the dark hero. The warm greenish-cream provides a relaxed counterpoint to the midnight navy and is the dominant body-text/link color on the dark section"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "Body text on light surfaces, icon strokes, and high-contrast elements. Not used as a background - the system prefers the midnight navy for darkness"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Text on dark hero, card surfaces, nav backgrounds, product screenshot frames. The bright surface that holds product imagery and dashboard content"
+ },
+ {
+ "name": "Hairline Gray",
+ "value": "#e5e7eb",
+ "token": "--color-hairline-gray",
+ "role": "Universal border color for cards, inputs, dividers, link underlines, and structural separators. The single achromatic border workhorse"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "ArminGrotesk",
+ "token": "--font-armingrotesk",
+ "role": "The single custom typeface carries the entire brand voice. Weight 900 is the hero display weapon (110px headline) - used at maximum volume for the opening statement. Weight 600 handles section headings and subheadings (24-48px). Weight 500 is the button and label workhorse. Weight 400 is body text. The geometric grotesque construction gives a contemporary, slightly technical authority."
+ },
+ {
+ "name": "RobotoMono",
+ "token": "--font-robotomono",
+ "role": "All-caps eyebrow labels and section markers (e.g., \u0027EXPLORE THE STARK PLATFORM\u0027, \u0027SPEED UP DESIGN \u0026 DEV\u0027). The monospaced mono with wide tracking creates a distinct utilitarian signal that sits above the display heading and below the nav - a consistent navigational breadcrumb layer."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.43",
+ "-0.28px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-0.16px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "20px",
+ "1.7",
+ "0.4px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.5",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.1",
+ "-0.48px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1.1",
+ "-0.56px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "110px",
+ "1.1",
+ "-2.2px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "56px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "6px"
+ ],
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "pills",
+ "20px"
+ ],
+ [
+ "buttons",
+ "6px"
+ ],
+ [
+ "feature-cards",
+ "40px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Violet Primary Button",
+ "role": "Main conversion action"
+ },
+ {
+ "name": "Yellow Secondary Button",
+ "role": "Alternate call-to-action on dark hero"
+ },
+ {
+ "name": "Ghost Outline Button",
+ "role": "Tertiary action in navigation"
+ },
+ {
+ "name": "Pill Label",
+ "role": "Category and feature eyebrow tags"
+ },
+ {
+ "name": "Hero Stat Card",
+ "role": "Animated metric callout on hero"
+ },
+ {
+ "name": "Status Legend Card",
+ "role": "Right-side stack on hero"
+ },
+ {
+ "name": "Product Screenshot Frame",
+ "role": "Desktop and mobile app previews"
+ },
+ {
+ "name": "Feature Card with Illustration",
+ "role": "Four-column feature grid"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Highlighted Text Run",
+ "role": "Inline emphasis within headings"
+ },
+ {
+ "name": "Avatar Group + Label",
+ "role": "Social proof element"
+ },
+ {
+ "name": "Decorative Dot Pattern",
+ "role": "Hero background texture"
+ }
+ ],
+ "dos": [
+ "Use ArminGrotesk weight 900 at 110px with -2.2px letter-spacing for the primary hero headline - this is the signature wall-of-text moment.",
+ "Apply the diagonal yellow highlighter gradient (transparent 50% #fedb63 50%) to one or two words inside a dark-on-light headline to create inline emphasis.",
+ "Set primary action buttons to #381fd1 fill with white text, 6px radius, and 8pxx24px padding. Never use the midnight navy as a button fill.",
+ "Use RobotoMono 700 at 13px with 0.08em tracking for all uppercase eyebrow labels above section headings.",
+ "Alternate between midnight-navy hero sections and cream (#f6f6eb) body sections to maintain the dark-to-light page split.",
+ "Set the page background to #faf5ff (not pure white) to carry the subtle violet cast across all light surfaces.",
+ "Use #e5e7eb hairline borders at 1px for all card edges, input fields, and structural dividers - the system relies on lines, not shadows."
+ ],
+ "donts": [
+ "Do not use weight 400 or 500 for the hero display headline - the 900 weight at 110px is the brand\u0027s signature and must be deployed at maximum volume.",
+ "Do not apply the yellow highlighter gradient to more than 2-3 words in a single headline; it dilutes the marking-pen effect.",
+ "Do not use shadows for cards on the cream or light purple surfaces - the system prefers flat surfaces with hairline borders.",
+ "Do not introduce a second brand-violet shade; #381fd1 is the single chromatic action color and must remain uncontested.",
+ "Do not set body text below 16px or use letter-spacing wider than -0.01em at display sizes - the tight tracking is essential to the geometric grotesque feel.",
+ "Do not place CTA buttons on the midnight-navy hero without sufficient contrast padding or a distinctive fill - the violet and yellow must be the only bright spots on the dark field.",
+ "Do not use the cream (#f6f6eb) as a background for the hero - it is exclusively a secondary-section surface that appears after the dark fold."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Hero Field | `#10284b` | Full-bleed dark navy above the fold, with decorative dot/bar chart pattern in lighter purple |\n| 1 | Page Canvas | `#faf5ff` | Primary light background for the body of the page, faintly violet-tinted |\n| 2 | Cream Section | `#f6f6eb` | Alternating warm-cream band that provides visual contrast and houses feature sections |\n| 3 | Card Surface | `#ffffff` | Elevated white cards for product screenshots, stat displays, and content blocks |",
+ "elevation": "- **Product Screenshot Frame:** `0 20px 60px rgba(16, 40, 75, 0.15)`\n- **Hero Stat Card:** `0 8px 32px rgba(0, 0, 0, 0.2)`",
+ "imagery": "The visual language is split between two modes. On the dark hero, the imagery is abstract: a field of dots and vertical bars in lighter lilac/purple that suggests a data-visualization chart without committing to literal content. On the light sections, the imagery is functional: real product screenshots (desktop dashboard with charts, a detailed scan-results panel, and a mobile app showing project lists) float in white frames with subtle shadows. Feature cards use flat, isometric-style geometric illustrations built from simple shapes (rectangles, circles, arrows, document icons) in a controlled palette of teal, yellow, violet, and midnight navy. No photography of people or environments appears - the product UI and abstract data patterns are the entire visual vocabulary. Iconography is minimal: simple line icons in the stat cards and feature illustrations, with stroke weight proportional to their container size.",
+ "layout": "The page follows a dark-to-light vertical split. The hero is a full-bleed midnight-navy section with centered copy (headline at 110px, body text below, single yellow CTA), flanked by floating stat cards and avatar groups positioned asymmetrically. Below the fold, the layout transitions to a cream (#f6f6eb) band containing overlapping product screenshots (desktop, detail, mobile) arranged in a z-composition with intentional overlap. Feature sections use a max-width 1200px centered container with 4-column card grids on desktop. Each section begins with a centered uppercase eyebrow label, a large two-line headline (with yellow-highlighted phrase), and optional subtext. The rhythm alternates between tight, information-dense product-screenshot sections and spacious 4-column feature grids with 56px vertical gaps. Navigation is a flat top bar over the dark hero with no sticky behavior or shadow."
+}

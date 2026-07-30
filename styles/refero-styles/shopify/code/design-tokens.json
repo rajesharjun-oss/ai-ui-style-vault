@@ -1,0 +1,358 @@
+{
+ "name": "Shopify",
+ "slug": "shopify",
+ "colors": [
+ {
+ "name": "Midnight Forest",
+ "value": "#02090a",
+ "token": "--color-midnight-forest",
+ "role": "Page canvas, hero backgrounds, section backgrounds"
+ },
+ {
+ "name": "Deep Lichen",
+ "value": "#061a1c",
+ "token": "--color-deep-lichen",
+ "role": "Primary card surfaces, elevated panels, content blocks"
+ },
+ {
+ "name": "Shaded Fern",
+ "value": "#072720",
+ "token": "--color-shaded-fern",
+ "role": "Navigation bar, secondary cards, subtle panel lift"
+ },
+ {
+ "name": "Spruce Border",
+ "value": "#1e2c31",
+ "token": "--color-spruce-border",
+ "role": "Hairline card borders, divider lines, input outlines"
+ },
+ {
+ "name": "Abyss Indigo",
+ "value": "#000a1e",
+ "token": "--color-abyss-indigo",
+ "role": "Secondary surface for product/demo embeds, feature panels"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary text, button fills, heading copy, logo marks"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#a1a1aa",
+ "token": "--color-mist-gray",
+ "role": "Body text, secondary copy, muted labels, footer links"
+ },
+ {
+ "name": "Sage Gray",
+ "value": "#99b3ad",
+ "token": "--color-sage-gray",
+ "role": "Body paragraphs, description text with subtle teal warmth"
+ },
+ {
+ "name": "Faded Steel",
+ "value": "#9dabad",
+ "token": "--color-faded-steel",
+ "role": "Link text, breadcrumb labels, tertiary copy"
+ },
+ {
+ "name": "Soft Pearl",
+ "value": "#9797a2",
+ "token": "--color-soft-pearl",
+ "role": "Helper text, micro-copy, metadata labels"
+ },
+ {
+ "name": "Carbon Black",
+ "value": "#000000",
+ "token": "--color-carbon-black",
+ "role": "Icon fills, nav SVG strokes, maximum-contrast text"
+ },
+ {
+ "name": "Slate",
+ "value": "#71717a",
+ "token": "--color-slate",
+ "role": "Headings needing reduced emphasis, section eyebrows"
+ },
+ {
+ "name": "Graphite",
+ "value": "#333333",
+ "token": "--color-graphite",
+ "role": "Disabled button backgrounds, inactive control states"
+ },
+ {
+ "name": "Shopify Mint",
+ "value": "#36f4a4",
+ "token": "--color-shopify-mint",
+ "role": "Active nav indicators, focus rings, highlight tags, link hover accents - the single chromatic spark that makes interactivity feel switched on against the dark canvas"
+ },
+ {
+ "name": "Mossy Edge",
+ "value": "#133b32",
+ "token": "--color-mossy-edge",
+ "role": "Inset borders on elevated cards, subtle separator strokes with teal undertone"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Neue Haas Grotesk",
+ "token": "--font-neue-haas-grotesk",
+ "role": "Primary type system - display headlines at 70-96px weight 330-400 whisper scale rather than shout it; body at 16-18px weight 400-500; nav and UI at 14-16px weight 500-550. The ultra-light 330 weight at display sizes is the signature: it says confidence through restraint, not volume."
+ },
+ {
+ "name": "Inter Variable",
+ "token": "--font-inter-variable",
+ "role": "Secondary utility type - used in nav chrome, small UI labels, tab controls, footer micro-copy. The slightly higher x-height and more standard tracking make it more legible at compact sizes. Also serves where weight 420 fills the gap between regular and medium."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "0.72px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "0.28px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "0.32px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "0.4px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.25",
+ "0.48px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "28px",
+ "1.16",
+ "0.56px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.14",
+ "1.92px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "70px",
+ "0.96",
+ "2.8px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "208",
+ "208px",
+ "`--spacing-208`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "12px"
+ ],
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "large_panels",
+ "20px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Pill Button",
+ "role": "Main call-to-action"
+ },
+ {
+ "name": "Ghost Pill Button",
+ "role": "Secondary action"
+ },
+ {
+ "name": "Dark Surface Card",
+ "role": "Content container"
+ },
+ {
+ "name": "Raised Showcase Card",
+ "role": "Hero/feature card with lift"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Feature Image Card",
+ "role": "Merchant showcase tile"
+ },
+ {
+ "name": "Product Preview Card",
+ "role": "Inline product/storefront embed"
+ },
+ {
+ "name": "Eyebrow Label",
+ "role": "Section pre-title / category tag"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Page-level hero text"
+ },
+ {
+ "name": "Body Copy",
+ "role": "Paragraph text and descriptions"
+ },
+ {
+ "name": "Minting Link",
+ "role": "Inline text link with accent"
+ },
+ {
+ "name": "Flag/Icon Chip",
+ "role": "Country selector or status indicator"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use weight 330-400 Neue Haas Grotesk at 70-96px for display headlines - the ultra-light weight at extreme size is the system\u0027s most distinctive signature.",
+ "Set the canvas to #02090a for all pages; use #061a1c for cards and #1e2c31 for hairline borders to build the layered dark surface stack.",
+ "Use pill buttons (9999px radius) for all primary and secondary actions - square or slightly rounded buttons break the system\u0027s silhouette.",
+ "Reserve #36f4a4 for functional moments: active nav, focus rings, key link accents, highlight tags. Never use it for decorative fills or large background areas.",
+ "Apply letter-spacing 0.015-0.04em on Neue Haas Grotesk at 48px+; tight tracking on heavy display type but slightly opened on small sizes.",
+ "Use 12px radius for cards and 4px for inputs/buttons - these two values carry the geometric identity.",
+ "Set font-feature-settings to \"ss03\" on both type families to preserve the alternate character set that defines the brand\u0027s typographic feel."
+ ],
+ "doNot": [
+ "Don\u0027t use weight 600+ at display sizes - it overpowers the whisper-light headlines and collapses the system\u0027s contrast between headline and body.",
+ "Don\u0027t introduce new chromatic colors for buttons or CTAs - white pill on dark is the only primary action; ghost white-bordered pill is the only secondary.",
+ "Don\u0027t use #36f4a4 as a background fill or large surface color - it loses its power as a functional spark when applied broadly.",
+ "Don\u0027t add drop shadows beyond the subtle inset highlights - heavy shadows break the flat dark-surface language and the inset-bright border convention.",
+ "Don\u0027t use radius values other than 12px (cards), 4px (inputs), or 9999px (pills) - inconsistent rounding breaks the geometric consistency.",
+ "Don\u0027t use light-theme colors (white surfaces, dark text) except inside merchant/product embeds where the merchant\u0027s own content takes over.",
+ "Don\u0027t set body copy in #ffffff - use #99b3ad or #a1a1aa so the hierarchy between headline (white) and paragraph (muted) remains intact."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/f212ff99-24fa-4646-a0f2-46a815736ecd",
+ "referenceSite": "https://www.shopify.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-29T00:21:46.446Z",
+ "articleModifiedAt": "2026-06-05T12:44:03.588Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/a24f336b-21a1-4036-b5a9-a3705389bbdd.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/9cc24de7-c883-4563-8b38-ceaea4c22a23.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ea7f9bfe-abc2-471a-beeb-37bbae912903.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b604c3f7-1380-40d3-a1bc-f3a3beef5132.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d7cefb52-4851-44f1-aa81-ea6f53182d99.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/cb7c19ea-ee3f-4818-9289-b310c6ad4ee9.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/346a383f-0a72-4aa4-89c5-150e52a0b91a.png"
+ }
+ }
+}

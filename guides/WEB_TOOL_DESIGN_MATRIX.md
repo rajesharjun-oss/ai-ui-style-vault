@@ -17,6 +17,18 @@ Use this matrix to connect common product types to useful vault references. Trea
 | Creative studio or portfolio | Editorial rhythm, image-led case studies, distinctive typography, strong whitespace | `active-theory`, `area-17`, `dash-digital-studio`, `branding`, `247studio` | About, Blog, Media Kit, Contacts |
 | Corporate or enterprise landing page | Clear proof, calm hero, feature sections, integrations, customer logos, accessible CTAs | `ai-for-business`, `amplemarket`, `frontify`, `dock`, `atlassian` | Product Page & Landing, Integration Page, Careers, Contacts |
 
+## Website Interaction Add-Ons
+
+For sites with browsing-heavy navigation or multiple hero messages, pair the selected style with [SITE_INTERACTION_PATTERNS.md](SITE_INTERACTION_PATTERNS.md).
+
+| Need | Add-On Pattern |
+|---|---|
+| Multiple campaigns, product lines, or moods in the first viewport | Rotating Editorial Hero |
+| Product categories that need scan-friendly grouping | Product Taxonomy Mega Menu |
+| Retailer, marketplace, directory, or partner-heavy pages | Brand Logo Mega Menu |
+| About, store, support, or contact navigation that needs a featured action | Split Utility Mega Menu |
+| Shop/category browsing with recognizable product families | Icon Category Drawer |
+
 ## Page Type Pairing
 
 | Needed Page | Start In |

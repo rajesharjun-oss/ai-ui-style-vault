@@ -1,0 +1,191 @@
+{
+ "name": "Piet Oudolf",
+ "slug": "piet-oudolf",
+ "colors": [
+ {
+ "name": "Field White",
+ "value": "#ffffff",
+ "token": "--color-field-white",
+ "role": "Page canvas, text on dark inverted sections, and link underline anchor for body copy"
+ },
+ {
+ "name": "Charcoal Black",
+ "value": "#000000",
+ "token": "--color-charcoal-black",
+ "role": "SVG icon fills and absolute typographic black where maximum contrast is needed (headings against light imagery)"
+ },
+ {
+ "name": "Lead Gray",
+ "value": "#808080",
+ "token": "--color-lead-gray",
+ "role": "Primary type, all link and border lines, and the connective tissue of the system - every hairline rule, navigation separator, and body character sits here"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#b3b3b3",
+ "token": "--color-ash-gray",
+ "role": "Navigation labels, muted metadata, footer text, and the secondary tonal floor that recedes behind lead-gray working type"
+ },
+ {
+ "name": "Smoke",
+ "value": "#999999",
+ "token": "--color-smoke",
+ "role": "Subtle border accent used sparingly to separate tertiary structural elements"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Maison Neue Book",
+ "token": "--font-maison-neue-book",
+ "role": "Signature display face for project titles and section headings - 60px at weight 300 is the defining choice, letting each garden name whisper across the page rather than announce"
+ },
+ {
+ "name": "UniversLTStd-Light",
+ "token": "--font-universltstd-light",
+ "role": "Workhorse sans for navigation, country-code labels, body, footer, and all meta information - 12px handles the tiny geo tags above project names, 15px carries paragraph body at generous 1.87 leading for editorial breathing room"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.6",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.87",
+ "-",
+ "--text-body"
+ ],
+ [
+ "display",
+ "60px",
+ "1.25",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "60px",
+ "cardPadding": "40px",
+ "elementGap": "6px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "21",
+ "21px",
+ "`--spacing-21`"
+ ],
+ [
+ "22",
+ "22px",
+ "`--spacing-22`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Country Code Tag",
+ "role": "Geographic metadata for each project entry"
+ },
+ {
+ "name": "Project Title Link",
+ "role": "Primary clickable entry - the core content unit"
+ },
+ {
+ "name": "Side Margin Label",
+ "role": "Vertical section indicator"
+ },
+ {
+ "name": "Inline Link",
+ "role": "Connected text link within body or nav"
+ },
+ {
+ "name": "Search Icon",
+ "role": "Utility trigger in the top right of navigation"
+ },
+ {
+ "name": "Footer",
+ "role": "Site colophon and secondary links"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set all project and section titles at exactly 60px Maison Neue Book weight 300 - never bold, never above 300",
+ "Use 12px UniversLTStd-Light for all metadata, country codes, and side labels at 1.6 line-height",
+ "Use 15px UniversLTStd-Light for body copy and navigation at 1.87 line-height for editorial airiness",
+ "Render every link with a 1px #808080 underline offset 3px from the baseline - no fill, no border box, no background color",
+ "Indent every project link exactly 22px from the country code column so the tag and title align as a herbarium pair",
+ "Let the page breathe: use 60px horizontal padding on hero sections and 40px vertical padding on the nav bar",
+ "Keep the page at 0% colorfulness - grayscale only, no accent hues, no brand color, no filled buttons"
+ ],
+ "doNot": [
+ "Never introduce a brand color, accent, or fill of any kind - the monochromatic palette is the identity",
+ "Never set a project title below 48px or above 64px - the 60px headline scale is a fixed point of the system",
+ "Never add shadows, gradients, glows, or any form of z-axis depth to cards, buttons, or containers",
+ "Never round corners - all radii are 0px; the system is deliberately rectilinear like a printed page",
+ "Never bold body or heading type - weight 300 is the ceiling for display, weight 400 for everything else",
+ "Never place more than 6px between an inline link and its sibling, or more than 3px between text and its underline",
+ "Never use a filled button, pill, or chip - interaction is expressed only through typographic underlines"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/3cc1d30c-3b08-48af-bbf0-df195d77835f",
+ "referenceSite": "https://oudolf.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T02:45:27.355Z",
+ "articleModifiedAt": "2026-06-05T12:34:07.761Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0e303380-7c04-41c3-b7af-558ab7e61501.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/78c42de7-3a6a-4f91-9b33-4ea09f6a59c7.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0673207a-6eeb-4bab-bab4-f165b4d95e50.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/c70aaf42-0527-4e6d-9354-76da87374101.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/31ef039f-825c-4ae4-a9cb-92b2559aec09.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/99c07150-1158-449f-ae5b-15f6aad44ddf.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/ac113b1c-a820-4e2a-a2bc-abac92a60f88.png"
+ }
+ }
+}

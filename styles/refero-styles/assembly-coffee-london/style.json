@@ -1,0 +1,359 @@
+{
+ "id": "8288950a-2731-44fd-85ef-211aecd8091d",
+ "name": "Assembly Coffee London",
+ "slug": "assembly-coffee-london",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/8288950a-2731-44fd-85ef-211aecd8091d",
+ "referenceSite": "https://assemblycoffee.co.uk",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:18:07.021Z",
+ "articleModifiedAt": "2026-07-03T15:41:11.464Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8765a1de-348c-46ad-8cae-0ce3fd44f17f.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/ac247b5e-5a05-42bc-b6ec-0be55b305197.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/1275781a-2157-4193-8de2-478254ba0c92.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b83232d3-a603-4d39-be80-5d5a036d6d0b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/37012ca8-64c8-48ea-b9a7-351f57e2c481.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/7827703a-409b-4969-b33b-f15ebb8eeb45.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/cd578b20-d281-4780-90f7-0a7d350a5f00.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Embers in a dark roastery. A near-black canvas with warm, low-lit product photography and italic serif labels - the feeling of a specialty coffee menu printed in a midnight zine.",
+ "summary": "Explore Assembly Coffee London\u0027s dark E-commerce design system: Obsidian #0e1311, Pure Black #000000 colors, GT America Standard, ID00 Serif typography, and...",
+ "colors": [
+ {
+ "name": "Obsidian",
+ "value": "#0e1311",
+ "token": "--color-obsidian",
+ "role": "Primary canvas - page backgrounds, hero sections, card surfaces. The near-black with a faint green undertone makes white type glow without feeling sterile"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Deepest surface, borders, and type. Used for maximum-contrast outlines, product box photography backgrounds, and the darkest UI strokes"
+ },
+ {
+ "name": "Ash Charcoal",
+ "value": "#1a1a1a",
+ "token": "--color-ash-charcoal",
+ "role": "Secondary surface and border tone - slightly lifted from black for subtle layering on nav, dividers, and outlined button edges"
+ },
+ {
+ "name": "Graphite",
+ "value": "#333333",
+ "token": "--color-graphite",
+ "role": "Mid-neutral for secondary text, input borders, and card outlines where pure black is too heavy"
+ },
+ {
+ "name": "Stone Gray",
+ "value": "#808080",
+ "token": "--color-stone-gray",
+ "role": "Image placeholder and muted background tone - holds space where product photography is loading or absent"
+ },
+ {
+ "name": "Silver",
+ "value": "#b3b3b3",
+ "token": "--color-silver",
+ "role": "De-emphasized borders and helper text on light surfaces"
+ },
+ {
+ "name": "Bone",
+ "value": "#ffffff",
+ "token": "--color-bone",
+ "role": "Primary text on dark canvases, price-chip fills, inverted button surfaces. The brightest accent in an otherwise low-key palette"
+ },
+ {
+ "name": "Linen",
+ "value": "#f6f7f2",
+ "token": "--color-linen",
+ "role": "Warm off-white surface for inverted sections, price pill backgrounds, and soft button fills. Sits between bone and the khaki family"
+ },
+ {
+ "name": "Sand Khaki",
+ "value": "#dfdbca",
+ "token": "--color-sand-khaki",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces."
+ },
+ {
+ "name": "Lichen Green",
+ "value": "#cadcac",
+ "token": "--color-lichen-green",
+ "role": "Green state accent for badges, validation surfaces, and short status labels."
+ },
+ {
+ "name": "Citron",
+ "value": "#faf080",
+ "token": "--color-citron",
+ "role": "Yellow state accent for badges, validation surfaces, and short status labels."
+ },
+ {
+ "name": "Antique Gold",
+ "value": "#cfa53b",
+ "token": "--color-antique-gold",
+ "role": "Accent stroke and border for promotional or limited-availability badges. Reads as aged brass - never neon"
+ },
+ {
+ "name": "Olive Bark",
+ "value": "#4d4a31",
+ "token": "--color-olive-bark",
+ "role": "Dark olive link/announcement background - the deep green-brown of the top bar, grounded and earthy"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "GT America Standard",
+ "token": "--font-gt-america-standard",
+ "role": "The UI workhorse: navigation labels, body copy, button text, metadata, footer text, cart count, form fields. Weight 400 for body, 500 for nav items, 600 sparingly for tiny uppercase labels like \u0027FEATURED\u0027. At 11-14px it carries the entire structural layer."
+ },
+ {
+ "name": "ID00 Serif",
+ "token": "--font-id00-serif",
+ "role": "The editorial voice: product names, section headings, the \u0027Shop Now\u0027 and \u0027Limited Time Offer\u0027 labels in the hero, the \u0027Independent specialty coffee roaster...\u0027 manifesto copy. Almost always set in italic - this is the signature move. The italic serif against a black canvas is what makes the site read as a curated coffee journal rather than a store."
+ },
+ {
+ "name": "Helvetica",
+ "token": "--font-helvetica",
+ "role": "Fallback / system substitute for small tertiary text and icons where GT America is not loaded."
+ },
+ {
+ "name": "reviewsio-font",
+ "token": "--font-reviewsio-font",
+ "role": "reviewsio-font - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "21px",
+ "1.25",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.25",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "36px",
+ "1.2",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "42px",
+ "1.2",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1400px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "4px"
+ ],
+ [
+ "cards",
+ "4px"
+ ],
+ [
+ "badges",
+ "4px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ],
+ [
+ "pricePills",
+ "60px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Announcement Bar",
+ "role": "Top-of-page utility strip"
+ },
+ {
+ "name": "Primary Header / Nav",
+ "role": "Site-wide navigation"
+ },
+ {
+ "name": "Editorial Hero - Featured Column",
+ "role": "Left-side hero index"
+ },
+ {
+ "name": "Product Hero - Studio Photograph",
+ "role": "Right-side hero visual"
+ },
+ {
+ "name": "Editorial Manifesto Block",
+ "role": "Brand statement section"
+ },
+ {
+ "name": "Product Card (Dark)",
+ "role": "Catalog product tile"
+ },
+ {
+ "name": "Price Pill",
+ "role": "Inline price chip"
+ },
+ {
+ "name": "Editorial Tag Badge",
+ "role": "Category / status label"
+ },
+ {
+ "name": "Outlined Text Button",
+ "role": "Primary navigation action"
+ },
+ {
+ "name": "Search Icon Button",
+ "role": "Header utility"
+ },
+ {
+ "name": "Cart Indicator",
+ "role": "Header utility"
+ },
+ {
+ "name": "Pairing Banner (Red Box)",
+ "role": "Co-branded event block"
+ }
+ ],
+ "dos": [
+ "Set headlines and product names in ID00 Serif italic - the italic serif is the brand\u0027s voice. Setting them in roman or in the sans destroys the editorial feel.",
+ "Keep the canvas near-black (#0e1311 or #000000) and let bone (#ffffff) type carry the hierarchy. Reach for colored surfaces only for inverted sections or badge fills.",
+ "Use 4px radii on cards, buttons, inputs, and badges. The 60px radius is reserved exclusively for the cream price pill - do not apply it to other components.",
+ "Place product photography on warm, low-lit studio backdrops (ember red, dark amber, charcoal). Avoid white or bright backgrounds - they break the dark-gallery mood.",
+ "Use badge colors (citron #faf080, lichen #cadcac, antique gold #cfa53b) sparingly and only for editorial tags, not for actions or alerts.",
+ "Make CTAs typographic links in ID00 Serif italic, not filled buttons. A 4px-radius ghost button is acceptable only for secondary utility actions like the cart selector.",
+ "Separate layers with 1px hairlines in #1a1a1a or #dfdbca, not with shadows. The system runs on border contrast, not elevation."
+ ],
+ "donts": [
+ "Do not introduce a filled chromatic CTA button. The system is intentionally CTA-less at the primary level - actions are italic serif links.",
+ "Do not set body copy or navigation in the serif. GT America is for UI; ID00 Serif is for editorial and product naming. Mixing the two roles dilutes both.",
+ "Do not use bright white (#ffffff) as a page background. The system is dark-first; invert only for price chips, modal overlays, and the rare light section.",
+ "Do not apply saturated brand colors to backgrounds, cards, or text. The chromatic palette exists only as small badge fills and hairlines.",
+ "Do not use large drop shadows. The 10px blur at 5% opacity is the ceiling - anything heavier reads as Material/iOS, not editorial gallery.",
+ "Do not set headlines in weight 600 or 700. The serif runs 300-400 italic and the sans runs 400-500. Anything bolder breaks the whisper-quiet tone.",
+ "Do not place product photography on a white or light-gray background. Always shoot against a warm, dark studio tone to maintain the ember-roastery atmosphere."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Obsidian Canvas | `#0e1311` | Page and section background - the default dark surface |\n| 1 | Lifted Black | `#1a1a1a` | Subtle elevation on nav, outlined controls, and card borders |\n| 2 | Warm Card | `#dfdbca` | Product card border and hairline dividers - the khaki undertone that warms the dark UI |\n| 3 | Linen Invert | `#f6f7f2` | Inverted light surface for price chips, soft button fills, and occasional light-on-light sections |\n| 4 | Bone Overlay | `#ffffff` | Highest-elevation surface - full-invert buttons, modal backgrounds, and badge fills |",
+ "elevation": "- **Product card:** `rgba(0, 0, 0, 0.05) 0px 2.5px 10px -4px`\n- **Lifted card:** `rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px`",
+ "imagery": "Photography is the dominant visual medium, and it is shot like editorial still-life: products on warm studio backdrops (deep ember-red, dark amber, charcoal) with soft directional lighting and a single visible floor shadow. No lifestyle imagery, no hands, no people, no cafe interiors - the object (a coffee bag, a V60 dripper on a timber block, a black roastery box) is always the hero, shot at close-to-product scale. Treated backgrounds are slightly desaturated, low-key, and warm - the product is in color, the world around it is in shadow. Iconography is minimal: a single chat-bubble glyph in a bone circle bottom-right, and thin line icons in the header. No illustration, no abstract graphics, no gradients applied to UI - gradients appear only in the hero backdrop as a soft ember wash behind the photograph.",
+ "layout": "Full-width dark sections stack vertically with generous vertical breathing room (80px+ between sections). No centered max-width container; content stretches edge-to-edge and uses generous left/right gutters. The hero is a two-column split: a left \u0027index\u0027 column (about 30% width) of typographic editorial entries, and a right \u0027photograph\u0027 column (about 55% width) holding a single product image, with empty black space at the far right acting as breathing room. Below the hero, sections alternate between centered prose (the manifesto block), two-column product+text splits, and wide product card grids. The product grid is 3 columns on desktop, 2 on tablet, with cards that are roughly square and tightly packed. Navigation is a centered horizontal bar in the header. The overall rhythm: quiet black, loud photograph, quiet black, quiet copy, loud photograph - a gallery cadence, not a SaaS cadence."
+}

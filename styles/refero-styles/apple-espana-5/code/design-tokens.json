@@ -1,0 +1,333 @@
+{
+ "name": "Apple (Espana)",
+ "slug": "apple-espana-5",
+ "colors": [
+ {
+ "name": "Fog White",
+ "value": "#f5f5f7",
+ "token": "--color-fog-white",
+ "role": "Dominant page canvas, section backgrounds, footer"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Nav background, button text, elevated surface"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#1d1d1f",
+ "token": "--color-obsidian",
+ "role": "Primary headline and body text - the only true dark for editorial content"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "Nav glyphs, link underlines, dark text on light surfaces"
+ },
+ {
+ "name": "Pewter",
+ "value": "#707070",
+ "token": "--color-pewter",
+ "role": "Secondary body text, footer copy, muted helper text"
+ },
+ {
+ "name": "Slate",
+ "value": "#505050",
+ "token": "--color-slate",
+ "role": "Tertiary body text and subdued link states"
+ },
+ {
+ "name": "Graphite",
+ "value": "#474747",
+ "token": "--color-graphite",
+ "role": "Nav and link text at rest - sits between body text and pure black"
+ },
+ {
+ "name": "Iron",
+ "value": "#333333",
+ "token": "--color-iron",
+ "role": "Nav icons (fill) and button text - the dominant dark accent in chrome"
+ },
+ {
+ "name": "Silver",
+ "value": "#858585",
+ "token": "--color-silver",
+ "role": "Icon strokes, tertiary glyphs, muted UI controls"
+ },
+ {
+ "name": "Pale Mist",
+ "value": "#d6d6d6",
+ "token": "--color-pale-mist",
+ "role": "Hairline dividers, subtle borders between content blocks"
+ },
+ {
+ "name": "Ash Veil",
+ "value": "#e2e2e5",
+ "token": "--color-ash-veil",
+ "role": "Button backgrounds for secondary filled actions (dark mode variant)"
+ },
+ {
+ "name": "Iris Blue",
+ "value": "#0071e3",
+ "token": "--color-iris-blue",
+ "role": "Filled primary action buttons - the sole chromatic CTA, signals the only commitment the page asks of you"
+ },
+ {
+ "name": "Sapphire",
+ "value": "#0066cc",
+ "token": "--color-sapphire",
+ "role": "Outlined action buttons, body and link text - darker blue for outlined variants and inline links"
+ },
+ {
+ "name": "Sky Signal",
+ "value": "#2997ff",
+ "token": "--color-sky-signal",
+ "role": "Outlined action buttons on dark sections, secondary CTAs - lighter blue for ghost buttons against dark hero bands"
+ },
+ {
+ "name": "Cornflower",
+ "value": "#509be7",
+ "token": "--color-cornflower",
+ "role": "Hover state for inline links, decorative link accent"
+ },
+ {
+ "name": "Ice Wash",
+ "value": "#aad0f6",
+ "token": "--color-ice-wash",
+ "role": "Gradient section background wash - the pale blue tint behind iPad Air / MacBook Air hero bands"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "SF Pro Display",
+ "token": "--font-sf-pro-display",
+ "role": "Product headlines, large editorial display text. Used at 56px/600 for hero titles like \u0027MacBook Air\u0027 and 40px/600 for section subheads. The tighter 1.07 line height at 56px is signature - it lets the headline sit as a single visual block without breathing room between lines."
+ },
+ {
+ "name": "SF Pro Text",
+ "token": "--font-sf-pro-text",
+ "role": "Navigation, body copy, buttons, footer, subheads below display. The 17px/400/1.47 body setting appears 221 times - this is the workhorse. The 12px/400/1.33 setting handles everything in the footer and micro-copy. 44px/400/1.00 is the nav logo wordmark."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "-0.12px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "17px",
+ "1.47",
+ "-0.37px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "21px",
+ "1.19",
+ "0.23px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.47",
+ "-0.39px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "34px",
+ "1.47",
+ "-0.37px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "56px",
+ "1.07",
+ "-0.28px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "980px",
+ "sectionGap": "80-120px",
+ "cardPadding": "0px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "0px"
+ ],
+ [
+ "tags",
+ "980px"
+ ],
+ [
+ "buttons",
+ "980px"
+ ],
+ [
+ "sections",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Filled Primary Button",
+ "role": "The single chromatic CTA on any page - signals the most important action"
+ },
+ {
+ "name": "Outlined Secondary Button",
+ "role": "Companion action to the filled primary, typically \u0027Comprar\u0027 or \u0027Comprar un iPhone\u0027"
+ },
+ {
+ "name": "Ghost Outline Button (Dark Surface)",
+ "role": "Outlined action variant used on dark hero bands like Apple TV+ carousel"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline links in body copy, footer terms, and the global message bar"
+ },
+ {
+ "name": "Global Nav Bar",
+ "role": "Persistent top navigation across all pages"
+ },
+ {
+ "name": "Global Message Bar",
+ "role": "Promotional ribbon below the nav - financing offers, launch announcements"
+ },
+ {
+ "name": "Product Hero Section",
+ "role": "The dominant unit of the page - one product per full-width section"
+ },
+ {
+ "name": "Button Pair (CTA Cluster)",
+ "role": "The action duo under every product headline"
+ },
+ {
+ "name": "Entertainment Carousel",
+ "role": "Full-bleed horizontal scroll for Apple TV+ content"
+ },
+ {
+ "name": "Product Lineup Display",
+ "role": "Showcase of product variants (iPhone 17 colors, MacBook angles)"
+ },
+ {
+ "name": "iPad Air Wordmark",
+ "role": "Product name with mixed-weight treatment"
+ },
+ {
+ "name": "Footer Link List",
+ "role": "Dense grid of navigational and legal links at the page bottom"
+ },
+ {
+ "name": "Legal / Terms Block",
+ "role": "Fine-print legal text at the very bottom of the page"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use border-radius 980px on all buttons and pill tags - this is the system\u0027s defining shape language.",
+ "Use SF Pro Display weight 600 for product headlines at 40px or 56px; never use display weight 400 for headlines.",
+ "Center all hero text stacks horizontally - the system is symmetrical, not left-aligned.",
+ "Use #0071e3 exclusively for filled primary action buttons; use #0066cc for outlined buttons and inline links. These are the only two blues in the action set.",
+ "Separate product sections with a change in background tint (#f5f5f7 #aad0f6 dark photo), never with a border or divider line.",
+ "Set body text at 17px/400/1.47 with letter-spacing -0.022em - this is the workhorse setting and appears in 221 instances.",
+ "Use a 44px-tall nav bar with backdrop-filter blur(20px) saturate(1.8) - the frosted glass effect is essential to the page\u0027s weightless feel."
+ ],
+ "doNot": [
+ "Don\u0027t add box-shadows to buttons, cards, or sections - elevation comes from color contrast, not shadows.",
+ "Don\u0027t use the brand blue (#0071e3) for anything other than filled primary action buttons; links and outlines use #0066cc.",
+ "Don\u0027t left-align product headlines; the system is always centered.",
+ "Don\u0027t use border-radius values below 980px on buttons - no square buttons, no 4px or 8px pill variants.",
+ "Don\u0027t place horizontal rules or border lines between sections; use background color shifts instead.",
+ "Don\u0027t use SF Pro Display at sizes below 21px; that family is reserved for headlines and large body. Use SF Pro Text for everything under 21px.",
+ "Don\u0027t introduce secondary accent colors, gradients, or decorative backgrounds within the product hero areas - the product render is the only visual interest."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/a4f123f2-cd4b-4d26-998f-a3d3ee158024",
+ "referenceSite": "https://apple.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-03-06T10:42:58.000Z",
+ "articleModifiedAt": "2026-07-03T10:08:37.091Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7be36bf9-c976-4301-ab19-527f776fb3c5.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/cc33c951-71a9-44db-bbfa-ddf969177fd6.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/d661d50a-83ee-4f86-8c44-25708bd2e75e.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/674dca20-1e36-4199-b592-97e3c6e118e2.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/059fa92b-38e7-42ac-ba7a-ec7d5d1a8048.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/2e4ea107-dd08-47e8-8c60-d48e7a38dd96.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/cb94ca78-5955-40cf-8093-a94374db66ff.png"
+ }
+ }
+}

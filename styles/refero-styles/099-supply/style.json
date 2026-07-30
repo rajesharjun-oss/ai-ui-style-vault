@@ -1,0 +1,276 @@
+{
+ "id": "e4a7b5f3-f393-4f6d-b4a5-ecf874024bed",
+ "name": "099 SUPPLY",
+ "slug": "099-supply",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e4a7b5f3-f393-4f6d-b4a5-ecf874024bed",
+ "referenceSite": "https://099.supply",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-03-09T13:13:07.000Z",
+ "articleModifiedAt": "2026-07-03T11:22:28.077Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/42002c4e-46e9-41ef-b0a2-e7e2030ba77d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f34c46ae-5e40-40f7-acf7-958f6ed0c46c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b0ea3706-cfbf-4465-a7ab-2c8d3f9b0168.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/71e4ba78-22fa-4d12-aa56-db4c0c26d2cf.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/e777e989-d115-4d94-824a-396ecd26253b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/b5989a1b-8ba4-42e5-860f-2cd95f801154.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Design",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Design",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Gallery wall of black-on-white objects",
+ "summary": "Explore 099 SUPPLY\u0027s light Design design system: Canvas White #ffffff, Ink #101010 colors, Soehne Mono typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Page background, card surfaces, button backgrounds, link containers - the gallery wall everything sits on"
+ },
+ {
+ "name": "Ink",
+ "value": "#101010",
+ "token": "--color-ink",
+ "role": "Primary headings, body text, and icon fills on light surfaces. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#000000",
+ "token": "--color-charcoal",
+ "role": "Pure-black decorative fills for mockup rendering and high-contrast object silhouettes"
+ },
+ {
+ "name": "Muted Hard",
+ "value": "#222222",
+ "token": "--color-muted-hard",
+ "role": "Dark surface tint for elevated dark components and modal/overlay backgrounds; Dark surface fill for elevated panels, toggle/loader component backgrounds"
+ },
+ {
+ "name": "Muted",
+ "value": "#555555",
+ "token": "--color-muted",
+ "role": "Secondary body text, supporting copy, muted helper labels"
+ },
+ {
+ "name": "Muted Soft",
+ "value": "#999999",
+ "token": "--color-muted-soft",
+ "role": "Section headings, icon fills, badge text, hover border state - the softest readable gray"
+ },
+ {
+ "name": "Border Soft",
+ "value": "#c8c8c8",
+ "token": "--color-border-soft",
+ "role": "Soft hairline borders for less prominent dividers and input outlines"
+ },
+ {
+ "name": "Border Subtle",
+ "value": "#e0e0e0",
+ "token": "--color-border-subtle",
+ "role": "Card edges, link borders, subtle dividers between tiles - the dominant hairline color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Soehne Mono",
+ "token": "--font-soehne-mono",
+ "role": "The exclusive typeface - used for every heading, body, badge, link, icon, and label. Weight 400 dominates; weight 500 is reserved for the 26px hero label. All non-body sizes render in uppercase with tracking between 0.02em and 0.18em. The monospaced face reinforces the museum-catalog, specimen-tag atmosphere."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.2",
+ "0.8px",
+ "--text-caption"
+ ],
+ [
+ "label",
+ "26px",
+ "1.2",
+ "4.68px",
+ "--text-label"
+ ],
+ [
+ "display",
+ "54px",
+ "1",
+ "1.35px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "80px",
+ "cardPadding": "",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "badges",
+ "0px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Mockup Tile Card",
+ "role": "Primary unit - displays a 3D mockup asset with catalog-style metadata strip"
+ },
+ {
+ "name": "Framer Component Tile Card",
+ "role": "Second tile variant for interactive component previews"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Section label above each grid block"
+ },
+ {
+ "name": "Primary Button",
+ "role": "Filled dark button for \u0027Buy\u0027 and conversion actions"
+ },
+ {
+ "name": "Ghost Button",
+ "role": "Secondary outlined button paired with primary"
+ },
+ {
+ "name": "Metadata Label",
+ "role": "Catalog-style tag below each tile"
+ },
+ {
+ "name": "Modal Panel",
+ "role": "Overlay for copy/info interactions"
+ },
+ {
+ "name": "Theme Toggle",
+ "role": "Interactive component demo - pill switch"
+ },
+ {
+ "name": "Loader Ring",
+ "role": "Circular progress component demo"
+ },
+ {
+ "name": "Browser Frame",
+ "role": "Windowed screenshot frame component"
+ },
+ {
+ "name": "Compare Slider",
+ "role": "Before/after image comparison component"
+ },
+ {
+ "name": "Table Component",
+ "role": "Structured data table demo"
+ },
+ {
+ "name": "Form Builder Checkbox",
+ "role": "Form control component demo"
+ },
+ {
+ "name": "Counter Display",
+ "role": "Large numeric typographic component"
+ }
+ ],
+ "dos": [
+ "Use only Soehne Mono (or JetBrains Mono substitute) for every piece of text - no second typeface.",
+ "Set every label, badge, and metadata strip in uppercase with tracking between 0.02em and 0.18em.",
+ "Render all buttons at 9999px radius and all cards/tiles at 8px radius - the contrast is the system.",
+ "Use 1px solid borders in #e0e0e0 for default state, #999999 for hover, and #101010 for strong emphasis.",
+ "Keep all mockup assets on pure white backgrounds centered within their tiles - the object IS the content.",
+ "Maintain the catalog metadata pattern: asset ID left (\u0027M 005\u0027), asset name right (\u0027IPHONE\u0027), separated by a horizontal divider.",
+ "Use #101010 as the sole fill for dark elements - buttons, strokes, silhouettes, checkmark icons, loader arcs."
+ ],
+ "donts": [
+ "Never introduce chromatic color - no blues, greens, reds, or any hue. The system is monochrome.",
+ "Never apply box-shadow, drop-shadow, or any elevation effect. Depth comes from hairline borders only.",
+ "Never use a sans-serif or proportional typeface. Mono is non-negotiable.",
+ "Never use background gradients except for the single conic-gradient loader pattern (#101010 #c8c8c8).",
+ "Never set border-radius below 4px on cards or above 9999px on buttons - the radius vocabulary is fixed.",
+ "Never use bold (600+) or light (300-) weights. Stay at 400, with 500 reserved for the 26px section heading.",
+ "Never mix section heading style - always 26px uppercase #999999 with 0.18em tracking, nothing decorative."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#ffffff` | Page background - the gallery wall. |\n| 1 | Card | `#ffffff` | Individual mockup and component tile surfaces, visually identical to canvas but defined by a 1px border. |\n| 2 | Elevated Dark | `#222222` | Dark mode toggle, loader ring fills, modal overlays - the only surface that breaks from white. |",
+ "elevation": "Zero shadows. All depth is conveyed through 1px hairline borders (#e0e0e0 default, #999999 on hover, #101010 for strong emphasis). The absence of shadows is deliberate - the museum-plinth aesthetic requires flat, paper-thin surfaces where objects sit on the same plane as their frames.",
+ "imagery": "Pure UI, no decorative photography. The only imagery is the mockup assets themselves - high-fidelity 3D product renders (iPhone, hoodie, Apple Watch, drink carton, cap, Pro Display, MacBook Pro, business card, digital tablet) rendered in pure black or near-black against white. Illustrations are limited to UI component previews (theme toggle, loader ring, kinetic text dot sphere, grid loader plus-pattern, compare slider garment). Icon style: thin 1-2px stroke outlines, monochrome #555 or #101010, no fills. No lifestyle, no atmosphere, no context - each object is isolated like a product shot for a catalog.",
+ "layout": "Full-bleed white canvas with no max-width container - content extends edge to edge. Hero is a centered site title area (the \u0027099\u0027 counter in large mono) followed by section grids. Each section begins with a left-aligned uppercase heading (\u00273D MOCKUPS\u0027, \u0027FRAMER COMPONENTS\u0027) in muted gray with wide tracking, then a uniform 5-column tile grid with consistent 12px gaps between tiles. Tiles are identically sized and shaped - a square-ish rectangle containing a centered asset and a metadata strip footer. No alternating bands, no dark sections, no asymmetric compositions. The grid is the page: museum-row after museum-row of black objects on white. Navigation is minimal - likely a top bar with category links in the same tracked-out uppercase treatment."
+}

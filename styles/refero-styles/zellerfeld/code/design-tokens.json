@@ -1,0 +1,325 @@
+{
+ "name": "Zellerfeld",
+ "slug": "zellerfeld",
+ "colors": [
+ {
+ "name": "Electric Cobalt",
+ "value": "#000aff",
+ "token": "--color-electric-cobalt",
+ "role": "New In badges, active nav pill, current-slide indicator, claim moments - the only chromatic signal in the system, used sparingly so it reads as activation not decoration"
+ },
+ {
+ "name": "Pale Iris",
+ "value": "#e5e7ff",
+ "token": "--color-pale-iris",
+ "role": "New Color badge fill, soft highlight wash, tinted surface for variant callouts - a desaturated ghost of the cobalt that whispers color without breaking the monochrome regime"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#111111",
+ "token": "--color-ink-black",
+ "role": "Primary text, default borders, icon strokes, hairline dividers - the dominant structural color across headings, lists, and links"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Plaster",
+ "value": "#ecedee",
+ "token": "--color-plaster",
+ "role": "Secondary surface for product cards, nav bar background, soft elevation tier above the canvas"
+ },
+ {
+ "name": "Slate",
+ "value": "#a1a4aa",
+ "token": "--color-slate",
+ "role": "Card border tone, neutral button fill, muted button border - the gray that defines card edges without darkening them"
+ },
+ {
+ "name": "Fog",
+ "value": "#d7d7d7",
+ "token": "--color-fog",
+ "role": "Light card border, divider lines, inactive surface tint"
+ },
+ {
+ "name": "Graphite",
+ "value": "#444955",
+ "token": "--color-graphite",
+ "role": "List and navigation borders, structural dividers between rows and cells"
+ },
+ {
+ "name": "Ash",
+ "value": "#737780",
+ "token": "--color-ash",
+ "role": "Secondary text, muted body copy, de-emphasized metadata, link rest state"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#3b3b3b",
+ "token": "--color-charcoal",
+ "role": "Body text alternate, subtle dark surface for inset blocks"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Roobert",
+ "token": "--font-roobert",
+ "role": "Primary brand typeface - used for everything from 13px body to 128px hero. The -0.04em tracking is consistent across all sizes, pulling the lowercase wordmark into a tight, sculpted mass. Weights escalate by context: 400 for body and UI, 500 for emphasized labels, 600 for product names, 700 for large display."
+ },
+ {
+ "name": "Space Mono",
+ "token": "--font-space-mono",
+ "role": "Technical metadata - prices ( 189,00), Top 10 rank numerals, ticker marks, shop name credits. Drops in where the page needs to feel like a spec sheet rather than marketing copy."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.4",
+ "-0.52px",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "16px",
+ "1.4",
+ "-0.64px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.35",
+ "-0.8px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.2",
+ "-1.28px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.15",
+ "-1.6px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "64px",
+ "1",
+ "-2.56px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "128px",
+ "1",
+ "-5.12px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "pills",
+ "30px"
+ ],
+ [
+ "badges",
+ "30px"
+ ],
+ [
+ "images",
+ "10px"
+ ],
+ [
+ "inputs",
+ "10px"
+ ],
+ [
+ "buttons",
+ "10px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Announcement Bar",
+ "role": "Top-of-page promotional strip"
+ },
+ {
+ "name": "Main Navigation",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Hero with Background Imagery",
+ "role": "Above-the-fold product feature"
+ },
+ {
+ "name": "Floating Product Info Card",
+ "role": "In-hero product buy card"
+ },
+ {
+ "name": "Ranked Product Card (Top 10)",
+ "role": "Numbered editorial product list item"
+ },
+ {
+ "name": "Standard Product Card (New Releases)",
+ "role": "Grid product display card"
+ },
+ {
+ "name": "New In Badge",
+ "role": "Status indicator for fresh products"
+ },
+ {
+ "name": "Sold Out Badge",
+ "role": "Inventory status indicator"
+ },
+ {
+ "name": "New Color Badge",
+ "role": "Variant announcement"
+ },
+ {
+ "name": "See All Button",
+ "role": "Section-end navigation"
+ },
+ {
+ "name": "Featured In Media Bar",
+ "role": "Press credentials strip"
+ },
+ {
+ "name": "Section Header with Carousel Arrows",
+ "role": "List section title"
+ },
+ {
+ "name": "Brand Logo Thumbnail",
+ "role": "Partner brand mark in product card"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Roobert at -0.04em tracking for all UI text; never let letter-spacing drift to 0 or positive values",
+ "Reserve #000aff exclusively for New In badges, the active Shop pill, and current-state indicators - no more than 3% of any screen should carry this color",
+ "Apply 10px border-radius to all cards, buttons, inputs, and images; 30px only for pill-shaped badges",
+ "Use Space Mono for prices, rank numerals, and \u0027By {brand}\u0027 credit lines - never for headlines or body",
+ "Set product card surfaces to #ecedee (Plaster), not #ffffff, to create a gentle tier above the white canvas",
+ "Anchor product card metadata (brand mark, name, price) to a 16-20px padding from the card edge with a consistent 40x40 brand thumbnail",
+ "Keep the hero image full-bleed and let overlays sit on the bottom third - the shoe should be the visual subject, the UI floats on top"
+ ],
+ "doNot": [
+ "Don\u0027t introduce new chromatic colors beyond the single cobalt (#000aff) and its pale variant (#e5e7ff)",
+ "Don\u0027t use drop shadows on product cards - the system relies on surface color stepping and 10px radius for separation",
+ "Don\u0027t set type larger than 128px (display) or smaller than 12px (Space Mono micro labels)",
+ "Don\u0027t use rounded radii other than 10px and 30px - no fully square corners, no fully circular elements",
+ "Don\u0027t center body text or metadata; left-align all product information including the \u0027By {brand}\u0027 credit",
+ "Don\u0027t apply color to icons - keep all line icons monochrome Ink (#111) at 1.5px stroke",
+ "Don\u0027t separate badge variants by shape - all status badges share the 30px pill; differentiate by fill color only"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/a6efcd16-dcd8-435b-9bd6-8c590589b424",
+ "referenceSite": "https://www.zellerfeld.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:19:24.463Z",
+ "articleModifiedAt": "2026-07-03T15:47:43.879Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0694f798-151e-44f5-bdc4-a153df8b6981.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/85afbbda-3767-43cf-8846-f93e9fca0a0e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/51de4413-b955-483c-bab3-a6d0af4c0246.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/3d236159-d1b6-4189-abc4-1d089b13dea3.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/1933cfb5-6722-4f72-8849-04e4487bddf1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f851754d-03a1-4a86-b885-2c43c3914caf.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ }
+}

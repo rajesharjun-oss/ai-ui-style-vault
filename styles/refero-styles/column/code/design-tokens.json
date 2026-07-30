@@ -1,0 +1,427 @@
+{
+ "name": "Column",
+ "slug": "column",
+ "colors": [
+ {
+ "name": "Indigo Navy",
+ "value": "#111a4a",
+ "token": "--color-indigo-navy",
+ "role": "Primary brand color - filled CTAs, navigation active states, heading text, logo wordmark. The deep violet-tinted navy carries institutional weight without going pure black; pairs with white text for the site\u0027s most confident button"
+ },
+ {
+ "name": "Midnight Ink",
+ "value": "#011821",
+ "token": "--color-midnight-ink",
+ "role": "Dark surface and emphasis text - product card backgrounds, high-contrast body copy. Near-gray with a cool blue-green undertone; works as the dark-mode substrate when a section needs to invert"
+ },
+ {
+ "name": "Slate Ink",
+ "value": "#3b3e47",
+ "token": "--color-slate-ink",
+ "role": "Secondary heading and body text - slightly warmer than Midnight Ink, used where pure black feels too harsh against the light canvas"
+ },
+ {
+ "name": "Steel",
+ "value": "#7c7f88",
+ "token": "--color-steel",
+ "role": "Body and link text - the dominant muted text color (245 occurrences in body). Neutral gray-blue that reads as quiet, never washed out"
+ },
+ {
+ "name": "Fog",
+ "value": "#a9acb6",
+ "token": "--color-fog",
+ "role": "Icon strokes, tertiary borders, placeholder text. Mid-gray that separates without competing with text"
+ },
+ {
+ "name": "Mist",
+ "value": "#cbcccf",
+ "token": "--color-mist",
+ "role": "Lightest body text - captions, disclaimers, fine print. Stays legible on white but recedes visually"
+ },
+ {
+ "name": "Silver Lining",
+ "value": "#e3e4e8",
+ "token": "--color-silver-lining",
+ "role": "Card borders, input borders, divider lines. The structural hairline color - appears wherever two surfaces need to separate without shadow"
+ },
+ {
+ "name": "Cloud Canvas",
+ "value": "#f6f6f8",
+ "token": "--color-cloud-canvas",
+ "role": "Page background - the dominant canvas color. Near-white with a barely-perceptible cool tint that keeps the page from feeling sterile"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, nav background, button fills, secondary text. The top layer of the surface stack"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#232730",
+ "token": "--color-charcoal",
+ "role": "Nav icons, dark icon strokes - slightly bluer than pure black, used in icon contexts where Slate Ink would be too warm"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#12161e",
+ "token": "--color-obsidian",
+ "role": "Deep icon strokes and nav elements. Near-black with a blue undertone that matches the indigo navy family"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Maximum contrast text, dark fills in illustrations. Used sparingly - Indigo Navy or Slate Ink carry most text work"
+ },
+ {
+ "name": "Signal Orange",
+ "value": "#ec652b",
+ "token": "--color-signal-orange",
+ "role": "Accent CTA fill and featured card background - one of the few saturated warm colors in the system. Appears on the Brex highlight card and select buttons to draw the eye without feeling decorative"
+ },
+ {
+ "name": "Peach Glow",
+ "value": "#f2936b",
+ "token": "--color-peach-glow",
+ "role": "Soft accent surface - lighter companion to Signal Orange, used as card backgrounds where warmth is needed at lower intensity"
+ },
+ {
+ "name": "Seafoam 600",
+ "value": "#44b48b",
+ "token": "--color-seafoam-600",
+ "role": "Code and data text - the signature color for JSON keys, identifiers, and financial values in code snippets. Also used for chart data points and growth visualizations"
+ },
+ {
+ "name": "Seafoam 700",
+ "value": "#167e6c",
+ "token": "--color-seafoam-700",
+ "role": "Darker seafoam for strokes, chart lines, and icon accents in data contexts. Anchors the seafoam scale on darker backgrounds"
+ },
+ {
+ "name": "Seafoam 400",
+ "value": "#94efb7",
+ "token": "--color-seafoam-400",
+ "role": "Highlighted code text - string values, URLs, API endpoints in code blocks. The lightest seafoam, reads as green-tinted monospace"
+ },
+ {
+ "name": "Deep Sea",
+ "value": "#023247",
+ "token": "--color-deep-sea",
+ "role": "Decorative stroke and chart accent - deep teal used in SVG illustrations and data visualizations alongside the seafoam scale"
+ },
+ {
+ "name": "Sky Cyan",
+ "value": "#88deeb",
+ "token": "--color-sky-cyan",
+ "role": "Soft accent surface and stroke - appears as background washes behind data widgets and as decorative chart strokes"
+ },
+ {
+ "name": "Cobalt Edge",
+ "value": "#1e4199",
+ "token": "--color-cobalt-edge",
+ "role": "Violet wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Ocean Depth",
+ "value": "#0c6997",
+ "token": "--color-ocean-depth",
+ "role": "Decorative fill - medium blue used in illustration and SVG contexts"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "SuisseIntl",
+ "token": "--font-suisseintl",
+ "role": "Primary typeface - used for all headings, body, buttons, nav, links, and card text. The custom geometric grotesque gives Column a distinctive editorial register that distinguishes it from Inter-only fintechs. Weight 600 at 52-60px for display, weight 500 for sub-headings, weight 400 for body, weight 300 for low-emphasis links."
+ },
+ {
+ "name": "SuisseIntlMono",
+ "token": "--font-suisseintlmono",
+ "role": "Monospace companion to SuisseIntl - used for technical labels, API identifiers, and inline data in UI chrome. Maintains the same proportions as SuisseIntl so mono and proportional text align cleanly in mixed contexts."
+ },
+ {
+ "name": "SFMono",
+ "token": "--font-sfmono",
+ "role": "Code snippet rendering - appears in JSON examples and API documentation blocks. Tinted in seafoam green scale to visually distinguish code from UI prose."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "UI fallback font - used in dashboard and product surface contexts where Inter\u0027s wider character set and system familiarity take priority over brand identity."
+ }
+ ],
+ "typeScale": [
+ [
+ "micro",
+ "10px",
+ "1.5",
+ "-",
+ "--text-micro"
+ ],
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.33",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading-sm",
+ "20px",
+ "1.1",
+ "-0.2px",
+ "--text-subheading-sm"
+ ],
+ [
+ "subheading-lg",
+ "28px",
+ "1.1",
+ "-0.28px",
+ "--text-subheading-lg"
+ ],
+ [
+ "heading-sm",
+ "40px",
+ "1.1",
+ "-0.8px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.1",
+ "-0.96px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "52px",
+ "1.1",
+ "-1.56px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1",
+ "-0.6px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "72px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ],
+ [
+ "nav-pills",
+ "8px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Filled Button",
+ "role": "Main call-to-action - highest-emphasis interactive element."
+ },
+ {
+ "name": "Secondary Outlined Button",
+ "role": "Secondary action - less weight than primary but still a distinct CTA."
+ },
+ {
+ "name": "Ghost Navigation Pill",
+ "role": "Top-bar navigation trigger - \u0027Products\u0027, \u0027Developers\u0027, \u0027Blog\u0027."
+ },
+ {
+ "name": "Pill Button",
+ "role": "Compact action - tag-like buttons used for filtering and quick navigation."
+ },
+ {
+ "name": "Accent Orange Button",
+ "role": "High-attention CTA - used when a section needs a warm, urgent accent."
+ },
+ {
+ "name": "Product Card (Elevated)",
+ "role": "Feature showcase card - used for product mockups and feature highlights."
+ },
+ {
+ "name": "Transaction Widget Card",
+ "role": "Compact data card - shows account balances, transfer details, payment status."
+ },
+ {
+ "name": "Bordered Content Card",
+ "role": "Standard card for grouped content - quotes, code examples, feature blocks."
+ },
+ {
+ "name": "Code Block",
+ "role": "JSON/API example - shows developer-facing content with syntax-tinted text."
+ },
+ {
+ "name": "FDIC Badge",
+ "role": "Trust indicator - regulatory badge for bank membership."
+ },
+ {
+ "name": "Tag with Dot",
+ "role": "Status or category label - \u0027TRUSTED AT SCALE II\u0027, \u0027DEVELOPER FIRST\u0027."
+ },
+ {
+ "name": "Logo Bar Card",
+ "role": "Partner/customer logo showcase - used in trust strip and case studies."
+ },
+ {
+ "name": "Account Balance Card",
+ "role": "Featured account display - the Brex operating account mockup."
+ },
+ {
+ "name": "Stats Row",
+ "role": "Trust metrics - \u0027$4.5T+\u0027, \u002799.999%\u0027, \u0027No. 1\u0027, \u0027$100B+\u0027."
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 8px radius for all cards, buttons, inputs, and interactive surfaces - the 9999px pill is reserved exclusively for badges and tags.",
+ "Pair the Indigo Navy (#111a4a) primary button with the Secondary Outlined Button (#111a4a border, transparent fill) - never place two filled CTAs side by side.",
+ "Render code snippets in SFMono at 12px with line-height 1.5, tinting keys in #167e6c (Seafoam 700) and string values in #94efb7 (Seafoam 400).",
+ "Apply the five-layer progressive shadow stack to product cards only - do not use it on bordered content cards, which get the simpler 1px hairline + whisper shadow.",
+ "Set heading letter-spacing to -0.03em at 52px and -0.02em at 40-48px - the tight tracking on large sizes is essential to the SuisseIntl editorial feel.",
+ "Use Signal Orange (#ec652b) for at most one surface per page - the accent is designed to be rare and high-signal.",
+ "Set section gaps to 72px and card padding to 24px - the comfortable density is part of the institutional trust register."
+ ],
+ "doNot": [
+ "Don\u0027t use the 9999px pill radius on buttons - buttons stay at 8px to maintain the sharp, confident banking feel.",
+ "Don\u0027t place seafoam green (#44b48b) on body copy outside code or data contexts - the color signals technical content, not prose.",
+ "Don\u0027t stack more than two card shadow styles on the same page - the product card shadow and the transaction widget shadow are both dramatic; using both simultaneously creates visual noise.",
+ "Don\u0027t use the linear rainbow gradient on UI elements - it\u0027s a one-time decorative asset for the halftone map illustration only.",
+ "Don\u0027t set body text below 14px in SuisseIntl - drop to SuisseIntlMono or SFMono at 10-12px for micro-copy and technical labels.",
+ "Don\u0027t apply the Cobalt Edge (#1e4199) or Ocean Depth (#0c6997) colors to text or buttons - they are decorative SVG colors only.",
+ "Don\u0027t use pure black (#000000) for body text - use Slate Ink (#3b3e47) or Obsidian (#12161e) for a softer, more refined dark."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/a76ec6ba-20b3-495c-9d89-1e58281e79e7",
+ "referenceSite": "https://column.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-03-22T20:28:02.000Z",
+ "articleModifiedAt": "2026-07-03T10:10:39.337Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0e867410-c907-4888-82a5-d74ddb3d3084.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/61052f45-5e75-4877-a576-bd97af9ca179.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/88387bbe-a298-4950-8a32-b80da48abc6b.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/9ca5c7bb-0bc2-4754-921a-fbceb2ca9429.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/3d47cb0a-492f-4fa3-82e6-d59ebb5cf128.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5e7ba073-db00-4e50-a407-15a4e10c0fcd.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/58a1cc2a-9dfb-4b1b-a711-60ea9cf81259.png"
+ }
+ }
+}

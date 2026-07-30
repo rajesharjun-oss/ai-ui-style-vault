@@ -1,0 +1,231 @@
+{
+ "id": "d211aaa4-e09b-4ef9-a9bf-f6fa8495de73",
+ "name": "My Brentano",
+ "slug": "my-brentano",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/d211aaa4-e09b-4ef9-a9bf-f6fa8495de73",
+ "referenceSite": "https://mybrentano.ch",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T02:12:18.705Z",
+ "articleModifiedAt": "2026-06-05T12:39:14.435Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/bd542adf-e6a9-482f-aecf-0d5ed96eeaee.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/b42fc635-565d-42d7-b164-3a7550803441.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/08cea1a3-4426-4aad-bc70-e0a3fef2e50e.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/c811feea-cfc4-478b-8073-1da04b095ccd.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d83f949e-f561-40c8-a1e1-68765e1317d1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/87c656e8-3c23-4a93-abd4-c59b4330ee6e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Pharmacy broadsheet on cream paper. A Swiss editorial layout where one typewriter voice does all the speaking and warm-toned product photography supplies the only color.",
+ "summary": "Explore My Brentano\u0027s light E-commerce design system: Charcoal Ink #212529, Pure Press #000000 colors, Studio Feixen Sans Writer Book Regular, Studio Feixen...",
+ "colors": [
+ {
+ "name": "Charcoal Ink",
+ "value": "#212529",
+ "token": "--color-charcoal-ink",
+ "role": "Body text, headings, nav text, footer text, most borders - the dominant text and structural color, slightly softer than pure black for warmth"
+ },
+ {
+ "name": "Pure Press",
+ "value": "#000000",
+ "token": "--color-pure-press",
+ "role": "Secondary text, button borders, link borders, input outlines, nav separators - true black for maximum contrast on outlined elements"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Page canvas, card surfaces, button fills, input backgrounds - the ground that all ink sits on"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Studio Feixen Sans Writer Book Regular",
+ "token": "--font-studio-feixen-sans-writer-book-regular",
+ "role": "Studio Feixen Sans Writer Book Regular - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Studio Feixen Sans Writer",
+ "token": "--font-studio-feixen-sans-writer",
+ "role": "Primary typeface for all text - body, headings, nav, links, buttons, lists. The Writer variant carries a typewriter/letterpress quality with subtle ink-trapped details that a geometric sans cannot replicate. Weight 700 is used sparingly only on the 60px display; everything else stays at 400, making the single bold moment feel intentional and declarative."
+ },
+ {
+ "name": "Studio Feixen Sans",
+ "token": "--font-studio-feixen-sans",
+ "role": "Secondary sans variant for select body passages and inputs where the typewriter serifs would be too loud. The same family, stripped of the Writer details, creates a quiet alternation within the same typographic world."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "15px",
+ "1.67",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "2.08",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "25px",
+ "2.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "display",
+ "60px",
+ "1.2",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "40-60px",
+ "cardPadding": "",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "navCircles",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Circular Nav Arrow Button",
+ "role": "Navigation link with directional affordance"
+ },
+ {
+ "name": "Language Selector Pill",
+ "role": "Locale switcher"
+ },
+ {
+ "name": "Editorial Display Headline",
+ "role": "Hero and section H1"
+ },
+ {
+ "name": "Section Heading",
+ "role": "H2/H3 within content blocks"
+ },
+ {
+ "name": "Body Paragraph",
+ "role": "Long-form description text"
+ },
+ {
+ "name": "Offset Image Stack",
+ "role": "Product/editorial imagery placement"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline navigation and reference"
+ },
+ {
+ "name": "Outlined Action Button",
+ "role": "Interactive controls (implied from nav pattern)"
+ },
+ {
+ "name": "Shopping Bag Icon",
+ "role": "Cart access in top-right"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ }
+ ],
+ "dos": [
+ "Use Studio Feixen Sans Writer at 60px weight 700 for the single most important headline on any page",
+ "Set body text at 15-18px with line-height between 1.67 and 2.08 - never tighter than 1.5",
+ "Use 0px border-radius on all images, inputs, and rectangular elements; reserve 9999px exclusively for circular nav controls",
+ "Separate the top nav from page content with a single 1px #000000 hairline - no background fill, no shadow",
+ "Let product imagery supply all color; keep UI strictly in Charcoal Ink (#212529), Pure Press (#000000), and Bone White (#ffffff)",
+ "Break the grid by rotating overlapping product images 2-5 rather than aligning them perfectly",
+ "Use 10px gaps for inline element spacing, 40-60px for vertical section rhythm"
+ ],
+ "donts": [
+ "Never introduce an accent or brand color - the system is intentionally near-monochrome, and color belongs only to photography",
+ "Never apply shadows, glows, or any form of elevation - surfaces must remain flat like printed paper",
+ "Never use bold weight (700) for anything smaller than 30px - the single bold moment must remain monumental",
+ "Never round corners on cards, images, or input fields - 0px radius is non-negotiable",
+ "Never use more than two typefaces per view; alternate between Writer and Sans within the same family only",
+ "Never center-align body paragraphs or set them narrower than 50% of the viewport - the grid is left-aligned and generous",
+ "Never apply a colored background to the page - the cream warmth comes from the paper-tone canvas and the imagery, not from a tint"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Bone White Canvas | `#ffffff` | The single page surface - no separate card or elevated layers exist; all content sits directly on this plane |",
+ "elevation": "Elevation is absent by design. The system treats the page as a flat printed sheet - no box-shadows, no z-axis differentiation. Hierarchy is achieved entirely through typographic scale, whitespace, and hairline 1px borders. A surface that needs to feel distinct should rely on a different image crop or a rotated placement, never on a drop shadow.",
+ "imagery": "Imagery is the sole chromatic system. Product photography is shot on warm cream paper backgrounds with natural daylight, featuring hands holding skincare jars and dropper bottles. The palette within photography is tightly controlled: beige/butter, mustard yellow, deep burgundy/wine red, and soft skin tones. Images are presented as unframed rectangles (0px radius) that frequently overlap at slight rotation angles, breaking the grid. No lifestyle or environmental context - the product and the hand holding it are the entire composition. No icons beyond minimal line-glyphs in the nav.",
+ "layout": ""
+}

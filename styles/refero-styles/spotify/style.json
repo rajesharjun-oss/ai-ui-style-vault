@@ -1,0 +1,309 @@
+{
+ "id": "cc59e195-fed0-4928-96d1-303752786073",
+ "name": "Spotify",
+ "slug": "spotify",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/cc59e195-fed0-4928-96d1-303752786073",
+ "referenceSite": "https://www.spotify.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-29T00:46:03.114Z",
+ "articleModifiedAt": "2026-06-05T13:01:18.958Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/bd011f49-f4a9-4526-9edc-6011c829cd7b.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/8042d2a1-d03a-423a-8a68-b87d2b9d1002.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/fabaceb0-8249-4578-ac33-507272853f32.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/586c432c-a136-4d87-bafa-7961ed8a770f.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/b07c43ce-18c6-4dab-a2cd-d5504bc6b046.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/6ba14e5d-21c0-4420-8996-d43a7c466cd5.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/90367b20-9ad0-44e5-ae1d-07ce6c658c48.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Media",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Media",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Darkened record store at midnight - every surface recedes so the album art can glow.",
+ "summary": "Explore Spotify\u0027s dark Media design system: Void Black #000000, Obsidian #121212 colors, SpotifyMixUI, SpotifyMixUITitle typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Void Black",
+ "value": "#000000",
+ "token": "--color-void-black",
+ "role": "Primary canvas, page background - deepest layer of the dark surface stack"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#121212",
+ "token": "--color-obsidian",
+ "role": "Card surfaces, raised panels, modal backgrounds - one step up from the canvas"
+ },
+ {
+ "name": "Graphite",
+ "value": "#1f1f1f",
+ "token": "--color-graphite",
+ "role": "Elevated controls, hover surfaces, filled button backgrounds - the interactive surface tier"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#333333",
+ "token": "--color-ash-gray",
+ "role": "Input borders, subtle dividers, inactive control outlines"
+ },
+ {
+ "name": "Steel Mist",
+ "value": "#767676",
+ "token": "--color-steel-mist",
+ "role": "Muted text, secondary nav, disabled labels - text that fades into the background"
+ },
+ {
+ "name": "Cloud Gray",
+ "value": "#b3b3b3",
+ "token": "--color-cloud-gray",
+ "role": "Secondary body text, metadata, timestamps - readable but never competing with content"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary text, headings, light icon fills, pill button fills - the highest-contrast element on the dark canvas"
+ },
+ {
+ "name": "Spotify Green",
+ "value": "#1ed760",
+ "token": "--color-spotify-green",
+ "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Premium Magenta",
+ "value": "#af2896",
+ "token": "--color-premium-magenta",
+ "role": "Gradient anchor for premium promotional banners, subscription upsell surfaces"
+ },
+ {
+ "name": "Premium Cobalt",
+ "value": "#509bf5",
+ "token": "--color-premium-cobalt",
+ "role": "Gradient terminus for premium promotional banners, feature callouts on subscription screens"
+ },
+ {
+ "name": "Amber Glow",
+ "value": "#a16b1b",
+ "token": "--color-amber-glow",
+ "role": "Decorative warmth - album artwork occasionally carries this tonal range"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "SpotifyMixUI",
+ "token": "--font-spotifymixui",
+ "role": "Primary UI typeface - handles all body copy, navigation, buttons, metadata, and small headings. Weight 400 carries body and labels, weight 600 appears in tab headers and emphasized metadata, weight 700 anchors section titles. The 4px size range (11-16px) keeps the entire interface at conversational volume, never editorial. Substitute: Inter, IBM Plex Sans, or DM Sans as freely available alternates with similar geometric warmth."
+ },
+ {
+ "name": "SpotifyMixUITitle",
+ "token": "--font-spotifymixuititle",
+ "role": "Rail and section headings - the 24px bold treatment for \u0027Trending songs\u0027, \u0027Popular artists\u0027, etc. is the only typographic moment that breaks above body size. Substitutes should be a geometric grotesque with a tall x-height and even stroke contrast."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.33",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "32px",
+ "cardPadding": "12px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "172",
+ "172px",
+ "`--spacing-172`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "6px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "artistImages",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Pill Button - Green Primary",
+ "role": "High-emphasis action button"
+ },
+ {
+ "name": "Pill Button - White Secondary",
+ "role": "Medium-emphasis action"
+ },
+ {
+ "name": "Pill Button - Ghost Outline",
+ "role": "Low-emphasis action"
+ },
+ {
+ "name": "Album Card",
+ "role": "Content tile for albums, singles, playlists"
+ },
+ {
+ "name": "Artist Card",
+ "role": "Circular artist portrait with name"
+ },
+ {
+ "name": "Sidebar Library Panel",
+ "role": "Left-rail persistent navigation container"
+ },
+ {
+ "name": "Playlist Prompt Card",
+ "role": "Onboarding call-out inside the library"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Global header"
+ },
+ {
+ "name": "Search Field",
+ "role": "Global search input"
+ },
+ {
+ "name": "Content Rail Header",
+ "role": "Section title bar"
+ },
+ {
+ "name": "Horizontal Content Rail",
+ "role": "Scrollable card row"
+ },
+ {
+ "name": "Premium Banner",
+ "role": "Full-width subscription promotion"
+ },
+ {
+ "name": "Language Selector",
+ "role": "Footer utility control"
+ }
+ ],
+ "dos": [
+ "Use 9999px border-radius for every button, tag, and search field - the pill shape is non-negotiable for Spotify\u0027s identity.",
+ "Apply 6px radius to all square content cards (albums, playlists) and 9999px for circular artist portraits - never mix radii within the same card type.",
+ "Reserve #1ed760 for the single most important action per screen - log in, play, confirm. Never use it for secondary links, metadata, or decorative elements.",
+ "Keep all text between 11px and 24px. The system is compact; no body copy should exceed 16px, and only section headings reach 24px.",
+ "Use #000000 for the page canvas, #121212 for content cards, and #1f1f1f for interactive controls - maintain this three-tier surface hierarchy on every screen.",
+ "Apply the 0px 8px 24px rgba(0,0,0,0.5) shadow only to content cards lifted off the canvas, never to navigation, buttons, or inputs.",
+ "Let album artwork and artist photography supply all chromatic color in the interface. The chrome itself should remain monochrome with #ffffff and #b3b3b3 as the only text colors."
+ ],
+ "donts": [
+ "Do not introduce a new chromatic accent color. The entire system runs on one green (#1ed760) plus the magenta-to-cobalt gradient for premium promotions.",
+ "Do not use sharp corners (\u003c4px radius) on any interactive element. Pills and soft 6px squares are the only acceptable shapes.",
+ "Do not set body text below 11px or above 16px. The 4px size band is deliberate and compact.",
+ "Do not use #1ed760 for hover states on white or dark buttons - green is exclusively a primary action fill, never a state indicator.",
+ "Do not apply the premium magenta-to-cobalt gradient outside of subscription/promotional contexts. It is reserved for upsell moments.",
+ "Do not use white or light backgrounds for any surface. The system is dark-first; even elevated cards stay at #1f1f1f or below.",
+ "Do not add multi-layer shadow stacks, colored glows, or neumorphic effects. The single rgba(0,0,0,0.5) drop shadow is the only elevation treatment."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Void Canvas | `#000000` | Page background, left sidebar, footer areas |\n| 1 | Obsidian Card | `#121212` | Album cards, playlist prompt cards, content surfaces |\n| 2 | Graphite Control | `#1f1f1f` | Search bar, elevated buttons, hover states |",
+ "elevation": "- **Album / Playlist Card:** `0px 8px 24px 0px rgba(0, 0, 0, 0.5)`",
+ "imagery": "Imagery IS the product. The interface is a frame for user-consumed content: square album covers, circular artist portraits, and playlist cover art. Treatment is clean, uncropped (except to square or circle), no filters or overlays on content imagery. Card shadows (0px 8px 24px rgba(0,0,0,0.5)) give artwork dimensional lift off the void canvas. No illustrations, no abstract graphics, no lifestyle photography in the UI itself - the page is a gallery. Icons are minimal, monochromatic, and outlined or filled in white at reduced opacity. The only branded graphic element is the gradient premium banner.",
+ "layout": "The page uses a two-column layout: a fixed left sidebar (~340px) for \u0027Your Library\u0027 and navigation, and a flexible main content area that scrolls independently. The main area is organized as vertically stacked horizontal rails - each rail is a section heading (24px left-aligned, \u0027Show all\u0027 right-aligned) followed by a horizontally scrolling row of cards. Cards are uniform-width within each rail (albums: 180px squares, artists: 180px circles). Spacing between rails is 32px; between cards within a rail is 16px. The top bar is a full-width navigation strip with left-cluster icons/search and right-cluster text links and action buttons. A full-width gradient premium banner is sticky at the bottom of the viewport. There are no section dividers, background color changes, or visual separators between rails - the surface stays uniformly #000000, and hierarchy comes from typography and spacing alone."
+}

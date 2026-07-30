@@ -1,0 +1,332 @@
+{
+ "name": "Klim",
+ "slug": "klim",
+ "colors": [
+ {
+ "name": "Studio Charcoal",
+ "value": "#101c19",
+ "token": "--color-studio-charcoal",
+ "role": "Page canvas, primary background - a near-black with a green undertone that reads as neutral but feels warmer than pure black"
+ },
+ {
+ "name": "Gallery Black",
+ "value": "#000000",
+ "token": "--color-gallery-black",
+ "role": "Feature bands, specimen backgrounds, header bar - pure black for maximum type contrast"
+ },
+ {
+ "name": "Charcoal Surface",
+ "value": "#1c1c1c",
+ "token": "--color-charcoal-surface",
+ "role": "Elevated surface, input fields, secondary panel backgrounds - one step lighter than the canvas"
+ },
+ {
+ "name": "Slate Mist",
+ "value": "#3c585f",
+ "token": "--color-slate-mist",
+ "role": "Muted accent band, tertiary surface - desaturated blue-gray used as an alternate section background"
+ },
+ {
+ "name": "Graphite",
+ "value": "#555555",
+ "token": "--color-graphite",
+ "role": "Mid-tone borders, muted body text on light sections, card outlines"
+ },
+ {
+ "name": "Steel",
+ "value": "#646464",
+ "token": "--color-steel",
+ "role": "Secondary borders, subdued link text on dark backgrounds"
+ },
+ {
+ "name": "Fog",
+ "value": "#7f7f7f",
+ "token": "--color-fog",
+ "role": "Tertiary borders, inactive UI elements, secondary text"
+ },
+ {
+ "name": "Ash",
+ "value": "#939393",
+ "token": "--color-ash",
+ "role": "Medium-contrast borders, control outlines, and structural separators. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Marble",
+ "value": "#f9f9f9",
+ "token": "--color-marble",
+ "role": "Light-mode page canvas, pale gray that photographs cleanly for specimen presentations"
+ },
+ {
+ "name": "Bone",
+ "value": "#ffffff",
+ "token": "--color-bone",
+ "role": "Primary text on dark backgrounds, type specimen letterforms, button labels, high-contrast surfaces"
+ },
+ {
+ "name": "Flare Orange",
+ "value": "#d33c03",
+ "token": "--color-flare-orange",
+ "role": "Label tags, collection names, editorial annotations - a saturated vermilion that reads as the foundry\u0027s signature mark on light backgrounds"
+ },
+ {
+ "name": "Signal Red",
+ "value": "#e90702",
+ "token": "--color-signal-red",
+ "role": "Hot accent on dark surfaces, inline highlights, the reddest red in the palette for maximum voltage"
+ },
+ {
+ "name": "Electric Blue",
+ "value": "#24a7f2",
+ "token": "--color-electric-blue",
+ "role": "Interactive highlights, active states, link emphasis - a bright cyan-blue that pops against black"
+ },
+ {
+ "name": "Mint Pulse",
+ "value": "#93ffe6",
+ "token": "--color-mint-pulse",
+ "role": "Decorative text accent, special-occasion highlights - a pale mint used sparingly for emphasis"
+ },
+ {
+ "name": "Canary",
+ "value": "#ffff79",
+ "token": "--color-canary",
+ "role": "Rare chromatic accent, used for the highest-attention text moment on dark backgrounds"
+ },
+ {
+ "name": "Blush",
+ "value": "#ffe6d9",
+ "token": "--color-blush",
+ "role": "Soft warm accent, subtle text tint - a cream-pink that warms dark sections without competing with type"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "SOEHNE",
+ "token": "--font-soehne",
+ "role": "SOEHNE - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Sohne",
+ "token": "--font-shne",
+ "role": "Primary UI typeface - used for navigation, body text, buttons, form labels, and all functional interface text. Tight line-heights (0.98-1.20) at display sizes; generous (1.50) for body. Two weights only: regular for content, bold for emphasis. Tabular numerals via tnum for price alignment; ordinals via ordn."
+ },
+ {
+ "name": "Sohne Ikon",
+ "token": "--font-shne-ikon",
+ "role": "Iconographic variant of Sohne for interface glyphs, special characters, and numeric UI elements. Same voice as Sohne but with alternate character forms via calt and tabular figures via tnum."
+ },
+ {
+ "name": "SOEHNE_IKON",
+ "token": "--font-soehneikon",
+ "role": "SOEHNE_IKON - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.3",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.19",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "56px",
+ "1.1",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "69px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "34",
+ "34px",
+ "`--spacing-34`"
+ ],
+ [
+ "69",
+ "69px",
+ "`--spacing-69`"
+ ],
+ [
+ "137",
+ "137px",
+ "`--spacing-137`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "2px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "2px"
+ ],
+ [
+ "buttons",
+ "2px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Label Tag",
+ "role": "Collection or edition annotation"
+ },
+ {
+ "name": "Typeface Specimen Band",
+ "role": "Full-width type showcase row in the font catalogue"
+ },
+ {
+ "name": "Specimen Variant Row",
+ "role": "Individual sub-style entry within a typeface band"
+ },
+ {
+ "name": "Buy Link",
+ "role": "Purchase action for a typeface variant"
+ },
+ {
+ "name": "Image Specimen",
+ "role": "Full-bleed type-in-context or object photography"
+ },
+ {
+ "name": "Hamburger Menu Trigger",
+ "role": "Mobile and desktop menu toggle"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form input for search or filter"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline hyperlink within body or navigation content"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Horizontal rule between specimen bands"
+ },
+ {
+ "name": "Collection Annotation",
+ "role": "Editorial label overlaid on specimen imagery"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set all primary UI text in Sohne 16px/400 with Sohne 700 for emphasis only",
+ "Use Flare Orange (#d33c03) for label tags, collection names, and editorial annotations - this is the foundry\u0027s signature mark",
+ "Alternate specimen band backgrounds between #000000, #1c1c1c, #3c585f, and #f9f9f9 to create rhythm without dividers",
+ "Use 2px border-radius on all interactive elements (buttons, tags, inputs) - this near-sharp corner is the system\u0027s geometric signature",
+ "Set type specimens in the typeface they represent at 36px+ - the font IS the content",
+ "Enable tnum and ordn font features on all Sohne usage for consistent number and ordinal rendering",
+ "Maintain tight spacing: 8px component padding, 10px element gaps, 20px horizontal page padding"
+ ],
+ "doNot": [
+ "Do not introduce drop shadows, gradients, or glow effects - the system is flat and shadowless",
+ "Do not use border-radius greater than 2px - the design is intentionally near-sharp",
+ "Do not use color on large background fills - chromatic colors are reserved for tiny label tags and text accents",
+ "Do not set body or display type in colors other than Bone (#ffffff on dark) or Graphite (#555555 on light) - chromatic type is for special emphasis only",
+ "Do not add visible section dividers or whitespace gaps larger than ~69px between bands - the background color shift IS the divider",
+ "Do not use system fonts for UI text - Sohne is the voice of the interface",
+ "Do not place more than one chromatic color in a single component - each color punch gets its own moment"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0dad8530-9422-4d9e-8622-1f50ee4bc702",
+ "referenceSite": "https://klim.co.nz",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:34:36.029Z",
+ "articleModifiedAt": "2026-06-05T12:45:54.537Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1852e0ae-6521-44f3-b111-cdf27418e4b5.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e9216ad4-2c23-4a7f-a275-da9ff0f21332.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ad3e38a6-b396-4eae-a48a-05fed7ec1b83.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/c6617c35-8c5f-4a23-9e8a-79af846cb35e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2d2064a8-9e5e-462e-a57d-90dae6628e7a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b3caeb1e-041d-4fe9-83a4-d64e379c650c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/916badbb-a595-4416-ad32-40c6aea50a52.png"
+ }
+ }
+}

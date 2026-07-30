@@ -4,7 +4,7 @@ A curated, repo-friendly library of UI style references for AI-assisted implemen
 
 This vault stores public source links, source-derived design notes, tokens, component guidance, screen-reference metadata, and ready-to-paste implementation prompts. It is meant to help Codex or another AI builder create original interfaces with a clear visual direction, without copying protected brand assets or proprietary layouts.
 
-Current contents: 280 Refero Styles bundles and 48 Refero screen references.
+Current contents: 340 Refero Styles bundles and 48 Refero screen references.
 
 ## Quick Use
 
@@ -25,6 +25,7 @@ This repo is organized so an AI builder can inspect a target GitHub repository, 
 - [guides/AGENT_BUILD_CHECKLIST.md](guides/AGENT_BUILD_CHECKLIST.md): required build, asset, and visual QA gates for vault-led implementations.
 - [guides/STYLE_SELECTION_GUIDE.md](guides/STYLE_SELECTION_GUIDE.md): scoring method and reading order for style and screen folders.
 - [guides/WEB_TOOL_DESIGN_MATRIX.md](guides/WEB_TOOL_DESIGN_MATRIX.md): product archetypes mapped to useful starting points.
+- [guides/SITE_INTERACTION_PATTERNS.md](guides/SITE_INTERACTION_PATTERNS.md): reusable website patterns for rotating heroes, mega menus, brand grids, split utility menus, and icon category drawers.
 
 Recommended agent behavior:
 
@@ -77,10 +78,12 @@ ai-ui-style-vault/
   guides/
     AGENT_USAGE.md
     AGENT_BUILD_CHECKLIST.md
+    SITE_INTERACTION_PATTERNS.md
     STYLE_SELECTION_GUIDE.md
     WEB_TOOL_DESIGN_MATRIX.md
   scripts/
     capture-autonomous-refero-batch.ps1
+    capture-refero-style-ids.ps1
     generate-catalog.ps1
     generate-refero-screen-references.ps1
     validate-generated-site.ps1
@@ -122,6 +125,12 @@ Regenerate the style catalog after adding styles:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\generate-catalog.ps1
+```
+
+Capture public Refero style pages from a prepared ID list:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\capture-refero-style-ids.ps1 -IdsFile C:\tmp\refero-style-ids.txt -Limit 50
 ```
 
 Generate screen references from downloaded public Refero search JSON files:

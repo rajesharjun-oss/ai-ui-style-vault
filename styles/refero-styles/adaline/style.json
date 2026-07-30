@@ -1,0 +1,436 @@
+{
+ "id": "312423bf-72ea-42fb-b8f5-ab0104e778f3",
+ "name": "Adaline",
+ "slug": "adaline",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/312423bf-72ea-42fb-b8f5-ab0104e778f3",
+ "referenceSite": "https://www.adaline.ai",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:36:11.612Z",
+ "articleModifiedAt": "2026-07-03T10:09:39.356Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/329632f2-1a3c-462f-ae1d-59b33bb36eb1.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/9ed6dbf2-d65a-4666-9e70-684413338667.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/45f38f30-c043-4fd9-80bd-69d98606b1a7.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b03016d4-fe35-4412-9cb8-74927c64386d.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/5baaa93c-43b4-405c-b26d-7928f5e0be19.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/e3b2cbcf-7130-4c23-ae4a-c6da64d8c277.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/4acfc9f4-4fc2-456d-b7da-c4bd520b230a.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "AI",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "AI",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "botanist\u0027s specimen journal beside a developer\u0027s terminal - warm linen pages, sage ink annotations, and tracked mono tags.",
+ "summary": "Explore Adaline\u0027s light AI design system: Forest Ink #0a1d08, Olive Press #2b390a colors, akkurat, Newsreader typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Forest Ink",
+ "value": "#0a1d08",
+ "token": "--color-forest-ink",
+ "role": "Gray text accent for links, tags, and emphasized short phrases. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Olive Press",
+ "value": "#2b390a",
+ "token": "--color-olive-press",
+ "role": "Headings at large sizes, high-contrast body text, hover states on filled buttons"
+ },
+ {
+ "name": "Sage Leaf",
+ "value": "#4a6d47",
+ "token": "--color-sage-leaf",
+ "role": "Decorative icon accent, badge fills, subtle wash backgrounds on spec cards"
+ },
+ {
+ "name": "Deep Teal",
+ "value": "#2b6b5e",
+ "token": "--color-deep-teal",
+ "role": "Secondary category fills, alt-card backgrounds, tonal pair with the dominant greens"
+ },
+ {
+ "name": "Crimson Specimen",
+ "value": "#991e4b",
+ "token": "--color-crimson-specimen",
+ "role": "Red text accent for links, tags, and emphasized short phrases. Use as a supporting accent, not as a status color"
+ },
+ {
+ "name": "Amber Pin",
+ "value": "#80581c",
+ "token": "--color-amber-pin",
+ "role": "Yellow wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color"
+ },
+ {
+ "name": "Linen",
+ "value": "#f8f9f5",
+ "token": "--color-linen",
+ "role": "Page canvas, default surface - warm off-white with a faint green cast"
+ },
+ {
+ "name": "Bone",
+ "value": "#eff2e8",
+ "token": "--color-bone",
+ "role": "Card surface, elevated panels, subtle inset containers"
+ },
+ {
+ "name": "Mist",
+ "value": "#e1e6df",
+ "token": "--color-mist",
+ "role": "Hairline borders, card outlines, separator strokes"
+ },
+ {
+ "name": "Slate Hollow",
+ "value": "#2a332a",
+ "token": "--color-slate-hollow",
+ "role": "Inverse surface for footer and dark bands, modal scrims"
+ },
+ {
+ "name": "Sage Gray",
+ "value": "#6b7860",
+ "token": "--color-sage-gray",
+ "role": "Secondary body text, supporting copy, icon strokes"
+ },
+ {
+ "name": "Sage Mist",
+ "value": "#a5ac9f",
+ "token": "--color-sage-mist",
+ "role": "Muted helper text, disabled labels, low-emphasis metadata"
+ },
+ {
+ "name": "Eucalyptus",
+ "value": "#c9d5c5",
+ "token": "--color-eucalyptus",
+ "role": "Soft surface tints, category tag backgrounds, hover wash"
+ },
+ {
+ "name": "Lichen",
+ "value": "#c5ccb6",
+ "token": "--color-lichen",
+ "role": "Outlined-button border color, link underlines, specimen-card borders"
+ },
+ {
+ "name": "Blush",
+ "value": "#e3c9d0",
+ "token": "--color-blush",
+ "role": "Decorative alt-card background, tonal contrast specimen"
+ },
+ {
+ "name": "Sand",
+ "value": "#ad9d80",
+ "token": "--color-sand",
+ "role": "Decorative card surface, tertiary alt fill"
+ },
+ {
+ "name": "Sage Foam",
+ "value": "#729d92",
+ "token": "--color-sage-foam",
+ "role": "Decorative alt-card surface, soft cool counterpoint to the sage family"
+ },
+ {
+ "name": "Rose Clay",
+ "value": "#c27c93",
+ "token": "--color-rose-clay",
+ "role": "Decorative alt-card background, warm-tonal specimen"
+ },
+ {
+ "name": "Surface Glow",
+ "value": "#fdfefb",
+ "token": "--color-surface-glow",
+ "role": "Surface-highest token, used for elevated card layers above Linen"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "akkurat",
+ "token": "--font-akkurat",
+ "role": "Workhorse sans for body, nav, headings, buttons, cards across the entire system"
+ },
+ {
+ "name": "Newsreader",
+ "token": "--font-newsreader",
+ "role": "Single display-size serif headline - unexpected literary anchor against the utility sans"
+ },
+ {
+ "name": "Fragment Mono",
+ "token": "--font-fragment-mono",
+ "role": "Field-note tagging: badges, category labels, button text, code-lite metadata, tracked micro-copy"
+ },
+ {
+ "name": "ui-monospace",
+ "token": "--font-ui-monospace",
+ "role": "System mono fallback for the tightest micro-tags (8px, 500 weight, 0.04em tracking)"
+ },
+ {
+ "name": "GT America Mono",
+ "token": "--font-gt-america-mono",
+ "role": "GT America Mono - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "fragmentMono",
+ "token": "--font-fragmentmono",
+ "role": "fragmentMono - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "tag",
+ "11px",
+ "1.33",
+ "0.22px",
+ "--text-tag"
+ ],
+ [
+ "caption",
+ "14px",
+ "1.29",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-0.24px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.44",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1",
+ "-0.52px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.16",
+ "-0.6px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "53px",
+ "1.21",
+ "-2.12px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "108px",
+ "0.98",
+ "-3.46px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "96px",
+ "cardPadding": "20px",
+ "elementGap": "6px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "34",
+ "34px",
+ "`--spacing-34`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "58",
+ "58px",
+ "`--spacing-58`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "small",
+ "1.5px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "20px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Pill CTA",
+ "role": "Filled dark-pill button for top-level conversion (Get Started, header CTA)"
+ },
+ {
+ "name": "Outlined Ghost Button",
+ "role": "Secondary action - Read Docs, Learn More, lower-emphasis navigation links"
+ },
+ {
+ "name": "Transparent Nav Pill",
+ "role": "Header and section-level inline links (Docs, Pricing, Blog, footer links)"
+ },
+ {
+ "name": "Category Tag (Field Note)",
+ "role": "Badge above headlines - \u0027THE SELF-IMPROVING AGENT\u0027, section labels, spec IDs"
+ },
+ {
+ "name": "Specimen Card",
+ "role": "Content container for feature blocks, variant comparisons, test-result panels"
+ },
+ {
+ "name": "Code Block Panel",
+ "role": "Terminal-style trace display, code snippets, trace log views"
+ },
+ {
+ "name": "Trusted-By Logo Strip",
+ "role": "Social proof band of partner/company logos"
+ },
+ {
+ "name": "Hero Headline (Serif Anchor)",
+ "role": "Opening headline on the page - \u0027Never stop learning\u0027"
+ },
+ {
+ "name": "Section Headline (Akkurat)",
+ "role": "Mid-page section titles - \u0027Truly understand your agents\u0027, \u0027Evals that write themselves\u0027"
+ },
+ {
+ "name": "Nav Header",
+ "role": "Top-of-page brand and link bar"
+ },
+ {
+ "name": "Landscape Plate Divider",
+ "role": "Full-bleed photographic breaks between content sections"
+ },
+ {
+ "name": "Footer Band",
+ "role": "Closing conversion and link cluster"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form input for search, email capture, trace filtering"
+ },
+ {
+ "name": "Pill Tab / Segment",
+ "role": "Filter tabs and segmented controls inside product UI"
+ }
+ ],
+ "dos": [
+ "Use the 108px Newsreader 300 serif for the single opening headline on any page; do not repeat it for subheadings.",
+ "Use Akkurat 400 at 18px for body copy with line-height 1.44 - this is the workhorse rhythm.",
+ "Set filled CTA buttons to Forest Ink (#0a1d08) with Linen text and 20px radius; never use a chromatic green or blue for primary action fills.",
+ "Use Fragment Mono 10-11px with 0.04em tracking for category badges, spec IDs, and field-note labels - always uppercase.",
+ "Separate content sections with full-bleed landscape photography instead of dividers or background-color shifts.",
+ "Stack surfaces via 1px Mist (#e1e6df) borders and tonal fills (Linen Bone Eucalyptus); avoid drop shadows.",
+ "Maintain a 6px element gap and 96px section gap as the spatial rhythm across all pages."
+ ],
+ "donts": [
+ "Do not pair the serif display font with sans-serif headings - Akkurat at 30-53px owns all non-display headlines.",
+ "Do not introduce bright chromatic CTAs (blue, red, vivid green) - the action palette stays in Forest Ink and Olive Press.",
+ "Do not add drop shadows to cards or modals; rely on borders and surface tints for separation.",
+ "Do not use icons or illustrations to fill empty space - the layout is intentionally sparse and specimen-like.",
+ "Do not mix the Fragment Mono labels into running body copy - keep mono reserved for badges, IDs, and metadata.",
+ "Do not place content into multi-column dashboard grids; sections are wide, centered, and stacked.",
+ "Do not break the 96px vertical rhythm between major sections - Adaline reads as printed pages, not cards."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Linen | `#f8f9f5` | Page canvas and primary background |\n| 1 | Bone | `#eff2e8` | First elevation - cards and panels |\n| 2 | Eucalyptus | `#c9d5c5` | Mid-elevation - tags, spec cards, hover wash |\n| 3 | Sage Leaf | `#4a6d47` | Tinted surface - featured blocks, decorative wash |\n| 4 | Slate Hollow | `#2a332a` | Inverse surface - footer, dark bands, modal scrim |",
+ "elevation": "Adaline avoids drop shadows almost entirely. Elevation is conveyed through surface layering (Linen Bone Eucalyptus Sage tints) and 1px Mist borders. The two shadows detected are functional 1px outlines (Crimson ring for error cells, subtle green focus ring) rather than cosmetic elevation. This keeps the system flat, printed, and specimen-like - like pages in a field notebook rather than floating material cards.",
+ "imagery": "Photography is a deliberate structural element: full-bleed landscape plates (lavender-pink toned mountains, misty forests, alpine ridges) serve as visual exhales between text-and-card sections. No lifestyle, no product shots, no UI mockups inside the page - the landscape imagery itself IS the visual punctuation. Imagery is high-key, desaturated, warm-toned, and slightly hazy, reinforcing the naturalist-journal mood. Icons are minimal, stroked, 1px weight, Sage Gray (#6b7860) - they annotate rather than decorate. No 3D, no illustration, no abstract gradients.",
+ "layout": "Page reads as a vertical sequence of wide, centered bands. The hero is a two-column split: left column holds the serif display headline + supporting copy + dual CTAs (filled pill + outlined ghost), right column holds the terminal/trace visual. Below the hero sits a centered \u0027TRUSTED BY\u0027 logo strip. Content sections alternate between text-left + specimen-card-right patterns and full-bleed landscape photographs. The page is max-width 1200px centered with generous outer padding (--grid-margin: 48px), but sections that carry photography break out to full-bleed. Vertical rhythm is spacious - 96px between major sections, 6px between inline elements, creating a printed-page cadence rather than a dense dashboard. Navigation is a single thin header bar (64px) with the brand wordmark left, text links center-right, and a filled pill CTA far-right."
+}

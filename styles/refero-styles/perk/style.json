@@ -1,0 +1,344 @@
+{
+ "id": "75c06591-34d2-493a-bd49-70551b5e4a53",
+ "name": "Perk",
+ "slug": "perk",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/75c06591-34d2-493a-bd49-70551b5e4a53",
+ "referenceSite": "https://travelperk.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-05T18:07:33.000Z",
+ "articleModifiedAt": "2026-07-03T11:10:44.012Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/5cf31cb4-e6af-4e40-832f-3636fb8fcedd.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/cf3be5e1-81fa-41ed-bc1b-18ef014af4d4.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/b7070c09-17ce-498e-bf1c-cbe57298f836.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/f2e344ee-21b3-4a62-988b-78fe4b247a19.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/b4f364c3-468c-4e29-b805-66c4500896ec.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/9607b0aa-66e5-434b-8a47-08d83f4bacfa.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/07a8fa62-2ab0-4df5-ae8b-70d7cc82e8fd.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "electric lime on warm parchment paper",
+ "summary": "Explore Perk\u0027s light SaaS design system: Electric Lime #beff50, Off-Black Ink #14140f colors, OTSono typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Electric Lime",
+ "value": "#beff50",
+ "token": "--color-electric-lime",
+ "role": "Primary action background, hero surface fills, accent panels - the singular chromatic charge against an otherwise achromatic system, creating brand presence through contrast not decoration"
+ },
+ {
+ "name": "Off-Black Ink",
+ "value": "#14140f",
+ "token": "--color-off-black-ink",
+ "role": "Body text, headings, icon fills, link borders, button text - warm-tinted near-black that feels less clinical than pure black against parchment"
+ },
+ {
+ "name": "Off-White Canvas",
+ "value": "#f5f5eb",
+ "token": "--color-off-white-canvas",
+ "role": "Card surfaces, secondary page background - warm parchment replacing cold white as the resting surface for the lime accent"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Highest surface level, card fills, input fields - used where clean white needs to lift above the parchment"
+ },
+ {
+ "name": "Ash",
+ "value": "#d2d2c8",
+ "token": "--color-ash",
+ "role": "Borders, dividers, subtle structural lines, inactive backgrounds - the warm gray that separates surfaces without harshness"
+ },
+ {
+ "name": "Graphite",
+ "value": "#6e6e64",
+ "token": "--color-graphite",
+ "role": "Muted body text, secondary copy, card text - warm gray for de-emphasized information"
+ },
+ {
+ "name": "Deep Charcoal",
+ "value": "#30302a",
+ "token": "--color-deep-charcoal",
+ "role": "Dark card surfaces, inverted blocks - for rare moments when the page flips to a dark island"
+ },
+ {
+ "name": "Stone",
+ "value": "#919183",
+ "token": "--color-stone",
+ "role": "Faint borders, decorative strokes - only visible at fine stroke widths"
+ },
+ {
+ "name": "Smoke",
+ "value": "#b9b9b7",
+ "token": "--color-smoke",
+ "role": "Placeholder backgrounds, subtle wash zones"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "OTSono",
+ "token": "--font-otsono",
+ "role": "Single-family system covering everything from 90px display headlines (weight 500, line-height 0.89, tracking -0.03em) through 16px body (weight 400, line-height 1.5) to 10px micro-labels. Weight 500 is the emphasis voice used on headings, labels, and CTAs; weight 400 handles body, icons, and supporting text. The 0.1em tracking on small caps is reserved for eyebrow labels and category tags."
+ }
+ ],
+ "typeScale": [
+ [
+ "eyebrow",
+ "10px",
+ "1.4",
+ "1px",
+ "--text-eyebrow"
+ ],
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "1.2px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.29",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.18",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "28px",
+ "1.14",
+ "-0.56px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "60px",
+ "1",
+ "-1.8px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "90px",
+ "0.89",
+ "-2.7px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80-120px",
+ "cardPadding": "32-48px",
+ "elementGap": "16-24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "220",
+ "220px",
+ "`--spacing-220`"
+ ],
+ [
+ "224",
+ "224px",
+ "`--spacing-224`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "28px"
+ ],
+ [
+ "inner",
+ "18px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "28px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Action Button (Lime Pill)",
+ "role": "Filled CTA on warm-white backgrounds"
+ },
+ {
+ "name": "Ghost Text Button",
+ "role": "Inline navigation and secondary actions"
+ },
+ {
+ "name": "Underline Link",
+ "role": "In-content navigation and emphasis links"
+ },
+ {
+ "name": "Parallax Card",
+ "role": "Product feature card on parchment surface"
+ },
+ {
+ "name": "White Surface Card",
+ "role": "Elevated content card or form container"
+ },
+ {
+ "name": "Dark Island Card",
+ "role": "Inverted feature block"
+ },
+ {
+ "name": "Lime Accent Block",
+ "role": "Hero band or feature highlight surface"
+ },
+ {
+ "name": "Inline Label Tag",
+ "role": "Category eyebrow or status pill"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form text input"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Horizontal structural separator"
+ },
+ {
+ "name": "Icon Container",
+ "role": "Feature icon or category indicator"
+ },
+ {
+ "name": "Logo Mark",
+ "role": "Brand identity lockup"
+ }
+ ],
+ "dos": [
+ "Use #beff50 as the ONLY filled button color - never introduce a second chromatic action color",
+ "Set border-radius to 28px on all cards and primary buttons, 9999px on pills and tags",
+ "Use OTSono weight 500 for all headings, labels, and CTAs; weight 400 for body and supporting text",
+ "Apply letter-spacing -0.03em to any text at 28px and above; let body text use default tracking",
+ "Build the surface stack as white parchment (#f5f5eb) lime (#beff50) - never use shadows to separate layers",
+ "Use 0.1em tracking with uppercase for category eyebrows at 10-12px",
+ "Let the off-black #14140f carry all text - never use pure #000000 except in input fields",
+ "Keep section gaps between 80-120px to maintain the editorial breathing rhythm"
+ ],
+ "donts": [
+ "Do not add box-shadows to cards - the system relies on tonal contrast, not elevation",
+ "Do not use #000000 for body text - #14140f is warmer and more on-brand",
+ "Do not introduce blue, red, or any secondary accent color - the lime is the only chromatic voice",
+ "Do not mix border-radius values within the same component type (all buttons are 28px, all pills are 9999px)",
+ "Do not use system fonts as fallback for display sizes - OTSono at 60px+ with -0.03em tracking is signature",
+ "Do not place lime buttons on white surfaces without sufficient padding - the contrast is loud, give it room",
+ "Do not use 600 or 700 weights - the system operates on 400 and 500 only",
+ "Do not add gradients - the lime is already saturated; gradients would muddy it"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Page Canvas | `#ffffff` | Primary page background - the clean white base |\n| 1 | Off-White Card | `#f5f5eb` | Warm parchment surface for feature cards, secondary blocks, and content containers |\n| 2 | Lime Accent Surface | `#beff50` | Hero bands, accent panels, and primary action backgrounds - the electric ground |\n| 3 | Dark Island | `#30302a` | Rare inverted blocks for testimonials or stats - breaks the light monotony |",
+ "elevation": "No shadows. The design separates layers through tonal contrast alone - white canvas parchment card lime accent dark island. Elevation is communicated by surface color shifts, not drop shadows. This keeps the system feeling flat, editorial, and fast.",
+ "imagery": "Photography and product screenshots are treated as editorial inserts - full-bleed or contained within the 28px-radius cards, always on warm parchment or white surfaces. Imagery is not decorative atmosphere; it serves explanatory content (product UI, travel context). No lifestyle photography, no overlapping compositions. Icons are typographic OTSono glyphs at 16-24px, monochromatic in #14140f. The lime color does not appear in imagery - it is reserved exclusively for UI surfaces and actions.",
+ "layout": "Max-width ~1200px centered container with generous outer padding. Hero pattern is large display typography (60-90px) on a parchment or lime background, often paired with a product screenshot or illustration to the right. Sections alternate between white and parchment (#f5f5eb) backgrounds, creating gentle tonal bands. Content arrangement is mixed: full-width display headlines, 2-column text+image splits, and 3-column feature grids at 28px radii. Vertical rhythm is spacious - 80-120px between sections. Navigation is a single top bar with ghost text links and a lime pill CTA anchored right. Footer is dark (#14140f) with white text, providing the only inverted moment at page bottom."
+}

@@ -1,0 +1,238 @@
+{
+ "id": "145e70b3-e0a4-4fbd-8d9e-23bd93dd0021",
+ "name": "North Kingdom",
+ "slug": "north-kingdom",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/145e70b3-e0a4-4fbd-8d9e-23bd93dd0021",
+ "referenceSite": "https://www.northkingdom.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T02:55:31.086Z",
+ "articleModifiedAt": "2026-06-05T12:30:35.196Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7f313b7e-fab4-46af-9d97-9c864c4eaf55.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a3e6f8ed-4ae7-4cd5-ba74-fd92f33227ad.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/db427837-4464-4c64-906d-eb9e74ec1295.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/a57fb468-9898-4440-bf8c-2614752039b4.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/ea50f0d9-a3bb-4872-a6f5-b2504af577d1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/1ce6e98b-c97b-49a0-8da0-7802cfcec1ee.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3b919950-cb89-4c43-8cc2-5ea91ac1cef8.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "cinematic void with luminous type - a black film-studio soundstage where a single wordmark glows",
+ "summary": "Explore North Kingdom\u0027s dark Agency design system: Void Ink #050311, Pure White #ffffff colors, FKGroteskNeue, Arial typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Void Ink",
+ "value": "#050311",
+ "token": "--color-void-ink",
+ "role": "Page canvas, section backgrounds, dark surface base - the near-black stage on which all content sits, carrying a barely-perceptible cool-violet undertone that keeps it from feeling clinical"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary text, headline color, hairline borders, icon strokes, button outlines - the only high-contrast voice in the system; when something needs to be seen, it is white"
+ },
+ {
+ "name": "Carbon Black",
+ "value": "#000000",
+ "token": "--color-carbon-black",
+ "role": "Monochrome icon fills, brand marks, and high-contrast graphic details. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#9b9aa0",
+ "token": "--color-ash-gray",
+ "role": "Muted body text, secondary headings, subtle borders, disabled states - carries all secondary information without competing with the white voice"
+ },
+ {
+ "name": "Graphite",
+ "value": "#44424d",
+ "token": "--color-graphite",
+ "role": "Dividers, low-emphasis borders, hairline separators between sections - quiet structural lines that organize the dark canvas without drawing attention"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "FKGroteskNeue",
+ "token": "--font-fkgroteskneue",
+ "role": "Universal type family - used for navigation, body, headings, badges, buttons, cards, and the massive hero wordmark. A neo-grotesque sans with tabular numerals as a deliberate feature. The single weight (400) is the system\u0027s signature: the hero \u0027North Kingdom\u0027 wordmark achieves its cinematic weight through sheer size, not font weight. Substitute: Space Grotesk or Inter at matching weight."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "System fallback for button labels, icons, and input fields - used where the custom font license or loading constraints prevent the primary face from rendering"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.15",
+ "-0.24px",
+ "--text-heading"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "140",
+ "140px",
+ "`--spacing-140`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "badges",
+ "100px"
+ ],
+ [
+ "images",
+ "8px"
+ ],
+ [
+ "inputs",
+ "26px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Wordmark Display",
+ "role": "Primary brand expression - full-viewport typographic statement"
+ },
+ {
+ "name": "3D Brand Emblem Card",
+ "role": "Central brand icon - visual anchor within the hero wordmark"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site navigation - minimal, non-competing"
+ },
+ {
+ "name": "Image Card",
+ "role": "Project thumbnail / work showcase tile"
+ },
+ {
+ "name": "Outlined Button",
+ "role": "Primary interactive element"
+ },
+ {
+ "name": "Pill Input Field",
+ "role": "Form input - newsletter, contact, search"
+ },
+ {
+ "name": "Full-Pill Badge / Tag",
+ "role": "Category labels, filters, metadata chips"
+ },
+ {
+ "name": "Play Button Overlay",
+ "role": "Video trigger - appears on hero emblem and video thumbnails"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Structural separator between content bands"
+ },
+ {
+ "name": "Footer Block",
+ "role": "Site footer - contact, social, legal"
+ },
+ {
+ "name": "Grid Project Layout",
+ "role": "Work portfolio grid - the \u0027Work\u0027 page pattern"
+ }
+ ],
+ "dos": [
+ "Set all body text and headings in FKGroteskNeue weight 400 - the single weight is the system\u0027s voice; never introduce bold or light variants",
+ "Use #050311 as the page canvas for every full-width background; let sections flow as uninterrupted bands of void",
+ "Apply 8px border-radius to all image containers and project cards; use 4px for buttons; reserve 26px exclusively for input fields",
+ "Let white (#ffffff) carry all primary information: text, borders, icons, button outlines - it is the only voice that speaks loudly",
+ "Use #9b9aa0 for secondary text and muted borders; it should never compete with white for attention",
+ "Let the hero wordmark be enormous - typographic scale is the design system, not color or imagery",
+ "Include \"tnum\" font-feature-settings on all FKGroteskNeune usage to preserve tabular numeral alignment"
+ ],
+ "donts": [
+ "Never introduce a chromatic brand color - the system is monochrome; color appears only inside the 3D emblem artwork",
+ "Never use drop shadows, glows, or blur effects - depth comes from value contrast, not elevation",
+ "Never use border-radius above 8px on cards or images - the 26px and 100px values are reserved for inputs and pills only",
+ "Never use more than one font weight - the system speaks in a single 400 voice at varying sizes",
+ "Never place white text on white surfaces or dark text on the void without testing contrast - the system depends on absolute clarity between two values",
+ "Never use gradients on backgrounds - the canvas is a solid void; gradients were not detected in the system",
+ "Never add decorative borders or ornamental elements - the aesthetic is architectural minimalism, not illustration"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Void Canvas | `#050311` | Base page background - the absolute floor of the design |\n| 1 | Carbon Layer | `#000000` | Icon containers, button surfaces, card backgrounds where a step deeper than the canvas is needed |\n| 2 | Inverted Surface | `#ffffff` | Full-bleed light sections, badge backgrounds, inverse text blocks - the dramatic opposite of the void |",
+ "elevation": "Elevation is avoided entirely. The system uses pure value contrast (white on near-black) rather than shadows to separate layers. No drop shadows, no glow effects, no blur. Depth comes from typographic scale and content density, not from lifted surfaces.",
+ "imagery": "Imagery is treated as cinematic content, not decoration. The dominant visual is a 3D-rendered shield/crest emblem with rich internal coloring (blues, greens, golds, architectural stairways) - this single artwork is the only chromatic element in the entire interface and serves as the brand mascot. Project thumbnails and video stills appear as edge-to-edge 8px-radius cards. Photography is not present in the hero; the void + type + 3D emblem is the hero composition. Icons are minimal and line-based, rendered in #ffffff with thin strokes. The overall visual language is closer to a film studio title sequence than a typical agency portfolio.",
+ "layout": "Full-bleed layout with no max-width container constraint - content stretches edge to edge of the viewport. The hero is a full-viewport dark canvas with the massive \u0027North Kingdom\u0027 wordmark split by the 3D emblem in the center; the wordmark text and emblem share a single horizontal baseline that is vertically centered. Navigation is a minimal top bar (logo left, links right) with no background fill, floating directly on the void. Below the hero, sections flow as uninterrupted horizontal bands separated by hairline dividers in #44424d, with 80px vertical gaps between major sections. Content within sections uses generous 140px horizontal padding for breathing room. Project grids use equal-width columns with 10px gaps. The overall rhythm is cinematic: one overwhelming opening frame, then quiet, spacious, content-driven scrolling."
+}

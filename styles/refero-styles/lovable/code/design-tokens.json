@@ -1,0 +1,314 @@
+{
+ "name": "Lovable",
+ "slug": "lovable",
+ "colors": [
+ {
+ "name": "Parchment",
+ "value": "#fcfbf8",
+ "token": "--color-parchment",
+ "role": "Page canvas, primary background, card surfaces when on darker parents"
+ },
+ {
+ "name": "Warm Sand",
+ "value": "#f7f4ed",
+ "token": "--color-warm-sand",
+ "role": "Card backgrounds, elevated surface panels, secondary containers"
+ },
+ {
+ "name": "Linen Border",
+ "value": "#eceae4",
+ "token": "--color-linen-border",
+ "role": "All borders - nav dividers, card outlines, input strokes, section separators. Warm beige rather than cool gray gives the entire UI its distinctive non-tech softness"
+ },
+ {
+ "name": "Stone",
+ "value": "#d4d3d0",
+ "token": "--color-stone",
+ "role": "Subtle box-shadow tints, disabled borders, secondary dividers"
+ },
+ {
+ "name": "Dim Gray",
+ "value": "#5f5f5d",
+ "token": "--color-dim-gray",
+ "role": "Secondary text, placeholder text, muted nav labels, subheadings"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#1c1c1c",
+ "token": "--color-charcoal",
+ "role": "Primary text, nav labels, icon fills, inverse button background. Near-black rather than pure black keeps the warm tone consistent"
+ },
+ {
+ "name": "Ink",
+ "value": "#030303",
+ "token": "--color-ink",
+ "role": "Highest-emphasis text (hero headline, button labels in chat input), icon fills"
+ },
+ {
+ "name": "Indigo Accent",
+ "value": "#3451b2",
+ "token": "--color-indigo-accent",
+ "role": "Reserved accent from CSS tokens (--bg-accent). Inline text links, focus rings, accent highlights when needed"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Camera Plain Variable",
+ "token": "--font-camera-plain-variable",
+ "role": "The only typeface on the entire site. A custom variable-weight sans-serif that carries both body text and display headlines. The 480 weight is unusual - heavier than normal but not semi-bold, giving headlines a confident but non-aggressive stance. Ligatures are explicitly disabled (\"liga\" 0), keeping the letterforms mechanical and preventing decorative swashes."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.5",
+ "-0.35px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.4px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.38",
+ "-0.45px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "20px",
+ "1.25",
+ "-0.5px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.1",
+ "-0.9px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.1",
+ "-1.2px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1",
+ "-1.5px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1280px",
+ "sectionGap": "64-80px",
+ "cardPadding": "20-24px",
+ "elementGap": "6-8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "73",
+ "73px",
+ "`--spacing-73`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "16-24px"
+ ],
+ [
+ "badges",
+ "9999px"
+ ],
+ [
+ "images",
+ "12px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "containers",
+ "16px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Ghost Nav Button",
+ "role": "Top navigation items"
+ },
+ {
+ "name": "Outlined Pill Button",
+ "role": "Secondary actions like \u0027Log in\u0027"
+ },
+ {
+ "name": "Dark Pill Button",
+ "role": "Primary action (\u0027Get started\u0027)"
+ },
+ {
+ "name": "Frosted Pill Button",
+ "role": "Overlay actions on the hero gradient"
+ },
+ {
+ "name": "Chat Input Card",
+ "role": "Hero prompt area where users type their app idea"
+ },
+ {
+ "name": "Template Preview Card",
+ "role": "Template gallery items in the \u0027Discover templates\u0027 grid"
+ },
+ {
+ "name": "Warm Surface Card",
+ "role": "Feature explanation panels, content containers"
+ },
+ {
+ "name": "Logo Bar",
+ "role": "Social proof strip showing company logos"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Major content section titles like \u0027Meet Lovable\u0027, \u0027Discover templates\u0027"
+ },
+ {
+ "name": "Feature Step",
+ "role": "Numbered feature explanations (\u0027Start with an idea\u0027, \u0027Watch it come to life\u0027)"
+ },
+ {
+ "name": "View All Link",
+ "role": "Secondary navigation to full listings"
+ },
+ {
+ "name": "Sticky Navigation Bar",
+ "role": "Top-of-page persistent navigation"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 9999px border-radius for all buttons, badges, and pill-shaped controls - the full-pill shape is the signature interactive affordance",
+ "Keep the palette almost entirely achromatic; reserve chromatic color exclusively for the hero gradient and semantic states - never for buttons, links, or UI accents",
+ "Apply -0.025em letter-spacing globally across all text sizes; this tight tracking is a defining characteristic of the type system",
+ "Use #f7f4ed (Warm Sand) for card surfaces and #fcfbf8 (Parchment) for the page canvas - the two warm whites create the surface hierarchy",
+ "Use weight 480 for headings and weight 400 for body text - this subtle weight contrast (not bold vs regular) defines the typographic hierarchy",
+ "Set \u0027liga\u0027 0 in font-feature-settings on all text to disable ligatures, matching the original type rendering",
+ "Use 1px solid #eceae4 for all borders - dividers, card outlines, input strokes, nav separators - one warm beige border color everywhere"
+ ],
+ "doNot": [
+ "Never use cool grays (#e5e7eb, #6b7280) - all neutrals skew warm with a yellow undertone; cool grays would break the parchment atmosphere",
+ "Never apply colored backgrounds to buttons; the primary action is near-black (rgba(0,0,0,0.88)) and secondary is transparent - there is no colored CTA",
+ "Never use drop shadows for elevation except on the chat input card; most cards and surfaces are flat with no shadow at all",
+ "Never use more than one font family - Camera Plain Variable (or its substitute) handles everything from 14px captions to 60px display headlines",
+ "Never use sharp corners (0px radius) on interactive elements; even image thumbnails get 12px radius",
+ "Never use the hero gradient colors on individual UI components like buttons, badges, or icons - the gradient exists only as a full-bleed atmospheric background",
+ "Never add visual weight to feature sections with icons, colored badges, or decorative elements - this system communicates through type weight and scale alone"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9ff62d34-e48d-4fcb-9fd9-c018e2747542",
+ "referenceSite": "https://lovable.dev",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:44:25.243Z",
+ "articleModifiedAt": "2026-06-05T12:23:55.499Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0e4435ab-b647-46a5-8134-e78324793b82.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/6281684e-704e-4af3-a449-17fc3834023e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/bf001ea2-687a-409a-af41-81c7910338aa.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/77be0250-1330-409d-b9d2-388207d3578e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/da8c2ddb-0f07-4a96-ae01-a1d9fabc659a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/26ea5d76-f1ea-498a-8128-b1e3d7446688.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e42fd777-951d-41cf-881d-34f32e31d17b.png"
+ }
+ }
+}

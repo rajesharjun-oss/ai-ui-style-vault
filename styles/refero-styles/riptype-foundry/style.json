@@ -1,0 +1,224 @@
+{
+ "id": "3e397dc6-0e68-435f-9dee-1966a9d245d3",
+ "name": "Riptype Foundry",
+ "slug": "riptype-foundry",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/3e397dc6-0e68-435f-9dee-1966a9d245d3",
+ "referenceSite": "https://www.riptype.xyz",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T02:06:28.471Z",
+ "articleModifiedAt": "2026-06-05T12:57:01.052Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/db676c00-0b8c-4a69-9373-3a065403c675.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c65cf3db-2be2-4200-87a1-2be1f4cbf676.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/1c5cb159-9de8-46cf-b39a-e4edca9032df.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/70ae0b27-f457-42dd-aa32-b913f8c5619b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/5d687381-21bc-4523-bab2-74ae964460bc.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/43425023-234c-4f24-8654-910aae9c6b8a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/916badbb-a595-4416-ad32-40c6aea50a52.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "ink on black paper - the type is the only bright thing in the room",
+ "summary": "Explore Riptype Foundry\u0027s dark Other design system: Workshop Black #121212, Platen Gray #292929 colors, Office typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Workshop Black",
+ "value": "#121212",
+ "token": "--color-workshop-black",
+ "role": "Page background, primary canvas - the dark surface the type sits on"
+ },
+ {
+ "name": "Platen Gray",
+ "value": "#292929",
+ "token": "--color-platen-gray",
+ "role": "Raised surface for buttons, hover fills, interactive plate"
+ },
+ {
+ "name": "Bone",
+ "value": "#d0d0d0",
+ "token": "--color-bone",
+ "role": "Default body text, link strokes, hairline rules, icon outlines"
+ },
+ {
+ "name": "Ash",
+ "value": "#a0a0a0",
+ "token": "--color-ash",
+ "role": "Secondary text, metadata, subdued borders and captions"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Headings, display type, high-contrast text, image borders"
+ },
+ {
+ "name": "Acid Flash",
+ "value": "#d9ff00",
+ "token": "--color-acid-flash",
+ "role": "Green outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Office",
+ "token": "--font-office",
+ "role": "Sole typeface - used for navigation, body, buttons, specimens, and display. The foundry sells custom type so the UI type IS the product showcase. Weights 400 (regular) for UI and body, 700 (bold) for the large display announcement and emphasis."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.19",
+ "0.083px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.58",
+ "0.016px",
+ "--text-body"
+ ],
+ [
+ "display",
+ "43px",
+ "1",
+ "0.083px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "84px",
+ "cardPadding": "13px",
+ "elementGap": "6px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "pills",
+ "144px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Sidebar Nav Link",
+ "role": "Primary navigation entry"
+ },
+ {
+ "name": "Acid Download Pill",
+ "role": "Primary CTA - the single most important action on the site"
+ },
+ {
+ "name": "Platen Button",
+ "role": "Secondary action, secondary CTA"
+ },
+ {
+ "name": "Font Specimen Row",
+ "role": "Core content unit - the product itself"
+ },
+ {
+ "name": "Annotation Block",
+ "role": "Descriptive copy paired with specimens"
+ },
+ {
+ "name": "Custom Type Image Card",
+ "role": "Showcase of a commissioned type project"
+ },
+ {
+ "name": "Release Announcement Panel",
+ "role": "Featured product launch banner"
+ },
+ {
+ "name": "Decorative Star Mark",
+ "role": "Ornamental accent on nav and section headers"
+ },
+ {
+ "name": "Cart Badge",
+ "role": "Persistent shopping indicator"
+ },
+ {
+ "name": "Section Header",
+ "role": "Major content section title"
+ }
+ ],
+ "dos": [
+ "Use #d9ff00 exclusively for the Download Pill CTA and decorative star marks - the acid green\u0027s power comes from scarcity",
+ "Pair all body text (#d0d0d0) with the Workshop Black (#121212) canvas - contrast ratio 12.2:1 exceeds AAA",
+ "Set type specimens at 43px+ with 0.083em letter-spacing to give the display characters room to demonstrate their own proportions",
+ "Use 6px as the default element gap; 7px rowGap is the specimen-book rhythm",
+ "Communicate elevation through surface tone (#121212 #292929) and 1px #d0d0d0 hairlines, never through shadows",
+ "Keep radius at 0px for cards and images - the only rounded elements are the 144px pill CTA and the 4px standard button",
+ "Default to Office 400 for all UI; reach for Office 700 only for display specimens and emphasis moments"
+ ],
+ "donts": [
+ "Do not introduce additional chromatic colors - the red announcement panel and acid green are the only breaks from monochrome",
+ "Do not add drop shadows to any component - the system is intentionally flat and print-referenced",
+ "Do not use rounded corners on cards or images beyond what the data specifies (0px)",
+ "Do not substitute a different display font for specimens - the typeforms on this site ARE the product catalog",
+ "Do not soften the dark canvas with gradients or tints - #121212 is absolute and edge-to-edge",
+ "Do not apply the acid green to body text, icons, or large areas - it loses signal value at any surface area larger than the pill button",
+ "Do not add decorative dividers, background tints, or section backgrounds - content is separated by whitespace and hairlines only"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Workshop Black | `#121212` | Base page canvas - extends edge to edge |\n| 1 | Platen Gray | `#292929` | Interactive surface for buttons and hover states |",
+ "elevation": "The system is shadowless. Elevation is communicated through surface tone shift (#121212 #292929) and hairline #d0d0d0 borders, never through drop shadows. The flat, unlit quality keeps attention on the typeforms.",
+ "imagery": "Product photography is tightly cropped and square, focused on objects that demonstrate the type in use: printed packaging, laser-cut letter forms on a lunar surface, resin-cast specimen objects, branded product shots. Images are treated as flat tiles with 1px #d0d0d0 borders and no rounding - they read as prints pinned to the page. The right column functions as a visual proof gallery: each image answers the question \u0027what does this type look like in the world?\u0027 with minimal lifestyle context. No people, no environments beyond controlled studio setups. The red announcement panel carries a visible grain/noise texture overlay that references risograph and screen-print production aesthetics - a deliberate signal that this is a workshop, not a storefront.",
+ "layout": "Three-column full-bleed layout with no max-width container. Left column (~200px): sticky navigation with text links and small icon marks, separated by hairline borders. Center column (flexible, dominant): font specimens stacked vertically with 7px row gap, paired with descriptive copy. Right column (~260px): vertical image gallery of custom type applications, each image a square or near-square tile. The red announcement panel interrupts the center column as a full-height block, breaking the monochrome rhythm. The grid is intentionally tight and editorial - the layout reads like a specimen book opened to a spread, not a modern web page. Navigation lives in the left margin, content in the middle, proof on the right. No hero, no large display area at the top - the first viewport is already into the product."
+}

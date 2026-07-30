@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Agent Index",
-  "generatedAt": "2026-07-29",
+  "generatedAt": "2026-07-30",
   "purpose": "Machine-readable entry point for agents choosing and adapting UI references from this vault.",
   "entryPoints": {
     "humanReadme": "README.md",
@@ -9,6 +9,7 @@
     "buildChecklist": "guides/AGENT_BUILD_CHECKLIST.md",
     "styleSelectionGuide": "guides/STYLE_SELECTION_GUIDE.md",
     "webToolDesignMatrix": "guides/WEB_TOOL_DESIGN_MATRIX.md",
+    "siteInteractionPatterns": "guides/SITE_INTERACTION_PATTERNS.md",
     "styleCatalog": "catalog.json",
     "screenCatalog": "screen-catalog.json",
     "capturedStyles": "CAPTURED_STYLES.md",
@@ -18,7 +19,7 @@
     "generatedSiteValidator": "scripts/validate-generated-site.ps1"
   },
   "inventory": {
-    "styleBundles": 280,
+    "styleBundles": 340,
     "screenReferences": 48,
     "primaryStyleRoot": "styles/refero-styles",
     "screenReferenceRoot": "screens/refero",
@@ -27,6 +28,7 @@
   "selectionProtocol": [
     "Inspect the target repository and identify product type, audience, page needs, interaction density, tone, accessibility constraints, and styling stack.",
     "Read guides/AGENT_BUILD_CHECKLIST.md before building, including visual QA, asset QA, and handoff gates.",
+    "Read guides/SITE_INTERACTION_PATTERNS.md when the target site needs rotating hero media, dropdowns, mega menus, category browsing, brand grids, or top-nav interaction.",
     "Create a VAULT_SELECTION.md record from templates/VAULT_SELECTION.md before implementation.",
     "Read catalog.json and shortlist 3 to 5 style bundles using category, bestFor, tags, theme, northStar, primaryColors, fonts, and available files.",
     "Read screen-catalog.json and shortlist page-specific screen references for required page types.",
@@ -106,6 +108,13 @@
       "screenPageTypes": ["product-page-landing", "integration-page", "careers", "contacts"],
       "selectionTags": ["enterprise", "b2b", "saas", "landing", "integrations"]
     }
+  ],
+  "interactionPatternAddOns": [
+    "Rotating Editorial Hero",
+    "Product Taxonomy Mega Menu",
+    "Brand Logo Mega Menu",
+    "Split Utility Mega Menu",
+    "Icon Category Drawer"
   ],
   "requiredReadFilesForSelectedStyle": [
     "README.md",

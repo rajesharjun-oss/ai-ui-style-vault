@@ -1,0 +1,277 @@
+{
+ "name": "OPX Studio",
+ "slug": "opx-studio",
+ "colors": [
+ {
+ "name": "Void Black",
+ "value": "#020202",
+ "token": "--color-void-black",
+ "role": "Page canvas - the base background across all sections"
+ },
+ {
+ "name": "Surface Black",
+ "value": "#000000",
+ "token": "--color-surface-black",
+ "role": "Section surfaces and image containment backgrounds, barely distinguishable from canvas to keep elevation flat"
+ },
+ {
+ "name": "Charcoal Hairline",
+ "value": "#292a2c",
+ "token": "--color-charcoal-hairline",
+ "role": "Structural dividers and borders - the only mid-tone in the system, carrying 900 occurrences as the skeleton between sections and elements"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Primary text, nav labels, project titles, and 1px pill-button borders - the sole signal of interactivity"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#9b9b9b",
+ "token": "--color-ash-gray",
+ "role": "Muted helper text and secondary metadata in footer and supporting copy - recedes against the void"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "OPX-Medium",
+ "token": "--font-opx-medium",
+ "role": "Primary brand display and text face - a single weight (400) scaling across body, nav, subheadings, and monumental display. Custom face with a humanist-geometric tension; the anti-convention of using weight 400 (not bold) at 111px display size lets the headline dominate through scale alone rather than visual weight"
+ },
+ {
+ "name": "Open Sans",
+ "token": "--font-open-sans",
+ "role": "Secondary supporting copy - used in hero subtext and longer descriptive passages where a more relaxed, open-licensed humanist is desired"
+ },
+ {
+ "name": "Untitled",
+ "token": "--font-untitled",
+ "role": "Small label text for pill buttons and tag-like links (e.g. \"View case study\") - the only weight-500 usage in the system, giving micro-UI slightly more presence"
+ },
+ {
+ "name": "Helvetica",
+ "token": "--font-helvetica",
+ "role": "System fallback for incidental body text and metadata"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.67",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "18px",
+ "1.67",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.67",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.42",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "35px",
+ "1.4",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "50px",
+ "1.38",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "80px",
+ "1.07",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "111px",
+ "1",
+ "-",
+ "--text-display-xl"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "100-200px",
+ "cardPadding": "",
+ "elementGap": "30px",
+ "scale": [
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "21",
+ "21px",
+ "`--spacing-21`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "99",
+ "99px",
+ "`--spacing-99`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "150",
+ "150px",
+ "`--spacing-150`"
+ ],
+ [
+ "200",
+ "200px",
+ "`--spacing-200`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "links",
+ "45px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "45px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Display Navigation Link",
+ "role": "Primary top-bar nav item (\"Projects\", \"Studio\")"
+ },
+ {
+ "name": "Editorial Hero Headline",
+ "role": "Opening statement on the home canvas"
+ },
+ {
+ "name": "Featured Project Block",
+ "role": "Single full-bleed project case study (e.g. KB\u0026Co)"
+ },
+ {
+ "name": "Project Card (Grid Item)",
+ "role": "Individual case study tile in the 3-column project grid"
+ },
+ {
+ "name": "Pill CTA Button (\u0027View case study\u0027)",
+ "role": "Primary call-to-action linking to a case study"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Mid-page editorial section titles"
+ },
+ {
+ "name": "Footer Column Block",
+ "role": "Structured contact and meta information at page bottom"
+ },
+ {
+ "name": "Body Paragraph",
+ "role": "Supporting descriptive copy"
+ },
+ {
+ "name": "Social/External Link",
+ "role": "Footer or inline outbound link"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Horizontal separator between major content bands"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use OPX-Medium 400 at 80-111px for display headlines with line-height locked at 1.00-1.07 - never bold the display",
+ "Apply the #292a2c 1px hairline as the only divider between sections and around interactive elements",
+ "Set all CTA buttons as 1px white-stroke pills at 45px radius with 7px/15px padding - no filled buttons",
+ "Let photography fill its container edge-to-edge at 0px radius - never frame or round project imagery",
+ "Maintain 100-200px vertical padding between major sections to preserve the editorial pacing",
+ "Use #9b9b9b exclusively for muted metadata and helper text; reserve #ffffff for all primary content",
+ "Keep the navigation to two-word labels set in OPX-Medium - the page is the navigation"
+ ],
+ "doNot": [
+ "Do not introduce a brand color, accent, or gradient - the system is monochrome by design",
+ "Do not use box-shadows, glows, or any drop-shadow elevation",
+ "Do not bold the display type - authority comes from size (80-111px), not weight",
+ "Do not round the project imagery or apply a card background - images sit on the void directly",
+ "Do not use #9b9b9b on a #ffffff surface - it fails contrast (2.8:1); it\u0027s only valid on the dark canvas",
+ "Do not add icons, bullets, or decorative glyphs to the nav or links - type is the only ornament",
+ "Do not tighten body line-height below 1.67 - the relaxed leading is the only counterpoint to the display text\u0027s compression"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/bd395e2e-58a8-4626-acfa-9be8d6cdf604",
+ "referenceSite": "https://opx.studio",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:13:32.279Z",
+ "articleModifiedAt": "2026-06-05T12:30:10.805Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1c22786b-17bd-4b9f-a32d-600f106e7f91.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/150f0f8e-534b-4848-af09-616c4a65890f.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4abbf817-6188-4975-a9ec-77fcdcfd1b10.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7a326cb3-b392-4b27-a898-2d3ccd02dee3.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/19d7c7ad-e690-4da7-a32d-b2f5491ddfc3.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/4f8f898d-e3b5-4a43-8fab-996c2b8b9824.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

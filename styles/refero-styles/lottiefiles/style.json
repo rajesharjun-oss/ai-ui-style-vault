@@ -1,0 +1,363 @@
+{
+ "id": "a80507cb-afda-46dd-a2b9-ba91f3a78e78",
+ "name": "LottieFiles",
+ "slug": "lottiefiles",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/a80507cb-afda-46dd-a2b9-ba91f3a78e78",
+ "referenceSite": "https://lottiefiles.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-02-19T13:28:03.000Z",
+ "articleModifiedAt": "2026-07-03T11:31:11.437Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/a34aaf57-1b3c-4279-8d7c-8ece2c116331.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/ceb74d81-be8a-448d-9de4-51e0e8aea112.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/fb8a3c77-d58d-4f89-b69f-7e61d94b8dd2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/769bbf1d-c272-45cb-81a6-33ddb203ad1a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a18c2aaa-02fa-4d4c-9d90-fb6de685ee93.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/cda23a3f-930d-4243-9e90-3a006c5f790e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/d16ce3a9-b1c1-4df7-9bb6-878368886e7a.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Bright motion studio with teal accent",
+ "summary": "Explore LottieFiles\u0027s light Other design system: Lottie Teal #019d91, Ink #09090b colors, DM Sans, Inter typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Lottie Teal",
+ "value": "#019d91",
+ "token": "--color-lottie-teal",
+ "role": "Teal action color for filled buttons, selected navigation states, and focused conversion moments."
+ },
+ {
+ "name": "Ink",
+ "value": "#09090b",
+ "token": "--color-ink",
+ "role": "Primary text, headings, dark card surfaces, footer background, icon strokes - near-black with a barely-perceptible cool cast"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#18181b",
+ "token": "--color-charcoal",
+ "role": "Dark card backgrounds, elevated dark surfaces, strong icon strokes, secondary dark UI blocks"
+ },
+ {
+ "name": "Slate 700",
+ "value": "#27272a",
+ "token": "--color-slate-700",
+ "role": "Dark muted surfaces and inverse muted backgrounds"
+ },
+ {
+ "name": "Steel",
+ "value": "#71717b",
+ "token": "--color-steel",
+ "role": "Muted body text, secondary copy, icon fills, helper labels - sits between the primary ink and lighter grays"
+ },
+ {
+ "name": "Fog",
+ "value": "#9f9fa9",
+ "token": "--color-fog",
+ "role": "Subtle text, tertiary metadata, low-priority descriptions"
+ },
+ {
+ "name": "Cloud",
+ "value": "#e4e4e7",
+ "token": "--color-cloud",
+ "role": "Hairline borders, input outlines, subtle dividers between UI sections"
+ },
+ {
+ "name": "Mist",
+ "value": "#f2f2f3",
+ "token": "--color-mist",
+ "role": "Largest-volume border color across the UI; subtle separators, input borders, form outlines"
+ },
+ {
+ "name": "Warm Gray",
+ "value": "#f4f4f5",
+ "token": "--color-warm-gray",
+ "role": "Page canvas and soft card surfaces - the dominant background tone beneath white"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Pure white surfaces: raised cards, button fills, content containers on top of warm-gray canvas"
+ },
+ {
+ "name": "Sunshine",
+ "value": "#f0b100",
+ "token": "--color-sunshine",
+ "role": "Yellow wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Mint Wash",
+ "value": "#b7ffe7",
+ "token": "--color-mint-wash",
+ "role": "Soft decorative fill in illustration/illustration-adjacent graphics"
+ },
+ {
+ "name": "Mint Pop",
+ "value": "#61f7cf",
+ "token": "--color-mint-pop",
+ "role": "Bright decorative fill used in hero illustration characters and supporting graphics"
+ },
+ {
+ "name": "Ember",
+ "value": "#ff6900",
+ "token": "--color-ember",
+ "role": "Orange wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "DM Sans",
+ "token": "--font-dm-sans",
+ "role": "Display and heading family. Used for hero headlines (48-96px, weight 500), section headings (24-32px, weight 500), and large body (20px, weight 400). Letter-spacing tightens aggressively at large sizes - -0.0500em at 96px pulls characters into a compressed, poster-like composition that feels editorial rather than utilitarian. The medium weight (500) is the headline default, avoiding the heavy 700-800 convention used by most SaaS sites."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Utility and body family. Owns all body copy (16px), navigation (14px medium), buttons (14px medium), small labels (10-12px medium), and supporting icons. Consistent -0.0100em letter-spacing keeps it visually aligned to DM Sans at smaller sizes. Two-weight discipline (regular and medium only) keeps the interface feeling light and fast."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "-0.12px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-0.14px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.16px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "20px",
+ "1.4",
+ "-0.2px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.12",
+ "-0.24px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.2",
+ "-0.96px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.15",
+ "-1.92px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "64px",
+ "1.15",
+ "-2.56px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "96px",
+ "1.04",
+ "-4.8px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ],
+ [
+ "hero-panels",
+ "48px"
+ ],
+ [
+ "feature-cards",
+ "24px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Teal Button",
+ "role": "Main call-to-action - sign-up, start, explore"
+ },
+ {
+ "name": "Outline Button",
+ "role": "Secondary action - contact, learn more"
+ },
+ {
+ "name": "Ghost Button",
+ "role": "Tertiary or nav-adjacent action"
+ },
+ {
+ "name": "Search Field",
+ "role": "Animation search input in header and hero"
+ },
+ {
+ "name": "Language Toggle",
+ "role": "Locale selector in header"
+ },
+ {
+ "name": "Feature Tile",
+ "role": "Compact 4-column feature highlight with icon"
+ },
+ {
+ "name": "Brand Case-Study Card",
+ "role": "Featured customer animation showcase"
+ },
+ {
+ "name": "Animation Preview Tile",
+ "role": "Lottie animation grid item"
+ },
+ {
+ "name": "Dark Feature Card",
+ "role": "Inverted card for emphasis sections"
+ },
+ {
+ "name": "Hero Headline",
+ "role": "Page-top display headline"
+ },
+ {
+ "name": "Trust Logo Strip",
+ "role": "Social proof band beneath hero"
+ },
+ {
+ "name": "Footer Block",
+ "role": "Site footer"
+ },
+ {
+ "name": "Search Input (Hero)",
+ "role": "Large centered search for animation library"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ }
+ ],
+ "dos": [
+ "Use #019d91 fill + #ffffff text for every primary action button (Get started, Sign up, Explore, See all).",
+ "Apply border-radius 8px to buttons and inputs, 16px to standard cards, 24px to feature/hero panels, 48px to oversized dark hero panels.",
+ "Headlines 32px and above must use DM Sans weight 500 with the matching negative letter-spacing: -0.0300em at 32px, -0.0400em at 48-64px, -0.0500em at 96px.",
+ "Body, navigation, buttons, and small UI copy use Inter only - never mix DM Sans into utility text below 24px.",
+ "Set page background to #f4f4f5 and place raised white cards (#ffffff) on top with 24px or 32px padding.",
+ "Use 1px solid #e4e4e7 or #f2f2f3 as the only border treatment - never thicker than 1px on standard UI.",
+ "Place colorful illustrations and animation thumbnails on the warm-gray canvas with no card chrome - let the artwork be the visual, not a wrapper."
+ ],
+ "donts": [
+ "Never use #000000 pure black as a card or surface fill - use #09090b or #18181b instead so surfaces feel ink-toned, not harsh.",
+ "Never apply weight 700 or 800 to headlines - the system uses weight 500 even at 96px display sizes.",
+ "Never use a drop shadow on cards - the elevation language is built from background contrast and rounded corners, not shadows.",
+ "Never combine #019d91 with bold gradients, glassmorphism, or neon glow - the teal must read as a flat, confident fill.",
+ "Never use #ff6900 (ember) for decoration or branding - it is reserved for warning/attention states.",
+ "Never put body copy below 14px - captions stop at 12px and labels at 10px, and always use weight 500 for non-body sizes under 16px.",
+ "Never break the spacing rhythm: gaps inside components are 4-8px, component-internal padding is 16-24px, between sections is 80px."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Warm Gray Canvas | `#f4f4f5` | Base page background, the largest surface tone beneath all content |\n| 1 | Paper | `#ffffff` | Raised cards, primary buttons, content containers on warm-gray canvas |\n| 2 | Soft Highlight Wash | `#fff8e5` | Subtle warm-tinted surfaces for category tiles and decorative panels |\n| 3 | Charcoal Dark | `#18181b` | Dark-mode card blocks and contrast sections that invert the page |\n| 4 | Ink Dark | `#09090b` | Deepest surface for footer and high-contrast feature panels |",
+ "elevation": "- **Buttons and inputs:** `rgba(0, 0, 0, 0.05) 0px 1px 2px 0px`",
+ "imagery": "The visual language is animation- and illustration-first. Hero illustrations are flat, colorful vector character clusters with rounded organic shapes - faces, stars, robots, blobs - in saturated pastels (mint, orange, pink, teal, yellow) against the warm-gray canvas. Lottie animation thumbnails fill the library grid as full-bleed tile content (no card wrappers), each one a self-contained mini-scene. Brand case-study cards are full-bleed creative artwork from customers (Walmart smileys, Washington Post graphics, Canva birthday cards, CNN Create cityscapes). Photography is absent - the site replaces it entirely with motion graphics and illustration. Icons are mono-color filled glyphs, often small colored square backgrounds (yellow, pink, dark-blue, dark-green) behind simple line icons in feature tiles.",
+ "layout": "Max-width 1200px centered container. Hero is a 2-column split: left-aligned oversized headline + subtext + dual CTAs, right-aligned illustration cluster. Below hero is a 4-column feature tile row, then a centered trust-strip with logo band, then a horizontal-scroll brand case-study carousel (full-bleed cards, partially visible peek on the right edge). Library section shifts to a centered stack: large centered headline, subtext, large search field, then a 5-column animation grid with rounded tiles. Footer is full-bleed dark (#09090b) with multi-column link grid. Vertical rhythm is consistent - sections separated by ~80px gaps, section headings centered above their content blocks, no alternating colored bands (the page stays on warm-gray canvas throughout, except for the dark footer)."
+}

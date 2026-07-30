@@ -1,0 +1,275 @@
+{
+ "id": "c73ba3d8-42fe-4d53-bec1-b6643949c582",
+ "name": "Beau",
+ "slug": "beau",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/c73ba3d8-42fe-4d53-bec1-b6643949c582",
+ "referenceSite": "https://beau.to",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:48:13.480Z",
+ "articleModifiedAt": "2026-06-05T12:42:13.381Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ae86317f-dced-4a37-89fd-142025417894.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/1b832573-164d-438a-a6e9-522677bd5e36.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/fbe0b0e0-4428-4991-a0cc-c79ff6e97c05.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/92f01d2e-6a68-451a-824a-3016a54199ea.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/1883d52b-514f-4a2d-8744-bd953c588e0b.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/bc42c25e-eef5-4a87-a1e7-93ab517349e7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/09bb516f-3d98-4ecb-b395-23e7fc6885b5.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Ink on warm parchment - confident monochromatic editorial with a single theatrical gradient spotlight.",
+ "summary": "Explore Beau\u0027s light SaaS design system: Paper White #ffffff, Warm Parchment #f6f4f1 colors, Geist typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary page canvas, card surfaces, button text on dark fills"
+ },
+ {
+ "name": "Warm Parchment",
+ "value": "#f6f4f1",
+ "token": "--color-warm-parchment",
+ "role": "Alternate section surface - gives the cream/ivory warmth that stops the page from feeling clinical"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, dark feature card surfaces, filled pill button background, hairline borders - the structural backbone of every screen"
+ },
+ {
+ "name": "Soft Graphite",
+ "value": "#666666",
+ "token": "--color-soft-graphite",
+ "role": "Secondary text, muted helper copy, quiet borders on neutral sections"
+ },
+ {
+ "name": "Mid Ash",
+ "value": "#999999",
+ "token": "--color-mid-ash",
+ "role": "Tertiary metadata, section subtitles, low-emphasis text"
+ },
+ {
+ "name": "Pale Mist",
+ "value": "#b3b3b3",
+ "token": "--color-pale-mist",
+ "role": "Disabled badge fill, very low-emphasis surface washes"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Geist",
+ "token": "--font-geist",
+ "role": "Sole typeface across nav, body, headings, and buttons. Weight 400 carries body and most copy; weight 500 is reserved for subheadings, labels, and emphasis. The Geist stylistic sets ss01, ss03, ss04 are enabled - these alter the alternate single-storey \u0027a\u0027, the geometric \u0027g\u0027, and the modernist \u0027$\u0027 to give the type a custom editorial feel. Substitute with Inter at the same weights if Geist is unavailable."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.4",
+ "-0.14px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "17px",
+ "1.4",
+ "-0.17px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.3",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.2",
+ "-0.56px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "33px",
+ "1.15",
+ "-0.66px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.15",
+ "-0.8px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "56px",
+ "1.1",
+ "-1.12px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "72px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "6px"
+ ],
+ [
+ "badges",
+ "200px"
+ ],
+ [
+ "images",
+ "6px"
+ ],
+ [
+ "buttons",
+ "200px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Pill Button (Primary)",
+ "role": "Primary action - the only filled button in the system"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Secondary navigation and inline links"
+ },
+ {
+ "name": "Dark Feature Card",
+ "role": "High-emphasis content block - inverted surface for key value propositions"
+ },
+ {
+ "name": "Gradient-Framed Product Card",
+ "role": "Showcases the product interface inside a gradient border frame"
+ },
+ {
+ "name": "Feature Pill",
+ "role": "Compact feature highlight - icon + short label in a pill"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Sticky top header with brand mark, center links, and right-aligned CTA"
+ },
+ {
+ "name": "Upload Interface Card",
+ "role": "In-context product UI showing document upload state"
+ },
+ {
+ "name": "Form Verification Mockup",
+ "role": "Product UI showing the verification result state"
+ },
+ {
+ "name": "Gradient Section Band",
+ "role": "Full-width section wash - the gradient\u0027s headline appearance"
+ },
+ {
+ "name": "Section Heading Stack",
+ "role": "The canonical headline + subhead block at the top of every section"
+ },
+ {
+ "name": "Two-Column Feature Row",
+ "role": "Standard content rhythm: product visual left, text right (or alternating)"
+ }
+ ],
+ "dos": [
+ "Use the broadcast gradient (135deg, #ff8308 #ff5043 #392bd5) exclusively for product frames, feature pills, and at most one full-width section band per page",
+ "Set all buttons and feature pills to 200px border-radius - the fully pill-shaped button is a core signature",
+ "Set all cards, images, and badges to 6px border-radius - subtle, never rounded enough to feel friendly",
+ "Apply Geist 500 for headings and labels, Geist 400 for body - never introduce weight 600 or 700; the narrow weight axis is intentional",
+ "Use #f6f4f1 as the warm parchment for alternate section surfaces rather than a hard border or divider",
+ "Enable font features \u0027ss01\u0027, \u0027ss03\u0027, \u0027ss04\u0027 on all Geist text - these stylistic sets are part of the brand voice",
+ "Use 72px as the standard section gap and 24px as the element gap inside cards"
+ ],
+ "donts": [
+ "Do not introduce any chromatic color outside the broadcast gradient - the system is monochrome by design",
+ "Do not use 6px or 8px radius on buttons or pills - only 200px (full pill) is correct",
+ "Do not use heavy shadows or elevation - the only approved shadow is the 2px 6%-black atmospheric haze",
+ "Do not use type weights outside 400 and 500 - bold and semibold would break the restrained editorial voice",
+ "Do not place white cards on the gradient band - use dark (#000000) feature cards or let the gradient breathe",
+ "Do not use #0000ee or browser-default link blue - links are always black with optional underline",
+ "Do not crowd sections - if a section feels tight, increase the 72px gap rather than reducing font sizes"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper White | `#ffffff` | Default page canvas, product card interiors |\n| 1 | Warm Parchment | `#f6f4f1` | Alternate section background - provides the ivory warmth and separates content bands without needing a hard line |\n| 2 | Ink Black | `#000000` | Dark feature cards, inverted content blocks - used as a surface, not just text |",
+ "elevation": "- **Feature Card:** `rgba(0, 0, 0, 0.06) 0px 2px 6px 0px`",
+ "imagery": "Visuals are dominated by in-context product UI screenshots - the actual Beau interface rendered at near-full size, never abstract illustrations. Product shots are framed inside a thin gradient border ring, which is the only decorative treatment. The gradient itself (orange red indigo) is used as a full-bleed section wash once, acting as the lone piece of color theatre on an otherwise monochrome page. No photography, no 3D renders, no stock illustration. Icons are simple line glyphs in a single weight, used inside gradient pills. The visual identity rests on restraint: the product UI is the hero, the gradient is the spotlight, and everything else is paper and ink.",
+ "layout": "Page is a max-width 1200px centered canvas with generous 72px section gaps and 96px hero padding. The hero is a centered headline + subhead + two-column product frame (gradient-ringed product card on the left, dark feature card on the right). Below the hero, content alternates between left-aligned text+image two-column rows and a single full-width gradient band that contains a 3-column grid of gradient-filled feature pills. Navigation is a minimal sticky top bar: logo left, two center links, single pill CTA right - no dropdowns, no sidebar, no footer complexity visible above the fold. The density is deliberately spacious: one idea per section, 72px of breathing room between them, no decorative dividers - the surface color shift from white to warm parchment to black to gradient is the only structural device."
+}

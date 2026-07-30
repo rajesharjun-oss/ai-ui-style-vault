@@ -1,0 +1,327 @@
+{
+ "name": "Flutterwave Design",
+ "slug": "flutterwave-design",
+ "colors": [
+ {
+ "name": "Cream Paper",
+ "value": "#fff9f1",
+ "token": "--color-cream-paper",
+ "role": "Primary page canvas, card surfaces, nav background - the warm ground tone every screen sits on"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#171717",
+ "token": "--color-ink-black",
+ "role": "Primary text, body copy, icon strokes, hairline borders - the dominant ink across the system"
+ },
+ {
+ "name": "Steel Gray",
+ "value": "#b5b5b5",
+ "token": "--color-steel-gray",
+ "role": "Muted card backgrounds, disabled surfaces, secondary fills"
+ },
+ {
+ "name": "Graphite",
+ "value": "#8b8b8b",
+ "token": "--color-graphite",
+ "role": "Tertiary surface, subtle background blocks, inactive dividers"
+ },
+ {
+ "name": "True Black",
+ "value": "#000000",
+ "token": "--color-true-black",
+ "role": "Hard borders on icons, nav emphasis, button outlines where maximum contrast is needed"
+ },
+ {
+ "name": "Midnight Indigo",
+ "value": "#12122c",
+ "token": "--color-midnight-indigo",
+ "role": "Display headings, link text, heading borders - deep violet-black replacing pure black for warmth and brand character"
+ },
+ {
+ "name": "Golden Amber",
+ "value": "#f5a623",
+ "token": "--color-golden-amber",
+ "role": "Primary action fill, logo heart mark, highlighter accents - the single warm punctuation color in an otherwise cool monochrome system"
+ },
+ {
+ "name": "Peach Blush",
+ "value": "#fcd2ba",
+ "token": "--color-peach-blush",
+ "role": "Accent section band backgrounds (Vibes, features) - warm wash that breaks cream monotony without introducing a new hue"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Millik",
+ "token": "--font-millik",
+ "role": "Display and heading font - used only for the hero headline and section titles. Heavy weight (700-800) with -0.025em tracking at 60px creates a poster-like authority. Custom serif-adjacent display cut gives the site its editorial magazine voice; substitute with Recoleta or Tiempos Headline if Millik is unavailable."
+ },
+ {
+ "name": "Moderat",
+ "token": "--font-moderat",
+ "role": "Primary UI and body font - covers everything from 12px captions to 22px subheads. Geometrical sans with uniformly tight -0.036em tracking that keeps even small text compact and editorial. 400 for body, 500 for nav/links, 600 for labels, 700 for emphasis. Substitute with Inter or General Sans for closest match."
+ },
+ {
+ "name": "Flutterwave",
+ "token": "--font-flutterwave",
+ "role": "Reserved for the Flutterwave wordmark and icon glyphs - not a general-purpose text face. Limited to brand marks and the small heart logo."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-0.43px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.2",
+ "-0.5px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-0.58px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.2",
+ "-0.65px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-0.72px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.18",
+ "-0.79px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.2",
+ "-0.42px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "60px",
+ "1.2",
+ "-1.5px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "60px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "5px"
+ ],
+ [
+ "cards",
+ "5px"
+ ],
+ [
+ "inputs",
+ "5px"
+ ],
+ [
+ "buttons",
+ "5px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site-wide header"
+ },
+ {
+ "name": "Display Hero Headline",
+ "role": "Primary page-level headline"
+ },
+ {
+ "name": "Hero Body Text",
+ "role": "Intro paragraph below hero headline"
+ },
+ {
+ "name": "Story Carousel Card",
+ "role": "Horizontal scrolling story preview"
+ },
+ {
+ "name": "Story Grid Card",
+ "role": "3-column editorial story card"
+ },
+ {
+ "name": "Category Tag",
+ "role": "Small uppercase label above story titles"
+ },
+ {
+ "name": "Author Byline",
+ "role": "Credit line below story title"
+ },
+ {
+ "name": "Section Header",
+ "role": "Section title with optional action link"
+ },
+ {
+ "name": "Peach Section Band",
+ "role": "Full-bleed warm content section"
+ },
+ {
+ "name": "Theme Toggle",
+ "role": "Light/dark mode switcher in nav"
+ },
+ {
+ "name": "Golden Amber CTA Button",
+ "role": "Primary action button"
+ },
+ {
+ "name": "Ghost Link Button",
+ "role": "Secondary text-based action"
+ },
+ {
+ "name": "Heart Logo Mark",
+ "role": "Brand identity icon"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #fff9f1 (Cream Paper) as the default canvas for every page - never switch to pure white.",
+ "Set display headlines in Millik 60px weight 700 with -1.5px letter-spacing and Midnight Indigo (#12122c) color.",
+ "Apply 5px border-radius to all cards, buttons, inputs, and tags - consistency is the point.",
+ "Reserve Golden Amber (#f5a623) for the primary CTA fill and the heart logo only - it is accent punctuation, not a surface color.",
+ "Use the Peach Blush (#fcd2ba) band to separate major content sections from the cream default.",
+ "Set all text to Ink Black (#171717) for body and Midnight Indigo (#12122c) for headings - do not mix pure black into the heading hierarchy.",
+ "Keep all tracking negative - Moderat at -0.036em, Millik at -0.025em - to preserve the compact editorial density."
+ ],
+ "doNot": [
+ "Do not introduce drop shadows, glows, or blurs to cards or buttons - elevation comes from color contrast alone.",
+ "Do not use Golden Amber for backgrounds, panels, or large fills - it loses its punch as a accent if it covers more than button-sized areas.",
+ "Do not use pure white (#ffffff) as a surface - cream (#fff9f1) is the canvas, white breaks the warm system.",
+ "Do not set headings in pure black (#000000) - Midnight Indigo (#12122c) is the heading color, it carries the brand character.",
+ "Do not use border-radius values other than 5px - no pills, no 0px sharp corners, no 8-12px rounded cards.",
+ "Do not add gradients, patterns, or decorative backgrounds to UI chrome - illustrations on cards are where visual interest lives.",
+ "Do not set body text above 20px in Moderat - for larger sizes, switch to Millik to maintain the type hierarchy."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/97bbc1bd-873f-4048-b4cc-b20ea2e70097",
+ "referenceSite": "https://www.flutterwave.design",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:38:09.589Z",
+ "articleModifiedAt": "2026-06-05T12:57:24.001Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/df513367-a25b-439f-a4eb-5122cba57a26.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/ef3e3fcc-78ca-42d0-99a9-b8e912a04816.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/78ebfb74-f3eb-408e-8a71-8ce96ac2cbe3.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4089be90-471c-4a63-8fef-33a71486fb0e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8a738532-fadd-4f32-bc8f-f2094d76bdc3.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c536bd26-f869-4ba6-9d8f-7bfb9a4cb459.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ }
+}

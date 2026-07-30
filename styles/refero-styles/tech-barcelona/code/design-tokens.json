@@ -1,0 +1,289 @@
+{
+ "name": "Tech Barcelona",
+ "slug": "tech-barcelona",
+ "colors": [
+ {
+ "name": "Cobalt Action",
+ "value": "#0075ff",
+ "token": "--color-cobalt-action",
+ "role": "Primary CTA buttons, the only chromatic accent in the entire interface - one vivid blue against monochrome neutrals, used sparingly so it signals action without competing with content"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#090707",
+ "token": "--color-ink-black",
+ "role": "Headline color, image borders, large display text - near-black with the slightest warmth, chosen over pure black to feel printed rather than digital"
+ },
+ {
+ "name": "Graphite",
+ "value": "#212529",
+ "token": "--color-graphite",
+ "role": "Body text, nav links, icon strokes, card borders - the working neutral for interface chrome and readable paragraph copy"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page canvas, card surfaces, text on dark hero and dark logo backgrounds - establishes the light-mode base and all content surfaces"
+ },
+ {
+ "name": "Hairline Gray",
+ "value": "#cccccc",
+ "token": "--color-hairline-gray",
+ "role": "Subtle dividers and secondary borders - thin separator lines on light surfaces where #212529 would be too heavy"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Dark borders and separators for elevated surfaces and inverted UI."
+ },
+ {
+ "name": "Shadow Whisper",
+ "value": "#eeeeee",
+ "token": "--color-shadow-whisper",
+ "role": "Near-invisible ambient shadow tint for button states - a 1px 1px wash so faint it barely registers, used instead of full drop-shadows"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "FavoritPro-Light",
+ "token": "--font-favoritpro-light",
+ "role": "Single-family type system used for every interface element - nav, body, buttons, headlines, and 80px display. Weight 400 throughout is a signature choice: the system relies on scale jumps (14px body 50px subhead 80px display) rather than bold weights to establish hierarchy, giving the entire site an understated, editorial cadence"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.5",
+ "-0.45px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.5",
+ "-0.14px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.33",
+ "-0.18px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.2",
+ "-0.22px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "50px",
+ "1",
+ "-2.25px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "80px",
+ "1",
+ "-3.6px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "50-80px",
+ "cardPadding": "16px",
+ "elementGap": "4-10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "22",
+ "22px",
+ "`--spacing-22`"
+ ],
+ [
+ "23",
+ "23px",
+ "`--spacing-23`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "35",
+ "35px",
+ "`--spacing-35`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "143",
+ "143px",
+ "`--spacing-143`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Action Button",
+ "role": "The only filled chromatic button in the system"
+ },
+ {
+ "name": "Ghost Button",
+ "role": "Secondary or tertiary action on light surfaces"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent header across all pages"
+ },
+ {
+ "name": "Hero Block",
+ "role": "Full-bleed dark opening band"
+ },
+ {
+ "name": "Stats Ticker Bar",
+ "role": "Horizontal numerical proof band"
+ },
+ {
+ "name": "Full-Bleed Image Block",
+ "role": "Editorial photography section"
+ },
+ {
+ "name": "Story Card",
+ "role": "Content preview tile for articles/news"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Vertical or horizontal rule between content blocks"
+ },
+ {
+ "name": "Language Switcher",
+ "role": "Locale toggle in nav"
+ },
+ {
+ "name": "Category Tag",
+ "role": "Small label for content taxonomy"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use FavoritPro 400 at every size and weight - do not introduce bold or medium weights; hierarchy comes from scale alone",
+ "Use #0075ff exclusively for filled primary action buttons - never as a background surface, icon fill, or decorative accent",
+ "Set headline letter-spacing to -0.045em at 50px and above to compress the display type into confident, tight masses",
+ "Use 0px border-radius on all components - buttons, cards, inputs, and images all share sharp corners to maintain editorial discipline",
+ "Maintain at least 50px vertical space between major content sections to let the large typography breathe",
+ "Use +0.08em and +0.09em letter-spacing only for uppercase labels and tracked-out metadata, never on sentence-case body text",
+ "Let the dark hero band (#000000) appear once per page; all subsequent sections should resolve to white #ffffff canvas"
+ ],
+ "doNot": [
+ "Do not use shadows or elevation effects - the system is intentionally flat with hairline borders only",
+ "Do not introduce additional chromatic colors - the blue/cobalt is the sole accent and its power depends on singularity",
+ "Do not use bold (600+) or semibold weights - the entire interface speaks at weight 400 and louder weights would break the voice",
+ "Do not apply rounded corners (border-radius) to any element - the squared-off geometry is load-bearing",
+ "Do not add gradients, textures, or background patterns to any surface - every surface is a flat solid color",
+ "Do not use #ffffff as a filled button background for actions - the only filled action color is #0075ff; everything else is ghost or text-link",
+ "Do not compress line-height below 1.0 on display sizes - the tight tracking combined with the geometric letterforms already create visual density"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/271172f7-9f6d-4d6f-9baa-91a41648d8be",
+ "referenceSite": "https://techbarcelona.com/en",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T02:29:49.606Z",
+ "articleModifiedAt": "2026-07-03T11:47:11.897Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/e31da946-e3c3-4aa7-b64c-9fdb8e4c95ce.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/2df40d4d-962a-4ace-9e26-c655850b3822.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/21f6c4fe-0465-4054-96c8-c9190a10d785.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/c7e16cec-640b-46b8-a428-3a52bd8c6e6c.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/9a226129-c20f-4d03-ace9-883017a6ce94.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

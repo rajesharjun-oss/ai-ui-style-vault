@@ -1,0 +1,374 @@
+{
+ "name": "Symbolic.ai",
+ "slug": "symbolic-ai",
+ "colors": [
+ {
+ "name": "Canvas Cream",
+ "value": "#fdfcf5",
+ "token": "--color-canvas-cream",
+ "role": "Primary page canvas and white card surfaces."
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, hairline borders, icon strokes, and the single CTA fill - black-on-cream is the system\u0027s only action color, no chromatic buttons"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Card surfaces, elevated content layers, input fills - the brighter sheet the cream canvas holds"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#4c4c4a",
+ "token": "--color-charcoal",
+ "role": "Secondary borders, muted body text, link underline tones"
+ },
+ {
+ "name": "Slate Black",
+ "value": "#333231",
+ "token": "--color-slate-black",
+ "role": "Strong secondary borders and slightly softer heading text - separates structural dividers from Ink Black"
+ },
+ {
+ "name": "Warm Gray",
+ "value": "#7f7e7b",
+ "token": "--color-warm-gray",
+ "role": "Captions, helper text, disabled states, tertiary borders"
+ },
+ {
+ "name": "Mid Stone",
+ "value": "#656562",
+ "token": "--color-mid-stone",
+ "role": "Muted body copy and secondary dividers"
+ },
+ {
+ "name": "Soft Sand",
+ "value": "#f5f3e9",
+ "token": "--color-soft-sand",
+ "role": "Subtle section bands, recessed surfaces, and the lighter shadow base"
+ },
+ {
+ "name": "Khaki Shadow",
+ "value": "#edeadd",
+ "token": "--color-khaki-shadow",
+ "role": "The warm shadow tint used across all card elevations - replaces standard cool gray"
+ },
+ {
+ "name": "Sandstone",
+ "value": "#e5e2d0",
+ "token": "--color-sandstone",
+ "role": "Faint horizontal rules and gentle background tints"
+ },
+ {
+ "name": "Lavender Mist",
+ "value": "#e2e0e4",
+ "token": "--color-lavender-mist",
+ "role": "Cool-leaning hairline borders, subtle separation lines"
+ },
+ {
+ "name": "Editorial Teal",
+ "value": "#10756a",
+ "token": "--color-editorial-teal",
+ "role": "Teal wash for highlight backgrounds, decorative bands, and soft emphasis behind content."
+ },
+ {
+ "name": "AI Violet",
+ "value": "#6938ef",
+ "token": "--color-ai-violet",
+ "role": "Violet outline accent for tags, dividers, and focused UI edges."
+ },
+ {
+ "name": "Deep Violet",
+ "value": "#6a27d9",
+ "token": "--color-deep-violet",
+ "role": "Dark-mode variant of AI Violet for borders and stronger emphasis on processing states"
+ },
+ {
+ "name": "Stamp Red",
+ "value": "#f42c2b",
+ "token": "--color-stamp-red",
+ "role": "Red wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Suisse Works",
+ "token": "--font-suisse-works",
+ "role": "Editorial serif for all headlines and display type - Book (450) carries the masthead voice at 28-58px, Medium (500) for sub-headings at 20px. Suisse Works\u0027 high contrast and sharp serifs give the interface a printed-broadsheet authority that no sans could replicate."
+ },
+ {
+ "name": "Open Runde",
+ "token": "--font-open-runde",
+ "role": "Humanist sans for body, navigation, links, and most UI labels. Open Runde\u0027s slightly rounded geometric forms soften the editorial serif above - Regular (400) for body, Semibold (600) for nav emphasis, Bold (700) for inline labels. The wide x-height at 16px with 1.63 line-height creates comfortable reading density."
+ },
+ {
+ "name": "Geist Mono",
+ "token": "--font-geist-mono",
+ "role": "Monospaced labels for product state indicators (\u0027Rewriting...\u0027, \u0027Transcribing...\u0027) and technical metadata. Geist Mono at 14px is intentionally small - it\u0027s a whisper of machinery inside the editorial voice, not a visual block."
+ },
+ {
+ "name": "Grenze Gotisch",
+ "token": "--font-grenze-gotisch",
+ "role": "Decorative blackletter for stamp-style elements like \u0027For Immediate Release\u0027. Used once or twice per screen as accent texture, never for body. The gothic contrast against Suisse Works\u0027 modern serif is the system\u0027s signature historical flourish."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Minor fallback for non-primary UI labels where Open Runde is unavailable"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.71",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.63",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.31",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.31",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "58px",
+ "1.5",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "52",
+ "52px",
+ "`--spacing-52`"
+ ],
+ [
+ "68",
+ "68px",
+ "`--spacing-68`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "116",
+ "116px",
+ "`--spacing-116`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "10000px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "icons",
+ "8px"
+ ],
+ [
+ "pills",
+ "10000px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "16px"
+ ],
+ [
+ "feature-cards",
+ "24px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "The single action on a page"
+ },
+ {
+ "name": "Secondary Nav Button",
+ "role": "Persistent site actions in the header"
+ },
+ {
+ "name": "Text Navigation Link",
+ "role": "Top-bar nav items"
+ },
+ {
+ "name": "Feature Demo Card",
+ "role": "Showcase product capabilities in scroll sections"
+ },
+ {
+ "name": "Newspaper Clipping Card",
+ "role": "Atmospheric product illustration - embeds the publishing context"
+ },
+ {
+ "name": "AI Processing Pill",
+ "role": "Indicate the system is actively working on a task"
+ },
+ {
+ "name": "Verification Checkmark",
+ "role": "Show that content has been validated"
+ },
+ {
+ "name": "Stamp Badge",
+ "role": "Editorial decoration - urgency or release-state indicators"
+ },
+ {
+ "name": "Editorial Headline",
+ "role": "Hero and section titles"
+ },
+ {
+ "name": "Hero Subtext",
+ "role": "Supporting paragraph under the hero headline"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent site navigation"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form inputs"
+ },
+ {
+ "name": "Section Spacer",
+ "role": "Vertical rhythm between major page sections"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #fdfcf5 as the page background and #ffffff only for card and elevated surfaces - the warm/cool contrast between canvas and paper is the system\u0027s foundation",
+ "Use Suisse Works (or GT Sectra) for all headlines 20px and above; never substitute a sans for editorial display type",
+ "Apply the warm khaki shadow rgba(213, 208, 184, 0.4) 0px 2px 6px to every card - never use cool gray shadows",
+ "Use 8px radius for standard cards and inputs, 24px for large feature demo cards, and 10000px (pill) for all buttons and AI processing indicators",
+ "Use Ink Black (#000000) as the single primary action color - fill the CTA button solid black, no gradients, no chromatic alternatives",
+ "Reserve Editorial Teal (#10756a) for verification and \u0027correct\u0027 states; reserve AI Violet (#6938ef) for active processing labels",
+ "Use present-participle AI labels with trailing ellipsis (\u0027Rewriting...\u0027, \u0027Fact checking...\u0027) in Geist Mono - the verb-in-progress is the system\u0027s primary way to say \u0027the machine is working\u0027"
+ ],
+ "doNot": [
+ "Don\u0027t introduce chromatic CTA buttons - black-on-cream is the system\u0027s only action language",
+ "Don\u0027t use pure white (#ffffff) as a page background - the cream canvas (#fdfcf5) is the entire atmosphere",
+ "Don\u0027t apply cool gray shadows (rgba(0,0,0,...)) - all elevation must use the warm khaki base",
+ "Don\u0027t mix sans-serif into headlines above 20px - the serif/sans split is structural, not decorative",
+ "Don\u0027t use Stamp Red (#f42c2b) for buttons, errors, or destructive actions - red is reserved for editorial stamp accents only",
+ "Don\u0027t flatten the type scale - Suisse Works Book (450) is the headline weight; don\u0027t promote to Bold (700) for emphasis, use size and line-height instead",
+ "Don\u0027t add drop shadows stronger than 0.4 opacity - the system never goes beyond a soft printed-paper lift, never a hovering UI panel"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/694723e9-0df7-4b9f-ba07-83fc598532d6",
+ "referenceSite": "https://symbolic.ai",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:18:51.694Z",
+ "articleModifiedAt": "2026-07-03T15:42:55.000Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/39a13a10-1ae4-4818-99a1-188eb6167311.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/6281684e-704e-4af3-a449-17fc3834023e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c10ad7f6-77dc-423f-9784-e5082059421a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/809f7206-5f19-4aa1-b789-7f39319bd8c3.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9f038f89-9a14-4b89-bfc8-f90171001369.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/6c314cbe-fc44-4fea-8fe7-467e7f72df8d.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ }
+}

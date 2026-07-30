@@ -1,0 +1,385 @@
+{
+ "id": "a48ef430-8c6a-42d8-8c53-ab7bb43cf33b",
+ "name": "Apple (Espana)",
+ "slug": "apple-espana-4",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/a48ef430-8c6a-42d8-8c53-ab7bb43cf33b",
+ "referenceSite": "https://www.apple.com/ipad-air",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-01T18:00:11.000Z",
+ "articleModifiedAt": "2026-07-03T11:06:39.174Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/18678d19-d0db-4fcc-8768-034b282f1b2d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/cc33c951-71a9-44db-bbfa-ddf969177fd6.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/6e864255-baec-47fa-a3ce-f544c64d6da5.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1202c410-e778-40d0-81cf-1a6e5be8e4f6.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e7695905-64b1-41e3-9c50-9d35b549c1db.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/17cbd626-01b9-4b38-9aca-08daef55a7ea.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/ee4e3a30-81d7-4144-95c8-f7720364a23f.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "white gallery vitrine",
+ "summary": "Explore Apple (Espana)\u0027s light E-commerce design system: Pure White #ffffff, Fog Mist #f3f6f6 colors, SF Pro Text, SF Pro Display typography, and DESIGN.md...",
+ "colors": [
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page canvas, card surfaces, nav background, icon fills"
+ },
+ {
+ "name": "Fog Mist",
+ "value": "#f3f6f6",
+ "token": "--color-fog-mist",
+ "role": "Footer surface, secondary card tint, alternating section backgrounds"
+ },
+ {
+ "name": "Paper Gray",
+ "value": "#fafafc",
+ "token": "--color-paper-gray",
+ "role": "Opened nav menu surface - barely-distinguished from white canvas"
+ },
+ {
+ "name": "Silver Smoke",
+ "value": "#e8e8ed",
+ "token": "--color-silver-smoke",
+ "role": "Tertiary surface, subtle dividers, chip backgrounds"
+ },
+ {
+ "name": "Ash Border",
+ "value": "#dedfe2",
+ "token": "--color-ash-border",
+ "role": "Hairline separators, disabled button backgrounds"
+ },
+ {
+ "name": "Graphite",
+ "value": "#6e6e73",
+ "token": "--color-graphite",
+ "role": "Secondary body text, captions, helper labels"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#444545",
+ "token": "--color-charcoal",
+ "role": "Nav text, secondary nav and link text"
+ },
+ {
+ "name": "Steel",
+ "value": "#313131",
+ "token": "--color-steel",
+ "role": "Nav icon fills, button text on light surfaces, dark surface tint"
+ },
+ {
+ "name": "Near Black",
+ "value": "#1d1d1f",
+ "token": "--color-near-black",
+ "role": "Headlines, primary body text, all editorial copy - the dominant ink"
+ },
+ {
+ "name": "True Black",
+ "value": "#000000",
+ "token": "--color-true-black",
+ "role": "Icon fills, input underline, maximum-emphasis headings"
+ },
+ {
+ "name": "Apple Blue",
+ "value": "#0071e3",
+ "token": "--color-apple-blue",
+ "role": "Primary action fill - the only chromatic button color, also nav hover and focus ring"
+ },
+ {
+ "name": "Link Blue",
+ "value": "#0066cc",
+ "token": "--color-link-blue",
+ "role": "Inline text link color, secondary link accent"
+ },
+ {
+ "name": "Ember",
+ "value": "#b64400",
+ "token": "--color-ember",
+ "role": "Orange state accent for badges, validation surfaces, and short status labels."
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "SF Pro Text",
+ "token": "--font-sf-pro-text",
+ "role": "Body, navigation, micro-copy, and smaller headings. 17px/400 for primary body (line-height 1.47), 14px/600 for eyebrow labels and small link lists, 12px/400 for legal and fine print, 44px/400 for nav bar text, 34px/600 for card sub-headings."
+ },
+ {
+ "name": "SF Pro Display",
+ "token": "--font-sf-pro-display",
+ "role": "Display and editorial headlines - 80px hero, 56px section opener, 48px feature, 28px sub-feature, 21px large body. Negative letter-spacing tightens as size increases (-0.015em at 80px down to 0.011em at 21px). The only family used at sizes 40px."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "-0.12px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-0.22px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "17px",
+ "1.47",
+ "-0.37px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "21px",
+ "1.38",
+ "0.23px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.14",
+ "0.2px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.1",
+ "-0.12px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1.07",
+ "-0.28px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "80px",
+ "1.05",
+ "-1.2px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "80px",
+ "cardPadding": "40px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "57",
+ "57px",
+ "`--spacing-57`"
+ ],
+ [
+ "83",
+ "83px",
+ "`--spacing-83`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "28px"
+ ],
+ [
+ "chips",
+ "9999px"
+ ],
+ [
+ "buttons",
+ "980px"
+ ],
+ [
+ "nav-pill",
+ "32px"
+ ],
+ [
+ "small-elements",
+ "12px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Product Spotlight",
+ "role": "Full-bleed product reveal section"
+ },
+ {
+ "name": "Primary Blue Pill Button",
+ "role": "Single primary action per section"
+ },
+ {
+ "name": "Text-Link Button",
+ "role": "Secondary or tertiary action - Apple\u0027s default"
+ },
+ {
+ "name": "Outlined Pill Link",
+ "role": "Tertiary navigation-style action"
+ },
+ {
+ "name": "Feature Card (White)",
+ "role": "Product or feature showcase panel"
+ },
+ {
+ "name": "Feature Card (Tinted)",
+ "role": "Secondary feature panel with subtle surface tint"
+ },
+ {
+ "name": "Global Navigation Bar",
+ "role": "Persistent top navigation"
+ },
+ {
+ "name": "Section Header Block",
+ "role": "Editorial section title with optional inline link"
+ },
+ {
+ "name": "Eyebrow Label",
+ "role": "Small uppercase or sentence-case category label above headlines"
+ },
+ {
+ "name": "Inline Text Link",
+ "role": "Hyperlink within paragraph copy"
+ },
+ {
+ "name": "Price Block",
+ "role": "Starting price display"
+ },
+ {
+ "name": "Badge (New / Limited)",
+ "role": "Product freshness indicator"
+ },
+ {
+ "name": "Footer Band",
+ "role": "Bottom regulatory and link surface"
+ },
+ {
+ "name": "Floating Video Play Badge",
+ "role": "Play button affordance on video thumbnails"
+ }
+ ],
+ "dos": [
+ "Use #0071e3 (Apple Blue) as the only filled button color - one per section maximum, never two blue buttons side by side.",
+ "Set all card radii to 28px and pair with zero border, zero shadow - let container background tint create separation.",
+ "Set hero headlines at SF Pro Display 80px weight 600 with letter-spacing -1.2px and line-height 1.05.",
+ "Anchor all body copy in SF Pro Text 17px weight 400 at line-height 1.47 with letter-spacing -0.37px.",
+ "Use 980px border-radius on every pill-shaped button so it renders fully round regardless of width.",
+ "Maintain minimum 80px vertical gap between editorial sections; hero sections get 160px+ breathing room.",
+ "Reserve #0066cc exclusively for inline text links within paragraph copy; never as a standalone chip."
+ ],
+ "donts": [
+ "Do not use any chromatic color other than #0071e3 for buttons - no orange, green, or red CTAs.",
+ "Do not add borders or drop-shadows to cards; separation must come from surface tint or whitespace alone.",
+ "Do not use sans-serif weights below 400 or decorative typefaces; the system is two families (SF Pro Display, SF Pro Text) only.",
+ "Do not place two filled buttons in the same row - pair a single filled button with a text-link or an outlined pill.",
+ "Do not use letter-spacing wider than 0.011em on any size; the system is always tight or normal tracking.",
+ "Do not introduce background colors other than #ffffff, #fafafc, #f3f6f6, and #e8e8ed for surfaces.",
+ "Do not use radius values other than 12px (small), 28px (card), 32px (nav pill), or 980px+ (full pill) - no 4px or 8px rounded corners."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Pure White Canvas | `#ffffff` | Default page background, dominant canvas for hero and product sections |\n| 1 | Fog Mist | `#f3f6f6` | Footer, banded secondary sections, subtle section alternation |\n| 2 | Paper Gray | `#fafafc` | Opened global nav menu surface |\n| 3 | Silver Smoke Card | `#e8e8ed` | Tertiary card or chip surface when further visual separation is needed |",
+ "elevation": "- **Feature card (rare):** `rgba(0, 0, 0, 0.05) 0px 0px 35px 20px`",
+ "imagery": "Product photography is the sole visual medium: high-resolution renders of iPad hardware on pure white seamless backgrounds, photographed at slight 15-25 angles rather than flat orthographic views. No lifestyle staging, no human subjects, no environmental context. Images are always centered within their section, never cropped to bleed. One decorative gradient wash (linear #004c94 #297bc4) appears behind select hero sections. Icons are monochrome SF Symbols-style glyphs in #1d1d1f or #313131 at ~24px, 1.5px stroke. No illustrations, no 3D renders beyond the product photography itself, no abstract graphics. Density is image-heavy in hero bands, text-dominant in feature grid sections.",
+ "layout": "Philosophy\n\nFull-bleed sections stacked vertically, each internally centered within a max-width container of ~1440px. Hero sections are vertically tall (~800px+) with centered single-product photography - no split layouts, no sidebars. Feature sections alternate between centered text-and-image stacks and 2-column image+text pairings. Cards are used sparingly as content modules, not as layout scaffolding - the page reads as one continuous editorial scroll rather than a dashboard. Navigation is a single persistent 44px top bar; no side nav, no breadcrumbs. Section rhythm: 80px between editorial sections, 40px between adjacent cards, 10-12px between paired elements within a section."
+}

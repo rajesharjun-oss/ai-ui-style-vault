@@ -1,0 +1,427 @@
+{
+ "name": "Framer",
+ "slug": "framer",
+ "colors": [
+ {
+ "name": "Void",
+ "value": "#000000",
+ "token": "--color-void",
+ "role": "Page canvas, nav background, card surfaces, icon fills - the infinite black that swallows all non-essential content"
+ },
+ {
+ "name": "Graphite",
+ "value": "#111111",
+ "token": "--color-graphite",
+ "role": "Elevated card surfaces one step above the void - large feature cards and modal containers"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#171717",
+ "token": "--color-obsidian",
+ "role": "Mid-tier surface for buttons, secondary cards, UI fills - separates interactive elements from the canvas"
+ },
+ {
+ "name": "Slate",
+ "value": "#242424",
+ "token": "--color-slate",
+ "role": "Hover states, input fields, and elevated panels - the brightest neutral before reaching text territory"
+ },
+ {
+ "name": "Ash",
+ "value": "#333333",
+ "token": "--color-ash",
+ "role": "Deep fill for inactive backgrounds and structural elements"
+ },
+ {
+ "name": "Smoke",
+ "value": "#666666",
+ "token": "--color-smoke",
+ "role": "Disabled text, low-emphasis body copy, tertiary strokes"
+ },
+ {
+ "name": "Fog",
+ "value": "#888888",
+ "token": "--color-fog",
+ "role": "Borders, dividers, icon strokes - the structural outline color"
+ },
+ {
+ "name": "Mist",
+ "value": "#999999",
+ "token": "--color-mist",
+ "role": "Secondary body text, captions, metadata - readable but never competing with headlines"
+ },
+ {
+ "name": "Pearl",
+ "value": "#cccccc",
+ "token": "--color-pearl",
+ "role": "Light body text for contrast pairs on dark surfaces"
+ },
+ {
+ "name": "Bone",
+ "value": "#ffffff",
+ "token": "--color-bone",
+ "role": "Primary headings, body text on dark canvas, button backgrounds - the sole light source"
+ },
+ {
+ "name": "Electric Blue",
+ "value": "#0099ff",
+ "token": "--color-electric-blue",
+ "role": "Accent borders, glows, link underlines, badge outlines, active states - the only chromatic punctuation in the entire system"
+ },
+ {
+ "name": "Deep Current",
+ "value": "#00406b",
+ "token": "--color-deep-current",
+ "role": "Dark accent fills and box-shadows paired with Electric Blue - the saturated shadow underneath blue glows"
+ },
+ {
+ "name": "Midnight Tide",
+ "value": "#002238",
+ "token": "--color-midnight-tide",
+ "role": "Subtle blue-tinted surface washes and shadow tints - keeps the blue accent feeling atmospheric even in flat fills"
+ },
+ {
+ "name": "Signal Green",
+ "value": "#4cd963",
+ "token": "--color-signal-green",
+ "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color"
+ },
+ {
+ "name": "Vivid Violet",
+ "value": "#0066ff",
+ "token": "--color-vivid-violet",
+ "role": "Primary action button fill - the only place a solid chromatic button background appears in the interface"
+ },
+ {
+ "name": "Alert Red",
+ "value": "#ff0022",
+ "token": "--color-alert-red",
+ "role": "Red wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color"
+ },
+ {
+ "name": "Amber",
+ "value": "#ffbb00",
+ "token": "--color-amber",
+ "role": "Yellow wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color"
+ },
+ {
+ "name": "Lime",
+ "value": "#cbff00",
+ "token": "--color-lime",
+ "role": "CSS token hint - secondary accent available in the design system but not actively surfaced in core pages"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "GT Walsheim",
+ "token": "--font-gt-walsheim",
+ "role": "Display and heading type - the signature typeface. Aggressively compressed with line-height 0.8-1.1 and tracking -0.04em to -0.05em at 44-68px. This isn\u0027t decoration; GT Walsheim\u0027s geometric warmth at tight metrics creates the system\u0027s voice - confident, compact, slightly futuristic. Substitute: Inter Tight or Space Grotesk Bold for similar geometric presence."
+ },
+ {
+ "name": "Inter Variable",
+ "token": "--font-inter-variable",
+ "role": "Body, nav, and secondary headings - the workhorse. Inter Variable\u0027s variable axis allows smooth weight interpolation. Tracking tightens as size grows: -0.001em at 18px to -0.027em at 22px. The variable version enables the site\u0027s fluid micro-animations. Substitute: Inter (Google) is a near-identical fallback."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Static Inter for UI controls, buttons (500/600), and uppercase labels (700 at 9px). Used where variable weight isn\u0027t needed. The 20px/600/lh=1.2 heading style with -0.04em tracking provides a compact sub-heading tier below GT Walsheim displays."
+ },
+ {
+ "name": "Input Mono",
+ "token": "--font-input-mono",
+ "role": "Code snippets, monospace tags, and technical metadata - appears in product UI screenshots and code-context moments. The mono voice contrasts the geometric sans-serif to signal \u0027this is structural, not prose\u0027."
+ },
+ {
+ "name": "JetBrains Mono",
+ "token": "--font-jetbrains-mono",
+ "role": "Secondary monospace for code blocks - shares the developer-tool vocabulary with Input Mono but used in longer-form code contexts."
+ },
+ {
+ "name": "Inter Medium",
+ "token": "--font-inter-medium",
+ "role": "Inter Medium - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-0.444px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1",
+ "-0.14px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.35",
+ "-0.16px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-0.8px",
+ "--text-subheading"
+ ],
+ [
+ "body-lg",
+ "22px",
+ "1.4",
+ "-0.594px",
+ "--text-body-lg"
+ ],
+ [
+ "heading",
+ "44px",
+ "1.1",
+ "-1.76px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "54px",
+ "0.8",
+ "-2.16px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "68px",
+ "1",
+ "-3.4px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "45px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "47",
+ "47px",
+ "`--spacing-47`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "15px"
+ ],
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "icons",
+ "8px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "largeCards",
+ "25px"
+ ],
+ [
+ "featureCards",
+ "15px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Pill Button",
+ "role": "Hero CTA - the only action that demands immediate attention"
+ },
+ {
+ "name": "Ghost Translucent Button",
+ "role": "Secondary action with low visual weight"
+ },
+ {
+ "name": "Solid Filled Button",
+ "role": "Standard interactive button"
+ },
+ {
+ "name": "Dark Surface Button",
+ "role": "Tertiary button on dark surfaces"
+ },
+ {
+ "name": "Large Pill Button",
+ "role": "Oversized CTA for landing conversion"
+ },
+ {
+ "name": "Void Feature Card",
+ "role": "Large content card - product showcases, feature highlights"
+ },
+ {
+ "name": "Graphite Feature Card",
+ "role": "Elevated card one step above void"
+ },
+ {
+ "name": "Obsidian Content Card",
+ "role": "Mid-tier card for grouped content"
+ },
+ {
+ "name": "Padded Showcase Card",
+ "role": "Feature card with breathing room"
+ },
+ {
+ "name": "Blue Accent Border",
+ "role": "Active state, highlight border, interactive emphasis"
+ },
+ {
+ "name": "Electric Glow Shadow",
+ "role": "Ambient glow for accent elements"
+ },
+ {
+ "name": "Community Feed Container",
+ "role": "Dark-window chrome for product UI embedding"
+ },
+ {
+ "name": "Ghost Navigation Link",
+ "role": "Top-nav items - Product, Community, Resources, Enterprise, Pricing"
+ },
+ {
+ "name": "Blue-Tinted Deep Surface",
+ "role": "Atmospheric background wash for accent sections"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use GT Walsheim Medium weight 500 at 44-68px for all display headings - never substitute a different geometric sans-serif for display type",
+ "Set display headings with line-height 0.8-1.1 and letter-spacing -0.04em to -0.05em - the compression is signature",
+ "Apply Electric Blue (#0099ff) exclusively as 1px borders, glows, and link accents - never as a filled surface in hero sections",
+ "Use Vivid Violet (#0066ff) only for the primary CTA button background - it is the single filled chromatic button in the system",
+ "Set all buttons and tags to 9999px border-radius - fully pill-shaped controls are non-negotiable",
+ "Use card radii from the 15px 20px 25px scale - match radius to card importance, not to a single global value",
+ "Keep section gaps at 80px and element gaps at 10px - the compact density with generous section breathing is intentional"
+ ],
+ "doNot": [
+ "Don\u0027t introduce additional accent colors beyond Electric Blue (#0099ff) and Vivid Violet (#0066ff) - the system is deliberately monochromatic with one accent",
+ "Don\u0027t use #ffffff as a background fill for cards - white is reserved for text and primary CTAs, cards stay in the #111-#242424 range",
+ "Don\u0027t apply box-shadows to standard cards - depth is communicated through luminance stepping (#000 #111 #171 #242), not elevation",
+ "Don\u0027t set body text below 12px - the minimum size protects readability against the dark canvas",
+ "Don\u0027t use warm grays or chromatic neutrals - the palette is strictly cool/achromatic in its grays, with blue as the only chromatic direction",
+ "Don\u0027t mix font families within a single text block - GT Walsheim for display, Inter for everything else, mono for code only",
+ "Don\u0027t use border-radius values outside the defined scale (8, 15, 20, 25, 9999) - every radius in the system maps to a specific component type"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/d417b42f-824d-45ba-a02e-cbef3b8ea0d8",
+ "referenceSite": "https://framer.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-03-20T16:32:24.000Z",
+ "articleModifiedAt": "2026-07-03T11:24:26.020Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/f37aa1fa-771d-4389-9492-5e2b7ba463e9.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/b87f317c-85c8-48d4-8427-17bc96d84e5a.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/32bc03b3-ad51-4983-96ba-ae6108a6323a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/287ad4a7-14e7-4b9b-8e56-f2a77e24705a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/92712a3f-88ba-4de2-a406-dcd3585678cc.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/26cddd5e-0532-4518-a46d-26405b19bec2.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/631aa50e-a53b-486a-9c51-7e0b6ed9e34f.png"
+ }
+ }
+}

@@ -1,0 +1,374 @@
+{
+ "name": "Dia Browser",
+ "slug": "dia-browser",
+ "colors": [
+ {
+ "name": "Void Black",
+ "value": "#020204",
+ "token": "--color-void-black",
+ "role": "Hero background, dramatic dark sections - the opening stage of the experience"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Primary text, button text, icon fills - the dominant ink across all surfaces"
+ },
+ {
+ "name": "Carbon",
+ "value": "#636363",
+ "token": "--color-carbon",
+ "role": "Secondary text, muted nav, helper labels - softer than pure black for hierarchy"
+ },
+ {
+ "name": "Slate",
+ "value": "#888888",
+ "token": "--color-slate",
+ "role": "Tertiary text, inactive nav items, disabled states"
+ },
+ {
+ "name": "Silver",
+ "value": "#c6c6c6",
+ "token": "--color-silver",
+ "role": "Placeholder text, very subtle UI dividers"
+ },
+ {
+ "name": "Soft Graphite",
+ "value": "#575757",
+ "token": "--color-soft-graphite",
+ "role": "Dark button backgrounds on light surfaces - secondary action fill"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary page canvas and white card surfaces. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Bone",
+ "value": "#f8f8f8",
+ "token": "--color-bone",
+ "role": "Page canvas, nav backgrounds, base surface beneath cards"
+ },
+ {
+ "name": "Linen",
+ "value": "#efefef",
+ "token": "--color-linen",
+ "role": "Button fills, pill backgrounds, header wash - slightly warmer than Bone, the dominant secondary surface"
+ },
+ {
+ "name": "Lime Wash",
+ "value": "#f2fcb3",
+ "token": "--color-lime-wash",
+ "role": "Accent background wash, highlight zones, editorial color punctuation"
+ },
+ {
+ "name": "Saffron",
+ "value": "#ffdc5c",
+ "token": "--color-saffron",
+ "role": "Secondary accent wash, warm highlight zones"
+ },
+ {
+ "name": "Spectrum Marquee",
+ "value": "#fd02f5",
+ "token": "--color-spectrum-marquee",
+ "role": "Sweeping rainbow gradient - the brand\u0027s signature motion element, traveling across hero and section dividers"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Exposure Variable",
+ "token": "--font-exposure-variable",
+ "role": "Display headlines - the 112px whisper-weight serif that anchors hero and section titles. Its 0.85 line-height vertically compresses letters, making headlines feel carved and monumental rather than airy. Signature choice: anti-convention weight (300, not 700) and negative letter-spacing (-0.03em) create authority through restraint. Substitute: Playfair Display or DM Serif Display at weight 400 with tight tracking."
+ },
+ {
+ "name": "Exposure VAR",
+ "token": "--font-exposure-var",
+ "role": "Section headings and large nav - the bold companion to Exposure Variable. Used for \u0027Dia reads between the tabs\u0027 and feature titles. Tighter tracking at -0.05em at 48px gives headline density. Substitute: Inter Tight or a condensed grotesque."
+ },
+ {
+ "name": "ABC Oracle",
+ "token": "--font-abc-oracle",
+ "role": "Body text, UI labels, subheadings, and large feature headlines (54px at weight 300). The workhorse font - its humanist sans quality keeps long-form copy legible at generous line-heights (2.19 for body). Weight 500 used sparingly for emphasis. The 54px weight 300 headline is the secondary display voice, lighter than Exposure VAR but in the same serif-adjacent register. Substitute: Sohne or Inter at matching weights."
+ },
+ {
+ "name": "ABC Oracle Triple",
+ "token": "--font-abc-oracle-triple",
+ "role": "Button text, inline labels, UI microcopy - a narrower variant of Oracle designed for button and tag contexts. The wide line-height (2.19) suggests single-line button use with internal padding breathing. Substitute: Inter at 16px weight 400."
+ },
+ {
+ "name": "ABC Favorit Mono",
+ "token": "--font-abc-favorit-mono",
+ "role": "Eyebrow labels, step numbers (01, 02, 03), navigation metadata - all-caps at 13px with 0.1em tracking creates the editorial chapter-marker effect. The mono face contrasts with Oracle\u0027s humanist sans, creating typographic tension."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "eyebrow",
+ "13px",
+ "1.23",
+ "1.3px",
+ "--text-eyebrow"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "2.19",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.5",
+ "-0.36px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "20px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.36",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.25",
+ "-0.72px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.17",
+ "-2.4px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "54px",
+ "1.11",
+ "-2.16px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "112px",
+ "0.85",
+ "-3.36px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "70",
+ "70px",
+ "`--spacing-70`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "90",
+ "90px",
+ "`--spacing-90`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "16px"
+ ],
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "pills",
+ "20px"
+ ],
+ [
+ "panels",
+ "24px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Hero Download Button",
+ "role": "Primary conversion - the most prominent CTA on the hero"
+ },
+ {
+ "name": "Pill Navigation Button",
+ "role": "Top-level nav items in the glassmorphic nav bar"
+ },
+ {
+ "name": "Glass Navigation Bar",
+ "role": "Fixed top navigation - the floating command center"
+ },
+ {
+ "name": "Text Link with Arrow",
+ "role": "Inline navigation within content sections"
+ },
+ {
+ "name": "Pill Watch Button (Hero Video)",
+ "role": "Secondary hero CTA - watch the scream"
+ },
+ {
+ "name": "Feature Card (Decks / Live Work / Better Meetings)",
+ "role": "Product feature showcase cards in the grid sections"
+ },
+ {
+ "name": "Category Tag Pill",
+ "role": "Feature category labels (Decks, Live Work, Better Meetings, Profiles)"
+ },
+ {
+ "name": "Editorial Section Header",
+ "role": "Large section titles and subheadings"
+ },
+ {
+ "name": "Numbered Step List",
+ "role": "Feature explanation sections (01, 02, 03)"
+ },
+ {
+ "name": "Product Screenshot Frame",
+ "role": "Browser/window chrome containers around product mockups"
+ },
+ {
+ "name": "Dark Hero Section",
+ "role": "Opening full-viewport dramatic section"
+ },
+ {
+ "name": "Spectrum Gradient Bar",
+ "role": "Brand-defining rainbow motion element"
+ },
+ {
+ "name": "Settings Toggle Row",
+ "role": "Privacy/personalization toggle items"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 9999px radius for all interactive pills, tags, and the video play button - full rounding is the default for anything that triggers an action",
+ "Set display headlines at 112px in Exposure Variable weight 300 with line-height 0.85 - the vertical compression is the signature, never loosen it",
+ "Use 0.1em letter-spacing on all uppercase eyebrows and step numbers in ABC Favorit Mono at 13px - the tracking creates the editorial chapter-marker rhythm",
+ "Apply 1px solid borders (28 uses) rather than shadows to define card edges - borders are the primary depth cue, shadows are reserved for floating elements only",
+ "Place buttons as floating elements with 20px radius (not full pill) for primary CTAs, reserving 9999px for secondary pill controls",
+ "Use the --student-marquee spectrum gradient sparingly - once per page maximum, as a section divider or hero accent, never as a fill",
+ "Maintain 80px section gaps and 2.19 line-height on body text - generous spacing is non-negotiable for the editorial feel"
+ ],
+ "doNot": [
+ "Do not use bright saturated colors as background fills - the system is 96% achromatic; the only permitted color washes are lime (#f2fcb3) and saffron (#ffdc5c) in small editorial zones",
+ "Do not set headlines at weight 600-700 - Dia speaks at weight 300 for display and 650 for subheadings; bold weights break the whisper-tone voice",
+ "Do not use border-radius values outside the defined set (12, 16, 20, 24, 9999px) - improvised radii destroy the visual coherence",
+ "Do not use multi-layer drop-shadow stacks on cards - the 3-layer filter is reserved for product screenshot windows only; regular cards use 1px borders",
+ "Do not place colored buttons on colored backgrounds - the system uses black text on white/linen or white text on black, never chromatic fills",
+ "Do not use line-height below 1.25 for any text - even the compressed 112px display keeps 0.85 only because the font is custom-designed for tight vertical fit; do not replicate this with system fonts",
+ "Do not add hover transforms (scale, translate) to buttons - the system transitions only color, border, and opacity at 0.2s ease"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/b458ca1a-70f0-4f85-b745-f879a4d08457",
+ "referenceSite": "https://diabrowser.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-03-11T12:14:50.000Z",
+ "articleModifiedAt": "2026-07-03T10:07:38.458Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c1a12d7e-2f1f-40f9-ac54-32366b9da679.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/d7c7c3c0-b0ef-49ff-9b4a-8a31c6c635cf.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f5d3de0e-3aad-4b6d-8aae-888e3a8b2904.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/857ed0a0-06ab-4154-977f-b2107513926d.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2ccce24d-3398-4c7a-b72e-e22e3f13b9f8.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/09e072d3-5a8e-40d6-b96f-2b442ca84256.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/2fb09193-fe4d-4df6-ba32-5c2a060c64c4.png"
+ }
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "name": "Myrch Club",
+ "slug": "myrch-club",
+ "colors": [
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Page background, image surfaces, inverted text on dark chips"
+ },
+ {
+ "name": "Gallery Gray",
+ "value": "#f9f9f9",
+ "token": "--color-gallery-gray",
+ "role": "Card and product tile backgrounds - sets objects apart from the page with a whisper of warmth"
+ },
+ {
+ "name": "Hairline Gray",
+ "value": "#cfcfcf",
+ "token": "--color-hairline-gray",
+ "role": "Dividers, secondary borders, placeholder structure"
+ },
+ {
+ "name": "Caption Gray",
+ "value": "#888888",
+ "token": "--color-caption-gray",
+ "role": "Secondary text, metadata, timestamps, muted helper labels"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#111111",
+ "token": "--color-ink-black",
+ "role": "Primary text, filled filter chips, button borders, headings - the dominant interface color"
+ },
+ {
+ "name": "True Black",
+ "value": "#000000",
+ "token": "--color-true-black",
+ "role": "Hard borders and text where maximum contrast is needed"
+ },
+ {
+ "name": "Signature Red",
+ "value": "#ff0000",
+ "token": "--color-signature-red",
+ "role": "The wordmark only - a pure, unmoderated red used at oversized scale behind the header as a brand watermark; never used for buttons, links, or functional UI"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Times New Roman",
+ "token": "--font-times-new-roman",
+ "role": "Primary body and interface type - used for descriptions, product metadata, and general reading text. The serif choice signals editorial/archive intent; a humanist serif substitute like EB Garamond or Lora preserves the curatorial atmosphere"
+ },
+ {
+ "name": "Arial Narrow",
+ "token": "--font-arial-narrow",
+ "role": "Secondary structural type - condensed sans for compact labels, filter chips, navigation, and the 42px brand name in the header. The narrow proportions contrast the serif body and create catalog/inventory utility. Substitute with a condensed grotesk like Barlow Condensed or Roboto Condensed"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.43",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.33",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "42px",
+ "1.24",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "1280px",
+ "sectionGap": "40px",
+ "cardPadding": "30px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "38",
+ "38px",
+ "`--spacing-38`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "chips",
+ "10px"
+ ],
+ [
+ "buttons",
+ "10px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Header Brand Lockup",
+ "role": "Site identity in the top-left"
+ },
+ {
+ "name": "Red Script Watermark",
+ "role": "Brand signature bleeding behind the header"
+ },
+ {
+ "name": "Description Block",
+ "role": "Introductory paragraph beneath the brand"
+ },
+ {
+ "name": "Filter Chip - Active",
+ "role": "Currently selected category filter"
+ },
+ {
+ "name": "Filter Chip - Inactive",
+ "role": "Unselected category filter"
+ },
+ {
+ "name": "Curatorial Caption",
+ "role": "Tiny attribution line under the chips"
+ },
+ {
+ "name": "Product Grid Card",
+ "role": "Individual merch item tile"
+ },
+ {
+ "name": "Product Image Frame",
+ "role": "Photograph container within a card"
+ },
+ {
+ "name": "Card Label Row",
+ "role": "Metadata strip beneath each product image"
+ },
+ {
+ "name": "Instagram Icon Button",
+ "role": "Social link in the top-right corner"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set all product tiles on a #f9f9f9 gallery card with 10px radius and 30px internal padding.",
+ "Use Times 16px weight 400 for all body and description copy; use Arial Narrow 14px for labels, chips, and metadata.",
+ "Reserve #ff0000 exclusively for the oversized script wordmark behind the header; treat it as a signature artwork, not a functional color.",
+ "Use #111111 as the dominant interface color for text, filled chips, and borders - keep the palette strictly black-on-white for everything else.",
+ "Use 10px border-radius for all chips, buttons, and cards as a single consistent rhythm.",
+ "Separate content with hairline #cfcfcf borders and color shifts rather than drop shadows.",
+ "Allow generous whitespace - section gaps of 40px and card padding of 30px - to preserve the gallery/archive feel."
+ ],
+ "doNot": [
+ "Do not use #ff0000 for buttons, links, tags, error states, or any functional UI element.",
+ "Do not introduce additional accent colors - the system is strictly monochrome with one red artwork exception.",
+ "Do not use heavy or stacked shadows; the single 20px 30%-opacity blur is the maximum elevation allowed.",
+ "Do not use bold or display-weight typography; both Times and Arial Narrow appear at weight 400 only.",
+ "Do not fill buttons with chromatic colors - buttons should be #111111 fill on #ffffff or outlined #111111.",
+ "Do not use rounded or pill shapes (9999px radius) - the 10px radius is deliberate and consistent.",
+ "Do not add gradients, glows, or colored backgrounds to the product cards."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/528683fb-6b17-4fc6-b37e-d831ee1b20e2",
+ "referenceSite": "https://www.myrch.club",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:20:21.933Z",
+ "articleModifiedAt": "2026-06-05T12:56:26.316Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/259c3276-0274-432a-971e-03397d661a51.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/48105cf4-0103-4816-9bcd-a7b4a74d1c9e.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/49d44fdf-3eab-4032-bc03-16e749c98af1.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d30ac284-7615-497b-b100-88dd8a4c0be8.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b066222b-258c-4554-b35a-a20fea40124b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

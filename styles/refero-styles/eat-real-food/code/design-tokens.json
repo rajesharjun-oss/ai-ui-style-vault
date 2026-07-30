@@ -1,0 +1,334 @@
+{
+ "name": "Eat Real Food",
+ "slug": "eat-real-food",
+ "colors": [
+ {
+ "name": "Press Ink",
+ "value": "#110000",
+ "token": "--color-press-ink",
+ "role": "Primary text, dark hero surfaces, filled pill buttons, navigation dots - near-black with a warm undertone replaces the cold #000000 to keep the palette feeling printed rather than digital"
+ },
+ {
+ "name": "Aged Parchment",
+ "value": "#fdfbee",
+ "token": "--color-aged-parchment",
+ "role": "Page canvas, body text on dark surfaces, filled button backgrounds - the warm off-white that gives the entire site its paper-like quality"
+ },
+ {
+ "name": "Newsprint White",
+ "value": "#ffffff",
+ "token": "--color-newsprint-white",
+ "role": "Card surfaces, elevated panels, button text on dark fills"
+ },
+ {
+ "name": "Wheat Field",
+ "value": "#f3f0d6",
+ "token": "--color-wheat-field",
+ "role": "Accent surface, secondary button fill, soft highlight wash - a desaturated straw tone that sits between parchment and olive"
+ },
+ {
+ "name": "Fog",
+ "value": "#e5e5e5",
+ "token": "--color-fog",
+ "role": "Hairline borders, dividers, card edges - the structural neutral that defines component boundaries at 1px weight"
+ },
+ {
+ "name": "Dusty Brick",
+ "value": "#8d7d7d",
+ "token": "--color-dusty-brick",
+ "role": "Muted secondary text, small labels - warm gray-brown that recedes without going cold"
+ },
+ {
+ "name": "Ash",
+ "value": "#bebcb3",
+ "token": "--color-ash",
+ "role": "Subtle image borders, soft shadow base - warm gray for non-critical structural lines"
+ },
+ {
+ "name": "Stone",
+ "value": "#d2d0c6",
+ "token": "--color-stone",
+ "role": "Card shadow base tone, subtle elevation warmth"
+ },
+ {
+ "name": "Alert Red",
+ "value": "#d50000",
+ "token": "--color-alert-red",
+ "role": "Data emphasis blocks, statistics backgrounds, alarm callouts - the only chromatic color in the system, reserved for moments when numbers must cut through the editorial calm"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Die Grotesk D",
+ "token": "--font-die-grotesk-d",
+ "role": "Display and heading - weight 700 only, the single heaviest voice in the system. Used at enormous sizes (96-170px) with extremely tight line-heights (0.84-0.96) that make headlines stack into solid editorial blocks. This is the voice that shouts."
+ },
+ {
+ "name": "Die Grotesk B",
+ "token": "--font-die-grotesk-b",
+ "role": "Mid-scale headings and emphasized body - the bridge between display and text. Slight negative tracking (-0.019em) tightens medium sizes without making them feel clinical."
+ },
+ {
+ "name": "Die Grotesk A",
+ "token": "--font-die-grotesk-a",
+ "role": "Body text, navigation, buttons, links, lists, cards - the workhorse. Negative tracking (-0.02em to -0.03em) at body sizes keeps the grotesque feeling sharp. Weight 600 is available for inline emphasis."
+ },
+ {
+ "name": "Geist Mono",
+ "token": "--font-geist-mono",
+ "role": "Monospaced labels, section markers, micro-copy - the only monospace voice. Wide tracking (+0.06em) gives it a typewriter/telegraph quality that signals \u0027official data\u0027 or \u0027system label\u0027."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "0.72px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "-0.28px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-0.48px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "21px",
+ "1.2",
+ "-0.42px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "33px",
+ "1.04",
+ "-0.66px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "48px",
+ "0.96",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "96px",
+ "0.96",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "170px",
+ "0.84",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "52",
+ "52px",
+ "`--spacing-52`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ],
+ [
+ "192",
+ "192px",
+ "`--spacing-192`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "999px"
+ ],
+ [
+ "tags",
+ "100px"
+ ],
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "images",
+ "12px"
+ ],
+ [
+ "buttons",
+ "40px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Dark Hero Band",
+ "role": "Opening section with massive headline"
+ },
+ {
+ "name": "Filled Pill Button",
+ "role": "Primary action"
+ },
+ {
+ "name": "Outlined Pill Button",
+ "role": "Secondary action"
+ },
+ {
+ "name": "Video Play Trigger",
+ "role": "Embedded video launch"
+ },
+ {
+ "name": "Statistics Data Block",
+ "role": "Health data emphasis"
+ },
+ {
+ "name": "Section Label Tag",
+ "role": "Category or section identifier"
+ },
+ {
+ "name": "Government Banner",
+ "role": "Official site identifier"
+ },
+ {
+ "name": "Navigation Pill",
+ "role": "Top navigation item"
+ },
+ {
+ "name": "Card with Soft Shadow",
+ "role": "Content grouping panel"
+ },
+ {
+ "name": "Section Progress Dots",
+ "role": "Page-level section indicator"
+ },
+ {
+ "name": "Image Container",
+ "role": "Media wrapper"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use the cream canvas #fdfbee as the default page background for all body content",
+ "Reserve #d50000 exclusively for statistics, data emphasis, and alarm-level callouts - never for decoration or branding",
+ "Use Die Grotesk D weight 700 at 96px or larger for hero and section-opening headlines with line-height at or below 0.96",
+ "Apply 40px border-radius to all buttons and interactive pills to maintain the soft, rounded system voice",
+ "Use Geist Mono with +0.06em tracking for labels, tags, and machine-stamped metadata",
+ "Apply the double-layer card shadow (10px/40px + 20px/60px) to any elevated white surface that needs to separate from the cream canvas",
+ "Keep body text at 16-21px Die Grotesk A weight 400 with -0.02em to -0.03em tracking"
+ ],
+ "doNot": [
+ "Don\u0027t introduce additional chromatic colors - the palette is Press Ink, parchment neutrals, and one Alarm Red",
+ "Don\u0027t use #000000 for body text or backgrounds - always use the warmer #110000",
+ "Don\u0027t apply Alert Red (#d50000) to buttons, links, or navigation - it is for data blocks only",
+ "Don\u0027t use sharp corners (0-4px radius) on buttons or cards - the system is defined by its pill and rounded softness",
+ "Don\u0027t set display headlines at standard line-height (1.2+) - tight stacking (0.84-0.96) is the signature",
+ "Don\u0027t use heavy drop shadows on dark sections - the near-black surfaces should feel flat and printed, not elevated",
+ "Don\u0027t use photography for decorative atmosphere - imagery should be content-bearing (data, video, diagrams) or absent"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/3d32f841-490d-4e5f-aba0-43c9d0c13130",
+ "referenceSite": "https://realfood.gov",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:17:40.047Z",
+ "articleModifiedAt": "2026-06-05T12:33:31.642Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/89af581b-1cd0-4c79-bbf0-345a4b1edfa5.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e65fd0ec-2503-49c9-abf7-2ba057f84477.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/41129770-6cb9-4cc6-9a9b-d7ca26d8ef00.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2ceba581-c4a7-4d3f-a7bc-737adeffac92.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/17c50271-da3a-47ac-a31e-7f78550faddf.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f63df5e3-3f94-418d-9c59-77f9383e391c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ }
+}

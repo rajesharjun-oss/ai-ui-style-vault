@@ -1,0 +1,202 @@
+{
+ "name": "Clase bcn",
+ "slug": "clase-bcn",
+ "colors": [
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, card surface base, text on dark cards"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, hairline borders, nav labels - the structural anchor of every element"
+ },
+ {
+ "name": "Carbon",
+ "value": "#0a0a0a",
+ "token": "--color-carbon",
+ "role": "Secondary text and deep surfaces where pure black reads too harsh"
+ },
+ {
+ "name": "Concrete",
+ "value": "#939393",
+ "token": "--color-concrete",
+ "role": "Muted navigation labels, secondary link text, inactive nav state"
+ },
+ {
+ "name": "Ash",
+ "value": "#aaaaaa",
+ "token": "--color-ash",
+ "role": "Tertiary link borders and subdued annotation text"
+ },
+ {
+ "name": "Plaster",
+ "value": "#e8e8e8",
+ "token": "--color-plaster",
+ "role": "Subtle surface division, alternating card backgrounds"
+ },
+ {
+ "name": "Sumi",
+ "value": "#0a0000",
+ "token": "--color-sumi",
+ "role": "Near-black project card background - reads as deepest neutral"
+ },
+ {
+ "name": "Slate Night",
+ "value": "#262a36",
+ "token": "--color-slate-night",
+ "role": "Project card background - slightly cool dark, content-driven not UI"
+ },
+ {
+ "name": "Terracotta Blush",
+ "value": "#efccbe",
+ "token": "--color-terracotta-blush",
+ "role": "Project card background - warm content fill, not a UI accent"
+ },
+ {
+ "name": "Verdant",
+ "value": "#43d491",
+ "token": "--color-verdant",
+ "role": "Project card background - vivid content fill, not a UI accent"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "SuisseIntl-Regular",
+ "token": "--font-suisseintl-regular",
+ "role": "SuisseIntl-Regular - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Suisse Int\u0027l",
+ "token": "--font-suisse-intl",
+ "role": "Single typeface at a single weight carries the entire interface - navigation, body, and display. The refusal to use a bold or italic weight forces hierarchy through size, line-height, and whitespace alone. The variable line-heights (1.11 for tight display stacks, 1.79-2.44 for body) show that this one weight is stretched across very different densities."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "24px",
+ "1.17",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "subheading",
+ "28px",
+ "1.21",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "45px",
+ "1.11",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "100px",
+ "cardPadding": "20px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Minimal text-only site header"
+ },
+ {
+ "name": "Statement Headline",
+ "role": "Opening page declaration"
+ },
+ {
+ "name": "Full-Bleed Project Card",
+ "role": "Portfolio case study entry"
+ },
+ {
+ "name": "Photographic Project Card",
+ "role": "Image-led portfolio entry"
+ },
+ {
+ "name": "Text Link with Arrow",
+ "role": "The only interactive element in the system"
+ },
+ {
+ "name": "Footer",
+ "role": "Minimal page closer"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Suisse Int\u0027l (or a neo-grotesque substitute like Inter) at weight 400 for every element - no bold, no italic, no second family",
+ "Let project imagery and project color fills carry all visual variety; keep all UI chrome in #000000 and #ffffff",
+ "Use 20px padding consistently for all text-block insets (navigation, card text, footer)",
+ "Separate projects with 100px vertical breathing room - let each card exist in its own visual silence",
+ "Mark every interaction as a plain text link with a arrow, never as a filled or outlined button",
+ "Scale hierarchy through font size and line-height only - 24px for body, 28px for subtitles, 45px for display",
+ "Keep border-radius at 0 across all elements - corners are sharp, the page is a grid"
+ ],
+ "doNot": [
+ "Don\u0027t introduce buttons, pills, chips, or any filled interactive component - this system has no buttons",
+ "Don\u0027t add shadows, gradients, or border effects to cards or images - surface depth comes from color contrast alone",
+ "Don\u0027t use bold or semibold weights - weight 400 is the only voice; hierarchy is size-only",
+ "Don\u0027t use #43d491, #efccbe, or #262a36 as UI accents - they belong only inside project card backgrounds",
+ "Don\u0027t add a logo mark, wordmark treatment, or branded icon - the word \u0027Cl\u0027 in the nav is the entire identity mark",
+ "Don\u0027t constrain the layout to a max-width container - project cards must be full-bleed",
+ "Don\u0027t add hover animations, transitions, or micro-interactions - the site reads as static, like a printed catalogue"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/73359194-de93-436e-af53-81d4029f5e7a",
+ "referenceSite": "https://clasebcn.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:52:36.403Z",
+ "articleModifiedAt": "2026-06-05T12:29:31.135Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/87853e61-be23-49e4-8335-b92fa06e0033.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/db1538cf-574d-4d9b-a12f-513f42a6872c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/8ddc65fd-5e41-48f9-90e5-be9ebdb8d576.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9ed389e9-499e-41a5-a544-278e181b68cb.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/ec20ca9d-a102-49b9-96db-896f2750499e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "name": "Waka Waka",
+ "slug": "waka-waka",
+ "colors": [
+ {
+ "name": "Bone Paper",
+ "value": "#edeae4",
+ "token": "--color-bone-paper",
+ "role": "Page background, all canvas surfaces - warm off-white that reads as unbleached paper rather than digital white"
+ },
+ {
+ "name": "Stone Gray",
+ "value": "#c9c7c4",
+ "token": "--color-stone-gray",
+ "role": "Secondary surface and muted contextual neutral - appears in contrast pairings as a slightly deeper layer below the canvas"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#28282a",
+ "token": "--color-ink-black",
+ "role": "Primary text, all borders, hairline rules, icon strokes, and the only chromatic anchor in the system - near-black with a hint of warmth so it sits comfortably on the bone background instead of vibrating"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Waka Sans",
+ "token": "--font-waka-sans",
+ "role": "Single custom grotesk used for everything from 10px captions to 560px display - tight tracking scales with size (-0.09em at display, -0.02em at body) so the enormous type locks into a dense block while body text stays readable. The 0.80-0.83 line-height at display size is the signature: letterforms stack into an almost solid mass of ink"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.6",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.2",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.2",
+ "-0.36px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1",
+ "-0.72px",
+ "--text-subheading"
+ ],
+ [
+ "display",
+ "560px",
+ "0.8",
+ "-50.4px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "27",
+ "27px",
+ "`--spacing-27`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Monumental Display Headline",
+ "role": "Hero wordmark and section dividers"
+ },
+ {
+ "name": "Editorial Section Heading",
+ "role": "Mid-scale titles and category labels"
+ },
+ {
+ "name": "Product Image Plate",
+ "role": "Photography containers in grid layouts"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Section and content separators"
+ },
+ {
+ "name": "Nav Link",
+ "role": "Top navigation items"
+ },
+ {
+ "name": "Footer Text",
+ "role": "Bottom page information"
+ },
+ {
+ "name": "Outlined Action Border",
+ "role": "The only interactive element treatment available"
+ },
+ {
+ "name": "Icon Stroke",
+ "role": "All iconography"
+ },
+ {
+ "name": "Full-Bleed Poster Page",
+ "role": "Landing and index pages"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Waka Sans weight 700 at 560px with line-height 0.80 and letter-spacing -0.09em for any monumental display element - this is the system\u0027s single most recognizable choice",
+ "Set all backgrounds to #edeae4 and all text, borders, and icons to #28282a - never introduce a second color",
+ "Use 0px border-radius on every component including cards, buttons, and image containers",
+ "Use hairline 1px #28282a dividers and borders instead of background-color contrast to separate content",
+ "Set tight letter-spacing at scale: -0.09em at display, -0.03em at subheading, -0.02em at body",
+ "Keep spacing compact: 10px element gaps, 20px container padding, 80px section gaps",
+ "Let product photography sit directly on the bone background with no frame, shadow, or radius"
+ ],
+ "doNot": [
+ "Do not introduce any chromatic color, gradient, or accent hue - the system is strictly two-tone",
+ "Do not use filled buttons, colored backgrounds, or background-fill hover states on interactive elements",
+ "Do not apply border-radius greater than 0px to any element",
+ "Do not use box-shadow or any elevation effect - surfaces are flat",
+ "Do not set type below 10px or above 560px - the scale is deliberate and extreme",
+ "Do not use light line-heights (1.5+) on display or heading sizes - 0.80-1.00 is required to maintain density",
+ "Do not separate sections with colored bands or background fills - use whitespace and hairline rules only"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/ea55601d-e953-48b3-99db-374b39bf2f56",
+ "referenceSite": "https://wakawaka.world",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T00:35:19.346Z",
+ "articleModifiedAt": "2026-06-05T12:42:43.891Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/64bb9b6d-733e-43b7-96cd-1e958976f769.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a3bdddfb-bb48-4435-918b-b829d7c05bbb.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/3970dfdf-dc9a-4a1b-9637-24e7a50cad80.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1269991e-e92e-409c-bfb2-4316fdca4672.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/1143fbdf-1449-4434-af63-825bfb51c7db.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/41f3fcc9-ae56-44b9-9f53-d797f78bf732.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "id": "c70a9990-bc4b-4a64-a69b-aeb7b344fb74",
+ "name": "Microsoft",
+ "slug": "microsoft",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/c70a9990-bc4b-4a64-a69b-aeb7b344fb74",
+ "referenceSite": "https://www.microsoft.com",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-29T00:44:50.581Z",
+ "articleModifiedAt": "2026-06-05T13:02:03.776Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0fb80266-ed13-4a3c-a8f1-015867870c72.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/1c950d8c-0545-465d-a3a1-2002727acc5d.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/3ddb0b1e-64a8-403c-9a17-1c6e6a59ea2a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/645652ca-e359-466f-99cc-c49cbe389fe9.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/cda54060-e54c-417d-b91b-be6f6ca08cb7.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/47a4e304-46d1-48cd-a851-784d2f847fff.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/f811a6c8-858f-43c4-a1d6-e382904c16c9.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Corporate blue retail catalog - think 4-square logo against a white showroom floor with one accent blue guiding every interaction.",
+ "summary": "Explore Microsoft\u0027s light Other design system: Microsoft Blue #0067b8, Pure White #ffffff colors, Segoe UI typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Microsoft Blue",
+ "value": "#0067b8",
+ "token": "--color-microsoft-blue",
+ "role": "Primary action background, link text, navigation accents, icon strokes - the single chromatic authority in the system, used for all filled CTAs and interactive highlights"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page background, card surfaces, button text on blue, surface elevation"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#f2f2f2",
+ "token": "--color-mist-gray",
+ "role": "Footer background, subtle surface tone, page canvas under cards"
+ },
+ {
+ "name": "Carbon Black",
+ "value": "#000000",
+ "token": "--color-carbon-black",
+ "role": "Primary text, card borders, hairline dividers - the dominant typographic and structural color"
+ },
+ {
+ "name": "Steel Gray",
+ "value": "#616161",
+ "token": "--color-steel-gray",
+ "role": "Secondary text, navigation text, muted UI elements, footer copy"
+ },
+ {
+ "name": "Graphite",
+ "value": "#262626",
+ "token": "--color-graphite",
+ "role": "Body text variant, list borders, navigation dividers, secondary headings"
+ },
+ {
+ "name": "Deep Charcoal",
+ "value": "#171717",
+ "token": "--color-deep-charcoal",
+ "role": "Dense text blocks, list separators, button border variant - the darkest neutral after pure black"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Segoe UI",
+ "token": "--font-segoe-ui",
+ "role": "Sole typeface across the entire system - navigation, body, headings, buttons, footer. Weight 400 is the workhorse; weight 600 is reserved for headings and button labels to create section-level contrast without switching families. Segoe UI\u0027s humanist proportions and open apertures give the system its calm, enterprise-confident voice - the type does not perform, it informs."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "heading-sm",
+ "29px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "37px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "48px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "2px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "2px"
+ ],
+ [
+ "buttons",
+ "2px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Action Button",
+ "role": "Filled CTA used for \u0027Comprar ahora\u0027, \u0027Descargar ahora\u0027, \u0027Unirse ahora\u0027, \u0027Mas informacion\u0027"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Inline links in navigation rows, card text links, footer links"
+ },
+ {
+ "name": "Product Card",
+ "role": "Grid card for Surface, Xbox, accessories, and software promotions"
+ },
+ {
+ "name": "Hero Card Overlay",
+ "role": "White text card layered over a blue photographic hero"
+ },
+ {
+ "name": "Category Icon Link",
+ "role": "Icon + label links for \u0027Comprar portatiles Surface\u0027, \u0027Comprar consolas y juegos para Xbox\u0027, etc."
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Sticky header with Microsoft logo, product links, and account controls"
+ },
+ {
+ "name": "Hero Banner",
+ "role": "Full-width promotional section with product or lifestyle photography"
+ },
+ {
+ "name": "Carousel Pagination Dots",
+ "role": "Slide indicator for hero carousel"
+ },
+ {
+ "name": "Feature Band",
+ "role": "Full-width promotional section (e.g., Microsoft Edge, AI for Earth)"
+ },
+ {
+ "name": "Section Heading Group",
+ "role": "Text block above a card grid or content row"
+ },
+ {
+ "name": "4-Column Card Grid",
+ "role": "Product or content grid layout"
+ },
+ {
+ "name": "Footer",
+ "role": "Site-wide footer with links and legal"
+ },
+ {
+ "name": "Back-to-Top Button",
+ "role": "Floating scroll-to-top control"
+ }
+ ],
+ "dos": [
+ "Use #0067b8 as the sole chromatic color for all filled action buttons, link text, and active navigation indicators",
+ "Set button border-radius to 2px - subtle rounding, not pill-shaped",
+ "Apply the card shadow stack (rgba(0,0,0,0.13) 0 3px 7px + rgba(0,0,0,0.11) 0 1px 2px) only to product cards in grids",
+ "Use Segoe UI weight 600 for headings, card titles, and button labels; weight 400 for all body, nav, and link text",
+ "Maintain 8px as the base spacing unit - use 8/16/24/48px steps for padding, margins, and gaps",
+ "Layer white overlay cards (32-48px padding, no border) over full-bleed hero photography for text legibility",
+ "Keep card grids at 4 equal columns with 16-24px gaps inside a max-width 1200px container"
+ ],
+ "donts": [
+ "Do not introduce additional brand colors - the system is monochrome plus #0067b8",
+ "Do not use border-radius greater than 2px on buttons, inputs, or cards - keep edges nearly sharp",
+ "Do not apply shadows to navigation bars, buttons, or text blocks - only to product cards",
+ "Do not use Segoe UI weights other than 400 and 600 - no 300 whisper-weights or 700 bold declarations",
+ "Do not create outlined or ghost button variants - all actions are filled blue or simple text links",
+ "Do not add decorative gradients - the system relies on photography and flat surfaces",
+ "Do not use fully saturated icons - category icons should be 1.5-2px stroke outline style in #616161 or #000000"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Page Canvas | `#ffffff` | Primary page background - the showroom floor |\n| 1 | Card Surface | `#ffffff` | Product cards, hero overlays, content blocks - same white as canvas but elevated by border and shadow |\n| 2 | Muted Surface | `#f2f2f2` | Footer background, subtle section differentiation |",
+ "elevation": "- **Product Card:** `rgba(0, 0, 0, 0.13) 0px 3px 7px 0px, rgba(0, 0, 0, 0.11) 0px 1px 2px 0px`",
+ "imagery": "Photography is product-led and lifestyle-secondary. Hero sections use blue-tinted studio renders of Surface devices and Xbox controllers on gradient backgrounds, or atmospheric landscape photography (lakes, mountains) for brand stories like Microsoft Edge or AI for Earth. Product card images are tight crops on pure white or contextual backgrounds, with no human models in the primary grid. Icon style is consistently outlined line-art (1.5-2px stroke) in neutral gray, used for category navigation. The 4-color Microsoft logo (red/green/blue/yellow squares) is the only multi-color mark in the system.",
+ "layout": "Max-width 1200px centered container with full-bleed hero sections that break out. Hero pattern: full-viewport-width image or blue gradient with a white text card overlaid on the left and product render or branded text on the right. Section rhythm: alternating white canvas and blue photographic bands, each 480-600px tall, separated by 48px vertical gaps. Content arrangement: hero icon-link row (5 columns) 4-column product card grid full-bleed feature band another 4-column grid. Navigation is a sticky top bar, no sidebar. The page is information-dense but breathable - generous vertical spacing between sections prevents the grid from feeling cramped."
+}

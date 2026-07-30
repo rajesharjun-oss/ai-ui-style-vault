@@ -1,0 +1,272 @@
+{
+ "name": "mono",
+ "slug": "mono",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#292929",
+ "token": "--color-ink",
+ "role": "Primary text, heading color, link color, border strokes, surface blocks - the structural dark that replaces shadow everywhere in the system"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page canvas, card surface, input fill, inverse text - the dominant white ground"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "SVG illustration fills and input text - appears in decorative line-art and form value color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "NH",
+ "token": "--font-nh",
+ "role": "Primary type family for body copy, hero text, headings, and interactive labels"
+ },
+ {
+ "name": "S-Condensed",
+ "token": "--font-s-condensed",
+ "role": "Utility face for uppercase labels, nav, tags, captions, and condensed body"
+ },
+ {
+ "name": "EV",
+ "token": "--font-ev",
+ "role": "Special display accent"
+ },
+ {
+ "name": "S-Works",
+ "token": "--font-s-works",
+ "role": "Reserved display heading"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.34",
+ "0.12px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "0.9",
+ "0.14px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.34",
+ "-0.32px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.5",
+ "-0.36px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "25px",
+ "1.27",
+ "-0.5px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.25",
+ "-0.64px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.34",
+ "-0.8px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "43px",
+ "1.34",
+ "-0.86px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "20px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "23",
+ "23px",
+ "`--spacing-23`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "43",
+ "43px",
+ "`--spacing-43`"
+ ],
+ [
+ "45",
+ "45px",
+ "`--spacing-45`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Bordered Cell",
+ "role": "Fundamental layout unit - replaces cards/sections with hard-edged grid cells"
+ },
+ {
+ "name": "Outline Button",
+ "role": "Primary interactive - text-style outlined action"
+ },
+ {
+ "name": "Text Link",
+ "role": "In-flow navigation and reference link"
+ },
+ {
+ "name": "Inverse Text Button",
+ "role": "Highlighted action - white text on dark surface"
+ },
+ {
+ "name": "Underline Input",
+ "role": "Single-line form field - brutalist minimal"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Hero and section-defining copy"
+ },
+ {
+ "name": "Uppercase Label",
+ "role": "Section/metadata tag (e.g., ABOUT, services)"
+ },
+ {
+ "name": "Editorial Caption",
+ "role": "Rotated/aspirational taglines wrapped around imagery"
+ },
+ {
+ "name": "Vertical Sidebar Label",
+ "role": "Page-edge rotated text - brand/category markers"
+ },
+ {
+ "name": "Product Hero Image",
+ "role": "Full-bleed product photograph as centerpiece"
+ },
+ {
+ "name": "Footer Bar",
+ "role": "Copyright and utility nav row"
+ },
+ {
+ "name": "Dark Inverse Cell",
+ "role": "Occasional dark surface for contrast"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 2px solid #292929 borders as the primary separator and container system instead of shadows or background fills",
+ "Set all border-radius to 0px - no rounded corners anywhere",
+ "Use NH weight 100-300 at 32-43px for headlines with -0.02em letter-spacing",
+ "Set S-Condensed labels at 12-14px uppercase with +0.1em to +0.2em letter-spacing for all nav, tags, and metadata",
+ "Let the grid go edge-to-edge (no max-width container) - sections butt directly against each other via shared borders",
+ "Use 8px as the base spacing unit, stepping in multiples (8, 12, 20, 43, 45)",
+ "Pair white (#ffffff) surfaces with #292929 ink for all text and borders - never introduce accent color"
+ ],
+ "doNot": [
+ "Don\u0027t add box-shadow, drop-shadow, or any elevation - the system is intentionally flat",
+ "Don\u0027t round any corner - cards, buttons, inputs, images all stay 0px",
+ "Don\u0027t use bold weights (600+) - the system\u0027s voice comes from weight 100/300/400/500",
+ "Don\u0027t introduce a brand accent color - the palette is strictly black/white/ink",
+ "Don\u0027t use gradients - fills are always flat solids",
+ "Don\u0027t use lowercase body text in S-Condensed - that face is always uppercase",
+ "Don\u0027t center-align body paragraphs - copy flows left-aligned in editorial register"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/859f6be7-9d2d-4da6-a9b7-baa658172696",
+ "referenceSite": "https://mono.frm.fm/en",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T02:42:12.427Z",
+ "articleModifiedAt": "2026-07-03T11:24:50.681Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/5015efcd-49bf-4c44-b613-0429499b293c.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/eb67b6b1-b57d-4196-8c96-1fad25523e58.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ab5bc3aa-4a1e-4fd3-adde-481400b20b71.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/8f508107-4169-4765-89a9-8149615fb49c.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9a3806cd-98fa-44b0-9346-4bcab325e5ce.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/1dc0a18b-ace1-4689-a1fe-49afa3318fbb.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/ded6b008-8c69-49e8-bb26-5b9900a50e59.png"
+ }
+ }
+}

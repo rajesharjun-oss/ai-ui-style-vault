@@ -1,0 +1,313 @@
+{
+ "name": "LogoArchive",
+ "slug": "logoarchive",
+ "colors": [
+ {
+ "name": "Canvas Charcoal",
+ "value": "#27272a",
+ "token": "--color-canvas-charcoal",
+ "role": "Page background, primary canvas surface"
+ },
+ {
+ "name": "Elevated Ink",
+ "value": "#18181b",
+ "token": "--color-elevated-ink",
+ "role": "Card surfaces, product window backgrounds, logo tiles - one step deeper than canvas for contrast"
+ },
+ {
+ "name": "Slate Surface",
+ "value": "#343538",
+ "token": "--color-slate-surface",
+ "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Deep Void",
+ "value": "#000000",
+ "token": "--color-deep-void",
+ "role": "Nav fills, deepest surface tone, pure black accents"
+ },
+ {
+ "name": "Near Black",
+ "value": "#0c0c0e",
+ "token": "--color-near-black",
+ "role": "List borders, hairline dividers, subtle structural edges"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary text, icons, borders, high-contrast elements - the dominant interface color"
+ },
+ {
+ "name": "Fog Gray",
+ "value": "#a8afb7",
+ "token": "--color-fog-gray",
+ "role": "Muted body text, secondary headings, subtle borders - readable but recessive"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#dadee4",
+ "token": "--color-mist-gray",
+ "role": "Light borders, disabled-state text, very subtle dividers"
+ },
+ {
+ "name": "Dim Stone",
+ "value": "#8c8c8d",
+ "token": "--color-dim-stone",
+ "role": "Placeholder/disabled surfaces, inactive list backgrounds"
+ },
+ {
+ "name": "Signal Yellow",
+ "value": "#fde533",
+ "token": "--color-signal-yellow",
+ "role": "Yellow outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Suisse International",
+ "token": "--font-suisse-international",
+ "role": "Primary typeface for all UI text, body, navigation, buttons, and most headings"
+ },
+ {
+ "name": "Suisse Works Book",
+ "token": "--font-suisse-works-book",
+ "role": "Italic display emphasis in hero and section headlines"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.75",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.75",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "19px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "28px",
+ "1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "65px",
+ "1",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "96px",
+ "0.9",
+ "-",
+ "--text-display-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "32px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "28px"
+ ],
+ [
+ "large",
+ "40px"
+ ],
+ [
+ "tiles",
+ "20px"
+ ],
+ [
+ "badges",
+ "999px"
+ ],
+ [
+ "subtle",
+ "4px"
+ ],
+ [
+ "buttons",
+ "999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "Main call-to-action for conversion (pricing, signup)"
+ },
+ {
+ "name": "Secondary Button",
+ "role": "Secondary actions (pricing, learn more)"
+ },
+ {
+ "name": "Ghost Nav Button",
+ "role": "Top-right utility actions (Log in)"
+ },
+ {
+ "name": "Feature Badge",
+ "role": "Pill label above section headings (e.g., \u0027A new format of logo inspiration\u0027)"
+ },
+ {
+ "name": "Logo Tile Card",
+ "role": "Individual logo display in the product grid"
+ },
+ {
+ "name": "Product Window Frame",
+ "role": "Desktop app screenshot container"
+ },
+ {
+ "name": "Mobile Device Frame",
+ "role": "Mobile app screenshot container"
+ },
+ {
+ "name": "Nav Bar",
+ "role": "Top navigation, site-wide"
+ },
+ {
+ "name": "Hero Headline",
+ "role": "Primary page headline"
+ },
+ {
+ "name": "Subtext Paragraph",
+ "role": "Supporting copy below headlines or CTAs"
+ },
+ {
+ "name": "Pricing Card",
+ "role": "Subscription tier display"
+ },
+ {
+ "name": "Feature List Row",
+ "role": "Checklist item in pricing or feature sections"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #fde533 only for primary CTAs, badges, and the logo mark - never for body text, icons, or decorative elements",
+ "Pair Suisse International roman (400) with italic (Suisse Works Book) for editorial emphasis in display copy",
+ "Use 999px border-radius for all buttons, badges, and interactive pills",
+ "Layer surfaces using the tonal stack: #000000 #0c0c0 #18181b #27272a #343538",
+ "Set body text to #a8afb7 at 14-16px with 1.75 line-height for readable, recessive supporting copy",
+ "Keep all borders 1px and use #27272a or #343538 - never thicker, never chromatic",
+ "Center-align hero and section headlines; left-align body and list content"
+ ],
+ "doNot": [
+ "Don\u0027t introduce a second accent color - the system is monochromatic with one yellow signal",
+ "Don\u0027t use box-shadow for elevation - rely on tonal surface contrast only",
+ "Don\u0027t use display sizes below 65px for headlines - the scale jumps from 28px to 65px intentionally",
+ "Don\u0027t use system fonts or non-Swiss grotesques - the typographic identity is precise and mechanical",
+ "Don\u0027t add gradients - the system is fully flat",
+ "Don\u0027t use light-theme colors or white backgrounds - the system is dark-first",
+ "Don\u0027t use borders thicker than 1px or with high contrast - borders are always hairline and subtle"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/b63cc4ca-52c6-4b70-9a5a-cb04bae15edb",
+ "referenceSite": "https://www.logo-archive.org",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T02:04:19.064Z",
+ "articleModifiedAt": "2026-06-05T12:53:09.282Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b4ef29aa-e818-45bd-b495-673a3bb960fe.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c8566788-b048-4479-8a4b-8e02e0bcf2fb.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/5d7b3c3b-2e20-4cc2-8523-10a07d5053e4.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/df58b518-bfe4-4a2c-8113-e48c4cd4bfac.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/4a7536aa-2c00-47fe-bf5a-3b28064309b7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

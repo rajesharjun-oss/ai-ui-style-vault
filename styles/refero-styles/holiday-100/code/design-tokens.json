@@ -1,0 +1,358 @@
+{
+ "name": "Holiday 100",
+ "slug": "holiday-100",
+ "colors": [
+ {
+ "name": "Onyx Canvas",
+ "value": "#333438",
+ "token": "--color-onyx-canvas",
+ "role": "Page background - the primary dark surface that absorbs all surrounding chrome and lets photography and accent color carry visual weight"
+ },
+ {
+ "name": "Graphite Card",
+ "value": "#202124",
+ "token": "--color-graphite-card",
+ "role": "Card and product tile surfaces - one step lifted from the canvas, used for product listings, trending panels, and secondary groupings"
+ },
+ {
+ "name": "Charcoal Border",
+ "value": "#1f1f1f",
+ "token": "--color-charcoal-border",
+ "role": "Hairline borders on inputs, icons, and button edges - barely visible, defines boundaries without breaking the dark atmosphere"
+ },
+ {
+ "name": "Muted Iron",
+ "value": "#9e9e9e",
+ "token": "--color-muted-iron",
+ "role": "Muted helper text, secondary icon strokes, and low-emphasis metadata"
+ },
+ {
+ "name": "Fog",
+ "value": "#45474c",
+ "token": "--color-fog",
+ "role": "Subtle link borders and tertiary structural lines"
+ },
+ {
+ "name": "Snow",
+ "value": "#e8e8e8",
+ "token": "--color-snow",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Ice Blue",
+ "value": "#99c3ff",
+ "token": "--color-ice-blue",
+ "role": "Outlined accent borders and decorative strokes on links, images, and card frames - the cool chromatic signature that brands links and featured borders without filling them"
+ },
+ {
+ "name": "Crimson Spotlight",
+ "value": "#980b0b",
+ "token": "--color-crimson-spotlight",
+ "role": "Red outline accent for tags, dividers, and focused UI edges."
+ },
+ {
+ "name": "Royal Blue",
+ "value": "#113979",
+ "token": "--color-royal-blue",
+ "role": "Category tile background for Electronics - a saturated mid-blue that gives gadgets a stage"
+ },
+ {
+ "name": "Powder Wash",
+ "value": "#d2e3fc",
+ "token": "--color-powder-wash",
+ "role": "Light blue category background for Accessories - a desaturated counterweight to the deeper Royal Blue"
+ },
+ {
+ "name": "Forest",
+ "value": "#073618",
+ "token": "--color-forest",
+ "role": "Category tile background for Toys \u0026 Games and Home \u0026 Garden - deep green anchors the more organic categories"
+ },
+ {
+ "name": "Mint",
+ "value": "#a8dab5",
+ "token": "--color-mint",
+ "role": "Light green category background for Health \u0026 Wellness - the fresh, airy counterpart to Forest"
+ },
+ {
+ "name": "Butter",
+ "value": "#ffedb8",
+ "token": "--color-butter",
+ "role": "Category tile background for Beauty - warm pale yellow that softens the cosmetic category"
+ },
+ {
+ "name": "Sky Tint",
+ "value": "#e8f0fe",
+ "token": "--color-sky-tint",
+ "role": "Lightest blue wash, used as a text/foreground pairing on dark accent backgrounds to guarantee AAA contrast"
+ },
+ {
+ "name": "Violet Whisper",
+ "value": "#c58af9",
+ "token": "--color-violet-whisper",
+ "role": "Rare accent - appears on a small number of links, probably AI-related or featured annotation links"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Crimson Pro",
+ "token": "--font-crimson-pro",
+ "role": "Display serif for the editorial headline moments. The 220px weight 200 \u0027Holiday 100\u0027 wordmark is the single most identifiable element - a high-contrast serif at extreme size that signals \u0027curated annual feature\u0027 rather than a standard product page. Also used at 80px for section headers with italic emphasis on category names (\u0027Beauty Maven\u0027 in italic)."
+ },
+ {
+ "name": "Google Sans",
+ "token": "--font-google-sans",
+ "role": "Primary UI and body typeface. Used for subtitles, category labels, card titles, button text, and product metadata. The weight 200 light variant is a distinctive choice - it keeps body text from feeling heavy against the dark canvas and pairs naturally with the serif display weights. The consistent -0.02em tracking across all sizes tightens the type into a controlled grid."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "System fallback for ancillary content; sparse usage means it serves as safety net for elements not styled in the custom fonts."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.43",
+ "-0.28px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.32px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.25",
+ "-0.48px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.2",
+ "-0.6px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1",
+ "-1.92px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "80px",
+ "0.91",
+ "-3.2px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "220px",
+ "0.91",
+ "-8.8px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "38px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "38",
+ "38px",
+ "`--spacing-38`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "57",
+ "57px",
+ "`--spacing-57`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "172",
+ "172px",
+ "`--spacing-172`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "buttons",
+ "20px"
+ ],
+ [
+ "linkUnderlines",
+ "2px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Hero Display Headline",
+ "role": "Opening title that establishes the editorial tone"
+ },
+ {
+ "name": "Hero Subtitle",
+ "role": "Context line below the display headline"
+ },
+ {
+ "name": "Hero Image Block",
+ "role": "Full-bleed lifestyle product photograph"
+ },
+ {
+ "name": "Category Tile",
+ "role": "Navigable entry to a product category"
+ },
+ {
+ "name": "Category Scroll Strip",
+ "role": "Horizontal category navigation"
+ },
+ {
+ "name": "Trending Stat Card",
+ "role": "Editorial callout panel with a single insight"
+ },
+ {
+ "name": "Product Card (Dark)",
+ "role": "Individual product listing on a dark surface"
+ },
+ {
+ "name": "Collection Feature Card",
+ "role": "Hero product for a gift collection section"
+ },
+ {
+ "name": "Section Header with Serif Accent",
+ "role": "Gifts-for-[persona] collection titles"
+ },
+ {
+ "name": "Pill Navigation Button",
+ "role": "Ghost/outlined call-to-action"
+ },
+ {
+ "name": "AI Mode Feature Block",
+ "role": "Promotional card for AI shopping mode"
+ },
+ {
+ "name": "Category Label",
+ "role": "Text label beneath each category tile"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Crimson Pro for display and section headlines at 48px+ - never substitute a sans-serif for the editorial moments.",
+ "Keep body and UI text in Google Sans weight 200 or 400, with consistent -0.02em tracking across all sizes.",
+ "Place each category on its own signature saturated color background - use all seven category colors across the system, not just one.",
+ "Maintain 38-40px vertical section gaps to keep the editorial breathing room between collections.",
+ "Use 20px corner radius for all cards, tiles, and image blocks - it is the single structural radius of the system.",
+ "Let the dark canvas (#333438) be the dominant field; lift surfaces only one step to #202124 for cards.",
+ "Use outlined pill buttons (9999px radius, white border) for all secondary actions - there is no filled CTA color in this system."
+ ],
+ "doNot": [
+ "Do not add drop shadows or elevation effects - the design uses flat tonal contrast, not shadows.",
+ "Do not fill any button or CTA with a saturated color - all actions are ghost/outlined against the dark canvas.",
+ "Do not use Crimson Pro for body or UI text - it is display-only, and mixing it into small sizes breaks the editorial hierarchy.",
+ "Do not use light-theme surfaces or white card backgrounds - this is a dark-only system.",
+ "Do not pair more than two accent colors in a single component - the category tiles work because each tile commits to one color.",
+ "Do not use gradients - the design is built on flat color blocks and photography, no smooth transitions.",
+ "Do not reduce the display headline below 80px - the editorial weight depends on the extreme scale."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/48fa5bef-d910-40e1-b9b0-c0fcad055c6f",
+ "referenceSite": "https://shopping.google.com/m/bestthings",
+ "capturedAt": "2026-07-30",
+ "publishedAt": "2026-04-30T03:56:15.894Z",
+ "articleModifiedAt": "2026-06-05T12:24:15.793Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/50442238-19f5-4918-a5ff-8c9b9447fce5.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/9cc24de7-c883-4563-8b38-ceaea4c22a23.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/cd3e6450-98a0-4dcc-8dcd-d30048b14412.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/fd997431-09fa-4c83-b36d-b43a3fb3ef7d.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a8b615ab-e141-4b06-968e-afba97df65da.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c7f2dcc5-09df-4893-b6d3-032b51917b90.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ }
+}
