@@ -1,0 +1,247 @@
+{
+ "id": "f9221afc-f5cb-4de8-89cd-40172e765124",
+ "name": "Home",
+ "slug": "home-3",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/f9221afc-f5cb-4de8-89cd-40172e765124",
+ "referenceSite": "https://www.airtree.vc",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-05-10T22:32:03.940Z",
+ "articleModifiedAt": "2026-06-05T10:50:21.548Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/69ac74d5-0420-4a6a-8343-9d65d7a68adb.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a87bd114-ac8c-4846-a29e-debd55f78053.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/d5a1abb2-8cbc-4972-9833-62c216d92424.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/fa6636a3-9599-413c-8535-685c60cf50b4.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/25795c44-a860-4e47-950f-b0150b5baddf.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/22282e46-56a9-4685-8130-4cafb9ebe175.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/4f02d5c9-485d-422e-9490-0ac5f72fd1e1.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Fintech",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Fintech",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Sunlit eucalyptus grove on warm parchment - the design rests on a cream page where ink-black type and a single electric yellow accent do all the talking.",
+ "summary": "Explore Home\u0027s light Fintech design system: Parchment Cream #f7f6e3, Ink Black #262d29 colors, Prody, SuisseIntl typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Parchment Cream",
+ "value": "#f7f6e3",
+ "token": "--color-parchment-cream",
+ "role": "Page canvas, card surfaces, bordered containers - near-gray cream that warms the entire interface and gives the whole site its paper-like calm; Outlined/ghost action borders, pill outlines, and interactive rings that echo the canvas tone - only visible against darker overlays"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#262d29",
+ "token": "--color-ink-black",
+ "role": "Primary text, navigation, body copy, card borders, icon strokes - the only structural color, used for hairline definition and all readable content"
+ },
+ {
+ "name": "Electric Lemon",
+ "value": "#ffff48",
+ "token": "--color-electric-lemon",
+ "role": "Filled CTA buttons, active states, standout badges - a single saturated yellow that breaks the cream/ink calm to signal action; the ratio against #262d29 is 13.2:1 AAA"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Prody",
+ "token": "--font-prody",
+ "role": "Display headlines - the signature voice. Used at 131px for the hero statement and 42px for secondary display; the heavy serif counters against the flat grotesque body to create editorial tension. Weight stays at 400; size alone carries the authority."
+ },
+ {
+ "name": "SuisseIntl",
+ "token": "--font-suisseintl",
+ "role": "Body copy, card titles, subheadings, UI labels - the working typeface. Weight 500 for emphasized text, 600 for card titles, 400 default. Sizes step 13 14 16 19 21 33 42 covering caption through heading."
+ },
+ {
+ "name": "SuisseIntl Book",
+ "token": "--font-suisseintl-book",
+ "role": "Navigation links, form input text, small button labels - a lighter cut of the same family for quieter interactive surfaces"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.15",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.15",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "19px",
+ "1.15",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "21px",
+ "1.15",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "33px",
+ "1.15",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "42px",
+ "1.15",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "131px",
+ "1.15",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "1280px",
+ "sectionGap": "75-112px",
+ "cardPadding": "37px",
+ "elementGap": "9-20px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "112",
+ "112px",
+ "`--spacing-112`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "8px"
+ ],
+ [
+ "cards",
+ "37px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "buttons",
+ "18px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Statement",
+ "role": "Page-opening headline block"
+ },
+ {
+ "name": "Pill CTA - Filled",
+ "role": "Primary action button"
+ },
+ {
+ "name": "Pill CTA - Ghost",
+ "role": "Secondary action button"
+ },
+ {
+ "name": "Portfolio Card",
+ "role": "Image-first content card in a horizontal carousel"
+ },
+ {
+ "name": "Carousel Arrow Button",
+ "role": "Navigation control for card carousels"
+ },
+ {
+ "name": "Logo Strip",
+ "role": "Portfolio company wordmarks"
+ },
+ {
+ "name": "Testimonial Block",
+ "role": "Founder quote with attribution"
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Site-wide primary nav"
+ },
+ {
+ "name": "Nav Link Item",
+ "role": "Individual navigation entry"
+ },
+ {
+ "name": "Portfolio Program Card",
+ "role": "Text-and-button promotional card"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer with links and legal"
+ }
+ ],
+ "dos": [
+ "Use #ffff48 only for filled primary CTAs - it\u0027s the system\u0027s only saturated color and its power comes from scarcity.",
+ "Set hero headlines in Prody at 131px with line-height 1.15; let the size do the work, never bold the weight.",
+ "Apply 37px border-radius to all content cards; 18px to buttons; 8px to inputs and nav - this three-tier radius is the system.",
+ "Build all text-heavy pages on the #f7f6e3 canvas with #262d29 type; never invert the page background within a light-mode page.",
+ "Use SuisseIntl Book at 13px for nav, links, and input text; reserve SuisseIntl 500/600 for emphasized body and card titles.",
+ "Space sections with 75-112px vertical gaps to let the cream breathe; dense blocks fight the editorial language.",
+ "Render all portfolio company logos in monochrome #262d29 - color logos break the system\u0027s two-tone discipline."
+ ],
+ "donts": [
+ "Never introduce a second saturated color; if something needs emphasis, use the yellow or a weight change, not a new hue.",
+ "Never use #ffff48 for body text, icons, or decorative fills - it is a button color only.",
+ "Never set display type under 80px; Prody at 33px or below loses its editorial character and reads as body text.",
+ "Don\u0027t add box-shadow to cards or buttons; the system relies on border-radius and background contrast, not elevation.",
+ "Don\u0027t place photography on a white background - always carry the #f7f6e3 warmth behind images to maintain the paper feel.",
+ "Don\u0027t use gradients on buttons, cards, or page backgrounds; the only gradient in the system is the hero\u0027s subtle sky-to-cream wash.",
+ "Don\u0027t bold Prody at 131px - its 400 weight is the brand voice; adding weight flattens the contrast with the body grotesque."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#f7f6e3` | Page background, section fills, card surfaces |\n| 1 | Card Surface | `#f7f6e3` | Portfolio cards, program cards, testimonial blocks - same tone as canvas, defined by radius and padding |\n| 2 | Ink Surface | `#262d29` | Dark mode blocks, navigation bars, footer on dark sections - used sparingly as a full-bleed invert |\n| 3 | Accent Surface | `#ffff48` | Filled CTA buttons only - never as a section or card background |",
+ "elevation": "",
+ "imagery": "Photography is documentary and naturalistic: candid founder walks in botanical settings, team groups in real environments, no studio lighting or lifestyle staging. Images are contained within 37px-rounded cards, edge-to-edge, with no text overlays competing. The hero uses a subtle sky-to-cream atmospheric wash with scattered organic dot decorations. No illustrations, no 3D renders, no abstract graphics - all visual energy comes from real photography and the oversized Prody type. Logos are wordmark-only, monochrome, sized to read as a calm horizontal strip rather than a wall of partners.",
+ "layout": "Max-width 1280px centered, with sections using 75-112px vertical gaps to create editorial breathing room. The hero is a full-bleed atmospheric band (subtle blue-to-cream wash) with a centered Prody headline at 131px, then a horizontally scrollable card carousel. The portfolio section alternates between a full-width image carousel with edge-clipped photos and a monochrome logo strip centered beneath. Program/promotional cards are single-column text blocks stacked vertically with generous internal padding (37px). The testimonial section is a single centered text column, max-width ~720px, with carousel arrows directly below. Navigation is a minimal top bar with a left-aligned wordmark, centered link group, and right-aligned pill CTA - no sidebar, no mega-menu, no sticky shadow."
+}

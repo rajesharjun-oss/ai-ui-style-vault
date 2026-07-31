@@ -1,0 +1,219 @@
+{
+ "name": "Aaron Poe",
+ "slug": "aaron-poe",
+ "colors": [
+ {
+ "name": "Coral Rose",
+ "value": "#ea587d",
+ "token": "--color-coral-rose",
+ "role": "Accent for heading text, hairline borders, and active-state markers - the single chromatic signal in an otherwise achromatic system"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page canvas, card surfaces, and inverted backgrounds"
+ },
+ {
+ "name": "Cloud",
+ "value": "#f2f2f2",
+ "token": "--color-cloud",
+ "role": "Pill nav background, subtle surface elevation, and inset border shadows"
+ },
+ {
+ "name": "Bone",
+ "value": "#d9d8d4",
+ "token": "--color-bone",
+ "role": "Warm-toned secondary surface tint for alternating bands"
+ },
+ {
+ "name": "Char",
+ "value": "#282828",
+ "token": "--color-char",
+ "role": "Primary text, body copy, and most interface strokes"
+ },
+ {
+ "name": "Ink",
+ "value": "#121212",
+ "token": "--color-ink",
+ "role": "Heavier headings, body text, and prominent borders"
+ },
+ {
+ "name": "Black",
+ "value": "#000000",
+ "token": "--color-black",
+ "role": "Maximum-emphasis text, logo wordmark, and strong border lines"
+ },
+ {
+ "name": "Fog",
+ "value": "#b3b3b3",
+ "token": "--color-fog",
+ "role": "Muted helper text and disabled-state strokes"
+ },
+ {
+ "name": "Mist",
+ "value": "#cccccc",
+ "token": "--color-mist",
+ "role": "Lowest-emphasis borders and decorative dividers"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "-apple-system",
+ "token": "--font-apple-system",
+ "role": "System-font fallback for body text and rendering across platforms. Used wherever native OS fonts provide a reliable, performance-optimized default at body size."
+ },
+ {
+ "name": "Geist",
+ "token": "--font-geist",
+ "role": "Primary display and UI typeface. The 300 weight at micro sizes (8-10px) creates whisper-quiet labels; the negative letter-spacing (-0.056em at 8px, -0.037em at 10px) tightens small type into dense, confident blocks. 400 at 16-18px serves body and subheadings with -0.025em to -0.011em tracking."
+ },
+ {
+ "name": "wtqc (custom display)",
+ "token": "--font-wtqc-custom-display",
+ "role": "Reserved for prominent display headings (30px, 1.07 line-height, -0.033em tracking) and compact labels (12px, 1.33 line-height). The tight 1.07 line-height on the 30px size gives headings a condensed, editorial feel."
+ },
+ {
+ "name": "custom_166638",
+ "token": "--font-custom166638",
+ "role": "custom_166638 - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption-sm",
+ "10px",
+ "1.17",
+ "-0.37px",
+ "--text-caption-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.38",
+ "-0.4px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "2.67",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.07",
+ "-0.99px",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "720px",
+ "sectionGap": "120px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": {
+
+ }
+ },
+ "radii": [
+ [
+ "cards",
+ "4px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ],
+ [
+ "pillNav",
+ "24px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Wordmark Logo",
+ "role": "Brand identity in the top-left corner"
+ },
+ {
+ "name": "Pill Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Nav Item - Default",
+ "role": "Inactive navigation link"
+ },
+ {
+ "name": "Nav Item - Active (with dot indicator)",
+ "role": "Current page indicator in the pill nav"
+ },
+ {
+ "name": "Bio Text Block",
+ "role": "Centered hero content - the creator\u0027s statement"
+ },
+ {
+ "name": "Section Heading with Coral Border",
+ "role": "Content section titles and category labels"
+ },
+ {
+ "name": "Ghost Button (Start a Project)",
+ "role": "Contact / conversion action in the nav"
+ },
+ {
+ "name": "Hairline Card",
+ "role": "Content container for case studies, project tiles, or grouped content"
+ },
+ {
+ "name": "Inset Border Divider",
+ "role": "Ultra-subtle section separation without visible lines"
+ },
+ {
+ "name": "Project Tile",
+ "role": "Portfolio work entry - image or text-based"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #ea587d only on heading text, hairline borders, and the active-nav dot - never as a filled button or background",
+ "Set all headings in Geist or wtqc with negative letter-spacing (-0.033em to -0.056em depending on size) to achieve the compressed editorial feel",
+ "Use 24px border-radius for the pill navigation and 4px for all cards and buttons",
+ "Default to max-width 720px for centered text blocks; let whitespace do the layout work",
+ "Separate cards and sections with 1px solid borders in #cccccc or #e5e5e5 - never with drop shadows",
+ "Use #f2f2f2 as the surface tint for floating elements like the pill nav",
+ "Set body text at 16-18px in #282828 with 1.38-1.5 line-height for comfortable reading"
+ ],
+ "doNot": [
+ "Do not add drop shadows to cards, buttons, or navigation - the system is intentionally flat",
+ "Do not use #ea587d as a button background fill - the accent only appears on headings and borders",
+ "Do not use large border-radii on cards - keep them at 4px; only the pill nav gets 24px",
+ "Do not introduce new chromatic colors - the system is deliberately monochrome with one pink accent",
+ "Do not use positive letter-spacing - all text tracks tight (negative values) to feel compressed and confident",
+ "Do not fill the page with imagery or illustrations - let typography and whitespace carry the composition",
+ "Do not use dark mode as the default theme - white canvas is the signature; dark (#121212) is reserved for inverted sections only"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/3240fdc0-ffea-4054-a996-a5f6b942eff0",
+ "referenceSite": "https://aaronpoeandco.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-05-08T19:19:14.637Z",
+ "articleModifiedAt": "2026-06-05T11:10:02.434Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1737b130-dd6c-4d45-b646-5a2df6714d2d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/84de2603-2728-4022-bbca-2cd4c823353d.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/a99ad4c5-3d25-4a9e-8924-24f64de78c82.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/214804af-19c7-4e2d-af75-3970a84dcdb7.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b8342ad7-bf05-4bbb-9c34-e4a0b6bb94bc.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

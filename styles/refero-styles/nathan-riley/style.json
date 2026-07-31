@@ -1,0 +1,225 @@
+{
+ "id": "1c516bc6-278b-4cf6-bfe8-c5a39118e730",
+ "name": "Nathan Riley",
+ "slug": "nathan-riley",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1c516bc6-278b-4cf6-bfe8-c5a39118e730",
+ "referenceSite": "https://www.nrly.co",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:13:38.914Z",
+ "articleModifiedAt": "2026-06-05T09:00:03.849Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/17097220-be50-4508-acdb-33e70a48dee4.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/bbf652c2-2ee6-4d7d-b77e-1f19c1bdc465.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/174c8b8d-77e2-4ffc-9f6b-aa164d2e06fc.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4d5b4e5d-fedb-4d19-bf1b-e0fa14edbfc8.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/ea896261-328b-4a5c-9698-73963dd51682.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/380fcde9-6a82-4e4d-965b-6c42efc2fe83.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/b2688e77-705b-4221-8fed-8e9ee038e986.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Design",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Design",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Gallery wall in a black void. A monochrome portfolio where the grid of atmospheric renders is the only color, and a single oversized serif name card anchors the center like a magazine cover floating over the work.",
+ "summary": "Explore Nathan Riley\u0027s light Design design system: Pure Black #000000, Paper White #ffffff colors, font1, Custom Display Serif typography, and DESIGN.md for...",
+ "colors": [
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Text, image grid gutter borders, hairline dividers, nav chip outlines - the structural ink that defines the grid structure and typography"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, nav chip backgrounds, card surface - the gallery wall behind everything"
+ },
+ {
+ "name": "Warm Charcoal",
+ "value": "#393939",
+ "token": "--color-warm-charcoal",
+ "role": "Central name card surface, secondary text, soft borders - the mid-tone that makes the pale-rose card read as a distinct layer without breaking the monochrome"
+ },
+ {
+ "name": "Blush Card",
+ "value": "#e8c4c0",
+ "token": "--color-blush-card",
+ "role": "Background of the central name card - the only chromatic accent, a dusty rose that warms the otherwise pure black-and-white system"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "font1",
+ "token": "--font-font1",
+ "role": "font1 - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Custom Display Serif",
+ "token": "--font-custom-display-serif",
+ "role": "Hero name display and small print. The 238px size with line-height 0.80 and -0.04em tracking creates a tightly cropped masthead that feels printed, not rendered. Weight 300 at display size is the signature - it whispers rather than shouts, giving the name editorial weight through restraint rather than boldness. The italic treatment in the screenshot adds a calligraphic warmth that contrasts the rigid grid around it."
+ },
+ {
+ "name": "Custom Body Serif",
+ "token": "--font-custom-body-serif",
+ "role": "Body copy, bio description, nav chip text, and link labels. Tight line-height 1.10 at small sizes creates a dense, catalog-like feel. The -0.025em tracking tightens the letterforms for compact, refined small text that reads as label or caption rather than prose."
+ },
+ {
+ "name": "font2",
+ "token": "--font-font2",
+ "role": "font2 - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "ui-sans-serif",
+ "token": "--font-ui-sans-serif",
+ "role": "ui-sans-serif - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.1",
+ "-0.3px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.1",
+ "-0.35px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.1",
+ "-0.4px",
+ "--text-body"
+ ],
+ [
+ "display",
+ "238px",
+ "0.8",
+ "-9.52px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "38px",
+ "elementGap": "6px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "29",
+ "29px",
+ "`--spacing-29`"
+ ],
+ [
+ "38",
+ "38px",
+ "`--spacing-38`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Image Grid Tile",
+ "role": "Primary content unit - each cell of the mosaic"
+ },
+ {
+ "name": "Central Name Card",
+ "role": "The artist\u0027s identity card anchored over the grid"
+ },
+ {
+ "name": "Pill Navigation Chip",
+ "role": "Social/contact link in the bottom bar"
+ },
+ {
+ "name": "Profile Link",
+ "role": "Secondary text link inside the name card"
+ },
+ {
+ "name": "Masonry Grid Container",
+ "role": "Page-level layout structure"
+ },
+ {
+ "name": "Image Gutter Divider",
+ "role": "Hairline separation between grid cells"
+ },
+ {
+ "name": "Bio Description Block",
+ "role": "Text body inside the central name card"
+ }
+ ],
+ "dos": [
+ "Use only the three neutral values plus the single dusty-rose card color - never introduce a new hue, the system is intentionally monochrome",
+ "Set display name text at 238px with line-height 0.80 and -0.04em letter-spacing to reproduce the editorial masthead effect",
+ "Use 9999px radius exclusively for nav pill chips - all other elements stay at 0px radius",
+ "Keep all image tiles edge-to-edge with no padding, no rounded corners, and no shadows - the grid is the layout, not a container",
+ "Anchor the central name card with #e8c4c0 background and 38px padding on all sides as the single non-monochrome surface",
+ "Use custom serif at weight 300-400 for all display text - never substitute a sans-serif headline, the serif is the brand",
+ "Maintain 6px gap between nav chips and 2px between image grid cells to keep spacing tight and structural"
+ ],
+ "donts": [
+ "Do not add any new color - no blues, greens, or warm tones beyond the single blush card background",
+ "Do not use border-radius on cards, images, or content containers - only pill nav chips get radius",
+ "Do not apply shadows or elevation effects to any component - the system is flat, relying on color contrast and grid structure for depth",
+ "Do not add gradients of any kind - the palette is solid only",
+ "Do not use sans-serif for headlines or display text - the custom serif at extreme sizes is the signature element",
+ "Do not constrain the image grid with a max-width container - the grid must be full-bleed edge-to-edge",
+ "Do not add header navigation, footers, or sidebar chrome - the floating name card and bottom pill row are the entire navigation system"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Canvas | `#ffffff` | Full-viewport page background behind the image mosaic |\n| 2 | Image Tile | `#000000` | Image cells fill the grid; black serves as the gutter/border color between cells |\n| 3 | Blush Name Card | `#e8c4c0` | Central floating card with the artist\u0027s name - the single non-grayscale surface |\n| 4 | Nav Pill | `#ffffff` | Small pill-shaped chips in the bottom nav row |",
+ "elevation": "Philosophy\n\nThis design system has zero elevation. No box-shadows, no drop-shadows, no glow effects, no z-axis depth cues. The flatness is deliberate - the image mosaic already creates visual depth through the photographic content, and adding shadows would break the gallery-wall metaphor where prints are mounted flush against the wall. The single non-flat element is the floating name card, which separates from the grid not through shadow but through its unique dusty-rose color against the monochrome surroundings. Depth comes from color contrast and grid positioning, not from simulated light.",
+ "imagery": "The entire site IS imagery - a dense grid of 3D-rendered atmospheric scenes: surreal garden pools, floating furniture, overgrown ruins, lavender fields, golden orbs, mountain landscapes at sunset. All renders share a cohesive mood: soft natural light, painterly atmosphere, dreamlike scale, muted natural palettes (pinks, greens, golds, blues within the art itself). The images are full-bleed, no rounded corners, no overlays, no captions - each render is a self-contained frame in the gallery wall. The photography/3D style is editorial-surreal, reminiscent of Thomas Demand or teamLab installations, where natural and architectural elements exist in impossible gentle arrangements.",
+ "layout": "Full-bleed image mosaic covering 100% of the viewport with no page-level container. A fixed/aspected masonry grid of 3D renders tiles the entire screen edge-to-edge with hairline gaps. A single dusty-rose name card is centered in the viewport (not the page) as a floating overlay, positioned dead-center like a magazine cover pasted on a gallery wall. A horizontal row of small pill-shaped nav chips sits near the bottom of the central card. No traditional header, no footer bar, no sidebar - the image grid IS the page structure, and the centered card is the only interruption. Navigation is minimal: a bottom row of contact links inside the card."
+}

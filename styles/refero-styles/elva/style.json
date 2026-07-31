@@ -1,0 +1,240 @@
+{
+ "id": "9568198a-5a51-4cbb-9dc3-b7610757cdd6",
+ "name": "Elva",
+ "slug": "elva",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9568198a-5a51-4cbb-9dc3-b7610757cdd6",
+ "referenceSite": "https://helloelva.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-02-15T14:11:52.000Z",
+ "articleModifiedAt": "2026-06-05T08:36:58.558Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/51b3bf02-da1d-4f55-85bb-fdf058816532.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/10f8a984-219a-4db4-b110-a402b34c91b5.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0fb0e092-4b35-498d-be21-f497698c5f34.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/92fb458a-ba9f-400e-bfd5-1ed24d1149eb.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/bcc2d76b-7071-4a90-a2b5-3c4f8429c393.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/97566806-44f0-448a-8be8-d7dff30469c5.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Monumental type on warm concrete",
+ "summary": "Explore Elva\u0027s light Agency design system: Warm Obsidian #262523, Bone White #ececec colors, Basis Grotesque, Messina Sans typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Warm Obsidian",
+ "value": "#262523",
+ "token": "--color-warm-obsidian",
+ "role": "Primary text, logos, pictogram strokes, structural elements - the near-black with a brown undertone is the only ink in the system and gives the minimalism its printed-on-paper warmth"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ececec",
+ "token": "--color-bone-white",
+ "role": "Page canvas and primary surface - the warm slightly-grayed white fills the entire viewport and provides the breathing room around monumental type"
+ },
+ {
+ "name": "Pale Ash",
+ "value": "#cfcdcd",
+ "token": "--color-pale-ash",
+ "role": "Secondary surface and hairline borders - one step darker than the canvas, used for subtle dividers and the rare nested surface"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Sparing deep contrast for the smallest marks and AAA contrast anchors - never used for body text (that is always Warm Obsidian)"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Basis Grotesque",
+ "token": "--font-basis-grotesque",
+ "role": "Primary workhorse typeface - carries the entire system from 10px metadata to 640px hero statements. Weight 400 for body and display, 500 for navigation and small labels, 700 reserved for rare emphasis. The extreme size range is the signature: Basis is asked to perform as both a 10px caption and a building-scale poster without switching families."
+ },
+ {
+ "name": "Messina Sans",
+ "token": "--font-messina-sans",
+ "role": "Secondary editorial display face - reserved for oversized moments at 240px+ where a slightly more humanist, wider-cut character set can break the Basis rhythm. The 1.0 line-height (versus Basis\u0027s 0.82) creates a more relaxed, poster-like cadence when both faces appear together."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "12",
+ "-0.2px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "30",
+ "-0.3px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "32px",
+ "28.8",
+ "-1.28px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "40px",
+ "40",
+ "-1.6px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "120px",
+ "108",
+ "-7.2px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "160px",
+ "131.2",
+ "-9.6px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "240px",
+ "240",
+ "-19.2px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "spacious",
+ "maxWidth": "",
+ "sectionGap": "80px",
+ "cardPadding": "40px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ],
+ [
+ "240",
+ "240px",
+ "`--spacing-240`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "70px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "inputs",
+ "10px"
+ ],
+ [
+ "buttons",
+ "10px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Brand Wordmark",
+ "role": "Site identity lockup"
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Contact Email Link",
+ "role": "Primary contact affordance"
+ },
+ {
+ "name": "Display Hero Headline",
+ "role": "Monumental typographic statement"
+ },
+ {
+ "name": "Pictogram Glyph",
+ "role": "Typographic flourish replacing a letter"
+ },
+ {
+ "name": "Section Label Pill",
+ "role": "Small marker for content sections"
+ },
+ {
+ "name": "Inline Newsletter Notice",
+ "role": "Compact contextual update with link"
+ },
+ {
+ "name": "Text Link with Arrow",
+ "role": "Primary interactive element (replaces buttons)"
+ },
+ {
+ "name": "Body Paragraph",
+ "role": "Long-form text content"
+ }
+ ],
+ "dos": [
+ "Use Basis at 120px+ for every display moment, with line-height 0.90 and letter-spacing -0.06em - the compressed stacking is the signature",
+ "Keep the canvas at #ececec and all ink at #262523 - chromatic color breaks the printed-on-paper warmth",
+ "Maintain section gaps of at least 80px; use 160px+ for the gap above the hero headline",
+ "Replace individual letters in display text with pictogram glyphs (heart, asterisk, peace sign, victory hand) at matching cap-height",
+ "Set body text at 15px with 2.0 line-height - the airy leading is editorial, not utilitarian",
+ "Use 70px border-radius only for pill-shaped tags and section labels; use 10px for any nested surface",
+ "Make every interactive element a text link followed by a arrow - never a filled or outlined button"
+ ],
+ "donts": [
+ "Don\u0027t introduce filled buttons, outlined buttons, or any button-shaped affordance - text links with arrows are the only interactive pattern",
+ "Don\u0027t add drop shadows, gradients, or any elevation effect - depth is communicated through type size and negative space only",
+ "Don\u0027t use #000000 for body or display text - always use #262523 to preserve the warm undertone",
+ "Don\u0027t center text or constrain it to a max-width container - content left-aligns to the viewport edge for an editorial spread feel",
+ "Don\u0027t use color to create hierarchy - use size and weight only",
+ "Don\u0027t set display type with line-height above 1.0 - the 0.80-0.90 compression is what makes the headline a monument",
+ "Don\u0027t use icons in the traditional UI sense (nav icons, button icons, status icons) - pictograms belong inline with display text only"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#ececec` | Page background - the warm bone-white that fills the entire viewport and provides the breathing room around monumental type |\n| 1 | Subtle Surface | `#cfcdcd` | Secondary surface for the rare nested element or alternating section band - just one step darker than the canvas |",
+ "elevation": "This design system is deliberately shadowless. All depth is communicated through type size, weight, and negative space - never through drop shadows, borders, or stacked surfaces. The flatness reinforces the printed-on-paper quality and keeps the type as the undisputed visual hierarchy. If a element needs to feel \u0027above\u0027 another, it gets larger and tighter, not elevated.",
+ "imagery": "No photography, no illustration, no decorative graphics. The visual language IS the typography - the Basis custom sans rendered at building-scale, with negative space as the composition. The only graphic elements are four hand-drawn pictogram glyphs (heart, asterisk, peace sign, victory hand) that replace individual letters in the display headline, acting as typographic flourishes rather than standalone icons. These glyphs are monochrome line-art, sized to match the x-height of the surrounding letters. The page is a poster, not a product page.",
+ "layout": "Full-bleed, edge-to-edge content with no max-width container. All text left-aligns to the viewport edge, creating a raw editorial spread rather than a centered web page. The navigation sits as a whisper at the very top - brand wordmark top-left, primary nav center-right, contact email far-right - with the entire upper third of the viewport left as negative space. The hero display headline begins at roughly 100px from the top and fills the remaining viewport. Sections flow vertically with 80-160px gaps, never alternating light and dark bands. There is no visible grid, no card system, no sidebar - just monumental type cascading down the page like a single column of poster art."
+}

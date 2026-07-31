@@ -1,0 +1,271 @@
+{
+ "id": "71717c5a-324a-40ed-8a09-9a35df74f1d3",
+ "name": "Anna Jona",
+ "slug": "anna-jona",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/71717c5a-324a-40ed-8a09-9a35df74f1d3",
+ "referenceSite": "https://annajona.is",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:43:55.482Z",
+ "articleModifiedAt": "2026-06-05T10:17:06.471Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c5d92a7a-676a-4c9e-9b34-9e7cba4e3364.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/5b46540a-a4bd-470e-a913-1a2f71740525.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/fa304741-d81a-4e7c-baeb-0fa87632fe15.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7cc8fa8f-c8d4-4582-9e8f-6a5ae3273966.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/22fceb74-52fd-45c4-8b25-93e9f524d3eb.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/41b6a01d-4734-4c9a-a711-a63a309555e4.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "a love letter on blush paper",
+ "summary": "Explore Anna Jona\u0027s light Other design system: Blush Paper #fce1e3, Coral Crimson #db404f colors, Sansita, Nunito Sans typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Blush Paper",
+ "value": "#fce1e3",
+ "token": "--color-blush-paper",
+ "role": "Page canvas, section backgrounds, the warm field all content lives on"
+ },
+ {
+ "name": "Coral Crimson",
+ "value": "#db404f",
+ "token": "--color-coral-crimson",
+ "role": "All headings, body text, icons, and the sole action color - the entire voice of the brand"
+ },
+ {
+ "name": "Midnight Ink",
+ "value": "#0e1736",
+ "token": "--color-midnight-ink",
+ "role": "Deep accent for select surfaces and inverse contexts, a cool counterpoint to the warm field"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Image backgrounds, inline accents, negative space within photographs and cards"
+ },
+ {
+ "name": "Soft Black",
+ "value": "#000000",
+ "token": "--color-soft-black",
+ "role": "Decorative strokes, icon fills, hairline borders - the only place pure black appears"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Sansita",
+ "token": "--font-sansita",
+ "role": "Display and heading face - bold, slightly condensed, with -0.02em tracking that tightens at every size. Carries all editorial weight: the page announces itself through this one confident voice."
+ },
+ {
+ "name": "Nunito Sans",
+ "token": "--font-nunito-sans",
+ "role": "Body and UI face - the 18px body sets a generous reading rhythm at 1.5 line-height; 700 weight for emphasized inline phrases and small caps headers. The 72px outlier is likely a single oversized numeral or pull-quote."
+ },
+ {
+ "name": "Clarkson",
+ "token": "--font-clarkson",
+ "role": "Secondary prose - the slightly taller 1.7 line-height is for long-form letter passages where breathing room matters more than density"
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "18px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "25px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.17",
+ "-0.56px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "39px",
+ "1.14",
+ "-0.78px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "49px",
+ "1.11",
+ "-0.98px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "70px",
+ "1.06",
+ "-1.4px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "144px",
+ "cardPadding": "48px",
+ "elementGap": "11px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "58",
+ "58px",
+ "`--spacing-58`"
+ ],
+ [
+ "86",
+ "86px",
+ "`--spacing-86`"
+ ],
+ [
+ "95",
+ "95px",
+ "`--spacing-95`"
+ ],
+ [
+ "115",
+ "115px",
+ "`--spacing-115`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ],
+ [
+ "173",
+ "173px",
+ "`--spacing-173`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "shapes",
+ "90px"
+ ],
+ [
+ "buttons",
+ "300px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Statement",
+ "role": "Opening page declaration - the largest text block on the site"
+ },
+ {
+ "name": "Angled Image Bleed",
+ "role": "Full-bleed photograph that breaks the pink field with a diagonal cut"
+ },
+ {
+ "name": "Letter Section",
+ "role": "Long-form prose block - the emotional heart of the page"
+ },
+ {
+ "name": "Pill Button",
+ "role": "Sole interactive element style"
+ },
+ {
+ "name": "Rounded Decorative Shape",
+ "role": "90px-radius geometric element used as visual punctuation"
+ },
+ {
+ "name": "Side-by-Side Image Pair",
+ "role": "Two-photo composition for showing complementary views"
+ },
+ {
+ "name": "Inline Link",
+ "role": "Text-level navigation within body prose"
+ },
+ {
+ "name": "Section Anchor Header",
+ "role": "Small-caps or oversized subhead marking a new prose section"
+ }
+ ],
+ "dos": [
+ "Use only Coral Crimson (#db404f) for all text, icons, and interactive elements - never introduce a second chromatic text color",
+ "Set all body text at 18px with 1.5 line-height in Nunito Sans - smaller or denser prose breaks the editorial reading rhythm",
+ "Apply -0.02em letter-spacing to every Sansita heading size, scaling proportionally (e.g. -1.4px at 70px, -0.56px at 28px)",
+ "Break sections with full-bleed photographs using angled diagonal edges (8-12 clip-path), never with horizontal dividers or color bands",
+ "Use 90px border-radius for decorative shapes and 300px for the pill button - these two radii are the only geometry in the system",
+ "Maintain 144px top padding on major sections and 48px between paragraphs to preserve the slow, letter-like vertical cadence",
+ "Place all content directly on Blush Paper (#fce1e3) - no white cards, no elevated panels, no background containers"
+ ],
+ "donts": [
+ "Do not add box-shadows, drop-shadows, or any z-depth indication - the design is intentionally paper-flat",
+ "Do not introduce additional accent colors - Coral Crimson is the only chromatic voice",
+ "Do not use rectangular image containers, standard card components, or 8-16px UI corner radii - the system operates at two radius extremes only",
+ "Do not set body text below 18px - the type scale starts at body and grows upward",
+ "Do not use horizontal rules, section dividers, or background color bands to separate content - use diagonal image bleeds and whitespace instead",
+ "Do not apply different colors to link states - all text including links stays Coral Crimson, distinguished only by underline",
+ "Do not use sans-serif for headlines - Sansita 700 is the only display voice and defines the editorial character"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Blush Canvas | `#fce1e3` | The page field - every text block and letter section sits directly on this warm pink |\n| 1 | Image Bleed | `#ffffff` | Full-bleed photography that breaks the canvas with diagonal angled edges |\n| 2 | Midnight Plate | `#0e1736` | Rare dark surface for contrast moments, used sparingly to reset the eye |",
+ "elevation": "No shadows, no elevation, no z-depth. The design is deliberately flat - all visual hierarchy comes from typographic scale, color contrast, and spatial rhythm. Even the 90px rounded shapes and pill buttons exist in the same plane as the canvas, not above it. This is a paper-based metaphor: ink on a page, not glass on a screen.",
+ "imagery": "Photography is the emotional engine. All images are warm-toned, golden-hour interior shots - close crops of food on a pass, a hand holding a wine glass, the curved pink bar and arched doorways of the restaurant. The treatment is intimate and documentary: shallow depth of field, warm tungsten color temperature, no lifestyle staging. Images are always full-bleed with angled (diagonal) edges cutting into the pink field - never contained in cards or rectangles. The pink tones in the restaurant\u0027s physical design echo the page\u0027s blush canvas, so photography and UI share the same color world.",
+ "layout": "Max-width ~1200px centered for text columns, but images break full-bleed. The page is a vertical sequence of alternating pink-text bands and full-bleed image bands, connected by diagonal cuts rather than horizontal rules. Section rhythm: 144px top padding between major blocks, 48px between paragraphs within a letter. No sidebar, no grid cards, no masonry. Navigation is minimal - likely a single small logo mark top-left and nothing else. Content is asymmetric two-column (heading left, supporting text right) in the hero, then collapses to single-column prose for the letter."
+}

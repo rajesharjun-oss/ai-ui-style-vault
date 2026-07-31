@@ -1,0 +1,235 @@
+{
+ "id": "4c19bf7b-d5e8-4e2a-b3e3-69a9bde19b7a",
+ "name": "Channel Studio",
+ "slug": "channel-studio",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/4c19bf7b-d5e8-4e2a-b3e3-69a9bde19b7a",
+ "referenceSite": "https://channel.studio",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:41:27.816Z",
+ "articleModifiedAt": "2026-06-05T07:36:44.270Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/9fef995b-32ea-4384-a999-0a44fde1e608.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e21cda26-e911-4df5-8872-c64085d42c0e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/89c680bc-3ab4-4838-8b05-2454657bc22c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ed7ef143-18c2-4719-b18b-e9fda7262e3c.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/19eb53c3-3ca6-49b4-9ba9-2ef6502b5a0a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/17181c35-a203-4510-a3ac-3a943ddc50d5.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Studio darkroom with a single coral flare",
+ "summary": "Explore Channel Studio\u0027s dark Agency design system: Bone Gray #cacaca, Carbon Black #0a0a0a colors, Lausanne typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Bone Gray",
+ "value": "#cacaca",
+ "token": "--color-bone-gray",
+ "role": "Primary text on dark surfaces, hairline borders on images and links, divider strokes - a desaturated near-white that reads softer than pure #fff against black"
+ },
+ {
+ "name": "Carbon Black",
+ "value": "#0a0a0a",
+ "token": "--color-carbon-black",
+ "role": "Page background, section canvas, project card surface - the entire design lives here"
+ },
+ {
+ "name": "Iron Gray",
+ "value": "#727272",
+ "token": "--color-iron-gray",
+ "role": "Muted secondary text, low-emphasis borders, caption-level metadata"
+ },
+ {
+ "name": "Coral Flare",
+ "value": "#ff7777",
+ "token": "--color-coral-flare",
+ "role": "Accent for project titles, signature heading borders, and occasional decorative strokes - the only chromatic element in the system, used sparingly for editorial emphasis"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Lausanne",
+ "token": "--font-lausanne",
+ "role": "Sole typeface across all roles - navigation, body, subheadings, and display headlines. Weight stays at 400 throughout; visual hierarchy is built entirely through size and tracking, not weight. Display at 75px uses line-height 0.90-0.95, creating a compressed poetry-staircase effect unique to this system."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.2",
+ "-0.26px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "15px",
+ "1.2",
+ "-0.3px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.2",
+ "-0.36px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "45px",
+ "1.19",
+ "-1.35px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "75px",
+ "0.9",
+ "-2.25px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "40px",
+ "cardPadding": "0px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Hero Display Headline",
+ "role": "Hero section typography"
+ },
+ {
+ "name": "Full-Bleed Hero Background",
+ "role": "Atmospheric hero surface"
+ },
+ {
+ "name": "Section Display Headline",
+ "role": "Large editorial text on black panels"
+ },
+ {
+ "name": "Client Logo Strip",
+ "role": "Social proof / client listing"
+ },
+ {
+ "name": "Project Card",
+ "role": "Portfolio entry / case study preview"
+ },
+ {
+ "name": "Arrow Link",
+ "role": "Text link with directional indicator"
+ },
+ {
+ "name": "Decorative Coral Border",
+ "role": "Signature accent stroke"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer"
+ },
+ {
+ "name": "Inline 3D Render",
+ "role": "Decorative/artistic element"
+ }
+ ],
+ "dos": [
+ "Use #cacaca for all text and borders on black surfaces - never pure #fff, the slight desaturation is the signature",
+ "Set display headlines at 75px with line-height 0.90 and letter-spacing -0.03em for the compressed staircase effect",
+ "Reserve #ff7777 exclusively for project titles and signature borders - never use it for body text, navigation, or UI controls",
+ "Keep all radii at 0px - sharp edges are non-negotiable for this editorial aesthetic",
+ "Use full-bleed imagery (viewport-width) for all project cards and hero sections; never constrain images to card-sized containers",
+ "Maintain generous vertical spacing: 40px between sections, 192px above the footer",
+ "Set all type in Lausanne weight 400 - build hierarchy through size and tracking, never through bold weights"
+ ],
+ "donts": [
+ "Never use shadows, gradients, or any elevation effects - the design is deliberately flat",
+ "Never add border-radius to cards, buttons, images, or any element - 0px everywhere",
+ "Never use color other than #ff7777 for accents - no blues, greens, or other hues; the system is monochromatic plus one coral",
+ "Never set body or heading text in pure #fff - always use #cacaca for the softened-light quality",
+ "Never use multiple font weights - the system is weight 400 only across all roles",
+ "Never use centered text alignment for body content - everything is left-aligned with the viewport edge",
+ "Never add background colors to cards, buttons, or interactive elements - they sit directly on the black canvas"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Carbon Canvas | `#0a0a0a` | Page background, all section panels, footer - the single base surface |\n| 1 | Grayscale Photographic Surface | `#cacaca` | Full-bleed hero backgrounds and atmospheric imagery - desaturated photographic textures that read as a lighter surface without being a solid color |",
+ "elevation": "No shadows, no elevation effects, no z-axis depth. All elements sit flat on the black canvas. Visual separation comes from whitespace, typographic scale, and full-bleed imagery - not from drop shadows or card elevation. This flatness is a deliberate editorial choice that keeps the design feeling like a printed magazine spread rather than a software interface.",
+ "imagery": "Photography is central - full-bleed, viewport-width, often desaturated or near-monochrome to harmonize with the black-and-gray palette. Project showcases use tight, intimate crops (close-up of a translucent sculpture, macro product detail) rather than wide environmental shots. 3D renders (particle clouds, abstract forms) appear as decorative punctuation in type-only sections. The grayscale hero in the first screenshot - soft studio lighting on what appears to be brushed metal or fabric - exemplifies the atmospheric, gallery-lit treatment. No stock photography, no people, no lifestyle imagery.",
+ "layout": "Full-bleed sections that fill the entire viewport width. Content is left-aligned against the left edge with consistent left padding. The page alternates between two section types: (1) type-only black panels with large display headlines, small labels, and inline 3D renders or client logos, and (2) full-bleed project images with overlaid labels. No max-width content container - text and images both edge-to-edge. Vertical rhythm is generous: 40px between sections, 192px above the footer. Navigation is a small text block in the top-left corner, not a bar. The overall effect is a vertical-scroll editorial spread, not a typical SaaS page layout."
+}

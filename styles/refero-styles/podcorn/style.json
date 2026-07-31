@@ -1,0 +1,312 @@
+{
+ "id": "8d4b0738-c302-45c6-98c9-b3cd36e04613",
+ "name": "Podcorn",
+ "slug": "podcorn",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/8d4b0738-c302-45c6-98c9-b3cd36e04613",
+ "referenceSite": "https://podcorn.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:37:04.738Z",
+ "articleModifiedAt": "2026-06-05T09:17:58.418Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/39f267c8-b10f-4956-854c-c8c59d7d21c5.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/7c43b06a-fe55-40b4-a2ce-3116ee2a5040.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/2112d187-d8dd-47c1-8018-8079177af25d.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/bee83fe0-491c-4189-990b-e490680e2620.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/4f046b7b-ef77-4426-93e0-0b76bec9ac5a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/bf2b7e25-2917-4d65-8026-639afe63bee1.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Media",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Media",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Indie magazine spread on warm blush paper. A cream canvas carrying deep-indigo editorial typography, hand-drawn illustrations framed in hairline rectangles, and a single coral button as the only warm mark on the page.",
+ "summary": "Explore Podcorn\u0027s light Media design system: Blush Cream #fff4f2, Pure White #ffffff colors, Gilroy, Georgia typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Blush Cream",
+ "value": "#fff4f2",
+ "token": "--color-blush-cream",
+ "role": "Page canvas - warm off-white that sets the editorial tone and makes the deep-indigo text read like printed ink on heavy paper"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, nav background, button fills on light backgrounds - stacked above the cream canvas to create depth without shadow"
+ },
+ {
+ "name": "Ink Violet",
+ "value": "#090335",
+ "token": "--color-ink-violet",
+ "role": "Primary text, headings, filled CTA buttons, nav links, hairline borders - the single dominant color of the entire interface; near-black with a violet undertone gives headings personality without abandoning readability"
+ },
+ {
+ "name": "Coral Flame",
+ "value": "#fc736c",
+ "token": "--color-coral-flame",
+ "role": "Red wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Peach Whisper",
+ "value": "#ffb0a1",
+ "token": "--color-peach-whisper",
+ "role": "Orange decorative accent for icons, marks, and small graphic details. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Deep Navy",
+ "value": "#132645",
+ "token": "--color-deep-navy",
+ "role": "Illustration detail fill (SVG artwork) - cooler sibling of Ink Violet used inside drawings to add tonal range to the editorial illustrations"
+ },
+ {
+ "name": "Graphite",
+ "value": "#434352",
+ "token": "--color-graphite",
+ "role": "Secondary nav text and nav borders - a softer alternative to Ink Violet for tertiary labels and dividers"
+ },
+ {
+ "name": "Silver Mist",
+ "value": "#8993a2",
+ "token": "--color-silver-mist",
+ "role": "Muted nav borders and inactive control outlines"
+ },
+ {
+ "name": "Hairline",
+ "value": "#d8d8d8",
+ "token": "--color-hairline",
+ "role": "Hairline link underlines and subtle dividers"
+ },
+ {
+ "name": "Zinc Mute",
+ "value": "#71717d",
+ "token": "--color-zinc-mute",
+ "role": "Helper text and tertiary metadata"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Gilroy",
+ "token": "--font-gilroy",
+ "role": "Primary interface typeface - body text, navigation, buttons, card labels, footer. Geometric sans with tight tracking gives UI elements a confident, contemporary voice."
+ },
+ {
+ "name": "Georgia",
+ "token": "--font-georgia",
+ "role": "Headline and hero typeface - a classical serif reserved for editorial moments. The serif/sans pairing is the site\u0027s most distinctive typographic decision: Georgia carries warmth and craft, Gilroy carries clarity and UI density. Mixing these creates an indie-magazine feel that distinguishes Podcorn from generic SaaS layouts."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.57",
+ "-0.187px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.7",
+ "-0.187px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.88",
+ "-0.187px",
+ "--text-subheading"
+ ],
+ [
+ "body-lg",
+ "20px",
+ "1.67",
+ "-0.187px",
+ "--text-body-lg"
+ ],
+ [
+ "nav-label",
+ "22px",
+ "1.13",
+ "-0.187px",
+ "--text-nav-label"
+ ],
+ [
+ "heading-sm",
+ "25px",
+ "1.2",
+ "-0.187px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "27px",
+ "1.44",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "40px",
+ "1.44",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "20-27px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "52",
+ "52px",
+ "`--spacing-52`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "168",
+ "168px",
+ "`--spacing-168`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "buttons",
+ "6px"
+ ],
+ [
+ "nav-pill",
+ "6px"
+ ],
+ [
+ "illustration-frames",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Coral CTA Button (Nav)",
+ "role": "Primary call-to-action in top nav"
+ },
+ {
+ "name": "Ink Filled Button",
+ "role": "Primary action on hero and feature blocks"
+ },
+ {
+ "name": "Ghost Outlined Button",
+ "role": "Secondary action"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site header with brand, links, and dual CTAs"
+ },
+ {
+ "name": "Hero Text Block",
+ "role": "First-fold headline and supporting copy"
+ },
+ {
+ "name": "Illustration Frame",
+ "role": "Hand-drawn artwork container"
+ },
+ {
+ "name": "Feature Card (Two-Column Row)",
+ "role": "Side-by-side feature explanation blocks"
+ },
+ {
+ "name": "Brand Logo Strip",
+ "role": "Social proof band showing partner brands"
+ },
+ {
+ "name": "Cookie Consent Dialog",
+ "role": "Privacy compliance overlay"
+ },
+ {
+ "name": "Sign Up Badge",
+ "role": "Small label indicating available action"
+ }
+ ],
+ "dos": [
+ "Use Georgia 40px weight 700 in Ink Violet for all major headlines - the serif/sans pairing is the site\u0027s identity",
+ "Reserve #fc736c Coral for exactly one element per view: the primary CTA. Never use it for backgrounds, text, or decoration",
+ "Apply -0.187em letter-spacing to all Gilroy text to match the compact geometric rhythm",
+ "Frame every hand-drawn illustration with a 1.5-2px Ink Violet #090335 border and 0px radius - the rectangular frame is structural, not optional",
+ "Stack surfaces as Blush Cream canvas White card Coral CTA Ink Violet filled button for depth without shadows",
+ "Use 6px radius for all buttons and 8px for cards - keep corners gentle, never pill-shaped (9999px) on UI controls",
+ "Maintain 80px section gaps and 20-27px internal padding to preserve the airy editorial rhythm"
+ ],
+ "donts": [
+ "Never use drop shadows, blurs, or glow effects - depth comes from surface color shifts only",
+ "Never use the Coral accent on text, borders, or icon fills - it is a button-only color",
+ "Never apply Georgia to body text, nav, or buttons - reserve it for headings and hero copy only",
+ "Never round illustration frames - the 0px rectangular border is essential to the editorial frame metaphor",
+ "Never use pure black #000000 for primary text - Ink Violet #090335 is the text standard",
+ "Never place photography or product screenshots inside the cream sections - illustrations only",
+ "Never use emoji, gradient fills, or neon accents - the palette is deliberately limited to cream, white, ink-violet, and coral"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Blush Cream Canvas | `#fff4f2` | Page background, hero backdrop, editorial sections |\n| 1 | Pure White | `#ffffff` | Cards, nav bar, brand logo strip, dialog surfaces |\n| 2 | Coral Accent | `#fc736c` | Primary CTA fill - single use surface |\n| 3 | Ink Violet | `#090335` | Filled button surface, deepest UI layer |",
+ "elevation": "Elevation is achieved entirely through surface color shifts (cream white coral ink) and hairline borders. No drop shadows, no blur effects, no glow. The design trusts background-color changes and 1-2px borders to communicate depth, producing a flat editorial print aesthetic rather than a skeuomorphic digital one.",
+ "imagery": "Custom hand-drawn line illustrations dominate the visual identity: single-stroke navy and coral artwork depicting podcasters, headphones, music notes, megaphones, and abstract organic shapes. Each illustration is housed inside a thin rectangular ink-violet frame with no fill, evoking a comic panel or art print. Illustrations are decorative and atmospheric rather than explanatory - they set tone and brand personality, not product mechanics. No photography, no product screenshots, no 3D renders. The illustration style is loose, slightly wobbly, and human - a deliberate counterweight to the precise geometric UI. Below the hero, a grayscale brand-logo strip provides the only \u0027real-world\u0027 visual content, and even that is stripped of color.",
+ "layout": "Max-width 1200px centered, generous outer padding of ~80px on desktop. Page is a vertical scroll of horizontal sections, each section using the Blush Cream canvas as background. The top nav is a sticky white bar with hairline bottom border. Hero is a two-column split: text-left (Georgia display headline + Gilroy body + Ink Filled CTA) and framed-illustration-right, vertically centered. Feature sections alternate between two-column text+illustration rows and full-width centered text stacks. Brand logo strip is a single horizontal band. No sidebar, no mega-menu, no full-bleed images. Section rhythm is defined by whitespace and subtle background shifts rather than dividers or colored bands - the cream canvas flows continuously beneath all content."
+}

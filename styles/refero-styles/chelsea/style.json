@@ -1,0 +1,225 @@
+{
+ "id": "905beb8c-9788-4ff4-888b-13370cacd4b0",
+ "name": "CHELSEA",
+ "slug": "chelsea",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/905beb8c-9788-4ff4-888b-13370cacd4b0",
+ "referenceSite": "https://www.chelsea.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:55:48.319Z",
+ "articleModifiedAt": "2026-06-05T10:33:41.321Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d1e82e3c-090e-4c7a-a03d-c1dd42aa57d4.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a597c5d2-e14a-4115-b259-d41a2fa85835.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/7fdc2c32-a80a-485c-ab46-c5e8b0fb3cb2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/22fd35ee-5d53-44b4-a77a-4678822d07d8.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/0a7670eb-3c93-4762-9670-b5e2daf31a81.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/85ce424c-016c-4351-a0b2-6e03657031b3.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Black-box cinema with a single blue spotlight - the roster plays, the chrome disappears.",
+ "summary": "Explore CHELSEA\u0027s dark Agency design system: Void Black #000000, Spotlight Blue #4490ff colors, Neue Haas Unica Pro typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Void Black",
+ "value": "#000000",
+ "token": "--color-void-black",
+ "role": "Page canvas, all section backgrounds, negative space - the floor everything sits on"
+ },
+ {
+ "name": "Spotlight Blue",
+ "value": "#4490ff",
+ "token": "--color-spotlight-blue",
+ "role": "Primary action, interactive links, roster name listings, focal dot indicator, highlighted borders - the only chromatic voice in an otherwise monochrome system"
+ },
+ {
+ "name": "Carbon Slate",
+ "value": "#1f2937",
+ "token": "--color-carbon-slate",
+ "role": "Headings, heavy borders, structural borders on dark surfaces - near-black with a slight cool cast for separation from the pure black canvas"
+ },
+ {
+ "name": "Bone White",
+ "value": "#f4efe9",
+ "token": "--color-bone-white",
+ "role": "Warm off-white for text and subtle borders - softer than pure white, evoking film stock and gallery walls against the black canvas"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Maximum-contrast text and dividers when absolute clarity is needed over photography or dark media"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#e5e7eb",
+ "token": "--color-ash-gray",
+ "role": "Light-mode surfaces, neutral borders on cards or panels, secondary dividers - provides a paper-like counterpoint when a section lifts off the black canvas"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Neue Haas Unica Pro",
+ "token": "--font-neue-haas-unica-pro",
+ "role": "All UI and content type - nav labels at 14px, body at 16px, section headings at 32px, display at 48px"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.12",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "display",
+ "48px",
+ "1.1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "96px",
+ "cardPadding": "16px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "links",
+ "9999px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Cinema-Full-Bleed Media Frame",
+ "role": "Hero and section media containers"
+ },
+ {
+ "name": "Thin Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Focal Dot Indicator",
+ "role": "Brand punctuation and active-state marker"
+ },
+ {
+ "name": "Pill Button / Pill Link",
+ "role": "All interactive controls"
+ },
+ {
+ "name": "Roster Name Listing",
+ "role": "Talent directory display"
+ },
+ {
+ "name": "Wordmark Lockup",
+ "role": "Brand identity stamp"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Section separation"
+ },
+ {
+ "name": "Credit Caption",
+ "role": "Metadata under media"
+ }
+ ],
+ "dos": [
+ "Use #4490ff as the only chromatic color in the system - every link, every accent, every focal dot uses it",
+ "Set all interactive elements to 9999px border-radius for the pill shape that defines the brand",
+ "Keep the canvas pure #000000; never introduce a card surface, a gray panel, or a light section mid-page",
+ "Let media bleed edge-to-edge with zero margin, zero radius, and zero frame",
+ "Use Neue Haas Unica Pro weight 400 for body and weight 700 only for the wordmark and button labels",
+ "Set headlines and body at tight line-heights (1.0-1.15) to maintain the credit-roll density",
+ "Use 8px for element gaps and 16px for component padding; jump to 96px between major sections"
+ ],
+ "donts": [
+ "Do not introduce drop shadows, elevation layers, or card containers - the system is flat by design",
+ "Do not add a second accent color or any warm tone; the palette is black + white + one blue",
+ "Do not round images or media frames - they must be sharp rectangles bleeding to the viewport edge",
+ "Do not use #0000ee or browser-default link blue; links must be #4490ff",
+ "Do not add a visible logo block, nav background, or header bar - the nav is text floating on black",
+ "Do not set body type above 1.5 line-height; the credit-roll feel depends on tight leading",
+ "Do not introduce semantic colors (green/yellow/red) for status - the system has no UI states to encode"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Void Canvas | `#000000` | Base page background - every section, every gap, every margin is this color |\n| 1 | Media Surface | `#000000` | Photographic and video content replaces the void - no surface transition, the canvas IS the background behind media |",
+ "elevation": "Zero elevation. The system treats depth as a sin: no shadows, no z-axis layering, no floating panels, no card lift. Media bleeds directly on the black canvas and type floats on the same plane. The single visual hierarchy device is the jump from #000000 to full-color photography, which is an absolute contrast rather than a soft elevation.",
+ "imagery": "Photography and video are the entire visual system. Imagery is full-bleed, edge-to-edge, unmasked, with zero rounding and no frame. Treatment is cinematic and high-production: warm tungsten key lights, deep shadows, saturated color pockets against darker backgrounds - the aesthetic is music-video or indie film still, not corporate lifestyle. No illustration, no abstract graphics, no product shots. The people in the imagery are the roster - the work is self-portraiture of the talent. Imagery occupies 100% of the viewport in hero and section positions; there is no image-on-canvas composition, only image-as-canvas. A small blue focal dot is sometimes the only UI element overlaid on the photography.",
+ "layout": "Full-bleed, edge-to-edge layout with no max-width container. The page reads as a vertical sequence of full-viewport-height screens: (1) a full-bleed photographic or video hero with a minimal top nav overlaid and a small wordmark bottom-left, (2) subsequent full-bleed media sections stacking vertically with generous 96px breathing gaps, (3) a terminal section that is pure black with a two-column text layout - tiny region labels (US, UK) left-aligned and a flowing block of talent names right-aligned. Navigation is a single thin horizontal row of four evenly-spaced text links with no background and no logo block. Content alignment is asymmetric: nav is spread across the full width, wordmark anchors bottom-left, text blocks pull left with a slight indent. The grid is implicit - there is no visible column structure, only full-width media and text that reads as a credit roll. Density is sparse between sections but tight within text blocks."
+}

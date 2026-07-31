@@ -1,0 +1,222 @@
+{
+ "name": "Vucko",
+ "slug": "vucko",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary text, all borders, dark surface blocks, and the hero wordmark - the structural backbone of every screen"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Faint Ash",
+ "value": "#eeeeee",
+ "token": "--color-faint-ash",
+ "role": "Subtle surface tint for secondary cards or de-emphasized blocks, barely distinguishable from Paper"
+ },
+ {
+ "name": "Steel",
+ "value": "#888a8b",
+ "token": "--color-steel",
+ "role": "Muted secondary text and ghost-list items in service lists - the only non-black text color, used to create tonal hierarchy without introducing hue"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#222222",
+ "token": "--color-charcoal",
+ "role": "Alternate dark surface for nav or panel backgrounds - a softer dark than Ink when full black is too severe"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Suisse Int\u0027l",
+ "token": "--font-suisse-intl",
+ "role": "Sole typeface across the entire system. Weight 700 carries all display and heading roles up to 211px for the hero wordmark; weight 400 handles body and link text. The 211px weight-700 wordmark with -0.057em tracking is the signature - it turns the brand name into a room-scale installation. Weight 500 appears in nav and transitional text. The aggressive negative tracking on display sizes (-0.057em at 211px, -0.020em at 55px) tightens the Swiss grotesque geometry into a denser, more monolithic block - the type is meant to read as architecture, not as text."
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "17px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "19px",
+ "1.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "43px",
+ "1.21",
+ "-0.43px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "55px",
+ "1.13",
+ "-1.1px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "120px",
+ "1.05",
+ "-6.84px",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "211px",
+ "1",
+ "-12.03px",
+ "--text-display-xl"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "58px",
+ "cardPadding": "24px",
+ "elementGap": "23px",
+ "scale": [
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ],
+ [
+ "192",
+ "192px",
+ "`--spacing-192`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "9.6px"
+ ],
+ [
+ "small",
+ "4.8px"
+ ],
+ [
+ "medium",
+ "7.2px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Minimal site-wide navigation"
+ },
+ {
+ "name": "Hero Display Wordmark",
+ "role": "Primary brand statement on landing"
+ },
+ {
+ "name": "Floating Showcase Card",
+ "role": "Featured project overlay on hero"
+ },
+ {
+ "name": "Tagline Section",
+ "role": "Brand statement below hero"
+ },
+ {
+ "name": "Project Showcase Card (Full-bleed)",
+ "role": "Client work presentation in portfolio"
+ },
+ {
+ "name": "Service Block (Media + Text)",
+ "role": "Individual service description in services section"
+ },
+ {
+ "name": "Service List Display",
+ "role": "Large-scale service category headings"
+ },
+ {
+ "name": "Pill Tag / Button",
+ "role": "Project labels, nav indicators, and pill-shaped interactive elements"
+ },
+ {
+ "name": "Underline Text Link",
+ "role": "Primary text-based link style"
+ },
+ {
+ "name": "Scroll Indicator",
+ "role": "Navigation hint at hero boundary"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #000000 (Ink) for all primary text, borders, and dark surface blocks - it is the only structural color in the system",
+ "Set the hero wordmark at 211px Suisse weight 700 with letter-spacing -12.03px - the type is meant to fill the room",
+ "Apply 56px horizontal padding on the main container and 58px vertical gaps between major sections",
+ "Use 9999px border-radius for all pill-shaped elements: nav dot, tags, and pill buttons",
+ "Use tonal hierarchy (Ink vs Steel at #888a8b) rather than size or weight to create secondary text emphasis",
+ "Use 9.6px border-radius for project cards and content containers",
+ "Apply negative letter-spacing on all display sizes: -12.03px at 211px, -6.84px at 120px, -1.1px at 55px, -0.43px at 43px"
+ ],
+ "doNot": [
+ "Never add colored CTA buttons - this system uses underlined text links and neutral pill elements only",
+ "Never use drop shadows, glow effects, or any form of CSS elevation - depth comes from whitespace and contrast alone",
+ "Never center body text - all running text should be left-aligned",
+ "Never use borders thicker than 1px",
+ "Never introduce chromatic colors into the UI chrome - color belongs exclusively inside project showcase content",
+ "Never use display sizes (55px+) for body copy or secondary content - reserve them for headlines and service titles only",
+ "Never break the whitespace rhythm - maintain 58px minimum between major sections and let the type do the work"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/cc5b19fd-12cf-4b30-801c-8a0363646e48",
+ "referenceSite": "https://vucko.co",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:34:40.876Z",
+ "articleModifiedAt": "2026-06-05T12:02:08.192Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/10787b8b-6399-42c5-9ad7-4c5458bf1365.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a3e6f8ed-4ae7-4cd5-ba74-fd92f33227ad.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c1daa12c-0e18-44fb-9971-b9e08c100a9a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/c5e60ef2-1302-4a4b-af4b-60d6f3baf64f.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e2f83363-9fa2-47af-bafa-a16ac164a601.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/8a8cf651-a7bd-4378-9ae8-ea79432013ad.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

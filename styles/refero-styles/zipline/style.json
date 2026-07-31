@@ -1,0 +1,268 @@
+{
+ "id": "4a248569-2b5a-4416-bb2a-c78890218b9f",
+ "name": "Zipline",
+ "slug": "zipline",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/4a248569-2b5a-4416-bb2a-c78890218b9f",
+ "referenceSite": "https://www.zipline.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:39:56.920Z",
+ "articleModifiedAt": "2026-06-05T07:39:05.947Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/3469c5b5-a723-497d-ad85-382c1986e82d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/3f064b4b-0601-4a3f-888d-6d0bafe765c3.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c75611da-e327-454b-bc64-c15cbdfb4219.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/512a841a-1d1e-4290-be48-ecc670720089.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/f9e7557c-e2e0-430a-aa45-5885fc7d3d80.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/d6ceac7d-e7eb-4d81-b760-48be92f582d7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/506ea0aa-04fc-4b04-989f-d10c6e93219f.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "open meadow in morning light",
+ "summary": "Explore Zipline\u0027s light Other design system: Meadow Cream #f7f4e8, Hillside Ink #000000 colors, fkGroteskNeue, fkScreamer typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Meadow Cream",
+ "value": "#f7f4e8",
+ "token": "--color-meadow-cream",
+ "role": "Page canvas, card surfaces, body text inverse, button borders - the warm off-white that gives the whole system its outdoor, paper-like character instead of clinical SaaS white"
+ },
+ {
+ "name": "Hillside Ink",
+ "value": "#000000",
+ "token": "--color-hillside-ink",
+ "role": "Primary headings, body copy, icon strokes, filled action buttons, hairline borders - maximum-contrast black that lets the cream breathe and makes fkScreamer headlines land"
+ },
+ {
+ "name": "Stone Border",
+ "value": "#c6c3ba",
+ "token": "--color-stone-border",
+ "role": "Muted dividers, secondary surfaces, low-contrast borders - warm gray that sits a step behind Meadow Cream and prevents the canvas from looking flat"
+ },
+ {
+ "name": "Drone Violet",
+ "value": "#643aed",
+ "token": "--color-drone-violet",
+ "role": "Card and feature-block backgrounds, accent surfaces - the single chromatic note in an otherwise achromatic system; vivid against the cream so attention-grabbing blocks pop without breaking the editorial mood"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "fkGroteskNeue",
+ "token": "--font-fkgroteskneue",
+ "role": "Body copy, navigation, buttons, captions, and any text smaller than the display headlines - the workhorse grotesque that handles all functional UI at 14-22px. The consistent -0.01em tracking keeps it tight even at small sizes."
+ },
+ {
+ "name": "fkScreamer",
+ "token": "--font-fkscreamer",
+ "role": "Signature display face - used only for oversized editorial statements (40-150px). This is the voice of the brand: ultra-heavy, aggressively condensed, line-height 0.85 so the letters nearly touch. The restraint of using one weight at one role makes the moments it appears feel like magazine pull-quotes, not just headings."
+ },
+ {
+ "name": "fkDisplay",
+ "token": "--font-fkdisplay",
+ "role": "Mid-weight display variant for sub-statements that need fkScreamer\u0027s character at a smaller scale - bridges the gap between the massive editorial type and fkGroteskNeue body"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.2",
+ "-0.14px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-0.16px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.4",
+ "-0.18px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1",
+ "-0.22px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "40px",
+ "0.85",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "90px",
+ "0.85",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "120px",
+ "0.85",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "150px",
+ "0.85",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "60-128px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "20px"
+ ],
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "images",
+ "20px"
+ ],
+ [
+ "buttons",
+ "20px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Pill Action Button (Filled Black)",
+ "role": "Primary conversion action"
+ },
+ {
+ "name": "Ghost Outline Button",
+ "role": "Secondary action or navigation CTA"
+ },
+ {
+ "name": "Editorial Display Statement",
+ "role": "Hero or section-level headline"
+ },
+ {
+ "name": "Violet Feature Card",
+ "role": "Highlighted content block"
+ },
+ {
+ "name": "Outlined Cream Card",
+ "role": "Standard content card on cream canvas"
+ },
+ {
+ "name": "Full-Bleed Photo Hero",
+ "role": "Hero section background"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Global header"
+ },
+ {
+ "name": "Inline Thumbnail Token",
+ "role": "Embedded visual within display text"
+ }
+ ],
+ "dos": [
+ "Use fkScreamer 700 at 90-150px for editorial headlines; line-height 0.85 is non-negotiable - it\u0027s what makes the type feel stamped rather than set",
+ "Keep the canvas at Meadow Cream (#f7f4e8) on every body section; reserve stark white for moments you specifically want to feel clinical",
+ "Default all buttons, cards, and images to 20px radius - this single value unifies the system and is the most repeated shape token",
+ "Pair fkGroteskNeue body at 16px/1.4 with fkScreamer displays; never use fkScreamer for anything under 40px",
+ "Reach for Drone Violet (#643aed) only as a card or feature-block surface, never as a text color or border - its job is to make a block pop, not to tint typography",
+ "Use 1px Hillside Ink borders in place of shadows for elevation; the system is flat-by-default and the border carries the separation",
+ "Bleed photography full-bleed in heroes and section dividers; avoid contained rounded image cards at large scale"
+ ],
+ "donts": [
+ "Don\u0027t use fkScreamer for body copy, navigation, captions, or anything under 40px - the weight and line-height collapse at small sizes",
+ "Don\u0027t introduce additional chromatic accent colors; the entire system\u0027s restraint depends on having exactly one violet",
+ "Don\u0027t add box-shadows to cards or buttons - use 1px borders or the violet surface for separation instead",
+ "Don\u0027t use pure white (#ffffff) as a background; Meadow Cream is the canvas and stark white breaks the warm editorial tone",
+ "Don\u0027t set body type at anything other than fkGroteskNeue 16px/1.4 as the default - resist the urge to mix in a serif or secondary sans",
+ "Don\u0027t apply radii smaller than 20px to interactive elements; buttons, cards, and images all share the same generous rounding",
+ "Don\u0027t use letter-spacing on fkScreamer - it ships with normal tracking and the tight glyph spacing is part of its impact"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Meadow Cream | `#f7f4e8` | Page canvas - the warm off-white base that all content sits on |\n| 1 | Stone Border | `#c6c3ba` | Subtle secondary surface and divider tone for low-emphasis sections |\n| 2 | Drone Violet | `#643aed` | Accent card / feature-block surface - the only chromatic surface in the system |\n| 3 | Hillside Ink | `#000000` | Inverted surface for filled buttons, dark hero photo zones, and high-contrast text blocks |",
+ "elevation": "- **Outlined Cream Card:** `none (1px #000000 border instead of shadow)`\n- **Violet Feature Card:** `none (surface color contrast instead of shadow)`\n- **Pill Action Button:** `none (flat fill, no shadow)`",
+ "imagery": "Full-bleed landscape photography dominates: motion-blurred green hillsides, low-angle nature shots, and small embedded portrait thumbnails integrated inline with display type. All photography is shot at ground level with natural daylight - no studio, no product-on-white, no abstract 3D renders. The blur and speed in the hero photo communicates \u0027drone delivery\u0027 without ever showing a drone. A small portrait thumbnail of a person appears as a visual token dropped into the middle of an fkScreamer headline, a signature editorial device.",
+ "layout": "Full-bleed layout with no max-width container - pages extend edge-to-edge. The hero is a full-viewport landscape photograph with the headline (fkScreamer, cream-colored) positioned bottom-left and a ghost button below it. Below the hero, a curved mask transitions the photo into the Meadow Cream canvas. The main body uses centered display statements at 90-150px, often broken across multiple lines, with body copy left-aligned in a narrower measure below. Navigation is a minimal top bar (hamburger left, centered wordmark, ghost CTA right) that floats transparently over the hero. Section gaps are generous (60-128px) and the system relies on the type scale and photography, not grids or columns, to create rhythm."
+}

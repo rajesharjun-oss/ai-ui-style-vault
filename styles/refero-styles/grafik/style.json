@@ -1,0 +1,183 @@
+{
+ "id": "0226e028-3cd3-440d-b469-ca459267161d",
+ "name": "Grafik",
+ "slug": "grafik",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0226e028-3cd3-440d-b469-ca459267161d",
+ "referenceSite": "https://grafik.co.nz",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:50:01.460Z",
+ "articleModifiedAt": "2026-06-05T07:35:42.413Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/a28cd1f9-0681-4874-8981-47d37cac5138.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e8a55855-c5bc-4f49-8673-b759817f58b0.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/715e3cd2-d5fa-4ee5-8746-2a9398c8a0f3.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/f809bf3c-bf8b-4996-adc0-00b1fb928552.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/4729835b-a810-4034-9046-c3abc9f81ab0.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/971db252-45b3-4d51-9fb5-0605ef6919e6.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Editorial gallery on warm paper. A design annual laid out as a full-bleed screen - typographic grid lines, monochrome photography, and nothing between the work and the page.",
+ "summary": "Explore Grafik\u0027s light Agency design system: Bone #f0eeeb, Ink #000000 colors, Grotesk typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Bone",
+ "value": "#f0eeeb",
+ "token": "--color-bone",
+ "role": "Page background and primary canvas - a warm off-white that reads as paper rather than screen, the defining surface of the entire system"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary text, body copy, navigation, project metadata, 1px grid lines, image borders, and dark image treatments - the only non-canvas color"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Card surfaces, image backgrounds, and reverse-text blocks - white inserts on the warm canvas to isolate portfolio pieces"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Grotesk",
+ "token": "--font-grotesk",
+ "role": "Sole typeface across all UI - navigation, project metadata, and headlines. Used exclusively at weight 400 (no bold, no light), which is anti-convention for an agency portfolio; the regular weight whispers where competitors shout. Negative tracking tightens headlines at -0.02em while body sits at -0.005em, giving every line a printed-page density. The dlig feature enables discretionary ligatures for editorial flourish."
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "20px",
+ "1",
+ "-0.1px",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "38px",
+ "1.11",
+ "-0.76px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.2",
+ "-0.4px",
+ "--text-heading-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "225",
+ "225px",
+ "`--spacing-225`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "all",
+ "0px - no rounded corners anywhere in the system"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hairline Grid Divider",
+ "role": "Structural separator between portfolio columns and rows"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Site-wide top navigation"
+ },
+ {
+ "name": "Portfolio Grid Cell",
+ "role": "Single project tile within the 3-column portfolio grid"
+ },
+ {
+ "name": "Project Metadata Block",
+ "role": "Caption beneath each portfolio item"
+ },
+ {
+ "name": "Full-Bleed Image",
+ "role": "Oversized project image spanning full viewport width"
+ },
+ {
+ "name": "Tablet/Device Frame",
+ "role": "Portfolio project shown in context (tablet or browser frame)"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer with contact and legal"
+ }
+ ],
+ "dos": [
+ "Use only Grotesk at weight 400 - never introduce bold, semibold, or light variants. The single-weight discipline is the signature.",
+ "Set backgrounds to #f0eeeb for the page canvas and #ffffff for card/image inserts. The warm bone is non-negotiable; pure white as canvas breaks the paper metaphor.",
+ "Separate all portfolio elements with 1px solid #000000 hairlines. Use borders to create the grid, never padding gaps or box-shadows.",
+ "Set border-radius to 0px on every element. No rounded corners on images, cards, buttons, or containers - the design is architecturally sharp.",
+ "Type at three sizes only: 20px for body and metadata, 38px and 40px for headings. The sparse scale forces hierarchy through content, not through type variety.",
+ "Apply negative letter-spacing: -0.02em at 38px, -0.01em at 40px, -0.005em at 20px. This tracking is what makes Grotesk feel like editorial print rather than screen type.",
+ "Keep the interface fully monochromatic. Any color should live inside portfolio content (photography, project artifacts), never in the UI chrome."
+ ],
+ "donts": [
+ "Do not introduce a second typeface. Grotesk carries the entire system - adding a serif or display face fragments the editorial cohesion.",
+ "Do not add box-shadows or any form of elevation. The design uses surface contrast and hairline borders, not depth.",
+ "Do not use rounded corners on any element. Every edge is sharp - cards, images, buttons, tags.",
+ "Do not use bright or saturated colors in the UI. The green and brown tones in screenshots are project content, not system tokens.",
+ "Do not set the page background to pure #ffffff. The warm #f0eeeb canvas is the paper-like foundation - white-as-canvas looks clinical and breaks the design annual metaphor.",
+ "Do not add decorative gradients, patterns, or background textures. The design is flat, monochromatic, and print-faithful.",
+ "Do not use bold or semibold weights. The entire system runs on Grotesk 400 - adding weight breaks the measured, restrained voice."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#f0eeeb` | Full-bleed page background - the warm off-white that defines the paper-like quality |\n| 1 | Card | `#ffffff` | Reverse surfaces and image cards sitting on the canvas |\n| 2 | Inverted | `#000000` | Dark image treatments and high-contrast blocks within the grid |",
+ "elevation": "Shadows are entirely absent. The design achieves hierarchy through surface contrast (warm bone vs white vs black) and 1px hairline grid lines, not through elevation. Depth is implied by content layering, not by box-shadow.",
+ "imagery": "Photography dominates: large, full-bleed, black-and-white portrait and editorial photography fills the 3-column grid. Treatment is high-contrast, gallery-style - tight crops, subjects centered, no lifestyle staging. Color appears only within portfolio content (a neon green business card on the Tom Gould project, a sepia-brown panel on the Beings project) but these are artifacts within the work, not system colors. No icons, no illustrations, no decorative graphics. The portfolio imagery IS the visual language.",
+ "layout": ""
+}

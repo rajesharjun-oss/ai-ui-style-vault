@@ -1,0 +1,215 @@
+{
+ "name": "BUTT STUDIO",
+ "slug": "butt-studio",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, borders, button outlines, structural strokes - the only color that ever carries information"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Card surfaces, thumbnail covers, inverted text on dark blocks"
+ },
+ {
+ "name": "Carbon",
+ "value": "#131313",
+ "token": "--color-carbon",
+ "role": "Dark project tile backgrounds, near-black surface for video panels"
+ },
+ {
+ "name": "Bone Gray",
+ "value": "#e0e0e0",
+ "token": "--color-bone-gray",
+ "role": "Page canvas, neutral button fills - the warm gray the whole composition sits on"
+ },
+ {
+ "name": "Studio Indigo",
+ "value": "#31338e",
+ "token": "--color-studio-indigo",
+ "role": "Sole chromatic accent - STUDIO pill badge, and any deep brand punctuation. The only saturated color in the system"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "helvetica",
+ "token": "--font-helvetica",
+ "role": "Every utility, body, list, button, and link on the site. Stays at one weight - no bold, no medium. The decision to use weight 400 Helvetica at 20px for body (not 16px) is deliberate: text is meant to feel like printed matter, not a UI. Tighter letter-spacing on larger sizes (-0.03em) prevents the 40px from feeling airy."
+ },
+ {
+ "name": "Caslon",
+ "token": "--font-caslon",
+ "role": "The hero wordmark and any serif accent. A single weight of a custom display serif - chosen because its high contrast strokes and ball terminals read as editorial print, not web type. This font IS the brand; everything else is scaffolding."
+ },
+ {
+ "name": "Sometimes Times",
+ "token": "--font-sometimes-times",
+ "role": "Sometimes Times - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "20px",
+ "1.2",
+ "-0.6px",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "42px",
+ "1",
+ "-0.84px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "200px",
+ "1",
+ "-4px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "20px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "70",
+ "70px",
+ "`--spacing-70`"
+ ],
+ [
+ "180",
+ "180px",
+ "`--spacing-180`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "0px (sharp, like printed paper)"
+ ],
+ [
+ "badges",
+ "50px-68px (rounded pill, almost stadium)"
+ ],
+ [
+ "buttons",
+ "50px (pill-shaped)"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Wordmark Hero",
+ "role": "The site identity block"
+ },
+ {
+ "name": "STUDIO Pill Badge",
+ "role": "Brand stamp overlapping the wordmark"
+ },
+ {
+ "name": "Three-Column Info Ledger",
+ "role": "Primary navigation and metadata block beneath the hero"
+ },
+ {
+ "name": "Project Tile (Light)",
+ "role": "Standard project entry with video thumbnail"
+ },
+ {
+ "name": "Project Tile (Dark)",
+ "role": "Inverted project entry for visual rhythm"
+ },
+ {
+ "name": "Download Button",
+ "role": "Neutral pill action"
+ },
+ {
+ "name": "Video Thumbnail",
+ "role": "Clickable preview for project media"
+ },
+ {
+ "name": "Page Divider",
+ "role": "Visual break between project entries"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set the hero wordmark oversized in Caslon at weight 400, tight tracking (-0.02em), so one word fills the full viewport width",
+ "Use #e0e0e0 as the page canvas - never pure white at the page level; reserve #ffffff for card surfaces only",
+ "Use Studio Indigo #31338 exactly once per surface as the only chromatic accent",
+ "Set body text at 20px Helvetica weight 400 with -0.03em letter-spacing - bigger and tighter than web convention",
+ "Give buttons and the STUDIO badge a 50px pill radius for the only rounded elements in the system",
+ "Separate project tiles with a 1px black hairline and 180px vertical space to read as a printed catalog",
+ "Let interactive illustrations physically break through or weave between the serif letterforms in the hero"
+ ],
+ "doNot": [
+ "Do not introduce any color other than the four neutrals and Studio Indigo - no gradients, no tints, no hover-state color shifts",
+ "Do not use shadows, glows, or elevation - the design is flat like print, with no synthetic depth",
+ "Do not add border-radius to cards, tiles, or thumbnails - they must stay sharp like cut paper",
+ "Do not set body text below 20px or add bold/medium weights to Helvetica - weight 400 is the only weight that exists",
+ "Do not use Caslon for anything below the hero - reserve it for the wordmark and project titles to preserve its weight",
+ "Do not add underlines, color, or icons to links in the client/feature lists - they read as plain text on purpose",
+ "Do not center body text or list items - the ledger columns are left-aligned like a contact page"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/c6e55968-fa2d-47c9-b833-2c4ad1e74906",
+ "referenceSite": "https://www.butt-studio.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:29:10.166Z",
+ "articleModifiedAt": "2026-06-05T09:49:05.313Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/5c1c352f-1979-4fe7-a516-e21d38178997.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/02414f85-a18f-4e1e-8fcc-410ecf09f1ea.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4f1e11c1-5d8d-41e1-b3bc-c9b3cd660737.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/3c453898-2cdf-466b-96c1-a05381cca39b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/7b783a8c-b355-428b-b2dd-d42de2f8f3e0.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/64575f74-0931-4d37-add9-e7241c5f878e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

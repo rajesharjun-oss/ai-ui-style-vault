@@ -1,0 +1,208 @@
+{
+ "id": "2f0a053b-0596-4212-a4f4-8a7b580acb90",
+ "name": "KeepGrading",
+ "slug": "keepgrading",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/2f0a053b-0596-4212-a4f4-8a7b580acb90",
+ "referenceSite": "https://www.keepgrading.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:09:47.925Z",
+ "articleModifiedAt": "2026-06-05T10:11:06.590Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1005f133-10b7-4be8-88bb-60de98d588a5.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/cd938c2a-e8bf-453a-973b-40fd2af9537f.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/04a011c0-4cb0-49a4-9fd1-8acfa77c61cf.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7336afcc-41ae-4435-adad-693a8f1e2c2e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d53e3a36-964b-4d09-8eab-de93026b4243.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/72ee2371-293c-4370-91f6-f16496942b2a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Polaroids scattered in a darkroom",
+ "summary": "Explore KeepGrading\u0027s dark Agency design system: Studio White #f8f8f8, Void Black #080808 colors, Cabinet Grotesk, Inter typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Studio White",
+ "value": "#f8f8f8",
+ "token": "--color-studio-white",
+ "role": "Primary text, ghost-button borders, image-frame outlines, nav icon strokes - the single light voice in a dark room"
+ },
+ {
+ "name": "Void Black",
+ "value": "#080808",
+ "token": "--color-void-black",
+ "role": "Page canvas, behind-everything background, image frame fills between photographs"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "SVG icon fills, deepest surface layer for inline graphics and decorative marks"
+ },
+ {
+ "name": "Bone White",
+ "value": "#f0f0f0",
+ "token": "--color-bone-white",
+ "role": "Soft secondary text and supporting hairline strokes when pure white feels too clinical"
+ },
+ {
+ "name": "Pewter Border",
+ "value": "#2a2a2a",
+ "token": "--color-pewter-border",
+ "role": "Low-contrast dividers and inactive frame edges that recede against the void"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Cabinet Grotesk",
+ "token": "--font-cabinet-grotesk",
+ "role": "Brand display and logo wordmark - the 96px headline weight 400 is anti-convention; no bold, no display tricks, just a single weight carried to monumental size that feels confident through restraint. Also used at 24px for short subheadings and 16px for nav labels. This custom typeface carries the entire brand identity."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Body text and supporting copy at 16px and 20px, both at weight 400 - no bold variant in use, the system keeps a single weight even for emphasis, letting size and color do the hierarchy work"
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-lg",
+ "24px",
+ "1.33",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "96px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "48px",
+ "cardPadding": "24px",
+ "elementGap": "15px",
+ "scale": [
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "9999px"
+ ],
+ [
+ "cards",
+ "160px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Ghost Pill Button",
+ "role": "Primary navigation/action control"
+ },
+ {
+ "name": "Circular Nav Toggle",
+ "role": "Menu trigger in top-right corner"
+ },
+ {
+ "name": "Wordmark Logo",
+ "role": "Brand identity in top-left"
+ },
+ {
+ "name": "Floating Image Frame",
+ "role": "Photo card scattered across the canvas"
+ },
+ {
+ "name": "Canvas Layer",
+ "role": "Base surface for the entire page"
+ },
+ {
+ "name": "Section Spacer",
+ "role": "Vertical rhythm between content bands"
+ },
+ {
+ "name": "Nav Label",
+ "role": "Secondary navigation text"
+ }
+ ],
+ "dos": [
+ "Use #f8f8f8 for all text, borders, and icon strokes on the #080808 canvas - never introduce a chromatic accent for emphasis.",
+ "Set display headlines in Cabinet Grotesk 96px weight 400, line-height 1.0; the single weight at monumental size is the signature.",
+ "Use 9999px border-radius for all buttons, tags, and the nav toggle to maintain the pill/circle-only shape vocabulary.",
+ "Use 160px border-radius for image frames to keep corners soft but distinct from the fully pill-shaped controls.",
+ "Maintain 48px minimum vertical gap between content bands; let whitespace separate sections rather than dividers or shadows.",
+ "Keep all UI chrome at weight 400 across both Cabinet Grotesk and Inter; hierarchy comes from size, not weight.",
+ "Position image frames as scattered floating elements with varying offsets and sizes rather than aligning them to a strict grid."
+ ],
+ "donts": [
+ "Do not introduce any chromatic brand color, accent, or gradient - the monochrome void is the brand.",
+ "Do not add drop shadows, glows, or any elevation effects - depth comes from layering and contrast alone.",
+ "Do not use bold (600+) or semibold weights for emphasis; switch size or color instead.",
+ "Do not use sharp corners (0-8px radius) on any visible element - all surfaces must be pill-rounded or softly curved.",
+ "Do not apply background fills to buttons; the ghost outlined style is the only button treatment.",
+ "Do not constrain the page to a max-width column; the full-bleed black canvas is essential to the darkroom feel.",
+ "Do not add icons, badges, or decorative graphics to the UI chrome - type, borders, and photographs are the only visual elements."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Void Canvas | `#080808` | Full-bleed page background; the base layer everything floats on |\n| 1 | Deep Surface | `#061c32` | Rarely surfaced dark-navy panel for content that needs slight lift from the void (detected in contrast pairs) |\n| 2 | Mid Surface | `#1d2d44` | Elevated card or modal surface for layered content blocks |",
+ "elevation": "No shadows. No glows. No drop-shadow effects on any element. Depth and separation are achieved exclusively through 1px #f8f8f8 borders, vertical whitespace (48px gaps), and z-ordering of scattered image frames. The darkroom metaphor demands that nothing cast a shadow - the void is flat and infinite.",
+ "imagery": "Photography is the primary visual content. Large full-color photographs of people, vehicles, and lifestyle scenes are presented as floating frames scattered across a black canvas at varying scales and positions. Treatment is documentary/candid rather than staged commercial - poolside social moments, a blue sedan on a coastal road, interior lifestyle scenes. Frames are tightly cropped with 1px white borders and 160px corner radius; no captions or text overlays on the images themselves. The layout reads as a photo-editorial spread rather than a product gallery - images are positioned off-grid, partially overlapping the viewport edges, and at different sizes to create visual rhythm across the page.",
+ "layout": "Full-bleed dark canvas with no max-width constraint; content extends to viewport edges. The hero is the page itself - there is no centered headline or CTA block. Instead, a large wordmark logo sits in the top-left corner (potentially cropping past the viewport), a circular nav toggle in the top-right, and the rest of the viewport is populated by scattered image frames at varying positions and sizes. A single ghost pill button (\u0027Show me more\u0027) appears centered in the lower portion. Navigation is minimal - a top bar with logo and hamburger only, no horizontal menu. Content flows as a vertical scroll through more scattered image clusters separated by 48px gaps. There is no traditional section structure; the page reads as one continuous darkroom surface with photographs pinned to it at editorial offsets."
+}

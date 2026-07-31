@@ -1,0 +1,185 @@
+{
+ "name": "Specht Studio",
+ "slug": "specht-studio",
+ "colors": [
+ {
+ "name": "Gallery White",
+ "value": "#ffffff",
+ "token": "--color-gallery-white",
+ "role": "Page canvas, project tile background where artwork doesn\u0027t fill the frame"
+ },
+ {
+ "name": "Fog Gray",
+ "value": "#b0b0b0",
+ "token": "--color-fog-gray",
+ "role": "Secondary surface, subtle dividers, muted metadata text"
+ },
+ {
+ "name": "Graphite",
+ "value": "#666666",
+ "token": "--color-graphite",
+ "role": "Link borders, secondary text, caption metadata, inactive nav"
+ },
+ {
+ "name": "Gallery Black",
+ "value": "#000000",
+ "token": "--color-gallery-black",
+ "role": "Primary text, active nav, all structural borders, the single ink that holds the system together"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Helvetica Neue",
+ "token": "--font-helvetica-neue",
+ "role": "Sole typeface across every context - nav, body, headings, links, footer. The deliberate choice of a single weight at 400 across all roles removes typographic hierarchy and forces the grid and the imagery to do the ranking. No display cuts, no bold emphasis, no italics - restraint as a point of view."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "15px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.4",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "25px",
+ "1.3",
+ "-",
+ "--text-body"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "1400px",
+ "sectionGap": "67-122px",
+ "cardPadding": "0px",
+ "elementGap": "2-10px",
+ "scale": [
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "35",
+ "35px",
+ "`--spacing-35`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "all",
+ "0px"
+ ],
+ [
+ "nav",
+ "0px"
+ ],
+ [
+ "tiles",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Navigation Bar",
+ "role": "Site-wide top navigation"
+ },
+ {
+ "name": "Project Tile",
+ "role": "Portfolio thumbnail in the grid"
+ },
+ {
+ "name": "Grid Container",
+ "role": "Holds the portfolio tiles in masonry arrangement"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline and standalone links in body copy"
+ },
+ {
+ "name": "Section Header",
+ "role": "Optional heading text for sections like \u0027Artwork\u0027, \u0027Young Innovators\u0027"
+ },
+ {
+ "name": "Brand Lockup",
+ "role": "Studio identity in the top-left corner"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer with secondary links and metadata"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use only Helvetica Neue at weight 400 - no bold, no light, no italic beyond the brand subtitle. Typographic uniformity is the system.",
+ "Set body text at 15-16px and headings at 25px max. Anything larger than 25px breaks the gallery-wall scale where the imagery dominates.",
+ "Build with the white canvas as the default surface. Gallery Black (#000000) is the only structural ink; Graphite (#666666) handles secondary text and link borders.",
+ "Let project tiles butt directly against each other with 2-10px gaps. The tight masonry grid is the primary organizational device - wide gutters would dissolve the visual density.",
+ "Treat every page as a catalog. Text should annotate and index the work; it should never compete with the imagery for attention.",
+ "Keep all borders hairline (1-2px) in Gallery Black. Borders replace shadows, fills, and rounding as the structural language.",
+ "When a page needs section labels, use 25px black type directly on the white plane - never a colored chip, pill, or badge."
+ ],
+ "doNot": [
+ "Do not introduce a brand color. Any chromatic accent would shift the system from \u0027gallery wall\u0027 to \u0027product page\u0027 and destroy the curatorial neutrality.",
+ "Do not add rounded corners to tiles, buttons, or containers. The system is orthogonal - sharp 0px radii everywhere.",
+ "Do not use shadows, blurs, or elevation. Depth must come from image content and grid density, not from CSS box-shadow.",
+ "Do not use multiple typefaces or weights. A second weight or family immediately introduces hierarchy that the system deliberately suppresses.",
+ "Do not add a CTA button. There is no primary action in this system - if a page needs a link, use a Graphite-underlined text link.",
+ "Do not center the content on the page. The grid is left-aligned, slightly off-center, which creates the editorial-publication feel.",
+ "Do not use gradients, fills, or tinted backgrounds. Every surface is pure white or pure black, never a shade between."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/dd646da4-36f5-42b1-83dd-6a1c90cf8983",
+ "referenceSite": "https://stephaniespecht.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:13:27.224Z",
+ "articleModifiedAt": "2026-06-05T11:00:40.682Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/5d1d72f2-104c-4d70-85ca-132cc8659831.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/31fefe7f-f592-4304-8415-54aef1650d25.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/e9089bef-d80c-4842-997d-aaad77fe4b3b.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2c1bcac3-929b-48e6-be2e-7f92f1b4989f.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/13961669-f71c-4003-8186-f3703e43f87a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/31a19b95-ec1f-43d4-999f-1b8461412f43.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

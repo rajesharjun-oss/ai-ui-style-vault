@@ -1,0 +1,295 @@
+{
+ "id": "6afa22a6-bec8-47c3-b5ee-5d11d64902cb",
+ "name": "A24",
+ "slug": "a24",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/6afa22a6-bec8-47c3-b5ee-5d11d64902cb",
+ "referenceSite": "https://a24films.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:40:24.980Z",
+ "articleModifiedAt": "2026-06-05T08:44:00.618Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/49053770-bc2a-4c5b-ba9a-8a515c9aa3a4.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a882b3a9-eb47-48fc-bbe6-a5ae20242752.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/48ac9698-8fe0-4734-b0ec-d7b388136ad2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e59e3110-11ad-466e-897a-7f0bd8331672.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/f2cbb96e-2bf5-4c70-a728-39fcf8979502.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/8eb10bbb-5b18-449f-8e0a-ce5f63c41959.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "mixed",
+ "category": "Media",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Media",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "opening title sequence on pure black",
+ "summary": "Explore A24\u0027s mixed Media design system: Obsidian #000000, Paper White #ffffff colors, NB International Web, NB International Mono Web typography, and...",
+ "colors": [
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Section backgrounds for dark bands, primary body text on light surfaces, hairline borders and dividers throughout - the structural backbone of every page"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Light section backgrounds, card surfaces, product image containers, modal/overlay panels, primary text on dark backgrounds"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#eeeeee",
+ "token": "--color-ash-gray",
+ "role": "Subtle surface variant for product showcase panels and soft background shifts on light sections"
+ },
+ {
+ "name": "Smoke",
+ "value": "#888888",
+ "token": "--color-smoke",
+ "role": "Muted secondary text, subdued nav labels, low-emphasis borders - sits just above AA contrast for accessibility"
+ },
+ {
+ "name": "Bone",
+ "value": "#cacaca",
+ "token": "--color-bone",
+ "role": "Light hairline borders on white surfaces, minimal separator lines, very low-emphasis UI strokes"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "NB International Web",
+ "token": "--font-nb-international-web",
+ "role": "Primary typeface for all UI - navigation, body copy, headings, and display film titles. Weight 400 carries body and most UI; weight 500 for emphasis. The 74px display size with tight tracking (-0.04em) and 0.92 line-height lets film titles stack in dense, almost poster-like blocks. The humanist proportions and slight warmth make it readable at 11px yet commanding at 74px - the same family spans the entire voice."
+ },
+ {
+ "name": "NB International Mono Web",
+ "token": "--font-nb-international-mono-web",
+ "role": "Monospaced companion for technical labels, year markers beside film titles, and code-like annotations. Used sparingly as a typographic accent that signals data/specification context."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.5",
+ "0.14px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.33",
+ "-0.09px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "21px",
+ "1.3",
+ "-0.18px",
+ "--text-heading-sm"
+ ],
+ [
+ "display",
+ "74px",
+ "0.92",
+ "-2.96px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "96px",
+ "cardPadding": "22px",
+ "elementGap": "9px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "22",
+ "22px",
+ "`--spacing-22`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "42",
+ "42px",
+ "`--spacing-42`"
+ ],
+ [
+ "51",
+ "51px",
+ "`--spacing-51`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "103",
+ "103px",
+ "`--spacing-103`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "modals",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent header across all pages"
+ },
+ {
+ "name": "Film Title Block",
+ "role": "Hero and film-list display"
+ },
+ {
+ "name": "CTA with Arrow",
+ "role": "Section navigation links"
+ },
+ {
+ "name": "Product Showcase Card",
+ "role": "Merchandise display"
+ },
+ {
+ "name": "Email Signup Modal",
+ "role": "Newsletter capture overlay"
+ },
+ {
+ "name": "Email Input Field",
+ "role": "Text capture within modal"
+ },
+ {
+ "name": "Sign Up Button",
+ "role": "Form submission in modal"
+ },
+ {
+ "name": "Podcast Feature Block",
+ "role": "Audio content promotion"
+ },
+ {
+ "name": "Search Icon Button",
+ "role": "Search trigger in nav"
+ },
+ {
+ "name": "Hamburger Menu Trigger",
+ "role": "Primary navigation open"
+ },
+ {
+ "name": "Scroll Indicator Arrow",
+ "role": "Vertical scroll prompt at page bottom"
+ }
+ ],
+ "dos": [
+ "Use #000000 and #ffffff as the only meaningful background and text values - alternate full-bleed black and white sections to create visual rhythm",
+ "Set display headlines to 74px with NB International weight 400, line-height 0.92, letter-spacing -2.96px, letting titles stack with zero vertical gap",
+ "Use NB International Mono at 15px for year labels and technical annotations - pair flush-right with display titles",
+ "Apply 0px border-radius to every component - cards, buttons, inputs, modals, images. Sharp edges are non-negotiable",
+ "Use NB International at 10-11px with 0.14em tracking for all uppercase labels (nav items, category tags, form labels)",
+ "Separate form inputs and buttons with shared borders (input has left/top/bottom border, button is solid fill) to create a single connected control",
+ "Let the page be full-bleed with no max-width constraint - let type and image define the grid"
+ ],
+ "donts": [
+ "Do not introduce any color, gradient, or chromatic accent - the palette is strictly achromatic",
+ "Do not use border-radius on any element, including images and product cards",
+ "Do not apply box-shadow, drop-shadow, or any elevation effect - depth comes from value contrast alone",
+ "Do not center-align body copy or film titles - everything reads left-aligned",
+ "Do not use font-weight above 500 - NB International\u0027s range is restrained on purpose",
+ "Do not add decorative elements, dividers, or ornamental graphics between content blocks",
+ "Do not use a second typeface family beyond NB International Mono - the mono variant is the only permitted departure"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Paper White | `#ffffff` | Default page canvas, light section backgrounds |\n| 2 | Ash Gray | `#eeeeee` | Product image containers, subtle surface differentiation on light sections |\n| 3 | Obsidian | `#000000` | Dark section bands, full-bleed black pages, modal overlays |",
+ "elevation": "A24 uses zero shadows. Depth is created exclusively through stark value contrast - alternating full-bleed black and white bands, and high-contrast text on solid surfaces. There are no soft elevations, no card lifts, no z-axis layering cues. Every element sits flush on its surface with hard, precise edges.",
+ "imagery": "A24\u0027s visual language is photography-driven and starkly editorial. Product photography is presented on pure flat backgrounds (#eeeeee or white) with no lifestyle context, no props, no staged environment - the object is isolated and centered. Portrait photography for podcast/media features uses high-contrast black-and-white treatment, tightly cropped, filling its frame with no border or radius. Film stills and promotional imagery maintain a cinematic, high-contrast quality. There are no illustrations, no 3D renders, no abstract graphics, and no icons beyond simple line glyphs (arrow, hamburger, search, X). Icon style is strictly outlined with thin ~1.5px strokes, monochrome, matching text color. Imagery density varies by section but tends toward large singular images rather than grids of thumbnails.",
+ "layout": "Full-bleed page model with no max-width container - content stretches edge to edge. The first screen is a black band with large left-aligned film titles stacked vertically, the wordmark centered in a minimal nav above. Sections alternate between full-bleed black and full-bleed white/light-gray, creating dramatic contrast bands that define the page rhythm. Section gaps are generous (96px) to let the alternation breathe. Content arrangement is consistently left-aligned text paired with right-side image blocks (asymmetric two-column), occasionally stacking to full-width single-image bands. Product and podcast sections use a light-gray (#eeeeee) image container on the left with text content right-aligned beside it. Navigation is a minimal transparent top bar - hamburger left, logo center, search right - floating over whatever section is current. No sidebar, no mega-menu, no breadcrumbs. The scroll indicator arrow at bottom-right implies vertical continuation. Grid usage is minimal: the layout is fundamentally a series of full-width bands with internal asymmetric text+image splits, not card grids or multi-column content blocks."
+}

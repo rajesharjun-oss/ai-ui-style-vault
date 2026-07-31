@@ -1,0 +1,352 @@
+{
+ "name": "Dot Inc.",
+ "slug": "dot-inc",
+ "colors": [
+ {
+ "name": "Ember Orange",
+ "value": "#ff5a2f",
+ "token": "--color-ember-orange",
+ "role": "Primary action buttons, active badges, accent borders - the system\u0027s only chromatic voice, used to signal interactivity and emphasis"
+ },
+ {
+ "name": "Ember Orange (link variant)",
+ "value": "#f15b2b",
+ "token": "--color-ember-orange-link-variant",
+ "role": "Orange text accent for links, tags, and emphasized short phrases. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Carbon Black",
+ "value": "#000000",
+ "token": "--color-carbon-black",
+ "role": "Primary text, icons, image overlays, card headings - maximum contrast against white canvas"
+ },
+ {
+ "name": "Graphite",
+ "value": "#1f1f1f",
+ "token": "--color-graphite",
+ "role": "Headings, body emphasis, dark surface alternative - slightly softened black for large display text"
+ },
+ {
+ "name": "Slate Dark",
+ "value": "#333333",
+ "token": "--color-slate-dark",
+ "role": "List items, secondary body text, card content"
+ },
+ {
+ "name": "Stone",
+ "value": "#555555",
+ "token": "--color-stone",
+ "role": "Navigation labels, subdued body text"
+ },
+ {
+ "name": "Pewter",
+ "value": "#707070",
+ "token": "--color-pewter",
+ "role": "Muted descriptions, inactive list items, heading borders"
+ },
+ {
+ "name": "Steel",
+ "value": "#a5a5a5",
+ "token": "--color-steel",
+ "role": "Disabled or decorative text"
+ },
+ {
+ "name": "Mist",
+ "value": "#b7bfc1",
+ "token": "--color-mist",
+ "role": "Card borders, subtle button shadows - cool-tinted gray that defines container edges"
+ },
+ {
+ "name": "Cloud",
+ "value": "#cbcbcb",
+ "token": "--color-cloud",
+ "role": "Alternate card backgrounds, disabled surfaces"
+ },
+ {
+ "name": "Fog",
+ "value": "#dddddd",
+ "token": "--color-fog",
+ "role": "Neutral secondary button fill, placeholder surfaces"
+ },
+ {
+ "name": "Paper",
+ "value": "#e5e7eb",
+ "token": "--color-paper",
+ "role": "Hairline dividers, borders across all contexts - the structural neutral that separates sections"
+ },
+ {
+ "name": "Pearl",
+ "value": "#f5f5f5",
+ "token": "--color-pearl",
+ "role": "Card surfaces, subtle backgrounds, alternate section bands"
+ },
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Page background, nav surface, card fill, button text - the dominant canvas"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Plus Jakarta Sans",
+ "token": "--font-plus-jakarta-sans",
+ "role": "Sole typeface for all text - body, headings, nav, buttons, badges, icons. The wide weight range (300-800) carries the entire visual hierarchy; display sizes reach 80px at weight 300 for a light, expansive headline, while UI text sits at 14-16px weight 400-500"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.6",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.64",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.45",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.4",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "50px",
+ "1.34",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "80px",
+ "1.34",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "40px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "208",
+ "208px",
+ "`--spacing-208`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "30px"
+ ],
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "badges",
+ "20px"
+ ],
+ [
+ "images",
+ "12-20px"
+ ],
+ [
+ "buttons",
+ "30px"
+ ],
+ [
+ "headings",
+ "100px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button (Ember Fill)",
+ "role": "Main call-to-action - \u0027Find a Reseller\u0027 style"
+ },
+ {
+ "name": "Secondary Ghost Button",
+ "role": "Companion action - \u0027Request a Demo\u0027 style"
+ },
+ {
+ "name": "Neutral Pill Button",
+ "role": "Tertiary or disabled action"
+ },
+ {
+ "name": "Bordered Card",
+ "role": "Product content container"
+ },
+ {
+ "name": "Shadowed Card (elevated)",
+ "role": "Featured product showcase"
+ },
+ {
+ "name": "Hero Banner",
+ "role": "Full-width dark product showcase strip"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Page section title"
+ },
+ {
+ "name": "Badge (Ember Outline)",
+ "role": "Tag or category label"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site-wide primary navigation"
+ },
+ {
+ "name": "Breadcrumb",
+ "role": "Page location indicator"
+ },
+ {
+ "name": "Rounded Image Container",
+ "role": "Product photography frame"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline hyperlink"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #ff5a2f exclusively for primary action buttons and active state accents - it should appear on no more than 3-5 elements per viewport.",
+ "Set border-radius to 20px for cards and images, 30px for buttons and badges, and 12-20px for inline images.",
+ "Use Plus Jakarta Sans weight 300 or 400 for headlines 40px and above to maintain the light, spacious typographic feel.",
+ "Apply 1px #e5e7eb borders for all card and section dividers - never use heavier borders or decorative lines.",
+ "Space sections with 80px vertical gaps and use 24px for inter-element gaps within cards and lists.",
+ "Keep backgrounds white (#ffffff) as the default canvas; use #f5f5f5 only for alternating content bands or subtle card elevation.",
+ "Reserve the shadow token rgba(0,0,0,0.25) 0px 4px 10px 0px for the single primary CTA button per view."
+ ],
+ "doNot": [
+ "Do not introduce additional chromatic colors - the system\u0027s identity depends on the 2% colorfulness ceiling.",
+ "Do not use border-radius below 8px for any interactive element; the soft, rounded geometry is a core brand trait.",
+ "Do not apply shadows to cards, images, or navigation - only the primary CTA may have elevation.",
+ "Do not use #000000 for body text at sizes above 20px; switch to #1f1f1f for large headings to avoid harshness.",
+ "Do not use bold (weight 700-800) for body or heading text - reserve weights 700-800 for short labels or tags only.",
+ "Do not create flat hard-edged rectangular blocks; every container needs 20-30px radius.",
+ "Do not use gradients - the system is entirely flat with single solid color fills."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/4bcd0728-0d28-4835-ba9f-d61554f797b1",
+ "referenceSite": "https://pad.dotincorp.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:24:50.940Z",
+ "articleModifiedAt": "2026-06-05T09:19:14.588Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0142ed27-2db9-4d33-bee6-dce662a6a706.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/0f8e132d-859b-44a2-95d6-4f8cb9929c7f.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/632d023b-af5c-448c-9c43-9e5cf721d014.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/71182e73-3cc8-4b4a-8886-9b2f9d5e7362.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/23c26f74-d0dc-45c5-a504-e1d417fc7a90.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/37538068-4f2b-4be9-b23b-920875b25a4f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/f811a6c8-858f-43c4-a1d6-e382904c16c9.png"
+ }
+ }
+}

@@ -1,0 +1,312 @@
+{
+ "id": "e8eda526-d686-4e45-a60d-61b6503a8eda",
+ "name": "Daniel van der Winden",
+ "slug": "daniel-van-der-winden",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e8eda526-d686-4e45-a60d-61b6503a8eda",
+ "referenceSite": "https://www.daniel.pizza",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:05:33.966Z",
+ "articleModifiedAt": "2026-06-05T07:33:33.320Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0ed78e04-ff2a-409f-8580-3f1f69e9567c.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/0a007405-ba43-4d92-96e9-d7acbdb69452.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/db256e01-1346-4fc0-bc6a-245c6c49f535.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4ce73c33-458c-480c-9f0f-e1cd8a16c396.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8b933cec-eae0-4407-92ee-71e2c69da48e.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/52a53832-06d7-47f2-8b33-6505699eeaac.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/ac113b1c-a820-4e2a-a2bc-abac92a60f88.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Printed monograph on vellum",
+ "summary": "Explore Daniel van der Winden\u0027s light Agency design system: Vellum #e5e7eb, Ink Black #111827 colors, Degular, Blanco typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Vellum",
+ "value": "#e5e7eb",
+ "token": "--color-vellum",
+ "role": "Page canvas, hairline dividers, link underlines, card-edge borders - the warm-gray field that holds all content"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#111827",
+ "token": "--color-ink-black",
+ "role": "Primary text, nav links, body copy - the default reading color"
+ },
+ {
+ "name": "Graphite",
+ "value": "#374151",
+ "token": "--color-graphite",
+ "role": "Secondary body text, list items, supporting copy - one step lighter than primary ink"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#2a2a28",
+ "token": "--color-charcoal",
+ "role": "Headings and editorial emphasis - slightly warm dark for serif display"
+ },
+ {
+ "name": "Stone",
+ "value": "#717272",
+ "token": "--color-stone",
+ "role": "Tertiary text, icon fills, meta labels"
+ },
+ {
+ "name": "Pebble",
+ "value": "#909191",
+ "token": "--color-pebble",
+ "role": "Muted body text, image captions, fine print"
+ },
+ {
+ "name": "Ash",
+ "value": "#c4c6c8",
+ "token": "--color-ash",
+ "role": "Rarely-used border, subtle structural separator"
+ },
+ {
+ "name": "Slate",
+ "value": "#7b7c7c",
+ "token": "--color-slate",
+ "role": "Subdued heading variant, de-emphasized titles"
+ },
+ {
+ "name": "Pressed Ink",
+ "value": "#222222",
+ "token": "--color-pressed-ink",
+ "role": "Primary action button fill - the only dark surface on the canvas, creating the only moment of visual weight"
+ },
+ {
+ "name": "Midnight",
+ "value": "#1a202c",
+ "token": "--color-midnight",
+ "role": "Secondary dark surface, alternate button fill"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Degular",
+ "token": "--font-degular",
+ "role": "UI and body sans - navigation, buttons, body copy, metadata, links, tags, resume dates. Carries all functional text. Weights step from 400 body to 700 for emphasis in headings and dates."
+ },
+ {
+ "name": "Blanco",
+ "token": "--font-blanco",
+ "role": "Editorial serif - hero headline, resume role titles, section headings, and any text that should read as \u0027published\u0027 rather than \u0027navigational\u0027. Single weight 400, letting size and the serif\u0027s own authority carry hierarchy."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.5",
+ "0.1px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.4",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "28px",
+ "1.4",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "32px",
+ "1.25",
+ "0.025px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "40px",
+ "1.25",
+ "0.025px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "720px",
+ "sectionGap": "64px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "3px"
+ ],
+ [
+ "tags",
+ "3px"
+ ],
+ [
+ "cards",
+ "3px"
+ ],
+ [
+ "images",
+ "3px"
+ ],
+ [
+ "buttons",
+ "3px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Sidebar Nav",
+ "role": "Persistent left rail navigation"
+ },
+ {
+ "name": "Email Me Button",
+ "role": "Primary and only action on the page"
+ },
+ {
+ "name": "Social Link Row",
+ "role": "Secondary contact links beside the primary action"
+ },
+ {
+ "name": "Photo Collage Block",
+ "role": "Hero visual element overlapping the text column"
+ },
+ {
+ "name": "Resume Entry",
+ "role": "Date-anchored experience block"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Editorial section title"
+ },
+ {
+ "name": "External Link with Arrow",
+ "role": "Outbound link indicator"
+ },
+ {
+ "name": "Nav Link",
+ "role": "Text-only navigation item"
+ },
+ {
+ "name": "Body Text Block",
+ "role": "Prose paragraph for bio and descriptions"
+ }
+ ],
+ "dos": [
+ "Use #e5e7eb as the only surface; never introduce a white card or alternate background.",
+ "Pair Blanco 400 for all headings and titles; reserve Degular for UI, body, and metadata.",
+ "Use the single dark fill (#222222) for exactly one action per viewport - scarcity makes it land.",
+ "Set border-radius to 3px for images, buttons, and tags; 8px is reserved for larger interactive surfaces.",
+ "Anchor resume entries with date labels in the narrow left column, titles in the right - never inline.",
+ "Let photographs overlap the text column; avoid placing images in rigid boxed containers.",
+ "Set body text at 18px Degular 400 #374151 with 1.5 line-height; this is the reading rhythm of the entire site."
+ ],
+ "donts": [
+ "Do not introduce chromatic color - the 3% colorfulness is deliberate, not a limitation to fix.",
+ "Do not add shadows, gradients, or glow effects; elevation is achieved through fill contrast only.",
+ "Do not use Blanco for body text or nav; it is a display face, not a reading face.",
+ "Do not create card containers with backgrounds or borders for content blocks - content sits directly on the vellum.",
+ "Do not use 9999px pill radius; this system\u0027s 3px radius is a quiet, bookish choice.",
+ "Do not bold body text for emphasis; use size, color, or the Blanco/Degular font swap instead.",
+ "Do not center-align body paragraphs; left-align at a fixed reading width to preserve the editorial column."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Vellum Field | `#e5e7eb` | The entire page sits on this warm gray; no separate card surface exists |\n| 1 | Pressed Ink Surface | `#222222` | The email button and any filled action - the only surface that breaks the monochrome field |",
+ "elevation": "Elevation is deliberately absent. The design relies on overlapping content and hairline rules rather than shadows or z-axis differentiation. Buttons gain weight through fill, not depth.",
+ "imagery": "Photography is editorial and documentary: black-and-white or desaturated workspace interiors, portrait shots, and detail crops. Images are treated as collaged inserts that overlap the text column, sitting directly on the vellum with only a subtle 3px corner radius - no borders, no shadows, no captions. The visual language is print-magazine, not SaaS product showcase: tight crops, natural lighting, human subjects. The site uses no illustrations, no abstract graphics, no 3D renders. Icons appear only in social links and are minimal monoline SVGs. The overall image-to-text ratio is low - text dominates, with images used as anchoring accents rather than decorative atmosphere.",
+ "layout": "Fixed-width editorial layout. A narrow left sidebar (~180px) holds the wordmark at top and a vertical stack of nav links at bottom, fixed to the viewport. The main content column is centered-right, constrained to ~600-720px reading width, with generous whitespace on either side. The hero is an overlapping photo collage on the left bleeding into the intro text on the right - two zones share the same horizontal band rather than stacking. Below, sections flow as single-column prose with resume entries using a two-column date/title split. There are no multi-column card grids, no alternating bands, no dark sections - the entire page is one continuous vellum field from top to bottom. Navigation is sidebar-only; no top bar, no sticky header beyond the sidebar itself."
+}

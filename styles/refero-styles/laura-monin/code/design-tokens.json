@@ -1,0 +1,200 @@
+{
+ "name": "Laura Monin",
+ "slug": "laura-monin",
+ "colors": [
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, card surfaces, image borders, nav backgrounds - the only surface tone in the system"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, all border outlines on images and nav, list markers - the sole chromatic anchor"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "title",
+ "token": "--font-title",
+ "role": "Display serif used exclusively for the brand title and hero headlines. The custom serif - with its high contrast strokes and slightly condensed forms - carries all brand identity. Letter-spacing of -0.018em tightens the large caps just enough to feel deliberate without becoming stiff. A close substitute would be a transitional or didone-style serif like \u0027GT Sectra Display\u0027 or free options \u0027Playfair Display\u0027 / \u0027DM Serif Display\u0027"
+ },
+ {
+ "name": "neue-haas-grotesk-display",
+ "token": "--font-neue-haas-grotesk-display",
+ "role": "All UI, navigation, captions, metadata, and body-adjacent text. Geometric grotesque at a single weight (400) - the system deliberately avoids bold/light contrast, using size and placement to create hierarchy instead. Use \u0027Inter\u0027 or \u0027Neue Haas Grotesk\u0027 itself (free via Adobe) as substitutes"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.15",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.2",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "58px",
+ "1.2",
+ "-1.04px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "158px",
+ "1.2",
+ "-2.84px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "0px",
+ "elementGap": "7-12px",
+ "scale": [
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "29",
+ "29px",
+ "`--spacing-29`"
+ ],
+ [
+ "37",
+ "37px",
+ "`--spacing-37`"
+ ],
+ [
+ "182",
+ "182px",
+ "`--spacing-182`"
+ ],
+ [
+ "236",
+ "236px",
+ "`--spacing-236`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Image Tile",
+ "role": "Scattered photography containers - the primary content unit"
+ },
+ {
+ "name": "Image Overlay Caption",
+ "role": "Label text positioned over or adjacent to image tiles"
+ },
+ {
+ "name": "Display Title",
+ "role": "Hero brand title - the dominant visual element of the page"
+ },
+ {
+ "name": "Navigation Link",
+ "role": "Top-bar navigation items (INDEX, INFOS, ARCHIVES)"
+ },
+ {
+ "name": "Wordmark/Brand Mark",
+ "role": "Site identity in the top-left"
+ },
+ {
+ "name": "Section Label",
+ "role": "Small text used for project names and collection titles overlaid on images"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use only #ffffff and #000000 for all surfaces, text, and borders - never introduce a third color",
+ "Set the hero display title at 58-158px in the custom serif with letter-spacing -0.018em; this scale is non-negotiable for the editorial feel",
+ "Use neue-haas-grotesk-display at weight 400 only - never bold, never light - for all UI text at 12/14/18/22px",
+ "Maintain 200-300px vertical spacing between major page sections to preserve the gallery-wall breathing room",
+ "Keep all border-radius at 0px - every container, image, and button is perfectly rectangular",
+ "Place image tiles in an asymmetric scatter, not a uniform grid - irregular positioning is the layout signature",
+ "Use generous negative space (60%+ of the viewport) rather than packing content into the available area"
+ ],
+ "doNot": [
+ "Do not add drop shadows, glows, or any box-shadow to any element - the design is intentionally flat",
+ "Do not use rounded corners (border-radius \u003e 0) on any image, card, or button",
+ "Do not introduce accent colors, gradients, or background fills - the system is strictly black on white",
+ "Do not use bold or semibold weights for UI text - weight 400 at all sizes is the rule",
+ "Do not align images to a uniform grid with equal gutters - the asymmetric scatter is the layout identity",
+ "Do not add hover animations, transitions, or micro-interactions to navigation or links",
+ "Do not use sans-serif or grotesque fonts for headlines or display text - the serif carries all brand weight"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/2b9e90ad-51d9-4f29-8f7e-a343dc741eab",
+ "referenceSite": "https://lauramonin.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:56:30.973Z",
+ "articleModifiedAt": "2026-06-05T08:18:20.090Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ccea37f7-840d-41f6-aa51-92a0b8847914.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/f855a464-3b2a-4e31-a3a8-30ac5b6832f1.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/153b17b3-633c-4310-a5e1-5064a0f682d5.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/52d0ffd4-5b69-4fb9-a4f8-89b801dc457a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/66e66a20-e555-448e-8e3a-2ea1ef6b47c5.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/74d1ae97-27a7-4666-bfce-3ad3dbd11b2d.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ }
+}

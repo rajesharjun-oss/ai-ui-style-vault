@@ -1,0 +1,261 @@
+{
+ "id": "523d3e7b-b0a2-4979-a626-00f1487b6e4d",
+ "name": "Drepute",
+ "slug": "drepute",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/523d3e7b-b0a2-4979-a626-00f1487b6e4d",
+ "referenceSite": "https://drepute.xyz",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:57:17.023Z",
+ "articleModifiedAt": "2026-06-05T09:52:49.352Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8f35f4a1-6453-436b-a15b-7d772178d555.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a6d0b947-27c3-420e-b5b7-57c8aaf89f66.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/24d72746-9bac-47f2-bfc8-0d94045f5cc0.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/0f99f9ab-bdce-406f-b934-84fae9fb65ae.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/bfda2a82-524d-48af-842f-aead165c0b11.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/70bb36dc-e92c-4b6b-82eb-8d6505a91e2b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/d40f7ef3-ee6d-4363-a560-2a275ce11450.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "midnight observatory over still water - a single sentence floats beneath a field of stars",
+ "summary": "Explore Drepute\u0027s dark Other design system: Pure White #ffffff, Deep Ink #000000 colors, Source Sans Pro, Playfair Display typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary text on dark hero, input fills, light surfaces"
+ },
+ {
+ "name": "Deep Ink",
+ "value": "#000000",
+ "token": "--color-deep-ink",
+ "role": "Dominant text and border color across body, nav, and dividers"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#161616",
+ "token": "--color-obsidian",
+ "role": "Dark canvas and hero surface - the page\u0027s atmospheric base"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#bfbfbf",
+ "token": "--color-ash-gray",
+ "role": "Subtle input borders, ghost box-shadows, disabled hairlines"
+ },
+ {
+ "name": "Fog",
+ "value": "#a9a9a9",
+ "token": "--color-fog",
+ "role": "Secondary body text, muted borders, low-emphasis dividers"
+ },
+ {
+ "name": "Steel",
+ "value": "#7f8080",
+ "token": "--color-steel",
+ "role": "Navigation and link borders, tertiary text on light surfaces"
+ },
+ {
+ "name": "Slate Blue",
+ "value": "#8995a9",
+ "token": "--color-slate-blue",
+ "role": "Outlined ghost-button border - the only chromatic interactive treatment"
+ },
+ {
+ "name": "Lagoon Teal",
+ "value": "#00a4a6",
+ "token": "--color-lagoon-teal",
+ "role": "Sole accent - link border, indicating the single interactive edge in the system"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Source Sans Pro",
+ "token": "--font-source-sans-pro",
+ "role": "Workhorse sans for body, buttons, nav, inputs, and all UI microcopy; weight 700 reserved for emphasis"
+ },
+ {
+ "name": "Playfair Display",
+ "token": "--font-playfair-display",
+ "role": "Display serif for hero headlines (\u0027Launching Soon\u0027) - the single expressive type voice; weight 400 italic-leaning elegance rather than bold"
+ },
+ {
+ "name": "Montserrat",
+ "token": "--font-montserrat",
+ "role": "Wordmark only - \u0027DREPUTE\u0027 set wide at 0.154em to function as a typographic constellation above the hero"
+ },
+ {
+ "name": "GD Sherpa",
+ "token": "--font-gd-sherpa",
+ "role": "Custom brand secondary; deployed alongside Source Sans Pro for select links and image overlays"
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "Times - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.5",
+ "1px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "0.07px",
+ "--text-body"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.2",
+ "4px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "44px",
+ "1.25",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "62px",
+ "1.2",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "56px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "4px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Full-Bleed Hero",
+ "role": "Atmospheric landing surface"
+ },
+ {
+ "name": "Wordmark Lockup",
+ "role": "Brand identity element"
+ },
+ {
+ "name": "Ghost Outlined Button",
+ "role": "Outlined call-to-action"
+ },
+ {
+ "name": "Minimal Link",
+ "role": "Inline navigation link"
+ },
+ {
+ "name": "Top Notification Bar",
+ "role": "Slim promotional strip"
+ },
+ {
+ "name": "Text Input Field",
+ "role": "Form input for email/name capture"
+ },
+ {
+ "name": "Subscribe Form Block",
+ "role": "Email capture below the hero"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Visual break between dark hero and light content"
+ },
+ {
+ "name": "Chat Widget Bubble",
+ "role": "Floating support affordance"
+ }
+ ],
+ "dos": [
+ "Use Playfair Display weight 400 exclusively for display text - never go above weight 400; the lightness is the luxury.",
+ "Set the wordmark in Montserrat 700 with 0.154em letter-spacing - this tracking is the brand\u0027s signature and must not be reduced.",
+ "Keep the canvas at #161616 for all dark surfaces and reserve #ffffff for light sections below the fold.",
+ "Use 4px radius on every rounded element - buttons, inputs, cards. The system has no soft corners.",
+ "Anchor headlines at 56px+ on Playfair Display and pair with Source Sans Pro 14-16px for all supporting text.",
+ "Use 24px column gaps and 24px element padding as the default rhythm; 56px vertical section padding for hero-style blocks.",
+ "Let the teal #00a4a6 appear only as a single link border - never as a fill, button background, or large surface."
+ ],
+ "donts": [
+ "Do not add shadows, gradients, or glows to any component - the system is flat and photographic.",
+ "Do not introduce pills, circles, or any radius above 4px.",
+ "Do not use color fills on buttons - all actions are ghost/outlined with border-only treatment.",
+ "Do not use Playfair Display below 44px - it is a display face, not a body face.",
+ "Do not place body text directly over the hero photograph without a #161616 backing layer - contrast must remain AAA.",
+ "Do not add more than one chromatic accent - the teal is singular; adding another color breaks the cinematic restraint.",
+ "Do not use bold (600+) on the wordmark - weight 700 is the ceiling, and it only applies to Montserrat."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Hero Canvas | `#161616` | Full-bleed dark surface hosting the photographic hero and headline |\n| 1 | Page Canvas | `#ffffff` | Light surface below the fold for form sections and footer |\n| 2 | Input Surface | `#ffffff` | Form field fills against the dark background |",
+ "elevation": "- **Chat Widget:** `0 0 0 1px rgba(191,191,191,0.3)`",
+ "imagery": "Imagery is singular and cinematic: one full-bleed photographic hero dominates the page. The photograph - a night-sky alpine landscape with mountain silhouettes and a glass-still lake reflection - is high-contrast, dark/moody, and occupies 100% of the viewport. There is no other photography, no illustrations, no product shots, no decorative graphics. The image is the entire visual identity. Icon style is minimal and line-based (single chat bubble). The site is overwhelmingly text-dominant everywhere except the hero, where text is reduced to a single sentence beneath a constellation of stars.",
+ "layout": "The page model is a full-bleed vertical stack with no max-width container. The hero is a single full-viewport-height section: photographic background, centered wordmark at top, centered headline in the vertical middle. Below the hero, the layout collapses to centered single-column content - a subscribe form, a divider, and footer text - all stacked with 56px vertical breathing room. Navigation is minimal: the top bar is a single notification strip, and the wordmark serves as the only persistent brand element. No sidebar, no grid, no card layouts. The chat widget floats absolutely in the bottom-right corner. The overall rhythm is: one overwhelming image, then silence."
+}

@@ -1,0 +1,246 @@
+{
+ "name": "Maelan Le Meur",
+ "slug": "maelan-le-meur",
+ "colors": [
+ {
+ "name": "Parchment",
+ "value": "#eee9cc",
+ "token": "--color-parchment",
+ "role": "Primary canvas and card surface - the warm bone tone that carries all body content, tables, and quiet sections"
+ },
+ {
+ "name": "Aged Linen",
+ "value": "#cecab1",
+ "token": "--color-aged-linen",
+ "role": "Secondary surface and muted text - slightly deeper parchment for sub-surfaces, helper text, and table headers"
+ },
+ {
+ "name": "Tobacco Brown",
+ "value": "#674825",
+ "token": "--color-tobacco-brown",
+ "role": "Chapter-break sections and featured band backgrounds - rich warm umber that anchors the page\u0027s heaviest typographic moments"
+ },
+ {
+ "name": "Midnight Espresso",
+ "value": "#1e1915",
+ "token": "--color-midnight-espresso",
+ "role": "Full-bleed dark sections and navigation background - the near-black that creates the page\u0027s dramatic section breaks"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#111111",
+ "token": "--color-ink-black",
+ "role": "Primary text and hairline rules - the deepest tone for body copy, headings, table content, and footer dividers"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "PP Neue Montreal",
+ "token": "--font-pp-neue-montreal",
+ "role": "The sole typeface across the entire system - used at every size from 15px captions to 317px display words. Weight stays at 400 throughout, so hierarchy is built purely through scale, whitespace, and the choice of dark or light ground. This single-weight restraint is the signature: no bold, no italic, no medium - just one calm voice that gets larger or smaller depending on how much the page wants to say. Substitute with Inter or Sohne for similar geometric neutrality."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "15px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "26px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "30px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "58px",
+ "0.95",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "115px",
+ "0.95",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "225px",
+ "0.95",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "317px",
+ "0.95",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "40px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "210",
+ "210px",
+ "`--spacing-210`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "links",
+ "40px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Full-Bleed Dark Section",
+ "role": "Chapter-break bands that segment the portfolio"
+ },
+ {
+ "name": "Display Heading Block",
+ "role": "Hero and section statement typography"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent site navigation"
+ },
+ {
+ "name": "Text Navigation Link",
+ "role": "All interactive navigation throughout the site"
+ },
+ {
+ "name": "Section Label Heading",
+ "role": "Category headers within the portfolio grid"
+ },
+ {
+ "name": "Quote / Manifesto Block",
+ "role": "Large typographic statement sections"
+ },
+ {
+ "name": "Project Table",
+ "role": "Portfolio listing of works"
+ },
+ {
+ "name": "Table Row",
+ "role": "Individual project entry"
+ },
+ {
+ "name": "Featured Band Header",
+ "role": "Page title section with warm color background"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use PP Neue Montreal 400 at every size - never introduce bold, medium, or italic weights; the single-weight restraint is the signature",
+ "Set all large display text (58px+) with line-height 0.95 to create the tight, architectural rhythm",
+ "Apply 210px vertical padding to full-bleed section bands to create the gallery-wall breathing room",
+ "Use #1e1915 and #674825 as full-bleed chapter breaks - never as card or component backgrounds",
+ "Let display type bleed off the right viewport edge without a max-width container",
+ "Build all navigation as typographic text links at 15-16px uppercase - no buttons, no pills, no fills",
+ "Separate table rows with 1px #111111 hairlines - never use row backgrounds or zebra striping"
+ ],
+ "doNot": [
+ "Do not introduce accent colors, gradients, or chromatic highlights - the warm earth palette is the entire system",
+ "Do not add shadows, elevations, or depth effects to any component - the design is intentionally flat",
+ "Do not use rounded corners on cards, inputs, or containers - the only radius is 40px, reserved for link hit areas",
+ "Do not set a max-width on hero or display sections - the type is meant to crop at the viewport edge",
+ "Do not use color to indicate interactive states - links remain typographically identical across hover, active, and visited",
+ "Do not add icons, badges, or decorative graphics inside text blocks - the typographic hierarchy carries all meaning",
+ "Do not use line-height above 1.20 for any heading or display size - tight leading is essential to the editorial feel"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/ea0d7b5a-c887-4b6b-9260-6ca4d1fd7caa",
+ "referenceSite": "https://maelanlemeur.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-02-24T10:57:00.000Z",
+ "articleModifiedAt": "2026-06-05T11:06:32.550Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/24b14217-5d8c-4993-adb1-b5e87a72d290.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/68d351e5-a3db-47b2-bb07-fd957e12778c.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ccb404fe-104f-498e-8eda-d5e01df40c4c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/37539a81-9065-4d40-82ed-7bfaf81a461b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/bb7a10db-7dde-42d7-b234-3dc7b52d96a7.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/986defa8-b4a4-4ec2-97ac-3ae67892ae2d.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/8a48605d-78d6-4eae-9a84-e1fa7e07f738.png"
+ }
+ }
+}

@@ -1,0 +1,352 @@
+{
+ "name": "Sackville",
+ "slug": "sackville",
+ "colors": [
+ {
+ "name": "Cream Paper",
+ "value": "#f3f4ee",
+ "token": "--color-cream-paper",
+ "role": "Page canvas, card surfaces - the warm off-white that makes every ink color feel like print"
+ },
+ {
+ "name": "Bone White",
+ "value": "#f8f8f8",
+ "token": "--color-bone-white",
+ "role": "Alternate surface wash, subtle section differentiation from the cream canvas"
+ },
+ {
+ "name": "Press Black",
+ "value": "#231f20",
+ "token": "--color-press-black",
+ "role": "Primary text, borders, dividers, icon strokes - the near-black ink that anchors every screen"
+ },
+ {
+ "name": "Charcoal Headline",
+ "value": "#383435",
+ "token": "--color-charcoal-headline",
+ "role": "Display heading text - slightly lifted from press black for softer masthead weight"
+ },
+ {
+ "name": "Mid Gray",
+ "value": "#9a9a9a",
+ "token": "--color-mid-gray",
+ "role": "Muted helper text, hairline borders, secondary metadata"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Icon fills, maximum-contrast borders, nav accent"
+ },
+ {
+ "name": "Cobalt Ink",
+ "value": "#245dc5",
+ "token": "--color-cobalt-ink",
+ "role": "Primary brand color - illustrated duotone wash, outlined action borders, interactive text - saturated blue against cream creates the risograph-print signature"
+ },
+ {
+ "name": "Peach Wash",
+ "value": "#ffc6a6",
+ "token": "--color-peach-wash",
+ "role": "Secondary illustration accent, decorative borders, warm tonal fill - the cheek-pink of risograph layering"
+ },
+ {
+ "name": "Fire Red",
+ "value": "#f04736",
+ "token": "--color-fire-red",
+ "role": "Outlined action borders, emphasis strokes, error-like accent - used as editorial red rather than as a functional error state"
+ },
+ {
+ "name": "Vermillion",
+ "value": "#f52302",
+ "token": "--color-vermillion",
+ "role": "Deep red-orange accent for borders and fills - the warmest ink in the riso palette"
+ },
+ {
+ "name": "Crimson",
+ "value": "#d42121",
+ "token": "--color-crimson",
+ "role": "Deep red accent - used sparingly in illustration washes and emphasis borders"
+ },
+ {
+ "name": "Marigold",
+ "value": "#feee71",
+ "token": "--color-marigold",
+ "role": "Yellow accent fill, spot-color highlights, decorative emphasis - the third riso plate"
+ },
+ {
+ "name": "Terracotta",
+ "value": "#b45e42",
+ "token": "--color-terracotta",
+ "role": "Warm brown accent for body and heading borders - the earthiest ink in the editorial palette"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "FoundersGrotesk",
+ "token": "--font-foundersgrotesk",
+ "role": "Workhorse type for everything from body to display - single weight 400 with no bold variants means hierarchy is created purely through size, line-height, and letter-spacing, not weight contrast. The aggressive negative line-heights (0.80 at 130px) create magazine-cover masthead pressure. Substitute: Neue Haas Grotesk, Inter, Sohne."
+ },
+ {
+ "name": "TimesNow SemiLight",
+ "token": "--font-timesnow-semilight",
+ "role": "Editorial serif contrast for select headings and navigation - a humanist serif breaks the grotesque monotony at key moments, creating the magazine-section-divider effect. Substitute: Times Now, Tiempos, Source Serif."
+ },
+ {
+ "name": "Sackville Script (hand-drawn wordmark)",
+ "token": "--font-sackville-script-hand-drawn-wordmark",
+ "role": "Custom hand-inked cursive used only for the brand wordmark - overlaid on illustrations and hero compositions. Not a UI font. No substitute; this is the signature mark."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "16px",
+ "1.3",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "22px",
+ "1.3",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "25px",
+ "1.15",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "29px",
+ "1.15",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "34px",
+ "1",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "47px",
+ "0.94",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "72px",
+ "0.85",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "99px",
+ "0.85",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "130px",
+ "0.8",
+ "-",
+ "--text-display-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "43px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "21",
+ "21px",
+ "`--spacing-21`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "43",
+ "43px",
+ "`--spacing-43`"
+ ],
+ [
+ "58",
+ "58px",
+ "`--spacing-58`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px (square tags only)"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "buttons",
+ "50px"
+ ],
+ [
+ "ovalButtons",
+ "81px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Age-Gate Oval Button (Primary Action)",
+ "role": "The signature interactive element - a fully oval outlined button that replaces a conventional filled CTA"
+ },
+ {
+ "name": "Secondary Text Link (I\u0027m Under 21)",
+ "role": "Text-only fallback option below the primary oval button"
+ },
+ {
+ "name": "Age Verification Eyebrow",
+ "role": "The question prompt above the age-gate button"
+ },
+ {
+ "name": "Hand-Drawn Wordmark",
+ "role": "Brand identity mark overlaid on hero illustrations"
+ },
+ {
+ "name": "Duotone Illustration Panel",
+ "role": "Full-bleed editorial artwork that dominates hero and section compositions"
+ },
+ {
+ "name": "Section Divider Rule",
+ "role": "Horizontal separator between content sections"
+ },
+ {
+ "name": "Product Card",
+ "role": "E-commerce or collection grid item"
+ },
+ {
+ "name": "Editorial Headline Block",
+ "role": "Magazine-style display heading for section titles and hero copy"
+ },
+ {
+ "name": "Riso-Color Border Accent",
+ "role": "Decorative border in secondary palette colors"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Cobalt Ink (#245dc5) as the outlined action border for all primary interactive elements - never fill a button with it; the outline is the brand\u0027s signature",
+ "Set display type at 72px+ with line-height 0.80-0.85 to create the magazine-masthead compression that defines the system\u0027s editorial weight",
+ "Let the cream canvas (#f3f4ee) show - do not cover it with white surfaces or dark mode equivalents; the warm paper tone is the brand\u0027s foundation",
+ "Use the riso accent palette (Peach Wash, Fire Red, Marigold, Vermillion, Terracotta) only in illustration washes, decorative borders, and spot-color emphasis - never as functional UI fills for buttons, badges, or states",
+ "Reserve TimesNow SemiLight for at most one or two heading moments per page - it breaks the grotesque monotony and should feel like a rare editorial interruption",
+ "Keep the wordmark as a hand-drawn asset overlaid on illustration panels - do not re-create it in a web font or place it on flat surfaces without imagery",
+ "Use the 81px radius exclusively for the age-gate oval and any other large interactive prompts - the stretched ellipse is a system signature, not a default"
+ ],
+ "doNot": [
+ "Do not fill any button with Cobalt Ink, Fire Red, or any chromatic color - the system is outlined-action only; filled buttons would break the zine aesthetic",
+ "Do not introduce box-shadows, drop-shadows, or any elevation effects - the design is flat by principle; depth comes from color contrast and illustration density, not from blur or offset",
+ "Do not use a white (#ffffff) canvas - the cream (#f3f4ee) is warmer and is the reason the ink colors read as print rather than screen",
+ "Do not set body text in the serif TimesNow SemiLight - it is a display contrast font only; body copy stays in FoundersGrotesk 400",
+ "Do not apply bold or semibold weights - the type system is single-weight (400) by design; hierarchy is size and line-height, never weight",
+ "Do not round cards or images beyond 10px - the 50px and 81px radii are reserved for buttons and the oval action; everything else stays close to sharp",
+ "Do not add gradients, blurs, or glow effects to any element - the palette is risograph-flat; any smooth tonal transition breaks the print illusion"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/8a3d3f72-9ef0-466d-adde-77189ddff797",
+ "referenceSite": "https://sackville.co",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:21:06.772Z",
+ "articleModifiedAt": "2026-06-05T08:51:42.721Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/eaae9ee2-5369-4e65-80db-7b0b2aa76290.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e65fd0ec-2503-49c9-abf7-2ba057f84477.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4bb9c159-1139-4bd6-b235-acc81ec99df3.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/f3ae838f-41ec-4348-86bc-29bb35c156b5.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/5db3dc41-c3f9-4fa0-98f9-b7af926a7655.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/cb208b4f-ced2-49bf-bbe3-cce7ec984ced.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/4ab8fe0f-a06b-4fce-9a3f-7e3c1080bd55.png"
+ }
+ }
+}

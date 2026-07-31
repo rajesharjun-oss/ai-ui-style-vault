@@ -1,0 +1,275 @@
+{
+ "name": "Transform",
+ "slug": "transform",
+ "colors": [
+ {
+ "name": "Blush Cardstock",
+ "value": "#f4ede9",
+ "token": "--color-blush-cardstock",
+ "role": "Page background, nav surface, dominant canvas - the warm paper everything sits on"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, section headings, hairline borders, icon strokes"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Card surface, dark-section text, button labels on chromatic fills"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#d9d9d9",
+ "token": "--color-ash-gray",
+ "role": "Alternate card surface when a quieter neutral block is needed"
+ },
+ {
+ "name": "Steel Gray",
+ "value": "#767676",
+ "token": "--color-steel-gray",
+ "role": "Muted input borders, secondary helper strokes"
+ },
+ {
+ "name": "Festival Violet",
+ "value": "#340068",
+ "token": "--color-festival-violet",
+ "role": "Full-bleed section bands, secondary filled CTA, footer background - heavy, immersive, sets the serious stage"
+ },
+ {
+ "name": "Spotlight Magenta",
+ "value": "#fb00c2",
+ "token": "--color-spotlight-magenta",
+ "role": "Primary filled CTA (DONATE), pull-quote text, heading borders, interactive emphasis - the loudest ink, reserved for moments that demand attention"
+ },
+ {
+ "name": "Curtain Orange",
+ "value": "#ff1e00",
+ "token": "--color-curtain-orange",
+ "role": "Pull-quote attribution, decorative heading borders - the warm third color that gives the palette a poster-like three-ink depth"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Walsheim",
+ "token": "--font-walsheim",
+ "role": "Single-family type system used for everything from nav to display; the broad weight range (400-900) carries the entire tonal system so color never has to shout alone"
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "16px",
+ "1.45",
+ "-0.32px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.45",
+ "-0.36px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.38",
+ "-0.44px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.38",
+ "-0.48px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.2",
+ "-0.8px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1.1",
+ "-1.12px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "80px",
+ "1",
+ "-1.6px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "16px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "50px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "links",
+ "50px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Magenta CTA",
+ "role": "Donate and other high-priority filled action buttons"
+ },
+ {
+ "name": "Secondary Violet CTA",
+ "role": "Lower-priority filled action, event recaps, dark-band call-to-action"
+ },
+ {
+ "name": "Ghost Navigation Link",
+ "role": "Primary nav items, inline text links"
+ },
+ {
+ "name": "Header Bar",
+ "role": "Persistent top navigation across all pages"
+ },
+ {
+ "name": "Hero Stage Panel",
+ "role": "Above-the-fold performance introduction"
+ },
+ {
+ "name": "Pull-Quote Band",
+ "role": "Editorial testimonials, press quotes, voice-of-the-festival moments"
+ },
+ {
+ "name": "Section Heading Block",
+ "role": "Introduces news, archive, programme, and content grids"
+ },
+ {
+ "name": "News Card",
+ "role": "Editorial card in content grids (news, opportunities, archive)"
+ },
+ {
+ "name": "Input Field",
+ "role": "Newsletter, search, and form fields"
+ },
+ {
+ "name": "Outlined Social Icon",
+ "role": "Instagram, Facebook, ticket-link icons in header and footer"
+ },
+ {
+ "name": "Page Footer",
+ "role": "Site-wide closing band"
+ },
+ {
+ "name": "Pill Link Chip",
+ "role": "Tag, category, or filterable inline link"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Walsheim 700-900 for all headings and display text - never below 700, the heavy weight is the brand\u0027s voice",
+ "Use 50px border-radius only on pill chips and link tags, and 0px on everything else - the radius dichotomy is intentional",
+ "Use -0.02em tracking across every size; do not relax it on display headlines",
+ "Anchor the page on the Blush Cardstock (#f4ede9) canvas; let dark sections earn their place as full-bleed bands",
+ "Reserve Spotlight Magenta (#fb00c2) for primary CTAs and editorial emphasis; never use it as a passive background",
+ "Keep the palette to three chromatic accents plus the cream/black/white neutrals; resist adding more colors",
+ "Use full-bleed photographs as section backgrounds with no gradient overlay or border"
+ ],
+ "doNot": [
+ "Do not introduce shadows, glows, or blur effects - depth is built through flat color, not elevation",
+ "Do not use thin or light weights (under 700) for headings or display text",
+ "Do not round cards, buttons, or images - only pills get radius",
+ "Do not use Curtain Orange (#ff1e00) for buttons or CTAs - it is a decorative editorial accent only",
+ "Do not place content directly on Spotlight Magenta or Festival Violet without testing contrast; always use Paper White for text on these surfaces",
+ "Do not stack more than two chromatic accents in one component - the palette relies on restraint",
+ "Do not use gradients - no gradient tokens exist and the system is deliberately flat"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/91939ad3-9e22-4256-a396-a1716a064ac4",
+ "referenceSite": "https://transformfestival.org",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:41:43.996Z",
+ "articleModifiedAt": "2026-06-05T09:15:31.316Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8800b1f0-8bce-454d-ad72-cd41b8bea61f.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/aa86a2e5-4b0b-4178-8615-0ef263355e53.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/a89296eb-36c2-4c1c-bf16-290bc87d45c5.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/98a93525-ce7f-445f-b883-32e4ee6d4bf0.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/13f2f00c-ff54-4576-b290-0b0cee019d06.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5664f512-6c55-45ac-9640-f94ec100a730.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

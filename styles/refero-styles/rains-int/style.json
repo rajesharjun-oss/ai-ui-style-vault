@@ -1,0 +1,289 @@
+{
+ "id": "38c8a8c9-4d2e-462a-bff0-80c9d9619ef2",
+ "name": "Rains INT",
+ "slug": "rains-int",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/38c8a8c9-4d2e-462a-bff0-80c9d9619ef2",
+ "referenceSite": "https://www.rains.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:29:15.946Z",
+ "articleModifiedAt": "2026-06-05T11:32:25.956Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/409d194d-fa13-4591-85a0-59ff596b3010.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c39d63ff-b540-45a5-8e97-67913c3bf135.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c0d60187-6b13-41ba-b277-af11f7343f26.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e3f10a27-6f44-46cf-bfc6-44f48960a2f3.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2ba53339-5dd0-4db7-aeb6-ba3b8b800c63.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f0b62a9e-1558-4c81-996e-835815c16acd.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Nordic rain catalog on fog-gray paper.",
+ "summary": "Explore Rains INT\u0027s light E-commerce design system: Fog #efefef, Ink #10100f colors, EuropaGroNr2SH, EuropaGroNr2SB typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Fog",
+ "value": "#efefef",
+ "token": "--color-fog",
+ "role": "Page canvas, card surfaces, divider hairlines - the warm light gray that IS the page background"
+ },
+ {
+ "name": "Ink",
+ "value": "#10100f",
+ "token": "--color-ink",
+ "role": "Primary text, nav links, body copy, icon strokes - near-black with a barely-warm bias (never pure #000)"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Card surfaces over the gray canvas, text on dark buttons, product image backgrounds"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#26292a",
+ "token": "--color-charcoal",
+ "role": "Filled button background, active states, inverted UI surfaces - warm-tinted dark, never pure black"
+ },
+ {
+ "name": "Graphite",
+ "value": "#40403f",
+ "token": "--color-graphite",
+ "role": "Secondary button fill, subtle dark UI accents"
+ },
+ {
+ "name": "Ash",
+ "value": "#b3b3b2",
+ "token": "--color-ash",
+ "role": "Muted helper text, tertiary metadata, inactive nav items"
+ },
+ {
+ "name": "Black",
+ "value": "#000000",
+ "token": "--color-black",
+ "role": "Pure black for SVG icon fills and the occasional hard edge - functional, not brand"
+ },
+ {
+ "name": "Butter Cream",
+ "value": "#fffb85",
+ "token": "--color-butter-cream",
+ "role": "Hero display text accent - the single chromatic voice on the page, used only on oversized seasonal headlines over photography"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "EuropaGroNr2SH",
+ "token": "--font-europagronr2sh",
+ "role": "Headings, display statements, nav items, body emphasis - the hero font. Used at 232-245px with weight 400 and line-height 0.90 for the signature oversized editorial type. The ultra-tight leading locks massive letters into a single visual band. Subheads drop to 32-48px at weight 600-700."
+ },
+ {
+ "name": "EuropaGroNr2SB",
+ "token": "--font-europagronr2sb",
+ "role": "Small UI text, nav labels, button copy, captions, footer micro-copy. The functional sans - quiet, compact, only at 12-14px. The deliberate size gap between this and EuropaGroNr2SH creates a clear voice split: small = system, large = editorial."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.2",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.02",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.02",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "245px",
+ "0.9",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "48-56px",
+ "cardPadding": "16px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Pill Button (Filled Dark)",
+ "role": "Primary action button on light backgrounds"
+ },
+ {
+ "name": "Pill Button (Outlined)",
+ "role": "Secondary action on light backgrounds"
+ },
+ {
+ "name": "Pill Button (On Image)",
+ "role": "Hero or category card CTA"
+ },
+ {
+ "name": "Category Split Card",
+ "role": "Men/Women category entry on homepage"
+ },
+ {
+ "name": "Product Card",
+ "role": "Individual product listing in grid"
+ },
+ {
+ "name": "Product Grid",
+ "role": "3-column product showcase"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Seasonal campaign entry with oversized editorial type"
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer with link columns"
+ },
+ {
+ "name": "Search Trigger",
+ "role": "Search button in nav"
+ },
+ {
+ "name": "Cart Trigger",
+ "role": "Cart button in nav"
+ }
+ ],
+ "dos": [
+ "Use EuropaGroNr2SH for all display and heading text - never substitute a different display face; the 232-245px scale with 0.90 line-height is the signature",
+ "Set border-radius to 9999px on every button, tag, and pill-shaped control - sharp corners are not in this system",
+ "Keep the palette to fog, ink, paper, and charcoal for all UI chrome - let photography provide the only visual richness",
+ "Use #fffb85 exclusively for oversized hero display text over photography - never for buttons, links, or small UI text",
+ "Let product images fill their containers edge-to-edge with no card borders, no padding, and no shadows",
+ "Space sections at 48-56px and let the gray canvas carry the rhythm between content blocks",
+ "Use weight 400 for display headlines at maximum scale - the whisper-weight at 245px creates authority through restraint, not volume"
+ ],
+ "donts": [
+ "Do not introduce saturated accent colors (reds, blues, greens) into the UI - the 1% colorfulness is deliberate",
+ "Do not apply box-shadows, drop-shadows, or gradient fills to any component - the system is completely flat",
+ "Do not use sharp or moderately rounded corners on buttons or interactive elements - only 9999px or 0px exist",
+ "Do not use pure #000000 for text - use #10100f; the near-black warmth is a design choice, not a compromise",
+ "Do not place body text directly over product photography without sufficient contrast or a dark scrim",
+ "Do not break the two-font split: EuropaGroNr2SB for 12-14px system text, EuropaGroNr2SH for 16px and above - mixing sizes across fonts fragments the voice",
+ "Do not add decorative borders, dividers, or background tints to card components - the photograph and gray canvas define all visual structure"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Canvas | `#efefef` | Page background - the warm off-white that defines the entire visual field |\n| 2 | Card | `#ffffff` | Product card surfaces and inverted text on dark buttons |\n| 3 | Inverted | `#26292a` | Filled button background, interactive dark surfaces |",
+ "elevation": "This system is completely flat. No box-shadows, no drop-shadows, no gradient lifts, no z-axis elevation. Visual hierarchy is created through typography scale, generous spacing, and the contrast between the gray canvas and full-bleed photography - not through depth. Components sit on the same plane as the page itself.",
+ "imagery": "Full-bleed editorial fashion photography is the dominant visual element. Product shots fill their containers edge-to-edge with no borders, padding, or decorative framing. Models are shown in studio environments against neutral or urban backdrops, wearing the garments as the sole focus. No lifestyle context beyond the clothing itself. Photography is high-key, evenly lit, with natural color rendering - no duotone, no desaturation filters. The images are the only source of color saturation on the page. Category cards and hero sections use the same photography treatment at larger scale, with type overlaid directly on the image.",
+ "layout": "Full-bleed layout with no max-width constraint on imagery - product photos span the full viewport width. The navigation is a single minimal top bar with all elements left-aligned and search/cart right-aligned, no background fill, no border below. The hero is a full-viewport-height editorial image with massive display type (245px) overlaid and two pill CTAs anchored bottom-left. Below the hero, a 50/50 split-card section divides Women and Men categories as edge-to-edge image pairs. Product showcases use a 3-column equal grid with no gaps between image and label, the gray canvas providing column separation. Section spacing is generous (48-56px) and rhythm is maintained through consistent vertical cadence rather than alternating background colors. The footer continues the same #efefef canvas with generous top padding."
+}

@@ -1,0 +1,361 @@
+{
+ "id": "88b02f2c-d82e-495a-8fb6-e750a0fb1211",
+ "name": "Secure and powerful crypto wallet | Ctrl Wallet",
+ "slug": "secure-and-powerful-crypto-wallet-ctrl-wallet",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/88b02f2c-d82e-495a-8fb6-e750a0fb1211",
+ "referenceSite": "https://ctrl.xyz",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:38:23.469Z",
+ "articleModifiedAt": "2026-06-05T08:03:45.802Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c573fef1-9fbb-4914-b941-9bd87af7ef4a.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a9657bbe-b82a-4486-8bfe-abb0ec009234.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c2a3c426-f866-4876-92d4-644fc1df536c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/779b00d6-0016-4ad2-9490-f46486d94408.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/29bddcbc-e3f0-4cd3-bf54-c37c1276ed2b.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/a150cac6-c664-4d45-bd68-bfe7827d069b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/a6eb34b7-8cde-4554-ac13-4a1550c44177.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Crypto",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Crypto",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "sticker-bombed white lab - confetti cards on surgical chrome",
+ "summary": "Explore Secure and powerful crypto wallet | Ctrl Wallet\u0027s light Crypto design system: Acid Lime #05c92f, Sticker Yellow #fcea59 colors, Tomato Grotesk...",
+ "colors": [
+ {
+ "name": "Acid Lime",
+ "value": "#05c92f",
+ "token": "--color-acid-lime",
+ "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Sticker Yellow",
+ "value": "#fcea59",
+ "token": "--color-sticker-yellow",
+ "role": "Decorative accent card backgrounds, icon fills, confetti highlights on hero and feature spreads"
+ },
+ {
+ "name": "Cotton Pink",
+ "value": "#ffd0e2",
+ "token": "--color-cotton-pink",
+ "role": "Decorative accent card backgrounds, soft chromatic punctuation on feature layouts"
+ },
+ {
+ "name": "Powder Blue",
+ "value": "#a7cbf6",
+ "token": "--color-powder-blue",
+ "role": "Decorative accent card backgrounds, informational callout surfaces"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Primary text, primary icon strokes, hairline borders, filled download button in nav"
+ },
+ {
+ "name": "Carbon",
+ "value": "#0f0f0f",
+ "token": "--color-carbon",
+ "role": "Secondary dark surface, button borders, card borders, strong interactive strokes"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#5a585a",
+ "token": "--color-ash-gray",
+ "role": "Muted body text, link borders, nav sublabels, secondary icon strokes"
+ },
+ {
+ "name": "Slate Gray",
+ "value": "#6e726e",
+ "token": "--color-slate-gray",
+ "role": "Helper text, low-emphasis borders, tertiary metadata"
+ },
+ {
+ "name": "Paper White",
+ "value": "#f9faf9",
+ "token": "--color-paper-white",
+ "role": "Page canvas, primary background, FAQ item surfaces"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, input fields, elevated content panels"
+ },
+ {
+ "name": "Bone",
+ "value": "#ecefec",
+ "token": "--color-bone",
+ "role": "Nav pill background, FAQ accordion rows, soft card surfaces, muted chips"
+ },
+ {
+ "name": "Plaster",
+ "value": "#eeeeee",
+ "token": "--color-plaster",
+ "role": "Input field backgrounds, subtle disabled surfaces"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Tomato Grotesk",
+ "token": "--font-tomato-grotesk",
+ "role": "The single typeface carrying the entire brand - a custom geometric grotesque deployed at extreme display sizes (up to 176px) with aggressively tight leading (0.77-0.80) that makes headlines feel like architectural cutouts rather than composed type. Weight 600 at display, 500 at body and UI. The tight line-height at hero scale is the signature: it stacks \u0027Take\u0027 and \u0027Ctrl.\u0027 into a single visual block."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "25px",
+ "1.13",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "35px",
+ "1.06",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "53px",
+ "1.02",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "84px",
+ "0.9",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "153px",
+ "0.8",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "176px",
+ "0.77",
+ "-",
+ "--text-display-xl"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "26px",
+ "elementGap": "18px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "31",
+ "31px",
+ "`--spacing-31`"
+ ],
+ [
+ "35",
+ "35px",
+ "`--spacing-35`"
+ ],
+ [
+ "42",
+ "42px",
+ "`--spacing-42`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "53",
+ "53px",
+ "`--spacing-53`"
+ ],
+ [
+ "55",
+ "55px",
+ "`--spacing-55`"
+ ],
+ [
+ "70",
+ "70px",
+ "`--spacing-70`"
+ ],
+ [
+ "105",
+ "105px",
+ "`--spacing-105`"
+ ],
+ [
+ "149",
+ "149px",
+ "`--spacing-149`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "9px"
+ ],
+ [
+ "tags",
+ "14px"
+ ],
+ [
+ "cards",
+ "17.5px"
+ ],
+ [
+ "inputs",
+ "35px"
+ ],
+ [
+ "buttons",
+ "35px"
+ ],
+ [
+ "largeElements",
+ "53px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Green Download Pill",
+ "role": "Primary action CTA"
+ },
+ {
+ "name": "Black Nav Download Button",
+ "role": "Secondary action CTA in navigation"
+ },
+ {
+ "name": "Ghost Nav Pill",
+ "role": "Navigation container with secondary links"
+ },
+ {
+ "name": "Confetti Accent Card",
+ "role": "Decorative feature cards with chromatic fills"
+ },
+ {
+ "name": "FAQ Accordion Row",
+ "role": "Expandable FAQ item"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Hero and section title text"
+ },
+ {
+ "name": "Section Eyebrow",
+ "role": "Small text above display headlines"
+ },
+ {
+ "name": "Social Auth Icon Cluster",
+ "role": "OAuth provider buttons"
+ },
+ {
+ "name": "Phone Mockup Container",
+ "role": "Product preview frame"
+ },
+ {
+ "name": "Chrome Dots Icon",
+ "role": "Browser/extension indicator"
+ },
+ {
+ "name": "Plus Toggle Icon",
+ "role": "Expand/collapse indicator for accordions"
+ }
+ ],
+ "dos": [
+ "Use #05c92f (Acid Lime) exclusively for the primary download/CTA pill - it is the only chromatic action color in the system",
+ "Set display headlines at 153-176px with line-height 0.77-0.80 to achieve the architectural cutout effect",
+ "Use 17.5px radius for cards and 35px radius for buttons/inputs - this two-tier rounding is the system\u0027s structural signature",
+ "Communicate elevation through surface color shifts (#f9faf9 #ffffff #ecefec) and 1px borders, never through drop shadows",
+ "Scatter chromatic confetti cards (yellow, pink, blue) across feature sections to inject energy into the monochrome canvas - limit to 2-3 per visual field",
+ "Keep all body and UI text at weight 500, all display text at weight 600 - do not introduce weight 400 or 700",
+ "Use Tomato Grotesk as the sole typeface; never pair it with a second font family"
+ ],
+ "donts": [
+ "Do not use drop shadows, glows, or blur effects - the system is intentionally flat and border-driven",
+ "Do not use more than one chromatic accent card color in a single visual grouping - the confetti effect requires spacing between colors",
+ "Do not set display text with line-height above 0.90 - the tight compression is what makes the headlines feel monumental",
+ "Do not introduce a second action color for secondary CTAs - use black-filled or ghost buttons instead of more chromatic pills",
+ "Do not use sharp corners (0px radius) on any interactive element - minimum 9px on nav, 17.5px on cards, 35px on buttons",
+ "Do not pair the green CTA with another green element on the same screen - it must remain the single chromatic focal point",
+ "Do not use #000000 and #0f0f0f interchangeably - reserve #0f0f0f for borders and dark surfaces, #000000 for primary text and nav"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#f9faf9` | Page background - warm off-white that softens the stark contrast of pure white |\n| 1 | Card | `#ffffff` | Content cards, feature panels, and elevated content blocks |\n| 2 | Bone Surface | `#ecefec` | Nav pill, FAQ accordion rows, muted interactive surfaces |\n| 3 | Input | `#eeeeee` | Form field backgrounds, disabled states |",
+ "elevation": "This system deliberately avoids box-shadows. Elevation is communicated through surface color shifts (canvas #f9faf9 card #ffffff bone #ecefec) and thin 1-2px borders in #0f0f0f or #5a585a. The flat, border-driven approach keeps the interface feeling graphic and print-like, like stickers laid on paper. Do not introduce drop shadows, glows, or blur effects - they would break the sticker/collage language.",
+ "imagery": "Product screenshots presented inside phone mockup frames with scattered chromatic confetti elements (sticker-like chips in yellow, pink, blue with short playful text) arranged around the device. No lifestyle photography, no human imagery. The visual language is sticker-bomb/collage - colorful paper-like accent pieces overlapping and floating around clean product frames on a white canvas. Icons are line-based, 1-1.5px stroke, monochrome (#0f0f0f) unless functioning as the confetti palette. The aesthetic reads as \u0027designer\u0027s moodboard\u0027 - curated chaos around a single clean product reveal.",
+ "layout": "Full-width sections with max-width ~1200px centered content. Hero is centered: eyebrow text massive display headline green CTA pill, all stacked vertically with generous vertical breathing room. Feature sections alternate between left-text/right-visual and centered compositions. FAQ section is left-aligned with a centered eyebrow above the display heading. Navigation is a top bar with logo left, nav pill centered, download button right. Vertical rhythm uses 80px section gaps; cards within sections use 26px padding. The overall feel is spacious but compact in type - wide whitespace surrounding dense, tightly-led text blocks."
+}

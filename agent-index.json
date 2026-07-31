@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Agent Index",
-  "generatedAt": "2026-07-30",
+  "generatedAt": "2026-07-31",
   "purpose": "Machine-readable entry point for agents choosing and adapting UI references from this vault.",
   "entryPoints": {
     "humanReadme": "README.md",
@@ -19,7 +19,7 @@
     "generatedSiteValidator": "scripts/validate-generated-site.ps1"
   },
   "inventory": {
-    "styleBundles": 340,
+    "styleBundles": 520,
     "screenReferences": 48,
     "primaryStyleRoot": "styles/refero-styles",
     "screenReferenceRoot": "screens/refero",

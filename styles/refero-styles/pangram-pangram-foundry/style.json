@@ -1,0 +1,363 @@
+{
+ "id": "6d64a4da-ef40-453e-86f7-4bfabc0c9051",
+ "name": "Pangram Pangram Foundry",
+ "slug": "pangram-pangram-foundry",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/6d64a4da-ef40-453e-86f7-4bfabc0c9051",
+ "referenceSite": "https://pangrampangram.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:33:11.444Z",
+ "articleModifiedAt": "2026-06-05T11:30:46.711Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c8b2610c-2645-4a10-b3d4-01c6be506726.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c65cf3db-2be2-4200-87a1-2be1f4cbf676.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/402e7081-e117-47f2-91e4-cd046569a347.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/9c2a41db-36e8-4255-9346-419b97caf49e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/535a4abd-5676-4b7b-a410-617568e9fb84.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5b429c1c-f2ff-47b2-a74c-b0a54432141a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/916badbb-a595-4416-ad32-40c6aea50a52.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Design",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Design",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Museum vitrine on white marble. A gallery-style type foundry where the canvas is bare stone, the lighting is flat daylight, and the only vivid color is a single orange-red label used by a curator to flag what is new.",
+ "summary": "Explore Pangram Pangram Foundry\u0027s light Design design system: Ember Orange #ff2f00, Marble White #fafafa colors, Neue Montreal, Neue Montreal Semibold...",
+ "colors": [
+ {
+ "name": "Ember Orange",
+ "value": "#ff2f00",
+ "token": "--color-ember-orange",
+ "role": "Orange action color for filled buttons, selected navigation states, and focused conversion moments."
+ },
+ {
+ "name": "Marble White",
+ "value": "#fafafa",
+ "token": "--color-marble-white",
+ "role": "Page canvas, card surfaces, input fields, default panel backgrounds. The dominant surface tone, barely off-white for warmth"
+ },
+ {
+ "name": "Stone Gray",
+ "value": "#ededed",
+ "token": "--color-stone-gray",
+ "role": "Secondary surface for filled buttons, muted card backgrounds, image placeholder fills. One step deeper than Marble White to create gentle separation without contrast"
+ },
+ {
+ "name": "Graphite",
+ "value": "#666666",
+ "token": "--color-graphite",
+ "role": "Secondary text, link color, subdued metadata, helper text. Reads as muted black - never used for primary text or headings"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, all headings, hairline borders (cards, lists, badges, inputs), icons, navigation. The structural backbone - 1px borders everywhere define the system"
+ },
+ {
+ "name": "Signal Yellow",
+ "value": "#ffb700",
+ "token": "--color-signal-yellow",
+ "role": "Yellow state accent for badges, validation surfaces, and short status labels."
+ },
+ {
+ "name": "Ice Blue",
+ "value": "#bfe0ff",
+ "token": "--color-ice-blue",
+ "role": "Blue state accent for badges, validation surfaces, and short status labels."
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Neue Montreal",
+ "token": "--font-neue-montreal",
+ "role": "The workhorse and display face. Weight 400 for body, weight 530 for subheads and medium emphasis, weight 600 for headings and display overlays. Used at 145px for hero type, 48px for section headlines, 18-20px for body, 14px for navigation, 12px for badges. The type IS the product - this single family carries the entire brand voice."
+ },
+ {
+ "name": "Neue Montreal Semibold",
+ "token": "--font-neue-montreal-semibold",
+ "role": "Heavy display variant used for the largest typographic moments in specimen cards. Tighter, more compressed than standard weight 600."
+ },
+ {
+ "name": "Neue York",
+ "token": "--font-neue-york",
+ "role": "Companion serif/contrast face shown in specimen contexts. The 700 weight provides a sharp counterpoint to the geometric Montreal."
+ },
+ {
+ "name": "Frama Semibold",
+ "token": "--font-frama-semibold",
+ "role": "Specimen showcase weight - displayed at exact 103px in the grid to demonstrate each family\u0027s character at scale."
+ },
+ {
+ "name": "Kyoto Semibold",
+ "token": "--font-kyoto-semibold",
+ "role": "Specimen showcase - fixed 103px display size in the font grid."
+ },
+ {
+ "name": "Neue Gstaad Bold",
+ "token": "--font-neue-gstaad-bold",
+ "role": "Specimen showcase - fixed 103px display size in the font grid."
+ },
+ {
+ "name": "Palma Fizzy Heavy",
+ "token": "--font-palma-fizzy-heavy",
+ "role": "Specimen showcase - fixed 103px display size in the font grid."
+ },
+ {
+ "name": "Mori Bold",
+ "token": "--font-mori-bold",
+ "role": "Specimen showcase - fixed 103px display size in the font grid."
+ },
+ {
+ "name": "Museum Light",
+ "token": "--font-museum-light",
+ "role": "Specimen showcase - the 300 weight in the grid is deliberately whisper-light, making weight 300 headlines read as anti-convention: authority through restraint rather than volume."
+ },
+ {
+ "name": "Neue Corp Semibold",
+ "token": "--font-neue-corp-semibold",
+ "role": "Specimen showcase - fixed 103px display size in the font grid."
+ },
+ {
+ "name": "Watch Medium",
+ "token": "--font-watch-medium",
+ "role": "Specimen showcase - fixed 103px display size in the font grid."
+ },
+ {
+ "name": "Monument Narrow Medium",
+ "token": "--font-monument-narrow-medium",
+ "role": "Specimen showcase - fixed 103px display size in the font grid."
+ },
+ {
+ "name": "Model Plastic Regular",
+ "token": "--font-model-plastic-regular",
+ "role": "Specimen showcase - fixed 103px display size in the font grid."
+ },
+ {
+ "name": "neue-gstaad-normal-bold",
+ "token": "--font-neue-gstaad-normal-bold",
+ "role": "neue-gstaad-normal-bold - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "neue-corp-normal-semibold",
+ "token": "--font-neue-corp-normal-semibold",
+ "role": "neue-corp-normal-semibold - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "neue-york-normal-normal-bold",
+ "token": "--font-neue-york-normal-normal-bold",
+ "role": "neue-york-normal-normal-bold - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.3",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.3",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.17",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.17",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "121px",
+ "1",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "145px",
+ "1",
+ "-",
+ "--text-display-xl"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "92px",
+ "cardPadding": "26px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "small",
+ "20px"
+ ],
+ [
+ "badges",
+ "999px"
+ ],
+ [
+ "inputs",
+ "20px"
+ ],
+ [
+ "buttons",
+ "20px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Font Showcase Card",
+ "role": "Full-bleed feature card for a typeface release"
+ },
+ {
+ "name": "Status Badge - New",
+ "role": "Highlight tag for newly released fonts"
+ },
+ {
+ "name": "Status Badge - Update",
+ "role": "Highlight tag for recently updated fonts"
+ },
+ {
+ "name": "Status Badge - Early Access",
+ "role": "Highlight tag for preview/beta releases"
+ },
+ {
+ "name": "Primary Filled Button",
+ "role": "Main call-to-action (Explore font, Try for Free)"
+ },
+ {
+ "name": "Ghost Outlined Button",
+ "role": "Secondary action paired with primary button"
+ },
+ {
+ "name": "Font Specimen Card (Grid View)",
+ "role": "Card showing one typeface in the font catalog grid"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top site navigation"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Visual separator between content sections"
+ },
+ {
+ "name": "Input Field",
+ "role": "Text input for search or forms"
+ },
+ {
+ "name": "View Toggle (Card View / List View)",
+ "role": "Switch between display modes in the font grid"
+ },
+ {
+ "name": "Footer Link Group",
+ "role": "Footer navigation cluster"
+ }
+ ],
+ "dos": [
+ "Use only #ff2f00 as the chromatic accent - it must remain rare enough to register as editorial highlight, not decoration",
+ "Set all borders to 1px solid #000000 for cards, lists, badges, and inputs - the hairline black is the structural skeleton",
+ "Use 20px border-radius for cards, buttons, and inputs; reserve 999px exclusively for badge pills",
+ "Set hero type to Neue Montreal at 121-145px weight 600 with line-height 1.00 - the type should fill the card vertically",
+ "Use status badges (#ff2f00 New, #ffb700 Update, #bfe0ff Early Access) as the only chromatic elements in any view",
+ "Set card padding to 26px and card gaps to 15-23px to maintain the comfortable editorial density",
+ "Let full-bleed photography carry the hero sections - never apply colored backgrounds to hero cards"
+ ],
+ "donts": [
+ "Do not use #ff2f00 for body text, headings, or large surfaces - its role is badge/punctuation only",
+ "Do not apply box-shadow or heavy elevation - the system relies on 1px borders and whitespace, not depth",
+ "Do not use radius values other than 20px (cards/buttons/inputs) and 999px (badges) - the rounded softness is signature",
+ "Do not use colors other than the defined palette - no decorative blues, greens, or purples for UI chrome",
+ "Do not use multiple type families in the same view - Neue Montreal carries everything except specimen showcases",
+ "Do not set line-height above 1.30 for any size - the tight leading is essential to the editorial feel",
+ "Do not center body text or metadata - only headlines and hero type use center alignment"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#fafafa` | Page background - the base white-marble surface |\n| 1 | Card | `#fafafa` | Font specimen cards, content panels - same as canvas, separated by 1px black border |\n| 2 | Secondary Fill | `#ededed` | Filled buttons, muted card backgrounds, image placeholders - one step deeper for gentle separation |\n| 3 | Accent Surface | `#bfe0ff` | Info badge background for Early Access status |\n| 4 | Accent Surface | `#ffb700` | Warning badge background for Update status |\n| 5 | Accent Surface | `#ff2f00` | Primary accent badge background for New status and icon highlights |",
+ "elevation": "The design system deliberately avoids box-shadow and elevation. Separation is achieved exclusively through 1px solid #000000 hairline borders and whitespace. The flat, borderless depth creates a print-catalogue feel - surfaces sit on the page like printed sheets rather than floating digital cards. The only \u0027depth\u0027 technique is a subtle dark gradient overlay on hero images to ensure white text contrast.",
+ "imagery": "Full-bleed photography dominates the visual language. Each font hero features a high-resolution environmental photograph - cityscapes, food, lifestyle scenes - chosen to evoke the personality of the typeface (Montreal gets brutalist architecture, New York gets a sandwich, Palma gets cocktail citrus). Photos are unmanipulated: no duotone, no color grading, no overlays except a subtle dark gradient for text legibility. The card grid in specimen view contains no photography - just enormous \u0027Aa\u0027 letterforms in each typeface as the visual content. Icons are minimal, line-style, monochrome. No illustrations, no 3D renders, no abstract graphics - the type specimens and curated photography carry all visual weight.",
+ "layout": "Max-width 1200px centered content with full-bleed hero cards that break the container. The page model alternates between two primary section types: (1) full-width feature cards with photographic backgrounds and overlaid display type, stacked vertically with generous gaps, and (2) a 4-column grid of font specimen cards on a #fafafa background. The font grid is the workhorse - 4 columns at desktop with 15-23px gaps, 2 columns on tablet, 1 column on mobile. Section rhythm is consistent: each section separated by 92px of vertical whitespace, with 1px hairlines as occasional dividers. Navigation is a single transparent top bar, not sticky, with a centered link cluster and right-aligned utility icons. The hero is never a traditional text+image split - it\u0027s always a full-bleed image with centered type overlay."
+}

@@ -1,0 +1,317 @@
+{
+ "name": "Savee",
+ "slug": "savee",
+ "colors": [
+ {
+ "name": "Electric Indigo",
+ "value": "#1500ff",
+ "token": "--color-electric-indigo",
+ "role": "Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#050505",
+ "token": "--color-obsidian",
+ "role": "Page canvas, deepest background - the void that all content sits on"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#151515",
+ "token": "--color-charcoal",
+ "role": "Elevated surface, product preview frames, secondary panels"
+ },
+ {
+ "name": "Graphite",
+ "value": "#1e1e1e",
+ "token": "--color-graphite",
+ "role": "Deeper overlay surface, hover states on dark cards, input fields"
+ },
+ {
+ "name": "Paper",
+ "value": "#fdfdfd",
+ "token": "--color-paper",
+ "role": "Primary text, inverted surface, button text, high-contrast foreground"
+ },
+ {
+ "name": "Silver",
+ "value": "#e5e5e5",
+ "token": "--color-silver",
+ "role": "Hairline borders, dividers, subtle structural edges"
+ },
+ {
+ "name": "Pearl",
+ "value": "#d4d4d4",
+ "token": "--color-pearl",
+ "role": "Secondary text, subdued headings, placeholder body copy"
+ },
+ {
+ "name": "Slate",
+ "value": "#2f2f2f",
+ "token": "--color-slate",
+ "role": "Footer borders, low-contrast dividers between dark zones"
+ },
+ {
+ "name": "Ash",
+ "value": "#a3a3a3",
+ "token": "--color-ash",
+ "role": "Muted helper text, inactive icons, de-emphasized metadata"
+ },
+ {
+ "name": "Stone",
+ "value": "#737373",
+ "token": "--color-stone",
+ "role": "Tertiary text, timestamps, supplementary labels"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Savee Font",
+ "token": "--font-savee-font",
+ "role": "The sole typeface - a custom geometric sans used at every scale. Weight 400 carries the editorial body and nav; weight 500 appears on buttons and emphasized labels. The 96px display at 0.96 line-height with -0.04em tracking is the system\u0027s signature: it compresses into a dense confident block rather than stretching vertically, making the headline feel sculptural."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.5",
+ "0.195px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "0.16px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.38",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "21px",
+ "1.33",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.29",
+ "-0.24px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.25",
+ "-0.3px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "36px",
+ "1.13",
+ "-0.36px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1",
+ "-1.2px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "96px",
+ "0.96",
+ "-3.84px",
+ "--text-display-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "14px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "9999px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Pill Button",
+ "role": "The sole filled action in the system"
+ },
+ {
+ "name": "Ghost Pill Button",
+ "role": "Secondary action that doesn\u0027t compete with the primary"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Minimal top-level site navigation"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Hero-level typography that defines the page"
+ },
+ {
+ "name": "Editorial Body Block",
+ "role": "Long-form persuasive text at unusual scale"
+ },
+ {
+ "name": "Partner Logo Strip",
+ "role": "Social proof band"
+ },
+ {
+ "name": "Product Preview Frame",
+ "role": "Large product screenshot or video container below the hero"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline navigation within body copy"
+ },
+ {
+ "name": "Subhead Caption",
+ "role": "Descriptive subtext under headlines"
+ },
+ {
+ "name": "Full-Width Section Spacer",
+ "role": "Vertical rhythm between page sections"
+ },
+ {
+ "name": "Footer Divider",
+ "role": "Low-contrast structural edge"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #1500ff Electric Indigo exclusively for the single primary CTA on any given screen - never for secondary actions, links, icons, or decorative elements",
+ "Set display headlines at 96px with line-height 0.96 and letter-spacing -0.04em so the type compresses into a confident sculptural block rather than stretching",
+ "Apply 9999px border-radius to every button, tag, and pill - the pill shape is the system\u0027s only control geometry",
+ "Use 14px radius for card and product preview surfaces, and nothing else - keep the shape vocabulary to exactly two radii",
+ "Let the Obsidian canvas (#050505) be the separator between sections - add 64-80px of empty space rather than lines, color shifts, or gradient transitions",
+ "Set body prose at 36px when it needs to carry editorial weight; drop to 18px for functional descriptions. Never use 14-16px for primary page copy",
+ "Keep all text in the neutral palette (#fdfdfd, #d4d4d4, #a3a3a3) - the only chromatic color is the CTA indigo"
+ ],
+ "doNot": [
+ "Never use #1500ff for anything other than the primary CTA fill - not for links, not for icons, not for hover states, not for badges",
+ "Never add drop shadows or elevation glows to cards - the system uses surface color shifts (#050505 #151515 #1e1e1e) for hierarchy, not shadows",
+ "Never set body text below 16px for primary content - captions and metadata can go to 13-14px, but main copy stays large",
+ "Never introduce additional accent colors, even in illustrations or partner logos - the partner strip stays grayscale to preserve the indigo\u0027s dominance",
+ "Never use border-radius values between 0px and 9999px for buttons - the system is binary: fully rounded pills or 14px card corners, nothing in between",
+ "Never apply gradients to backgrounds, buttons, or text - the system is flat monochrome with one solid color exception",
+ "Never use line-height above 1.50 for any text size - the tight line-heights (0.96-1.38) are the system\u0027s editorial signature"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/c6d8490d-e3f2-45c8-aebf-fe5f11daf116",
+ "referenceSite": "https://savee.it",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-01-22T15:00:06.000Z",
+ "articleModifiedAt": "2026-06-05T11:13:37.642Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/def3511f-cf11-4a92-9e41-7cbc6927a883.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/dee95962-eeb4-45cc-bbc8-0780de998ce8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/b4e4afdf-9c36-4f0b-a24d-53e282f14532.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/fb01ee2d-441a-4ddd-99d9-cf3f69f3caa6.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/92ccc743-0e3c-475b-b4e0-1c31a979fc33.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/ed7667d0-05f3-4696-bd04-4be884c8503a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/346a383f-0a72-4aa4-89c5-150e52a0b91a.png"
+ }
+ }
+}

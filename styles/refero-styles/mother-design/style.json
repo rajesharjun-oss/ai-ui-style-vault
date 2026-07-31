@@ -1,0 +1,283 @@
+{
+ "id": "f40e6a6c-1704-407a-b21b-6141fb90adfe",
+ "name": "Mother Design",
+ "slug": "mother-design",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/f40e6a6c-1704-407a-b21b-6141fb90adfe",
+ "referenceSite": "https://www.motherdesign.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:37:49.539Z",
+ "articleModifiedAt": "2026-06-05T10:57:13.354Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/6d5b2910-2dac-4bd7-b850-0032fd85d298.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/1f06f8cc-21cb-4973-bba7-1fc3450aa324.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/222f16c1-dc32-4b09-8b3b-be98b4e0003c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/92ce0cc2-feda-4ff6-a2d7-d28759267884.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9c201fb9-092f-422b-ae55-d9618e128bae.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5aec95f4-4523-4061-a5e5-e5fea63ee9f8.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "broadsheet manifesto in black ink",
+ "summary": "Explore Mother Design\u0027s light Agency design system: Newsprint #f4f4f4, Bone White #ffffff colors, Basis, Basis Mono typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Newsprint",
+ "value": "#f4f4f4",
+ "token": "--color-newsprint",
+ "role": "Soft section background, alternate surface, and quiet card fill."
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Navigation background, card surfaces, button fills, inverted text - pushes forward off the gray canvas"
+ },
+ {
+ "name": "Press Black",
+ "value": "#000000",
+ "token": "--color-press-black",
+ "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated."
+ },
+ {
+ "name": "Foil Gray",
+ "value": "#808080",
+ "token": "--color-foil-gray",
+ "role": "Secondary text, subdued link borders, metadata - sits behind Press Black as quiet annotation"
+ },
+ {
+ "name": "Ink Green",
+ "value": "#306f09",
+ "token": "--color-ink-green",
+ "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Basis",
+ "token": "--font-basis",
+ "role": "Primary typeface across all UI. Weight 400 for body, links, and most running text; weight 600 used sparingly for the small uppercase-ish labels and the navigation tabs. The 226px size at 1.0 line-height is the signature - display type behaves like a poster headline, not a web heading. Negative tracking tightens as size grows: -0.04em at display, -0.02em at mid, -0.01em at body."
+ },
+ {
+ "name": "Basis Mono",
+ "token": "--font-basis-mono",
+ "role": "Used for technical labels, metadata, timestamps, and small annotations. The +0.06em letter-spacing gives it the feel of a printed caption set in a typewriter face - a deliberate counterpoint to Basis\u0027s tight grotesque."
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "System serif used as a rare editorial accent - appears in icon and small body contexts where a note of \u0027newspaper\u0027 or \u0027footnotes\u0027 is wanted. Its presence is felt more than seen; the choice signals print lineage rather than decoration."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.2",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.16px",
+ "--text-body"
+ ],
+ [
+ "heading-sm",
+ "48px",
+ "1.1",
+ "-0.96px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "60px",
+ "1",
+ "-1.2px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "110px",
+ "1",
+ "-4.4px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "226px",
+ "1",
+ "-9.04px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "160-200px",
+ "cardPadding": "0px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "200",
+ "200px",
+ "`--spacing-200`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tabs",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Navigation Tab",
+ "role": "Top-level page links (Work, Information, News, Contact)"
+ },
+ {
+ "name": "Brand Mark Cell",
+ "role": "Logo container at the far left of the nav row"
+ },
+ {
+ "name": "News Marquee Bar",
+ "role": "Headline/news ticker running across the top right"
+ },
+ {
+ "name": "Theme Toggle Cluster",
+ "role": "Icon-only controls in the top-right corner"
+ },
+ {
+ "name": "Portfolio Thumbnail",
+ "role": "Project preview tiles in the work grid"
+ },
+ {
+ "name": "Project Caption Block",
+ "role": "Title + role text below the work grid"
+ },
+ {
+ "name": "Manifesto Block",
+ "role": "Large editorial paragraph introducing the studio\u0027s voice"
+ },
+ {
+ "name": "Section Display Header",
+ "role": "Monumental section titles (Rigor, Rebellion, Depth, Care)"
+ },
+ {
+ "name": "Grid Section Frame",
+ "role": "Container for 2-up section displays and content"
+ },
+ {
+ "name": "Service List Item",
+ "role": "Vertical list of capabilities (Brand Strategy, Naming, etc.)"
+ },
+ {
+ "name": "Inline Link",
+ "role": "Hyperlinks within manifesto and body copy"
+ },
+ {
+ "name": "Section Label",
+ "role": "Small all-caps-style label above content blocks (e.g. \u0027How we do it\u0027, \u0027What we do\u0027)"
+ }
+ ],
+ "dos": [
+ "Set display type at 226px with -0.04em letter-spacing and line-height 1.0 - the extreme scale is the signature, not an exception.",
+ "Use only the five colors: #f4f4f4 canvas, #ffffff surface, #000000 text and rules, #808080 secondary, #306f09 as the only chromatic note.",
+ "Structure all layout with 1px Press Black rules - vertical, horizontal, and as borders on interactive cells. Never use shadows or fills to separate regions.",
+ "Use Basis Mono with +0.06em tracking for metadata, labels, and the news ticker. Reserve Basis for everything else; bring in Times only for the occasional editorial annotation.",
+ "Keep card and thumbnail padding at 0px. Let raw images sit edge-to-edge in their grid cells with no chrome, border, or radius.",
+ "Anchor the nav with a 1px-bordered segmented control: brand mark cell + tab group on the left, theme toggle cluster on the right. Bone White fill, no radius.",
+ "Treat whitespace as a structural element - large vertical gaps (160-200px) between the portfolio grid and the next section are part of the system, not negative space to be filled."
+ ],
+ "donts": [
+ "Do not introduce additional colors. Any new hue, even a desaturated one, will dilute the broadsheet identity. The green is a printer\u0027s mark, not a palette swatch.",
+ "Do not add box-shadows, blurs, or any form of elevation. The system has no z-axis - depth is typographic.",
+ "Do not round corners. Every border, button, and cell stays at 0px radius. Curvature would betray the printed-page metaphor.",
+ "Do not cap display type at conventional web sizes (48-72px). The 226px / 110px scale is the point - shrinking it to \u0027feel more modern\u0027 removes the signature.",
+ "Do not use weight 700 or 800. Basis 600 is the heaviest weight in the system; 400 does the work at display sizes because the size itself provides weight.",
+ "Do not add icons inside buttons or cards. Icons live only in the theme toggle cluster and the brand mark cell.",
+ "Do not center body copy or set paragraphs to a narrow max-width. The manifesto reads full-bleed; column width is controlled by the grid, not by a content container."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Newsprint | `#f4f4f4` | Page canvas - the warm gray \u0027paper\u0027 everything sits on |\n| 1 | Bone White | `#ffffff` | Navigation bar, button surfaces, and the few elevated card containers that need to step forward from the canvas |",
+ "elevation": "The system rejects elevation entirely. There are no drop shadows, no surface lifts, no depth illusions. Structure is communicated through 1px Press Black rules that slice the layout into a grid, and through the tonal step from Newsprint (#f4f4f4) to Bone White (#ffffff) for the navigation bar. Depth is typographic, not architectural - the 226px display type carries the weight that shadows would in a conventional UI.",
+ "imagery": "The work grid is the imagery: diverse, unframed, full-bleed thumbnails spanning product photography (soda can held against a rainbow sky), editorial poster design (Brooklyn Orioles type-heavy poster), brand identity systems (Babies type specimen), and 3D product render (Rolfr camera-can). No consistent photographic treatment - each project\u0027s thumbnail arrives raw, at full color, with no overlay, duotone, or filter. The page itself is text-dominant; imagery appears only in the portfolio grid and is treated as evidence of capability rather than atmosphere. Iconography is minimal: 1.5px stroke geometric glyphs confined to the theme toggle cluster and the heart brand mark. The visual language of the site is the visual language of a printed portfolio - let the work speak in full color against the otherwise black-on-gray page.",
+ "layout": "Full-bleed edge-to-edge layout with no max-width container. The page is organized as a strict grid divided by 1px Press Black rules. The top row contains the nav (left: brand mark + segmented tabs, right: news marquee + theme toggles) in a fixed-height bar. Below the nav, the work grid is a 5-column row of thumbnail tiles with zero gap between cells - images touch. A large vertical gap (160-200px) separates the grid from the manifesto section, which is a full-width block of display-size running text. The \u0027How we do it\u0027 and \u0027What we do\u0027 sections use a 2-column grid split by a 1px vertical rule at the midpoint; the left column carries a small section label and body copy, the right column carries the monumental display type (Rigor/Rebellion, Depth/Care) or a vertical service list. Each major section is bracketed by 1px horizontal Press Black rules top and bottom. The page reads top-to-bottom as a printed document: header bar, portfolio spread, manifesto column, sectioned grid pages."
+}

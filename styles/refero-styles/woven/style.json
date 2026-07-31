@@ -1,0 +1,314 @@
+{
+ "id": "76483bd1-37d3-4fb9-889b-aecf27b08b83",
+ "name": "Woven",
+ "slug": "woven",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/76483bd1-37d3-4fb9-889b-aecf27b08b83",
+ "referenceSite": "https://wovenwhisky.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:15:35.734Z",
+ "articleModifiedAt": "2026-06-05T10:16:22.422Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/aa4d7328-959d-4387-8f54-55a929bd5559.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/b42fc635-565d-42d7-b164-3a7550803441.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/6014b4fd-8c77-4068-ba0c-6fb40983bec9.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2bb781a2-f994-45d6-956a-cde12150d7fd.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2d8d2fb8-a88e-4352-87be-02dc6b49ba23.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/e7f788ea-a63a-4484-b479-6aeccadd15f9.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/09bb516f-3d98-4ecb-b395-23e7fc6885b5.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Ink on cream parchment. A distiller\u0027s editorial spread where warm cream canvases, a single dark ink color, and wide-tracked uppercase type create the only visual structure; product photography provides all the color.",
+ "summary": "Explore Woven\u0027s light E-commerce design system: Parchment Cream #eeede5, Ink Black #232323 colors, Spezia Semi-Mono, Spezia Medium typography, and DESIGN.md...",
+ "colors": [
+ {
+ "name": "Parchment Cream",
+ "value": "#eeede5",
+ "token": "--color-parchment-cream",
+ "role": "Page canvas, footer surface, and dominant background - the warm off-white that gives the entire site its editorial, paper-like feel"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#232323",
+ "token": "--color-ink-black",
+ "role": "Primary text, all hairline borders, footer ink, and the near-black that forms every structural line on the page"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Product card surfaces, alternating section backgrounds, and high-contrast text on dark or photographic surfaces"
+ },
+ {
+ "name": "Iron Gray",
+ "value": "#4a4a4a",
+ "token": "--color-iron-gray",
+ "role": "Secondary body text, subdued borders, and the muted text layer that sits between primary ink and background"
+ },
+ {
+ "name": "Soft Stone",
+ "value": "#ddddda",
+ "token": "--color-soft-stone",
+ "role": "Subtle surface differentiation beneath cards and secondary panels - barely warmer than the cream canvas"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Spezia Semi-Mono",
+ "token": "--font-spezia-semi-mono",
+ "role": "The workhorse typeface for body copy, navigation links, card text, list items, and most UI labels. Semi-mono construction gives it a precise, typeset quality that reinforces the editorial identity. 700 weight is used sparingly for emphasis within mono-spaced blocks."
+ },
+ {
+ "name": "Spezia Medium",
+ "token": "--font-spezia-medium",
+ "role": "Headline and display font - the proportional companion to the Semi-Mono, used for the hero wordmark \u0027WOVEN\u0027 and section titles. Single weight keeps the type system disciplined; contrast comes from size and tracking, not weight."
+ },
+ {
+ "name": "Figtree",
+ "token": "--font-figtree",
+ "role": "Small UI utility font for buttons, icon labels, and tight navigation tags. Rounds out the system where a humanist sans feels warmer than the mono family."
+ },
+ {
+ "name": "Spezia Semi-Mono Light",
+ "token": "--font-spezia-semi-mono-light",
+ "role": "Lighter voice for inputs, helper text, and link descriptions - a whisper-weight variation that creates hierarchy without bold."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.63",
+ "1px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.71",
+ "1.17px",
+ "--text-body-sm"
+ ],
+ [
+ "body-lg",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "1.26px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.13",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1",
+ "-",
+ "--text-heading"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "120-160px",
+ "cardPadding": "26px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "70",
+ "70px",
+ "`--spacing-70`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "150",
+ "150px",
+ "`--spacing-150`"
+ ],
+ [
+ "230",
+ "230px",
+ "`--spacing-230`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Minimal Header Bar",
+ "role": "Site-wide navigation"
+ },
+ {
+ "name": "Hero Overlay Wordmark",
+ "role": "Full-viewport brand statement"
+ },
+ {
+ "name": "Split Footer-Letterhead Bar",
+ "role": "Brand seal and category navigation"
+ },
+ {
+ "name": "Section Heading Block",
+ "role": "Subsection label"
+ },
+ {
+ "name": "Latest Releases Dual Card",
+ "role": "Side-by-side product showcase"
+ },
+ {
+ "name": "Product Range Card",
+ "role": "E-commerce product tile"
+ },
+ {
+ "name": "Underlined Text Link",
+ "role": "Navigation and category links"
+ },
+ {
+ "name": "Ghost Icon Button",
+ "role": "Cart and menu triggers"
+ },
+ {
+ "name": "Circular Brand Seal",
+ "role": "Decorative wordmark medallion"
+ },
+ {
+ "name": "Image Container",
+ "role": "Product photography frame"
+ }
+ ],
+ "dos": [
+ "Use Parchment Cream (#eeede5) as the page canvas for every primary section; alternate to pure white (#ffffff) only for product card surfaces and one or two contrast bands",
+ "Set all body and UI text in Spezia Semi-Mono, 14-15px, with letter-spacing of 0.063-0.094em for uppercase labels and 0.121-0.167em for nav and tag text",
+ "Use 1px #232323 hairlines for every border - cards, product frames, footer rules, link underlines - never use any other color for borders",
+ "Keep corner radius at 0px for all cards, buttons, tags, inputs, and images; the system relies on sharp edges, not curves",
+ "Center section headings in uppercase Spezia Semi-Mono 14px and let 40-60px of vertical space do the visual separation work",
+ "Use Spezia Medium at 32px+ for all display headlines and the wordmark; this is the only proportional (non-mono) face in the system",
+ "Break multi-word links into one-word-per-line stacked columns to create the editorial columnar rhythm in header and footer areas",
+ "Let product photography provide all color in the system; never introduce chromatic accents, gradients, or brand colors"
+ ],
+ "donts": [
+ "Never add a chromatic accent color, gradient, or brand fill - the system is 0% colorful by design",
+ "Never use rounded corners on cards, buttons, inputs, or images - 0px radius is intentional and defines the editorial print look",
+ "Never apply box-shadow, drop-shadow, or blur effects - surfaces separate through color and hairline borders only",
+ "Never use bold (700) weight for body paragraphs; reserve 700 for short emphasized spans within mono text blocks",
+ "Never set headings left-aligned with body copy; section titles are always centered with generous vertical space above and below",
+ "Never introduce an icon system with fills, duotones, or color - icons are single-weight 1.5-2px #232323 line work only",
+ "Never place text directly on a product photograph without a cream or white surface underneath; readability requires a solid layer",
+ "Never use display sizes below 32px for the wordmark or section openers; the type scale\u0027s authority comes from its restraint at small sizes and generosity at large ones"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Parchment Canvas | `#eeede5` | Dominant page background, footer surface, hero letterhead band |\n| 1 | Pure White Card | `#ffffff` | Product card surfaces, alternating section backgrounds, contrast bands |\n| 2 | Soft Stone | `#ddddda` | Subtle panel differentiation beneath elevated sections |\n| 3 | Ink Black | `#232323` | Inverted dark surface for footer ink or night-mode treatment |",
+ "elevation": "The design system deliberately avoids all shadow, blur, and glow effects. Surface hierarchy is communicated entirely through flat color layering - Parchment Cream for canvas, Pure White for cards, and 1px Ink Black hairlines for boundaries. This produces a print-editorial feel where depth comes from typographic scale and whitespace, not from elevation effects.",
+ "imagery": "The visual language is dominated by product photography of whisky bottles - amber and olive-green glass, foil caps, paper labels, liquid catches the light. Photographs are set against clean neutral studio backgrounds (light gray, off-white) and displayed edge-to-edge inside sharp-cornered product cards with no internal padding or border-radius. There is no lifestyle photography, no human subjects, no environmental context - the bottle IS the hero. Decorative graphics are limited to the circular typographic seal. Photography is the only source of color in an otherwise strictly monochrome system, so the warmer the bottle photography, the more visual energy any given page carries.",
+ "layout": "Layouts are max-width contained (centered, ~1200-1280px) and overwhelmingly centered/symmetric rather than asymmetric. The hero is a full-bleed photographic background with a centered oversized wordmark overlay and a 80-100px cream letterhead band beneath. Below the fold, sections stack vertically with 120-160px of vertical breathing space between them, each section introduced by a single centered uppercase label. Content within sections tends toward two-column symmetry: split text-link columns pushed to far edges, paired product cards, or the centered circular seal. Card grids are consistently 2-column on desktop, with generous 20-26px gutters and 1px borders. Navigation is a single minimal header bar - hamburger, centered wordmark, cart icon - with no mega-menu, no sidebar, and no sticky behavior beyond a tonal shift. The overall rhythm is that of a luxury magazine spread: whitespace, centered type, paired imagery, no visual clutter."
+}

@@ -1,0 +1,363 @@
+{
+ "id": "fdc72952-9b36-443a-9e0c-20b366aee29f",
+ "name": "Flecto",
+ "slug": "flecto",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/fdc72952-9b36-443a-9e0c-20b366aee29f",
+ "referenceSite": "https://flecto.io",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:37:21.721Z",
+ "articleModifiedAt": "2026-06-05T11:28:55.253Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c975c431-93d4-42d9-b2e2-9409470cfaa9.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/98d27ac1-1a75-4ea1-889d-a1f20a0b0e2a.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/5e0298e6-3e56-4e1e-b9c2-47c291d7f15c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/479c8d62-4ab6-45df-9f31-f214917e2351.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/c063b185-9f71-4d31-9b95-fc8c3f96a6d8.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c9ead6df-a8ef-4aa6-b665-1e4ece6ddbe2.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/24bb9938-7d56-417a-adda-dd226919b54e.png"
+ }
+ },
+ "classification": {
+ "theme": "mixed",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Botanical greenhouse glasshouse. A warm cream-walled conservatory where deep teal planters hold bright mint seedlings - flat, rounded, alive with green, zero shadows.",
+ "summary": "Explore Flecto\u0027s mixed SaaS design system: Forest Ink #004737, Mint Pulse #56f09f colors, Aeonik, roobert typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Forest Ink",
+ "value": "#004737",
+ "token": "--color-forest-ink",
+ "role": "Dominant brand surface - hero panels, section backgrounds, thick structural borders, nav header, footer blocks. Deep teal absorbs the page and makes cream text glow"
+ },
+ {
+ "name": "Mint Pulse",
+ "value": "#56f09f",
+ "token": "--color-mint-pulse",
+ "role": "Green outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Mint Mist",
+ "value": "#d4ffe8",
+ "token": "--color-mint-mist",
+ "role": "Green accent for outlined action borders, linked labels, and lightweight interactive emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Cream Canvas",
+ "value": "#fffbec",
+ "token": "--color-cream-canvas",
+ "role": "Page background - warm off-white replaces pure white. Border-color on teal sections, card fills on light areas, heading text on dark surfaces"
+ },
+ {
+ "name": "Deep Loam",
+ "value": "#032019",
+ "token": "--color-deep-loam",
+ "role": "Text color on cream surfaces, subtle dark borders. Near-black with a green undertone that harmonizes with the Forest Ink brand color"
+ },
+ {
+ "name": "Sage Whisper",
+ "value": "#99b5af",
+ "token": "--color-sage-whisper",
+ "role": "Muted body text and secondary borders - desaturated green-gray that recedes on cream while staying tonally consistent with the brand palette"
+ },
+ {
+ "name": "Stone Mist",
+ "value": "#ccdad7",
+ "token": "--color-stone-mist",
+ "role": "Hairline dividers, icon borders, subtle background tints on cards within light sections"
+ },
+ {
+ "name": "Bone",
+ "value": "#faf2d5",
+ "token": "--color-bone",
+ "role": "Soft warm card background - slightly warmer and more saturated than cream canvas, used to lift specific content blocks without breaking the tonal family"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#222222",
+ "token": "--color-charcoal",
+ "role": "Body text and standard button borders in neutral contexts. Used when chromatic text is not appropriate"
+ },
+ {
+ "name": "Iris Spark",
+ "value": "#8f37ff",
+ "token": "--color-iris-spark",
+ "role": "Violet outline accent for tags, dividers, and focused UI edges."
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Aeonik",
+ "token": "--font-aeonik",
+ "role": "Universal typeface - headings, body, UI labels, buttons. Single weight 400 across the entire system; contrast is achieved through size and negative letter-spacing, not weight. This is the signature choice: a monoweight geometric sans where display headlines at 56-74px tighten to -0.043em while body text at 14-16px sits at normal or slightly positive tracking. Tabular numerals (\u0027tnum\u0027) are enabled for all instances."
+ },
+ {
+ "name": "roobert",
+ "token": "--font-roobert",
+ "role": "Secondary body face - used for longer descriptive copy, list items, and hero subtext. Warmer and more humanist than Aeonik, providing tonal variety in long-form text while staying in the same single-weight, geometric family."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.4",
+ "0.1px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.3",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.2",
+ "-0.56px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.15",
+ "-1.08px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1.1",
+ "-2.4px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "74px",
+ "1",
+ "-3.18px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "40-80px",
+ "cardPadding": "12-20px",
+ "elementGap": "10-12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "38",
+ "38px",
+ "`--spacing-38`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "19px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "buttons",
+ "40px"
+ ],
+ [
+ "small-chips",
+ "10px"
+ ],
+ [
+ "icon-squares",
+ "5.76px"
+ ],
+ [
+ "large-panels",
+ "60px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Filled Mint Button",
+ "role": "Primary call-to-action (Login, Start)"
+ },
+ {
+ "name": "Outlined Dark Button",
+ "role": "Secondary action (Book a Demo)"
+ },
+ {
+ "name": "Ghost Pill Button",
+ "role": "Tertiary action or filter"
+ },
+ {
+ "name": "Hero Panel",
+ "role": "Full-bleed dark section"
+ },
+ {
+ "name": "Light Card",
+ "role": "Content card on cream canvas"
+ },
+ {
+ "name": "Tinted Feature Card",
+ "role": "Highlighted content block"
+ },
+ {
+ "name": "Language Selector",
+ "role": "Compact utility dropdown"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site nav"
+ },
+ {
+ "name": "Decorative Shape Module",
+ "role": "Brand illustration element"
+ },
+ {
+ "name": "Footer Section Block",
+ "role": "Dark footer column"
+ },
+ {
+ "name": "Icon Glyph",
+ "role": "UI icon system"
+ },
+ {
+ "name": "Circular Action Button",
+ "role": "Floating utility (download, scroll)"
+ }
+ ],
+ "dos": [
+ "Use Aeonik at weight 400 for all text - never introduce bold or light weights; let size and negative tracking create hierarchy",
+ "Apply -0.043em letter-spacing at 56px and above; tighten to -0.030em at 32-36px; open up to +0.020em at caption sizes 8-12px",
+ "Use Forest Ink (#004737) for hero backgrounds and primary structural borders; never use it as a small accent - it is a surface color",
+ "Reach for Mint Pulse (#56f09f) only on filled buttons, active icons, and decorative shapes; its rarity is the system",
+ "Set borders at 1-2px using Forest Ink on dark sections and Stone Mist (#ccdad7) on light sections instead of adding shadows",
+ "Set page background to Cream Canvas (#fffbec) - never pure #ffffff for the base canvas",
+ "Use border-radius 40px on all buttons, 19px on cards, and 9999px on pill tags"
+ ],
+ "donts": [
+ "Don\u0027t introduce additional font weights - the monoweight system is the signature",
+ "Don\u0027t use Mint Pulse (#56f09f) as a large surface area - it loses punch; keep it to button-sized and icon-sized moments",
+ "Don\u0027t add drop shadows beyond rgba(0,0,0,0.04) 0px 3px 2px 0px - the flatness is intentional",
+ "Don\u0027t use pure #ffffff as the page background - the cream warmth is load-bearing for the botanical feel",
+ "Don\u0027t apply gradients - the system is strictly flat color blocks",
+ "Don\u0027t use #8f37ff (Iris Spark) as a functional color - it is decorative only and should appear rarely",
+ "Don\u0027t center-align body copy or lists - only headlines; body text stays left-aligned for reading rhythm"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Page Canvas | `#fffbec` | Base background for all light sections - warm cream replaces pure white |\n| 1 | Card Lift | `#faf2d5` | Slightly warmer card surface within cream pages - subtle separation without hard borders |\n| 2 | Tinted Highlight | `#d4ffe8` | Mint-tinted surface for selected cards, tag backgrounds, pill highlights |\n| 3 | Dark Hero Panel | `#004737` | Full-bleed dark teal sections - hero, footer blocks, feature panels |",
+ "elevation": "- **Card:** `rgba(0, 0, 0, 0.04) 0px 3px 2px 0px`",
+ "imagery": "The site uses flat geometric illustration over photography. The hero features a organic key-and-branch diagram in solid mint (#56f09f) on the deep teal background - rounded rectangles connected by thick lines, evoking a growing plant or network. No product screenshots, no lifestyle photography, no 3D renders. Iconography is outlined 1.5px stroke in a consistent single style. Imagery is decorative atmosphere rather than explanatory content; the brand relies on color and shape language instead of photographs.",
+ "layout": "Page model is max-width 1200px centered, with full-bleed dark teal sections breaking out. The hero is a full-viewport-height dark teal band with centered headline and decorative illustration. Navigation is a white top bar with logo left, links center-left, and utility actions (language, book demo, login) right-aligned. Sections alternate between cream canvas and forest-teal panels, separated by generous 40-80px vertical gaps. Content within light sections is primarily left-aligned text in a single column at 600-800px max width. Cards use a 19px radius and appear in 1- or 3-column grids. The overall rhythm is spacious breathing room between sections, compact information density within them."
+}

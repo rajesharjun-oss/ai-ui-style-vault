@@ -1,0 +1,310 @@
+{
+ "id": "e5081033-bd79-479a-aef6-8b002df6086a",
+ "name": "Ableton",
+ "slug": "ableton",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e5081033-bd79-479a-aef6-8b002df6086a",
+ "referenceSite": "https://ableton.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-01-27T16:17:02.000Z",
+ "articleModifiedAt": "2026-06-05T08:29:40.986Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/be957b99-be6f-4e05-b8e1-bd8a49528f0a.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/3d858556-38b2-438e-ab01-e8ed1a963e1f.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0f07c295-b998-4ba3-aa3e-0d6ff0e8087b.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e8da0c70-330d-4469-8240-54c326c263e7.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2012f52f-23cc-4d96-b7fe-64fdb65fb934.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/1751aebd-7792-4112-b541-353572194dff.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Productivity",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Productivity",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Editorial workshop on stark white. White paper, black Futura, one blue pen mark for interactivity, photography clipped flush to the edges like magazine spreads.",
+ "summary": "Explore Ableton\u0027s light Productivity design system: Ink #000000, Paper #ffffff colors, futura-pt typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary text, nav labels, logo, icon strokes, and every text-level heading - sets the full information hierarchy"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page canvas, card surface, and hero overlay text - the default background for almost every screen"
+ },
+ {
+ "name": "Fog",
+ "value": "#eeeeee",
+ "token": "--color-fog",
+ "role": "Subtle form inputs, tag surfaces, and quiet secondary panel backgrounds - barely-there neutral"
+ },
+ {
+ "name": "Signal Blue",
+ "value": "#0000ff",
+ "token": "--color-signal-blue",
+ "role": "Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Coral",
+ "value": "#ff8389",
+ "token": "--color-coral",
+ "role": "Category tag fills (Downloads, News) - flat rectangular badges that classify content without padding the layout"
+ },
+ {
+ "name": "Teal",
+ "value": "#00d2be",
+ "token": "--color-teal",
+ "role": "Category tag fills (Tutorials, Videos) - flat rectangular badges paired with coral to split content taxonomy visually"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "futura-pt",
+ "token": "--font-futura-pt",
+ "role": "The single typeface powering everything from body copy to 90px display headlines. Futura PT\u0027s geometric precision mirrors Ableton\u0027s grid-based music software - the type and the product share a visual logic. Weight 700 carries headlines, 400 carries body. No serif, no monospace secondary face - the system stays mono-typographic."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "21",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "24",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "30",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "33.6",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "36",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "48",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "90px",
+ "90",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "0px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "203",
+ "203px",
+ "`--spacing-203`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Full-Bleed Hero with Photo Scrim",
+ "role": "Above-the-fold announcement"
+ },
+ {
+ "name": "Section Header with Filter Bar",
+ "role": "Content section introduction"
+ },
+ {
+ "name": "Content Card (Grid Item)",
+ "role": "Blog post or video entry in 3-column grid"
+ },
+ {
+ "name": "Category Tag",
+ "role": "Content classification badge"
+ },
+ {
+ "name": "Inline Text Link",
+ "role": "Default clickable text"
+ },
+ {
+ "name": "Overlay Text Link (on dark scrim)",
+ "role": "Link variant on photographic backgrounds"
+ },
+ {
+ "name": "Filter Link (Section)",
+ "role": "Content category filter"
+ },
+ {
+ "name": "Image Thumbnail (Tutorial Card)",
+ "role": "Visual entry into video content"
+ },
+ {
+ "name": "Logo Glyph",
+ "role": "Brand mark in navigation"
+ },
+ {
+ "name": "Horizontal Section Divider",
+ "role": "Implicit separation between content zones"
+ }
+ ],
+ "dos": [
+ "Use Futura PT for all text - never introduce a secondary typeface",
+ "Set every border-radius to 0px - the system is sharp, angular, and grid-faithful",
+ "Use #0000ff exclusively for link text, active nav, and interactive text - no other blue",
+ "Reach for coral #ff8389 and teal #00d2be only as category tag fills, never as backgrounds or text colors",
+ "Let the page be flat: no shadows, no borders, no fills on cards - let whitespace and type do the work",
+ "Use 90px weight 400 white for hero overlay text, not weight 700 - the light weight on bold imagery is the signature",
+ "Set body line-height to 1.50 and display line-height to 1.00 - the contrast between breathing body and tight display is intentional"
+ ],
+ "donts": [
+ "Do not add box-shadows or elevation to any component - the system is deliberately flat",
+ "Do not round corners on cards, tags, buttons, or inputs - keep 0px everywhere",
+ "Do not use coral or teal for buttons, CTAs, or interactive text - they are taxonomy-only",
+ "Do not call #0000ff a \u0027CTA color\u0027 - it is a link color used for interactive text, not filled buttons",
+ "Do not introduce gradient backgrounds - the system is solid color and photography only",
+ "Do not add icons, illustrations, or decorative graphics - photography and type carry the visual load",
+ "Do not set body text below 14px or use a weight other than 400 for body copy"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Paper | `#ffffff` | Primary page canvas and card surface |\n| 2 | Fog | `#eeeeee` | Recessed form input fields and occasional quiet panel fills |",
+ "elevation": "",
+ "imagery": "Photography dominates the visual system - no illustrations, no 3D renders, no abstract graphics. The hero uses a full-bleed environmental shot (laptop on patterned rug, musician at workstation) with a dark scrim and white overlaid type. Grid content cards use contained 16:10 or 16:9 photographs - musicians in studios, hardware close-ups, software UI captures, domestic creative spaces. Photography is warm, natural-lit, candid rather than staged; people are shown making, not performing. The product itself (the software, controllers like Push) appears in context rather than as isolated hero shots. Photography edges are sharp, un-masked, flush to container boundaries - no rounded corners, no soft drop shadows behind images. Icons are absent except for the brand glyph and minimal interface controls.",
+ "layout": "The page model is full-bleed for hero and footer zones, contained to ~1200px for content sections. The hero is a full-viewport-width photographic band with left-aligned white type overlay. Content sections sit on white with generous ~80px vertical breathing room between them. The 3-column card grid is the dominant content pattern, used for blog posts, tutorial videos, and featured content. Card titles are left-aligned, category tags sit flush left above the title. The top navigation is a single thin horizontal bar - no mega-menu, no sidebar, no sticky behavior visible beyond standard. Section transitions rely on whitespace rather than dividers, background changes, or visual breaks. The overall rhythm is: bold photographic hero quiet white editorial sections 3-column grid repeat. The design favors a left-to-right, top-to-bottom reading flow with no overlapping or asymmetric compositions."
+}

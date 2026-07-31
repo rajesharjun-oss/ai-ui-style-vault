@@ -1,0 +1,377 @@
+{
+ "name": "Kalstore(R)",
+ "slug": "kalstore-r",
+ "colors": [
+ {
+ "name": "Paper White",
+ "value": "#faf9f7",
+ "token": "--color-paper-white",
+ "role": "Page canvas - warm off-white that mimics uncoated paper stock; the default surface behind everything"
+ },
+ {
+ "name": "Ink",
+ "value": "#242424",
+ "token": "--color-ink",
+ "role": "Primary text, icon strokes, and dominant border color. Slightly softened from pure black to sit comfortably on the warm canvas"
+ },
+ {
+ "name": "Felt Gray",
+ "value": "#d3d3d3",
+ "token": "--color-felt-gray",
+ "role": "Hairline dividers, card borders, list separators - the structural neutral that holds the layout together without drawing attention"
+ },
+ {
+ "name": "Linen",
+ "value": "#edecea",
+ "token": "--color-linen",
+ "role": "Subtle surface elevation for nav backgrounds and hover states; slightly cooler than Paper White to create depth without contrast"
+ },
+ {
+ "name": "Parchment",
+ "value": "#e0ddd7",
+ "token": "--color-parchment",
+ "role": "Warm-toned surface for body sections and secondary cards; introduces a faint paper-fiber warmth against the cooler Linen"
+ },
+ {
+ "name": "Slate",
+ "value": "#727272",
+ "token": "--color-slate",
+ "role": "Muted secondary text and subdued borders for de-emphasized content like timestamps and helper labels"
+ },
+ {
+ "name": "Ash",
+ "value": "#8d9090",
+ "token": "--color-ash",
+ "role": "Tertiary text and disabled-state borders; sits between Slate and Felt Gray in the neutral ladder"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#585a5a",
+ "token": "--color-charcoal",
+ "role": "Navigation borders and medium-emphasis UI structure; a bridge between the near-black Ink and the mid-grays"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Badge fills, icon backgrounds, and the highest surface elevation - used sparingly to lift elements above Linen and Parchment"
+ },
+ {
+ "name": "Mustard",
+ "value": "#f1ba35",
+ "token": "--color-mustard",
+ "role": "Primary action color - CTA buttons, nav accents, and badge highlights. A warm sunlit yellow that reads as a sticky-note moment against the monochrome layout"
+ },
+ {
+ "name": "Espresso",
+ "value": "#30250b",
+ "token": "--color-espresso",
+ "role": "Dark accent paired with Mustard on badges and nav - provides a near-black complement that makes the yellow pop without using pure black"
+ },
+ {
+ "name": "Terracotta",
+ "value": "#d26c46",
+ "token": "--color-terracotta",
+ "role": "Editorial accent - appears in the typographic art palette and decorative product imagery. Rust-orange warmth that belongs in illustrations, not buttons"
+ },
+ {
+ "name": "Sage",
+ "value": "#458e71",
+ "token": "--color-sage",
+ "role": "Editorial accent - a muted forest green used in the typographic art palette. Decorative, not functional"
+ },
+ {
+ "name": "Cobalt",
+ "value": "#3b59a3",
+ "token": "--color-cobalt",
+ "role": "Editorial accent - deep ultramarine from the typographic art palette. The strongest chromatic statement in the decorative system"
+ },
+ {
+ "name": "Rust",
+ "value": "#6c3c3c",
+ "token": "--color-rust",
+ "role": "Editorial accent - dark brick red from the typographic art palette, echoing the warmth of Terracotta but grounded"
+ },
+ {
+ "name": "Sky Dust",
+ "value": "#90abc8",
+ "token": "--color-sky-dust",
+ "role": "Editorial accent - a washed, chalky blue used in the typographic art palette. The lightest chromatic in the decorative system"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "ABCDiatype",
+ "token": "--font-abcdiatype",
+ "role": "The only typeface. A neo-grotesque editorial sans used at every register - 19px body copy, 25px section headings, and dramatic 71-140px display treatments with tight tracking. The wide weight range (400-500) keeps the system monovariational; hierarchy comes from size, not weight contrast."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.4",
+ "1.2px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.3",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.35",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "19px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "21px",
+ "1.25",
+ "-0.42px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading-lg",
+ "25px",
+ "1.2",
+ "-0.5px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "71px",
+ "1",
+ "-2.13px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "82px",
+ "0.95",
+ "-2.46px",
+ "--text-display-lg"
+ ],
+ [
+ "display-xl",
+ "140px",
+ "0.93",
+ "-5.6px",
+ "--text-display-xl"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "12px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "52",
+ "52px",
+ "`--spacing-52`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "icons",
+ "4px"
+ ],
+ [
+ "badges",
+ "4px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button (Mustard)",
+ "role": "Filled action button for purchases, subscriptions, and key conversions"
+ },
+ {
+ "name": "Ghost Navigation Button",
+ "role": "Secondary navigation and text-style links"
+ },
+ {
+ "name": "Product Card",
+ "role": "Individual product display in grids and featured sections"
+ },
+ {
+ "name": "Sold Out Badge",
+ "role": "Status indicator for unavailable products"
+ },
+ {
+ "name": "Typographic Art Block",
+ "role": "Full-bleed decorative section using stacked chromatic letterforms"
+ },
+ {
+ "name": "Newsletter Popup",
+ "role": "Email capture overlay triggered after page interaction"
+ },
+ {
+ "name": "Sticky Navigation Bar",
+ "role": "Top-level site navigation that persists on scroll"
+ },
+ {
+ "name": "Price Display",
+ "role": "Product pricing with optional original/sale price strikethrough"
+ },
+ {
+ "name": "Hero Lifestyle Image",
+ "role": "Full-bleed editorial photography in the primary hero section"
+ },
+ {
+ "name": "Sale Banner Section",
+ "role": "Promotional call-to-action band with headline and CTA"
+ },
+ {
+ "name": "Product Detail Card (Calendar)",
+ "role": "Featured product showcase with large image and metadata"
+ },
+ {
+ "name": "Email Input Field",
+ "role": "Single-line text input for newsletter and form capture"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #f1ba35 Mustard exclusively for filled action buttons - it is the only chromatic that functions as a CTA in this system.",
+ "Set display type at 71-140px ABCDiatype with -0.04em to -0.02em letter-spacing for editorial impact; the tight tracking is what makes the oversized type feel intentional rather than bloated.",
+ "Use 8px border-radius for cards, buttons, and inputs; reserve 4px for badges and icon containers.",
+ "Use 1px #d3d3d3 Felt Gray borders for structural definition; avoid using box-shadow as the primary separator.",
+ "Set body text at 19px ABCDiatype weight 400 with 1.30 line-height - the 19px body size is larger than typical e-commerce (usually 14-16px) and signals editorial intent.",
+ "Use the chromatic accent palette (#d26c46, #458e71, #3b59a3, #6c3c3c, #90abc8) only in editorial art blocks and illustrations - never in functional UI elements like buttons, links, or status indicators.",
+ "Maintain 64px minimum section gaps to preserve the spacious, magazine-like reading rhythm."
+ ],
+ "doNot": [
+ "Don\u0027t use chromatic colors for functional UI - no green for success, no red for error, no blue for info. The system is monochrome with one warm accent.",
+ "Don\u0027t apply box-shadows with opacity above 10% - the elevation philosophy is paper-lift, not digital pop.",
+ "Don\u0027t use bold weights (600+) - the system maxes out at weight 500; hierarchy comes from size, not weight contrast.",
+ "Don\u0027t use pure black (#000000) for text or backgrounds - use #242424 Ink to maintain warmth on the paper-tone canvas.",
+ "Don\u0027t add gradients - the raw data shows zero gradient usage; the system is entirely flat surfaces.",
+ "Don\u0027t use button padding larger than 8px vertical - the compact 6x8px button size is a signature; larger padding would break the restrained feel.",
+ "Don\u0027t place Mustard (#f1ba35) on large filled surfaces - it works as a button fill or badge, not as a section background."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e854a4f7-4243-44a7-92e2-e22db22bef1b",
+ "referenceSite": "https://kal-store.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:16:55.210Z",
+ "articleModifiedAt": "2026-06-05T11:21:12.120Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/87cc1a2e-faf8-4cea-a79e-720c99cd9343.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/ef3e3fcc-78ca-42d0-99a9-b8e912a04816.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/cd2c5c0f-5091-402b-85e2-55001b27d2dd.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/34e307a0-b5f4-4a7e-bf93-2ec596f8ac58.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/ecd38e6d-4fbc-4886-adac-5f9bcc3b8ed7.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/9f6b904b-92a0-42ab-9ac9-c2ca325569b0.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ }
+}

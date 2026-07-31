@@ -1,0 +1,206 @@
+{
+ "name": "Honk",
+ "slug": "honk",
+ "colors": [
+ {
+ "name": "Honk Blue",
+ "value": "#008fff",
+ "token": "--color-honk-blue",
+ "role": "Full-viewport page canvas, hero background, all top-level sections - the electric blue IS the brand surface, not a secondary accent"
+ },
+ {
+ "name": "Honk Sky",
+ "value": "#00a0ff",
+ "token": "--color-honk-sky",
+ "role": "Secondary blue for gradient bands, large decorative shapes, and depth layers behind the primary canvas"
+ },
+ {
+ "name": "Signal Yellow",
+ "value": "#ffe400",
+ "token": "--color-signal-yellow",
+ "role": "Accent words inside headlines, heading border underlines, and highlight punctuation - the only chromatic accent on the blue field, used sparingly for emphasis rather than decoration"
+ },
+ {
+ "name": "Honk White",
+ "value": "#ffffff",
+ "token": "--color-honk-white",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Carbon",
+ "value": "#111111",
+ "token": "--color-carbon",
+ "role": "Primary text on light surfaces, dark borders, near-black detail work - used where text leaves the blue field"
+ },
+ {
+ "name": "True Black",
+ "value": "#000000",
+ "token": "--color-true-black",
+ "role": "SVG fills, graphic detail, maximum-contrast text where the design needs to drop to absolute black"
+ },
+ {
+ "name": "Slate",
+ "value": "#363636",
+ "token": "--color-slate",
+ "role": "Secondary graphic fills, dark illustration detail, softer-than-black accents in SVG work"
+ },
+ {
+ "name": "Game Green",
+ "value": "#3fcc6b",
+ "token": "--color-game-green",
+ "role": "Phone screen content (in-game UI inside device mockups) - a single-hue secondary color reserved for product-internal screens so the blue/yellow/white trio stays clean on the marketing surface"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Honk Header",
+ "token": "--font-honk-header",
+ "role": "Hero and section display headlines - custom heavy display face at a single 52px size, tightly tracked at -0.012em. This is the signature wordmark voice: chunky, loud, slightly condensed, designed to read at billboard scale on the blue field"
+ },
+ {
+ "name": "Honk Sans",
+ "token": "--font-honk-sans",
+ "role": "Body copy, sub-headings, button labels, link text, footer, icons - a neutral grotesk covering the full UI scale from 13px micro-labels to 19px lead paragraphs. Negative tracking across the board (-0.026em at 13px, -0.006em at 19px) tightens the grotesque to feel modern rather than airy"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.55",
+ "-0.026px",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "19px",
+ "1.55",
+ "-0.006px",
+ "--text-body-lg"
+ ],
+ [
+ "display",
+ "52px",
+ "1.23",
+ "-0.012px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "20-24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "buttons",
+ "6px"
+ ],
+ [
+ "small-pills",
+ "6px"
+ ],
+ [
+ "notification-panels",
+ "16px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Blue Hero Canvas",
+ "role": "Full-bleed hero section"
+ },
+ {
+ "name": "Highlighted Headline",
+ "role": "Hero/section H1"
+ },
+ {
+ "name": "Hero Sub-headline",
+ "role": "Body intro under headline"
+ },
+ {
+ "name": "Notification Banner",
+ "role": "Embedded chat notification UI"
+ },
+ {
+ "name": "Phone Mockup Frame",
+ "role": "Device illustration for product showcase"
+ },
+ {
+ "name": "Speech Bubble Decoration",
+ "role": "Floating emoji-shaped UI nubs"
+ },
+ {
+ "name": "In-Phone Game Screen",
+ "role": "Product-internal UI (device screen content)"
+ },
+ {
+ "name": "Ghost Link Button",
+ "role": "Lightweight text link / action"
+ },
+ {
+ "name": "Footer Section",
+ "role": "Closing dark or blue band"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #008fff as the full-viewport canvas for every top-level section - never place the headline on a white card with a blue background behind it; the blue IS the surface.",
+ "Flip one or two words inside a 52px Honk Header headline to #ffe400 to create emphasis. Never underline, italicize, or bold the highlighted word - color is the only differentiator.",
+ "Set all body copy in Honk Sans at 16-19px with the negative tracking values from the type scale (-0.018em at 16px, -0.006em at 19px) - the tightened grotesque is part of the voice.",
+ "Use the 16px-radius token for any white panel embedded in the blue field (notification banners, content cards, image containers) and the 6px-radius token for small pills or chips.",
+ "Place the phone mockup on the right side of the hero at 45-55% column width, surrounded by 2-3 floating white speech-bubble decorations - never center it, never add a drop shadow.",
+ "Use #3fcc6b green exclusively inside the phone screen for product-internal UI; keep the marketing surface to the blue/yellow/white trio only.",
+ "Keep icon strokes at 2px in Honk Sans weight, white on blue - icons are line-style, never filled, never chromatic."
+ ],
+ "doNot": [
+ "Don\u0027t use white or light-gray page backgrounds for marketing screens - the design system assumes the blue field is always present, so a white page reads as broken.",
+ "Don\u0027t use #ffe400 for body text, button backgrounds, or large fill areas - Signal Yellow is a word-level highlight only, not a surface color.",
+ "Don\u0027t introduce a third saturated color to the marketing surface (purple, red, orange) - only the blue field, yellow accents, white text, and the green inside device mockups are permitted.",
+ "Don\u0027t use heavy drop shadows on cards, buttons, or the phone mockup - elevation comes from color contrast against the blue, not from shadow stacks.",
+ "Don\u0027t split the headline across more than 3 lines or highlight more than 2 words with yellow - the system relies on a single punctuation moment, not scattered emphasis.",
+ "Don\u0027t use a different font family for sub-headings, buttons, or links - Honk Sans at varied weights covers the entire UI; Honk Header is display-only.",
+ "Don\u0027t use the 6px-radius token on cards or large panels, and don\u0027t use the 16px-radius token on buttons - keep small-radius on small elements, large-radius on large surfaces."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/ca4708f7-7175-4da2-a47f-ce8f5e601f99",
+ "referenceSite": "https://honk.me",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:08:25.009Z",
+ "articleModifiedAt": "2026-06-05T07:59:25.038Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/af90645f-861f-4545-89cb-c6ccd09fc893.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e5adf376-7d3b-4dbd-bba4-e6236f185644.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/a939e075-02f8-42d9-8eda-61ea1906f2bb.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/5eafc5aa-b4cc-4daf-bc0d-ebc966de10e8.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d25689ab-2928-465c-81a7-5b8ffe0d58ee.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/7fef6caa-90c9-41b3-aac2-af77852c75d7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/8e173827-04d4-49aa-bfcb-4c435511d6ee.png"
+ }
+ }
+}

@@ -1,0 +1,299 @@
+{
+ "name": "July Fund",
+ "slug": "july-fund",
+ "colors": [
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Page canvas, deepest card base, and the void between sections - the room the cards hang in"
+ },
+ {
+ "name": "Coffee Bean",
+ "value": "#433e3c",
+ "token": "--color-coffee-bean",
+ "role": "Dominant border color across cards, badges, and dividers - the hairline that frames every chromatic block"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#f0e7e4",
+ "token": "--color-cream-paper",
+ "role": "Light card surface for the hero/about panel and inverted buttons - a warm off-white that reads as printed paper on the dark canvas"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#2b2b2b",
+ "token": "--color-charcoal",
+ "role": "Secondary surface and elevated card base for monochrome content blocks"
+ },
+ {
+ "name": "Espresso",
+ "value": "#221f1e",
+ "token": "--color-espresso",
+ "role": "Button background for primary text controls on dark surfaces - one shade deeper than the card it sits in"
+ },
+ {
+ "name": "Stone Gray",
+ "value": "#898989",
+ "token": "--color-stone-gray",
+ "role": "Muted body copy, list markers, and supporting metadata - the whisper tier below primary text"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Headline color on dark cards, badge text on chromatic fills, and link highlights"
+ },
+ {
+ "name": "Forest Floor",
+ "value": "#113619",
+ "token": "--color-forest-floor",
+ "role": "Themed card surface for nature/climate/sustainability chapters - the deepest chromatic field, reads as moss or deep canopy"
+ },
+ {
+ "name": "Twilight Violet",
+ "value": "#322b66",
+ "token": "--color-twilight-violet",
+ "role": "Themed card surface for space, frontier, and science verticals - saturated enough to dominate a grid cell, dark enough to hold white type"
+ },
+ {
+ "name": "Olive Depth",
+ "value": "#2e2909",
+ "token": "--color-olive-depth",
+ "role": "Themed card surface for energy and industry chapters - a near-black ochre that glows against the canvas"
+ },
+ {
+ "name": "Solar Yellow",
+ "value": "#fde440",
+ "token": "--color-solar-yellow",
+ "role": "High-impact accent card fill for transformation and thesis verticals - the loudest single block in the system, used sparingly to punctuate the grid"
+ },
+ {
+ "name": "Mint Chip",
+ "value": "#56d270",
+ "token": "--color-mint-chip",
+ "role": "Small uppercase tag/badge fill for news and announcement labels - the only saturated green used at small scale"
+ },
+ {
+ "name": "Lavender Mist",
+ "value": "#c6bffa",
+ "token": "--color-lavender-mist",
+ "role": "Soft accent for secondary badges and highlight borders on the violet card family"
+ },
+ {
+ "name": "Ember Red",
+ "value": "#b9534a",
+ "token": "--color-ember-red",
+ "role": "Reserved research and analytical-content badge fill - used almost never; its rarity makes it register as a category marker"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Portrait",
+ "token": "--font-portrait",
+ "role": "Display and heading serif used for the wordmark, section titles, and card headlines. Portrait is a high-contrast didone-style serif; its hairline strokes and sharp serifs give the site its monograph feel. A single weight (400) is used - no bold headlines, authority comes from size and contrast alone."
+ },
+ {
+ "name": "Helvetica Neue",
+ "token": "--font-helvetica-neue",
+ "role": "Body, UI, badges, buttons, and metadata. Tight 400 for body, 700 for emphasis. The wide letter-spacing at small sizes (0.20-0.25em) is the defining micro-typography move: even 8px labels read as intentional, not afterthoughts."
+ }
+ ],
+ "typeScale": [
+ [
+ "body-lg",
+ "16px",
+ "1.3",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "35px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.2",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "96px",
+ "1.05",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "80px",
+ "cardPadding": "40px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "badges",
+ "8px"
+ ],
+ [
+ "images",
+ "12px"
+ ],
+ [
+ "buttons",
+ "24px"
+ ],
+ [
+ "smallControls",
+ "5px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Themed Category Card",
+ "role": "Primary content unit - each card carries a single saturated background and acts as a chapter in the grid."
+ },
+ {
+ "name": "Cream Hero Panel",
+ "role": "Light inverted opening section that introduces the fund before the dark grid begins."
+ },
+ {
+ "name": "Portfolio Founder Card",
+ "role": "Monochrome card introducing an individual team member."
+ },
+ {
+ "name": "News Article Card",
+ "role": "Editorial post preview with a photographic image, date, excerpt, and read-more control."
+ },
+ {
+ "name": "Category Tag Badge",
+ "role": "Uppercase label that classifies a card\u0027s content vertical."
+ },
+ {
+ "name": "Ghost Pill Button",
+ "role": "Default text control for navigation, read-more, and secondary actions."
+ },
+ {
+ "name": "Filled Pill Button",
+ "role": "Rare primary action - used only where a strong CTA is needed."
+ },
+ {
+ "name": "Location Card",
+ "role": "Compact monochrome card displaying a city and weather metadata."
+ },
+ {
+ "name": "Image Tile",
+ "role": "Inset photographic or illustrative block within a card."
+ },
+ {
+ "name": "Map Tile",
+ "role": "Light-surface map preview for location-based content."
+ },
+ {
+ "name": "Fund Thesis Statement Block",
+ "role": "Long-form text card on a solid chromatic field that explains a fund vertical."
+ },
+ {
+ "name": "Footer Link Block",
+ "role": "Closing navigation and contact region on the dark canvas."
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Portrait 400 at 30-96px for every heading - never substitute a sans-serif headline.",
+ "Set all uppercase labels (badges, buttons, metadata) at 8-10px with 0.20-0.25em letter-spacing and weight 700.",
+ "Let each card pick exactly one chromatic field (Forest Floor, Twilight Violet, Olive Depth, Solar Yellow, or Charcoal) as its background - no gradients, no images-as-backgrounds inside cards.",
+ "Use 20px radius for cards, 24px for buttons (full pill), 8px for badges, 12px for images.",
+ "Pair Mint Chip (#56d270) badges only with dark or neutral cards; reserve Solar Yellow (#fde440) for the single loudest thesis card in any grid.",
+ "Keep 40px card padding on the dominant axis and 20px on the minor axis; 45px column gap between paired text columns.",
+ "Separate sections with 80px of Obsidian void - never use a divider line between cards, the radius and the gap are the separator."
+ ],
+ "doNot": [
+ "Don\u0027t add box-shadow, glow, or blur to any element - the system is flat by design.",
+ "Don\u0027t use bold weights for Portrait headlines; authority comes from size, not weight.",
+ "Don\u0027t mix two chromatic fills inside a single card - pick one field and commit.",
+ "Don\u0027t place body copy in a chromatic color other than Stone Gray (#898989), Paper White, or Coffee Bean - no accent text.",
+ "Don\u0027t use buttons with square or 8px corners; the 24px pill is non-negotiable.",
+ "Don\u0027t set background gradients on text-forward cards - gradients are reserved for the radial accent washes in hero/empty states.",
+ "Don\u0027t center body paragraphs or labels; left-align everything except the wordmark."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/adc127f5-c6ec-4892-984d-5445c2b6104e",
+ "referenceSite": "https://july.fund",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:40:13.405Z",
+ "articleModifiedAt": "2026-06-05T08:32:01.972Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/870feb59-a356-4821-801e-a862aaf95fa7.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/36112875-29f9-4f28-8550-35b25b5511c3.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/30de4d16-93a9-403a-91e8-a06d87360ec8.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/04373d7a-5d36-4533-ab10-3a0e136f0e70.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/19137ed3-6f13-4f3f-b2b8-6e6c5ea03625.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/ab4c89dd-3d14-473e-89a7-493d2216cffd.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/011ecfce-5760-469e-95b7-56ffc955bf2c.png"
+ }
+ }
+}

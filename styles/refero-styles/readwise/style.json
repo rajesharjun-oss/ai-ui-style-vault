@@ -1,0 +1,283 @@
+{
+ "id": "34c8dbee-f5d9-4495-a0e0-a25c6ca4b95b",
+ "name": "Readwise",
+ "slug": "readwise",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/34c8dbee-f5d9-4495-a0e0-a25c6ca4b95b",
+ "referenceSite": "https://readwise.io",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-02-22T09:37:09.000Z",
+ "articleModifiedAt": "2026-06-05T09:45:01.261Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/eafc743c-0138-4fef-a7c2-29a2ed3d60cf.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/0fa6fe78-1442-4621-b688-f43984b572a2.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c3e2101a-4673-40c7-b3c7-f9c19dbe9867.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/041e3525-76c4-4741-aee0-188e510a5fac.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/78f4f722-08b8-480c-8f18-f56415d2986a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/4d62ceb6-8536-477c-bead-378f635336ed.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/f811a6c8-858f-43c4-a1d6-e382904c16c9.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Productivity",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Productivity",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "A reader\u0027s annotated journal - quiet paper-white, serif headlines, and one blue pen.",
+ "summary": "Explore Readwise\u0027s light Productivity design system: Pen Blue #478cd0, Highlighter Yellow #fff7ca colors, Charter, Mulish typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Pen Blue",
+ "value": "#478cd0",
+ "token": "--color-pen-blue",
+ "role": "Blue supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Highlighter Yellow",
+ "value": "#fff7ca",
+ "token": "--color-highlighter-yellow",
+ "role": "Yellow supporting accent for decorative details and low-frequency emphasis."
+ },
+ {
+ "name": "Reader Orange",
+ "value": "#fb9100",
+ "token": "--color-reader-orange",
+ "role": "Orange supporting accent for decorative details and low-frequency emphasis"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Card surfaces, product screenshot backgrounds, button text on filled buttons, and the nav background. The topmost surface tier"
+ },
+ {
+ "name": "Ink",
+ "value": "#1f1f1f",
+ "token": "--color-ink",
+ "role": "Primary heading and body text. Near-black rather than pure black - softer on the eye, reads as printed ink rather than digital display"
+ },
+ {
+ "name": "Page Mist",
+ "value": "#f1f5f8",
+ "token": "--color-page-mist",
+ "role": "Page canvas background. A cool, very-light blue-gray that reads as off-white paper rather than a flat gray, giving the entire page a subtle blue cast"
+ },
+ {
+ "name": "Deep Slate",
+ "value": "#2d2f33",
+ "token": "--color-deep-slate",
+ "role": "Secondary text and dark surface details. Used in nav and component borders where a slightly different tone from Ink is needed"
+ },
+ {
+ "name": "True Black",
+ "value": "#000000",
+ "token": "--color-true-black",
+ "role": "Dark supporting neutral for text, icons, and strong contrast."
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Charter",
+ "token": "--font-charter",
+ "role": "Editorial serif used exclusively for headlines and large display text. The choice of a transitional serif in a productivity SaaS is the site\u0027s signature move - it signals \u0027reading\u0027 and \u0027books\u0027 before any copy is read. Weight 400 at 50px with lineHeight 1.00 creates tight, book-title-style display; weight 600 at 29px handles section headlines. Substitute: Source Serif Pro or Lora if Charter is unavailable."
+ },
+ {
+ "name": "Mulish",
+ "token": "--font-mulish",
+ "role": "Humanist sans for everything non-display: nav, body, buttons, labels, icons. The weight range is wide - 400 for body, 600 for buttons, 700/800 for bold tags and emphasis. Tighter lineHeight (1.09) at 11px keeps captions compact; 1.50 at 16-18px gives body copy room to breathe. Consistent -0.02em tracking across all sizes tightens the sans into a clean utility voice."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.09",
+ "-0.22px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-0.28px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.32px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.5",
+ "-0.36px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.25",
+ "-0.44px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "29px",
+ "1.13",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "50px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "16px"
+ ],
+ [
+ "tags",
+ "10px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "buttons",
+ "10px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "The main conversion action on hero and feature sections"
+ },
+ {
+ "name": "Ghost Sign In Button",
+ "role": "Top-right navigation action"
+ },
+ {
+ "name": "Feature Badge Tag",
+ "role": "Flags new or beta features in the nav"
+ },
+ {
+ "name": "Step Icon Circle",
+ "role": "Visual anchor for \u0027How it works\u0027 steps"
+ },
+ {
+ "name": "Testimonial Card",
+ "role": "User social proof in horizontal scroll"
+ },
+ {
+ "name": "In-line Highlighted Text",
+ "role": "Emphasizes key phrases in body copy"
+ },
+ {
+ "name": "Product Hero Mockup",
+ "role": "Shows the actual app on laptop and phone"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Text Link",
+ "role": "In-body navigation and references"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Top-of-section titles like \u0027Here\u0027s how Readwise works:\u0027 and \u0027Here\u0027s what our users say:\u0027"
+ }
+ ],
+ "dos": [
+ "Use Charter 50px weight 400 for hero display headlines, lineHeight 1.00, no letter-spacing adjustment - the tight leading makes the headline feel like a book title.",
+ "Apply #fff7ca as a background wash behind 2-4 word phrases in body copy to signal emphasis; never as a full-surface background or button fill.",
+ "Set the primary CTA as a solid #478cd0 button with white text, 10px radius, and 10/24px padding - no gradients, no shadows on the button itself.",
+ "Use Mulish -0.02em tracking at all sizes; the tightened letter-spacing is what makes the sans feel like a deliberate choice rather than a default.",
+ "Layer cards on the #f1f5f8 canvas with white #ffffff fills and hairline borders rather than relying on shadows for separation.",
+ "Limit chromatic color to the single Pen Blue accent for actions and links; use Reader Orange only for the single \u0027Reader\u0027 feature badge.",
+ "Pair every serif headline with Mulish body text at 16-18px - the contrast between transitional serif and humanist sans is the site\u0027s typographic identity."
+ ],
+ "donts": [
+ "Don\u0027t use Charter for body copy, nav, or buttons - it\u0027s reserved for headlines 22px and above.",
+ "Don\u0027t apply #fff7ca to full card surfaces, section backgrounds, or large areas - it loses its meaning as a highlighter if it covers more than a line of text.",
+ "Don\u0027t introduce additional accent colors beyond Pen Blue, Highlighter Yellow, and Reader Orange - the system is deliberately near-monochromatic.",
+ "Don\u0027t use heavy drop shadows on cards or buttons; if elevation is needed, keep it soft (spread 20px) and tinted with Ink rather than pure black.",
+ "Don\u0027t set display headlines in all-caps or with positive letter-spacing - Charter at 50px works because of its tight 1.00 leading and natural tracking.",
+ "Don\u0027t use a filled colored button for secondary actions; use the Ghost Sign In style (white fill, 1px border) or a plain text link in Pen Blue.",
+ "Don\u0027t set the page background to pure white #ffffff - Page Mist #f1f5f8 is what makes the white cards and product mockups read as elevated surfaces."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Page Canvas | `#f1f5f8` | Base page background. Cool off-white paper tone. |\n| 1 | Card Surface | `#ffffff` | Testimonial cards, product mockup backgrounds, elevated content blocks. |\n| 2 | Highlight Wash | `#fff7ca` | In-line emphasis behind text. Also used as a soft callout surface. |",
+ "elevation": "- **Product mockup laptop frame:** `0 20px 40px rgba(31,31,31,0.15)`\n- **Testimonial cards:** `0 2px 8px rgba(31,31,31,0.08)`",
+ "imagery": "Product mockups dominate the visual hierarchy: a photorealistic laptop showing the Daily Review interface paired with an iPhone showing the mobile companion, both centered on the hero. The mockups are real product screenshots, not illustrations or 3D renders. Below the hero, user-generated content (tweet screenshots) provides social proof in a horizontal scrolling row - treated as found objects rather than designed cards. The only illustration is three small circular step icons in the \u0027How it works\u0027 section, each a flat filled circle with a white line-glyph. No lifestyle photography, no abstract graphics, no decorative imagery - every visual either shows the product or shows what users say about it.",
+ "layout": "Centered, max-width ~1200px page container with a near-full-bleed hero. The hero is a vertical stack: nav bar at top, large serif headline, sub-headline with inline yellow highlight, single blue CTA, then the product mockup below - no split-screen, no side-by-side text/image. Sections below the hero alternate between centered text-and-icon blocks (3-column grid for \u0027How it works\u0027) and horizontal-scrolling card rows (testimonials). Vertical rhythm is comfortable but not spacious - ~64px between sections, ~24px internal padding. The nav is a single horizontal bar, not sticky, with a pill-shaped container that sits on the Page Mist background. No sidebar, no mega-menu, no footer visible above the fold."
+}

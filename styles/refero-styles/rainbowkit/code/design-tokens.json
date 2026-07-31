@@ -1,0 +1,392 @@
+{
+ "name": "RainbowKit",
+ "slug": "rainbowkit",
+ "colors": [
+ {
+ "name": "Signal Blue",
+ "value": "#0e76fd",
+ "token": "--color-signal-blue",
+ "role": "Primary CTA fill, active states, brand wordmark, link emphasis - the only chromatic blue with enough surface area to carry identity"
+ },
+ {
+ "name": "Electric Violet",
+ "value": "#7a70ff",
+ "token": "--color-electric-violet",
+ "role": "Gradient terminus, brand-secondary accent - appears only as the cool half of the aurora"
+ },
+ {
+ "name": "Deep Iris",
+ "value": "#38228f",
+ "token": "--color-deep-iris",
+ "role": "Violet wash for highlight backgrounds, decorative bands, and soft emphasis behind content."
+ },
+ {
+ "name": "Hyper Pink",
+ "value": "#ff5ca0",
+ "token": "--color-hyper-pink",
+ "role": "Accent spectrum - demonstration option in the wallet-customization showcase, not a UI-state color"
+ },
+ {
+ "name": "Ember Red",
+ "value": "#fa423c",
+ "token": "--color-ember-red",
+ "role": "Accent spectrum - demonstration option in wallet-customization showcase"
+ },
+ {
+ "name": "Solar Orange",
+ "value": "#ff801f",
+ "token": "--color-solar-orange",
+ "role": "Accent spectrum - demonstration option in wallet-customization showcase"
+ },
+ {
+ "name": "Toxic Green",
+ "value": "#1db847",
+ "token": "--color-toxic-green",
+ "role": "Accent spectrum - demonstration option in wallet-customization showcase"
+ },
+ {
+ "name": "Void",
+ "value": "#000000",
+ "token": "--color-void",
+ "role": "Page canvas, deepest surfaces, inverted button borders - true black anchors the entire system"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#1b1c1e",
+ "token": "--color-obsidian",
+ "role": "Card surfaces, code blocks, modal containers, body text on light - the workhorse elevated surface"
+ },
+ {
+ "name": "Shadow",
+ "value": "#121314",
+ "token": "--color-shadow",
+ "role": "Shadow tint color (used in box-shadow rgba), near-black with a hint of warmth"
+ },
+ {
+ "name": "Graphite",
+ "value": "#25292e",
+ "token": "--color-graphite",
+ "role": "Hairline borders, dividers, icon stroke, secondary text on dark - the most-used neutral border in the system"
+ },
+ {
+ "name": "Slate",
+ "value": "#2f3334",
+ "token": "--color-slate",
+ "role": "Secondary borders, subtle dividers between sections - sits between Graphite and Pewter"
+ },
+ {
+ "name": "Carbon",
+ "value": "#353a3b",
+ "token": "--color-carbon",
+ "role": "Tertiary icon fills, disabled-state borders, subtle backgrounds"
+ },
+ {
+ "name": "Pewter",
+ "value": "#646566",
+ "token": "--color-pewter",
+ "role": "Disabled button background, low-emphasis surfaces - never for text"
+ },
+ {
+ "name": "Fog",
+ "value": "#95979c",
+ "token": "--color-fog",
+ "role": "Muted helper text, icon secondary, placeholder text - the only gray that carries readable information"
+ },
+ {
+ "name": "Snow",
+ "value": "#ffffff",
+ "token": "--color-snow",
+ "role": "Primary text, inverted button fill, light-surface backgrounds, icon glyphs, hairline highlight borders"
+ },
+ {
+ "name": "Mist",
+ "value": "#f0f1f5",
+ "token": "--color-mist",
+ "role": "Light-theme surface fallback, very subtle off-white for section backgrounds on the demo"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "SFRounded",
+ "token": "--font-sfrounded",
+ "role": "Primary typeface for all UI - rounded geometric sans, chosen because the soft terminals make technical Web3 copy feel approachable rather than intimidating"
+ },
+ {
+ "name": "SFMono",
+ "token": "--font-sfmono",
+ "role": "Code snippets, terminal commands, technical strings - the npm install command in the hero"
+ },
+ {
+ "name": "system-ui",
+ "token": "--font-system-ui",
+ "role": "Fallback body copy when the web font hasn\u0027t loaded - barely visible because SFRounded dominates"
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.31",
+ "0.35px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.29",
+ "0.35px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.25",
+ "0.27px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.33",
+ "0.31px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "20px",
+ "1.2",
+ "0.3px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.17",
+ "0.43px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.05",
+ "0.88px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "52px",
+ "1",
+ "1.3px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "112",
+ "112px",
+ "`--spacing-112`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "216",
+ "216px",
+ "`--spacing-216`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "24px"
+ ],
+ [
+ "icons",
+ "12px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "12px"
+ ],
+ [
+ "modals",
+ "24px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "codeBlocks",
+ "12px"
+ ],
+ [
+ "logoFrames",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Gradient Primary CTA",
+ "role": "The hero action - invites the visitor into the documentation."
+ },
+ {
+ "name": "Solid Blue Pill Button",
+ "role": "Secondary CTAs and persistent nav actions like \u0027Connect Wallet\u0027."
+ },
+ {
+ "name": "Ghost Nav Button (Logo + Version)",
+ "role": "Brand identification in the nav bar with version metadata."
+ },
+ {
+ "name": "Terminal Code Block",
+ "role": "Copy-paste installation command in the hero."
+ },
+ {
+ "name": "Wallet Connection Modal",
+ "role": "The product showcase - the actual RainbowKit component floating on the landing page."
+ },
+ {
+ "name": "Wallet List Item",
+ "role": "Selectable option inside the connection modal."
+ },
+ {
+ "name": "What-is-a-Wallet Info Card",
+ "role": "Educational companion card explaining wallets next to the connection modal."
+ },
+ {
+ "name": "Mobile Preview Card",
+ "role": "Showcases the wallet UI on a phone frame, demonstrating responsive behavior."
+ },
+ {
+ "name": "Section Heading Block",
+ "role": "Centered section titles with supporting copy."
+ },
+ {
+ "name": "Partner Logo Grid Item",
+ "role": "Brand trust marker - a 6xn grid of partner logos."
+ },
+ {
+ "name": "Inset Highlight Border",
+ "role": "The defining visual signature of interactive elements on dark surfaces."
+ },
+ {
+ "name": "Gradient Brand Wordmark",
+ "role": "The \u0027RainbowKit\u0027 hero title."
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 9999px radius for every button, tag, and pill - the radius is the brand\u0027s friendliness signal",
+ "Apply the 1px inset white border (rgba(255,255,255,0.12)) to all elevated interactive elements on Obsidian surfaces",
+ "Use the aurora gradient (linear-gradient(to right, #3898ff, #7a70ff)) only for primary hero CTAs and the wordmark - reserving it makes it feel premium",
+ "Default to #0e76fd for all secondary action buttons and link emphasis",
+ "Set body copy at 16px SFRounded weight 400 with 0.27px letter-spacing; headlines at 40-52px weight 700 with 0.88-1.3px letter-spacing",
+ "Float product cards with rgba(0, 0, 0, 0.4) 0px 8px 24px 0px - the heavy shadow is what makes a modal feel like a window into the product",
+ "Keep the canvas at true #000000 - never warm it with off-black, the void is the point"
+ ],
+ "doNot": [
+ "Don\u0027t use the chromatic accent colors (Hyper Pink, Ember Red, Solar Orange, Toxic Green) as semantic UI states - they are demonstration options, not success/error/warning tokens",
+ "Don\u0027t apply shadow to text or the canvas itself - shadows belong to floating cards only, the background is shadowless",
+ "Don\u0027t use negative letter-spacing - SFRounded is designed for positive tracking; tightening it fights the rounded letterforms",
+ "Don\u0027t introduce a second body font - SFRounded handles everything from 11px captions to 52px displays; a serif or system fallback breaks the cohesion",
+ "Don\u0027t place white or light-colored cards on the canvas - every surface must stay in the Obsidian/Graphite range to preserve the void",
+ "Don\u0027t use #25292 for text - it\u0027s a border color, contrast on it is insufficient for readable copy",
+ "Don\u0027t round images of phones or product screenshots with small radii - they should be 24px+ or fully inherit the device frame"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/7421c174-a1b1-4695-a9e7-a82dc6f5ea3b",
+ "referenceSite": "https://www.rainbowkit.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:48:36.534Z",
+ "articleModifiedAt": "2026-06-05T12:16:06.326Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ec754bf3-49e0-4e7d-906e-9bd77a297cf2.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/494836fa-f7d8-4686-a930-c3b91adada46.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ba8abf19-e927-497e-b342-a9720804507f.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e1134097-c11e-4f38-9a25-f66418735fb0.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e7d90c13-fe4d-46b4-951b-0811a9b2cbdd.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/35b74d66-f371-4231-93de-5780744e71c6.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/a6eb34b7-8cde-4554-ac13-4a1550c44177.png"
+ }
+ }
+}

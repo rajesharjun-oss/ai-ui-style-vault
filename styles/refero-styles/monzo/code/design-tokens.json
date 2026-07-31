@@ -1,0 +1,301 @@
+{
+ "name": "Monzo",
+ "slug": "monzo",
+ "colors": [
+ {
+ "name": "Hot Coral",
+ "value": "#ff4f40",
+ "token": "--color-hot-coral",
+ "role": "Brand signature - logo, links, headings, icons, card product. One vivid accent against the achromatic interface; every chromatic moment in the system draws from this single hue"
+ },
+ {
+ "name": "Midnight Ink",
+ "value": "#091723",
+ "token": "--color-midnight-ink",
+ "role": "Dark supporting neutral for text, icons, and strong contrast. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Deep Navy",
+ "value": "#112231",
+ "token": "--color-deep-navy",
+ "role": "Secondary surface tint and footer accents. Slightly lighter than Midnight Ink for layered dark elements"
+ },
+ {
+ "name": "Page Mist",
+ "value": "#f2f8f3",
+ "token": "--color-page-mist",
+ "role": "Page canvas - the dominant background behind all content sections. A barely-green off-white that gives the interface warmth without competing with white surfaces"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, elevated panels, button text on dark fills. Sits one layer above the mint canvas"
+ },
+ {
+ "name": "Soft Mint",
+ "value": "#e3ebe4",
+ "token": "--color-soft-mint",
+ "role": "Hover washes, subtle filled buttons, inset surface treatment. Sits between the page canvas and white cards"
+ },
+ {
+ "name": "Fog",
+ "value": "#b5b9bd",
+ "token": "--color-fog",
+ "role": "Tertiary text, placeholder, low-emphasis borders"
+ },
+ {
+ "name": "Steel",
+ "value": "#6b747b",
+ "token": "--color-steel",
+ "role": "Secondary body text, metadata, descriptive copy. The workhorse neutral for supporting information"
+ },
+ {
+ "name": "Ash",
+ "value": "#75817e",
+ "token": "--color-ash",
+ "role": "Icon strokes, decorative line work, subtle dividers"
+ },
+ {
+ "name": "Slate Button",
+ "value": "#3b4c54",
+ "token": "--color-slate-button",
+ "role": "Supporting neutral for secondary UI, dividers, and muted labels. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Maximum-contrast text, the darkest token in the system. Used sparingly for the highest-emphasis text on light surfaces"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "MonzoSansText",
+ "token": "--font-monzosanstext",
+ "role": "Body and UI text - navigation labels, button copy, descriptive paragraphs, card content, footer text. The custom -0.05em letter-spacing tightens running text for a dense, modern feel; the 400/600/700 spread lets the same family handle everything from captions to subheadings. Substitute with Inter or DM Sans if unavailable."
+ },
+ {
+ "name": "MonzoSansDisplay",
+ "token": "--font-monzosansdisplay",
+ "role": "Headlines and display text - hero statements, section headings, large product titles. Bolder weights (up to 800) at large sizes (39-61px) create confident, blocky headlines that feel architectural. No custom letter-spacing, letting the weight do the work. Substitute with Inter or Manrope at heavy weights."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.38",
+ "-0.65px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-0.8px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "20px",
+ "1.4",
+ "-1px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.38",
+ "-1.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.15",
+ "-1.8px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "44px",
+ "1.2",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "61px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64-80px",
+ "cardPadding": "30-32px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "64px"
+ ],
+ [
+ "badges",
+ "4px"
+ ],
+ [
+ "inputs",
+ "24px"
+ ],
+ [
+ "buttons",
+ "500px"
+ ],
+ [
+ "nav-pills",
+ "500px"
+ ],
+ [
+ "containers",
+ "32px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill Nav Toggle",
+ "role": "Segment-style personal/business selector in the top bar"
+ },
+ {
+ "name": "Sign Up CTA (Dark Pill)",
+ "role": "Primary dark action in the top-right navigation"
+ },
+ {
+ "name": "White Pill CTA",
+ "role": "Light-on-image call-to-action over the hero carousel"
+ },
+ {
+ "name": "Category Link List",
+ "role": "Expandable topic links in the help/footer navigation panel"
+ },
+ {
+ "name": "Carousel Card",
+ "role": "Full-width hero image slider"
+ },
+ {
+ "name": "Product Card",
+ "role": "Showcase for a banking product (current account, savings, etc.)"
+ },
+ {
+ "name": "Which? Badge",
+ "role": "Third-party endorsement / trust signal"
+ },
+ {
+ "name": "FSCS Badge",
+ "role": "Regulatory trust mark"
+ },
+ {
+ "name": "Arrow Control (Circular)",
+ "role": "Carousel pagination buttons"
+ },
+ {
+ "name": "Fixed Bottom Search Bar",
+ "role": "Persistent help/search input docked at the viewport bottom"
+ },
+ {
+ "name": "Sticky Top Bar",
+ "role": "Global navigation header"
+ },
+ {
+ "name": "Menu Label",
+ "role": "Bold category heading in the expandable navigation panel"
+ },
+ {
+ "name": "Carousel Dot Indicator",
+ "role": "Position indicator for the hero slider"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 500px border-radius for all interactive pills - buttons, nav toggles, tag chips, and the search bar. This is the system\u0027s defining shape.",
+ "Keep the interface 95% achromatic. Let Hot Coral (#ff4f40) appear only on the logo, links, headings, icons, and the card product - never as a background fill for UI controls.",
+ "Use MonzoSansDisplay 600-800 for all headings at 36px and above. The heavier weight range is non-negotiable for display type.",
+ "Apply -0.05em letter-spacing to all MonzoSansText usage. This is a brand-defining typographic detail, not optional.",
+ "Layer surfaces on the mint canvas (#f2f8f3 #ffffff #e3ebe4) instead of using shadows. Elevation is communicated by color stepping, not by drop shadows.",
+ "Set body text at 20px with 1.4 line-height for descriptive paragraphs. Monzo\u0027s text size runs larger than typical SaaS - 16px is the floor, not the default.",
+ "Use 64px border-radius on all large containers - hero cards, product showcases, section panels. This generous rounding is as recognizable as the coral."
+ ],
+ "doNot": [
+ "Don\u0027t use Hot Coral as a button background fill. It is for text, icons, logos, and the card product only - never for a solid CTA surface.",
+ "Don\u0027t add drop shadows to cards or buttons. The system uses a single rgba(0,0,0,0.1) 0px 0px 10px shadow sparingly; most separation comes from surface color stepping on the mint canvas.",
+ "Don\u0027t use system fonts or non-brand sans-serifs. Always specify MonzoSansText for body and MonzoSansDisplay for headings.",
+ "Don\u0027t use letter-spacing other than -0.05em on MonzoSansText or normal on MonzoSansDisplay. Deviating breaks the brand\u0027s typographic fingerprint.",
+ "Don\u0027t mix red and dark navy as a gradient or color pair on the same element. Coral is the accent; navy is the ground. They alternate, they don\u0027t blend.",
+ "Don\u0027t use square or 8px radii on primary buttons or large containers. 500px pills and 64px containers are the two shape languages - anything between looks generic.",
+ "Don\u0027t set body text below 16px or headlines below 32px. The type scale is deliberately generous; small text breaks the warm, spacious feel."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e8a1d114-6924-4f03-acd2-996dd30f15a6",
+ "referenceSite": "https://monzo.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-03-20T11:28:18.000Z",
+ "articleModifiedAt": "2026-06-05T09:07:11.459Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b905956e-d3bd-4c5e-a5e2-c51047ad9bfb.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/5f6a1e50-8481-492a-8969-5fbdd49957a0.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/84e52a34-5fd4-4f6c-9364-dfa4523fd1e8.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4dd4a5e1-9c1e-4151-be06-8230588dffa4.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/def31a56-9f36-4c3f-86c6-3204c6db5fc1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c87b2a01-4079-4c35-b9aa-4a8805e9f108.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/58a1cc2a-9dfb-4b1b-a711-60ea9cf81259.png"
+ }
+ }
+}

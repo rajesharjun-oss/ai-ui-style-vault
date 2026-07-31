@@ -1,0 +1,214 @@
+{
+ "name": "Freshman",
+ "slug": "freshman",
+ "colors": [
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary text, logotype fill, border strokes, and the dominant foreground on the dark canvas - carries 92% of all color instances"
+ },
+ {
+ "name": "Carbon Black",
+ "value": "#000000",
+ "token": "--color-carbon-black",
+ "role": "Base canvas and primary background - the default surface for every page"
+ },
+ {
+ "name": "Charcoal Shale",
+ "value": "#101010",
+ "token": "--color-charcoal-shale",
+ "role": "Secondary surface for icon wells, sub-panels, and slight tonal lift above the pure-black canvas"
+ },
+ {
+ "name": "Signal Red",
+ "value": "#ff2936",
+ "token": "--color-signal-red",
+ "role": "Sparingly-applied accent for active states, marquee highlights, and high-emphasis punctuation - used as a single saturated note against the monochrome system"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Editorial New",
+ "token": "--font-editorial-new",
+ "role": "Hero and headline display - the ultralight weight 200 is anti-convention; combined with the 20px breakpoint it reads as editorial print rather than web UI"
+ },
+ {
+ "name": "TT Firs Neue",
+ "token": "--font-tt-firs-neue",
+ "role": "Workhorse UI and body sans - the only geometric grotesque in the system, anchors the project ticker labels, menu trigger, and utility text"
+ },
+ {
+ "name": "Altform",
+ "token": "--font-altform",
+ "role": "Compact meta and condensed labels - tight 0.86-0.88 line-height and -0.03em tracking make it read like a festival credit roll"
+ },
+ {
+ "name": "Wasted Year",
+ "token": "--font-wasted-year",
+ "role": "Signature editorial flourishes - bracket-wrapped taglines and small accent phrases; its hand-set quality is used for personality, not information density"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "17px",
+ "1",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "20px",
+ "1",
+ "-",
+ "--text-body-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "48-80px",
+ "cardPadding": "12-20px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Hero Wordmark",
+ "role": "Brand identity anchor - the primary visual element on the dark canvas"
+ },
+ {
+ "name": "Project Reel Ticker",
+ "role": "Persistent bottom band showcasing latest work like a film festival credit roll"
+ },
+ {
+ "name": "Menu Trigger",
+ "role": "Primary navigation entry point"
+ },
+ {
+ "name": "Brand Glyph",
+ "role": "Persistent mark in the upper-left corner"
+ },
+ {
+ "name": "Year Counter",
+ "role": "Cinematic page-position indicator"
+ },
+ {
+ "name": "Editorial Tagline Block",
+ "role": "Voice/mission statement with typographic personality"
+ },
+ {
+ "name": "Cookie Consent Strip",
+ "role": "Bottom-right regulatory notice"
+ },
+ {
+ "name": "Project Item Cell",
+ "role": "Individual entry inside the project reel"
+ },
+ {
+ "name": "Thin Hairline Divider",
+ "role": "Section separator - the only structural chrome in the system"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set the wordmark at 200 weight italic in Editorial New - never bold, never regular; the ultralight is the signature",
+ "Use only #ffffff text on #000000 canvas; treat the 1px white hairline as the only structural divider allowed",
+ "Anchor the project reel to the viewport bottom on every page - it functions as the site\u0027s navigation spine",
+ "Pair the body description (TT Firs Neue 16px) with a bracket-wrapped Wasted Year tagline directly beneath it; the handwriting-font punctuation is non-optional",
+ "Use #ff2936 for at most one element per viewport - it is punctuation, not paint",
+ "Set compact UI labels (reel items, counters) in Altform with 0.86-0.88 line-height and -0.03em tracking for the festival-credit-roll rhythm",
+ "Keep the MENU trigger as a bare typographic label - no border, no background, no icon button chrome"
+ ],
+ "doNot": [
+ "Do not introduce shadows, gradients, or elevation of any kind - flatness is the system",
+ "Do not add card backgrounds or rounded corners; all surfaces are 0px radius on the black canvas",
+ "Do not use bold or semibold weights for headlines - the weight 200 Editorial New is the anti-convention that defines the brand",
+ "Do not use #ff2936 as a button fill or large background block - it loses all impact if used at scale",
+ "Do not add a secondary navigation, breadcrumbs, or page tabs - the MENU trigger and the reel are the entire IA",
+ "Do not set body copy above 16px or below 14px - the type scale is deliberately tight",
+ "Do not alternate between light and dark sections; the page is uniformly dark, depth comes from type scale not surface color"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/a6284fcd-fa69-4469-ac40-4239e5b84a39",
+ "referenceSite": "https://freshman.tv",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:20:59.021Z",
+ "articleModifiedAt": "2026-06-05T08:13:24.569Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/a10fea92-69df-43c6-b1ff-2487c0009b63.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a6d0b947-27c3-420e-b5b7-57c8aaf89f66.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ae33fac9-ec00-41d1-8156-63d519f0883b.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/73e7ed34-6524-450d-b9be-d22d65c1321c.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/bbec745a-f5d2-49ea-8a70-5d6c21b5e7c5.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/537f3938-5eca-45ef-93e5-9e7d728c2b5f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

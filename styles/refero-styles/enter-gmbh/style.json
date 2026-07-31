@@ -1,0 +1,265 @@
+{
+ "id": "87da9872-f6cc-4354-bf6a-1c02f0394d45",
+ "name": "Enter GmbH",
+ "slug": "enter-gmbh",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/87da9872-f6cc-4354-bf6a-1c02f0394d45",
+ "referenceSite": "https://enter-support.de",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:45:50.501Z",
+ "articleModifiedAt": "2026-06-05T07:29:32.566Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b124e489-d99b-4d79-ac1d-12bfde72f044.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/9c3d9028-0192-4ff9-a31b-775d9e9f3aeb.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0c74ca7d-59b9-4092-a700-fba6d64fe88a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/11154387-4b30-43cd-aa10-fcb2f9f74e17.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/19d5ef68-1458-4745-a97e-ef6e929eda28.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/317c7354-baf3-42e5-bcfe-e9cbe7f7d4ce.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/c6320b30-c3a1-400c-8f9a-75ee2f357dcb.png"
+ }
+ },
+ "classification": {
+ "theme": "mixed",
+ "category": "Dev Tools",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Dev Tools",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Bauhaus poster workshop, midday sun",
+ "summary": "Explore Enter GmbH\u0027s mixed Dev Tools design system: Signal Orange #ff5000, Seafoam Panel #a5d3d4 colors, Maax Mono, Sofia-Regular typography, and DESIGN.md...",
+ "colors": [
+ {
+ "name": "Signal Orange",
+ "value": "#ff5000",
+ "token": "--color-signal-orange",
+ "role": "Full-bleed section surfaces, geometric illustration caps, partner section canvas - carries warmth and authority across an otherwise achromatic text system"
+ },
+ {
+ "name": "Seafoam Panel",
+ "value": "#a5d3d4",
+ "token": "--color-seafoam-panel",
+ "role": "Hero canvas and alternating section ground - a cool counterweight to the warm orange, used as full-bleed background, never as a text highlight"
+ },
+ {
+ "name": "Cream Stock",
+ "value": "#f9f8ea",
+ "token": "--color-cream-stock",
+ "role": "Soft band surfaces between content sections - a paper-like off-white warmer than pure #ffffff, signals a transition zone"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#282828",
+ "token": "--color-charcoal",
+ "role": "Filled button background, dark illustration blocks, heading accents - the loaded weight of the palette, softer than pure black"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary body and heading text, hairline borders, icon strokes, link underlines - the dominant typographic color"
+ },
+ {
+ "name": "Pebble",
+ "value": "#6a6a6a",
+ "token": "--color-pebble",
+ "role": "Muted border and separator color for subtle structural lines that shouldn\u0027t compete with text"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Default page canvas, text on dark filled buttons, surface for content sections between color bands"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Maax Mono",
+ "token": "--font-maax-mono",
+ "role": "Primary text and body - monospaced at body size gives the whole site a code-readout, technical-manual cadence. This is the signature choice: a service company writing like a terminal"
+ },
+ {
+ "name": "Sofia-Regular",
+ "token": "--font-sofia-regular",
+ "role": "Display headings - a softer humanist sans used sparingly for larger section titles, providing the only non-monospaced typographic moment in the system"
+ },
+ {
+ "name": "Helvetica",
+ "token": "--font-helvetica",
+ "role": "Micro UI text - marquee strips, tiny labels, and small interface markers; falls back to system monospaced where available"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.15",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "28px",
+ "1.3",
+ "-",
+ "--text-heading"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "24px",
+ "cardPadding": "20px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "25px"
+ ],
+ [
+ "cards",
+ "25px"
+ ],
+ [
+ "buttons",
+ "25px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Filled Pill Button",
+ "role": "Primary action control (Support, Submit)"
+ },
+ {
+ "name": "Icon Pill Button",
+ "role": "Compact utility control (the + button)"
+ },
+ {
+ "name": "Text Link with Arrow",
+ "role": "Inline navigation to subpages"
+ },
+ {
+ "name": "Marquee Strip",
+ "role": "Top-of-page announcement ticker"
+ },
+ {
+ "name": "Header Bar",
+ "role": "Top navigation"
+ },
+ {
+ "name": "Hero Illustration Block",
+ "role": "Abstract visual identity asset"
+ },
+ {
+ "name": "Two-Column Text Layout",
+ "role": "Narrative + link list pair"
+ },
+ {
+ "name": "Section Divider Band",
+ "role": "Color-block transition between content zones"
+ },
+ {
+ "name": "Partner Section (Orange Field)",
+ "role": "Full-bleed spectacle band"
+ },
+ {
+ "name": "Footer Label",
+ "role": "Bottom-of-section identification"
+ }
+ ],
+ "dos": [
+ "Use Maax Mono (or a monospaced substitute) for all body, nav, link, and button text - the monospaced cadence is the site\u0027s identity",
+ "Set border-radius to 25px on all buttons, tags, marquee containers, and link pills",
+ "Stack sections as full-bleed color bands (#ffffff #f9f8ea #a5d3d4 #ff5000) with hard seams and no gradients between them",
+ "Use #282828 as the filled button background and #ffffff as the button text - no other filled-button color",
+ "Anchor headings in Sofia-Regular 28px line-height 1.3; everything else stays in the mono family",
+ "Use 24px as the default element gap and 20px as the default link/heading padding token",
+ "Keep links typographic: underlined #000000 Maax Mono with a arrow prefix, never styled as buttons or chips"
+ ],
+ "donts": [
+ "Do not introduce a sans-serif body font - replacing the mono face destroys the technical-manual personality",
+ "Do not use orange (#ff5000) as a button or link color - it\u0027s an architectural surface, not an interactive accent",
+ "Do not add shadows, glows, or elevation effects to cards or buttons - the system is flat and hard-edged",
+ "Do not use teal (#a5d3d4) for text or borders - it only works as a full-bleed surface",
+ "Do not use border-radius values other than 25px on interactive elements - partial rounding breaks the pill vocabulary",
+ "Do not place photography or product screenshots - the site is text-and-illustration only",
+ "Do not add gradient transitions between color bands - every section boundary must be a hard seam"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Paper | `#ffffff` | Default content canvas for text-heavy sections |\n| 2 | Cream Stock | `#f9f8ea` | Warm transition band between content blocks |\n| 3 | Seafoam Panel | `#a5d3d4` | Hero and alternate section canvas - the cool beat |\n| 4 | Signal Orange | `#ff5000` | Full-bleed partner/spectacle section - the loud beat |",
+ "elevation": "The design is intentionally flat. No box-shadows, no drop shadows, no glow effects. Depth is created through color contrast between full-bleed bands, not through simulated elevation. Interactive elements (buttons) are identified by their dark fill and pill shape, not by casting shadow on the surface below.",
+ "imagery": "A single abstract geometric illustration in the hero: three vertical posts in cream and dark charcoal with charcoal cubes and orange caps stacked at varying heights. The aesthetic is Bauhaus / De Stijl / mid-century toy - flat, hard-edged, no gradients, no shadows, no human figures. Elsewhere, the site is text-only: no photography, no product screenshots, no decorative icons beyond minimal arrow markers ( ) on links. The visual personality comes entirely from typography, color blocking, and this one sculptural illustration.",
+ "layout": "Full-bleed horizontal color bands that stack top to bottom with hard seams - no gradients or soft transitions between sections. Hero is seafoam with a large centered illustration; the body alternates between white text columns and cream transition strips; a full-bleed orange partner band appears below. Content inside each band uses a centered max-width container (~1200px) with generous horizontal padding. The text layout is two-column on desktop (narrative text left, link list right) with wide gutters. Navigation is minimal: logo top-left, a marquee strip center, and two pill buttons top-right. The overall rhythm is poster-like - each screen is a single color field with one or two pieces of content, not a dense information layout."
+}

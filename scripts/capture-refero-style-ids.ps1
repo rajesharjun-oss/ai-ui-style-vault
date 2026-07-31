@@ -10,6 +10,8 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+$MaxSlugLength = 80
+
 function Normalize-Ascii([string]$Text) {
   if ($null -eq $Text) { return "" }
   $text = $Text
@@ -60,17 +62,26 @@ function Get-Subsection([string]$Markdown, [string]$Heading) {
   return ""
 }
 
+function Limit-Slug([string]$Slug, [int]$MaxLength = $MaxSlugLength) {
+  if (-not $Slug) { return "refero-style" }
+  if ($Slug.Length -le $MaxLength) { return $Slug }
+  $trimmed = $Slug.Substring(0, $MaxLength) -replace '-+$', ''
+  if (-not $trimmed) { return $Slug.Substring(0, [Math]::Min($Slug.Length, $MaxLength)) }
+  return $trimmed
+}
+
 function Slugify([string]$Name) {
   $slug = (Normalize-Ascii $Name).ToLowerInvariant()
   $slug = $slug -replace '&', ' and '
   $slug = $slug -replace '[^a-z0-9]+', '-'
   $slug = $slug -replace '^-|-$', ''
   if (-not $slug) { $slug = "refero-style" }
-  return $slug
+  return (Limit-Slug $slug)
 }
 
 function Unique-Slug([string]$BaseSlug, [string]$Root, [string]$Id) {
-  $slug = $BaseSlug
+  $base = Limit-Slug $BaseSlug
+  $slug = $base
   $n = 2
   while (Test-Path -LiteralPath (Join-Path $Root $slug)) {
     $existingText = ""
@@ -81,7 +92,9 @@ function Unique-Slug([string]$BaseSlug, [string]$Root, [string]$Id) {
       }
     }
     if ($existingText -match [regex]::Escape($Id)) { return $slug }
-    $slug = "$BaseSlug-$n"
+    $suffix = "-$n"
+    $stem = Limit-Slug $base ([Math]::Max(1, $MaxSlugLength - $suffix.Length))
+    $slug = "$stem$suffix"
     $n += 1
   }
   return $slug
@@ -186,8 +199,13 @@ foreach ($id in $styleIds) {
     $designRaw = [Net.WebUtility]::HtmlDecode($codeMatch.Groups[1].Value)
     $design = Normalize-Ascii ($designRaw -replace "`r", "")
 
-    $title = Normalize-Ascii (Get-MatchValue $design '^#\s+(.+?)\s+-\s+Style Reference')
-    if (-not $title) { $title = Normalize-Ascii (Get-MatchValue $design '^#\s+(.+)$') }
+    $heading = [regex]::Match($design, '(?m)^#\s*(.*?)\s*$').Groups[1].Value
+    $title = Normalize-Ascii ($heading -replace '\s+-\s+Style Reference\s*$', '')
+    if (-not $title -or $title -match '^\s*-?\s*Style Reference\s*$') {
+      $nameFromBody = [regex]::Match($design, '(?m)^([A-Z][A-Za-z0-9][A-Za-z0-9 .&''()+/-]{1,80}?)\s+is\s+(?:a|an|the)\s+').Groups[1].Value
+      $title = Normalize-Ascii $nameFromBody
+    }
+    if (-not $title) { $title = "Refero Style $short" }
     $northStar = Normalize-Ascii ([regex]::Match($design, '(?m)^>\s*(.+)$').Groups[1].Value)
     $theme = Normalize-Ascii (Get-MatchValue $design '\*\*Theme:\*\*\s*([^\r\n]+)')
 

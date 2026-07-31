@@ -1,0 +1,197 @@
+{
+ "id": "004f4856-4b01-4c23-a9fb-866303d5013b",
+ "name": "David Kirschberg",
+ "slug": "david-kirschberg",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/004f4856-4b01-4c23-a9fb-866303d5013b",
+ "referenceSite": "https://kirschberg.co.nz",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:00:06.909Z",
+ "articleModifiedAt": "2026-06-05T10:27:56.829Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7bcbaa71-1dcd-4dcc-bfd5-fc44f0f8a2ec.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/bdc1f655-d510-4e07-9b35-53483e1faec8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/e5d15019-1d4c-4164-96a6-854cabcd4a21.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/030d7db5-b772-43f6-ad67-17d224180083.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/dc6624e9-9b0a-497f-8ee3-d219b1b7515c.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5b0b64c7-bbc1-4935-8d9a-99b610e3b321.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/b2688e77-705b-4221-8fed-8e9ee038e986.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "midnight gallery wall - a darkened room where spotlit work is the only color, and the frame around it is intentionally invisible.",
+ "summary": "Explore David Kirschberg\u0027s dark Agency design system: Obsidian #181818, Graphite #262626 colors, Inter, twkLausanne typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Obsidian",
+ "value": "#181818",
+ "token": "--color-obsidian",
+ "role": "Page canvas, primary background - the dominant surface that recedes so work thumbnails advance"
+ },
+ {
+ "name": "Graphite",
+ "value": "#262626",
+ "token": "--color-graphite",
+ "role": "Elevated surface, card thumbnail backgrounds, and content containers that need to sit one level above the page"
+ },
+ {
+ "name": "Bone",
+ "value": "#fafafa",
+ "token": "--color-bone",
+ "role": "Primary text, hero headlines, card titles - near-white that reads as soft rather than clinical against the dark canvas"
+ },
+ {
+ "name": "Ash",
+ "value": "#a3a3a3",
+ "token": "--color-ash",
+ "role": "Muted secondary text, subtitles, card descriptions - one step quieter than primary text for hierarchy without color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "All body text, subtitles, card titles, UI labels, navigation - single weight (400) across every context, relying on size and color contrast rather than weight shifts for hierarchy"
+ },
+ {
+ "name": "twkLausanne",
+ "token": "--font-twklausanne",
+ "role": "Sole display face for the hero headline - a custom typeface with tight tracking and unusually compressed line-height that gives the 32px headline editorial gravitas without bold weight. The -0.04em letter-spacing is aggressive for body size but measured for display, pulling characters close enough to read as a unified mark rather than individual letters"
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-0.14px",
+ "--text-body-sm"
+ ],
+ [
+ "display",
+ "32px",
+ "1.1",
+ "-1.28px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "24px",
+ "cardPadding": "0px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "24px"
+ ],
+ [
+ "navPill",
+ "16px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Navigation Pill",
+ "role": "Floating top navigation"
+ },
+ {
+ "name": "Hero Headline",
+ "role": "Page-level statement"
+ },
+ {
+ "name": "Hero Subtitle",
+ "role": "Contextual description below headline"
+ },
+ {
+ "name": "Project Card Thumbnail (Dark)",
+ "role": "Work preview for projects with dark or photographic content"
+ },
+ {
+ "name": "Project Card Thumbnail (Elevated)",
+ "role": "Work preview for app/UI projects needing visible surface separation"
+ },
+ {
+ "name": "Card Title with Arrow Link",
+ "role": "Project name and navigation indicator"
+ },
+ {
+ "name": "Card Description",
+ "role": "One-line project summary"
+ },
+ {
+ "name": "Horizontal Scroll Gallery",
+ "role": "Full-bleed project showcase"
+ },
+ {
+ "name": "Card Stack",
+ "role": "Thumbnail + meta group"
+ }
+ ],
+ "dos": [
+ "Use #181818 as the sole page background - never introduce lighter or darker canvas variants",
+ "Use 24px border-radius for all card-shaped surfaces; use 16px for the navigation pill only",
+ "Use twkLausanne at exactly 32px with -1.28px letter-spacing for headlines; never use this typeface for body text",
+ "Use Inter weight 400 for all body, UI, and label text - never introduce weight 500, 600, or 700",
+ "Keep all spacing on the 4px grid; use 8px as the default element gap",
+ "Let project artwork and identity work provide all color on the page - the interface itself stays achromatic",
+ "Center the hero text block in the viewport and float the nav as a centered pill, not a full-width bar"
+ ],
+ "donts": [
+ "Never add drop shadows, inner shadows, or box-shadows to any element - depth comes from surface color contrast only",
+ "Never introduce accent colors, brand colors, or saturated hues into the UI chrome - the palette is locked to four neutrals",
+ "Never use font weights other than 400 - hierarchy is built through size and color (Bone vs Ash), not weight",
+ "Never use sharp corners on containers - all surfaces are rounded (16px or 24px)",
+ "Never stack project cards in a multi-row grid - the gallery is a single horizontal scroll row only",
+ "Never add gradients, textures, patterns, or decorative backgrounds to the interface",
+ "Never use letter-spacing wider than -0.009em on body text - the slight tightening is part of the voice"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Obsidian | `#181818` | Full-bleed page canvas; everything floats on this |\n| 1 | Graphite | `#262626` | Elevated card thumbnails and content containers needing subtle separation from the canvas |",
+ "elevation": "No shadows. Depth is communicated exclusively through a two-level surface system (#181818 canvas #262626 elevated cards). The absence of shadows is a deliberate editorial choice - shadows would introduce warmth and materiality that competes with the work thumbnails, while flat surfaces keep the frame weightless and gallery-like.",
+ "imagery": "The site has no decorative imagery of its own - no photography, no abstract graphics, no textures, no patterns. The only visual content is the project work inside the card thumbnails: vibrant brand illustrations (SPSQ x Collectivo\u0027s green/pink/purple figures, Discord Nitro\u0027s astronaut), product UI screenshots (Nitro Value\u0027s green-gradient app), and black-and-white identity work (ScamSpotter). These are the ONLY color on the entire site. Icons are minimal: a single hamburger menu icon and arrow characters on card titles. The chrome itself is purely typographic and structural - the design system deliberately delegates all visual expression to the portfolio content.",
+ "layout": "Single-page horizontal-scroll layout with no vertical page sections. The nav pill floats centered at the top of the viewport. Below it, the hero text (headline + subtitle) is centered in a constrained text-width column (~560px) within the full viewport. The remainder of the page is a single full-bleed horizontal scroll row of project cards with 8px gaps. There is no footer, no sidebar, no secondary sections, no grid system, and no page-level navigation beyond the hamburger. The entire spatial structure is: floating pill centered text horizontal scroll gallery. Content density is generous - cards are large, the scroll track is the primary real estate, and the chrome occupies minimal vertical space."
+}

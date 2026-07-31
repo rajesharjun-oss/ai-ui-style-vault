@@ -1,0 +1,224 @@
+{
+ "name": "IKEA",
+ "slug": "ikea",
+ "colors": [
+ {
+ "name": "IKEA Yellow",
+ "value": "#ffdb00",
+ "token": "--color-ikea-yellow",
+ "role": "Primary CTA fills, featured card backgrounds, hero accent panels, the singular chromatic workhorse of the system"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#111111",
+ "token": "--color-ink-black",
+ "role": "Primary text, body copy, headings, dominant borders (851 occurrences), icon strokes"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page background, card surfaces, nav background, button text on dark fills"
+ },
+ {
+ "name": "Warm White",
+ "value": "#fffefb",
+ "token": "--color-warm-white",
+ "role": "Slightly off-white surface variant for buttons and cards - barely warmer than pure white, breaks digital coldness"
+ },
+ {
+ "name": "Steel Gray",
+ "value": "#818181",
+ "token": "--color-steel-gray",
+ "role": "Secondary text, muted borders, disabled icon states"
+ },
+ {
+ "name": "True Black",
+ "value": "#000000",
+ "token": "--color-true-black",
+ "role": "SVG icon fills, input borders, true-black accents where maximum contrast is needed"
+ },
+ {
+ "name": "Link Blue",
+ "value": "#0159a3",
+ "token": "--color-link-blue",
+ "role": "Text link color, used extensively across navigation and body links - the only blue in the system"
+ },
+ {
+ "name": "Soft Pink",
+ "value": "#ffa6da",
+ "token": "--color-soft-pink",
+ "role": "Occasional decorative highlight, used sparingly on select link elements or promotional accents"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Noto IKEA",
+ "token": "--font-noto-ikea",
+ "role": "Sole typeface - custom IKEA-branded Noto variant. Two-weight system (regular 400, bold 700) is deliberate restraint: no italics, no medium weight, no light. The 700 headlines at 36-51px carry the entire brand voice; body at 16px stays neutral. Letter-spacing tightens as size grows, giving display text a compressed, architectural quality."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.57",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-0.54px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.08",
+ "-0.97px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "51px",
+ "1",
+ "-1.48px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "images",
+ "8px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ],
+ [
+ "default",
+ "8px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site header"
+ },
+ {
+ "name": "Hero Media Card",
+ "role": "Primary featured content card"
+ },
+ {
+ "name": "Yellow CTA Card",
+ "role": "Primary action panel"
+ },
+ {
+ "name": "Image Story Card",
+ "role": "Editorial content card"
+ },
+ {
+ "name": "Circular Media Control",
+ "role": "Play/pause button"
+ },
+ {
+ "name": "Arrow Link Button",
+ "role": "Inline navigation action"
+ },
+ {
+ "name": "Store Selector Footer",
+ "role": "Utility footer"
+ },
+ {
+ "name": "Timeline Section Block",
+ "role": "Historical/year display"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #ffdb00 exclusively for primary CTAs and featured accent cards - never as a background for body text or informational content",
+ "Set all corners to 8px - there is exactly one border radius in the system",
+ "Use weight 700 for every headline and weight 400 for every body element - never introduce medium, semibold, or light weights",
+ "Apply gradient-to-black overlays at 30-60% opacity on all image cards that contain text overlays",
+ "Use the circular black arrow button (Ink Black fill, white arrow, 8px or 50% radius) as the universal \u0027navigate\u0027 affordance",
+ "Keep body text at 16px with 1.57 line-height - IKEA\u0027s body line-height is generous, not tight",
+ "Use #0159a3 exclusively for text links, never for buttons or backgrounds"
+ ],
+ "doNot": [
+ "Do not introduce shadows, elevation, or any depth effects - the system is entirely flat",
+ "Do not use more than one border radius - 8px everywhere, no exceptions",
+ "Do not add additional font weights (300, 500, 600) - the binary 400/700 system is the constraint",
+ "Do not place body text directly on photography without a gradient overlay",
+ "Do not use the blue #0159a3 as a CTA button fill - it is link-only, not action",
+ "Do not soften the letter-spacing - the negative tracking is structural, not decorative",
+ "Do not add accent gradients or color transitions - the system rejects all gradient fills on surfaces"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e7b37c82-239c-48d5-b293-79a2bfa235cc",
+ "referenceSite": "https://www.ikea.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:03:49.756Z",
+ "articleModifiedAt": "2026-06-05T10:18:20.342Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/6c0dfb07-df90-46f2-99ac-b6d81a8089a4.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/eed50dbd-f640-442a-8195-2acbd630b090.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c7df58f2-1e4d-4470-8db9-0f7032963db0.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e5348757-56b8-4249-954d-14b7598dff40.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2d390173-a69a-4c71-b44e-f2039c5a7f16.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/2427d8df-674c-4e2e-8145-c8b852d97993.jpg"
+ }
+ }
+}

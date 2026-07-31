@@ -1,0 +1,204 @@
+{
+ "name": "Alt-Border",
+ "slug": "alt-border",
+ "colors": [
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary type, body text, hairline rules, link borders, and the structural color of the entire page - used at high frequency for borders and text alike, creating a printed-ink quality against the white canvas"
+ },
+ {
+ "name": "Gallery White",
+ "value": "#ffffff",
+ "token": "--color-gallery-white",
+ "role": "Page canvas, card and image backgrounds, the negative space that lets type and photography breathe"
+ },
+ {
+ "name": "Graphite",
+ "value": "#333333",
+ "token": "--color-graphite",
+ "role": "Secondary text, muted borders, image strokes - a slightly softened black for elements that should not compete with primary ink"
+ },
+ {
+ "name": "Ash",
+ "value": "#808080",
+ "token": "--color-ash",
+ "role": "Section divider rules, link borders, faint hairlines where a true black stroke would be too assertive"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Neuehaasdisplay",
+ "token": "--font-neuehaasdisplay",
+ "role": "Hero display - used only for the massive opening headline and section-statement lines that fill the viewport. The 0.85 line-height is a deliberate choice: lines nearly touch, producing the compressed broadsheet effect. Substitute: Neue Haas Grotesk Display Pro 35 Thin, or Inter at extreme sizes."
+ },
+ {
+ "name": "Inferi",
+ "token": "--font-inferi",
+ "role": "Multi-purpose face - medium-weight paragraphs (21px), oversized secondary statements (34px, 120px), and small UI labels (14px). The negative tracking (-0.0270em) tightens the rhythm at every size. Substitute: Sohne, Inter, or Untitled Sans."
+ },
+ {
+ "name": "Suisseintl",
+ "token": "--font-suisseintl",
+ "role": "Body and supporting copy - quiet, legible, never decorative. Same negative tracking as Inferi keeps the family consistent. Substitute: Suisse Int\u0027l Light, or Inter Light."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1",
+ "-0.38px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "21px",
+ "1",
+ "-0.57px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "34px",
+ "1",
+ "-0.92px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "105px",
+ "0.85",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "0px",
+ "elementGap": "9px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Minimal global navigation - three items distributed across the full viewport width."
+ },
+ {
+ "name": "Hero Display Headline",
+ "role": "Opening statement that defines the studio\u0027s identity."
+ },
+ {
+ "name": "Section Label Row",
+ "role": "Identifies the section and provides a navigation cue to related content."
+ },
+ {
+ "name": "Image Feed Grid",
+ "role": "Three-column photography showcase for project work and social feed."
+ },
+ {
+ "name": "Image Card with Caption",
+ "role": "Individual portfolio thumbnail with title underneath."
+ },
+ {
+ "name": "Statement Section",
+ "role": "Mid-page manifesto block - the second editorial moment after the hero."
+ },
+ {
+ "name": "Link with Arrow",
+ "role": "Inline navigation cue used in section label rows."
+ },
+ {
+ "name": "Inline Thumbnail",
+ "role": "Small photographic element embedded within a hero headline."
+ },
+ {
+ "name": "Section Divider Rule",
+ "role": "Hairline separator between editorial sections."
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set display headlines in Neuehaasdisplay 300 at 105px with line-height 0.85 - the compressed vertical rhythm is the signature, not a default.",
+ "Use #000000 for all primary type, borders, and rules; #808080 only for soft dividers.",
+ "Keep all radii at 0px - the design is anti-rounded, it reads as print, not product UI.",
+ "Separate sections with a single 1px #808080 hairline and 7-9px vertical padding, never with background color changes or cards.",
+ "Let photographs carry all color and texture; the type and chrome stay strictly achromatic.",
+ "Set body and supporting type at 21px with letter-spacing -0.0270em - the negative tracking is consistent across the Inferi and Suisseintl families.",
+ "Place small square thumbnails inline within hero text as if they were characters on the baseline."
+ ],
+ "doNot": [
+ "Do not introduce any chromatic color - the palette is achromatic by design, not by omission.",
+ "Do not add drop shadows, blurs, or any elevation - separation comes from rules and whitespace alone.",
+ "Do not round corners on images, buttons, or cards - 0px radius is the system.",
+ "Do not use a CTA button style - there is no primary action color; navigation is text-only with arrow links.",
+ "Do not exceed 0.92 line-height on the 105px display - looser tracking destroys the broadsheet compression.",
+ "Do not set body type below 14px or above 34px - the scale jumps are deliberate: 14, 21, 34, 105.",
+ "Do not add background fills to sections, cards, or navigation - the page is a single white sheet."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/5fd2cdc0-05ac-4290-b67c-72e7525a532c",
+ "referenceSite": "https://www.alt-border.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:51:17.833Z",
+ "articleModifiedAt": "2026-06-05T09:28:49.443Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/bd1b487c-44e8-4ef5-9eb4-006a32f0b617.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/28be6ddb-1afc-4cd2-a130-3c2cdeac1471.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/cf1313b1-bce6-4bab-9058-8aceb59dadbb.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b657b4f6-021c-4535-8b69-89c4b298dff8.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/ae2fb020-da0c-481c-917e-9215f2fa5ea3.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/7f468a54-8f6d-4d0c-96e1-4b68b5085dbe.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

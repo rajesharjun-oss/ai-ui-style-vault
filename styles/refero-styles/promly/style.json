@@ -1,0 +1,367 @@
+{
+ "id": "9117a4f5-6171-44ad-aa85-a387a5d80620",
+ "name": "Promly",
+ "slug": "promly",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9117a4f5-6171-44ad-aa85-a387a5d80620",
+ "referenceSite": "https://promlyapp.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:17:13.134Z",
+ "articleModifiedAt": "2026-06-05T09:27:18.788Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/fd532125-8f80-4abb-b4b8-b8c3a3e1674b.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/caa2aee3-8f26-4238-8250-c5aa76070539.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/aa2b1a80-3c53-4132-a2b4-9d17b2e231a5.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/85be6607-b29f-4514-878f-f14b0a86f4b9.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/5d27350a-8cff-4e92-822a-6829062a3872.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b12a6796-f070-439d-867a-4e30ae5c83a5.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/c6019409-0fd8-43de-8279-6d32d0f19080.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Midnight pulse through violet glass - a youth sanctuary lit by neon accents on near-black surfaces, where rounded photo collages float like screensavers behind sharp confident type.",
+ "summary": "Explore Promly\u0027s dark Other design system: Void Indigo #040723, Abyss Plum #140f33 colors, Avenir, Poppins typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Void Indigo",
+ "value": "#040723",
+ "token": "--color-void-indigo",
+ "role": "Page background, primary surface - near-black with a violet undertone that makes the whole canvas feel tinted rather than neutral"
+ },
+ {
+ "name": "Abyss Plum",
+ "value": "#140f33",
+ "token": "--color-abyss-plum",
+ "role": "Elevated card surface, shadow tone - a step lighter than Void Indigo, used to lift cards off the canvas with violet ambient"
+ },
+ {
+ "name": "Onyx",
+ "value": "#000000",
+ "token": "--color-onyx",
+ "role": "Deep contrast surface for cards, input fills, and the darkest band behind photo content"
+ },
+ {
+ "name": "Glacier",
+ "value": "#e4ebf3",
+ "token": "--color-glacier",
+ "role": "Off-white section backgrounds, light card surfaces - cool-tinted to harmonize with the violet system"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Primary text on dark surfaces, button labels, image overlays - the dominant non-background color in the system"
+ },
+ {
+ "name": "Smoke",
+ "value": "#999999",
+ "token": "--color-smoke",
+ "role": "Secondary/muted body text, disabled labels"
+ },
+ {
+ "name": "Ash",
+ "value": "#808080",
+ "token": "--color-ash",
+ "role": "Tertiary text and subtle borders on light sections"
+ },
+ {
+ "name": "Graphite",
+ "value": "#333333",
+ "token": "--color-graphite",
+ "role": "Image borders, input strokes, secondary link text on light surfaces"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#222222",
+ "token": "--color-charcoal",
+ "role": "Button borders on light surfaces, heavy text emphasis"
+ },
+ {
+ "name": "Cinder",
+ "value": "#cccccc",
+ "token": "--color-cinder",
+ "role": "Input field borders, form dividers"
+ },
+ {
+ "name": "Pulse Blue",
+ "value": "#3898ec",
+ "token": "--color-pulse-blue",
+ "role": "Primary filled action background (CTA buttons, active nav) - the only chromatic fill in the system, acts as the single notification LED against the dark canvas"
+ },
+ {
+ "name": "Iris",
+ "value": "#755eff",
+ "token": "--color-iris",
+ "role": "Outlined action border, secondary accent - the violet identity color applied to ghost buttons and decorative strokes"
+ },
+ {
+ "name": "Lavender Lightning",
+ "value": "#aa57ff",
+ "token": "--color-lavender-lightning",
+ "role": "Outlined action border, gradient start - lighter violet for tertiary buttons and gradient origins"
+ },
+ {
+ "name": "Neon Sprout",
+ "value": "#0be014",
+ "token": "--color-neon-sprout",
+ "role": "Link borders, icon borders, active state highlights - vivid green used sparingly as functional punctuation on links and tags"
+ },
+ {
+ "name": "Dusk Fade",
+ "value": "#47246a",
+ "token": "--color-dusk-fade",
+ "role": "Gradient mid-stop - deep violet that bridges bright lavender to black in hero gradient washes"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Avenir",
+ "token": "--font-avenir",
+ "role": "Primary typeface across all contexts - headings, body, navigation, buttons, cards. Light 300 for large display headings creates a soft documentary feel; bold 700 for buttons and tag labels; regular 400 for body and supporting text."
+ },
+ {
+ "name": "Poppins",
+ "token": "--font-poppins",
+ "role": "Rare single-use bold label - appears on one decorative badge/button context, providing a geometric contrast to Avenir\u0027s humanist curves"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.25",
+ "0.25px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.69",
+ "-0.9px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.43",
+ "-0.94px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "25px",
+ "1.4",
+ "-0.78px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "35px",
+ "1.17",
+ "-1.79px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "45px",
+ "1.11",
+ "-2.3px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1.07",
+ "-4.02px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "12px"
+ ],
+ [
+ "cards",
+ "25px"
+ ],
+ [
+ "images",
+ "20px"
+ ],
+ [
+ "inputs",
+ "12px"
+ ],
+ [
+ "buttons",
+ "12px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Filled Button",
+ "role": "Main conversion action - donations, sign-ups, primary CTAs"
+ },
+ {
+ "name": "Outlined Action Button",
+ "role": "Secondary conversion - ghost CTAs on dark and light sections"
+ },
+ {
+ "name": "Navigation Pill Button",
+ "role": "Header CTA - the persistent \u0027Donate\u0027 action in the top nav"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Sticky site header with brand, dropdown nav, and CTA"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Above-the-fold headline + photo collage"
+ },
+ {
+ "name": "Photo Collage Grid",
+ "role": "Decorative youth imagery on hero and section right sides"
+ },
+ {
+ "name": "Gradient Feature Card",
+ "role": "Highlighted content section with light-violet background"
+ },
+ {
+ "name": "App Mockup Display",
+ "role": "Product visual showing the Promly app interface"
+ },
+ {
+ "name": "Credential/Award Row",
+ "role": "Social proof - awards, recognitions, media features"
+ },
+ {
+ "name": "Achievement List",
+ "role": "Founder/organization accolades in text form"
+ },
+ {
+ "name": "Event Feature Section",
+ "role": "Immersive content section - concerts, festivals, events"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer (implied, not fully visible in screenshots)"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form inputs for newsletter, contact, or app signup"
+ },
+ {
+ "name": "Highlight Link",
+ "role": "In-body links that need to stand out on dark backgrounds"
+ }
+ ],
+ "dos": [
+ "Use the Hero Dusk gradient (linear-gradient(216deg, #a755fb 20%, #47246a 37%, #000000 90%)) as the only hero background - never substitute a flat color or a different gradient angle.",
+ "Apply 20px border-radius to all documentary photos and 30px to larger featured crops; 12px to all buttons and inputs; 25px to section cards.",
+ "Set headlines at 60px Avenir weight 300 with -4px letter-spacing - the light weight is the signature, not bold.",
+ "Use Pulse Blue (#3898ec) filled buttons for the single primary action per screen; Iris (#755eff) outlined buttons for secondary actions.",
+ "Anchor each hero with a right-side photo collage of 8-10 rounded images with 1px white borders, arranged in offset rows.",
+ "Let the violet-tinted shadow (rgba(102, 77, 255, 0.2) 0px 4px 100px) be the only elevation effect on cards - no gray drop shadows.",
+ "Set section gap to 80px and card padding to 20px as the structural rhythm baseline."
+ ],
+ "donts": [
+ "Do not use bold (700) or extra-bold weights for display headings - weight 300 is the system\u0027s identity choice; bold headlines break the whisper-tone.",
+ "Do not introduce new colors for action buttons - the system has exactly one filled chromatic action (Pulse Blue) and outlined actions must use Iris, Lavender Lightning, or Neon Sprout.",
+ "Do not apply flat black (#000000) as the page background - Void Indigo (#040723) is the system canvas; pure black is reserved for deepest card surfaces only.",
+ "Do not use sharp corners (0px radius) on any image or card - every visual element must carry at least 8px radius, most 12-20px.",
+ "Do not place green on filled buttons or backgrounds - Neon Sprout (#0be014) is link-border and icon-border only.",
+ "Do not stack shadows or use gray-toned drop shadows - the single violet glow shadow is the only allowed elevation effect.",
+ "Do not alternate text alignment arbitrarily - heroes are consistently left-aligned text with right-side photo collage; do not center-align long-form content."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Void Indigo | `#040723` | Page canvas - the default dark surface every section sits on |\n| 1 | Onyx | `#000000` | Deep card/band background for darkest content blocks |\n| 2 | Abyss Plum | `#140f33` | Elevated card with violet ambient - cards float above the canvas with this tint |\n| 3 | Glacier | `#e4ebf3` | Light-mode card surface for sections that break out of the dark theme |\n| 4 | Paper | `#ffffff` | Highest elevation - buttons, badges, modal surfaces |",
+ "elevation": "- **Elevated Card:** `0px 4px 100px 0px rgba(102, 77, 255, 0.2)`",
+ "imagery": "The visual language is documentary youth photography - real teens in candid, naturally-lit settings (classrooms, streets, events, backstage). Photos are colorful, slightly saturated, and never staged-corporate. Treatment: always rounded (20-30px), often with 1px white borders that make them feel like printed polaroids on the dark canvas. Photos are arranged in offset masonry collages, never a single hero image, creating a scrapbook-of-teenage-life rhythm. Role: emotional storytelling and social proof rather than product explanation. Density: image-heavy - photo collages occupy 40-50% of hero real estate, and almost every section includes a right-side or full-bleed photographic element. No illustrations, no abstract graphics, no 3D renders.",
+ "layout": "Max-width 1200px centered content, but heroes are full-bleed edge-to-edge. The page rhythm is alternating dark bands (Void Indigo or Onyx) with occasional light breakouts (Glacier or Lavender Wash gradient card). Each major section follows a left-text + right-photo-collage split: headline and CTA on the left (40-45% width), rounded photo grid on the right (55-60% width). Vertical spacing is generous (80px section gaps) creating a cinematic scroll rhythm. Navigation is a sticky dark top bar. No sidebar, no mega-menu visible - the dropdowns in the nav are simple hover-reveals. Grid usage is limited to the photo collages; content text blocks are single-column stacks. The overall density is spacious, never information-dense."
+}

@@ -1,0 +1,271 @@
+{
+ "name": "Whop",
+ "slug": "whop",
+ "colors": [
+ {
+ "name": "Ember Orange",
+ "value": "#fa4616",
+ "token": "--color-ember-orange",
+ "role": "Orange wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Ember Shadow",
+ "value": "#b62600",
+ "token": "--color-ember-shadow",
+ "role": "Hard 3px offset shadow beneath Ember Orange buttons - a deeper burnt orange instead of a soft drop shadow"
+ },
+ {
+ "name": "Carbon",
+ "value": "#202020",
+ "token": "--color-carbon",
+ "role": "Primary text, heading strokes, heavy borders, icon fills"
+ },
+ {
+ "name": "Snow",
+ "value": "#ffffff",
+ "token": "--color-snow",
+ "role": "Card surfaces, button text on dark fills, the elevated layer above the page canvas"
+ },
+ {
+ "name": "Mist",
+ "value": "#f9f9f9",
+ "token": "--color-mist",
+ "role": "Page canvas - the near-white background that all sections sit on"
+ },
+ {
+ "name": "Silver",
+ "value": "#e1e4e8",
+ "token": "--color-silver",
+ "role": "Hairline dividers, card borders, subtle structural separators"
+ },
+ {
+ "name": "Slate",
+ "value": "#646464",
+ "token": "--color-slate",
+ "role": "Muted body text, secondary links, inactive nav items, mid-weight borders"
+ },
+ {
+ "name": "Ash",
+ "value": "#838383",
+ "token": "--color-ash",
+ "role": "Tertiary text, placeholder text, disabled labels"
+ },
+ {
+ "name": "Pearl",
+ "value": "#bbbbbb",
+ "token": "--color-pearl",
+ "role": "Light borders, icon outlines, low-emphasis strokes"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#0a0a0a",
+ "token": "--color-obsidian",
+ "role": "Dark surface variant for inverted cards or code-editor panels"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "acidGrotesk",
+ "token": "--font-acidgrotesk",
+ "role": "Display and section headlines - used at near-mega sizes (128px) for hero, 56px for section titles. Line-height locked to 1.00, tracking at -0.03em creates a compressed, poster-like quality. This is a custom geometric face; no system font replicates its personality."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "All functional UI: body copy, links, buttons, nav, footer, card text, labels. Weight 400 for body, 500 for buttons and emphasized text, 600-700 for subheadings and strong labels. Tracking tightens as size increases (-0.016em at 20px down to -0.006em at 13px)."
+ },
+ {
+ "name": "Geist Mono",
+ "token": "--font-geist-mono",
+ "role": "Code snippets, terminal prompts, technical metadata, version labels. Generous line-height (1.70) for multi-line code blocks. Normal letter-spacing - mono fonts don\u0027t need optical tightening."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.16px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "-0.32px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "56px",
+ "1",
+ "-1.68px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "128px",
+ "1",
+ "-3.84px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64-80px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "24px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ],
+ [
+ "smallElements",
+ "4px"
+ ],
+ [
+ "largeContainers",
+ "16px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "The singular high-emphasis action - the only chromatic button in the system"
+ },
+ {
+ "name": "Ghost/Secondary Button",
+ "role": "Low-emphasis action paired with the primary CTA"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent site header"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Hero and section-level titles"
+ },
+ {
+ "name": "Phone Mockup Card",
+ "role": "Product showcase tile in horizontal scroll galleries"
+ },
+ {
+ "name": "Tab Navigation (Pill Group)",
+ "role": "Switches between embed component examples (Checkout, Wallet, Chat)"
+ },
+ {
+ "name": "Code Editor Panel",
+ "role": "Shows code snippets for embed components"
+ },
+ {
+ "name": "Footer",
+ "role": "Minimal site footer"
+ },
+ {
+ "name": "Category Label (Showcase Section)",
+ "role": "Labels above each phone mockup (Agency, Game, Service business, etc.)"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Full-viewport above-the-fold area"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Ember Orange (#fa4616) exclusively for the single primary action on any screen - never for decorative elements, tags, or secondary buttons",
+ "Apply the hard burnt-orange offset shadow (rgb(182,38,0) 0px 3px 0px 0px) only to primary CTA buttons",
+ "Set display headlines in acidGrotesk at 56px or 128px with line-height 1.00 and letter-spacing -0.03em - never use Inter for display sizes",
+ "Use 24px border-radius for all card-like containers and 8px for all buttons - this size ratio is non-negotiable",
+ "Keep the page canvas #f9f9f9 and card surfaces #ffffff - never invert this hierarchy",
+ "Use 64-80px vertical gaps between major sections to maintain the spacious rhythm",
+ "Use Geist Mono exclusively for code, terminal prompts, and technical metadata - never for UI labels or body text"
+ ],
+ "doNot": [
+ "Don\u0027t use Ember Orange for any element that isn\u0027t the primary action button on that screen",
+ "Don\u0027t apply soft drop shadows, blur, or opacity-based shadows to any element - the system is flat",
+ "Don\u0027t use display sizes (56px+) in Inter - Inter is for 13-20px functional UI only",
+ "Don\u0027t add gradients - the system is entirely flat color",
+ "Don\u0027t use neutral grays for decorative accents or illustrations - the palette is near-black to near-white with one orange",
+ "Don\u0027t set border-radius values outside the four tokens: 4px, 8px, 12px, 16px, 24px",
+ "Don\u0027t place multiple orange buttons on the same screen - one primary action per view"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9eeab5f0-eece-4898-a1d2-2db48ac2bc7d",
+ "referenceSite": "https://whop.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:52:13.446Z",
+ "articleModifiedAt": "2026-06-05T11:02:10.359Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/eb15637a-806d-4e89-ac0c-e41e056f87ea.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/afa4595f-e817-4bbc-8ea7-3d0ba01d1f70.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ccfa948b-a7f4-4ce5-8ff6-b58613d75249.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/a0f13dd6-d25c-446b-8953-58dc435f926e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/75d782ed-e66a-47c8-873c-b16fa786bd47.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/613d30dc-a53a-4a13-995f-518062a6437b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/24bb9938-7d56-417a-adda-dd226919b54e.png"
+ }
+ }
+}

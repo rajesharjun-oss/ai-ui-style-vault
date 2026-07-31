@@ -1,0 +1,322 @@
+{
+ "name": "Afterglo",
+ "slug": "afterglo",
+ "colors": [
+ {
+ "name": "Ivory Paper",
+ "value": "#f3f2ec",
+ "token": "--color-ivory-paper",
+ "role": "Page canvas, card surfaces, footer wash - the warm off-white that makes every photograph feel printed, not digital"
+ },
+ {
+ "name": "Sage Mist",
+ "value": "#e3e4df",
+ "token": "--color-sage-mist",
+ "role": "Hairline borders, input outlines, subtle dividers, secondary card backgrounds - the cool-warm neutral that separates layers without contrast shouting"
+ },
+ {
+ "name": "Bone Gray",
+ "value": "#cbc9bd",
+ "token": "--color-bone-gray",
+ "role": "Mid-tone neutrals for input shadows and muted surface fills - the bridge between ivory and ink"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#131313",
+ "token": "--color-ink-black",
+ "role": "Primary text, filled buttons, icon strokes, navigation borders - slightly softer than pure black, reads as printer\u0027s ink rather than screen"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Highest-contrast borders, pure ink for heaviest typographic moments and fine dividers"
+ },
+ {
+ "name": "Snow White",
+ "value": "#ffffff",
+ "token": "--color-snow-white",
+ "role": "Product card photography backdrop, badge fills - the cleanest white for product isolation"
+ },
+ {
+ "name": "Ember Coral",
+ "value": "#f68e6d",
+ "token": "--color-ember-coral",
+ "role": "Footer background, singular warm accent - the one chromatic gesture in the system, used only when the design needs to feel touched, not seen"
+ },
+ {
+ "name": "Powder Blue",
+ "value": "#7faad2",
+ "token": "--color-powder-blue",
+ "role": "Blue state accent for badges, validation surfaces, and short status labels. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Aeonik",
+ "token": "--font-aeonik",
+ "role": "Workhorse sans for navigation, body, buttons, product cards, and hero overlays. 500 weight for active nav, labels, and emphasis; 400 for body copy. The 132px display size at 0.80 line-height is the signature - oversized headlines that sit tight and confident over photography."
+ },
+ {
+ "name": "Cardinal Fruit",
+ "token": "--font-cardinal-fruit",
+ "role": "Display serif reserved for editorial moments: the \u0027FEEL YOUR SELF\u0027 statement, category callouts, and the small italic accent \u0027(BEST)\u0027. At 187px with 1.00 line-height it becomes the visual anchor of the page - a magazine-cover gesture that reframes the whole interface as editorial, not transactional."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.1",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "15px",
+ "1.3",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "22px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "42px",
+ "1.1",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "50px",
+ "1",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "54px",
+ "1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "132px",
+ "0.8",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "187px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "25-33px",
+ "cardPadding": "17px",
+ "elementGap": "8-17px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "29",
+ "29px",
+ "`--spacing-29`"
+ ],
+ [
+ "33",
+ "33px",
+ "`--spacing-33`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "58",
+ "58px",
+ "`--spacing-58`"
+ ],
+ [
+ "67",
+ "67px",
+ "`--spacing-67`"
+ ],
+ [
+ "83",
+ "83px",
+ "`--spacing-83`"
+ ],
+ [
+ "216",
+ "216px",
+ "`--spacing-216`"
+ ],
+ [
+ "231",
+ "231px",
+ "`--spacing-231`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "5px"
+ ],
+ [
+ "badges",
+ "5px"
+ ],
+ [
+ "inputs",
+ "5px"
+ ],
+ [
+ "buttons",
+ "5px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Product Card",
+ "role": "Product grid item in featured/listing sections"
+ },
+ {
+ "name": "Out of Stock Badge",
+ "role": "Availability indicator on product cards"
+ },
+ {
+ "name": "Info Badge",
+ "role": "Decorative or informational tagging"
+ },
+ {
+ "name": "Hero Photography Panel",
+ "role": "Full-bleed opening section"
+ },
+ {
+ "name": "Filled Primary Button",
+ "role": "Primary call-to-action (e.g. \u0027Start Exploring\u0027, \u0027About Us\u0027)"
+ },
+ {
+ "name": "Ghost Text Button",
+ "role": "Secondary inline action or link styled as button"
+ },
+ {
+ "name": "Editorial Display Heading",
+ "role": "Section or page statement"
+ },
+ {
+ "name": "Featured Section Header",
+ "role": "Section title for product grids"
+ },
+ {
+ "name": "Image Collage Panel",
+ "role": "Editorial about/mission section visual"
+ },
+ {
+ "name": "Category Carousel Arrow",
+ "role": "Horizontal navigation for product carousels"
+ },
+ {
+ "name": "Input Field",
+ "role": "Form input (search, email, etc.)"
+ },
+ {
+ "name": "Warm Footer",
+ "role": "Site footer with brand accent"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Cardinal Fruit serif at 54px+ for editorial display moments and reserve it for those moments - one per section maximum",
+ "Set Aeonik display sizes at tight line-heights: 0.80 for 132px headlines, 1.00 for 50-54px section titles, 1.20 for 22px body",
+ "Apply the 5px radius universally to cards, buttons, badges, and inputs - it is the system\u0027s only rounding gesture",
+ "Use the ivory canvas (#f3f2ec) as the default background for every page; let #ffffff appear only inside product photography frames",
+ "Pair Aeonik weight 500 for navigation labels, buttons, and the brand mark; weight 400 for body copy and descriptions",
+ "Let the footer be the only surface that uses #f68e6d - do not introduce the coral accent on buttons, badges, or links",
+ "Build product cards as flat compositions: image on white, text below in ink, no hover elevation, no shadows, no borders around the card itself"
+ ],
+ "doNot": [
+ "Do not use the powder blue (#7faad2) as a CTA or filled action - it is decorative only, reserved for soft badges and washes",
+ "Do not apply drop shadows to cards, buttons, or images - the system stays flat; depth comes from type and photography",
+ "Do not introduce border-radius values other than 5px - the system uses one rounding gesture, repeated exactly",
+ "Do not use pure black (#000000) for large body text - reserve it for fine borders and heaviest display moments; use #131313 for readable text and buttons",
+ "Do not place the Cardinal Fruit serif below 33px - it loses its editorial weight at small sizes; switch to Aeonik for anything under 33px",
+ "Do not use gradients, glows, or color tints on buttons or interactive elements - the system is matte and flat",
+ "Do not center-align body copy or product descriptions - the editorial language reads left-aligned with generous left margin"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/b13069df-7475-4b51-a734-621e3da75f8b",
+ "referenceSite": "https://myafterglo.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:50:16.808Z",
+ "articleModifiedAt": "2026-06-05T07:25:15.695Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/f0af2b54-1b85-4e50-b1b8-48afd923cca5.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/57a9d5ad-8141-4ff7-9117-f61db289e035.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/2c1a09d7-8df0-4e4c-bca4-9dba82fd6f63.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/40dc75c4-22e7-4a46-8bf5-736276c86510.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/840e9092-8cb4-4f49-97f2-9d26709500af.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/bd190a61-0aeb-4fd8-850d-08a9d0c8f846.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ }
+}

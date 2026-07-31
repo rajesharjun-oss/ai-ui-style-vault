@@ -1,0 +1,341 @@
+{
+ "name": "A-dam",
+ "slug": "a-dam",
+ "colors": [
+ {
+ "name": "Midcurrent Navy",
+ "value": "#000e1f",
+ "token": "--color-midcurrent-navy",
+ "role": "Primary text, filled buttons, rating widget, icon strokes - the workhorse dark surface that grounds every interface layer"
+ },
+ {
+ "name": "Deep Cobalt",
+ "value": "#0000c5",
+ "token": "--color-deep-cobalt",
+ "role": "Announcement bar surface and occasional accent punctuation - saturated blue used sparingly to break an otherwise monochrome frame"
+ },
+ {
+ "name": "Twilight Slate",
+ "value": "#1a2635",
+ "token": "--color-twilight-slate",
+ "role": "Secondary borders and emphasis dividers - a near-gray that steps up from Midcurrent Navy for subtle layering without contrast jumps"
+ },
+ {
+ "name": "Graphite",
+ "value": "#000000",
+ "token": "--color-graphite",
+ "role": "Icon fills, nav text, and footer ink - pure black reserved for the smallest functional elements where maximum punch is needed"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Card surfaces, product tile backgrounds, nav bar canvas, and inverted text on dark fills"
+ },
+ {
+ "name": "Morning Mist",
+ "value": "#f4f4f4",
+ "token": "--color-morning-mist",
+ "role": "Page canvas and elevated card background - the warm off-white that gives the entire site its soft, lived-in brightness"
+ },
+ {
+ "name": "Cloud Veil",
+ "value": "#e6e7e9",
+ "token": "--color-cloud-veil",
+ "role": "Dominant hairline border for cards, icons, links, and image frames - the quietest structural line in the system"
+ },
+ {
+ "name": "Soft Stone",
+ "value": "#dcdddf",
+ "token": "--color-soft-stone",
+ "role": "List dividers, secondary borders, and badge outlines - one step darker than Cloud Veil for hierarchy between hairline and emphasis"
+ },
+ {
+ "name": "Slate Gray",
+ "value": "#666e79",
+ "token": "--color-slate-gray",
+ "role": "Muted helper text, secondary copy, and link text in resting state - cool gray that recedes behind primary navy content"
+ },
+ {
+ "name": "Sunbeam",
+ "value": "#fff48d",
+ "token": "--color-sunbeam",
+ "role": "Star-rating fills and small highlight washes - the only warm color in the system, kept tiny and functional"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "GT Walsheim Pro",
+ "token": "--font-gt-walsheim-pro",
+ "role": "Primary brand typeface across all UI roles. The 900 weight is the signature - it powers the 70px display headlines with architectural density. Geometric humanist forms give the brand a friendly, modern voice; the wide weight range (400 for body, 900 for display) lets a single family carry every level of emphasis."
+ },
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "GT-Walsheim-Pro",
+ "token": "--font-gt-walsheim-pro",
+ "role": "GT-Walsheim-Pro - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "44px",
+ "1.1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "70px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "48-80px",
+ "cardPadding": "16px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "77",
+ "77px",
+ "`--spacing-77`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "30px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "links",
+ "30px"
+ ],
+ [
+ "inputs",
+ "30px"
+ ],
+ [
+ "buttons",
+ "30px"
+ ],
+ [
+ "productTiles",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Announcement Bar",
+ "role": "Full-width strip pinned above the navigation for promotional or shipping messages"
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Primary site navigation with centered logo"
+ },
+ {
+ "name": "Hero Banner",
+ "role": "Full-bleed lifestyle image with text overlay"
+ },
+ {
+ "name": "Product Card",
+ "role": "Individual product tile in collection grids"
+ },
+ {
+ "name": "Category Card",
+ "role": "Larger featured product card for premium or collection groupings"
+ },
+ {
+ "name": "Pill Button",
+ "role": "Primary call-to-action button"
+ },
+ {
+ "name": "Ghost Link Button",
+ "role": "Secondary or tertiary action with minimal visual weight"
+ },
+ {
+ "name": "Star Rating Display",
+ "role": "Product review rating with numeric score"
+ },
+ {
+ "name": "Trust Widget",
+ "role": "Floating third-party review indicator"
+ },
+ {
+ "name": "Text Headline Section",
+ "role": "Centered editorial section break with supporting copy"
+ },
+ {
+ "name": "Sustainability Split Section",
+ "role": "Asymmetric content block pairing mission text with material photography"
+ },
+ {
+ "name": "Search Input",
+ "role": "Search field in the header or overlay search panel"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use GT Walsheim Pro weight 900 at 70px / 1.00 for display headlines - the tight leading makes huge type read as a graphic block",
+ "Set border-radius to 30px on all buttons, inputs, tags, and pill links - the pill shape is the system\u0027s tactile signature",
+ "Keep product cards flat: no border, no shadow, no border-radius, just white surface on Morning Mist canvas",
+ "Use Midcurrent Navy (#000e1f) for all primary text and filled buttons - never let body copy drop to Slate Gray when full emphasis is needed",
+ "Reserve Deep Cobalt (#0000c5) for the announcement bar surface and micro-accent moments only - it is an exclamation, not a fill",
+ "Use hairline Cloud Veil (#e6e7e9) borders for card edges, image frames, and list dividers - this is the most-used color in the system",
+ "Use Sunbeam (#fff48d) exclusively for star-rating fills - never as a button background, section fill, or text color"
+ ],
+ "doNot": [
+ "Don\u0027t add drop shadows to product cards, category cards, or buttons - the system is intentionally shadowless",
+ "Don\u0027t apply custom letter-spacing to GT Walsheim - its built-in tracking is part of the design; override only if a specific optical correction is needed",
+ "Don\u0027t use Deep Cobalt for body text or large fills - it belongs in the 32-40px announcement strip",
+ "Don\u0027t introduce rectangular button radii - the 30px pill is the only shape buttons take",
+ "Don\u0027t place dark navy on dark navy without sufficient contrast separation - the system relies on light-on-dark and dark-on-light pairing",
+ "Don\u0027t use system Arial or sans-serif as substitutes for GT Walsheim in display or heading roles - fall back to Outfit or Inter, which preserve geometric warmth",
+ "Don\u0027t fill the page with color - the palette is 95% neutrals; let the one cobalt bar and the tiny sunbeam stars carry all chromatic punctuation"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0fc184f7-6143-4303-8e3d-0e2f075f76b2",
+ "referenceSite": "https://a-dam.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:32:36.032Z",
+ "articleModifiedAt": "2026-06-05T12:12:26.802Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/5b3560b1-548d-4a57-b989-12a186b3e46c.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/115b2eb3-f370-4745-98ee-57f430221324.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/b76e0eab-073e-40b7-9435-314b4929b057.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/fb2574f3-c6eb-49c8-a6b7-07aa197b2c55.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/6fa0640d-0e79-4e1c-9525-b56ed8ce3e78.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/3b872822-cd7d-4466-8319-575f886135f8.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/14cbd7f5-b9f9-4aeb-b77f-a4d66909ccd7.png"
+ }
+ }
+}

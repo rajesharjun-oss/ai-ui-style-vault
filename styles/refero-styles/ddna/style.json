@@ -1,0 +1,231 @@
+{
+ "id": "0e8e546b-004c-46b6-a960-5dd88968ae07",
+ "name": "ddna",
+ "slug": "ddna",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0e8e546b-004c-46b6-a960-5dd88968ae07",
+ "referenceSite": "https://d-d-n-a.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:26:23.826Z",
+ "articleModifiedAt": "2026-06-05T08:54:35.702Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7997e5fe-4f7f-45d5-9962-95ea7b33c33e.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/ad5371e6-ca1b-42dc-b188-3e10a95b84fb.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/be6ee322-a717-4aa8-a7e2-e372d96dbba2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e10752f7-0f8d-4854-93dc-f328209cef9e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/3bb5b307-e594-4d01-a153-d837370cf8cb.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b4e9b457-c982-44e0-8417-2d9167e7aa6a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "warm museum vitrine on raw linen",
+ "summary": "Explore ddna\u0027s light E-commerce design system: Stone Charcoal #444242, Linen Cream #efe3dc colors, Basis, Favorit typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Stone Charcoal",
+ "value": "#444242",
+ "token": "--color-stone-charcoal",
+ "role": "Primary text, navigation links, hairline borders, footer anchors - dark warm gray carries the same temperature as the cream surfaces it sits on, never pure black"
+ },
+ {
+ "name": "Linen Cream",
+ "value": "#efe3dc",
+ "token": "--color-linen-cream",
+ "role": "Heading text, footer surface, and the lighter plane in the surface stack - sits one step above the canvas"
+ },
+ {
+ "name": "Warm Sand",
+ "value": "#dacabf",
+ "token": "--color-warm-sand",
+ "role": "Page canvas - the dominant field every section and hero lives on"
+ },
+ {
+ "name": "Dust",
+ "value": "#938a83",
+ "token": "--color-dust",
+ "role": "Secondary borders and dividers when Stone Charcoal would be too heavy"
+ },
+ {
+ "name": "Mortar",
+ "value": "#595552",
+ "token": "--color-mortar",
+ "role": "Muted body text and subdued borders - the quietest readable neutral"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Basis",
+ "token": "--font-basis",
+ "role": "Body, nav, labels, captions - the only text family used for everything below display. The 0.066-0.099em tracking on 10-14px is the signature: it makes small text feel like a printed catalogue label rather than screen UI."
+ },
+ {
+ "name": "Favorit",
+ "token": "--font-favorit",
+ "role": "Display and heading - set at a single 30px size, weight 400 only. The narrow, slightly quirky character shapes (open apertures, subtle inktraps) carry all the personality the system allows. No bold weight exists."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1",
+ "0.99px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "0.92px",
+ "--text-body-sm"
+ ],
+ [
+ "body-lg",
+ "17px",
+ "1.5",
+ "1.12px",
+ "--text-body-lg"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.3",
+ "-",
+ "--text-heading"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "",
+ "sectionGap": "100px",
+ "cardPadding": "135px",
+ "elementGap": "20-25px",
+ "scale": [
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "33",
+ "33px",
+ "`--spacing-33`"
+ ],
+ [
+ "45",
+ "45px",
+ "`--spacing-45`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "135",
+ "135px",
+ "`--spacing-135`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation",
+ "role": "Site header"
+ },
+ {
+ "name": "Text Link with Arrow",
+ "role": "Primary action affordance"
+ },
+ {
+ "name": "Product Card",
+ "role": "Jewelry item display"
+ },
+ {
+ "name": "Hero Composition",
+ "role": "Above-the-fold brand statement"
+ },
+ {
+ "name": "Statement Paragraph",
+ "role": "Brand body copy"
+ },
+ {
+ "name": "Section Container",
+ "role": "Vertical rhythm unit"
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer"
+ },
+ {
+ "name": "Image Label",
+ "role": "Product caption overlay"
+ }
+ ],
+ "dos": [
+ "Set all text at weight 400 - never introduce bold or semibold weights, the system has no hierarchy through weight",
+ "Use 0.066em letter-spacing on 14-15px text and 0.099em on 10px captions to maintain the catalogue-label feel",
+ "Keep the palette to five warm neutrals (#444242, #595552, #938a83, #dacabf, #efe3dc) - no accent colors, no blue links",
+ "Use Favorit at 30px with line-height 2.0 for any heading or statement - one size, one leading, one weight",
+ "Build depth through tonal layering (sand cream charcoal), never through box-shadow",
+ "Pair every affordance with a downward or rightward arrow glyph instead of a button shape",
+ "Use full-bleed product images with 0px radius - let the texture and material do the work"
+ ],
+ "donts": [
+ "Do not add drop-shadows, blurs, or any z-axis elevation to cards, buttons, or images",
+ "Do not introduce a brand accent color - the iridescent orbs are content, not tokens",
+ "Do not use bold (600/700) or semibold (500) weights at any level",
+ "Do not use border-radius greater than 0px on any component - sharp edges preserve the printed-catalogue feel",
+ "Do not set body copy below 14px or above 17px; display should stay at 30px",
+ "Do not fill a button background - the system uses text links with arrow glyphs, not filled rectangles",
+ "Do not separate sections with hairline dividers; use 100px of whitespace as the only separator"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Warm Sand | `#dacabf` | Page canvas - every section sits on this warm beige field |\n| 2 | Linen Cream | `#efe3dc` | Footer and lighter text-grounding surface, one step lighter than canvas |\n| 3 | Stone Charcoal | `#444242` | Inverted dark surface for contrast moments - anchors the tonal stack |",
+ "elevation": "No shadows, no blur, no z-axis. Depth is purely tonal: the surface stack moves through warm beige cream charcoal, and that is the entire elevation model. Any added drop-shadow would break the flat, printed-catalogue language.",
+ "imagery": "Imagery is the system\u0027s only chromatic event. The hero is a constellation of iridescent 3D orbs - translucent spheres in magenta, teal, and violet with subsurface scattering and soft cast shadows on the Warm Sand floor. These are content, not decorative chrome: they carry the brand\u0027s only color. Product photography uses tight, edge-to-edge crops of raw materials (wood grain, stone, bone, woven fabric) as backgrounds beneath jewelry - no lifestyle context, no models, no hands. The object sits on its own material, like a museum specimen.",
+ "layout": "Full-bleed Warm Sand canvas, no max-width container. The hero is a viewport-height composition with centered text overlay floating over scattered 3D orbs. Sections stack vertically as Warm Sand bands with 100px gaps - no dividers, no alternating colors, no card grids breaking the page rhythm. Content is positioned through generous side margins (50px+ on mobile, breathing room expanding on desktop) rather than a fixed container width. The product section uses a 2-column or full-bleed alternating grid where each product image bleeds to its column edge with no padding. Navigation is a single transparent bar with logo left and 3-4 links right. The footer is a Linen Cream band - the only tonal shift on the entire page."
+}

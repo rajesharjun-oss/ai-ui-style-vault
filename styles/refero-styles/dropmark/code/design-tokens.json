@@ -1,0 +1,310 @@
+{
+ "name": "Dropmark",
+ "slug": "dropmark",
+ "colors": [
+ {
+ "name": "Cyan Signal",
+ "value": "#00affa",
+ "token": "--color-cyan-signal",
+ "role": "Blue accent for outlined action borders, linked labels, and lightweight interactive emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#f7f7f1",
+ "token": "--color-cream-paper",
+ "role": "Page canvas, section backgrounds, soft card surfaces - the warm off-white ground everything sits on"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Inset cards, modal surfaces, inverse button text, nav background"
+ },
+ {
+ "name": "Stone Gray",
+ "value": "#dcdcd4",
+ "token": "--color-stone-gray",
+ "role": "Subtle accent surfaces, inset focus rings, warm shadow tints"
+ },
+ {
+ "name": "Graphite",
+ "value": "#404040",
+ "token": "--color-graphite",
+ "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Mid Ink",
+ "value": "#333333",
+ "token": "--color-mid-ink",
+ "role": "Button text and border on dark surfaces, icon stroke"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#111111",
+ "token": "--color-charcoal",
+ "role": "Headline text alternative, deep emphasis borders"
+ },
+ {
+ "name": "Pewter",
+ "value": "#7f7f7f",
+ "token": "--color-pewter",
+ "role": "Secondary body text, muted helper text, inactive state text"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "SVG illustration linework, deepest icon fills"
+ },
+ {
+ "name": "Midnight Violet",
+ "value": "#1e2554",
+ "token": "--color-midnight-violet",
+ "role": "Illustration primary - the dominant dark shape color in cubist murals"
+ },
+ {
+ "name": "Deep Iris",
+ "value": "#2c2a6c",
+ "token": "--color-deep-iris",
+ "role": "Illustration mid-tone - secondary dark purple in mural compositions"
+ },
+ {
+ "name": "Coral Burst",
+ "value": "#ff5d43",
+ "token": "--color-coral-burst",
+ "role": "Illustration warm accent - orange-red shape fills in murals"
+ },
+ {
+ "name": "Aqua Glow",
+ "value": "#38dede",
+ "token": "--color-aqua-glow",
+ "role": "Illustration cool accent and icon highlight - teal punctuation in murals"
+ },
+ {
+ "name": "Vivid Amethyst",
+ "value": "#9164fa",
+ "token": "--color-vivid-amethyst",
+ "role": "Illustration bright accent - saturated purple shape fills"
+ },
+ {
+ "name": "Blush",
+ "value": "#f8b3b8",
+ "token": "--color-blush",
+ "role": "Illustration soft accent - pink shape fills for warmth in murals"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "DropmarkRealHead",
+ "token": "--font-dropmarkrealhead",
+ "role": "Display and section headings only - used at 60px for hero, 40px for section titles, 24px for sub-section headings. Medium weight is deliberate; avoids the heavy 700 convention to keep headlines calm and editorial rather than assertive."
+ },
+ {
+ "name": "DropmarkRealText",
+ "token": "--font-dropmarkrealtext",
+ "role": "Body, buttons, nav, list, footer, supporting UI. 400 for body and links, 600 for emphasized sub-labels and button text, 700 reserved for occasional inline emphasis. Functions as the working sans - every non-heading element uses it."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "heading-sm",
+ "20px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.2",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1.2",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "60px",
+ "cardPadding": "30px",
+ "elementGap": "10-20px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "35",
+ "35px",
+ "`--spacing-35`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "58",
+ "58px",
+ "`--spacing-58`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "240",
+ "240px",
+ "`--spacing-240`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "3px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "pills",
+ "60px"
+ ],
+ [
+ "buttons",
+ "3px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Action Button (filled)",
+ "role": "Main conversion CTA on hero and section blocks"
+ },
+ {
+ "name": "Outlined Action Button",
+ "role": "Secondary conversion CTA paired with primary"
+ },
+ {
+ "name": "Dark Filled Button",
+ "role": "Top-right nav conversion (\u0027Sign up\u0027)"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline links, footer links, nav links"
+ },
+ {
+ "name": "Nav Bar",
+ "role": "Top-of-page site navigation"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Above-the-fold headline and primary conversion"
+ },
+ {
+ "name": "Feature Card (horizontal)",
+ "role": "Feature highlight blocks below the hero"
+ },
+ {
+ "name": "Illustration Mural Band",
+ "role": "Full-bleed decorative art between sections"
+ },
+ {
+ "name": "Statistics Panel",
+ "role": "Dark emphasis block (\u0027Trusted for 15+ years\u0027)"
+ },
+ {
+ "name": "Logo Strip",
+ "role": "Social proof - customer/team logos"
+ },
+ {
+ "name": "Footer Link Group",
+ "role": "Footer column links"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #00affa exclusively for the outlined action border and filled primary button - no other UI element should carry color",
+ "Set border-radius to 3px for nav, buttons, and tags; reserve 60px for true pill shapes only",
+ "Anchor headlines at DropmarkRealHead weight 500 - do not bold-up to 600/700 for display text",
+ "Keep the page background #f7f7f1; use #ffffff only for inset cards and elevated surfaces",
+ "Lean on the accent illustration palette (#1e2554, #2c2a6c, #ff5d43, #38dede, #9164fa, #f8b3b8) for mural art only, never for UI components",
+ "Use 1px #404040 hairline borders as the primary structural divider, not boxes or shadows",
+ "Pair every primary CTA with a #00affa outlined secondary action to maintain the two-button rhythm"
+ ],
+ "doNot": [
+ "Do not introduce additional chromatic colors into the UI - the system is intentionally monochrome with one cyan accent",
+ "Do not use drop shadows for elevation; depth comes from surface color and illustration, not shadow",
+ "Do not use border-radius larger than 3px on cards or buttons - the flat editorial geometry is the signature",
+ "Do not bold body text above 600; 700 should appear only for rare inline emphasis",
+ "Do not use #00affa as a text or background tint for non-action elements like tags, badges, or icons",
+ "Do not place the illustration palette colors on text, borders, or background fills - they belong inside mural compositions",
+ "Do not use the cream #f7f7f1 for buttons or CTAs; the canvas color must not compete with actions"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/5618f26a-4df6-42cb-8081-15e4318b54ff",
+ "referenceSite": "https://dropmark.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:59:38.370Z",
+ "articleModifiedAt": "2026-06-05T10:09:18.244Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/e3120ea3-ccb0-4a69-871a-f524b6b4faf4.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/10725c2b-f311-4a59-bce1-e9046da03936.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/6ddb4733-baf8-4bc6-86ad-1c90da7e8325.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/0c750cc1-84d6-4cc6-8bd4-6d571b8c0898.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/36d9a636-5201-4b3c-91c4-4b98a08244f3.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/d025a1fa-43bc-46ee-a75c-dc4d12e43550.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/f811a6c8-858f-43c4-a1d6-e382904c16c9.png"
+ }
+ }
+}

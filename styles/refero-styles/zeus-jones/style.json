@@ -1,0 +1,285 @@
+{
+ "id": "b619e1b9-86ee-4a10-b6e6-47b10927c3a2",
+ "name": "Zeus Jones",
+ "slug": "zeus-jones",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/b619e1b9-86ee-4a10-b6e6-47b10927c3a2",
+ "referenceSite": "https://zeusjones.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:11:09.802Z",
+ "articleModifiedAt": "2026-06-05T11:45:54.499Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/de424bae-450a-4754-97a2-66a174a1becf.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e65fd0ec-2503-49c9-abf7-2ba057f84477.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/955d2455-e404-4716-a40d-661319d492a1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e7b5bc2d-30ee-4822-92e7-e4e4d3632930.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/ece19802-326d-4d89-b769-9510f1e74511.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/80787af2-b825-47ba-931b-963eed593786.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "risograph broadsheet on warm cream - a page that prints like a zine and loads like a gallery.",
+ "summary": "Explore Zeus Jones\u0027s light Agency design system: Midnight Ink #1a1c2c, Warm Parchment #fcfaf3 colors, ZJSansDisplay, FeatureDeckLight typography, and...",
+ "colors": [
+ {
+ "name": "Midnight Ink",
+ "value": "#1a1c2c",
+ "token": "--color-midnight-ink",
+ "role": "Primary text, filled pill buttons, hairline borders, dark surfaces - the only chromatic color in the system; near-black with a barely-perceptible cool navy cast that softens the contrast against warm cream without losing the gravitas of pure black"
+ },
+ {
+ "name": "Warm Parchment",
+ "value": "#fcfaf3",
+ "token": "--color-warm-parchment",
+ "role": "Page canvas and light surface base - a creamy off-white that replaces the default SaaS pure-white with paper warmth, making the page feel printed rather than rendered"
+ },
+ {
+ "name": "Soft Linen",
+ "value": "#ebe9e4",
+ "token": "--color-soft-linen",
+ "role": "Elevated card and panel surface - one step darker than the canvas, used sparingly to lift a card or a section band without introducing a new color"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "SVG icon fills and decorative monochrome marks - reserved for vector assets where true black reads cleaner than the navy-tinted Midnight Ink"
+ },
+ {
+ "name": "Blush Coral",
+ "value": "#fd9494",
+ "token": "--color-blush-coral",
+ "role": "Sporadic warm accent - emerges from the hero aurora and may surface in tag dots or decorative washes; the only warm hue that earns a place in an otherwise cool-neutral system"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "ZJSansDisplay",
+ "token": "--font-zjsansdisplay",
+ "role": "Primary typeface for body, navigation, subheadings, and the 40-48px heading range. The 12px eyebrow and tag text carries +0.05em tracking (letter-spacing: 0.6px at 12px) to read as a small caps eyebrow; everything at 16px and above sits at -0.02em (-0.32px at 16px) for tight, editorial density. This is the working sans that does 95% of the page\u0027s communicative labor."
+ },
+ {
+ "name": "FeatureDeckLight",
+ "token": "--font-featuredecklight",
+ "role": "Hero display face used at 60-90px with line-height compressed to 1.07-1.11. Weight 100 is the anti-convention signature: while every agency site uses 600-800 for display, this hairline weight makes the largest text the lightest on the page - authority through restraint, not volume. The italic cut is used for poetic emphasis words inside the headline (e.g. \u0027the world\u0027)."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "0.6px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.6",
+ "-0.32px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.5",
+ "-0.36px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.3",
+ "-0.48px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "40px",
+ "1.2",
+ "-0.8px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "48px",
+ "1.11",
+ "-0.96px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "60px",
+ "1.07",
+ "-1.2px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "90px",
+ "1.07",
+ "-1.8px",
+ "--text-display-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "40px",
+ "cardPadding": "16px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "9999px"
+ ],
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "images",
+ "20px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Filled Pill Button (Primary Action)",
+ "role": "Primary call-to-action, used sparingly - contact, next-step, conversion."
+ },
+ {
+ "name": "Outlined Pill Tag (Project Label)",
+ "role": "Labels on project cards and section eyebrows."
+ },
+ {
+ "name": "Project Card",
+ "role": "Portfolio grid item under the \u0027recent work\u0027 section."
+ },
+ {
+ "name": "Hero Display Headline",
+ "role": "Opening statement on the landing page."
+ },
+ {
+ "name": "Announcement Bar",
+ "role": "Thin strip below the hero promoting a publication or event."
+ },
+ {
+ "name": "Sticky Top Navigation",
+ "role": "Persistent brand and menu bar."
+ },
+ {
+ "name": "Section Eyebrow with Dash",
+ "role": "Small label introducing a content section, paired with a counter."
+ },
+ {
+ "name": "Section Heading (Serif Display)",
+ "role": "Headings for content sections below the hero."
+ },
+ {
+ "name": "Next/Previous Step Link",
+ "role": "Pagination between sequential content steps."
+ },
+ {
+ "name": "Underlined Emphasis Text",
+ "role": "Inline emphasis within body and headline copy."
+ },
+ {
+ "name": "Footer",
+ "role": "Site footer (inferred from context frequency)."
+ }
+ ],
+ "dos": [
+ "Use #1a1c2c (Midnight Ink) for every filled button, heading, body paragraph, and hairline border - it is the system\u0027s only working color and the only legitimate action background.",
+ "Set display headlines at 60-90px in FeatureDeckLight weight 100 with -0.02em tracking and line-height 1.07 - the hairline weight is the brand\u0027s signature, never substitute with 600+.",
+ "Use 9999px radius for every button, tag, and nav element; use 20px for every card, image, and panel - these are the only two radii in the system.",
+ "Apply 1px solid #1a1c2c underlines to emphasized words inside headlines and links - this is the editorial emphasis device, not bold or color.",
+ "Keep the body of the page in Warm Parchment #fcfaf3 and reserve Soft Linen #ebe9e4 for the occasional elevated card or section band.",
+ "Use 12px ZJSansDisplay weight 500 with +0.05em tracking (0.6px) for all eyebrows, tags, and small labels - this is the only uppercase-tracked text style.",
+ "Maintain section gaps of 40px and element gaps of 16px; the page reads in 8px increments, never break the grid with arbitrary spacing."
+ ],
+ "donts": [
+ "Never use box-shadows or drop-shadows - the system is flat by design; use 1px borders and surface tonal steps for separation instead.",
+ "Never use a bold or 600+ weight for display headlines - weight 100 at 60-90px is the signature; a bold version would erase the brand voice.",
+ "Never introduce a new accent color for buttons, links, or interactive elements - the action is always filled Midnight Ink on Warm Parchment.",
+ "Never use pure white (#ffffff) as a background - the canvas is Warm Parchment #fcfaf3; pure white would break the printed-paper quality.",
+ "Never add a gradient to UI components, buttons, or cards - the system is solid-fill only; color gradients are reserved for the single full-bleed hero image.",
+ "Never use sharp corners (0-4px radius) on cards or buttons - the system is either 20px rounded or fully pill-shaped; no in-between.",
+ "Never use decorative dividers, background patterns, or ornamental graphics below the hero - the body of the site is typographic and photographic only."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Warm Parchment | `#fcfaf3` | Page canvas and default body surface |\n| 2 | Soft Linen | `#ebe9e4` | Elevated card or panel - one tonal step up from the canvas |\n| 3 | Midnight Ink | `#1a1c2c` | Dark surface for filled buttons and inverted sections |",
+ "elevation": "The system deliberately avoids box-shadows. Hierarchy is established through type weight contrast (weight 100 display against weight 500 labels), hairline 1px borders in Midnight Ink, and surface tonal steps. A 1px solid border in #1a1c2c is the system\u0027s only structural separator - no soft drop shadows, no glow effects, no layered cards. This flatness is part of the editorial identity: the page should feel like ink on paper, not like a glass-morphism dashboard.",
+ "imagery": "The visual system is dominated by two image modes: a single full-bleed psychedelic aurora on the hero (pink, violet, yellow, and green diffused color fields - clearly a photographic or AI-generated abstract, not a gradient token), and rectangular project card thumbnails with 20px radius showing editorial photography, product renders, and campaign artwork. Below the hero, imagery is contained, never full-bleed except for the card images themselves. Icon style is minimal - line-based menu icon in Obsidian #000000, and small 8px filled dots in Blush Coral #fd9494 as bullet markers. The site carries no illustration, no 3D, no product screenshots, and no icon system beyond utility marks. Photography treatment varies per project card and is not normalized - the design system treats images as content, not as styled components.",
+ "layout": "The page model is full-bleed with generous side padding (~40px at desktop). The hero is a full-viewport display headline over a colorful aurora background - no navigation chrome competes with the statement. Below the hero, a thin 1px-bordered announcement bar spans edge-to-edge. Content sections follow a single-column or wide-grid structure with a 1200px max-width reading area; project cards appear in a 4-column horizontal row with overflow scrolling (the row is intentionally wider than the viewport, showing partial cards at the edges as a \u0027more work\u0027 affordance). Section headings are left-aligned with a 24px gap below a small eyebrow label. Spacing is generous: 40px between major sections, 16px between elements within a section. The overall rhythm is editorial - long quiet sections separated by typographic anchors, no dense information blocks, no sidebar navigation, no mega-menu."
+}

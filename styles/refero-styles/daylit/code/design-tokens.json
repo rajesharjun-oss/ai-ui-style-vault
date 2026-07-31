@@ -1,0 +1,382 @@
+{
+ "name": "Daylit",
+ "slug": "daylit",
+ "colors": [
+ {
+ "name": "Wine Ink",
+ "value": "#4d1520",
+ "token": "--color-wine-ink",
+ "role": "Primary text, primary filled button background, active states, heading color, card borders, and dominant brand stroke - the single chromatic anchor of the entire system"
+ },
+ {
+ "name": "Midnight Wine",
+ "value": "#360912",
+ "token": "--color-midnight-wine",
+ "role": "Darkest surface for footer bands and inverted panels"
+ },
+ {
+ "name": "Lemon Whisper",
+ "value": "#faffa7",
+ "token": "--color-lemon-whisper",
+ "role": "Decorative accent fill and border - used in illustration blocks, testimonial card outlines, icon highlights, and soft highlight washes"
+ },
+ {
+ "name": "Blush Rust",
+ "value": "#662f3d",
+ "token": "--color-blush-rust",
+ "role": "Softened brand fill for secondary surfaces and SVG illustration shading"
+ },
+ {
+ "name": "Citrine Pop",
+ "value": "#e6b800",
+ "token": "--color-citrine-pop",
+ "role": "Rare saturated accent for micro-detail and decorative strokes"
+ },
+ {
+ "name": "Mauve Ash",
+ "value": "#825b63",
+ "token": "--color-mauve-ash",
+ "role": "Muted body text and subtle borders when full brand ink would be too loud"
+ },
+ {
+ "name": "Parchment",
+ "value": "#fbf9f6",
+ "token": "--color-parchment",
+ "role": "Primary page canvas - the warm ivory that replaces cold white throughout"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surfaces, input fields, elevated panels - the brightest neutral layer above the parchment canvas"
+ },
+ {
+ "name": "Linen Beige",
+ "value": "#f2eee7",
+ "token": "--color-linen-beige",
+ "role": "Hairline borders, dividers, ghost button outlines, and subtle UI separators"
+ },
+ {
+ "name": "Sandstone",
+ "value": "#d3cac3",
+ "token": "--color-sandstone",
+ "role": "Muted borders and secondary divider lines on cards and links"
+ },
+ {
+ "name": "Driftwood",
+ "value": "#aaa49f",
+ "token": "--color-driftwood",
+ "role": "Lowest-contrast neutral for decorative borders and inactive link text"
+ },
+ {
+ "name": "Slate Smoke",
+ "value": "#717182",
+ "token": "--color-slate-smoke",
+ "role": "Body secondary text, icon strokes, and helper copy - the only cool-leaning neutral"
+ },
+ {
+ "name": "Charcoal Ink",
+ "value": "#101828",
+ "token": "--color-charcoal-ink",
+ "role": "Occasional dark text and info-toned badge borders when Wine Ink would be too warm"
+ },
+ {
+ "name": "Butter Cream",
+ "value": "#feffe1",
+ "token": "--color-butter-cream",
+ "role": "Ultra-soft warm fill for highlight zones and subtle surface washes"
+ },
+ {
+ "name": "Dawn Glow",
+ "value": "#e9e3d8",
+ "token": "--color-dawn-glow",
+ "role": "Warm card background tint used sparingly for warm-on-warm contrast"
+ },
+ {
+ "name": "Rose Whisper",
+ "value": "#d7a0a0",
+ "token": "--color-rose-whisper",
+ "role": "Soft card border accent for warm-toned testimonial and content cards"
+ },
+ {
+ "name": "Plum Echo",
+ "value": "#906c7b",
+ "token": "--color-plum-echo",
+ "role": "Badge and pill background for muted tag variants"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Tt Commons Pro Variable",
+ "token": "--font-tt-commons-pro-variable",
+ "role": "Primary typeface across all contexts - headings, body, nav, buttons, cards. The variable weight axis (400-600) and extreme size range (9px micro-labels to 85px display) make it the sole workhorse. Display sizes use aggressive negative tracking (-0.04em at 76-85px) for a sculptural editorial feel; body sizes stay near normal tracking. The 600 weight carries emphasis without ever feeling bold-shouty."
+ },
+ {
+ "name": "Geist Mono",
+ "token": "--font-geist-mono",
+ "role": "Monospace accent for badge labels, inline code, and small caps-style tags like \u0027+ AI AGENTS FOR ACCOUNTS RECEIVABLE\u0027. Normal letter-spacing - not tracked like the primary face."
+ },
+ {
+ "name": "Open Sans",
+ "token": "--font-open-sans",
+ "role": "Open Sans - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-0.012px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.012px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.33",
+ "-0.015px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.2",
+ "-0.02px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "44px",
+ "1.15",
+ "-0.021px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1",
+ "-0.021px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "76px",
+ "0.95",
+ "-0.04px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "76",
+ "76px",
+ "`--spacing-76`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ],
+ [
+ "92",
+ "92px",
+ "`--spacing-92`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "6px"
+ ],
+ [
+ "badges",
+ "1440px"
+ ],
+ [
+ "inputs",
+ "6px"
+ ],
+ [
+ "buttons",
+ "6px"
+ ],
+ [
+ "navLinks",
+ "6px"
+ ],
+ [
+ "largeButtons",
+ "24px"
+ ],
+ [
+ "illustrationCards",
+ "13px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Filled Button",
+ "role": "Main call-to-action - used for \u0027Book a Demo\u0027 and all conversion actions"
+ },
+ {
+ "name": "Ghost / Text Button",
+ "role": "Secondary action - \u0027Meet our AI agents\u0027, \u0027Learn more\u0027 links"
+ },
+ {
+ "name": "Navigation Link",
+ "role": "Top nav menu items - Product, Capital, Industries, Resources, About"
+ },
+ {
+ "name": "Announcement Banner",
+ "role": "Top-of-page news strip"
+ },
+ {
+ "name": "Hero Headline",
+ "role": "Section-defining display text - \u0027Get paid on time. Every time.\u0027"
+ },
+ {
+ "name": "Testimonial Card",
+ "role": "Customer quote card in the social proof section"
+ },
+ {
+ "name": "Logo Bar Card",
+ "role": "Trusted-by logo row in a single horizontal band"
+ },
+ {
+ "name": "Pill Badge / Tag",
+ "role": "Category labels - \u0027+ AI AGENTS FOR ACCOUNTS RECEIVABLE\u0027"
+ },
+ {
+ "name": "Illustration Panel",
+ "role": "Hero visual and decorative graphic blocks"
+ },
+ {
+ "name": "Card Surface",
+ "role": "Generic content card base"
+ },
+ {
+ "name": "Body Text Block",
+ "role": "Paragraph and helper copy"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Sticky or static header with brand and primary nav"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #4d1520 as the default text color and primary button fill - it is the system\u0027s single chromatic anchor and should appear in every screen",
+ "Set page canvas to #fbf9f6 parchment, not pure white - the warm ivory is what makes the burgundy sing",
+ "Use 6px radius for all cards, buttons, and inputs as the default; reserve 1440px for pill badges only",
+ "Use Tt Commons Pro at weight 400 for display headings 44px and above - the whisper-weight at large size is a signature",
+ "Apply the wine-tinted shadow rgba(77,21,32,0.16) 19px 32px 73px only on hero-scale elevated cards, never on small UI elements",
+ "Use #faffa7 lemon as a decorative accent fill in illustration blocks and badge backgrounds - never as a text color on dark surfaces",
+ "Center content within a 1200px max-width column with 24-40px horizontal padding for comfortable reading rhythm"
+ ],
+ "doNot": [
+ "Do not introduce cold grays (#e5e7eb, #f3f4f6, #6b7280) - the entire system is warm-toned and cool neutrals will clash",
+ "Do not use 8px or 12px border-radius on cards or buttons - the 6px radius is part of the system\u0027s distinctive geometry",
+ "Do not set body or heading text to weight 600 or 700 - the system maxes out at 600 for emphasis and prefers 400-500",
+ "Do not use pure black (#000000) for text - use #4d1520 wine ink instead, even for body copy",
+ "Do not add drop shadows to buttons, nav items, or small interactive elements - shadows are reserved for hero-scale elevation",
+ "Do not use blue, green, or standard semantic colors for status - the system communicates state through opacity, position, and the single brand hue",
+ "Do not center-align body paragraphs longer than two lines - left-align for readability; center only for headlines and short CTAs"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/5076959f-f849-4b50-8f8a-2040d4756f98",
+ "referenceSite": "https://www.daylit.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-05-10T22:04:14.397Z",
+ "articleModifiedAt": "2026-06-05T11:22:24.686Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7f41c9d6-f082-4178-8025-69aee326e808.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/61052f45-5e75-4877-a576-bd97af9ca179.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/80f4a537-0860-4935-8c04-a7f86090fafb.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/07627e1d-5fe2-4c76-99e5-786dc586a0fb.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/38e18a69-e770-4229-9f64-fd8481a871ad.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b2c2d69f-6709-43eb-adce-97297297623c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/5d0f3745-ffce-4d3c-9cdf-18549223cfa6.png"
+ }
+ }
+}

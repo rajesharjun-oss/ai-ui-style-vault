@@ -1,0 +1,286 @@
+{
+ "id": "5d79f0c2-526e-4c37-b780-08404f60839b",
+ "name": "Art In DUMBO",
+ "slug": "art-in-dumbo",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/5d79f0c2-526e-4c37-b780-08404f60839b",
+ "referenceSite": "https://artindumbo.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:44:59.120Z",
+ "articleModifiedAt": "2026-06-05T11:17:35.754Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b1298680-48f7-4ea3-90be-93f1fa162680.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e394f024-f0e9-4998-9736-144f1fe069f8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/007fcbc7-b7b8-48cd-9d01-40bc959dec23.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/5dd54d90-bab9-4a25-a7d1-40950b75de31.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8e276438-6656-49fa-8b08-5909daa63395.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b5f9fd7e-03e7-4dd6-8dca-9e95ae607029.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "gallery broadside on raw paper",
+ "summary": "Explore Art In DUMBO\u0027s light Agency design system: Carbon #000000, Paper #ffffff colors, Helvetica Neue, Roboto typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "Primary text, logo cells, hairline dividers between list rows, icon strokes - the only ink in the system"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page canvas, card surfaces, pill-button fills, inverse text on dark cells"
+ },
+ {
+ "name": "Plaster",
+ "value": "#f1f2f2",
+ "token": "--color-plaster",
+ "role": "Input fields, secondary surfaces, subtle button hovers"
+ },
+ {
+ "name": "Linen",
+ "value": "#e5e3df",
+ "token": "--color-linen",
+ "role": "Warm off-white section backgrounds, large quiet surfaces that break the white without going gray"
+ },
+ {
+ "name": "Ash",
+ "value": "#bdbdbd",
+ "token": "--color-ash",
+ "role": "Medium-contrast borders, control outlines, and structural separators"
+ },
+ {
+ "name": "Graphite",
+ "value": "#828282",
+ "token": "--color-graphite",
+ "role": "Button borders and label text for secondary controls"
+ },
+ {
+ "name": "Smoke",
+ "value": "#b3b3b3",
+ "token": "--color-smoke",
+ "role": "Shadow base tone for the single ambient drop-shadow pattern"
+ },
+ {
+ "name": "Sage",
+ "value": "#71cc98",
+ "token": "--color-sage",
+ "role": "Green action color for filled buttons, selected navigation states, and focused conversion moments"
+ },
+ {
+ "name": "Ember",
+ "value": "#ff7f41",
+ "token": "--color-ember",
+ "role": "Orange outline accent for tags, dividers, and focused UI edges. Use as a supporting accent, not as a status color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Helvetica Neue",
+ "token": "--font-helvetica-neue",
+ "role": "Sole typeface across the entire system - display, body, nav, labels. Weight 500 is the only weight used; this medium-only commitment is the signature: not bold, not regular, never thin. Sizes run from 10px captions to 68px display with tight 1.05-1.15 line-heights at the top of the scale and 1.40-1.80 at body sizes."
+ },
+ {
+ "name": "Roboto",
+ "token": "--font-roboto",
+ "role": "Secondary system fallback for micro-labels and small UI chrome where a different metric helps"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.27",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "27px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "34px",
+ "1.15",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "44px",
+ "1.1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "63px",
+ "1.05",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80-120px",
+ "cardPadding": "16-24px",
+ "elementGap": "12-20px",
+ "scale": [
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "0-4px"
+ ],
+ [
+ "inputs",
+ "2px"
+ ],
+ [
+ "logo-cells",
+ "0px"
+ ],
+ [
+ "buttons-pill",
+ "50px"
+ ],
+ [
+ "buttons-secondary",
+ "2px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Logo Wordmark Block",
+ "role": "Brand mark in the top-left of every screen"
+ },
+ {
+ "name": "Sticky Header Bar",
+ "role": "Persistent navigation across all pages"
+ },
+ {
+ "name": "Full-Bleed Hero Photograph",
+ "role": "Above-the-fold visual anchor on the landing page"
+ },
+ {
+ "name": "Display Heading",
+ "role": "Section openers and welcome statements"
+ },
+ {
+ "name": "Body Paragraph",
+ "role": "Welcome copy, event descriptions, editorial text"
+ },
+ {
+ "name": "Email Input Field",
+ "role": "Newsletter capture on the welcome block"
+ },
+ {
+ "name": "Ghost Text Button (Subscribe)",
+ "role": "Secondary action paired with form fields"
+ },
+ {
+ "name": "Sage Pill Button (Map \u0026 Directory)",
+ "role": "Primary floating CTA, sticky bottom-right"
+ },
+ {
+ "name": "Exhibition List Row",
+ "role": "Primary content unit on the Exhibitions page"
+ },
+ {
+ "name": "Urgency Tag (Closing Soon)",
+ "role": "Status indicator for time-sensitive items"
+ },
+ {
+ "name": "Status Meta (Open hours)",
+ "role": "Secondary metadata in list rows"
+ },
+ {
+ "name": "Sticky Floating Action",
+ "role": "Persistent wayfinding CTA"
+ }
+ ],
+ "dos": [
+ "Use #000000 for all structural lines, icons, and primary text - it is the only ink the system has",
+ "Reserve #71cc98 Sage exclusively for the Map \u0026 Directory pill, heading underline marks, and accent dots",
+ "Set border-radius to 50px on pill buttons and 2px on inputs - never blur the two",
+ "Set type to Helvetica Neue 500 at the scale sizes; do not introduce additional weights",
+ "Separate exhibition list rows with 1px solid #000000 hairlines, never with card backgrounds or zebra striping",
+ "Let hero photography run full-bleed with no overlay text other than the wordmark",
+ "Use #ff7f41 Ember only for urgency status text such as \u0027Closing Soon\u0027 - never as a fill"
+ ],
+ "donts": [
+ "Do not add colored panels, gradient fills, or decorative cards behind text",
+ "Do not introduce new typefaces or weight values beyond Helvetica 500 and the Roboto micro-label fallback",
+ "Do not use shadows to separate sections - use 1px black hairlines or a shift to #e5e3df Linen",
+ "Do not round the hero photograph or exhibition thumbnails beyond 4px",
+ "Do not stack more than two type sizes in a single row of the exhibitions list",
+ "Do not place sage green text on the sage pill background - it must remain #000000",
+ "Do not center body paragraphs or exhibition row content; left-align everything"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper | `#ffffff` | Default page canvas, card surfaces, header background |\n| 1 | Linen | `#e5e3df` | Warm off-white section bands that break white without going gray |\n| 2 | Plaster | `#f1f2f2` | Input wells and hover surfaces for interactive elements |",
+ "elevation": "- **Sage Pill Button:** `rgba(0, 0, 0, 0.25) 0px 0px 10px 0px`\n- **Secondary buttons \u0026 small chrome:** `rgba(0, 0, 0, 0.3) 0px 1px 4px -1px`",
+ "imagery": "Full-bleed documentary photography is the primary visual content: candid shots of artists in their studios, natural light, no lifestyle staging, no color treatment. Images run edge-to-edge with no rounded corners and no overlay text. Thumbnail crops in the exhibitions list are square, tight, and unadorned. There are no illustrations, no icons beyond a small status dot, and no 3D or abstract graphics - the photography carries all atmosphere.",
+ "layout": "Editorial broadsheet rhythm. Landing page opens with a full-bleed hero photograph, then a tight vertical stack of display heading body paragraph email capture, all left-aligned and nearly full-width. The Exhibitions page swaps photography for a text-and-thumbnail table: each row is a four-column horizontal band separated by 1px black hairlines, reading like a printed program. No card grids, no asymmetric compositions, no overlap. Navigation is a single sticky text-only bar. The sage Map \u0026 Directory pill is the only fixed-position element, anchored bottom-right."
+}

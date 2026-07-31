@@ -1,0 +1,241 @@
+{
+ "name": "Aplos",
+ "slug": "aplos",
+ "colors": [
+ {
+ "name": "Bone",
+ "value": "#f2f1ed",
+ "token": "--color-bone",
+ "role": "Page background, large section canvases - the warm off-white that gives the system its paper-like editorial feel"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Card surfaces, elevated panels, light benefit cards - sits one step above Bone to create lift without shadows"
+ },
+ {
+ "name": "Cocoa",
+ "value": "#3b3429",
+ "token": "--color-cocoa",
+ "role": "Dark accent cards, inverted text blocks - warm near-black that softens pure ink and keeps dark sections feeling organic rather than digital"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary text, nav links, logo wordmark, hairline borders, hero backdrop"
+ },
+ {
+ "name": "Stone",
+ "value": "#646464",
+ "token": "--color-stone",
+ "role": "Secondary body copy, muted helper text, subdued descriptions"
+ },
+ {
+ "name": "Ash",
+ "value": "#b4aeac",
+ "token": "--color-ash",
+ "role": "Subtle link hover shadows, barely-there elevation hints"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Goudy Old Style",
+ "token": "--font-goudy-old-style",
+ "role": "Sole typeface for headlines, section titles, product names, card titles, and editorial body - a classical Venetian serif that signals craft and heritage. The narrow weight range (400 only) and tight line-heights (1.05-1.08) let the type sit in dense, menu-like stacks. Letter-spacing of -0.012em tightens optical gaps in display sizes without losing the serif\u0027s elegance."
+ },
+ {
+ "name": "System Sans (UI chrome)",
+ "token": "--font-system-sans-ui-chrome",
+ "role": "Inferred secondary face for navigation, buttons, captions, and dense utility text where serif would be illegible at small sizes. Kept restrained so the serif remains dominant."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.3",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.08",
+ "-0.31px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.05",
+ "-0.48px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "56px",
+ "1.05",
+ "-0.67px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "96-120px",
+ "cardPadding": "24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "5px"
+ ],
+ [
+ "cards",
+ "5px"
+ ],
+ [
+ "inputs",
+ "5px"
+ ],
+ [
+ "buttons",
+ "5px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Announcement Bar",
+ "role": "Top utility strip"
+ },
+ {
+ "name": "Primary Navigation",
+ "role": "Site header with logo + nav links"
+ },
+ {
+ "name": "Dark Hero Section",
+ "role": "Full-bleed editorial hero"
+ },
+ {
+ "name": "Outlined CTA Button (Light)",
+ "role": "Primary action on dark hero"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Secondary action (Learn More, Shop Now)"
+ },
+ {
+ "name": "Benefits Section Heading",
+ "role": "Editorial section title"
+ },
+ {
+ "name": "Benefit Card (Light)",
+ "role": "Standard feature card"
+ },
+ {
+ "name": "Benefit Card (Dark / Cocoa)",
+ "role": "High-contrast accent card"
+ },
+ {
+ "name": "Product Collection Card",
+ "role": "Featured product showcase"
+ },
+ {
+ "name": "Section Divider Spacer",
+ "role": "Vertical rhythm control"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set all section backgrounds to Bone (#f2f1ed); reserve pure white only for card surfaces that need lift.",
+ "Use Goudy Old Style at 26px and 40px with letter-spacing -0.012em for every heading and product name - the serif IS the brand.",
+ "Anchor all CTAs to 5px radius with 9px 12px padding; never round buttons to pill or full-circle.",
+ "Place 96-120px of vertical whitespace between major sections to maintain the printed-menu cadence.",
+ "Use Cocoa (#3b3429) for inverted accent cards to add tonal variety - never introduce chromatic color where grayscale shift can do the work.",
+ "Keep hero photography full-bleed on Ink (#000000) with white serif headlines; the contrast does the dramatization.",
+ "Set secondary body copy in Stone (#646464) at 14-16px sans-serif, never in the serif at small sizes."
+ ],
+ "doNot": [
+ "Don\u0027t introduce any chromatic color (blue, green, red, etc.) - the system is deliberately 0% colorful and any hue will break the apothecary language.",
+ "Don\u0027t use large border-radius (12px+) or pill shapes - the 5px radius is non-negotiable and keeps the system feeling editorial, not app-like.",
+ "Don\u0027t use bold weights (600+) for headings - Goudy Old Style 400 only; the whisper-weight serif is the signature.",
+ "Don\u0027t add drop shadows, glows, or gradient overlays - elevation comes from tonal contrast between Bone, Paper, and Cocoa, not from blur effects.",
+ "Don\u0027t use a sans-serif for product names or section titles - those are exclusively Goudy Old Style domain.",
+ "Don\u0027t crowd sections with dense grids - the rhythm depends on 96-120px breathing room between blocks.",
+ "Don\u0027t place dark text directly on Cocoa (#3b3429) without testing contrast - use white (#ffffff) text on Cocoa surfaces."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/765e6ba8-af87-4519-afb7-774ceedc463d",
+ "referenceSite": "https://aplos.world",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:49:17.869Z",
+ "articleModifiedAt": "2026-06-05T07:42:28.731Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8ee2bf02-0a4a-4e1a-8490-91b59a37a8cc.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/8b996e2c-aee2-4d50-a99a-446004d34c83.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/d1e2f755-6aa2-4e88-9e2f-7085f4850793.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4f0064f0-2f20-40d2-be72-897b45c694a5.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/441ec3d8-4207-481e-9bae-4b03288d2e99.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/eb121d99-089b-4ca2-a946-f73b2f1bf5db.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/6e0c3346-4783-4a4b-ba48-34d754f8b55f.png"
+ }
+ }
+}

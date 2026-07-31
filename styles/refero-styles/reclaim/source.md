@@ -1,0 +1,40 @@
+# Source Metadata
+
+## Links
+
+- Refero style URL: https://styles.refero.design/style/71c7b9ad-44cc-483f-9c53-3cf73e0522a4
+- Reference site: https://reclaim.ai
+- Refero title: Reclaim design system | Refero Styles
+
+## Capture
+
+- Captured by Codex: 2026-07-31
+- Discovery mode: public Refero styles sitemap
+- Duplicate status: new at capture time
+- Vault slug: reclaim
+- Theme: light
+- Category: Productivity
+- Refero published timestamp: 2026-01-31T14:54:30.000Z
+- Refero article modified timestamp: 2026-06-05T08:48:54.119Z
+
+## Reference Media
+
+- Primary schema screenshot: https://images.refero.design/styles/refero.design/image/86fca257-ffbb-4acc-87ac-07bda199ccef.jpg
+- Thumbnail: https://images.refero.design/styles/refero.design/image/c3de6213-c073-4a0f-9f28-5029cc52f265.jpg
+- Social/inline preview image: https://images.refero.design/styles/refero.design/image/fff48863-d76e-4d98-a227-be67bb476d1a.jpg
+- Inline preview video: https://images.refero.design/styles/refero.design/video/04fbe10c-3a2b-4f06-8bba-dc442034a7a8.mp4
+- Detail preview poster: https://images.refero.design/styles/refero.design/image/15ee006f-9a4c-4c53-8d4a-e68099d3b71f.jpg
+- Detail preview video: https://images.refero.design/styles/refero.design/video/74cc9083-8744-4cc3-8c9b-63cfa233a3a3.mp4
+- Icon: https://images.refero.design/styles/refero.design/image/65ee3b36-4191-4f01-9ff2-23a06979143e.png
+
+## Source Signals
+
+- North star: lavender productivity workshop with violet ink
+- Primary colors: Lavender Canvas, White Surface, Midnight Ink, Pure Black, Graphite, Slate, Charcoal, Stone
+- Primary fonts: Poppins, Inter
+- Base spacing: 
+- Density: comfortable
+
+## Notes
+
+This bundle is a source-derived implementation reference for AI-assisted UI building. It captures design tokens, component behavior, remote media references, and usage guidance needed to recreate the style without mirroring the full Refero page verbatim.

@@ -1,0 +1,191 @@
+{
+ "name": "Studio Thomas",
+ "slug": "studio-thomas",
+ "colors": [
+ {
+ "name": "Signal Orange",
+ "value": "#ff4f00",
+ "token": "--color-signal-orange",
+ "role": "Hero blocks, brand statement panels, full-bleed feature sections - the single chromatic commitment, used in large committed areas rather than small accents"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, logo, hairline borders, dark UI elements, and display type on light surfaces"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Display headings overlaid on photography and colored panels, input fields, light surface level, inverse text on dark hero blocks"
+ },
+ {
+ "name": "Raw Linen",
+ "value": "#ebe9e3",
+ "token": "--color-raw-linen",
+ "role": "Page canvas, footer background, secondary surface - warm off-white that softens the contrast between stark white and pure black"
+ },
+ {
+ "name": "Faint Stone",
+ "value": "#767676",
+ "token": "--color-faint-stone",
+ "role": "Input field borders, low-emphasis form chrome - the only mid-tone in the system"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Moderat",
+ "token": "--font-moderat",
+ "role": "Sole typeface - geometric sans-serif used at weight 300 for display and project names (120px) and weight 400 for body copy (16px). The light weight at display scale is a deliberate anti-shout: headlines whisper authority rather than declaring it, letting the orange blocks and editorial photography carry visual volume instead."
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "16px",
+ "1.6",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "33px",
+ "1.2",
+ "-0.004px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.13",
+ "-0.004px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "120px",
+ "1",
+ "-0.004px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "",
+ "sectionGap": "100px",
+ "cardPadding": "40px",
+ "elementGap": "20-30px",
+ "scale": [
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Signal Orange Hero Block",
+ "role": "Full-bleed brand statement panel"
+ },
+ {
+ "name": "Project Showcase Panel",
+ "role": "Full-bleed editorial project card"
+ },
+ {
+ "name": "Wordmark Header",
+ "role": "Minimal site identity"
+ },
+ {
+ "name": "Linen Footer",
+ "role": "Closing section"
+ },
+ {
+ "name": "Hairline-Bordered Link",
+ "role": "Text link with border treatment"
+ },
+ {
+ "name": "Text Input Field",
+ "role": "Form input"
+ },
+ {
+ "name": "Category Caption",
+ "role": "Project descriptor label"
+ },
+ {
+ "name": "View Project Link",
+ "role": "Project CTA - text-only"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Signal Orange (#ff4f00) only in full, committed blocks - hero panels, section dividers, or accent rectangles. Never as a small dot, icon tint, or text color.",
+ "Set display type at 120px weight 300 with line-height 1.0 and letter-spacing -0.004em. This is the signature scale - anything smaller undermines the editorial register.",
+ "Use Raw Linen (#ebe9e3) as the page canvas, not pure white. The warm off-white is what separates this system from generic white-page SaaS layouts.",
+ "Keep the header to a wordmark plus hamburger. Do not add nav links, search bars, or secondary actions to the top bar.",
+ "Use weight 300 for all large-scale and display type. Reserve weight 400 for body copy (16px) and functional UI text.",
+ "Let photography fill the entire viewport edge-to-edge for project showcases. Do not constrain to a max-width container or add margins.",
+ "Space sections with 100px vertical gaps (footer token) and use 40px padding for contained content blocks."
+ ],
+ "doNot": [
+ "Do not introduce a secondary accent color. The system is monochromatic-plus-orange - adding blue, green, or any other hue dilutes the commitment.",
+ "Do not use border-radius on any element. The system is edgeless - buttons, cards, inputs, and tags are all sharp-cornered (0px radius).",
+ "Do not use bold or black weights (600-900). Moderat is loaded at 300 and 400 only; using heavier weights breaks the restrained voice.",
+ "Do not add drop shadows, glows, or elevation effects. Surfaces are flat - separation comes from color blocks and full-bleed edges, not depth.",
+ "Do not create a filled CTA button. The system has no ACTION_BACKGROUND evidence - interactions are text links and border-bordered text, not filled buttons.",
+ "Do not wrap project photography in cards with borders, backgrounds, or padding. The image IS the container.",
+ "Do not use gradients. The system is entirely flat color - no detected gradient usage anywhere."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/f2b24dce-5b1f-47c2-8ef6-bbbd08b68826",
+ "referenceSite": "https://studiothomas.co.uk",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:34:34.600Z",
+ "articleModifiedAt": "2026-06-05T11:53:33.648Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c3b0be41-f885-4219-91f3-68a83fce2f49.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e65fd0ec-2503-49c9-abf7-2ba057f84477.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f1bafa74-9399-4be1-8641-ba898918c2a2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/74973fd0-f792-433b-9506-9833ec87ebb3.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/2e4731e8-e645-4751-9848-10a14baa5de2.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c19f3979-3537-400d-a59a-a30bc4a9438e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

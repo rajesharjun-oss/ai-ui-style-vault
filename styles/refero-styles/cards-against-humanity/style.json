@@ -1,0 +1,328 @@
+{
+ "id": "51b5d80e-d898-4d70-bd16-9e50406e014c",
+ "name": "Cards Against Humanity",
+ "slug": "cards-against-humanity",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/51b5d80e-d898-4d70-bd16-9e50406e014c",
+ "referenceSite": "https://www.cardsagainsthumanity.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:34:26.528Z",
+ "articleModifiedAt": "2026-06-05T09:24:15.072Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8ca89cf1-bf81-4812-b410-131d23e91790.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/42d57fea-7024-487d-a123-ae351a880bca.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/9fe99379-f843-4693-8d95-a813c24cd8cb.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/17df7d36-cfd5-4610-99dd-11c794d56c69.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/6827b45e-5628-4f2b-9e19-f22e73a6c47c.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0ef20175-78e9-406d-908b-8c8e12e01993.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/a5a61b1c-20ff-4503-8614-214ad5d560bd.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Media",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Media",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Scattered playing cards on a velvet game table - the design language is the game itself, not a wrapper around it.",
+ "summary": "Explore Cards Against Humanity\u0027s dark Media design system: Game Night Black #000000, Card White #ffffff colors, Helvetica Neue LT, Helvetica Neue...",
+ "colors": [
+ {
+ "name": "Game Night Black",
+ "value": "#000000",
+ "token": "--color-game-night-black",
+ "role": "Page background, card shadows, button borders, heading text on light surfaces"
+ },
+ {
+ "name": "Card White",
+ "value": "#ffffff",
+ "token": "--color-card-white",
+ "role": "Card surfaces, body text on dark, button borders, input fills"
+ },
+ {
+ "name": "Signal Red",
+ "value": "#fe2f2f",
+ "token": "--color-signal-red",
+ "role": "Primary accent border on cards and badges - the brand\u0027s loudest punctuation, used as outline not fill"
+ },
+ {
+ "name": "Royal Violet",
+ "value": "#7333f1",
+ "token": "--color-royal-violet",
+ "role": "Primary accent border on cards and badges - deep saturated purple carrying the brand\u0027s irreverent energy"
+ },
+ {
+ "name": "Antique Gold",
+ "value": "#d7b73b",
+ "token": "--color-antique-gold",
+ "role": "Primary accent border on cards and badges - warm yellow-gold that rounds out the three-color system"
+ },
+ {
+ "name": "Lemon Card",
+ "value": "#fffe5b",
+ "token": "--color-lemon-card",
+ "role": "Card face fill for highlighted playing cards in the scattered background"
+ },
+ {
+ "name": "Lavender Card",
+ "value": "#ede5ff",
+ "token": "--color-lavender-card",
+ "role": "Card face fill for pastel playing cards, soft purple surface"
+ },
+ {
+ "name": "Cobalt Card",
+ "value": "#1b5bff",
+ "token": "--color-cobalt-card",
+ "role": "Card face fill for blue playing cards, saturated blue accent surface"
+ },
+ {
+ "name": "Sky Card",
+ "value": "#a0e9ff",
+ "token": "--color-sky-card",
+ "role": "Card face fill for light blue playing cards"
+ },
+ {
+ "name": "Bubblegum Card",
+ "value": "#ffa0f0",
+ "token": "--color-bubblegum-card",
+ "role": "Card face fill for pink playing cards"
+ },
+ {
+ "name": "Mint Card",
+ "value": "#b4ff91",
+ "token": "--color-mint-card",
+ "role": "Card face fill for green playing cards"
+ },
+ {
+ "name": "Tangerine Card",
+ "value": "#ff9559",
+ "token": "--color-tangerine-card",
+ "role": "Card face fill for orange playing cards"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Helvetica Neue LT",
+ "token": "--font-helvetica-neue-lt",
+ "role": "The site\u0027s sole typeface. Weight 800 dominates everything from body up through 80px display - this anti-hierarchy choice makes the brand feel like it\u0027s shouting a punchline rather than presenting information. Tight leading at display sizes (0.98-1.07) creates an impactful block, generous leading on body (2.0-2.86) lets the heavy weight breathe. No letter-spacing tricks; the geometry of Helvetica at 800 weight does all the work."
+ },
+ {
+ "name": "Helvetica Neue",
+ "token": "--font-helvetica-neue",
+ "role": "Helvetica Neue - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "2.1",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "2.38",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.29",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.25",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "28px",
+ "1.3",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.07",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display-sm",
+ "55px",
+ "1.05",
+ "-",
+ "--text-display-sm"
+ ],
+ [
+ "display",
+ "65px",
+ "1",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "80px",
+ "0.98",
+ "-",
+ "--text-display-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "50px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "13px"
+ ],
+ [
+ "badges",
+ "38px"
+ ],
+ [
+ "inputs",
+ "38px"
+ ],
+ [
+ "buttons",
+ "38px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Playing Card (Core Content Unit)",
+ "role": "The fundamental content container - white rectangle with black text, used for both product cards and content blocks"
+ },
+ {
+ "name": "Outlined Pill Button (Primary)",
+ "role": "Main action button on dark backgrounds"
+ },
+ {
+ "name": "Outlined Pill Button (On Light)",
+ "role": "Action button on white card surfaces"
+ },
+ {
+ "name": "Bordered Accent Card",
+ "role": "Featured card with chromatic border for emphasis"
+ },
+ {
+ "name": "Pastel Card",
+ "role": "Colored playing card surface used in the scattered background composition"
+ },
+ {
+ "name": "Cookie/Modal Dialog",
+ "role": "Overlay consent interface"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site header with brand and nav links"
+ },
+ {
+ "name": "Section Display Heading",
+ "role": "Hero-level typography for section openers like \"Buy the game.\""
+ },
+ {
+ "name": "Checkbox Control",
+ "role": "Form input within the cookie settings dialog"
+ },
+ {
+ "name": "Badge / Tag",
+ "role": "Small accent labels, potentially for product variants or tags"
+ }
+ ],
+ "dos": [
+ "Use weight 800 for all headings and display text - the heavy Helvetica is the brand\u0027s voice",
+ "Apply the 2px inset shadow as border treatment on all interactive elements instead of stroke or drop-shadow",
+ "Use pill shapes (38-64px radius) for all buttons and badges",
+ "Compose backgrounds with scattered white cards at varied rotations to reinforce the game-table atmosphere",
+ "Restrict chromatic color to the three brand accents (Signal Red, Royal Violet, Antique Gold) used as borders only, not fills",
+ "Set display text line-height to 0.98-1.07 at 55px+ sizes for tight, impactful stacking",
+ "Invert color polarity (black on white / white on black) at section boundaries rather than introducing new colors"
+ ],
+ "donts": [
+ "Don\u0027t use weight 400 for anything above 16px - the site\u0027s voice is uniformly heavy",
+ "Don\u0027t apply drop shadows for elevation - the 2px inset border system is the only depth treatment",
+ "Don\u0027t fill large areas with chromatic color - accent colors are outlines, not backgrounds",
+ "Don\u0027t use border-radius below 13px on cards or below 32px on buttons - the geometry must read as physical cards",
+ "Don\u0027t add gradient fills - the palette is strictly flat, the only complexity comes from scattered card composition",
+ "Don\u0027t use letter-spacing tricks - the raw Helvetica geometry at weight 800 is the entire typographic system",
+ "Don\u0027t introduce blues, greens, or pinks as UI chrome - those colors exist only as card face fills in decorative scatter"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Table Felt | `#000000` | Primary page background, the dark surface cards are dealt onto |\n| 1 | Card Face | `#ffffff` | Playing card surfaces and content blocks that read as physical cards |\n| 2 | Pastel Card | `#ede5ff` | Soft accent card surfaces for featured or decorative playing cards |",
+ "elevation": "- **Outlined Pill Button:** `rgb(0, 0, 0) 0px 0px 0px 2px inset`\n- **Outlined Pill Button (on light surface):** `rgb(255, 255, 255) 0px 0px 0px 2px inset`",
+ "imagery": "The site is dominated by playing card imagery - white rectangular cards with black sans-serif text, some bordered in the three brand accent colors (red, violet, gold), others filled in pastel card colors (lemon, lavender, mint, sky, etc.). Cards are arranged in scattered, overlapping compositions at various rotation angles against the black canvas, creating a sense of a game mid-play. Card content includes both product cards (the actual game) and quote/headline cards that function as typographic display elements. The card IS the imagery - there are no photographs, no illustrations, no abstract graphics. Everything visual is either a card, a card border, or negative space between cards. Iconography is minimal or absent from the visible chrome.",
+ "layout": "Full-bleed sections that alternate between black (#000000) and white (#ffffff) backgrounds, creating stark contrast boundaries. Hero section opens on black with massive display text (55-80px) and scattered card background elements. Content sections switch to white backgrounds with black text for readability, then return to black for CTA sections like \"Buy the game.\" Content is max-width contained (~1200px) and centered within each section. Navigation is a minimal top bar with brand left, links right. The scattered card pattern fills negative space in hero and transition areas, creating visual texture without competing with foreground copy. Section gaps are generous (~50px) but the large display type sizes keep vertical density high."
+}

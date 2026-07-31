@@ -1,0 +1,173 @@
+{
+ "name": "Metalab",
+ "slug": "metalab",
+ "colors": [
+ {
+ "name": "Void",
+ "value": "#000000",
+ "token": "--color-void",
+ "role": "Page canvas, primary surface, heading text on light zones - the dominant black that absorbs all surrounding elements"
+ },
+ {
+ "name": "Bone",
+ "value": "#ffffff",
+ "token": "--color-bone",
+ "role": "Inverse text on dark surfaces, hairline borders on dark zones, contrast punctuation against the black canvas"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#252525",
+ "token": "--color-charcoal",
+ "role": "Supporting neutral for secondary UI, dividers, and muted labels. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Basis Grotesque Pro",
+ "token": "--font-basis-grotesque-pro",
+ "role": "All functional copy: body text, metadata annotations, labels, nav, buttons, lists. The 350 weight (light) handles editorial captioning at 12px - the small annotations like \u0027EST 2006\u0027, \u0027BC, CA\u0027, \u002712:32 EDT\u0027 - while 400 handles body and interactive text at 16px. Slight -0.01em tracking tightens the grotesque into a precise, measured voice. This font does the quiet work; the serif does the talking."
+ },
+ {
+ "name": "PP Eiko",
+ "token": "--font-pp-eiko",
+ "role": "Display headings only - the 88px ultra-light serif is the signature element. Weight 240 (near-hairline) is a dramatic anti-convention choice: most agencies use 400-500 serifs for authority; Metalab\u0027s whisper-weight communicates confidence through restraint, not volume. Tight 0.80 line-height and -0.02em tracking let letters nearly touch, creating a sculptural block of text."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.4",
+ "-0.12px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "display",
+ "88px",
+ "0.8",
+ "-1.76px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "96px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "50px"
+ ],
+ [
+ "pills",
+ "1000px"
+ ],
+ [
+ "buttons",
+ "50px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Dark Elevated Panel",
+ "role": "Hero or feature surface - the single depth element in the system"
+ },
+ {
+ "name": "Pill Toggle",
+ "role": "Interactive state indicator or count badge"
+ },
+ {
+ "name": "Metadata Annotation",
+ "role": "Editorial marginalia - dates, locations, timestamps"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Primary heading - sets the editorial tone"
+ },
+ {
+ "name": "Ghost Button",
+ "role": "Subtle interactive element on dark surfaces"
+ },
+ {
+ "name": "Nav Link",
+ "role": "Top-level navigation - minimal, text-only"
+ },
+ {
+ "name": "Body Copy",
+ "role": "Descriptive and supporting text"
+ },
+ {
+ "name": "List Item",
+ "role": "Structured content listing"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use PP Eiko at 88px weight 240 exclusively for the largest display moments - never at body sizes where the hairline weight becomes illegible",
+ "Set all display headlines to line-height 0.80 and letter-spacing -0.02em to achieve the sculptural, near-touching letterforms",
+ "Use Basis Grotesque Pro weight 350 at 12px for all metadata annotations (dates, locations, timestamps) - this is the system\u0027s editorial signature",
+ "Build depth through a single #252525 surface layer over the #000000 canvas - do not introduce additional grays or shadows",
+ "Apply border-radius 50px to all buttons and elevated panels for the soft, tablet-like silhouette that defines the system",
+ "Anchor all dark pages on the #000000 canvas with #ffffff typography - never invert to a white page background within a dark-theme design",
+ "Use line-height 1.76-2.00 for body copy to match the editorial spaciousness of the display type"
+ ],
+ "doNot": [
+ "Do not introduce any chromatic color - no blues, reds, greens, or brand accents. The system is achromatic by conviction",
+ "Do not use PP Eiko at sizes below 40px - the weight 240 becomes too thin to render reliably at small sizes",
+ "Do not add drop shadows to any element - depth in this system comes from surface value contrast (#000000 #252525), not elevation effects",
+ "Do not use weight 600+ for any text - the entire system operates in the 240-400 range; heavier weights break the whisper-quiet tone",
+ "Do not add gradients, glows, or any color effects - the flat achromatic palette is the brand identity",
+ "Do not use system serif defaults (Times, Georgia) as substitutes for PP Eiko without matching the ultra-light weight - a regular-weight serif will read as conservative, not editorial",
+ "Do not fill buttons with #ffffff on the dark canvas - it would create the only bright shape on the page and dominate the hierarchy. Use #252525 or transparent"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/da087e69-8832-418a-aa1b-42e1acabb39e",
+ "referenceSite": "https://metalab.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-03-01T09:00:16.000Z",
+ "articleModifiedAt": "2026-06-05T09:11:09.014Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ba4d17b1-941e-4ce6-8dcd-090062cd5370.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a3e6f8ed-4ae7-4cd5-ba74-fd92f33227ad.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/34bf7039-25a1-471f-9820-57667d9ff6c1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/64e8c267-9f2a-4814-8be3-4f8d1cb98c91.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8a787f53-5e65-4805-97ef-ef094c07610b.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b47cb87d-d425-4dc1-a026-9889b153d510.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

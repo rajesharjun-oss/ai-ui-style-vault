@@ -1,0 +1,318 @@
+{
+ "name": "Ordinal",
+ "slug": "ordinal",
+ "colors": [
+ {
+ "name": "Void Canvas",
+ "value": "#151316",
+ "token": "--color-void-canvas",
+ "role": "Page background, hero canvas, footer - near-black with a faint violet undertone that keeps the dark from feeling flat or sterile"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Primary text and icon color on dark surfaces; borders on dark UI; inverted text on light feature cards"
+ },
+ {
+ "name": "Elevated Surface",
+ "value": "#444245",
+ "token": "--color-elevated-surface",
+ "role": "Card and panel surface above the void canvas - subtle lift achieved through one tonal step rather than shadow"
+ },
+ {
+ "name": "Mist",
+ "value": "#8e8e8e",
+ "token": "--color-mist",
+ "role": "Muted body text, hairline dividers, inactive icon strokes, and low-emphasis borders on dark backgrounds"
+ },
+ {
+ "name": "Smoke",
+ "value": "#585657",
+ "token": "--color-smoke",
+ "role": "Mid-weight borders and subtle UI separators - slightly darker than Mist for structural rules"
+ },
+ {
+ "name": "Ash",
+ "value": "#b9b9b9",
+ "token": "--color-ash",
+ "role": "Light-mode body borders and secondary text on warm light sections"
+ },
+ {
+ "name": "Bone",
+ "value": "#f4f2ee",
+ "token": "--color-bone",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces."
+ },
+ {
+ "name": "Charcoal",
+ "value": "#222222",
+ "token": "--color-charcoal",
+ "role": "Primary text on light feature sections and nav borders in light mode"
+ },
+ {
+ "name": "Mint Filament",
+ "value": "#8ef5b5",
+ "token": "--color-mint-filament",
+ "role": "The single chromatic accent - filled primary CTAs, eyebrow pill labels, active nav indicator, logo glow, and green-text logo tints. Against #151316 the contrast is 14:1, making it legible as both text and fill"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Entire UI - body, nav, headings, buttons, cards. Only two weights used (regular 400, medium 500) which is the core typographic discipline: no bold display weight, no light italic, just calm and confident Inter. The 13px/17px pair forms the dense product text; 40-60px carries the marketing voice. Headlines use -0.03em tracking to pull letters tight against the dark canvas."
+ },
+ {
+ "name": "Inconsolata (custom-mapped eyebrow face)",
+ "token": "--font-inconsolata-custom-mapped-eyebrow-face",
+ "role": "Eyebrow labels, status pills, and small ALL CAPS markers like \u0027ASSEMBLY 15 NOW ORDINAL\u0027, \u0027SCHEDULING\u0027, \u0027WATCH A DEMO 4:15\u0027. The monospace character at 13-17px is a deliberate break from Inter\u0027s proportions - signals \u0027metadata / system status / not body content\u0027. 0.01em positive tracking on the eyebrow adds the ALL CAPS breath small caps need."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.5",
+ "-0.01px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "17px",
+ "1.5",
+ "-0.01px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "27px",
+ "1.2",
+ "-0.27px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.2",
+ "-0.4px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "53px",
+ "1.2",
+ "-1.59px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1",
+ "-1.8px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "27",
+ "27px",
+ "`--spacing-27`"
+ ],
+ [
+ "33",
+ "33px",
+ "`--spacing-33`"
+ ],
+ [
+ "35",
+ "35px",
+ "`--spacing-35`"
+ ],
+ [
+ "83",
+ "83px",
+ "`--spacing-83`"
+ ],
+ [
+ "141",
+ "141px",
+ "`--spacing-141`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "5px"
+ ],
+ [
+ "icons",
+ "5px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "inputs",
+ "5px"
+ ],
+ [
+ "buttons",
+ "5px"
+ ],
+ [
+ "largeCards",
+ "18px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent header on dark canvas"
+ },
+ {
+ "name": "Mint Pill CTA (Primary)",
+ "role": "Highest-emphasis action button - reserved for the single most important action per screen"
+ },
+ {
+ "name": "Ghost Outlined Button",
+ "role": "Secondary action beside a mint CTA"
+ },
+ {
+ "name": "Eyebrow Label Pill",
+ "role": "Section or status marker above headlines"
+ },
+ {
+ "name": "Hero Headline",
+ "role": "Page-level value proposition"
+ },
+ {
+ "name": "Product Screenshot Frame",
+ "role": "Hero visual - the product UI is the image"
+ },
+ {
+ "name": "Feature Block Card",
+ "role": "Feature explanation in the light section of the page"
+ },
+ {
+ "name": "Feature Section Heading",
+ "role": "Section-level title in the light/mixed area"
+ },
+ {
+ "name": "Logo Wall Cell",
+ "role": "Social proof - customer logos"
+ },
+ {
+ "name": "Calendar Product Surface",
+ "role": "Screenshot inside the hero - demonstrates the scheduling grid"
+ },
+ {
+ "name": "Social Platform Icon Tile",
+ "role": "Brand-color icon set inside feature block"
+ },
+ {
+ "name": "Footer",
+ "role": "Closing surface"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #8ef5b5 for exactly one filled action per view - never two mint buttons side by side",
+ "Pair every mint CTA with a #ffffff ghost outlined button as the secondary action",
+ "Set border-radius to 5px for cards, inputs, and small buttons; reserve 1440px only for pill CTAs and eyebrow labels",
+ "Restrict headings to Inter weight 500 - no 600/700, no italic; the calm weight IS the hierarchy",
+ "Apply -1.8px letter-spacing at 60px and -0.01em at body sizes to maintain Inter\u0027s tight display rhythm",
+ "Render eyebrows as Inconsolata 13px 500 in #8ef5b5, uppercase, inside a 1440px pill with a 1px green border",
+ "Keep the page 95%+ achromatic - mint appears only on the active CTA, the eyebrow label, and ~50% of customer logos"
+ ],
+ "doNot": [
+ "Don\u0027t introduce a second brand color - the system is monochrome + one mint, nothing else",
+ "Don\u0027t use shadows to separate cards from the void - step the surface to #444245 instead",
+ "Don\u0027t set headings in bold or semibold; weight 500 is the ceiling",
+ "Don\u0027t use decorative gradients on body content - the teal charcoal gradient only appears behind the hero product screenshot",
+ "Don\u0027t add rounded corners larger than 18px to cards - the system reads precise, not soft",
+ "Don\u0027t use the mint as a background fill for large sections; it loses the \u0027single switch\u0027 effect",
+ "Don\u0027t stack the ghost button on ghost button; every secondary action must be ghost, and the tertiary is a text link"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/4657db98-0c6c-4848-91e9-c339f3bb7815",
+ "referenceSite": "https://www.meetassembly.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:43:27.975Z",
+ "articleModifiedAt": "2026-06-05T09:36:11.450Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/4a194555-d0a1-4cfe-a2d3-703cd40c3db4.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/6c8c0b69-855e-49e5-87eb-0be1b675c232.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/b71d95ec-7b69-428a-b87e-8e32e50dff4a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/38addea5-afe5-4cdd-804e-384cbf72c359.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d92c8b89-ddf0-4422-bd1d-5f30c6a7dac1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/ff619359-489f-475e-a2ea-90bf4c4c092a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3853782f-bc2f-4c19-846a-fa5ef09290fa.png"
+ }
+ }
+}

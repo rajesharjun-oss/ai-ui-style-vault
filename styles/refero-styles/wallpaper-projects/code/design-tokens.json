@@ -1,0 +1,251 @@
+{
+ "name": "Wallpaper Projects",
+ "slug": "wallpaper-projects",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#1e1e1e",
+ "token": "--color-ink-black",
+ "role": "Primary text, dark pill button fills, borders, heading strokes - the only ink in the system"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary canvas, image backgrounds, button text on dark fills"
+ },
+ {
+ "name": "Warm Cream",
+ "value": "#fbf9f3",
+ "token": "--color-warm-cream",
+ "role": "Alternate surface - the signature cream stock that gives the system its editorial warmth, used for secondary sections and cards"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Maximum contrast moments, occasional true-black text where #1e1e1 isn\u0027t dark enough"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Cardinal Fruit",
+ "token": "--font-cardinal-fruit",
+ "role": "The signature display serif - exclusively used for hero headlines, section openers, and any moment that needs to feel like a magazine cover. The medium weight (500) is reserved for the most massive treatments (132-180px) where hairline strokes would disappear. Negative letter-spacing tightens the massive forms into a cohesive block of ink."
+ },
+ {
+ "name": "Soehne Breit Buch",
+ "token": "--font-soehne-breit-buch",
+ "role": "The workhorse grotesque with widened proportions. At small sizes (10-14px) the 0.1em tracking creates the editorial \u0027kicker\u0027 label aesthetic. At 72-80px it serves as a secondary display face for contexts where serif would feel too precious. The 600 weight is used sparingly for emphasis."
+ },
+ {
+ "name": "Soehne Mono Buch",
+ "token": "--font-soehne-mono-buch",
+ "role": "Monospaced UI face for technical labels, metadata, button text, and small data displays. Its presence signals \u0027system metadata\u0027 versus \u0027editorial content\u0027 - the mono is the interface voice, the serif is the gallery voice."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.5",
+ "1px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.6",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "36px",
+ "1.1",
+ "-0.72px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "48px",
+ "1.05",
+ "-1.2px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "72px",
+ "1",
+ "-1.44px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "132px",
+ "1",
+ "-6.6px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "1440px",
+ "sectionGap": "100px",
+ "cardPadding": "24px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "20px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Dark Pill Button (Primary Action)",
+ "role": "The only button style that matters - the system\u0027s single interactive punctuation mark"
+ },
+ {
+ "name": "Ghost Outline Button",
+ "role": "Secondary action for less critical interactions"
+ },
+ {
+ "name": "Section Kicker Label",
+ "role": "Tiny uppercase label that opens every content section like a magazine department header"
+ },
+ {
+ "name": "Editorial Display Headline",
+ "role": "The hero/cover headline that defines the page"
+ },
+ {
+ "name": "Asymmetric Section Header",
+ "role": "Left-column header for split text+image sections"
+ },
+ {
+ "name": "Full-Bleed Hero with Overlay Type",
+ "role": "The page-opening canvas - atmospheric photography as backdrop, type as subject"
+ },
+ {
+ "name": "Two-Column Image Grid",
+ "role": "Quick visual proof beneath introductory text"
+ },
+ {
+ "name": "Split Content Section (Text Left / Image Right)",
+ "role": "The primary content arrangement for project showcases and about sections"
+ },
+ {
+ "name": "Minimal Navigation Header",
+ "role": "Persistent top bar - almost invisible by design"
+ },
+ {
+ "name": "Footer Single-Line",
+ "role": "Minimal page closure"
+ },
+ {
+ "name": "Scroll Indicator",
+ "role": "Vertical guide suggesting \u0027there\u0027s more below\u0027"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Cardinal Fruit at 48-180px for all display headlines; never below 36px",
+ "Set all buttons to 20px border-radius with 7-8px vertical and 16px horizontal padding in Soehne Mono 12px",
+ "Alternate section backgrounds between #ffffff and #fbf9f3 to create editorial rhythm",
+ "Prefix every content section with a Soehne Breit 10px uppercase kicker label at 1.0px letter-spacing",
+ "Use 100px section gaps and 20px element gaps as the standard rhythm",
+ "Let images fill their containers edge-to-edge with zero border-radius",
+ "Reserve #1e1e1 for text, borders, and button fills only - never as a decorative wash"
+ ],
+ "doNot": [
+ "Never introduce chromatic colors - the 0% colorfulness is the entire brand",
+ "Never use box-shadow for elevation; let surface color contrast do the work",
+ "Never use a border-radius other than 20px for interactive elements or 0px for images/cards",
+ "Never set body text below 14px or above 18px; the editorial scale is fixed",
+ "Never use the display serif (Cardinal Fruit) at sizes below 36px - it loses its character",
+ "Never add visible dividers, rules, or borders between sections - whitespace is the only separator",
+ "Never darken or overlay hero photography; let the type sit directly on the raw image"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0a2bcda6-b5b9-463d-bc8d-2c7ccaa2b776",
+ "referenceSite": "https://wallpaperprojects.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:08:17.397Z",
+ "articleModifiedAt": "2026-06-05T11:49:44.063Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/49369dda-09cb-4b88-9328-b27d1648267a.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/02414f85-a18f-4e1e-8fcc-410ecf09f1ea.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/96d760b7-9c84-4af6-8388-2bb292bc5234.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/6c16c40e-efb5-46ba-9e27-9b70504e27b0.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/bab6c101-4ddf-4b4f-a994-227c3f42b45e.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/83138082-0a7f-4802-8936-b3a76c6e8ddf.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

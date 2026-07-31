@@ -1,0 +1,226 @@
+{
+ "id": "7cae43cd-dd0e-4658-86e6-d66935cfb213",
+ "name": "Palmer",
+ "slug": "palmer",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/7cae43cd-dd0e-4658-86e6-d66935cfb213",
+ "referenceSite": "https://www.palmer-dinnerware.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:34:29.946Z",
+ "articleModifiedAt": "2026-06-05T08:19:19.139Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1b98b255-7c50-432b-8b1d-a067a510ef90.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/b0c33742-2f97-4303-bc64-f9b68d8c08e7.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/3b02b1f6-6f3c-4f24-9969-f0719dadcd93.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ab6a1766-ab4b-4f9d-9d99-b61c872fc122.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a34fc25b-c324-4b7d-bc9a-0c8ea42ff878.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/885d30fc-749b-4a36-aba5-35fda6ec8a91.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/14cbd7f5-b9f9-4aeb-b77f-a4d66909ccd7.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Ceramic gallery in soft daylight - the interface is the wall, the objects are the art.",
+ "summary": "Explore Palmer\u0027s light E-commerce design system: Gallery Cream #f5f6ee, Ink #222222 colors, TWK Lausanne typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Gallery Cream",
+ "value": "#f5f6ee",
+ "token": "--color-gallery-cream",
+ "role": "Page canvas and base surface - a warm off-white that flatters glazed ceramics more than pure white would"
+ },
+ {
+ "name": "Ink",
+ "value": "#222222",
+ "token": "--color-ink",
+ "role": "Primary text, hairline borders, card outlines, icon strokes - the entire structural skeleton runs through this one near-black"
+ },
+ {
+ "name": "Bone",
+ "value": "#ffffff",
+ "token": "--color-bone",
+ "role": "Product image backgrounds, occasional inverse surface when a card needs to sit forward of the cream canvas"
+ },
+ {
+ "name": "Fog",
+ "value": "#a1a19c",
+ "token": "--color-fog",
+ "role": "Muted secondary borders and low-priority text - used when Ink would be too heavy for a structural divider"
+ },
+ {
+ "name": "Lampblack",
+ "value": "#000000",
+ "token": "--color-lampblack",
+ "role": "Reserved for the rare filled element (active nav background, weight anchors) - used sparingly so Ink remains the default voice"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "TWK Lausanne",
+ "token": "--font-twk-lausanne",
+ "role": "Sole typeface - handles everything from micro-labels to 120px editorial display. Weight 300 carries display and large headings (whisper-thin Swiss grotesque that lets the ceramics dominate), weight 400-500 for body and UI, weight 600-700 reserved for active states and filter labels. The tight letter-spacing (-0.04em at display, -0.02em at body) is signature: characters nestle together, giving even 11px labels a compressed, considered feel rather than airy defaults."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.4",
+ "-0.02px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.4",
+ "-0.02px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.4",
+ "-0.03px",
+ "--text-body-lg"
+ ],
+ [
+ "display",
+ "120px",
+ "0.9",
+ "-0.04px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "80px",
+ "cardPadding": "16px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "66",
+ "66px",
+ "`--spacing-66`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "card",
+ "9px"
+ ],
+ [
+ "input",
+ "3px"
+ ],
+ [
+ "button",
+ "3px"
+ ],
+ [
+ "nav-pill",
+ "100px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Experience View Toggle",
+ "role": "Primary mode switcher floating top-center"
+ },
+ {
+ "name": "Scattered Product Tile",
+ "role": "Individual ceramic piece in the main editorial canvas"
+ },
+ {
+ "name": "Bottom Control Bar",
+ "role": "Fixed footer with menu and filter toggles"
+ },
+ {
+ "name": "Navigation Link",
+ "role": "Text link in top-left brand mark and ancillary nav"
+ },
+ {
+ "name": "Zoom Control",
+ "role": "Circular zoom in/out buttons"
+ },
+ {
+ "name": "Filter Chip",
+ "role": "Category or attribute filter in menu mode"
+ },
+ {
+ "name": "Card Surface",
+ "role": "Product card used in grid/list views (non-scattered mode)"
+ },
+ {
+ "name": "Input Field",
+ "role": "Text input for search or filter"
+ }
+ ],
+ "dos": [
+ "Use #f5f6ee for every page background - never pure white, it flatters the ceramics and signals the editorial tone",
+ "Set all borders to 1px solid #222222 - hairlines are the only structural separator in the system",
+ "Reach 120px for editorial display headlines in weight 300 with -0.04em tracking - the extreme scale is part of the brand voice",
+ "Use 100px border-radius only for pills (toggles, filter chips, zoom buttons) and 9px for cards, 3px for everything else",
+ "Set type at weight 300-400 for display and large headings; reserve 600-700 for active/selected states only",
+ "Keep interactive elements at the viewport edges (top-center toggle, bottom-center control bar) so the center stays open for product imagery",
+ "Use letter-spacing -0.02em on all body sizes (11-16px) and tighten further as type scales up"
+ ],
+ "donts": [
+ "Don\u0027t introduce any chromatic accent color - the ceramics supply all the color, the UI stays grayscale",
+ "Don\u0027t add drop shadows to cards, buttons, or nav - borders alone define depth",
+ "Don\u0027t use corner radius above 100px or below 3px - the three tiers (3px, 9px, 100px) are the complete system",
+ "Don\u0027t set type at weight 600+ in display sizes - it would overwhelm the whisper-thin signature of the 120px tier",
+ "Don\u0027t use pure black (#000000) for text - Ink (#222222) is the text color; black is reserved for filled active states",
+ "Don\u0027t add background color to the main canvas behind product photography - flat cream is non-negotiable",
+ "Don\u0027t use letter-spacing 0 or positive values - all text tracks negative"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Gallery Canvas | `#f5f6ee` | The base page surface - warm off-white, used everywhere as the default background |\n| 1 | Card Surface | `#f5f6ee` | Cards use the same cream fill - depth comes from the 1px Ink border, not a lighter or darker shade |\n| 2 | Inverse Surface | `#222222` | Rare filled-dark surface for active states and inverted sections (e.g., dark product detail panels) |",
+ "elevation": "No shadows. Depth is communicated entirely through 1px borders and the inherent shadows in product photography. The cream canvas is flat and shadowless - any drop shadow would break the gallery-wall illusion.",
+ "imagery": "Pure product photography - top-down or 3/4-angle shots of individual ceramic pieces (plates, bowls) on transparent or cream backgrounds. No lifestyle context, no hands, no tablescapes. Each piece is cropped with slight shadow to imply contact with a surface. Imagery is the only source of color on the site: glazed blues, olive greens, speckled whites, amber browns. Density is high but breathable - pieces are scattered with deliberate negative space between them, curatorial rather than catalog.",
+ "layout": "Full-bleed viewport with no max-width constraint. The hero IS the product scatter: ceramic pieces distributed across the entire viewport at curated positions, not a grid. Navigation chrome is pushed to the corners (wordmark top-left, toggle top-center, control bar bottom-center), leaving the center field entirely to imagery. This is a one-screen-first experience - the scatter is the hero, and all secondary UI (menu, filter, zoom) is conditionally revealed. Section rhythm is minimal: one viewport, one scattered composition, minimal text. No traditional alternating bands."
+}

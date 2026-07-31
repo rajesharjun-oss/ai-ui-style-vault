@@ -1,0 +1,160 @@
+{
+ "name": "Ryan Stephen",
+ "slug": "ryan-stephen",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, image frame borders, structural lines"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#404040",
+ "token": "--color-charcoal",
+ "role": "Secondary body text, subdued labels"
+ },
+ {
+ "name": "Warm Ash",
+ "value": "#8b8b94",
+ "token": "--color-warm-ash",
+ "role": "Muted helper text, link borders, link text, decorative dividers"
+ },
+ {
+ "name": "Plaster White",
+ "value": "#ffffff",
+ "token": "--color-plaster-white",
+ "role": "Page canvas, card surfaces, image backgrounds"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "system-ui",
+ "token": "--font-system-ui",
+ "role": "All text uses the OS system font stack. 16px weight 500 carries the bio paragraph and link text; 12px weight 400 covers the small link row (Email - Twitter - LinkedIn) and metadata. The deliberate choice of native system fonts - no custom typeface, no webfont load - keeps the chrome weightless and lets the photographs be the only typographic event on the page."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "100px",
+ "cardPadding": "40px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "images",
+ "10px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Bio Block",
+ "role": "Left-column introduction paragraph"
+ },
+ {
+ "name": "Social Link Row",
+ "role": "Inline list of outbound links"
+ },
+ {
+ "name": "Image Gallery Grid",
+ "role": "3-column photo grid showing portfolio work"
+ },
+ {
+ "name": "Gallery Tile",
+ "role": "Single photograph in the grid"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline navigation to email/social profiles"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 10px border-radius for all images and any card-like surface",
+ "Keep the palette restricted to #000000, #404040, #8b8b94, and #ffffff - no accent colors",
+ "Use system-ui at 16px weight 500 for body and 12px weight 400 for meta/link rows",
+ "Set line-height to 1.20 across all text",
+ "Maintain the 3-column image grid with 15-20px gaps and 100px section breathing room",
+ "Let images sit on the white canvas with no frames, shadows, or backgrounds",
+ "Write links as plain text - no buttons, no underlines, no icons"
+ ],
+ "doNot": [
+ "Don\u0027t introduce a brand color or accent - the absence of color is the brand",
+ "Don\u0027t add drop shadows, gradients, or elevation effects to any element",
+ "Don\u0027t load a custom webfont - system fonts are the system",
+ "Don\u0027t use a border-radius other than 10px on images or cards",
+ "Don\u0027t wrap the bio or link row in a card, container, or bordered box",
+ "Don\u0027t add icons to social links or nav items",
+ "Don\u0027t apply different radii to different elements - one value across the system"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/4080f6e4-e61c-4d3c-ab93-de74a1b5dfc2",
+ "referenceSite": "https://www.ryanstephen.co",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:57:02.443Z",
+ "articleModifiedAt": "2026-06-05T11:22:55.395Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1a70ba3d-4186-4179-8d98-165d2f39724a.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/4a73fd2b-c958-4601-8231-a1f34eae9d73.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/38e24139-0651-4de3-bc5d-64e7e28d041a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7e8aba16-1d12-4f95-8a51-c9308c68476a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/7509a965-b409-472b-b6d3-6fc5eadd4921.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/ea1703e1-46b4-4f35-a6d7-a42e26e501ae.jpg"
+ }
+ }
+}

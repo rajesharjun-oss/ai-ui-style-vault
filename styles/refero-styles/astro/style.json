@@ -1,0 +1,378 @@
+{
+ "id": "e8c604cc-1c8d-42a3-aeca-fcfc25e70344",
+ "name": "Astro",
+ "slug": "astro",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e8c604cc-1c8d-42a3-aeca-fcfc25e70344",
+ "referenceSite": "https://astro.build",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-01-26T19:37:08.000Z",
+ "articleModifiedAt": "2026-06-05T09:10:47.643Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/eb8a15e9-6299-49fc-bd0b-95582fcfaea1.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/dee95962-eeb4-45cc-bbc8-0780de998ce8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ecb4859d-7d10-40a2-8756-bf9f06df9d5e.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/69eae8a0-918d-44c5-aed4-36ca1b52d615.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a7f50124-13c5-4b3f-acaf-6a4abef39886.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/01af1277-ba6a-4a47-ba98-e689fe734c2c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/346a383f-0a72-4aa4-89c5-150e52a0b91a.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Dev Tools",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Dev Tools",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Deep space mission control with a single purple nebula glow",
+ "summary": "Explore Astro\u0027s dark Dev Tools design system: Void Canvas #1f232e, Abyss #0c0f19 colors, ui-sans-serif, Obviously typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Void Canvas",
+ "value": "#1f232e",
+ "token": "--color-void-canvas",
+ "role": "Primary page background - the base layer for hero, sections, and footer. Slight cool-blue undertone, never pure black, so colored elements feel like they\u0027re floating in space rather than printed on paper"
+ },
+ {
+ "name": "Abyss",
+ "value": "#0c0f19",
+ "token": "--color-abyss",
+ "role": "Deeper surface level for elevated cards, code blocks, and inset wells. One step darker than the canvas to create depth without using shadows"
+ },
+ {
+ "name": "Singularity",
+ "value": "#060913",
+ "token": "--color-singularity",
+ "role": "Darkest surface for terminal windows, CLI boxes, and high-contrast containers. Almost pure black with a blue whisper"
+ },
+ {
+ "name": "Carbon",
+ "value": "#17191e",
+ "token": "--color-carbon",
+ "role": "Mid-elevation card surface, sitting between canvas and abyss. Used for theme preview tiles and nested cards"
+ },
+ {
+ "name": "Lunar White",
+ "value": "#f2f6fa",
+ "token": "--color-lunar-white",
+ "role": "Primary text and high-contrast foreground. The slightly cool tint keeps it from feeling clinical against the dark canvas"
+ },
+ {
+ "name": "Platinum",
+ "value": "#e5e7eb",
+ "token": "--color-platinum",
+ "role": "Secondary text, icon strokes, and light dividers. Most-used achromatic token for hairline borders and muted foregrounds"
+ },
+ {
+ "name": "Mist",
+ "value": "#bfc1c9",
+ "token": "--color-mist",
+ "role": "Supporting neutral for secondary UI, dividers, and muted labels. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Steel",
+ "value": "#858b98",
+ "token": "--color-steel",
+ "role": "Muted body text and subdued descriptions. The default for paragraphs that should recede behind headlines"
+ },
+ {
+ "name": "Gunmetal",
+ "value": "#545864",
+ "token": "--color-gunmetal",
+ "role": "Hairline borders and dividers on the dark canvas. Low contrast on purpose - structural, not decorative"
+ },
+ {
+ "name": "Aurora Mint",
+ "value": "#4bf3c8",
+ "token": "--color-aurora-mint",
+ "role": "Teal supporting accent for decorative details and low-frequency emphasis"
+ },
+ {
+ "name": "Plasma Blue",
+ "value": "#54b9ff",
+ "token": "--color-plasma-blue",
+ "role": "Blue supporting accent for decorative details and low-frequency emphasis"
+ },
+ {
+ "name": "Ultraviolet",
+ "value": "#acafff",
+ "token": "--color-ultraviolet",
+ "role": "Code keywords, violet link variant, and decorative highlight. A desaturated violet that complements the nebula gradient without competing"
+ },
+ {
+ "name": "Electric Cyan",
+ "value": "#00daef",
+ "token": "--color-electric-cyan",
+ "role": "Secondary syntax token - reserved for specific code contexts and rare accent strokes"
+ },
+ {
+ "name": "Amber",
+ "value": "#ffd493",
+ "token": "--color-amber",
+ "role": "Yellow supporting accent for decorative details and low-frequency emphasis"
+ },
+ {
+ "name": "Signal Blue",
+ "value": "#61dafb",
+ "token": "--color-signal-blue",
+ "role": "Decorative dot and badge accent - used for version pills and notification indicators"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "ui-sans-serif",
+ "token": "--font-ui-sans-serif",
+ "role": "Body and UI text - system stack fallback. Weight 400 for body copy, 500/600 for button labels and nav, 700 for subheadings. Line-height 1.65 at 14px keeps dense UI readable without feeling airy."
+ },
+ {
+ "name": "Obviously",
+ "token": "--font-obviously",
+ "role": "Display and headline face - the custom workhorse. Weight 300/400 used for the largest headlines, 700 for the hero. The cv09 and salt alternates give it a distinctive wide, slightly retro character; ss06 and ss11 add quirky details. No web-safe substitute captures the feel - Inter Black or Space Grotesk Bold approximate it."
+ },
+ {
+ "name": "ui-monospace",
+ "token": "--font-ui-monospace",
+ "role": "Code blocks, terminal commands, and inline code. Fixed 14px with generous 1.65 line-height for readability of multi-line snippets."
+ },
+ {
+ "name": "MDIO",
+ "token": "--font-mdio",
+ "role": "Icon and badge face - used at 12-16px with widened tracking (0.0250em) for small labels and version chips. The slight letter-spacing and geometric forms give badges a technical, instrument-panel feel."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Inter - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "0.3px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.65",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.11",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "48px",
+ "1.1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "68",
+ "68px",
+ "`--spacing-68`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ],
+ [
+ "224",
+ "224px",
+ "`--spacing-224`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "8px"
+ ],
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "chips",
+ "9999px"
+ ],
+ [
+ "images",
+ "12px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Pill Button",
+ "role": "Main call-to-action (e.g., \u0027Get Started\u0027)"
+ },
+ {
+ "name": "Terminal Command Box",
+ "role": "CLI install command display"
+ },
+ {
+ "name": "Version Badge",
+ "role": "Release announcement pill (e.g., \u0027Astro 6.1\u0027)"
+ },
+ {
+ "name": "Feature Icon Circle",
+ "role": "Icon container in feature columns"
+ },
+ {
+ "name": "Theme Preview Card",
+ "role": "Showcase tile for theme marketplace"
+ },
+ {
+ "name": "Filter Tab Pill",
+ "role": "Category filter for grids (e.g., \u0027Trending\u0027, \u0027E-Commerce\u0027)"
+ },
+ {
+ "name": "Logo Cloud Item",
+ "role": "Customer/partner logo display"
+ },
+ {
+ "name": "Section Header",
+ "role": "Eyebrow label + headline + description block"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Hero Gradient Backdrop",
+ "role": "Atmospheric background glow behind hero content"
+ },
+ {
+ "name": "Stats Bar",
+ "role": "Performance metric display (e.g., \u0027% of real-world sites with good Core Web Vitals\u0027)"
+ }
+ ],
+ "dos": [
+ "Use 9999px radius for all interactive elements (buttons, tabs, badges, chips)",
+ "Set the primary CTA to white background (#ffffff) with dark text (#1f232e) - inversion is the system\u0027s signature action pattern",
+ "Use the nebula gradient (linear-gradient(83.21deg, #3245ff, #b845ed)) only for hero atmospheric backdrops and stat bars - never for buttons or cards",
+ "Set section eyebrows (14px weight 600) in chromatic accent colors (#4bf3c8, #acafff, #54b9ff) to create the only color punctuation in each section",
+ "Use Obviously at weight 300-400 for headlines to keep the voice whisper-confident rather than shouty",
+ "Maintain 4px base unit for all spacing - element gaps at 8px or 16px, section gaps at 80px",
+ "Place colored borders (1px) on circular icon containers in feature columns using Aurora Mint, Plasma Blue, or Amber"
+ ],
+ "donts": [
+ "Don\u0027t use drop shadows for elevation - the system relies on 1px borders in slightly lighter dark shades",
+ "Don\u0027t apply the nebula gradient to text - it destroys legibility against the dark canvas",
+ "Don\u0027t use chromatic colors for large background fills - they break the cosmic void atmosphere",
+ "Don\u0027t use radius values between 12px and 16px on cards - the system snaps to 8px, 12px, or 16px",
+ "Don\u0027t set body text below 14px or above 18px - the type scale is tight to maintain the instrument-panel density",
+ "Don\u0027t use obviously \u003e 700 for headlines - the weight 300-400 range is the signature restraint",
+ "Don\u0027t add decorative icons inside buttons - pills should be text-only or text + chevron"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Void Canvas | `#1f232` | Page background - the deep space floor |\n| 2 | Carbon Card | `#17191` | Elevated card and panel surfaces |\n| 3 | Abyss Well | `#0c0f19` | Inset wells, terminal boxes, and nested containers |\n| 4 | Singularity | `#060913` | Deepest surface for high-contrast CLI and code blocks |",
+ "elevation": "- **Theme Preview Card:** `0 1px 3px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(31, 35, 46, 1)`\n- **Terminal Command Box:** `inset 0 0 0 1px #1f232`",
+ "imagery": "Imagery is minimal and functional: the hero relies on a single purple-magenta radial gradient glow with no photographic content. The rest of the site uses product screenshots (theme previews, terminal windows) contained within rounded card frames. The only photographic-style visuals are customer logos in the trust strip, rendered in white monochrome. No lifestyle photography, no abstract illustrations, no 3D renders - the void canvas is the visual statement. When illustrations appear (feature icons, decorative elements), they are flat, single-color line icons or small geometric shapes in the chromatic accent palette.",
+ "layout": "Full-width dark canvas with content constrained to 1200px max-width, centered. Hero is a centered stack: badge headline subhead primary CTA terminal box logo cloud, with the nebula gradient blooming behind the headline. Sections alternate between full-bleed dark bands with no dividers, creating a seamless vertical flow. Feature sections use a 3-column grid for icon+text blocks. Content sections use 2-column text-left/visual-right or centered text-over-grid patterns. Theme showcase uses a 3-column card grid with 24px gaps. Navigation is a single transparent top bar with no sticky behavior. Vertical rhythm is maintained at 80px between major sections, with 32px between sub-blocks within a section."
+}

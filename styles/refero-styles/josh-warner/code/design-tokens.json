@@ -1,0 +1,284 @@
+{
+ "name": "Josh Warner",
+ "slug": "josh-warner",
+ "colors": [
+ {
+ "name": "Void",
+ "value": "#0f0f0f",
+ "token": "--color-void",
+ "role": "Page canvas and primary surface - the base layer beneath all artwork, slightly lifted from pure black to prevent OLED banding in the dark void"
+ },
+ {
+ "name": "Absolute",
+ "value": "#000000",
+ "token": "--color-absolute",
+ "role": "Hairline borders, image containers, icon strokes, footer dividers - pure black acts as the structural ink that defines edges in the absence of visible card surfaces"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#1a1a1a",
+ "token": "--color-charcoal",
+ "role": "Elevated footer surface and deeper UI panels - a single step up from canvas for zone separation without breaking the dark void"
+ },
+ {
+ "name": "Faint",
+ "value": "#080808",
+ "token": "--color-faint",
+ "role": "Shadow base for subtle elevation effects - nearly invisible against canvas, used in box-shadow compositions for soft ambient lift"
+ },
+ {
+ "name": "Bone",
+ "value": "#f0f0f0",
+ "token": "--color-bone",
+ "role": "Primary text color, nav item fills, filled button background - warm off-white replaces pure white to soften contrast against the black void and reduce eye strain"
+ },
+ {
+ "name": "Ash",
+ "value": "#b8b8b8",
+ "token": "--color-ash",
+ "role": "Secondary body text, subdued helper labels, muted metadata - sits one step below Bone for non-emphasized copy without losing legibility on dark surfaces"
+ },
+ {
+ "name": "Graphite",
+ "value": "#696969",
+ "token": "--color-graphite",
+ "role": "Tertiary text and border accents on headings - used sparingly for fine print and inactive labels that should recede"
+ },
+ {
+ "name": "Live Wire",
+ "value": "#08ff00",
+ "token": "--color-live-wire",
+ "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Inter Display",
+ "token": "--font-inter-display",
+ "role": "Primary typeface across all UI, body, navigation, and headings - used exclusively at weight 400 with no weight variation, creating a flat, even visual texture where size and spacing alone carry hierarchy. Substitute with Inter (free, near-identical metrics)."
+ },
+ {
+ "name": "System sans-serif",
+ "token": "--font-system-sans-serif",
+ "role": "Micro-UI labels (12px) - system stack for the smallest utility text where font loading overhead isn\u0027t justified"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "0.48px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "0.56px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "0.64px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "0.8px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.25",
+ "1.28px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "40px",
+ "1.2",
+ "1.6px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "60-64px",
+ "cardPadding": "14px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "badges",
+ "100px"
+ ],
+ [
+ "images",
+ "4px"
+ ],
+ [
+ "avatars",
+ "100px"
+ ],
+ [
+ "buttons",
+ "100px"
+ ],
+ [
+ "navPills",
+ "100px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill Navigation Button",
+ "role": "Top-center nav items (Projects, Art, Info) and ghost nav controls"
+ },
+ {
+ "name": "Filled CTA Button",
+ "role": "Primary action - Contact, Hire me"
+ },
+ {
+ "name": "Status Indicator",
+ "role": "Availability signal in footer/hero"
+ },
+ {
+ "name": "Avatar Badge",
+ "role": "Brand identity mark in top-left nav"
+ },
+ {
+ "name": "Coming Soon Pill",
+ "role": "Project status badge on case study previews"
+ },
+ {
+ "name": "Hero Art Container",
+ "role": "Full-bleed 3D render or photographic artwork"
+ },
+ {
+ "name": "Project Showcase Panel",
+ "role": "Individual case study preview (phone mockup in second screenshot)"
+ },
+ {
+ "name": "Footer Bar",
+ "role": "Site footer with bio and CTA"
+ },
+ {
+ "name": "Tagline Headline",
+ "role": "Hero left-aligned copy block"
+ },
+ {
+ "name": "Subtitle/Body Text",
+ "role": "Supporting paragraph text"
+ },
+ {
+ "name": "Image Thumbnail",
+ "role": "Small image containers and inline media"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Bone (#f0f0f0) for all text on the dark void - never use pure white, which clashes with the warm off-white palette",
+ "Apply 100px border-radius to every interactive button, badge, nav item, and avatar - the pill shape is the system\u0027s signature geometry",
+ "Keep all type at Inter Display weight 400 - never introduce bold or semibold weights; build hierarchy through size and spacing only",
+ "Use 0.04em letter-spacing on all text - this consistent positive tracking is what makes the whisper-weight type legible and gives the system its measured, deliberate feel",
+ "Reserve Live Wire (#08ff00) exclusively for the availability status dot - it is the only chromatic color and must appear nowhere else",
+ "Set page backgrounds to Void (#0f0f0f), not pure black - the near-black prevents OLED smearing and creates a subtle canvas depth",
+ "Use 4px border-radius for image containers and 100px for all interactive elements - maintain the sharp/round duality"
+ ],
+ "doNot": [
+ "Don\u0027t introduce any new accent colors beyond Live Wire green - the system is deliberately monochromatic and any additional hue will break the gallery void",
+ "Don\u0027t use drop shadows for card or surface elevation - depth must come from the artwork itself or surface tone shifts, not from shadow stacks",
+ "Don\u0027t bold headlines or use weight 500+ - the entire type system breathes at weight 400; adding weight disrupts the flat, even texture",
+ "Don\u0027t use sharp corners (\u003c12px) on buttons, nav items, or badges - the pill geometry is the system\u0027s visual identity",
+ "Don\u0027t use pure black (#000000) as a fill background for cards or surfaces - reserve it for hairline borders and edges; use Void (#0f0f0f) for surfaces",
+ "Don\u0027t place body text below 14px or above 40px - the type scale is deliberately compressed; deviation breaks the editorial restraint",
+ "Don\u0027t add gradients, glows, or color washes to UI elements - the system\u0027s visual energy comes from the 3D/photographic content, not from UI decoration"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e2e9b80c-b548-4f86-a4d7-7a6b07d1c2e1",
+ "referenceSite": "https://www.joshwarner.design",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:01:39.912Z",
+ "articleModifiedAt": "2026-06-05T10:37:41.687Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/60ca5060-cf70-4163-9d81-5eec2f81cdda.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/bdc1f655-d510-4e07-9b35-53483e1faec8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c7b30cd1-c8d8-47ed-be2c-635d3bd9a7b7.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/8abcbdbf-b5ba-44e8-87da-daa454fc93bd.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/08494770-8f9f-4502-a714-8f8412aa2d02.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/e706ea3a-5c5c-42fb-abb8-d248e051fa26.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/8a48605d-78d6-4eae-9a84-e1fa7e07f738.png"
+ }
+ }
+}

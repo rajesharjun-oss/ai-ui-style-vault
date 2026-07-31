@@ -1,0 +1,193 @@
+{
+ "id": "670869ea-9576-4f9d-af3a-038910f8b9b8",
+ "name": "Studio Emmerer",
+ "slug": "studio-emmerer",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/670869ea-9576-4f9d-af3a-038910f8b9b8",
+ "referenceSite": "https://emmerer.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:38:27.267Z",
+ "articleModifiedAt": "2026-06-05T10:30:36.515Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7fb81784-828b-4f1e-adfd-e4bb85cac284.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e8a55855-c5bc-4f49-8673-b759817f58b0.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0a2c816a-2ed4-4227-b417-696cbcc378e1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/cddfa602-f097-4e74-9946-599389ca79c8.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/06818ff8-ee90-4c90-af3b-ea7619af5cce.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/ea3c02eb-d690-4407-8e05-8e25e19a9278.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Typeset on drafting paper",
+ "summary": "Explore Studio Emmerer\u0027s light Agency design system: Pure Black #000000, Drafting White #ffffff colors, NHaasGrotesk typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Body text, inline links, project titles, table row dividers, the arrow ( ) glyph"
+ },
+ {
+ "name": "Drafting White",
+ "value": "#ffffff",
+ "token": "--color-drafting-white",
+ "role": "Page background, surface under all content - no tint, no gradient"
+ },
+ {
+ "name": "Index Gray",
+ "value": "#999999",
+ "token": "--color-index-gray",
+ "role": "Table column headers (PROJECT, TYPE, LOCATION, YEAR), supporting metadata, secondary borders"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "NHaasGrotesk",
+ "token": "--font-nhaasgrotesk",
+ "role": "Sole typeface for every UI element - headlines, body, links, table cells, column headers, navigation. Single weight 400 across the entire system, with negative letter-spacing tightening at every size. The Neue Haas Grotesk DNA (geometric neutrality, grotesque proportions) is what carries the architectural-document feel; substitute Helvetica Neue or Inter as a free fallback."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "15px",
+ "17.4",
+ "-0.08px",
+ "--text-caption"
+ ],
+ [
+ "subheading",
+ "20px",
+ "23.2",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "display",
+ "30px",
+ "27",
+ "-0.33px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "32px",
+ "cardPadding": "",
+ "elementGap": "5px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Project Table Row",
+ "role": "The primary repeating element on the page - each project is one row in a four-column table."
+ },
+ {
+ "name": "Table Column Header",
+ "role": "Labels the four columns above the project list."
+ },
+ {
+ "name": "Inline Navigation Link",
+ "role": "Site-level navigation - about, contact, imprint, read more."
+ },
+ {
+ "name": "Arrow Glyph ( )",
+ "role": "The only icon in the entire system. Marks navigability."
+ },
+ {
+ "name": "Hero Photograph",
+ "role": "Large editorial image occupying the right half of the viewport on first load."
+ },
+ {
+ "name": "Intro Paragraph",
+ "role": "Landing text describing the practice, anchored in the upper-left column."
+ },
+ {
+ "name": "News/Featured Project Caption",
+ "role": "Metadata strip directly under the hero image."
+ }
+ ],
+ "dos": [
+ "Use NHaasGrotesk weight 400 for every piece of text on the page - no exceptions, no weight variations.",
+ "Set display text to 30px with line-height 0.90 and letter-spacing -0.33px; set body to 16px / 1.16 / -0.13px.",
+ "Use 1px solid #000000 as the only border - for table row dividers, link underlines, and any structural separator.",
+ "Prefix every interactive link with the arrow glyph in the same size and color as the link text.",
+ "Use #999999 for table column headers and supporting metadata only; keep all primary text and links at #000000.",
+ "Let whitespace define hierarchy - use 12px row padding and 32px section gaps rather than cards or fills.",
+ "Keep photography edge-to-edge with no border-radius, no overlay, and no caption box."
+ ],
+ "donts": [
+ "Never introduce a chromatic color - the palette is strictly black, white, and #999999.",
+ "Never use font-weight above 400 - bold or semibold would shatter the single-weight voice of the system.",
+ "Never add box-shadow, drop-shadow, or any z-axis elevation.",
+ "Never apply border-radius - all corners stay at 0px.",
+ "Never wrap content in filled cards, panels, or containers - rows sit directly on the page surface.",
+ "Never introduce an icon set beyond the arrow; no SVGs, no pictograms, no button shapes.",
+ "Never change link color on hover - links stay #000000 with the same underline weight to preserve the printed-page feel."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Drafting White | `#ffffff` | Sole surface - page background, table background, everything. No card, panel, or elevated layer exists. |",
+ "elevation": "Elevation is intentionally absent. Surfaces are flat to the page. Hierarchy comes from type size, weight (which never changes from 400), and 1px solid #000000 hairlines - never from shadow or z-axis. The design treats the browser viewport as a sheet of paper, not a stack of cards.",
+ "imagery": "Photography only, and exclusively architectural site documentation - stone tunnels, concrete interiors, built environments in raw daylight or shadow. Full-bleed within their column, zero border-radius, zero padding, no caption frame. The subject is the building itself, never people, never lifestyle, never staged. High contrast, documentary sharpness, no color treatment, no duotone, no filter. There are no illustrations, no decorative graphics, no abstract shapes, and no product renders. The arrow glyph is the only non-photographic visual element in the system.",
+ "layout": "Single-page composition with no scrollable sub-pages in the visible chrome. The viewport is split roughly 45/55 on first load: a 30px intro paragraph and three inline arrow-links occupy the left column; a full-height hero photograph occupies the right. Below the fold, a full-width four-column table (PROJECT / TYPE / LOCATION / YEAR) extends edge to edge, with 12px row padding and 1px black dividers. The table is the entire body of the page - there is no card grid, no feature sections, no pricing rows, no testimonials. Navigation is three inline links, not a top bar or sidebar. The whole layout reads as one continuous document, not a stack of distinct page sections."
+}

@@ -1,0 +1,373 @@
+{
+ "id": "15d10d6c-1844-46c6-ae69-c99a56e6ad41",
+ "name": "Swap",
+ "slug": "swap",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/15d10d6c-1844-46c6-ae69-c99a56e6ad41",
+ "referenceSite": "https://www.swap-commerce.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:19:58.237Z",
+ "articleModifiedAt": "2026-06-05T08:40:40.898Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/a2e8cf0b-1393-4121-a07a-0f638886586d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/9cc24de7-c883-4563-8b38-ceaea4c22a23.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/6dcc6dd4-d786-44bc-9896-2270c0604073.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b6484879-3351-4e5e-aafe-ab257a9563b4.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8d478390-9b9b-495f-897e-83c51808a23f.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/4ec42fa5-30be-4352-a2f0-212c106d1f89.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/43a72b67-7e7d-4f24-8d20-2e4a02cf5cf0.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Mint editorial greenhouse - pale sage rooms with vivid lime accents and whisper-weight serif type.",
+ "summary": "Explore Swap\u0027s light E-commerce design system: Mint Wash #f2ffe3, Vivid Lime #a3fda7 colors, mainFont, Custom Editorial Serif (swap-serif) typography, and...",
+ "colors": [
+ {
+ "name": "Mint Wash",
+ "value": "#f2ffe3",
+ "token": "--color-mint-wash",
+ "role": "Page canvas, section backgrounds, hero wash - the dominant surface tone"
+ },
+ {
+ "name": "Forest Depth",
+ "value": "#0d5b3b",
+ "token": "--color-forest-depth",
+ "role": "Deep green card backgrounds, contrast surfaces, gradient anchor"
+ },
+ {
+ "name": "Pine Shadow",
+ "value": "#083a26",
+ "token": "--color-pine-shadow",
+ "role": "Darkest green for emphasis cards, gradient endpoints, high-contrast text on light surfaces"
+ },
+ {
+ "name": "Spring Gradient Start",
+ "value": "#82ff87",
+ "token": "--color-spring-gradient-start",
+ "role": "Gradient anchor for display type and decorative washes"
+ },
+ {
+ "name": "Citrus Gradient End",
+ "value": "#deff82",
+ "token": "--color-citrus-gradient-end",
+ "role": "Gradient endpoint for display type - yellow-green warmth in hero text"
+ },
+ {
+ "name": "Charcoal Ink",
+ "value": "#000000",
+ "token": "--color-charcoal-ink",
+ "role": "Primary text, hairline borders, dark action buttons, icon strokes"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#ffffff",
+ "token": "--color-cream-paper",
+ "role": "Card surfaces, button text on dark fills, input backgrounds, elevated overlays"
+ },
+ {
+ "name": "Stone Charcoal",
+ "value": "#2d3637",
+ "token": "--color-stone-charcoal",
+ "role": "Secondary dark surface, icon fills, dark borders, muted dark mode text"
+ },
+ {
+ "name": "Warm Mist",
+ "value": "#e9e7e2",
+ "token": "--color-warm-mist",
+ "role": "Alternate section backgrounds, disabled states, cream-toned surfaces"
+ },
+ {
+ "name": "Silver Border",
+ "value": "#cccccc",
+ "token": "--color-silver-border",
+ "role": "Light dividers, inactive borders, subtle separators"
+ },
+ {
+ "name": "Sage Gray",
+ "value": "#838676",
+ "token": "--color-sage-gray",
+ "role": "Muted accent card backgrounds, secondary decorative surfaces"
+ },
+ {
+ "name": "Eucalyptus",
+ "value": "#9cb0a8",
+ "token": "--color-eucalyptus",
+ "role": "Muted sage for outlined secondary action borders, subtle green-tinted UI"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "mainFont",
+ "token": "--font-mainfont",
+ "role": "mainFont - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Custom Editorial Serif (swap-serif)",
+ "token": "--font-custom-editorial-serif-swap-serif",
+ "role": "Display and headline serif - used exclusively for hero/headline contexts at 72-120px. Weight 100 for maximum impact headlines, weight 300 for sub-headlines. Negative letter-spacing (-0.017em) tightens the high-contrast strokes for fashion-editorial density. This ultra-thin serif against pale mint is the signature combination - it borrows from luxury print typography (Bodoni/Didone lineage) to make a commerce platform feel like a magazine spread."
+ },
+ {
+ "name": "Custom UI Sans (swap-sans)",
+ "token": "--font-custom-ui-sans-swap-sans",
+ "role": "Primary interface and body typeface - 16px for body, 15px for compact UI, 18px for lead paragraphs, 24px and 30px for section sub-headings. Weight 400 is default, 500 for emphasis, 700 for labels and small caps eyebrow text. Slight negative tracking (-0.01em) tightens the geometric forms for a precise, modern feel. The sans is functional and quiet - it never competes with the display serif."
+ },
+ {
+ "name": "secondaryFont",
+ "token": "--font-secondaryfont",
+ "role": "secondaryFont - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-0.12px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "15px",
+ "1.4",
+ "-0.15px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.4",
+ "-0.18px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.2",
+ "-0.24px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.2",
+ "-0.3px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "72px",
+ "0.95",
+ "-1.22px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "120px",
+ "0.95",
+ "-2.04px",
+ "--text-display-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "80-120px",
+ "cardPadding": "30px",
+ "elementGap": "8-16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ],
+ [
+ "200",
+ "200px",
+ "`--spacing-200`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "200px"
+ ],
+ [
+ "cards",
+ "24px"
+ ],
+ [
+ "badges",
+ "10px"
+ ],
+ [
+ "inputs",
+ "100px"
+ ],
+ [
+ "buttons",
+ "200px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Lime Pill Button",
+ "role": "Main call-to-action across hero and section CTAs"
+ },
+ {
+ "name": "Secondary Black Pill Button",
+ "role": "Secondary action alongside primary CTAs (e.g. \"Book a Demo\")"
+ },
+ {
+ "name": "Outlined Ghost Button",
+ "role": "Tertiary or alternative actions"
+ },
+ {
+ "name": "Hero Gradient Display Block",
+ "role": "Oversized brand statement in hero and feature sections"
+ },
+ {
+ "name": "Soft Card",
+ "role": "Content cards, feature blocks, brand story panels"
+ },
+ {
+ "name": "Brand Logo Grid Card",
+ "role": "Customer/partner logo showcase section"
+ },
+ {
+ "name": "Section Header with Eyebrow",
+ "role": "Section introduction with small caps label and serif headline"
+ },
+ {
+ "name": "Pill Input Field",
+ "role": "Email capture, form fields, search"
+ },
+ {
+ "name": "Eyebrow Label",
+ "role": "Small all-caps section identifier above headlines"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Full-Bleed Hero Section",
+ "role": "Opening brand statement"
+ },
+ {
+ "name": "Logo Strip Section",
+ "role": "Social proof via partner/customer logos"
+ },
+ {
+ "name": "Statement Section Divider",
+ "role": "Full-width editorial section break with large display text"
+ }
+ ],
+ "dos": [
+ "Use the custom display serif at weight 100 for all hero/feature headlines - this whisper-thin weight is the signature; never substitute with bold sans headlines",
+ "Use 200px border-radius for all buttons and tags to maintain the pill-shaped language",
+ "Pair the vivid lime (#a3fda7) fill with pure black (#000000) text on all primary CTAs for 17:1 contrast",
+ "Apply the 90deg green-to-citrus gradient as background-clip text only on display-sized serif headlines (72px+)",
+ "Set section gaps to 80-120px to preserve the editorial breathing room between content blocks",
+ "Use the pale mint (#f2ffe3) as the primary canvas and reserve white (#ffffff) for card surfaces and inputs - never invert this hierarchy",
+ "Set the display serif to line-height 0.95 and letter-spacing -0.017em to maintain the tight, fashion-editorial density"
+ ],
+ "donts": [
+ "Never use bold or semibold weights for display headlines - the ultra-thin serif is the brand signature",
+ "Never use sharp or small border-radii on buttons - anything below 100px breaks the pill language",
+ "Never apply the green-to-citrus gradient to body text, UI labels, or anything below 48px",
+ "Never use a dark or charcoal page background - the entire system is built on pale mint and white",
+ "Never use colored body text - all paragraph and UI copy stays in black (#000000) or charcoal (#2d3637)",
+ "Never add heavy drop shadows - the only shadow allowed is the 28px soft black-9% blur on cards",
+ "Never use multiple chromatic accent colors simultaneously - lime is the sole accent; sage gray and forest green appear only in gradients or specific card contexts"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Mint Canvas | `#f2ffe3` | Primary page background and hero wash |\n| 1 | White Card | `#ffffff` | Card surfaces, input fields, elevated content blocks |\n| 2 | Warm Mist | `#e9e7e2` | Alternate section background, disabled state fill |\n| 3 | Vivid Lime Surface | `#a3fda7` | Active tag, highlight wash, primary CTA fill |\n| 4 | Forest Surface | `#0d5b3b` | Dark contrast card, emphasis surface for inverted content |",
+ "elevation": "- **Soft Card:** `0px 0px 28px 0px rgba(0, 0, 0, 0.09)`",
+ "imagery": "The site is overwhelmingly text-driven and editorial - no photography, no product imagery, no lifestyle shots. The only visual elements are: (1) oversized gradient-clipped display type that acts as the hero visual, (2) a grid of partner/customer logo wordmarks in muted grayscale serving as social proof, and (3) minimal line-style icons. The mint background, gradient display text, and logo wordmarks together form the entire visual language. When illustration appears, it is likely abstract botanical or geometric in lime and green tones.",
+ "layout": "Max-width 1200px centered container with full-bleed mint sections. Hero is a centered stack: large serif headline, short subtext paragraph, two pill CTAs (lime + black) side by side, then an oversized gradient display block below as visual punctuation. Sections alternate between mint canvas and white card surfaces, separated by 80-120px gaps. Logo showcase is a 5-column grid centered with a serif heading and optional CTA. Content sections use left-aligned serif headlines with left-aligned body text below. Navigation is a single white/transparent top bar - no sticky behavior, no sidebar, no mega-menu. The overall rhythm is vertical and editorial, like scrolling through a fashion magazine spread."
+}

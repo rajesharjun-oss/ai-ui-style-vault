@@ -1,0 +1,311 @@
+{
+ "id": "22e11001-8786-4af7-bdb9-f9419ce8ad1a",
+ "name": "Gigantic",
+ "slug": "gigantic",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/22e11001-8786-4af7-bdb9-f9419ce8ad1a",
+ "referenceSite": "https://giganticcandy.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:31:02.881Z",
+ "articleModifiedAt": "2026-06-05T10:13:27.830Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/67fc4596-f1ab-4ee4-a7f4-416d1ed79017.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/7a2dd8b9-e665-4eef-a42b-6e78830d5582.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/bf58fabb-5ba7-41d0-87ee-96e42f007be4.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2a11813b-b303-4719-b857-7ab268887fbf.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/b602838b-00db-44c1-8bdf-5f7ab95f0e79.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/2cfad922-8401-45cc-bcef-53a38c79180f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "punk-rock candy wrapper shouting on cream paper",
+ "summary": "Explore Gigantic\u0027s light E-commerce design system: Ink Black #231f20, Cream Paper #f0ede7 colors, Neue Haas Grotesk Display, Arial typography, and DESIGN.md...",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#231f20",
+ "token": "--color-ink-black",
+ "role": "Primary text, filled action buttons, nav, headings, hairline borders, product bar backgrounds"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#f0ede7",
+ "token": "--color-cream-paper",
+ "role": "Primary page canvas, section backgrounds, image backgrounds"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Inverted text on dark surfaces, button text, card/image backgrounds"
+ },
+ {
+ "name": "Blast Red",
+ "value": "#ff634b",
+ "token": "--color-blast-red",
+ "role": "Flavor-coded product accent (Salted Peanut bar), footer band, brand mark, single decorative punctuation across the cream canvas"
+ },
+ {
+ "name": "True Black",
+ "value": "#000000",
+ "token": "--color-true-black",
+ "role": "Minor icon strokes and print-style detail"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Neue Haas Grotesk Display",
+ "token": "--font-neue-haas-grotesk-display",
+ "role": "Exclusive brand typeface. Weight 700 drives the hero display voice and section openers - set huge, tracked wide, the type IS the graphic. Weights 450/500 handle subheadings, nav, and product labels. Weight 400 at 14-16px with wide tracking (0.0310-0.0500em) runs body and button text. The all-caps + wide-tracking + heavy-weight combination is the signature."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "GTStandard-M",
+ "token": "--font-gtstandard-m",
+ "role": "GTStandard-M - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "0.19px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "0.35px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.8",
+ "0.45px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.44",
+ "0.56px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.3",
+ "0.86px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading-lg",
+ "32px",
+ "1.2",
+ "1.6px",
+ "--text-heading-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "30px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "35",
+ "35px",
+ "`--spacing-35`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "55",
+ "55px",
+ "`--spacing-55`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Display Headline",
+ "role": "Oversized section opener that dominates the viewport"
+ },
+ {
+ "name": "Filled Ink Button",
+ "role": "Primary action - shop, add to cart, CTAs"
+ },
+ {
+ "name": "Outline Ink Button",
+ "role": "Secondary action and product grid CTAs"
+ },
+ {
+ "name": "Announcement Bar",
+ "role": "Top-of-page promo strip and product ticker"
+ },
+ {
+ "name": "Minimal Nav Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Product Card",
+ "role": "Grid item for candy bar SKUs"
+ },
+ {
+ "name": "Flavor-Coded Product Image",
+ "role": "Product bar photography with brand-specific accent"
+ },
+ {
+ "name": "Dark Feature Section",
+ "role": "Product variety showcase and product bar reveal"
+ },
+ {
+ "name": "Section Header Block",
+ "role": "Centered intro text under hero"
+ },
+ {
+ "name": "Brand Script Logo",
+ "role": "Wordmark in nav and on packaging"
+ },
+ {
+ "name": "Footer Band",
+ "role": "Closing brand statement and secondary nav"
+ },
+ {
+ "name": "Account Icon Group",
+ "role": "Utility icons in nav"
+ }
+ ],
+ "dos": [
+ "Use Neue Haas Grotesk Display exclusively; weight 700 for display, 500 for UI, 400 for body. No other typefaces.",
+ "Set the canvas to Cream Paper (#f0ede7) by default. Reserve Pure White for product images and inverted text surfaces only.",
+ "Use Ink Black (#231f20) as the primary action color for filled buttons. Make them rectangular with 0px radius, padding 19px x 15px, and 16px uppercase text with 0.0310em tracking.",
+ "Track all text wide: 0.0250em minimum at body sizes, scaling up to 0.0570em at display sizes. Tight tracking breaks the brand voice.",
+ "Reserve Blast Red (#ff634b) for three uses only: flavor-coded product packaging, the footer band, and the brand mark. Never as a button fill or body text accent.",
+ "Make the hero headline oversized and sentence-case, with the final word optionally italicized for a cadence break. The type is the hero - no supporting visual.",
+ "Separate sections with hard color transitions (cream black cream), not with whitespace or dividers. Full-bleed, not padded."
+ ],
+ "donts": [
+ "Do not add shadows, gradients, or any form of elevation. Surfaces stay flat.",
+ "Do not round corners on buttons, cards, images, or tags. 0px radius is the signature.",
+ "Do not use Blast Red as a CTA or button background. Red is decoration; black is action.",
+ "Do not set body text in sentence case at large sizes - body and UI text should be uppercase with wide tracking.",
+ "Do not use multiple accent colors or introduce new hues. The palette is mononeutral + one red.",
+ "Do not add illustrative graphics, lifestyle photography, or decorative backgrounds. The system is type + product photography only.",
+ "Do not use light or thin font weights for display headlines. Weight 700 is the only display weight."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Cream Paper | `#f0ede7` | Primary page canvas - every section sits on this warm off-white |\n| 1 | Pure White | `#ffffff` | Card/product image backgrounds, elevated content blocks |\n| 2 | Ink Black | `#231f20` | Dark feature sections, product bar background, button fills |\n| 3 | Blast Red | `#ff634b` | Flavor-coded product surfaces and footer wash |",
+ "elevation": "No shadows anywhere. Depth is achieved through color contrast, full-bleed dark sections, and product photography that physically overlaps section boundaries (torn-edge effect on the product bar reveal). Surfaces are flat - elevation is a non-concept in this system. The Ink Black filled button does not sit \u0027above\u0027 the page; it IS the page in another tone.",
+ "imagery": "Product photography is the entire visual system beyond type. Each candy bar/bar wrapper is shot on a pure white or warm cream backdrop, perfectly square or upright portrait, filling the frame - the object IS the hero, no lifestyle context, no hands, no props. The variety section uses a single dramatic full-bleed product bar image with a torn-paper/ragged-edge effect that breaks across the cream-to-black transition, giving a punk-zine ripped-poster feel. Halftone dots and grain texture overlay the dark sections and product packaging for a printed/risograph aesthetic. Icons are stroke-only line icons, single-weight, no fills. No illustrations, no abstract graphics, no lifestyle photography - every visual is either type, the product, or the brand mark.",
+ "layout": "Full-width sections with content centered to ~1200px max. Hero is a single centered oversized headline on cream - no image, no side-by-side. The page flows: announcement bar minimal nav centered hero text small intro block dark full-bleed product reveal section with torn edge 4-column product grid on cream red footer band. Sections are separated by hard color changes (cream ink black cream red), not by dividers or generous whitespace. The product grid is the only multi-column layout - 4 equal columns with 20px gaps. Navigation is a single minimal top bar; no sidebar, no mega-menu. Vertical rhythm: hero commands ~70-80vh, dark feature section ~60vh, product grid section ~auto. No asymmetric or z-pattern compositions - everything is centered and stacked."
+}

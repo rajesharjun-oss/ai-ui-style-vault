@@ -1,0 +1,294 @@
+{
+ "name": "Busy Bee Honey",
+ "slug": "busy-bee-honey",
+ "colors": [
+ {
+ "name": "Dark Cocoa",
+ "value": "#3b2722",
+ "token": "--color-dark-cocoa",
+ "role": "Primary canvas for hero/header, body text on light surfaces, structural borders, dark CTA fills - the most-used chromatic color in the system, carrying 80%+ of text and border weight"
+ },
+ {
+ "name": "Cream Parchment",
+ "value": "#f2ebd0",
+ "token": "--color-cream-parchment",
+ "role": "Light canvas for alternate sections, text on dark canvases, hairline borders, card surfaces - the warm off-white that makes the dark cocoa feel like printed kraft paper"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#000000",
+ "token": "--color-charcoal",
+ "role": "Hard-edge text and fine borders where absolute contrast is required"
+ },
+ {
+ "name": "Honeycomb Gold",
+ "value": "#ffca50",
+ "token": "--color-honeycomb-gold",
+ "role": "Filled CTA buttons on dark sections, full-bleed section canvas, nav fill - the most chromatic and warmest surface, used as functional punctuation against the brown"
+ },
+ {
+ "name": "Barn Red",
+ "value": "#a0342a",
+ "token": "--color-barn-red",
+ "role": "Red outline accent for tags, dividers, and focused UI edges."
+ },
+ {
+ "name": "Cornflower Blue",
+ "value": "#6aacc2",
+ "token": "--color-cornflower-blue",
+ "role": "Marquee band background, secondary nav fill - the sky/honey-sky blue used as a thin chromatic strip between full-bleed color blocks"
+ },
+ {
+ "name": "Sage Green",
+ "value": "#6fa162",
+ "token": "--color-sage-green",
+ "role": "Subtle accent strip alongside the blue in marquee/decorative bands - an herb-garden green that keeps the blue from feeling isolated"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "TayMakawao",
+ "token": "--font-taymakawao",
+ "role": "Mega-display headlines - \u0027KNOW YOUR HONEY\u0027-scale type that bleeds edge to edge, set tight (0.80 lh) with -0.01em tracking so letterforms lock together like wooden cutout letters"
+ },
+ {
+ "name": "Barkman Honey",
+ "token": "--font-barkman-honey",
+ "role": "Secondary display and large numerals - the \u0027honey drip\u0027 serif used for sub-headlines and hero subtext (e.g. 65px section titles), its warmer curves pair against TayMakawao\u0027s mechanical weight"
+ },
+ {
+ "name": "TayBirdie",
+ "token": "--font-taybirdie",
+ "role": "UI and small-body workhorse - nav links, footer text, micro-labels, and small caps. Normal tracking keeps it legible at small sizes; the tightest 1.00 lh is reserved for nav rows"
+ },
+ {
+ "name": "Times New Roman",
+ "token": "--font-times-new-roman",
+ "role": "Fallback body text inside the system, also pulls double duty for italic-as-brand-voice moments where a system serif feels more honest than a designed face"
+ },
+ {
+ "name": "Anonymous Pro",
+ "token": "--font-anonymous-pro",
+ "role": "Monospaced flavor for traceability codes, lot numbers, and any \u0027data\u0027 moment that should feel like a printed receipt - positive 0.031em tracking gives the text a stamped/inked feel"
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Button and micro-copy fallback - the utilitarian text inside pill buttons where neutrality beats the warmer display faces"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.1",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "28px",
+ "1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "65px",
+ "1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "90px",
+ "0.82",
+ "-0.9px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "135px",
+ "0.8",
+ "-1.35px",
+ "--text-display-lg"
+ ],
+ [
+ "display-xl",
+ "238px",
+ "0.8",
+ "-2.38px",
+ "--text-display-xl"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "24px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "500px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "pills",
+ "500px"
+ ],
+ [
+ "buttons",
+ "1000px"
+ ],
+ [
+ "sections",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Scrolling Marquee Band",
+ "role": "Section divider and emphasis strip"
+ },
+ {
+ "name": "Mega Display Headline",
+ "role": "Hero and feature section titles"
+ },
+ {
+ "name": "Section Subhead",
+ "role": "Supporting headline below mega display"
+ },
+ {
+ "name": "Pill CTA Button (Dark on Light)",
+ "role": "Primary action on gold/light sections"
+ },
+ {
+ "name": "Pill CTA Button (Yellow on Dark)",
+ "role": "Primary action on dark sections"
+ },
+ {
+ "name": "Product Hero Bottle",
+ "role": "Centered product showcase within a hero section"
+ },
+ {
+ "name": "Circular Badge / Trace Seal",
+ "role": "Decorative stamp element"
+ },
+ {
+ "name": "Bee Glyph",
+ "role": "Decorative motif"
+ },
+ {
+ "name": "Full-Bleed Color Section",
+ "role": "Page-level section container"
+ },
+ {
+ "name": "Footer",
+ "role": "Site-level footer"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set mega display at 90px or larger with line-height 0.80-0.82 and letter-spacing -0.01em - anything taller than body, anything less tight, and the headline stops sounding like billboard lettering",
+ "Let every primary action be a 1000px-radius pill; never round the corners partially",
+ "Use full-bleed color sections (Dark Cocoa, Honeycomb Gold, Cornflower Blue) with no inter-section gap - the seam between colors is the layout",
+ "Place the product photo centered and unframed; never wrap it in a card, never add a shadow, never constrain it to a column",
+ "Invert CTA fill against the section it\u0027s on: dark pill on gold, gold pill on dark - never a dark pill on dark",
+ "Use the blue (#6aacc2) only as a marquee band or thin strip - it is a divider color, not a surface",
+ "Reserve the barkmanhoney 65px subhead for the second-most-important line on a section; don\u0027t promote it above the TayMakawao display"
+ ],
+ "doNot": [
+ "Don\u0027t introduce drop shadows, glows, or any z-axis elevation - the system is deliberately flat",
+ "Don\u0027t set display type with line-height 1.0; tight leading is the signature, not an accident",
+ "Don\u0027t put a card, border, or container around the hero product - the bottle sits on the canvas",
+ "Don\u0027t use white (#ffffff) for canvas; the cream (#f2ebd0) is warmer and intentional",
+ "Don\u0027t use a sans-serif display face - the system only works with the condensed serif \u0027painted sign\u0027 attitude",
+ "Don\u0027t use Sage Green (#6fa162) for text or buttons - it is a marquee-strip accent only",
+ "Don\u0027t break the full-bleed section into a max-width container with side gutters - bleed to the edge or it loses the billboard quality"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9836e7c2-ac8e-453d-bdef-2677eb078d59",
+ "referenceSite": "https://www.busybeehoney.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:15:32.841Z",
+ "articleModifiedAt": "2026-06-05T07:41:34.096Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d35e8666-c196-45f5-8c16-36b3e7b79b5f.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/7623ca7b-350f-4091-aeed-5d02ea36d5c8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f9b0a76a-84c6-464d-9a4c-b13e2e494c8f.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1c76b158-5455-4073-9d91-a689a629984c.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/57770c40-e2a4-45d8-8152-706d9fc91fe0.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5181f789-3312-40e6-9b27-f7959042ecb3.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/6e0c3346-4783-4a4b-ba48-34d754f8b55f.png"
+ }
+ }
+}

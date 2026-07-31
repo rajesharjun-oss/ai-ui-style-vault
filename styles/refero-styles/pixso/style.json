@@ -1,0 +1,386 @@
+{
+ "id": "155dbf6e-1187-424e-9ce8-59ffecff7e6b",
+ "name": "Pixso",
+ "slug": "pixso",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/155dbf6e-1187-424e-9ce8-59ffecff7e6b",
+ "referenceSite": "https://pixso.net",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-03-29T10:38:19.000Z",
+ "articleModifiedAt": "2026-06-05T09:26:24.758Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ba37cd5f-5cf9-402c-8ec3-822eeeae03e2.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/f48bc139-b64e-4919-91a5-f5fc669709a3.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/3c38b789-6e33-4ef9-846e-7a29e8fd6c66.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/a432d355-74e4-4dea-a0d3-fb8db93c1454.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/c63f4b7a-1341-4e52-aafd-95afec5e7aeb.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/1f66f657-b495-4c20-8c90-ea3b6b6f04de.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/f811a6c8-858f-43c4-a1d6-e382904c16c9.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Design",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Design",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "pristine designer\u0027s canvas flooded with morning light",
+ "summary": "Explore Pixso\u0027s light Design design system: Obsidian #000000, Carbon #121212 colors, Figtree typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Primary text, heading type, dark icons, and the strongest foreground layer"
+ },
+ {
+ "name": "Carbon",
+ "value": "#121212",
+ "token": "--color-carbon",
+ "role": "Filled primary buttons, active nav state, dark surface fill"
+ },
+ {
+ "name": "Graphite",
+ "value": "#333333",
+ "token": "--color-graphite",
+ "role": "Secondary headings, button labels on light surfaces, heavy icon strokes"
+ },
+ {
+ "name": "Slate",
+ "value": "#666666",
+ "token": "--color-slate",
+ "role": "Body secondary text, helper copy, muted metadata"
+ },
+ {
+ "name": "Ash",
+ "value": "#808080",
+ "token": "--color-ash",
+ "role": "Tertiary text, disabled states, placeholder copy, subtle borders"
+ },
+ {
+ "name": "Fog",
+ "value": "#999999",
+ "token": "--color-fog",
+ "role": "Inactive icons, low-emphasis dividers, shadow tinting"
+ },
+ {
+ "name": "Pebble",
+ "value": "#8b8c8f",
+ "token": "--color-pebble",
+ "role": "Icon strokes on neutral surfaces, muted glyph color"
+ },
+ {
+ "name": "Smoke",
+ "value": "#4d4d4d",
+ "token": "--color-smoke",
+ "role": "Heavy body text where Obsidian feels too sharp, small caption emphasis"
+ },
+ {
+ "name": "Charcoal Veil",
+ "value": "#3d3d3d",
+ "token": "--color-charcoal-veil",
+ "role": "Navigation bar text and borders - the dark nav strip registers as a separate layer"
+ },
+ {
+ "name": "Dusk",
+ "value": "#292929",
+ "token": "--color-dusk",
+ "role": "Deep surface fill for elevated dark blocks and image overlays"
+ },
+ {
+ "name": "Paper",
+ "value": "#faf8fd",
+ "token": "--color-paper",
+ "role": "Page canvas - barely-there warm/lavender tint that separates the site from pure white"
+ },
+ {
+ "name": "Bone",
+ "value": "#f9f9fa",
+ "token": "--color-bone",
+ "role": "Card surfaces, secondary panels, subtle raised containers"
+ },
+ {
+ "name": "Mist",
+ "value": "#eaebee",
+ "token": "--color-mist",
+ "role": "Hairline borders, divider rules, button outlines, input borders"
+ },
+ {
+ "name": "Ice Wash",
+ "value": "#cfe7ed",
+ "token": "--color-ice-wash",
+ "role": "Pale cool-blue background tint for highlighted cards and feature panels"
+ },
+ {
+ "name": "Iris Sweep",
+ "value": "#ee7cff",
+ "token": "--color-iris-sweep",
+ "role": "Brand logo gradient midpoint - the wordmark\u0027s signature purple-to-blue sweep"
+ },
+ {
+ "name": "Orchid Edge",
+ "value": "#ee7cff",
+ "token": "--color-orchid-edge",
+ "role": "Brand logo gradient start - warm violet anchor of the wordmark sweep"
+ },
+ {
+ "name": "Sky Drift",
+ "value": "#559cff",
+ "token": "--color-sky-drift",
+ "role": "Brand logo gradient end - cool blue terminus of the wordmark sweep"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Figtree",
+ "token": "--font-figtree",
+ "role": "Single-family system: 700 carries the hero and section headlines at 48-60px with tight tracking, 600 handles subheadings and prominent labels at 24-34px, 500 covers button labels and emphasized body at 16-18px, 400 runs body and caption copy at 13-16px. The geometric, low-contrast character of Figtree keeps the all-black type from feeling oppressive."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.6",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "16px",
+ "1.55",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.3",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.21",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "34px",
+ "1.21",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "48px",
+ "1.17",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "60px",
+ "1.1",
+ "-",
+ "--text-display-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "8px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "12px"
+ ],
+ [
+ "buttons-prominent",
+ "18px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Filled Primary Button",
+ "role": "Main conversion action - the loudest UI element on the page"
+ },
+ {
+ "name": "Outlined Secondary Button",
+ "role": "Companion action - same row, lower weight"
+ },
+ {
+ "name": "Ghost Nav Link",
+ "role": "Top navigation items and in-content links"
+ },
+ {
+ "name": "Design Kit Card",
+ "role": "Gallery tile in the design kit grid (4-column layout)"
+ },
+ {
+ "name": "Product Showcase Frame",
+ "role": "Large framed mockup in the product section"
+ },
+ {
+ "name": "Floating Feature Card",
+ "role": "Callout card floating over hero or product imagery"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent site header"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Vertical separation between content sections"
+ },
+ {
+ "name": "Decorative Icon Scatter",
+ "role": "Atmospheric floating icons in the hero margins"
+ }
+ ],
+ "dos": [
+ "Use Figtree for everything - no secondary font family, no system fallbacks in production output",
+ "Let the page background be #faf8fd, never pure #ffffff, so cards visibly lift",
+ "Pair a Filled Primary Button (Carbon #121212) with an Outlined Secondary Button (Mist border) in the same action row",
+ "Reserve 8px radius for cards and nav, 12px for buttons, 18px only for prominent product frames",
+ "Keep shadows to the signature two-layer stack: 1px hairline dark + 2-4px soft blur",
+ "Use the Iris Sweep gradient only on the wordmark and brand-identity surfaces - never on buttons or functional UI",
+ "Let product mockups and design kit thumbnails carry all the color; keep chrome grayscale"
+ ],
+ "donts": [
+ "Don\u0027t introduce a chromatic CTA color - the primary action is always Carbon #121212",
+ "Don\u0027t use heavy drop shadows or colored shadows; elevation must stay hairline",
+ "Don\u0027t set body type below 13px or use Figtree below weight 400",
+ "Don\u0027t add gradient backgrounds to UI surfaces; gradients belong to the logo and decorative imagery",
+ "Don\u0027t center-align body paragraphs - the system uses left-aligned running text below the hero",
+ "Don\u0027t use #0000ee or browser-default link blue for any interactive element",
+ "Don\u0027t round buttons to pill (9999px); the system uses 8/12/18px radii only"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#faf8fd` | Page background - warm-white with a whisper of lavender so cards float above rather than blending in |\n| 1 | Card | `#ffffff` | Elevated card surface for product mockup frames, design kit thumbnails, feature tiles |\n| 2 | Panel | `#f9f9fa` | Subtle raised panels and secondary containers |\n| 3 | Cool Wash | `#cfe7ed` | Soft cool-tinted highlight surface for featured callouts |",
+ "elevation": "- **Primary button:** `rgba(0, 0, 0, 0.04) 0px 2px 4px 0px, rgba(0, 0, 0, 0.3) 0px 0px 1px 0px`\n- **Secondary outlined button:** `rgba(0, 0, 0, 0.1) 0px 1px 1px 0px, rgba(0, 0, 0, 0.4) 0px 0px 1px 0px`",
+ "imagery": "Imagery is the only source of color in this system. The product showcase uses full-width landscape photography (green grass field with wildflowers) as a backdrop for floating device-frame mockups. The design kit gallery is a 4-column grid of vibrant product screenshots - Apple CarPlay, Material 3, HarmonyOS, iPadOS, 3D avatar sets, fitness apps, finance apps - each thumbnail a different vivid color story. The hero is decorated with small flat icons (24-40px) in pink, purple, blue, green, and orange scattered asymmetrically around the white space. No photography of people, no lifestyle imagery, no abstract 3D renders - it\u0027s all real product work presented as visual evidence. Icon style is flat, single-color, geometric, with a slight chunky quality that matches Figtree\u0027s character.",
+ "layout": "Full-bleed page structure with a 1200px max-width content rail. The hero is centered: oversized headline (48-60px, Figtree 700, tight 1.10 line-height) over a 16-18px subtitle, then a horizontally paired button row, then a floating product card. Product showcase sections use a 4-up row of device-frame mockups over a landscape photo background, framed by a 1200px container. The design kit gallery is a strict 4-column grid with 20px gaps, equal-height cards. Navigation is a flat 64-72px top bar, transparent over the canvas, with the logo left, links center, and CTA right. Section rhythm is generous - 80px vertical gaps between major sections on the Paper canvas, with no alternating dark/light bands. Everything is left-aligned or center-aligned; there are no asymmetric or magazine-style compositions."
+}

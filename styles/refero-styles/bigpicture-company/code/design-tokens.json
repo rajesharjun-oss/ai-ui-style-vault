@@ -1,0 +1,270 @@
+{
+ "name": "Bigpicture Company",
+ "slug": "bigpicture-company",
+ "colors": [
+ {
+ "name": "Press Ink",
+ "value": "#121212",
+ "token": "--color-press-ink",
+ "role": "Primary text, hairlines, section borders, icon strokes, footer text - the singular dark tone that carries 95% of all foreground information"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, card surfaces, nav pill background, heading-bordered surfaces"
+ },
+ {
+ "name": "Newsprint",
+ "value": "#f1f1f1",
+ "token": "--color-newsprint",
+ "role": "Subtle surface fills, soft borders, hairline dividers, the tone behind the crumpled-paper texture"
+ },
+ {
+ "name": "Foil Gray",
+ "value": "#e1e1e1",
+ "token": "--color-foil-gray",
+ "role": "Light borders, icon stroke accents, secondary dividers"
+ },
+ {
+ "name": "Mute Gray",
+ "value": "#c5c5c5",
+ "token": "--color-mute-gray",
+ "role": "Tertiary text, disabled state, low-contrast surface lines"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Helvetica Neue",
+ "token": "--font-helvetica-neue",
+ "role": "Universal workhorse - body copy at 17px/1.29, display headlines at 75-274px with -0.04em tracking at the largest sizes, nav labels at 15px"
+ },
+ {
+ "name": "PPSupplyMono",
+ "token": "--font-ppsupplymono",
+ "role": "Meta labels and bracketed captions like [01-N INTRODUCTION] and section tags (ADVERTISEMENTS, CREATIVE/AGENCY, OFFLINE MARKETING) - these are the only typographic accents that break the Helvetica monotony"
+ },
+ {
+ "name": "PPSupplySans",
+ "token": "--font-ppsupplysans",
+ "role": "Secondary nav and footer micro-text where a different sans voice is needed"
+ },
+ {
+ "name": "Rock Salt",
+ "token": "--font-rock-salt",
+ "role": "Rare handwritten signature accent for one or two words per page (e.g. the circled \u0027pleasure\u0027 annotation) - used like a stamp, never for content"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "17px",
+ "1.29",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "75px",
+ "1.05",
+ "-1.68px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "274px",
+ "1",
+ "-10.96px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "1440px",
+ "sectionGap": "72px",
+ "cardPadding": "40px",
+ "elementGap": "50px",
+ "scale": [
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "81",
+ "81px",
+ "`--spacing-81`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "20px"
+ ],
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "images",
+ "288px"
+ ],
+ [
+ "nav-item",
+ "28px"
+ ],
+ [
+ "nav-pill",
+ "40px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Navigation Pill",
+ "role": "Sticky top-center nav container"
+ },
+ {
+ "name": "Logo Wordmark",
+ "role": "Top-left brand identifier"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Hero-scale typographic block"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Mid-page editorial headline"
+ },
+ {
+ "name": "Monospace Meta Tag",
+ "role": "Caption-style label"
+ },
+ {
+ "name": "Body Manifesto Block",
+ "role": "Centered editorial paragraph"
+ },
+ {
+ "name": "Sparkle Divider",
+ "role": "Section separator"
+ },
+ {
+ "name": "Rounded Image Block",
+ "role": "Full-bleed hero photography"
+ },
+ {
+ "name": "Address Block",
+ "role": "Contact / location caption"
+ },
+ {
+ "name": "Handwritten Annotation",
+ "role": "Editorial stamp"
+ },
+ {
+ "name": "Footer Strip",
+ "role": "Bottom-of-page meta"
+ },
+ {
+ "name": "Nav Indicator Globe",
+ "role": "Inline iconographic accent"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set display headlines at 75-274px in Helvetica Neue 700 with -0.04em tracking - type size is the primary visual mass, not imagery",
+ "Use #121212 as the only foreground color; never introduce chromatic accents",
+ "Apply the 288px border-radius to all full-bleed images to soften architectural/outdoor photography",
+ "Wrap meta labels in square brackets using PPSupplyMono 16px: [SECTION NAME]",
+ "Use 40px radius for the navigation pill and 28px for individual nav items inside it",
+ "Maintain 72px between major sections and 50px between content blocks within a section",
+ "Place the four-pointed sparkle icon in a horizontal row of 4-5 as the standard section divider"
+ ],
+ "doNot": [
+ "Do not add any color other than the five neutrals (#121212, #ffffff, #f1f1f1, #e1e1e1, #c5c5c5) - zero chroma is the brand",
+ "Do not use box-shadows; depth comes from hairline borders and the paper texture only",
+ "Do not break the all-caps convention on display headlines; mixed case is reserved for the Rock Salt annotation",
+ "Do not use 9999px pill radii on buttons or tags - the largest standard radius is 40px on the nav",
+ "Do not compress line-height below 1.0 on display type, and do not exceed 1.6 on body",
+ "Do not place body copy in a column wider than ~720px - the editorial measure must stay readable",
+ "Do not add hover-lift or transition effects to cards; the aesthetic is static print, not interactive UI"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/eafe33bf-6f53-4619-b279-686ad5869799",
+ "referenceSite": "https://www.bpco.kr",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:20:07.374Z",
+ "articleModifiedAt": "2026-06-05T10:03:23.070Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ec699d33-c08a-460b-9d3c-3f99f2630cd7.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/3e6c48ea-2f42-4246-8127-fee08c34a442.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f1a43d78-5ad8-4890-8415-71d3a8e6cb39.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2a91bde7-6e62-414b-b599-8944ee966b5c.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/98149e4a-2119-4f78-a19f-ec9a54a92a1c.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/3c8c55ae-5ebb-48c2-abc9-12036d6534df.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

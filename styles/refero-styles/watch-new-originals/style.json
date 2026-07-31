@@ -1,0 +1,301 @@
+{
+ "id": "e586b296-bfac-4e93-add2-daa384712b39",
+ "name": "Watch new Originals",
+ "slug": "watch-new-originals",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e586b296-bfac-4e93-add2-daa384712b39",
+ "referenceSite": "https://www.disneyplus.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:04:39.731Z",
+ "articleModifiedAt": "2026-06-05T10:00:20.798Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/048e5f06-98c3-448f-b13d-c2c0799729e2.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/b750ebb4-8104-48c9-86d5-923d6417fc2d.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/8c94c56b-4c30-4e77-8e21-04638758fb9a.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7fb90462-4ec0-4b4f-bc93-d805a279e33e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/f189db2b-25e3-4a8c-a20d-407f9bfe1300.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f6a787ea-48b6-44e4-873b-e01dab75c1f8.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/346a383f-0a72-4aa4-89c5-150e52a0b91a.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Media",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Media",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Cinematic void with electric spotlight. Picture a darkened theater lobby where a single cyan marquee light is the only chromatic thing in sight - everything else is monochrome depth leading the eye to the posters on the wall.",
+ "summary": "Explore Watch new Originals\u0027s dark Media design system: Midnight Canvas #040714, Abyss #010104 colors, Inspire typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Midnight Canvas",
+ "value": "#040714",
+ "token": "--color-midnight-canvas",
+ "role": "Page background, hero background, primary canvas - deep near-black navy that absorbs the eye and makes artwork pop"
+ },
+ {
+ "name": "Abyss",
+ "value": "#010104",
+ "token": "--color-abyss",
+ "role": "Deepest surface layer, navigation background - the near-pure black undercarriage beneath the canvas"
+ },
+ {
+ "name": "Eclipse",
+ "value": "#0e0b14",
+ "token": "--color-eclipse",
+ "role": "Footer background, alternate dark surface - slightly warmer dark for depth variation"
+ },
+ {
+ "name": "Carbon",
+ "value": "#1e1f24",
+ "token": "--color-carbon",
+ "role": "Elevated dark surface - used for cards or panels sitting above the canvas"
+ },
+ {
+ "name": "Slate Veil",
+ "value": "#282a36",
+ "token": "--color-slate-veil",
+ "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Luminous",
+ "value": "#fafafa",
+ "token": "--color-luminous",
+ "role": "Primary text, heading text, icon fills, link text, button labels - the dominant light element across the interface"
+ },
+ {
+ "name": "Pearl",
+ "value": "#e5e7eb",
+ "token": "--color-pearl",
+ "role": "Border color used at scale (hairs, dividers, card edges) - the structural skeleton of the UI"
+ },
+ {
+ "name": "Mist",
+ "value": "#b7b8bd",
+ "token": "--color-mist",
+ "role": "Body text, secondary text, helper copy - muted gray for non-primary reading"
+ },
+ {
+ "name": "Fog",
+ "value": "#c0c0c0",
+ "token": "--color-fog",
+ "role": "List text, icon fills, secondary metadata - the lightest level of secondary text"
+ },
+ {
+ "name": "Deep Ink",
+ "value": "#02172a",
+ "token": "--color-deep-ink",
+ "role": "Gray text accent for links, tags, and emphasized short phrases. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Onyx Label",
+ "value": "#17171c",
+ "token": "--color-onyx-label",
+ "role": "Dark text for inverted or high-contrast button labels on light fills"
+ },
+ {
+ "name": "Electric Cyan",
+ "value": "#33ddff",
+ "token": "--color-electric-cyan",
+ "role": "Primary CTA buttons (SIGN UP NOW, plan tier cards) - the sole chromatic action color; neon-cyan against the void creates cinema-marquee urgency"
+ },
+ {
+ "name": "Teal Pulse",
+ "value": "#02d6e8",
+ "token": "--color-teal-pulse",
+ "role": "Accent text, promotional price highlights ( 4.99), link emphasis, body emphasis - the slightly darker teal sibling used for inline chromatic moments that aren\u0027t buttons"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Inspire",
+ "token": "--font-inspire",
+ "role": "Sole typeface across the entire interface - headings, body, buttons, labels, nav. The single-font commitment is deliberate: it means Inspire must carry both 12px micro-labels and 40px display moments without losing character. Use 700 for headings, price, and emphasis; 400 for everything else."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.38",
+ "0.3px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "0.35px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "0.4px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.4",
+ "0.45px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "20px",
+ "1.4",
+ "0.5px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "28px",
+ "1.2",
+ "0.7px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.2",
+ "1px",
+ "--text-heading-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "48-64px",
+ "cardPadding": "16px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "8px"
+ ],
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "12px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Cyan CTA Button",
+ "role": "Primary conversion action - sign up, subscribe, plan selection"
+ },
+ {
+ "name": "Plan Tier Card",
+ "role": "Subscription option display (Standard with Ads, Standard, Premium)"
+ },
+ {
+ "name": "Email Input Field",
+ "role": "Newsletter / sign-up email capture"
+ },
+ {
+ "name": "Content Tile Card",
+ "role": "Movie/series poster card in carousels and grids"
+ },
+ {
+ "name": "Top 10 Ranked Card",
+ "role": "Hero content ranking with large numeral overlay"
+ },
+ {
+ "name": "Feature Comparison Row",
+ "role": "Plan comparison table - concurrent streams, Dolby Atmos, ads, etc."
+ },
+ {
+ "name": "Section Heading",
+ "role": "Content section title (e.g., \u0027Top 10 Today\u0027, \u0027Choose your plan\u0027, \u0027Watch the way you want\u0027)"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Hero Pricing Banner",
+ "role": "Central conversion offer overlay on poster-grid background"
+ },
+ {
+ "name": "Ghost Outline Button",
+ "role": "Secondary action - \u0027View all plans\u0027, \u0027Learn more\u0027"
+ },
+ {
+ "name": "Footer",
+ "role": "Legal links, fine print, bottom-of-page content"
+ },
+ {
+ "name": "Promotional Price Highlight",
+ "role": "Strikethrough or savings callout in pricing contexts"
+ }
+ ],
+ "dos": [
+ "Use #33ddff (Electric Cyan) exclusively for filled CTA buttons and active plan tier cards - no other fills should carry this color",
+ "Keep all text on the dark canvas in #fafafa for primary, #b7b8bd for secondary, #c0c0c0 for tertiary - never use a chromatic color for body text",
+ "Use Teal Pulse (#02d6e8) for inline emphasis, savings callouts, and informational highlights - not for buttons",
+ "Apply Inspire at all sizes with the same 0.025em letter-spacing - do not tighten tracking on display sizes",
+ "Use 12px border-radius for all buttons and content cards; 8px for inputs and nav elements",
+ "Let poster artwork occupy the full card area - never wrap posters in visible card frames, borders, or shadows",
+ "Center-align section headings and let generous 48-64px vertical space create the cadence between content rails"
+ ],
+ "donts": [
+ "Do not introduce additional accent colors - the system is monochrome with one cyan and one teal; any other chromatic is off-system",
+ "Do not apply box-shadows to cards, buttons, or content tiles - the design uses flat color and borders for structure, not elevation",
+ "Do not use cyan (#33ddff) for non-action text, icons, or decorative elements - reserve it strictly for filled buttons",
+ "Do not override the positive letter-spacing on large headings - 0.025em at 40px produces 1px tracking, which is the intended whisper-not-shout scale",
+ "Do not place light text on cyan fills without testing contrast - use #02172a (Deep Ink) for dark text on cyan, not #17171c or pure black",
+ "Do not add background fills to content poster cards - the artwork is the card; adding a frame reduces the cinematic effect",
+ "Do not use a secondary typeface for display or hero moments - Inspire carries the full type scale, from 12px captions to 40px headings"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Abyss | `#010104` | Deepest background, navigation chrome |\n| 1 | Midnight Canvas | `#040714` | Primary page and hero background |\n| 2 | Eclipse | `#0e0b14` | Footer and alternate dark bands |\n| 3 | Carbon | `#1e1f24` | Elevated cards and panels above the canvas |\n| 4 | Slate Veil | `#282a36` | Input fields and border-defined surfaces |",
+ "elevation": "The design is deliberately flat - no box-shadows, no drop-shadows, no glow effects on any component. Structure is communicated through color contrast, hairline borders (#e5e7eb at low opacity), and background surface layering (5 dark levels from #010104 to #282a36). The cyan CTA buttons are flat neon slabs, not raised elements. Content poster cards have no elevation because the poster artwork is the visual elevation. This flatness is a cinema-theater metaphor: the audience looks at the screen, not at the frame around it.",
+ "imagery": "The visual language is overwhelmingly content-as-imagery: movie and series poster artwork dominates the interface at full poster-aspect (2:3) tiles arranged in horizontal scroll rails. There is no lifestyle photography, no abstract illustration, no 3D render - the content library IS the visual design. Posters are presented as raw artwork with rounded corners (12px) and no frames, shadows, or overlays beyond a large cyan rank numeral for Top 10 items. Icons are minimal and monochromatic (white line/fill on dark), appearing only for checkmarks, navigation, and utility controls. The hero section uses the poster grid itself as a darkened photographic background - blurred/dimmed tiles create atmospheric depth behind the centered pricing offer. No decorative gradients, no illustrative flourishes, no product UI screenshots. The entire visual system defers to the licensed content, treating UI chrome as a dark theater shell around the artwork.",
+ "layout": "Full-bleed dark canvas with content arranged in horizontal scroll rails (poster carousels) stacked vertically. Hero section: poster-grid background dimmed to near-black, with a centered pricing/email-capture block floating in the middle third. Content sections: \u0027Top 10 Today\u0027 is a horizontal row of 6-7 poster tiles with large cyan rank numerals, scrollable. Plan selection: three equal-width cyan tier cards arranged in a centered row. Feature comparison: full-width table with left-aligned feature labels and center-aligned column values. All content sits within a max-width of ~1200px, centered, with generous 48-64px gaps between sections. Navigation is a minimal top bar with logo left and login right. The page rhythm is: hero content rail plan selection comparison table device-agnostic CTA footer, with each section separated by vertical breathing room rather than visual dividers."
+}

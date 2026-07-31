@@ -1,0 +1,201 @@
+{
+ "name": "Not Real",
+ "slug": "not-real",
+ "colors": [
+ {
+ "name": "Ink Charcoal",
+ "value": "#292a2c",
+ "token": "--color-ink-charcoal",
+ "role": "Primary text, dominant border strokes (635 occurrences as borderColor), nav accents"
+ },
+ {
+ "name": "Vellum",
+ "value": "#f2f2f2",
+ "token": "--color-vellum",
+ "role": "Page canvas, card surfaces - warm-leaning off-white that gives the page a paper-stock feel rather than digital white"
+ },
+ {
+ "name": "Full Black",
+ "value": "#000000",
+ "token": "--color-full-black",
+ "role": "Link border underlines, footer text, icon strokes, image overlay text - used as a chromatic anchor only where maximum contrast against Vellum is required"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "ogg",
+ "token": "--font-ogg",
+ "role": "Display and project headlines. This is a high-contrast didone-flavored serif used at 55px with aggressive -0.036em tracking - it acts as the gallery label, announcing each case study with typographic weight that the sans-serif never attempts. At smaller sizes (24-26px) the same family handles editorial pull-quotes and the wordmark, where the negative tracking tightens less aggressively (-0.02em). The signature choice: a single weight (400) doing all serif work, relying on the contrast within letterforms rather than weight variation to create hierarchy."
+ },
+ {
+ "name": "telegraf",
+ "token": "--font-telegraf",
+ "role": "Body copy, navigation, metadata tags, project category labels, and secondary headings. A geometric sans that does all the quiet documentation work. At 55px it can also serve as display type, creating a rare moment where both fonts meet at the same size - typically the serif announces the project name while the sans describes it below. Tracking is positive throughout (0.002em to 0.040em), widening as size decreases - a deliberate inverse relationship that keeps small caps-styled metadata readable and gives the wordmark breathing room."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "15px",
+ "1.67",
+ "0.6px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "18px",
+ "1.5",
+ "0.38px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "20px",
+ "1.33",
+ "0.5px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.25",
+ "0.6px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "26px",
+ "1.1",
+ "-0.52px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "55px",
+ "1.08",
+ "0.11px",
+ "--text-heading-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "120px",
+ "cardPadding": "0px",
+ "elementGap": "18px",
+ "scale": [
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Wordmark / Site Logo",
+ "role": "Persistent brand identifier in top-left of every page"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation, sits flush at the top of every page"
+ },
+ {
+ "name": "Project Tile (Large Featured)",
+ "role": "Full-bleed campaign artwork for top case studies in the work grid"
+ },
+ {
+ "name": "Project Tile (Compact)",
+ "role": "Smaller secondary case study presentations in the asymmetric grid"
+ },
+ {
+ "name": "Inline Text Link",
+ "role": "Text links within body copy and navigation"
+ },
+ {
+ "name": "Vertical Running Text",
+ "role": "Rotated metadata strip pinned to the right edge of the viewport"
+ },
+ {
+ "name": "Category Metadata Tag",
+ "role": "Small text label indicating project discipline (cgi, art direction, campaign, etc.)"
+ },
+ {
+ "name": "Project Title with Em-Dash Separator",
+ "role": "The signature heading treatment for every case study"
+ },
+ {
+ "name": "Agency Statement Block",
+ "role": "Introductory description text near the top of the Work page"
+ },
+ {
+ "name": "Asymmetric Image Grid Cell",
+ "role": "Individual positioned image within the editorial layout"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use only three colors: #292a2c for text, #f2f2f2 for canvas, #000000 for maximum-contrast links and dark surfaces",
+ "Apply ogg for all display text and project titles at 55px with letter-spacing -1.98px; use telegraf at 18-20px for body with 0.38-0.5px tracking",
+ "Render all images as sharp-edged rectangles with 0px border-radius and no drop shadow",
+ "Separate project titles from subtitles with an em-dash (-) in ogg, with the subtitle in italic ogg",
+ "Use \u0027 / \u0027 delimiters between category metadata tags in telegraf 15px",
+ "Position the vertical running text strip absolutely along the right viewport edge on pages that present project work",
+ "Let the canvas breathe: 120px between major sections, no card containers, no elevated panels"
+ ],
+ "doNot": [
+ "Do not introduce any chromatic color into the UI - saturated color belongs exclusively to client artwork",
+ "Do not apply border-radius to any element, including buttons, cards, tags, or images",
+ "Do not add box-shadow, drop-shadow, or any CSS elevation - the design is intentionally flat",
+ "Do not use centered layouts or constrained max-width wrappers - let content flow to viewport edges",
+ "Do not use bold (600+) or semibold weights - both fonts operate at 400 only",
+ "Do not create a distinct filled CTA button - links are text with 1px black borders, nothing more prominent",
+ "Do not alternate background colors between sections - the entire page shares the single Vellum canvas"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/c0a3f588-74b7-4fad-b557-1fc7cd7bd777",
+ "referenceSite": "https://notreal.tv",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:13:13.078Z",
+ "articleModifiedAt": "2026-06-05T11:01:14.652Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/f9723ea2-b90c-41a3-8e52-86814dc49b52.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/a44df562-d4ed-4b3d-a2c6-18da667a248f.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1b88622b-0620-41b0-ab9d-97050f0ad34d.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a856a59a-2a0e-4dc4-81fc-350a343175a4.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/279a3a5f-2d77-426f-ab6b-1cf3d7ebb6e7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

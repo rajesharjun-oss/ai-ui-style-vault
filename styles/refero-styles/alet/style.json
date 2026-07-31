@@ -1,0 +1,231 @@
+{
+ "id": "9b5203a8-07c8-4987-94c5-6411970896d2",
+ "name": "alet",
+ "slug": "alet",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9b5203a8-07c8-4987-94c5-6411970896d2",
+ "referenceSite": "https://aletagency.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:35:08.031Z",
+ "articleModifiedAt": "2026-06-05T08:00:07.475Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/bb940d95-6b9a-4b1a-83ab-5cc9b7bf1426.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c0140cfb-92da-4b70-a3f7-a50f6f137fcc.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/33c52cec-0dba-4ae6-b672-4f58a05fa0f6.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/f0722b94-5dcf-419b-a5ce-85c4fc75805b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e7d8e4cb-c092-4909-b026-3335b22334a3.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/1d5074e4-ec13-411d-966d-38b8eeadfbde.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Vintage editorial contact sheet on warm taupe paper.",
+ "summary": "Explore alet\u0027s light Agency design system: Taupe Paper #ada59b, Ink Black #000000 colors, WorkSans, SilkSerif typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Taupe Paper",
+ "value": "#ada59b",
+ "token": "--color-taupe-paper",
+ "role": "Full-page canvas, the single dominant surface - every section and component sits on this warm gray, never on white or near-black. The warm undertone (vs cool slate) is what makes the whole site feel like printed stock rather than a digital UI"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, all borders, all hairlines, all SVG strokes. Used at full opacity - no softened text grays, no 80% black. The crispness against warm taupe creates the magazine-printed feel"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#252525",
+ "token": "--color-charcoal",
+ "role": "Navigation text and the nav underline borders. Slightly softer than pure ink for the persistent top-of-page chrome so the nav recedes behind the work"
+ },
+ {
+ "name": "Graphite",
+ "value": "#101010",
+ "token": "--color-graphite",
+ "role": "Secondary text and supporting borders where Charcoal reads too soft but pure Ink is too loud. The single mid-step between nav and body"
+ },
+ {
+ "name": "Stone",
+ "value": "#454545",
+ "token": "--color-stone",
+ "role": "Occasional inset surface for body-level containers - the only tonal step above the canvas, used sparingly for any small frame or block that needs to separate from the page without introducing color"
+ },
+ {
+ "name": "Press Black",
+ "value": "#060506",
+ "token": "--color-press-black",
+ "role": "Fine SVG illustration stroke - near-identical to Ink Black but kept distinct in the source. Use for line-art icons and decorative vector marks"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "WorkSans",
+ "token": "--font-worksans",
+ "role": "All UI chrome: navigation, category labels, body copy, metadata, toggle text. Deliberately tiny - 11-13px forces an editorial intimacy and keeps the page from feeling like a product interface. Set in Work Sans Regular at default tracking; the small size is what makes it feel like print captions rather than web UI."
+ },
+ {
+ "name": "SilkSerif",
+ "token": "--font-silkserif",
+ "role": "The ALET wordmark and any other serif display moment. Light weight at 23px with tight leading (0.94) and extremely wide letter-spacing - the letters almost float apart. The serif is the only non-sans on the site, which is what makes the brand mark readable as a masthead rather than a wordmark."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.1",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "12px",
+ "1.1",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "13px",
+ "1.1",
+ "-",
+ "--text-body"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "101-180px",
+ "cardPadding": "0px",
+ "elementGap": "11-23px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "11",
+ "11px",
+ "`--spacing-11`"
+ ],
+ [
+ "22",
+ "22px",
+ "`--spacing-22`"
+ ],
+ [
+ "23",
+ "23px",
+ "`--spacing-23`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "101",
+ "101px",
+ "`--spacing-101`"
+ ],
+ [
+ "180",
+ "180px",
+ "`--spacing-180`"
+ ],
+ [
+ "209",
+ "209px",
+ "`--spacing-209`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ],
+ [
+ "smallFrames",
+ "10.8px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Editorial Image Tile",
+ "role": "The work - photography placed on the taupe canvas in an asymmetric scattered grid"
+ },
+ {
+ "name": "Floating Category Label",
+ "role": "Anchors the image grid - names the discipline (GRAPHIC DESIGN, SOCIAL MEDIA, ART DIRECTION, etc.)"
+ },
+ {
+ "name": "Corner Nav Link",
+ "role": "Primary navigation - top-left and top-right clusters"
+ },
+ {
+ "name": "ALET Wordmark",
+ "role": "Centered masthead in the top bar - the only serif on the site"
+ },
+ {
+ "name": "Layout Toggle",
+ "role": "Switches the image grid between LINEAR and RANDOM arrangement"
+ },
+ {
+ "name": "Studio Statement",
+ "role": "Centered editorial blurb below the image field"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Section separation"
+ },
+ {
+ "name": "Pill Container",
+ "role": "Rare surface for a small inline element (e.g. the toggle track)"
+ }
+ ],
+ "dos": [
+ "Use #ada59b as the page canvas for every section, every page, every state - the taupe paper is the brand",
+ "Set all UI text at 11-13px in Work Sans Regular; never scale up to 14-16px for a \u0027primary\u0027 label",
+ "Set the ALET wordmark in Silk Serif Light at 23px with letter-spacing opened to ~0.5em",
+ "Use #000000 for all text, borders, and SVG strokes at full opacity - no softened blacks",
+ "Place photographs at 0px radius, no border, no shadow - let the image edges meet the canvas directly",
+ "Use 9999px radius only for the layout-toggle pill; 10.8px only for tiny inset frames; everything else stays sharp",
+ "Keep section gaps in the 101-209px range - the page breathes like a printed spread, not a dashboard"
+ ],
+ "donts": [
+ "Do not introduce any chromatic color - no accent, no CTA fill, no status greens/reds/blues",
+ "Do not use white, off-white, or near-black as a section background - the taupe canvas is the only surface",
+ "Do not add box-shadows, elevation, or gradient fills to any component",
+ "Do not use a sans-serif for the wordmark or any display moment - Silk Serif is the only serif and the only size above 13px",
+ "Do not round image corners or wrap photographs in cards with fills or borders",
+ "Do not center body text in narrow columns - the studio statement is the only centered block, and it spans a wide measure",
+ "Do not use large display weights (600-700) - the system runs entirely on Regular and Light"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Taupe Paper | `#ada59b` | The entire page. No section ever changes background color - the canvas is monolithic and the photographs are the only color that ever appears. |\n| 1 | Stone Block | `#454545` | Rare inset surfaces - the occasional small framed block or bordered container that needs a subtle tonal lift off the canvas. |",
+ "elevation": "The design intentionally avoids elevation entirely. There are no shadows, no overlays, no z-axis depth cues. Components sit flush on the taupe canvas like prints pinned to a wall. Where a component needs separation, use a 1px hairline in Ink Black or a subtle 10.8px rounded frame in Stone - never shadow.",
+ "imagery": "Photography is the sole source of color in the entire system. The site is a grid of tightly cropped editorial stills - packaging shots, interior photography, portrait details, product on table - all at high resolution, all at sharp 0px corners, scattered with irregular offsets (101-209px) so the grid reads as a contact sheet rather than a structured grid. The photographs are warm, slightly desaturated, lit naturally - they sit comfortably on the taupe canvas without jarring against it. No illustrations, no icons beyond tiny line-art strokes, no 3D renders, no abstract graphics. Image-heavy layout where photography occupies roughly 40-50% of the viewport in the hero band, tapering as the page scrolls. The role of imagery is to BE the work - the site is a portfolio, not a product page.",
+ "layout": "Full-bleed page, no max-width container, no centered column. The top bar is a three-part composition: nav cluster top-left (OUR WORK), centered ALET wordmark, nav cluster top-right (ABOUT / PROCESS / CONTACT) - all sitting in the corners and center of the viewport, not inside a header container. Below the top bar, a tall asymmetric image field with floating category labels (GRAPHIC DESIGN, SOCIAL MEDIA, ART DIRECTION, COPYWRITING, PHOTOGRAPHY \u0026 FILM, CREATIVE CONSULTANCY) positioned at irregular coordinates around it. The grid has no visible columns or gutters - images overlap and offset freely. A centered studio statement and a LINEAR/RANDOM layout toggle sit below the field. Section rhythm is defined entirely by the scattered imagery and 101-180px vertical breathing room between bands; no alternating dark/light sections, no dividers, no cards."
+}

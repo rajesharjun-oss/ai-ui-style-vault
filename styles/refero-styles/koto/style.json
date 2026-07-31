@@ -1,0 +1,260 @@
+{
+ "id": "a88fa835-1d5e-4b8e-b3d5-602597870563",
+ "name": "Koto",
+ "slug": "koto",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/a88fa835-1d5e-4b8e-b3d5-602597870563",
+ "referenceSite": "https://koto.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:24:25.496Z",
+ "articleModifiedAt": "2026-06-05T12:11:15.024Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8d785e2a-cb43-456b-a2bc-ad99984c9e01.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/fc05d5b3-3618-435a-9d1e-ae61569891c9.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/7f83916f-2aeb-4226-b350-17bc77e6cfe2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/124f3743-4a8b-4cb7-89e5-0d1380b33293.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/6e3acc47-9eee-4e59-9ae6-c9d8691689bd.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/cd2ed291-108a-4343-9c87-87bdc2c5337b.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Obsidian gallery at midnight. A near-black stage where a single yellow mark is the only warm light, and condensed type floats in vast negative space like exhibition placards.",
+ "summary": "Explore Koto\u0027s dark Agency design system: Void Black #060606, Graphite Surface #141414 colors, gtKotoheim, gtKotoheimCondensed typography, and DESIGN.md for...",
+ "colors": [
+ {
+ "name": "Void Black",
+ "value": "#060606",
+ "token": "--color-void-black",
+ "role": "Primary page canvas - the dominant background where all content floats; not pure black, but a warmthless near-black that keeps contrast at AAA"
+ },
+ {
+ "name": "Graphite Surface",
+ "value": "#141414",
+ "token": "--color-graphite-surface",
+ "role": "Elevated card and icon backgrounds - one step lighter than canvas, used to subtly separate surfaces without breaking the dark mood"
+ },
+ {
+ "name": "Smoke Border",
+ "value": "#202020",
+ "token": "--color-smoke-border",
+ "role": "Hairline borders and dividers - barely visible structural lines that define regions without adding visual weight"
+ },
+ {
+ "name": "Iron Mute",
+ "value": "#595959",
+ "token": "--color-iron-mute",
+ "role": "Muted text and secondary borders - body text at reduced emphasis, footer meta, tertiary labels"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#989898",
+ "token": "--color-ash-gray",
+ "role": "Secondary body text and medium-emphasis borders - the most-used neutral after white, for body copy and structural outlines"
+ },
+ {
+ "name": "Silver Whisper",
+ "value": "#b4b4b4",
+ "token": "--color-silver-whisper",
+ "role": "Light body text - softer than white for inline body content where pure white would feel too sharp"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary text, heading strokes, and all key borders - the brightest mark in the system, reserved for content that must read first"
+ },
+ {
+ "name": "Signal Yellow",
+ "value": "#ffe800",
+ "token": "--color-signal-yellow",
+ "role": "Yellow decorative accent for icons, marks, and small graphic details."
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "gtKotoheim",
+ "token": "--font-gtkotoheim",
+ "role": "All UI, body, navigation, button, and small-display text. Custom monospace-feeling sans with \u0027salt\u0027 alternate glyphs - weight 350 is the default body, 400 for slightly stronger emphasis. The only typeface for everything below display size."
+ },
+ {
+ "name": "gtKotoheimCondensed",
+ "token": "--font-gtkotoheimcondensed",
+ "role": "Display headings only. Condensed cut at weight 300 with tight 1.0-1.1 leading and -0.01em tracking - these headlines whisper rather than shout, letting the vast negative space amplify their presence. Reserved for hero statements and section titles."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "display-sm",
+ "38px",
+ "1.1",
+ "-0.38px",
+ "--text-display-sm"
+ ],
+ [
+ "display",
+ "48px",
+ "1",
+ "-0.48px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "48px",
+ "cardPadding": "36px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "6px"
+ ],
+ [
+ "buttons",
+ "2px"
+ ],
+ [
+ "general",
+ "10px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Koto Logo Mark",
+ "role": "Brand identity in nav"
+ },
+ {
+ "name": "Navigation Link",
+ "role": "Section navigation items"
+ },
+ {
+ "name": "UTC Time Indicator",
+ "role": "Live timezone display in nav"
+ },
+ {
+ "name": "Hero Headline Statement",
+ "role": "Opening typographic declaration"
+ },
+ {
+ "name": "Body Text Block",
+ "role": "Paragraph content"
+ },
+ {
+ "name": "Dark Surface Card",
+ "role": "Content container for images or grouped content"
+ },
+ {
+ "name": "Outlined Action Border",
+ "role": "Interactive border treatment"
+ },
+ {
+ "name": "Footer City List",
+ "role": "Office locations meta"
+ },
+ {
+ "name": "Active Nav Dot",
+ "role": "Current page indicator"
+ }
+ ],
+ "dos": [
+ "Set page background to #060606 (Void Black); never use pure #000000",
+ "Use gtKotoheimCondensed weight 300 at 38-48px only for display headlines; pair with -0.48px letter-spacing at 48px",
+ "Use gtKotoheim at 12-16px for all UI, body, and navigation text with the \u0027salt\u0027 font-feature enabled",
+ "Reserve #ffe800 (Signal Yellow) exclusively for the logo mark; it must not appear in any UI component, button, or text",
+ "Communicate elevation through lightness shifts (canvas #141414 cards), not through shadows or borders",
+ "Keep element gaps at 8px and section gaps at 48px; the rhythm comes from these fixed multiples of the 4px base unit",
+ "Left-align all text and let negative space carry the layout - never center body copy or add decorative dividers"
+ ],
+ "donts": [
+ "Don\u0027t introduce any color outside the neutral scale and Signal Yellow; the system is 0% colorful by design",
+ "Don\u0027t use filled buttons or colored CTAs; interactive elements are ghost/outlined with #ffffff borders on transparent fills",
+ "Don\u0027t apply shadows, gradients, or blur effects to any element - the flat void treatment is non-negotiable",
+ "Don\u0027t use radius values other than 2px, 6px, or 10px; mixing radii breaks the geometric discipline",
+ "Don\u0027t set body copy in gtKotoheimCondensed or display in gtKotoheim regular; the two families are strictly separated by size and role",
+ "Don\u0027t use pure #ffffff for body text - reserve it for headings, borders, and the UTC indicator; body copy uses #b4b4b4",
+ "Don\u0027t add icons, illustrations, or imagery to the base layout; the page is typographic-first and visual assets should only appear inside Dark Surface Cards"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Canvas | `#060606` | Primary page background |\n| 2 | Raised Surface | `#141414` | Cards, icon containers, elevated content blocks |",
+ "elevation": "The design has no shadows. Surface hierarchy is communicated purely through lightness shifts in the grayscale (#060606 #141414) and the density of white text and borders against the dark canvas. This flat treatment is deliberate - any drop shadow would break the gallery-on-blackwall illusion.",
+ "imagery": "The site has no visible imagery in the primary navigation states - it\u0027s pure typography on darkness. The visual language is deliberately empty: no decorative graphics, no illustrations, no background patterns. When project work is displayed, it appears as content within Dark Surface Cards (#141414) that sit as rectangles on the void canvas. The single graphic element is the yellow logo mark\u0027s smile arc, which functions as a brand signature rather than decoration. The overall impression is of a gallery wall before the artworks are hung - the type and the void are the design.",
+ "layout": "The page uses a full-bleed dark canvas with no max-width on the background, but content is contained to ~1200px max-width. The hero pattern is a full-viewport near-empty screen with a large two-line display headline anchored to the bottom-left corner - the vast negative space above is the hero, not the text. Sections flow as discrete typographic blocks with 48px gaps, alternating between raw body text on the void and content contained within #141414 cards. Navigation is a single top bar (60px) with logo left, links center, time right. No sidebar, no mega-menu, no sticky behavior visible. Content is consistently left-aligned with no centered text blocks. The rhythm is: minimal nav vast void small headline void body paragraph card void, creating a pacing of visual rest and visual content."
+}

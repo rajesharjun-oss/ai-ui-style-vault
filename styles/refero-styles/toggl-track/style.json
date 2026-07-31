@@ -1,0 +1,409 @@
+{
+ "id": "813be405-c2b9-41be-9864-7b53d66483dc",
+ "name": "Toggl Track",
+ "slug": "toggl-track",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/813be405-c2b9-41be-9864-7b53d66483dc",
+ "referenceSite": "https://toggl.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:58:09.944Z",
+ "articleModifiedAt": "2026-06-05T09:29:31.713Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/74b3aae0-1978-4802-a991-9c725f1dcbe4.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c90f253b-f15e-4013-8591-b3231f755bc2.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/7214521d-887b-46a7-99c6-913aa0a937dc.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/83b6360e-57b9-4c4d-9701-f5a47dff28a8.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/164b57d0-4a71-40d2-85ad-e117bc800331.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5e010e52-48b9-42d6-b162-86d96682005f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/c6320b30-c3a1-400c-8f9a-75ee2f357dcb.png"
+ }
+ },
+ "classification": {
+ "theme": "mixed",
+ "category": "Productivity",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Productivity",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Plum theater marquee - a deep aubergine stage where a single magenta spotlight word illuminates each headline.",
+ "summary": "Explore Toggl Track\u0027s mixed Productivity design system: Plum #2c1338, Heather #412a4c colors, Inter, GT Haptik typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Plum",
+ "value": "#2c1338",
+ "token": "--color-plum",
+ "role": "Hero, header, and footer canvases; brand mark background. Near-black aubergine that reads as the brand\u0027s signature dark"
+ },
+ {
+ "name": "Heather",
+ "value": "#412a4c",
+ "token": "--color-heather",
+ "role": "Primary headings and UI text on light surfaces; secondary dark surface when Plum is too heavy. The workhorse purple"
+ },
+ {
+ "name": "Magenta",
+ "value": "#e57cd8",
+ "token": "--color-magenta",
+ "role": "Filled CTA buttons, emphasis words inside headlines, selected nav state, star ratings, and decorative dots. The only vivid hue - rationed to one word or one control per screen"
+ },
+ {
+ "name": "Lavender Smoke",
+ "value": "#564260",
+ "token": "--color-lavender-smoke",
+ "role": "Body copy and link text on warm-white surfaces where Heather would feel too heavy. Carries the brand tint into running text"
+ },
+ {
+ "name": "Dusty Mauve",
+ "value": "#6b5a74",
+ "token": "--color-dusty-mauve",
+ "role": "Secondary body text, descriptions, helper text, and muted icon strokes on light surfaces. Desaturated enough to recede behind headings"
+ },
+ {
+ "name": "Stone Violet",
+ "value": "#817187",
+ "token": "--color-stone-violet",
+ "role": "Borders and dividers on light surfaces; button borders for outlined variants; disabled or placeholder text"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Primary text and high-contrast borders on light surfaces; footer text on dark Plum"
+ },
+ {
+ "name": "Bone",
+ "value": "#fefbfa",
+ "token": "--color-bone",
+ "role": "Page background for all content sections, card surfaces, and text color on dark Plum headers"
+ },
+ {
+ "name": "Silver",
+ "value": "#d5d0d7",
+ "token": "--color-silver",
+ "role": "Hairline borders, list separators, and input outlines across cards and tables. The structural neutral grid"
+ },
+ {
+ "name": "Fog",
+ "value": "#c0b8c3",
+ "token": "--color-fog",
+ "role": "Subtle borders and dividers where Silver reads too dark; secondary placeholder text on inputs"
+ },
+ {
+ "name": "Blush",
+ "value": "#fdeae2",
+ "token": "--color-blush",
+ "role": "Soft warm wash for icon fills, decorative card backgrounds, and nav hover states. The warmest surface tint"
+ },
+ {
+ "name": "Petal",
+ "value": "#fcf1f8",
+ "token": "--color-petal",
+ "role": "Elevated card and modal surfaces above Bone. Carries a pink whisper without competing with Magenta"
+ },
+ {
+ "name": "Orchid Mist",
+ "value": "#fae5f7",
+ "token": "--color-orchid-mist",
+ "role": "Highlighted card background for featured or selected content blocks"
+ },
+ {
+ "name": "Bubblegum Wash",
+ "value": "#f7d8f3",
+ "token": "--color-bubblegum-wash",
+ "role": "Pale pink surface for secondary buttons, tag backgrounds, and the softest brand-tinted fill"
+ },
+ {
+ "name": "Amber",
+ "value": "#ffde91",
+ "token": "--color-amber",
+ "role": "Yellow action color for filled buttons, selected navigation states, and focused conversion moments."
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "All body copy, navigation links, UI labels, table data, and secondary headings. Inter\u0027s neutrality keeps the content calm while GT Haptik performs on the headlines. Weight 500 for nav and buttons, 700 for subheadings, 800 for compact stat callouts."
+ },
+ {
+ "name": "GT Haptik",
+ "token": "--font-gt-haptik",
+ "role": "Display headlines and large section titles. GT Haptik\u0027s geometric warmth with rounded terminals gives the brand a friendly, non-corporate voice; weight 700 at 43-69px with tight 1.1 line-height creates dense, confident heroes. Substitute: Inter Tight, Manrope, or Outfit."
+ },
+ {
+ "name": "GT Haptik Rotalic",
+ "token": "--font-gt-haptik-rotalic",
+ "role": "The single highlighted word inside every hero and section headline - rendered in Magenta (#e57cd8) with a right-leaning italic slant. This is the brand\u0027s theatrical signature: one word per headline gets the spotlight. Substitute: Inter Tight Italic with manual skew, or Manrope Italic."
+ },
+ {
+ "name": "GT Haptik Medium Rotalic",
+ "token": "--font-gt-haptik-medium-rotalic",
+ "role": "GT Haptik Medium Rotalic - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.55",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.35",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.25",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "43px",
+ "1.2",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "60px",
+ "1.15",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "69px",
+ "1.1",
+ "-",
+ "--text-display-xl"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "75px",
+ "cardPadding": "30px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "75",
+ "75px",
+ "`--spacing-75`"
+ ],
+ [
+ "90",
+ "90px",
+ "`--spacing-90`"
+ ],
+ [
+ "113",
+ "113px",
+ "`--spacing-113`"
+ ],
+ [
+ "170",
+ "170px",
+ "`--spacing-170`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "200px"
+ ],
+ [
+ "cards",
+ "10px"
+ ],
+ [
+ "pills",
+ "200px"
+ ],
+ [
+ "inputs",
+ "10px"
+ ],
+ [
+ "buttons",
+ "26px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Filled Button (Magenta)",
+ "role": "Main call-to-action for hero and section CTAs"
+ },
+ {
+ "name": "Ghost Button (Outlined on Dark)",
+ "role": "Secondary action on Plum hero bands"
+ },
+ {
+ "name": "Try-for-Free Pill Button",
+ "role": "Persistent top-right nav CTA"
+ },
+ {
+ "name": "Nav Link (Header)",
+ "role": "Primary navigation items"
+ },
+ {
+ "name": "Feature Card (Bone)",
+ "role": "Content cards in feature grids and product showcases"
+ },
+ {
+ "name": "Highlighted Feature Card (Petal)",
+ "role": "Elevated or selected feature card"
+ },
+ {
+ "name": "Pill Tag / Tab",
+ "role": "Filter pills, tab selectors, category tags"
+ },
+ {
+ "name": "Star Rating Badge",
+ "role": "Social proof and review aggregates"
+ },
+ {
+ "name": "Mega Menu Panel",
+ "role": "Product and Solutions dropdown navigation"
+ },
+ {
+ "name": "Data Table Card",
+ "role": "Product UI preview - time entries, reports"
+ },
+ {
+ "name": "Calendar Week Card",
+ "role": "Calendar view product UI preview"
+ },
+ {
+ "name": "Integration Icon Cluster",
+ "role": "Social proof for 100+ integrations"
+ },
+ {
+ "name": "Brand Wordmark",
+ "role": "Logo lockup in header and footer"
+ },
+ {
+ "name": "Hero Headline (Display)",
+ "role": "Above-the-fold hero copy on Plum"
+ }
+ ],
+ "dos": [
+ "Render every hero or section headline with exactly one Magenta emphasis word set in GT Haptik Rotalic - this is the brand\u0027s signature move.",
+ "Use 26px border-radius for all primary action buttons and nav controls; reserve 200px for pills, tags, and trial CTAs only.",
+ "Set display sizes (43px+) with line-height at or below 1.2 - the tight leading makes GT Haptik feel dense and confident.",
+ "Build depth through Plum-to-Bone band contrast, not shadows. Cards get 1px Silver borders on Bone surfaces.",
+ "Use Inter for everything below the fold: body, labels, table cells, nav. Reserve GT Haptik for display and section headlines.",
+ "Keep the page on Bone (#fefbfa) for content sections and Plum (#2c1338) for hero/header/footer - these are the only two canvas colors.",
+ "Ration Magenta to one element per screen: a CTA, an emphasis word, a selected state, or a decorative dot. Never two."
+ ],
+ "donts": [
+ "Don\u0027t use drop shadows on cards, buttons, or modals - the design language is flat with surface tint contrast instead.",
+ "Don\u0027t set the pink emphasis word in upright GT Haptik - it must be in the Rotalic variant to carry the theatrical meaning.",
+ "Don\u0027t use Magenta as a background wash, gradient, or large surface fill. It only appears on filled buttons, emphasis words, and small dots.",
+ "Don\u0027t introduce a second accent hue. The system is monochromatic purple with one spotlight pink - adding teal, green, or orange breaks the duotone.",
+ "Don\u0027t use pure white (#ffffff) for backgrounds - Bone (#fefbfa) is the canvas. Pure white reads as cold and unbranded against the warm tints.",
+ "Don\u0027t apply corner radii smaller than 10px or larger than 200px. The system has three: 10px (cards/inputs), 26px (buttons), 200px (pills).",
+ "Don\u0027t set display headlines above 1.25 line-height - loose leading makes GT Haptik feel airy and undermines the dense, confident voice."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Bone | `#fefbfa` | Base page canvas for all content sections |\n| 1 | Petal | `#fcf1f8` | Elevated card and modal surfaces |\n| 2 | Blush | `#fdeae2` | Warm decorative card backgrounds and icon fills |\n| 3 | Orchid Mist | `#fae5f7` | Featured/selected content highlights |\n| 4 | Heather | `#412a4c` | Dark surface above light content |\n| 5 | Plum | `#2c1338` | Hero, header, and footer dark stage |",
+ "elevation": "Depth comes from color contrast between Plum dark bands and Bone light bands, not from drop shadows. Cards, modals, and elevated surfaces rely on subtle 1px Silver borders and warm surface tints (Petal, Blush) rather than shadow stacks. The only shadow-like effect is on dropdown menus and mega-nav panels, which use a soft diffused glow at rgba(44,19,56,0.12).",
+ "imagery": "Product screenshots are the dominant visual: real UI captures of the Toggl Track app (calendar views, data tables, team activity feeds) rendered with browser-chrome framing and three macOS-style traffic-light dots in Magenta/Heather/Fog. These screenshots sit on the Plum hero stage as floating overlapping cards, creating a \u0027product on display\u0027 feel. No lifestyle photography, no stock imagery, no abstract illustrations. The only illustrative element is a small cluster of grayscale integration logos in a 40px circle grid as social proof. Iconography is flat, single-weight, and mono - the power-button mark in the wordmark is the only custom glyph; everything else is standard outline UI icons in Dusty Mauve or Blush.",
+ "layout": "Full-bleed Plum hero band (centered headline, subtext, two-button CTA row, then overlapping product screenshot cards below the fold) transitions into a Bone content section. Content sections follow a repeated rhythm: centered headline block (max-width 720px), then alternating 2-column rows with text-left/visual-right or text-right/visual-left. Feature lists use a 3-column card grid. The footer returns to Plum with a 4-column mega-nav layout above a \u0027the toggl company\u0027 brand band. Max-width 1200px centered container for all content. Navigation is a single sticky top bar with logo left, primary nav center, utility links and pill CTA right. Section gaps are generous (75px) to let the dark-to-light band transitions breathe."
+}

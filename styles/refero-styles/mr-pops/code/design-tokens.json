@@ -1,0 +1,289 @@
+{
+ "name": "Mr. Pops",
+ "slug": "mr-pops",
+ "colors": [
+ {
+ "name": "Cherry Marquee",
+ "value": "#b00e2f",
+ "token": "--color-cherry-marquee",
+ "role": "Brand accent, heading text, link color, icon stroke, outlined button border, footer headline - vivid warm red used as the single chromatic signal across an otherwise cream-and-white interface"
+ },
+ {
+ "name": "Cream Bisque",
+ "value": "#fee5ca",
+ "token": "--color-cream-bisque",
+ "role": "Secondary surface for cards, callout panels, and the cart/bag detail button - warm near-white that reads as paper, not gray"
+ },
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Page background, card surface, input fill, button text on dark"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary body text, icon fills, heavy borders, SVG fill - the only true dark"
+ },
+ {
+ "name": "Slate Mid",
+ "value": "#aaaaaa",
+ "token": "--color-slate-mid",
+ "role": "Muted secondary text, disabled placeholders, low-emphasis dividers"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Cervo",
+ "token": "--font-cervo",
+ "role": "Display and headings only. Set extremely tight (line-height 0.75 on the 144px hero, 0.9 on 64-72px) and tracked slightly outward at 0.05em - the condensed letterforms and compressed leading make the headline read as a hand-painted sign rather than a web type block. Weight 400 carries the body, weight 500 amplifies emphasis within the display."
+ },
+ {
+ "name": "HelveticaNeueCyr",
+ "token": "--font-helveticaneuecyr",
+ "role": "Body, UI, navigation, footer, input, captions. Light 400 weight throughout with generous 1.3-1.4 leading on running text - the whisper-weight keeps chrome from competing with the Cervo display, so the marquee headline always wins the eye."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.4",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "15px",
+ "1.3",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "42px",
+ "1",
+ "0.05px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "64px",
+ "0.9",
+ "0.05px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "144px",
+ "0.75",
+ "0.05px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "1200px",
+ "sectionGap": "40px",
+ "cardPadding": "30px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "38",
+ "38px",
+ "`--spacing-38`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "46",
+ "46px",
+ "`--spacing-46`"
+ ],
+ [
+ "58",
+ "58px",
+ "`--spacing-58`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "40px"
+ ],
+ [
+ "buttons",
+ "300px"
+ ],
+ [
+ "smallElements",
+ "5px"
+ ],
+ [
+ "featuredPanels",
+ "60px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Marquee Display Headline",
+ "role": "Hero and section title"
+ },
+ {
+ "name": "Cherry Outline Button",
+ "role": "Primary call to action"
+ },
+ {
+ "name": "Cream Filled Button",
+ "role": "Secondary call to action (cart, bag, less prominent action)"
+ },
+ {
+ "name": "Ghost Navigation Item",
+ "role": "Top nav links (Flavours, Menu)"
+ },
+ {
+ "name": "Cream Bisque Card",
+ "role": "Featured product, flavor panel, content block"
+ },
+ {
+ "name": "Hero Photograph Frame",
+ "role": "Full-bleed lifestyle / food photography"
+ },
+ {
+ "name": "Inline Red Label",
+ "role": "Section link or \u0027FLAVOURS\u0027 style trigger"
+ },
+ {
+ "name": "Paragraph Block",
+ "role": "Long-form body copy beside the hero"
+ },
+ {
+ "name": "Cart Badge",
+ "role": "Top-right shopping bag count"
+ },
+ {
+ "name": "Scroll Cue Arrow",
+ "role": "Down-arrow prompt at the bottom of the hero"
+ },
+ {
+ "name": "Footer Band",
+ "role": "Site footer"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Stack Cervo display type four lines deep and let line-height collapse to 0.75 on the 144px hero size.",
+ "Use Cherry Marquee (#b00e2f) as outline, link, and accent text - never as a filled button background.",
+ "Set 0.05em positive letter-spacing on every Cervo size from 22px upward.",
+ "Build every interactive element with a 300px (pill) radius.",
+ "Lift secondary content with Cream Bisque (#fee5ca) fills at 40px radius, not with shadows.",
+ "Let hero photography bleed edge-to-edge with text overlaid directly on the image - no scrim.",
+ "Keep body copy in HelveticaNeueCyr weight 400 at 15-16px with 1.3-1.4 line-height so the display type stays the loudest thing on the page."
+ ],
+ "doNot": [
+ "Don\u0027t fill a button solid Cherry Marquee - the brand signal is the red outline, not a red block.",
+ "Don\u0027t apply drop shadows to cards, buttons, or panels - depth comes from cream surfaces, not elevation stacks.",
+ "Don\u0027t set Cervo with line-height above 1.0 on display sizes; the compressed leading is the signature.",
+ "Don\u0027t introduce gray or cool neutrals - every neutral should be warm (cream, white) or pure black.",
+ "Don\u0027t use a second chromatic accent - Cherry Marquee is the only color allowed beyond the cream/black/white system.",
+ "Don\u0027t switch the canvas to dark or use a dark-mode pattern - the brand is locked to a sunlit light theme.",
+ "Don\u0027t set negative letter-spacing on Cervo - the 0.05em outward tracking is what makes the marquee read as signage."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/ab7996ed-e0ed-40a0-81a5-d37f19ef35b0",
+ "referenceSite": "https://mrpops.ua/en",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:23:52.125Z",
+ "articleModifiedAt": "2026-06-05T08:18:53.842Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/dfc0ab0b-73f1-4c13-8d16-9001c39787fe.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c56dd436-3109-4fcc-8ea1-019304885ef3.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/6afe77c2-ce42-4d0f-87da-9c27f2d0a09c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/3ea25349-0953-4170-ae4a-75cf4cd0f0ee.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/38716c82-c7e1-4b74-9122-eb73610ef644.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0e9ba53c-0b3e-4bde-baf3-5a7426756b41.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/5f24d49c-cc3e-4519-9348-2df1cdce2cd0.png"
+ }
+ }
+}

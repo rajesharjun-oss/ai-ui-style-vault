@@ -1,0 +1,230 @@
+{
+ "name": "Threads",
+ "slug": "threads",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, icon strokes, structural borders, and the filled Log in button - the load-bearing color that carries almost every interface element"
+ },
+ {
+ "name": "Paper White",
+ "value": "#fafafa",
+ "token": "--color-paper-white",
+ "role": "Page canvas and the topmost surface layer - warm off-white that softens the contrast of pure black text"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#efefef",
+ "token": "--color-mist-gray",
+ "role": "Secondary surface beneath the elevated feed container - the shadow-tinted plane that gives the feed column its lifted feel"
+ },
+ {
+ "name": "Cloud Gray",
+ "value": "#d5d5d5",
+ "token": "--color-cloud-gray",
+ "role": "Post dividers and card outline borders - the thinnest structural separator between stacked feed items"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#969696",
+ "token": "--color-ash-gray",
+ "role": "Secondary borders on buttons, muted metadata text, and placeholder strokes - the middle-tone neutral for inactive controls"
+ },
+ {
+ "name": "Graphite",
+ "value": "#424242",
+ "token": "--color-graphite",
+ "role": "Body text borders, secondary icon fills, and medium-emphasis strokes - sits between Ink Black and Ash Gray for tertiary text and outlines"
+ },
+ {
+ "name": "Meta Blue",
+ "value": "#385898",
+ "token": "--color-meta-blue",
+ "role": "Outlined link borders, hyperlink text, verified-badge fill, and icon accents - the single chromatic note in the system, used for interactive emphasis without ever filling a large surface"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "system-ui",
+ "token": "--font-system-ui",
+ "role": "Entire interface - system-ui at 15px/400 for post body text, 15px/600 for usernames, 13px/400 for timestamps and metadata, 12px/400 for fine print. The choice of system-ui rather than a webfont keeps rendering native to each platform; the narrow size range (12-17px) and tight 1.33-1.4 line-height create the compact, information-dense rhythm of a social feed where many posts share a single screen"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "20px",
+ "1.5",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "640px",
+ "sectionGap": "",
+ "cardPadding": "16px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "badge",
+ "1000px"
+ ],
+ [
+ "avatar",
+ "1000px"
+ ],
+ [
+ "button",
+ "1000px"
+ ],
+ [
+ "linkCard",
+ "8px"
+ ],
+ [
+ "postCard",
+ "0px"
+ ],
+ [
+ "feedColumn",
+ "18px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Feed Container",
+ "role": "Central scrollable surface that holds all posts"
+ },
+ {
+ "name": "Log In Button",
+ "role": "Primary authentication action in the top-right"
+ },
+ {
+ "name": "Post Card",
+ "role": "Individual feed entry"
+ },
+ {
+ "name": "Circular Avatar",
+ "role": "User identity mark in post headers and sidebar"
+ },
+ {
+ "name": "Verified Badge",
+ "role": "Identity confirmation next to usernames"
+ },
+ {
+ "name": "Post Engagement Bar",
+ "role": "Like, comment, repost, share actions beneath each post"
+ },
+ {
+ "name": "Link Preview Card",
+ "role": "Embedded article preview within a post"
+ },
+ {
+ "name": "Sidebar Icon Button",
+ "role": "Navigation targets in the left rail"
+ },
+ {
+ "name": "Compose Button",
+ "role": "Quick post creation entry from sidebar"
+ },
+ {
+ "name": "Top Header Bar",
+ "role": "Page-level title and entry to authentication"
+ },
+ {
+ "name": "Post Overflow Menu Trigger",
+ "role": "Per-post action menu"
+ },
+ {
+ "name": "Inline Hashtag / Mention",
+ "role": "Interactive text within post body"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Ink Black (#000000) for all primary text and structural icon strokes - let the weight of black carry the hierarchy",
+ "Apply Meta Blue (#385898) exclusively to hyperlinks, verification badges, and icon accents - never as a filled surface or large block of color",
+ "Set border-radius to 1000px on every avatar, button, and badge to keep the pill/circle vocabulary consistent",
+ "Separate posts with a 1px Cloud Gray (#d5d5d5) bottom border, not with card backgrounds or spacing alone",
+ "Wrap the feed in a single 640px-max-width container with 18px radius and the 12px 4%-opacity shadow halo",
+ "Type body copy at 15px/400 system-ui with 1.4 line-height; reserve 600 weight for usernames and navigation labels",
+ "Keep all interactive controls borderless - express state through color shifts (Ash Gray Ink Black) rather than fills or borders"
+ ],
+ "doNot": [
+ "Don\u0027t introduce a second chromatic color - the system is monochrome plus one blue, and adding another breaks the newspaper discipline",
+ "Don\u0027t use colored or gradient fills on buttons, cards, or surfaces - the only filled surface is the Ink Black Log in button",
+ "Don\u0027t use shadows on individual post cards - the single elevation halo belongs to the feed container only",
+ "Don\u0027t render text larger than 20px - the system operates in a 12-17px window and oversized type breaks the compact rhythm",
+ "Don\u0027t use a webfont when system-ui renders natively - replacing it with a custom face shifts the personality away from neutral utility",
+ "Don\u0027t put borders or backgrounds on sidebar icon buttons - they must read as a column of marks on a blank rail",
+ "Don\u0027t round card corners above 8px for embedded link previews or media - large radii on those elements compete with the feed container\u0027s own 18px curve"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/3b46c64e-b733-4d70-8cd0-531ca1f92937",
+ "referenceSite": "https://www.threads.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:59:12.567Z",
+ "articleModifiedAt": "2026-06-05T07:39:06.829Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d39ac8c6-7e40-4b34-8fa6-20dba892528e.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/d4f8242f-0e55-402d-b7e4-9e807c001b38.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0532105d-eef8-4725-9715-eef93d17efa1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/5185e585-5dff-407f-887c-07810125c4e3.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e82369d0-7896-44fd-b1ca-9fcf7414fafb.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/28bea3c8-ca7d-4477-af3d-fc65aa18eb59.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/1be623af-343a-4b18-a08b-6079d2dac8bb.png"
+ }
+ }
+}

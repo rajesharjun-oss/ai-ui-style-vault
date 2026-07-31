@@ -1,0 +1,223 @@
+{
+ "name": "Adcker",
+ "slug": "adcker",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#191919",
+ "token": "--color-ink-black",
+ "role": "All text, headlines, borders, link colors - the sole foreground color in the entire system. Near-black rather than pure black adds warmth that harmonizes with the cream canvas"
+ },
+ {
+ "name": "Bone Canvas",
+ "value": "#efedea",
+ "token": "--color-bone-canvas",
+ "role": "Page background, card surfaces, nav bar - the warm off-white ground that makes the near-black ink read with high contrast (15.1:1 AAA) without feeling harsh or clinical"
+ },
+ {
+ "name": "Stone Veil",
+ "value": "#e3e1de",
+ "token": "--color-stone-veil",
+ "role": "Subtle surface variation against Bone Canvas - used sparingly for secondary panels or section backgrounds to create depth without introducing color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "nhm",
+ "token": "--font-nhm",
+ "role": "Primary type system spanning body (16-21px) to extreme display (173-185px). Weight 400 carries both the whisper-quiet metadata and the 185px display headlines - the system trusts the scale to create hierarchy rather than reaching for bold weights. Letter-spacing tightens aggressively to -0.05em at display sizes to prevent the large counters from feeling airy."
+ },
+ {
+ "name": "psl",
+ "token": "--font-psl",
+ "role": "Mid-scale display for subheadings and section titles. Sits between body text and the extreme display tier, carrying -0.015em tracking for controlled density at smaller display sizes."
+ },
+ {
+ "name": "psr",
+ "token": "--font-psr",
+ "role": "Body text alternative at 21px with normal tracking - used for longer-form passages where the tighter nhm spacing would feel constrained."
+ },
+ {
+ "name": "Kumbh Sans",
+ "token": "--font-kumbh-sans",
+ "role": "Alternate display family at extreme sizes, sharing the same -0.05em tracking and tight 0.78-0.80 line-height as nhm. Provides a geometric counterpoint to nhm\u0027s neo-grotesque character for typographic variation within display lockups."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "16px",
+ "1.2",
+ "-0.8px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "21px",
+ "1",
+ "-1.05px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "34px",
+ "1",
+ "-0.51px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "69px",
+ "1",
+ "-1.035px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "173px",
+ "0.78",
+ "-8.65px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "185px",
+ "0.8",
+ "-9.25px",
+ "--text-display-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1400px",
+ "sectionGap": "200px",
+ "cardPadding": "32px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "112",
+ "112px",
+ "`--spacing-112`"
+ ],
+ [
+ "200",
+ "200px",
+ "`--spacing-200`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Minimal site header"
+ },
+ {
+ "name": "Editorial Display Headline",
+ "role": "Hero typographic lockup"
+ },
+ {
+ "name": "Metadata Label",
+ "role": "Small editorial annotation"
+ },
+ {
+ "name": "Showreel Player",
+ "role": "Video showcase container"
+ },
+ {
+ "name": "Case Study Card",
+ "role": "Project portfolio entry"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline navigation"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Visual section break"
+ },
+ {
+ "name": "Full-Bleed Image Block",
+ "role": "Photography showcase"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use display sizes exclusively at 173px or 185px - anything between 70px and 170px breaks the typographic extremes the system is built on",
+ "Maintain line-height 0.78-0.80 for display type to keep the massive headlines from drifting apart vertically",
+ "Set letter-spacing to -0.05em on all display text (nhm and Kumbh Sans tiers) to compensate for the wide counters at extreme sizes",
+ "Use the full 200px section gap between major content blocks - compact spacing here would undermine the editorial gravitas",
+ "Embed photographs inline within display text lockups rather than placing them as separate elements beside the text",
+ "Keep all text weight 400 unless explicitly calling for the nhm 700 weight - the system derives hierarchy from scale, not weight",
+ "Let the Bone Canvas (#efedea) serve as both background and surface - the monochromatic discipline is the point"
+ ],
+ "doNot": [
+ "Never introduce chromatic colors, brand accents, or semantic state colors - the 0% colorfulness is the system",
+ "Never apply border-radius to any element - all corners are sharp (0px) to preserve the brutalist editorial feel",
+ "Never use shadows, glows, or elevation effects - the system is completely flat",
+ "Never use body text larger than 21px or smaller than 16px - the gap between body and display is intentional and vast",
+ "Never use a centered CTA button with a colored fill - interactive elements are text links with underlines, not buttons",
+ "Never set display type at line-height above 0.85 - the tight leading is what makes 185px text feel like a single sculptural object",
+ "Never overlay text on dark backgrounds to create contrast - invert by using Ink Black (#191919) as a full surface, not as a treatment"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e48b2dd0-328a-42ab-ad0f-ed24901bac4c",
+ "referenceSite": "https://adcker.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-05-10T22:02:11.645Z",
+ "articleModifiedAt": "2026-06-05T08:08:18.732Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/0b933da1-b9b2-4f69-9893-2eedc42d9afe.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/3e6c48ea-2f42-4246-8127-fee08c34a442.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/fe7f8d47-5a76-4e2c-a707-de800abb6fb0.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7be50e01-e5be-49a7-bd59-344e9d2447ef.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/85268a30-8cfb-4e0f-961f-1993d46983b2.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/725900c6-0ea7-4e2b-bdea-1e339df742bf.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

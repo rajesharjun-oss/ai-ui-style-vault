@@ -1,0 +1,223 @@
+{
+ "name": "Uniswap Cup",
+ "slug": "uniswap-cup",
+ "colors": [
+ {
+ "name": "Bracket Pink",
+ "value": "#f50db4",
+ "token": "--color-bracket-pink",
+ "role": "Pink outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Graphite Black",
+ "value": "#000000",
+ "token": "--color-graphite-black",
+ "role": "Primary text, icon fills, team-name boxes, score text - the typographic and structural anchor"
+ },
+ {
+ "name": "Page White",
+ "value": "#ffffff",
+ "token": "--color-page-white",
+ "role": "Page canvas, inverted text on dark or pink nodes"
+ },
+ {
+ "name": "Off-Black",
+ "value": "#222222",
+ "token": "--color-off-black",
+ "role": "Secondary headings and subdued text - softer than pure black for non-critical labels"
+ },
+ {
+ "name": "Wire Gray",
+ "value": "#f2f2f2",
+ "token": "--color-wire-gray",
+ "role": "Hairline borders, divider rules, bracket connector lines, card outlines - the structural skeleton of the entire diagram"
+ },
+ {
+ "name": "Blush Wash",
+ "value": "#fef4ff",
+ "token": "--color-blush-wash",
+ "role": "Soft pink-tinted surface for highlighted match cards and accent panel backgrounds - pink diluted almost to white"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "ui-sans-serif",
+ "token": "--font-ui-sans-serif",
+ "role": "System sans-serif for body text, team names, labels, and UI chrome. Small scale (12-16px) and tight line-heights keep the bracket compact; weight 500-600 for labels, 400 for secondary text. Substitute: Inter, -apple-system, or any geometric sans."
+ },
+ {
+ "name": "ui-monospace",
+ "token": "--font-ui-monospace",
+ "role": "Monospace for all numerical scores, stage labels (R16, QF, SF), the UNISWAP CUP wordmark, and the central VS separator. Weight 700 at 32px for hero match scores with -0.02em tracking; weight 500 at 12px for stage markers. This monospace handling is signature - numbers and stages read like broadcast graphics, not body text. Substitute: JetBrains Mono, IBM Plex Mono, SF Mono."
+ },
+ {
+ "name": "Basel",
+ "token": "--font-basel",
+ "role": "Custom brand face used sparingly for select body text passages - a single weight (500) suggests Basel Grotesk or a geometric grotesque chosen for its even, technical character. Substitute: Inter or Sohne at weight 500."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "display",
+ "32px",
+ "1",
+ "-0.64px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "24px",
+ "cardPadding": "8px",
+ "elementGap": "4-8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "nodes",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Bracket Connector Line",
+ "role": "Structural diagram edge"
+ },
+ {
+ "name": "Winner Node (Pink Filled Box)",
+ "role": "Highlighted match result box"
+ },
+ {
+ "name": "Team Identity Box (Black Filled)",
+ "role": "Team name or avatar container"
+ },
+ {
+ "name": "Stage Label Tag (R16 / QF / SF)",
+ "role": "Round-of-tournament marker"
+ },
+ {
+ "name": "Status Pill (WINNER / Final / Road to final)",
+ "role": "Match-state annotation"
+ },
+ {
+ "name": "Central VS Separator",
+ "role": "Final-match divider"
+ },
+ {
+ "name": "Header Nav Tags (GROUP STAGE / LIVESTREAM)",
+ "role": "Top navigation chips"
+ },
+ {
+ "name": "Uniswap Cup Wordmark",
+ "role": "Page title lockup"
+ },
+ {
+ "name": "Tournament Bracket Frame",
+ "role": "Full-page layout container"
+ },
+ {
+ "name": "Match Date/Time Label",
+ "role": "Scheduling annotation"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #f50db4 exclusively for highlighted/winning states, stage tags, and the final-match callout - never as a decorative background fill on large areas",
+ "Keep all component corners at 0px radius - the design is deliberately square and diagrammatic",
+ "Use monospace (ui-monospace) for all numbers, scores, stage labels, and the wordmark; use system sans-serif for body and team names",
+ "Draw bracket connectors as 1px orthogonal lines in #f2f2f2 with right-angle turns, never curves or diagonals",
+ "Apply -0.02em letter-spacing to all monospace text at 32px and above to tighten the broadcast-graphic feel",
+ "Use #fef4ff as a soft accent surface behind highlighted match cards - it is a diluted pink, not a full brand fill",
+ "Keep the layout full-bleed and symmetrical; the bracket is the page, not a component within the page"
+ ],
+ "doNot": [
+ "Do not add shadows, gradients, or any elevation effects - the system is intentionally flat and diagrammatic",
+ "Do not introduce border-radius above 0px on any bracket node, tag, or structural element",
+ "Do not use #f50db4 for body text or large background fills - it is a highlighter, not a paint roller",
+ "Do not use a second accent color - the entire chromatic system is one pink; any second hue breaks the broadcast language",
+ "Do not use serif, display, or decorative typefaces - system sans and monospace only",
+ "Do not add card padding beyond 8px or section gaps beyond 24px - the design is compact and diagrammatic, not spacious",
+ "Do not wrap the bracket in a max-width container or centered column - it must span the full viewport to maintain symmetry"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/fabb51a0-0f83-4177-b83e-4969705a389c",
+ "referenceSite": "https://unicup.uniswap.org",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:30:35.576Z",
+ "articleModifiedAt": "2026-06-05T10:00:53.758Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c6e870bc-aaac-4983-8b8a-6fa42635fa35.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/5197a7e8-320f-4864-9d98-022652e50be8.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/91021e65-2808-4d74-b55e-5699a75f5c91.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/6747b767-c659-462c-b74b-78cf4c94a018.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e1a2dd19-72d9-49c5-bb5a-6620589e8570.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/d5c4d32f-1493-4326-8382-79ed869bf35e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/12d9e9a0-2a80-4c0e-979a-048452ae5df9.png"
+ }
+ }
+}

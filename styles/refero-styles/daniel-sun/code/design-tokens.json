@@ -1,0 +1,314 @@
+{
+ "name": "Daniel Sun",
+ "slug": "daniel-sun",
+ "colors": [
+ {
+ "name": "Solar Beam",
+ "value": "#ffd500",
+ "token": "--color-solar-beam",
+ "role": "The system\u0027s only chromatic color - hero gradient beam, handwritten underline accent, and the pill-shaped highlight button inside the dark nav capsule. This is the single note of warmth in an otherwise achromatic composition; its presence transforms monochrome blocks into a sunlit moment"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Primary text, display headlines, nav capsule background, and dominant typographic mass. Sets the highest-contrast tone for the condensed display name and grounds the floating nav pill"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Card surfaces, portfolio thumbnails, and the base of the white canvas. Provides the surface that the yellow beam and obsidian type play against"
+ },
+ {
+ "name": "Concrete",
+ "value": "#f5f5f5",
+ "token": "--color-concrete",
+ "role": "Page canvas and the lightest card/section background. Warmer than pure white, creates the gallery-wall feel beneath the hero"
+ },
+ {
+ "name": "Graphite",
+ "value": "#808080",
+ "token": "--color-graphite",
+ "role": "Body text, secondary metadata, and muted UI labels. The mid-neutral that bridges the obsidian headlines and the lighter ash tones"
+ },
+ {
+ "name": "Ash",
+ "value": "#a6a6a6",
+ "token": "--color-ash",
+ "role": "Muted helper text, tertiary body copy, and the soft end of the text scale. Sits beneath Graphite for non-essential information"
+ },
+ {
+ "name": "Fog",
+ "value": "#999999",
+ "token": "--color-fog",
+ "role": "Subdued heading and label color. Slightly cooler than Ash; used for section labels that need to recede behind the primary type"
+ },
+ {
+ "name": "Silver",
+ "value": "#b8b8b8",
+ "token": "--color-silver",
+ "role": "Subtle shadow tint and the softest hairline border. Carries the single shadow pattern that gives portfolio cards their barely-there lift"
+ },
+ {
+ "name": "Soft Shadow",
+ "value": "#cfcfcf",
+ "token": "--color-soft-shadow",
+ "role": "Drop shadow and elevation wash. The companion to Silver for the card shadow rgba(0,0,0,0.12) - never seen directly, only felt as depth"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Reddit Sans Condensed",
+ "token": "--font-reddit-sans-condensed",
+ "role": "Display headlines - the name \u0027DANIEL SUN\u0027 at 246px and section titles like \u0027MY LATEST WORK\u0027 at 88px. Ultra-condensed, ultra-black; the type is the architecture. Tracking tightens as size grows (-6.9px at 246px) to keep the massive letterforms visually unified. Substitute: Bebas Neue or Anton for the condensed impact, though no free font fully matches the geometry."
+ },
+ {
+ "name": "Inter Display",
+ "token": "--font-inter-display",
+ "role": "Section headings and larger body text. The medium weight (not bold) is deliberate - Inter Display 500 sits between the whisper of system text and the shout of the display face, creating a quiet middle register. Used for the 26-30px subheadings and the 18-20px lead paragraphs."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Body copy, navigation labels, and inline text. The 14px body-sm and 20px subheading sizes are the everyday workhorses; the 128px outlier is a decorative/typographic moment. Consistent 500 weight keeps the text system cohesive without ever feeling bold."
+ },
+ {
+ "name": "Caveat",
+ "token": "--font-caveat",
+ "role": "Handwritten personal asides - \u0027From 2020 til today,\u0027 date stamps, signature-style annotations. The only script in the system; its presence signals intimacy and breaks the architectural severity of the condensed display type. Use sparingly - one or two instances per section maximum."
+ },
+ {
+ "name": "System Sans",
+ "token": "--font-system-sans",
+ "role": "Smallest UI text - copyright lines, micro-labels, and inline metadata. Stays quiet and never competes with the display system."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.2",
+ "-0.5px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.3",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-0.32px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.1",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "36px",
+ "0.96",
+ "-2.63px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "88px",
+ "0.9",
+ "-2.99px",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "246px",
+ "1",
+ "-6.89px",
+ "--text-display-xl"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80-120px",
+ "cardPadding": "32-40px",
+ "elementGap": "8-16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "14px"
+ ],
+ [
+ "images",
+ "14px"
+ ],
+ [
+ "buttons",
+ "32px"
+ ],
+ [
+ "navCapsule",
+ "110px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Nav Capsule",
+ "role": "Primary navigation container"
+ },
+ {
+ "name": "Nav Highlight Button",
+ "role": "Primary call-to-action within the nav capsule"
+ },
+ {
+ "name": "Display Name",
+ "role": "Hero identity - the designer\u0027s name as architecture"
+ },
+ {
+ "name": "Hero Gradient Beam",
+ "role": "Signature visual element - the single chromatic accent"
+ },
+ {
+ "name": "Section Title",
+ "role": "Section-level display heading"
+ },
+ {
+ "name": "Handwritten Annotation",
+ "role": "Personal timestamp or intimate label"
+ },
+ {
+ "name": "Portfolio Card",
+ "role": "Project/work showcase container"
+ },
+ {
+ "name": "Lead Paragraph",
+ "role": "Introductory body text below display headlines"
+ },
+ {
+ "name": "Portfolio Preview Frame",
+ "role": "Image container within a portfolio card"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Reddit Sans Condensed 900 at 88-246px for every display-level headline; the condensed geometry is the brand.",
+ "Set the name/hero display at exactly 246px with letter-spacing -6.89px - this scale is the signature, not optional.",
+ "Place exactly one yellow gradient beam per hero; it is the only chromatic element in the system.",
+ "Use Caveat 700 at 28px for personal timestamps above section titles, colored Graphite (#808080) so it recedes behind the display face.",
+ "Use the nav capsule (110px radius, #1f1f1f background) for all top-level navigation - never replace it with a flat horizontal bar.",
+ "Round portfolio cards and images at 14px; round buttons at 32px (pill); round the nav at 110px (fully rounded). These three radii are the system\u0027s geometry.",
+ "Keep body text in Inter 500 at 18-20px with line-height 1.30; never use weight 400 - the medium weight is non-negotiable for readability against the massive display type."
+ ],
+ "doNot": [
+ "Do not add chromatic colors beyond #ffd500 - the system is monochrome with one solar accent; introducing a second hue breaks the gallery metaphor.",
+ "Do not set the display name below 88px or above 246px - the extreme scale is the point; intermediate sizes lose impact.",
+ "Do not use shadows on buttons, nav elements, or text blocks; the single shadow pattern is reserved for portfolio cards only.",
+ "Do not replace Reddit Sans Condensed with a non-condensed display face; the compressed letterforms are what make the 246px headline read as a single mass.",
+ "Do not use Caveat for anything longer than a date range or one-line aside; the script loses intimacy when it carries real content.",
+ "Do not add gradients other than the single yellow beam; the system is flat surfaces and one light source - multi-color gradients destroy the restraint.",
+ "Do not use weight 700+ for body or subheading text; the 500 weight is the system\u0027s voice - bolding it creates visual noise against the 900-weight display face."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/8d1b6c70-e045-4ce6-891d-aba5d5c00e0d",
+ "referenceSite": "https://danielsun.space",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-02-20T14:29:47.000Z",
+ "articleModifiedAt": "2026-06-05T08:10:45.542Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/fe822214-d2cf-449f-85ca-d28f0e1a5aac.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/2cf1443e-7784-4e4b-b5cb-01951e7082de.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/7fd0cab8-4e06-497d-932f-a2b92a7c75c3.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/fa222151-6070-487b-b75b-9cfe9c2299f5.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/3a107d12-464d-4827-b5e3-701344e5ecba.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/57c49e73-663a-4330-be9f-5d693a82de46.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/8a48605d-78d6-4eae-9a84-e1fa7e07f738.png"
+ }
+ }
+}

@@ -1,0 +1,302 @@
+{
+ "name": "Adanola",
+ "slug": "adanola",
+ "colors": [
+ {
+ "name": "Carbon Ink",
+ "value": "#000000",
+ "token": "--color-carbon-ink",
+ "role": "Primary text, filled action buttons, icon strokes, hairlines - the dominant ink across the entire interface"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, card surfaces, text on dark fills, image backgrounds"
+ },
+ {
+ "name": "Soft Mist",
+ "value": "#e5e7eb",
+ "token": "--color-soft-mist",
+ "role": "Subtle surface alternation, disabled states, skeleton backgrounds, light dividers"
+ },
+ {
+ "name": "Warm Fog",
+ "value": "#f0efe7",
+ "token": "--color-warm-fog",
+ "role": "Off-white surface variant for subtle banding between product rows and editorial sections"
+ },
+ {
+ "name": "Blush Sand",
+ "value": "#f5ebd5",
+ "token": "--color-blush-sand",
+ "role": "Warm cream surface for editorial highlight sections and seasonal accents"
+ },
+ {
+ "name": "Smoke Charcoal",
+ "value": "#333333",
+ "token": "--color-smoke-charcoal",
+ "role": "Secondary text, input borders, subdued UI chrome"
+ },
+ {
+ "name": "Onyx",
+ "value": "#1d1d1d",
+ "token": "--color-onyx",
+ "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Stone Gray",
+ "value": "#cccccc",
+ "token": "--color-stone-gray",
+ "role": "Placeholder backgrounds, image placeholder fills, neutral swatch defaults"
+ },
+ {
+ "name": "Slate",
+ "value": "#2f3440",
+ "token": "--color-slate",
+ "role": "Cool charcoal for product photography backgrounds and muted editorial surfaces"
+ },
+ {
+ "name": "Olive Drab",
+ "value": "#636355",
+ "token": "--color-olive-drab",
+ "role": "Warm muted surface for product photography contexts"
+ },
+ {
+ "name": "Maroon Clay",
+ "value": "#523037",
+ "token": "--color-maroon-clay",
+ "role": "Warm muted surface for product photography contexts"
+ },
+ {
+ "name": "Deep Iris",
+ "value": "#222845",
+ "token": "--color-deep-iris",
+ "role": "Cool muted surface for product photography contexts"
+ },
+ {
+ "name": "Pewter",
+ "value": "#677284",
+ "token": "--color-pewter",
+ "role": "Cool gray for product photography contexts"
+ },
+ {
+ "name": "Driftwood",
+ "value": "#dfccbe",
+ "token": "--color-driftwood",
+ "role": "Warm beige for product photography contexts"
+ },
+ {
+ "name": "Pale Tide",
+ "value": "#badce4",
+ "token": "--color-pale-tide",
+ "role": "Cool pastel surface for editorial accent sections"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Favorit",
+ "token": "--font-favorit",
+ "role": "Brand and UI typeface - used across all navigation, headings, body, buttons, inputs, and product cards. Custom monoline sans-serif with tight tracking (0.025em). Substitutes: Inter, Sohne, or Neue Haas Grotesk. The whisper-weight 400 at 30px for hero headlines is a signature choice - most fashion sites use display serifs or bold weights, but Adanola\u0027s regular-weight headlines in a clean sans feel like editorial captions rather than advertising slogans."
+ },
+ {
+ "name": "Nunito Sans",
+ "token": "--font-nunito-sans",
+ "role": "Secondary fallback for form inputs and minor chrome elements"
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "System fallback for legacy email and content blocks"
+ },
+ {
+ "name": "swym-font",
+ "token": "--font-swym-font",
+ "role": "swym-font - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Source Sans Pro",
+ "token": "--font-source-sans-pro",
+ "role": "Source Sans Pro - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "14px",
+ "1.33",
+ "0.35px",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "20px",
+ "1.2",
+ "0.5px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "30px",
+ "1.2",
+ "0.75px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1440px",
+ "sectionGap": "64px",
+ "cardPadding": "16px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Ghost CTA Button",
+ "role": "Primary hero and section action (e.g. \u0027SHOP ACTIVE\u0027)"
+ },
+ {
+ "name": "Filled Quick Add Button",
+ "role": "Compact product-card action for adding to bag"
+ },
+ {
+ "name": "Product Card",
+ "role": "Grid item in product listing sections"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site-wide navigation header"
+ },
+ {
+ "name": "Announcement Bar",
+ "role": "Top-of-page promotional strip"
+ },
+ {
+ "name": "Category Tab Filter",
+ "role": "Horizontal category switcher above product grids"
+ },
+ {
+ "name": "Wishlist Heart Icon",
+ "role": "Save-to-favorites trigger on product cards"
+ },
+ {
+ "name": "Color Swatch Row",
+ "role": "Product colorway selector on cards"
+ },
+ {
+ "name": "Search Input",
+ "role": "Site search and product filtering"
+ },
+ {
+ "name": "Chat Widget",
+ "role": "Live chat and support trigger"
+ },
+ {
+ "name": "Hero Image Section",
+ "role": "Full-bleed editorial photography"
+ },
+ {
+ "name": "Product Grid",
+ "role": "Main product listing layout"
+ },
+ {
+ "name": "Split Editorial Section",
+ "role": "Two-image lifestyle feature block"
+ },
+ {
+ "name": "Slide Pagination Dots",
+ "role": "Carousel/slider position indicator"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Favorit at all UI touchpoints - navigation, buttons, product names, headings - with 0.025em letter-spacing as the brand\u0027s defining typographic fingerprint",
+ "Set primary actions as ghost/outlined buttons (1px #000000 border, transparent fill) - filled black is reserved for compact secondary actions like Quick Add",
+ "Keep all border-radius values at 0px for product cards, images, and tags; use 4px only for buttons and inputs - the crisp rectangular geometry is core to the editorial lookbook feel",
+ "Let product photography provide all color on listing and editorial pages - the UI chrome should stay near-monochrome (white surfaces, black text, #e5e7eb alternation) so garment hues read as the only chromatic accents",
+ "Use compact 4px-based spacing (4/8/16/24px) for UI elements, then break to generous 64px+ section gaps to create the calm editorial rhythm between product grids",
+ "Anchor the product card layout to a 4-column desktop grid with images that fill card width edge-to-edge - no card containers, no shadows, no borders around product images",
+ "Apply the black announcement bar (#000000 bg, white 9px Favorit text) as a persistent strip above the nav for promotions and shipping messages"
+ ],
+ "doNot": [
+ "Do not introduce drop shadows or box-shadow elevation on any component - the design system is deliberately flat and relies on whitespace and hairlines for separation",
+ "Do not use saturated brand colors for buttons, links, or interactive states - keep the action palette strictly black/white/outline",
+ "Do not round product card images or product card containers - the sharp rectangular edges are signature to the lookbook treatment",
+ "Do not use display serifs, script fonts, or decorative typefaces for headings - the whisper-weight regular Favorit at 30px is the hero voice",
+ "Do not add gradient backgrounds, colored section bands, or decorative patterns to page sections - alternation should be subtle (#e5e7eb, #f0efe7, #f5ebd5) at most",
+ "Do not add icon containers, badges, or pill shapes around UI elements - tags and labels should be plain text with optional hairline underlines",
+ "Do not use large border-radius values (8px+) on any element - the entire system is anchored to 0px and 4px radii only"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/a54e5114-bfb1-44ce-ab07-a133a1226117",
+ "referenceSite": "https://adanola.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-05-10T22:01:39.628Z",
+ "articleModifiedAt": "2026-06-05T07:50:36.730Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/fd372f69-fb29-4d48-9fc6-f7764f6c3c56.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a153ec7c-d0af-4cee-93c2-a7a4f3d7f5f0.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/83d5641a-28a0-42db-9882-0d7188fdcd91.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/095603e2-db3e-42eb-93bc-81358e29c093.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/b585a19f-15c9-43d7-bd6f-104fa972a546.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/2975d1a2-44f5-484c-834f-cea4cf0a7f3d.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ }
+}

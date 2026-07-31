@@ -1,0 +1,245 @@
+{
+ "name": "Design Full-Time",
+ "slug": "design-full-time",
+ "colors": [
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Page canvas, dominant background - absorbs everything so content and the warm gradient banner can command attention"
+ },
+ {
+ "name": "Surface Black",
+ "value": "#111111",
+ "token": "--color-surface-black",
+ "role": "Card backgrounds, elevated panels, filled neutral button surface - one step off the canvas creates depth without gray noise"
+ },
+ {
+ "name": "Lifted Charcoal",
+ "value": "#252525",
+ "token": "--color-lifted-charcoal",
+ "role": "Mid-elevation surfaces, hover states, and subtle card depth - bridges the page black and border tones"
+ },
+ {
+ "name": "Border Gray",
+ "value": "#343434",
+ "token": "--color-border-gray",
+ "role": "Hairline dividers, card outlines, table rules - defines structural edges in a flat world"
+ },
+ {
+ "name": "Edge Gray",
+ "value": "#4d4d4d",
+ "token": "--color-edge-gray",
+ "role": "Heavier borders on outlined buttons and grouped control frames"
+ },
+ {
+ "name": "Muted Text",
+ "value": "#888888",
+ "token": "--color-muted-text",
+ "role": "Secondary body text, metadata, timestamps, supporting copy"
+ },
+ {
+ "name": "Helper Gray",
+ "value": "#a0a0a0",
+ "token": "--color-helper-gray",
+ "role": "Body text borders and subtle helper text where full white feels too loud"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Primary headings, nav text, button text, logo fill - the only color allowed to compete with the gradient banner"
+ },
+ {
+ "name": "Amber Glow",
+ "value": "#fa3a19",
+ "token": "--color-amber-glow",
+ "role": "Promotional banner start - the cool-yellow origin of the warm spotlight gradient (also gradient)"
+ },
+ {
+ "name": "Ember Orange",
+ "value": "#ff8a00",
+ "token": "--color-ember-orange",
+ "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Crimson Heat",
+ "value": "#ff8a00",
+ "token": "--color-crimson-heat",
+ "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Sole typeface. Inter 700/800 for the wordmark and section headlines (confident, instructor-led); 600 for video titles and nav labels; 400 for body copy and metadata. No display-size font in the system - the brand keeps type compact (capped at 24px) and lets the gradient banner and video thumbnails carry visual weight instead."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "15px",
+ "21",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "28",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "28",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "24px",
+ "32",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "48px",
+ "cardPadding": "16px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "6px"
+ ],
+ [
+ "badges",
+ "4px"
+ ],
+ [
+ "banner",
+ "4px"
+ ],
+ [
+ "buttons",
+ "6px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Brand Wordmark",
+ "role": "Logo / identity"
+ },
+ {
+ "name": "Promo Banner (Gradient Strip)",
+ "role": "Conversion / offer highlight"
+ },
+ {
+ "name": "Promo Gradient Button",
+ "role": "Primary conversion CTA on banner"
+ },
+ {
+ "name": "Outlined Nav Button",
+ "role": "Secondary account action"
+ },
+ {
+ "name": "Video Lesson Card",
+ "role": "Course / free lesson entry point"
+ },
+ {
+ "name": "Video Duration Badge",
+ "role": "Thumbnail metadata overlay"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Section title"
+ },
+ {
+ "name": "Video Title",
+ "role": "Lesson card primary label"
+ },
+ {
+ "name": "Category Label",
+ "role": "Lesson card metadata"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #000000 as the page canvas and keep all non-promo content achromatic - let the warm gradient banner be the only chromatic event on the page.",
+ "Apply the linear-gradient(90deg, #ff8a00, #fa3a19) exclusively to the promo CTA button; never use it for nav, icons, or course cards.",
+ "Use Inter 700/800 for all headings and Inter 400/600 for body - never mix in a second typeface family.",
+ "Define card edges with 1px #343434 borders on #111111 surfaces; skip shadows and rely on flat color steps for hierarchy.",
+ "Set video card padding to 16px and maintain an 8px gap between thumbnail, title, and category label inside each card.",
+ "Keep the type scale capped at 24px - let video thumbnails and the gradient banner carry visual scale instead of oversized headlines.",
+ "Use #ffffff for interactive text and headings, #a0a0a0 / #888888 for metadata and secondary copy."
+ ],
+ "doNot": [
+ "Don\u0027t introduce any blue, green, or purple accent - the brand is a two-tone system (monochrome + warm gradient) and extra hues will dilute the spotlight effect.",
+ "Don\u0027t apply the warm gradient to body text, icons, or borders - reserve it for the promo banner surface and its CTA button only.",
+ "Don\u0027t use shadows or heavy rounded corners (\u003e=12px); the system is intentionally flat with 4-6px radii and hairline borders.",
+ "Don\u0027t set headings above 24px; oversized display type breaks the compact, instructor-led feel.",
+ "Don\u0027t use #111111 as a button background for primary actions - that role belongs exclusively to the warm gradient CTA.",
+ "Don\u0027t introduce a second typeface, custom display face, or serif - Inter alone carries the brand at every weight.",
+ "Don\u0027t place the gradient banner inside cards or repeated lists; it must remain a singular full-width conversion event."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/80b2cc74-62c5-4898-bc2b-12aa94ed2943",
+ "referenceSite": "https://designfulltime.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:16:16.400Z",
+ "articleModifiedAt": "2026-06-05T11:34:34.235Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/82b46981-6640-4f6f-99a1-3c98d125dedd.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/3ad11d9f-2032-468e-8732-6716ebecaeb2.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/37ace79e-4a4b-4215-a05a-4e1e7646dc7f.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/f68fbdaf-68a7-4dcd-9c55-fa270a6d8c89.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/6c0daecb-65d8-45f0-b3af-95b2a8f7e710.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/53f896b5-d21b-452c-946d-c38310c88abc.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/b2688e77-705b-4221-8fed-8e9ee038e986.png"
+ }
+ }
+}

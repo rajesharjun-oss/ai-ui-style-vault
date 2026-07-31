@@ -1,0 +1,254 @@
+{
+ "name": "Shupatto",
+ "slug": "shupatto",
+ "colors": [
+ {
+ "name": "Graphite",
+ "value": "#2d2d2d",
+ "token": "--color-graphite",
+ "role": "Primary text, hairline borders, structural lines - the dominant neutral carrying all interface weight"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Strongest text and most emphatic borders, logo dots, footer marks"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page canvas, card surfaces, nav backgrounds - the unbroken white field everything floats on"
+ },
+ {
+ "name": "Fog",
+ "value": "#878887",
+ "token": "--color-fog",
+ "role": "Muted helper text, secondary borders, dimmed metadata"
+ },
+ {
+ "name": "Periwinkle",
+ "value": "#738ae5",
+ "token": "--color-periwinkle",
+ "role": "Sole chromatic accent - selected nav state, badge fills, a rare pressure point in an otherwise colorless system"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "GillSansNova-Book",
+ "token": "--font-gillsansnova-book",
+ "role": "Primary typeface for body, headings, nav, links, and icon-adjacent text - carries the entire English typographic system at a medium weight with wide tracking"
+ },
+ {
+ "name": "GillSansNova-SemiBold",
+ "token": "--font-gillsansnova-semibold",
+ "role": "Emphasis and key headings - the bolder weight creates hierarchy without size inflation; the 8px variant carries micro-labels and badge text"
+ },
+ {
+ "name": "(Yu Gothic)",
+ "token": "--font-yu-gothic",
+ "role": "Japanese text rendering - sits at the same metric scale as the English system, ensuring bilingual visual parity"
+ },
+ {
+ "name": "CezannePro-DB",
+ "token": "--font-cezannepro-db",
+ "role": "Micro-decorative and brand-specific marks - a secondary display face for labels that need a different visual texture from the main Gill system"
+ },
+ {
+ "name": "GillSansNova-Medium",
+ "token": "--font-gillsansnova-medium",
+ "role": "GillSansNova-Medium - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "16px",
+ "1.29",
+ "1.28px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.25",
+ "1.44px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "21px",
+ "1.22",
+ "2.52px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading-lg",
+ "28px",
+ "1",
+ "2.24px",
+ "--text-heading-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "17",
+ "17px",
+ "`--spacing-17`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "21",
+ "21px",
+ "`--spacing-21`"
+ ],
+ [
+ "22",
+ "22px",
+ "`--spacing-22`"
+ ],
+ [
+ "23",
+ "23px",
+ "`--spacing-23`"
+ ],
+ [
+ "27",
+ "27px",
+ "`--spacing-27`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "all",
+ "3px"
+ ],
+ [
+ "cards",
+ "3px"
+ ],
+ [
+ "badges",
+ "3px"
+ ],
+ [
+ "buttons",
+ "3px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Hairline-Bordered Card",
+ "role": "Universal content container"
+ },
+ {
+ "name": "Text-Nav Link",
+ "role": "Navigation item"
+ },
+ {
+ "name": "Selected Nav Dot",
+ "role": "Active state indicator"
+ },
+ {
+ "name": "Editorial Display Heading",
+ "role": "Page title and section headers"
+ },
+ {
+ "name": "Micro-Label Badge",
+ "role": "Category tags and product marks"
+ },
+ {
+ "name": "Product Grid Cell",
+ "role": "Catalog item"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Section separator"
+ },
+ {
+ "name": "Ghost Body Link",
+ "role": "Inline text link"
+ },
+ {
+ "name": "Sparse Footer Mark",
+ "role": "Footer brand and meta"
+ },
+ {
+ "name": "Image Caption Label",
+ "role": "Photo or product caption"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use uppercase with letter-spacing 0.07em for all interface text - this tracking is the typographic signature, not the weight or size",
+ "Separate content containers with 1px #2d2d2d or #000000 hairline borders, never with background fills or shadows",
+ "Keep the 3px border-radius for every rounded element - a sharper, more architectural system than the common 8-16px",
+ "Limit color to the neutrals plus periwinkle #738ae5; let the periwinkle appear on at most 1-2 elements per view as a quiet accent",
+ "Set body text at 16-18px with 1.22-1.33 line-height and 0.07-0.1em letter-spacing for an editorial gallery feel",
+ "Use GillSansNova-SemiBold (weight 800) at 8px with 0.119em tracking for all micro-labels, badges, and category stamps",
+ "Apply the \"palt\" font-feature setting globally - it optimizes proportional alternates and is non-negotiable for the brand\u0027s typographic identity"
+ ],
+ "doNot": [
+ "Do not introduce shadows, gradients, or any form of elevation - the design system is flat by philosophy",
+ "Do not add bright or saturated colors beyond #738ae5; even secondary accents should stay neutral",
+ "Do not use border-radius above 3px; avoid pill shapes and large rounded corners",
+ "Do not set type in mixed case or normal letter-spacing; everything reads as editorial display via tracking",
+ "Do not fill cards or sections with tinted backgrounds; rely on hairline borders to create structure on the white canvas",
+ "Do not use large display type below 28px or above 32px - the scale is deliberately compressed and quiet",
+ "Do not add icons with weight above 1px stroke; icons are absent or drawn as the thinnest possible lines"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/17824ea8-ac7d-42ca-97e2-9bf92ebea7e1",
+ "referenceSite": "https://www.shupatto.com/en",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:14:54.023Z",
+ "articleModifiedAt": "2026-06-05T09:07:11.320Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/89006657-c1f4-4652-b98f-a752c97d47d3.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c77ab582-bcff-4200-989c-2395ec2085a6.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/e53a56ae-06b0-4cf4-8e59-c9b3ede10bbb.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/505dbdea-8262-4c40-b215-7ab70fa08589.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/788a58e2-783e-495b-84c0-0762d945a7e2.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5bef66d4-00af-4f7e-bf2a-d4a95efaa9b8.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/19227bec-ccea-4967-ae1a-f345876b763d.png"
+ }
+ }
+}

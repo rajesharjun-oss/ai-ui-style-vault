@@ -1,0 +1,367 @@
+{
+ "id": "2c05cf8d-97c5-4f35-96ef-eb53fc03ea81",
+ "name": "Varo Bank",
+ "slug": "varo-bank",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/2c05cf8d-97c5-4f35-96ef-eb53fc03ea81",
+ "referenceSite": "https://www.varomoney.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:25:47.296Z",
+ "articleModifiedAt": "2026-06-05T09:32:57.052Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/cd4f43fb-ac0b-48d5-a847-858ad0129e63.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/39b0f952-ba44-4f2d-bde4-166f827da881.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/84e52a34-5fd4-4f6c-9364-dfa4523fd1e8.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4dd4a5e1-9c1e-4151-be06-8230588dffa4.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/def31a56-9f36-4c3f-86c6-3204c6db5fc1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c87b2a01-4079-4c35-b9aa-4a8805e9f108.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/58a1cc2a-9dfb-4b1b-a711-60ea9cf81259.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Fintech",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Fintech",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "neon bank statement on a sticky note - bold compressed type punched onto bright colored cardstock, held together by hairline black outlines",
+ "summary": "Explore Varo Bank\u0027s light Fintech design system: Varo Violet #8c58d0, Deep Plum #42185f colors, Neue Haas Grotesk Display, National 2 Compressed typography,...",
+ "colors": [
+ {
+ "name": "Varo Violet",
+ "value": "#8c58d0",
+ "token": "--color-varo-violet",
+ "role": "Primary action buttons, active nav, brand logo - the single saturated mid-violet that powers all interactive states"
+ },
+ {
+ "name": "Deep Plum",
+ "value": "#42185f",
+ "token": "--color-deep-plum",
+ "role": "Dark accent surfaces, bold text on light cards, full-bleed dark band backgrounds - almost-black with violet undertone"
+ },
+ {
+ "name": "Lilac Mist",
+ "value": "#cdb0fa",
+ "token": "--color-lilac-mist",
+ "role": "Soft violet fill for selected/secondary surface states, tag backgrounds"
+ },
+ {
+ "name": "Coral Ember",
+ "value": "#ed6c52",
+ "token": "--color-coral-ember",
+ "role": "Decorative section fills, icon highlights, dotted ticker text - warm chromatic punctuation that breaks up the violet dominance"
+ },
+ {
+ "name": "Salmon Wash",
+ "value": "#f2a295",
+ "token": "--color-salmon-wash",
+ "role": "Soft warm section background, muted coral - large-area color band that reads warm without screaming"
+ },
+ {
+ "name": "Butter Cream",
+ "value": "#faefdc",
+ "token": "--color-butter-cream",
+ "role": "Pale cream surface band - the gentlest warm neutral, used as an alternate section background to white"
+ },
+ {
+ "name": "Lemon Zest",
+ "value": "#fdf0af",
+ "token": "--color-lemon-zest",
+ "role": "High-saturation yellow accent for card borders, feature callouts, ticker text - never a fill, always an outline or text"
+ },
+ {
+ "name": "Lime Pulse",
+ "value": "#d4e84b",
+ "token": "--color-lime-pulse",
+ "role": "Vivid lime used in feature card backgrounds and outlined graphic elements - the most attention-grabbing decorative color"
+ },
+ {
+ "name": "Forest Ink",
+ "value": "#183428",
+ "token": "--color-forest-ink",
+ "role": "Deep green for dark feature card backgrounds and high-contrast text - rare but anchors green-themed cards"
+ },
+ {
+ "name": "Mustard Shadow",
+ "value": "#4a4216",
+ "token": "--color-mustard-shadow",
+ "role": "Muted olive text and border accent on yellow/cream surfaces - never used as a fill"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "Primary text, hairline borders, icon strokes - the dominant structural color"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, card surfaces, button text on colored fills, inverted text on dark bands"
+ },
+ {
+ "name": "Soft Ash",
+ "value": "#1c1c1c",
+ "token": "--color-soft-ash",
+ "role": "Near-black secondary text and borders - barely distinguishable from Carbon but used for slightly softer contrast"
+ },
+ {
+ "name": "Concrete",
+ "value": "#939393",
+ "token": "--color-concrete",
+ "role": "Muted helper text, disabled states, secondary metadata"
+ },
+ {
+ "name": "Fog",
+ "value": "#eff2f5",
+ "token": "--color-fog",
+ "role": "Cool light-gray surface, pressed-button background, input field fill on dark sections"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Neue Haas Grotesk Display",
+ "token": "--font-neue-haas-grotesk-display",
+ "role": "Body, subheads, small labels, button text, nav, form copy - the workhorse neo-grot at 12-72px. Weight 450 is the signature mid-weight for body copy; 500 for nav and labels; 400 for de-emphasized body. Letter-spacing tightens from 0.0200em at 12px to -0.0200em at 72px. Substitute: Inter, Sohne, or Neue Haas Grotesk Text Pro."
+ },
+ {
+ "name": "National 2 Compressed",
+ "token": "--font-national-2-compressed",
+ "role": "Display headlines only - used at 56-147px with line-height 0.80-0.95, the ultra-condensed proportions make type behave as a graphic block; weight 450 for default, 700 for maximum-impact stat callouts. Substitute: Oswald (700/600) or Antonio Bold. Letter-spacing: -0.0100em across the scale."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "Times - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Metropolis",
+ "token": "--font-metropolis",
+ "role": "Metropolis - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.33",
+ "0.24px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.2",
+ "-0.004px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.4",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.28",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.17",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "52px",
+ "1.11",
+ "-0.676px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "96px",
+ "0.95",
+ "-0.96px",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "147px",
+ "0.8",
+ "-1.47px",
+ "--text-display-xl"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "48-64px",
+ "cardPadding": "24px",
+ "elementGap": "16-24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "4px"
+ ],
+ [
+ "cards",
+ "4px"
+ ],
+ [
+ "images",
+ "4px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary CTA Button (Filled Violet)",
+ "role": "Only filled button variant - every meaningful action in the product"
+ },
+ {
+ "name": "Text-Only Action Button (Ghost)",
+ "role": "Secondary actions rendered as clickable text, often with an arrow"
+ },
+ {
+ "name": "Email Input Field",
+ "role": "Hero and form lead-capture"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent global header"
+ },
+ {
+ "name": "Hero Split Section",
+ "role": "First screen above the fold"
+ },
+ {
+ "name": "Ticker Marquee Band",
+ "role": "Scrolling trust statement / feature highlight"
+ },
+ {
+ "name": "Feature Card (Colored Fill)",
+ "role": "Product feature highlight in the \u0027Start banking better today\u0027 grid"
+ },
+ {
+ "name": "Split Feature Section",
+ "role": "Product capability pages (Cash Advance, Line of Credit)"
+ },
+ {
+ "name": "Dark CTA Banner",
+ "role": "Conversion closer, e.g. \u0027Quails apply\u0027 sections"
+ },
+ {
+ "name": "Footer",
+ "role": "Legal, links, app store badges"
+ },
+ {
+ "name": "Stat Callout (Oversized Number)",
+ "role": "In-page emphasis on dollar amounts or key facts"
+ }
+ ],
+ "dos": [
+ "Use National 2 Compressed at 76-147px with line-height 0.80-0.95 for every display headline; never set line-height above 1.0 on display sizes.",
+ "Apply the single violet #8c58d0 for every filled primary action - Log in link, Get started button, and Learn more all share this exact fill.",
+ "Combine two type families only: National 2 Compressed for display, Neue Haas Grotesk Display for everything from 72px down. Never mix a third face.",
+ "Set all radii to 4px - buttons, inputs, cards, images, and tags share the same corner radius for a uniform, sticker-like quality.",
+ "Use 1px solid #000000 borders on every card, input, and graphic element. Color lives in fills, not strokes.",
+ "Anchor every section with a kicker label (14-16px weight 500) above the display headline; the kicker names the product or concept.",
+ "Tighten letter-spacing on large sizes: -0.0100em on National 2 Compressed, -0.0200em on Neue Haas Grotesk Display at 52px and above."
+ ],
+ "donts": [
+ "Never use #8c58d0 as decorative fill or section background - it is reserved exclusively for interactive elements. Colored section bands use cream, salmon, plum, or lime instead.",
+ "Never introduce drop shadows, blur effects, or multi-layer elevation. The system is intentionally flat - if a surface needs separation, add a 1px black border or a color change.",
+ "Never mix line-heights above 1.0 with National 2 Compressed - the compressed letterforms need tight leading to read as a graphic block; open leading destroys the block effect.",
+ "Never place a chromatic button on a chromatic section background of the same hue family - violet buttons only sit on white, cream, or dark plum.",
+ "Never use a serif, monospace, or handwriting face - the two-family system (compressed display + neutral grotesk) is the entire typographic identity.",
+ "Never round corners above 4px or use pill-shaped buttons; 4px is a hard rule across the system.",
+ "Never use #0000ee or any browser-default link color; all link text and underlines are #000000 or section-matched."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper White | `#ffffff` | Default page canvas, hero backgrounds |\n| 1 | Cool Fog | `#eff2f5` | Pressed-state button, input on dark sections |\n| 2 | Butter Cream | `#faefdc` | Warm alternate section background |\n| 3 | Salmon Wash | `#f2a295` | Full-bleed colored section band |\n| 4 | Deep Plum | `#42185f` | Dark inverted section band |",
+ "elevation": "- **Feature Card:** `none - flat color fill with 1px solid #000000 border, no shadow`\n- **Primary Button:** `none - flat fill, no shadow`",
+ "imagery": "Varo\u0027s imagery is lifestyle-first and tightly cropped: young adults in casual environments (apartment interiors, laundromats, coffee shops) photographed in natural light with a warm, slightly desaturated treatment. Devices - iPhones showing the Varo app - appear frequently as hand-held hero objects rather than floating product shots. All photos are contained in 4px-radius frames with no shadow, feeling pasted onto the page like magazine cutouts. No illustrations, no abstract graphics, no 3D renders. Icons are line-art at 1.5-2px stroke weight, mono-color, matching the border treatment. Imagery occupies roughly 40% of any given section, balanced against the oversized display typography.",
+ "layout": "Max-width 1200px centered content on a full-bleed white canvas. The hero is a 50/50 split: text-and-email-capture on the left, device-in-hand photo on the right, both at generous scale. Sections alternate rhythm by color band rather than by content type - a full-bleed violet or salmon band, then a contained white section, then another colored band, creating a poster-zine cadence. Product feature pages use a consistent 50/50 split with the display headline on one side and a cropped lifestyle photo on the other, flipping which side carries which across scroll. Feature cards appear in a 4-column row in the \u0027Start banking today\u0027 grid. Vertical rhythm is bold: 64-80px section padding, with display headlines so large they often dictate section height. Navigation is a clean top bar with no sticky behavior implied - no mega-menu, no sidebar. The overall cadence is: loud display photo or card grid colored band ticker next section."
+}

@@ -1,0 +1,314 @@
+{
+ "id": "7d6a8722-a6f4-40de-a761-16ea479630a9",
+ "name": "Instagram Sans Typeface",
+ "slug": "instagram-sans-typeface",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/7d6a8722-a6f4-40de-a761-16ea479630a9",
+ "referenceSite": "https://about.instagram.com/brand/type",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:43:26.461Z",
+ "articleModifiedAt": "2026-06-05T08:24:39.157Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ae504583-096b-4ef6-af3a-618cd4e1344a.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e9216ad4-2c23-4a7f-a275-da9ff0f21332.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/11060ff4-2048-45fd-8f65-9a6b759013da.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/ebb74a88-2a5f-4501-811e-26491c2d87a0.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e41d2dba-8540-47a2-9b09-9569eef37ed9.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/7557db4a-21dc-4709-9a57-dddea3631eb5.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "mixed",
+ "category": "Media",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Media",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Living type museum. Oversized black letterforms on slabs of neon, displayed like sculpture in a white room.",
+ "summary": "Explore Instagram Sans Typeface\u0027s mixed Media design system: Signal Pink #ff0169, Plasma Magenta #d300c5 colors, Instagram Sans, Instagram Sans Headline...",
+ "colors": [
+ {
+ "name": "Signal Pink",
+ "value": "#ff0169",
+ "token": "--color-signal-pink",
+ "role": "Gradient origin - Instagram brand gradient start point, the chromatic anchor in the system"
+ },
+ {
+ "name": "Plasma Magenta",
+ "value": "#d300c5",
+ "token": "--color-plasma-magenta",
+ "role": "Gradient midpoint - bridges hot pink into ultraviolet, used in the brand gradient only"
+ },
+ {
+ "name": "Ultraviolet",
+ "value": "#7638fa",
+ "token": "--color-ultraviolet",
+ "role": "Gradient terminus - deep violet end of the Instagram brand gradient, the cool counterweight"
+ },
+ {
+ "name": "Hot Magenta",
+ "value": "#f689ff",
+ "token": "--color-hot-magenta",
+ "role": "Full-bleed color panel - left half of the hero split, the loudest single surface in the system"
+ },
+ {
+ "name": "Lavender Mist",
+ "value": "#c4a4f7",
+ "token": "--color-lavender-mist",
+ "role": "Full-bleed accent band - right half of the hero split and secondary color sections, softens the magenta"
+ },
+ {
+ "name": "Graphite",
+ "value": "#1c1e21",
+ "token": "--color-graphite",
+ "role": "Body text, button borders, list dividers, nav borders - the primary near-black for all text and hairline rules"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Specimen letterforms, Instagram camera icon outlines, high-contrast graphic moments - flat black with no warmth"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Content canvas, text on color panels, button text, input backgrounds - the neutral ground that lets color panels pop"
+ },
+ {
+ "name": "Hairline Gray",
+ "value": "#cccccc",
+ "token": "--color-hairline-gray",
+ "role": "Subtle button borders and disabled-state rules"
+ },
+ {
+ "name": "Link Indigo",
+ "value": "#385898",
+ "token": "--color-link-indigo",
+ "role": "Violet accent for outlined action borders, linked labels, and lightweight interactive emphasis. Do not promote it to the primary CTA color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Instagram Sans",
+ "token": "--font-instagram-sans",
+ "role": "The brand\u0027s custom geometric sans. Used for everything from 12px captions to 389px specimen hero letterforms. Single weight 400 across the entire scale - the typeface achieves personality through geometry and tight negative tracking rather than weight contrast. Letter-spacing tightens as size grows: -0.02em at body, -0.03em at 32-46px, -0.035em at 62px and above."
+ },
+ {
+ "name": "Instagram Sans Headline",
+ "token": "--font-instagram-sans-headline",
+ "role": "Distinct variant for the 468px mega-specimen display - looser tracking (-0.006em) than the base family because at 468px the tight tracking would close letter apertures. Used only for the largest type specimen on the page."
+ },
+ {
+ "name": "Helvetica",
+ "token": "--font-helvetica",
+ "role": "System fallback appearing at 12px (likely OS-rendered small text) and 224px (possible secondary specimen). Treat as fallback only - Instagram Sans is the intended primary at all sizes."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.34",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.34",
+ "-0.32px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "-0.48px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.2",
+ "-0.96px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.2",
+ "-1.2px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "62px",
+ "1.05",
+ "-2.17px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "72px",
+ "1.05",
+ "-2.52px",
+ "--text-display-lg"
+ ],
+ [
+ "display-xl",
+ "121px",
+ "1.05",
+ "-4.24px",
+ "--text-display-xl"
+ ],
+ [
+ "specimen",
+ "224px",
+ "1",
+ "-7.84px",
+ "--text-specimen"
+ ],
+ [
+ "specimen-mega",
+ "389px",
+ "1",
+ "-13.62px",
+ "--text-specimen-mega"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "spacious",
+ "maxWidth": "",
+ "sectionGap": "64px",
+ "cardPadding": "24px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ],
+ [
+ "104",
+ "104px",
+ "`--spacing-104`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "buttons",
+ "3px"
+ ],
+ [
+ "specimen-panels",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Split Panel",
+ "role": "Full-bleed 50/50 split, left panel Hot Magenta (#f689ff), right panel Lavender Mist (#c4a4f7), no border, no radius"
+ },
+ {
+ "name": "Glyph Specimen with Construction Overlay",
+ "role": "Oversized black letterform on color ground, overlaid with Bezier curve construction lines in Hot Magenta"
+ },
+ {
+ "name": "White Content Section",
+ "role": "Body text block on white canvas between color panels"
+ },
+ {
+ "name": "Lavender Accent Band",
+ "role": "Full-bleed Lavender Mist section carrying a large black icon"
+ },
+ {
+ "name": "Instagram Gradient Camera Logo",
+ "role": "Brand mark in top-right of white content sections"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline link within body copy"
+ },
+ {
+ "name": "Download/Action Button (outlined)",
+ "role": "Secondary action - downloading the typeface, viewing glyphs"
+ },
+ {
+ "name": "Section Label",
+ "role": "Small all-caps or sentence-case label above a section"
+ }
+ ],
+ "dos": [
+ "Use Instagram Sans at 400 weight only - the typeface has no weight variants, so do not fake bold or light with CSS",
+ "Apply 51px paddingLeft and paddingRight on all content sections to match the lateral breathing room of the specimen panels",
+ "Tighten letter-spacing as type grows: -0.02em at 16px, -0.03em at 32-46px, -0.035em at 62px and above",
+ "Use the Instagram brand gradient only as a full asset (the camera logo) or as a 72.44deg linear gradient - never rotate, never recolor, never reverse the stop order",
+ "Render specimen letterforms in Pure Black (#000000) with 0px radius - the sharp edges of the glyph geometry are the point",
+ "Place oversized construction-line overlays (pink circles + lines) on glyph specimens to reveal typeface design intent",
+ "Alternate full-bleed color bands (Hot Magenta, Lavender Mist) with white content sections to create editorial rhythm"
+ ],
+ "donts": [
+ "Do not use filled solid-color CTA buttons - the system expresses action through outlined Ghost buttons with Graphite borders",
+ "Do not apply the brand gradient as a background wash, overlay, or card fill - it is reserved for the camera logo and the single signature gradient instance",
+ "Do not use #385898 (Link Indigo) for buttons, fills, or large surface areas - it is a text-link color only",
+ "Do not use font-weight 600+ or italic in Instagram Sans - the family ships weight 400 only",
+ "Do not add drop shadows to specimen letterforms, cards, or panels - the system is flat, shadowless, and relies on scale contrast",
+ "Do not use the Hot Magenta (#f689ff) as a text or small-icon color - it is a full-bleed surface panel color only",
+ "Do not introduce additional typefaces - Helvetica appears only as a system fallback, never as an intentional design choice"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper White | `#ffffff` | Primary content canvas - body text, inline specimen captions, white-space ground between color panels |\n| 1 | Lavender Mist | `#c4a4f7` | Full-bleed accent band - carries black icon specimens, second-most prominent color surface |\n| 2 | Hot Magenta | `#f689ff` | Hero color panel - the loudest surface, occupies the left half of the opening split |\n| 3 | Graphite | `#1c1e21` | Text and rule surface - appears as text color and border color, not a fill surface |\n| 4 | Pure Black | `#000000` | Specimen and icon surface - large black letterforms and camera icon occupy their own visual plane |",
+ "elevation": "The system is intentionally flat. No drop shadows, no elevation, no z-axis depth. Visual hierarchy is created through scale contrast (389px specimens next to 16px body text), color contrast (Hot Magenta next to Paper White), and lateral breathing room (51px gutters). Depth is implied by typographic scale, not by box-shadow stacks.",
+ "imagery": "No photography, no illustration, no product renders. The visual content IS typography - oversized Instagram Sans letterforms rendered as flat black shapes on solid color panels. The only \u0027imagery\u0027 beyond type is the Instagram gradient camera logo (a brand mark, not a photo) and the pink Bezier construction lines overlaid on glyph specimens, which are technical annotations rather than decorative graphics. The aesthetic is a type foundry specimen page: the letterform is the hero, the construction grid reveals its geometry, and white space frames both.",
+ "layout": "Full-bleed sections with no max-width container - the viewport edge is the design edge. The page rhythm alternates between two section types: (1) full-bleed color panels (Hot Magenta left / Lavender Mist right in a 50/50 split, or single-color Lavender Mist bands) carrying oversized black glyph specimens with construction-line overlays, and (2) white content sections with 51px lateral padding, Graphite body text at comfortable sizes, and the Instagram gradient logo anchored top-right. There is no persistent nav bar above the hero - navigation is minimal and the hero IS the first screen. Section vertical rhythm is 48px internal padding and ~64px between major section types. The page reads top-to-bottom as: hero split white text block lavender band white text block lavender band type specimen gallery."
+}

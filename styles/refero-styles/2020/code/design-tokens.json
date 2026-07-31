@@ -1,0 +1,221 @@
+{
+ "name": "2020",
+ "slug": "2020",
+ "colors": [
+ {
+ "name": "Signal Orange",
+ "value": "#e4822e",
+ "token": "--color-signal-orange",
+ "role": "Primary canvas - the full-viewport page background that changes on refresh; this is the design system"
+ },
+ {
+ "name": "Olive Ink",
+ "value": "#4f503e",
+ "token": "--color-olive-ink",
+ "role": "Primary text, headline color, and the only outlined action accent (outlined-button borders, link underlines) - warm dark green-brown that pairs with the orange field without competing chroma"
+ },
+ {
+ "name": "Oxblood",
+ "value": "#b13225",
+ "token": "--color-oxblood",
+ "role": "Alternating surface variation - one of the page colors the background can take on refresh"
+ },
+ {
+ "name": "Burnt Sienna",
+ "value": "#c97f40",
+ "token": "--color-burnt-sienna",
+ "role": "Alternating surface variation - secondary warm shade the canvas can adopt"
+ },
+ {
+ "name": "Near Black",
+ "value": "#081618",
+ "token": "--color-near-black",
+ "role": "Alternating surface variation - deep cool surface the canvas can adopt, creates the darkest mode of the page"
+ },
+ {
+ "name": "Pearl",
+ "value": "#feccc0",
+ "token": "--color-pearl",
+ "role": "Soft warm highlight - one of the lighter surface variations the canvas can adopt"
+ },
+ {
+ "name": "Sage Mist",
+ "value": "#99aa91",
+ "token": "--color-sage-mist",
+ "role": "Soft cool surface variation - one of the muted color states the canvas cycles through"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "Album cover backgrounds, deep text on light surface states"
+ },
+ {
+ "name": "Ink",
+ "value": "#161616",
+ "token": "--color-ink",
+ "role": "Album cover backgrounds and heavy dark surface tone"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#111111",
+ "token": "--color-charcoal",
+ "role": "Album cover and card backgrounds within the grid"
+ },
+ {
+ "name": "Ash",
+ "value": "#8d8d8d",
+ "token": "--color-ash",
+ "role": "Mid-neutral for muted helper text and secondary surface states"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Album cover backgrounds, text on dark surface states"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Helvetica LT Pro",
+ "token": "--font-helvetica-lt-pro",
+ "role": "The sole typeface across all text - display, heading, body, button, link. A single weight (400 regular) is used at every scale, which is the most distinctive typographic choice on the site. The whisper-regular giant-size headlines are anti-convention; most poster/editorial sites use 700-900 for display type, and using the book weight at 137px makes the headline feel stamped rather than shouted - authority through stillness."
+ },
+ {
+ "name": "Helvetica",
+ "token": "--font-helvetica",
+ "role": "Helvetica - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "16px",
+ "1.6",
+ "-0.8px",
+ "--text-caption"
+ ],
+ [
+ "subheading",
+ "21px",
+ "1.2",
+ "-1.05px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "75px",
+ "0.8",
+ "-3.75px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "137px",
+ "0.79",
+ "-6.85px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "20px",
+ "cardPadding": "0px",
+ "elementGap": "20px",
+ "scale": [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ]
+ },
+ "radii": [
+ [
+ "page",
+ "0px"
+ ],
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ],
+ [
+ "album-tiles",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Display Headline Block",
+ "role": "The page-defining typographic element - site title rendered as a monolithic shape"
+ },
+ {
+ "name": "Section Subtitle",
+ "role": "Short descriptive line that sits directly under the display headline"
+ },
+ {
+ "name": "Album Cover Tile",
+ "role": "Unframed square image in the content grid"
+ },
+ {
+ "name": "Refresh Record Button",
+ "role": "The only interactive control - a small circular record/disc icon that triggers a full page color change"
+ },
+ {
+ "name": "Rotated Side Label",
+ "role": "Vertical instructional text - tells the user the page mechanic"
+ },
+ {
+ "name": "Outlined Action Border",
+ "role": "Chromatic border treatment for interactive elements (links, tags, light buttons)"
+ },
+ {
+ "name": "Body Caption",
+ "role": "Small helper text used in metadata, tags, or footnotes"
+ },
+ {
+ "name": "Subheading Link",
+ "role": "In-text or tag-style link element"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set display headlines at 137px / line-height 0.79 / letter-spacing -0.05em in Helvetica LT Pro 400 - never bump the weight, the book weight is the signature",
+ "Use Olive Ink (#4f503e) for all text and borders regardless of canvas color - the text must always be the same dark warm tone so the changing background feels like a single identity expressing different moods",
+ "Let the page canvas fill 100% of the viewport edge-to-edge with no container, no max-width, no margin - full-bleed is non-negotiable",
+ "Use 20px as the only spacing unit - vertical rhythm between the headline, subtitle, and grid is always 20px",
+ "Keep all radii at 0px - album tiles, buttons, and tags are sharp-cornered; the colored field provides all the softness the page needs",
+ "Treat the canvas color as the primary navigation: the user changes the page by changing the background, not by clicking links",
+ "Set every text element in a single weight (400) - do not introduce bold, medium, or light variants"
+ ],
+ "doNot": [
+ "Do not use filled buttons - a solid fill would compete with the canvas color; all actions are outlined borders or pure icons",
+ "Do not add card frames, drop shadows, or elevation to album tiles - they sit directly on the canvas with no chrome",
+ "Do not introduce a second typeface - the entire site is set in one family at one weight",
+ "Do not center body text - copy aligns left, full-bleed, and wraps naturally",
+ "Do not use a max-width container - the layout is always edge-to-edge",
+ "Do not pair Olive Ink (#4f503e) text with a colored background outside the established palette (oxblood, sienna, near-black, sage, pearl) - the six surface colors are the only valid canvases",
+ "Do not add line-height above 1.0 for any size above 21px - the tight leading (0.79-0.80) on display text is what makes the headlines feel like solid shapes"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/ac660bff-3b21-4753-a80f-3692da6e735e",
+ "referenceSite": "https://albumcolors.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:21:29.129Z",
+ "articleModifiedAt": "2026-06-05T12:08:47.955Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/90c338d1-33f1-40dd-a8fa-a920778736e9.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0257d413-ae4f-4e58-8d2e-5980dad50ded.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/a7afbc89-2e69-40d1-8c92-1599454e9aa2.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/f1df9ebb-8d20-4237-a8ff-51193d05c001.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0b0e9024-7170-4845-83b8-aa154d9a36d4.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

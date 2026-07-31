@@ -1,0 +1,232 @@
+{
+ "id": "c072c00a-ee7f-4160-bd06-645cca12f7a8",
+ "name": "DNCO",
+ "slug": "dnco",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/c072c00a-ee7f-4160-bd06-645cca12f7a8",
+ "referenceSite": "https://dnco.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:36:06.076Z",
+ "articleModifiedAt": "2026-06-05T11:26:28.349Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ff5aa988-25a2-4535-82cb-51e739ff7b5c.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/02414f85-a18f-4e1e-8fcc-410ecf09f1ea.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/b0197f57-c93f-4214-ab0f-b5db3d36a078.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/79b95d68-02d4-41b2-9e40-b21f7ce1881a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/4b26db23-aa46-469c-a423-39effbbc9504.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/76c1483f-f144-427e-914a-b42630bf2a8c.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "editorial gallery on white linen.",
+ "summary": "Explore DNCO\u0027s light Agency design system: Canvas White #ffffff, Hairline Mist #e5e7eb colors, Neue Haas Unica Pro typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Page background, primary surface for content blocks, card bases"
+ },
+ {
+ "name": "Hairline Mist",
+ "value": "#e5e7eb",
+ "token": "--color-hairline-mist",
+ "role": "Hairline borders, dividers, subtle surface wash, filter chip backgrounds, image placeholder fill"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Primary text, brand wordmark fill, dark hero background, link text, heading color"
+ },
+ {
+ "name": "Ash",
+ "value": "#a3a3a3",
+ "token": "--color-ash",
+ "role": "Muted secondary text, captions, inactive filter labels, helper text"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Neue Haas Unica Pro",
+ "token": "--font-neue-haas-unica-pro",
+ "role": "Sole typeface for all UI - navigation, body, headlines, and brand wordmark. Weight 400 only, no bold or light variants; hierarchy is built purely through size and tracking rather than weight contrast."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "16px",
+ "1.5",
+ "-0.4px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "18px",
+ "1.56",
+ "-0.45px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.33",
+ "-0.55px",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "72px",
+ "1",
+ "-1.8px",
+ "--text-heading"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1400px",
+ "sectionGap": "64px",
+ "cardPadding": "0px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "9999px"
+ ],
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Brand Wordmark Hero",
+ "role": "Signature full-bleed opener"
+ },
+ {
+ "name": "Pill Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Editorial Headline",
+ "role": "Page-level statement copy"
+ },
+ {
+ "name": "Filter Chip Row",
+ "role": "Project categorization controls"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Visual section separation"
+ },
+ {
+ "name": "Project Image Tile",
+ "role": "Case study thumbnail in grid"
+ },
+ {
+ "name": "Filter Label Active Indicator",
+ "role": "Active state for filter chips"
+ },
+ {
+ "name": "Text Link Inline",
+ "role": "In-content navigation / project titles"
+ },
+ {
+ "name": "Case Study Card (Grid Unit)",
+ "role": "Project entry on Work index"
+ },
+ {
+ "name": "Footer Text Block",
+ "role": "Site-level links and contact"
+ }
+ ],
+ "dos": [
+ "Use Neue Haas Unica Pro (or Inter / Neue Haas Grotesk) at weight 400 exclusively - never introduce bold, medium, or light weights",
+ "Set all type with letter-spacing -0.025em; tight tracking is non-negotiable for the editorial feel",
+ "Use only #ffffff, #e5e7eb, #000000, and #a3a3a3 - no chromatic accents anywhere in the UI",
+ "Build hierarchy through size jumps (16 18 22 72), not through weight or color shifts",
+ "Separate sections with 1px #e5e7eb hairlines or generous whitespace, never with fills or shadows",
+ "Make every interactive element a pill (9999px) or a text-only label - no filled buttons, no rounded cards, no bordered inputs",
+ "Let photography carry all color; images bleed into the layout without frames, radii, or overlays"
+ ],
+ "donts": [
+ "Do not add a second typeface family - the system is monotypographic by design",
+ "Do not introduce any color other than the four neutrals - no brand red, blue, or accent green",
+ "Do not use box-shadows or elevation on any component - depth comes from whitespace, not blur",
+ "Do not add border-radius to cards or images - only navigation and chips use 9999px",
+ "Do not bold or italicize text to create emphasis - increase size instead",
+ "Do not place content inside bordered containers or filled panels - use whitespace to group",
+ "Do not use background colors for buttons, tags, or interactive states - use text color and the dot indicator"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Canvas White | `#ffffff` | Page background, primary content surface |\n| 2 | Image Placeholder Mist | `#e5e7eb` | Solid fill behind loading or empty project tiles |\n| 3 | Obsidian Invert | `#000000` | Hero/wordmark inversion - full-bleed black with white type |",
+ "elevation": "Philosophy\n\nThe system has zero elevation. No component uses box-shadow, drop-shadow, or blur. Depth is created exclusively through: (1) whitespace between elements, (2) 1px #e5e7eb hairline dividers, and (3) the single full-bleed black inversion that breaks the otherwise all-white canvas. Never add shadows to cards, buttons, modals, or popovers - if a component appears to need depth, it should be flattened against the surface instead.",
+ "imagery": "Photography is the only source of color in the system. Project images are shot on location - outdoor environments, people in public spaces, architecture, transit, signage, urban textures. Treatment is natural-light, documentary-style, full-bleed, and uncropped: no duotone, no overlay, no border, no radius. Images are presented at large landscape aspect ratios (roughly 4:3 or 3:2) and arranged in generous grids where whitespace does the work of gutters. The first-viewport brand wordmark is set in pure white on black, creating a dramatic tonal pivot before the white gallery layout begins. No illustrations, no icons, no abstract graphics - the visual identity is carried entirely by the wordmark and the project photography.",
+ "layout": "The page model is a wide single-column or 2-column grid with a generous max-width (~1400px) and flush-left alignment. The hero is a full-bleed black band dominated by the DNCO wordmark at extreme scale - no headline copy competes. Below the hero, the layout shifts to white with an editorial two-line headline flush-left at the page edge. Project work is presented as a multi-column image grid (2-3 columns) with no card chrome, separated by whitespace alone. Filter controls sit as a plain text list above the grid, not as a toolbar. Section rhythm is defined by hairline #e5e7eb dividers and 64px vertical gaps rather than by alternating background bands. Navigation is a minimal top bar with pill-radius text links and a tiny dot indicator for the active route."
+}

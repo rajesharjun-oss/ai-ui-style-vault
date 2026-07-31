@@ -1,0 +1,307 @@
+{
+ "id": "329075e8-97ed-4722-8952-d9bf001de233",
+ "name": "Craft",
+ "slug": "craft",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/329075e8-97ed-4722-8952-d9bf001de233",
+ "referenceSite": "https://itscraft.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:23:24.812Z",
+ "articleModifiedAt": "2026-06-05T10:23:25.403Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/5e8e703d-7ab6-4bc1-8e25-2ff995900ffc.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/bce80a84-7ad6-46c6-8120-d8eb6b22b807.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/c81b3b4f-3687-4933-9379-980f26388f87.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/c3db65dd-2e38-4e9d-9d36-1bdd8c393b82.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/3d05c20f-75fe-4e98-b935-329d9693b701.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/e956b019-297e-46dc-9681-dc8e872fa993.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/d78ef400-a609-4895-b444-5cdb5c3fb345.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "botanical conservatory on warm parchment - cream pages holding vivid green specimens and one quiet forest room.",
+ "summary": "Explore Craft\u0027s light Agency design system: Bone Linen #f7f5f2, Oat Milk #eae6df colors, ABC Arizona Flare Condensed Variable, ABC Arizona Flare Variable...",
+ "colors": [
+ {
+ "name": "Bone Linen",
+ "value": "#f7f5f2",
+ "token": "--color-bone-linen",
+ "role": "Page canvas, body backgrounds - the warm off-white that carries almost every section and makes the dark hero and green accents feel like specimens on display"
+ },
+ {
+ "name": "Oat Milk",
+ "value": "#eae6df",
+ "token": "--color-oat-milk",
+ "role": "Card surfaces, elevated panels, secondary containers - a half-step darker than the canvas for gentle separation without shadow"
+ },
+ {
+ "name": "Driftwood",
+ "value": "#d7d2cc",
+ "token": "--color-driftwood",
+ "role": "Hairline borders, dividers, structural separators - warm gray that reads as line work, not as color"
+ },
+ {
+ "name": "Ash Mauve",
+ "value": "#645757",
+ "token": "--color-ash-mauve",
+ "role": "Secondary text, captions, muted labels - used where near-black would be too heavy, sits at 80 instances"
+ },
+ {
+ "name": "Mahogany Hush",
+ "value": "#504344",
+ "token": "--color-mahogany-hush",
+ "role": "Dark accent for small headings and emphasis - warmer alternative to the primary text color when a touch of depth is needed"
+ },
+ {
+ "name": "Obsidian Plum",
+ "value": "#2a1a1d",
+ "token": "--color-obsidian-plum",
+ "role": "Primary text, body copy, all headings, nav links - a near-black with warm plum undertone that pairs with the cream canvas at 15.3:1 contrast"
+ },
+ {
+ "name": "Forest Depths",
+ "value": "#1d3023",
+ "token": "--color-forest-depths",
+ "role": "Hero section background, dark surface, outlined ghost-button borders - the deep green room that introduces the brand and reappears as a dark contrast panel"
+ },
+ {
+ "name": "Lime Pulse",
+ "value": "#26d862",
+ "token": "--color-lime-pulse",
+ "role": "Primary action buttons, inline links, accent words inside headlines, active nav states - vivid green used sparingly as functional punctuation, never as decoration"
+ },
+ {
+ "name": "Peacock Teal",
+ "value": "#0e634f",
+ "token": "--color-peacock-teal",
+ "role": "Stat numbers, data emphasis - a deeper teal that shares hue with the forest hero but reads quieter so it can carry numerical data in stat cards"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "ABC Arizona Flare Condensed Variable",
+ "token": "--font-abc-arizona-flare-condensed-variable",
+ "role": "Display and large headings - the condensed serif runs at 180px for the hero statement and steps down through 104, 48, 26, 20px for section headlines. Weight 300 carries the largest sizes, weight 400 takes the mid range. Negative tracking tightens at every size."
+ },
+ {
+ "name": "ABC Arizona Flare Variable",
+ "token": "--font-abc-arizona-flare-variable",
+ "role": "Body, nav, buttons, cards, captions, and mid-size headings up to 32px. Weight 350 handles 32px headings, weight 400 takes body and UI. The lighter weight at 32px keeps subheadings from competing with the condensed display sizes."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.18",
+ "-0.12px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.16px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.5",
+ "-0.18px",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.08",
+ "-0.4px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.08",
+ "-0.52px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.25",
+ "-0.48px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "0.95",
+ "-1.2px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "104px",
+ "0.85",
+ "-3.12px",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "180px",
+ "0.85",
+ "-5.4px",
+ "--text-display-xl"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "56-64px",
+ "cardPadding": "16-24px",
+ "elementGap": "16-24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "4px"
+ ],
+ [
+ "tags",
+ "4px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Floating Pill Navigation",
+ "role": "Primary site navigation, sticky at top center"
+ },
+ {
+ "name": "Filled Primary Button",
+ "role": "Primary call-to-action - form submits, key conversions"
+ },
+ {
+ "name": "Ghost Outlined Button",
+ "role": "Secondary actions, less important links"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Full-viewport opening statement"
+ },
+ {
+ "name": "Centered Section Statement",
+ "role": "Mission/positioning text block in light sections"
+ },
+ {
+ "name": "Stat Card",
+ "role": "4-column data display strip"
+ },
+ {
+ "name": "Flower Image Card",
+ "role": "Full-bleed photography in content grids"
+ },
+ {
+ "name": "Section Label",
+ "role": "Small uppercase or letter-spaced label above section content"
+ },
+ {
+ "name": "Inline Green Link",
+ "role": "Highlighted text within paragraphs and headlines"
+ },
+ {
+ "name": "Body Paragraph",
+ "role": "Long-form descriptive text"
+ },
+ {
+ "name": "Menu Toggle",
+ "role": "Hamburger/menu open trigger in nav"
+ }
+ ],
+ "dos": [
+ "Use the 180px condensed serif only for the hero statement - it\u0027s the loudest voice in the system and should appear once per page",
+ "Apply #26d862 (Lime Pulse) filled buttons sparingly - one primary action per viewport, never stack two green buttons side by side",
+ "Set letter-spacing explicitly: -5.4px at 180px, -3.12px at 104px, -0.48px at 32px, scaling proportionally through the type ramp",
+ "Use the surface color difference (#f7f5f2 #eae6df) for card separation instead of box-shadows - the system is intentionally flat",
+ "Let full-bleed flower imagery sit edge-to-edge in 8px-radius cards with no captions - the image is the content",
+ "Anchor any dark moment to the Forest Depths #1d3023 - never use pure black, the warm green undertone is what makes it feel like a room rather than a void",
+ "Pick one weight tier per size: weight 300 for 104-180px display, weight 400 for 20-48px mid-headlines, weight 350 only at 32px subheadings, weight 400 everywhere else"
+ ],
+ "donts": [
+ "Don\u0027t introduce a new font family - the system runs on exactly two custom serifs (Arizona Flare and Arizona Flare Condensed) and the contrast between them is the signature",
+ "Don\u0027t use Lime Pulse #26d862 for body text, borders, or decorative fills - it is exclusively an action and link color",
+ "Don\u0027t apply box-shadows to cards or buttons - separation comes from the two-tone cream surface and 8px radius",
+ "Don\u0027t mix line-height styles within a size - 0.85 for display (48px+), 1.08 for subheadings (20-32px), 1.18-1.50 for body (12-18px)",
+ "Don\u0027t center-align body paragraphs longer than 2 lines - left-align at max-width 720px for readability",
+ "Don\u0027t use the Peaacock Teal #0e634f outside of numerical data contexts - it is reserved for stat numbers and data emphasis",
+ "Don\u0027t place colored text on the dark Forest Depths hero unless it\u0027s Bone Linen #f7f5f2 - the contrast math is tuned for cream-on-forest, not green-on-forest"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Page Canvas | `#f7f5f2` | Default body background for all content sections |\n| 2 | Card Surface | `#eae6df` | Elevated cards, stat tiles, contained content blocks |\n| 3 | Hero / Dark Section | `#1d3023` | Full-bleed dark sections - hero, feature moments, footer |\n| 4 | Highlight Surface | `#26d862` | Filled action buttons and occasional green wash highlights |",
+ "elevation": "Philosophy\n\nThe system is intentionally shadowless. Separation between elements is achieved entirely through two mechanisms: (1) the two-tone cream surface stack (#f7f5f2 canvas #eae6df cards) provides quiet depth without shadow, and (2) 8px border-radius on all containers softens the edges just enough to feel handmade. Adding box-shadows would break the editorial, flat-lay greenhouse feel. Borders use 1px #d7d2cc (Driftwood) only where structural division is needed.",
+ "imagery": "Imagery is botanical and close-cropped: flowers in full bloom, shot tight enough to fill the frame, treated with a soft slightly-saturated palette - vivid yellows, pinks, purples, and greens. The hero uses an abstract organic green shape (3D-rendered or fluid CSS/SVG) rather than photography: it flows like draped fabric or a leaf, in lime-to-forest gradient tones, with soft volumetric lighting. The image cards are full-bleed, edge-to-edge, clipped only by the 8px card radius - no padding, no overlays, no text. The overall effect is greenhouse/conservatory: each specimen is isolated on a cream wall and lit like it\u0027s on display. No people, no lifestyle photography, no stock imagery. Icons are minimal - line-based, 1px stroke, monochrome. No illustrations or decorative graphics beyond the hero shape.",
+ "layout": "The page model is max-width contained (~1200px) with generous side margins (~77px). The hero is the only full-bleed section, breaking out edge-to-edge in Forest Depths. Below the hero, everything sits on the cream canvas in a centered single-column flow: centered headline blocks, then 4-column stat grids, then 4-column image grids, separated by 56-64px section gaps. Navigation is a floating centered pill that sits over the hero (not a full-width bar). The first content section is a centered text statement at max-width ~800px. Stats appear in a 4-up card row. Image cards appear in a 4-up row, full-bleed. Section rhythm is consistent vertical spacing with no alternating background colors - the dark hero is the only departure from cream. Content alternates between centered text stacks and 4-column grids, never two-column split layouts. The overall feel is editorial: one dramatic moment, then a calm, spacious stream of specimens and statements."
+}

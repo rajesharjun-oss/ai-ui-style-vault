@@ -1,0 +1,285 @@
+{
+ "name": "TWOTWO",
+ "slug": "twotwo",
+ "colors": [
+ {
+ "name": "Voltage Lime",
+ "value": "#e3fc03",
+ "token": "--color-voltage-lime",
+ "role": "Primary CTA fill, active state, accent badges, and decorative highlights - the single chromatic moment in an otherwise monochrome system. Sits at 18.2:1 contrast against black, so it doubles as a high-visibility call-to-action and a hover indicator without needing a second hue"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Primary text, hairline borders, icon strokes, image borders, and footer background. Carries 2,045 border usages - this system uses black lines to structure space more than boxes or cards"
+ },
+ {
+ "name": "Graphite",
+ "value": "#323232",
+ "token": "--color-graphite",
+ "role": "Secondary text and softer borders - slightly lifted from pure black to create a visible hierarchy without introducing color"
+ },
+ {
+ "name": "Carbon",
+ "value": "#1a1a1a",
+ "token": "--color-carbon",
+ "role": "Icon strokes, link underlines, and low-priority UI marks - the third step of the dark scale, reserved for fine detail that should recede from primary text"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary page and card surface - the canvas everything else is drawn onto"
+ },
+ {
+ "name": "Concrete",
+ "value": "#e6e6e6",
+ "token": "--color-concrete",
+ "role": "Soft section background, alternate surface, and quiet card fill."
+ }
+ ],
+ "fonts": [
+ {
+ "name": "WhyteRegular",
+ "token": "--font-whyteregular",
+ "role": "WhyteRegular - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Whyte",
+ "token": "--font-whyte",
+ "role": "Display and section headings - used at 72px hero scale and 32px section scale. Tight 1.1 leading and a regular (not bold) weight are anti-convention: most sports brands shout with 800-weight display type, but Whyte Regular at 72px carries authority through letterform precision and negative space alone. The headlines never need a second style. Substitute: Inter Tight or Neue Haas Grotesk Display Pro at 400."
+ },
+ {
+ "name": "Whyte Book",
+ "token": "--font-whyte-book",
+ "role": "Universal workhorse - body copy, subheadings, product captions, navigation, and buttons. One weight, one family, used at seven sizes. The 38px tier handles product card titles; 16px is the default body; 13px is the fine-print and footer size. Line-height tightens from 1.60 at body to 1.30 at 38px. Substitute: Inter or Sohne at 400."
+ },
+ {
+ "name": "Whyte Inktrap",
+ "token": "--font-whyte-inktrap",
+ "role": "Secondary detail typeface with inktrap terminals - used for fine UI labels, tag monograms, and small monospace-feeling metadata. The inktrap cuts prevent the letterforms from filling in at small sizes, giving tags and micro-copy a distinct technical voice. Substitute: JetBrains Mono or IBM Plex Mono at 400."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.6",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.6",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.3",
+ "-0.26px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.15",
+ "-0.64px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "38px",
+ "1.3",
+ "-0.38px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "72px",
+ "1.1",
+ "-1.44px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "1280px",
+ "sectionGap": "64px",
+ "cardPadding": "20px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "68",
+ "68px",
+ "`--spacing-68`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "50px"
+ ],
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "images",
+ "16px"
+ ],
+ [
+ "inputs",
+ "50px"
+ ],
+ [
+ "buttons",
+ "50px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Pill CTA Button",
+ "role": "Primary action trigger"
+ },
+ {
+ "name": "Hero Banner",
+ "role": "Full-bleed product showcase"
+ },
+ {
+ "name": "Product Card",
+ "role": "Racket showcase tile"
+ },
+ {
+ "name": "Section Header",
+ "role": "Subsection title block"
+ },
+ {
+ "name": "Product Variant Tag",
+ "role": "Inline product color indicator"
+ },
+ {
+ "name": "Text Input / Search Field",
+ "role": "Query input and form fields"
+ },
+ {
+ "name": "Footer",
+ "role": "Site-wide footer band"
+ },
+ {
+ "name": "Icon Button",
+ "role": "Utility action trigger"
+ },
+ {
+ "name": "Product Image Frame",
+ "role": "Photographic container"
+ },
+ {
+ "name": "Category Grid",
+ "role": "Product listing layout"
+ },
+ {
+ "name": "Racket Specification Callout",
+ "role": "Inline technical note"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Voltage Lime (#e3fc03) only on filled actions, active states, and the 72px hero headline - never as a background wash, never as a decorative gradient.",
+ "Set all button and input radii to 50px (full pill) and all card/image radii to 16px - these two values are the only radii the system permits.",
+ "Use Whyte Book at 400 weight for everything between 13px and 38px; do not introduce a bold weight to create hierarchy - use size and color step instead.",
+ "Compose every page on Paper White (#ffffff) with Concrete (#e6e6e6) as the only permitted mid-gray for section dividers and backdrops.",
+ "Reserve 1px Obsidian (#000000) hairlines for card borders and structural rules - the system uses lines, not shadows, to separate surfaces.",
+ "Set product photographs full-bleed within 16px-radius frames; let the racket colors carry all visual variety inside the grid.",
+ "Use uppercase, tracked navigation links at 13px Whyte Book with ~0.04em letter-spacing for all top-bar and footer text."
+ ],
+ "doNot": [
+ "Do not introduce a second chromatic hue - no blues, reds, or greens outside the product photography. The page is monochrome plus lime, full stop.",
+ "Do not use box-shadows or drop-shadows to elevate cards; elevation comes from 1px Obsidian borders on white surfaces, never from blurred shadows.",
+ "Do not use a bold or 600+ weight for headlines - Whyte Regular at 400 with tight tracking is the signature; boldness would break the editorial register.",
+ "Do not round images or cards to anything other than 16px, and do not use 4px or 8px micro-radii - the system lives in two radius steps only.",
+ "Do not place buttons on colored or photographic backgrounds without the Voltage Lime fill - a white or black button would lose the brand\u0027s only signal.",
+ "Do not stack the lime accent on lime (lime button on lime highlight) - the accent must sit against Paper White or Obsidian to register.",
+ "Do not use centered text alignment for body copy, product titles, or prices - reserve centering for hero headlines and section headers only."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/170a690b-7424-4c2e-9d08-975725cf9261",
+ "referenceSite": "https://twotwo-official.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:46:49.963Z",
+ "articleModifiedAt": "2026-06-05T08:11:33.333Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/39e5aea9-7562-42d3-b935-3336f0d70e8e.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a56a4bfa-2e5f-406f-9aee-a5b4009bd089.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f04522fc-8988-4ec4-a74c-185128a49dc3.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b1db718e-232b-4567-84a8-ccc23b3a999d.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/b62bdfe1-314a-4ecd-91ce-36db93b078b1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/d23772b0-8750-4050-b9d3-40b0bb5b250e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/cb94ca78-5955-40cf-8093-a94374db66ff.png"
+ }
+ }
+}

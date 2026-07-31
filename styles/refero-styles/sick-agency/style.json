@@ -1,0 +1,266 @@
+{
+ "id": "9ff03bd9-2ce0-474c-8c73-1905dbacc23b",
+ "name": "SICK AGENCY",
+ "slug": "sick-agency",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9ff03bd9-2ce0-474c-8c73-1905dbacc23b",
+ "referenceSite": "https://sick.agency",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:01:07.011Z",
+ "articleModifiedAt": "2026-06-05T08:26:17.033Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/932cccfc-b588-413c-9355-bc6b3333289d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/de57e8c3-804c-4296-a340-210f19516473.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/fd0cf479-cde1-4ca4-9d08-9cbf5cb6bda6.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/f9f7e8cf-aa30-4cb8-b5b2-f8abc7a41b25.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/56039fd0-0bd6-42bc-9fb3-6f643a5a92a6.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/f1606287-43ef-4061-8d02-8622b79a1ab7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/071748a6-af24-41c2-8132-b80c0fd7c3dc.png"
+ }
+ },
+ "classification": {
+ "theme": "mixed",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Loud printed broadside on a brick wall - a maximalist zine spread screaming from a screen.",
+ "summary": "Explore SICK AGENCY\u0027s mixed Agency design system: Voltage Yellow #ffc700, Radioactive Orange #ff4e27 colors, Morganite, Thunder typography, and DESIGN.md...",
+ "colors": [
+ {
+ "name": "Voltage Yellow",
+ "value": "#ffc700",
+ "token": "--color-voltage-yellow",
+ "role": "Primary section background and dominant display text color. Headings, borders, and full-bleed canvas bands. Carries the highest visual weight on the page"
+ },
+ {
+ "name": "Radioactive Orange",
+ "value": "#ff4e27",
+ "token": "--color-radioactive-orange",
+ "role": "Secondary section background and accent border color. Outlined action borders, dividers, icon strokes, and full-bleed canvas bands that create contrast with the yellow"
+ },
+ {
+ "name": "Electric Cobalt",
+ "value": "#0029ff",
+ "token": "--color-electric-cobalt",
+ "role": "Primary action background and tertiary section background. The only filled button color in the system; also used for full-bleed canvas bands and decorative sticker badges"
+ },
+ {
+ "name": "Burnt Sienna",
+ "value": "#4d170c",
+ "token": "--color-burnt-sienna",
+ "role": "Error and warning state. Input border in invalid state. Reads as a deep brick-red against the lighter orange, preserving the system\u0027s warm-color vocabulary"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Body text on light/yellow backgrounds, and the dominant border color across all surface bands. Functions as a hairline outline and text color wherever contrast is needed against yellow or white"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Body text and button text on cobalt and orange surfaces. The inverse of Ink Black - the two together carry all foreground-to-background contrast in the system"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Morganite",
+ "token": "--font-morganite",
+ "role": "Hero display face for the single largest typographic statement per page. The extreme 0.70 line-height stacks letterforms with no air between lines - type is treated as a solid block, not a paragraph. This face defines the agency\u0027s shock-value identity."
+ },
+ {
+ "name": "Thunder",
+ "token": "--font-thunder",
+ "role": "Secondary display face used at near-hero scale. The light weight is anti-convention for a 122px headline - most agencies use 700-900 here. Thunder\u0027s 300 whispers while still occupying monumental space, creating tension between volume and restraint. Substituted by ITC Avant Garde Gothic, Futura, or any geometric humanist sans."
+ },
+ {
+ "name": "Sentient",
+ "token": "--font-sentient",
+ "role": "Workhorse text face for body copy, buttons, inputs, links, and small labels. Carries tight negative tracking (-0.0100em to -0.0200em) even at body sizes, which is a serif\u0027s signature in a sans-dominated layout. Substituted by any transitional serif."
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "Fine-print and micro-label face for legal text, tiny annotations, and icon-adjacent micro-copy. Its system-serif feel is a deliberate contrast to the custom display faces, creating a visual fossil-record effect."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.15",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.44",
+ "-0.24px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.1",
+ "-0.36px",
+ "--text-subheading"
+ ],
+ [
+ "display",
+ "122px",
+ "1",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "229px",
+ "0.7",
+ "-",
+ "--text-display-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "",
+ "cardPadding": "",
+ "elementGap": "",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "172",
+ "172px",
+ "`--spacing-172`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "badges",
+ "999px"
+ ],
+ [
+ "inputs",
+ "0px (sharp corners are part of the system identity; only interactive elements get pills)"
+ ],
+ [
+ "buttons",
+ "999px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Action Button",
+ "role": "Filled cobalt pill button - the only filled button in the system"
+ },
+ {
+ "name": "Outlined Ghost Button",
+ "role": "Outlined action used when a second action is needed beside the primary"
+ },
+ {
+ "name": "Display Heading (Black)",
+ "role": "Morganite 900 set at 229px with 0.70 line-height"
+ },
+ {
+ "name": "Display Heading (Light)",
+ "role": "Thunder 300 set at 122px"
+ },
+ {
+ "name": "Body Text Block",
+ "role": "Sentient 16px / 1.44 on colored canvas"
+ },
+ {
+ "name": "Text Input",
+ "role": "Form field with sharp corners and thick black border"
+ },
+ {
+ "name": "Sticker Badge",
+ "role": "Decorative circular badge used as a CTA anchor or section marker"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Thin black line used to separate text blocks inside a colored section"
+ },
+ {
+ "name": "Full-Bleed Section Band",
+ "role": "The atomic layout unit - a single color field filling the viewport horizontally"
+ },
+ {
+ "name": "Decorative Illustration Sticker",
+ "role": "Small hand-drawn illustrated objects placed on the canvas as visual personality"
+ },
+ {
+ "name": "Micro Label",
+ "role": "Sentient 12px label for tags, metadata, and small annotations"
+ },
+ {
+ "name": "Vertical Type Stack",
+ "role": "Sentient or Thunder set 90 rotated, used as a poster-style edge element"
+ }
+ ],
+ "dos": [
+ "Use #0029ff as the filled button background and #ffc700 as the dominant section canvas - these are the system\u0027s two anchor colors and must both appear on every page.",
+ "Set display headings at 122px (Thunder 300) or 229px (Morganite 900); never use a display face below 80px or above 240px.",
+ "Use 999px border-radius only on buttons, badges, and decorative stickers - keep form fields, section bands, and dividers at 0px sharp corners.",
+ "Use Sentient at 12-24px with negative tracking (-0.0100em to -0.0200em) for all body and small text; use Times only for 10px fine print and micro-annotations.",
+ "Stack sections as full-bleed color bands in #ffc700 / #ff4e27 / #0029ff order with 0px gap and no gradient transitions between them.",
+ "Use #4d170c only as an error-state input border - never as a section background, decorative element, or button fill.",
+ "Anchor one corner of a hero with a circular Sticker Badge in a contrasting system color; treat it as a CTA and a visual punctuation mark simultaneously."
+ ],
+ "donts": [
+ "Do not introduce grays, off-whites, beige, or any desaturated color into the system - neutrals are only #000000 and #ffffff, used for text and borders.",
+ "Do not add box-shadow, drop-shadow, or blur to any element - depth comes from color contrast between full-bleed bands, never from elevation.",
+ "Do not use rounded corners (4px, 8px, 16px) on cards, sections, or containers - sharp 0px corners and 999px pills are the only two radii allowed.",
+ "Do not set display type below 80px or set body type above 24px - the gap between body and display is what creates the broadside scale, and closing it destroys the system.",
+ "Do not use Morganite 900 with line-height above 0.80 - its identity depends on near-touching stacked lines; looser leading would turn it into a generic display face.",
+ "Do not place a primary action button on a white or near-white background - the system has no white surface; buttons live on yellow, orange, or cobalt fields.",
+ "Do not use photographic backgrounds, gradients, or textures - surfaces are always flat solid color."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Cobalt Field | `#0029ff` | Darkest full-bleed band; used for primary action surface and dramatic section backgrounds |\n| 1 | Orange Field | `#ff4e27` | Mid-warmth full-bleed band; provides transition between the cobalt and yellow extremes |\n| 2 | Yellow Field | `#ffc700` | Lightest full-bleed band; the dominant canvas color, carries display headings in black |",
+ "elevation": "There is no elevation system. Depth is communicated through color contrast between full-bleed sections, never through shadows or blur. A button on a section inherits contrast from the section\u0027s background, not from a shadow ring. Any use of box-shadow would break the broadside aesthetic - if a component feels like it needs elevation, it is the wrong component for this system.",
+ "imagery": "The site is almost entirely type-driven, with no photography. Visual content consists of hand-drawn illustration stickers (UFO, basketball, abstract orbital shapes) that function as zine-style decorations rather than product imagery. The illustration style is flat with hard outlines or single-color fills, rendered in system colors (#0029ff on yellow/orange fields, #ffc700 on cobalt fields). There are no product screenshots, no stock photography, no lifestyle imagery, no gradients or textures. The page IS the visual - color fields and display typography carry the entire atmosphere.",
+ "layout": "Layout is full-bleed, not containerized. There is no max-width wrapper - the page fills the viewport horizontally. Sections are hard-cut color bands stacked with zero vertical gap, each band filling 100vw. Within a band, content sits in a loose editorial grid: display type often runs edge-to-edge (letterforms bleeding off the sides), body text is constrained to a narrow measure (max ~480px) and left-aligned. The hero is a single color band with display type set at 229px or 122px, sometimes split by a vertical type column on the left edge (rotated 90 ). Navigation is minimal - a single pill button or text link, not a traditional nav bar. The rhythm is poster-like: one big typographic statement per section, surrounded by color silence."
+}

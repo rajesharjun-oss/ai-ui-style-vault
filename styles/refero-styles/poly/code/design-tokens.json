@@ -1,0 +1,247 @@
+{
+ "name": "Poly",
+ "slug": "poly",
+ "colors": [
+ {
+ "name": "Ember Gradient",
+ "value": "#f4824d",
+ "token": "--color-ember-gradient",
+ "role": "Brand mark, Poly logo, the sole chromatic accent - warm orange fading to signal red, used only on identity, never on body UI"
+ },
+ {
+ "name": "Porcelain",
+ "value": "#f4f4f4",
+ "token": "--color-porcelain",
+ "role": "Page canvas, card surfaces, inverted text on dark photo backgrounds"
+ },
+ {
+ "name": "Onyx",
+ "value": "#000000",
+ "token": "--color-onyx",
+ "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Graphite",
+ "value": "#292930",
+ "token": "--color-graphite",
+ "role": "Secondary text, hairline borders, icon fills, the slight warmth that keeps near-black from feeling clinical"
+ },
+ {
+ "name": "Ash",
+ "value": "#cccccc",
+ "token": "--color-ash",
+ "role": "Shadow tone used in the soft-etched link treatment, muted dividers"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Haffer Variable",
+ "token": "--font-haffer-variable",
+ "role": "Primary display serif for headlines at 30-53px. Weight 450 is anti-convention - most product sites push display to 600-700, but Haffer at 450 keeps headlines warm and editorial rather than commanding. Activating liga and ss04 unlocks the alternative g and stylised letterforms that give the wordmark its personality."
+ },
+ {
+ "name": "Bogue",
+ "token": "--font-bogue",
+ "role": "Companion serif at regular weight, used for badge labels and secondary serif moments where Haffer 450 would feel too heavy. Tighter tracking at -0.03em distinguishes it from Haffer."
+ },
+ {
+ "name": "Haffer",
+ "token": "--font-haffer",
+ "role": "Static fallback for small serif text - 15px badges, 24px sub-serial moments"
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "All UI, body, nav, button labels, helper text. Inter at 400 handles body, 600 carries subheadings and button text. The -0.02em tracking matches the serif family, keeping the type system visually unified."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-0.24px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "15px",
+ "1.5",
+ "-0.3px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "-0.48px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.1",
+ "-0.6px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading-lg",
+ "45px",
+ "1.1",
+ "-0.9px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "53px",
+ "1.1",
+ "-1.06px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "48-69px",
+ "cardPadding": "24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "33",
+ "33px",
+ "`--spacing-33`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "69",
+ "69px",
+ "`--spacing-69`"
+ ]
+ ]
+ },
+ "radii": [
+ "all",
+ "8px"
+ ],
+ "components": [
+ {
+ "name": "Gradient Brand Mark",
+ "role": "The Poly logo wordmark and cube icon"
+ },
+ {
+ "name": "Primary Dark Filled Button",
+ "role": "Main conversion action (Join waitlist, Watch Video)"
+ },
+ {
+ "name": "Ghost Outlined Button",
+ "role": "Secondary action on dark photo backgrounds (Download Poly)"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent header across all pages"
+ },
+ {
+ "name": "Hero Photo Section",
+ "role": "First-screen brand statement"
+ },
+ {
+ "name": "Section Headline",
+ "role": "In-page heading at 30-45px"
+ },
+ {
+ "name": "Feature Card",
+ "role": "Product feature or use-case block"
+ },
+ {
+ "name": "Photo Content Band",
+ "role": "Mid-page editorial break"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline navigation and footer links"
+ },
+ {
+ "name": "Badge / Tag",
+ "role": "Status labels, category markers"
+ },
+ {
+ "name": "Body Text Block",
+ "role": "Long-form description and paragraph copy"
+ },
+ {
+ "name": "Footer",
+ "role": "Site-wide links and legal"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use the Ember Gradient (#f4824d #f42919) only on the brand mark and logo - never on body UI, illustrations, or button fills",
+ "Set every border-radius to 8px, including cards, buttons, tags, and image containers",
+ "Use Haffer Variable at weight 450 for every display headline at 30-53px, with font-feature-settings: \u0027liga\u0027 on, \u0027ss04\u0027 on",
+ "Separate regions with hairline Graphite (#292930) borders, not with drop shadows",
+ "Apply -0.02em letter-spacing across the entire type system to unify serif and sans families",
+ "Keep section gaps in the 48-69px range to preserve the editorial breathing rhythm",
+ "Use full-bleed warm photography (natural light, natural materials) for hero and section breaks"
+ ],
+ "doNot": [
+ "Don\u0027t introduce any chromatic color outside the Ember Gradient - the palette is monochrome by design",
+ "Don\u0027t use drop shadows for card or surface elevation - borders carry separation",
+ "Don\u0027t set display type in Inter; display belongs to Haffer at 450, never below 30px",
+ "Don\u0027t use border-radius values other than 8px - no pills, no sharp corners, no 12px or 16px variants",
+ "Don\u0027t apply the Ember Gradient to buttons, backgrounds, or hover states - it is brand-identity only",
+ "Don\u0027t lighten Onyx text below #292930 for body copy - contrast must stay above 9:1 on Porcelain",
+ "Don\u0027t break the photo/Porcelain alternation - every content section should sit on Porcelain, never on a tinted background"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/d8e01e43-d260-4fa3-8f42-ae39e5c6ac84",
+ "referenceSite": "https://poly.app",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:14:55.399Z",
+ "articleModifiedAt": "2026-06-05T07:32:47.252Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/3deae076-3d6f-4227-8f0a-2bfea4c3414d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a52d25ad-1ad0-4261-b8ef-0ab71af9466e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/63864fc4-6cc2-490a-bbc3-3d21513d62a5.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/0392c928-1970-4fbe-a3d0-aebf64a272ee.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/046106c7-b9e5-4184-b84b-e7aa614ed3dd.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/13be913b-ae36-47a0-bf73-e523f65c965f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/96958f3f-acaa-45f3-8fab-e25394b7485b.png"
+ }
+ }
+}

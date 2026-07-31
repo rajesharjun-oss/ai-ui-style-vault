@@ -1,0 +1,278 @@
+{
+ "name": "Schema",
+ "slug": "schema",
+ "colors": [
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Hero canvas, heavy structural borders, icon strokes - sets the high-contrast keynote-stage mood for the opening fold"
+ },
+ {
+ "name": "Ink",
+ "value": "#0f0f0f",
+ "token": "--color-ink",
+ "role": "Body and heading text on light surfaces, dark section borders"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page background, speaker card surfaces, light-section text on dark hero"
+ },
+ {
+ "name": "Ash",
+ "value": "#e2e2e2",
+ "token": "--color-ash",
+ "role": "Hairline borders, subtle icon fills, structural dividers between UI regions"
+ },
+ {
+ "name": "Mint Wash",
+ "value": "#c7f8fb",
+ "token": "--color-mint-wash",
+ "role": "Teal wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Emerald Band",
+ "value": "#24cb71",
+ "token": "--color-emerald-band",
+ "role": "Full-bleed accent section background - a bright green horizontal band that closes the hero composition"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Source Sans Pro",
+ "token": "--font-source-sans-pro",
+ "role": "Source Sans Pro - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Figma Sans Display",
+ "token": "--font-figma-sans-display",
+ "role": "Headlines and display copy - used at 56-86px for hero (\u0027Schema by Figma\u0027, \u0027Meet our speakers!\u0027) with tight leading (0.90-1.10) and -0.02em tracking that makes type feel carved from a block. Weight 400 carries the design; 700 is reserved for emphasis."
+ },
+ {
+ "name": "Figma Sans Text",
+ "token": "--font-figma-sans-text",
+ "role": "Body, nav, button labels, supporting text. The companion text face at modest sizes (13-18px) with weight 400 as default and 600 for buttons/labels. -0.02em at 13px prevents the small type from feeling loose; 0.03em at 18px gives labels air."
+ },
+ {
+ "name": "Figma Mono",
+ "token": "--font-figma-mono",
+ "role": "Code or metadata snippets - used sparingly at 16px with 0.03em tracking for an architectural, monospaced accent in a world of proportional text"
+ },
+ {
+ "name": "Figma VF-normal-700-75",
+ "token": "--font-figma-vf-normal-700-75",
+ "role": "Figma VF-normal-700-75 - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Figma VF-normal-400-100",
+ "token": "--font-figma-vf-normal-400-100",
+ "role": "Figma VF-normal-400-100 - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.2",
+ "-0.26px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-md",
+ "18px",
+ "1.22",
+ "0.54px",
+ "--text-body-md"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "-0.24px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.1",
+ "-0.32px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "56px",
+ "1",
+ "-1.12px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "72px",
+ "0.9",
+ "-1.44px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "86px",
+ "0.9",
+ "-1.72px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "60px",
+ "cardPadding": "16px",
+ "elementGap": "24px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ],
+ [
+ "speaker-images",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent header across all sections"
+ },
+ {
+ "name": "Hero Outlined Register Button",
+ "role": "Primary action on the dark hero"
+ },
+ {
+ "name": "Eyebrow Label",
+ "role": "Section pre-heading (VIRTUAL, SPEAKERS, REGISTER)"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Section hero titles (\u0027Schema by Figma\u0027, \u0027Meet our speakers!\u0027, \u0027Join us virtually!\u0027)"
+ },
+ {
+ "name": "Geometric Mural Banner",
+ "role": "Decorative full-bleed section divider between hero and content"
+ },
+ {
+ "name": "Speaker Portrait Card",
+ "role": "Speaker in the grid"
+ },
+ {
+ "name": "Event Status Notice",
+ "role": "Inline status banner (\u0027Event ended\u0027)"
+ },
+ {
+ "name": "Full-Bleed Color Section",
+ "role": "Horizontal content band with colored background"
+ },
+ {
+ "name": "Date/Time Metadata Block",
+ "role": "Event date and time under hero headline"
+ },
+ {
+ "name": "Grid Section Header",
+ "role": "Section title block above card grid (e.g., \"Meet our speakers!\")"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 0px border-radius on all cards, buttons, images, and tags - sharp corners are non-negotiable",
+ "Pair the dark hero with a large outlined button (1px Paper border, no fill); fill it on hover",
+ "Apply Figma Sans Display at 56-86px with -0.02em tracking and 0.90-1.00 line-height for any headline that needs to feel carved",
+ "Reach 0.03em tracking on small labels (13-18px) to give uppercase eyebrows and nav links air",
+ "Alternate full-bleed colored bands (Mint Wash #c7f8fb, Emerald Band #24cb71) between dark and light sections to create visual rhythm",
+ "Use Ash (#e2e2e2) 1px borders for hairline separation; reserve Ink (#0f0f0f) borders for emphasis on light sections",
+ "Keep the UI monochrome - let color appear only in decorative murals and speaker portrait backgrounds, never in controls"
+ ],
+ "doNot": [
+ "Don\u0027t add border-radius to any element - sharp corners define the system\u0027s poster-like character",
+ "Don\u0027t use shadows, glows, or blur effects - flat is the only elevation language here",
+ "Don\u0027t introduce a chromatic CTA color - the system is intentionally monochrome, actions are outlined or text-only",
+ "Don\u0027t set body text below 16px; captions can go to 13px but never smaller",
+ "Don\u0027t let display headlines exceed 0.90-1.00 line-height - tight leading is what makes them feel architectural",
+ "Don\u0027t color-fill buttons with brand hues; outlined Paper-on-Obsidian is the only button pattern in the system",
+ "Don\u0027t separate light sections with gray bands - use either full-bleed color or seamless Paper-to-Paper flow"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/2b07d62c-d706-4c9d-a3fb-9c163da09f03",
+ "referenceSite": "https://schema.figma.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:12:34.842Z",
+ "articleModifiedAt": "2026-06-05T12:10:34.402Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c96dc339-a84c-4b60-b60f-d4e3d9be4d7a.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/129dce59-1b19-4c87-a24d-e3a32173c2a4.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/12a917a0-657e-460e-b40e-fe3a5a015315.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/2c827d50-9abd-4d5a-ac5e-717697f9a4a6.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/28fa5deb-024a-492c-bd36-65a061a04b27.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/6d605e79-fde7-4f48-ae19-b9708ae5bf91.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/4231f280-52fd-46da-919a-0c377edcf18c.png"
+ }
+ }
+}

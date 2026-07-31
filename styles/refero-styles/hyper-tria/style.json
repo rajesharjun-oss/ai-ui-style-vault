@@ -1,0 +1,301 @@
+{
+ "id": "6665a3dd-606f-4fd1-80dd-a84e3b3a6226",
+ "name": "Hyper Tria",
+ "slug": "hyper-tria",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/6665a3dd-606f-4fd1-80dd-a84e3b3a6226",
+ "referenceSite": "https://hypertria.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:43:42.170Z",
+ "articleModifiedAt": "2026-06-05T09:50:58.401Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/6ce2bb15-def4-44cf-821e-748f82fec2ee.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/083fe541-d12a-4840-ba62-4f770b6e0f81.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/6586c6ea-fb39-49ea-ae5b-5bdaf722d35c.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/db99af6b-67b0-420e-8aed-a2469b0a86b4.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/d80ebc8d-4656-47eb-a277-b535ed9a37ee.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "mixed",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "chrome monolith in a white gallery",
+ "summary": "Explore Hyper Tria\u0027s mixed Agency design system: Ember Red #ee3a49, Hyper Green #0fa64b colors, Aeonik, -apple-system typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Ember Red",
+ "value": "#ee3a49",
+ "token": "--color-ember-red",
+ "role": "Wordmark, navigation text, kicker labels, and the single chromatic accent that makes the otherwise monochrome system read as a brand. The warmth against pure black and white creates editorial urgency without tipping into alarm"
+ },
+ {
+ "name": "Hyper Green",
+ "value": "#0fa64b",
+ "token": "--color-hyper-green",
+ "role": "Reserved for the rotating circular brand badge and high-prominence brand moments. A single saturated spot of color in an otherwise achromatic system - used sparingly so it lands as identity, not decoration"
+ },
+ {
+ "name": "Signal Blue",
+ "value": "#007bff",
+ "token": "--color-signal-blue",
+ "role": "Outlined/ghost action border, image frame accent, and link underline. Functions as the system\u0027s cool counterweight to the warm Ember Red - used for bordered interactive elements rather than filled buttons"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Page canvas in the hero, primary text color in light sections, and the dominant border color across all UI elements. Carries the heaviest weight in the system - defines edges, type, and spatial structure"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces."
+ },
+ {
+ "name": "Graphite",
+ "value": "#666666",
+ "token": "--color-graphite",
+ "role": "Secondary navigation text and border color for tertiary UI elements. The middle tone that prevents the black/white binary from feeling stark in repetitive nav and list contexts"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Aeonik",
+ "token": "--font-aeonik",
+ "role": "Primary typeface for all display, heading, and body text. Weight 300 at 75-90px with line-heights near 0.90-1.00 creates the system\u0027s signature sculptural headlines - letterforms lock together through aggressive negative tracking (-0.053em) rather than spacing. Mid-weight 400-500 handles body and UI at 19-20px with 1.45-1.70 line-height for generous readability."
+ },
+ {
+ "name": "-apple-system",
+ "token": "--font-apple-system",
+ "role": "System fallback for nav items, footer micro-copy, and supporting UI text where the custom Aeonik isn\u0027t loaded. Carries no distinctive role - purely a graceful degradation layer."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.7",
+ "0.26px",
+ "--text-caption"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.45",
+ "0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "27px",
+ "1.16",
+ "-0.27px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "30px",
+ "1.11",
+ "-0.3px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "35px",
+ "1.11",
+ "-0.7px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "75px",
+ "1",
+ "-3.98px",
+ "--text-display"
+ ],
+ [
+ "display-xl",
+ "90px",
+ "0.9",
+ "-4.77px",
+ "--text-display-xl"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "1400px",
+ "sectionGap": "100px",
+ "cardPadding": "25-28px",
+ "elementGap": "10-20px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "23",
+ "23px",
+ "`--spacing-23`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "45",
+ "45px",
+ "`--spacing-45`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "110",
+ "110px",
+ "`--spacing-110`"
+ ],
+ [
+ "115",
+ "115px",
+ "`--spacing-115`"
+ ],
+ [
+ "145",
+ "145px",
+ "`--spacing-145`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Dark Hero Stage",
+ "role": "Full-bleed black canvas hosting the agency\u0027s signature 3D metallic wordmark"
+ },
+ {
+ "name": "Light Editorial Section",
+ "role": "White-background work showcase with alternating image+text layout"
+ },
+ {
+ "name": "Light Navigation Bar",
+ "role": "Sticky top navigation for content sections"
+ },
+ {
+ "name": "Dark Navigation Bar",
+ "role": "Navigation variant for the black hero stage"
+ },
+ {
+ "name": "Outlined Arrow Link",
+ "role": "Primary project-level call-to-action"
+ },
+ {
+ "name": "Rotating Circular Brand Badge",
+ "role": "Persistent brand identifier across the hero and footer"
+ },
+ {
+ "name": "Kicker Label",
+ "role": "Project category or section identifier above headlines"
+ },
+ {
+ "name": "Image Frame",
+ "role": "Product/project photography container"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Implicit separator between light and dark sections"
+ }
+ ],
+ "dos": [
+ "Use Aeonik weight 300 at 75-90px with line-height 0.90-1.00 and letter-spacing -4px to -5px for all display headlines",
+ "Maintain 100px vertical gaps between major sections to preserve the gallery\u0027s breathing rhythm",
+ "Set border-radius to 0px on all cards, buttons, tags, inputs, and image containers",
+ "Use Ember Red (#ee3a49) exclusively for the wordmark, navigation text, and kicker labels - never as a background fill",
+ "Transition between black (#000000) and white (#ffffff) section backgrounds as the primary spatial separator instead of rules or shadows",
+ "Keep body text at 19px Aeonik weight 400 with line-height 1.48 and slight positive tracking (0.19px) for editorial readability",
+ "Render the hero wordmark as a 3D metallic/chrome treatment when possible - the reflective surface is the system\u0027s most recognizable signature"
+ ],
+ "donts": [
+ "Never add border-radius to any element - the sharp-edged geometry is a defining system constraint",
+ "Never use a filled button background as a CTA - the system signals actions through outlined/ghost borders or typographic arrows only",
+ "Never use shadows or box-elevation for depth - rely on background color contrast and typographic scale instead",
+ "Never apply Ember Red (#ee3a49) to large background fills - it is an accent color for text and small marks only",
+ "Never set display headline letter-spacing to 0 or positive values - the aggressive negative tracking on large type is signature",
+ "Never use multiple chromatic colors in the same view - the system is monochrome with single-color punctuation per section",
+ "Never use illustrations, abstract graphics, or decorative imagery - product photography and 3D type are the only visual elements"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Hero Canvas | `#000000` | Full-bleed black stage for the 3D metallic wordmark hero |\n| 2 | Content Canvas | `#ffffff` | Primary light-mode surface for editorial work showcase sections |\n| 3 | Brand Badge | `#ffffff` | Circular floating brand identifier surface |",
+ "elevation": "The system uses zero shadows and zero border-radius. Depth is communicated exclusively through typographic scale, background color contrast (black white), and the 3D metallic treatment of the hero wordmark. This flatness is a deliberate editorial-gallery choice - shadows would soften the manifesto-like directness of the layout.",
+ "imagery": "The visual language splits into two distinct registers: (1) the hero uses a photorealistic 3D metallic/chrome render of the \u0027Hyper Branding\u0027 wordmark as the singular image element - oversized, reflective, treated as sculpture rather than graphic. (2) Content sections use clean product photography on neutral studio backgrounds (the visible example is a kraft cardboard box on warm gray), cropped tight with no lifestyle context - the object IS the subject. There are no illustrations, no abstract graphics, no decorative imagery. Photography is product-focused, high-key, contained within defined rectangular frames with zero border-radius. The role of imagery is showcase, not atmosphere - each image is a portfolio piece, not a mood-setter.",
+ "layout": "The page operates on a full-bleed model with constrained content: the black hero is edge-to-edge with no max-width constraint, while content sections are centered within a ~1400px container. The hero is theatrical and viewport-filling; subsequent sections shift to a restrained two-column editorial pattern (image left, text right) with generous 100px section gaps creating deliberate breathing room. Navigation is a thin top bar - sticky or static - that adapts its color treatment (white on black / red on white) depending on the section\u0027s background. The overall rhythm is: dramatic entrance quiet gallery dramatic exit, with the alternating black/white sections creating implicit visual dividers rather than using rules or borders. Grid usage is minimal - the two-column work showcase is the primary structural pattern, with no card grids, pricing tables, or multi-column feature layouts visible."
+}

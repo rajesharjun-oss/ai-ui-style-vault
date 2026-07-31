@@ -1,0 +1,288 @@
+{
+ "id": "f6fbc2fb-ea5d-44cc-a37d-d7896005acbd",
+ "name": "Brand",
+ "slug": "brand",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/f6fbc2fb-ea5d-44cc-a37d-d7896005acbd",
+ "referenceSite": "https://brand.dropbox.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:26:01.439Z",
+ "articleModifiedAt": "2026-06-05T12:19:09.031Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7051ee45-1bda-4372-a27d-5846441c52bc.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/10725c2b-f311-4a59-bce1-e9046da03936.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/b8d889ad-0089-4490-8756-f2966df0a399.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/d9b19c35-5fff-49cf-a718-cc29ab444319.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/924f173d-979b-4a09-9284-d7ce9e70be9d.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/66b2ee6f-c9fe-4c7f-9004-74b6fd5d5e38.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Design",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Design",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Chromatic graph paper atlas - a living brand specimen where every color block, headline, and border snaps to an invisible modular grid printed on white.",
+ "summary": "Explore Brand\u0027s light Design design system: Dropbox Blue #0061fe, Dropbox Light #5f9dff colors, Dbsharpgroteskvariable Vf, Atlasgrotesk Web typography, and...",
+ "colors": [
+ {
+ "name": "Dropbox Blue",
+ "value": "#0061fe",
+ "token": "--color-dropbox-blue",
+ "role": "Primary text, link borders, icon strokes, heading type, outlined action borders - the single most defining chromatic element, used wherever the brand needs to speak"
+ },
+ {
+ "name": "Dropbox Light",
+ "value": "#5f9dff",
+ "token": "--color-dropbox-light",
+ "role": "Soft surface washes, decorative icon accents, and secondary blue fields - a desaturated companion to Dropbox Blue for large background panels"
+ },
+ {
+ "name": "Sun Yellow",
+ "value": "#fad24b",
+ "token": "--color-sun-yellow",
+ "role": "Brand palette swatch, large color block panels, decorative fills"
+ },
+ {
+ "name": "Tangerine",
+ "value": "#ff8c19",
+ "token": "--color-tangerine",
+ "role": "Brand palette swatch, full-bleed color block panels, accent fills"
+ },
+ {
+ "name": "Sky Cyan",
+ "value": "#3dd3ee",
+ "token": "--color-sky-cyan",
+ "role": "Brand palette swatch, full-bleed color block panels, illustration accent"
+ },
+ {
+ "name": "Lime",
+ "value": "#b4dc19",
+ "token": "--color-lime",
+ "role": "Brand palette swatch, large color block panels, accent fills"
+ },
+ {
+ "name": "Coral",
+ "value": "#ffafa5",
+ "token": "--color-coral",
+ "role": "Brand palette swatch, warm color block panels, accent surfaces"
+ },
+ {
+ "name": "Lavender",
+ "value": "#c8aff0",
+ "token": "--color-lavender",
+ "role": "Brand palette swatch, soft color block panels, illustration accent"
+ },
+ {
+ "name": "Magenta",
+ "value": "#892055",
+ "token": "--color-magenta",
+ "role": "Brand palette swatch, deep accent panels, editorial accent"
+ },
+ {
+ "name": "Slate Navy",
+ "value": "#283750",
+ "token": "--color-slate-navy",
+ "role": "Brand palette swatch, dark accent panels, editorial contrast"
+ },
+ {
+ "name": "Ink",
+ "value": "#1e1919",
+ "token": "--color-ink",
+ "role": "Primary body text, hairline borders, structural dividers, nav type - the near-black workhorse of the grid system"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page canvas, card surfaces, reverse text on color blocks, background beneath the visible grid"
+ },
+ {
+ "name": "Graphite",
+ "value": "#736c64",
+ "token": "--color-graphite",
+ "role": "Muted secondary text, subtle helper labels, low-emphasis borders"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Dbsharpgroteskvariable Vf",
+ "token": "--font-dbsharpgroteskvariable-vf",
+ "role": "Display and heading type - tight-tracked, geometric grotesque at heavy weights. The 0.80 line-height at 34px is a compression device for editorial taglines where lines almost touch, creating a block-of-text effect. Free substitute: Inter at 700, or Space Grotesk Bold."
+ },
+ {
+ "name": "Atlasgrotesk Web",
+ "token": "--font-atlasgrotesk-web",
+ "role": "Body copy, navigation labels, link text, button labels, and all utility type. Neutral grotesque at compact sizes - 14px at line-height 1.67 gives breathing room for readable paragraphs while 12px at 1.43 keeps metadata tight. Free substitute: Inter or Atlas Grotesk via Adobe Fonts."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "17",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "23",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "36",
+ "-0.6px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "34px",
+ "27",
+ "-0.68px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "36px",
+ "43",
+ "-0.72px",
+ "--text-heading-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "64px",
+ "cardPadding": "22-24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ],
+ [
+ "all-elements",
+ "8px"
+ ],
+ [
+ "color-blocks",
+ "8px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Grid Canvas",
+ "role": "Structural background"
+ },
+ {
+ "name": "Color Block Panel",
+ "role": "Large chromatic content surface"
+ },
+ {
+ "name": "Editorial Headline Block",
+ "role": "Primary heading display"
+ },
+ {
+ "name": "Inverted Text Panel",
+ "role": "White text on color"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Structural separator"
+ },
+ {
+ "name": "Text Link",
+ "role": "Inline navigation"
+ },
+ {
+ "name": "Outlined Action",
+ "role": "Primary call-to-action border"
+ },
+ {
+ "name": "Nav Label",
+ "role": "Navigation text"
+ },
+ {
+ "name": "Brand Mark",
+ "role": "Logo/identity anchor"
+ },
+ {
+ "name": "Chevron Scroll Indicator",
+ "role": "Scroll affordance"
+ },
+ {
+ "name": "Color Swatch Cell",
+ "role": "Brand palette documentation"
+ }
+ ],
+ "dos": [
+ "Use #0061fe for all primary headlines, link text, and outlined action borders - it is the voice of the brand",
+ "Apply -0.02em letter-spacing to all display type at 30px and above; the tight tracking is what makes the headings feel custom and editorial",
+ "Snap every element to the visible grid - color blocks, text, and whitespace all respect the modular lattice",
+ "Use 8px border-radius universally for all cards, buttons, and color panels - the only radius in the system",
+ "Use 1px hairline borders in Ink (#1e1919) for all structural dividers and grid cell edges",
+ "Deploy large flat color blocks (full grid cells filled with Sun Yellow, Tangerine, Sky Cyan, etc.) as section furniture - color is both content and layout",
+ "Set body text at 14px with line-height 1.67 for comfortable paragraph density"
+ ],
+ "donts": [
+ "Never add drop shadows or box-shadow effects - the grid and flat color provide all visual structure",
+ "Never use border-radius values other than 8px - the system is geometric, not pill-shaped or fully rounded",
+ "Never use filled solid-color CTA buttons - all actions are outlined with a #0061fe border",
+ "Never center body or heading text - all type is left-aligned within its grid cell",
+ "Never use more than 4 brand palette colors on a single section - over-saturation breaks the editorial discipline",
+ "Never add gradients - the palette is entirely flat, saturated, and singular",
+ "Never use colors outside the defined 13-color palette (2 blues, 8 brand swatches, 3 neutrals) for UI elements"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper Canvas | `#ffffff` | Base page background with visible grid lines printed on top |\n| 1 | Color Block Panels | `#0061fe` | Full-saturation color panels sitting on the grid as content blocks |\n| 2 | Elevated Grid Cells | `#ffffff` | White cells within the grid for reverse-type headlines |",
+ "elevation": "Zero shadows. The system relies entirely on the visible grid, flat color blocks, and 1px hairline borders in Ink (#1e1919) to create depth and separation. Elevation is achieved by the physical layering of grid cells and color panels, never by drop shadows or blur.",
+ "imagery": "Minimal to no photography or illustration. The visual language is entirely UI-as-imagery: large flat color blocks function as graphic elements, the visible grid itself becomes a pattern, and the typographic treatment carries the visual weight. When brand illustrations exist (like the Dropbox glyph), they are flat, geometric, and brand-blue. No product screenshots, no lifestyle photography, no 3D renders - the system communicates through type, color, and structural grid alone.",
+ "layout": "Full-bleed grid-based layout with no max-width container. The entire page is a visible modular grid of thin gray lines on white, dividing the viewport into rectangular cells. Content is composed by placing text, color blocks, and UI elements into individual grid cells rather than into traditional section containers. The hero is an editorial headline set in the upper-left grid cell in Dropbox Blue. The second section demonstrates the system with three large color block panels (Tangerine on left, Dropbox Blue center with white reverse text, Sky Cyan on right) each spanning multiple grid units. Navigation sits at the bottom edge. The pattern repeats vertically - each section is a new grid composition rather than a stacked container."
+}

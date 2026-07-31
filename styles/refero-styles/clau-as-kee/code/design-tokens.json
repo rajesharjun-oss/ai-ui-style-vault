@@ -1,0 +1,229 @@
+{
+ "name": "clau.as.kee",
+ "slug": "clau-as-kee",
+ "colors": [
+ {
+ "name": "Periwinkle Field",
+ "value": "#8e93ff",
+ "token": "--color-periwinkle-field",
+ "role": "Page canvas, hero background, full-bleed section fills - the single defining brand color, a mid-saturation lavender that swallows the viewport and against which all type is set in black ink"
+ },
+ {
+ "name": "Carbon Ink",
+ "value": "#1a1a1a",
+ "token": "--color-carbon-ink",
+ "role": "Primary text, display type, hairline borders, dark panels, nav links - near-black rather than pure black, keeps the lavender from vibrating too hard"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces."
+ },
+ {
+ "name": "Signal Green",
+ "value": "#47f654",
+ "token": "--color-signal-green",
+ "role": "Green action color for filled buttons, selected navigation states, and focused conversion moments."
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Beastly clauworks",
+ "token": "--font-beastly-clauworks",
+ "role": "Display / wordmark - the proprietary display face, used only at monumental scale (288-504px) for the brand wordmark and hero sculpture. Chunky, almost stencil-cut geometric forms that read as a graphic object rather than readable text. Single weight, no italic. Substitute: a heavy display grotesque like Druk Wide or a custom commission. Do not use at small sizes - this face is architecture, not communication."
+ },
+ {
+ "name": "Suisse Intl clauworks",
+ "token": "--font-suisse-intl-clauworks",
+ "role": "Headlines, subheads, and long-form body - a custom-cut Suisse International (Swiss grotesque) in a single weight. Used at three distinct scales: 20px for body and nav, 30px for section subheads, 144px for editorial display headings like \u0027Art direction - Dig...\u0027. The absence of bold/medium weights is the signature: everything is the same quiet weight, hierarchy comes from size alone. Substitute: Suisse Int\u0027l, Inter, or Neue Haas Grotesk."
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "Smallest body fallback / metadata - appears as system Times at 16px, likely the serif default for tiny labels and captions. Single weight, system face. Substitute: any system serif."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "16px",
+ "1.15",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "20px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "30px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "display",
+ "144px",
+ "1.15",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "288px",
+ "1.05",
+ "-",
+ "--text-display-lg"
+ ],
+ [
+ "display-xl",
+ "504px",
+ "1",
+ "-",
+ "--text-display-xl"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "",
+ "sectionGap": "130px",
+ "cardPadding": "65px",
+ "elementGap": "30px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "22",
+ "22px",
+ "`--spacing-22`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "58",
+ "58px",
+ "`--spacing-58`"
+ ],
+ [
+ "65",
+ "65px",
+ "`--spacing-65`"
+ ],
+ [
+ "90",
+ "90px",
+ "`--spacing-90`"
+ ],
+ [
+ "130",
+ "130px",
+ "`--spacing-130`"
+ ],
+ [
+ "202",
+ "202px",
+ "`--spacing-202`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "badge",
+ "75px"
+ ],
+ [
+ "default",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Display Wordmark",
+ "role": "Hero brand mark and section-opening sculpture"
+ },
+ {
+ "name": "Editorial Display Headline",
+ "role": "Large in-flow headings on the periwinkle canvas"
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Minimal horizontal nav across the top edge"
+ },
+ {
+ "name": "Request Badge",
+ "role": "Sole chromatic interactive element on the page"
+ },
+ {
+ "name": "Carbon Panel",
+ "role": "Dark inverted section for portfolio content"
+ },
+ {
+ "name": "Portfolio Spread",
+ "role": "Image-and-text content block inside a Carbon Panel"
+ },
+ {
+ "name": "Image Carousel",
+ "role": "Horizontal scroller for project imagery"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Section separator"
+ },
+ {
+ "name": "Body Copy",
+ "role": "Long-form paragraph text"
+ },
+ {
+ "name": "Subheading",
+ "role": "Section label and small editorial title"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set every page background to Periwinkle Field (#8e93ff) - this is the operating mode of the system",
+ "Use Beastly clauworks at 288px or larger for any display-level headline; do not use it below 200px",
+ "Reach for Suisse Intl clauworks at 20px, 30px, or 144px only - do not interpolate intermediate sizes",
+ "Separate dark content from the lavender canvas with a full-bleed Carbon Ink (#1a1a1a) panel, not a shadow or border",
+ "Let display type run past the viewport edge - cropping is the layout, not a bug",
+ "Place at most one Signal Green (#47f654) badge per page; it is punctuation, not decoration",
+ "Use 130px vertical breathing room between major sections; 30px between typographic elements within a section"
+ ],
+ "doNot": [
+ "Do not add a fifth color, a tinted neutral, or a soft shadow to soften the lavender - the flatness is the design",
+ "Do not use rounded corners on panels, cards, or images; 0px radius everywhere except the green badge",
+ "Do not introduce a bold or medium weight of Suisse Intl - hierarchy is size-driven only",
+ "Do not use Beastly at small sizes (under 200px) - it loses its character and becomes a bad display grotesque",
+ "Do not center body copy or set it in narrow columns; body text is left-aligned, full-width-feeling, generous",
+ "Do not add a sticky header, breadcrumb, or secondary navigation; the three-link top bar is the entire nav system",
+ "Do not use gradients, blur, glow, or any CSS filter on the lavender background - it must read as a flat printed field"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/9aad4722-413d-4b32-bda7-6f94bbd9938c",
+ "referenceSite": "https://clauaskee.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:47:15.558Z",
+ "articleModifiedAt": "2026-06-05T10:21:07.953Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d73e9bd7-e8c3-45cc-995d-46feb8c1f30d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/456ef2b3-8a98-4b22-8128-caa2373ec273.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/fa795e1b-6acc-4c23-947d-a0bf814881c0.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4e5f33d3-d724-47f8-ac95-6a9711464725.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/bf764b60-1219-4b6a-a47b-b848a57edfad.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/709332cb-8716-4357-8584-645175e78494.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

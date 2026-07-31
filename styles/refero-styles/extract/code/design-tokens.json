@@ -1,0 +1,250 @@
+{
+ "name": "Extract",
+ "slug": "extract",
+ "colors": [
+ {
+ "name": "Gallery White",
+ "value": "#ffffff",
+ "token": "--color-gallery-white",
+ "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#070707",
+ "token": "--color-ink-black",
+ "role": "Primary text, hairline borders, filled buttons, nav text - the structural linework of the entire system; Dark surface for project cards and editorial spreads - the inverse of the canvas, used to make featured work feel like a framed plate"
+ },
+ {
+ "name": "Spearmint Wash",
+ "value": "#e7feda",
+ "token": "--color-spearmint-wash",
+ "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Feature Deck",
+ "token": "--font-feature-deck",
+ "role": "Display and section-heading face used exclusively for monumental wordmark treatments. The 104px \u0027Extract\u0027 lockup and 44px subheadings carry the entire brand voice through scale alone - no other display serif or grotesque is needed."
+ },
+ {
+ "name": "ABC Diatype",
+ "token": "--font-abc-diatype",
+ "role": "Universal workhorse - body copy (18-19px), nav and meta (19px), subheadings (21px), and card titles (34px). Weight 700 is used sparingly for emphasis within body contexts. The tight 1.25 line-height on larger sizes keeps the editorial density."
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "18px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "21px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "34px",
+ "1.4",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "44px",
+ "1.25",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "104px",
+ "1.25",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "59px",
+ "cardPadding": "19px",
+ "elementGap": "19px",
+ "scale": [
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "23",
+ "23px",
+ "`--spacing-23`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "37",
+ "37px",
+ "`--spacing-37`"
+ ],
+ [
+ "54",
+ "54px",
+ "`--spacing-54`"
+ ],
+ [
+ "59",
+ "59px",
+ "`--spacing-59`"
+ ],
+ [
+ "65",
+ "65px",
+ "`--spacing-65`"
+ ],
+ [
+ "74",
+ "74px",
+ "`--spacing-74`"
+ ],
+ [
+ "93",
+ "93px",
+ "`--spacing-93`"
+ ],
+ [
+ "111",
+ "111px",
+ "`--spacing-111`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "9px"
+ ],
+ [
+ "buttons",
+ "5px"
+ ],
+ [
+ "navPill",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Floating Pill Navigation",
+ "role": "Persistent site navigation"
+ },
+ {
+ "name": "Display Wordmark",
+ "role": "Brand identity at hero scale"
+ },
+ {
+ "name": "Editorial Project Card (Dark)",
+ "role": "Featured work showcase on light canvas"
+ },
+ {
+ "name": "News Article Card",
+ "role": "Editorial/blog entry on mint section"
+ },
+ {
+ "name": "Hairline Section Divider",
+ "role": "Vertical separation between content zones"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Inline navigation (\u0027View all\u0027, project titles)"
+ },
+ {
+ "name": "Outlined Input Field",
+ "role": "Form input for contact/newsletter"
+ },
+ {
+ "name": "Hero Image Plate",
+ "role": "Full-bleed editorial photography"
+ },
+ {
+ "name": "Section Header",
+ "role": "Introductory heading for content blocks"
+ },
+ {
+ "name": "Footer",
+ "role": "Site closure"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #070707 for all text, borders, and filled UI controls - it is the only structural color in the system",
+ "Reserve #e7feda mint for full section backgrounds, never for buttons, icons, tags, or text",
+ "Set the display wordmark at 104px in Feature Deck with no letter-spacing adjustment - let the natural metrics carry the impact",
+ "Use 9.3px border-radius for all cards, images, and content containers; 4.6px for inputs and small controls; 9999px only for the floating nav pill",
+ "Maintain 1px hairline #070707 borders for all separation - never use shadows to lift elements off the canvas",
+ "Pair Feature Deck 44px section heads with ABC Diatype 19px body - the scale jump is the hierarchy, not weight or color",
+ "Keep the floating nav centered, persistent, and visually identical on every screen - it is the only persistent chrome"
+ ],
+ "doNot": [
+ "Do not introduce a second accent color - the system is built on the tension between black, white, and one mint wash",
+ "Do not apply the mint #e7feda to buttons, links, icons, or hover states - it is atmospheric only",
+ "Do not add drop shadows, inner glows, or any elevation effects - flatness is the signature",
+ "Do not use Feature Deck for body copy or sub-100px text - it is display-only and loses legibility below 44px",
+ "Do not use colored backgrounds inside cards on the mint section - let the section color be the unifying field",
+ "Do not center body text - only the display wordmark and nav are centered; all editorial copy is left-aligned",
+ "Do not use border-radius values outside the 4.6px / 9.3px / 9999px scale - the system is intentionally tight"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/c4e125b6-e3a3-4509-b06f-f0169216a394",
+ "referenceSite": "https://extract.studio",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:27:36.616Z",
+ "articleModifiedAt": "2026-06-05T12:18:49.291Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/9212cb16-5a04-43dc-a9b9-9bdf5f9ca299.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/a0d19f81-5d48-4141-9833-237ed1df2cb1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/16de6e3f-dd6a-4be5-983f-0b01241e7256.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/6ed8965c-a237-405a-893c-abaeb48707f2.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/efcc7a3d-0fea-4869-8487-2b19de747d83.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

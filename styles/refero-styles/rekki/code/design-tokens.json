@@ -1,0 +1,346 @@
+{
+ "name": "REKKI",
+ "slug": "rekki",
+ "colors": [
+ {
+ "name": "Signal Blue",
+ "value": "#0063e1",
+ "token": "--color-signal-blue",
+ "role": "Primary CTA fill, active nav indicator, brand accent dots, link highlights - the single chromatic voice in an otherwise silent monochrome system"
+ },
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Page canvas, dominant background, hairline divider color, icon fill - the floor of the entire system"
+ },
+ {
+ "name": "Carbon",
+ "value": "#040910",
+ "token": "--color-carbon",
+ "role": "Card surface base, deep panel backgrounds - first step above the page canvas"
+ },
+ {
+ "name": "Graphite",
+ "value": "#0d0d0d",
+ "token": "--color-graphite",
+ "role": "Elevated card surfaces, section backgrounds, border fills - the mid-surface layer"
+ },
+ {
+ "name": "Iron",
+ "value": "#1f1f1f",
+ "token": "--color-iron",
+ "role": "Input field backgrounds, form controls, tertiary surfaces"
+ },
+ {
+ "name": "Steel",
+ "value": "#2b2c2e",
+ "token": "--color-steel",
+ "role": "Highest card elevation, modal surfaces, hover-state surfaces - the ceiling of the surface stack"
+ },
+ {
+ "name": "Ash",
+ "value": "#858585",
+ "token": "--color-ash",
+ "role": "Body text, muted labels, secondary borders, link underlines - the workhorse neutral for non-heading text"
+ },
+ {
+ "name": "Smoke",
+ "value": "#979797",
+ "token": "--color-smoke",
+ "role": "Icon strokes, tertiary button borders, low-priority text"
+ },
+ {
+ "name": "Fog",
+ "value": "#8c8c8c",
+ "token": "--color-fog",
+ "role": "Link text, subdued navigation labels"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Light neutral action fill for buttons on dark surfaces."
+ }
+ ],
+ "fonts": [
+ {
+ "name": "sans-serif",
+ "token": "--font-sans-serif",
+ "role": "sans-serif - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Diatype REKKI",
+ "token": "--font-diatype-rekki",
+ "role": "Primary brand typeface - body text at 16-20px weight 400, large headlines at 56-86px weight 400 with aggressive negative tracking (as tight as -0.064em at 86px). The whisper-weight headlines are signature: no bold shouting, just precise geometric calm. Subheadings/nav at 16-20px weight 400-600."
+ },
+ {
+ "name": "Diatype REKKI Bolder Rounded",
+ "token": "--font-diatype-rekki-bolder-rounded",
+ "role": "Display variant for the most prominent brand moments - heavier geometric terminals, used sparingly at 72px for hero declarations and at 12-20px weight 700 for emphasis labels in nav/inputs."
+ },
+ {
+ "name": "OCD-GARRI",
+ "token": "--font-ocd-garri",
+ "role": "Secondary utility face - likely for product UI labels, status indicators, or monospaced-feeling tabular data within the embedded product screenshots. Carries slight positive letter-spacing (0.033-0.038em) giving it a structured, instrument-label quality."
+ },
+ {
+ "name": "Diatype REKKI Regular",
+ "token": "--font-diatype-rekki-regular",
+ "role": "Diatype REKKI Regular - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Inter - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-0.005px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.007px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.4",
+ "-0.015px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "20px",
+ "1.33",
+ "-0.027px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.33",
+ "-0.027px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "56px",
+ "1.25",
+ "-0.04px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "86px",
+ "1",
+ "-0.064px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "nav",
+ "2px"
+ ],
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "images",
+ "24px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "59px"
+ ],
+ [
+ "largeCards",
+ "30px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "The singular conversion action"
+ },
+ {
+ "name": "Navigation Header Button",
+ "role": "Compact header action"
+ },
+ {
+ "name": "Nav Link",
+ "role": "Primary navigation text"
+ },
+ {
+ "name": "Hero Display Heading",
+ "role": "Page-level headline"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Subsection headline"
+ },
+ {
+ "name": "Product UI Panel Card",
+ "role": "Embedded product screenshot container"
+ },
+ {
+ "name": "Standard Card",
+ "role": "Content grouping surface"
+ },
+ {
+ "name": "Feature Card with Image",
+ "role": "Marketing card with visual"
+ },
+ {
+ "name": "Text Input",
+ "role": "Form input field"
+ },
+ {
+ "name": "Status Pill / Tag",
+ "role": "State indicator or category label"
+ },
+ {
+ "name": "Cookie Consent Banner",
+ "role": "Legal/privacy overlay"
+ },
+ {
+ "name": "Logo Mark",
+ "role": "Brand identity"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #0063e1 exclusively for the single primary CTA per viewport - never for decorative elements, illustrations, or non-action accents",
+ "Apply -0.064em letter-spacing on display type (72px+) and scale proportionally down to -0.005em at body sizes (12px)",
+ "Use Diatype REKKI weight 400 for all headlines - no bold weights for display type; authority comes from size and tracking, not weight",
+ "Communicate card elevation through the rgba(255,255,255,0.12) 1px inset border, never through drop shadows",
+ "Maintain the 5-level surface stack (Obsidian Carbon Graphite Iron Steel) with clear 3-5% luminance steps between each level",
+ "Use 59px border-radius for all pill-shaped buttons and 16px radius for content cards - never mix the two radii on the same element type",
+ "Let product UI screenshots occupy the visual focal point of marketing sections rather than stock photography or lifestyle imagery"
+ ],
+ "doNot": [
+ "Never use multiple chromatic accent colors - the system is monochromatic + one blue; introducing green, red, or purple breaks the entire visual language",
+ "Never apply drop shadows to cards or panels; the inset white border IS the elevation system",
+ "Never set body text below #858585 contrast against the black canvas; use Paper #ffffff for any text that needs to be read at a glance",
+ "Never use bold (700) weights for headlines; Diatype REKKI weight 400 at large sizes with tight tracking is the signature - bolding destroys it",
+ "Never use letter-spacing greater than 0em on display type; the negative tracking is what makes the headlines feel architectural",
+ "Never place white or light-colored cards on the dark canvas; all surfaces must stay in the black-to-charcoal range",
+ "Never use rounded images or organic shapes for the logo or brand mark - the geometry is angular and precise"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/65b8df27-36a3-47a6-be53-735d1f6a485d",
+ "referenceSite": "https://rekki.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:49:13.198Z",
+ "articleModifiedAt": "2026-06-05T09:12:30.728Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d9ba5373-6f64-4f54-a222-f8f349678475.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/6c8c0b69-855e-49e5-87eb-0be1b675c232.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/cd21d6c8-802b-41c4-8d10-01681f31a084.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/28816cfe-b47c-429a-9d07-c0e4efb9d272.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/6c396e3b-9733-4fd2-b2a3-b186261b230d.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b9035146-c486-49d0-bdc2-dfa55b90a959.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3853782f-bc2f-4c19-846a-fa5ef09290fa.png"
+ }
+ }
+}

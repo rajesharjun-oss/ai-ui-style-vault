@@ -1,0 +1,200 @@
+{
+ "name": "Bpowell",
+ "slug": "bpowell",
+ "colors": [
+ {
+ "name": "Plaster White",
+ "value": "#ffffff",
+ "token": "--color-plaster-white",
+ "role": "Primary canvas for the light sections; text color on the dark sections; hairline dividers on the dark sections"
+ },
+ {
+ "name": "Carbon",
+ "value": "#111111",
+ "token": "--color-carbon",
+ "role": "Page background for the dark/film section; primary body text on light sections; structural fill for project name typography"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Secondary text and fill on light sections; used where maximum contrast is needed against the white canvas"
+ },
+ {
+ "name": "Graphite",
+ "value": "#2b2b2b",
+ "token": "--color-graphite",
+ "role": "Subtle darker border for low-emphasis rules on light surfaces"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Teg",
+ "token": "--font-teg",
+ "role": "Display - reserved for the largest project names and the hero text. The aggressive -0.033em tracking at 86px tightens the letters into a near-monolithic block; this is the font that creates the \u0027stacked concrete\u0027 reading. Substitute: Migra, Editorial New, or Canela Display."
+ },
+ {
+ "name": "Beatrice Display",
+ "token": "--font-beatrice-display",
+ "role": "Mid-scale editorial type - appears as secondary project list text alongside the larger Teg names, providing typographic counterpoint at a calmer scale. Substitute: Tiempos Headline, Canela, or Reckless."
+ },
+ {
+ "name": "Beatrice",
+ "token": "--font-beatrice",
+ "role": "Body-weight Beatrice variant for the same 26px role but with the text-figure character set. Substitute: same as Beatrice Display."
+ },
+ {
+ "name": "Diatype",
+ "token": "--font-diatype",
+ "role": "Workhorse sans for body copy, nav items, and supporting text. Weight 500 is the default; 700 is reserved for the nav name \u0027Ben Powell\u0027 to give it anchor weight in the distributed nav. Substitute: Sohne, Inter, or ABC Diatype."
+ },
+ {
+ "name": "New Grotesk",
+ "token": "--font-new-grotesk",
+ "role": "Wide-tracked all-caps label face for section markers (\u0027Design\u0027, \u0027Film\u0027). The extreme +0.069em tracking turns short words into spaced-out type-art - this is the system\u0027s only \u0027decorative\u0027 choice. Substitute: ABC Diatype Mono Upper, Space Grotesk, or Neue Haas Grotesk Display."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "26px",
+ "1.15",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "heading",
+ "58px",
+ "1.05",
+ "-0.17px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "86px",
+ "1.04",
+ "-2.84px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1400px",
+ "sectionGap": "104px",
+ "cardPadding": "0px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "104",
+ "104px",
+ "`--spacing-104`"
+ ]
+ ]
+ },
+ "radii": [
+ "none",
+ "0px"
+ ],
+ "components": [
+ {
+ "name": "Distributed Top Nav",
+ "role": "Primary navigation - replaces a conventional logo-cluster layout"
+ },
+ {
+ "name": "Section Label",
+ "role": "Marker that introduces a new category block"
+ },
+ {
+ "name": "Project List Item - Large",
+ "role": "The primary content unit; project names that form the page\u0027s structure"
+ },
+ {
+ "name": "Project List Item - Secondary",
+ "role": "Typographic counterpoint in the list stack"
+ },
+ {
+ "name": "Light Canvas Section",
+ "role": "The default page surface for design work"
+ },
+ {
+ "name": "Dark Canvas Section",
+ "role": "Inverted surface for the film category"
+ },
+ {
+ "name": "Content Column",
+ "role": "The single left-aligned text column that holds all content"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use exactly two surfaces - #ffffff and #111111 - and alternate them as full-bleed sections to create rhythm without any divider lines",
+ "Set project names in Teg at 86px / line-height 1.04 / letter-spacing -0.033em on desktop; this aggressive tracking is what makes the list read as a wall of text",
+ "Use New Grotesk 600 with 0.069em tracking for all section labels - the wide spacing is the system\u0027s only \u0027decorative\u0027 typographic move",
+ "Distribute nav items across the full viewport width with space-between; never cluster them in a corner or center them",
+ "Anchor the leftmost nav item at weight 700 (Diatype) so the owner\u0027s name reads as the only visual weight in an otherwise flat row",
+ "Maintain 40px left padding from the viewport edge for the content column on all sections",
+ "Use 104px for the major vertical section padding - it is the largest spacing unit in the system and defines the page\u0027s breathing rhythm"
+ ],
+ "doNot": [
+ "Do not introduce any color beyond #ffffff, #111111, #000000, and #2b2b2b - the system is monochrome by design",
+ "Do not add images, thumbnails, or preview artwork to project list items; the name alone is the entry",
+ "Do not center project names or align them to a grid - they are pinned to the left margin and let their own length determine the column",
+ "Do not use card containers, rounded corners, or drop shadows; the system has zero elevation and zero radius",
+ "Do not set body or nav text larger than 26px; the scale jumps directly to 58px for sub-headings and 86px for display, and bridging that gap destroys the contrast",
+ "Do not add hover color changes, underlines, or button styles to project names - they read as a list, not as links",
+ "Do not use more than one typeface per text block; mixing Teg with Beatricedisplay inside the same line breaks the typographic system"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/7afd842e-44d4-4f01-9ef5-683c31d820c9",
+ "referenceSite": "https://www.bpowell.co",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:39:54.380Z",
+ "articleModifiedAt": "2026-06-05T09:40:55.961Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/f99e69eb-f8c3-4ef1-a46d-e0abc04e62a6.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e44d8063-f3b5-4676-9671-bc391a991b44.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/717a71ff-fe6d-4f67-9a44-865f719c0f09.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/70633d5c-08cd-449e-a6da-722a599be7f1.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/4be7eaa0-07d3-4785-88aa-6d1e8d59d2d5.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/d6a73377-5ad4-44f1-8e10-3a968159f205.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/8a48605d-78d6-4eae-9a84-e1fa7e07f738.png"
+ }
+ }
+}

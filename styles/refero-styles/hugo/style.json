@@ -1,0 +1,243 @@
+{
+ "id": "58a36cba-3fc4-48fa-a7d9-7f14592b7857",
+ "name": "Hugo",
+ "slug": "hugo",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/58a36cba-3fc4-48fa-a7d9-7f14592b7857",
+ "referenceSite": "https://www.hugoandmarie.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:58:00.853Z",
+ "articleModifiedAt": "2026-06-05T10:59:04.450Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1541ced5-3fb2-4772-a0cd-70ea8827c7f3.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/28be6ddb-1afc-4cd2-a130-3c2cdeac1471.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/a9121175-3bb2-47b8-9cb4-1be02f2a5a37.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/82ae556b-06d4-4b50-bffb-76ed717c675a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/74c6b055-6fe2-48b6-897a-87650cfd4593.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/5c62ac29-f162-43d5-9b98-a5b920c81bdd.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Monochrome gallery catalog - editorial photography mounted on infinite white, framed by whisper-thin serif.",
+ "summary": "Explore Hugo",
+ "colors": [
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page background, card surfaces, badge fills, nav dividers, input fields - the dominant surface that recedes to let imagery speak"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, dense border structure, dark image overlays - the structural anchor for rules and headings"
+ },
+ {
+ "name": "Soft Ink",
+ "value": "#0a0a0a",
+ "token": "--color-soft-ink",
+ "role": "Dark borders and separators for elevated surfaces and inverted UI."
+ },
+ {
+ "name": "Graphite",
+ "value": "#767676",
+ "token": "--color-graphite",
+ "role": "Input field borders - the only place a mid-gray border appears, marking form-field edges without competing with imagery"
+ },
+ {
+ "name": "Smoke",
+ "value": "#b3b3b3",
+ "token": "--color-smoke",
+ "role": "Muted icon strokes, separators, and secondary graphic details. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Ash",
+ "value": "#cccccc",
+ "token": "--color-ash",
+ "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated."
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "saol-display",
+ "token": "--font-saol-display",
+ "role": "Ceremonial headlines and editorial titles - ultralight serif at 100px with 0.95 line-height creates near-touching baselines that feel like fashion-magazine coverlines. This is the only place dramatic typography appears; everything else defers to sans-serif."
+ },
+ {
+ "name": "soehne",
+ "token": "--font-soehne",
+ "role": "All interface text - nav links at 16px weight 300, section headings at 20-22px weight 300, body at 16px weight 400 with comfortable 1.64 leading, supporting copy at 14px. The weight-300 default for nav and headings is a signature choice: it makes the UI feel editorial and unpressured rather than assertive."
+ },
+ {
+ "name": "soehne-mono",
+ "token": "--font-soehne-mono",
+ "role": "Badge labels and small metadata - monospace at 13px marks categorically different content (tags, IDs, status) from the proportional body text"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.8",
+ "0.16px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.64",
+ "0.13px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "0.4px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.44",
+ "0.44px",
+ "--text-heading-sm"
+ ],
+ [
+ "display",
+ "100px",
+ "0.95",
+ "-1px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "90px",
+ "cardPadding": "0px",
+ "elementGap": "5px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "badges",
+ "9999px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Editorial Text Link",
+ "role": "Primary navigation and inline CTAs"
+ },
+ {
+ "name": "Hairline Divider",
+ "role": "Section separator"
+ },
+ {
+ "name": "Display Headline (Overlay)",
+ "role": "Hero text over full-bleed photography"
+ },
+ {
+ "name": "Pill Badge",
+ "role": "Filter and category tags"
+ },
+ {
+ "name": "Three-Column Service Block",
+ "role": "Agency/Studio/Contact overview grid"
+ },
+ {
+ "name": "Image Grid Thumbnail",
+ "role": "Artist portfolio grid items"
+ },
+ {
+ "name": "Full-Bleed Editorial Hero",
+ "role": "Page-opening image section"
+ },
+ {
+ "name": "Section Header Row",
+ "role": "Content section titles with secondary action"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ }
+ ],
+ "dos": [
+ "Use soehne weight 300 as the default for all navigation and section headings - never default to 400 or higher for UI chrome",
+ "Use saol-display weight 100 at 100px with 0.95 line-height for ceremonial display moments; never use it below 48px",
+ "Render all buttons and links as text-with-arrow ( ), never as filled rectangles - the system has no filled buttons",
+ "Apply 9999px radius exclusively to badges; keep all other elements (cards, images, inputs) at 0px radius",
+ "Separate content sections with 1px solid #0a0a0a hairlines, not whitespace gaps or shadows",
+ "Use white (#ffffff) as the only surface color for cards and content blocks - never introduce tints, off-whites, or gray fills for grouping",
+ "Place imagery edge-to-edge with no border, padding, or radius when used as a section anchor"
+ ],
+ "donts": [
+ "Never introduce a chromatic accent color, brand color, or decorative gradient - the system is strictly achromatic and adding color breaks the editorial contract",
+ "Never apply box-shadow, drop-shadow, or any elevation effect - depth is communicated through image bleed and hairline rules, not shadows",
+ "Never use soehne-mono for body copy or navigation - reserve it exclusively for badge labels and small metadata",
+ "Never use saol-display at body sizes (14-22px) - it is a display face only; body work belongs to soehne",
+ "Never add border-radius to cards, images, or inputs - 0px radius is the system default for all non-badge elements",
+ "Never use filled background colors for buttons or interactive elements - text links and hairline buttons are the only interactive pattern",
+ "Never use a font weight above 400 in soehne for UI text - heavier weights break the restrained editorial tone"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper | `#ffffff` | Base canvas - the entire site sits on pure white, making all imagery and ink feel mounted |\n| 1 | Ash Fill | `#cccccc` | Soft badge surface - appears only as a 1px border tone, never as a large fill |",
+ "elevation": "The system has zero elevation. No shadows, no blurs, no z-axis depth. Dimensionality is achieved through full-bleed photography bleeding to viewport edges and 1px hairline rules that organize content into columns and sections.",
+ "imagery": "Imagery is the sole carrier of color and atmosphere. The site features high-fashion editorial photography - extreme close-up portraits with iridescent/oil-slick color treatments, studio-lit product shots, and artist self-portraits. Images are always full-bleed or thumbnail-grid, never contained in rounded cards or frames. Treatment is dramatic and high-contrast, often with the subject\u0027s face filling the frame. Color appears only inside the photography itself - the UI stays pure monochrome so the images feel exhibited rather than decorated.",
+ "layout": "Full-bleed editorial layout. The hero is a full-viewport image with centered overlay text. Below, content lives in a borderless three-column structure where columns are defined by 1px vertical hairlines, not by card containers. Section transitions are hairline horizontal rules spanning the full width. Artist portfolios use a multi-row horizontal thumbnail grid with no captions, no gaps wider than the natural image spacing. The nav is a single hairline-bordered white bar with logo left, links centered, \u0027Info\u0027 right. Overall density is sparse and curated - long vertical breathing room, large images, short text blocks. The system behaves like a printed art catalog translated to the web."
+}

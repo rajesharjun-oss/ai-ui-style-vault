@@ -1,0 +1,177 @@
+{
+ "name": "Little Troop",
+ "slug": "little-troop",
+ "colors": [
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "All text, all borders, the nav mark, section dividers, filter indicators. The structural ink of the entire system - every line, frame, and glyph is black on white"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page canvas and inverse text. The only surface; cards do not introduce a separate fill - they borrow the page and let imagery do the work"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Arial Narrow",
+ "token": "--font-arial-narrow",
+ "role": "The functional voice of the entire interface - navigation, body, metadata, project captions, filter labels, footer copy. Narrow letterforms in a generous white field create a typesetter\u0027s galley feel; everything reads as a running label rather than as UI chrome."
+ },
+ {
+ "name": "Times Now",
+ "token": "--font-times-now",
+ "role": "The single display voice, reserved for the hero headline curved around the orb. Weight 250 is anti-convention - most studios reach for 600-800 bold serifs. This whisper-weight, paired with a sculptural -0.066em tracking and 0.79 line-height, makes the text feel like a ribbon on the surface rather than a title above it. When the system needs authority, it gets it through restraint, not volume."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.14",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.14",
+ "-",
+ "--text-body"
+ ],
+ [
+ "display",
+ "76px",
+ "0.79",
+ "-5.016px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "100px",
+ "cardPadding": "20px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "50px"
+ ],
+ [
+ "cards",
+ "50px"
+ ],
+ [
+ "buttons",
+ "50px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Project Grid Card",
+ "role": "Project thumbnail in the work index"
+ },
+ {
+ "name": "Project Spotlight Card",
+ "role": "Featured project presentation"
+ },
+ {
+ "name": "Project Index Filter",
+ "role": "Category filter for the work grid"
+ },
+ {
+ "name": "Hero Orb with Curved Text",
+ "role": "Splash/hero moment"
+ },
+ {
+ "name": "Footer Credit Block",
+ "role": "Studio identity and current work status"
+ },
+ {
+ "name": "Section Header",
+ "role": "Section label for project groupings"
+ },
+ {
+ "name": "Penguin Brand Mark",
+ "role": "Studio logo / nav anchor"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 50px border-radius on every rectangular element - cards, tags, buttons, frames. This is the system\u0027s only shape.",
+ "Restrict the palette to #000000 and #ffffff for all chrome, text, and borders. Color is the exclusive property of project imagery.",
+ "Set Arial Narrow at 14-16px for every functional element - nav, labels, body, metadata. Reserve Times Now weight 250 for at most one display moment per page.",
+ "Apply 100px+ section gaps between major content blocks. The system needs white void to breathe.",
+ "Let full-bleed imagery fill cards edge-to-edge inside the 50px radius - no padding, no captions inside the frame.",
+ "Use 20px padding for card metadata blocks beneath cards. Keep that rhythm consistent.",
+ "Anchor the nav and footer to viewport edges with extreme lateral margins (100-230px) so items read as floating labels."
+ ],
+ "doNot": [
+ "Do not introduce a third color, a shadow, a gradient, or any surface tint. The two-color discipline is the brand.",
+ "Do not use a bold display weight for headlines. Times Now weight 250 is the only display voice; if you need more presence, increase size, never weight.",
+ "Do not use rectangular corners anywhere. Even small chips, tags, and buttons get 50px radius.",
+ "Do not add borders, outlines, or focus rings that aren\u0027t pure 1px black. No colored states, no tinted hovers.",
+ "Do not break the white canvas with a panel, sidebar, or container surface. The page is the only surface.",
+ "Do not center-align body or metadata text. The footer credit and project captions are left- or right-aligned to specific edges.",
+ "Do not use a sans-serif system font for display. The serif at ultra-light weight is what separates this system from every other minimalist agency portfolio."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/bd62b51f-e1be-4e4f-b3d9-e9b91f817625",
+ "referenceSite": "https://littletroop.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:51:24.395Z",
+ "articleModifiedAt": "2026-06-05T10:48:45.529Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/31a40556-b808-4f3c-91de-698f5f491765.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c4fdad14-9880-4526-93d0-0d043f825d37.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/9ace148e-6b9a-4209-ace0-f54d2e277645.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e694f7d1-b161-4647-94e7-d5da38d59f8b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/35f75927-e15c-4c59-9a75-3fd840b65e0f.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/fc54aec5-2977-4cdd-913c-c17e28b1bbff.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

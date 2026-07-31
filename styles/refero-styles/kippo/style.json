@@ -1,0 +1,271 @@
+{
+ "id": "917048a3-53b3-44e6-ab33-faefc4dcc9df",
+ "name": "Kippo",
+ "slug": "kippo",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/917048a3-53b3-44e6-ab33-faefc4dcc9df",
+ "referenceSite": "https://kippo.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:40:54.453Z",
+ "articleModifiedAt": "2026-06-05T10:34:40.210Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/17773304-2b88-4e88-9f73-42fd4c87e00b.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/0c516347-4342-46a2-af46-136bac42d825.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/bed693f6-68f5-4c4a-8227-3bff7226f870.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b892567c-6727-400a-bab7-1542b2375575.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/dfca15fd-0067-4d33-8242-0b38597abb05.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/72fbff04-1fe7-4f98-a226-350ec30760f7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/d40f7ef3-ee6d-4363-a560-2a275ce11450.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Other",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Other",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Pixel arcade boot screen in a black void. Monospace glyphs traced in white neon against a pure black void, with a single hot-pink power-up color that should feel rare and electric when it appears.",
+ "summary": "Explore Kippo\u0027s dark Other design system: Kippo Pink #ee1f66, Void Black #000000 colors, Source Code Pro typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Kippo Pink",
+ "value": "#ee1f66",
+ "token": "--color-kippo-pink",
+ "role": "Primary action background, accent headings, active badges - the only chromatic voice in the system, rationed to feel like a power-up rather than a brand wash"
+ },
+ {
+ "name": "Void Black",
+ "value": "#000000",
+ "token": "--color-void-black",
+ "role": "Page canvas, card backgrounds, image fills - the infinite dark that everything else floats on"
+ },
+ {
+ "name": "Carbon",
+ "value": "#29292a",
+ "token": "--color-carbon",
+ "role": "Elevated card surfaces and secondary panels - barely-distinguishable dark gray for cards that need to step forward from the black canvas"
+ },
+ {
+ "name": "Ash",
+ "value": "#333333",
+ "token": "--color-ash",
+ "role": "Subtle borders and dividers where white is too loud - a near-black separator for nested or secondary content"
+ },
+ {
+ "name": "Ghost White",
+ "value": "#ffffff",
+ "token": "--color-ghost-white",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces."
+ },
+ {
+ "name": "Sunset Gradient",
+ "value": "#ffc400",
+ "token": "--color-sunset-gradient",
+ "role": "Gradient start stop - used only on the warm-to-cool decorative band behind the phone mockup and small accent elements"
+ },
+ {
+ "name": "Terminal Cyan",
+ "value": "#33beff",
+ "token": "--color-terminal-cyan",
+ "role": "Gradient start for cool accents - used sparingly in decorative gradient bands"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Source Code Pro",
+ "token": "--font-source-code-pro",
+ "role": "Sole typeface - used for every text element from nav links to body copy to display headlines. Monospace at 42px/weight 700 with 0.3-0.5em tracking in all-caps creates a retro arcade marquee feel; at 16px/weight 400 it reads as clean monospace body. The slashed-zero feature is enabled, reinforcing the terminal/CRT aesthetic."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.2",
+ "0.08px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.88",
+ "-",
+ "--text-body"
+ ],
+ [
+ "display",
+ "42px",
+ "1.19",
+ "0.5px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "100px",
+ "cardPadding": "30px",
+ "elementGap": "15px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "15",
+ "15px",
+ "`--spacing-15`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "25",
+ "25px",
+ "`--spacing-25`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "35",
+ "35px",
+ "`--spacing-35`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "150",
+ "150px",
+ "`--spacing-150`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "15px"
+ ],
+ [
+ "icons",
+ "50px"
+ ],
+ [
+ "images",
+ "15px"
+ ],
+ [
+ "buttons",
+ "10px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "Filled magenta action - the only solid-fill button in the system"
+ },
+ {
+ "name": "Ghost Outline Button",
+ "role": "Secondary actions, nav-adjacent controls"
+ },
+ {
+ "name": "Navigation Link",
+ "role": "Top-bar nav items"
+ },
+ {
+ "name": "Outlined Card",
+ "role": "Content container - feature blocks, media tiles, info panels"
+ },
+ {
+ "name": "Press Logo Strip",
+ "role": "Social proof band"
+ },
+ {
+ "name": "App Store Badge",
+ "role": "Download CTA"
+ },
+ {
+ "name": "QR Code Block",
+ "role": "Alternative download entry"
+ },
+ {
+ "name": "Phone Mockup Frame",
+ "role": "Hero product showcase"
+ },
+ {
+ "name": "Code-Style Card Stack",
+ "role": "Feature illustration - profile cards fanned out"
+ },
+ {
+ "name": "Code Block / Terminal Snippet",
+ "role": "Feature explainer - product UI preview"
+ },
+ {
+ "name": "Logo Wordmark",
+ "role": "Brand identifier in nav"
+ },
+ {
+ "name": "Section Heading Pair",
+ "role": "Section-level headlines"
+ },
+ {
+ "name": "App Icon Tile",
+ "role": "Bottom nav icons within phone mockup"
+ }
+ ],
+ "dos": [
+ "Use Source Code Pro for every text element - body, headings, buttons, nav, labels. No secondary font.",
+ "Set all UI text to uppercase with letter-spacing 0.1em minimum; display headlines should reach 0.3-0.5em tracking.",
+ "Define cards with a 1px #ffffff border on a #000000 or #29292a fill - never with shadow, never with a colored fill.",
+ "Reserve #ee1f66 for the primary CTA background, the accent word in two-tone display headlines, and active/border-current-page states. Use it no more than once per viewport section.",
+ "Use 10px radius for buttons and tags, 15px for cards and images, 50px for icon buttons. Never exceed 15px on rectangular surfaces.",
+ "Maintain generous vertical breathing room: 100-150px between major sections, 30px inside cards, 15px between inline elements.",
+ "Enable the \u0027zero\u0027 font-feature on Source Code Pro so the numeral 0 is slashed - it reinforces the terminal identity."
+ ],
+ "donts": [
+ "Don\u0027t introduce a second typeface (no Inter, no Helvetica, no sans-serif fallback for body). Monospace-only is the identity.",
+ "Don\u0027t fill cards with color, gradient, or image. Cards are transparent panels - the border is the card.",
+ "Don\u0027t use drop shadows for elevation. Depth comes from overlapping layers and outline contrast, never from blur.",
+ "Don\u0027t dilute #ee1f66 by using it for body text, borders on non-action elements, or large background areas. It must remain rare.",
+ "Don\u0027t use border-radius larger than 15px on rectangular surfaces, and never use fully-rounded pill shapes on buttons (10px max).",
+ "Don\u0027t mix light and dark themes - this is a dark-only system. No white-background sections, no theme toggle.",
+ "Don\u0027t use red, green, or yellow for semantic states (success/error/warning) - those colors are decorative only in this system, and the dark canvas + white text + single pink accent is the entire signal vocabulary."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Void Canvas | `#000000` | Page-level background - the infinite black everything else floats on |\n| 1 | Carbon Panel | `#29292a` | Elevated card surface, barely stepping forward from the void |\n| 2 | Neon Border | `#ffffff` | 1px white outlines that define transparent cards without filling them |",
+ "elevation": "Philosophy\n\nKippo has no shadows. Depth is created entirely through layering (overlapping profile cards, the phone mockup on a gradient plane) and through outline contrast (a 1px white border on a black fill is louder than any shadow). This is an intentional anti-convention: most dark-mode UIs rely on subtle elevation shadows to separate surfaces, but Kippo\u0027s arcade-wireframe language treats the border as the structural element and shadows as unnecessary noise. When stacking elements, overlap them with a small offset rather than adding drop-shadow or blur.",
+ "imagery": "Imagery is almost entirely product-internal: phone mockups showing the app UI, and stacked profile-card illustrations that function as feature explainers. The only \u0027real\u0027 photography is inside the phone mockup screens (user profile photos of people, shown as small rounded thumbnails). No full-bleed lifestyle photography, no decorative illustrations outside the product, no abstract graphics. The phone mockup sits on a gradient backdrop (gold magenta) that is the single moment of color richness in the system. Press logos in the social-proof band are the one place external brand colors appear, tolerated as content rather than decoration.",
+ "layout": "Single-column, max-width ~1200px centered layout on a pure black canvas. The hero is a two-column split: left side holds the two-tone display headline, subtitle, download badges, and QR code; right side holds the phone mockup on a gradient backdrop. Below the hero, a full-width press logo strip repeats logos in two stacked rows. Further down, sections alternate between two-column text+visual blocks (text-left/image-right) and centered single-column feature stacks. Cards are arranged in single rows, not multi-column grids. Navigation is a single horizontal bar pinned at the top: logo left, three uppercase links right, all within a thin white-bordered pill or rectangle. The overall rhythm is spacious - 100-150px between major sections, with the dark canvas absorbing visual weight and making the few colored elements feel deliberate."
+}

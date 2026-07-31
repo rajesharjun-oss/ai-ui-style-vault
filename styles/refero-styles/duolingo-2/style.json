@@ -1,0 +1,301 @@
+{
+ "id": "95b472c5-fc07-46a8-a11f-c5432e290fcd",
+ "name": "Duolingo",
+ "slug": "duolingo-2",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/95b472c5-fc07-46a8-a11f-c5432e290fcd",
+ "referenceSite": "https://www.duolingo.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-29T00:46:37.746Z",
+ "articleModifiedAt": "2026-06-05T11:37:59.917Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/06c785bb-ab6f-4897-a75c-50316219c830.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/7a42b854-faef-4ea5-84f3-1a3d178c485c.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/e063ce8c-fded-49db-94e4-8bb9c5814c3b.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/5174a89d-f37e-489e-9a31-b994c797d7af.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/b9de74d6-7fa2-40a8-8452-7b5558a0dde9.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/8c4b74a1-cc93-44e3-b5cb-52b1038a687e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/41d4a78f-3a9b-4f03-af9c-14fc763260d1.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Green playground with thick marker outlines",
+ "summary": "Explore Duolingo\u0027s light SaaS design system: Ecto Green #58cc02, Lingot Lime #a5ed6e colors, din-round, feather typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Ecto Green",
+ "value": "#58cc02",
+ "token": "--color-ecto-green",
+ "role": "Green outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Lingot Lime",
+ "value": "#a5ed6e",
+ "token": "--color-lingot-lime",
+ "role": "Outlined-action border and link accent - used as the chromatic border on link and button elements in 256+ instances. The lighter green outline gives interactive elements a glowing, highlighter-pen quality against white backgrounds"
+ },
+ {
+ "name": "Eel Light",
+ "value": "#d7ffb8",
+ "token": "--color-eel-light",
+ "role": "Soft highlight and pale border - lightest green used for card outlines, soft surface washes, and the bottom shadow border on filled green buttons to create a 3D pressable effect"
+ },
+ {
+ "name": "Macaw Blue",
+ "value": "#1cb0f6",
+ "token": "--color-macaw-blue",
+ "role": "Secondary action accent - body borders, link text, and outlined button borders for secondary actions like language-specific CTAs. The cyan-blue sibling to the green system, signaling alternative or complementary actions"
+ },
+ {
+ "name": "Eel Dark Blue",
+ "value": "#042c60",
+ "token": "--color-eel-dark-blue",
+ "role": "Deep heading text and border - navy blue used for emphasis headings and key border treatments, providing weight and contrast without competing with the green primary"
+ },
+ {
+ "name": "Midnight",
+ "value": "#000437",
+ "token": "--color-midnight",
+ "role": "Dark surface and button text - near-black violet used for dark-surface sections and as button label text on green fills"
+ },
+ {
+ "name": "Graphite",
+ "value": "#3c3c3c",
+ "token": "--color-graphite",
+ "role": "Dominant neutral border - the workhorse gray used for hundreds of list and card borders throughout navigation, lists, and structural dividers. Not a background, a border system"
+ },
+ {
+ "name": "Ash",
+ "value": "#777777",
+ "token": "--color-ash",
+ "role": "Secondary text and nav borders - medium gray for navigation chrome, secondary text labels, and subtle structural borders"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#4b4b4b",
+ "token": "--color-charcoal",
+ "role": "Body text and icon borders - darker gray for body copy and icon outlines, sitting between the lighter Ash and the darker structural Graphite"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page and card surface - the white canvas on which all content sits. Also used as text on dark surfaces and as border color for ghost buttons"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "Pure black for SVG illustration fills and maximum-contrast text where needed"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "din-round",
+ "token": "--font-din-round",
+ "role": "Primary UI typeface - used for body text, navigation, buttons, links, lists, and smaller headings. The rounded terminals and friendly weight create an approachable, educational tone. Weight 500 for body, weight 700 for emphasis and button labels. The +0.053em letter-spacing is wider than typical, giving text a breezy, open feel."
+ },
+ {
+ "name": "feather",
+ "token": "--font-feather",
+ "role": "Display face for large feature headlines - bold, heavy, and tight (letter-spacing: -0.02em). Reserved exclusively for oversized section headlines. The extreme weight contrast against the lighter din-round body creates a shout/whisper rhythm: feather headlines announce, din-round explains."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.23",
+ "0.69px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.47",
+ "0.8px",
+ "--text-body"
+ ],
+ [
+ "heading-sm",
+ "19px",
+ "1.33",
+ "1.01px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.21",
+ "1.7px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "64px",
+ "1.2",
+ "-1.28px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "100px",
+ "cardPadding": "16-24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "links",
+ "12px"
+ ],
+ [
+ "pills",
+ "12px"
+ ],
+ [
+ "buttons",
+ "12px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Filled Button",
+ "role": "Main call-to-action (Get Started, Start Learning)"
+ },
+ {
+ "name": "Ghost/Outlined Secondary Button",
+ "role": "Secondary action (I Already Have An Account, Certify Your English)"
+ },
+ {
+ "name": "Lingot Outlined Link",
+ "role": "Inline text links and nav links throughout content"
+ },
+ {
+ "name": "Language Selector Pill",
+ "role": "Language/course picker in footer and nav"
+ },
+ {
+ "name": "Section Heading Block",
+ "role": "Large feature section headers"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Sticky header with logo and language switcher"
+ },
+ {
+ "name": "Feature Illustration Panel",
+ "role": "Large character illustrations accompanying feature sections"
+ },
+ {
+ "name": "Hero CTA Stack",
+ "role": "Primary action area on landing page"
+ },
+ {
+ "name": "Course/Language Grid",
+ "role": "Grid of language options with flags"
+ },
+ {
+ "name": "List/Table Row",
+ "role": "Structured data rows in tables and lists"
+ },
+ {
+ "name": "Feature Section Block",
+ "role": "Alternating text + illustration sections"
+ }
+ ],
+ "dos": [
+ "Use #58cc02 as the filled background for all primary action buttons and as the color for large display headings",
+ "Use #a5ed6 as the 2px border color for outlined/ghost links and secondary buttons - this lighter green outline is the system\u0027s most distinctive repeated element",
+ "Set border-radius to 12px on all buttons, links, and pills - this is the only radius in the system",
+ "Use feather at 48-64px weight 700 with -0.02em letter-spacing for section headlines, and din-round for everything else",
+ "Add a 2-3px solid bottom border in a darker shade to green filled buttons to create the pressable 3D effect - never use box-shadow",
+ "Use the wide letter-spacing of ~0.053em on all din-round text - the open, airy tracking is part of the brand voice",
+ "Pair every feature section with a flat cartoon illustration - the system expects character art as a content element, not decoration"
+ ],
+ "donts": [
+ "Do not use drop shadows on any element - depth comes from solid borders, never from blurred shadow stacks",
+ "Do not use gradients - the system is strictly flat solid colors with no gradient transitions",
+ "Do not use card containers with background fills or box-shadows - sections are separated by white space alone",
+ "Do not set body radius below or above 12px - the system has exactly one radius value and it should be used uniformly",
+ "Do not use feather for body text or anything under 32px - it is exclusively a display face for oversized headlines",
+ "Do not introduce new accent colors outside the established palette of green, blue, dark blue, and midnight",
+ "Do not use the light green #a5ed6 as a filled background - it is exclusively a border/outline color"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Paper White | `#ffffff` | Base page canvas and all card surfaces - the entire site sits on pure white |\n| 1 | Ecto Green Surface | `#58cc02` | Primary CTA fill and large heading emphasis blocks |\n| 2 | Midnight Surface | `#100f3` | Dark mode sections and inverted hero panels |",
+ "elevation": "- **Primary Filled Button:** `2-3px solid bottom border in darker green (#58cc02 or #4cae02) with no box-shadow - depth is border-based, not shadow-based`",
+ "imagery": "Illustrations are the dominant visual language - flat, vector-style cartoon characters rendered in solid colors with no gradients or complex shading. The mascot owl Duo appears prominently alongside diverse human characters in playful scenarios (flying carpets, phones, classrooms). Color palette in illustrations mirrors the brand system: Ecto Green, Macaw Blue, bright yellow #ffe700, pink, purple. Illustrations are always full-color and positioned beside text content rather than as backgrounds. No photography is used. Icons are minimal - mostly flag emojis and simple line icons in the navigation. The overall density is illustration-heavy on feature sections but text-dominant on navigation and footer.",
+ "layout": "Full-bleed white page with no contained max-width frame - content blocks sit directly on the white canvas with generous 100px+ vertical section gaps. Navigation is a minimal sticky top bar with logo left and language toggle right. The hero is a centered two-column layout: illustration cluster on the left, headline + CTA stack on the right. Below the hero, content flows in alternating two-column sections (text + illustration, flipping sides) with no card containers or background color changes - just white space and bold type doing the separation work. A horizontal scrollable course selector strip sits at the bottom. The grid system is implicit: content aligns to a 1200px max-width with comfortable margins, but there are no visible grid lines or card structures."
+}

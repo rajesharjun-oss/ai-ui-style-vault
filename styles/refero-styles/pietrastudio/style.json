@@ -1,0 +1,375 @@
+{
+ "id": "577eb7d8-3555-4378-83df-0cebebc4782f",
+ "name": "Pietrastudio",
+ "slug": "pietrastudio",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/577eb7d8-3555-4378-83df-0cebebc4782f",
+ "referenceSite": "https://www.pietrastudio.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:38:26.650Z",
+ "articleModifiedAt": "2026-06-05T08:59:10.716Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/1db014d9-1d52-446e-8a29-39e26eaf8b23.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/6281684e-704e-4af3-a449-17fc3834023e.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/11cba7d9-2aef-49fa-911c-3e8dd239b3ac.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/1f7faf13-625c-4651-aa33-31b38e7ca387.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8ac9aff7-2f11-4532-a4f7-944b6d40242a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/7de6151d-d2e0-450e-8a34-119540837f40.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e42fd777-951d-41cf-881d-34f32e31d17b.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "SaaS",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "SaaS",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "sunlit AI workshop on cream paper",
+ "summary": "Explore Pietrastudio\u0027s light SaaS design system: Ember Coral #ff5c3c, Pure White #ffffff colors, Attila-Bold, Attila Sans Uniform typography, and DESIGN.md...",
+ "colors": [
+ {
+ "name": "Ember Coral",
+ "value": "#ff5c3c",
+ "token": "--color-ember-coral",
+ "role": "Primary CTA fill, active nav, brand accent - a warm vermillion that sits forward against cream backgrounds without feeling aggressive"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Page canvas, card surfaces, button text on dark fills - the base everything else rests on"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary heading text, body text, dominant borders - the workhorse contrast color used at 1750+ instances"
+ },
+ {
+ "name": "Cream Paper",
+ "value": "#f8f6f2",
+ "token": "--color-cream-paper",
+ "role": "Warm off-white surface layer for elevated cards and section bands - gives the page its sunlit warmth without leaving pure white"
+ },
+ {
+ "name": "Soft Cream",
+ "value": "#fffbe7",
+ "token": "--color-soft-cream",
+ "role": "Accent card surface, tinted feature panels - a warmer cream for highlight cards that need to stand apart from the base canvas"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#141414",
+ "token": "--color-charcoal",
+ "role": "Secondary text, link text, heavy borders - softer than pure black for UI chrome and metadata"
+ },
+ {
+ "name": "Iron Gray",
+ "value": "#1f2026",
+ "token": "--color-iron-gray",
+ "role": "Body text, input borders, body chrome - near-black with a cool cast for dense informational UI"
+ },
+ {
+ "name": "Mid Gray",
+ "value": "#6b6b6b",
+ "token": "--color-mid-gray",
+ "role": "Muted body text, helper text, icon borders - the primary de-emphasized text tone"
+ },
+ {
+ "name": "Silver",
+ "value": "#c4c4c4",
+ "token": "--color-silver",
+ "role": "Hairline borders, dividers, placeholder text - light structural lines that recede"
+ },
+ {
+ "name": "Slate",
+ "value": "#333333",
+ "token": "--color-slate",
+ "role": "Deep body text, secondary headings - sits between charcoal and black for weighted text that isn\u0027t headline-level"
+ },
+ {
+ "name": "Ash",
+ "value": "#e8e8ea",
+ "token": "--color-ash",
+ "role": "Shadow tint, ultra-light dividers, ghost surfaces - the near-invisible layer"
+ },
+ {
+ "name": "Goldenrod",
+ "value": "#f9e070",
+ "token": "--color-goldenrod",
+ "role": "Category tag accent, feature card variant - warm yellow that pairs with coral gradients"
+ },
+ {
+ "name": "Sage",
+ "value": "#57ad6a",
+ "token": "--color-sage",
+ "role": "Category tag accent, feature card variant - natural green for growth/scale categories"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Attila-Bold",
+ "token": "--font-attila-bold",
+ "role": "Display headlines - the tall, tightly-tracked serif/grotesque hybrid used for hero and section headings at 32-48px. The negative tracking (-0.02em) is signature: letters pull close at large sizes creating a dense, editorial block of text"
+ },
+ {
+ "name": "Attila Sans Uniform",
+ "token": "--font-attila-sans-uniform",
+ "role": "Largest display moments - uniform-width variant for the biggest headlines where letterform consistency matters more than contrast"
+ },
+ {
+ "name": "Labil-Bold",
+ "token": "--font-labil-bold",
+ "role": "Bold body emphasis and mid-weight headings - the weight-400 bold variant that gives inline emphasis and sub-headings without switching families"
+ },
+ {
+ "name": "Labil Grotesk",
+ "token": "--font-labil-grotesk",
+ "role": "Primary body and UI font - the workhorse grotesque used for body copy, buttons, inputs, cards, and navigation at 12-24px. Tracking sits at -0.01em throughout, a subtle but consistent tighten"
+ },
+ {
+ "name": "Labil-Regular",
+ "token": "--font-labil-regular",
+ "role": "Lighter body weight for body copy and descriptions - weight 300 for long-form paragraphs creates breathing space; weight 400 for compact UI. The 0.143em tracking on some instances suggests uppercase labels or tag text"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-0.12px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.5",
+ "-0.14px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-0.16px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.2",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.2",
+ "-0.24px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.1",
+ "-0.64px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "40px",
+ "1.1",
+ "-0.52px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "48px",
+ "1.1",
+ "-0.96px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80-120px",
+ "cardPadding": "16-24px",
+ "elementGap": "8-12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "60",
+ "60px",
+ "`--spacing-60`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "124",
+ "124px",
+ "`--spacing-124`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "12px"
+ ],
+ [
+ "images",
+ "16-20px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ],
+ [
+ "featureCards",
+ "20px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Coral Primary Button",
+ "role": "Main call-to-action across the site"
+ },
+ {
+ "name": "Outlined Ghost Button",
+ "role": "Secondary action paired with the primary"
+ },
+ {
+ "name": "Navigation Link Button",
+ "role": "Top-bar utility actions"
+ },
+ {
+ "name": "Hero Search/Input Field",
+ "role": "The central prompt input on the hero"
+ },
+ {
+ "name": "Feature Card - Gradient Category",
+ "role": "Product capability cards with colored category tags"
+ },
+ {
+ "name": "Logo Bar Section",
+ "role": "Social proof band"
+ },
+ {
+ "name": "Integration Card",
+ "role": "Shows platform integrations"
+ },
+ {
+ "name": "Model Selection Card",
+ "role": "Demonstrates AI model routing"
+ },
+ {
+ "name": "Agent Card (Horizontal)",
+ "role": "Feature row showing AI agent capabilities"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top site navigation"
+ },
+ {
+ "name": "Tag / Category Label",
+ "role": "Small functional labels on cards"
+ },
+ {
+ "name": "Hero Gradient Background",
+ "role": "Atmospheric warm wash behind the hero headline"
+ },
+ {
+ "name": "Decorative Floating Cards",
+ "role": "Overlapping capability preview cards in the hero"
+ }
+ ],
+ "dos": [
+ "Use the coral #ff5c3c for exactly one primary action per screen - never two coral CTAs competing",
+ "Set display headlines in Attila-Bold at 40-48px with tracking -0.02em; the tight tracking is the editorial signature",
+ "Apply the warm gradient swatch system (Royal, Sky, Verdant, Magenta, Sunrise) only to category tags and decorative cards - not to body text or backgrounds",
+ "Layer shadows as inset highlights + warm-tinted drops: the cream-on-cream shadow is what separates cards from the canvas",
+ "Use 12px radius as the default card radius, 8px for buttons and inputs, 9999px for tags - this three-tier radius system is the structural rhythm",
+ "Keep body copy in Labil Grotesk at 16px with 1.5 line-height; the 0.143em uppercase tracking is reserved for small all-caps labels only",
+ "Maintain a warm white palette: #ffffff for the page canvas, #f8f6f2 for elevated surfaces, #fffbe7 for accent cards - never introduce cool grays"
+ ],
+ "donts": [
+ "Do not use coral for secondary actions, links, or decorative elements - it loses its action weight if scattered",
+ "Do not use Attila for body copy or UI text - it is display-only and overwhelms at small sizes",
+ "Do not apply the category gradient swatches as full card backgrounds or page sections - they are tag-sized accents",
+ "Do not introduce drop shadows in cool gray tones; all shadows should carry the warm pink/cream tint to match the surface palette",
+ "Do not use sharp 0px radii on cards or images - the rounded geometry is essential to the soft, paper-like feel",
+ "Do not stack multiple saturated colors in a single component - one chromatic accent per element, with grayscale for everything else",
+ "Do not use letter-spacing wider than -0.01em on body text; the system is consistently tight-tracked and loosening it breaks the type voice"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#ffffff` | Base page background - the white paper everything sits on |\n| 1 | Warm Wash | `#f8f6f2` | Section bands and elevated card backgrounds - a barely-warm off-white that adds atmosphere without leaving the light palette |\n| 2 | Accent Cream | `#fffbe7` | Highlighted cards and feature panels - a warmer cream tint for elements that need to stand apart from the base canvas |\n| 3 | Hero Atmosphere | `#fbeaf6` | Hero background ambient wash - soft pink-to-peach gradient for the top of the page |",
+ "elevation": "- **Feature cards:** `rgba(239, 227, 225, 0.3) 5px 5px 24px 0px`\n- **Primary buttons:** `rgba(0, 0, 0, 0.02) 0px 2px 0px 0px`\n- **Inset surface input:** `rgba(193, 194, 222, 0.2) 1px 1px 1px 0px inset, rgba(255, 255, 255, 0.8) -1px -1px 1px 0px inset, rgb(255, 255, 255) 1px 1px 1px 0px inset, rgba(221, 223, 228, 0.5) 5px 5px 24px 0px`",
+ "imagery": "Imagery is minimal and product-focused. The hero relies on a fanned cluster of gradient-filled capability cards overlapping the search input - no photography, no illustrations, just typographic cards as visual content. Brand logos in the social proof band are rendered grayscale on the warm cream background. Integration icons appear as small, clean monochrome marks in a grid. Product screenshots (when present) are cropped tightly to show the interface, not the full app. The visual language is essentially \u0027no imagery\u0027 in the traditional sense - the design IS the visual, built from type, gradient swatches, and warm surface washes.",
+ "layout": "Max-width contained at ~1200px with centered content. The hero is a full-bleed warm gradient with a centered headline, supporting subtext, fanned gradient card cluster, large prompt input, and stacked CTAs. Below the fold, sections alternate between white and warm-cream bands with generous 80-120px vertical gaps. Feature sections use a 3-column card grid for agent cards, with a 2-column text-plus-visual layout for platform sections. The logo bar is a full-width warm-tinted band. Navigation is a centered top bar with left-aligned wordmark, center links, and right-aligned actions. No sidebar, no mega-menu - the nav stays compact and horizontal."
+}

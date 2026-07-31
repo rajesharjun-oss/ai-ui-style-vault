@@ -1,0 +1,199 @@
+{
+ "id": "d69af89b-cb31-426d-b9aa-c21d127b8947",
+ "name": "OhDada",
+ "slug": "ohdada",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/d69af89b-cb31-426d-b9aa-c21d127b8947",
+ "referenceSite": "https://ohdada.de",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:28:43.924Z",
+ "articleModifiedAt": "2026-06-05T11:34:11.080Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/6bdb1030-c8a4-441d-8b91-effc3c3ced2f.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c0140cfb-92da-4b70-a3f7-a50f6f137fcc.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/be6ee322-a717-4aa8-a7e2-e372d96dbba2.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e10752f7-0f8d-4854-93dc-f328209cef9e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/3bb5b307-e594-4d01-a153-d837370cf8cb.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/b4e9b457-c982-44e0-8417-2d9167e7aa6a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Editorial gallery wall",
+ "summary": "Explore OhDada\u0027s light E-commerce design system: Chalk Cream #e6e0d9, Lavender Stone #b7b3be colors, GrandSlang-Roman, Neue Haas Grotesk Display typography,...",
+ "colors": [
+ {
+ "name": "Chalk Cream",
+ "value": "#e6e0d9",
+ "token": "--color-chalk-cream",
+ "role": "Primary page canvas and secondary section background; the warm off-white that makes brown type and sculpture photography feel curated rather than clinical"
+ },
+ {
+ "name": "Lavender Stone",
+ "value": "#b7b3be",
+ "token": "--color-lavender-stone",
+ "role": "Alternate section background and hero canvas; introduces a cool, chalky counterpoint to the warm cream without breaking the achromatic discipline"
+ },
+ {
+ "name": "Saddle Brown",
+ "value": "#5d3a19",
+ "token": "--color-saddle-brown",
+ "role": "All headings, body copy, link text, and hairline borders - the only chromatic voice in the system, used as a drawn-with-ink accent against the pale neutrals; Outlined and ghost interactive borders; links and navigation controls carry a 1px brown stroke rather than a filled background, keeping the surface quiet"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Decorative SVG fills only; never used for UI text or surface elements"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "GrandSlang-Roman",
+ "token": "--font-grandslang-roman",
+ "role": "Brand mark and large display headings only - used at 58px+ for the wordmark and section titles. Weight 100 is the entire signature: hairline serif strokes that read as drawn rather than typeset. Substitute: Cormorant Garamond Ultralight or Italiana, which approximate the extreme thinness and high-contrast serif construction."
+ },
+ {
+ "name": "Neue Haas Grotesk Display",
+ "token": "--font-neue-haas-grotesk-display",
+ "role": "All body copy, navigation, secondary headings, and product labels. Weights 400 for body, 500 for emphasis. The neo-grotesque geometry acts as a neutral ground for the expressive display serif - a deliberate Swiss-type baseline that lets GrandSlang perform. Substitute: Inter, Neue Haas Unica, or Helvetica Neue."
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "16px",
+ "1.18",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "display",
+ "58px",
+ "1",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "72px",
+ "1",
+ "-",
+ "--text-display-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "115px",
+ "cardPadding": "40px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "115",
+ "115px",
+ "`--spacing-115`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Hero Wordmark",
+ "role": "Brand identity display"
+ },
+ {
+ "name": "Hero Subtitle",
+ "role": "Tagline beneath wordmark"
+ },
+ {
+ "name": "Section Title (Display)",
+ "role": "Major section heading"
+ },
+ {
+ "name": "Product Card - Editorial",
+ "role": "Product entry in catalog"
+ },
+ {
+ "name": "Outlined Link",
+ "role": "Navigation and inline links"
+ },
+ {
+ "name": "Section Divider",
+ "role": "Implicit section break"
+ },
+ {
+ "name": "Product Photography Frame",
+ "role": "Sculpture product imagery"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ }
+ ],
+ "dos": [
+ "Use only GrandSlang-Roman weight 100 for the wordmark and display headings - never set it bold or above 72px",
+ "Alternate Chalk Cream (#e6e0d9) and Lavender Stone (#b7b3be) as full-bleed section backgrounds to create rhythm without introducing new colors",
+ "Apply 115px top/bottom padding to all major sections to maintain gallery-wall breathing room",
+ "Set all body and navigation text in Neue Haas Grotesk weight 400-500, Saddle Brown (#5d3a19), 16-17px",
+ "Mark links and interactive elements with a 1px Saddle Brown bottom border rather than a filled background",
+ "Use 0px border-radius on all components - cards, buttons, images, and product frames are sharp-edged",
+ "Let product photography be the only source of additional color (blues, whites from the sculptures); the UI itself stays three-tone"
+ ],
+ "donts": [
+ "Do not introduce gradients, drop shadows, or elevation effects - the system is flat by design",
+ "Do not use rounded corners on any element; 0px radius is structural to the editorial feel",
+ "Do not add a fourth color to the palette - Saddle Brown, Chalk Cream, and Lavender Stone are the complete chromatic vocabulary",
+ "Do not set GrandSlang-Roman below 58px or in any weight other than 100; it loses its character at small sizes",
+ "Do not use filled button backgrounds for primary actions; use the outlined-link treatment with a brown border instead",
+ "Do not center body text - the layout is left-aligned throughout, even in the hero",
+ "Do not add hover animations, color transitions, or motion; the interface reads as a printed catalog"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Cream Canvas | `#e6e0d9` | Dominant page and product-section background |\n| 2 | Lavender Plinth | `#b7b3be` | Hero and accent section background, creates a tonal shift without introducing a new hue family |",
+ "elevation": "No shadows, no blur, no stacked surfaces. Depth comes solely from alternating cream and lavender-stone background bands and the natural dimension of product photography against flat UI.",
+ "imagery": "Product photography dominates and is the only source of color beyond the three-tone UI. Sculptures are shot in clean, well-lit studio conditions on white or neutral gallery walls - tight, straight-on crops that show the kinetic mobile in full. No lifestyle context, no human subjects, no decorative backgrounds. Treatment is high-key, natural, unretouched. The blue and brown geometric forms of the sculptures echo the UI palette by coincidence, not by art direction. Icons are absent from the interface entirely. Imagery ratio: image-forward on product pages, text-only on the hero.",
+ "layout": "Full-bleed page model with no max-width container - content aligns to the page edges with generous left margins. The hero is a full-viewport Lavender Stone band with the wordmark left-aligned at roughly 10% from the left edge, no centered composition. Sections alternate between Chalk Cream and Lavender Stone bands separated by 115px vertical padding. Product sections use a 2-column split: product name in italic serif on the left third, full-bleed photograph filling the right two-thirds. Navigation is a minimal top bar with inline links, no logo block, no hamburger. The overall rhythm is editorial - large quiet bands, single product per section, no card grids or multi-column feature blocks."
+}

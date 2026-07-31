@@ -1,0 +1,340 @@
+{
+ "name": "Mews",
+ "slug": "mews",
+ "colors": [
+ {
+ "name": "Canvas White",
+ "value": "#ffffff",
+ "token": "--color-canvas-white",
+ "role": "Primary page background, top of surface stack"
+ },
+ {
+ "name": "Warm Cream",
+ "value": "#fffcf6",
+ "token": "--color-warm-cream",
+ "role": "Card and elevated surface backgrounds, gentle warmth against pure white"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Primary text, icons, borders, and dark hero panels - the dominant structural color"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#333333",
+ "token": "--color-charcoal",
+ "role": "Secondary text and softer borders where pure black would feel too heavy"
+ },
+ {
+ "name": "Deep Panel",
+ "value": "#161616",
+ "token": "--color-deep-panel",
+ "role": "Dark feature cards, inverse surface for hero blocks, and high-contrast panels"
+ },
+ {
+ "name": "Fog Gray",
+ "value": "#8c8c8c",
+ "token": "--color-fog-gray",
+ "role": "Muted helper text, disabled button fills, and tertiary borders"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#cccccc",
+ "token": "--color-mist-gray",
+ "role": "Hairline dividers, nav separators, subtle structural borders"
+ },
+ {
+ "name": "Lilac Mist",
+ "value": "#c4c9dd",
+ "token": "--color-lilac-mist",
+ "role": "Cool-toned decorative borders, illustration fills, and subtle chrome highlights"
+ },
+ {
+ "name": "Bubblegum",
+ "value": "#ff83da",
+ "token": "--color-bubblegum",
+ "role": "Primary brand accent - pill-shaped CTAs, announcement bar background, active highlights; vivid pink against white is the visual signature"
+ },
+ {
+ "name": "Cotton Pink",
+ "value": "#ffc5ee",
+ "token": "--color-cotton-pink",
+ "role": "Softer pink surface for secondary buttons and pastel card variants"
+ },
+ {
+ "name": "Blush Mist",
+ "value": "#f7e1f7",
+ "token": "--color-blush-mist",
+ "role": "Lightest pink wash for category tile backgrounds and quiet brand surfaces"
+ },
+ {
+ "name": "Ice Blue",
+ "value": "#d2f4ff",
+ "token": "--color-ice-blue",
+ "role": "Cool supporting accent for product UI screenshots, informational tiles, and category surface variation"
+ },
+ {
+ "name": "Voltage Lime",
+ "value": "#e8ff5b",
+ "token": "--color-voltage-lime",
+ "role": "High-energy accent for spotlight highlights, image overlays, and surprise moments - used sparingly for visual punctuation"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Soehne",
+ "token": "--font-soehne",
+ "role": "Single typeface across all UI. Body and UI copy at 400-500, navigation and labels at 500-600, subheads at 700, and display headlines at 900 - the extreme weight contrast between 400 body and 900 display is the signature typographic move. Aggressive negative tracking (-0.025em at display sizes) tightens headlines into bold block-like forms that feel architectural rather than airy."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "11px",
+ "1.35",
+ "0.5px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.35",
+ "-0.2px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "22px",
+ "1.2",
+ "-0.33px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "28px",
+ "1.15",
+ "-0.42px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.03",
+ "-0.72px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "96px",
+ "0.9",
+ "-1.68px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "comfortable",
+ "maxWidth": "1280px",
+ "sectionGap": "80px",
+ "cardPadding": "16px",
+ "elementGap": "10px",
+ "scale": [
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "14",
+ "14px",
+ "`--spacing-14`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "21",
+ "21px",
+ "`--spacing-21`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "42",
+ "42px",
+ "`--spacing-42`"
+ ],
+ [
+ "44",
+ "44px",
+ "`--spacing-44`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "4px"
+ ],
+ [
+ "inputs",
+ "8px"
+ ],
+ [
+ "avatars",
+ "4px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Primary CTA Button",
+ "role": "Top-level conversion action - the signature pink pill"
+ },
+ {
+ "name": "Ghost / Outline Button",
+ "role": "Secondary action paired with the primary CTA"
+ },
+ {
+ "name": "Navigation Pill (Active State)",
+ "role": "Active state indicator inside nav menus"
+ },
+ {
+ "name": "Dark Hero Panel",
+ "role": "Full-bleed dark surface for hero copy blocks"
+ },
+ {
+ "name": "Solution / Category Card",
+ "role": "Grid tile for product verticals (Hotels, Groups \u0026 Chains, etc.)"
+ },
+ {
+ "name": "Product Screenshot Frame",
+ "role": "Container for in-app product imagery on the right side of hero sections"
+ },
+ {
+ "name": "FAQ Accordion Item",
+ "role": "Expandable question/answer list"
+ },
+ {
+ "name": "Announcement Bar",
+ "role": "Slim top bar for product news or feature highlights"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Eyebrow / Category Label",
+ "role": "Small all-caps label above section headings"
+ },
+ {
+ "name": "Product Feature Pill",
+ "role": "Rounded tag for highlighting product capabilities (Property Management, Revenue, Payments, Point of Sale)"
+ },
+ {
+ "name": "Link with Arrow",
+ "role": "Inline navigational link ending with directional arrow"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use the candy-pink #ff83da pill CTA (#ff83da fill, white text, 9999px radius, 12-14px vertical padding) as the single primary action on any screen - never duplicate it for multiple competing actions.",
+ "Set display headlines at weight 900 Soehne with -0.025em letter-spacing; this tight black-heavy lockup against white is the brand\u0027s signature typographic moment.",
+ "Stack surface levels as: #ffffff (canvas) #fffcf6 (card) #c4c9dd (border) #161616 (dark panel) - preserve the warm-cream-on-white layering instead of defaulting to cool grays.",
+ "Use 4px radius for cards and 8px for inputs; reserve 9999px exclusively for CTA buttons, active nav pills, and tags.",
+ "Keep body text at 16px Soehne 400 with 1.5 line-height in #333333 on white or cream surfaces - never below 14px for running text.",
+ "Drop chromatic accents (pink, ice blue, lime) onto supporting tiles, FAQ toggles, and product UI highlights only - the canvas and body should remain achromatic.",
+ "Let product screenshots breathe in 80px section gaps with 1280px max-width containers; spacing rhythm is generous and architectural."
+ ],
+ "doNot": [
+ "Don\u0027t use the pink CTA fill for anything other than the primary conversion - ghost, outline, and text-link alternatives exist for secondary actions.",
+ "Don\u0027t set headlines in weights below 700; the 900/400 contrast between display and body is the brand\u0027s voice - flattening to 600 kills the energy.",
+ "Don\u0027t add drop shadows to cards; the design relies on flat warm-cream surfaces and hairline borders for separation - shadows would feel corporate and wrong.",
+ "Don\u0027t use the lime #e8ff5b or ice blue #d2f4ff on body text or large surfaces; they\u0027re accent and supporting-tile colors only.",
+ "Don\u0027t introduce new rounded radii (12px, 16px, 24px) - stick to the 4px / 8px / 9999px scale or the visual rhythm collapses.",
+ "Don\u0027t use cool grays (#94a3b8, #64748b) for text or borders; the system runs warm with #333333, #8c8c8c, and #cccccc.",
+ "Don\u0027t add decorative gradients; the design is flat, photographic, or product-screenshot-driven - gradients would clash with the editorial flatness."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/6b2777fd-7021-4a96-add3-ec4a32374214",
+ "referenceSite": "https://www.mews.com/en",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:14:32.679Z",
+ "articleModifiedAt": "2026-06-05T07:49:51.469Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/2c6c2160-430d-4149-97c0-c7eb2000c745.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/afa4595f-e817-4bbc-8ea7-3d0ba01d1f70.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/916f6967-59f1-4379-b611-5acd3174c2e0.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7e061c69-f4d9-478a-a9d4-db3e5979ad64.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e96578c1-3e47-4234-a390-3fa4cfffa6e2.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/af13b13e-fa90-4fe9-a1f4-dda06e0aa69a.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/24bb9938-7d56-417a-adda-dd226919b54e.png"
+ }
+ }
+}

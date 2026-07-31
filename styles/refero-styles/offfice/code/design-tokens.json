@@ -1,0 +1,196 @@
+{
+ "name": "OFFFICE :",
+ "slug": "offfice",
+ "colors": [
+ {
+ "name": "Onyx",
+ "value": "#0e0e00",
+ "token": "--color-onyx",
+ "role": "Full-bleed page background, navigation surface, product staging void - the entire canvas is one continuous dark field"
+ },
+ {
+ "name": "Paper White",
+ "value": "#fefefe",
+ "token": "--color-paper-white",
+ "role": "Display headlines, body text, navigation labels, archive list entries, locale switcher - the sole ink color across all UI layers"
+ },
+ {
+ "name": "Faint White",
+ "value": "#2a2a2a",
+ "token": "--color-faint-white",
+ "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "ak",
+ "token": "--font-ak",
+ "role": "Primary workhorse - nav, body, display headlines, archive list, labels, links. The extreme range from 12px to 216px in a single family, with weights 400 for quiet copy and 700 only for emphasis, defines the system\u0027s voice. Tight 0.80 line-height at 216px creates stacked text-blocks that read as architectural walls rather than sentences."
+ },
+ {
+ "name": "gs",
+ "token": "--font-gs",
+ "role": "Editorial serif accent - used exclusively in the project archive list for project titles. At 72px it provides a high-contrast counterpoint to ak\u0027s geometric sans; at 12px it renders archive metadata with classical warmth. The two-font system is deliberately minimal: one sans does everything, one serif appears only where editorial gravitas is needed."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.33",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.1",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "58px",
+ "1",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "72px",
+ "0.9",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "216px",
+ "0.8",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "96-128px",
+ "cardPadding": "0px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Minimal two-anchor header - brand mark left, contact CTA right"
+ },
+ {
+ "name": "Display Headline Block",
+ "role": "Hero-scale typographic wall that defines the first viewport"
+ },
+ {
+ "name": "Product Sculpture (3D Hero Object)",
+ "role": "Centered product showcase - the only non-text element on the canvas"
+ },
+ {
+ "name": "Description Caption",
+ "role": "Small editorial body text adjacent to the product showcase"
+ },
+ {
+ "name": "Locale Switcher",
+ "role": "Three-letter language selector"
+ },
+ {
+ "name": "Archive Project Entry",
+ "role": "Single row in the project archive list"
+ },
+ {
+ "name": "Archive List (Full)",
+ "role": "Vertically stacked project archive - the index page in list form"
+ },
+ {
+ "name": "Section Label (Inline)",
+ "role": "Minimal in-content metadata markers"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use ak weight 400 for all body and display text; reserve ak weight 700 only for the \u0027GET IN TOUCH\u0027 nav CTA and emphasis that must break through at small sizes",
+ "Let display headlines overflow viewport edges - 216px ak at 0.80 line-height is meant to be cropped by the frame",
+ "Use Onyx (#0e0e0e) as a single continuous background across all pages; never introduce a lighter surface or card fill",
+ "Use gs serif 72px exclusively for archive project titles - this is the only place the serif appears",
+ "Space archive list entries at exactly 32px vertical gap to create rhythmic stacking",
+ "Position 3D product renders centered in the viewport with no shadow, platform, or environmental context",
+ "Set all small metadata (nav, labels, captions) in ak 12px with 1.50+ line-height for gallery-wall-label tone"
+ ],
+ "doNot": [
+ "Do not introduce any accent color, brand color, or chromatic hue - the system is 100% achromatic by design",
+ "Do not add borders, dividers, or background fills to separate sections - use space and type scale instead",
+ "Do not use border-radius on any element - all corners are sharp (0px)",
+ "Do not use shadows, glows, or blur effects for elevation - the design is flat by philosophy",
+ "Do not use the serif (gs) for body copy, navigation, or anything outside the archive project titles",
+ "Do not add gradients, textures, or background patterns to the Onyx canvas",
+ "Do not constrain display headlines with max-width or text-overflow:hidden styling - overflow is the point"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/190d4a0b-0353-4fc8-be09-affa6e977146",
+ "referenceSite": "https://offficestud.io",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-02-22T17:15:07.000Z",
+ "articleModifiedAt": "2026-06-05T08:39:30.625Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/84818dc9-27d5-4829-a53a-59264775076f.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/80e08f37-882b-4754-ac5b-13eb1f53a4d1.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/bbf1df2e-eebc-482f-be3f-f611571ebe01.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/9eae4cbc-6047-411b-8e28-d66c92f4bc39.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/b8bb6fad-c80b-4099-aa57-5b05ff4c6116.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/932ad98f-190e-4bc0-b0e3-2105ff6eb99d.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

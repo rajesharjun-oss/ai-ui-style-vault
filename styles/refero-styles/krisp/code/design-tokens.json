@@ -1,0 +1,383 @@
+{
+ "name": "Krisp",
+ "slug": "krisp",
+ "colors": [
+ {
+ "name": "Midnight Iris",
+ "value": "#131032",
+ "token": "--color-midnight-iris",
+ "role": "Primary text, headings, and dark section backgrounds - the deepest near-black with a violet undertone carries the same identity across both light copy and immersive dark bands"
+ },
+ {
+ "name": "Iris Spark",
+ "value": "#614efa",
+ "token": "--color-iris-spark",
+ "role": "Filled buttons, link emphasis, active states, gradient stops - the only vivid saturated color in the palette, used as a small functional spark against the cream canvas"
+ },
+ {
+ "name": "Violet Mist",
+ "value": "#dfdcfe",
+ "token": "--color-violet-mist",
+ "role": "Soft accent washes, tag backgrounds, decorative highlights - a near-white violet tint that echoes Iris Spark at very low intensity"
+ },
+ {
+ "name": "Cyan Glow",
+ "value": "#98c8ff",
+ "token": "--color-cyan-glow",
+ "role": "Supporting palette color for small decorative accents when the core palette needs contrast."
+ },
+ {
+ "name": "Mint Whisper",
+ "value": "#eafdfa",
+ "token": "--color-mint-whisper",
+ "role": "Pill badge and announcement tag backgrounds - a barely-there cool tint to differentiate informational chips from the warm cream canvas"
+ },
+ {
+ "name": "Iris Halo",
+ "value": "#8374fb",
+ "token": "--color-iris-halo",
+ "role": "Soft highlight overlays and secondary gradient midtones - a lighter violet used in multi-stop gradients"
+ },
+ {
+ "name": "Fog",
+ "value": "#918f9f",
+ "token": "--color-fog",
+ "role": "Muted body copy, helper text, secondary labels - the primary low-emphasis text color against cream and white surfaces"
+ },
+ {
+ "name": "Shadow",
+ "value": "#5b5971",
+ "token": "--color-shadow",
+ "role": "Stronger secondary text, metadata - deeper than Fog for labels that need more presence without reaching Midnight Iris"
+ },
+ {
+ "name": "Ash",
+ "value": "#a1a1aa",
+ "token": "--color-ash",
+ "role": "Disabled text, placeholder content, very low-emphasis UI elements"
+ },
+ {
+ "name": "Slate",
+ "value": "#1a1a22",
+ "token": "--color-slate",
+ "role": "Supporting neutral for secondary UI, dividers, and muted labels. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#24232d",
+ "token": "--color-charcoal",
+ "role": "Secondary dark text, very dark UI elements"
+ },
+ {
+ "name": "Hairline",
+ "value": "#e7e7ea",
+ "token": "--color-hairline",
+ "role": "Borders, dividers, card outlines - a cool light gray that separates surfaces on the warm cream canvas"
+ },
+ {
+ "name": "Silver",
+ "value": "#cccccc",
+ "token": "--color-silver",
+ "role": "Shadows, very subtle borders, disabled surface tones"
+ },
+ {
+ "name": "Snow",
+ "value": "#ffffff",
+ "token": "--color-snow",
+ "role": "Card surfaces, button text, dark-section text - pure white for maximum contrast on dark backgrounds"
+ },
+ {
+ "name": "Cloud",
+ "value": "#f7f7f8",
+ "token": "--color-cloud",
+ "role": "Secondary surface, footer background - a cool off-white that sits one step below Snow"
+ },
+ {
+ "name": "Warm Paper",
+ "value": "#f2ece2",
+ "token": "--color-warm-paper",
+ "role": "Dominant page canvas - a warm beige that replaces the typical cold white SaaS background, giving the entire site a tactile, editorial feel"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Plus Jakarta Sans",
+ "token": "--font-plus-jakarta-sans",
+ "role": "Single-family geometric humanist sans used for every text role from 10px badges to 58px display headlines"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.6",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.63",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.62",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "26px",
+ "1.45",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "36px",
+ "1.33",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display-sm",
+ "42px",
+ "1.2",
+ "-",
+ "--text-display-sm"
+ ],
+ [
+ "display",
+ "48px",
+ "1.17",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "58px",
+ "1.14",
+ "-",
+ "--text-display-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "96px",
+ "cardPadding": "24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ],
+ [
+ "100",
+ "100px",
+ "`--spacing-100`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "140",
+ "140px",
+ "`--spacing-140`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ],
+ [
+ "240",
+ "240px",
+ "`--spacing-240`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "icons",
+ "4px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "badges",
+ "12px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ],
+ [
+ "largeCards",
+ "20-24px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Filled Violet Button",
+ "role": "Primary action button - solid Iris Spark fill with white text"
+ },
+ {
+ "name": "Dark Outline Button",
+ "role": "Secondary action button - used for \u0027Book a demo\u0027 and similar"
+ },
+ {
+ "name": "Text Link Button",
+ "role": "Inline action with chevron - used in nav for \u0027Get Krisp\u0027 with dropdown indicator"
+ },
+ {
+ "name": "Pill Tab Selector",
+ "role": "Segmented control for switching between meeting states (During / After / Before Meeting)"
+ },
+ {
+ "name": "Announcement Pill Badge",
+ "role": "Eyebrow tag above hero headline - \u0027Introducing Accent Conversion\u0027 style"
+ },
+ {
+ "name": "Gradient Display Headline",
+ "role": "Signature hero text treatment - \u0027Voice AI\u0027 portion of the headline"
+ },
+ {
+ "name": "Feature Card",
+ "role": "Content card for feature grids - \u0027Multilingual meeting support\u0027, \u00271-click sharing\u0027"
+ },
+ {
+ "name": "Dark Feature Section Card",
+ "role": "Feature card variant on dark Midnight Iris background"
+ },
+ {
+ "name": "Customer Logo Strip",
+ "role": "Social proof band showing client logos (Medium, Okta, Skechers, Autodesk, Sony, Cisco, ServiceTitan, GitHub)"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site header with logo, menu, and actions"
+ },
+ {
+ "name": "Webby Award Sticker",
+ "role": "Floating badge in bottom-right corner - \u002720th Annual Webby Awards, Vote for Krisp\u0027"
+ },
+ {
+ "name": "Icon",
+ "role": "UI iconography for features and navigation"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use #f2ece2 (Warm Paper) as the default page canvas - never substitute pure white at the root level",
+ "Apply the Iris Spark to Cyan Glow gradient only on display-size headlines (42px+); never on body or heading text",
+ "Use 8px border-radius for all buttons and small interactive elements; 16px for cards; 9999px for pills and tabs",
+ "Double-duty #131032 (Midnight Iris) as both text color on light surfaces and background color on dark sections - the hue reads as the same brand identity in both contexts",
+ "Separate action button styles by fill: Iris Spark (#614efa) for one type, Slate (#1a1a22) for the other - never use two violet buttons side by side",
+ "Use Hairline (#e7e7ea) at 1px for card borders and dividers; achieve elevation through surface color shifts rather than shadows",
+ "Keep #918f9f (Fog) as the only muted body text color; never use Ash (#a1a1aa) for primary copy"
+ ],
+ "doNot": [
+ "Don\u0027t introduce new saturated colors - Iris Spark is the only vivid hue, and it should appear at most 1-2 times per viewport",
+ "Don\u0027t apply drop shadows to cards or panels - surface shifts on the Warm Paper canvas are the elevation system",
+ "Don\u0027t use pure #000000 for text - Midnight Iris (#131032) carries the brand undertone",
+ "Don\u0027t place white cards on white backgrounds; always layer Snow (#ffffff) on Warm Paper (#f2ece2) or Cloud (#f7f7f8) for separation",
+ "Don\u0027t use gradients on body, heading, or subheading text - the gradient treatment is reserved for display headlines only",
+ "Don\u0027t use border-radius larger than 8px on buttons - the 8px radius is the button signature, not pills",
+ "Don\u0027t show customer logos in full color - they must be muted to grayscale/gray to maintain the quiet editorial feel"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/3b3fa99e-cee4-41f3-ac26-777b4b6a8b12",
+ "referenceSite": "https://krisp.ai",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-10T18:18:42.000Z",
+ "articleModifiedAt": "2026-06-05T11:13:04.963Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/093b8064-5755-459e-8658-af024ce11c1d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/b97ec1bd-42e8-4a60-9698-37fcbcfbe48c.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/9ac25250-33d8-45bc-b980-202b5e04030e.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7c43c6c2-9bac-46b3-8ab8-93b7c4ef3a5a.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/5805af11-25ef-49cf-983a-5c313e2e73d3.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/bd48d618-5e26-4354-b281-7075856cbc31.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/24bb9938-7d56-417a-adda-dd226919b54e.png"
+ }
+ }
+}

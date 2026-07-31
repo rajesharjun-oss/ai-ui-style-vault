@@ -1,0 +1,390 @@
+{
+ "name": "Reducto",
+ "slug": "reducto",
+ "colors": [
+ {
+ "name": "Aubergine",
+ "value": "#310632",
+ "token": "--color-aubergine",
+ "role": "Primary text, headline color, nav active state, link accent, footer text - the deep plum that replaces black across the entire interface, giving body copy a warm violet cast instead of cold gray"
+ },
+ {
+ "name": "Magenta Pulse",
+ "value": "#9d17a0",
+ "token": "--color-magenta-pulse",
+ "role": "Filled primary action background, selected nav indicator, brand icon color - the single vivid hue permitted on a CTA, used sparingly so the click target glows against the paper canvas"
+ },
+ {
+ "name": "Damson",
+ "value": "#690f6b",
+ "token": "--color-damson",
+ "role": "Outlined action border, secondary button outline - a darker shade of the action magenta, used when a ghost/outlined button needs chromatic weight without the filled fill"
+ },
+ {
+ "name": "Lilac Wash",
+ "value": "#dcbffb",
+ "token": "--color-lilac-wash",
+ "role": "Violet text accent for links, tags, and emphasized short phrases. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Ochre",
+ "value": "#a2541b",
+ "token": "--color-ochre",
+ "role": "Decorative icon accent, illustrative highlight - used inside product visualizations and tag chips to add warm contrast against the dominant magenta/plum palette"
+ },
+ {
+ "name": "Moss",
+ "value": "#718613",
+ "token": "--color-moss",
+ "role": "Decorative icon and illustration accent - secondary chromatic note for data visualization callouts, kept low-frequency"
+ },
+ {
+ "name": "Reed",
+ "value": "#87a017",
+ "token": "--color-reed",
+ "role": "Green text accent for links, tags, and emphasized short phrases. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Paper",
+ "value": "#fafaf9",
+ "token": "--color-paper",
+ "role": "Page canvas, hero background, nav background - the warm off-white that defines the entire site\u0027s surface; never pure #ffffff at the top level"
+ },
+ {
+ "name": "Vellum",
+ "value": "#f5f5f4",
+ "token": "--color-vellum",
+ "role": "Secondary surface, elevated card background, subtle section differentiation"
+ },
+ {
+ "name": "Snow",
+ "value": "#ffffff",
+ "token": "--color-snow",
+ "role": "Pure card surface, button text on dark/magenta fills, icon fill - only used as a surface lift or as foreground text, never as the page canvas"
+ },
+ {
+ "name": "Sand",
+ "value": "#d7ccc1",
+ "token": "--color-sand",
+ "role": "Primary border color, hairline dividers, card outlines - the warm beige border that replaces cold gray; the single most-used border token across the system"
+ },
+ {
+ "name": "Driftwood",
+ "value": "#e7e5e4",
+ "token": "--color-driftwood",
+ "role": "Subtle border, decorative separator, low-contrast outline - lighter than Sand for secondary dividers"
+ },
+ {
+ "name": "Stone",
+ "value": "#d6d3d1",
+ "token": "--color-stone",
+ "role": "Nav border, button border, body border - mid-tone warm gray for structural outlines where more contrast is needed than Sand provides"
+ },
+ {
+ "name": "Graphite",
+ "value": "#292524",
+ "token": "--color-graphite",
+ "role": "Secondary body text, navigation labels, and subdued headings. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Slate",
+ "value": "#57534d",
+ "token": "--color-slate",
+ "role": "Secondary heading text, icon stroke, strong body text - mid-dark warm gray for emphasis without going full black"
+ },
+ {
+ "name": "Pewter",
+ "value": "#79716b",
+ "token": "--color-pewter",
+ "role": "Body text, nav text, button text on light backgrounds, helper text - the default readable text color, warm and low-contrast"
+ },
+ {
+ "name": "Bark",
+ "value": "#44403b",
+ "token": "--color-bark",
+ "role": "Neutral button treatment for secondary actions and selected controls."
+ },
+ {
+ "name": "Ash",
+ "value": "#a6a09b",
+ "token": "--color-ash",
+ "role": "Muted helper text, disabled state, low-priority captions - the lightest readable neutral"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "reductoSerif",
+ "token": "--font-reductoserif",
+ "role": "Display and headline serif - the brand\u0027s signature voice. Set at 64-136px for hero/display, drops to 24-32px for section headings. Weight 470 is the workhorse (editorial body weight for a display face), weight 650 is reserved for stat numbers. The tight -0.01em tracking at every size is critical: it tightens the serif\u0027s natural rhythm into a modern, condensed look. Substituted with Playfair Display, Lora, or Source Serif Pro when unavailable."
+ },
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Body and UI sans - the workhorse for nav links, buttons, descriptions, paragraphs, and form fields. Weight 400 for body, 500 for button labels and emphasized nav. Activates stylistic alternates \u0027salt\u0027 (single-storey \u0027a\u0027) and \u0027ss02\u0027 (open \u0027g\u0027) - these are essential to matching the brand; without them, Inter reads as generic."
+ },
+ {
+ "name": "reductosans",
+ "token": "--font-reductosans",
+ "role": "Compact UI sans for small labels, tag chips, micro-copy, and dense interface text where Inter feels too tall. Functionally overlaps with Inter but provides a tighter, more \u0027captured\u0027 rhythm for chrome."
+ },
+ {
+ "name": "Reddit Mono",
+ "token": "--font-reddit-mono",
+ "role": "Single-purpose display monospace for oversized stat numbers - the \u00272,000,000,000\u0027 counter. The -0.03em tracking pulls the mono\u0027s natural width inward so the number doesn\u0027t look like code, but a label. Substituted with JetBrains Mono or IBM Plex Mono."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.5",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.5",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.5",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "24px",
+ "1.33",
+ "-0.01px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "32px",
+ "1.25",
+ "-0.01px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "64px",
+ "1.13",
+ "-0.01px",
+ "--text-heading-lg"
+ ],
+ [
+ "display-sm",
+ "80px",
+ "1.13",
+ "-0.01px",
+ "--text-display-sm"
+ ],
+ [
+ "display",
+ "136px",
+ "1.13",
+ "-0.01px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24-32px",
+ "elementGap": "16-24px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "88",
+ "88px",
+ "`--spacing-88`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "8px"
+ ],
+ [
+ "inputs",
+ "4px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Announcement Bar",
+ "role": "Top-of-page product announcement strip"
+ },
+ {
+ "name": "Top Navigation",
+ "role": "Sticky site navigation"
+ },
+ {
+ "name": "Contact Sales Button (Dark Filled)",
+ "role": "Primary dark CTA in nav"
+ },
+ {
+ "name": "Magenta Primary Button",
+ "role": "Hero CTA, primary conversion action"
+ },
+ {
+ "name": "Ghost/Outlined Button",
+ "role": "Secondary action, demo request"
+ },
+ {
+ "name": "Hero Headline",
+ "role": "Above-the-fold page title"
+ },
+ {
+ "name": "Hero Subtext",
+ "role": "Supporting paragraph under headline"
+ },
+ {
+ "name": "Customer Logo Strip",
+ "role": "Social proof row"
+ },
+ {
+ "name": "Stat Display Number",
+ "role": "Oversized metric counter"
+ },
+ {
+ "name": "Feature Card",
+ "role": "3-column feature grid card"
+ },
+ {
+ "name": "Section Header",
+ "role": "Centered section title block"
+ },
+ {
+ "name": "Product Visualization",
+ "role": "Decorative document/data illustration"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Set all hero/display headlines in reductoSerif weight 470 at 64-136px with -0.01em letter-spacing; never use a sans face for a display heading.",
+ "Use #9d17a0 (Magenta Pulse) as the only filled chromatic action background; pair it with white text and 12px 24px padding.",
+ "Color exactly one word in a hero headline in #9d17a0 to create emphasis; this accent-word pattern is the system\u0027s signature rhythm.",
+ "Use #d7ccc1 (Sand) as the default border color for all cards, dividers, and outlines; avoid cool gray borders.",
+ "Set body copy in Inter 17px weight 400 at line-height 1.5 with \u0027salt\u0027 and \u0027ss02\u0027 features enabled - these alternates are non-negotiable for brand fidelity.",
+ "Maintain a paper-canvas base: page background must be #fafaf9, never #ffffff; lift cards with #ffffff over the warm canvas instead of using shadows.",
+ "Use Reddit Mono with -0.03em tracking at 80px for oversized stat numbers; the mono face signals \u0027this is a measurement, not a word\u0027."
+ ],
+ "doNot": [
+ "Don\u0027t use black (#000000) for body or heading text; use Graphite (#292524) or Aubergine (#310632) to keep the warm palette consistent.",
+ "Don\u0027t apply drop shadows to cards or sections; depth must come from border color contrast or white-on-warm layering, not from blur shadows.",
+ "Don\u0027t use cool gray (#6b7280, #94a3b8, etc.) for borders or text - every neutral in this system is warm (brown- or beige-tinted).",
+ "Don\u0027t activate the magenta action color on more than one element per viewport section; if the CTA is magenta, the nav must stay neutral.",
+ "Don\u0027t use the reductoSerif face for body copy or UI labels under 24px; it loses legibility below that and breaks the display/utility split.",
+ "Don\u0027t introduce additional chromatic accent colors beyond Ochre, Moss, and Lilac; the palette intentionally restricts to plum-family + warm neutrals + 2-3 illustration accents.",
+ "Don\u0027t use #0000ee or default browser link blue; all links must use Aubergine or Lilac Wash."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/af55f85e-1c82-44c1-a8d0-32634bfa6296",
+ "referenceSite": "https://reducto.ai",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T00:25:22.041Z",
+ "articleModifiedAt": "2026-06-05T08:44:40.882Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b2c71c2c-6272-48be-8717-c4d736f3e488.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/80d02580-c5aa-433c-add9-f3d9bf376784.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/a2caf331-8422-49f4-9ef7-e845bbd02111.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/809bcd5f-c739-4a78-8dbe-56664aedfd2b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/d6016cea-47fa-4c43-9366-45bb900810d9.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/14297253-4eb0-46a5-aa23-c8c896f7dff0.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/6038e015-c231-4e82-8534-897560584d1f.png"
+ }
+ }
+}

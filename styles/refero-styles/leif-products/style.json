@@ -1,0 +1,312 @@
+{
+ "id": "3f56ea4d-ed9d-4a36-8fb5-a801519ef80b",
+ "name": "Leif Products",
+ "slug": "leif-products",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/3f56ea4d-ed9d-4a36-8fb5-a801519ef80b",
+ "referenceSite": "https://leifproducts.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:18:27.276Z",
+ "articleModifiedAt": "2026-06-05T09:04:11.817Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/db3e2d16-4e6b-41f9-a7c5-010f76aadb79.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/b42fc635-565d-42d7-b164-3a7550803441.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/7899a155-d075-4283-a950-b2a4d6bb3c78.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/130c9131-e30d-496e-b938-877b3079830c.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/ce29c904-2561-4513-8872-8d843f0347b1.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0f4186b9-a3e1-4ba5-a810-48481895f0a7.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/ac113b1c-a820-4e2a-a2bc-abac92a60f88.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Apothecary on raw linen. A warm, hand-pressed editorial where ink-black type sits on bone-cream paper beside botanical product photography.",
+ "summary": "Explore Leif Products\u0027s light E-commerce design system: Bone #fafaf9, Ink #000000 colors, PP Right Grotesk, Sohne typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Bone",
+ "value": "#fafaf9",
+ "token": "--color-bone",
+ "role": "Page canvas, primary card surface - the off-white paper tone the entire interface sits on, warm enough to feel linen, not bright enough to feel clinical"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "All body type, primary action border, all interactive strokes - the only dark in the system, pure black rather than warm charcoal to create maximum contrast against the cream canvas"
+ },
+ {
+ "name": "Stone",
+ "value": "#e5e2dc",
+ "token": "--color-stone",
+ "role": "Card borders, hairline dividers, subtle section breaks - the warm gray-beige that separates elements without drawing attention"
+ },
+ {
+ "name": "Linen",
+ "value": "#edede7",
+ "token": "--color-linen",
+ "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Graphite",
+ "value": "#595959",
+ "token": "--color-graphite",
+ "role": "Card secondary text, muted metadata, price-adjacent labels - the mid-gray that recedes behind the primary ink-black headlines"
+ },
+ {
+ "name": "Silt",
+ "value": "#d6d1c7",
+ "token": "--color-silt",
+ "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Blush",
+ "value": "#ead1d0",
+ "token": "--color-blush",
+ "role": "Decorative accent surface, soft wash behind editorial text blocks, occasional section tints - the dusty rose that nods to botanical petals without becoming saccharine"
+ },
+ {
+ "name": "Citron",
+ "value": "#f3ffa9",
+ "token": "--color-citron",
+ "role": "Promotional highlight surface - used sparingly as a wash behind sale tags, value bundle badges, or limited-edition callouts; pale enough to never compete with product photography"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "PP Right Grotesk",
+ "token": "--font-pp-right-grotesk",
+ "role": "Display headlines and section titles - weight 200 is anti-convention for commerce; the ultra-thin strokes create a calligraphic, editorial whisper that treats product names as poetry rather than slogans. Tight tracking (-0.015em) pulls the delicate strokes into a cohesive block."
+ },
+ {
+ "name": "Sohne",
+ "token": "--font-shne",
+ "role": "Primary body, UI, navigation, product names, buttons - the workhorse neutral grotesque. Weight 400 for body copy keeps a quiet editorial feel; weight 500 for navigation and product names adds enough presence to guide the eye. Slight positive tracking on uppercase labels opens them up to read as proper editorial tags."
+ },
+ {
+ "name": "Sohne Mono",
+ "token": "--font-shne-mono",
+ "role": "Micro-labels and scent-family tags - used for \u0027SMOKY \u0026 MEDITATIVE\u0027, \u0027BUTTERY \u0026 SOFT\u0027, \u0027VALUE BUNDLE\u0027 type annotations. The monospace width and widened tracking (0.05em) give these labels a scientific, museum-catalog quality that contrasts with the organic display type."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.35",
+ "0.2px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "15px",
+ "1.38",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "18px",
+ "1.33",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.27",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "26px",
+ "1.22",
+ "-0.26px",
+ "--text-heading-sm"
+ ],
+ [
+ "display",
+ "52px",
+ "1",
+ "-0.78px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "75px",
+ "1",
+ "-0.75px",
+ "--text-display-lg"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1440px",
+ "sectionGap": "64px",
+ "cardPadding": "12px",
+ "elementGap": "8-12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "28",
+ "28px",
+ "`--spacing-28`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Outlined Action Button",
+ "role": "Primary interactive trigger (e.g. \u0027EXPLORE COLLECTION\u0027)"
+ },
+ {
+ "name": "Ghost Link Button",
+ "role": "Secondary text-based actions and navigation links"
+ },
+ {
+ "name": "Product Card",
+ "role": "Grid cell for product listings in collections"
+ },
+ {
+ "name": "Value Bundle Badge",
+ "role": "Promotional label overlaid on product cards"
+ },
+ {
+ "name": "Hero Editorial Split",
+ "role": "Full-viewport homepage hero"
+ },
+ {
+ "name": "Scent Family Filter",
+ "role": "Left-sidebar category navigation on collection pages"
+ },
+ {
+ "name": "Category Feature Card",
+ "role": "Right-side featured display on the \u0027Meet the family\u0027 page"
+ },
+ {
+ "name": "Announcement Bar",
+ "role": "Top-of-page promotional strip"
+ },
+ {
+ "name": "Primary Navigation",
+ "role": "Top bar with logo and menu items"
+ },
+ {
+ "name": "Product Card Hover State",
+ "role": "Interactive feedback for product grid items"
+ },
+ {
+ "name": "Footer",
+ "role": "Bottom-of-page navigation and legal content"
+ }
+ ],
+ "dos": [
+ "Use PP Right Grotesk weight 200 for all display headlines at 34px and above - the ultra-thin stroke is the signature, never substitute with weight 400 or 500",
+ "Apply Sohne Mono 11-12px with 0.05em tracking for all small uppercase labels (scent families, badges, metadata) - this creates the museum-tag rhythm",
+ "Keep all corners at 0px radius - every component should have sharp rectangular edges to maintain the editorial print feel",
+ "Use #fafaf9 (Bone) as the exclusive page background - never pure white, never gray",
+ "Let product photography carry the color - the interface palette stays warm-neutral so botanicals and amber bottles become the only chromatic elements",
+ "Use 1px borders in #e5e2dc (Stone) or #000000 (Ink) for all separation - no shadows, no fills, no background tints to create depth",
+ "Set display headlines to line-height 1.0 with tight negative tracking (-0.015em) so the thin strokes lock into a cohesive editorial block"
+ ],
+ "donts": [
+ "Don\u0027t use any chromatic brand color for buttons, links, or CTAs - the system is intentionally achromatic; color appears only in the Blush announcement bar and Citron promotional wash",
+ "Don\u0027t add border-radius to buttons, cards, images, or tags - sharp corners are non-negotiable",
+ "Don\u0027t use box-shadows or drop-shadows for elevation - depth comes from whitespace and hairline borders only",
+ "Don\u0027t use PP Right Grotesk below 26px - the ultra-thin weight becomes illegible at small sizes; switch to Sohne for anything under that threshold",
+ "Don\u0027t use pure white (#ffffff) as a background - the slightly warm Bone (#fafaf9) is the canvas, pure white would feel sterile and break the linen paper metaphor",
+ "Don\u0027t center-align body copy or long-form descriptions - left-align all paragraphs; centering is reserved for the announcement bar and hero subheadings only",
+ "Don\u0027t use bright or saturated colors for icons, hover states, or active states - Ink (#000000) and Graphite (#595959) are the only two interaction colors"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Bone | `#fafaf9` | Page canvas - the linen-paper foundation every element sits on |\n| 2 | Citron Wash | `#f3ffa9` | Promotional surface - used behind value badges and sale highlights |\n| 3 | Blush Wash | `#ead1d0` | Editorial accent surface - soft pink wash behind descriptive text blocks |\n| 4 | Ink | `#000000` | Inverted surface - primary action buttons, dark product cards, full-bleed footer zones |",
+ "elevation": "Leif uses zero shadows. Depth comes from border hairlines, whitespace, and the contrast between full-bleed product photography and the flat cream canvas. A shadow would feel heavy and digital - antithetical to the hand-pressed, paper-stock aesthetic. All \u0027elevation\u0027 is achieved through background color shifts (Bone Citron Blush Ink) and border weight changes.",
+ "imagery": "Product photography is the dominant visual element. Style: editorial, high-key, studio-lit with soft natural shadows. Products are shot on neutral stone or skin-tone backgrounds, often with hands, botanicals, or raw ingredients (rose petals, fruit, clay) as supporting context. No lifestyle environments - no bathrooms, no kitchens, no human models in settings. The object is always the hero. Close-up crops show texture and material quality (amber glass, matte ceramic, paper labels). Image treatment: no filters, no duotone, no overlays - pure photography. Aspect ratios are consistently square for product grid, full-bleed vertical for hero. No illustrations, no icons beyond minimal UI line icons, no 3D renders. The imagery language is \u0027still life catalog\u0027 - the way a botanical reference book or Aesop product page treats its subjects.",
+ "layout": "Leif uses a full-bleed max-width 1440px layout with no centered narrow-column constraint. The homepage hero is a dramatic 50/50 split: left half is a full-bleed product photograph extending to the viewport edge, right half is a Bone panel with vertically centered text. Below the hero, product collections use a 3-column grid with generous gutters. Category pages (\u0027Meet the family\u0027) use an asymmetric two-column layout: a compact left sidebar (approximately 25% width) listing scent families, paired with a large featured category display on the right. Section rhythm is consistent: full-width product grid bands separated by editorial text+image split sections. Navigation is a minimal top bar with no sticky behavior, no mega-menu, no sidebar. Vertical spacing between sections is generous (64px) but not extreme - comfortable editorial pacing, not luxurious whitespace."
+}

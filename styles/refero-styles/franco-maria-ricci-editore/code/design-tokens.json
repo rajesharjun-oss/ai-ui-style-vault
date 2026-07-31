@@ -1,0 +1,243 @@
+{
+ "name": "Franco Maria Ricci Editore",
+ "slug": "franco-maria-ricci-editore",
+ "colors": [
+ {
+ "name": "Vellum White",
+ "value": "#f6f6f6",
+ "token": "--color-vellum-white",
+ "role": "Page canvas - the warm off-white that grounds every section, never pure #ffffff so type never feels clinical"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Card and section surfaces - book spreads, product panels, inset blocks sitting one shade above the vellum canvas"
+ },
+ {
+ "name": "Gallery Ink",
+ "value": "#0a0a0a",
+ "token": "--color-gallery-ink",
+ "role": "Dark sections (FMR Magazine block, footer band) and deepest typographic emphasis - reads as letterpress black, not screen black"
+ },
+ {
+ "name": "Letterpress Black",
+ "value": "#000000",
+ "token": "--color-letterpress-black",
+ "role": "Body copy, navigation text, icons, all hairlines and borders, pagination marks - the structural ink of the system"
+ },
+ {
+ "name": "Silver Wash",
+ "value": "#b3b3b3",
+ "token": "--color-silver-wash",
+ "role": "Muted surface for secondary hero panels and quiet tonal breaks - used sparingly as a gallery-shadow gray"
+ },
+ {
+ "name": "Burnished Gold",
+ "value": "#bc9c5c",
+ "token": "--color-burnished-gold",
+ "role": "Section header underlines, link hover rules, decorative title borders - the only chromatic voice in the system, applied as 1px strokes and inline rules, never as fill"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "BodoniSvntytwoITCStd-Book",
+ "token": "--font-bodonisvntytwoitcstd-book",
+ "role": "Primary voice - every editorial moment. 42px with line-height 0.95 for the cinematic display headline (the tight leading lets the tall Bodoni capitals lock together as a single typographic object). 22px for section openers. 18px and 16px for body and book metadata. 14px and 12px for navigation, captions, and the monogrammed fine print. Substitute: Bodoni Moda, Bodoni 72, or Playfair Display when the ITC cut is unavailable."
+ },
+ {
+ "name": "BodoniSvntytwoITCStd-BookIt",
+ "token": "--font-bodonisvntytwoitcstd-bookit",
+ "role": "Editorial italics for the signature flourish - \"Editore\" wordmark, italic section titles like OUR SELECTION, and the quiet poetic asides. The italic is used as ornament, not emphasis: a single italic line beside a roman headline changes the register of the whole spread. Substitute: Bodoni Moda Italic, Playfair Display Italic."
+ },
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "System utility for pagination counters (2/5), shipping notices, form labels, and the rare inline metadata. Arial sits beside Bodoni as a quiet functional label - the contrast between high-contrast serif and neutral sans is the only typographic tension the system permits. No tracking adjustments; letterspacing inherits from the browser default."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.25",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.25",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.25",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "22px",
+ "1.25",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "42px",
+ "0.95",
+ "-",
+ "--text-heading"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "spacious",
+ "maxWidth": "1280px",
+ "sectionGap": "48px",
+ "cardPadding": "40px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Top Bar Navigation",
+ "role": "Primary site navigation"
+ },
+ {
+ "name": "Hero Headline Block",
+ "role": "Opening editorial statement"
+ },
+ {
+ "name": "Section Title with Gold Rule",
+ "role": "Section divider heading"
+ },
+ {
+ "name": "Three-Column Book Grid",
+ "role": "Product showcase"
+ },
+ {
+ "name": "Book Cover Plate",
+ "role": "Individual product object"
+ },
+ {
+ "name": "Ghost Link / Editorial CTA",
+ "role": "Outlined action"
+ },
+ {
+ "name": "Magazine Brand Block",
+ "role": "Branded section separator"
+ },
+ {
+ "name": "Pagination Indicator",
+ "role": "Scroll progress marker"
+ },
+ {
+ "name": "Section Header Tab",
+ "role": "In-grid category label"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Burnished Gold (#bc9c5c) only as 1px strokes: section header underlines, link hover rules, decorative title borders. Never as a fill.",
+ "Set the display headline at 42px Bodoni 400 with line-height 0.95 - the tight leading locks the tall capitals into a single typographic block.",
+ "Apply italic Bodoni for editorial flourishes: the wordmark subtitle, section openers, and quiet asides. Roman Bodoni carries the weight; italic ornaments it.",
+ "Separate three-column book grids with 1px #000000 vertical rules at full column height. Gaps and padding cannot replace the rule - the dividers are the architecture.",
+ "Keep every radius at 0px. Corners are sharp; softness comes from typography and whitespace, not from curves.",
+ "Use #f6f6f6 as the base canvas, not #ffffff. The warm off-white prevents Bodoni from reading as clinical and keeps the system in the print-catalogue register.",
+ "Express every action as text with a hairline bottom border. Bracketed markers like `{ ORDER NOW }` are an acceptable editorial convention for primary actions."
+ ],
+ "doNot": [
+ "Do not introduce drop-shadows, blurs, or glow effects. The system is flat; elevation is tonal.",
+ "Do not use Burnished Gold (#bc9c5c) as a background fill on buttons, badges, or surfaces. It is a stroke color only.",
+ "Do not round any corner. Buttons, cards, inputs, images all keep 0px radius.",
+ "Do not use any secondary accent color. The palette is monochrome + one gold; introducing red, blue, or green would destroy the letterpress discipline.",
+ "Do not use Arial for headlines or editorial copy. Arial is reserved for pagination counters, form labels, and utility metadata.",
+ "Do not set line-height above 0.95 on the 42px display headline - the tight leading is signature, not an oversight.",
+ "Do not add hover animations, transitions, or micro-interactions. The page reads as a printed catalogue; movement would break the metaphor."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/6120469b-a1c8-46d3-b7fd-8aa6dc22c0d9",
+ "referenceSite": "https://www.francomariaricci.com/en",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:49:19.178Z",
+ "articleModifiedAt": "2026-06-05T10:37:08.420Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/385c788a-2194-49aa-9581-8ab4147b0dbd.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e6e27aaa-2765-4ffb-8427-1128a16fce9a.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/ec848569-79e7-44f4-8685-271990673893.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/25185fbb-7f9a-4c96-9cc3-cb7cb1385261.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/96868b16-b049-49c9-ab72-71faa8bdbe4f.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/fc9da25d-2101-4c9f-ad18-08ca0ffae11f.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ }
+}

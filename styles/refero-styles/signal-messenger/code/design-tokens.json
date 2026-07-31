@@ -1,0 +1,250 @@
+{
+ "name": "Signal Messenger",
+ "slug": "signal-messenger",
+ "colors": [
+ {
+ "name": "Signal Blue",
+ "value": "#2c6bed",
+ "token": "--color-signal-blue",
+ "role": "Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Deep Signal",
+ "value": "#2942ff",
+ "token": "--color-deep-signal",
+ "role": "Navigation links and brand mark anchors - slightly cooler and more electric than Signal Blue, reserved for chrome-level interaction"
+ },
+ {
+ "name": "Signal Sky",
+ "value": "#9dbbf8",
+ "token": "--color-signal-sky",
+ "role": "Hero section wash, large decorative panels - soft periwinkle that bathes the page in brand color without overwhelming"
+ },
+ {
+ "name": "Signal Mist",
+ "value": "#a5cad5",
+ "token": "--color-signal-mist",
+ "role": "Secondary feature panel backgrounds - desaturated teal that recedes behind content, used to break the page rhythm without adding chroma"
+ },
+ {
+ "name": "Ink",
+ "value": "#1b1b1b",
+ "token": "--color-ink",
+ "role": "Primary body and heading text - soft black at AAA contrast on every surface, the dominant typographic color"
+ },
+ {
+ "name": "Slate",
+ "value": "#404654",
+ "token": "--color-slate",
+ "role": "Secondary body text, subdued paragraphs - cool gray with a faint violet cast that echoes the brand blue"
+ },
+ {
+ "name": "Twilight",
+ "value": "#3c3744",
+ "token": "--color-twilight",
+ "role": "Footer background - muted purple-black that grounds the page in a warm dark wash without pure black harshness"
+ },
+ {
+ "name": "Fog",
+ "value": "#e9e9e9",
+ "token": "--color-fog",
+ "role": "Hairline borders, dividers, footer text - the structural neutral that separates content bands"
+ },
+ {
+ "name": "Paper",
+ "value": "#f6f6f6",
+ "token": "--color-paper",
+ "role": "Page canvas - off-white that warms the stark white without going cream"
+ },
+ {
+ "name": "White",
+ "value": "#ffffff",
+ "token": "--color-white",
+ "role": "Light supporting surface for subtle backgrounds and section separation. Do not promote it to the primary CTA color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Sole typeface across the entire site. Weight 800 headlines are anti-soft - paired with tight 1.07-1.14 line-heights they create near-solid blocks of type that anchor the page. Weight 600 handles buttons and subheadings with a confident mid-weight. Weight 400 body at 1.50 line-height provides generous reading rhythm. The extreme contrast between 800 display and 400 body is the typographic signature."
+ },
+ {
+ "name": "system-ui",
+ "token": "--font-system-ui",
+ "role": "system-ui - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.4",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.38",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "40px",
+ "1.14",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "60px",
+ "1.07",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64-80px",
+ "cardPadding": "30-48px",
+ "elementGap": "12-24px",
+ "scale": [
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "images",
+ "16px"
+ ],
+ [
+ "panels",
+ "16px"
+ ],
+ [
+ "buttons",
+ "8px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Outlined Primary Action Button",
+ "role": "Primary CTA across the site - used for \u0027Get Signal\u0027, \u0027Donate to Signal\u0027, and most conversion points"
+ },
+ {
+ "name": "Filled Teal Action Button",
+ "role": "Secondary or contextual action - used sparingly for in-feature prompts like the encrypted message reveal"
+ },
+ {
+ "name": "Navigation Link",
+ "role": "Top bar navigation items"
+ },
+ {
+ "name": "Display Headline",
+ "role": "Hero and section-opening headlines"
+ },
+ {
+ "name": "Body Paragraph",
+ "role": "Supporting copy under headlines and in feature descriptions"
+ },
+ {
+ "name": "Hero Phone Mockup Container",
+ "role": "Product visualization in hero and feature sections"
+ },
+ {
+ "name": "Feature Content Panel",
+ "role": "Right-side visual container in 2-column feature sections"
+ },
+ {
+ "name": "Encrypted Message Chip",
+ "role": "Decorative element demonstrating the encryption feature"
+ },
+ {
+ "name": "Halftone Globe Illustration",
+ "role": "Decorative illustration in the nonprofit/donation section"
+ },
+ {
+ "name": "Footer Link Column",
+ "role": "Organized link groups in the dark footer"
+ },
+ {
+ "name": "Signal Mark Lockup",
+ "role": "Brand identifier in the header"
+ },
+ {
+ "name": "Donate Outlined Button",
+ "role": "Conversion button in the footer illustration section"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Inter weight 800 for all headlines - the extreme weight contrast against 400 body text is the typographic signature",
+ "Set line-height to 1.07 for 60px display text and 1.14 for 40px section headings - the tight leading makes headlines feel architectural",
+ "Use outlined buttons (1.5px Signal Blue border, white fill) as the default CTA style - filled buttons only when sitting on a colored panel",
+ "Apply 8px border-radius to all buttons and 16px to all image/panel containers - the radius gap between interactive and visual elements is intentional",
+ "Use Signal Sky (#9dbbf8) for hero washes and Signal Mist (#a5cad5) for secondary panels - alternate the two blue tones to create page rhythm",
+ "Set body text line-height to 1.50 - the generous leading is required for the 16px body to feel readable at the page\u0027s comfortable density",
+ "Limit the brand blue to interactive elements, links, and the halftone illustration - never use it for large decorative fills or backgrounds other than the defined panel washes"
+ ],
+ "doNot": [
+ "Don\u0027t use filled blue buttons on white backgrounds - outlined buttons are the primary CTA pattern and should not be overridden",
+ "Don\u0027t add gradients, drop shadows beyond the defined elevation token, or decorative borders - the design relies on flat color bands for structure",
+ "Don\u0027t use colors outside the defined palette - no additional chroma, no warm accents, no status colors beyond the blue family",
+ "Don\u0027t set headline line-height above 1.20 - loose leading destroys the dense, confident type character",
+ "Don\u0027t use pill-shaped buttons (9999px radius) - the 8px radius is a deliberate choice that distinguishes Signal from typical consumer apps",
+ "Don\u0027t add photography, abstract graphics, or illustration styles other than the halftone dot technique - the visual personality is singular",
+ "Don\u0027t use Inter at weights other than 400, 600, or 800 - 500 and 700 are absent from the type system for a reason; the three-weight gap is the scale"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/41c479a9-7b41-445b-9ea7-c7a6331828f0",
+ "referenceSite": "https://signal.org",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-02-27T11:31:08.000Z",
+ "articleModifiedAt": "2026-06-05T07:59:46.810Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7b793d13-837f-4807-b0e5-f8fa83acd7f9.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/d9e9da97-c9b1-4503-9cc7-53b7628d2dcf.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/2546c70b-313b-4fc5-bee7-3e128a965c01.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/0273708d-8b77-4038-bd73-ce33867729de.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/a9579abc-1765-4891-9b6e-cc5a5ee9ed27.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c686eeb8-0fb8-4d82-8ea3-f5b2427db479.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/ae40eedc-1db1-4efc-a59e-fb9b7f9daa24.png"
+ }
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "id": "2ab2f666-6da7-4cd8-bc91-52a28bd560ad",
+ "name": "Shelby Kay",
+ "slug": "shelby-kay",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/2ab2f666-6da7-4cd8-bc91-52a28bd560ad",
+ "referenceSite": "https://shelbykay.dev",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:53:27.919Z",
+ "articleModifiedAt": "2026-06-05T10:59:41.659Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/eeb3d7d9-273a-4d93-ab9f-fe5ff5706d29.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/6acbf1fb-8aaa-4b50-9fb0-a738fabdb87c.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/5e49ce6b-76e6-4b7d-ab67-b160460adc00.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/d13a5cec-338a-41e8-bd0c-8a83d418126e.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/21975d7f-457f-4bba-83aa-fe0371f8687c.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/cc757b50-1c45-4f03-a22b-a1f06f0cca19.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "botanical editorial spread on warm linen - two-color ink system on aged paper, with display type that bleeds past the page edge and metadata that whispers from the margins.",
+ "summary": "Explore Shelby Kay\u0027s light Agency design system: Olive Ink #393c2a, Sage Type #737955 colors, Ranade, Switzer typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Olive Ink",
+ "value": "#393c2a",
+ "token": "--color-olive-ink",
+ "role": "Primary text, borders, and structural strokes - all type from body to display headings, all card and image borders, all interactive outlines"
+ },
+ {
+ "name": "Sage Type",
+ "value": "#737955",
+ "token": "--color-sage-type",
+ "role": "Display headings and brand voice - used for the monumental SHELBY wordmark, section anchors, and selective heading accents that carry the brand\u0027s botanical identity"
+ },
+ {
+ "name": "Linen",
+ "value": "#efe6d9",
+ "token": "--color-linen",
+ "role": "Primary canvas and card surfaces - page background, card fills, the base warm tone the entire system sits on"
+ },
+ {
+ "name": "Sienna",
+ "value": "#d6b292",
+ "token": "--color-sienna",
+ "role": "Orange wash for highlight backgrounds, decorative bands, and soft emphasis behind content."
+ },
+ {
+ "name": "Driftwood",
+ "value": "#afa199",
+ "token": "--color-driftwood",
+ "role": "Tertiary surface and muted helpers - profile-section backdrop, desaturated metadata, low-emphasis UI text and dividers"
+ },
+ {
+ "name": "Riverstone",
+ "value": "#7b8785",
+ "token": "--color-riverstone",
+ "role": "Cool-toned neutral for subtle contrast shifts - secondary surface, hover or muted state for UI elements needing visual separation from the warm base"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Ranade",
+ "token": "--font-ranade",
+ "role": "Display and editorial headlines. Used at extreme scale (83-265px) for the wordmark and section anchors, and at 24px for the CONTACT callout. The geometric, slightly condensed forms give the brand its monumental-but-restrained voice - the type fills the frame without shouting. Substitute: Boldonse or Bold Neue for display, Space Grotesk for smaller uses."
+ },
+ {
+ "name": "Switzer",
+ "token": "--font-switzer",
+ "role": "Everything else: body copy, nav, labels, metadata, card titles, list items. The compact grotesque reads as editorial running text. Weight 500-600 is the workhorse range; 700 is reserved for section headers and emphasized nav. Substitute: Inter, Untitled Sans, or Suisse Int\u0027l for full weight coverage."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "14px",
+ "1.3",
+ "-",
+ "--text-body"
+ ],
+ [
+ "heading-sm",
+ "20px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "83px",
+ "0.9",
+ "-",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "158px",
+ "0.9",
+ "-",
+ "--text-display-lg"
+ ],
+ [
+ "wordmark",
+ "265px",
+ "0.9",
+ "-",
+ "--text-wordmark"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "36-56px",
+ "cardPadding": "20px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "7",
+ "7px",
+ "`--spacing-7`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "45",
+ "45px",
+ "`--spacing-45`"
+ ],
+ [
+ "56",
+ "56px",
+ "`--spacing-56`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Wordmark Display",
+ "role": "Brand-defining type element"
+ },
+ {
+ "name": "Section Anchor",
+ "role": "Section transition label"
+ },
+ {
+ "name": "Rotated Side Label",
+ "role": "Vertical decorative element"
+ },
+ {
+ "name": "Minimal Nav",
+ "role": "Text-only site navigation"
+ },
+ {
+ "name": "Project Card",
+ "role": "Work grid item"
+ },
+ {
+ "name": "Date Stamp",
+ "role": "Editorial metadata"
+ },
+ {
+ "name": "Client List Column",
+ "role": "Sidebar content list"
+ },
+ {
+ "name": "Portrait Image Card",
+ "role": "Profile photo with duotone treatment"
+ },
+ {
+ "name": "Recognition / Award List",
+ "role": "Right-aligned metadata column"
+ },
+ {
+ "name": "Full-Bleed Botanical Background",
+ "role": "Hero atmosphere layer"
+ },
+ {
+ "name": "Hero Subtitle",
+ "role": "Opening statement below the wordmark"
+ }
+ ],
+ "dos": [
+ "Use Ranade at 83px or larger for any brand or section-defining headline - it is the only type with permission to fill the frame.",
+ "Set body and metadata in Switzer weight 500-600 at 10-16px - the compact grotesque is the workhorse and should handle 90% of the interface.",
+ "Build the palette from exactly two brand colors: Olive Ink (#393c2a) for structure, Sage Type (#737955) for brand voice. Use Sage sparingly - one display element per section maximum.",
+ "Let the canvas shift through warm tonal layers (Linen Sienna Driftwood) to define sections instead of hard borders or color blocks.",
+ "Use 0px border-radius everywhere - cards, images, tags. The printed-page metaphor demands sharp corners.",
+ "Use 7-8px padding for tight metadata containers and 20px for card padding - the 8px base unit governs all spacing.",
+ "Use Olive Ink (#393c2a) for all text and borders. The 9.2:1 contrast ratio on Linen makes it readable at 10px and monumental at 265px."
+ ],
+ "donts": [
+ "Don\u0027t add drop shadows, glows, or any CSS elevation - the system is deliberately flat and print-like.",
+ "Don\u0027t introduce rounded corners (border-radius \u003e 0) on any element - it breaks the editorial metaphor.",
+ "Don\u0027t use Sage Type (#737955) for body text - its 3.7:1 contrast on Linen fails readability standards. Reserve it for display headings only.",
+ "Don\u0027t create filled button backgrounds in any color - this system has no CTA buttons. Navigation is text-only, contact is a typographic anchor.",
+ "Don\u0027t use gradients, brand illustrations, or icon sets - the visual language is photography, type, and tonal layering only.",
+ "Don\u0027t use any cool or neutral gray outside the Riverstone (#7b8785) token - all neutrals must stay warm to maintain the botanical atmosphere.",
+ "Don\u0027t center body text. Left-align everything except section anchors, which are the only elements that get centered treatment."
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 1 | Linen | `#efe6d9` | Primary page canvas - hero, default section background |\n| 2 | Sienna | `#d6b292` | Work/index section - tonal page break |\n| 3 | Driftwood | `#afa199` | Profile section background - deeper warm shift |\n| 4 | Riverstone | `#7b8785` | Cool-tinted neutral for contrast states or secondary overlays |",
+ "elevation": "The system is flat by editorial design principle: no drop shadows, no elevation, no floating surfaces. Depth is created only through tonal layering of warm surfaces, border lines, and full-bleed photography. Cards sit directly on their section surface with a hairline border or none at all - the printed-page metaphor forbids digital lift.",
+ "imagery": "Photography is botanical and atmospheric, used as a low-opacity texture layer behind the wordmark - large plants, palms, foliage rendered at 10-15% opacity so they read as a greenhouse shadow rather than a subject. One full-bleed portrait appears on the profile page, desaturated to sit within the olive palette and cropped tight. No product photography, no abstract 3D, no illustration. No icon system - the only graphic elements are type itself. Image treatment is always full-bleed with 0px radius and no border or mask. Imagery is atmospheric, never explanatory.",
+ "layout": "Full-bleed layout with no max-width container - the wordmark stretches edge-to-edge, and section backgrounds span the full viewport. The hero is a single massive headline (SHELBY) overlaid on low-opacity botanical photography, with a hero subtitle in the lower-left and minimal nav along the bottom edge. A rotated \u0027KAY\u0027 label sits on the right margin. The work section uses a 4-column card grid on a warm tan background, with a vertical client list running down the left margin. The profile section shifts to a 3-column layout: portrait left, label/title center, dense metadata right. Section rhythm is defined by tonal surface shifts (cream tan taupe) rather than hard dividers. Navigation is a bottom-aligned minimal text bar on the hero; absent on interior pages which use scrolling. The page model is editorial - asymmetric, generous vertical breathing room between sections, no centered max-width constraint."
+}

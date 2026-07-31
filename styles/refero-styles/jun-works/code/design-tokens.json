@@ -1,0 +1,193 @@
+{
+ "name": "jun.works",
+ "slug": "jun-works",
+ "colors": [
+ {
+ "name": "Press Black",
+ "value": "#000000",
+ "token": "--color-press-black",
+ "role": "Body text, all borders, pill outlines, button strokes - the sole ink color, used at full opacity for every foreground element"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Page canvas, card surfaces, pill fills - the only surface color, creating maximum contrast against Press Black"
+ },
+ {
+ "name": "Smoke Gray",
+ "value": "#cccccc",
+ "token": "--color-smoke-gray",
+ "role": "Hairline dividers, muted outlines, secondary borders where a softer separation is needed"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Standard",
+ "token": "--font-standard",
+ "role": "Display and heading type only - a custom geometric sans used at two large sizes with extreme negative tracking (-0.045em to -0.054em). Also sets link and button text. The single weight (400) and tight tracking create a compressed, poster-like presence that dominates the page. No bold variant exists; hierarchy is achieved through size and tracking alone."
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "Body and micro-copy type - the system serif at 13px, used in editorial contexts (footnotes, annotations, fine print). The serif/sans collision with Standard is deliberate: the sans shouts, the serif footnotes."
+ }
+ ],
+ "typeScale": [
+ [
+ "heading",
+ "45px",
+ "1.15",
+ "-2.025px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "54px",
+ "1.12",
+ "-2.916px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "52px",
+ "cardPadding": "19px",
+ "elementGap": "13px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "9",
+ "9px",
+ "`--spacing-9`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "18",
+ "18px",
+ "`--spacing-18`"
+ ],
+ [
+ "19",
+ "19px",
+ "`--spacing-19`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "129.6px"
+ ],
+ [
+ "links",
+ "129.6px"
+ ],
+ [
+ "pills",
+ "129.6px"
+ ],
+ [
+ "buttons",
+ "129.6px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Pill Button",
+ "role": "All clickable actions - nav toggles, social links, CTAs"
+ },
+ {
+ "name": "Pill Section Label",
+ "role": "Category headers like \u0027Service\u0027, \u0027Clients\u0027, \u0027Recognition\u0027"
+ },
+ {
+ "name": "Display Heading",
+ "role": "Page-level statements and paragraph introductions"
+ },
+ {
+ "name": "Body Paragraph",
+ "role": "Primary prose content - bio text, descriptions"
+ },
+ {
+ "name": "Dashed List Item",
+ "role": "Service offerings, client names, recognition entries"
+ },
+ {
+ "name": "Footnote Link",
+ "role": "Superscript annotations referencing email, social, etc."
+ },
+ {
+ "name": "Social Pill Row",
+ "role": "External profile links (LinkedIn, Instagram, Soot, Behance)"
+ },
+ {
+ "name": "Logo Lockup",
+ "role": "Brand mark at top-left of page"
+ },
+ {
+ "name": "Hamburger Toggle",
+ "role": "Menu trigger at top-right"
+ },
+ {
+ "name": "Two-Column Content Grid",
+ "role": "Service/Clients/Recognition layout"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use 129.6px border-radius on every interactive element - no rectangles, no modest rounding",
+ "Set all display text in Standard at 45-54px with -0.045em to -0.054em letter-spacing",
+ "Render body text in Times serif with ~1.70 line-height for editorial breathing room",
+ "Anchor all content to the left edge - no centering, no max-width containers",
+ "Prefix list items with an em-dash (-) instead of bullets or numbers",
+ "Use #000000 for all borders, text, and outlines - never introduce color",
+ "Maintain #ffffff backgrounds everywhere; let the 1px black border define shape, not fill"
+ ],
+ "doNot": [
+ "Never add color - no accent, no semantic green/red/yellow, no brand color",
+ "Never use box-shadow or elevation - depth comes from border definition, not shadow",
+ "Never use border-radius below 129.6px on any element",
+ "Never bold the display type - Standard ships in one weight (400) and that restraint is the system",
+ "Never use a sans-serif for body text - the serif/sans split is structural, not optional",
+ "Never center-align headings or body paragraphs",
+ "Never add imagery, photography, or illustration - the page is pure typography and label geometry"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/02ba867b-49e3-4ab4-ad23-c30baf345078",
+ "referenceSite": "https://jun.works",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:13:34.771Z",
+ "articleModifiedAt": "2026-06-05T11:18:13.344Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/556f4070-c6d0-4384-9c39-1b7d9f2fe25d.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/1f06f8cc-21cb-4973-bba7-1fc3450aa324.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/f078b4e1-9a58-489c-84b0-8c4f7b5f08c5.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/085eb410-042e-43ca-9705-fb3a86b2f5c2.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/5fc7d05d-7a5d-4cf7-9a2d-7989b68030ff.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/a3afc0e6-b167-4f6c-b660-5fde974e8893.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

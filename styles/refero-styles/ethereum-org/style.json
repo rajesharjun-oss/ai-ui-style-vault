@@ -1,0 +1,349 @@
+{
+ "id": "f53b2759-5b4a-4509-9311-51ab74238326",
+ "name": "ethereum.org",
+ "slug": "ethereum-org",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/f53b2759-5b4a-4509-9311-51ab74238326",
+ "referenceSite": "https://ethereum.org",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-02-11T09:08:06.000Z",
+ "articleModifiedAt": "2026-06-05T08:47:40.671Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/ef76c2c2-f1a9-4d73-afdf-732390aa35aa.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/8422260f-9965-4f5a-892a-b058cbace612.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/6afc7a37-3d96-49ee-96cc-76f925b42b8f.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/e738e3f0-84ff-48fa-82ec-1e3f18549a5f.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/8d27d2c3-c9dd-4a72-bf6b-4cf7760ebc6a.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/1a00f2de-1209-4fa5-bb40-289e82a13620.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/b6ca0630-a537-43d7-9ec1-4ff910fb68bf.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Crypto",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Crypto",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Lilac architecture in flat editorial space - a printed open-source almanac where the Ethereum diamond floats above duotone crowds of people.",
+ "summary": "Explore ethereum.org\u0027s light Crypto design system: Lavender Paper #ece0ff, Pure White #ffffff colors, Inter, IBM Plex Mono typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Lavender Paper",
+ "value": "#ece0ff",
+ "token": "--color-lavender-paper",
+ "role": "Page canvas, soft card surfaces, hero wash - near-gray violet that reads as neutral paper across the entire site"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Card surface above canvas, icon strokes, inverse text on violet buttons, nav background"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#cfcfcf",
+ "token": "--color-ash-gray",
+ "role": "Hairline dividers, card borders, input borders, separator rules - the dominant border tone at 2484 occurrences"
+ },
+ {
+ "name": "Onyx",
+ "value": "#121212",
+ "token": "--color-onyx",
+ "role": "Primary text, heading fill, dark icon strokes - the only body-color the UI commits to"
+ },
+ {
+ "name": "Graphite",
+ "value": "#616161",
+ "token": "--color-graphite",
+ "role": "Secondary body text, muted helper copy, nav subtext"
+ },
+ {
+ "name": "Fog",
+ "value": "#8c8c8c",
+ "token": "--color-fog",
+ "role": "Tertiary text, disabled nav items, low-priority borders"
+ },
+ {
+ "name": "Ethereum Violet",
+ "value": "#6c24e0",
+ "token": "--color-ethereum-violet",
+ "role": "Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Deep Iris",
+ "value": "#41128c",
+ "token": "--color-deep-iris",
+ "role": "Hover state on violet, dark accent surface, gradient origin - the violet pushed to its shadow end"
+ },
+ {
+ "name": "Hot Magenta",
+ "value": "#f60e9d",
+ "token": "--color-hot-magenta",
+ "role": "Secondary accent for inline links inside feature cards, tag pills, illustration accent"
+ },
+ {
+ "name": "Sapphire",
+ "value": "#3d4ceb",
+ "token": "--color-sapphire",
+ "role": "Tertiary accent for links, icon variants, illustration cool-tone accents"
+ },
+ {
+ "name": "Mint",
+ "value": "#0f9972",
+ "token": "--color-mint",
+ "role": "Green supporting accent for decorative details and low-frequency emphasis. Use as a supporting accent, not as a status color"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Inter",
+ "token": "--font-inter",
+ "role": "Sole workhorse - body at 16px/400, section headings at 24-30px/700, and display at 48-64px/900. The 900 weight at 60-64px is the signature: headlines are not politely bold, they are geometric slabs that anchor every section"
+ },
+ {
+ "name": "IBM Plex Mono",
+ "token": "--font-ibm-plex-mono",
+ "role": "Used only for keyboard shortcut hints in the search bar (cmd/k label). Never used for body or heading"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.6",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.6",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "18px",
+ "1.6",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.3",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "30px",
+ "1.2",
+ "-",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.2",
+ "-",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "48px",
+ "1.1",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "64px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "64px",
+ "cardPadding": "32px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ],
+ [
+ "192",
+ "192px",
+ "`--spacing-192`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "8px"
+ ],
+ [
+ "cards",
+ "16px"
+ ],
+ [
+ "pills",
+ "9999px"
+ ],
+ [
+ "buttons",
+ "4px"
+ ],
+ [
+ "illustrations",
+ "32px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary Filled Button",
+ "role": "Main call-to-action across landing and section pages"
+ },
+ {
+ "name": "Ghost Outline Button",
+ "role": "Secondary actions in card footers and inline links"
+ },
+ {
+ "name": "Eyebrow Label",
+ "role": "Section category tag sitting above headlines"
+ },
+ {
+ "name": "Hero Illustration Band",
+ "role": "Full-bleed visual anchor at the top of landing and section pages"
+ },
+ {
+ "name": "Feature Card (Pastel)",
+ "role": "Three-column content tiles in the \u0027A new way to use the internet\u0027 section"
+ },
+ {
+ "name": "Popular Topic Card",
+ "role": "Two-column quick-link tiles in the \u0027What is Ethereum?\u0027 section"
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Sticky header across all pages"
+ },
+ {
+ "name": "Search Command Bar",
+ "role": "Keyboard-driven search trigger in the nav"
+ },
+ {
+ "name": "Two-Column Section Block",
+ "role": "Editorial text + illustration layout (e.g. \u0027What is Ethereum?\u0027)"
+ },
+ {
+ "name": "Full-Width Editorial Card",
+ "role": "Lavender panel introducing a content theme (e.g. \u0027A new way to use the internet\u0027)"
+ },
+ {
+ "name": "Icon",
+ "role": "Recurring Ethereum diamond octahedron used everywhere"
+ },
+ {
+ "name": "Card Arrow Link",
+ "role": "Inline action link at the end of a card or paragraph"
+ },
+ {
+ "name": "Image Container",
+ "role": "Wrapper for any standalone illustration"
+ }
+ ],
+ "dos": [
+ "Use Inter 900 at 48-64px for any section display heading - the geometric slab weight is non-negotiable for the brand",
+ "Use #6c24e0 for every primary action, eyebrow label, and active link - reserve all other chromatic colors for secondary text accents and illustration",
+ "Set feature card backgrounds to one of the pastel tints (lavender #ece0ff, mint, peach, pink) at 16px radius, with no shadow and no border",
+ "Place an eyebrow label (Inter 700, 14px, uppercase, #6c24e0, pill on #ece0ff) directly above every section heading",
+ "Use 4px radius on primary buttons - the square-shouldered button is a signature, not a pill",
+ "Anchor every section with at least one illustration or icon; text-only sections should be the exception",
+ "Use 64px vertical padding between major sections and 32px inside cards"
+ ],
+ "donts": [
+ "Don\u0027t use drop shadows for elevation - hierarchy comes from flat surface tints, not depth",
+ "Don\u0027t use 600 or 800 weight for headlines - the system commits to 900 or 700 only, and 900 only at display sizes",
+ "Don\u0027t introduce new saturated colors beyond the existing four (#6c24e0, #f60e9d, #3d4ceb, #0f9972) - the palette is rationed",
+ "Don\u0027t use pill-shaped buttons (9999px) for primary actions - that radius is reserved for search triggers and tags",
+ "Don\u0027t stack text directly on the full-bleed illustration without the centered headline block underneath it",
+ "Don\u0027t use centered body text - body paragraphs are always left-aligned at max 65ch width",
+ "Don\u0027t use photography as the primary visual - illustration owns this system, photos should only appear in editorial context if at all"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#ece0ff` | Page background - the lilac paper tone that wraps most screens |\n| 1 | Card | `#ffffff` | Default card surface, nav bar, and elevated content blocks sitting on the canvas |\n| 2 | Pastel Feature Card | `#ece0ff` | Lavender-tinted feature card variant for grouped content sections |\n| 3 | Inverse Surface | `#6c24e0` | Primary action surface (filled buttons) and the rare inverted banner |\n| 4 | Deep Accent | `#41128c` | Hover state and the deepest tier - used sparingly as a gradient end-stop |",
+ "elevation": "- **Feature Card (rare elevated variant):** `0px 2px 12px 1px rgba(65, 18, 140, 0.02), 0px 12px 16px -3px rgba(65, 18, 140, 0.02), 0px 24px 32px -6px rgba(65, 18, 140, 0.02), 0px 32px 40px -12px rgba(152, 27, 27, 0.04)`",
+ "imagery": "Illustration is the dominant visual element - nearly every section is anchored by a full-bleed duotone line-art scene. The treatment is consistent: a cool violet-to-blue palette (#6c24e0, #3d4ceb, #9357f4) with selective warm accents in pink (#f60e9d) and mint (#0f9972). Linework is uniform-weight (1-1.5px), architectural and human figures are stylized, and the Ethereum diamond octahedron recurs as a floating motif. Scenes are flat (no perspective gradients), centered around a horizon line, and always feature groups of diverse people in built environments. Photos are almost absent - the site is illustration-first, which is unusual for a major web3 brand and gives it an almanac-like editorial feel rather than a typical product-site polish.",
+ "layout": "The site uses a max-width 1200px container centered on a lavender canvas, with most sections alternating between full-bleed illustrated bands and contained two-column or three-column grids. The hero is a single edge-to-edge illustration with a centered headline stack (eyebrow display subhead) sitting below it, not overlapping. Content sections follow a repeating rhythm: wide lavender editorial panel with a left-aligned 48-60px display heading, then a two-column text+image block, then a three-column pastel card grid. The navigation is a single sticky top bar, no sidebar. Vertical rhythm is comfortable - 64px between major sections, 32px card padding, 8px element gaps - and the page never feels dense. Most pages end with a centered CTA block before the footer."
+}

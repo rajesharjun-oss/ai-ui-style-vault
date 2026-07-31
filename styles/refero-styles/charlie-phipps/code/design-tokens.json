@@ -1,0 +1,243 @@
+{
+ "name": "Charlie Phipps",
+ "slug": "charlie-phipps",
+ "colors": [
+ {
+ "name": "Canvas Black",
+ "value": "#101011",
+ "token": "--color-canvas-black",
+ "role": "Base page canvas beneath full-bleed photography and dark bands; primary text on light surfaces; link underlines in dark contexts"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary text color on dark/photographic backgrounds; content section background; dominant border color (hairline rules and dividers across the layout)"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "Heading and body text on light surfaces; second structural border color - used wherever a slightly harder edge than #101011 is needed"
+ },
+ {
+ "name": "Fog Gray",
+ "value": "#ededed",
+ "token": "--color-fog-gray",
+ "role": "Subtle surface tint separating content blocks from white paper; soft borders on body text and cards where a pure white hairline would disappear"
+ },
+ {
+ "name": "Smoke Gray",
+ "value": "#bab7b2",
+ "token": "--color-smoke-gray",
+ "role": "Muted heading accent - used for secondary headings and borders where the hierarchy needs to recede below the primary type"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#888888",
+ "token": "--color-ash-gray",
+ "role": "Body text metadata, link underlines in light contexts, and mid-weight borders - the workhorse neutral for anything that should be seen but not foregrounded"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#262627",
+ "token": "--color-charcoal",
+ "role": "Deepest secondary border and muted text on light sections - just one step lighter than canvas black, used to keep dark elements feeling part of the same family"
+ },
+ {
+ "name": "Void",
+ "value": "#080809",
+ "token": "--color-void",
+ "role": "Near-pure black for the darkest link borders and emphasis text - visually indistinguishable from #000000 but kept distinct in the scale for deepest emphasis"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Helvetica Neue",
+ "token": "--font-helvetica-neue",
+ "role": "The entire typographic system. Weight 400 at 162px is the signature move - most portfolios would use 700-900 for a hero this large; Phipps uses regular, letting the sheer size and aggressive negative tracking carry authority instead of stroke weight. LineHeight of 0.90 on the display size means the two-line hero actually visually interlocks. All other text (body, labels, navigation, links) is the same family at the same weight - there is no secondary typeface voice."
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "Used only as 13px image captions or photo metadata - the serif appears as a deliberate editorial counterpoint to the Helvetica system, breaking the all-grotesque monotony at micro scale"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "1.2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "16px",
+ "1.2",
+ "-0.06px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "19px",
+ "1.2",
+ "-0.08px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "21px",
+ "1.2",
+ "-0.21px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "52px",
+ "1",
+ "-0.62px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "64px",
+ "1",
+ "-0.83px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "162px",
+ "0.9",
+ "-3.89px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "6px",
+ "density": "comfortable",
+ "maxWidth": "1400px",
+ "sectionGap": "80px",
+ "cardPadding": "13px",
+ "elementGap": "26px",
+ "scale": [
+ [
+ "6",
+ "6px",
+ "`--spacing-6`"
+ ],
+ [
+ "13",
+ "13px",
+ "`--spacing-13`"
+ ],
+ [
+ "26",
+ "26px",
+ "`--spacing-26`"
+ ],
+ [
+ "41",
+ "41px",
+ "`--spacing-41`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Full-Bleed Hero Photograph",
+ "role": "Opening screen background"
+ },
+ {
+ "name": "Display Headline",
+ "role": "One-line statement over the hero"
+ },
+ {
+ "name": "Thin Top Navigation",
+ "role": "Persistent site chrome"
+ },
+ {
+ "name": "Section Label (EXPLORE / LATEST WORKS)",
+ "role": "Small-caps section identifier"
+ },
+ {
+ "name": "Editorial Section Headline",
+ "role": "Large body-section opener"
+ },
+ {
+ "name": "Body Description Block",
+ "role": "Centered contextual paragraph"
+ },
+ {
+ "name": "Social Link Row",
+ "role": "Footer-level external links"
+ },
+ {
+ "name": "Scroll Indicator",
+ "role": "Single down-arrow cue at viewport bottom"
+ },
+ {
+ "name": "Project Card (case study tile)",
+ "role": "Image-first work sample in the project index"
+ },
+ {
+ "name": "Email Contact Link",
+ "role": "Bottom-right footer contact"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Helvetica Neue at weight 400 exclusively for the entire interface - never introduce a bold, medium, or light variant; the single-weight system is the signature",
+ "Set the display headline to 162px with lineHeight 0.90 and letter-spacing -3.89px; let the line break where it breaks and allow the viewport to crop the text",
+ "Use the spacing scale of 6 / 13 / 26 / 41px only - no arbitrary in-between values, and reserve 41px for the largest section breaks",
+ "Place full-bleed photography behind text without overlay gradients or darkening scrims - the image\u0027s own contrast must carry legibility, or shift the text position to a clean area of the photo",
+ "Keep the color palette 100% achromatic - #101011 canvas, #ffffff text-on-photo, #000000 text-on-paper, and the gray scale for borders and metadata only",
+ "Float navigation at the viewport edge in three positions (left / center / right) using 13-16px text - never box it, border it, or background it",
+ "End editorial section headlines with a period (\"Selected works (C)2022.\") - the declarative full stop is part of the typographic voice"
+ ],
+ "doNot": [
+ "Do not introduce any chromatic color - no brand reds, no accent blues, no button fills; the photograph is the only color source",
+ "Do not add border-radius to any element - keep all corners at 0px; rounded corners would break the printed-poster logic",
+ "Do not use box-shadows, drop-shadows, or any elevation effects - the design is flat against the photographic plane by intent",
+ "Do not swap the display weight to 700 or 800 in any context - if a heading needs more weight, increase size instead; 400 at scale is the only authority the system allows",
+ "Do not wrap text content in cards, panels, or bordered containers - sections are separated by whitespace alone, never by chrome",
+ "Do not use icons for social links, email, or navigation - text plus the external arrow is the entire icon vocabulary",
+ "Do not use uppercase tracking-wide labels for body copy - only the small section identifiers (EXPLORE, LATEST WORKS) use the stacked-label pattern"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/7f6799d9-0733-4523-9a94-036b9ad3bf28",
+ "referenceSite": "https://phippscharlie.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:30:41.117Z",
+ "articleModifiedAt": "2026-06-05T08:16:31.400Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/11df2101-ab58-4846-876d-10f9df21e506.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/02414f85-a18f-4e1e-8fcc-410ecf09f1ea.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/fe7f8d47-5a76-4e2c-a707-de800abb6fb0.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/7be50e01-e5be-49a7-bd59-344e9d2447ef.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/85268a30-8cfb-4e0f-961f-1993d46983b2.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/725900c6-0ea7-4e2b-bdea-1e339df742bf.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

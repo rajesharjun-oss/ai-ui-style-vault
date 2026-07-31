@@ -1,0 +1,286 @@
+{
+ "id": "37dd9612-4df0-4cdd-b942-bd97dd0efbd2",
+ "name": "Paragraph",
+ "slug": "paragraph",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/37dd9612-4df0-4cdd-b942-bd97dd0efbd2",
+ "referenceSite": "https://mirror.xyz",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:14:58.812Z",
+ "articleModifiedAt": "2026-06-05T09:51:29.596Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/b664f8a0-e3eb-49f6-99f2-e0addc8a1a62.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/ef3e3fcc-78ca-42d0-99a9-b8e912a04816.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/cc122bb8-92c1-43a3-b2e4-1a541277186c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/3f7046f6-d5b8-4e87-8442-f1a39333bdd4.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/5c12145c-d361-43b3-9b4a-2a7280f69b18.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/0de47b2e-a544-4d99-b796-7eb517a43925.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Crypto",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Crypto",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Editorial letterpress on warm parchment - a literary journal where the only color is ink-blue and every border is a page edge",
+ "summary": "Explore Paragraph\u0027s light Crypto design system: Page Parchment #dbd5d2, Ink Black #271f1b colors, IvyOra, Google Sans Flex typography, and DESIGN.md for AI...",
+ "colors": [
+ {
+ "name": "Page Parchment",
+ "value": "#dbd5d2",
+ "token": "--color-page-parchment",
+ "role": "Primary border color for all containers, cards, nav, body, and links - warm taupe that reads as paper edge, not digital gray"
+ },
+ {
+ "name": "Ink Black",
+ "value": "#271f1b",
+ "token": "--color-ink-black",
+ "role": "All text, icons, and heading strokes - warm near-black with brown undertone, never pure #000"
+ },
+ {
+ "name": "Sheet White",
+ "value": "#ffffff",
+ "token": "--color-sheet-white",
+ "role": "Primary page canvas and white card surfaces. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Felt Gray",
+ "value": "#ededed",
+ "token": "--color-felt-gray",
+ "role": "Secondary surface for badges, subtle panel backgrounds, and inactive card states"
+ },
+ {
+ "name": "Margin Gray",
+ "value": "#888786",
+ "token": "--color-margin-gray",
+ "role": "Muted helper text, secondary metadata, and inactive nav items"
+ },
+ {
+ "name": "Periwinkle Action",
+ "value": "#4a83f5",
+ "token": "--color-periwinkle-action",
+ "role": "Violet wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Cornflower Wash",
+ "value": "#b1cafb",
+ "token": "--color-cornflower-wash",
+ "role": "Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+ },
+ {
+ "name": "Dusk Periwinkle",
+ "value": "#cedaf3",
+ "token": "--color-dusk-periwinkle",
+ "role": "Inset border and subtle blue-tinted edge on elevated or focused elements"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "IvyOra",
+ "token": "--font-ivyora",
+ "role": "Display and heading serif - used at 64px for hero headlines, 24px for section titles, and 18px for card titles. Weight stays at 400 across all sizes: the serif\u0027s contrast and tight tracking (-0.03em at display) do the visual work, not boldness."
+ },
+ {
+ "name": "Google Sans Flex",
+ "token": "--font-google-sans-flex",
+ "role": "Body, navigation, buttons, and utility text. Stays compact (14-18px) and invisible - its job is legibility, not personality. Weight 500 for nav active states, 400 for body, 600 reserved for button labels."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "14px",
+ "1.43",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "18px",
+ "1.56",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading",
+ "24px",
+ "1.33",
+ "-0.528px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "64px",
+ "1",
+ "-1.92px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "compact",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "20px",
+ "elementGap": "8px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "128",
+ "128px",
+ "`--spacing-128`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "nav",
+ "28px"
+ ],
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "badges",
+ "24px"
+ ],
+ [
+ "images",
+ "16px"
+ ],
+ [
+ "buttons",
+ "24px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Filled Action Button",
+ "role": "Primary CTA - navigation, sign-in, collect actions"
+ },
+ {
+ "name": "Ghost Text Link",
+ "role": "Secondary navigation - \u0027Start reading\u0027, inline links"
+ },
+ {
+ "name": "Navigation Pill",
+ "role": "Top-bar navigation container"
+ },
+ {
+ "name": "Top Header Bar",
+ "role": "Site-wide header with brand, nav, and CTA"
+ },
+ {
+ "name": "Hero Section (Split)",
+ "role": "Landing page hero"
+ },
+ {
+ "name": "Feature Card",
+ "role": "Explains product capabilities in the \u0027Why Paragraph?\u0027 section"
+ },
+ {
+ "name": "Article Card",
+ "role": "Content discovery card in feed/grid"
+ },
+ {
+ "name": "Carousel Pagination Dots",
+ "role": "Hero slide indicator"
+ },
+ {
+ "name": "Section Heading (Centered Serif)",
+ "role": "Section title between content bands"
+ },
+ {
+ "name": "Tag/Badge",
+ "role": "Source labels, category tags on article cards"
+ },
+ {
+ "name": "Product Preview Card (Phone Frame)",
+ "role": "Hero product mockup"
+ },
+ {
+ "name": "Source/Author Row",
+ "role": "Byline strip on article cards and preview"
+ }
+ ],
+ "dos": [
+ "Use IvyOra (or serif substitute) for all headings and display text at 18px, 24px, and 64px only - never at body sizes or below 18px",
+ "Apply letter-spacing of -0.03em to 64px display, -0.022em to 24px headings, -0.02em to 18px serif subheadings",
+ "Use #dbd5d2 (warm taupe) for all borders - never cold gray; the warmth is the identity",
+ "Reserve #4a83f5 for filled action buttons only; the accent\u0027s power comes from scarcity",
+ "Set card and button radii to 20-28px; sharp corners would break the handwritten feel",
+ "Center section headings and allow 80px vertical gaps between content bands",
+ "Use Google Sans Flex weight 500 for active states and button labels, weight 400 for body"
+ ],
+ "donts": [
+ "Do not introduce gradients anywhere - the system is flat by design",
+ "Do not use bold (600+) weights in the serif - IvyOra stays at 400 always",
+ "Do not use pure black (#000000) for text - always #271f1b for warmth",
+ "Do not place chromatic color on non-action elements; blue is reserved for buttons",
+ "Do not use cold grays (#e5e7eb, #d1d5db) for borders - always the warm #dbd5d2",
+ "Do not add box-shadows to content cards - the 1px border is the only elevation",
+ "Do not set hero or section headlines above 64px; restraint is the editorial voice"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#ffffff` | Page background - the sheet |\n| 1 | Card | `#ffffff` | Content cards on the same white sheet, defined by 1px warm-taupe borders |\n| 2 | Recessed | `#ededed` | Badge and inactive panel backgrounds |",
+ "elevation": "- **Navigation pill:** `rgba(0, 0, 0, 0.05) 0px 1px 2px 0px, rgba(0, 0, 0, 0.02) 0px 0px 4px 0px`\n- **Active/focused nav item:** `rgba(61, 122, 245, 0.4) 0px 0px 0px 1px inset, rgba(207, 222, 252, 0.3) 0px 1px 0px 0px inset, rgba(10, 71, 194, 0.2) 0px -1px 0px 0px inset, rgba(13, 89, 242, 0.15) 0px 0px 16px 0px`\n- **Article card hover:** `rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px`",
+ "imagery": "Photography is absent - Paragraph uses a literary publication visual language built entirely from typography and layout. The only photographic content is user-uploaded cover images on article cards, which the system treats as raw content rather than styled brand imagery. The sole product visual is a phone-frame mockup in the hero containing a simulated app UI with a vibrant blue-to-magenta gradient banner (user-generated content, not brand asset). Icons are minimal line-art in Ink Black at 16px stroke. No decorative graphics, no abstract shapes, no 3D elements. The system trusts whitespace and serif headlines to do all atmospheric work.",
+ "layout": "Max-width 1200px centered canvas on a pure white background. Pages follow a vertical scroll rhythm: hero split (text-left, device-right) centered serif section heading feature card grid (asymmetric, 1-2 cards per row) article feed (4-column card grid). Section gaps are 80px, generous and consistent. No alternating dark bands, no full-bleed imagery. Navigation is a single top bar with no sticky behavior. The layout reads top-to-bottom like a magazine spread: open white space, serif headline, sparse content, repeat."
+}

@@ -1,0 +1,257 @@
+{
+ "name": "Josephmark",
+ "slug": "josephmark",
+ "colors": [
+ {
+ "name": "Carbon Black",
+ "value": "#000000",
+ "token": "--color-carbon-black",
+ "role": "Primary dark canvas - hero backgrounds, full-bleed section stages, base for the editorial atmosphere"
+ },
+ {
+ "name": "Pure White",
+ "value": "#ffffff",
+ "token": "--color-pure-white",
+ "role": "Inverse text on dark canvases, form field backgrounds, button text on filled dark elements"
+ },
+ {
+ "name": "Stone Taupe",
+ "value": "#a9a498",
+ "token": "--color-stone-taupe",
+ "role": "The system\u0027s sole warm chromatic note - muted link states, secondary surface tints, paper-like card backgrounds that soften the black-to-gray transitions"
+ },
+ {
+ "name": "Bone Cream",
+ "value": "#f4f5ef",
+ "token": "--color-bone-cream",
+ "role": "Warm off-white surface - secondary card and panel backgrounds, breaks the clinical feel of pure white and echoes the studio\u0027s paper-based brand collateral"
+ },
+ {
+ "name": "Mist Gray",
+ "value": "#e5e7eb",
+ "token": "--color-mist-gray",
+ "role": "Hairline borders, dividers, list separators, subtle structural lines - the 999-occurrence border color that defines spatial relationships without visual weight"
+ },
+ {
+ "name": "Graphite",
+ "value": "#666666",
+ "token": "--color-graphite",
+ "role": "Mid-tone text - secondary headings, supporting copy, metadata that needs presence without competing with primary type"
+ },
+ {
+ "name": "Forest Ink",
+ "value": "#4e5449",
+ "token": "--color-forest-ink",
+ "role": "Body text on light surfaces - a desaturated dark olive that reads warmer than pure black, the only hue-leaning neutral in the system"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Scto Grotesk A",
+ "token": "--font-scto-grotesk-a",
+ "role": "The sole typeface - a custom neo-grotesque used for everything from 70px display headlines down to 12px captions. Weight 300 carries display and large headings (a deliberate anti-convention choice - most agency sites use bold for impact; Josephmark whispers with light). Weight 400 for body, 500 reserved for emphasis and interactive elements. The consistent aggressive negative tracking (-0.019em to -0.035em) tightens the grotesque\u0027s natural apertures, creating a compressed, editorial density even at body sizes."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-0.23px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.4",
+ "-0.28px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.38",
+ "-0.32px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "20px",
+ "1.25",
+ "-0.5px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.2",
+ "-0.76px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1.2",
+ "-1.08px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "70px",
+ "1.1",
+ "-2.45px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "64-96px",
+ "cardPadding": "16-24px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "96",
+ "96px",
+ "`--spacing-96`"
+ ],
+ [
+ "112",
+ "112px",
+ "`--spacing-112`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "9999px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "9999px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Editorial Hero",
+ "role": "Full-bleed dark opening section with oversized headline"
+ },
+ {
+ "name": "Minimal Nav Bar",
+ "role": "Transparent top navigation"
+ },
+ {
+ "name": "Pill Text Button",
+ "role": "Primary interactive element"
+ },
+ {
+ "name": "Project Showcase Card",
+ "role": "Case study entry in grid"
+ },
+ {
+ "name": "Cream Content Insert",
+ "role": "Warm light section breaking the dark rhythm"
+ },
+ {
+ "name": "Arrow Link",
+ "role": "Directional text link with chevron icon"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Editorial sub-section title"
+ },
+ {
+ "name": "Body Text Block",
+ "role": "Paragraph and supporting copy"
+ },
+ {
+ "name": "Horizontal Divider",
+ "role": "Structural separator between content blocks"
+ },
+ {
+ "name": "Menu Toggle",
+ "role": "Full-screen navigation overlay"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Scto Grotesk A at weight 300 for all display and heading sizes - the light weight is the signature, not a fallback",
+ "Apply negative letter-spacing consistently: -0.035em at display (70px), scaling proportionally to -0.019em at caption (12px)",
+ "Build with full-bleed sections, not contained max-width layouts - let the dark canvas extend to the viewport edges",
+ "Use #000000 and #f4f5ef as the two primary canvas colors, alternating between them for section rhythm",
+ "Define interactive elements with 1px borders and 9999px radius - the pill shape is the only button form",
+ "Set body text at 16px/1.38 with #ffffff on dark and #4e5449 on light surfaces",
+ "Separate content blocks with 1px #e5e7eb hairlines, never with shadows or background fills"
+ ],
+ "doNot": [
+ "Do not introduce color beyond the single warm taupe (#a9a498) - the system\u0027s power comes from its 1% colorfulness",
+ "Do not add shadows, glows, or any drop effects - this system is rigorously flat",
+ "Do not use rounded corners on cards, images, or containers - only buttons are rounded (to 9999px)",
+ "Do not center text - everything is left-aligned, following editorial column logic",
+ "Do not use bold weights (600+) for emphasis - the scale goes 300 400 500, and contrast comes from size and color, not weight",
+ "Do not add icon systems or decorative graphics - typography and photography are the only visual elements",
+ "Do not use #ffffff as a section background - it appears only as surface within forms and as text color on dark"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/58c0af12-8706-428f-8282-482d57d7b90e",
+ "referenceSite": "https://josephmark.studio",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:03:46.899Z",
+ "articleModifiedAt": "2026-06-05T11:55:34.730Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/8f46e12f-64bf-4fd0-a4e0-77491bd98092.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/80e08f37-882b-4754-ac5b-13eb1f53a4d1.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/06cfe9e2-95d2-4aba-ad43-00888cb7e81c.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/47605763-ed3d-4d38-9e77-0b24884a0085.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/9c8818ab-3fec-45ed-b89a-ae90f856d816.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/be1caff6-3308-4c1b-872e-fbd8bda2ddfe.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/3fc1d989-de92-4f04-bd27-b0357d068062.png"
+ }
+ }
+}

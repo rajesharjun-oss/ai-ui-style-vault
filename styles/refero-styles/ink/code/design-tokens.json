@@ -1,0 +1,200 @@
+{
+ "name": "INK",
+ "slug": "ink",
+ "colors": [
+ {
+ "name": "Ink Carbon",
+ "value": "#2e2a2b",
+ "token": "--color-ink-carbon",
+ "role": "Primary text, logo mark, dark surface inversions, footer text on cream - a near-black with a barely-warm undertone that keeps the page from feeling clinical"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas and nav surface - the warm-white background that everything floats on"
+ },
+ {
+ "name": "Whisper Taupe",
+ "value": "#afa697",
+ "token": "--color-whisper-taupe",
+ "role": "Supporting neutral for secondary UI, dividers, and muted labels."
+ },
+ {
+ "name": "Bone Cream",
+ "value": "#e6dcd4",
+ "token": "--color-bone-cream",
+ "role": "Alternate panel background and footer band - a warm cream that signals a quieter section without leaving the monochrome family"
+ },
+ {
+ "name": "Lampblack",
+ "value": "#212121",
+ "token": "--color-lampblack",
+ "role": "Deep surface for inversions and image overlays - slightly cooler than Ink Carbon, used where absolute darkness is needed without color cast"
+ },
+ {
+ "name": "Signal Orange",
+ "value": "#fe5431",
+ "token": "--color-signal-orange",
+ "role": "Decorative illustration accent - appears inside graphic bands and artwork, never as a UI control fill"
+ },
+ {
+ "name": "Amber Pulse",
+ "value": "#ff8000",
+ "token": "--color-amber-pulse",
+ "role": "Decorative illustration accent - companion to Signal Orange inside warm gradient bands and visual punctuation"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Good Sans",
+ "token": "--font-good-sans",
+ "role": "Single voice across the entire interface - body, nav, buttons, headings, and display all share weight 400. The absence of bold is the signature: hierarchy comes from size and color, not weight."
+ }
+ ],
+ "typeScale": [
+ [
+ "body",
+ "18px",
+ "1.6",
+ "-",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "22px",
+ "1.31",
+ "-",
+ "--text-body-lg"
+ ],
+ [
+ "subheading",
+ "27px",
+ "1.25",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "display",
+ "60px",
+ "1.09",
+ "-",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "spacious",
+ "maxWidth": "",
+ "sectionGap": "160px",
+ "cardPadding": "",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "radii": [
+ "nav",
+ "100px"
+ ],
+ "components": [
+ {
+ "name": "Pill Nav Indicator",
+ "role": "Primary navigation trigger"
+ },
+ {
+ "name": "Wordmark Logo",
+ "role": "Brand identity mark"
+ },
+ {
+ "name": "Hero Statement Block",
+ "role": "Opening page headline"
+ },
+ {
+ "name": "Full-Bleed Project Plate",
+ "role": "Portfolio showcase frame"
+ },
+ {
+ "name": "Project Caption Row",
+ "role": "Label and pagination beneath an image"
+ },
+ {
+ "name": "Decorative Warm Band",
+ "role": "Section transition graphic"
+ },
+ {
+ "name": "Cream Footer Panel",
+ "role": "Closing section surface"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Good Sans weight 400 at every size - never introduce bold or medium weights to create hierarchy",
+ "Set section breaks to 160px of vertical whitespace; this is the system\u0027s most recognizable rhythm",
+ "Let project images fill 100% viewport width with zero border-radius and zero frame",
+ "Use Whisper Taupe #afa697 for secondary headlines and Ink Carbon #2e2a2b for primary statements in the same block",
+ "Use 100px border-radius on the nav indicator dot - it must read as a perfect circle",
+ "Keep left-edge text alignment with 64px padding from viewport edge on every section",
+ "Use Bone Cream #e6dcd4 only for footer-level coda sections, never mid-page"
+ ],
+ "doNot": [
+ "Don\u0027t add drop-shadows to any element - depth comes from fill, not blur",
+ "Don\u0027t use Signal Orange #fe5431 or Amber Pulse #ff8000 as button backgrounds or link colors - they are decoration only",
+ "Don\u0027t introduce a max-width container on text blocks - the left-edge 64px padding is the only gutter",
+ "Don\u0027t use a second typeface, even for captions - Good Sans 400 covers the entire voice",
+ "Don\u0027t add borders, dividers, or rules between sections - let whitespace do the work",
+ "Don\u0027t crop project images with rounded corners or contain them in cards",
+ "Don\u0027t bold or italicize any text for emphasis - use the taupe-to-carbon color shift instead"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/6262b0bb-ea6f-481b-b706-65df29507b6c",
+ "referenceSite": "https://weareink.co.uk",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-03-07T09:18:39.000Z",
+ "articleModifiedAt": "2026-06-05T07:58:00.985Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/7e13c664-a1b1-4913-93c5-b339e93891c5.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/a1e3f1ec-7650-49b8-867f-3031a2b3a8c1.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/02e029cb-baa9-4efa-8f29-5092ca7b79cf.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/bfb3d56d-0998-446f-872c-519e856580ef.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/28cc6f81-b67e-474c-90c8-d9428dbb0266.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/9d1f88cf-0ff6-4561-ba0b-ede10bf54bc0.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9045d33-5fb9-4553-9f6d-2e1509ea0e96.png"
+ }
+ }
+}

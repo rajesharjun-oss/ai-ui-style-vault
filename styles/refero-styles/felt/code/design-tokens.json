@@ -1,0 +1,337 @@
+{
+ "name": "Felt",
+ "slug": "felt",
+ "colors": [
+ {
+ "name": "Moss Canvas",
+ "value": "#314218",
+ "token": "--color-moss-canvas",
+ "role": "Page background, hero sections, dominant canvas - the deep mossy green that carries the entire site and grounds the editorial atmosphere"
+ },
+ {
+ "name": "Fern",
+ "value": "#3d521e",
+ "token": "--color-fern",
+ "role": "Mid-green surface for cards, elevated panels, and the topside of the surface stack"
+ },
+ {
+ "name": "Lichen",
+ "value": "#64754b",
+ "token": "--color-lichen",
+ "role": "Muted green for secondary surfaces, borders on cards, and subtle dividers against the canvas"
+ },
+ {
+ "name": "Forest Floor",
+ "value": "#212f0c",
+ "token": "--color-forest-floor",
+ "role": "Deeper green for nested surface layers and inset product UI backgrounds"
+ },
+ {
+ "name": "Deep Bog",
+ "value": "#18210c",
+ "token": "--color-deep-bog",
+ "role": "Darkest green for the deepest surface layer, code blocks, and high-contrast panels"
+ },
+ {
+ "name": "Amber Compass",
+ "value": "#dc8c46",
+ "token": "--color-amber-compass",
+ "role": "Primary action - filled CTA buttons, link borders, active link text. The single warm accent that cuts through the green monochrome like a compass needle"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Primary text, heading color, button text on amber fills, and the dominant border for ghost/outlined controls"
+ },
+ {
+ "name": "Parchment",
+ "value": "#eeeeee",
+ "token": "--color-parchment",
+ "role": "Light surface for embedded product UI, inset map views, and light-mode panel surfaces against the dark canvas"
+ },
+ {
+ "name": "Charcoal",
+ "value": "#333333",
+ "token": "--color-charcoal",
+ "role": "Text and borders inside the light parchment product UI panels - the dark-on-light text color for embedded app surfaces"
+ },
+ {
+ "name": "Limestone",
+ "value": "#d8dcd2",
+ "token": "--color-limestone",
+ "role": "Soft warm-tinted gray for badge backgrounds, subtle borders, and muted helper text inside light panels"
+ },
+ {
+ "name": "Ink",
+ "value": "#000000",
+ "token": "--color-ink",
+ "role": "SVG fills, max-contrast elements, and the map marker pin color"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Arial",
+ "token": "--font-arial",
+ "role": "Arial - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "GT Alpina Standard",
+ "token": "--font-gt-alpina-standard",
+ "role": "Display and heading serif - the editorial headline face. Used at large sizes for hero headlines and section titles. The tight negative tracking (-0.033em to -0.040em) and line-height under 1.0 give the serif a compressed, almost carved-into-stone quality that evokes old cartographic title plates. This is the signature type choice: a humanist serif that feels hand-drawn rather than mechanical."
+ },
+ {
+ "name": "Atlas Grotesk",
+ "token": "--font-atlas-grotesk",
+ "role": "Primary UI and body sans-serif - handles navigation, body text, button labels, badges, and links. The slight positive tracking (0.033em) on body sizes adds legibility on the dark green canvas. The grotesque geometry provides a clean utility counterpoint to the expressive serif headlines."
+ },
+ {
+ "name": "Times New Roman",
+ "token": "--font-times-new-roman",
+ "role": "Fallback system serif at extreme display sizes. The 101px / 0.88 line-height ratio confirms the compressed display treatment for the largest headlines."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.43",
+ "0.4px",
+ "--text-caption"
+ ],
+ [
+ "body-sm",
+ "14px",
+ "1.43",
+ "0.46px",
+ "--text-body-sm"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "0.53px",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "19px",
+ "1.33",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "28px",
+ "1.11",
+ "-0.92px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "36px",
+ "1",
+ "-1.19px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "50px",
+ "0.96",
+ "-1.65px",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "86px",
+ "0.88",
+ "-3.44px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "80px",
+ "cardPadding": "24px",
+ "elementGap": "12px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "32",
+ "32px",
+ "`--spacing-32`"
+ ],
+ [
+ "36",
+ "36px",
+ "`--spacing-36`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "64",
+ "64px",
+ "`--spacing-64`"
+ ],
+ [
+ "72",
+ "72px",
+ "`--spacing-72`"
+ ],
+ [
+ "80",
+ "80px",
+ "`--spacing-80`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "144",
+ "144px",
+ "`--spacing-144`"
+ ],
+ [
+ "160",
+ "160px",
+ "`--spacing-160`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "cards",
+ "6px"
+ ],
+ [
+ "badges",
+ "6px"
+ ],
+ [
+ "images",
+ "6px"
+ ],
+ [
+ "inputs",
+ "6px"
+ ],
+ [
+ "buttons",
+ "20px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Amber CTA Button",
+ "role": "Primary action - filled button for conversion moments"
+ },
+ {
+ "name": "Ghost Link Button",
+ "role": "Secondary action - text link with underline border treatment"
+ },
+ {
+ "name": "Navigation Bar",
+ "role": "Top-level site navigation"
+ },
+ {
+ "name": "Hero Section",
+ "role": "Above-the-fold headline and CTA zone"
+ },
+ {
+ "name": "Scrolling Ticker Banner",
+ "role": "Top announcement bar"
+ },
+ {
+ "name": "Product UI Panel",
+ "role": "Embedded application screenshot / product surface"
+ },
+ {
+ "name": "Client Logo Row",
+ "role": "Social proof - trusted-by brand logos"
+ },
+ {
+ "name": "Feature Section",
+ "role": "Mid-page content blocks with headline + product visual"
+ },
+ {
+ "name": "Badge / Tag",
+ "role": "Category labels and metadata tags"
+ },
+ {
+ "name": "Map Marker Pin",
+ "role": "Interactive map point indicator"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use GT Alpina Standard weight 300 for all display and section headlines - the thin serif is the brand\u0027s most distinctive choice and must carry the editorial voice",
+ "Set display headlines at 86px with line-height 0.88 and letter-spacing -3.44px for the compressed, carved-into-stone effect",
+ "Use Amber Compass (#dc8c46) exclusively for filled CTAs and accent moments - never as a surface fill or decorative wash",
+ "Step surfaces using the green scale: Moss Canvas (#314218) Fern (#3d521e) Lichen (#64754b) for elevation, not shadows",
+ "Set body and UI text in Atlas Grotesk weight 400 with 0.033em letter-spacing for legibility on the dark green canvas",
+ "Embed product UI panels in light surface (#ffffff) with 6px radius and the single subtle shadow to create contrast against the dark page",
+ "Maintain centered, magazine-style layouts with 80px section gaps - the page rhythm should feel like turning pages in an atlas"
+ ],
+ "doNot": [
+ "Don\u0027t use Amber Compass (#dc8c46) for body text, backgrounds, or large surface areas - it loses its compass-needle effect when overused",
+ "Don\u0027t set serif headlines at line-height above 1.0 - the compressed treatment is essential to the editorial feel",
+ "Don\u0027t apply multiple shadow layers - Felt uses elevation through color stepping, not shadow stacks",
+ "Don\u0027t use pure black (#000000) as a page background - the mossy green tones are the canvas, not black",
+ "Don\u0027t replace GT Alpina Standard with a geometric or grotesque display face - the serif is the brand identity",
+ "Don\u0027t use border-radius above 6px on cards, images, or product panels - only buttons get the 20px pill radius",
+ "Don\u0027t introduce new accent hues - the entire palette is green monochrome plus one warm amber; any other color breaks the system"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/127a4efb-685c-42c3-83eb-72bb410a8429",
+ "referenceSite": "https://www.felt.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T03:28:31.422Z",
+ "articleModifiedAt": "2026-06-05T12:09:40.909Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/09bac67d-220e-4197-8168-3991dcb345e3.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/57e32cc7-07bf-4490-ab6f-c800a5c076b5.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/b782bac2-2419-47da-bd35-5c22edc08ca3.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/6dac9b3c-b0a9-43a6-8ef2-4f3edfc0cf73.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/7ff3794f-74ac-406d-aab4-b69ca3298dd8.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/19660a2d-c26a-4c74-b427-6f91d2f92841.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/43a72b67-7e7d-4f24-8d20-2e4a02cf5cf0.png"
+ }
+ }
+}

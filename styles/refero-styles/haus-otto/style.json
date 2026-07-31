@@ -1,0 +1,210 @@
+{
+ "id": "0057e55a-8a66-4ffc-9c21-f0b757e580b3",
+ "name": "Haus Otto",
+ "slug": "haus-otto",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/0057e55a-8a66-4ffc-9c21-f0b757e580b3",
+ "referenceSite": "https://hausotto.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-02-20T14:50:55.000Z",
+ "articleModifiedAt": "2026-06-05T07:53:29.123Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/d31d3fc2-8c8f-41b2-8824-789cb63090f2.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/2f899879-f713-441c-b9f2-6d9689048762.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4f1e11c1-5d8d-41e1-b3bc-c9b3cd660737.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/3c453898-2cdf-466b-96c1-a05381cca39b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/7b783a8c-b355-428b-b2dd-d42de2f8f3e0.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/64575f74-0931-4d37-add9-e7241c5f878e.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/2f975b07-cae1-4530-8d13-a56d22642018.png"
+ }
+ },
+ "classification": {
+ "theme": "light",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Monumental wordmark on white void",
+ "summary": "Explore Haus Otto\u0027s light Agency design system: Obsidian #000000, Paper #ffffff colors, Monument typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Obsidian",
+ "value": "#000000",
+ "token": "--color-obsidian",
+ "role": "Primary text, wordmark fills, link text, all heading color - the only non-white pigment in the interface"
+ },
+ {
+ "name": "Paper",
+ "value": "#ffffff",
+ "token": "--color-paper",
+ "role": "Page canvas, card surfaces, inverse text on dark moments"
+ },
+ {
+ "name": "Terracotta",
+ "value": "#af7653",
+ "token": "--color-terracotta",
+ "role": "Sole chromatic accent - warm earthen tone for hover states, active indicators, or single-element highlights against the monochrome field"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "Monument",
+ "token": "--font-monument",
+ "role": "Sole typeface across the entire system. Regular variant at 13-23px for nav links, metadata, body micro-copy. Medium variant at 216px for the hero wordmark - the only element that earns the 216px scale, with -0.033em tracking to tighten the ultra-condensed letterforms into a continuous bar of black"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "13px",
+ "2",
+ "-",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "20px",
+ "1.23",
+ "-",
+ "--text-body"
+ ],
+ [
+ "subheading",
+ "23px",
+ "1.16",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "display",
+ "216px",
+ "1",
+ "-7.13px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "compact",
+ "maxWidth": "",
+ "sectionGap": "30px",
+ "cardPadding": "12-20px",
+ "elementGap": "4px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "12",
+ "12px",
+ "`--spacing-12`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "inputs",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Display Wordmark",
+ "role": "Hero brand identifier - the signature element"
+ },
+ {
+ "name": "Navigation Link",
+ "role": "Top-level nav items (e.g. \u0027Info\u0027)"
+ },
+ {
+ "name": "Top-Left Brand Mark",
+ "role": "Persistent brand identifier in nav"
+ },
+ {
+ "name": "Page Dot Indicators",
+ "role": "Section navigation (right edge, top)"
+ },
+ {
+ "name": "Cookie Consent Bar",
+ "role": "Legal/UX footer notice"
+ },
+ {
+ "name": "Page Section Spacer",
+ "role": "Vertical rhythm device between content blocks"
+ },
+ {
+ "name": "Tertiary Body Text",
+ "role": "Supplementary information, metadata, descriptions"
+ }
+ ],
+ "dos": [
+ "Set hero type at exactly 216px Monument Medium with letter-spacing -0.033em - this scale is non-negotiable, it IS the brand",
+ "Use zero border-radius on every interactive element: buttons, tags, inputs, cards - sharp corners only",
+ "Keep the color palette to Obsidian (#000000) and Paper (#ffffff) as the default; reserve Terracotta (#af7653) for single-element accent moments only",
+ "Set base spacing to a 4px grid with 30px section gaps - the design is compact in its tokens but vast in its whitespace",
+ "Let the wordmark fill the full viewport width - no max-width container should clip the display type",
+ "Use 13px Monument Regular for all navigation and metadata at line-height 1.77-2.00 for breathing room at small sizes",
+ "Treat the white canvas as an active design element - never fill backgrounds with color or imagery behind text"
+ ],
+ "donts": [
+ "Never introduce a second typeface family - Monument is the sole voice",
+ "Never apply border-radius to buttons, cards, or tags - every corner is sharp",
+ "Never use shadows, gradients, or glow effects - the design is flat and chromatically minimal",
+ "Never add borders, dividers, or rules between sections - whitespace is the only separator",
+ "Never reduce the 216px display below 120px - the wordmark\u0027s authority depends on its scale",
+ "Never use more than one accent color per screen - Terracotta appears as punctuation, not decoration",
+ "Never fill the page with imagery, illustrations, or product photography - text on void is the entire visual system"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas | `#ffffff` | Full-page background, all content sits on this surface |",
+ "elevation": "The design eliminates elevation entirely. There are no shadows, no stacked layers, no depth cues. Hierarchy is achieved through scale (216px vs 13px) and whitespace alone, not through z-axis separation. This flatness is deliberate - it treats the white page as a single infinite plane.",
+ "imagery": "No imagery present. The site is pure typography on white space - no photography, no illustrations, no icons, no product shots, no decorative graphics. The only visual marks are the two navigation dot indicators in the top-right corner. This is a typographic-first identity where the wordmark replaces all visual content.",
+ "layout": ""
+}

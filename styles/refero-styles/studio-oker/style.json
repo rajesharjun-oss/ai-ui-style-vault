@@ -1,0 +1,245 @@
+{
+ "id": "e045b276-ae8d-442e-98de-fa8650e284de",
+ "name": "Studio Oker",
+ "slug": "studio-oker",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/e045b276-ae8d-442e-98de-fa8650e284de",
+ "referenceSite": "https://oker.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:58:18.049Z",
+ "articleModifiedAt": "2026-06-05T10:19:36.327Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/c5ce3ddb-8d17-489d-95a9-697f6844af1a.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/80e08f37-882b-4754-ac5b-13eb1f53a4d1.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/0e41b5f5-a4db-4b89-ba64-da2d1a5dfdc9.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/4a9f9344-e9d0-4f57-bc44-104db757ed5b.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/e062cc5d-8ef9-43bb-a474-9ed34217f17b.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/c47608c9-77ef-48c2-89ee-32cfc9486554.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e9c9fe01-bc59-4e9c-9871-d837ccf89c31.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "Agency",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "Agency",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "darkened gallery with scarlet punctuation - a black-walled portfolio room where white type floats and one red whisper cuts through the silence.",
+ "summary": "Explore Studio Oker\u0027s dark Agency design system: Pure Black #000000, Soft Black #101010 colors, NextBook, Circular Std typography, and DESIGN.md for AI agents.",
+ "colors": [
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Page canvas, section backgrounds, project card fills - the void everything else floats on"
+ },
+ {
+ "name": "Soft Black",
+ "value": "#101010",
+ "token": "--color-soft-black",
+ "role": "Subtle surface elevation over the pure black canvas, card backgrounds in tight stacks"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Primary text, headings, hairline borders, nav text - the only light in the room"
+ },
+ {
+ "name": "Fog Gray",
+ "value": "#a0a0a0",
+ "token": "--color-fog-gray",
+ "role": "Secondary text, metadata, captions, image borders, inactive labels"
+ },
+ {
+ "name": "Graphite",
+ "value": "#484848",
+ "token": "--color-graphite",
+ "role": "Footer borders, section dividers, rare structural lines that recede into the dark"
+ },
+ {
+ "name": "Scarlet Signal",
+ "value": "#e4002b",
+ "token": "--color-scarlet-signal",
+ "role": "Supporting palette color for small decorative accents when the core palette needs contrast."
+ },
+ {
+ "name": "Rose Brand Spectrum",
+ "value": "#f5a5a5",
+ "token": "--color-rose-brand-spectrum",
+ "role": "Brand color exploration panel - a pink-to-black swatch that walks from #f5a5a5 #e85a5a #d42020 #7a0a0a #2a0606 #000000 as a literal brand-color system reveal"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "NextBook",
+ "token": "--font-nextbook",
+ "role": "The studio\u0027s own custom display and text face. Weight 300 whispers in section headings and 80px display; weight 400 carries body, labels, and nav. Used across every context - hero, body, heading, link, list, icon, footer."
+ },
+ {
+ "name": "Circular Std",
+ "token": "--font-circular-std",
+ "role": "Referenced inside project case studies (the \u0027AaBbCc 1234\u0027 specimen tile) as a client font example - not part of Studio Oker\u0027s own UI system"
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "16px",
+ "1.25",
+ "-0.16px",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.13",
+ "-0.24px",
+ "--text-subheading"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1",
+ "-0.64px",
+ "--text-heading-sm"
+ ],
+ [
+ "display",
+ "80px",
+ "1",
+ "-1.6px",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "8px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "120px",
+ "cardPadding": "16px",
+ "elementGap": "16px",
+ "scale": [
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ],
+ [
+ "120",
+ "120px",
+ "`--spacing-120`"
+ ],
+ [
+ "240",
+ "240px",
+ "`--spacing-240`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Top Navigation Bar",
+ "role": "Site-wide persistent header"
+ },
+ {
+ "name": "Project Tile Card",
+ "role": "Grid cell in the work showcase"
+ },
+ {
+ "name": "Full-Bleed Red Panel",
+ "role": "Hero-scale statement tile (e.g. \u0027Think Big.\u0027)"
+ },
+ {
+ "name": "Brand Color Swatch Panel",
+ "role": "A literal brand-system reveal inside a project tile"
+ },
+ {
+ "name": "Typography Specimen Tile",
+ "role": "A client\u0027s font system displayed inside a project card"
+ },
+ {
+ "name": "Section Heading",
+ "role": "Top-of-section title for Feed, Studio, etc."
+ },
+ {
+ "name": "Studio Stat Block",
+ "role": "Compact label/value pairs in the About/Studio section"
+ },
+ {
+ "name": "Services List",
+ "role": "Vertical list of service offerings"
+ },
+ {
+ "name": "Project Showcase Card (Feed)",
+ "role": "Large format work card with image + caption"
+ },
+ {
+ "name": "Link with Red Dot",
+ "role": "Standalone call-to-action / read-more affordance"
+ },
+ {
+ "name": "Footer",
+ "role": "Page-bottom site info"
+ }
+ ],
+ "dos": [
+ "Use Pure Black (#000000) as the universal background - never introduce gray surfaces, tints, or off-white panels",
+ "Set all radii to 0px - cards, buttons, images, and tags all share sharp corners",
+ "Use NextBook weight 300 at 80px for section headings, with -0.02em letter-spacing (-1.6px) - the whisper-weight is the signature, not the size",
+ "Reserve Scarlet Signal (#e4002b) for exactly one use per screen - a single red dot, a single red panel, or a single red link - never as a fill color across multiple elements",
+ "Honor the 120px section gap and 240-264px breathing-room margins as the page\u0027s structural rhythm; collapse these only inside dense tile grids",
+ "Use #a0a0a0 for ALL secondary text, metadata, and image borders - never invent intermediate grays",
+ "Treat photographs as edge-to-edge artwork with no inner padding, no rounded corners, and no overlay treatments"
+ ],
+ "donts": [
+ "Don\u0027t add drop shadows, inner shadows, or glow effects - the system uses void, not elevation, to separate elements",
+ "Don\u0027t introduce a second accent color - the scarlet is the only chromatic signal in the entire system",
+ "Don\u0027t use bullet points, numbered lists, or icon prefixes in body copy - the Services list and Studio stat block prove that raw stacked text carries more weight than decorated lists",
+ "Don\u0027t center-align body paragraphs - every long-form block is left-aligned and reads as a typographic column, not a display statement",
+ "Don\u0027t use buttons with backgrounds - actions are dots, links, or text; the red dot IS the button",
+ "Don\u0027t add gradients to UI elements (the rose panel is a single brand artifact, not a pattern to replicate on cards, buttons, or backgrounds)",
+ "Don\u0027t use NextBook weight 600+ - the system only operates at 300 and 400; bolder weights would break the whisper-confident voice"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Canvas Black | `#000000` | Full-bleed page background across all sections |\n| 1 | Soft Black | `#101010` | Rare slightly-elevated card or panel that breaks the void by 1-2% lightness |\n| 2 | Graphite Line | `#484848` | Hairline divider between footer blocks and major section breaks |",
+ "elevation": "Elevation is replaced by the void. The design treats the pure black canvas itself as the lowest surface and refuses to add shadows, glows, or tonal lifts - cards and tiles sit on the same plane as the page, distinguished only by the content (image, type, color) they contain. When separation is needed, a single hairline border at #484848 or #a0a0a0 is used. This is a deliberate anti-skeuomorphic stance: the page behaves like a gallery wall, not a stack of cards.",
+ "imagery": "Photography is the dominant visual element. Treatment: full-bleed, edge-to-edge, no rounding, no internal padding, no overlay text. Subjects range from tight product crops (the Strutt wheelchair joystick, the tablet showing a website) to human portraiture (the smiling woman in soft natural light) to abstract textures (the dark grid with scattered red dots). Images are high-resolution and treated as artwork objects, not content blocks - they get breathing room (120px+ margins) and are arranged in asymmetric grids. The studio does not use illustrations, icons (except a single 2x2 expand glyph in the nav), or 3D renders of their own. Color treatment is natural and unmanipulated, with the exception of one image (the red-dot grid) that doubles as a brand reference.",
+ "layout": "Full-bleed dark canvas, no max-width containment. The page is structured as a vertical sequence of full-width sections separated by 120-240px vertical air. Top: a fixed-height nav bar, then a 3- or 4-column asymmetric grid of project tiles (varying aspect ratios create rhythm - a white logo card, a rose-gradient panel, a photo card, a red \u0027Think Big\u0027 panel). Middle: the About/Studio section uses a 3-column text block (description, manifesto, services+stats) at left-aligned, then a \u0027Feed\u0027 heading that introduces a 2-column project showcase grid. Navigation is a single minimal top bar - no sidebar, no mega-menu. Density is sparse: large negative-space margins dominate, and information is meted out in small typographic blocks rather than dense panels."
+}

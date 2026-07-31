@@ -1,0 +1,278 @@
+{
+ "id": "297f65f7-0fbd-4521-ab91-a5f6e17175d9",
+ "name": "Electronic Materials Office(R)",
+ "slug": "electronic-materials-office-r",
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/297f65f7-0fbd-4521-ab91-a5f6e17175d9",
+ "referenceSite": "https://electronicmaterialsoffice.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:28:50.412Z",
+ "articleModifiedAt": "2026-06-05T10:29:02.082Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/f76b49b5-559e-45d0-897b-7122d8b439de.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/e4ca79ca-2771-4244-b6c3-a54e466bd4ff.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/4c39c060-9dce-4e86-8a36-8b081fc67201.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/a93832d3-3f98-4386-a769-27d4eaa5e0ee.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/549c4fda-b18d-41fb-bcc1-4e477b633edc.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/8bd96e37-9352-45d1-b54f-bcb7e29ff8a3.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/e474f177-b67c-40f3-819a-e1e2e38698d9.png"
+ }
+ },
+ "classification": {
+ "theme": "dark",
+ "category": "E-commerce",
+ "mood": [
+ "source-derived"
+ ],
+ "bestFor": [
+ "E-commerce",
+ "AI-assisted UI implementation"
+ ]
+ },
+ "northStar": "Incandescent ember in a charcoal gallery",
+ "summary": "Explore Electronic Materials Office(R)\u0027s dark E-commerce design system: Studio Charcoal #202020, Bone White #ffffff colors, GT-Flexa, Tobias-light typography,...",
+ "colors": [
+ {
+ "name": "Studio Charcoal",
+ "value": "#202020",
+ "token": "--color-studio-charcoal",
+ "role": "Page canvas and card surfaces - the floor of the dark gallery, never pure black so the eye can rest on edge softness"
+ },
+ {
+ "name": "Bone White",
+ "value": "#ffffff",
+ "token": "--color-bone-white",
+ "role": "Primary text, hairline borders on images, and the rare inverted surface. Carries all type hierarchy on its own"
+ },
+ {
+ "name": "Ash Gray",
+ "value": "#9d9d9d",
+ "token": "--color-ash-gray",
+ "role": "Muted text, subtle card borders, inactive labels - the only middle gray in the scale, used when white is too loud"
+ },
+ {
+ "name": "Mid Felt",
+ "value": "#eaeaea",
+ "token": "--color-mid-felt",
+ "role": "Light surface wash for inverted panels or modal scrims - the off-white that sits between bone and the dark canvas"
+ },
+ {
+ "name": "Carbon",
+ "value": "#000000",
+ "token": "--color-carbon",
+ "role": "Deepest accent for icon strokes and contrast borders where the charcoal canvas is too light to hold an edge"
+ },
+ {
+ "name": "Ember Orange",
+ "value": "#f45500",
+ "token": "--color-ember-orange",
+ "role": "Filled primary action button - the only chromatic surface in the UI, always paired with a 30px orange halo so it glows like a filament; 30px outer glow on the primary CTA - duplicates the Ember Orange hex but exists as a box-shadow, not a fill, so the button appears lit from within"
+ },
+ {
+ "name": "Lavender Link",
+ "value": "#9e9eff",
+ "token": "--color-lavender-link",
+ "role": "Inline link color and the outlined secondary action border - a desaturated cool counterpoint to the warm orange ember, keeping actions readable against charcoal"
+ }
+ ],
+ "typography": {
+ "fonts": [
+ {
+ "name": "GT-Flexa",
+ "token": "--font-gt-flexa",
+ "role": "Display and heading workhorse. Weight 200 carries every headline above 24px - the 200 weight is the signature: at 68px and 86px the letterforms dissolve into atmosphere rather than shout. Weight 400 steps in for sub-headings and card captions where a whisper isn\u0027t enough. Line-heights collapse toward 1.0 at the largest sizes so display type stacks like a column of breath."
+ },
+ {
+ "name": "Tobias-light",
+ "token": "--font-tobias-light",
+ "role": "Secondary display voice for section headers and the footer wordmark. Used at a step below GT-Flexa 200 to create tonal contrast - Tobias feels more architectural, more labeled, while GT-Flexa feels ambient. Negative letter-spacing tightens the wide proportions of the Tobias Light cut."
+ },
+ {
+ "name": "Times",
+ "token": "--font-times",
+ "role": "Body text and hero paragraph copy - a deliberate serif counterpoint to the geometric display fonts. The serif adds warmth and editorial gravity to product descriptions without ever growing larger than body size."
+ }
+ ],
+ "typeScale": [
+ [
+ "body-sm",
+ "16px",
+ "1.2",
+ "-",
+ "--text-body-sm"
+ ],
+ [
+ "subheading",
+ "24px",
+ "1.2",
+ "-",
+ "--text-subheading"
+ ],
+ [
+ "subheading-lg",
+ "26px",
+ "1.2",
+ "-",
+ "--text-subheading-lg"
+ ],
+ [
+ "subheading-xl",
+ "28px",
+ "1.2",
+ "-",
+ "--text-subheading-xl"
+ ],
+ [
+ "heading-sm",
+ "32px",
+ "1.2",
+ "-1.536px",
+ "--text-heading-sm"
+ ],
+ [
+ "heading",
+ "42px",
+ "1.2",
+ "-2.604px",
+ "--text-heading"
+ ],
+ [
+ "heading-lg",
+ "68px",
+ "1.06",
+ "-",
+ "--text-heading-lg"
+ ],
+ [
+ "display",
+ "86px",
+ "1",
+ "-",
+ "--text-display"
+ ]
+ ]
+ },
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "1200px",
+ "sectionGap": "48-128px",
+ "cardPadding": "24px",
+ "elementGap": "4-8px",
+ "scale": [
+ [
+ "4",
+ "4px",
+ "`--spacing-4`"
+ ],
+ [
+ "8",
+ "8px",
+ "`--spacing-8`"
+ ],
+ [
+ "16",
+ "16px",
+ "`--spacing-16`"
+ ],
+ [
+ "24",
+ "24px",
+ "`--spacing-24`"
+ ],
+ [
+ "48",
+ "48px",
+ "`--spacing-48`"
+ ]
+ ]
+ },
+ "shape": {
+ "radii": [
+ [
+ "cards",
+ "20px"
+ ],
+ [
+ "images",
+ "20px"
+ ],
+ [
+ "buttons",
+ "20px"
+ ]
+ ]
+ },
+ "components": [
+ {
+ "name": "Primary CTA - Ember Button",
+ "role": "The single filled action on any screen (Pre-order, Buy)."
+ },
+ {
+ "name": "Secondary CTA - White Ghost Button",
+ "role": "Companion to the Ember button when two actions sit side by side."
+ },
+ {
+ "name": "Lavender Outlined Action",
+ "role": "Tertiary or nav-level action (e.g. About, Updates in the header)."
+ },
+ {
+ "name": "Inline Lavender Link",
+ "role": "Anchor text inside paragraphs or feature captions."
+ },
+ {
+ "name": "Video / Media Card",
+ "role": "Hero film or product video frame."
+ },
+ {
+ "name": "Feature Card",
+ "role": "2x2 or 3x2 grid cell in the Key Features section."
+ },
+ {
+ "name": "Hero Headline Block",
+ "role": "Opening product announcement that fills the first scroll."
+ },
+ {
+ "name": "Section Header (Tobias Voice)",
+ "role": "Delineates major sections (e.g. KEY FEATURES)."
+ },
+ {
+ "name": "Editorial Paragraph",
+ "role": "Body copy under hero or in product descriptions."
+ },
+ {
+ "name": "Top Navigation Bar",
+ "role": "Persistent header across all pages."
+ },
+ {
+ "name": "Footer",
+ "role": "Closing block of the page."
+ },
+ {
+ "name": "Play Overlay Button",
+ "role": "Centered trigger over video frames."
+ }
+ ],
+ "dos": [
+ "Use GT-Flexa weight 200 for every display headline at 42px and above - the whisper weight is the signature",
+ "Apply the Ember Orange (#f45500) filled button with its 30px rgba(245,86,0,0.6) glow exactly once per viewport",
+ "Keep all card radii at 20px and all button radii at 20px - never break to 4px or 8px",
+ "Use #9e9eff for all inline links and outlined nav actions - it is the only cool chromatic in the system",
+ "Hold the page canvas at #202020, not #000000 - the slight lift gives product photography room to breathe",
+ "Let Tobias-light 32-42px carry section labels with its -2.6px tracking - it provides the architectural voice",
+ "Define surface edges with 1px #9d9d9d or #ffffff borders rather than shadow or background shifts"
+ ],
+ "donts": [
+ "Do not use Times or any serif for headings, labels, or UI chrome - it is body copy only",
+ "Do not apply the Ember Orange glow to anything other than the primary CTA",
+ "Do not introduce additional saturated brand colors - the system is orange + violet on charcoal",
+ "Do not use weight 400 or above for display headlines above 42px - the 200 weight is non-negotiable",
+ "Do not add box-shadows to cards, images, or navigation - shadows are reserved for the two button variants",
+ "Do not center body copy or paragraph text - left alignment only, matching the hero headline",
+ "Do not round anything below 16px - the system commits to soft, large radii"
+ ],
+ "surfaces": "| Level | Name | Value | Purpose |\n|-------|------|-------|---------|\n| 0 | Studio Floor | `#202020` | Page background - the base of the gallery |\n| 1 | Card Matte | `#202020` | Feature cards and media frames sit on the same charcoal as the canvas, defined by 1px borders rather than surface shifts |\n| 2 | Inverted Panel | `#eaeaea` | Light scrim or modal surface when the system inverts |",
+ "elevation": "- **Primary CTA (Ember Orange filled button):** `0px 0px 30px 0px rgba(245, 86, 0, 0.6)`\n- **Secondary CTA (white ghost button on dark):** `0px 0px 30px 0px rgba(255, 255, 255, 0.3)`",
+ "imagery": "Imagery is product-only - close-up macro photography of the Altar I keyboard shot against pure black, lit from above so the chassis glows and keycap legends catch rim light. No lifestyle, no human hands, no environmental context. Treatment is consistently high-contrast and dark; the only color that escapes the monochrome palette is the orange power switch on the keyboard itself, which echoes the Ember Orange CTA. Images are square or 16:9, always contained within 20px-radius cards, and they bleed to the card edge (no internal padding around the photo, caption sits below the bleed). Icon style: the only iconography is the small filled circle ( ) prefixing the wordmark - a single orange dot, weight ~6px.",
+ "layout": "Full-bleed charcoal canvas with centered max-width content (~1200px). The hero opens with a 20px-radius media card containing the product film, sitting roughly 80% viewport width, followed immediately by a multi-line GT-Flexa 200 headline that wraps across nearly the full content width. Section rhythm: one feature section with a Tobias-light all-caps label, then a 2x2 (on desktop) card grid of feature tiles. Cards use 1px #9d9d9d borders and 24px gaps between them. Generous vertical breathing - sections are separated by 48-128px of charcoal negative space rather than dividers. Navigation is a single transparent bar pinned to the top with a ghost-link cluster and one Ember CTA. No sidebar, no mega-menu, no secondary navigation."
+}

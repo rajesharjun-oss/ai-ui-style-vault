@@ -1,0 +1,180 @@
+{
+ "name": "Daniellelevitt",
+ "slug": "daniellelevitt",
+ "colors": [
+ {
+ "name": "Vermillion",
+ "value": "#d15022",
+ "token": "--color-vermillion",
+ "role": "Display type, navigation, outlined action borders, section headings - burnt orange against white and mint creates the system\u0027s only chromatic voice; it carries every heading, every link, and the massive name lockup"
+ },
+ {
+ "name": "Acid Mint",
+ "value": "#75dfb5",
+ "token": "--color-acid-mint",
+ "role": "Green action color for filled buttons, selected navigation states, and focused conversion moments"
+ },
+ {
+ "name": "Pure Black",
+ "value": "#000000",
+ "token": "--color-pure-black",
+ "role": "Image borders, hairline dividers, secondary borders, and body-text outlines where Vermillion isn\u0027t used - the structural ink that frames every photograph"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Primary canvas behind image collages and the opening viewport - flat, untextured, the gallery wall on which the photographs are pinned"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Helvetica Now Display",
+ "token": "--font-helvetica-now-display",
+ "role": "Body emphasis, navigation labels, sub-headings, image captions, link text - the non-display workhorse at 29px bold for the bio statement and 18px for running text. The 800 weight everywhere (no medium, no regular) is a signature choice: the system never steps down from maximum volume."
+ },
+ {
+ "name": "Helvetica Now Display Condensed",
+ "token": "--font-helvetica-now-display-condensed",
+ "role": "Display name lockup and section-spanning hero type - the ultra-condensed bold at 72px+ fills viewports and overlaps photography. The condensation is the brand\u0027s signature: standard Helvetica at 800 wouldn\u0027t create the same monolithic, poster-scale letters that define the site\u0027s identity."
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "10px",
+ "1.6",
+ "-0.1px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "18px",
+ "1.6",
+ "-0.18px",
+ "--text-body"
+ ],
+ [
+ "heading",
+ "29px",
+ "1",
+ "-0.29px",
+ "--text-heading"
+ ],
+ [
+ "display",
+ "72px",
+ "0.95",
+ "-0.72px",
+ "--text-display"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "4px",
+ "density": "comfortable",
+ "maxWidth": "",
+ "sectionGap": "50px",
+ "cardPadding": "0px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "5",
+ "5px",
+ "`--spacing-5`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "50",
+ "50px",
+ "`--spacing-50`"
+ ]
+ ]
+ },
+ "radii": [
+ [
+ "tags",
+ "0px"
+ ],
+ [
+ "cards",
+ "0px"
+ ],
+ [
+ "images",
+ "0px"
+ ],
+ [
+ "buttons",
+ "0px"
+ ]
+ ],
+ "components": [
+ {
+ "name": "Display Name Lockup",
+ "role": "Site-defining typographic element"
+ },
+ {
+ "name": "Image Collage Block",
+ "role": "Editorial photo arrangement on white canvas"
+ },
+ {
+ "name": "Bio Statement Block",
+ "role": "Primary descriptive text"
+ },
+ {
+ "name": "Minimal Navigation",
+ "role": "Site wayfinding"
+ },
+ {
+ "name": "Outlined Action Link",
+ "role": "Outlined/ghost link treatment"
+ },
+ {
+ "name": "Full-Bleed Section Background",
+ "role": "Page-level color band"
+ },
+ {
+ "name": "Image Frame Border",
+ "role": "Photograph containment"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use Vermillion (#d15022) for all display type, headings, and navigation - it is the only chromatic voice in the system",
+ "Set all type at weight 800 - the system never steps down to medium or regular; 29px bold IS the body weight",
+ "Use Helvetica Now Display Condensed 800 at 72px+ with lineHeight 0.95 for any display or section-spanning text",
+ "Use 0px border-radius on every element - images, buttons, tags, cards all have hard rectangular edges",
+ "Frame every photograph with a 1-2px Pure Black (#000000) border",
+ "Let display type bleed to viewport edges - never constrain with max-width or padding around the name lockup",
+ "Use Acid Mint (#75dfb5) as a full-bleed section background, never as a card surface or accent fill"
+ ],
+ "doNot": [
+ "Don\u0027t introduce a second body weight below 800 - medium and regular have no place in this system",
+ "Don\u0027t add drop shadows, gradients, or any elevation - the system is completely flat",
+ "Don\u0027t use rounded corners on images, buttons, or containers - 0px radius is non-negotiable",
+ "Don\u0027t constrain the layout to a max-width container - the editorial poster aesthetic requires full-bleed",
+ "Don\u0027t add a third color - the palette is strictly Vermillion, Acid Mint, Black, and White",
+ "Don\u0027t separate type and photography into stacked rows - they should overlap and share the same plane",
+ "Don\u0027t use a standard sans-serif at body sizes - even 18px and 29px text must be 800 weight to match the system\u0027s volume"
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/1a8d2d66-bb84-4929-acbe-2685fc9ab6e7",
+ "referenceSite": "https://www.daniellelevitt.com",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T01:30:53.290Z",
+ "articleModifiedAt": "2026-06-05T11:23:17.548Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/6fe09980-e5e4-46f7-83b4-cae8ad2538e7.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/f939b18e-9001-41e6-897b-dca5a37ea7cc.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/a3dc6c92-ef6c-4620-b0d8-e944edb919a1.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/b90efbef-b596-4201-9a68-26a7ed49eaf1.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/b0174c71-f9ff-40b3-9e4b-db05732a2bce.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/8d6f6a6d-b3a2-4e11-8f57-0051c110b55d.jpg"
+ }
+ }
+}

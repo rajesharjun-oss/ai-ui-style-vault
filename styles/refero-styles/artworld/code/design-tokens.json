@@ -1,0 +1,199 @@
+{
+ "name": "ARTWORLD",
+ "slug": "artworld",
+ "colors": [
+ {
+ "name": "Ink Black",
+ "value": "#000000",
+ "token": "--color-ink-black",
+ "role": "All text, the ARTWORLD wordmark, hairline structural borders, link strokes - the only mark-making color in the entire system"
+ },
+ {
+ "name": "Paper White",
+ "value": "#ffffff",
+ "token": "--color-paper-white",
+ "role": "Page canvas, negative space between type, reverse text on the wordmark bar"
+ }
+ ],
+ "fonts": [
+ {
+ "name": "Graphik Light",
+ "token": "--font-graphik-light",
+ "role": "The invisible support system - body text, captions, metadata, role tags, the legend, the info link. Weight 300 is deliberately thin: it recedes so the Cardinal Fruit can dominate. This is the typographic equivalent of using whisper voice in a conversation where someone else is speaking. The consistent -0.065em letter-spacing tightens the already-light forms, giving the sans-serif an editorial density that prevents it from feeling like default UI text."
+ },
+ {
+ "name": "Cardinal Fruit (and Italic / Classic Italic variants)",
+ "token": "--font-cardinal-fruit-and-italic-classic-italic-variants",
+ "role": "The editorial display voice - used for talent names, artist credits, and any moment of typographic expression. The italic variant carries the romantic, fashion-magazine feeling while the upright version provides structural headlines. Custom serif with high contrast strokes, used at extreme sizes (65-75px) to dominate the page. The whisper weight (300) on such a large serif is anti-convention: most editorial serifs use 400-700 here, but the light cuts create airier letterforms that feel more printed than digital."
+ },
+ {
+ "name": "Cardinal Fruit Italic",
+ "token": "--font-cardinal-fruit-italic",
+ "role": "Cardinal Fruit Italic - detected in extracted data but not described by AI"
+ },
+ {
+ "name": "Cardinal Classic Italic",
+ "token": "--font-cardinal-classic-italic",
+ "role": "Cardinal Classic Italic - detected in extracted data but not described by AI"
+ }
+ ],
+ "typeScale": [
+ [
+ "caption",
+ "12px",
+ "1.2",
+ "-0.78px",
+ "--text-caption"
+ ],
+ [
+ "body",
+ "16px",
+ "1.5",
+ "-1.04px",
+ "--text-body"
+ ],
+ [
+ "body-lg",
+ "20px",
+ "1.58",
+ "-1.3px",
+ "--text-body-lg"
+ ],
+ [
+ "display",
+ "65px",
+ "1.09",
+ "-2.015px",
+ "--text-display"
+ ],
+ [
+ "display-lg",
+ "75px",
+ "1",
+ "-0.75px",
+ "--text-display-lg"
+ ]
+ ],
+ "spacing": {
+ "baseUnit": "",
+ "density": "spacious",
+ "maxWidth": "",
+ "sectionGap": "76-95px",
+ "cardPadding": "30px",
+ "elementGap": "20px",
+ "scale": [
+ [
+ "10",
+ "10px",
+ "`--spacing-10`"
+ ],
+ [
+ "20",
+ "20px",
+ "`--spacing-20`"
+ ],
+ [
+ "29",
+ "29px",
+ "`--spacing-29`"
+ ],
+ [
+ "30",
+ "30px",
+ "`--spacing-30`"
+ ],
+ [
+ "35",
+ "35px",
+ "`--spacing-35`"
+ ],
+ [
+ "40",
+ "40px",
+ "`--spacing-40`"
+ ],
+ [
+ "49",
+ "49px",
+ "`--spacing-49`"
+ ],
+ [
+ "76",
+ "76px",
+ "`--spacing-76`"
+ ],
+ [
+ "90",
+ "90px",
+ "`--spacing-90`"
+ ],
+ [
+ "95",
+ "95px",
+ "`--spacing-95`"
+ ]
+ ]
+ },
+ "radii": [
+ "all",
+ "0px"
+ ],
+ "components": [
+ {
+ "name": "Talent Name Cell",
+ "role": "Primary unit of the talent grid - individual artist/creator name in the credits section"
+ },
+ {
+ "name": "Role Legend",
+ "role": "Key explaining the superscript role tags in the talent grid"
+ },
+ {
+ "name": "ARTWORLD Wordmark",
+ "role": "Brand identifier and visual anchor - the page\u0027s only large-scale graphic element"
+ },
+ {
+ "name": "Info Link",
+ "role": "Persistent utility link, likely to contact or about details"
+ },
+ {
+ "name": "Credits Grid",
+ "role": "The main content surface - a multi-row, multi-column layout of talent name cells"
+ }
+ ],
+ "guidelines": {
+ "do": [
+ "Use only #000000 and #ffffff. Any introduction of grey, tint, or color breaks the monochrome contract.",
+ "Set all display type in Cardinal Fruit (upright or italic) at 65-75px with weight 300. The whisper weight is non-negotiable - it creates the airiness that makes the type feel printed, not digital.",
+ "Set all body and supporting type in Graphik Light at weight 300. Do not promote to Regular or Medium; the thinness is the point.",
+ "Use the two type families as a system of contrast: Cardinal Fruit speaks, Graphik Light stays quiet. Never let Graphik Light appear at sizes that compete with Cardinal Fruit.",
+ "Maintain tight letter-spacing: -0.065em for Graphik Light, -0.010 to -0.031em for Cardinal Fruit. This tracking is what gives the type its editorial density.",
+ "Keep all spacing generous - 76-95px between major sections, 20-30px between elements. This is a spacious design that breathes.",
+ "Left-align everything. Center-alignment would break the ragged editorial grid that gives the page its fashion-magazine rhythm."
+ ],
+ "doNot": [
+ "Do not add any color beyond black and white. No accent colors, no state colors, no hover tints. Monochrome is the brand.",
+ "Do not use rounded corners. Every edge is sharp, every surface is flat. The system has no curves.",
+ "Do not add shadows, gradients, or elevation effects. The design is completely flat - depth comes from type size contrast, not from visual effects.",
+ "Do not use bold or semibold weights for body or display type. The system lives at 300. Heavier weights break the whisper voice.",
+ "Do not use system sans-serifs (Arial, Helvetica, Roboto) as substitutes for Graphik Light. The lightness and tight tracking of Graphik are what make it disappear correctly.",
+ "Do not center-align body text or grid items. The ragged left edge is a design feature, not a limitation.",
+ "Do not add icons, illustrations, photography, or decorative graphics. This is a typography-only system. The wordmark is the only visual element that isn\u0027t running text."
+ ]
+ },
+ "source": {
+ "referoUrl": "https://styles.refero.design/style/bab94db1-25ec-459d-8c81-5905a0324b65",
+ "referenceSite": "https://artworld.agency",
+ "capturedAt": "2026-07-31",
+ "publishedAt": "2026-04-30T02:50:15.516Z",
+ "articleModifiedAt": "2026-06-05T09:59:25.222Z",
+ "media": {
+ "screenshotUrl": "https://images.refero.design/styles/refero.design/image/dd45dca9-5e31-473f-a487-c6999024fc21.jpg",
+ "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/c0140cfb-92da-4b70-a3f7-a50f6f137fcc.jpg",
+ "previewVideoUrl": "https://images.refero.design/styles/refero.design/video/dc4482bd-bd33-4fad-8f5e-d6d570818d54.mp4",
+ "previewVideoPosterUrl": "https://images.refero.design/styles/refero.design/image/13c27504-9306-4e59-bff3-1f146d219ccc.jpg",
+ "previewVideoDetailUrl": "https://images.refero.design/styles/refero.design/video/ba302f3c-b02c-4952-96a0-2455f69d3104.mp4",
+ "previewVideoDetailPosterUrl": "https://images.refero.design/styles/refero.design/image/97806353-46b4-492b-9441-607f7ed395ce.jpg",
+ "iconUrl": "https://images.refero.design/styles/refero.design/image/9ab35190-1ba8-4a31-9075-86a931626dc2.png"
+ }
+ }
+}
