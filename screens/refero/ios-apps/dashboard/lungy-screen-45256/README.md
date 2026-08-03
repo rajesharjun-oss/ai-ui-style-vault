@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/61d93e66-7d99-4a9a-aa95-7a687998f16d
 - Refero search: https://refero.design/apps/search?page_types[id][]=28&order=trending
 - Entity URL: https://apps.apple.com/us/app/lungy-breathing-exercises/id1545223887
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

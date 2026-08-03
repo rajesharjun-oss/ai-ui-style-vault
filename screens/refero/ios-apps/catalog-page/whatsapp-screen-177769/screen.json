@@ -1,0 +1,95 @@
+{
+ "id": "177769",
+ "uuid": "48c7c7a8-2b5c-4e66-b9c4-d6193354a05b",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "WhatsApp",
+ "description": "Simple. Reliable. Private.",
+ "url": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
+ "iconUrl": "https://images.refero.design/favicon/app_292/ce0bc26a-87d3-4d97-9525-9f5f533053e1.jpg",
+ "backgroundColor": "00e45b",
+ "id": "292"
+ },
+ "createdAt": "2026-06-29T18:29:25.451Z",
+ "referoViewUrl": "https://refero.design/view/48c7c7a8-2b5c-4e66-b9c4-d6193354a05b",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/292/mobile/b3dfc70c-c818-4afd-affc-c2c58722e3f8_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/whatsapp.com/ios/48c7c7a8-2b5c-4e66-b9c4-d6193354a05b_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/292/mobile/b3dfc70c-c818-4afd-affc-c2c58722e3f8.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#4bd464",
+ "rgb": [
+ 75,
+ 212,
+ 100
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#1c1f13",
+ "rgb": [
+ 28,
+ 31,
+ 19
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#3c5aed",
+ "rgb": [
+ 60,
+ 90,
+ 237
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f0a43a",
+ "rgb": [
+ 240,
+ 164,
+ 58
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#d1543e",
+ "rgb": [
+ 209,
+ 84,
+ 62
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Media Gallery",
+ "List",
+ "Button",
+ "Tabs",
+ "Icon",
+ "Thumbnail",
+ "Bottom Sheet (Expanded)",
+ "Sticker"
+ ],
+ "pageTypes": "Catalog Page",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

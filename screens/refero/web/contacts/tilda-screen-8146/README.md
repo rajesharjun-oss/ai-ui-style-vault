@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/de9d1f32-6c4b-4569-a7df-daf7654c910a
 - Refero search: https://refero.design/search?page_types[id][]=34&order=trending
 - Entity URL: https://crm.tilda.cc/contacts/
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

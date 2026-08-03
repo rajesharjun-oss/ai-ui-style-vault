@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/f1b92055-6cb0-437d-896a-d17221ab6771
 - Refero search: https://refero.design/search?page_types[id][]=15&order=trending
 - Entity URL: https://www.kraken.com/u/settings/account
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

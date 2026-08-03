@@ -1,0 +1,88 @@
+{
+ "id": "48740",
+ "uuid": "96c1ecdc-5842-4c9d-9c1a-44230070ec1b",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Nike Training Club",
+ "description": "Holistic Fitness \u0026 Workouts",
+ "url": "https://apps.apple.com/us/app/nike-training-club-wellness/id301521403",
+ "iconUrl": "https://images.refero.design/favicon/app_57/5c2a747a-c61f-44e1-9da9-2065391b92fa.jpg",
+ "backgroundColor": "",
+ "id": "57"
+ },
+ "createdAt": "2023-10-10T13:18:41.436Z",
+ "referoViewUrl": "https://refero.design/view/96c1ecdc-5842-4c9d-9c1a-44230070ec1b",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/57/mobile/bca4774f-2ae1-4aae-98e6-bd4d8b52f577_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/57/mobile/bca4774f-2ae1-4aae-98e6-bd4d8b52f577.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9f9",
+ "rgb": [
+ 249,
+ 249,
+ 249
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#6130af",
+ "rgb": [
+ 97,
+ 48,
+ 175
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#9553d9",
+ "rgb": [
+ 149,
+ 83,
+ 217
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#a099ad",
+ "rgb": [
+ 160,
+ 153,
+ 173
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#6a636a",
+ "rgb": [
+ 106,
+ 99,
+ 106
+ ]
+ }
+ ],
+ "designPatterns": "Browser",
+ "pageElements": [
+ "Button",
+ "Avatar",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": "Log In",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

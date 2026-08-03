@@ -1,0 +1,93 @@
+{
+ "id": "80625",
+ "uuid": "bed84cd7-0064-4954-969a-22a3727c4637",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "MSCHF Bar \u0026 Grill \u0026 E-commerce",
+ "description": "Everything is for sale",
+ "url": "https://apps.apple.com/us/app/mschf-bar-grill-e-commerce/id1598975404?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_115/5ab90d41-b08c-4e6b-9108-824a20b21739.jpg",
+ "backgroundColor": "d3a417",
+ "id": "115"
+ },
+ "createdAt": "2024-06-09T12:51:29.661Z",
+ "referoViewUrl": "https://refero.design/view/bed84cd7-0064-4954-969a-22a3727c4637",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/115/mobile/5a69afdf-a4b3-4609-bebf-ef6c37a2a350_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/115/mobile/5a69afdf-a4b3-4609-bebf-ef6c37a2a350.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#e7e6e7",
+ "rgb": [
+ 231,
+ 230,
+ 231
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ddaf04",
+ "rgb": [
+ 221,
+ 175,
+ 4
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#605e59",
+ "rgb": [
+ 96,
+ 94,
+ 89
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#bd4f74",
+ "rgb": [
+ 189,
+ 79,
+ 116
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#27251f",
+ "rgb": [
+ 39,
+ 37,
+ 31
+ ]
+ }
+ ],
+ "designPatterns": "Shopping",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Navigation Bar",
+ "Photo",
+ "Icon",
+ "Thumbnail",
+ "Product Image",
+ "Currency"
+ ],
+ "pageTypes": "Catalog Page",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

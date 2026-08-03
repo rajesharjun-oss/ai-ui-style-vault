@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/e5e82042-e95c-4a90-a806-2dfce3f5efa5
 - Refero search: https://refero.design/search?page_types[id][]=5&order=trending
 - Entity URL: https://www.urbanoutfitters.com/search?q=jeans
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

@@ -1,0 +1,88 @@
+{
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Play",
+ "description": "Get Play for desktop \u0026 mobile",
+ "url": "https://apps.apple.com/us/app/play-design-better-apps/id6444542118?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_88/f540e173-7049-4dc4-946d-e3bc54155547.jpg",
+ "backgroundColor": "",
+ "id": "88"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#a984ca",
+ "rgb": [
+ 169,
+ 132,
+ 202
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ecf1f4",
+ "rgb": [
+ 236,
+ 241,
+ 244
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5c5860",
+ "rgb": [
+ 92,
+ 88,
+ 96
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#1a191b",
+ "rgb": [
+ 26,
+ 25,
+ 27
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#058dfc",
+ "rgb": [
+ 5,
+ 141,
+ 252
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "List",
+ "Button",
+ "Tabs",
+ "Switch \u0026 Toggle",
+ "Icon",
+ "Bottom Sheet (Expanded)",
+ "Currency"
+ ],
+ "designPatterns": [
+ "Product Features",
+ "Dark Mode"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/88/mobile/7fc70163-56aa-46a9-ae4d-38ad3a3ac3e1_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/88/mobile/7fc70163-56aa-46a9-ae4d-38ad3a3ac3e1.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

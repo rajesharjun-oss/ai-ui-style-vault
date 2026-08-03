@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/c5a38ed6-e94f-4b6e-ab3d-dae070868af4
 - Refero search: https://refero.design/apps/search?page_types[id][]=47&order=trending
 - Entity URL: https://apps.apple.com/us/app/asos/id457876088
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

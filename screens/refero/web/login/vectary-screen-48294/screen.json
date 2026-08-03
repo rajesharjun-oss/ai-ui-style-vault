@@ -1,0 +1,91 @@
+{
+ "id": "48294",
+ "uuid": "db288733-3673-4a2d-8b39-bec2f5fe1591",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Vectary",
+ "description": "Build interactive 3D and AR solutions online",
+ "url": "https://www.vectary.com/login-email/?next=/dashboard/",
+ "iconUrl": "https://images.refero.design/favicon/vectary.com/18b2333d-db92-4046-afdc-e21cd48bdf6b.jpg",
+ "backgroundColor": "",
+ "id": "391"
+ },
+ "createdAt": "2023-10-10T11:13:03.974Z",
+ "referoViewUrl": "https://refero.design/view/db288733-3673-4a2d-8b39-bec2f5fe1591",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/vectary.com/desktop/00163e56-2eeb-4c1e-9047-557390f0d87b_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/vectary.com/desktop/d49d9f91-28fe-4b77-bd9a-4abf5bb6c47d_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/vectary.com/desktop/00163e56-2eeb-4c1e-9047-557390f0d87b/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#6304fa",
+ "rgb": [
+ 99,
+ 4,
+ 250
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#2c2a2a",
+ "rgb": [
+ 44,
+ 42,
+ 42
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#98969b",
+ "rgb": [
+ 152,
+ 150,
+ 155
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f3f3f3",
+ "rgb": [
+ 243,
+ 243,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#89a650",
+ "rgb": [
+ 137,
+ 166,
+ 80
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Text Field"
+ ],
+ "pageTypes": "Log In",
+ "fonts": [
+ "times",
+ "Inter",
+ "Fira Sans"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

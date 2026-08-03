@@ -1,0 +1,82 @@
+{
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Daylish",
+ "description": "Appointment Reminder Alarm App",
+ "url": "https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325",
+ "iconUrl": "https://images.refero.design/favicon/app_230/82e991ae-a54c-4d63-bd16-a5d16a6532cb.jpg",
+ "backgroundColor": "f3bb26",
+ "id": "230"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#048cfc",
+ "rgb": [
+ 4,
+ 140,
+ 252
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#110e0f",
+ "rgb": [
+ 17,
+ 14,
+ 15
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#8d9095",
+ "rgb": [
+ 141,
+ 144,
+ 149
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#cfdbe2",
+ "rgb": [
+ 207,
+ 219,
+ 226
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#a2594b",
+ "rgb": [
+ 162,
+ 89,
+ 75
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Navigation Bar",
+ "Photo",
+ "Icon",
+ "Bottom Sheet (Expanded)"
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/230/mobile/b42efea6-b94a-4e4c-bc2f-bc9b884f494a_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/230/mobile/b42efea6-b94a-4e4c-bc2f-bc9b884f494a.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

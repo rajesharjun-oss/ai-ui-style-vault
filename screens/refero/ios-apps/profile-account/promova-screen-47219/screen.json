@@ -1,0 +1,94 @@
+{
+ "id": "47219",
+ "uuid": "091f7da3-9d6e-4d69-91ac-083b092d3ad0",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Promova",
+ "description": "Learn Spanish, English, French",
+ "url": "https://apps.apple.com/us/app/promova/id1460782849",
+ "iconUrl": "https://images.refero.design/favicon/app_55/a173afd6-561a-413f-aed0-9ccf9d2616a1.jpg",
+ "backgroundColor": "8383ec",
+ "id": "55"
+ },
+ "createdAt": "2023-10-05T07:45:17.103Z",
+ "referoViewUrl": "https://refero.design/view/091f7da3-9d6e-4d69-91ac-083b092d3ad0",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/55/mobile/6d8822e7-d5e7-41f4-950c-e53d86d57a71_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/55/mobile/6d8822e7-d5e7-41f4-950c-e53d86d57a71.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#2c446b",
+ "rgb": [
+ 44,
+ 68,
+ 107
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a49f9f",
+ "rgb": [
+ 164,
+ 159,
+ 159
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5f5b5d",
+ "rgb": [
+ 95,
+ 91,
+ 93
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#ae5848",
+ "rgb": [
+ 174,
+ 88,
+ 72
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Empty State",
+ "Groups \u0026 Community"
+ ],
+ "pageElements": [
+ "Button",
+ "Tabs",
+ "Navigation Bar",
+ "Icon",
+ "Avatar",
+ "Tabbar"
+ ],
+ "pageTypes": "Profile \u0026 Account",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

@@ -1,0 +1,92 @@
+{
+ "id": "63568",
+ "uuid": "93b3f702-c901-4674-a0df-310890ccecd7",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Raster",
+ "description": "Digital asset manager for modern teams",
+ "url": "https://raster.app/sign-in",
+ "iconUrl": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+ "backgroundColor": "",
+ "id": "447"
+ },
+ "createdAt": "2024-02-13T09:12:21.594Z",
+ "referoViewUrl": "https://refero.design/view/93b3f702-c901-4674-a0df-310890ccecd7",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/raster.app/desktop/b59d502f-29d9-4305-bc3b-381f740ae234_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/raster.app/desktop/f8e18389-283a-41a9-ac18-b9b5223161c1_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/raster.app/desktop/b59d502f-29d9-4305-bc3b-381f740ae234/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#3c77bd",
+ "rgb": [
+ 60,
+ 119,
+ 189
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f3b187",
+ "rgb": [
+ 243,
+ 177,
+ 135
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#f68d2b",
+ "rgb": [
+ 246,
+ 141,
+ 43
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#cbd7e2",
+ "rgb": [
+ 203,
+ 215,
+ 226
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#d13a6f",
+ "rgb": [
+ 209,
+ 58,
+ 111
+ ]
+ }
+ ],
+ "designPatterns": "Success",
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Dialog \u0026 Modal Window",
+ "Icon",
+ "Hero Image",
+ "Gradient"
+ ],
+ "pageTypes": [
+ "Sign Up",
+ "Log In"
+ ],
+ "fonts": "UI Sans Serif",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

@@ -1,0 +1,97 @@
+{
+ "id": "136062",
+ "uuid": "3532dd76-8322-4d25-b530-59b541265cdd",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Ground News",
+ "description": "See every side of every story",
+ "url": "https://apps.apple.com/us/app/ground-news/id1324203419?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_217/f24d1bc0-dce2-4719-8d79-67703e5af41a.jpg",
+ "backgroundColor": "d3a417",
+ "id": "217"
+ },
+ "createdAt": "2025-09-06T18:01:33.736Z",
+ "referoViewUrl": "https://refero.design/view/3532dd76-8322-4d25-b530-59b541265cdd",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/217/mobile/f71c3855-da99-4e40-80f7-aaba6d3d9865_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/217/mobile/f71c3855-da99-4e40-80f7-aaba6d3d9865.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#e7ede5",
+ "rgb": [
+ 231,
+ 237,
+ 229
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#424241",
+ "rgb": [
+ 66,
+ 66,
+ 65
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#141413",
+ "rgb": [
+ 20,
+ 20,
+ 19
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#737371",
+ "rgb": [
+ 115,
+ 115,
+ 113
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#949490",
+ "rgb": [
+ 148,
+ 148,
+ 144
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Browser",
+ "Article \u0026 Text"
+ ],
+ "pageElements": [
+ "Carousel",
+ "Button",
+ "Dropdown",
+ "Page Control \u0026 Pagination",
+ "Tags \u0026 Chips",
+ "Full-Screen Overlay",
+ "Navigation Bar",
+ "Icon",
+ "Hero Image"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

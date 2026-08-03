@@ -1,0 +1,92 @@
+{
+ "id": "176015",
+ "uuid": "45f5180c-4ab7-4c3a-a3e5-3cdadd7575ca",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Care",
+ "description": "When it\u0027s not you, it\u0027s Care.com",
+ "url": "https://www.care.com/app/business-search?zipcode=94108\u0026childrenDateOfBirth=2015-05",
+ "iconUrl": "https://images.refero.design/favicon/care.com/256514f1-44ae-4627-978c-6b6804b407a6.jpg",
+ "backgroundColor": "",
+ "id": "908"
+ },
+ "createdAt": "2026-06-17T11:59:04.018Z",
+ "referoViewUrl": "https://refero.design/view/45f5180c-4ab7-4c3a-a3e5-3cdadd7575ca",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=47\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=47",
+ "thumbnailUrl": "https://images.refero.design/screenshots/care.com/desktop/45f5180c-4ab7-4c3a-a3e5-3cdadd7575ca_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/care.com/desktop/45f5180c-4ab7-4c3a-a3e5-3cdadd7575ca_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/care.com/desktop/45f5180c-4ab7-4c3a-a3e5-3cdadd7575ca/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#454a49",
+ "rgb": [
+ 69,
+ 74,
+ 73
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#b32414",
+ "rgb": [
+ 179,
+ 36,
+ 20
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#dbb43d",
+ "rgb": [
+ 219,
+ 180,
+ 61
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#e4fbbc",
+ "rgb": [
+ 228,
+ 251,
+ 188
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#1a1415",
+ "rgb": [
+ 26,
+ 20,
+ 21
+ ]
+ }
+ ],
+ "designPatterns": "Ads \u0026 Promo Offer",
+ "pageElements": [
+ "Button",
+ "Icon",
+ "Avatar",
+ "Side Sheet"
+ ],
+ "pageTypes": "Product Details",
+ "fonts": [
+ "Arial",
+ "Roboto",
+ "Oceanic Grotesk",
+ "Nan Druid Sans"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

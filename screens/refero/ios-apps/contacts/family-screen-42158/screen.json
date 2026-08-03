@@ -1,0 +1,91 @@
+{
+ "id": "42158",
+ "uuid": "a9bd56f3-8874-41b7-b009-88e0494acc21",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Family",
+ "description": "Explore Ethereum with the best wallet for iOS",
+ "url": "https://family.co/",
+ "iconUrl": "https://images.refero.design/favicon/app_47/6d2b5e14-1ccf-46b0-90cb-0452dd3d18c4.jpg",
+ "backgroundColor": "24bcbc",
+ "id": "47"
+ },
+ "createdAt": "2023-08-24T17:27:24.594Z",
+ "referoViewUrl": "https://refero.design/view/a9bd56f3-8874-41b7-b009-88e0494acc21",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/47/mobile/db6ccb12-a64c-44cd-a959-1b8f5a313cda_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/47/mobile/db6ccb12-a64c-44cd-a959-1b8f5a313cda.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#05b3fa",
+ "rgb": [
+ 5,
+ 179,
+ 250
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#9ebcc9",
+ "rgb": [
+ 158,
+ 188,
+ 201
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#585858",
+ "rgb": [
+ 88,
+ 88,
+ 88
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Notifications \u0026 Toast",
+ "Icon",
+ "Avatar"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

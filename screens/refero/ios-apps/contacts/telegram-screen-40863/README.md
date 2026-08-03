@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/141ddb81-aa0d-458f-877b-dd6c8421190b
 - Refero search: https://refero.design/apps/search?page_types[id][]=34&order=trending
 - Entity URL: https://apps.apple.com/us/app/telegram-messenger/id686449807
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

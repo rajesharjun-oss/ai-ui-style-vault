@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/882a0544-2ae3-4892-8b7d-6e021708f0b9
 - Refero search: https://refero.design/search?page_types[id][]=40&order=trending
 - Entity URL: https://www.loom.com/settings/workspace#integrations
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

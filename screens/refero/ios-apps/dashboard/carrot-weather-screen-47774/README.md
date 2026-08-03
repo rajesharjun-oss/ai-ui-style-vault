@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/a35a2453-25fa-463b-bbd2-6221e7d9fbc1
 - Refero search: https://refero.design/apps/search?page_types[id][]=28&order=trending
 - Entity URL: https://apps.apple.com/us/app/carrot-weather-alerts-radar/id961390574?platform=iphone
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

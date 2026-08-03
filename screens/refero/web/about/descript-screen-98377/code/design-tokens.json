@@ -1,0 +1,87 @@
+{
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Descript",
+ "description": "Edit videos \u0026 podcasts like a doc",
+ "url": "https://www.descript.com/about",
+ "iconUrl": "https://images.refero.design/favicon/descript.com/2e264c28-b49f-4eb1-a6ae-36cf2e982e15.jpg",
+ "backgroundColor": "",
+ "id": "29"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f9f9f9",
+ "rgb": [
+ 249,
+ 249,
+ 249
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#685953",
+ "rgb": [
+ 104,
+ 89,
+ 83
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#aea198",
+ "rgb": [
+ 174,
+ 161,
+ 152
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#848985",
+ "rgb": [
+ 132,
+ 137,
+ 133
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#a2675d",
+ "rgb": [
+ 162,
+ 103,
+ 93
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Dropdown",
+ "Navigation Bar",
+ "Footer",
+ "Photo"
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "fonts": [
+ "San Francisco",
+ "Inter"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/descript.com/desktop/5139ef7c-a57a-4c57-86cc-609da8f06db6_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/descript.com/desktop/5139ef7c-a57a-4c57-86cc-609da8f06db6_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/descript.com/desktop/5139ef7c-a57a-4c57-86cc-609da8f06db6/0.jpg",
+ "https://images.refero.design/screenshots/descript.com/desktop/5139ef7c-a57a-4c57-86cc-609da8f06db6/1.jpg",
+ "https://images.refero.design/screenshots/descript.com/desktop/5139ef7c-a57a-4c57-86cc-609da8f06db6/2.jpg",
+ "https://images.refero.design/screenshots/descript.com/desktop/5139ef7c-a57a-4c57-86cc-609da8f06db6/3.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

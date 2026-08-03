@@ -1,0 +1,87 @@
+{
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Resend",
+ "description": "Email for developers",
+ "url": "https://resend.com/blog",
+ "iconUrl": "https://images.refero.design/favicon/resend.com/6d9253cf-e889-457f-9e50-e4cbb9b6a94b.jpg",
+ "backgroundColor": "",
+ "id": "844"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#eaeaeb",
+ "rgb": [
+ 234,
+ 234,
+ 235
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#5e5e5f",
+ "rgb": [
+ 94,
+ 94,
+ 95
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a1a3a1",
+ "rgb": [
+ 161,
+ 163,
+ 161
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#848484",
+ "rgb": [
+ 132,
+ 132,
+ 132
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#29292a",
+ "rgb": [
+ 41,
+ 41,
+ 42
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Tags \u0026 Chips",
+ "Notifications \u0026 Toast",
+ "Navigation Bar",
+ "Search Field",
+ "Thumbnail",
+ "Gradient",
+ "Popover"
+ ],
+ "designPatterns": "Success",
+ "fonts": [
+ "UI Sans Serif",
+ "Inter",
+ "ABC Favorit"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/resend.com/desktop/6d464a81-c6b8-4800-aa21-3a91011ffcfa_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/resend.com/desktop/6d464a81-c6b8-4800-aa21-3a91011ffcfa_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/resend.com/desktop/6d464a81-c6b8-4800-aa21-3a91011ffcfa/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/6a6f0f51-4789-4f72-a1da-b6924531233b
 - Refero search: https://refero.design/apps/search?page_types[id][]=18&order=trending
 - Entity URL: https://apps.apple.com/us/app/gmail-email-by-google/id422689480
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

@@ -1,0 +1,94 @@
+{
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Marathon",
+ "description": "Project Management For Creatives",
+ "url": "https://app.onmarathon.com/track/",
+ "iconUrl": "https://images.refero.design/favicon/onmarathon.com/c9c01dae-c820-4504-ba0b-549289843066.jpg",
+ "backgroundColor": "",
+ "id": "613"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#8d87ec",
+ "rgb": [
+ 141,
+ 135,
+ 236
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#e44e50",
+ "rgb": [
+ 228,
+ 78,
+ 80
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#383838",
+ "rgb": [
+ 56,
+ 56,
+ 56
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fbd373",
+ "rgb": [
+ 251,
+ 211,
+ 115
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#abfbd3",
+ "rgb": [
+ 171,
+ 251,
+ 211
+ ]
+ }
+ ],
+ "pageElements": [
+ "Line \u0026 Bar Chart",
+ "Accordion \u0026 Collapse",
+ "List",
+ "Button",
+ "Floating Button",
+ "Page Control \u0026 Pagination",
+ "Text Field",
+ "Badge",
+ "Progress Bar",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Avatar"
+ ],
+ "designPatterns": [
+ "Timer \u0026 Clock",
+ "Stats",
+ "Timeline \u0026 History"
+ ],
+ "fonts": [
+ "Noto Sans",
+ "Arial",
+ "Inter"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/onmarathon.com/desktop/57504d62-ebbb-4510-a4c4-3e18e78d0b89_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/onmarathon.com/desktop/57504d62-ebbb-4510-a4c4-3e18e78d0b89_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/onmarathon.com/desktop/57504d62-ebbb-4510-a4c4-3e18e78d0b89/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

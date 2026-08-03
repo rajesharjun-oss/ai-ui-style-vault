@@ -1,0 +1,96 @@
+{
+ "id": "128390",
+ "uuid": "6b9f2740-e5eb-42f0-9f89-813d3489d8fa",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 35,
+ "name": "Careers",
+ "slug": "careers"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Linear",
+ "description": "Plan and build products",
+ "url": "https://linear.app/careers/b4a7764e-c680-4bdf-9956-dc78f2ca94d5?ashby_jid=b4a7764e-c680-4bdf-9956-dc78f2ca94d5",
+ "iconUrl": "https://images.refero.design/favicon/linear.app/8e3d7b39-f7e8-4915-84cc-6eea6511835e.jpg",
+ "backgroundColor": "",
+ "id": "26"
+ },
+ "createdAt": "2025-07-21T10:05:02.464Z",
+ "referoViewUrl": "https://refero.design/view/6b9f2740-e5eb-42f0-9f89-813d3489d8fa",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=35\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=35",
+ "thumbnailUrl": "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f/0.jpg",
+ "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f/1.jpg",
+ "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f/2.jpg",
+ "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f/3.jpg",
+ "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f/4.jpg",
+ "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f/5.jpg",
+ "https://images.refero.design/screenshots/linear.app/desktop/1c9319a4-b331-45b6-ba8a-57fc2864941f/6.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#dbdee2",
+ "rgb": [
+ 219,
+ 222,
+ 226
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#5e6166",
+ "rgb": [
+ 94,
+ 97,
+ 102
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#919499",
+ "rgb": [
+ 145,
+ 148,
+ 153
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#040b0b",
+ "rgb": [
+ 4,
+ 11,
+ 11
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#29292f",
+ "rgb": [
+ 41,
+ 41,
+ 47
+ ]
+ }
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Navigation Bar",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "Careers",
+ "fonts": "Inter",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

@@ -1,0 +1,86 @@
+{
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Deel",
+ "description": "Payroll \u0026 Compliance for International Teams",
+ "url": "https://app.deel.com/insurance",
+ "iconUrl": "https://images.refero.design/favicon/deel.com/ba1ba31d-8afd-41d6-86b4-d462bbd27722.jpg",
+ "backgroundColor": "",
+ "id": "148"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1a3777",
+ "rgb": [
+ 26,
+ 55,
+ 119
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#3072ed",
+ "rgb": [
+ 48,
+ 114,
+ 237
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#0b0e12",
+ "rgb": [
+ 11,
+ 14,
+ 18
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8f959d",
+ "rgb": [
+ 143,
+ 149,
+ 157
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#f5f5f5",
+ "rgb": [
+ 245,
+ 245,
+ 245
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Floating Button",
+ "Dropdown",
+ "Badge",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Avatar"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": [
+ "icons",
+ "Inter"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/deel.com/desktop/478b2bdd-250b-4b84-afca-8783c74e95d1_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/deel.com/desktop/1091dbf2-57e5-4b0b-9d3f-a2b4db9b5146_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/deel.com/desktop/478b2bdd-250b-4b84-afca-8783c74e95d1/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

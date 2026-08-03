@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/bba16cbf-3d61-4065-a6e7-8ee9b329ab11
 - Refero search: https://refero.design/search?page_types[id][]=35&order=trending
 - Entity URL: https://openai.com/careers/search/
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

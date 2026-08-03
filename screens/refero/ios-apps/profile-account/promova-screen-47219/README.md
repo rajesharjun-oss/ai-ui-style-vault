@@ -1,0 +1,29 @@
+# Promova - Profile & Account
+
+## Summary
+
+- Source: Refero iOS Apps
+- Channel: ios-apps
+- Page type: Profile & Account
+- Entity: Promova
+- Surface: mobile app screen
+- Refero view: https://refero.design/view/091f7da3-9d6e-4d69-91ac-083b092d3ad0
+- Refero search: https://refero.design/apps/search?page_types[id][]=15&order=trending
+- Entity URL: https://apps.apple.com/us/app/promova/id1460782849
+- Captured on: 2026-08-03
+- License status: inspiration-only-unless-explicitly-licensed
+
+## AI Usage
+
+Use this as visual direction for an original Profile & Account implementation. Preserve the broad UX signals, palette relationship, density, component priorities, and page-type intent. Do not copy logos, trademarked assets, original text, exact screenshot composition, or proprietary product visuals.
+
+## Captured Artifacts
+
+- source.md
+- implementation-prompt.md
+- screen.json
+- tokens/colors.md
+- tokens/page-elements.md
+- code/css-variables.css
+- code/design-tokens.json
+- screenshots/README.md

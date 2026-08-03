@@ -1,0 +1,81 @@
+{
+ "pageType": {
+ "id": 41,
+ "name": "404 Page",
+ "slug": "404-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Weights \u0026 Biases",
+ "description": "The developer-first a MLOps platform",
+ "url": "https://community.wandb.ai/404",
+ "iconUrl": "https://images.refero.design/favicon/wandb.ai/b9d67a14-e526-4bb4-bc8d-ade63c48790a.jpg",
+ "backgroundColor": "",
+ "id": "88"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1b1c23",
+ "rgb": [
+ 27,
+ 28,
+ 35
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#6596c8",
+ "rgb": [
+ 101,
+ 150,
+ 200
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#aec0e3",
+ "rgb": [
+ 174,
+ 192,
+ 227
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#3d5171",
+ "rgb": [
+ 61,
+ 81,
+ 113
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#6e7278",
+ "rgb": [
+ 110,
+ 114,
+ 120
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Search Field"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": "Source Sans Pro",
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/wandb.ai/desktop/9ec0ff79-59a5-4daa-ac89-8752b24f100e_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/wandb.ai/desktop/400d8743-ff12-4085-9296-b323c976544f_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/wandb.ai/desktop/9ec0ff79-59a5-4daa-ac89-8752b24f100e/0.jpg",
+ "https://images.refero.design/screenshots/wandb.ai/desktop/9ec0ff79-59a5-4daa-ac89-8752b24f100e/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

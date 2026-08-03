@@ -1,0 +1,81 @@
+{
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Duolingo",
+ "description": "Learn Spanish, French, German",
+ "url": "https://apps.apple.com/us/app/duolingo/id570060128",
+ "iconUrl": "https://images.refero.design/favicon/app_5/1c3f7366-e0a1-47aa-a210-d96213b3e68f.jpg",
+ "backgroundColor": "58c035",
+ "id": "5"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#bf4960",
+ "rgb": [
+ 191,
+ 73,
+ 96
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#42be61",
+ "rgb": [
+ 66,
+ 190,
+ 97
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#c1e17f",
+ "rgb": [
+ 193,
+ 225,
+ 127
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#4540bb",
+ "rgb": [
+ 69,
+ 64,
+ 187
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#c05edd",
+ "rgb": [
+ 192,
+ 94,
+ 221
+ ]
+ }
+ ],
+ "pageElements": [
+ "Table",
+ "Icon"
+ ],
+ "designPatterns": [
+ "Browser",
+ "Article \u0026 Text"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/5/mobile/e37a9fe8-1462-45fb-a63b-44144447fa8a_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/5/mobile/e37a9fe8-1462-45fb-a63b-44144447fa8a.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

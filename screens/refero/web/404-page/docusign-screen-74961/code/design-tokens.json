@@ -1,0 +1,90 @@
+{
+ "pageType": {
+ "id": 41,
+ "name": "404 Page",
+ "slug": "404-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "DocuSign",
+ "description": "#1 in Electronic Signature and Intelligent Agreement Management",
+ "url": "https://www.docusign.com/products/electronic-signature/404",
+ "iconUrl": "https://images.refero.design/favicon/docusign.com/00220eb8-bafe-4a01-a870-144d3d1493f5.jpg",
+ "backgroundColor": "",
+ "id": "31"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1f0849",
+ "rgb": [
+ 31,
+ 8,
+ 73
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#fbf4f3",
+ "rgb": [
+ 251,
+ 244,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#4b0aef",
+ "rgb": [
+ 75,
+ 10,
+ 239
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#96608c",
+ "rgb": [
+ 150,
+ 96,
+ 140
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#9d93ac",
+ "rgb": [
+ 157,
+ 147,
+ 172
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Floating Button",
+ "Dropdown",
+ "Badge",
+ "Navigation Bar",
+ "Footer",
+ "Icon"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": [
+ "Helvetica",
+ "DS Indigo"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/docusign.com/desktop/23b22425-5318-4f87-a5d1-43eb17f79538_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/docusign.com/desktop/683d9ed0-9a4f-4ac6-9d53-4ba26c83a19c_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/docusign.com/desktop/23b22425-5318-4f87-a5d1-43eb17f79538/0.jpg",
+ "https://images.refero.design/screenshots/docusign.com/desktop/23b22425-5318-4f87-a5d1-43eb17f79538/1.jpg",
+ "https://images.refero.design/screenshots/docusign.com/desktop/23b22425-5318-4f87-a5d1-43eb17f79538/2.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

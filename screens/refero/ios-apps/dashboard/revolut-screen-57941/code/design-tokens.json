@@ -1,0 +1,89 @@
+{
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Revolut",
+ "description": "Travel, transfer, and exchange",
+ "url": "https://apps.apple.com/us/app/revolut-send-spend-and-save/id932493382?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_74/7e2cfaa2-5436-461f-8117-cebe3c69a461.jpg",
+ "backgroundColor": "",
+ "id": "74"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#dcdff8",
+ "rgb": [
+ 220,
+ 223,
+ 248
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#7576e9",
+ "rgb": [
+ 117,
+ 118,
+ 233
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#8884ec",
+ "rgb": [
+ 136,
+ 132,
+ 236
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#7a88d9",
+ "rgb": [
+ 122,
+ 136,
+ 217
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#ef9229",
+ "rgb": [
+ 239,
+ 146,
+ 41
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Badge",
+ "Navigation Bar",
+ "Search Field",
+ "Icon",
+ "3d Illustration",
+ "Hero Image",
+ "Avatar",
+ "Currency",
+ "Tabbar"
+ ],
+ "designPatterns": [
+ "Chat \u0026 Messages",
+ "Empty State"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/74/mobile/9bf9b612-16d5-4a94-933b-f27bf5ff2517_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/74/mobile/9bf9b612-16d5-4a94-933b-f27bf5ff2517.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

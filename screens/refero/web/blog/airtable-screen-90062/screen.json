@@ -1,0 +1,102 @@
+{
+ "id": "90062",
+ "uuid": "221e67d7-ae37-4d74-bfa0-473a67f437ae",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Airtable",
+ "description": "Create apps that perfectly fit your team\u0027s needs",
+ "url": "https://blog.airtable.com/?_gl=1*1m4e8u9*_gcl_au*NTUxMDYzODU0LjE3MjMxOTMzNjk.*_ga*MTgwNDIzNTkxOC4xNzIzMTkzMzY5*_ga_VJY8J9RFZM*MTcyMzQ3MDkyMi42LjEuMTcyMzQ3MTM1OC4zOS4wLjA.",
+ "iconUrl": "https://images.refero.design/favicon/airtable.com/8749ad5a-c069-46e5-9f62-2dbca92ec68e.jpg",
+ "backgroundColor": "",
+ "id": "164"
+ },
+ "createdAt": "2024-08-12T14:06:24.301Z",
+ "referoViewUrl": "https://refero.design/view/221e67d7-ae37-4d74-bfa0-473a67f437ae",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=46\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=46",
+ "thumbnailUrl": "https://images.refero.design/screenshots/airtable.com/desktop/2d41b5b9-b185-40e9-8c92-5c35dad5fcf4_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/airtable.com/desktop/1938dcd7-4735-4360-a46f-d2fe62a84625_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/airtable.com/desktop/2d41b5b9-b185-40e9-8c92-5c35dad5fcf4/0.jpg",
+ "https://images.refero.design/screenshots/airtable.com/desktop/2d41b5b9-b185-40e9-8c92-5c35dad5fcf4/1.jpg",
+ "https://images.refero.design/screenshots/airtable.com/desktop/2d41b5b9-b185-40e9-8c92-5c35dad5fcf4/2.jpg",
+ "https://images.refero.design/screenshots/airtable.com/desktop/2d41b5b9-b185-40e9-8c92-5c35dad5fcf4/3.jpg",
+ "https://images.refero.design/screenshots/airtable.com/desktop/2d41b5b9-b185-40e9-8c92-5c35dad5fcf4/4.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#894d6c",
+ "rgb": [
+ 137,
+ 77,
+ 108
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#20211e",
+ "rgb": [
+ 32,
+ 33,
+ 30
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a0b6bc",
+ "rgb": [
+ 160,
+ 182,
+ 188
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#326dd9",
+ "rgb": [
+ 50,
+ 109,
+ 217
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Illustration",
+ "Product Image"
+ ],
+ "pageTypes": "Blog",
+ "fonts": [
+ "San Francisco",
+ "GT Eesti",
+ "Neue Haas Grotesk Display",
+ "Copernicus Book"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

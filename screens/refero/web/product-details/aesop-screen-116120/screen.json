@@ -1,0 +1,100 @@
+{
+ "id": "116120",
+ "uuid": "0e8e3926-c8a8-48ca-882b-e0aabcd8007f",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Aesop",
+ "description": "Formulations for Skin, Hair \u0026 Body",
+ "url": "https://www.aesop.com/fr/en/p/fragrance/woody/marrakech-intense-eau-de-parfum/",
+ "iconUrl": "https://images.refero.design/favicon/aesop.com/c14c8766-3f3e-41dd-acd9-bf89917c073b.jpg",
+ "backgroundColor": "",
+ "id": "621"
+ },
+ "createdAt": "2025-04-02T15:58:21.428Z",
+ "referoViewUrl": "https://refero.design/view/0e8e3926-c8a8-48ca-882b-e0aabcd8007f",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=47\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=47",
+ "thumbnailUrl": "https://images.refero.design/screenshots/aesop.com/desktop/3084e398-9ee6-41ce-b81b-ac25e94924aa_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/aesop.com/desktop/3084e398-9ee6-41ce-b81b-ac25e94924aa_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/aesop.com/desktop/3084e398-9ee6-41ce-b81b-ac25e94924aa/0.jpg",
+ "https://images.refero.design/screenshots/aesop.com/desktop/3084e398-9ee6-41ce-b81b-ac25e94924aa/1.jpg",
+ "https://images.refero.design/screenshots/aesop.com/desktop/3084e398-9ee6-41ce-b81b-ac25e94924aa/2.jpg",
+ "https://images.refero.design/screenshots/aesop.com/desktop/3084e398-9ee6-41ce-b81b-ac25e94924aa/3.jpg",
+ "https://images.refero.design/screenshots/aesop.com/desktop/3084e398-9ee6-41ce-b81b-ac25e94924aa/4.jpg",
+ "https://images.refero.design/screenshots/aesop.com/desktop/3084e398-9ee6-41ce-b81b-ac25e94924aa/5.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#22211f",
+ "rgb": [
+ 34,
+ 33,
+ 31
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#5e442f",
+ "rgb": [
+ 94,
+ 68,
+ 47
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#87581d",
+ "rgb": [
+ 135,
+ 88,
+ 29
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#9f9c92",
+ "rgb": [
+ 159,
+ 156,
+ 146
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#fbfbf3",
+ "rgb": [
+ 251,
+ 251,
+ 243
+ ]
+ }
+ ],
+ "designPatterns": "Shopping",
+ "pageElements": [
+ "List",
+ "Button",
+ "Checkbox \u0026 Radio",
+ "Page Control \u0026 Pagination",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon",
+ "Illustration",
+ "Currency"
+ ],
+ "pageTypes": "Product Details",
+ "fonts": "Suisse",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

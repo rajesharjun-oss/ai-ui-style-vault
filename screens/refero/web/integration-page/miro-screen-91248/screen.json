@@ -1,0 +1,106 @@
+{
+ "id": "91248",
+ "uuid": "32c347d8-2d25-4a75-aac4-6dc40ee425a7",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 40,
+ "name": "Integration Page",
+ "slug": "integration-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Miro",
+ "description": "The Innovation Workspace",
+ "url": "https://miro.com/integrations/",
+ "iconUrl": "https://images.refero.design/favicon/miro.com/1ad46a02-ab56-4425-a85b-9582d54a13d1.jpg",
+ "backgroundColor": "",
+ "id": "80"
+ },
+ "createdAt": "2024-08-16T10:12:46.038Z",
+ "referoViewUrl": "https://refero.design/view/32c347d8-2d25-4a75-aac4-6dc40ee425a7",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=40\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=40",
+ "thumbnailUrl": "https://images.refero.design/screenshots/miro.com/desktop/a9fcc5df-740c-4349-a024-59d1b1343d18_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/miro.com/desktop/9e232719-f0ce-46a5-88b7-2bc4c626ba9b_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/miro.com/desktop/a9fcc5df-740c-4349-a024-59d1b1343d18/0.jpg",
+ "https://images.refero.design/screenshots/miro.com/desktop/a9fcc5df-740c-4349-a024-59d1b1343d18/1.jpg",
+ "https://images.refero.design/screenshots/miro.com/desktop/a9fcc5df-740c-4349-a024-59d1b1343d18/2.jpg",
+ "https://images.refero.design/screenshots/miro.com/desktop/a9fcc5df-740c-4349-a024-59d1b1343d18/3.jpg",
+ "https://images.refero.design/screenshots/miro.com/desktop/a9fcc5df-740c-4349-a024-59d1b1343d18/4.jpg",
+ "https://images.refero.design/screenshots/miro.com/desktop/a9fcc5df-740c-4349-a024-59d1b1343d18/5.jpg",
+ "https://images.refero.design/screenshots/miro.com/desktop/a9fcc5df-740c-4349-a024-59d1b1343d18/6.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#fbdb35",
+ "rgb": [
+ 251,
+ 219,
+ 53
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#1d1917",
+ "rgb": [
+ 29,
+ 25,
+ 23
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#3555e4",
+ "rgb": [
+ 53,
+ 85,
+ 228
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fbf4ec",
+ "rgb": [
+ 251,
+ 244,
+ 236
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#a59d8c",
+ "rgb": [
+ 165,
+ 157,
+ 140
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dropdown",
+ "Navigation Bar",
+ "Footer",
+ "Icon",
+ "Illustration",
+ "Logo Wall",
+ "Hero Image",
+ "Product Image"
+ ],
+ "pageTypes": [
+ "Integration Page",
+ "Product Page \u0026 Landing"
+ ],
+ "fonts": "Intercom",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

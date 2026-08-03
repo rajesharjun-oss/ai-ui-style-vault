@@ -1,0 +1,88 @@
+{
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Hitchd",
+ "description": "Wedding Website \u0026 Honeymoon Registry",
+ "url": "https://www.hitchd.com/guest-list",
+ "iconUrl": "https://images.refero.design/favicon/hitchd.com/6e44681a-16db-4d95-9209-03bddc884a63.jpg",
+ "backgroundColor": "",
+ "id": "786"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#161617",
+ "rgb": [
+ 22,
+ 22,
+ 23
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#99999a",
+ "rgb": [
+ 153,
+ 153,
+ 154
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#6b6b6c",
+ "rgb": [
+ 107,
+ 107,
+ 108
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#cbcbcc",
+ "rgb": [
+ 203,
+ 203,
+ 204
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Checkbox \u0026 Radio",
+ "Tags \u0026 Chips",
+ "Navigation Bar",
+ "Search Field",
+ "Icon"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": [
+ "San Francisco",
+ "Inter"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/hitchd.com/desktop/3acb7473-1ac7-4b38-a154-1e977cdd85a0_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/hitchd.com/desktop/3acb7473-1ac7-4b38-a154-1e977cdd85a0_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/hitchd.com/desktop/3acb7473-1ac7-4b38-a154-1e977cdd85a0/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

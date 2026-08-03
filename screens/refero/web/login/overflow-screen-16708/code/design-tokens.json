@@ -1,0 +1,80 @@
+{
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Overflow",
+ "description": "User flows done right",
+ "url": "https://overflow.io/n/signin",
+ "iconUrl": "https://images.refero.design/favicon/overflow.io/0494d1b8-a51a-42cd-b210-841ea26bb2db.jpg",
+ "backgroundColor": "",
+ "id": "293"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#2b2d8f",
+ "rgb": [
+ 43,
+ 45,
+ 143
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#fbb41b",
+ "rgb": [
+ 251,
+ 180,
+ 27
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#1fb3f1",
+ "rgb": [
+ 31,
+ 179,
+ 241
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#292c36",
+ "rgb": [
+ 41,
+ 44,
+ 54
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#d4f3fb",
+ "rgb": [
+ 212,
+ 243,
+ 251
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Floating Button",
+ "Dropdown",
+ "Text Field",
+ "Illustration",
+ "Hero Image"
+ ],
+ "designPatterns": "Error",
+ "fonts": "Inter",
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/overflow.io/desktop/7507b874-4797-4e14-abe9-bbe00c6fe11d_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/overflow.io/desktop/5ac55672-3e18-4a76-affe-1d2cc3044598_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/overflow.io/desktop/7507b874-4797-4e14-abe9-bbe00c6fe11d/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Target",
+ "description": "Shop and save from anywhere",
+ "url": "https://apps.apple.com/us/app/target/id297430070",
+ "iconUrl": "https://images.refero.design/favicon/app_144/d4d45888-769e-4c3f-a35a-14d5f574b0a2.jpg",
+ "backgroundColor": "e88d8d",
+ "id": "144"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f0f2f3",
+ "rgb": [
+ 240,
+ 242,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ea4c16",
+ "rgb": [
+ 234,
+ 76,
+ 22
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#9fa0a2",
+ "rgb": [
+ 159,
+ 160,
+ 162
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f8e20d",
+ "rgb": [
+ 248,
+ 226,
+ 13
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#1c1c1c",
+ "rgb": [
+ 28,
+ 28,
+ 28
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "Button",
+ "Page Control \u0026 Pagination",
+ "Badge",
+ "Navigation Bar",
+ "Search Field",
+ "Icon",
+ "Thumbnail",
+ "Currency",
+ "Tabbar"
+ ],
+ "designPatterns": [
+ "Shopping",
+ "Dark Mode",
+ "Reviews \u0026 Rating"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/144/mobile/a7ecb144-4a70-442d-a0c9-1abd24871002_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/144/mobile/a7ecb144-4a70-442d-a0c9-1abd24871002.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

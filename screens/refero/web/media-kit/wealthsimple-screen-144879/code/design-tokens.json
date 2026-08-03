@@ -1,0 +1,82 @@
+{
+ "pageType": {
+ "id": 36,
+ "name": "Media Kit",
+ "slug": "media-kit"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Wealthsimple",
+ "description": "Better than your bank",
+ "url": "https://newsroom.wealthsimple.com/media/album/06e4cb97-a3b2-4427-869e-1b6f4a27734a",
+ "iconUrl": "https://images.refero.design/favicon/wealthsimple.com/7d2955bc-6366-4bd1-ae60-d81335d0661c.jpg",
+ "backgroundColor": "",
+ "id": "764"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#111310",
+ "rgb": [
+ 17,
+ 19,
+ 16
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#985224",
+ "rgb": [
+ 152,
+ 82,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#83968d",
+ "rgb": [
+ 131,
+ 150,
+ 141
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#8f8362",
+ "rgb": [
+ 143,
+ 131,
+ 98
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#536357",
+ "rgb": [
+ 83,
+ 99,
+ 87
+ ]
+ }
+ ],
+ "pageElements": [
+ "Media Gallery",
+ "Carousel",
+ "Button",
+ "Page Control \u0026 Pagination",
+ "Full-Screen Overlay",
+ "Icon"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": "mulish",
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/wealthsimple.com/desktop/8b4c9aac-48cb-47aa-8318-c691deff8578_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/wealthsimple.com/desktop/8b4c9aac-48cb-47aa-8318-c691deff8578_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/wealthsimple.com/desktop/8b4c9aac-48cb-47aa-8318-c691deff8578/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

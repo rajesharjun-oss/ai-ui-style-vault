@@ -1,0 +1,85 @@
+{
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Superlist",
+ "description": "Home to all your lists",
+ "url": "https://apps.apple.com/us/app/superlist-tasks-lists/id1547585270",
+ "iconUrl": "https://images.refero.design/favicon/app_108/38ebf381-68bc-4203-aa66-0ba0da2739e6.jpg",
+ "backgroundColor": "e88d8d",
+ "id": "108"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f1f1f3",
+ "rgb": [
+ 241,
+ 241,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#1a7be5",
+ "rgb": [
+ 26,
+ 123,
+ 229
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a5aab3",
+ "rgb": [
+ 165,
+ 170,
+ 179
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#24243b",
+ "rgb": [
+ 36,
+ 36,
+ 59
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#595964",
+ "rgb": [
+ 89,
+ 89,
+ 100
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Full-Screen Overlay",
+ "Icon",
+ "Illustration",
+ "Hero Image",
+ "Onscreen Keyboard"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/108/mobile/a45e3995-6917-4365-83df-8deb2ee3504e_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/108/mobile/a45e3995-6917-4365-83df-8deb2ee3504e.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

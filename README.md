@@ -4,16 +4,17 @@ A curated, repo-friendly library of UI style references for AI-assisted implemen
 
 This vault stores public source links, source-derived design notes, tokens, component guidance, screen-reference metadata, and ready-to-paste implementation prompts. It is meant to help Codex or another AI builder create original interfaces with a clear visual direction, without copying protected brand assets or proprietary layouts.
 
-Current contents: 520 Refero Styles bundles and 48 Refero screen references.
+Current contents: 520 Refero Styles bundles and 118 Refero screen references.
 
 ## Quick Use
 
 1. If an AI agent is choosing a design for a target repo, start with [AGENTS.md](AGENTS.md), [agent-index.json](agent-index.json), [guides/AGENT_USAGE.md](guides/AGENT_USAGE.md), and [guides/AGENT_BUILD_CHECKLIST.md](guides/AGENT_BUILD_CHECKLIST.md).
-2. Open [CAPTURED_STYLES.md](CAPTURED_STYLES.md), [SCREEN_REFERENCES.md](SCREEN_REFERENCES.md), [catalog.json](catalog.json), or [screen-catalog.json](screen-catalog.json).
-3. For a full visual system, choose a folder under `styles/refero-styles/<style-slug>/` and give the AI builder `implementation-prompt.md` plus the `tokens/` and `code/` folders.
-4. For a specific page type, choose a folder under `screens/refero/<channel>/<page-type>/<screen-slug>/` and give the AI builder `implementation-prompt.md`, `screen.json`, and the linked screenshot references.
-5. Copy [templates/VAULT_SELECTION.md](templates/VAULT_SELECTION.md) into the generated project and fill it before implementation.
-6. Use every bundle as inspiration for an original UI. Do not copy logos, brand assets, screenshots, product copy, or proprietary layouts.
+2. For an automated first pass, run `scripts/select-vault-style.ps1` with a brief and optional `-ProjectPath`; it writes a `VAULT_SELECTION.generated.md` report.
+3. Open [CAPTURED_STYLES.md](CAPTURED_STYLES.md), [SCREEN_REFERENCES.md](SCREEN_REFERENCES.md), [catalog.json](catalog.json), or [screen-catalog.json](screen-catalog.json).
+4. For a full visual system, choose a folder under `styles/refero-styles/<style-slug>/` and give the AI builder `implementation-prompt.md` plus the `tokens/` and `code/` folders.
+5. For a specific page type, choose a folder under `screens/refero/<channel>/<page-type>/<screen-slug>/` and give the AI builder `implementation-prompt.md`, `screen.json`, and the linked screenshot references.
+6. Copy [templates/VAULT_SELECTION.md](templates/VAULT_SELECTION.md) into the generated project and fill it before implementation.
+7. Use every bundle as inspiration for an original UI. Do not copy logos, brand assets, screenshots, product copy, or proprietary layouts.
 
 ## Agent-Ready Selection
 
@@ -26,17 +27,19 @@ This repo is organized so an AI builder can inspect a target GitHub repository, 
 - [guides/STYLE_SELECTION_GUIDE.md](guides/STYLE_SELECTION_GUIDE.md): scoring method and reading order for style and screen folders.
 - [guides/WEB_TOOL_DESIGN_MATRIX.md](guides/WEB_TOOL_DESIGN_MATRIX.md): product archetypes mapped to useful starting points.
 - [guides/SITE_INTERACTION_PATTERNS.md](guides/SITE_INTERACTION_PATTERNS.md): reusable website patterns for rotating heroes, mega menus, brand grids, split utility menus, and icon category drawers.
+- [scripts/select-vault-style.ps1](scripts/select-vault-style.ps1): automated first-pass selector that writes a `VAULT_SELECTION.generated.md` report from a brief and optional project path.
 
 Recommended agent behavior:
 
 1. Inspect the target repo and identify product type, audience, page needs, density, tone, and stack.
-2. Shortlist styles from `catalog.json`.
-3. Shortlist page references from `screen-catalog.json`.
-4. Choose one primary style bundle and page-specific screen references.
-5. Create a `VAULT_SELECTION.md` record from the template.
-6. Read the selected folders deeply.
-7. Implement an original UI using the target repo's conventions.
-8. Run the visual and asset QA gates before handoff.
+2. Run `scripts/select-vault-style.ps1` for a first-pass shortlist, then review it manually.
+3. Shortlist styles from `catalog.json`.
+4. Shortlist page references from `screen-catalog.json`.
+5. Choose one primary style bundle and page-specific screen references.
+6. Create a `VAULT_SELECTION.md` record from the template or review the generated selector report.
+7. Read the selected folders deeply.
+8. Implement an original UI using the target repo's conventions.
+9. Run the visual and asset QA gates before handoff.
 
 ## Style Bundle Contents
 
@@ -86,6 +89,7 @@ ai-ui-style-vault/
     capture-refero-style-ids.ps1
     generate-catalog.ps1
     generate-refero-screen-references.ps1
+    select-vault-style.ps1
     validate-generated-site.ps1
     validate-agent-guides.ps1
     validate-screen-references.ps1
@@ -133,10 +137,16 @@ Capture public Refero style pages from a prepared ID list:
 powershell -ExecutionPolicy Bypass -File .\scripts\capture-refero-style-ids.ps1 -IdsFile C:\tmp\refero-style-ids.txt -Limit 50
 ```
 
+Generate a first-pass vault selection report for a target repo or brief:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\select-vault-style.ps1 -Brief "Premium SaaS dashboard with login, pricing, integrations, and contact pages" -ProjectPath <target-repo> -OutputPath <target-repo>\VAULT_SELECTION.generated.md
+```
+
 Generate screen references from downloaded public Refero search JSON files:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\generate-refero-screen-references.ps1 -InputRoot C:\tmp -OutputRoot .\screens\refero -PerChannelPerType 2
+powershell -ExecutionPolicy Bypass -File .\scripts\generate-refero-screen-references.ps1 -InputRoot C:\tmp -OutputRoot .\screens\refero -PerChannelPerType 5
 ```
 
 Validate before committing:

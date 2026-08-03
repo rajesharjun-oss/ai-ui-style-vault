@@ -1,0 +1,87 @@
+{
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "ID by amo",
+ "description": "Your new profile",
+ "url": "https://apps.apple.com/us/app/id-by-amo/id6470037899",
+ "iconUrl": "https://images.refero.design/favicon/app_70/edbe40c6-5bb6-4521-b317-ea2f67517e00.jpg",
+ "backgroundColor": "",
+ "id": "70"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f2eaea",
+ "rgb": [
+ 242,
+ 234,
+ 234
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#e8ac1f",
+ "rgb": [
+ 232,
+ 172,
+ 31
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a74433",
+ "rgb": [
+ 167,
+ 68,
+ 51
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#624f49",
+ "rgb": [
+ 98,
+ 79,
+ 73
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#9d9593",
+ "rgb": [
+ 157,
+ 149,
+ 147
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Floating Button",
+ "Navigation Bar",
+ "Icon",
+ "Avatar",
+ "Gradient",
+ "Sticker",
+ "Animation"
+ ],
+ "designPatterns": {
+
+ },
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/70/mobile/2874092b-374e-499a-ac0e-85660054528d_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/70/mobile/2874092b-374e-499a-ac0e-85660054528d.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

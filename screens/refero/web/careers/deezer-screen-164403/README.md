@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/3defd6c7-94f0-4506-a8b1-a7dc78827aab
 - Refero search: https://refero.design/search?page_types[id][]=35&order=trending
 - Entity URL: https://www.deezerjobs.com/en/job-details/?jid=REF1894N
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

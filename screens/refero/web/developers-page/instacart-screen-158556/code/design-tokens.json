@@ -1,0 +1,90 @@
+{
+ "pageType": {
+ "id": 39,
+ "name": "Developers Page",
+ "slug": "developers-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Instacart",
+ "description": "The largest online grocery marketplace in North America",
+ "url": "https://docs.instacart.com/connect/api",
+ "iconUrl": "https://images.refero.design/favicon/instacart.com/8a79fe5d-b07c-4b30-bb11-4cf954a00a2c.jpg",
+ "backgroundColor": "",
+ "id": "30"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#202224",
+ "rgb": [
+ 32,
+ 34,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#9ca09e",
+ "rgb": [
+ 156,
+ 160,
+ 158
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#64666a",
+ "rgb": [
+ 100,
+ 102,
+ 106
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#4fac3c",
+ "rgb": [
+ 79,
+ 172,
+ 60
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Floating Button",
+ "Dropdown",
+ "Navigation Bar",
+ "Sidebar \u0026 Drawer",
+ "Footer",
+ "Icon"
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "fonts": [
+ "San Francisco",
+ "SF Mono",
+ "Instacart Sans"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/instacart.com/desktop/8d29c3fe-1a9f-402f-b127-9695b08e1690_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/instacart.com/desktop/8d29c3fe-1a9f-402f-b127-9695b08e1690_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/instacart.com/desktop/8d29c3fe-1a9f-402f-b127-9695b08e1690/0.jpg",
+ "https://images.refero.design/screenshots/instacart.com/desktop/8d29c3fe-1a9f-402f-b127-9695b08e1690/1.jpg",
+ "https://images.refero.design/screenshots/instacart.com/desktop/8d29c3fe-1a9f-402f-b127-9695b08e1690/2.jpg",
+ "https://images.refero.design/screenshots/instacart.com/desktop/8d29c3fe-1a9f-402f-b127-9695b08e1690/3.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

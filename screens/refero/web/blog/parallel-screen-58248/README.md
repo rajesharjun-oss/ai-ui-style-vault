@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/9a92f42d-8d75-4f24-b303-47797cc92ef9
 - Refero search: https://refero.design/search?page_types[id][]=46&order=trending
 - Entity URL: https://www.useparallel.com/blog/company
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

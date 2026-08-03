@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/eb25afed-2377-479d-aa21-cd1a650b5a17
 - Refero search: https://refero.design/search?page_types[id][]=18&order=trending
 - Entity URL: https://www.awwwards.com/
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

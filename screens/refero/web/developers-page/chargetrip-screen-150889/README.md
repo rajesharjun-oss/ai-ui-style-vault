@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/c76ef543-4d5a-40e1-b651-608bc7825a4f
 - Refero search: https://refero.design/search?page_types[id][]=39&order=trending
 - Entity URL: https://developers.chargetrip.com/
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

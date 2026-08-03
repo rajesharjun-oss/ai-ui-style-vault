@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/6bee035c-140d-4e98-af2a-710793a9934a
 - Refero search: https://refero.design/search?page_types[id][]=47&order=trending
 - Entity URL: https://www.patternbrands.com/shop/10piece-best-sellers-set/?variant=41109278785733
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

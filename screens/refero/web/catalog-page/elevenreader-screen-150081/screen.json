@@ -1,0 +1,109 @@
+{
+ "id": "150081",
+ "uuid": "b3beccdf-ecd2-4e23-8dc8-3110d868638d",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "ElevenReader",
+ "description": "Free Text Read Aloud App",
+ "url": "https://elevenreader.io/reader/explore",
+ "iconUrl": "https://images.refero.design/favicon/elevenreader.io/1c5e6958-23cc-41bd-96d6-bb481da365c6.jpg",
+ "backgroundColor": "",
+ "id": "776"
+ },
+ "createdAt": "2025-12-16T16:18:51.438Z",
+ "referoViewUrl": "https://refero.design/view/b3beccdf-ecd2-4e23-8dc8-3110d868638d",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626/0.jpg",
+ "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626/1.jpg",
+ "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626/2.jpg",
+ "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626/3.jpg",
+ "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626/4.jpg",
+ "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626/5.jpg",
+ "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626/6.jpg",
+ "https://images.refero.design/screenshots/elevenreader.io/desktop/fe09c7e8-a548-43ab-a89d-f29e18450626/7.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#bd523f",
+ "rgb": [
+ 189,
+ 82,
+ 63
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#191c19",
+ "rgb": [
+ 25,
+ 28,
+ 25
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#dda24b",
+ "rgb": [
+ 221,
+ 162,
+ 75
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#35a3a4",
+ "rgb": [
+ 53,
+ 163,
+ 164
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#979b9a",
+ "rgb": [
+ 151,
+ 155,
+ 154
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "Button",
+ "Page Control \u0026 Pagination",
+ "Navigation Bar",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Thumbnail"
+ ],
+ "pageTypes": [
+ "Discover",
+ "Catalog Page"
+ ],
+ "fonts": [
+ "Inter",
+ "Waldenburg"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

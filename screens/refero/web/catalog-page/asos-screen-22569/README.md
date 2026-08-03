@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/47a2d551-a462-479a-a387-35e68c07073f
 - Refero search: https://refero.design/search?page_types[id][]=5&order=trending
 - Entity URL: https://www.asos.com/men/sale/suits-tailoring/cat/?cid=8134&ctaref=hp|mw|sale|carousel|2|category|tailoring
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

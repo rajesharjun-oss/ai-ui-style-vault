@@ -1,0 +1,97 @@
+{
+ "id": "65121",
+ "uuid": "b855eb52-3336-4f74-bf95-21ebc9738a0b",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Play",
+ "description": "Get Play for desktop \u0026 mobile",
+ "url": "https://apps.apple.com/us/app/play-design-better-apps/id6444542118?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_88/f540e173-7049-4dc4-946d-e3bc54155547.jpg",
+ "backgroundColor": "",
+ "id": "88"
+ },
+ "createdAt": "2024-02-27T12:53:34.731Z",
+ "referoViewUrl": "https://refero.design/view/b855eb52-3336-4f74-bf95-21ebc9738a0b",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/88/mobile/7fc70163-56aa-46a9-ae4d-38ad3a3ac3e1_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/88/mobile/7fc70163-56aa-46a9-ae4d-38ad3a3ac3e1.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#a984ca",
+ "rgb": [
+ 169,
+ 132,
+ 202
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ecf1f4",
+ "rgb": [
+ 236,
+ 241,
+ 244
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5c5860",
+ "rgb": [
+ 92,
+ 88,
+ 96
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#1a191b",
+ "rgb": [
+ 26,
+ 25,
+ 27
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#058dfc",
+ "rgb": [
+ 5,
+ 141,
+ 252
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Product Features",
+ "Dark Mode"
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "List",
+ "Button",
+ "Tabs",
+ "Switch \u0026 Toggle",
+ "Icon",
+ "Bottom Sheet (Expanded)",
+ "Currency"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

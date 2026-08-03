@@ -1,0 +1,96 @@
+{
+ "id": "87892",
+ "uuid": "c62ed1ae-d1d2-4c8a-b276-adc33e63c265",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 46,
+ "name": "Blog",
+ "slug": "blog"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Gentler Streak",
+ "description": "Activity, Gym, Wellness, Rest",
+ "url": "https://apps.apple.com/us/app/gentler-streak-fitness-tracker/id1576857102",
+ "iconUrl": "https://images.refero.design/favicon/app_128/1aa3883d-84f8-40df-bd80-348580b978ea.jpg",
+ "backgroundColor": "e49e58",
+ "id": "128"
+ },
+ "createdAt": "2024-07-28T15:21:44.210Z",
+ "referoViewUrl": "https://refero.design/view/c62ed1ae-d1d2-4c8a-b276-adc33e63c265",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=46\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=46",
+ "thumbnailUrl": "https://images.refero.design/screenshots/128/mobile/bc35fc5f-88c8-4154-922c-6fdfab761824_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/128/mobile/bc35fc5f-88c8-4154-922c-6fdfab761824.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f4f1f5",
+ "rgb": [
+ 244,
+ 241,
+ 245
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#cb5677",
+ "rgb": [
+ 203,
+ 86,
+ 119
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#60594c",
+ "rgb": [
+ 96,
+ 89,
+ 76
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#a19998",
+ "rgb": [
+ 161,
+ 153,
+ 152
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#afa559",
+ "rgb": [
+ 175,
+ 165,
+ 89
+ ]
+ }
+ ],
+ "designPatterns": "Tutorial \u0026 Education",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "Button",
+ "Badge",
+ "Navigation Bar",
+ "Photo",
+ "Icon",
+ "Illustration",
+ "Thumbnail",
+ "Avatar",
+ "Tabbar"
+ ],
+ "pageTypes": "Blog",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

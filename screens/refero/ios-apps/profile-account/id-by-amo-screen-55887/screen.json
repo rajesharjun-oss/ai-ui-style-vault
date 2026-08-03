@@ -1,0 +1,99 @@
+{
+ "id": "55887",
+ "uuid": "73dc8c3d-8405-4e53-a228-c3e7b0e2bd40",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 15,
+ "name": "Profile \u0026 Account",
+ "slug": "profile-account"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "ID by amo",
+ "description": "Your new profile",
+ "url": "https://apps.apple.com/us/app/id-by-amo/id6470037899",
+ "iconUrl": "https://images.refero.design/favicon/app_70/edbe40c6-5bb6-4521-b317-ea2f67517e00.jpg",
+ "backgroundColor": "",
+ "id": "70"
+ },
+ "createdAt": "2023-12-06T11:33:35.991Z",
+ "referoViewUrl": "https://refero.design/view/73dc8c3d-8405-4e53-a228-c3e7b0e2bd40",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=15\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=15",
+ "thumbnailUrl": "https://images.refero.design/screenshots/70/mobile/2874092b-374e-499a-ac0e-85660054528d_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/70/mobile/2874092b-374e-499a-ac0e-85660054528d.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f2eaea",
+ "rgb": [
+ 242,
+ 234,
+ 234
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#e8ac1f",
+ "rgb": [
+ 232,
+ 172,
+ 31
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#a74433",
+ "rgb": [
+ 167,
+ 68,
+ 51
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#624f49",
+ "rgb": [
+ 98,
+ 79,
+ 73
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#9d9593",
+ "rgb": [
+ 157,
+ 149,
+ 147
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Floating Button",
+ "Navigation Bar",
+ "Icon",
+ "Avatar",
+ "Gradient",
+ "Sticker",
+ "Animation"
+ ],
+ "pageTypes": [
+ "Profile \u0026 Account",
+ "Home Page"
+ ],
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

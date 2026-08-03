@@ -1,0 +1,80 @@
+{
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Apollo GraphQL",
+ "description": "The supergraph: a new layer in your stack",
+ "url": "https://support.apollographql.com/hc/en-us",
+ "iconUrl": "https://images.refero.design/favicon/apollographql.com/7f9953cf-c53e-452c-a825-0c1fdf032e1b.jpg",
+ "backgroundColor": "",
+ "id": "79"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#eef4f7",
+ "rgb": [
+ 238,
+ 244,
+ 247
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#7355d8",
+ "rgb": [
+ 115,
+ 85,
+ 216
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#2c2364",
+ "rgb": [
+ 44,
+ 35,
+ 100
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#172321",
+ "rgb": [
+ 23,
+ 35,
+ 33
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#75748c",
+ "rgb": [
+ 117,
+ 116,
+ 140
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Overlay Window"
+ ],
+ "designPatterns": "Files",
+ "fonts": [
+ "font awesome 5 free",
+ "Inter"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/apollographql.com/desktop/4f2bb06b-055b-4a0d-85b0-43738b873eb0_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/apollographql.com/desktop/5959d96a-cac4-441f-86c8-d619be981a2f_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/apollographql.com/desktop/4f2bb06b-055b-4a0d-85b0-43738b873eb0/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

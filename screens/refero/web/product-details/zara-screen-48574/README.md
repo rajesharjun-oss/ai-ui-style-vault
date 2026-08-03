@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/d79f95be-0a8b-43c2-8f18-a0032411a992
 - Refero search: https://refero.design/search?page_types[id][]=47&order=trending
 - Entity URL: https://www.zara.com/us/en/eye-pencil-p24790200.html?v1=276419907&v2=1881259
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

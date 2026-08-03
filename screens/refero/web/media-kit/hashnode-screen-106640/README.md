@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/33ca8740-eb1b-4272-afb5-02541182d6aa
 - Refero search: https://refero.design/search?page_types[id][]=36&order=trending
 - Entity URL: https://hashnode.com/brand-resources?source=hashnode-footer
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

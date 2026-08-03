@@ -1,0 +1,85 @@
+{
+ "pageType": {
+ "id": 39,
+ "name": "Developers Page",
+ "slug": "developers-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "OpenAI",
+ "description": "System that can solve human-level problems",
+ "url": "https://platform.openai.com/docs/examples/default-translation?lang=python",
+ "iconUrl": "https://images.refero.design/favicon/openai.com/fdd1bf5b-c386-43ab-a2e8-e5db5fdc374b.jpg",
+ "backgroundColor": "",
+ "id": "180"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#3f4e4e",
+ "rgb": [
+ 63,
+ 78,
+ 78
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#ababab",
+ "rgb": [
+ 171,
+ 171,
+ 171
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#b4b4b4",
+ "rgb": [
+ 180,
+ 180,
+ 180
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f7f7f7",
+ "rgb": [
+ 247,
+ 247,
+ 247
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#29b98b",
+ "rgb": [
+ 41,
+ 185,
+ 139
+ ]
+ }
+ ],
+ "pageElements": [
+ "List",
+ "Icon",
+ "Dropdown Menu",
+ "Popover"
+ ],
+ "designPatterns": [
+ "Templates",
+ "Select"
+ ],
+ "fonts": [
+ "Intercom",
+ "San Francisco Mono",
+ "OpenAI Sans"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/openai.com/desktop/39346ccd-940e-4d94-b2d6-aeb96dd707e1_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/openai.com/desktop/39346ccd-940e-4d94-b2d6-aeb96dd707e1_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/openai.com/desktop/39346ccd-940e-4d94-b2d6-aeb96dd707e1/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

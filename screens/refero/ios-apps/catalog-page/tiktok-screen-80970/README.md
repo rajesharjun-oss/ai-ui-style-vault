@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/1ba52fd2-37bd-4474-bd90-6c00e1b7292f
 - Refero search: https://refero.design/apps/search?page_types[id][]=5&order=trending
 - Entity URL: https://apps.apple.com/us/app/tiktok/id835599320
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

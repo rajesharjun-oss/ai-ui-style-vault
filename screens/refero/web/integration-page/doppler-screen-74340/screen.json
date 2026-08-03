@@ -1,0 +1,103 @@
+{
+ "id": "74340",
+ "uuid": "c150dbb4-96c5-4f09-b857-7295e8922c45",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 40,
+ "name": "Integration Page",
+ "slug": "integration-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Doppler",
+ "description": "Redefines how engineering teams handle secrets",
+ "url": "https://dashboard.doppler.com/workplace/6bd11ded3ae413a2f70d/projects/example-project/sync/setup",
+ "iconUrl": "https://images.refero.design/favicon/doppler.com/9404767a-72d6-48f5-a38d-428369987709.jpg",
+ "backgroundColor": "",
+ "id": "193"
+ },
+ "createdAt": "2024-04-25T16:55:41.542Z",
+ "referoViewUrl": "https://refero.design/view/c150dbb4-96c5-4f09-b857-7295e8922c45",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=40\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=40",
+ "thumbnailUrl": "https://images.refero.design/screenshots/doppler.com/desktop/362a2267-0a72-46be-8683-5488e6649ab9_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/doppler.com/desktop/a21a3366-21f6-43c8-8ce6-1caece46ce1f_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/doppler.com/desktop/362a2267-0a72-46be-8683-5488e6649ab9/0.jpg",
+ "https://images.refero.design/screenshots/doppler.com/desktop/362a2267-0a72-46be-8683-5488e6649ab9/1.jpg",
+ "https://images.refero.design/screenshots/doppler.com/desktop/362a2267-0a72-46be-8683-5488e6649ab9/2.jpg",
+ "https://images.refero.design/screenshots/doppler.com/desktop/362a2267-0a72-46be-8683-5488e6649ab9/3.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1f79d8",
+ "rgb": [
+ 31,
+ 121,
+ 216
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#6d49bf",
+ "rgb": [
+ 109,
+ 73,
+ 191
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#161719",
+ "rgb": [
+ 22,
+ 23,
+ 25
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f69e29",
+ "rgb": [
+ 246,
+ 158,
+ 41
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#708bbf",
+ "rgb": [
+ 112,
+ 139,
+ 191
+ ]
+ }
+ ],
+ "designPatterns": "Select",
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Cards \u0026 Tiles",
+ "List",
+ "Button",
+ "Dropdown",
+ "Breadcrumb",
+ "Navigation Bar",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Avatar",
+ "Tree View"
+ ],
+ "pageTypes": [
+ "Integration Page",
+ "Content Management Page"
+ ],
+ "fonts": "Inter",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

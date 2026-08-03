@@ -1,0 +1,96 @@
+{
+ "id": "91968",
+ "uuid": "050cb143-a584-4e86-af95-ac0a904091ca",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Hims",
+ "description": "Hair loss, sexual health",
+ "url": "https://apps.apple.com/us/app/hims-telehealth-for-men/id1455690574",
+ "iconUrl": "https://images.refero.design/favicon/app_135/7ae8a98e-706e-4461-a62e-7f3d3b78c825.jpg",
+ "backgroundColor": "d3a417",
+ "id": "135"
+ },
+ "createdAt": "2024-08-19T15:08:34.495Z",
+ "referoViewUrl": "https://refero.design/view/050cb143-a584-4e86-af95-ac0a904091ca",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=47\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=47",
+ "thumbnailUrl": "https://images.refero.design/screenshots/135/mobile/3e8f2c05-2020-474b-83bc-990c079d3a1d_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/135/mobile/3e8f2c05-2020-474b-83bc-990c079d3a1d.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f8f7f7",
+ "rgb": [
+ 248,
+ 247,
+ 247
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#717088",
+ "rgb": [
+ 113,
+ 112,
+ 136
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#99909b",
+ "rgb": [
+ 153,
+ 144,
+ 155
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#a25b48",
+ "rgb": [
+ 162,
+ 91,
+ 72
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#655a68",
+ "rgb": [
+ 101,
+ 90,
+ 104
+ ]
+ }
+ ],
+ "designPatterns": "Shopping",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "Button",
+ "Floating Button",
+ "Page Control \u0026 Pagination",
+ "Navigation Bar",
+ "Photo",
+ "Icon",
+ "Hero Image",
+ "Product Image",
+ "Currency"
+ ],
+ "pageTypes": "Product Details",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

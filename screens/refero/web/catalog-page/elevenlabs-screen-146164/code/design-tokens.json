@@ -1,0 +1,95 @@
+{
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "ElevenLabs",
+ "description": "Free AI Voice Generator \u0026 Voice Agents Platform",
+ "url": "https://elevenlabs.io/app/sound-effects/explore/category/AMBMisc",
+ "iconUrl": "https://images.refero.design/favicon/elevenlabs.io/75309ef6-7caa-42a9-bb1b-0cfedd7f21c8.jpg",
+ "backgroundColor": "",
+ "id": "772"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#9e5954",
+ "rgb": [
+ 158,
+ 89,
+ 84
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#959497",
+ "rgb": [
+ 149,
+ 148,
+ 151
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#2067ae",
+ "rgb": [
+ 32,
+ 103,
+ 174
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#141414",
+ "rgb": [
+ 20,
+ 20,
+ 20
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ }
+ ],
+ "pageElements": [
+ "List",
+ "Button",
+ "Dropdown",
+ "Text Field",
+ "Tags \u0026 Chips",
+ "Badge",
+ "Progress Bar",
+ "Breadcrumb",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Illustration",
+ "Thumbnail",
+ "Avatar",
+ "Popover"
+ ],
+ "designPatterns": [
+ "Audio Player",
+ "Playlist"
+ ],
+ "fonts": [
+ "Inter",
+ "Waldenburg"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/elevenlabs.io/desktop/e9ca3ba4-16d2-4a5a-9d84-b6aaf2f6acea_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/elevenlabs.io/desktop/e9ca3ba4-16d2-4a5a-9d84-b6aaf2f6acea_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/elevenlabs.io/desktop/e9ca3ba4-16d2-4a5a-9d84-b6aaf2f6acea/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

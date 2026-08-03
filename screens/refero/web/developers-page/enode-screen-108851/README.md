@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/dd2e4755-9da8-409d-80e5-9c049fe66d23
 - Refero search: https://refero.design/search?page_types[id][]=39&order=trending
 - Entity URL: https://developers.enode.com/docs/link-ui/introduction
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

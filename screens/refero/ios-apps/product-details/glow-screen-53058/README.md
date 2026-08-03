@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/f5bfd7a9-cb72-4093-af5a-b8cefae7582c
 - Refero search: https://refero.design/apps/search?page_types[id][]=47&order=trending
 - Entity URL: https://apps.apple.com/us/app/glow-solana-wallet/id1599584512
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

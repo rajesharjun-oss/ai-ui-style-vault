@@ -2,6 +2,7 @@
 
 ## Target
 
+- Selector command or manual method used:
 - Product or business:
 - Build type:
 - Source links used for factual research:
@@ -11,6 +12,7 @@
 
 Primary style bundle:
 
+- Selector score or manual score:
 - Path:
 - Why it fits:
 

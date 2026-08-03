@@ -1,0 +1,88 @@
+{
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Opal",
+ "description": "Focus, block apps \u0026 Save Time",
+ "url": "https://apps.apple.com/us/app/opal-screen-time-for-focus/id1497465230",
+ "iconUrl": "https://images.refero.design/favicon/app_76/12219bb9-9c4e-446a-88b2-c4dc7486310b.jpg",
+ "backgroundColor": "",
+ "id": "76"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f5f6f7",
+ "rgb": [
+ 245,
+ 246,
+ 247
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#a2a0a7",
+ "rgb": [
+ 162,
+ 160,
+ 167
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5f5a56",
+ "rgb": [
+ 95,
+ 90,
+ 86
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#232647",
+ "rgb": [
+ 35,
+ 38,
+ 71
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#aa2427",
+ "rgb": [
+ 170,
+ 36,
+ 39
+ ]
+ }
+ ],
+ "pageElements": [
+ "Line \u0026 Bar Chart",
+ "Cards \u0026 Tiles",
+ "Button",
+ "Tabs",
+ "Page Control \u0026 Pagination",
+ "Navigation Bar",
+ "Icon",
+ "Avatar",
+ "Gradient"
+ ],
+ "designPatterns": [
+ "Stats",
+ "Timeline \u0026 History"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/76/mobile/198e5024-1d0e-46dc-8024-439857ab4079_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/76/mobile/198e5024-1d0e-46dc-8024-439857ab4079.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

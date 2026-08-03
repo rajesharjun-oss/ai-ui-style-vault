@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/8b6c2359-8df2-4075-b86a-9c77ec176daf
 - Refero search: https://refero.design/search?page_types[id][]=33&order=trending
 - Entity URL: https://www.duolingo.com/efficacy/studies
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

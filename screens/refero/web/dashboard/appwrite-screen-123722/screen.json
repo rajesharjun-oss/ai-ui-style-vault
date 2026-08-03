@@ -1,0 +1,98 @@
+{
+ "id": "123722",
+ "uuid": "63f32067-2534-444d-9dee-b4c1287256b6",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Appwrite",
+ "description": "Build like a team of hundreds",
+ "url": "https://cloud.appwrite.io/console/project-fra-k92dj-lm4t7/overview/dev-keys",
+ "iconUrl": "https://images.refero.design/favicon/appwrite.io/62baab37-6c16-42e2-a7fc-2444291650bf.jpg",
+ "backgroundColor": "",
+ "id": "664"
+ },
+ "createdAt": "2025-06-11T10:40:58.260Z",
+ "referoViewUrl": "https://refero.design/view/63f32067-2534-444d-9dee-b4c1287256b6",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/appwrite.io/desktop/247b401c-eadb-46a6-acc7-69f9613e3044_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/appwrite.io/desktop/247b401c-eadb-46a6-acc7-69f9613e3044_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/appwrite.io/desktop/247b401c-eadb-46a6-acc7-69f9613e3044/0.jpg",
+ "https://images.refero.design/screenshots/appwrite.io/desktop/247b401c-eadb-46a6-acc7-69f9613e3044/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f6396d",
+ "rgb": [
+ 246,
+ 57,
+ 109
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#616062",
+ "rgb": [
+ 97,
+ 96,
+ 98
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#97979a",
+ "rgb": [
+ 151,
+ 151,
+ 154
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#2b2b2e",
+ "rgb": [
+ 43,
+ 43,
+ 46
+ ]
+ }
+ ],
+ "designPatterns": "Stats",
+ "pageElements": [
+ "Table",
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Checkbox \u0026 Radio",
+ "Navigation Bar",
+ "Sidebar \u0026 Drawer",
+ "Icon"
+ ],
+ "pageTypes": "Dashboard",
+ "fonts": [
+ "Inter",
+ "Aeonik"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

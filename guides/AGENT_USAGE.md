@@ -20,30 +20,35 @@ The vault should help an agent make a deliberate design choice, not randomly cop
    - Use `screen-catalog.json` to find page-type examples.
    - Use `CAPTURED_STYLES.md` and `SCREEN_REFERENCES.md` when a human-readable scan is faster.
 
-3. Shortlist candidates.
+3. Run the automated selector for a first pass.
+   - Use `scripts/select-vault-style.ps1` with `-Brief` and, after cloning/inspecting a target repo, `-ProjectPath`.
+   - Review the generated `VAULT_SELECTION.generated.md` instead of accepting it blindly.
+   - Example: `powershell -ExecutionPolicy Bypass -File .\scripts\select-vault-style.ps1 -Brief "Premium B2B analytics dashboard with login, pricing, integrations, and contacts" -ProjectPath <target-repo> -OutputPath <target-repo>\VAULT_SELECTION.generated.md`.
+
+4. Shortlist candidates.
    - Pick 3 to 5 style bundles whose `category`, `bestFor`, `tags`, `theme`, and `northStar` match the product.
    - Pick page-specific screen references for dashboard, login, product details, pricing/paywall, catalog, profile, 404, blog, developers, integrations, contacts, careers, or media kit pages as needed.
 
-4. Choose references.
+5. Choose references.
    - Select 1 primary style bundle.
    - Select up to 2 supporting style bundles only when they solve a clear missing need.
    - Select 1 screen reference per important page type.
 
-5. Create the selection record.
+6. Create the selection record.
    - Copy `templates/VAULT_SELECTION.md` into the generated project or target repo.
    - Fill in the primary style, supporting references, fit rationale, adaptation plan, asset policy, and QA plan before implementation.
 
-6. Read the selected folders deeply.
+7. Read the selected folders deeply.
    - For styles, read `README.md`, `DESIGN.md`, `implementation-prompt.md`, `style.json`, `tokens/`, and `code/`.
    - For screens, read `README.md`, `implementation-prompt.md`, `screen.json`, `tokens/`, and `code/`.
 
-7. Implement in the target repo.
+8. Implement in the target repo.
    - Use the target repo's existing stack and conventions.
    - Translate vault tokens into the target design system.
    - Build complete, responsive, accessible UI.
    - Add loading, empty, error, focus, disabled, hover, and active states.
 
-8. Verify.
+9. Verify.
    - Run lint, typecheck, tests, and build when available.
    - Run `scripts/validate-generated-site.ps1` for static or browser-rendered outputs.
    - Check mobile and desktop layouts.
@@ -57,9 +62,9 @@ The vault should help an agent make a deliberate design choice, not randomly cop
 Use ai-ui-style-vault as the design reference source.
 
 First inspect this target repo and summarize the app type, audience, pages, stack, and existing UI conventions.
-Then read the vault indexes and select one primary style bundle plus page-specific screen references.
+Then run scripts/select-vault-style.ps1 with the brief and target repo path, read the generated selection report, and select one primary style bundle plus page-specific screen references.
 Explain why those references fit.
-Create a VAULT_SELECTION.md record before implementation.
+Create or review a VAULT_SELECTION.md / VAULT_SELECTION.generated.md record before implementation.
 Implement an original UI using the selected tokens, rhythm, component rules, and page patterns.
 Do not copy protected logos, screenshots, brand assets, exact copy, or proprietary layouts.
 Run the generated-site validator, visual QA, and available project checks. Summarize the result.

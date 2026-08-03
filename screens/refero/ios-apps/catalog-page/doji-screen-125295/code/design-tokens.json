@@ -1,0 +1,87 @@
+{
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Doji",
+ "description": "Create your AI likeness",
+ "url": "https://apps.apple.com/us/app/doji-try-on-designer-fashion/id6737292650",
+ "iconUrl": "https://images.refero.design/favicon/app_198/63100fa4-e29d-473d-aa91-40b26168f074.jpg",
+ "backgroundColor": "",
+ "id": "198"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1e1923",
+ "rgb": [
+ 30,
+ 25,
+ 35
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#9a9aa8",
+ "rgb": [
+ 154,
+ 154,
+ 168
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#484b88",
+ "rgb": [
+ 72,
+ 75,
+ 136
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#287ec6",
+ "rgb": [
+ 40,
+ 126,
+ 198
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Thumbnail",
+ "Product Image",
+ "Currency",
+ "Tabbar"
+ ],
+ "designPatterns": [
+ "Suggestion \u0026 Similar Items",
+ "Shopping",
+ "Searching"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/198/mobile/d7ae7115-e3d0-4f40-a9ef-85fe35b0ae27_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/198/mobile/d7ae7115-e3d0-4f40-a9ef-85fe35b0ae27.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

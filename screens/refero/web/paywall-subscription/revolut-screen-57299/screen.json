@@ -1,0 +1,114 @@
+{
+ "id": "57299",
+ "uuid": "13018a3d-76a6-4f78-a01f-d658683d8c99",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Revolut",
+ "description": "All-in-one Finance App for your Money",
+ "url": "https://www.revolut.com/business/business-account-plans/",
+ "iconUrl": "https://images.refero.design/favicon/revolut.com/2f107082-e103-4a98-82e8-1d3f80bcb3a3.jpg",
+ "backgroundColor": "",
+ "id": "13"
+ },
+ "createdAt": "2023-12-19T08:45:46.079Z",
+ "referoViewUrl": "https://refero.design/view/13018a3d-76a6-4f78-a01f-d658683d8c99",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/revolut.com/desktop/b7775c30-d710-4ac4-868f-fdb918d14291_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/0.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/1.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/2.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/3.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/4.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/5.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/6.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/7.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/8.jpg",
+ "https://images.refero.design/screenshots/revolut.com/desktop/e8ae9213-0983-4861-8ed7-e31eb967d46f/9.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#e5e5e4",
+ "rgb": [
+ 229,
+ 229,
+ 228
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#0da8d8",
+ "rgb": [
+ 13,
+ 168,
+ 216
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#14141b",
+ "rgb": [
+ 20,
+ 20,
+ 27
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#a39888",
+ "rgb": [
+ 163,
+ 152,
+ 136
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#70716e",
+ "rgb": [
+ 112,
+ 113,
+ 110
+ ]
+ }
+ ],
+ "designPatterns": [
+ "FAQ",
+ "Testimonials"
+ ],
+ "pageElements": [
+ "Table",
+ "Accordion \u0026 Collapse",
+ "List",
+ "Button",
+ "Tabs",
+ "Checkbox \u0026 Radio",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon",
+ "3d Illustration",
+ "Hero Image",
+ "Currency",
+ "Animation"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": [
+ "Inter",
+ "Aeonik"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

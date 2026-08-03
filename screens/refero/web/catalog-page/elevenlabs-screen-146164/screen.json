@@ -1,0 +1,107 @@
+{
+ "id": "146164",
+ "uuid": "b0cbaffb-200f-4503-abc4-9073f1b8102e",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "ElevenLabs",
+ "description": "Free AI Voice Generator \u0026 Voice Agents Platform",
+ "url": "https://elevenlabs.io/app/sound-effects/explore/category/AMBMisc",
+ "iconUrl": "https://images.refero.design/favicon/elevenlabs.io/75309ef6-7caa-42a9-bb1b-0cfedd7f21c8.jpg",
+ "backgroundColor": "",
+ "id": "772"
+ },
+ "createdAt": "2025-11-18T18:03:18.153Z",
+ "referoViewUrl": "https://refero.design/view/b0cbaffb-200f-4503-abc4-9073f1b8102e",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=5\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=5",
+ "thumbnailUrl": "https://images.refero.design/screenshots/elevenlabs.io/desktop/e9ca3ba4-16d2-4a5a-9d84-b6aaf2f6acea_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/elevenlabs.io/desktop/e9ca3ba4-16d2-4a5a-9d84-b6aaf2f6acea_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/elevenlabs.io/desktop/e9ca3ba4-16d2-4a5a-9d84-b6aaf2f6acea/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#9e5954",
+ "rgb": [
+ 158,
+ 89,
+ 84
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#959497",
+ "rgb": [
+ 149,
+ 148,
+ 151
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#2067ae",
+ "rgb": [
+ 32,
+ 103,
+ 174
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#141414",
+ "rgb": [
+ 20,
+ 20,
+ 20
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Audio Player",
+ "Playlist"
+ ],
+ "pageElements": [
+ "List",
+ "Button",
+ "Dropdown",
+ "Text Field",
+ "Tags \u0026 Chips",
+ "Badge",
+ "Progress Bar",
+ "Breadcrumb",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Illustration",
+ "Thumbnail",
+ "Avatar",
+ "Popover"
+ ],
+ "pageTypes": [
+ "Discover",
+ "Catalog Page"
+ ],
+ "fonts": [
+ "Inter",
+ "Waldenburg"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

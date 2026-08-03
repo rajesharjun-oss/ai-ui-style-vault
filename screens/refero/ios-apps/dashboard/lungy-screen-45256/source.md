@@ -12,7 +12,7 @@
 
 ## Capture
 
-- Captured by Codex: 2026-07-29
+- Captured by Codex: 2026-08-03
 - Discovery mode: bounded public Refero page-type search
 - Channel: ios-apps
 - Page type ID: 28

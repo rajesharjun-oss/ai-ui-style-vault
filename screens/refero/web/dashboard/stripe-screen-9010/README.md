@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/5f9b93d3-6315-4656-8f74-cd26b07f1069
 - Refero search: https://refero.design/search?page_types[id][]=28&order=trending
 - Entity URL: https://dashboard.stripe.com/test/revenue-recognition
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

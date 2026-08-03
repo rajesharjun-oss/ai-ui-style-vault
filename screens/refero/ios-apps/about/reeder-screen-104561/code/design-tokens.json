@@ -1,0 +1,80 @@
+{
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Reeder.",
+ "description": "Your all-in-one inbox for reading",
+ "url": "https://apps.apple.com/us/app/reeder/id6475002485?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_158/31f46db4-f463-4ef2-ad8e-1129dbbd3e7d.jpg",
+ "backgroundColor": "d3a417",
+ "id": "158"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f2c60a",
+ "rgb": [
+ 242,
+ 198,
+ 10
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#f3f3eb",
+ "rgb": [
+ 243,
+ 243,
+ 235
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#d45f47",
+ "rgb": [
+ 212,
+ 95,
+ 71
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#9a948c",
+ "rgb": [
+ 154,
+ 148,
+ 140
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Bottom Sheet (Expanded)"
+ ],
+ "designPatterns": "Article \u0026 Text",
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/158/mobile/ad92e335-0947-421c-b1d4-38b194a53c11_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/158/mobile/ad92e335-0947-421c-b1d4-38b194a53c11.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

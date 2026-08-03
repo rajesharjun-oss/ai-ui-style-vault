@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/7ea6231f-9be1-4aa7-9eb3-67f65ffbf19e
 - Refero search: https://refero.design/search?page_types[id][]=40&order=trending
 - Entity URL: https://www.patreon.com/en-GB/apps/99designs
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

@@ -1,0 +1,107 @@
+{
+ "id": "60183",
+ "uuid": "03585fef-1e72-4c6a-aac9-897e3343efb3",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 35,
+ "name": "Careers",
+ "slug": "careers"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Peerlist",
+ "description": "Professional Network for people in tech",
+ "url": "https://peerlist.io/jobs",
+ "iconUrl": "https://images.refero.design/favicon/peerlist.io/04568b0f-41ee-4bb1-963a-c20e62dbbca7.jpg",
+ "backgroundColor": "",
+ "id": "429"
+ },
+ "createdAt": "2024-01-16T15:34:12.450Z",
+ "referoViewUrl": "https://refero.design/view/03585fef-1e72-4c6a-aac9-897e3343efb3",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=35\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=35",
+ "thumbnailUrl": "https://images.refero.design/screenshots/peerlist.io/desktop/ff73dada-2b20-428d-b23e-bba4e48dba4d_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/peerlist.io/desktop/fb630a4a-0617-49ce-bee9-2c1113346f54_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/peerlist.io/desktop/ff73dada-2b20-428d-b23e-bba4e48dba4d/0.jpg",
+ "https://images.refero.design/screenshots/peerlist.io/desktop/ff73dada-2b20-428d-b23e-bba4e48dba4d/1.jpg",
+ "https://images.refero.design/screenshots/peerlist.io/desktop/ff73dada-2b20-428d-b23e-bba4e48dba4d/2.jpg",
+ "https://images.refero.design/screenshots/peerlist.io/desktop/ff73dada-2b20-428d-b23e-bba4e48dba4d/3.jpg",
+ "https://images.refero.design/screenshots/peerlist.io/desktop/ff73dada-2b20-428d-b23e-bba4e48dba4d/4.jpg",
+ "https://images.refero.design/screenshots/peerlist.io/desktop/ff73dada-2b20-428d-b23e-bba4e48dba4d/5.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#1b1c1c",
+ "rgb": [
+ 27,
+ 28,
+ 28
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#925c60",
+ "rgb": [
+ 146,
+ 92,
+ 96
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#919799",
+ "rgb": [
+ 145,
+ 151,
+ 153
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#2aaa67",
+ "rgb": [
+ 42,
+ 170,
+ 103
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#686c6f",
+ "rgb": [
+ 104,
+ 108,
+ 111
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "List",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Checkbox \u0026 Radio",
+ "Badge",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Illustration",
+ "Avatar"
+ ],
+ "pageTypes": "Careers",
+ "fonts": [
+ "Google Sans",
+ "UI Sans Serif",
+ "Inter"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

@@ -1,0 +1,89 @@
+{
+ "id": "66529",
+ "uuid": "9cecbffe-4902-418b-813f-455db7279c92",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Artboard Studio",
+ "description": "Design and Animate Like Never Before",
+ "url": "https://app.artboard.studio/project/65e88f090705ba001c7d6c14/project-1?objectId=65e99d79aad4ddbb2f23aacf",
+ "iconUrl": "https://images.refero.design/favicon/artboard.studio/6f3be7a8-92b0-46b8-a10a-bdf146ee5160.jpg",
+ "backgroundColor": "",
+ "id": "232"
+ },
+ "createdAt": "2024-03-12T09:46:36.092Z",
+ "referoViewUrl": "https://refero.design/view/9cecbffe-4902-418b-813f-455db7279c92",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/artboard.studio/desktop/e719d548-fdde-4a7c-b737-fd9ff9798bb2_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/artboard.studio/desktop/1eae8801-a430-4ceb-9400-ca24466b7d31_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/artboard.studio/desktop/e719d548-fdde-4a7c-b737-fd9ff9798bb2/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#211c3f",
+ "rgb": [
+ 33,
+ 28,
+ 63
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#9f9f9f",
+ "rgb": [
+ 159,
+ 159,
+ 159
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#faf9f8",
+ "rgb": [
+ 250,
+ 249,
+ 248
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#6b4382",
+ "rgb": [
+ 107,
+ 67,
+ 130
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#ae9432",
+ "rgb": [
+ 174,
+ 148,
+ 50
+ ]
+ }
+ ],
+ "designPatterns": "Product Features",
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Dialog \u0026 Modal Window",
+ "Icon",
+ "Product Image",
+ "Currency"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": "Aktiv Grotesk",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

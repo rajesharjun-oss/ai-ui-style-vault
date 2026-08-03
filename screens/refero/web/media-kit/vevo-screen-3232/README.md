@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/4cb01eac-9475-469a-8427-f6e6fb8dfc5b
 - Refero search: https://refero.design/search?page_types[id][]=36&order=trending
 - Entity URL: https://brand.vevo.com/photography/
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

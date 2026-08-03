@@ -1,0 +1,97 @@
+{
+ "pageType": {
+ "id": 5,
+ "name": "Catalog Page",
+ "slug": "catalog-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "ElevenLabs",
+ "description": "Free AI Voice Generator \u0026 Voice Agents Platform",
+ "url": "https://elevenlabs.io/app/voice-library",
+ "iconUrl": "https://images.refero.design/favicon/elevenlabs.io/75309ef6-7caa-42a9-bb1b-0cfedd7f21c8.jpg",
+ "backgroundColor": "",
+ "id": "772"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#676368",
+ "rgb": [
+ 103,
+ 99,
+ 104
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#e6e5e8",
+ "rgb": [
+ 230,
+ 229,
+ 232
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#58aca7",
+ "rgb": [
+ 88,
+ 172,
+ 167
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#333232",
+ "rgb": [
+ 51,
+ 50,
+ 50
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#0b0b0c",
+ "rgb": [
+ 11,
+ 11,
+ 12
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Carousel",
+ "List",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Page Control \u0026 Pagination",
+ "Badge",
+ "Progress Bar",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Icon",
+ "Illustration",
+ "Thumbnail",
+ "Avatar"
+ ],
+ "designPatterns": "Dark Mode",
+ "fonts": [
+ "Inter",
+ "Waldenburg"
+ ],
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/elevenlabs.io/desktop/a125b04b-282b-404f-af0a-4607cce68654_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/elevenlabs.io/desktop/a125b04b-282b-404f-af0a-4607cce68654_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/elevenlabs.io/desktop/a125b04b-282b-404f-af0a-4607cce68654/0.jpg",
+ "https://images.refero.design/screenshots/elevenlabs.io/desktop/a125b04b-282b-404f-af0a-4607cce68654/1.jpg",
+ "https://images.refero.design/screenshots/elevenlabs.io/desktop/a125b04b-282b-404f-af0a-4607cce68654/2.jpg",
+ "https://images.refero.design/screenshots/elevenlabs.io/desktop/a125b04b-282b-404f-af0a-4607cce68654/3.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

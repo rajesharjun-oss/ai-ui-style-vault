@@ -1,0 +1,93 @@
+{
+ "id": "158834",
+ "uuid": "9bcea23d-d1b6-4c4e-bfe5-ea536b4153f6",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 18,
+ "name": "Log In",
+ "slug": "login"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "LEGOA(R) Builder",
+ "description": "Build solo or as a team.",
+ "url": "https://apps.apple.com/us/app/lego-builder-3d-instructions/id1486159728",
+ "iconUrl": "https://images.refero.design/favicon/app_258/4d5623a6-b9de-4cbd-b0af-132aa6122268.jpg",
+ "backgroundColor": "ffd400",
+ "id": "258"
+ },
+ "createdAt": "2026-02-16T19:06:58.695Z",
+ "referoViewUrl": "https://refero.design/view/9bcea23d-d1b6-4c4e-bfe5-ea536b4153f6",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=18\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=18",
+ "thumbnailUrl": "https://images.refero.design/screenshots/258/mobile/91d914b6-a22a-4a76-ae6a-a7853d55850d_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/258/mobile/91d914b6-a22a-4a76-ae6a-a7853d55850d.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#0472d6",
+ "rgb": [
+ 4,
+ 114,
+ 214
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#0b0b0c",
+ "rgb": [
+ 11,
+ 11,
+ 12
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#93bcda",
+ "rgb": [
+ 147,
+ 188,
+ 218
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#f7f8f8",
+ "rgb": [
+ 247,
+ 248,
+ 248
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#e1262d",
+ "rgb": [
+ 225,
+ 38,
+ 45
+ ]
+ }
+ ],
+ "designPatterns": "Browser",
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Icon",
+ "Onscreen Keyboard",
+ "Bottom Sheet (Expanded)"
+ ],
+ "pageTypes": [
+ "Sign Up",
+ "Log In"
+ ],
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

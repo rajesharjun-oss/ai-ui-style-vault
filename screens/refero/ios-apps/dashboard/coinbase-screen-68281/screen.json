@@ -1,0 +1,98 @@
+{
+ "id": "68281",
+ "uuid": "09c5fe10-d26b-4d6a-9fac-aeebc9ba5d2f",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 28,
+ "name": "Dashboard",
+ "slug": "dashboard"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Coinbase",
+ "description": "Most trusted crypto exchange",
+ "url": "https://apps.apple.com/us/app/coinbase-buy-bitcoin-ether/id886427730",
+ "iconUrl": "https://images.refero.design/favicon/app_93/9ae633f7-6467-4033-a6a9-83f36f51bc50.jpg",
+ "backgroundColor": "6aadf0",
+ "id": "93"
+ },
+ "createdAt": "2024-03-20T11:58:37.271Z",
+ "referoViewUrl": "https://refero.design/view/09c5fe10-d26b-4d6a-9fac-aeebc9ba5d2f",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=28\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=28",
+ "thumbnailUrl": "https://images.refero.design/screenshots/93/mobile/2b32ce50-4686-438d-9726-57a17786092b_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/93/mobile/2b32ce50-4686-438d-9726-57a17786092b.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#e1686d",
+ "rgb": [
+ 225,
+ 104,
+ 109
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#24a872",
+ "rgb": [
+ 36,
+ 168,
+ 114
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#e8e6e6",
+ "rgb": [
+ 232,
+ 230,
+ 230
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5a3940",
+ "rgb": [
+ 90,
+ 57,
+ 64
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#2b3037",
+ "rgb": [
+ 43,
+ 48,
+ 55
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Stats",
+ "Shopping",
+ "Timeline \u0026 History"
+ ],
+ "pageElements": [
+ "Line \u0026 Bar Chart",
+ "Carousel",
+ "List",
+ "Button",
+ "Floating Button",
+ "Dropdown",
+ "Navigation Bar",
+ "Icon",
+ "Currency"
+ ],
+ "pageTypes": "Dashboard",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

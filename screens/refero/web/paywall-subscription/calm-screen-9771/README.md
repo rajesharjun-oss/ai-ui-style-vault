@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/f4314cf4-512a-4ddc-9ddc-0564654e3f4e
 - Refero search: https://refero.design/search?page_types[id][]=13&order=trending
 - Entity URL: https://business.calm.com/plans/
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

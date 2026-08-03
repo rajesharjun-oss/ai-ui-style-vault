@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/730589a2-b304-4e65-af24-a8ab321c436e
 - Refero search: https://refero.design/search?page_types[id][]=44&order=trending
 - Entity URL: https://www.lego.com/en-us/life/app
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

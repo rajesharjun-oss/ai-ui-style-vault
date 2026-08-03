@@ -1,0 +1,91 @@
+{
+ "id": "71785",
+ "uuid": "2a07cb62-1027-4b0a-a58b-8bc7b5ec8280",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Copilot",
+ "description": "Spending, investing, net worth",
+ "url": "https://apps.apple.com/us/app/copilot-track-budget-money/id1447330651?platform=iphone",
+ "iconUrl": "https://images.refero.design/favicon/app_100/da073282-95db-4c32-be35-9b8129a157ae.jpg",
+ "backgroundColor": "6aadf0",
+ "id": "100"
+ },
+ "createdAt": "2024-04-14T09:42:39.379Z",
+ "referoViewUrl": "https://refero.design/view/2a07cb62-1027-4b0a-a58b-8bc7b5ec8280",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=13\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=13",
+ "thumbnailUrl": "https://images.refero.design/screenshots/100/mobile/9d0555cc-a82e-4896-874e-ebf4193a6a38_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/100/mobile/9d0555cc-a82e-4896-874e-ebf4193a6a38.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f2f2f3",
+ "rgb": [
+ 242,
+ 242,
+ 243
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#1363b6",
+ "rgb": [
+ 19,
+ 99,
+ 182
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#718aae",
+ "rgb": [
+ 113,
+ 138,
+ 174
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#a5adc0",
+ "rgb": [
+ 165,
+ 173,
+ 192
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#495477",
+ "rgb": [
+ 73,
+ 84,
+ 119
+ ]
+ }
+ ],
+ "designPatterns": [
+ "FAQ",
+ "Trial \u0026 Freemium"
+ ],
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Icon"
+ ],
+ "pageTypes": "Paywall \u0026 Subscription",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

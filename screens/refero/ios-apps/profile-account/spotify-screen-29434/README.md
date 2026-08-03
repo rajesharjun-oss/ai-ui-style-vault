@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/e0d91b16-3912-4d59-a217-ba388651ae47
 - Refero search: https://refero.design/apps/search?page_types[id][]=15&order=trending
 - Entity URL: https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

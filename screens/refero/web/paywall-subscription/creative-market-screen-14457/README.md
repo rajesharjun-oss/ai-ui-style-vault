@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/c15db544-597c-4319-96cb-183893e03367
 - Refero search: https://refero.design/search?page_types[id][]=13&order=trending
 - Entity URL: https://creativemarket.com/licenses/general
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

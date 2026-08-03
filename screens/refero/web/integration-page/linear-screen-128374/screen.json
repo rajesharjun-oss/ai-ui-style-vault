@@ -1,0 +1,87 @@
+{
+ "id": "128374",
+ "uuid": "96a95e41-7c23-4cf7-85fd-2485e62dbe26",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 40,
+ "name": "Integration Page",
+ "slug": "integration-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Linear",
+ "description": "Plan and build products",
+ "url": "https://linear.app/integrations",
+ "iconUrl": "https://images.refero.design/favicon/linear.app/8e3d7b39-f7e8-4915-84cc-6eea6511835e.jpg",
+ "backgroundColor": "",
+ "id": "26"
+ },
+ "createdAt": "2025-07-21T09:25:46.486Z",
+ "referoViewUrl": "https://refero.design/view/96a95e41-7c23-4cf7-85fd-2485e62dbe26",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=40\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=40",
+ "thumbnailUrl": "https://images.refero.design/screenshots/linear.app/desktop/11a99c33-7ef5-4ea9-b9cc-af007732643b_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/linear.app/desktop/11a99c33-7ef5-4ea9-b9cc-af007732643b_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/linear.app/desktop/11a99c33-7ef5-4ea9-b9cc-af007732643b/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#8d8f94",
+ "rgb": [
+ 141,
+ 143,
+ 148
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#f7f9f9",
+ "rgb": [
+ 247,
+ 249,
+ 249
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#606265",
+ "rgb": [
+ 96,
+ 98,
+ 101
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#0b1413",
+ "rgb": [
+ 11,
+ 20,
+ 19
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#5f9e9c",
+ "rgb": [
+ 95,
+ 158,
+ 156
+ ]
+ }
+ ],
+ "designPatterns": "Searching",
+ "pageElements": [
+ "List",
+ "Dialog \u0026 Modal Window",
+ "Search Field",
+ "Popover"
+ ],
+ "pageTypes": "Integration Page",
+ "fonts": "Inter",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

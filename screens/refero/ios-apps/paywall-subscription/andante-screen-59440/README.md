@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/ea8ee7ef-8b63-4322-beb8-67a08a517b02
 - Refero search: https://refero.design/apps/search?page_types[id][]=13&order=trending
 - Entity URL: https://apps.apple.com/us/app/andante-practice-journal/id1530262372?platform=iphone
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

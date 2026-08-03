@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/7922e89f-9302-43f1-be0b-d489c3e03629
 - Refero search: https://refero.design/search?page_types[id][]=33&order=trending
 - Entity URL: https://www.buymeacoffee.com/about
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

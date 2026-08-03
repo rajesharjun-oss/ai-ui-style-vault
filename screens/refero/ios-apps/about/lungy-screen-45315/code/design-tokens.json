@@ -1,0 +1,83 @@
+{
+ "pageType": {
+ "id": 33,
+ "name": "About",
+ "slug": "about"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Lungy",
+ "description": "Calm Breath \u0026 Stress Coach",
+ "url": "https://apps.apple.com/us/app/lungy-breathing-exercises/id1545223887",
+ "iconUrl": "https://images.refero.design/favicon/app_52/c2c42a52-a360-4325-90c2-c11127b8e10d.jpg",
+ "backgroundColor": "8383ec",
+ "id": "52"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#543cfb",
+ "rgb": [
+ 84,
+ 60,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#c1b8f1",
+ "rgb": [
+ 193,
+ 184,
+ 241
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#846cfc",
+ "rgb": [
+ 132,
+ 108,
+ 252
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#7966fb",
+ "rgb": [
+ 121,
+ 102,
+ 251
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ }
+ ],
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Icon",
+ "Bottom Sheet (Expanded)"
+ ],
+ "designPatterns": [
+ "Browser",
+ "Article \u0026 Text"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/52/mobile/e1fc98ac-fa74-44d1-98c0-8b07da39f0b1_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/52/mobile/e1fc98ac-fa74-44d1-98c0-8b07da39f0b1.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

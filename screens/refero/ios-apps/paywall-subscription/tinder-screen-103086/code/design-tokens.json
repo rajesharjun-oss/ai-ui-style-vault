@@ -1,0 +1,85 @@
+{
+ "pageType": {
+ "id": 13,
+ "name": "Paywall \u0026 Subscription",
+ "slug": "paywall-subscription"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "Tinder",
+ "description": "Meet New People \u0026 Date Singles",
+ "url": "https://apps.apple.com/us/app/tinder-dating-app-chat-date/id547702041",
+ "iconUrl": "https://images.refero.design/favicon/app_157/5e266ee7-0c57-40d5-8d80-9ccd2683ca1a.jpg",
+ "backgroundColor": "e88d8d",
+ "id": "157"
+ },
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#2d2824",
+ "rgb": [
+ 45,
+ 40,
+ 36
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#d46c04",
+ "rgb": [
+ 212,
+ 108,
+ 4
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#056cd4",
+ "rgb": [
+ 5,
+ 108,
+ 212
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#9c9fa3",
+ "rgb": [
+ 156,
+ 159,
+ 163
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#fbfbfb",
+ "rgb": [
+ 251,
+ 251,
+ 251
+ ]
+ }
+ ],
+ "pageElements": [
+ "Cards \u0026 Tiles",
+ "Button",
+ "Full-Screen Overlay",
+ "Navigation Bar",
+ "Icon",
+ "Currency"
+ ],
+ "designPatterns": [
+ "Select",
+ "Shopping"
+ ],
+ "fonts": {
+
+ },
+ "media": {
+ "thumbnailUrl": "https://images.refero.design/screenshots/157/mobile/f4763fde-d26e-4e2f-a0f8-a46f97999aa9_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/157/mobile/f4763fde-d26e-4e2f-a0f8-a46f97999aa9.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": ""
+ }
+}

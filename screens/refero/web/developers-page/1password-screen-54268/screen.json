@@ -1,0 +1,109 @@
+{
+ "id": "54268",
+ "uuid": "640b11d4-8629-4178-9211-e2ada11425a2",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 39,
+ "name": "Developers Page",
+ "slug": "developers-page"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "1Password",
+ "description": "Password Manager for Families, Enterprise \u0026 Business",
+ "url": "https://developer.1password.com/docs/cli/reference/update/#download-the-latest-version",
+ "iconUrl": "https://images.refero.design/favicon/1password.com/7ca5c747-cf81-4283-b2f9-839493ade129.jpg",
+ "backgroundColor": "",
+ "id": "413"
+ },
+ "createdAt": "2023-11-24T15:12:56.799Z",
+ "referoViewUrl": "https://refero.design/view/640b11d4-8629-4178-9211-e2ada11425a2",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=39\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=39",
+ "thumbnailUrl": "https://images.refero.design/screenshots/1password.com/desktop/5a82b8b9-26d1-47bd-95bb-5381073dc18c_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/1password.com/desktop/fe0ba285-180d-49d5-9d57-453bd7858d9b_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/1password.com/desktop/5a82b8b9-26d1-47bd-95bb-5381073dc18c/0.jpg",
+ "https://images.refero.design/screenshots/1password.com/desktop/5a82b8b9-26d1-47bd-95bb-5381073dc18c/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#f5f6f8",
+ "rgb": [
+ 245,
+ 246,
+ 248
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#4380ce",
+ "rgb": [
+ 67,
+ 128,
+ 206
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#092946",
+ "rgb": [
+ 9,
+ 41,
+ 70
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#5f6367",
+ "rgb": [
+ 95,
+ 99,
+ 103
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#989da7",
+ "rgb": [
+ 152,
+ 157,
+ 167
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Email Subscription",
+ "Feedback \u0026 Survey",
+ "Article \u0026 Text"
+ ],
+ "pageElements": [
+ "Accordion \u0026 Collapse",
+ "Button",
+ "Dropdown",
+ "Tabs",
+ "Page Control \u0026 Pagination",
+ "Breadcrumb",
+ "Navigation Bar",
+ "Search Field",
+ "Sidebar \u0026 Drawer",
+ "Footer",
+ "Icon",
+ "Code Snippet",
+ "Tree View"
+ ],
+ "pageTypes": "Developers Page",
+ "fonts": [
+ "monospace",
+ "font awesome 5 pro",
+ "San Francisco",
+ "Arial",
+ "SF Mono"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

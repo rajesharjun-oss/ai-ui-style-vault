@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/adc8e43c-fcbc-4bdd-9110-3a0e6d0e24bd
 - Refero search: https://refero.design/search?page_types[id][]=34&order=trending
 - Entity URL: https://support.overflow.io/hc/en-us/requests/new
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

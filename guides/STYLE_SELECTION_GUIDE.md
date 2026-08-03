@@ -15,6 +15,17 @@ Collect these facts from the target repository and user request:
 - Accessibility constraints: contrast, motion sensitivity, keyboard workflow, language length, mobile use.
 - Implementation stack: Tailwind, CSS modules, shadcn/ui, custom CSS, design tokens, native mobile, or other.
 
+
+## Automated Selector
+
+For a first-pass shortlist, run the selector script from the vault root:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\select-vault-style.ps1 -Brief "Premium B2B analytics dashboard with login, pricing, integrations, and contacts" -ProjectPath <target-repo> -OutputPath <target-repo>\VAULT_SELECTION.generated.md
+```
+
+Use the generated report as a starting point, then manually verify the selected folders against the target product. The selector is allowed to rank candidates; the builder is still responsible for reading the selected files deeply and adapting the design without copying protected assets.
+
 ## Scoring
 
 Score each candidate style bundle out of 100.

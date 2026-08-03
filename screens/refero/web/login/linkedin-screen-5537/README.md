@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/46b3c61c-bd0b-4a20-a18a-b7614278d633
 - Refero search: https://refero.design/search?page_types[id][]=18&order=trending
 - Entity URL: https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

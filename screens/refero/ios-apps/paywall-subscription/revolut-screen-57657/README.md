@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/f2a5bf6d-e8d3-4cc4-99bd-acd8140eccdd
 - Refero search: https://refero.design/apps/search?page_types[id][]=13&order=trending
 - Entity URL: https://apps.apple.com/us/app/revolut-send-spend-and-save/id932493382?platform=iphone
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

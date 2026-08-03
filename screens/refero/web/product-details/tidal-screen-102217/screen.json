@@ -1,0 +1,97 @@
+{
+ "id": "102217",
+ "uuid": "b72f9a9a-fa04-4fdc-a1c6-3be63de2ec51",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 47,
+ "name": "Product Details",
+ "slug": "product-details"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Tidal",
+ "description": "High Fidelity Music Streaming",
+ "url": "https://listen.tidal.com/credits/3531604",
+ "iconUrl": "https://images.refero.design/favicon/tidal.com/0fb7bc8d-1927-4de3-9ffe-d641fb8dbaec.jpg",
+ "backgroundColor": "",
+ "id": "73"
+ },
+ "createdAt": "2024-12-24T10:32:39.769Z",
+ "referoViewUrl": "https://refero.design/view/b72f9a9a-fa04-4fdc-a1c6-3be63de2ec51",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=47\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=47",
+ "thumbnailUrl": "https://images.refero.design/screenshots/tidal.com/desktop/d3b4710c-b3d3-4dd5-9de1-d4bf029e72a6_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/tidal.com/desktop/d3b4710c-b3d3-4dd5-9de1-d4bf029e72a6_preview.jpg",
+ "imageUrls": "https://images.refero.design/screenshots/tidal.com/desktop/d3b4710c-b3d3-4dd5-9de1-d4bf029e72a6/0.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#202022",
+ "rgb": [
+ 32,
+ 32,
+ 34
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#fafafa",
+ "rgb": [
+ 250,
+ 250,
+ 250
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#444344",
+ "rgb": [
+ 68,
+ 67,
+ 68
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#3b3b3c",
+ "rgb": [
+ 59,
+ 59,
+ 60
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#090909",
+ "rgb": [
+ 9,
+ 9,
+ 9
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Audio Player",
+ "Mini Player"
+ ],
+ "pageElements": [
+ "List",
+ "Button",
+ "Tabs",
+ "Full-Screen Overlay",
+ "Search Field",
+ "Photo",
+ "Icon",
+ "Thumbnail"
+ ],
+ "pageTypes": "Product Details",
+ "fonts": [
+ "Lucida Grande",
+ "Nationale"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

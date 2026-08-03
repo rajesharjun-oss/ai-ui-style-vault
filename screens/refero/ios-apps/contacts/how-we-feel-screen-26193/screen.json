@@ -1,0 +1,89 @@
+{
+ "id": "26193",
+ "uuid": "d1ec8e93-e2fe-48ac-99ff-96644948c9b2",
+ "source": "Refero",
+ "channel": "ios-apps",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "iOS app",
+ "name": "How We Feel",
+ "description": "An emotional wellbeing journal",
+ "url": "https://apps.apple.com/us/app/how-we-feel/id1562706384",
+ "iconUrl": "https://images.refero.design/favicon/app_14/87902e6b-9a6a-42c9-82e4-e8fe9dbf20a8.jpg",
+ "backgroundColor": "39c67f",
+ "id": "14"
+ },
+ "createdAt": "2023-04-25T18:39:29.313Z",
+ "referoViewUrl": "https://refero.design/view/d1ec8e93-e2fe-48ac-99ff-96644948c9b2",
+ "referoSearchUrl": "https://refero.design/apps/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search/apps?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/14/mobile/567a5711-116a-48ef-87b1-46c7a3585551_thumb.jpg",
+ "previewUrl": "",
+ "imageUrls": "https://images.refero.design/screenshots/14/mobile/567a5711-116a-48ef-87b1-46c7a3585551.jpg",
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": true,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#e9e9e9",
+ "rgb": [
+ 233,
+ 233,
+ 233
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#1c1c1c",
+ "rgb": [
+ 28,
+ 28,
+ 28
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#5a5a5b",
+ "rgb": [
+ 90,
+ 90,
+ 91
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#504fbf",
+ "rgb": [
+ 80,
+ 79,
+ 191
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#848484",
+ "rgb": [
+ 132,
+ 132,
+ 132
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "List",
+ "Button"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": {
+
+ },
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

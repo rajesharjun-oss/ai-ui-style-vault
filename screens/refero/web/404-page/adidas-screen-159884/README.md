@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/0367aa23-bb28-4d66-b31c-fa74b1119aba
 - Refero search: https://refero.design/search?page_types[id][]=41&order=trending
 - Entity URL: https://www.adidas.com/us/hefgsdfgsdfglp/us-company-information/what-are-the-terms-and-conditions
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage

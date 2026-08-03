@@ -1,0 +1,105 @@
+{
+ "id": "19683",
+ "uuid": "b9145487-1e2e-474c-b011-ee63bf147d6c",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 36,
+ "name": "Media Kit",
+ "slug": "media-kit"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "MasterClass",
+ "description": "Online Classes",
+ "url": "https://www.masterclass.com/newsroom",
+ "iconUrl": "https://images.refero.design/favicon/masterclass.com/f182876e-3983-409a-b9ed-ba0a30907996.jpg",
+ "backgroundColor": "",
+ "id": "133"
+ },
+ "createdAt": "2023-03-25T14:22:30.358Z",
+ "referoViewUrl": "https://refero.design/view/b9145487-1e2e-474c-b011-ee63bf147d6c",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=36\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=36",
+ "thumbnailUrl": "https://images.refero.design/screenshots/masterclass.com/desktop/add39c6c-f47a-4f51-a787-8a00f7cf39a1_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/masterclass.com/desktop/568a184d-bb4c-4cd5-abc2-7bce4a5ea2b1_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/masterclass.com/desktop/add39c6c-f47a-4f51-a787-8a00f7cf39a1/0.jpg",
+ "https://images.refero.design/screenshots/masterclass.com/desktop/add39c6c-f47a-4f51-a787-8a00f7cf39a1/1.jpg",
+ "https://images.refero.design/screenshots/masterclass.com/desktop/add39c6c-f47a-4f51-a787-8a00f7cf39a1/2.jpg",
+ "https://images.refero.design/screenshots/masterclass.com/desktop/add39c6c-f47a-4f51-a787-8a00f7cf39a1/3.jpg",
+ "https://images.refero.design/screenshots/masterclass.com/desktop/add39c6c-f47a-4f51-a787-8a00f7cf39a1/4.jpg",
+ "https://images.refero.design/screenshots/masterclass.com/desktop/add39c6c-f47a-4f51-a787-8a00f7cf39a1/5.jpg",
+ "https://images.refero.design/screenshots/masterclass.com/desktop/add39c6c-f47a-4f51-a787-8a00f7cf39a1/6.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#61392a",
+ "rgb": [
+ 97,
+ 57,
+ 42
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#9d663c",
+ "rgb": [
+ 157,
+ 102,
+ 60
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#ebdabf",
+ "rgb": [
+ 235,
+ 218,
+ 191
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#b3202a",
+ "rgb": [
+ 179,
+ 32,
+ 42
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#b89385",
+ "rgb": [
+ 184,
+ 147,
+ 133
+ ]
+ }
+ ],
+ "designPatterns": [
+ "Upload \u0026 Download",
+ "Testimonials"
+ ],
+ "pageElements": [
+ "Button",
+ "Navigation Bar",
+ "Footer",
+ "Photo",
+ "Icon"
+ ],
+ "pageTypes": [
+ "Newsroom \u0026 Updates",
+ "Media Kit"
+ ],
+ "fonts": [
+ "Sohne",
+ "SA hne"
+ ],
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

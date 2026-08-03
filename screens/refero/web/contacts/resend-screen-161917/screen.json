@@ -1,0 +1,93 @@
+{
+ "id": "161917",
+ "uuid": "be3df201-cca4-4ab2-9817-f0df3cfaa039",
+ "source": "Refero",
+ "channel": "web",
+ "pageType": {
+ "id": 34,
+ "name": "Contacts",
+ "slug": "contacts"
+ },
+ "entity": {
+ "kind": "website",
+ "name": "Resend",
+ "description": "Email for developers",
+ "url": "https://resend.com/contact",
+ "iconUrl": "https://images.refero.design/favicon/resend.com/6d9253cf-e889-457f-9e50-e4cbb9b6a94b.jpg",
+ "backgroundColor": "",
+ "id": "844"
+ },
+ "createdAt": "2026-03-09T09:21:40.147Z",
+ "referoViewUrl": "https://refero.design/view/be3df201-cca4-4ab2-9817-f0df3cfaa039",
+ "referoSearchUrl": "https://refero.design/search?page_types[id][]=34\u0026order=trending",
+ "referoApiSearchUrl": "https://api.refero.design/v1/search?page_types[id][]=34",
+ "thumbnailUrl": "https://images.refero.design/screenshots/resend.com/desktop/09373ad0-686b-4fbf-989e-fc00397ec121_thumb.jpg",
+ "previewUrl": "https://images.refero.design/screenshots/resend.com/desktop/09373ad0-686b-4fbf-989e-fc00397ec121_preview.jpg",
+ "imageUrls": [
+ "https://images.refero.design/screenshots/resend.com/desktop/09373ad0-686b-4fbf-989e-fc00397ec121/0.jpg",
+ "https://images.refero.design/screenshots/resend.com/desktop/09373ad0-686b-4fbf-989e-fc00397ec121/1.jpg"
+ ],
+ "videoUrl": "",
+ "videoPreviewUrl": "",
+ "singleScreen": false,
+ "colors": [
+ {
+ "name": "screen-color-1",
+ "value": "#a7a7a8",
+ "rgb": [
+ 167,
+ 167,
+ 168
+ ]
+ },
+ {
+ "name": "screen-color-2",
+ "value": "#5d5e5f",
+ "rgb": [
+ 93,
+ 94,
+ 95
+ ]
+ },
+ {
+ "name": "screen-color-3",
+ "value": "#efefef",
+ "rgb": [
+ 239,
+ 239,
+ 239
+ ]
+ },
+ {
+ "name": "screen-color-4",
+ "value": "#040404",
+ "rgb": [
+ 4,
+ 4,
+ 4
+ ]
+ },
+ {
+ "name": "screen-color-5",
+ "value": "#14141b",
+ "rgb": [
+ 20,
+ 20,
+ 27
+ ]
+ }
+ ],
+ "designPatterns": {
+
+ },
+ "pageElements": [
+ "Button",
+ "Text Field",
+ "Navigation Bar",
+ "Footer",
+ "Icon"
+ ],
+ "pageTypes": "Contacts",
+ "fonts": "Inter",
+ "licenseStatus": "inspiration-only-unless-explicitly-licensed"
+}

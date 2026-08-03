@@ -10,7 +10,7 @@
 - Refero view: https://refero.design/view/382462bf-5211-4378-bf18-09fd57a1af7b
 - Refero search: https://refero.design/search?page_types[id][]=15&order=trending
 - Entity URL: https://studio.apollographql.com/org/stepan-smirnovs-team/usage
-- Captured on: 2026-07-29
+- Captured on: 2026-08-03
 - License status: inspiration-only-unless-explicitly-licensed
 
 ## AI Usage
