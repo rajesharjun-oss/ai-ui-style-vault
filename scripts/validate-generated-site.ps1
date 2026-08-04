@@ -74,6 +74,11 @@ $placeholderMarkerPattern = "\bPLACEHOLDER\b"
 $externalImagePattern = "(?i)<img[^>]+src\s*=\s*['""]https?://"
 $httpSrcPattern = "(?i)\bsrc\s*=\s*['""]https?://"
 $fixedOrStickyPattern = "(?i)position\s*:\s*(fixed|sticky)"
+$motionSignalPattern = "(?i)@keyframes|animation\s*:|transition\s*:|requestAnimationFrame|gsap|framer-motion|motion/react|lottie|rive|three\.js|ScrollTrigger|<video|autoplay|canvas"
+$reducedMotionPattern = "(?i)prefers-reduced-motion|useReducedMotion|reduced-motion"
+$autoplayPattern = "(?i)autoplay"
+$pauseControlPattern = "(?i)pause|controls|aria-label\s*=\s*['`"]pause|prefers-reduced-motion|useReducedMotion"
+$externalVideoPattern = "(?i)<video[^>]+src\s*=\s*['`"]https?://|<source[^>]+src\s*=\s*['`"]https?://"
 
 foreach ($file in $files) {
   $relative = Get-LocalRelativePath $root $file.FullName
@@ -101,6 +106,18 @@ foreach ($file in $files) {
 
   if ($file.Extension.ToLowerInvariant() -eq ".html" -and -not $AllowExternalImages -and $text -match $httpSrcPattern) {
     Add-Issue $warnings "External src attribute found in $relative. Verify it is not target-site media."
+  }
+
+  if ($text -match $motionSignalPattern -and $text -notmatch $reducedMotionPattern) {
+    Add-Issue $warnings "Motion signal found in $relative without obvious reduced-motion handling."
+  }
+
+  if ($text -match $autoplayPattern -and $text -notmatch $pauseControlPattern) {
+    Add-Issue $warnings "Autoplay signal found in $relative without obvious pause, controls, or reduced-motion handling."
+  }
+
+  if ($text -match $externalVideoPattern) {
+    Add-Issue $warnings "External video source found in $relative. Verify it is licensed/user-provided and not target-site footage."
   }
 }
 

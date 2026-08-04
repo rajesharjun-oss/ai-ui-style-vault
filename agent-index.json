@@ -1,6 +1,6 @@
 {
     "name":  "AI UI Style Vault Agent Index",
-    "generatedAt":  "2026-08-03",
+    "generatedAt":  "2026-08-04",
     "purpose":  "Machine-readable entry point for agents choosing and adapting UI references from this vault.",
     "entryPoints":  {
                         "humanReadme":  "README.md",
@@ -17,14 +17,26 @@
                         "sources":  "sources.json",
                         "vaultSelectionTemplate":  "templates/VAULT_SELECTION.md",
                         "generatedSiteValidator":  "scripts/validate-generated-site.ps1",
-                        "styleSelector":  "scripts/select-vault-style.ps1"
+                        "styleSelector":  "scripts/select-vault-style.ps1",
+                        "motionReadme":  "motion/README.md",
+                        "motionGuide":  "motion/LANDING_PAGE_MOTION_GUIDE.md",
+                        "motionCatalog":  "motion/motion-catalog.json",
+                        "motionReferences":  "motion/MOTION_REFERENCES.md",
+                        "motionSelector":  "scripts/select-motion-references.ps1",
+                        "motionCatalogGenerator":  "scripts/generate-motion-catalog.ps1",
+                        "motionCatalogValidator":  "scripts/validate-motion-catalog.ps1"
                     },
     "inventory":  {
                       "styleBundles":  520,
                       "screenReferences":  118,
                       "primaryStyleRoot":  "styles/refero-styles",
                       "screenReferenceRoot":  "screens/refero",
-                      "mediaPolicy":  "remote-links-only"
+                      "mediaPolicy":  "remote-links-only",
+                      "motionStyleReferences":  512,
+                      "highSignalMotionReferences":  34,
+                      "styleReferencesWithPreviewVideo":  346,
+                      "motionPatterns":  10,
+                      "motionReferenceRoot":  "motion"
                   },
     "selectionProtocol":  [
                               "Inspect the target repository and identify product type, audience, page needs, interaction density, tone, accessibility constraints, and styling stack.",
@@ -38,7 +50,8 @@
                               "Choose one primary style bundle, optional supporting style bundles only for clear gaps, and one screen reference per important page type.",
                               "Read the selected folders deeply before implementation.",
                               "Implement an original UI in the target repository using the selected tokens, rules, and page patterns.",
-                              "Run generated-site, visual, asset, responsive, and available project checks before handoff."
+                              "Run generated-site, visual, asset, responsive, and available project checks before handoff.",
+                              "For landing pages, motion graphics websites, cinematic hero sections, product tours, scroll stories, or animated UI, run scripts/select-motion-references.ps1 and read motion/LANDING_PAGE_MOTION_GUIDE.md before implementation."
                           ],
     "scoringWeights":  {
                            "productDomainFit":  25,
@@ -319,27 +332,33 @@
                                                "fitRationale":  "Short explanation tied to product type, audience, density, tone, and stack.",
                                                "adaptationPlan":  "Tokens, components, layout patterns, and states to implement.",
                                                "copyAssetPolicy":  "State that protected logos, screenshots, exact product copy, and proprietary layouts will not be copied.",
-                                               "selectionRecord":  "Create or update VAULT_SELECTION.md in the generated project or target repo before implementation. The automated selector may create VAULT_SELECTION.generated.md as the first draft."
+                                               "selectionRecord":  "Create or update VAULT_SELECTION.md in the generated project or target repo before implementation. The automated selector may create VAULT_SELECTION.generated.md as the first draft.",
+                                               "motionSelection":  "For landing pages or motion-heavy sites, list selected motion references, motion patterns, implementation resources, and reduced-motion plan."
                                            },
     "requiredBuildArtifacts":  [
                                    "VAULT_SELECTION.md, VAULT_SELECTION.generated.md, or equivalent filled selection record",
                                    "Visual QA evidence or notes for desktop and mobile",
                                    "Asset audit result",
                                    "Available lint, typecheck, test, and build results",
-                                   "Localhost URL when the user asks to see the build locally"
+                                   "Localhost URL when the user asks to see the build locally",
+                                   "MOTION_SELECTION.md, MOTION_SELECTION.generated.md, or motion notes when the build uses landing-page motion or motion graphics"
                                ],
     "requiredGeneratedSiteChecks":  [
                                         "No hotlinked target-site images or copied protected media",
                                         "No placeholder, lorem ipsum, TODO-heavy UI, or console debugging",
                                         "Headers and sticky elements do not cover headings, forms, cards, or anchor targets",
                                         "Forms, fieldsets, labels, legends, focus states, and text wrapping are visually checked",
-                                        "Desktop and mobile layouts have no obvious overlap"
+                                        "Desktop and mobile layouts have no obvious overlap",
+                                        "Reduced-motion behavior checked for autoplay, scroll scenes, video, canvas, and looping animation",
+                                        "Motion performance checked for mobile, layout shift, and unreadable animated text"
                                     ],
     "safetyRules":  [
                         "Use references as inspiration for original implementation unless a source explicitly grants reuse rights.",
                         "Do not vendor screenshots, videos, logos, or brand assets without permission.",
                         "Do not clone a protected brand or page pixel-for-pixel.",
                         "Preserve token logic, spacing rhythm, mood, component behavior, and page-type structure when useful.",
-                        "Tailor information architecture, copy, navigation, feature hierarchy, responsiveness, and accessibility to the target product."
+                        "Tailor information architecture, copy, navigation, feature hierarchy, responsiveness, and accessibility to the target product.",
+                        "Do not copy reference-site animation sequences, videos, product footage, or proprietary brand motion.",
+                        "Use owned, generated, user-provided, or clearly licensed motion assets only."
                     ]
 }

@@ -21,6 +21,19 @@ Supporting references:
 - Path:
 - Page or interaction purpose:
 
+## Motion References
+
+Use this section for landing pages, animated product tours, cinematic heroes, scroll stories, motion graphics websites, WebGL, Lottie, Rive, GSAP, or motion-heavy UI.
+
+- Motion selector used:
+- Primary motion model:
+- Selected motion references:
+- Selected motion patterns:
+- Libraries or platform APIs:
+- Assets to use:
+- Reduced-motion plan:
+- Motion QA notes:
+
 ## Adaptation Plan
 
 - Color and theme:

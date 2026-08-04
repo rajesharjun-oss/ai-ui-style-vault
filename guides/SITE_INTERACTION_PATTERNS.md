@@ -2,6 +2,8 @@
 
 Use this guide when a website needs richer navigation or a stronger first screen than a static hero. These patterns were added from observed public website behavior and user-provided screenshots, then generalized for original vault-led builds.
 
+For landing pages, animated product tours, cinematic heroes, scroll stories, or motion graphics websites, also run `scripts/select-motion-references.ps1` and read `motion/LANDING_PAGE_MOTION_GUIDE.md` before implementation.
+
 ## Pattern: Rotating Editorial Hero
 
 Use when:

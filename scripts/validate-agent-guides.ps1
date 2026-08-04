@@ -1,4 +1,5 @@
 $ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
 
 $root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 
@@ -13,6 +14,13 @@ $requiredFiles = @(
   "agent-index.json",
   "catalog.json",
   "screen-catalog.json",
+  "motion/README.md",
+  "motion/LANDING_PAGE_MOTION_GUIDE.md",
+  "motion/MOTION_REFERENCES.md",
+  "motion/motion-catalog.json",
+  "scripts/generate-motion-catalog.ps1",
+  "scripts/select-motion-references.ps1",
+  "scripts/validate-motion-catalog.ps1",
   "sources.json"
 )
 
@@ -33,6 +41,7 @@ if ($missing.Count -gt 0) {
 $agentIndex = Get-Content -LiteralPath (Join-Path $root "agent-index.json") -Raw | ConvertFrom-Json
 $catalog = Get-Content -LiteralPath (Join-Path $root "catalog.json") -Raw | ConvertFrom-Json
 $screenCatalog = Get-Content -LiteralPath (Join-Path $root "screen-catalog.json") -Raw | ConvertFrom-Json
+$motionCatalog = Get-Content -LiteralPath (Join-Path $root "motion/motion-catalog.json") -Raw | ConvertFrom-Json
 $sources = Get-Content -LiteralPath (Join-Path $root "sources.json") -Raw | ConvertFrom-Json
 
 if ($agentIndex.inventory.styleBundles -ne $catalog.totalStyles) {
@@ -44,6 +53,12 @@ if ($agentIndex.inventory.styleBundles -ne $catalog.totalStyles) {
 if ($agentIndex.inventory.screenReferences -ne $screenCatalog.totalScreenReferences) {
   Write-Host "VALIDATION=FAIL"
   Write-Host "SCREEN_COUNT_MISMATCH agent-index.json=$($agentIndex.inventory.screenReferences) screen-catalog.json=$($screenCatalog.totalScreenReferences)"
+  exit 1
+}
+
+if ($agentIndex.inventory.motionStyleReferences -ne $motionCatalog.totals.styleReferences) {
+  Write-Host "VALIDATION=FAIL"
+  Write-Host "MOTION_COUNT_MISMATCH agent-index.json=$($agentIndex.inventory.motionStyleReferences) motion-catalog.json=$($motionCatalog.totals.styleReferences)"
   exit 1
 }
 
@@ -61,7 +76,14 @@ $requiredEntryPoints = @(
   "webToolDesignMatrix",
   "generatedSiteValidator",
   "styleCatalog",
-  "screenCatalog"
+  "screenCatalog",
+  "motionReadme",
+  "motionGuide",
+  "motionCatalog",
+  "motionReferences",
+  "motionSelector",
+  "motionCatalogGenerator",
+  "motionCatalogValidator"
 )
 
 foreach ($entryPoint in $requiredEntryPoints) {
@@ -74,5 +96,6 @@ foreach ($entryPoint in $requiredEntryPoints) {
 
 Write-Host "TOTAL_STYLES=$($catalog.totalStyles)"
 Write-Host "TOTAL_SCREEN_REFERENCES=$($screenCatalog.totalScreenReferences)"
+Write-Host "TOTAL_MOTION_REFERENCES=$($motionCatalog.totals.styleReferences)"
 Write-Host "AGENT_GUIDES=PASS"
 Write-Host "VALIDATION=PASS"

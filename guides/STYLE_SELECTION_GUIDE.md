@@ -92,6 +92,14 @@ Use screen references for:
 - Mobile app screen behavior
 - Product detail or catalog composition
 
+## Motion Pairing
+
+Use `motion/motion-catalog.json`, `motion/MOTION_REFERENCES.md`, and `motion/LANDING_PAGE_MOTION_GUIDE.md` when the target needs a landing page, cinematic hero, animated product tour, scroll story, motion graphics website, WebGL section, Lottie/Rive animation, or rich microinteractions.
+
+Style references provide the look: color, typography, spacing, components, density, and mood. Motion references provide the choreography: entry timing, scroll behavior, hero transitions, product-state animation, library choice, and reduced-motion fallback.
+
+Do not copy a reference site's exact videos, animation files, timing sequence, product footage, or branded motion identity. Build original motion from the target product and owned, generated, user-provided, or clearly licensed assets.
+
 ## Combining References
 
 Use one primary style. Add supporting references only for a concrete reason.

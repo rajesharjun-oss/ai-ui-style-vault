@@ -2,19 +2,21 @@
 
 A curated, repo-friendly library of UI style references for AI-assisted implementation.
 
-This vault stores public source links, source-derived design notes, tokens, component guidance, screen-reference metadata, and ready-to-paste implementation prompts. It is meant to help Codex or another AI builder create original interfaces with a clear visual direction, without copying protected brand assets or proprietary layouts.
+This vault stores public source links, source-derived design notes, tokens, component guidance, screen-reference metadata, motion guidance, and ready-to-paste implementation prompts. It is meant to help Codex or another AI builder create original interfaces with a clear visual direction, without copying protected brand assets, proprietary layouts, screenshots, videos, or logos.
 
-Current contents: 520 Refero Styles bundles and 118 Refero screen references.
+Current contents: 520 Refero Styles bundles, 118 Refero screen references, and 512 motion references.
 
 ## Quick Use
 
 1. If an AI agent is choosing a design for a target repo, start with [AGENTS.md](AGENTS.md), [agent-index.json](agent-index.json), [guides/AGENT_USAGE.md](guides/AGENT_USAGE.md), and [guides/AGENT_BUILD_CHECKLIST.md](guides/AGENT_BUILD_CHECKLIST.md).
-2. For an automated first pass, run `scripts/select-vault-style.ps1` with a brief and optional `-ProjectPath`; it writes a `VAULT_SELECTION.generated.md` report.
-3. Open [CAPTURED_STYLES.md](CAPTURED_STYLES.md), [SCREEN_REFERENCES.md](SCREEN_REFERENCES.md), [catalog.json](catalog.json), or [screen-catalog.json](screen-catalog.json).
-4. For a full visual system, choose a folder under `styles/refero-styles/<style-slug>/` and give the AI builder `implementation-prompt.md` plus the `tokens/` and `code/` folders.
-5. For a specific page type, choose a folder under `screens/refero/<channel>/<page-type>/<screen-slug>/` and give the AI builder `implementation-prompt.md`, `screen.json`, and the linked screenshot references.
-6. Copy [templates/VAULT_SELECTION.md](templates/VAULT_SELECTION.md) into the generated project and fill it before implementation.
-7. Use every bundle as inspiration for an original UI. Do not copy logos, brand assets, screenshots, product copy, or proprietary layouts.
+2. For an automated visual first pass, run `scripts/select-vault-style.ps1` with a brief and optional `-ProjectPath`; it writes a `VAULT_SELECTION.generated.md` report.
+3. For landing pages, cinematic sites, product tours, scroll stories, or motion graphics websites, run `scripts/select-motion-references.ps1`; it writes a `MOTION_SELECTION.generated.md` report.
+4. Open [CAPTURED_STYLES.md](CAPTURED_STYLES.md), [SCREEN_REFERENCES.md](SCREEN_REFERENCES.md), [motion/MOTION_REFERENCES.md](motion/MOTION_REFERENCES.md), [catalog.json](catalog.json), [screen-catalog.json](screen-catalog.json), or [motion/motion-catalog.json](motion/motion-catalog.json).
+5. For a full visual system, choose a folder under `styles/refero-styles/<style-slug>/` and give the AI builder `implementation-prompt.md` plus the `tokens/` and `code/` folders.
+6. For a specific page type, choose a folder under `screens/refero/<channel>/<page-type>/<screen-slug>/` and give the AI builder `implementation-prompt.md`, `screen.json`, and the linked screenshot references.
+7. For professional motion, pair the selected visual style with [motion/LANDING_PAGE_MOTION_GUIDE.md](motion/LANDING_PAGE_MOTION_GUIDE.md), selected motion patterns, and official implementation resources listed in the motion catalog.
+8. Copy [templates/VAULT_SELECTION.md](templates/VAULT_SELECTION.md) into the generated project and fill it before implementation.
+9. Use every bundle as inspiration for an original UI. Do not copy logos, brand assets, screenshots, videos, product copy, animation sequences, or proprietary layouts.
 
 ## Agent-Ready Selection
 
@@ -24,22 +26,28 @@ This repo is organized so an AI builder can inspect a target GitHub repository, 
 - [agent-index.json](agent-index.json): machine-readable entry point, scoring weights, archetypes, and output contract.
 - [guides/AGENT_USAGE.md](guides/AGENT_USAGE.md): full workflow for using the vault with a target repo.
 - [guides/AGENT_BUILD_CHECKLIST.md](guides/AGENT_BUILD_CHECKLIST.md): required build, asset, and visual QA gates for vault-led implementations.
-- [guides/STYLE_SELECTION_GUIDE.md](guides/STYLE_SELECTION_GUIDE.md): scoring method and reading order for style and screen folders.
+- [guides/STYLE_SELECTION_GUIDE.md](guides/STYLE_SELECTION_GUIDE.md): scoring method and reading order for style, screen, and motion folders.
 - [guides/WEB_TOOL_DESIGN_MATRIX.md](guides/WEB_TOOL_DESIGN_MATRIX.md): product archetypes mapped to useful starting points.
 - [guides/SITE_INTERACTION_PATTERNS.md](guides/SITE_INTERACTION_PATTERNS.md): reusable website patterns for rotating heroes, mega menus, brand grids, split utility menus, and icon category drawers.
+- [motion/README.md](motion/README.md): entry point for landing-page motion and motion graphics website guidance.
+- [motion/LANDING_PAGE_MOTION_GUIDE.md](motion/LANDING_PAGE_MOTION_GUIDE.md): professional motion strategy, patterns, library choices, performance rules, accessibility, and QA guidance.
+- [motion/motion-catalog.json](motion/motion-catalog.json): machine-readable motion references, patterns, official implementation resources, and media policy.
+- [motion/MOTION_REFERENCES.md](motion/MOTION_REFERENCES.md): human-readable motion-heavy style shortlist.
 - [scripts/select-vault-style.ps1](scripts/select-vault-style.ps1): automated first-pass selector that writes a `VAULT_SELECTION.generated.md` report from a brief and optional project path.
+- [scripts/select-motion-references.ps1](scripts/select-motion-references.ps1): automated first-pass motion selector that writes a `MOTION_SELECTION.generated.md` report.
 
 Recommended agent behavior:
 
-1. Inspect the target repo and identify product type, audience, page needs, density, tone, and stack.
-2. Run `scripts/select-vault-style.ps1` for a first-pass shortlist, then review it manually.
-3. Shortlist styles from `catalog.json`.
-4. Shortlist page references from `screen-catalog.json`.
-5. Choose one primary style bundle and page-specific screen references.
-6. Create a `VAULT_SELECTION.md` record from the template or review the generated selector report.
-7. Read the selected folders deeply.
-8. Implement an original UI using the target repo's conventions.
-9. Run the visual and asset QA gates before handoff.
+1. Inspect the target repo and identify product type, audience, page needs, density, tone, stack, and motion needs.
+2. Run `scripts/select-vault-style.ps1` for a first-pass visual shortlist, then review it manually.
+3. When the build is a landing page, motion-heavy site, cinematic hero, product tour, scroll story, or animated UI, run `scripts/select-motion-references.ps1` and read `motion/LANDING_PAGE_MOTION_GUIDE.md`.
+4. Shortlist styles from `catalog.json`.
+5. Shortlist page references from `screen-catalog.json`.
+6. Choose one primary style bundle, page-specific screen references, and motion patterns only where they help the product communicate.
+7. Create a `VAULT_SELECTION.md` record from the template or review the generated selector report.
+8. Read the selected folders deeply.
+9. Implement an original UI using the target repo's conventions.
+10. Run the visual, asset, motion, accessibility, and project checks before handoff.
 
 ## Style Bundle Contents
 
@@ -66,6 +74,17 @@ Each Refero screen reference includes:
 - `code/`: CSS variables and design tokens JSON derived from the screen metadata.
 - `screenshots/README.md`: remote image/video URLs only; no vendored media.
 
+## Motion Contents
+
+The motion layer helps agents build professional landing pages and motion graphics websites without guessing choreography or copying another site's animation.
+
+- `motion/README.md`: how to use the motion layer.
+- `motion/LANDING_PAGE_MOTION_GUIDE.md`: motion models, patterns, library choice, timing tokens, reduced-motion contract, and QA rules.
+- `motion/motion-catalog.json`: 512 motion-relevant style references, 34 high-signal motion systems, 346 references with preview video links, 10 motion patterns, and official implementation-resource links.
+- `motion/MOTION_REFERENCES.md`: scan-friendly shortlist for motion-heavy styles and patterns.
+
+Use motion references as choreography guidance only. Build original animation from the target product, user-provided assets, generated assets, owned assets, or clearly licensed media.
+
 ## Repository Structure
 
 ```text
@@ -84,14 +103,22 @@ ai-ui-style-vault/
     SITE_INTERACTION_PATTERNS.md
     STYLE_SELECTION_GUIDE.md
     WEB_TOOL_DESIGN_MATRIX.md
+  motion/
+    README.md
+    LANDING_PAGE_MOTION_GUIDE.md
+    MOTION_REFERENCES.md
+    motion-catalog.json
   scripts/
     capture-autonomous-refero-batch.ps1
     capture-refero-style-ids.ps1
     generate-catalog.ps1
+    generate-motion-catalog.ps1
     generate-refero-screen-references.ps1
+    select-motion-references.ps1
     select-vault-style.ps1
     validate-generated-site.ps1
     validate-agent-guides.ps1
+    validate-motion-catalog.ps1
     validate-screen-references.ps1
     validate-vault.ps1
   styles/
@@ -140,7 +167,19 @@ powershell -ExecutionPolicy Bypass -File .\scripts\capture-refero-style-ids.ps1 
 Generate a first-pass vault selection report for a target repo or brief:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\select-vault-style.ps1 -Brief "Premium SaaS dashboard with login, pricing, integrations, and contact pages" -ProjectPath <target-repo> -OutputPath <target-repo>\VAULT_SELECTION.generated.md
+powershell -ExecutionPolicy Bypass -File .\scripts\select-vault-style.ps1 -Brief "Premium B2B analytics dashboard with login, pricing, integrations, and contacts" -ProjectPath <target-repo> -OutputPath <target-repo>\VAULT_SELECTION.generated.md
+```
+
+Generate motion references from the captured style catalog:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\generate-motion-catalog.ps1
+```
+
+Generate a first-pass motion selection report for a target repo or brief:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\select-motion-references.ps1 -Brief "Cinematic SaaS landing page with scroll product story and animated product tour" -ProjectPath <target-repo> -OutputPath <target-repo>\MOTION_SELECTION.generated.md
 ```
 
 Generate screen references from downloaded public Refero search JSON files:
@@ -154,6 +193,7 @@ Validate before committing:
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-vault.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-screen-references.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\validate-motion-catalog.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-agent-guides.ps1
 ```
 
@@ -172,20 +212,25 @@ Save:
 - Public media references as links.
 - License and usage notes where available.
 - Page type, component, font, palette, and app/site metadata useful for AI implementation.
+- Motion model, animation signals, motion patterns, official implementation docs, and reduced-motion notes.
 
 Avoid:
 
 - Bypassing sign-in, paywalls, CAPTCHA, robots restrictions, or anti-abuse systems.
 - Republishing paid or proprietary asset libraries.
-- Downloading and vendoring screenshots, logos, videos, or brand assets without permission.
+- Downloading and vendoring screenshots, logos, videos, animation files, or brand assets without permission.
+- Copying reference-site animation sequences or proprietary brand motion.
 - Treating inspiration-only material as reusable licensed code.
 
 ## Suggested AI Prompt
 
 ```text
 Use the selected vault folder as visual direction for an original implementation.
-Preserve the mood, spacing, rhythm, page-type intent, and token logic, but do not copy protected logos,
-brand assets, exact text, screenshots, or proprietary layouts.
+Preserve the mood, spacing, rhythm, page-type intent, token logic, and useful motion attitude, but do not copy protected logos,
+brand assets, exact text, screenshots, videos, animation sequences, or proprietary layouts.
+
+For landing pages or motion-heavy sites, also run the motion selector, read the motion guide,
+choose a small set of motion patterns, and implement reduced-motion fallbacks.
 
 Build production-quality UI with responsive layout, accessibility, loading, empty, and error states,
 server-side authorization where relevant, and clean implementation notes.

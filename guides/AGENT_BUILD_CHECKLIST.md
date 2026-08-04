@@ -50,6 +50,7 @@ Review these problem areas:
 - Cards and panels: no nested-card clutter, accidental clipping, or text escaping the container.
 - Forms: labels, legends, checkboxes, selects, textareas, errors, and buttons must have clear spacing and focus states.
 - Media: images must render, crop intentionally, and not obscure important content.
+- Motion: autoplay, video, scroll scenes, canvas, and looping animation must have reduced-motion behavior and must not make text unreadable.
 - Mobile menu: must open, close, and not trap the page in a broken state.
 - Footer: should not overlap content and should keep useful navigation visible.
 
@@ -60,6 +61,7 @@ Generated builds must pass this policy unless the user explicitly supplies asset
 - Do not vendor or hotlink protected logos, screenshots, videos, or product photography from the target business site.
 - Do not use external image URLs from the business domain as `img src`.
 - Use original generated assets, user-provided assets, locally owned assets, or clearly licensed media.
+- Do not copy exact reference-site animation sequences, videos, product footage, or proprietary brand motion.
 - Keep public source links in research notes, not as copied design assets.
 
 Useful checks:
@@ -110,8 +112,9 @@ Do not hand off as complete when any of these are true:
 
 - No vault reference was selected.
 - No `VAULT_SELECTION.md` or equivalent selection record exists.
-- The build hotlinks or vendors target-site images without permission.
+- The build hotlinks or vendors target-site images, videos, or animation files without permission.
 - A fixed or sticky header covers content.
 - A form label or legend is clipped.
 - Desktop or mobile layout has obvious overlap.
+- Motion makes text unreadable, causes layout shift, ignores reduced-motion preferences, or blocks core content.
 - The build contains placeholder-only sections, lorem ipsum, TODO-heavy UI, or console debugging.

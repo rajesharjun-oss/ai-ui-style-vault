@@ -79,6 +79,32 @@
                                                      "tags",
                                                      "AI usage notes"
                                                  ]
+                    },
+                    {
+                        "name":  "Motion Implementation Resources",
+                        "slug":  "motion-implementation-resources",
+                        "url":  "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations",
+                        "captureMode":  "official-documentation-reference",
+                        "defaultLicenseStatus":  "documentation-links-only",
+                        "recommendedArtifacts":  [
+                                                     "CSS animation documentation link",
+                                                     "Motion for React documentation link",
+                                                     "GSAP documentation link",
+                                                     "LottieFiles runtime documentation link",
+                                                     "Rive runtime documentation link",
+                                                     "Three.js documentation link",
+                                                     "Anime.js documentation link",
+                                                     "reduced-motion guidance notes"
+                                                 ],
+                        "implementationResourceLinks":  [
+                                                            "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations",
+                                                            "https://motion.dev/docs/react-quick-start",
+                                                            "https://gsap.com/docs/v3/",
+                                                            "https://docs.lottiefiles.com/en/runtimes/distributions/react",
+                                                            "https://rive.app/docs/runtimes/web/web-js",
+                                                            "https://threejs.org/docs/",
+                                                            "https://animejs.com/documentation/"
+                                                        ]
                     }
                 ]
 }
