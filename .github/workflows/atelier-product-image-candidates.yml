@@ -11,6 +11,7 @@ permissions:
 jobs:
   candidates:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/setup-python@v5
         with:
@@ -26,14 +27,12 @@ jobs:
 
           import io
           import json
-          import time
           import urllib.parse
+          from concurrent.futures import ThreadPoolExecutor, as_completed
           from pathlib import Path
 
           import requests
           from PIL import Image, ImageDraw, ImageFont, ImageOps
-          from requests.adapters import HTTPAdapter
-          from urllib3.util.retry import Retry
 
           products = [
               ("arc-desk-lamp", "a sculptural modern adjustable desk lamp in matte graphite metal, single product"),
@@ -52,53 +51,39 @@ jobs:
 
           root = Path("candidate-images")
           root.mkdir(parents=True, exist_ok=True)
-          manifest: list[dict] = []
-
-          session = requests.Session()
-          retry = Retry(
-              total=5,
-              connect=4,
-              read=4,
-              status=5,
-              backoff_factor=3,
-              status_forcelist=(408, 429, 500, 502, 503, 504),
-              allowed_methods=frozenset(["GET"]),
-              respect_retry_after_header=True,
-          )
-          session.mount("https://", HTTPAdapter(max_retries=retry))
-          session.headers.update({
-              "User-Agent": "Mozilla/5.0 (compatible; AtelierNorthProductAssetBuilder/1.0)",
-              "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
-          })
 
           style = (
-              "photorealistic premium ecommerce studio product photography, warm neutral limestone background, "
-              "soft directional daylight, subtle natural shadow, quiet luxury editorial styling, realistic materials, "
-              "object centred with generous negative space, vertical 4 by 5 composition, no text, no logo, no watermark, "
-              "no collage, no duplicate object, no hands"
+              "photorealistic premium ecommerce studio product photo, warm light beige seamless background, "
+              "soft daylight from the left, subtle natural floor shadow, realistic material detail, "
+              "single object centred, generous negative space, vertical product catalogue composition, "
+              "no text, no logo, no watermark, no collage, no duplicate, no hands"
           )
 
-          for index, (slug, subject) in enumerate(products, start=1):
+          def generate(item: tuple[int, str, str]) -> dict:
+              index, slug, subject = item
               prompt = f"{subject}; {style}"
               params = {
-                  "width": "900",
-                  "height": "1125",
-                  "seed": str(4100 + index * 97),
-                  "model": "flux",
+                  "width": "600",
+                  "height": "750",
+                  "seed": str(7100 + index * 113),
+                  "model": "turbo",
                   "nologo": "true",
-                  "enhance": "true",
-                  "private": "true",
+                  "enhance": "false",
                   "safe": "true",
               }
               url = "https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt, safe="") + "?" + urllib.parse.urlencode(params)
-              path = root / f"{slug}.jpg"
+              headers = {
+                  "User-Agent": "Mozilla/5.0 (compatible; AtelierNorthProductAssetBuilder/1.1)",
+                  "Accept": "image/*,*/*;q=0.8",
+              }
               try:
-                  response = session.get(url, timeout=240)
+                  response = requests.get(url, headers=headers, timeout=(20, 150))
                   response.raise_for_status()
                   image = Image.open(io.BytesIO(response.content)).convert("RGB")
                   image = ImageOps.fit(image, (900, 1125), method=Image.Resampling.LANCZOS)
+                  path = root / f"{slug}.jpg"
                   image.save(path, "JPEG", quality=91, optimize=True, progressive=True)
-                  manifest.append({
+                  return {
                       "slug": slug,
                       "subject": subject,
                       "prompt": prompt,
@@ -107,11 +92,18 @@ jobs:
                       "generator": "Pollinations image endpoint",
                       "path": str(path),
                       "size": image.size,
-                  })
+                  }
               except Exception as exc:
-                  manifest.append({"slug": slug, "subject": subject, "error": str(exc), "url": url})
-              time.sleep(3)
+                  return {"slug": slug, "subject": subject, "error": str(exc), "url": url}
 
+          indexed = [(index, slug, subject) for index, (slug, subject) in enumerate(products, start=1)]
+          manifest: list[dict] = []
+          with ThreadPoolExecutor(max_workers=4) as pool:
+              futures = [pool.submit(generate, item) for item in indexed]
+              for future in as_completed(futures):
+                  manifest.append(future.result())
+
+          manifest.sort(key=lambda item: [slug for slug, _ in products].index(item["slug"]))
           (root / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
 
           cell_w, cell_h = 240, 300
@@ -140,6 +132,7 @@ jobs:
           PY
 
       - name: Upload generated product assets
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: atelier-product-image-candidates
