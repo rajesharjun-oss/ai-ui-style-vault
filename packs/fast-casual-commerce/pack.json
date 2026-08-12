@@ -1,0 +1,82 @@
+{
+  "id": "fast-casual-commerce",
+  "name": "Fast-Casual Commerce",
+  "version": "1.0.0",
+  "status": "production-guidance",
+  "purpose": "Provide a complete, original interaction and design system for branch-aware restaurant ordering, menu commerce, cart, checkout, loyalty, and order tracking.",
+  "requiredPrompt": "prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md",
+  "extends": [
+    "AGENTS.md",
+    "PRD.md",
+    "prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md",
+    "prompts/VISUAL_QA_AND_REVISION.md",
+    "system/component-manifest.json",
+    "system/motion-primitives.json"
+  ],
+  "productPrinciple": "The menu and ordering journey are the primary product. Marketing content must support discovery, confidence, and conversion without hiding products, prices, fulfilment, branch, availability, or cart status.",
+  "primaryJourneys": [
+    "branch or address selection",
+    "fulfilment selection",
+    "menu discovery",
+    "product configuration",
+    "cart review",
+    "checkout and payment",
+    "order confirmation",
+    "order tracking",
+    "deal redemption",
+    "loyalty earning and redemption"
+  ],
+  "requiredPlanningArtifacts": [
+    "BUSINESS_RESEARCH.md",
+    "ASSET_PLAN.md",
+    "VAULT_SELECTION.md",
+    "BUILD_CONTRACT.md",
+    "CONTENT_PLAN.md",
+    "COMMERCE_BUILD_CONTRACT.md",
+    "design-recipe.json"
+  ],
+  "productionTheme": "packs/fast-casual-commerce/production-theme.json",
+  "pageBlueprints": "packs/fast-casual-commerce/page-blueprints.json",
+  "componentManifest": "packs/fast-casual-commerce/component-manifest.json",
+  "stateVocabulary": "packs/fast-casual-commerce/state-vocabulary.json",
+  "contentGuide": "packs/fast-casual-commerce/content-and-merchandising.md",
+  "assetGuide": "packs/fast-casual-commerce/food-photography-standard.md",
+  "accessibilityGuide": "packs/fast-casual-commerce/accessibility-and-responsive.md",
+  "implementationPrompt": "packs/fast-casual-commerce/implementation-prompt.md",
+  "codeContracts": [
+    "packs/fast-casual-commerce/code/design-tokens.css",
+    "packs/fast-casual-commerce/code/commerce-types.ts",
+    "packs/fast-casual-commerce/code/cart-engine.ts"
+  ],
+  "templates": [
+    "packs/fast-casual-commerce/templates/design-recipe.example.json",
+    "packs/fast-casual-commerce/templates/VAULT_SELECTION.example.md",
+    "packs/fast-casual-commerce/templates/COMMERCE_BUILD_CONTRACT.md"
+  ],
+  "sampleData": "packs/fast-casual-commerce/sample-data/menu.sample.json",
+  "requiredCapabilities": [
+    "visible product names and prices",
+    "branch and fulfilment context",
+    "category navigation",
+    "availability and store status",
+    "product configuration",
+    "cart persistence",
+    "cart recalculation after context changes",
+    "checkout validation",
+    "order confirmation and recovery",
+    "mobile ordering",
+    "keyboard operation",
+    "reduced motion",
+    "truthful asset provenance"
+  ],
+  "rejectConditions": [
+    "menu hidden below a long marketing page",
+    "prices missing without a documented business reason",
+    "cart or checkout actions that do not work",
+    "unhandled out-of-stock, store-closed, delivery-zone, coupon, payment, or cart-recalculation states",
+    "inconsistent or repeated food photography",
+    "generated imagery presented as official photography",
+    "mobile customiser or checkout blocked by fixed elements",
+    "another food brand cloned in layout, assets, copy, or motion"
+  ]
+}

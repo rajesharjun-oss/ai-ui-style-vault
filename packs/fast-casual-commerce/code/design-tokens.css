@@ -1,0 +1,151 @@
+/*
+ * Fast-Casual Commerce reference tokens.
+ * Replace brand values in the target project after completing VAULT_SELECTION.md.
+ * The names encode purpose rather than a copied restaurant identity.
+ */
+
+:root {
+  color-scheme: light;
+
+  --commerce-font-sans: Inter, "Avenir Next", Avenir, "Segoe UI", system-ui, sans-serif;
+  --commerce-font-display: var(--commerce-font-sans);
+  --commerce-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --commerce-color-canvas: #fffaf4;
+  --commerce-color-surface: #ffffff;
+  --commerce-color-surface-subtle: #f7f1e9;
+  --commerce-color-surface-strong: #241d18;
+  --commerce-color-ink: #201a17;
+  --commerce-color-ink-muted: #6c625b;
+  --commerce-color-ink-inverse: #ffffff;
+  --commerce-color-border: #ded5cc;
+  --commerce-color-border-strong: #a99e95;
+  --commerce-color-action: #c43d2d;
+  --commerce-color-action-hover: #a93225;
+  --commerce-color-action-pressed: #8c2a20;
+  --commerce-color-action-soft: #f8ded8;
+  --commerce-color-accent: #e6a52e;
+  --commerce-color-accent-soft: #fff0c8;
+  --commerce-color-success: #26734d;
+  --commerce-color-success-soft: #ddf2e6;
+  --commerce-color-warning: #936000;
+  --commerce-color-warning-soft: #fff0c2;
+  --commerce-color-danger: #b3261e;
+  --commerce-color-danger-soft: #f9dedc;
+  --commerce-color-info: #275d86;
+  --commerce-color-info-soft: #e2eff8;
+  --commerce-color-focus: #1f6feb;
+  --commerce-color-scrim: rgb(20 16 13 / 54%);
+
+  --commerce-text-xs: 0.75rem;
+  --commerce-text-sm: 0.875rem;
+  --commerce-text-base: 1rem;
+  --commerce-text-lg: 1.125rem;
+  --commerce-text-xl: 1.375rem;
+  --commerce-text-2xl: 1.75rem;
+  --commerce-text-3xl: clamp(2rem, 4vw, 3.5rem);
+
+  --commerce-leading-tight: 1.1;
+  --commerce-leading-heading: 1.18;
+  --commerce-leading-body: 1.5;
+  --commerce-tracking-tight: -0.025em;
+  --commerce-tracking-normal: 0;
+  --commerce-tracking-label: 0.02em;
+
+  --commerce-weight-regular: 400;
+  --commerce-weight-medium: 500;
+  --commerce-weight-semibold: 600;
+  --commerce-weight-bold: 700;
+
+  --commerce-space-1: 0.25rem;
+  --commerce-space-2: 0.5rem;
+  --commerce-space-3: 0.75rem;
+  --commerce-space-4: 1rem;
+  --commerce-space-5: 1.25rem;
+  --commerce-space-6: 1.5rem;
+  --commerce-space-8: 2rem;
+  --commerce-space-10: 2.5rem;
+  --commerce-space-12: 3rem;
+  --commerce-space-16: 4rem;
+  --commerce-space-20: 5rem;
+
+  --commerce-radius-sm: 0.5rem;
+  --commerce-radius-md: 0.75rem;
+  --commerce-radius-lg: 1rem;
+  --commerce-radius-xl: 1.25rem;
+  --commerce-radius-pill: 999px;
+
+  --commerce-shadow-control: 0 1px 2px rgb(32 26 23 / 8%);
+  --commerce-shadow-card: 0 8px 24px rgb(32 26 23 / 8%);
+  --commerce-shadow-overlay: 0 24px 64px rgb(32 26 23 / 18%);
+
+  --commerce-control-compact: 2.5rem;
+  --commerce-control-default: 2.75rem;
+  --commerce-control-primary: 3rem;
+  --commerce-touch-target: 2.75rem;
+
+  --commerce-content-max: 90rem;
+  --commerce-reading-max: 42rem;
+  --commerce-product-image-ratio: 1 / 1;
+  --commerce-header-height: 4.5rem;
+  --commerce-category-height: 3.5rem;
+  --commerce-sticky-offset: calc(var(--commerce-header-height) + var(--commerce-category-height));
+
+  --commerce-motion-fast: 120ms;
+  --commerce-motion-base: 180ms;
+  --commerce-motion-slow: 280ms;
+  --commerce-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --commerce-ease-emphasized: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --commerce-safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --commerce-color-canvas: #171310;
+  --commerce-color-surface: #211b17;
+  --commerce-color-surface-subtle: #2a231e;
+  --commerce-color-surface-strong: #f6efe8;
+  --commerce-color-ink: #f8f2ec;
+  --commerce-color-ink-muted: #bdb2a9;
+  --commerce-color-ink-inverse: #201a17;
+  --commerce-color-border: #4a4039;
+  --commerce-color-border-strong: #71645b;
+  --commerce-color-action-soft: #5b241d;
+  --commerce-color-accent-soft: #493514;
+  --commerce-color-success-soft: #163c2a;
+  --commerce-color-warning-soft: #49320c;
+  --commerce-color-danger-soft: #4b1d1a;
+  --commerce-color-info-soft: #173249;
+  --commerce-color-scrim: rgb(0 0 0 / 68%);
+}
+
+.commerce-focus-ring:focus-visible {
+  outline: 3px solid var(--commerce-color-focus);
+  outline-offset: 3px;
+}
+
+.commerce-scroll-target {
+  scroll-margin-top: calc(var(--commerce-sticky-offset) + var(--commerce-space-4));
+}
+
+.commerce-sticky-action {
+  padding-bottom: calc(var(--commerce-space-4) + var(--commerce-safe-bottom));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .commerce-focus-ring:focus-visible {
+    outline: 2px solid CanvasText;
+  }
+}

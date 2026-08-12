@@ -1,6 +1,6 @@
 # AI Agent Instructions
 
-This repository is an AI-readable product-design and front-end engineering system. It is not a screenshot folder and it is not permission to clone another brand. Use it to produce original websites, web applications, dashboards, and app screens that feel deliberately designed, concise, accessible, responsive, and production-ready.
+This repository is an AI-readable product-design and front-end engineering system. It is not a screenshot folder and it is not permission to clone another brand. Use it to produce original websites, web applications, dashboards, commerce experiences, and app screens that feel deliberately designed, concise, accessible, responsive, and production-ready.
 
 ## Operating Model
 
@@ -14,16 +14,32 @@ Do not let one role overrule the others. A visually attractive screen with weak 
 
 ## Prompt Discovery and Routing
 
-Read `PROMPTS.md` and `prompts/prompt-index.json` before selecting a task prompt.
+Read `PROMPTS.md`, `prompts/prompt-index.json`, `PACKS.md`, and `packs/pack-index.json` before selecting a task prompt or domain pack.
 
 Use these prompts automatically:
 
-- New website for a real business: `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md`.
+- Restaurant, cafe, bakery, takeaway, delivery, menu, pickup, quick-service, fast-casual, or food-ordering commerce: `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` plus the Fast-Casual Commerce pack.
+- New website for another real business: `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md`.
 - Redesign or improvement of an existing business website: `prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md`.
 - After the first browser render of any website or application: `prompts/VISUAL_QA_AND_REVISION.md`.
 - General product interface work: `prompts/SENIOR_PRODUCT_TEAM_PROMPT.md`.
 
-Task prompts add task-specific requirements. They do not replace this file, `PRD.md`, or the required project contracts.
+The more specific route wins. A restaurant ordering request uses the restaurant-commerce prompt, the general business prompt, and visual QA. Task prompts and domain packs add requirements; they do not replace this file, `PRD.md`, or the required project contracts.
+
+## Domain Pack Discovery
+
+Domain packs live under `packs/` and are indexed by `packs/pack-index.json`.
+
+When a trigger matches:
+
+1. Read the selected pack's `pack.json`.
+2. Read every file in its `requiredReads` list.
+3. Add the pack to `VAULT_SELECTION.md` and `design-recipe.json`.
+4. Create any pack-specific contract before implementation.
+5. Use the pack's page blueprints, components, states, content rules, asset rules, code contracts, and QA requirements.
+6. Remove unsupported capabilities rather than inventing them.
+
+For restaurant and food-ordering products, the required pack is `packs/fast-casual-commerce/` and the required additional contract is `COMMERCE_BUILD_CONTRACT.md`.
 
 ## Mandatory Reading Order
 
@@ -31,21 +47,23 @@ Before implementation, read:
 
 1. `PRD.md`
 2. `PROMPTS.md`
-3. The task prompt selected by `prompts/prompt-index.json`
-4. `guides/SENIOR_PRODUCT_TEAM_PROTOCOL.md`
-5. `guides/CONTENT_DESIGN_SYSTEM.md`
-6. `guides/INFORMATION_ARCHITECTURE_AND_PAGE_COMPOSITION.md`
-7. `guides/FRONTEND_IMPLEMENTATION_STANDARD.md`
-8. `guides/COMPONENT_AND_STATE_STANDARD.md`
-9. `guides/ANTI_GENERIC_AI_UI_CHECKLIST.md`
-10. `guides/AGENT_USAGE.md`
-11. `guides/AGENT_BUILD_CHECKLIST.md`
-12. `agent-index.json`
-13. `system/page-blueprints.json`
-14. `system/component-manifest.json`
-15. `system/motion-primitives.json`
-16. `system/production-theme-archetypes.json`
-17. `catalog.json`, `screen-catalog.json`, and motion catalogs as needed
+3. `PACKS.md`
+4. The task prompt selected by `prompts/prompt-index.json`
+5. The domain pack selected by `packs/pack-index.json`, including every required read
+6. `guides/SENIOR_PRODUCT_TEAM_PROTOCOL.md`
+7. `guides/CONTENT_DESIGN_SYSTEM.md`
+8. `guides/INFORMATION_ARCHITECTURE_AND_PAGE_COMPOSITION.md`
+9. `guides/FRONTEND_IMPLEMENTATION_STANDARD.md`
+10. `guides/COMPONENT_AND_STATE_STANDARD.md`
+11. `guides/ANTI_GENERIC_AI_UI_CHECKLIST.md`
+12. `guides/AGENT_USAGE.md`
+13. `guides/AGENT_BUILD_CHECKLIST.md`
+14. `agent-index.json`
+15. `system/page-blueprints.json`
+16. `system/component-manifest.json`
+17. `system/motion-primitives.json`
+18. `system/production-theme-archetypes.json`
+19. `catalog.json`, `screen-catalog.json`, and motion catalogs as needed
 
 ## No-Code-Before-Contract Rule
 
@@ -61,30 +79,36 @@ For a real business website, also create:
 - `BUSINESS_RESEARCH.md`
 - `ASSET_PLAN.md` when imagery, video, illustration, or 3D is involved
 
-Use `scripts/initialize-vault-project.py` or `scripts/initialize-vault-project.ps1` to create the core files in a target repository.
+For transactional restaurant or food commerce, also create:
+
+- `COMMERCE_BUILD_CONTRACT.md`
+
+Use `scripts/initialize-vault-project.py` or `scripts/initialize-vault-project.ps1` to create the core files in a target repository. Copy pack-specific templates from the selected pack.
 
 The contract must identify:
 
 - Product, primary users, top tasks, risk level, and success outcome.
 - Page purpose and one primary action per page or major state.
 - Content-density mode and copy budgets.
-- Primary style, page references, motion model, and adaptation plan.
+- Primary style, page references, motion model, selected domain pack, and adaptation plan.
 - Component inventory and required states.
 - Responsive, accessibility, performance, and reduced-motion requirements.
 - What will be omitted, deferred, or disclosed progressively.
 - Verified business facts, assumptions, asset provenance, and owner-confirmation items when applicable.
+- Sources of truth, integrations, prototype-only capabilities, and recovery rules for transactional products.
 
 ## Product-Design Rules
 
 - Design around the user’s task, not around a template’s available sections.
 - Give every page one clear purpose and one primary action.
-- Prioritize the first viewport. It must explain what the product is, who it serves, the outcome, and the next action without an essay.
+- Prioritise the first viewport. It must explain what the product is, who it serves, the outcome, and the next action without an essay.
 - Use one primary visual system. Add supporting references only to solve a specific gap.
 - Prefer hierarchy, spacing, composition, product UI, data, diagrams, and interaction over additional paragraphs.
 - Define the complete journey: entry, loading, empty, error, success, permission, destructive, and recovery states.
 - Avoid card soup. Not every sentence belongs in a rounded card.
 - Do not invent sections to make a page longer.
 - For real businesses, make practical conversion information easy to find: location, hours, contact, pricing or price guidance, service modes, booking, ordering, or enquiry paths as relevant.
+- For commerce, treat browsing, configuration, cart, checkout, confirmation, and recovery as the primary product—not as a feature below a marketing page.
 
 ## Content-Design Rules
 
@@ -98,7 +122,8 @@ The contract must identify:
 - Do not use interchangeable AI phrases such as “revolutionize your workflow,” “unlock your potential,” “seamless and powerful,” or “take your business to the next level” unless a specific, evidenced statement replaces them.
 - Use concrete product and industry terminology. Prefer “Upload transaction schedules and review VAT exceptions” over “Transform your financial workflow.”
 - Application screens use task language, not marketing language.
-- Separate verified facts from assumptions. Do not invent business claims, prices, hours, addresses, capabilities, customers, awards, or reviews.
+- Separate verified facts from assumptions. Do not invent business claims, prices, hours, addresses, capabilities, customers, awards, reviews, service areas, availability, discounts, or delivery estimates.
+- Commerce interfaces keep product, price, availability, branch, fulfilment, cart status, fees, total, and next action explicit.
 
 ## Asset and Art-Direction Rules
 
@@ -110,6 +135,7 @@ The contract must identify:
 - Do not repeat one photograph across unrelated sections merely to fill space.
 - Use process imagery to prove process claims.
 - Prefer realistic product imagery for food, hospitality, retail, property, beauty, automotive, and other product-led businesses unless the brief explicitly requests an illustrative direction.
+- For food commerce, follow `packs/fast-casual-commerce/food-photography-standard.md` and reject cartoonish, mismatched, misleading, or low-resolution product imagery when a realistic brief is required.
 
 ## Front-End Engineering Rules
 
@@ -125,20 +151,22 @@ The contract must identify:
 - Avoid continuous layout animation of `top`, `left`, `width`, or `height`; prefer transform and opacity.
 - Account for sticky-header height in anchor navigation and test browser zoom.
 - Prevent horizontal overflow and define intentional mobile transformations rather than merely shrinking desktop layouts.
+- For commerce, revalidate price, availability, branch, address, fulfilment, promotion, fee, tax, payment, and order creation on the server. Use idempotency for payment and order submission.
 
 ## Style Selection Rule
 
-Pick one primary style bundle for global color, typography, spacing, shape, components, tone, and motion attitude. Pick screen references only for page-specific composition and behavior.
+Pick one primary style bundle for global colour, typography, spacing, shape, components, tone, and motion attitude. Pick screen references only for page-specific composition and behaviour. Add one domain pack when the product requires it.
 
 Before coding, state:
 
 - Primary style bundle and path.
+- Selected production theme and domain pack.
 - Supporting screen references and purpose.
-- Why the references match the product, audience, density, tone, and stack.
+- Why the references match the product, audience, density, tone, transaction model, and stack.
 - What will be adapted.
 - What will not be copied.
 
-Create an original interface. Do not copy protected logos, screenshots, videos, product copy, premium prompt text, exact animation sequences, or proprietary layouts.
+Create an original interface. Do not copy protected logos, screenshots, videos, product copy, premium prompt text, exact animation sequences, proprietary layouts, product catalogs, promotions, or checkout flows.
 
 ## Anti-Generic UI Rule
 
@@ -153,18 +181,21 @@ Reject and revise the design when it shows several of these signals without a pr
 - Excessive pill controls or 24–32px radii on every surface.
 - Generic feature icons and vague benefits.
 - Motion on every element or several animation libraries mixed together.
-- Desktop-only polish with weak mobile behavior.
+- Desktop-only polish with weak mobile behaviour.
 - Repeated imagery, inconsistent product photography, or decorative media unrelated to the claim.
+- Transactional features visually suggested but not implemented or clearly labelled as prototype.
 
-Use `guides/ANTI_GENERIC_AI_UI_CHECKLIST.md` and the validator before handoff.
+Use `guides/ANTI_GENERIC_AI_UI_CHECKLIST.md`, the selected pack, and the validators before handoff.
 
 ## Rendered Visual QA Rule
 
 A browser-rendered build is not complete from source-code inspection alone.
 
-After the first render, execute `prompts/VISUAL_QA_AND_REVISION.md`. Capture and inspect desktop, laptop, and mobile screenshots. Record findings, apply fixes, rebuild, and recapture affected views.
+After the first render, execute `prompts/VISUAL_QA_AND_REVISION.md`. Capture and inspect desktop, laptop, tablet when relevant, and mobile screenshots. Record findings, apply fixes, rebuild, and recapture affected views.
 
 Do not merely list visual problems. Correct them before handoff.
+
+For restaurant commerce, render the menu, product customiser, cart, checkout, confirmation, and the relevant store-closed, unavailable, cart-conflict, payment-failed, and mobile states.
 
 ## Localhost Truthfulness Rule
 
@@ -179,12 +210,13 @@ Before claiming completion:
 
 1. Run available lint, typecheck, tests, and build commands.
 2. Run `scripts/validate-content-design.py <target-root>`.
-3. Run `scripts/validate-generated-site.ps1 -SiteRoot <target-root>` when PowerShell is available.
-4. Inspect at least 1440×1000, 1280×800, and approximately 390×844.
-5. Verify keyboard flow, focus, forms, long content, mobile navigation, sticky elements, reduced motion, loading, empty, error, and success states.
-6. Confirm the build contains the required planning artifacts and no placeholders, copied media, hotlinked target assets, TODO-heavy UI, or console debugging.
-7. Summarize selected references, content decisions, asset decisions, implemented states, checks run, screenshots captured, and remaining risks.
-8. For real businesses, distinguish verified facts, provisional content, generated assets, licensed assets, and owner-confirmation items.
-9. Give truthful local or deployed access instructions.
+3. Run `scripts/validate-domain-packs.py` in the vault when a domain pack is selected.
+4. Run `scripts/validate-generated-site.ps1 -SiteRoot <target-root>` when PowerShell is available.
+5. Inspect at least 1440×1000, 1280×800, and approximately 390×844; add pack-specific viewports.
+6. Verify keyboard flow, focus, forms, long content, mobile navigation, sticky elements, reduced motion, loading, empty, error, and success states.
+7. Confirm the build contains the required planning artifacts and no placeholders, copied media, hotlinked target assets, TODO-heavy UI, or console debugging.
+8. Summarise selected references, pack, content decisions, asset decisions, implemented states, integrations, checks run, screenshots captured, and remaining risks.
+9. For real businesses, distinguish verified facts, provisional content, generated assets, licensed assets, owner-confirmation items, integrated functions, and prototype-only functions.
+10. Give truthful local or deployed access instructions.
 
 Do not hand off a page that is merely attractive. Hand off a coherent product experience.

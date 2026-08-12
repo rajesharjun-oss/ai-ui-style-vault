@@ -1,0 +1,57 @@
+{
+  "name": "AI UI Style Vault Domain Pack Index",
+  "version": "1.0.0",
+  "canonicalInstructions": "AGENTS.md",
+  "humanRouter": "PACKS.md",
+  "packs": [
+    {
+      "id": "fast-casual-commerce",
+      "name": "Fast-Casual Commerce",
+      "path": "packs/fast-casual-commerce",
+      "status": "production-guidance",
+      "requiredPrompt": "prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md",
+      "triggers": [
+        "restaurant",
+        "food ordering",
+        "online menu",
+        "takeaway",
+        "pickup",
+        "food delivery",
+        "quick service restaurant",
+        "fast casual",
+        "pizza ordering",
+        "cafe ordering",
+        "bakery ordering",
+        "multi branch food business",
+        "cart and checkout",
+        "loyalty programme",
+        "order tracking"
+      ],
+      "productTypes": [
+        "restaurant-commerce",
+        "food-delivery",
+        "quick-service-restaurant",
+        "fast-casual",
+        "cafe-commerce",
+        "bakery-commerce",
+        "multi-branch-food-retail"
+      ],
+      "requiredReads": [
+        "packs/fast-casual-commerce/pack.json",
+        "packs/fast-casual-commerce/production-theme.json",
+        "packs/fast-casual-commerce/page-blueprints.json",
+        "packs/fast-casual-commerce/component-manifest.json",
+        "packs/fast-casual-commerce/state-vocabulary.json",
+        "packs/fast-casual-commerce/content-and-merchandising.md",
+        "packs/fast-casual-commerce/food-photography-standard.md",
+        "packs/fast-casual-commerce/accessibility-and-responsive.md",
+        "packs/fast-casual-commerce/implementation-prompt.md"
+      ],
+      "templateRoot": "packs/fast-casual-commerce/templates",
+      "codeRoot": "packs/fast-casual-commerce/code",
+      "sampleDataRoot": "packs/fast-casual-commerce/sample-data",
+      "validationCommand": "python scripts/validate-domain-packs.py",
+      "copyPolicy": "Use commerce and interaction principles for an original implementation. Do not copy another restaurant's logo, photography, proprietary code, exact product copy, promotions, page composition, or checkout flow."
+    }
+  ]
+}

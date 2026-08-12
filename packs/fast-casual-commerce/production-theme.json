@@ -1,0 +1,69 @@
+{
+  "id": "fast-casual-commerce",
+  "name": "Fast-Casual Commerce",
+  "version": "1.0.0",
+  "purpose": "An original, conversion-focused visual and interaction direction for food ordering and multi-branch restaurant commerce.",
+  "bestFor": [
+    "restaurant ordering",
+    "quick-service restaurants",
+    "fast-casual brands",
+    "cafes and bakeries",
+    "food delivery",
+    "multi-branch food retail"
+  ],
+  "tone": [
+    "appetising",
+    "direct",
+    "friendly",
+    "fast",
+    "confident"
+  ],
+  "interfaceDensity": "high",
+  "contentDensity": "data-dense",
+  "radiusAttitude": "moderate",
+  "typographyAttitude": "clear commerce sans with compact product, price, and status hierarchy",
+  "colourAttitude": "neutral food canvas with one energetic brand action colour and restrained semantic status colours",
+  "surfaceAttitude": "clean catalog surfaces, minimal decorative chrome, selective elevation for active commerce objects",
+  "imageryAttitude": "consistent, realistic product photography with controlled lighting, angle, crop, and background",
+  "motionModel": "microinteraction-led",
+  "motionIntensity": "subtle",
+  "hierarchy": [
+    "branch and fulfilment context",
+    "category and product",
+    "price and availability",
+    "configuration",
+    "cart status and next action",
+    "secondary marketing and brand story"
+  ],
+  "coreMoves": [
+    "Keep product images, names, prices, and actions visible without requiring long reading.",
+    "Use sticky context sparingly for branch, fulfilment, categories, and cart.",
+    "Use one dominant action colour for add, continue, and checkout actions.",
+    "Use compact metadata and status labels instead of explanatory paragraphs.",
+    "Make the mobile customiser and cart feel native and task-focused.",
+    "Use motion for selection, addition, recalculation, validation, and progress—not decoration."
+  ],
+  "avoid": [
+    "oversized marketing type inside the ordering flow",
+    "paragraph-heavy product cards",
+    "hidden or ambiguous prices",
+    "inconsistent food photography",
+    "cartoon food unless explicitly requested",
+    "decorative motion during checkout",
+    "glassmorphism over product imagery",
+    "several competing action colours",
+    "repeated hero photography throughout the experience",
+    "equal visual weight for every product and promotion"
+  ],
+  "tokenGuidance": {
+    "spacingUnit": "4px",
+    "workingRadius": "12px to 18px",
+    "compactControlHeight": "40px to 44px",
+    "primaryControlHeight": "48px to 56px",
+    "menuContentWidth": "1200px to 1440px",
+    "productImageRatio": "1:1 preferred for catalog cards",
+    "motionFast": "120ms",
+    "motionBase": "180ms",
+    "motionSlow": "280ms"
+  }
+}

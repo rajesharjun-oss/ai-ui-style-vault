@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-ui-style-vault/fast-casual-commerce/menu.schema.json",
+  "title": "Fast-Casual Commerce Menu",
+  "type": "object",
+  "required": ["meta", "branches", "categories", "products"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["name", "purpose", "currency", "priceUnit"],
+      "properties": {
+        "name": {"type": "string"},
+        "purpose": {"type": "string"},
+        "warning": {"type": "string"},
+        "currency": {"type": "string", "minLength": 3, "maxLength": 3},
+        "priceUnit": {"const": "minor"}
+      }
+    },
+    "branches": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "address", "timezone", "fulfilmentModes", "statusSource"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "address": {"type": "string"},
+          "timezone": {"type": "string"},
+          "fulfilmentModes": {"type": "array", "items": {"enum": ["delivery", "pickup", "dine-in", "takeaway"]}},
+          "statusSource": {"enum": ["live", "schedule", "manual", "unknown", "static-prototype"]}
+        }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "sortOrder", "productIds"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "sortOrder": {"type": "integer"},
+          "productIds": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "products": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/product"}
+    }
+  },
+  "$defs": {
+    "money": {
+      "type": "object",
+      "required": ["amountMinor", "currency"],
+      "properties": {
+        "amountMinor": {"type": "integer"},
+        "currency": {"type": "string", "minLength": 3, "maxLength": 3}
+      }
+    },
+    "image": {
+      "type": "object",
+      "required": ["src", "width", "height", "alt", "provenance"],
+      "properties": {
+        "src": {"type": "string"},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "alt": {"type": "string"},
+        "provenance": {"enum": ["owner-provided", "original", "generated-concept", "licensed"]}
+      }
+    },
+    "optionValue": {
+      "type": "object",
+      "required": ["id", "name", "priceDelta", "availability", "sortOrder"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "priceDelta": {"$ref": "#/$defs/money"},
+        "availability": {"enum": ["available", "limited", "out-of-stock", "temporarily-unavailable", "store-closed", "service-unavailable"]},
+        "sortOrder": {"type": "integer"}
+      }
+    },
+    "optionGroup": {
+      "type": "object",
+      "required": ["id", "name", "required", "selection", "minimumSelections", "maximumSelections", "sortOrder", "values"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "required": {"type": "boolean"},
+        "selection": {"enum": ["single", "multiple"]},
+        "minimumSelections": {"type": "integer", "minimum": 0},
+        "maximumSelections": {"type": "integer", "minimum": 1},
+        "sortOrder": {"type": "integer"},
+        "values": {"type": "array", "items": {"$ref": "#/$defs/optionValue"}}
+      }
+    },
+    "product": {
+      "type": "object",
+      "required": ["id", "categoryId", "name", "description", "basePrice", "priceLabel", "availability", "sortOrder", "images", "optionGroups"],
+      "properties": {
+        "id": {"type": "string"},
+        "categoryId": {"type": "string"},
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "basePrice": {"$ref": "#/$defs/money"},
+        "priceLabel": {"enum": ["fixed", "from"]},
+        "availability": {"enum": ["available", "limited", "out-of-stock", "temporarily-unavailable", "store-closed", "service-unavailable"]},
+        "sortOrder": {"type": "integer"},
+        "images": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/image"}},
+        "optionGroups": {"type": "array", "items": {"$ref": "#/$defs/optionGroup"}}
+      }
+    }
+  }
+}

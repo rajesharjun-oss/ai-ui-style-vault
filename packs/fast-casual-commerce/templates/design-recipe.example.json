@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "1.0.0",
+  "product": {
+    "name": "Ember Kitchen Ordering",
+    "type": "ecommerce",
+    "domain": "fast-casual restaurant commerce",
+    "primaryUsers": [
+      "local delivery customers",
+      "pickup customers"
+    ],
+    "secondaryUsers": [
+      "branch operators",
+      "support staff"
+    ],
+    "topTasks": [
+      "choose a branch or delivery address",
+      "browse the current menu",
+      "configure products",
+      "review the cart",
+      "complete checkout",
+      "track an order"
+    ],
+    "primaryOutcome": "Place a valid order for an available product under the correct branch and fulfilment context.",
+    "trustLevel": "high",
+    "riskLevel": "high",
+    "successSignals": [
+      "valid order confirmed",
+      "cart total understood",
+      "fulfilment context confirmed",
+      "payment and order status recoverable"
+    ]
+  },
+  "experience": {
+    "primaryJourney": [
+      "select branch or address",
+      "select fulfilment",
+      "browse menu",
+      "configure product",
+      "review cart",
+      "checkout",
+      "receive confirmation",
+      "track order"
+    ],
+    "pages": [
+      {
+        "id": "ordering-home",
+        "purpose": "Establish branch and fulfilment context and route the customer to the menu.",
+        "audience": ["local delivery customers", "pickup customers"],
+        "primaryAction": "Browse menu",
+        "secondaryActions": ["Change branch", "Change fulfilment"],
+        "blueprint": "restaurant-ordering-home",
+        "requiredInformation": ["branch", "fulfilment", "service status", "active cart"],
+        "deferredInformation": ["brand story", "loyalty explanation"],
+        "requiredStates": ["loading", "branch-required", "store-open", "store-closed", "error"]
+      },
+      {
+        "id": "menu",
+        "purpose": "Help customers compare available products, prices, and categories.",
+        "audience": ["local delivery customers", "pickup customers"],
+        "primaryAction": "Select product",
+        "secondaryActions": ["Change category", "Open cart"],
+        "blueprint": "menu-catalog",
+        "requiredInformation": ["product", "price", "availability", "category", "cart total"],
+        "deferredInformation": ["full allergens", "brand story"],
+        "requiredStates": ["loading", "populated", "empty-category", "out-of-stock", "error"]
+      },
+      {
+        "id": "customizer",
+        "purpose": "Collect valid product choices and show the configured total.",
+        "audience": ["local delivery customers", "pickup customers"],
+        "primaryAction": "Add configured product",
+        "secondaryActions": ["Change quantity", "Cancel"],
+        "blueprint": "product-customizer",
+        "requiredInformation": ["required options", "modifiers", "availability", "live total"],
+        "deferredInformation": ["nutrition detail"],
+        "requiredStates": ["loading", "ready", "required-option-missing", "modifier-unavailable", "added", "error"]
+      },
+      {
+        "id": "cart",
+        "purpose": "Review configured items, price adjustments, conflicts, and checkout readiness.",
+        "audience": ["local delivery customers", "pickup customers"],
+        "primaryAction": "Continue to checkout",
+        "secondaryActions": ["Edit item", "Remove item", "Apply code"],
+        "blueprint": "cart-review",
+        "requiredInformation": ["items", "configuration", "discounts", "fees", "total", "conflicts"],
+        "deferredInformation": ["recommendations until conflicts are resolved"],
+        "requiredStates": ["empty", "populated", "updating", "cart-conflict", "cart-recalculated", "error"]
+      },
+      {
+        "id": "checkout",
+        "purpose": "Validate fulfilment, customer, address or branch, payment, consent, and final total.",
+        "audience": ["local delivery customers", "pickup customers"],
+        "primaryAction": "Place order",
+        "secondaryActions": ["Edit cart", "Change payment"],
+        "blueprint": "checkout",
+        "requiredInformation": ["contact", "fulfilment", "address or branch", "payment", "total", "terms"],
+        "deferredInformation": [],
+        "requiredStates": ["ready", "validation-error", "outside-delivery-zone", "submitting", "payment-pending", "payment-failed", "error"]
+      },
+      {
+        "id": "confirmation",
+        "purpose": "Confirm the accepted order and explain the next fulfilment step.",
+        "audience": ["local delivery customers", "pickup customers"],
+        "primaryAction": "Track order",
+        "secondaryActions": ["View receipt", "Contact support"],
+        "blueprint": "order-confirmation",
+        "requiredInformation": ["order identifier", "status", "branch", "fulfilment", "items", "total"],
+        "deferredInformation": ["reorder suggestion"],
+        "requiredStates": ["order-confirmed", "confirmation-delayed", "support-required", "error"]
+      }
+    ]
+  },
+  "content": {
+    "density": "data-dense",
+    "tone": ["direct", "friendly", "specific", "appetising"],
+    "readingStyle": "plain-business",
+    "progressiveDisclosure": true,
+    "preferVisualExplanation": true,
+    "copyBudgets": {
+      "heroHeadlineWordsMax": 9,
+      "heroSupportWordsMax": 28,
+      "featureDescriptionWordsMax": 30,
+      "paragraphWordsMax": 60,
+      "majorSectionsMax": 7
+    },
+    "messageHierarchy": [
+      "branch and fulfilment",
+      "product and availability",
+      "price and choice",
+      "cart and total",
+      "checkout and status"
+    ],
+    "prohibitedPatterns": [
+      "menu hidden below marketing",
+      "hidden prices",
+      "paragraph-heavy cards",
+      "unsupported delivery promises",
+      "generic AI marketing language"
+    ],
+    "industryTerminology": [
+      "menu",
+      "delivery",
+      "pickup",
+      "branch",
+      "modifier",
+      "cart",
+      "checkout",
+      "order status"
+    ]
+  },
+  "visualDirection": {
+    "productionTheme": "fast-casual-commerce",
+    "primaryStyle": {
+      "name": "Fast-Casual Commerce Pack",
+      "path": "packs/fast-casual-commerce/production-theme.json"
+    },
+    "supportingReferences": [],
+    "tone": ["appetising", "direct", "friendly", "fast", "confident"],
+    "colorMode": "light",
+    "radiusAttitude": "moderate",
+    "surfaceAttitude": "Clean product-first catalog surfaces with selective elevation for cart, customiser, and checkout.",
+    "typographyAttitude": "Compact commerce sans with strong product, price, and status hierarchy.",
+    "originalityStatement": "Use the domain pack and selected vault references to create an original restaurant commerce experience without copying another food brand's logo, photography, product text, promotions, proprietary layout, code, or motion identity."
+  },
+  "layout": {
+    "navigation": "Commerce header with branch, fulfilment, categories, account, and cart context.",
+    "interfaceDensity": "high",
+    "contentWidth": "wide",
+    "responsiveStrategy": [
+      "Reduce product-grid columns before compressing card content.",
+      "Use full-screen customiser, cart, branch selector, and checkout stages on mobile when required.",
+      "Keep one primary sticky action at a time and respect safe areas.",
+      "Preserve branch, fulfilment, category, and cart context across routes."
+    ],
+    "tableMobileStrategy": "Not applicable; use list and detail patterns for menu and cart.",
+    "firstViewportGoal": "Show active branch or address context, fulfilment, service status, menu entry, and cart status without a marketing essay."
+  },
+  "components": {
+    "required": [
+      "commerce-app-shell",
+      "fulfilment-toggle",
+      "branch-selector",
+      "service-status-banner",
+      "category-navigation",
+      "commerce-product-card",
+      "price-display",
+      "availability-badge",
+      "option-group",
+      "modifier-grid",
+      "quantity-stepper",
+      "product-customizer",
+      "cart-action",
+      "cart-drawer",
+      "cart-line-item",
+      "order-summary",
+      "promo-code-field",
+      "checkout-step",
+      "payment-method-selector",
+      "order-status-timeline"
+    ],
+    "requiredStates": [
+      "loading",
+      "empty",
+      "error",
+      "success",
+      "out-of-stock",
+      "store-closed",
+      "cart-conflict",
+      "payment-pending",
+      "payment-failed"
+    ],
+    "reusePolicy": "Use shared semantic commerce components and state contracts; never implement branch, price, cart, or checkout behaviour differently on separate pages without a documented reason.",
+    "dataPatterns": ["category catalog", "cart summary", "order status timeline"],
+    "formPatterns": ["product options", "address validation", "checkout", "promo code", "payment"]
+  },
+  "motion": {
+    "model": "microinteraction-led",
+    "intensity": "subtle",
+    "primitives": ["button-press", "loading-button", "shared-layout-tabs", "drawer-transition", "animated-data-change"],
+    "primaryTool": "CSS transitions for controls and one component-motion library only when shared layout or overlay continuity requires it.",
+    "assetSources": [],
+    "reducedMotionPlan": "Remove cart-flight, parallax, and large spatial movement; show final selection, total, validation, and order states immediately with status text and focus management."
+  },
+  "accessibility": {
+    "target": "WCAG-2.2-AA",
+    "keyboard": true,
+    "focusVisible": true,
+    "contrast": true,
+    "zoom": true,
+    "screenReader": true,
+    "motionSensitivity": true,
+    "notes": [
+      "Required product option groups use fieldset and legend or equivalent semantics.",
+      "Cart and price changes use polite live-region announcements.",
+      "Payment pending and blocking errors preserve context and prevent duplicate submission."
+    ]
+  },
+  "performance": {
+    "mobileFirstPaintPriority": true,
+    "lazyLoadOffscreenMedia": true,
+    "avoidLayoutAnimation": true,
+    "bundleDiscipline": "Use optimised responsive product images, CSS for simple interaction, and avoid shipping mapping, animation, or payment libraries until the verified feature requires them.",
+    "budgets": {
+      "catalogImageRatio": "1:1",
+      "initialRoute": "project-specific and measured",
+      "layoutShift": "no visible product-card or checkout shift"
+    }
+  },
+  "assetPolicy": {
+    "allowed": ["owner-provided assets", "original photography", "generated conceptual assets", "clearly licensed media"],
+    "prohibited": ["hotlinked business assets", "competitor photography", "protected logos", "reference-site screenshots", "generated imagery presented as official photography"],
+    "licenseNotesRequired": true
+  },
+  "quality": {
+    "requiredViewports": ["1440x1000", "1280x800", "768x1024", "390x844", "320x568"],
+    "requiredCommands": ["lint", "typecheck", "tests", "build", "content/design validator", "domain-pack validator"],
+    "requiredEvidence": ["completed business and commerce contracts", "desktop and mobile screenshots", "state coverage review", "asset provenance", "cart and checkout recovery review"],
+    "rejectConditions": ["menu delayed by decorative marketing", "hidden prices", "inconsistent food photography", "unhandled cart conflict", "duplicate order submission risk", "mobile sticky overlap", "unverified business or delivery claim"]
+  }
+}

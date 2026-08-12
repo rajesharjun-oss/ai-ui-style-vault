@@ -1,0 +1,203 @@
+{
+  "name": "Fast-Casual Commerce Component Manifest",
+  "version": "1.0.0",
+  "extends": "system/component-manifest.json",
+  "universalRequirements": [
+    "keyboard operation",
+    "visible focus",
+    "touch target of at least 44 by 44 CSS pixels where practical",
+    "screen-reader names and relationships",
+    "loading and error recovery",
+    "mobile-safe fixed or sticky behavior",
+    "long product-name and currency resilience",
+    "reduced-motion-safe feedback",
+    "branch and fulfilment context preservation"
+  ],
+  "components": [
+    {
+      "id": "commerce-app-shell",
+      "purpose": "Maintain brand, branch, fulfilment, menu navigation, account, and cart context.",
+      "requiredParts": ["skip link", "brand", "branch context", "fulfilment context", "primary navigation", "cart action"],
+      "requiredStates": ["desktop", "mobile-closed", "mobile-open", "store-closed", "cart-empty", "cart-populated", "offline"],
+      "requiredAccessibility": ["landmarks", "focus restore", "no scroll trap", "cart count announced without repeated interruption"],
+      "mobileBehavior": "Collapse secondary navigation; keep branch, fulfilment, and cart accessible without covering page headings or browser controls."
+    },
+    {
+      "id": "fulfilment-toggle",
+      "purpose": "Choose delivery, pickup, dine-in, or takeaway when supported.",
+      "requiredParts": ["supported modes", "selected mode", "availability or qualification note"],
+      "requiredStates": ["unselected", "selected", "disabled", "loading", "delivery-unavailable", "store-closed"],
+      "requiredAccessibility": ["radio-group or equivalent semantics", "selection announced", "disabled reason available"],
+      "mobileBehavior": "Use full-width segmented or stacked controls with no horizontal clipping."
+    },
+    {
+      "id": "branch-selector",
+      "purpose": "Select and confirm the branch that owns menu, availability, price, hours, and fulfilment.",
+      "requiredParts": ["current branch", "search", "branch results", "hours", "service modes", "confirm action"],
+      "requiredStates": ["required", "searching", "results", "no-results", "selected", "branch-closed", "error"],
+      "requiredAccessibility": ["combobox or list semantics", "keyboard navigation", "current branch announced", "focus preserved after selection"],
+      "mobileBehavior": "Use full-screen dialog or route when the result list is substantial."
+    },
+    {
+      "id": "delivery-address-field",
+      "purpose": "Collect and validate an address for delivery eligibility.",
+      "requiredParts": ["label", "address input", "suggestions", "manual clarification", "validation status", "alternative action"],
+      "requiredStates": ["idle", "searching", "multiple-matches", "validating", "eligible", "outside-delivery-zone", "error"],
+      "requiredAccessibility": ["labelled combobox", "active option announcement", "status live region", "manual-entry path"],
+      "mobileBehavior": "Avoid map-only entry; support software keyboard and safe-area layout."
+    },
+    {
+      "id": "service-status-banner",
+      "purpose": "Communicate store, branch, delivery, pickup, scheduling, or major menu availability status.",
+      "requiredParts": ["specific status", "impact", "verified next step", "alternative when available"],
+      "requiredStates": ["open", "closing-soon", "store-closed", "delivery-unavailable", "temporarily-unavailable", "degraded-service"],
+      "requiredAccessibility": ["appropriate status or alert semantics", "not colour-only", "dismissal only for noncritical notices"],
+      "mobileBehavior": "Wrap cleanly and never push the primary action offscreen without a way to continue."
+    },
+    {
+      "id": "category-navigation",
+      "purpose": "Move through menu categories while preserving selection and scroll context.",
+      "requiredParts": ["category labels", "selected state", "scroll controls when needed"],
+      "requiredStates": ["loading", "ready", "selected", "disabled", "overflow-start", "overflow-end"],
+      "requiredAccessibility": ["navigation or tab semantics as appropriate", "keyboard access", "selected category announced"],
+      "mobileBehavior": "Allow touch scrolling without hiding the selected item; use scroll padding for sticky headers."
+    },
+    {
+      "id": "commerce-product-card",
+      "purpose": "Present one menu item with enough information to decide, add, or customise.",
+      "requiredParts": ["product image", "name", "concise description", "price", "availability", "primary action"],
+      "requiredStates": ["loading", "available", "selected", "out-of-stock", "temporarily-unavailable", "adding", "added", "error"],
+      "requiredAccessibility": ["meaningful image alternative", "heading hierarchy", "price associated with product", "action names product"],
+      "mobileBehavior": "Do not rely on hover. Preserve readable price and action with long names.",
+      "contentBudget": {"nameWordsMax": 8, "descriptionWordsMax": 24, "badgeWordsMax": 4}
+    },
+    {
+      "id": "price-display",
+      "purpose": "Show base, starting, option-adjusted, discounted, fee, tax, and total values without ambiguity.",
+      "requiredParts": ["currency", "amount", "price meaning"],
+      "requiredStates": ["base", "starting-from", "discounted", "changed", "loading", "unavailable"],
+      "requiredAccessibility": ["screen-reader-readable currency", "old and new price relationship", "not colour-only"],
+      "mobileBehavior": "Prevent truncation of large values and localised currency formats."
+    },
+    {
+      "id": "availability-badge",
+      "purpose": "Communicate product, option, branch, or service availability concisely.",
+      "requiredParts": ["status text"],
+      "requiredStates": ["available", "limited", "out-of-stock", "temporarily-unavailable", "store-closed"],
+      "requiredAccessibility": ["text equivalent", "associated with the affected object"],
+      "mobileBehavior": "Wrap or abbreviate only when meaning remains clear."
+    },
+    {
+      "id": "option-group",
+      "purpose": "Collect one required or optional choice group such as size, base, crust, or preparation.",
+      "requiredParts": ["group label", "required indicator", "options", "price deltas", "validation message"],
+      "requiredStates": ["unselected", "selected", "required-option-missing", "disabled", "option-unavailable", "error"],
+      "requiredAccessibility": ["fieldset and legend or equivalent", "radio or checkbox semantics", "error association", "keyboard selection"],
+      "mobileBehavior": "Use a single readable column when labels or descriptions are long."
+    },
+    {
+      "id": "modifier-grid",
+      "purpose": "Select optional additions or removals with price and availability feedback.",
+      "requiredParts": ["modifier label", "selection control", "price delta", "availability"],
+      "requiredStates": ["unselected", "selected", "disabled", "modifier-unavailable", "limit-reached", "error"],
+      "requiredAccessibility": ["checkbox or equivalent semantics", "selection limit announced", "price delta associated"],
+      "mobileBehavior": "Use list or two-column layout only when each target remains large and labels do not truncate."
+    },
+    {
+      "id": "quantity-stepper",
+      "purpose": "Change quantity within verified limits.",
+      "requiredParts": ["decrease", "quantity", "increase", "limit feedback"],
+      "requiredStates": ["ready", "minimum", "maximum", "updating", "disabled", "error"],
+      "requiredAccessibility": ["clear button names", "quantity announced", "minimum and maximum conveyed"],
+      "mobileBehavior": "Use large touch targets and prevent accidental double activation."
+    },
+    {
+      "id": "product-customizer",
+      "purpose": "Compose product identity, option groups, modifiers, quantity, price, validation, and add action.",
+      "requiredParts": ["product summary", "configuration", "live total", "validation summary", "add action"],
+      "requiredStates": ["loading", "ready", "required-option-missing", "out-of-stock", "price-changed", "adding", "added", "error"],
+      "requiredAccessibility": ["logical heading structure", "initial focus", "error focus", "escape or back behavior", "focus restore"],
+      "mobileBehavior": "Use a full-screen route or sheet with a safe-area-aware action bar and no hidden final options."
+    },
+    {
+      "id": "cart-action",
+      "purpose": "Show cart item count, total, conflicts, and route to cart review.",
+      "requiredParts": ["cart label", "item count", "total when appropriate", "conflict indicator"],
+      "requiredStates": ["empty", "populated", "updating", "cart-conflict", "disabled", "offline-cart"],
+      "requiredAccessibility": ["descriptive accessible name", "count change announced politely", "conflict meaning available"],
+      "mobileBehavior": "May be fixed only when it respects safe areas, zoom, keyboard, and page content."
+    },
+    {
+      "id": "cart-drawer",
+      "purpose": "Provide fast cart review without losing menu context when the product and viewport support it.",
+      "requiredParts": ["title", "line items", "summary", "conflicts", "checkout action", "close control"],
+      "requiredStates": ["closed", "open", "empty", "updating", "cart-conflict", "error"],
+      "requiredAccessibility": ["dialog semantics", "focus trap", "focus restore", "escape close", "background inert"],
+      "mobileBehavior": "Use full-height drawer or route; never make checkout depend on a narrow side panel."
+    },
+    {
+      "id": "cart-line-item",
+      "purpose": "Show configured product, unit price, quantity, line total, and edit or removal actions.",
+      "requiredParts": ["product name", "configuration summary", "unit price", "quantity", "line total", "edit", "remove"],
+      "requiredStates": ["ready", "updating", "out-of-stock", "modifier-unavailable", "price-changed", "removing", "error"],
+      "requiredAccessibility": ["grouped item semantics", "specific edit and remove labels", "change feedback"],
+      "mobileBehavior": "Stack metadata and actions without separating them from the affected item."
+    },
+    {
+      "id": "order-summary",
+      "purpose": "Present subtotal, discounts, fees, tax, loyalty, and total with qualification or recalculation messages.",
+      "requiredParts": ["subtotal", "discounts", "fees", "tax when applicable", "total", "change explanation"],
+      "requiredStates": ["loading", "ready", "minimum-order-not-met", "coupon-applied", "cart-recalculated", "error"],
+      "requiredAccessibility": ["definition-list or equivalent relationships", "changes announced", "total visually and semantically prioritised"],
+      "mobileBehavior": "Remain readable at high zoom and with large currency values."
+    },
+    {
+      "id": "promo-code-field",
+      "purpose": "Apply and remove verified promotion codes without disrupting the cart.",
+      "requiredParts": ["label", "code input", "apply action", "result", "remove action when applied"],
+      "requiredStates": ["idle", "applying", "coupon-applied", "coupon-invalid", "coupon-expired", "usage-limit-reached", "error"],
+      "requiredAccessibility": ["labelled input", "status announcement", "error association", "keyboard submit"],
+      "mobileBehavior": "Keep input and action usable without horizontal squeeze."
+    },
+    {
+      "id": "deal-card",
+      "purpose": "Show a verified promotion, qualification, and direct path to eligible products or cart application.",
+      "requiredParts": ["deal title", "benefit", "conditions", "validity", "action"],
+      "requiredStates": ["eligible", "ineligible", "applied", "expired", "branch-ineligible", "loading"],
+      "requiredAccessibility": ["conditions available before action", "eligibility not colour-only", "action names deal"],
+      "mobileBehavior": "Keep benefit and critical conditions visible without relying on hover."
+    },
+    {
+      "id": "loyalty-wallet",
+      "purpose": "Show verified balance, earning, redemption, expiry, and activity.",
+      "requiredParts": ["balance", "balance meaning", "earning rule", "redemption rule", "activity", "support"],
+      "requiredStates": ["signed-out", "not-enrolled", "loading", "active", "insufficient-balance", "reward-applied", "expired", "error"],
+      "requiredAccessibility": ["balance meaning announced", "expiry visible", "redemption consequence confirmed"],
+      "mobileBehavior": "Prioritise balance and usable value before history."
+    },
+    {
+      "id": "checkout-step",
+      "purpose": "Group one checkout stage or section with completion and error status.",
+      "requiredParts": ["step title", "fields or summary", "completion state", "edit action", "errors"],
+      "requiredStates": ["upcoming", "current", "complete", "validation-error", "disabled"],
+      "requiredAccessibility": ["ordered structure", "current step announced", "errors associated", "edit does not lose data"],
+      "mobileBehavior": "Avoid several nested accordions; keep failed sections expanded."
+    },
+    {
+      "id": "payment-method-selector",
+      "purpose": "Choose and safely submit a supported payment method.",
+      "requiredParts": ["supported methods", "selected method", "provider fields or handoff", "security context", "error recovery"],
+      "requiredStates": ["ready", "selected", "submitting", "payment-pending", "payment-failed", "payment-authorised", "disabled"],
+      "requiredAccessibility": ["radio-group or equivalent", "provider fields labelled", "pending status announced", "duplicate submission blocked"],
+      "mobileBehavior": "Support external payment return and preserve checkout context."
+    },
+    {
+      "id": "order-status-timeline",
+      "purpose": "Present verified order states and the current position without inventing progress.",
+      "requiredParts": ["current status", "ordered states", "timestamps when verified", "exception or support action"],
+      "requiredStates": ["order-confirmed", "preparing", "ready-for-pickup", "out-for-delivery", "delivered", "delayed", "cancelled", "error"],
+      "requiredAccessibility": ["ordered list", "current item semantics", "status text", "motion-independent meaning"],
+      "mobileBehavior": "Use a vertical timeline; avoid horizontal overflow."
+    }
+  ]
+}
