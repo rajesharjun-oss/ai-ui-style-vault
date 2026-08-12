@@ -11,14 +11,14 @@ permissions:
 jobs:
   candidates:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check pillow requests
-      - name: Generate product-specific photographs
+      - name: Download product-specific Openverse photographs
         shell: bash
         run: |
           set -euo pipefail
@@ -27,111 +27,159 @@ jobs:
 
           import io
           import json
-          import urllib.parse
-          from concurrent.futures import ThreadPoolExecutor, as_completed
+          import time
           from pathlib import Path
 
           import requests
           from PIL import Image, ImageDraw, ImageFont, ImageOps
+          from requests.adapters import HTTPAdapter
+          from urllib3.util.retry import Retry
 
           products = [
-              ("arc-desk-lamp", "a sculptural modern adjustable desk lamp in matte graphite metal, single product"),
-              ("drift-ceramic-vase", "a hand-finished asymmetric ceramic vase in warm off-white stoneware, single product"),
-              ("halo-speaker", "a premium compact wireless speaker with tactile fabric and minimal physical controls, single product"),
-              ("axis-watch", "a restrained premium wristwatch with brushed steel case, clear dial and black leather strap, single product"),
-              ("field-jacket", "an olive cotton field jacket displayed neatly on a minimal hanger, no person, single garment"),
-              ("form-carryall", "a structured premium leather tote carryall bag in warm brown, single product"),
-              ("fold-weekender", "a soft-sided premium charcoal weekender duffel travel bag, single product"),
-              ("meridian-headphones", "premium over-ear wireless headphones in dark graphite, single product"),
-              ("orbit-tray", "a shallow vegetable-tanned leather valet catchall tray holding one key, single product"),
-              ("studio-overshirt", "a sand-coloured brushed cotton overshirt displayed neatly on a minimal hanger, no person, single garment"),
-              ("fold-wallet", "a compact premium full-grain brown leather bifold wallet, single product"),
-              ("axis-stool", "a compact modern wooden stool with a softened oak seat and black steel frame, single product"),
+              ("arc-desk-lamp", "modern desk lamp product"),
+              ("drift-ceramic-vase", "ceramic vase product"),
+              ("halo-speaker", "wireless speaker product"),
+              ("axis-watch", "wrist watch product"),
+              ("field-jacket", "olive field jacket clothing"),
+              ("form-carryall", "leather tote bag product"),
+              ("fold-weekender", "duffel weekender travel bag"),
+              ("meridian-headphones", "over ear headphones product"),
+              ("orbit-tray", "leather valet tray catchall"),
+              ("studio-overshirt", "overshirt clothing jacket"),
+              ("fold-wallet", "leather bifold wallet product"),
+              ("axis-stool", "modern wooden stool furniture"),
           ]
 
           root = Path("candidate-images")
           root.mkdir(parents=True, exist_ok=True)
-
-          style = (
-              "photorealistic premium ecommerce studio product photo, warm light beige seamless background, "
-              "soft daylight from the left, subtle natural floor shadow, realistic material detail, "
-              "single object centred, generous negative space, vertical product catalogue composition, "
-              "no text, no logo, no watermark, no collage, no duplicate, no hands"
-          )
-
-          def generate(item: tuple[int, str, str]) -> dict:
-              index, slug, subject = item
-              prompt = f"{subject}; {style}"
-              params = {
-                  "width": "600",
-                  "height": "750",
-                  "seed": str(7100 + index * 113),
-                  "model": "turbo",
-                  "nologo": "true",
-                  "enhance": "false",
-                  "safe": "true",
-              }
-              url = "https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt, safe="") + "?" + urllib.parse.urlencode(params)
-              headers = {
-                  "User-Agent": "Mozilla/5.0 (compatible; AtelierNorthProductAssetBuilder/1.1)",
-                  "Accept": "image/*,*/*;q=0.8",
-              }
-              try:
-                  response = requests.get(url, headers=headers, timeout=(20, 150))
-                  response.raise_for_status()
-                  image = Image.open(io.BytesIO(response.content)).convert("RGB")
-                  image = ImageOps.fit(image, (900, 1125), method=Image.Resampling.LANCZOS)
-                  path = root / f"{slug}.jpg"
-                  image.save(path, "JPEG", quality=91, optimize=True, progressive=True)
-                  return {
-                      "slug": slug,
-                      "subject": subject,
-                      "prompt": prompt,
-                      "seed": params["seed"],
-                      "source": "generated-concept",
-                      "generator": "Pollinations image endpoint",
-                      "path": str(path),
-                      "size": image.size,
-                  }
-              except Exception as exc:
-                  return {"slug": slug, "subject": subject, "error": str(exc), "url": url}
-
-          indexed = [(index, slug, subject) for index, (slug, subject) in enumerate(products, start=1)]
           manifest: list[dict] = []
-          with ThreadPoolExecutor(max_workers=4) as pool:
-              futures = [pool.submit(generate, item) for item in indexed]
-              for future in as_completed(futures):
-                  manifest.append(future.result())
 
-          manifest.sort(key=lambda item: [slug for slug, _ in products].index(item["slug"]))
+          session = requests.Session()
+          retry = Retry(
+              total=6,
+              connect=4,
+              read=4,
+              status=6,
+              backoff_factor=2,
+              status_forcelist=(408, 429, 500, 502, 503, 504),
+              allowed_methods=frozenset(["GET"]),
+              respect_retry_after_header=True,
+          )
+          session.mount("https://", HTTPAdapter(max_retries=retry))
+          session.headers.update({
+              "User-Agent": "AtelierNorthProductPhotoResearch/1.0 (noncommercial UI prototype; GitHub Actions)",
+              "Accept": "application/json,image/*;q=0.9,*/*;q=0.5",
+          })
+
+          def search(query: str) -> list[dict]:
+              response = session.get(
+                  "https://api.openverse.org/v1/images/",
+                  params={
+                      "q": query,
+                      "page_size": 30,
+                      "license_type": "commercial",
+                      "category": "photograph",
+                      "mature": "false",
+                  },
+                  timeout=75,
+              )
+              response.raise_for_status()
+              return response.json().get("results", [])
+
+          def download(url: str) -> bytes:
+              response = session.get(url, timeout=90)
+              response.raise_for_status()
+              return response.content
+
+          max_candidates = 8
+          for product_index, (slug, query) in enumerate(products):
+              folder = root / slug
+              folder.mkdir(parents=True, exist_ok=True)
+              try:
+                  results = search(query)
+              except Exception as exc:
+                  manifest.append({"slug": slug, "query": query, "error": f"search failed: {exc}"})
+                  results = []
+
+              saved = 0
+              for result in results:
+                  if saved >= max_candidates:
+                      break
+                  title = str(result.get("title") or "")
+                  tags = [str(tag.get("name") or "") for tag in (result.get("tags") or [])[:24]]
+                  text = (title + " " + " ".join(tags)).lower()
+                  # Reject results whose indexed words strongly suggest a non-product subject.
+                  if any(term in text for term in ("animal", "dog", "cat", "wolf", "fox", "landscape", "mountain", "beach", "flower", "food", "car", "aircraft")):
+                      continue
+                  source_url = result.get("thumbnail") or result.get("url")
+                  if not source_url:
+                      continue
+                  try:
+                      image = Image.open(io.BytesIO(download(source_url))).convert("RGB")
+                      if image.width < 300 or image.height < 300:
+                          continue
+                      ratio = image.width / max(image.height, 1)
+                      if ratio > 2.8 or ratio < 0.3:
+                          continue
+                      saved += 1
+                      output = folder / f"{saved}.jpg"
+                      image.save(output, "JPEG", quality=90, optimize=True)
+                      manifest.append({
+                          "slug": slug,
+                          "query": query,
+                          "candidate": saved,
+                          "path": str(output),
+                          "title": title,
+                          "creator": result.get("creator"),
+                          "license": result.get("license"),
+                          "license_version": result.get("license_version"),
+                          "license_url": result.get("license_url"),
+                          "attribution": result.get("attribution"),
+                          "foreign_landing_url": result.get("foreign_landing_url"),
+                          "download_url": source_url,
+                          "width": image.width,
+                          "height": image.height,
+                          "tags": tags,
+                      })
+                  except Exception as exc:
+                      manifest.append({"slug": slug, "query": query, "title": title, "error": str(exc)})
+
+              if product_index < len(products) - 1:
+                  time.sleep(1.5)
+
           (root / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
 
-          cell_w, cell_h = 240, 300
-          label_h = 42
-          cols = 4
-          rows = 3
-          sheet = Image.new("RGB", (cell_w * cols, (cell_h + label_h) * rows), "#f3efe7")
+          cell_w, cell_h = 190, 245
+          label_h = 52
+          cols = max_candidates
+          sheet_w = cell_w * cols
+          sheet_h = (cell_h + label_h) * len(products)
+          sheet = Image.new("RGB", (sheet_w, sheet_h), "#f3efe7")
           draw = ImageDraw.Draw(sheet)
           font = ImageFont.load_default()
 
-          for position, (slug, _) in enumerate(products):
-              row, col = divmod(position, cols)
-              x0 = col * cell_w
+          for row, (slug, query) in enumerate(products):
               y0 = row * (cell_h + label_h)
-              path = root / f"{slug}.jpg"
-              if path.exists():
-                  image = Image.open(path).convert("RGB")
-                  image = ImageOps.fit(image, (cell_w, cell_h), method=Image.Resampling.LANCZOS)
-                  sheet.paste(image, (x0, y0))
-              else:
-                  draw.rectangle((x0, y0, x0 + cell_w, y0 + cell_h), fill="#d7d0c4")
-              draw.rectangle((x0, y0 + cell_h, x0 + cell_w, y0 + cell_h + label_h), fill="#1b1714")
-              draw.text((x0 + 8, y0 + cell_h + 14), slug, fill="white", font=font)
+              draw.rectangle((0, y0, sheet_w, y0 + label_h), fill="#1b1714")
+              draw.text((10, y0 + 8), slug, fill="white", font=font)
+              draw.text((10, y0 + 27), query, fill="#d7d0c4", font=font)
+              for col in range(cols):
+                  index = col + 1
+                  x0 = col * cell_w
+                  path = root / slug / f"{index}.jpg"
+                  if path.exists():
+                      image = Image.open(path).convert("RGB")
+                      image = ImageOps.fit(image, (cell_w, cell_h), method=Image.Resampling.LANCZOS)
+                      sheet.paste(image, (x0, y0 + label_h))
+                  else:
+                      draw.rectangle((x0, y0 + label_h, x0 + cell_w, y0 + label_h + cell_h), fill="#d7d0c4")
+                  draw.rectangle((x0 + 7, y0 + label_h + 7, x0 + 36, y0 + label_h + 30), fill="white")
+                  draw.text((x0 + 17, y0 + label_h + 13), str(index), fill="black", font=font)
 
-          sheet.save(root / "contact-sheet.jpg", "JPEG", quality=90, optimize=True)
+          sheet.save(root / "contact-sheet.jpg", "JPEG", quality=89, optimize=True)
           PY
 
-      - name: Upload generated product assets
+      - name: Upload Openverse product candidates
         if: always()
         uses: actions/upload-artifact@v4
         with:
