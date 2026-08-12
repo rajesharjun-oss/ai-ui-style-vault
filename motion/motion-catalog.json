@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "AI UI Style Vault Motion Catalog",
     "generatedAt":  "2026-08-04",
     "purpose":  "Machine-readable motion reference entry point for professional landing pages and motion graphics websites.",
@@ -12,7 +12,7 @@
                    "styleReferences":  512,
                    "highSignalStyleReferences":  34,
                    "styleReferencesWithPreviewVideo":  346,
-                   "motionPatterns":  10,
+                   "motionPatterns":  22,
                    "implementationResources":  7
                },
     "motionSignals":  [
@@ -19373,6 +19373,460 @@
                                        "Constantly moving charts",
                                        "unlabeled axes",
                                        "misleading number counters"
+                                   ]
+                     },
+                     {
+                         "id":  "ambient-eclipse-moon",
+                         "name":  "Ambient Eclipse Moon",
+                         "bestFor":  [
+                                         "dark premium landing pages",
+                                         "coming soon pages",
+                                         "waitlists",
+                                         "night mode splash screens",
+                                         "meditation and sleep products",
+                                         "astrology and astronomy sites",
+                                         "cinematic portfolios",
+                                         "login backdrops",
+                                         "404 pages"
+                                     ],
+                         "useWhen":  "A page needs a calm, cinematic night atmosphere using a black moon disk, luminous rim, and subtle halo motion. Best as a background or ambient hero effect; use as a loader only when the brand/product theme fits.",
+                         "preferredStack":  [
+                                                "CSS keyframes",
+                                                "Motion for React for app integration",
+                                                "GSAP only for complex scene choreography"
+                                            ],
+                         "options":  [
+                                         {
+                                             "role":  "hero-background",
+                                             "recommendation":  "best",
+                                             "useCase":  "Full-screen dark premium hero with minimal text layered above the moon."
+                                         },
+                                         {
+                                             "role":  "ambient-background",
+                                             "recommendation":  "best",
+                                             "useCase":  "Subtle animated background for cinematic, wellness, sleep, astrology, music, photography, or luxury pages."
+                                         },
+                                         {
+                                             "role":  "coming-soon-waitlist",
+                                             "recommendation":  "strong",
+                                             "useCase":  "Quiet launch screen where the moon supplies atmosphere while one CTA remains primary."
+                                         },
+                                         {
+                                             "role":  "login-backdrop",
+                                             "recommendation":  "strong",
+                                             "useCase":  "Low-contrast background behind an auth card; dim glow so forms stay readable."
+                                         },
+                                         {
+                                             "role":  "404-empty-state",
+                                             "recommendation":  "strong",
+                                             "useCase":  "Lost-in-space or night-themed empty/error state without distracting from recovery actions."
+                                         },
+                                         {
+                                             "role":  "loading-screen",
+                                             "recommendation":  "conditional",
+                                             "useCase":  "Only for cinematic/night/space/sleep/wellness products, and keep duration short with reduced-motion fallback."
+                                         },
+                                         {
+                                             "role":  "section-divider",
+                                             "recommendation":  "conditional",
+                                             "useCase":  "A dark pause between editorial sections; avoid repeating large animated moons many times."
+                                         }
+                                     ],
+                         "implementationNotes":  [
+                                                     "Keep the moon itself simple: black circular disk, white pseudo-element or radial gradient behind it, and soft layered box-shadows for the rim.",
+                                                     "Use transform-only halo drift or opacity pulsing; avoid animating width, height, top, or left during the loop.",
+                                                     "Place text outside the animation layer and keep contrast high; the animation should never obscure headings, forms, or CTAs.",
+                                                     "If used as a loader, cap it to a short transition and show real progress or load state separately.",
+                                                     "For reduced motion, freeze the moon in a static glowing state and remove continuous halo drift."
+                                                 ],
+                         "reducedMotion":  "Freeze the moon and halo as a static eclipse image, remove continuous pulsing/drift, and keep all content visible without waiting for the animation.",
+                         "avoid":  [
+                                       "using it as a generic loader for unrelated business apps",
+                                       "placing bright text directly on the glowing rim",
+                                       "looping multiple moons in one viewport",
+                                       "long blocking preloaders",
+                                       "heavy libraries for a simple CSS effect"
+                                   ]
+                     },
+                     {
+                         "id":  "code-candy-auth-slanted-overlay",
+                         "name":  "Code Candy Auth Slanted Overlay",
+                         "bestFor":  [
+                                         "login/signup flows",
+                                         "SaaS onboarding",
+                                         "membership sites",
+                                         "premium product accounts"
+                                     ],
+                         "useWhen":  "A project needs a dark, premium auth surface where a slanted gradient overlay switches between sign-in and create-account forms only after the visitor clicks.",
+                         "preferredStack":  [
+                                                "CSS transitions",
+                                                "vanilla JavaScript",
+                                                "Motion for React when integrating into React"
+                                            ],
+                         "localPath":  "motion/code-candy-auth-slanted-overlay/index.html",
+                         "verificationNotes":  "motion/code-candy-auth-slanted-overlay/verification-notes.md",
+                         "implementationNotes":  [
+                                                     "Keep the overlay transition click-triggered and reversible.",
+                                                     "Use real form controls, labels, validation, and secure backend auth in production.",
+                                                     "Remove source-video headings and keep preview UI design-only.",
+                                                     "Use transform, opacity, filter, and clip-path; avoid layout-shifting autoplay loops."
+                                                 ],
+                         "reducedMotion":  "Show the selected form instantly, remove blur/slide timing, and keep both forms reachable by keyboard.",
+                         "avoid":  [
+                                       "autoplaying between auth states",
+                                       "fake-only auth",
+                                       "unlabeled inputs",
+                                       "placing code text inside the visual preview"
+                                   ]
+                     },
+                     {
+                         "id":  "code-candy-hover-pill-menu",
+                         "name":  "Code Candy Hover Pill Menu",
+                         "bestFor":  [
+                                         "compact nav",
+                                         "tool rails",
+                                         "dashboards",
+                                         "editor toolbars",
+                                         "SaaS product shells"
+                                     ],
+                         "useWhen":  "A project needs a compact pill menu where labels reveal only on hover or keyboard focus without moving on its own.",
+                         "preferredStack":  [
+                                                "CSS transitions",
+                                                "semantic buttons",
+                                                "Motion for React optional"
+                                            ],
+                         "localPath":  "motion/code-candy-hover-pill-menu/index.html",
+                         "verificationNotes":  "motion/code-candy-hover-pill-menu/verification-notes.md",
+                         "implementationNotes":  [
+                                                     "Hover and focus are the only expansion triggers.",
+                                                     "Keep icon buttons keyboard focusable and labeled.",
+                                                     "Use fixed dimensions so expanded labels do not shift surrounding layout.",
+                                                     "Use this as a component pattern, not as a full page template."
+                                                 ],
+                         "reducedMotion":  "Keep hover/focus state changes instant or very short, with labels still accessible to assistive tech.",
+                         "avoid":  [
+                                       "autoplay expansion",
+                                       "hover-only access without focus support",
+                                       "unlabeled icons",
+                                       "expanding menus that cover primary content"
+                                   ]
+                     },
+                     {
+                         "id":  "code-candy-floating-indicator-nav",
+                         "name":  "Code Candy Floating Indicator Nav",
+                         "bestFor":  [
+                                         "mobile navigation",
+                                         "bottom nav bars",
+                                         "compact app shells",
+                                         "dashboard section switches"
+                                     ],
+                         "useWhen":  "A project needs a dark navigation bar with a green floating active indicator that appears and moves only after user selection.",
+                         "preferredStack":  [
+                                                "CSS transitions",
+                                                "vanilla JavaScript",
+                                                "Motion for React optional"
+                                            ],
+                         "localPath":  "motion/code-candy-floating-indicator-nav/index.html",
+                         "verificationNotes":  "motion/code-candy-floating-indicator-nav/verification-notes.md",
+                         "implementationNotes":  [
+                                                     "Start with no active state unless the product has a real default route.",
+                                                     "Move the indicator on click, Enter, or Space only.",
+                                                     "Keep each nav target accessible with aria-label and aria-pressed/current state.",
+                                                     "Do not let hidden scenes intercept clicks when used inside a gallery."
+                                                 ],
+                         "reducedMotion":  "Move the active indicator instantly and keep the selected icon in a readable static position.",
+                         "avoid":  [
+                                       "automatic cycling",
+                                       "unclickable nav segments",
+                                       "using this for large desktop primary nav without adaptation",
+                                       "green glow on inaccessible contrast backgrounds"
+                                   ]
+                     },
+                     {
+                         "id":  "code-candy-auth-overlay-slide",
+                         "name":  "Code Candy Auth Overlay Slide",
+                         "bestFor":  [
+                                         "light login/signup pages",
+                                         "workspace onboarding",
+                                         "creator tools",
+                                         "simple account portals"
+                                     ],
+                         "useWhen":  "A project needs a clean light auth card where an overlay slides between sign-in and create-account panels on explicit click.",
+                         "preferredStack":  [
+                                                "CSS transitions",
+                                                "vanilla JavaScript",
+                                                "Motion for React when integrating into React"
+                                            ],
+                         "localPath":  "motion/code-candy-auth-overlay-slide/index.html",
+                         "verificationNotes":  "motion/code-candy-auth-overlay-slide/verification-notes.md",
+                         "implementationNotes":  [
+                                                     "Keep the create-account form visible and unobstructed after the slide.",
+                                                     "Avoid rendering vertical artifacts at the overlay seam by sizing and translating the overlay deliberately.",
+                                                     "Use real accessible inputs, submit handling, validation, and secure auth in production.",
+                                                     "Keep source-video code frames out of previews."
+                                                 ],
+                         "reducedMotion":  "Swap the overlay side instantly with no slide animation and maintain focus order.",
+                         "avoid":  [
+                                       "autoplaying between sign-in and signup",
+                                       "blank create-account panels",
+                                       "overlay seams or clipped submit buttons",
+                                       "fake-only auth"
+                                   ]
+                     },
+                     {
+                         "id":  "code-candy-hover-expanding-login",
+                         "name":  "Code Candy Hover Expanding Login",
+                         "bestFor":  [
+                                         "premium login pages",
+                                         "gaming dashboards",
+                                         "cyberpunk SaaS auth",
+                                         "portfolio gateways",
+                                         "motion graphics websites"
+                                     ],
+                         "useWhen":  "A project needs a dark login/signup card with a rotating cyan/magenta neon border that expands on hover/focus and switches auth modes only after explicit user clicks.",
+                         "preferredStack":  [
+                                                "CSS container queries",
+                                                "CSS conic-gradient",
+                                                "CSS keyframes",
+                                                "semantic forms"
+                                            ],
+                         "localPath":  "motion/code-candy-hover-expanding-login/index.html",
+                         "verificationNotes":  "motion/code-candy-hover-expanding-login/verification-notes.md",
+                         "source":  "User-provided WhatsApp screenshot of a public Code Candy hover expanding login clip with partial visible CSS.",
+                         "implementationNotes":  [
+                                                     "Expansion must be hover/focus triggered, not autoplayed.",
+                                                     "Sign up and sign in are implemented as explicit mode switches; do not leave either as dead links.",
+                                                     "After a mode switch, click-away, focus-away, and Escape must collapse the sticky expanded state.",
+                                                     "Use the visible 4-segment conic-gradient border values from the screenshot as the core motif.",
+                                                     "Use real labeled inputs, validation, rate limiting, and secure backend auth in production.",
+                                                     "Keep source-video headlines and code frames out of production previews."
+                                                 ],
+                         "reducedMotion":  "Stop the rotating conic gradient, keep the neon border visible as a static frame, and preserve hover/focus states.",
+                         "avoid":  [
+                                       "using it for plain enterprise auth",
+                                       "autoplaying form state changes",
+                                       "dead sign-up or sign-in controls",
+                                       "unlabeled inputs",
+                                       "over-bright glow that reduces legibility",
+                                       "fake-only auth"
+                                   ]
+                     },
+                     {
+                         "id":  "team-carousel-slider",
+                         "name":  "Team Carousel Slider",
+                         "bestFor":  [
+                                         "agency team sections",
+                                         "founder profiles",
+                                         "portfolio case studies",
+                                         "conference speaker blocks",
+                                         "premium about pages"
+                                     ],
+                         "useWhen":  "A project needs a dark editorial team carousel where one featured profile is staged large and supporting profile cards sit to the side.",
+                         "preferredStack":  [
+                                                "CSS transitions",
+                                                "vanilla JavaScript",
+                                                "semantic buttons",
+                                                "Motion for React optional"
+                                            ],
+                         "localPath":  "motion/team-carousel-slider/index.html",
+                         "verificationNotes":  "motion/team-carousel-slider/verification-notes.md",
+                         "source":  "User-provided WhatsApp screenshot of a team carousel slider clip with partial visible CSS and JavaScript.",
+                         "implementationNotes":  [
+                                                     "Use for profile storytelling, not as the only way to access team information.",
+                                                     "Autoplay is acceptable only when paired with visible controls, pause behavior, and reduced-motion handling.",
+                                                     "Keep profile cards clickable and keyboard operable.",
+                                                     "Use owned, generated, or licensed portraits in production; this preview uses abstract CSS portrait fields.",
+                                                     "Keep source-video headings and code frames out of production previews."
+                                                 ],
+                         "reducedMotion":  "Disable autoplay and switch profiles instantly or with a very short fade while preserving manual controls.",
+                         "avoid":  [
+                                       "unpausable autoplay",
+                                       "tiny unreadable profile cards",
+                                       "keyboard-inaccessible carousel controls",
+                                       "copying real portraits from screenshots",
+                                       "using this for critical navigation"
+                                   ]
+                     },
+                     {
+                         "id":  "modern-timed-destination-cards",
+                         "name":  "Modern Timed Destination Cards",
+                         "bestFor":  [
+                                         "travel landing pages",
+                                         "editorial hero rotators",
+                                         "location storytelling",
+                                         "luxury hospitality pages",
+                                         "campaign microsites"
+                                     ],
+                         "useWhen":  "A project needs a full-bleed hero where timed destination cards promote one card into the main stage with a visible progress rail.",
+                         "preferredStack":  [
+                                                "CSS transitions",
+                                                "vanilla JavaScript",
+                                                "GSAP Flip for production choreography",
+                                                "Motion for React optional"
+                                            ],
+                         "localPath":  "motion/modern-timed-destination-cards/index.html",
+                         "verificationNotes":  "motion/modern-timed-destination-cards/verification-notes.md",
+                         "source":  "User-provided WhatsApp screenshot of a modern timed cards clip with partial visible GSAP Flip code.",
+                         "implementationNotes":  [
+                                                     "Use a visible progress indicator when timing changes the featured card.",
+                                                     "Allow manual card selection and pause/play controls.",
+                                                     "Keep timed motion away from forms and critical decision flows.",
+                                                     "Use licensed or owned destination imagery in production; this preview uses CSS scenic fields.",
+                                                     "Respect reduced motion by disabling timed cycling."
+                                                 ],
+                         "reducedMotion":  "Disable timed cycling, keep the selected card static, and let users switch cards manually.",
+                         "avoid":  [
+                                       "uncontrolled autoplay",
+                                       "text over busy imagery without a scrim",
+                                       "layout shift during card promotion",
+                                       "copying travel footage or proprietary imagery",
+                                       "hiding content behind animation"
+                                   ]
+                     },
+                     {
+                         "id":  "responsive-hover-sidebar",
+                         "name":  "Responsive Hover Sidebar",
+                         "bestFor":  [
+                                         "admin dashboards",
+                                         "SaaS app shells",
+                                         "file managers",
+                                         "member portals",
+                                         "settings-heavy tools"
+                                     ],
+                         "useWhen":  "A project needs a dark collapsible sidebar where labels reveal on hover, focus, or explicit toggle, and active items are clear.",
+                         "preferredStack":  [
+                                                "CSS transitions",
+                                                "semantic nav buttons",
+                                                "vanilla JavaScript",
+                                                "Lucide or local SVG icons"
+                                            ],
+                         "localPath":  "motion/responsive-hover-sidebar/index.html",
+                         "verificationNotes":  "motion/responsive-hover-sidebar/verification-notes.md",
+                         "source":  "User-provided WhatsApp screenshot of a responsive sidebar clip with partial visible CSS.",
+                         "implementationNotes":  [
+                                                     "Labels must be available on hover, focus, and mobile, not hover-only.",
+                                                     "Every nav target must be keyboard operable and have a visible active state.",
+                                                     "On small screens, prefer the expanded readable state over icon-only navigation.",
+                                                     "Use real route links or buttons wired to application state in production.",
+                                                     "Keep source-video social UI and code frames out of previews."
+                                                 ],
+                         "reducedMotion":  "Remove width animation timing and reveal labels instantly while preserving focus order.",
+                         "avoid":  [
+                                       "hover-only labels without focus support",
+                                       "unlabeled icons",
+                                       "active states with poor contrast",
+                                       "sidebar overlays that trap focus",
+                                       "dead navigation items"
+                                   ]
+                     },
+                     {
+                         "id":  "glass-theme-pill-nav",
+                         "name":  "Glass Theme Pill Nav",
+                         "bestFor":  [
+                                         "mobile nav bars",
+                                         "compact landing-page navigation",
+                                         "wellness apps",
+                                         "consumer dashboards",
+                                         "playful product shells"
+                                     ],
+                         "useWhen":  "A project needs a warm glass pill navigation bar where an active capsule slides between items and a theme button changes the page mood.",
+                         "preferredStack":  [
+                                                "CSS variables",
+                                                "CSS transitions",
+                                                "vanilla JavaScript",
+                                                "semantic buttons"
+                                            ],
+                         "localPath":  "motion/glass-theme-pill-nav/index.html",
+                         "verificationNotes":  "motion/glass-theme-pill-nav/verification-notes.md",
+                         "source":  "User-provided WhatsApp screenshot of a glass pill nav and theme toggle clip with partial visible JavaScript.",
+                         "implementationNotes":  [
+                                                     "The active pill should move only after user selection, not autoplay.",
+                                                     "Theme toggles must update CSS variables and then recalculate pill geometry.",
+                                                     "Use enough contrast inside translucent glass surfaces.",
+                                                     "Keep all targets large enough for touch and keyboard focus.",
+                                                     "Do not use it as the only primary nav on dense enterprise screens without adaptation."
+                                                 ],
+                         "reducedMotion":  "Move the active pill instantly and keep the light/dark theme swap readable.",
+                         "avoid":  [
+                                       "automatic nav cycling",
+                                       "unreadable translucent labels",
+                                       "theme buttons with no real state change",
+                                       "tiny touch targets",
+                                       "one-color gradient mush"
+                                   ]
+                     },
+                     {
+                         "id":  "animated-delete-button",
+                         "name":  "Animated Delete Button",
+                         "bestFor":  [
+                                         "destructive actions",
+                                         "file managers",
+                                         "cart item removal",
+                                         "admin tools",
+                                         "confirmation microinteractions"
+                                     ],
+                         "useWhen":  "A project needs a compact destructive-action button where the trash icon animates on click and resolves into a clear completed state.",
+                         "preferredStack":  [
+                                                "CSS keyframes",
+                                                "semantic button",
+                                                "vanilla JavaScript",
+                                                "SVG icon animation"
+                                            ],
+                         "localPath":  "motion/animated-delete-button/index.html",
+                         "verificationNotes":  "motion/animated-delete-button/verification-notes.md",
+                         "source":  "User-provided WhatsApp screenshot of an animated delete button clip with partial visible HTML/SVG structure.",
+                         "implementationNotes":  [
+                                                     "Use only after confirmation when the action is truly destructive or irreversible.",
+                                                     "Animate on click, not on page load.",
+                                                     "Disable duplicate clicks while the action is pending.",
+                                                     "Use server-confirmed success before showing permanent deleted state in production.",
+                                                     "Keep animation short and provide reduced-motion behavior."
+                                                 ],
+                         "reducedMotion":  "Skip the trash/paper animation and update the label/state immediately after the action resolves.",
+                         "avoid":  [
+                                       "triggering destructive work without confirmation when needed",
+                                       "fake success before backend confirmation",
+                                       "long blocking animation",
+                                       "icon-only destructive buttons without labels",
+                                       "autoplaying the delete animation"
+                                   ]
+                     },
+                     {
+                         "id":  "svg-path-particle-reveal",
+                         "name":  "SVG Path Particle Reveal",
+                         "bestFor":  [
+                                         "cinematic logo reveals",
+                                         "moon and eclipse intros",
+                                         "constellation loaders",
+                                         "premium landing-page hero moments",
+                                         "WebGL product mark reveals"
+                                     ],
+                         "useWhen":  "A project needs an SVG silhouette, line-art path, moon, constellation, route, icon, or logo mark to scatter from depth and assemble into a premium particle shape.",
+                         "preferredStack":  [
+                                                "Three.js",
+                                                "GSAP timeline",
+                                                "SVG getTotalLength and getPointAtLength",
+                                                "Canvas fallback"
+                                            ],
+                         "localPath":  "motion/svg-path-particle-reveal/index.html",
+                         "verificationNotes":  "motion/svg-path-particle-reveal/verification-notes.md",
+                         "source":  "User-provided JavaScript snippet that samples an SVG path with getTotalLength/getPointAtLength, creates THREE.Vector3 vertices, jitters them in x/y/z, and animates them from a centered origin with a GSAP timeline.",
+                         "implementationNotes":  [
+                                                     "Use owned, generated, open-source-permitted, or user-provided SVG paths only.",
+                                                     "Normalize the SVG viewBox before mapping vertices into the scene; the captured 600 by 552 origin only applies to matching artwork.",
+                                                     "For production Three.js, render sampled points with BufferGeometry and THREE.Points rather than one mesh per point.",
+                                                     "Tune point density by device class; the captured 0.1 path step is dense and may be too heavy for mobile.",
+                                                     "Use as a cinematic hero, loader, ambient background, logo reveal, or transition, not as critical navigation.",
+                                                     "Keep source-video headings and code frames out of the preview UI; code belongs in files and metadata."
+                                                 ],
+                         "reducedMotion":  "Render the final path or logo as a static particle/shape image, skip the scatter timeline, and do not delay access to page content.",
+                         "avoid":  [
+                                       "unlicensed logo or icon paths",
+                                       "too many particles on mobile",
+                                       "blocking auth, checkout, or data-entry flows",
+                                       "text placed directly on dense bright particles",
+                                       "WebGL-only implementation with no fallback",
+                                       "visible code panels inside the design preview"
                                    ]
                      }
                  ],

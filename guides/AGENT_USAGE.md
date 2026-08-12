@@ -19,22 +19,32 @@ For landing pages and motion graphics websites, the agent should also choose a m
    - Read `guides/AGENT_BUILD_CHECKLIST.md` for required asset, motion, and visual QA gates.
    - Read `guides/SITE_INTERACTION_PATTERNS.md` when the site needs rotating hero imagery, dropdowns, mega menus, category browsing, brand grids, or top-nav interaction.
    - Read `motion/LANDING_PAGE_MOTION_GUIDE.md` when the site needs a landing page, cinematic hero, product tour, scroll story, animated UI, WebGL, Lottie, Rive, GSAP, or motion graphics feel.
+   - Read `motion/PREMIUM_MOTION_SOURCES.md` when the build needs external premium inspiration, licensed assets, 3D scenes, Lottie/Rive files, templates, or implementation examples.
+   - Read `motion/MOTIONSITES_PROMPT_REFERENCES.md` when the build needs AI-builder prompt direction, full-page prompt scaffolds, section prompts, app prompts, or animated background strategy.
    - Use `catalog.json` to find global style systems.
    - Use `screen-catalog.json` to find page-type examples.
    - Use `motion/motion-catalog.json` to find motion references, patterns, and implementation resources.
+   - Use `motion/premium-motion-sources.json` to find external premium motion sources and license notes.
+   - Use `motion/motionsites-prompt-catalog.json` to find MotionSites prompt-card and animated-background references.
    - Use `CAPTURED_STYLES.md`, `SCREEN_REFERENCES.md`, and `motion/MOTION_REFERENCES.md` when a human-readable scan is faster.
 
 3. Run the automated selectors for a first pass.
    - Use `scripts/select-vault-style.ps1` with `-Brief` and, after cloning/inspecting a target repo, `-ProjectPath`.
    - Use `scripts/select-motion-references.ps1` when the brief mentions landing pages, motion, animation, cinematic, product tours, scroll stories, video, canvas, WebGL, Lottie, Rive, GSAP, or animated dashboards.
+   - Use `scripts/select-premium-motion-sources.ps1` when more external inspiration, licensed assets, 3D scenes, Lottie/Rive files, templates, or implementation examples are needed.
+   - Use `scripts/select-prompt-references.ps1` when prompt scaffolding, section prompt direction, app prompt direction, or animated background direction would help the build.
    - Review generated reports instead of accepting them blindly.
    - Visual example: `powershell -ExecutionPolicy Bypass -File .\scripts\select-vault-style.ps1 -Brief "Premium B2B analytics dashboard with login, pricing, integrations, and contacts" -ProjectPath <target-repo> -OutputPath <target-repo>\VAULT_SELECTION.generated.md`.
    - Motion example: `powershell -ExecutionPolicy Bypass -File .\scripts\select-motion-references.ps1 -Brief "Cinematic SaaS landing page with scroll product story and animated product tour" -ProjectPath <target-repo> -OutputPath <target-repo>\MOTION_SELECTION.generated.md`.
+   - Premium source example: `powershell -ExecutionPolicy Bypass -File .\scripts\select-premium-motion-sources.ps1 -Brief "Cinematic 3D SaaS landing page with licensed hero motion assets" -ProjectPath <target-repo> -OutputPath <target-repo>\PREMIUM_MOTION_SOURCE_SELECTION.generated.md`.
+   - MotionSites prompt reference example: `powershell -ExecutionPolicy Bypass -File .\scripts\select-prompt-references.ps1 -Brief "Premium AI SaaS landing page with animated hero, pricing, dashboard preview, and abstract background" -IncludeBackgrounds -ProjectPath <target-repo> -OutputPath <target-repo>\PROMPT_REFERENCE_SELECTION.generated.md`.
 
 4. Shortlist candidates.
    - Pick 3 to 5 style bundles whose `category`, `bestFor`, `tags`, `theme`, and `northStar` match the product.
    - Pick page-specific screen references for dashboard, login, product details, pricing/paywall, catalog, profile, 404, blog, developers, integrations, contacts, careers, or media kit pages as needed.
    - Pick motion references and 2 to 5 motion patterns only when they help explain the product, strengthen hierarchy, or improve perceived quality.
+   - Pick premium motion sources only when the project needs extra external inspiration, licensed assets, 3D scenes, motion templates, or implementation examples.
+   - Pick MotionSites prompt references only when they help shape prompt scaffolding, page composition, app concepts, or background motion direction.
 
 5. Choose references.
    - Select 1 primary style bundle.
@@ -44,7 +54,7 @@ For landing pages and motion graphics websites, the agent should also choose a m
 
 6. Create the selection record.
    - Copy `templates/VAULT_SELECTION.md` into the generated project or target repo.
-   - Fill in the primary style, supporting references, motion references when relevant, fit rationale, adaptation plan, asset policy, reduced-motion plan, and QA plan before implementation.
+   - Fill in the primary style, supporting references, motion references when relevant, premium source/license notes when relevant, fit rationale, adaptation plan, asset policy, reduced-motion plan, and QA plan before implementation.
 
 7. Read the selected folders deeply.
    - For styles, read `README.md`, `DESIGN.md`, `implementation-prompt.md`, `style.json`, `tokens/`, and `code/`.
@@ -74,6 +84,8 @@ Use ai-ui-style-vault as the design reference source.
 First inspect this target repo and summarize the app type, audience, pages, stack, existing UI conventions, and motion needs.
 Then run scripts/select-vault-style.ps1 with the brief and target repo path, read the generated selection report, and select one primary style bundle plus page-specific screen references.
 If the build is a landing page, cinematic site, product tour, scroll story, animated dashboard, WebGL page, or motion graphics website, also run scripts/select-motion-references.ps1 and read motion/LANDING_PAGE_MOTION_GUIDE.md.
+If the build needs external premium inspiration, licensed assets, 3D scenes, Lottie/Rive files, templates, or implementation examples, run scripts/select-premium-motion-sources.ps1 and record source/license notes.
+If prompt scaffolding, app prompt direction, section prompt direction, or animated background direction would help, run scripts/select-prompt-references.ps1 and record source/access notes.
 Explain why those references fit.
 Create or review a VAULT_SELECTION.md / VAULT_SELECTION.generated.md record before implementation.
 Implement an original UI using the selected tokens, rhythm, component rules, page patterns, and motion patterns.
@@ -99,4 +111,8 @@ Useful add-ons include rotating editorial heroes, product taxonomy mega menus, b
 
 When a target site needs landing-page polish or motion graphics, also consult `motion/LANDING_PAGE_MOTION_GUIDE.md` and run `scripts/select-motion-references.ps1`.
 
-Useful add-ons include kinetic hero type, scroll product stories, cinematic media heroes, animated product UI tours, Lottie illustration systems, Rive interactive controls, Three.js product stages, microinteraction systems, motion-safe mega menus, and animated data proof. Use these as choreography patterns only; pair them with selected style tokens and build original motion from licensed or owned assets.
+When a target site needs more external premium sources, licensed assets, 3D scenes, templates, Lottie/Rive files, or implementation examples, also consult `motion/PREMIUM_MOTION_SOURCES.md` and run `scripts/select-premium-motion-sources.ps1`.
+
+When a target site needs AI-builder prompt scaffolds, section prompts, app prompts, or animated background direction, also consult `motion/MOTIONSITES_PROMPT_REFERENCES.md` and run `scripts/select-prompt-references.ps1`. Treat MotionSites references as source-linked direction only; do not republish prompt bodies, premium prompt text, screenshots, videos, assets, generated outputs, or copied code.
+
+Useful add-ons include kinetic hero type, scroll product stories, cinematic media heroes, animated product UI tours, Lottie illustration systems, Rive interactive controls, Three.js product stages, SVG path particle reveals, microinteraction systems, motion-safe mega menus, animated data proof, team carousels, timed hero cards, responsive sidebars, glass pill navigation, and destructive-action microinteractions. Use these as choreography patterns only; pair them with selected style tokens and build original motion from licensed or owned assets.

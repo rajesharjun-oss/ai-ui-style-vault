@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Code Candy Motion Replicas</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #05060d;
+        --panel: #10131f;
+        --ink: #f7f9ff;
+        --muted: #98a0b8;
+        --line: rgba(255, 255, 255, 0.1);
+        --pink: #ff2fa8;
+        --violet: #8338ff;
+        --blue: #2f8cff;
+        --cyan: #00e5ff;
+        --green: #29fd53;
+        --teal: #00c8d7;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 16% 20%, rgba(131, 56, 255, 0.14), transparent 28%),
+          radial-gradient(circle at 84% 36%, rgba(0, 229, 255, 0.12), transparent 26%),
+          linear-gradient(180deg, #050611, #020309 70%);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      button, input { font: inherit; }
+
+      .app {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 250px minmax(0, 1fr);
+      }
+
+      .rail {
+        position: relative;
+        z-index: 20;
+        padding: 24px 16px;
+        border-right: 1px solid var(--line);
+        background: rgba(6, 8, 18, 0.76);
+        backdrop-filter: blur(18px);
+      }
+
+      .brand {
+        margin: 0 0 20px;
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .tabs {
+        display: grid;
+        gap: 10px;
+      }
+
+      .tab {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 46px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.045);
+        color: var(--muted);
+        cursor: pointer;
+        text-align: left;
+      }
+
+      .tab.is-active {
+        border-color: rgba(0, 229, 255, 0.45);
+        background: rgba(0, 229, 255, 0.11);
+        color: var(--ink);
+        box-shadow: 0 0 28px rgba(0, 229, 255, 0.12);
+      }
+
+      .tab small {
+        color: inherit;
+        opacity: 0.72;
+      }
+
+      .stage {
+        position: relative;
+        min-width: 0;
+        overflow: hidden;
+      }
+
+      .scene {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        padding: clamp(18px, 3vw, 34px);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(18px) scale(0.985);
+        transition: opacity 360ms ease, transform 360ms ease;
+      }
+
+      .scene.is-active {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0) scale(1);
+      }
+
+      .scene:not(.is-active),
+      .scene:not(.is-active) * {
+        pointer-events: none !important;
+      }
+
+      .reference-frame {
+        width: min(100%, 1040px);
+        max-height: calc(100vh - 44px);
+        aspect-ratio: 0.72;
+        min-height: 720px;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 8px;
+        background: #05060b;
+        box-shadow: 0 38px 140px rgba(0, 0, 0, 0.62);
+        display: grid;
+        grid-template-rows: 1fr;
+      }
+
+      .demo-band {
+        position: relative;
+        min-height: 0;
+        display: grid;
+        place-items: center;
+        padding: 34px;
+        overflow: hidden;
+      }
+
+      .code-band {
+        display: none;
+        height: auto;
+        min-height: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        background: #080d16;
+      }
+
+      .code-window {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        background: #0b111b;
+      }
+
+      .code-head {
+        position: relative;
+        min-height: 42px;
+        display: grid;
+        place-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        color: #aab2c6;
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .dots {
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        display: flex;
+        gap: 9px;
+        transform: translateY(-50%);
+      }
+
+      .dot { width: 13px; aspect-ratio: 1; border-radius: 50%; }
+      .red { background: #ff5f57; }
+      .yellow { background: #ffbd2e; }
+      .green { background: #28c840; }
+
+      pre {
+        margin: 0;
+        padding: 20px 28px;
+        color: #d7def0;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: clamp(15px, 1.75vw, 22px);
+        line-height: 1.5;
+        white-space: pre-wrap;
+      }
+
+      .selector { color: #b8f26b; }
+      .prop { color: #61e7f7; }
+      .value { color: #ff9d6e; }
+      .comment { color: #7c859b; }
+      .kw { color: #ff6bb7; }
+
+      /* Reference 1: dark slanted login/signup */
+      .scene-auth-one .demo-band {
+        background: radial-gradient(circle at 50% 15%, rgba(131, 56, 255, 0.38), transparent 28%), #0a0818;
+      }
+
+      .auth-one {
+        position: relative;
+        width: min(78vw, 760px);
+        min-height: 410px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        background: #100f1c;
+        box-shadow: 0 0 34px rgba(131, 56, 255, 0.36), 0 28px 60px rgba(0, 0, 0, 0.5);
+      }
+
+      .auth-one .form-panel {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 34px;
+        background: #090913;
+        transition:
+          opacity 900ms cubic-bezier(.77, 0, .18, 1),
+          transform 900ms cubic-bezier(.77, 0, .18, 1),
+          filter 900ms cubic-bezier(.77, 0, .18, 1);
+      }
+
+      .auth-one .form-panel--signup {
+        opacity: 0;
+        transform: translateX(80px);
+        filter: blur(6px);
+        pointer-events: none;
+      }
+
+      .auth-container.active .form-panel--login {
+        opacity: 0;
+        transform: translateX(-80px);
+        filter: blur(6px);
+        pointer-events: none;
+      }
+
+      .auth-container.active .form-panel--signup {
+        opacity: 1;
+        transform: translateX(0);
+        filter: blur(0);
+        pointer-events: auto;
+      }
+
+      .mini-kicker { margin: 0 0 7px; color: var(--pink); font-size: 11px; font-weight: 900; text-transform: uppercase; }
+      .auth-one h3, .auth-two h3 { margin: 0; font-size: 28px; line-height: 1.1; }
+      .auth-one p, .auth-two p { margin: 9px 0 18px; color: #a6abc0; font-size: 13px; }
+      .field { height: 46px; display: flex; align-items: center; gap: 9px; margin-bottom: 12px; padding: 0 14px; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 10px; background: rgba(255, 255, 255, 0.055); color: #788097; }
+      .cta-gradient { width: 100%; height: 46px; border: 0; border-radius: 10px; color: #fff; font-weight: 900; background: linear-gradient(90deg, #8a2cff, #ff2fa8); box-shadow: 0 12px 30px rgba(255, 47, 168, 0.3); cursor: pointer; }
+      .auth-one .socials { display: flex; justify-content: center; gap: 12px; margin-top: 14px; }
+      .auth-one .socials span { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 12px; background: rgba(255, 255, 255, 0.07); }
+
+      .overlay-panel {
+        position: absolute;
+        inset: 0 0 0 50%;
+        z-index: 2;
+        display: grid;
+        place-items: center;
+        padding: 36px;
+        clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
+        background: linear-gradient(135deg, #2f8cff, #9a51ff 50%, #ff2fa8);
+        text-align: center;
+        transition: transform 900ms cubic-bezier(.77, 0, .18, 1), clip-path 900ms cubic-bezier(.77, 0, .18, 1);
+      }
+
+      .overlay-copy {
+        position: relative;
+        z-index: 3;
+        grid-area: 1 / 1;
+        transition:
+          opacity 600ms cubic-bezier(.77, 0, .18, 1),
+          transform 600ms cubic-bezier(.77, 0, .18, 1);
+      }
+
+      .overlay-copy .outline-btn {
+        position: relative;
+        z-index: 4;
+        min-width: 120px;
+        min-height: 42px;
+        padding: 0 18px;
+        border: 1px solid rgba(255,255,255,.42);
+        border-radius: 8px;
+        background: rgba(255,255,255,.12);
+        color: #fff;
+        font: inherit;
+        font-weight: 850;
+        cursor: pointer;
+        pointer-events: auto;
+      }
+
+      .overlay-copy .outline-btn:hover,
+      .overlay-copy .outline-btn:focus-visible {
+        background: rgba(255,255,255,.2);
+        outline: 0;
+      }
+
+      .overlay-copy--signin {
+        opacity: 0;
+        transform: translateX(24px);
+        pointer-events: none;
+      }
+
+      .auth-container.active .overlay-copy--signup {
+        opacity: 0;
+        transform: translateX(-24px);
+        pointer-events: none;
+      }
+
+      .auth-container.active .overlay-copy--signin {
+        opacity: 1;
+        transform: translateX(0);
+        pointer-events: auto;
+      }
+
+      .auth-container.active .overlay-panel {
+        transform: translateX(-100%);
+        clip-path: polygon(0 0, 86% 0, 100% 100%, 0 100%);
+      }
+
+      .orbit-dots { position: absolute; top: 34px; right: 62px; width: 78px; aspect-ratio: 1; border: 1px solid rgba(255,255,255,.16); border-radius: 50%; animation: spin 5s linear infinite; pointer-events: none; }
+      .orbit-dots::before, .orbit-dots::after { content: ""; position: absolute; width: 7px; aspect-ratio: 1; border-radius: 50%; background: #fff; box-shadow: 0 0 12px #fff; }
+      .orbit-dots::before { left: 10px; top: 17px; }
+      .orbit-dots::after { right: 15px; bottom: 14px; }
+      /* Reference 2: hover-only pill menu */
+      .scene-menu .demo-band {
+        background: radial-gradient(circle at 50% 50%, rgba(0, 229, 255, 0.24), transparent 46%), #052532;
+      }
+
+      .expanding-menu {
+        height: 92px;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 18px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: rgba(0, 196, 206, 0.5);
+        box-shadow: 0 0 42px rgba(0, 229, 255, 0.28), inset 0 1px rgba(255,255,255,.18);
+        backdrop-filter: blur(16px);
+      }
+
+      .menu-item {
+        width: 52px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        overflow: hidden;
+        border: 0;
+        border-radius: 999px;
+        background: transparent;
+        color: rgba(255, 255, 255, 0.6);
+        cursor: pointer;
+        transition: width .45s cubic-bezier(.22, 1, .36, 1), background .3s ease, box-shadow .3s ease, color .3s ease;
+      }
+
+      .menu-item svg { width: 28px; height: 28px; flex: 0 0 auto; stroke: currentColor; stroke-width: 1.9; fill: none; }
+      .menu-label { max-width: 0; opacity: 0; transform: translateX(-8px); white-space: nowrap; font-size: 14px; font-weight: 850; transition: opacity .25s ease, max-width .45s ease, transform .35s ease; }
+      .menu-item:hover, .menu-item:focus-visible { width: 160px; background: rgba(255,255,255,.12); color: #fff; box-shadow: 0 0 28px rgba(0, 229, 255, .22); }
+      .menu-item:hover .menu-label, .menu-item:focus-visible .menu-label { max-width: 100px; opacity: 1; transform: translateX(0); }
+
+      /* Reference 3: nav bar indicator */
+      .scene-nav .demo-band {
+        background: linear-gradient(180deg, #171725, #11111d 70%);
+      }
+
+      .nav-one {
+        position: relative;
+        width: min(720px, 86vw);
+        height: 72px;
+        isolation: isolate;
+        touch-action: manipulation;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
+        border: 1px solid rgba(255,255,255,.07);
+        border-radius: 18px;
+        background: #25262b;
+        box-shadow: 0 18px 42px rgba(0, 0, 0, .28);
+      }
+
+      .nav-indicator {
+        position: absolute;
+        top: -28px;
+        left: calc(var(--nav-index, 0) * 20% + 10% - 31.5px);
+        width: 63px;
+        height: 63px;
+        border: 5px solid var(--green);
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 28%, #8a8a90, #4e4e54);
+        box-shadow: 0 0 12px rgba(41, 253, 83, .2), inset 0 3px 5px rgba(255,255,255,.28);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(8px) scale(.92);
+        transition: left .58s cubic-bezier(.34, 1.45, .64, 1), opacity .25s ease, transform .35s cubic-bezier(.34, 1.45, .64, 1);
+      }
+
+      .nav-one[data-has-active="true"] .nav-indicator {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+
+      .nav-btn {
+        position: relative;
+        z-index: 4;
+        width: 100%;
+        height: 72px;
+        display: grid;
+        place-items: center;
+        border: 0;
+        background: transparent;
+        color: rgba(255,255,255,.62);
+        cursor: pointer;
+      }
+
+      .nav-btn svg { width: 30px; height: 30px; stroke: currentColor; fill: none; stroke-width: 2; pointer-events: none; transition: transform .5s cubic-bezier(.34, 1.45, .64, 1); }
+      .nav-btn:focus-visible { outline: 2px solid rgba(41, 253, 83, .75); outline-offset: -8px; }
+      .nav-btn.is-active { color: #fff; }
+      .nav-btn.is-active svg { transform: translateY(-40px); }
+      .nav-label { position: absolute; left: calc(var(--nav-index, 0) * 20% + 10% - 38px); top: 50px; min-width: 76px; height: 30px; display: grid; place-items: center; border-radius: 999px; background: #303137; color: #fff; font-size: 13px; font-weight: 850; opacity: 0; transform: translateY(6px); transition: left .58s cubic-bezier(.34, 1.45, .64, 1), opacity .3s ease, transform .35s cubic-bezier(.34, 1.45, .64, 1); pointer-events: none; z-index: 3; }
+      .nav-one[data-has-active="true"] .nav-label { opacity: 1; transform: translateY(0); }
+      /* Reference 4: light auth overlay slide */
+      .scene-auth-two .demo-band { background: #f3f7ff; }
+      .auth-two {
+        position: relative;
+        width: min(900px, 88vw);
+        height: 460px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+        border-radius: 18px;
+        background: #fff;
+        color: #151828;
+        box-shadow: 0 20px 70px rgba(43, 66, 160, .18);
+      }
+      .auth-two .form-panel { display: flex; flex-direction: column; justify-content: center; padding: 34px 44px; background: #fff; }
+      .auth-two .form-panel--signup { color: #151828; }
+      .logo-candy { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 28px; font-weight: 900; color: #3d3c55; }
+      .logo-candy span { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 9px; color: #fff; background: linear-gradient(135deg, #5d3df5, #905cff); }
+      .auth-two .field { border-color: #d8deec; background: #fbfdff; color: #8890a2; }
+      .auth-two .cta-gradient { background: linear-gradient(90deg, #5f45ee, #5039df); box-shadow: 0 12px 26px rgba(80, 57, 223, 0.25); }
+      .auth-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        right: auto;
+        display: grid;
+        place-items: center;
+        width: calc(50% + 2px);
+        height: 100%;
+        padding: 40px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #5a34f4, #176dff);
+        color: #fff;
+        text-align: center;
+        z-index: 3;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+        transition: transform 680ms cubic-bezier(.22, 1, .36, 1);
+        will-change: transform;
+      }
+      .auth-card.show-signup .auth-overlay { transform: translate3d(calc(-100% + 2px), 0, 0); }      .auth-overlay-copy { grid-area: 1 / 1; opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity 220ms ease, transform 260ms ease; }
+      .auth-overlay-copy.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+      .user-card { width: 104px; aspect-ratio: 1; display: grid; place-items: center; margin-inline: auto; border-radius: 24px; background: rgba(255,255,255,.18); box-shadow: 0 16px 30px rgba(0,0,0,.15); font-size: 50px; }
+      .auth-overlay .outline-btn { height: 46px; min-width: 160px; border-radius: 10px; border: 1px solid rgba(255,255,255,.45); background: rgba(255,255,255,.07); color: #fff; font-weight: 900; cursor: pointer; }
+
+      @keyframes spin { to { transform: rotate(360deg); } }
+
+      @media (max-width: 880px) {
+        body { overflow: auto; }
+        .app { grid-template-columns: 1fr; }
+        .rail { position: sticky; top: 0; border-right: 0; border-bottom: 1px solid var(--line); padding: 14px; }
+        .tabs { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+        .tab { min-height: 42px; padding: 8px; font-size: 12px; }
+        .tab small { display: none; }
+        .stage { min-height: calc(100vh - 90px); }
+        .reference-frame { min-height: 690px; aspect-ratio: 0.62; }
+        .auth-one { width: 96%; min-height: 450px; }
+        .auth-two { width: 96%; height: 450px; }
+        .auth-two .form-panel, .auth-one .form-panel { padding: 24px; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app">
+      <aside class="rail">
+        <p class="brand">Code Candy Motion Replicas</p>
+        <nav class="tabs" aria-label="Animation references">
+          <button class="tab is-active" data-target="auth-one">Login #1 <small>slanted</small></button>
+          <button class="tab" data-target="menu">Hover <small>pill</small></button>
+          <button class="tab" data-target="nav">Nav #1 <small>green</small></button>
+          <button class="tab" data-target="auth-two">Login #2 <small>flip</small></button>
+        </nav>
+      </aside>
+
+      <section class="stage">
+        <article class="scene scene-auth-one is-active" data-scene="auth-one">
+          <div class="reference-frame">
+            <div class="demo-band">
+              <div class="auth-one auth-container" id="authOne">
+                <section class="form-panel form-panel--login">
+                  <p class="mini-kicker">Welcome back</p>
+                  <h3>Sign in</h3>
+                  <p>Enter your details to continue.</p>
+                  <div class="field">✉ you@example.com</div>
+                  <div class="field">⌕••••••••</div>
+                  <button class="cta-gradient" type="button">Sign in</button>
+                  <div class="socials"><span>G</span><span>⌘</span></div>
+                </section>
+                <section class="form-panel form-panel--signup">
+                  <p class="mini-kicker">Start fresh</p>
+                  <h3>Create account</h3>
+                  <p>Join in with a few quick details.</p>
+                  <div class="field">◎ Full name</div>
+                  <div class="field">✉ email address</div>
+                  <div class="field">⌕ password</div>
+                  <button class="cta-gradient" type="button">Create account</button>
+                </section>
+                <div class="overlay-panel">
+                  <div class="orbit-dots"></div>
+                  <div class="overlay-copy overlay-copy--signup">
+                    <h3>New around here?</h3>
+                    <p>Create an account and unlock the full experience.</p>
+                    <button class="outline-btn" type="button" data-auth-one-mode="signup">Create account</button>
+                  </div>
+                  <div class="overlay-copy overlay-copy--signin">
+                    <h3>Already have an account?</h3>
+                    <p>Return to the sign-in form.</p>
+                    <button class="outline-btn" type="button" data-auth-one-mode="signin">Sign in</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code-band"><div class="code-window"><div class="code-head"><span class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></span>CodeCandy.css</div><pre><code><span class="selector">.overlay-panel</span> {
+  <span class="prop">clip-path</span>: <span class="value">polygon(14% 0,100% 0,100% 100%,0 100%)</span>;
+  <span class="prop">transition</span>:
+    <span class="prop">transform</span> <span class="value">900ms cubic-bezier(.77,0,.18,1)</span>,
+    <span class="prop">clip-path</span> <span class="value">900ms cubic-bezier(.77,0,.18,1)</span>;
+}
+
+<span class="selector">.auth-container.active .overlay-panel</span> {
+  <span class="prop">transform</span>: <span class="value">translateX(-100%)</span>;
+  <span class="prop">clip-path</span>: <span class="value">polygon(0 0,86% 0,100% 100%,0 100%)</span>;
+}</code></pre></div></div>
+          </div>
+        </article>
+
+        <article class="scene scene-menu" data-scene="menu">
+          <div class="reference-frame">
+            <div class="demo-band">
+              <nav class="expanding-menu" aria-label="Hover menu">
+                <button class="menu-item"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg><span class="menu-label">Apps</span></button>
+                <button class="menu-item"><svg viewBox="0 0 24 24"><path d="M3 7h7l2 2h9v10H3z"/></svg><span class="menu-label">Files</span></button>
+                <button class="menu-item"><svg viewBox="0 0 24 24"><path d="M5 5h14v11H8l-3 3z"/></svg><span class="menu-label">Chat</span></button>
+                <button class="menu-item"><svg viewBox="0 0 24 24"><path d="M12 8a4 4 0 100 8 4 4 0 000-8zM12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg><span class="menu-label">Settings</span></button>
+                <button class="menu-item"><svg viewBox="0 0 24 24"><path d="M10 17l5-5-5-5M15 12H3M21 4v16"/></svg><span class="menu-label">Exit</span></button>
+              </nav>
+            </div>
+            <div class="code-band"><div class="code-window"><div class="code-head"><span class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></span>style.css</div><pre><code><span class="selector">.menu-item</span> {
+  <span class="prop">width</span>: <span class="value">52px</span>;
+  <span class="prop">height</span>: <span class="value">52px</span>;
+  <span class="prop">display</span>: <span class="value">flex</span>;
+  <span class="prop">gap</span>: <span class="value">0.75rem</span>;
+  <span class="prop">overflow</span>: <span class="value">hidden</span>;
+  <span class="prop">border-radius</span>: <span class="value">999px</span>;
+  <span class="prop">transition</span>: <span class="value">width .45s cubic-bezier(.22,1,.36,1)</span>;
+}
+
+<span class="selector">.menu-item:hover, .menu-item:focus-visible</span> {
+  <span class="prop">width</span>: <span class="value">160px</span>;
+  <span class="prop">background</span>: <span class="value">rgba(255,255,255,.12)</span>;
+}</code></pre></div></div>
+          </div>
+        </article>
+
+        <article class="scene scene-nav" data-scene="nav">
+          <div class="reference-frame">
+            <div class="demo-band">
+              <nav class="nav-one" id="navOne" style="--nav-index:0" data-has-active="false" aria-label="Navigation bar demo">
+                <span class="nav-indicator"></span><span class="nav-label" aria-live="polite"></span>
+                <button class="nav-btn" type="button" data-nav-label="Home" aria-label="Home" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9H5v-9zM9 20v-6h6v6"/></svg></button>
+                <button class="nav-btn" type="button" data-nav-label="Profile" aria-label="Profile" aria-pressed="false"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M5 21a7 7 0 0114 0"/></svg></button>
+                <button class="nav-btn" type="button" data-nav-label="Chat" aria-label="Chat" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M5 5h14v11H8l-3 3z"/></svg></button>
+                <button class="nav-btn" type="button" data-nav-label="Message" aria-label="Message" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M4 6h16v11H7l-3 3z"/></svg></button>
+                <button class="nav-btn" type="button" data-nav-label="Settings" aria-label="Settings" aria-pressed="false"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></button>
+              </nav>
+            </div>
+            <div class="code-band"><div class="code-window"><div class="code-head"><span class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></span>Navigation.css</div><pre><code><span class="selector">.nav</span> {
+  <span class="prop">background</span>: <span class="value">#25262b</span>;
+  <span class="prop">border</span>: <span class="value">1px solid rgba(255,255,255,.07)</span>;
+  <span class="prop">box-shadow</span>: <span class="value">0 18px 42px rgba(0,0,0,.28)</span>;
+}
+
+<span class="selector">.indicator</span> {
+  <span class="prop">top</span>: <span class="value">-28px</span>;
+  <span class="prop">width</span>: <span class="value">63px</span>;
+  <span class="prop">height</span>: <span class="value">63px</span>;
+  <span class="prop">border</span>: <span class="value">5px solid #29fd53</span>;
+  <span class="prop">opacity</span>: <span class="value">0</span>;
+  <span class="prop">transition</span>: <span class="value">left .58s cubic-bezier(.34,1.45,.64,1)</span>;
+}
+
+<span class="selector">.nav[data-has-active="true"] .indicator</span> {
+  <span class="prop">opacity</span>: <span class="value">1</span>;
+}</code></pre></div></div>
+          </div>
+        </article>
+
+        <article class="scene scene-auth-two" data-scene="auth-two">
+          <div class="reference-frame">
+            <div class="demo-band">
+              <div class="auth-two auth-card" id="authTwo">
+                <section class="form-panel form-panel--signin">
+                  <div class="logo-candy"><span>CC</span> Code Candy</div>
+                  <p class="mini-kicker" style="color:#5d3df5">Your workspace awaits</p>
+                  <h3>Welcome back</h3>
+                  <p>Sign in to continue to your account.</p>
+                  <div class="field">Email address</div>
+                  <div class="field">Password</div>
+                  <button class="cta-gradient" type="button">Sign in</button>
+                </section>
+                <section class="form-panel form-panel--signup">
+                  <div class="logo-candy"><span>+</span> Start fresh</div>
+                  <p class="mini-kicker" style="color:#5d3df5">Create account</p>
+                  <h3>Build your workspace</h3>
+                  <p>Add a few details to open your new account.</p>
+                  <div class="field">Full name</div>
+                  <div class="field">Email address</div>
+                  <div class="field">Password</div>
+                  <button class="cta-gradient" type="button">Create account</button>
+                </section>
+                <div class="auth-overlay">
+                  <div class="auth-overlay-copy auth-overlay-copy--signup is-visible">
+                    <div class="user-card">+</div>
+                    <p class="mini-kicker" style="color:#fff;margin-top:22px">Make it yours</p>
+                    <h3>New here?</h3>
+                    <p style="color:rgba(255,255,255,.8)">Create a workspace, save your projects, and keep every bright idea within reach.</p>
+                    <button class="outline-btn" type="button" data-auth-two-mode="signup" aria-pressed="false">Create account</button>
+                  </div>
+                  <div class="auth-overlay-copy auth-overlay-copy--signin">
+                    <div class="user-card">CC</div>
+                    <p class="mini-kicker" style="color:#fff;margin-top:22px">Welcome back</p>
+                    <h3>Already registered?</h3>
+                    <p style="color:rgba(255,255,255,.8)">Return to your saved projects and continue where you stopped.</p>
+                    <button class="outline-btn" type="button" data-auth-two-mode="signin" aria-pressed="false">Sign in</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code-band" aria-hidden="true"><div class="code-window"><div class="code-head"><span class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></span>CodeCandy.css</div><pre><code><span class="comment">/* Click-triggered overlay slide */</span>
+<span class="selector">.auth-overlay</span> {
+  <span class="prop">transition</span>: <span class="value">transform 680ms cubic-bezier(.22,1,.36,1)</span>;
+}
+
+<span class="selector">.auth-card.show-signup .auth-overlay</span> {
+  <span class="prop">transform</span>: <span class="value">translateX(-100%)</span>;
+}</code></pre></div></div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script>
+      const tabs = [...document.querySelectorAll('.tab')];
+      const scenes = [...document.querySelectorAll('.scene')];
+      function showScene(id) {
+        tabs.forEach((tab) => tab.classList.toggle('is-active', tab.dataset.target === id));
+        scenes.forEach((scene) => scene.classList.toggle('is-active', scene.dataset.scene === id));
+      }
+      tabs.forEach((tab) => tab.addEventListener('click', () => showScene(tab.dataset.target)));
+
+      const requestedScene = new URLSearchParams(window.location.search).get('scene') || window.location.hash.slice(1);
+      if (requestedScene && scenes.some((scene) => scene.dataset.scene === requestedScene)) {
+        showScene(requestedScene);
+      }
+
+      const authOne = document.querySelector('#authOne');
+      const authOneModeButtons = [...document.querySelectorAll('[data-auth-one-mode]')];
+      function setAuthOneMode(mode) {
+        const showSignup = mode === 'signup';
+        authOne.classList.toggle('active', showSignup);
+        authOneModeButtons.forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset.authOneMode === mode));
+        });
+      }
+      authOneModeButtons.forEach((button) => {
+        button.addEventListener('click', (event) => {
+          event.stopPropagation();
+          setAuthOneMode(button.dataset.authOneMode);
+        });
+      });
+      const requestedAuthOneMode = new URLSearchParams(window.location.search).get('authOne');
+      if (requestedAuthOneMode === 'signup' || requestedAuthOneMode === 'signin') {
+        setAuthOneMode(requestedAuthOneMode);
+      }
+
+      const nav = document.querySelector('#navOne');
+      const navButtons = [...nav.querySelectorAll('.nav-btn')];
+      const navLabel = document.querySelector('.nav-label');
+      function setNav(index) {
+        nav.dataset.hasActive = 'true';
+        nav.style.setProperty('--nav-index', index);
+        navButtons.forEach((button, i) => {
+          const isActive = i === index;
+          button.classList.toggle('is-active', isActive);
+          button.setAttribute('aria-pressed', String(isActive));
+        });
+        navLabel.textContent = navButtons[index].dataset.navLabel;
+      }
+      function getNavIndexFromPointer(event) {
+        const rect = nav.getBoundingClientRect();
+        const relativeX = event.clientX - rect.left;
+        const segmentWidth = rect.width / navButtons.length;
+        return Math.min(navButtons.length - 1, Math.max(0, Math.floor(relativeX / segmentWidth)));
+      }
+      nav.addEventListener('click', (event) => {
+        setNav(getNavIndexFromPointer(event));
+      });
+      navButtons.forEach((button, index) => {
+        button.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            setNav(index);
+          }
+        });
+      });
+      const requestedNavLabel = new URLSearchParams(window.location.search).get('nav');
+      if (requestedNavLabel) {
+        const requestedNavIndex = navButtons.findIndex((button) => button.dataset.navLabel.toLowerCase() === requestedNavLabel.toLowerCase());
+        if (requestedNavIndex >= 0) setNav(requestedNavIndex);
+      }
+
+      const authTwo = document.querySelector('#authTwo');
+      const authTwoModeButtons = [...document.querySelectorAll('[data-auth-two-mode]')];
+      const authTwoSignupCopy = document.querySelector('.auth-overlay-copy--signup');
+      const authTwoSigninCopy = document.querySelector('.auth-overlay-copy--signin');
+      function setAuthTwoMode(mode) {
+        const showSignup = mode === 'signup';
+        authTwo.classList.toggle('show-signup', showSignup);
+        authTwoSignupCopy.classList.toggle('is-visible', !showSignup);
+        authTwoSigninCopy.classList.toggle('is-visible', showSignup);
+        authTwoModeButtons.forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset.authTwoMode === mode));
+        });
+      }
+      authTwoModeButtons.forEach((button) => {
+        button.addEventListener('click', () => setAuthTwoMode(button.dataset.authTwoMode));
+      });
+      const requestedAuthTwoMode = new URLSearchParams(window.location.search).get('authTwo');
+      if (requestedAuthTwoMode === 'signup' || requestedAuthTwoMode === 'signin') {
+        setAuthTwoMode(requestedAuthTwoMode);
+      }
+    </script>
+  </body>
+</html>

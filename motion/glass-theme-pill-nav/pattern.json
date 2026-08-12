@@ -1,0 +1,36 @@
+{
+    "id":  "glass-theme-pill-nav",
+    "name":  "Glass Theme Pill Nav",
+    "bestFor":  [
+                    "mobile nav bars",
+                    "compact landing-page navigation",
+                    "wellness apps",
+                    "consumer dashboards",
+                    "playful product shells"
+                ],
+    "useWhen":  "A project needs a warm glass pill navigation bar where an active capsule slides between items and a theme button changes the page mood.",
+    "preferredStack":  [
+                           "CSS variables",
+                           "CSS transitions",
+                           "vanilla JavaScript",
+                           "semantic buttons"
+                       ],
+    "localPath":  "motion/glass-theme-pill-nav/index.html",
+    "verificationNotes":  "motion/glass-theme-pill-nav/verification-notes.md",
+    "source":  "User-provided WhatsApp screenshot of a glass pill nav and theme toggle clip with partial visible JavaScript.",
+    "implementationNotes":  [
+                                "The active pill should move only after user selection, not autoplay.",
+                                "Theme toggles must update CSS variables and then recalculate pill geometry.",
+                                "Use enough contrast inside translucent glass surfaces.",
+                                "Keep all targets large enough for touch and keyboard focus.",
+                                "Do not use it as the only primary nav on dense enterprise screens without adaptation."
+                            ],
+    "reducedMotion":  "Move the active pill instantly and keep the light/dark theme swap readable.",
+    "avoid":  [
+                  "automatic nav cycling",
+                  "unreadable translucent labels",
+                  "theme buttons with no real state change",
+                  "tiny touch targets",
+                  "one-color gradient mush"
+              ]
+}

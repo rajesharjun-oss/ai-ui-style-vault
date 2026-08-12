@@ -1,0 +1,31 @@
+{
+    "id":  "code-candy-auth-overlay-slide",
+    "name":  "Code Candy Auth Overlay Slide",
+    "bestFor":  [
+                    "light login/signup pages",
+                    "workspace onboarding",
+                    "creator tools",
+                    "simple account portals"
+                ],
+    "useWhen":  "A project needs a clean light auth card where an overlay slides between sign-in and create-account panels on explicit click.",
+    "preferredStack":  [
+                           "CSS transitions",
+                           "vanilla JavaScript",
+                           "Motion for React when integrating into React"
+                       ],
+    "localPath":  "motion/code-candy-auth-overlay-slide/index.html",
+    "verificationNotes":  "motion/code-candy-auth-overlay-slide/verification-notes.md",
+    "implementationNotes":  [
+                                "Keep the create-account form visible and unobstructed after the slide.",
+                                "Avoid rendering vertical artifacts at the overlay seam by sizing and translating the overlay deliberately.",
+                                "Use real accessible inputs, submit handling, validation, and secure auth in production.",
+                                "Keep source-video code frames out of previews."
+                            ],
+    "reducedMotion":  "Swap the overlay side instantly with no slide animation and maintain focus order.",
+    "avoid":  [
+                  "autoplaying between sign-in and signup",
+                  "blank create-account panels",
+                  "overlay seams or clipped submit buttons",
+                  "fake-only auth"
+              ]
+}

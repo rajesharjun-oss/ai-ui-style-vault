@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SVG Path Particle Reveal</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #02030a;
+        --panel: rgba(10, 12, 24, 0.72);
+        --line: rgba(168, 196, 255, 0.18);
+        --text: #f7f8ff;
+        --muted: #a8b0c5;
+        --cyan: #86f7ff;
+        --violet: #b18cff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 50% 46%, rgba(111, 99, 255, 0.16), transparent 35%),
+          radial-gradient(circle at 50% 52%, rgba(86, 247, 255, 0.12), transparent 24%),
+          linear-gradient(180deg, #070914 0%, var(--bg) 100%);
+        color: var(--text);
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+      }
+
+      .stage {
+        position: relative;
+        min-height: 100vh;
+        isolation: isolate;
+      }
+
+      canvas {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .vignette {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background:
+          radial-gradient(circle at 50% 48%, transparent 0 28%, rgba(2, 3, 10, 0.24) 58%, rgba(2, 3, 10, 0.76) 100%),
+          linear-gradient(90deg, rgba(2, 3, 10, 0.86), transparent 18% 82%, rgba(2, 3, 10, 0.86));
+        z-index: 2;
+      }
+
+      .controls {
+        position: fixed;
+        right: clamp(18px, 4vw, 48px);
+        bottom: clamp(18px, 4vw, 42px);
+        z-index: 3;
+        display: flex;
+        gap: 10px;
+        padding: 8px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--panel);
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+        backdrop-filter: blur(18px);
+      }
+
+      button {
+        min-width: 84px;
+        min-height: 42px;
+        border: 0;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--text);
+        font: inherit;
+        font-size: 14px;
+        font-weight: 750;
+        cursor: pointer;
+      }
+
+      button:hover,
+      button:focus-visible {
+        outline: 2px solid rgba(134, 247, 255, 0.52);
+        outline-offset: 2px;
+        background: rgba(134, 247, 255, 0.16);
+      }
+
+      button.primary {
+        background: linear-gradient(135deg, rgba(134, 247, 255, 0.96), rgba(177, 140, 255, 0.96));
+        color: #050711;
+      }
+
+      svg {
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+      }
+
+      @media (max-width: 640px) {
+        .controls {
+          right: 50%;
+          transform: translateX(50%);
+          width: calc(100vw - 32px);
+          justify-content: center;
+        }
+
+        button {
+          flex: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="stage" aria-label="SVG path particle reveal preview">
+      <canvas id="scene"></canvas>
+      <div class="vignette"></div>
+      <div class="controls" aria-label="Animation controls">
+        <button class="primary" id="replay" type="button">Replay</button>
+        <button id="freeze" type="button">Freeze</button>
+      </div>
+      <svg id="source-shape" viewBox="0 0 600 552" aria-hidden="true" focusable="false">
+        <path
+          d="M394 92C314 40 188 62 125 150C43 264 87 421 216 478C313 521 425 493 489 410C416 437 326 415 272 350C205 268 231 146 319 104C344 92 371 87 394 92Z"
+        />
+      </svg>
+    </main>
+
+    <script>
+      const canvas = document.querySelector("#scene");
+      const ctx = canvas.getContext("2d");
+      const path = document.querySelector("path");
+      const replayButton = document.querySelector("#replay");
+      const freezeButton = document.querySelector("#freeze");
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      let particles = [];
+      let startTime = performance.now();
+      let rafId = 0;
+      let frozen = false;
+      let width = 0;
+      let height = 0;
+      let dpr = 1;
+      let sceneScale = 1;
+
+      function resize() {
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = Math.floor(width * dpr);
+        canvas.height = Math.floor(height * dpr);
+        canvas.style.width = width + "px";
+        canvas.style.height = height + "px";
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        sceneScale = Math.min(width / 760, height / 640, 1.08);
+        buildParticles();
+        draw(reducedMotion || frozen ? 1 : progressNow());
+      }
+
+      function buildParticles() {
+        const length = path.getTotalLength();
+        const step = width < 680 ? 2.2 : 1.25;
+        const next = [];
+
+        for (let i = 0; i < length; i += step) {
+          const point = path.getPointAtLength(i);
+          const vector = {
+            x: point.x,
+            y: -point.y,
+            z: 0
+          };
+
+          vector.x += (Math.random() - 0.5) * 30;
+          vector.y += (Math.random() - 0.5) * 30;
+          vector.z += (Math.random() - 0.5) * 70;
+
+          next.push({
+            sx: 600 / 2,
+            sy: -552 / 2,
+            sz: 0,
+            tx: vector.x,
+            ty: vector.y,
+            tz: vector.z,
+            delay: i * 0.002,
+            duration: 2 + Math.random() * 3,
+            size: 1.1 + Math.random() * 1.9,
+            seed: Math.random() * Math.PI * 2,
+            hue: Math.random()
+          });
+        }
+
+        particles = next;
+      }
+
+      function progressNow() {
+        return Math.min((performance.now() - startTime) / 7200, 1);
+      }
+
+      function easePower2InOut(t) {
+        if (t < 0.5) {
+          return 2 * t * t;
+        }
+
+        return 1 - Math.pow(-2 * t + 2, 2) / 2;
+      }
+
+      function project(x, y, z) {
+        const perspective = 520 / (520 - z);
+        return {
+          x: width / 2 + (x - 300) * sceneScale * perspective,
+          y: height / 2 + (y + 276) * sceneScale * perspective
+        };
+      }
+
+      function draw(globalProgress) {
+        ctx.clearRect(0, 0, width, height);
+
+        const glow = ctx.createRadialGradient(width / 2, height / 2, 0, width / 2, height / 2, Math.min(width, height) * 0.42);
+        glow.addColorStop(0, "rgba(255,255,255,0.09)");
+        glow.addColorStop(0.28, "rgba(134,247,255,0.10)");
+        glow.addColorStop(0.58, "rgba(177,140,255,0.07)");
+        glow.addColorStop(1, "rgba(2,3,10,0)");
+        ctx.fillStyle = glow;
+        ctx.fillRect(0, 0, width, height);
+
+        const elapsed = reducedMotion || frozen ? 99 : (performance.now() - startTime) / 1000;
+
+        for (const p of particles) {
+          const local = reducedMotion || frozen ? 1 : Math.max(0, Math.min((elapsed - p.delay) / p.duration, 1));
+          const eased = easePower2InOut(local);
+          const settle = Math.max(0, globalProgress - 0.82) / 0.18;
+          const drift = settle > 0 && !reducedMotion && !frozen ? Math.sin(elapsed * 1.2 + p.seed) * 1.25 * settle : 0;
+          const x = p.sx + (p.tx - p.sx) * eased + drift;
+          const y = p.sy + (p.ty - p.sy) * eased + drift * 0.35;
+          const z = p.sz + (p.tz - p.sz) * eased;
+          const pos = project(x, y, z);
+          const alpha = Math.max(0.08, Math.min(1, eased + 0.14));
+          const cool = p.hue > 0.55;
+
+          ctx.beginPath();
+          ctx.arc(pos.x, pos.y, p.size * (1 + z / 180), 0, Math.PI * 2);
+          ctx.fillStyle = cool
+            ? `rgba(134, 247, 255, ${alpha})`
+            : `rgba(247, 248, 255, ${alpha})`;
+          ctx.shadowColor = cool ? "rgba(134,247,255,0.85)" : "rgba(177,140,255,0.68)";
+          ctx.shadowBlur = 10;
+          ctx.fill();
+        }
+
+        ctx.shadowBlur = 0;
+        ctx.beginPath();
+        ctx.arc(width / 2 + 36 * sceneScale, height / 2 - 14 * sceneScale, 78 * sceneScale, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(2, 3, 10, 0.84)";
+        ctx.fill();
+
+        if (!reducedMotion && !frozen && progressNow() < 1) {
+          rafId = requestAnimationFrame(() => draw(progressNow()));
+        }
+      }
+
+      function replay() {
+        frozen = false;
+        freezeButton.textContent = "Freeze";
+        startTime = performance.now();
+        cancelAnimationFrame(rafId);
+        buildParticles();
+        draw(0);
+        rafId = requestAnimationFrame(() => draw(progressNow()));
+      }
+
+      function toggleFreeze() {
+        frozen = !frozen;
+        freezeButton.textContent = frozen ? "Play" : "Freeze";
+        cancelAnimationFrame(rafId);
+        if (frozen) {
+          draw(1);
+          return;
+        }
+
+        replay();
+      }
+
+      replayButton.addEventListener("click", replay);
+      freezeButton.addEventListener("click", toggleFreeze);
+      window.addEventListener("resize", resize);
+
+      resize();
+
+      if (reducedMotion) {
+        draw(1);
+      } else {
+        replay();
+      }
+    </script>
+  </body>
+</html>

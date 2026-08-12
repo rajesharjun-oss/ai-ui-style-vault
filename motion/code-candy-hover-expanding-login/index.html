@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Code Candy Hover Expanding Login</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #1e1f27;
+        --panel: #15161c;
+        --panel-deep: #0e0f14;
+        --ink: #f5f7ff;
+        --muted: #9fa4b8;
+        --cyan: #35eaff;
+        --pink: #ff0a6c;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: clamp(18px, 5vw, 58px);
+        background:
+          radial-gradient(circle at 50% 40%, rgba(53, 234, 255, 0.08), transparent 30%),
+          radial-gradient(circle at 44% 56%, rgba(255, 10, 108, 0.09), transparent 28%),
+          linear-gradient(180deg, #22232c, #15161d 72%);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      button, input { font: inherit; }
+      .box {
+        position: relative;
+        container-type: size;
+        width: min(520px, 92vw);
+        min-height: 140px;
+        padding: 4px;
+        overflow: hidden;
+        border-radius: 18px;
+        background: #202128;
+        box-shadow: 0 28px 90px rgba(0, 0, 0, 0.44);
+        transition: min-height 560ms cubic-bezier(.22, 1, .36, 1), transform 300ms ease;
+      }
+      .box:hover,
+      .box:focus-within,
+      .box.is-expanded {
+        min-height: 506px;
+        transform: translateY(-4px);
+      }
+      .box::before {
+        content: "";
+        position: absolute;
+        inset: 50%;
+        width: 170cqmax;
+        height: 170cqmax;
+        translate: -50% -50%;
+        background: conic-gradient(
+          from 0deg,
+          transparent 0deg 36deg,
+          #35eaff 36deg 48deg,
+          transparent 48deg 126deg,
+          #ff0a6c 126deg 138deg,
+          transparent 138deg 216deg,
+          #35eaff 216deg 228deg,
+          transparent 228deg 306deg,
+          #ff0a6c 306deg 318deg,
+          transparent 318deg 360deg
+        );
+        filter: blur(1px) drop-shadow(0 0 12px #35eaff);
+        animation: neon-rotate 5s linear infinite;
+      }
+      .box::after {
+        content: "";
+        position: absolute;
+        inset: 4px;
+        border-radius: 15px;
+        background: var(--panel);
+        box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.42);
+      }
+      .login {
+        position: relative;
+        z-index: 1;
+        width: min(410px, calc(92vw - 36px));
+        margin: 34px auto;
+        padding: clamp(24px, 5vw, 36px);
+        border-radius: 12px;
+        background: #101116;
+        box-shadow: inset 0 0 18px rgba(0, 0, 0, 0.55), 0 18px 54px rgba(0, 0, 0, 0.28);
+      }
+      .login-head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        min-height: 34px;
+        margin-bottom: 18px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+      }
+      .login-head::before,
+      .login-head::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+        background: currentColor;
+        box-shadow: 0 0 16px currentColor;
+      }
+      .login-head::before { color: var(--pink); }
+      .login-head::after { color: var(--cyan); }
+      .form-body {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transform: translateY(12px);
+        transition: opacity 340ms ease 120ms, max-height 560ms cubic-bezier(.22, 1, .36, 1), transform 420ms ease 80ms;
+      }
+      .box:hover .form-body,
+      .box:focus-within .form-body,
+      .box.is-expanded .form-body {
+        opacity: 1;
+        max-height: 410px;
+        transform: translateY(0);
+      }
+      .auth-panel { display: none; gap: 14px; }
+      .box[data-mode="login"] .auth-panel--login,
+      .box[data-mode="signup"] .auth-panel--signup { display: grid; }
+      label {
+        display: grid;
+        gap: 6px;
+        color: #cfd3df;
+        font-size: 12px;
+        font-weight: 800;
+      }
+      input {
+        width: 100%;
+        min-height: 54px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 999px;
+        background: #111218;
+        color: #fff;
+        outline: none;
+        padding: 0 20px;
+        box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.4);
+      }
+      input:focus-visible {
+        border-color: rgba(53, 234, 255, 0.8);
+        box-shadow: 0 0 0 4px rgba(53, 234, 255, 0.12), inset 0 2px 10px rgba(0, 0, 0, 0.42);
+      }
+      .primary-action {
+        min-height: 56px;
+        border: 0;
+        border-radius: 999px;
+        background: var(--cyan);
+        color: #11131a;
+        font-weight: 900;
+        cursor: pointer;
+        box-shadow: 0 0 28px rgba(53, 234, 255, 0.28);
+      }
+      .primary-action:focus-visible,
+      .mode-switch:focus-visible {
+        outline: 3px solid rgba(255, 255, 255, 0.72);
+        outline-offset: 4px;
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px 42px;
+        color: #c9cbd4;
+        font-size: 14px;
+        font-weight: 850;
+      }
+      .mode-switch {
+        appearance: none;
+        border: 0;
+        padding: 0;
+        background: transparent;
+        color: inherit;
+        cursor: pointer;
+        font-weight: 850;
+      }
+      .links .mode-switch:last-child,
+      .auth-panel--signup .links .mode-switch { color: var(--pink); }
+      @keyframes neon-rotate { to { rotate: 360deg; } }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; }
+      }
+      @media (max-width: 420px) {
+        .box:hover,
+        .box:focus-within,
+        .box.is-expanded { min-height: 536px; }
+        .login { margin: 24px auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="box" data-mode="login">
+      <form class="login" aria-label="Neon authentication form">
+        <div class="login-head" data-mode-title aria-live="polite">Login</div>
+        <div class="form-body">
+          <div class="auth-panel auth-panel--login">
+            <label>Username<input autocomplete="username" name="username" placeholder="Username" /></label>
+            <label>Password<input autocomplete="current-password" name="password" placeholder="Password" type="password" /></label>
+            <button class="primary-action" type="button">Sign in</button>
+            <div class="links">
+              <button class="mode-switch" type="button">Forgot Password</button>
+              <button class="mode-switch" type="button" data-auth-mode="signup">Sign up</button>
+            </div>
+          </div>
+          <div class="auth-panel auth-panel--signup">
+            <label>Username<input autocomplete="username" name="new-username" placeholder="Username" /></label>
+            <label>Email<input autocomplete="email" name="email" placeholder="Email address" type="email" /></label>
+            <label>Password<input autocomplete="new-password" name="new-password" placeholder="Password" type="password" /></label>
+            <button class="primary-action" type="button">Create account</button>
+            <div class="links">
+              <button class="mode-switch" type="button" data-auth-mode="login">Already registered? Sign in</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+    <script>
+      const box = document.querySelector('.box');
+      const modeTitle = document.querySelector('[data-mode-title]');
+      const modeButtons = document.querySelectorAll('[data-auth-mode]');
+      function setMode(mode) {
+        box.dataset.mode = mode;
+        box.classList.add('is-expanded');
+        modeTitle.textContent = mode === 'signup' ? 'Sign up' : 'Login';
+        modeButtons.forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset.authMode === mode));
+        });
+      }
+      function collapseAuth() {
+        box.classList.remove('is-expanded');
+        if (box.contains(document.activeElement)) document.activeElement.blur();
+      }
+      modeButtons.forEach((button) => {
+        button.addEventListener('click', () => setMode(button.dataset.authMode));
+      });
+      document.addEventListener('pointerdown', (event) => {
+        if (!box.contains(event.target)) collapseAuth();
+      });
+      document.addEventListener('focusin', (event) => {
+        if (!box.contains(event.target)) box.classList.remove('is-expanded');
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') collapseAuth();
+      });
+      const requestedMode = new URLSearchParams(location.search).get('mode');
+      if (requestedMode === 'signup') setMode('signup');
+    </script>
+  </body>
+</html>

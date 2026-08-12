@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glass Theme Pill Nav</title>
+    <style>
+      :root { color-scheme: light; --bg-a: #f04f92; --bg-b: #f6bd45; --glass: rgba(255, 255, 255, .26); --ink: #332513; --muted: rgba(51, 37, 19, .58); --pill: rgba(255, 255, 255, .78); }
+      :root[data-theme="dark"] { color-scheme: dark; --bg-a: #151735; --bg-b: #311455; --glass: rgba(255, 255, 255, .12); --ink: #fff7ef; --muted: rgba(255, 247, 239, .58); --pill: rgba(255, 255, 255, .18); }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; color: var(--ink); background: radial-gradient(circle at 20% 20%, rgba(255,255,255,.52), transparent 28%), radial-gradient(circle at 78% 72%, rgba(255,255,255,.34), transparent 22%), linear-gradient(135deg, var(--bg-a), #ffd7d2 43%, var(--bg-b)); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; transition: background 500ms ease, color 300ms ease; }
+      .nav-wrap { width: min(620px, 94vw); min-height: 320px; display: grid; place-items: center; border-radius: 32px; }
+      .nav { position: relative; display: flex; align-items: center; gap: 6px; min-height: 66px; padding: 8px; border-radius: 999px; background: var(--glass); box-shadow: inset 0 0 0 1px rgba(255,255,255,.28), 0 22px 54px rgba(102, 55, 10, .18); backdrop-filter: blur(18px); }
+      .pill { position: absolute; top: 8px; left: 8px; width: 112px; height: 50px; border-radius: 999px; background: var(--pill); box-shadow: inset 0 0 0 1px rgba(255,255,255,.46), 0 12px 28px rgba(64, 35, 9, .13); transition: transform 360ms cubic-bezier(.25,1,.5,1), width 360ms cubic-bezier(.25,1,.5,1), background 300ms ease; }
+      .nav-btn { position: relative; z-index: 1; min-width: 104px; min-height: 50px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; border: 0; border-radius: 999px; color: var(--muted); background: transparent; cursor: pointer; font-size: 15px; font-weight: 850; }
+      .nav-btn[aria-current="true"] { color: var(--ink); }
+      .nav-btn svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 2; fill: none; }
+      .theme { min-width: 56px; }
+      .theme .label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+      .nav-btn:focus-visible { outline: 3px solid rgba(255,255,255,.82); outline-offset: 4px; }
+      @media (max-width: 560px) { .nav { width: min(360px, 94vw); overflow-x: auto; } .nav-btn { min-width: 92px; } .pill { width: 100px; } }
+      @media (prefers-reduced-motion: reduce) { * { transition-duration: 1ms !important; } }
+    </style>
+  </head>
+  <body>
+    <main class="nav-wrap" aria-label="Glass navigation preview">
+      <nav class="nav" aria-label="Primary">
+        <span class="pill" aria-hidden="true"></span>
+        <button class="nav-btn active" type="button" aria-current="true"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg><span>Home</span></button>
+        <button class="nav-btn" type="button" aria-current="false"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.11 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.35 1.89.66 2.77a2 2 0 0 1-.45 2.11L8.05 9.87a16 16 0 0 0 6.08 6.08l1.27-1.27a2 2 0 0 1 2.11-.45c.88.31 1.81.53 2.77.66A2 2 0 0 1 22 16.92z"/></svg><span>Call</span></button>
+        <button class="nav-btn" type="button" aria-current="false"><svg viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span>List</span></button>
+        <button class="nav-btn theme" type="button" data-theme-button aria-current="false"><svg viewBox="0 0 24 24"><path d="M12 3v2M12 19v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M3 12h2M19 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/><circle cx="12" cy="12" r="4"/></svg><span class="label">Theme</span></button>
+      </nav>
+    </main>
+    <script>
+      const nav = document.querySelector('.nav');
+      const pill = document.querySelector('.pill');
+      const navButtons = document.querySelectorAll('.nav-btn');
+      const themeBtn = document.querySelector('[data-theme-button]');
+      function updatePill(active) {
+        const navRect = nav.getBoundingClientRect();
+        const rect = active.getBoundingClientRect();
+        pill.style.width = `${rect.width}px`;
+        pill.style.transform = `translateX(${rect.left - navRect.left - 8}px)`;
+      }
+      navButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          if (!button.matches('[data-theme-button]')) {
+            navButtons.forEach((item) => item.setAttribute('aria-current', 'false'));
+            button.setAttribute('aria-current', 'true');
+            updatePill(button);
+          }
+        });
+      });
+      themeBtn.addEventListener('click', () => {
+        const root = document.documentElement;
+        const isDark = root.getAttribute('data-theme') === 'dark';
+        root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+        setTimeout(() => { const active = document.querySelector('.nav-btn[aria-current="true"]'); if (active) updatePill(active); }, 100);
+      });
+      addEventListener('resize', () => { const active = document.querySelector('.nav-btn[aria-current="true"]'); if (active) updatePill(active); }, { passive: true });
+      updatePill(document.querySelector('.nav-btn[aria-current="true"]'));
+    </script>
+  </body>
+</html>

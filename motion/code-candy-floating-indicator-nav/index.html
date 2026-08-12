@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Code Candy Floating Indicator Nav</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #11111d;
+        --bar: #25262b;
+        --ink: #ffffff;
+        --muted: rgba(255, 255, 255, 0.62);
+        --green: #29fd53;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 28px;
+        background:
+          radial-gradient(circle at 50% 36%, rgba(41, 253, 83, 0.12), transparent 32%),
+          linear-gradient(180deg, #171725, #11111d 70%);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      button { font: inherit; }
+      .nav-stage {
+        display: grid;
+        place-items: center;
+        width: min(980px, 100%);
+        min-height: 430px;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 8px;
+        background: rgba(10, 10, 18, 0.42);
+        box-shadow: 0 34px 100px rgba(0, 0, 0, 0.36);
+      }
+      .nav-one {
+        position: relative;
+        width: min(720px, 86vw);
+        height: 72px;
+        isolation: isolate;
+        touch-action: manipulation;
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        border-radius: 18px;
+        background: var(--bar);
+        box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+      }
+      .nav-indicator {
+        position: absolute;
+        top: -28px;
+        left: calc(var(--nav-index, 0) * 20% + 10% - 31.5px);
+        width: 63px;
+        height: 63px;
+        border: 5px solid var(--green);
+        border-radius: 50%;
+        background: radial-gradient(circle at 35% 28%, #8a8a90, #4e4e54);
+        box-shadow: 0 0 12px rgba(41, 253, 83, 0.2), inset 0 3px 5px rgba(255, 255, 255, 0.28);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(8px) scale(0.92);
+        transition:
+          left .58s cubic-bezier(.34, 1.45, .64, 1),
+          opacity .25s ease,
+          transform .35s cubic-bezier(.34, 1.45, .64, 1);
+      }
+      .nav-one[data-has-active="true"] .nav-indicator {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+      .nav-btn {
+        position: relative;
+        z-index: 4;
+        width: 100%;
+        height: 72px;
+        display: grid;
+        place-items: center;
+        border: 0;
+        background: transparent;
+        color: var(--muted);
+        cursor: pointer;
+      }
+      .nav-btn svg {
+        width: 30px;
+        height: 30px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        pointer-events: none;
+        transition: transform .5s cubic-bezier(.34, 1.45, .64, 1);
+      }
+      .nav-btn:hover { color: #fff; }
+      .nav-btn:focus-visible { outline: 2px solid rgba(41, 253, 83, 0.78); outline-offset: -8px; }
+      .nav-btn.is-active { color: #fff; }
+      .nav-btn.is-active svg { transform: translateY(-40px); }
+      .nav-label {
+        position: absolute;
+        left: calc(var(--nav-index, 0) * 20% + 10% - 38px);
+        top: 50px;
+        z-index: 3;
+        min-width: 76px;
+        height: 30px;
+        display: grid;
+        place-items: center;
+        border-radius: 999px;
+        background: #303137;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 850;
+        opacity: 0;
+        transform: translateY(6px);
+        pointer-events: none;
+        transition:
+          left .58s cubic-bezier(.34, 1.45, .64, 1),
+          opacity .3s ease,
+          transform .35s cubic-bezier(.34, 1.45, .64, 1);
+      }
+      .nav-one[data-has-active="true"] .nav-label {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      @media (max-width: 560px) {
+        .nav-one { width: min(94vw, 520px); }
+        .nav-label { min-width: 66px; font-size: 12px; left: calc(var(--nav-index, 0) * 20% + 10% - 33px); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { transition-duration: 1ms !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="nav-stage">
+      <nav class="nav-one" id="navOne" style="--nav-index: 0" data-has-active="false" aria-label="Floating indicator navigation">
+        <span class="nav-indicator" aria-hidden="true"></span>
+        <span class="nav-label" aria-live="polite"></span>
+        <button class="nav-btn" type="button" data-nav-label="Home" aria-label="Home" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9H5v-9zM9 20v-6h6v6"/></svg></button>
+        <button class="nav-btn" type="button" data-nav-label="Profile" aria-label="Profile" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21a7 7 0 0114 0"/></svg></button>
+        <button class="nav-btn" type="button" data-nav-label="Chat" aria-label="Chat" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v11H8l-3 3z"/></svg></button>
+        <button class="nav-btn" type="button" data-nav-label="Message" aria-label="Message" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v11H7l-3 3z"/></svg></button>
+        <button class="nav-btn" type="button" data-nav-label="Settings" aria-label="Settings" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></button>
+      </nav>
+    </main>
+    <script>
+      const nav = document.querySelector('#navOne');
+      const buttons = [...nav.querySelectorAll('.nav-btn')];
+      const label = nav.querySelector('.nav-label');
+      function setNav(index) {
+        nav.dataset.hasActive = 'true';
+        nav.style.setProperty('--nav-index', index);
+        buttons.forEach((button, i) => {
+          const active = i === index;
+          button.classList.toggle('is-active', active);
+          button.setAttribute('aria-pressed', String(active));
+        });
+        label.textContent = buttons[index].dataset.navLabel;
+      }
+      buttons.forEach((button, index) => button.addEventListener('click', () => setNav(index)));
+      const requested = new URLSearchParams(window.location.search).get('nav');
+      if (requested) {
+        const requestedIndex = buttons.findIndex((button) => button.dataset.navLabel.toLowerCase() === requested.toLowerCase());
+        if (requestedIndex >= 0) setNav(requestedIndex);
+      }
+    </script>
+  </body>
+</html>

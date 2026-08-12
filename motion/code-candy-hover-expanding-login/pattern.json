@@ -1,0 +1,38 @@
+{
+    "id":  "code-candy-hover-expanding-login",
+    "name":  "Code Candy Hover Expanding Login",
+    "bestFor":  [
+                    "premium login pages",
+                    "gaming dashboards",
+                    "cyberpunk SaaS auth",
+                    "portfolio gateways",
+                    "motion graphics websites"
+                ],
+    "useWhen":  "A project needs a dark login/signup card with a rotating cyan/magenta neon border that expands on hover/focus and switches auth modes only after explicit user clicks.",
+    "preferredStack":  [
+                           "CSS container queries",
+                           "CSS conic-gradient",
+                           "CSS keyframes",
+                           "semantic forms"
+                       ],
+    "localPath":  "motion/code-candy-hover-expanding-login/index.html",
+    "verificationNotes":  "motion/code-candy-hover-expanding-login/verification-notes.md",
+    "source":  "User-provided WhatsApp screenshot of a public Code Candy hover expanding login clip with partial visible CSS.",
+    "implementationNotes":  [
+                                "Expansion must be hover/focus triggered, not autoplayed.",
+                                "Sign up and sign in are implemented as explicit mode switches; do not leave either as dead links.",
+                                "After a mode switch, click-away, focus-away, and Escape must collapse the sticky expanded state.",
+                                "Use the visible 4-segment conic-gradient border values from the screenshot as the core motif.",
+                                "Use real labeled inputs, validation, rate limiting, and secure backend auth in production.",
+                                "Keep source-video headlines and code frames out of production previews."
+                            ],
+    "reducedMotion":  "Stop the rotating conic gradient, keep the neon border visible as a static frame, and preserve hover/focus states.",
+    "avoid":  [
+                  "using it for plain enterprise auth",
+                  "autoplaying form state changes",
+                  "dead sign-up or sign-in controls",
+                  "unlabeled inputs",
+                  "over-bright glow that reduces legibility",
+                  "fake-only auth"
+              ]
+}

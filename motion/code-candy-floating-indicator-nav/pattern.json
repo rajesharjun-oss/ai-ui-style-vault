@@ -1,0 +1,31 @@
+{
+    "id":  "code-candy-floating-indicator-nav",
+    "name":  "Code Candy Floating Indicator Nav",
+    "bestFor":  [
+                    "mobile navigation",
+                    "bottom nav bars",
+                    "compact app shells",
+                    "dashboard section switches"
+                ],
+    "useWhen":  "A project needs a dark navigation bar with a green floating active indicator that appears and moves only after user selection.",
+    "preferredStack":  [
+                           "CSS transitions",
+                           "vanilla JavaScript",
+                           "Motion for React optional"
+                       ],
+    "localPath":  "motion/code-candy-floating-indicator-nav/index.html",
+    "verificationNotes":  "motion/code-candy-floating-indicator-nav/verification-notes.md",
+    "implementationNotes":  [
+                                "Start with no active state unless the product has a real default route.",
+                                "Move the indicator on click, Enter, or Space only.",
+                                "Keep each nav target accessible with aria-label and aria-pressed/current state.",
+                                "Do not let hidden scenes intercept clicks when used inside a gallery."
+                            ],
+    "reducedMotion":  "Move the active indicator instantly and keep the selected icon in a readable static position.",
+    "avoid":  [
+                  "automatic cycling",
+                  "unclickable nav segments",
+                  "using this for large desktop primary nav without adaptation",
+                  "green glow on inaccessible contrast backgrounds"
+              ]
+}

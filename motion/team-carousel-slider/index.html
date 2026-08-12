@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Team Carousel Slider</title>
+    <style>
+      :root { color-scheme: dark; --bg: #170729; --panel: #12051e; --ink: #f8f2ff; --muted: #b9a7cc; --violet: #9c4dff; --hot: #d532ff; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: clamp(18px, 4vw, 52px); color: var(--ink); background: radial-gradient(circle at 20% 28%, rgba(157, 74, 255, .35), transparent 22%), radial-gradient(circle at 76% 72%, rgba(213, 50, 255, .24), transparent 26%), linear-gradient(135deg, #0e0319, #280845 48%, #10041d); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      button { font: inherit; }
+      .carousel { width: min(1120px, 96vw); min-height: 520px; position: relative; overflow: hidden; border-radius: 28px; background: linear-gradient(135deg, rgba(23, 8, 38, .92), rgba(10, 4, 18, .96)); box-shadow: 0 34px 90px rgba(0, 0, 0, .46), inset 0 0 0 1px rgba(255, 255, 255, .08); }
+      .hero { position: absolute; inset: 0; display: grid; grid-template-columns: minmax(280px, .86fr) 1.14fr; align-items: center; gap: clamp(20px, 4vw, 70px); padding: clamp(28px, 6vw, 76px); }
+      .hero::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 62% 48%, var(--portrait), transparent 34%), linear-gradient(90deg, rgba(12, 3, 18, .94) 0%, rgba(12, 3, 18, .76) 38%, rgba(12, 3, 18, .36) 68%, rgba(12, 3, 18, .9) 100%); opacity: .92; transition: background 520ms ease; }
+      .copy, .track, .controls { position: relative; z-index: 2; }
+      .eyebrow { color: #c993ff; font-size: 12px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+      h1 { margin: 12px 0 14px; max-width: 520px; font-size: clamp(44px, 7vw, 82px); line-height: .9; letter-spacing: 0; text-transform: uppercase; }
+      p { max-width: 460px; margin: 0; color: var(--muted); font-size: 15px; line-height: 1.55; }
+      .profile { margin-top: 28px; min-height: 44px; border: 0; border-radius: 999px; padding: 0 22px; color: #fff; background: linear-gradient(135deg, var(--violet), var(--hot)); font-weight: 900; cursor: pointer; box-shadow: 0 18px 34px rgba(156, 77, 255, .28); }
+      .track { display: flex; align-items: center; justify-content: flex-end; gap: 18px; min-height: 360px; }
+      .card { width: 172px; height: 238px; flex: 0 0 auto; display: grid; align-content: end; padding: 18px; overflow: hidden; border: 0; border-radius: 18px; text-align: left; color: #fff; cursor: pointer; background: radial-gradient(circle at 50% 22%, var(--portrait), transparent 36%), linear-gradient(180deg, rgba(255, 255, 255, .18), rgba(17, 3, 27, .92)); box-shadow: 0 24px 50px rgba(0, 0, 0, .46), inset 0 0 0 1px rgba(255, 255, 255, .1); transform: scale(.94); opacity: .76; transition: transform 420ms cubic-bezier(.25,1,.5,1), opacity 420ms ease; }
+      .card[aria-current="true"] { transform: scale(1.08); opacity: 1; }
+      .card strong { font-size: 17px; line-height: 1.05; }
+      .card span { margin-top: 4px; color: #d5c7e8; font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+      .controls { position: absolute; left: clamp(24px, 5vw, 76px); bottom: clamp(22px, 4vw, 52px); display: flex; align-items: center; gap: 10px; }
+      .round { width: 44px; height: 44px; border: 0; border-radius: 999px; color: #fff; background: rgba(255, 255, 255, .12); cursor: pointer; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .1); }
+      .round:focus-visible, .card:focus-visible, .profile:focus-visible { outline: 3px solid rgba(255, 255, 255, .76); outline-offset: 4px; }
+      @media (max-width: 800px) { .carousel { min-height: 720px; } .hero { grid-template-columns: 1fr; align-content: start; } .track { justify-content: flex-start; overflow: hidden; min-height: 250px; } .card { width: 150px; height: 210px; } }
+      @media (prefers-reduced-motion: reduce) { *, *::before { transition-duration: 1ms !important; } }
+    </style>
+  </head>
+  <body>
+    <main class="carousel" aria-label="Team carousel" style="--portrait:#6f3ccf">
+      <section class="hero">
+        <div class="copy">
+          <div class="eyebrow">Chief Strategist</div>
+          <h1>Michael Hayes</h1>
+          <p>Leads research, brand systems, and product direction for teams that need a polished human face without a static staff grid.</p>
+          <button class="profile" type="button">View profile</button>
+        </div>
+        <div class="track" aria-label="Team members"></div>
+      </section>
+      <div class="controls">
+        <button class="round" type="button" data-prev aria-label="Previous member">&lt;</button>
+        <button class="round" type="button" data-toggle aria-label="Pause carousel">Pause</button>
+        <button class="round" type="button" data-next aria-label="Next member">&gt;</button>
+      </div>
+    </main>
+    <script>
+      const people = [
+        { name: 'Michael Hayes', role: 'Chief Strategist', portrait: '#6f3ccf', bio: 'Leads research, brand systems, and product direction for teams that need a polished human face without a static staff grid.' },
+        { name: 'James Weston', role: 'Design Lead', portrait: '#e7a45a', bio: 'Shapes interface systems, visual rhythm, and interaction details for product teams.' },
+        { name: 'William Vance', role: 'Data Partner', portrait: '#6aa6e8', bio: 'Turns customer, product, and growth signals into readable executive decisions.' },
+        { name: 'David Miller', role: 'Operations', portrait: '#8d5fa8', bio: 'Keeps launches, handoffs, and service delivery calm when the work gets complex.' }
+      ];
+      const carousel = document.querySelector('.carousel');
+      const track = document.querySelector('.track');
+      const eyebrow = document.querySelector('.eyebrow');
+      const title = document.querySelector('h1');
+      const bio = document.querySelector('p');
+      const nextButton = document.querySelector('[data-next]');
+      const prevButton = document.querySelector('[data-prev]');
+      const toggleButton = document.querySelector('[data-toggle]');
+      let active = 0;
+      let playing = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let timer;
+      function render() {
+        track.innerHTML = '';
+        people.forEach((person, index) => {
+          const card = document.createElement('button');
+          card.className = 'card';
+          card.type = 'button';
+          card.style.setProperty('--portrait', person.portrait);
+          card.setAttribute('aria-current', String(index === active));
+          card.innerHTML = `<strong>${person.name}</strong><span>${person.role}</span>`;
+          card.addEventListener('click', () => select(index));
+          track.appendChild(card);
+        });
+        const person = people[active];
+        carousel.style.setProperty('--portrait', person.portrait);
+        eyebrow.textContent = person.role;
+        title.textContent = person.name;
+        bio.textContent = person.bio;
+      }
+      function select(index) { active = (index + people.length) % people.length; render(); resetAutoplay(); }
+      function handleNext() { select(active + 1); }
+      function handlePrev() { select(active - 1); }
+      function resetAutoplay() { clearInterval(timer); if (playing) timer = setInterval(handleNext, 4200); }
+      nextButton.addEventListener('click', handleNext);
+      prevButton.addEventListener('click', handlePrev);
+      toggleButton.addEventListener('click', () => { playing = !playing; toggleButton.textContent = playing ? 'Pause' : 'Play'; toggleButton.setAttribute('aria-label', playing ? 'Pause carousel' : 'Play carousel'); resetAutoplay(); });
+      render(); resetAutoplay();
+    </script>
+  </body>
+</html>

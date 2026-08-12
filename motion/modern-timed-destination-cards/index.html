@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modern Timed Destination Cards</title>
+    <style>
+      :root { color-scheme: dark; --ink: #fff8ee; --muted: #d7c8ba; --shade: rgba(0, 0, 0, .62); }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; overflow: hidden; color: var(--ink); background: #120d0a; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      button { font: inherit; }
+      .voyage { min-height: 100vh; display: grid; align-items: center; padding: clamp(24px, 5vw, 72px); position: relative; overflow: hidden; background: var(--scene); transition: background 760ms cubic-bezier(.25, 1, .5, 1); }
+      .voyage::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0,0,0,.78), rgba(0,0,0,.34) 46%, rgba(0,0,0,.72)), radial-gradient(circle at 72% 54%, rgba(255,255,255,.18), transparent 23%); }
+      nav { position: absolute; top: 0; left: 0; right: 0; z-index: 2; display: flex; justify-content: space-between; align-items: center; padding: 24px clamp(24px, 5vw, 72px); font-size: 12px; font-weight: 900; letter-spacing: .22em; text-transform: uppercase; }
+      nav div:last-child { display: flex; gap: 28px; color: rgba(255,255,255,.68); }
+      .content { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(260px, .88fr) minmax(320px, 1.12fr); gap: clamp(24px, 5vw, 72px); align-items: center; }
+      .kicker { color: #ffe1b8; font-size: 12px; font-weight: 900; letter-spacing: .22em; text-transform: uppercase; }
+      h1 { margin: 14px 0 16px; font-size: clamp(54px, 10vw, 118px); line-height: .86; letter-spacing: 0; text-transform: uppercase; }
+      p { max-width: 470px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.55; }
+      .cta { margin-top: 30px; min-height: 44px; border: 0; border-radius: 999px; padding: 0 22px; color: #20140d; background: #fff3df; font-weight: 900; cursor: pointer; }
+      .cards { display: grid; grid-template-columns: repeat(4, minmax(112px, 1fr)); gap: 16px; align-items: end; }
+      .dest-card { height: clamp(210px, 30vw, 320px); border: 0; border-radius: 14px; padding: 16px; color: #fff; text-align: left; cursor: pointer; overflow: hidden; display: grid; align-content: end; background: var(--thumb); box-shadow: 0 24px 48px rgba(0,0,0,.44), inset 0 0 0 1px rgba(255,255,255,.18); transform: translateY(18px); opacity: .72; transition: transform 560ms cubic-bezier(.25,1,.5,1), opacity 420ms ease, box-shadow 420ms ease; }
+      .dest-card[aria-current="true"] { transform: translateY(-12px) scale(1.04); opacity: 1; box-shadow: 0 34px 70px rgba(0,0,0,.58), inset 0 0 0 1px rgba(255,255,255,.34); }
+      .dest-card small { color: rgba(255,255,255,.74); font-size: 10px; letter-spacing: .17em; text-transform: uppercase; }
+      .dest-card strong { margin-top: 8px; font-size: 20px; line-height: .94; text-transform: uppercase; }
+      .progress { position: absolute; z-index: 2; left: clamp(24px, 5vw, 72px); right: clamp(24px, 5vw, 72px); bottom: 34px; height: 2px; background: rgba(255,255,255,.18); overflow: hidden; }
+      .progress span { display: block; width: 100%; height: 100%; transform-origin: left center; transform: scaleX(var(--progress)); background: #fff3df; }
+      .controls { position: absolute; z-index: 3; right: clamp(24px, 5vw, 72px); bottom: 52px; display: flex; gap: 10px; }
+      .controls button { min-width: 44px; height: 44px; border: 0; border-radius: 999px; color: #fff; background: rgba(255,255,255,.14); cursor: pointer; }
+      button:focus-visible { outline: 3px solid rgba(255,255,255,.82); outline-offset: 4px; }
+      @media (max-width: 820px) { .content { grid-template-columns: 1fr; } .cards { grid-template-columns: repeat(2, minmax(120px, 1fr)); } .voyage { overflow: auto; } }
+      @media (prefers-reduced-motion: reduce) { *, *::before { transition-duration: 1ms !important; } }
+    </style>
+  </head>
+  <body>
+    <main class="voyage" style="--scene:linear-gradient(135deg,#21110b,#552414 42%,#c15d3a); --progress:0" aria-label="Timed destination cards">
+      <nav><div>Voyage</div><div><span>Experiences</span><span>Journal</span><span>Plan</span></div></nav>
+      <section class="content">
+        <div>
+          <div class="kicker">Tokyo, Japan</div>
+          <h1>Kyoto</h1>
+          <p>Move through temple paths, quiet water, and autumn color in a destination hero that can rotate through featured stories.</p>
+          <button class="cta" type="button">Explore location</button>
+        </div>
+        <div class="cards" aria-label="Destinations"></div>
+      </section>
+      <div class="progress" aria-hidden="true"><span></span></div>
+      <div class="controls"><button type="button" data-prev aria-label="Previous destination">&lt;</button><button type="button" data-toggle aria-label="Pause timed cards">Pause</button><button type="button" data-next aria-label="Next destination">&gt;</button></div>
+    </main>
+    <script>
+      const destinations = [
+        { name: 'Kyoto', place: 'Tokyo, Japan', scene: 'linear-gradient(135deg,#1b0d0f,#5b1724 42%,#cc6674)', thumb: 'linear-gradient(160deg,#240d13,#cf6f85 46%,#27140c)' },
+        { name: 'Marrakech', place: 'Morocco', scene: 'linear-gradient(135deg,#190d08,#a75024 48%,#f1a94e)', thumb: 'linear-gradient(160deg,#301008,#dd7340 54%,#ffd28a)' },
+        { name: 'Lofoten', place: 'Norway', scene: 'linear-gradient(135deg,#0b1b24,#536c65 46%,#d9b978)', thumb: 'linear-gradient(160deg,#0a1d29,#8ca28f 45%,#e7d5a0)' },
+        { name: 'Cappadocia', place: 'Turkey', scene: 'linear-gradient(135deg,#131a1b,#2a6168 44%,#d6d6c8)', thumb: 'linear-gradient(160deg,#0e1b20,#42909a 46%,#f6f4e8)' }
+      ];
+      const root = document.querySelector('.voyage');
+      const cards = document.querySelector('.cards');
+      const kicker = document.querySelector('.kicker');
+      const title = document.querySelector('h1');
+      const text = document.querySelector('p');
+      const toggle = document.querySelector('[data-toggle]');
+      let active = 0;
+      let playing = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let started = performance.now();
+      const duration = 5200;
+      function draw() {
+        const item = destinations[active];
+        root.style.setProperty('--scene', item.scene);
+        kicker.textContent = item.place;
+        title.textContent = item.name;
+        text.textContent = `${item.name} becomes the full hero while the other cards wait as compact timed choices.`;
+        cards.innerHTML = '';
+        destinations.forEach((dest, index) => {
+          const card = document.createElement('button');
+          card.className = 'dest-card';
+          card.type = 'button';
+          card.style.setProperty('--thumb', dest.thumb);
+          card.setAttribute('aria-current', String(index === active));
+          card.innerHTML = `<small>${dest.place}</small><strong>${dest.name}</strong>`;
+          card.addEventListener('click', () => select(index));
+          cards.appendChild(card);
+        });
+      }
+      function select(index) { active = (index + destinations.length) % destinations.length; started = performance.now(); draw(); }
+      function tick(now) { const elapsed = now - started; root.style.setProperty('--progress', playing ? Math.min(elapsed / duration, 1) : 0); if (playing && elapsed >= duration) select(active + 1); requestAnimationFrame(tick); }
+      document.querySelector('[data-next]').addEventListener('click', () => select(active + 1));
+      document.querySelector('[data-prev]').addEventListener('click', () => select(active - 1));
+      toggle.addEventListener('click', () => { playing = !playing; started = performance.now(); toggle.textContent = playing ? 'Pause' : 'Play'; toggle.setAttribute('aria-label', playing ? 'Pause timed cards' : 'Play timed cards'); });
+      draw(); requestAnimationFrame(tick);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,801 @@
+{
+    "name":  "Premium Motion Source Catalog",
+    "generatedAt":  "2026-08-04",
+    "purpose":  "Curated external sources for premium landing-page motion, motion graphics websites, interactive 3D, reusable animation assets, and implementation examples.",
+    "policy":  {
+                   "mediaStorage":  "remote-links-only",
+                   "inspirationUse":  "Capture source links and design notes only; do not copy protected assets, videos, screenshots, exact animation sequences, logos, or product copy.",
+                   "assetUse":  "Use only owned, generated, user-provided, open-source-permitted, or clearly licensed assets.",
+                   "licenseReviewRequired":  true,
+                   "reducedMotionRequired":  true
+               },
+    "sourceTypes":  [
+                        "asset-community",
+                        "asset-marketplace",
+                        "asset-marketplace-docs",
+                        "award-inspiration",
+                        "component-library",
+                        "design-gallery",
+                        "implementation-docs",
+                        "implementation-examples",
+                        "implementation-showcase",
+                        "interactive-authoring",
+                        "landing-gallery",
+                        "motion-template-library",
+                        "template-marketplace"
+                    ],
+    "totals":  {
+                   "sources":  30,
+                   "inspirationSources":  10,
+                   "implementationSources":  8,
+                   "assetSources":  12
+               },
+    "recommendedCombos":  [
+                              {
+                                  "projectType":  "SaaS or AI landing page",
+                                  "sources":  [
+                                                  "godly-sites",
+                                                  "motion-examples",
+                                                  "motion-react-docs",
+                                                  "react-bits",
+                                                  "framer-marketplace"
+                                              ],
+                                  "notes":  "Use Godly for modern product hierarchy, Motion/React Bits for component motion, and Framer for premium landing-page patterns."
+                              },
+                              {
+                                  "projectType":  "Cinematic hospitality, wedding, restaurant, or venue site",
+                                  "sources":  [
+                                                  "awwwards",
+                                                  "the-fwa",
+                                                  "motion-array",
+                                                  "storyblocks-motion-backgrounds",
+                                                  "jitter-templates"
+                                              ],
+                                  "notes":  "Use award sites for choreography and licensed media libraries for actual motion/video assets."
+                              },
+                              {
+                                  "projectType":  "3D product or hardware launch",
+                                  "sources":  [
+                                                  "spline",
+                                                  "spline-community",
+                                                  "threejs-examples",
+                                                  "gsap-showcase"
+                                              ],
+                                  "notes":  "Use Spline for authored 3D scenes, Three.js for coded scenes, and GSAP for scroll choreography."
+                              },
+                              {
+                                  "projectType":  "Interactive app onboarding or product UI motion",
+                                  "sources":  [
+                                                  "rive",
+                                                  "rive-marketplace-docs",
+                                                  "lottiefiles-marketplace",
+                                                  "motion-examples"
+                                              ],
+                                  "notes":  "Use Rive for stateful interactions, Lottie for lightweight illustrations, and Motion for React UI transitions."
+                              },
+                              {
+                                  "projectType":  "Experimental portfolio or agency site",
+                                  "sources":  [
+                                                  "the-fwa",
+                                                  "awwwards-animation",
+                                                  "codrops",
+                                                  "gsap-showcase",
+                                                  "threejs-examples"
+                                              ],
+                                  "notes":  "Use award galleries for creative direction and Codrops/GSAP/Three.js for practical effect building."
+                              }
+                          ],
+    "sources":  [
+                    {
+                        "id":  "spline-community",
+                        "name":  "Spline Community",
+                        "url":  "https://community.spline.design/",
+                        "sourceType":  "asset-community",
+                        "accessModel":  "freemium",
+                        "priority":  4,
+                        "useFor":  [
+                                       "remixable 3D scenes",
+                                       "3D icons",
+                                       "interactive examples"
+                                   ],
+                        "bestWhen":  "You need a starting point for 3D scenes that can be remixed or studied.",
+                        "agentUse":  "Check each scene permission before use. Prefer inspiration unless ownership is clear.",
+                        "licenseRule":  "Per-scene license/permission required.",
+                        "tags":  [
+                                     "spline",
+                                     "community",
+                                     "3d",
+                                     "remix"
+                                 ]
+                    },
+                    {
+                        "id":  "lottiefiles-marketplace",
+                        "name":  "LottieFiles Marketplace",
+                        "url":  "https://lottiefiles.com/marketplace",
+                        "sourceType":  "asset-marketplace",
+                        "accessModel":  "mixed-free-paid",
+                        "priority":  5,
+                        "useFor":  [
+                                       "Lottie animations",
+                                       "vector illustrations",
+                                       "feature icons",
+                                       "empty states",
+                                       "onboarding"
+                                   ],
+                        "bestWhen":  "You need lightweight vector motion assets that can ship on web and mobile.",
+                        "agentUse":  "Use only assets with clear license. Store attribution and source link in project notes.",
+                        "licenseRule":  "Per-asset license required.",
+                        "tags":  [
+                                     "lottie",
+                                     "vector",
+                                     "marketplace",
+                                     "onboarding",
+                                     "illustration"
+                                 ]
+                    },
+                    {
+                        "id":  "motion-array",
+                        "name":  "Motion Array Motion Graphics Templates",
+                        "url":  "https://motionarray.com/motion-graphics-templates/",
+                        "sourceType":  "asset-marketplace",
+                        "accessModel":  "subscription",
+                        "priority":  4,
+                        "useFor":  [
+                                       "video overlays",
+                                       "animated titles",
+                                       "transitions",
+                                       "product promos",
+                                       "backgrounds"
+                                   ],
+                        "bestWhen":  "A website needs exported motion media, video overlays, or campaign graphics.",
+                        "agentUse":  "Use only after subscription/license confirmation; do not vendor previews.",
+                        "licenseRule":  "Subscription or per-asset license required.",
+                        "tags":  [
+                                     "motion-graphics",
+                                     "video",
+                                     "titles",
+                                     "transitions",
+                                     "premium-assets"
+                                 ]
+                    },
+                    {
+                        "id":  "adobe-stock-motion",
+                        "name":  "Adobe Stock Motion Graphics Templates",
+                        "url":  "https://stock.adobe.com/templates/motion-graphics-templates",
+                        "sourceType":  "asset-marketplace",
+                        "accessModel":  "paid-license",
+                        "priority":  3,
+                        "useFor":  [
+                                       "MOGRT templates",
+                                       "Adobe motion graphics",
+                                       "licensed titles",
+                                       "video sections"
+                                   ],
+                        "bestWhen":  "The project uses Adobe workflows or needs licensed MOGRT assets.",
+                        "agentUse":  "Use only licensed assets and document the stock asset ID/source link.",
+                        "licenseRule":  "Per-asset Adobe Stock license required.",
+                        "tags":  [
+                                     "adobe-stock",
+                                     "mogrt",
+                                     "motion-graphics",
+                                     "templates"
+                                 ]
+                    },
+                    {
+                        "id":  "envato-elements-motion",
+                        "name":  "Envato Elements Motion Graphics",
+                        "url":  "https://elements.envato.com/video-templates/motion-graphics",
+                        "sourceType":  "asset-marketplace",
+                        "accessModel":  "subscription",
+                        "priority":  3,
+                        "useFor":  [
+                                       "After Effects templates",
+                                       "motion graphics packs",
+                                       "titles",
+                                       "presentation motion"
+                                   ],
+                        "bestWhen":  "You need broad template variety for exported marketing motion.",
+                        "agentUse":  "Use only licensed downloads and track project registration/license terms.",
+                        "licenseRule":  "Subscription/license required.",
+                        "tags":  [
+                                     "envato",
+                                     "templates",
+                                     "after-effects",
+                                     "motion-graphics"
+                                 ]
+                    },
+                    {
+                        "id":  "storyblocks-motion-backgrounds",
+                        "name":  "Storyblocks Motion Backgrounds",
+                        "url":  "https://www.storyblocks.com/video/motion-backgrounds",
+                        "sourceType":  "asset-marketplace",
+                        "accessModel":  "subscription",
+                        "priority":  3,
+                        "useFor":  [
+                                       "motion backgrounds",
+                                       "stock animated video",
+                                       "abstract loops",
+                                       "hero media"
+                                   ],
+                        "bestWhen":  "You need licensed background loops or abstract animated footage.",
+                        "agentUse":  "Use only licensed downloaded assets; never hotlink previews.",
+                        "licenseRule":  "Subscription/license required.",
+                        "tags":  [
+                                     "stock-video",
+                                     "backgrounds",
+                                     "loops",
+                                     "hero-media"
+                                 ]
+                    },
+                    {
+                        "id":  "rive-marketplace-docs",
+                        "name":  "Rive Marketplace Docs",
+                        "url":  "https://rive.app/docs/community/marketplace-overview",
+                        "sourceType":  "asset-marketplace-docs",
+                        "accessModel":  "free-browse",
+                        "priority":  4,
+                        "useFor":  [
+                                       "Rive community files",
+                                       "remix rules",
+                                       "license review"
+                                   ],
+                        "bestWhen":  "You need to understand whether a Rive community file can be remixed or reused.",
+                        "agentUse":  "Read license terms before using any Rive marketplace/community asset.",
+                        "licenseRule":  "Verify individual file terms before use.",
+                        "tags":  [
+                                     "rive",
+                                     "marketplace",
+                                     "license",
+                                     "community"
+                                 ]
+                    },
+                    {
+                        "id":  "awwwards",
+                        "name":  "Awwwards",
+                        "url":  "https://www.awwwards.com/",
+                        "sourceType":  "award-inspiration",
+                        "accessModel":  "mixed-free-paid",
+                        "priority":  5,
+                        "useFor":  [
+                                       "award-level web motion",
+                                       "premium landing pages",
+                                       "WebGL references",
+                                       "GSAP references",
+                                       "creative studios"
+                                   ],
+                        "bestWhen":  "You need world-class web motion references, interaction benchmarks, and high-end creative direction.",
+                        "agentUse":  "Use as inspiration only. Capture source links and choreography notes, then build original sections and assets.",
+                        "licenseRule":  "Inspiration only unless the individual asset or template grants reuse rights.",
+                        "tags":  [
+                                     "awards",
+                                     "animation",
+                                     "webgl",
+                                     "gsap",
+                                     "3d",
+                                     "premium",
+                                     "cinematic",
+                                     "scroll"
+                                 ]
+                    },
+                    {
+                        "id":  "awwwards-animation",
+                        "name":  "Awwwards Animated Websites",
+                        "url":  "https://www.awwwards.com/websites/animation/",
+                        "sourceType":  "award-inspiration",
+                        "accessModel":  "mixed-free-paid",
+                        "priority":  5,
+                        "useFor":  [
+                                       "animated website discovery",
+                                       "hero transitions",
+                                       "scroll motion",
+                                       "microinteractions"
+                                   ],
+                        "bestWhen":  "You specifically need animated website examples rather than broad visual design inspiration.",
+                        "agentUse":  "Extract motion patterns, not assets. Record the reference URL and why the motion fits.",
+                        "licenseRule":  "Inspiration only unless explicitly licensed.",
+                        "tags":  [
+                                     "animation",
+                                     "animated-websites",
+                                     "scroll",
+                                     "hero",
+                                     "microinteraction"
+                                 ]
+                    },
+                    {
+                        "id":  "the-fwa",
+                        "name":  "The FWA",
+                        "url":  "https://thefwa.com/",
+                        "sourceType":  "award-inspiration",
+                        "accessModel":  "free-browse",
+                        "priority":  5,
+                        "useFor":  [
+                                       "experimental interaction",
+                                       "campaign sites",
+                                       "immersive web",
+                                       "creative technology"
+                                   ],
+                        "bestWhen":  "You need high-end interactive campaigns, experimental navigation, and immersive storytelling ideas.",
+                        "agentUse":  "Use for interaction models and creative direction. Do not clone exact sequences or media.",
+                        "licenseRule":  "Inspiration only.",
+                        "tags":  [
+                                     "awards",
+                                     "interactive",
+                                     "experimental",
+                                     "campaign",
+                                     "immersive",
+                                     "webgl"
+                                 ]
+                    },
+                    {
+                        "id":  "react-bits",
+                        "name":  "React Bits",
+                        "url":  "https://www.reactbits.dev/",
+                        "sourceType":  "component-library",
+                        "accessModel":  "open-source-mixed-license",
+                        "priority":  4,
+                        "useFor":  [
+                                       "animated React components",
+                                       "text animations",
+                                       "animated backgrounds",
+                                       "UI effects"
+                                   ],
+                        "bestWhen":  "The target is a React/Next landing page that needs fast polished motion components.",
+                        "agentUse":  "Use components only after checking the project license and adapting them to the design system.",
+                        "licenseRule":  "Check repository license and component terms before reuse.",
+                        "tags":  [
+                                     "react",
+                                     "components",
+                                     "text-animation",
+                                     "backgrounds",
+                                     "ui-motion"
+                                 ]
+                    },
+                    {
+                        "id":  "siteinspire",
+                        "name":  "Siteinspire",
+                        "url":  "https://www.siteinspire.com/",
+                        "sourceType":  "design-gallery",
+                        "accessModel":  "free-browse",
+                        "priority":  4,
+                        "useFor":  [
+                                       "editorial websites",
+                                       "portfolio motion",
+                                       "visual art direction",
+                                       "navigation patterns"
+                                   ],
+                        "bestWhen":  "You need tasteful editorial and portfolio references with strong visual systems.",
+                        "agentUse":  "Use for mood, typography, spacing, and navigation ideas. Build original animation.",
+                        "licenseRule":  "Inspiration only.",
+                        "tags":  [
+                                     "editorial",
+                                     "portfolio",
+                                     "typography",
+                                     "art-direction"
+                                 ]
+                    },
+                    {
+                        "id":  "dark-mode-design",
+                        "name":  "Dark Mode Design",
+                        "url":  "https://www.darkmodedesign.com/",
+                        "sourceType":  "design-gallery",
+                        "accessModel":  "free-browse",
+                        "priority":  3,
+                        "useFor":  [
+                                       "dark landing pages",
+                                       "premium dark UI",
+                                       "contrast references"
+                                   ],
+                        "bestWhen":  "You need dark-mode sites that avoid generic black/purple sameness.",
+                        "agentUse":  "Use for color contrast and mood, then adapt tokens to the target.",
+                        "licenseRule":  "Inspiration only.",
+                        "tags":  [
+                                     "dark",
+                                     "premium",
+                                     "contrast",
+                                     "landing"
+                                 ]
+                    },
+                    {
+                        "id":  "httpster",
+                        "name":  "Httpster",
+                        "url":  "https://httpster.net/",
+                        "sourceType":  "design-gallery",
+                        "accessModel":  "free-browse",
+                        "priority":  3,
+                        "useFor":  [
+                                       "modern websites",
+                                       "portfolio references",
+                                       "landing ideas"
+                                   ],
+                        "bestWhen":  "You need a broad scan of current independent web design.",
+                        "agentUse":  "Use for visual direction and layout scanning, not assets.",
+                        "licenseRule":  "Inspiration only.",
+                        "tags":  [
+                                     "web-design",
+                                     "portfolio",
+                                     "landing"
+                                 ]
+                    },
+                    {
+                        "id":  "gsap-docs",
+                        "name":  "GSAP Documentation",
+                        "url":  "https://gsap.com/docs/v3/",
+                        "sourceType":  "implementation-docs",
+                        "accessModel":  "free-browse",
+                        "priority":  5,
+                        "useFor":  [
+                                       "GSAP implementation",
+                                       "ScrollTrigger",
+                                       "timelines",
+                                       "easing"
+                                   ],
+                        "bestWhen":  "You already chose GSAP or need to validate implementation details.",
+                        "agentUse":  "Use official docs for code decisions. Do not copy showcase sites.",
+                        "licenseRule":  "Documentation reference; respect library licensing.",
+                        "tags":  [
+                                     "gsap",
+                                     "docs",
+                                     "scrolltrigger",
+                                     "timeline"
+                                 ]
+                    },
+                    {
+                        "id":  "motion-react-docs",
+                        "name":  "Motion for React Docs",
+                        "url":  "https://motion.dev/docs/react",
+                        "sourceType":  "implementation-docs",
+                        "accessModel":  "free-browse",
+                        "priority":  5,
+                        "useFor":  [
+                                       "React animation",
+                                       "reduced motion",
+                                       "gestures",
+                                       "layout animation"
+                                   ],
+                        "bestWhen":  "You need production-grade React animation APIs and accessibility guidance.",
+                        "agentUse":  "Use official docs for implementation and performance choices.",
+                        "licenseRule":  "Documentation reference; respect library licensing.",
+                        "tags":  [
+                                     "react",
+                                     "motion",
+                                     "docs",
+                                     "accessibility",
+                                     "gestures"
+                                 ]
+                    },
+                    {
+                        "id":  "animejs-docs",
+                        "name":  "Anime.js Documentation",
+                        "url":  "https://animejs.com/documentation/",
+                        "sourceType":  "implementation-docs",
+                        "accessModel":  "free-browse",
+                        "priority":  3,
+                        "useFor":  [
+                                       "small JavaScript timelines",
+                                       "SVG motion",
+                                       "non-React projects",
+                                       "lightweight choreography"
+                                   ],
+                        "bestWhen":  "You need timeline control but GSAP would be heavier than necessary.",
+                        "agentUse":  "Use docs for implementation, not as a source of visual direction.",
+                        "licenseRule":  "Documentation reference; respect library licensing.",
+                        "tags":  [
+                                     "animejs",
+                                     "svg",
+                                     "timeline",
+                                     "javascript"
+                                 ]
+                    },
+                    {
+                        "id":  "motion-examples",
+                        "name":  "Motion Examples",
+                        "url":  "https://motion.dev/examples",
+                        "sourceType":  "implementation-examples",
+                        "accessModel":  "mixed-free-paid",
+                        "priority":  5,
+                        "useFor":  [
+                                       "React UI motion",
+                                       "layout animation",
+                                       "scroll effects",
+                                       "carousels",
+                                       "cursor effects"
+                                   ],
+                        "bestWhen":  "The target repo uses React, Next.js, Vite, or component-based UI motion.",
+                        "agentUse":  "Use examples as implementation patterns and adapt them to local components.",
+                        "licenseRule":  "Check Motion and Motion+ terms for premium examples.",
+                        "tags":  [
+                                     "react",
+                                     "motion",
+                                     "framer-motion",
+                                     "layout",
+                                     "scroll",
+                                     "components"
+                                 ]
+                    },
+                    {
+                        "id":  "threejs-examples",
+                        "name":  "Three.js Examples",
+                        "url":  "https://threejs.org/examples/",
+                        "sourceType":  "implementation-examples",
+                        "accessModel":  "free-browse",
+                        "priority":  5,
+                        "useFor":  [
+                                       "3D web scenes",
+                                       "WebGL experiments",
+                                       "shader references",
+                                       "product stages"
+                                   ],
+                        "bestWhen":  "A build needs actual 3D/WebGL behavior instead of CSS-only motion.",
+                        "agentUse":  "Use examples to select techniques, then build a stable accessible scene with fallback.",
+                        "licenseRule":  "Respect Three.js license and individual example licenses.",
+                        "tags":  [
+                                     "threejs",
+                                     "3d",
+                                     "webgl",
+                                     "shader",
+                                     "canvas"
+                                 ]
+                    },
+                    {
+                        "id":  "codrops",
+                        "name":  "Codrops",
+                        "url":  "https://tympanus.net/codrops/",
+                        "sourceType":  "implementation-examples",
+                        "accessModel":  "free-browse",
+                        "priority":  4,
+                        "useFor":  [
+                                       "creative web effects",
+                                       "hover effects",
+                                       "page transitions",
+                                       "WebGL experiments"
+                                   ],
+                        "bestWhen":  "You need practical creative effects with article-level implementation ideas.",
+                        "agentUse":  "Use as learning/reference. Rebuild original effects and check license on demos.",
+                        "licenseRule":  "Check individual demo license before reuse.",
+                        "tags":  [
+                                     "creative-effects",
+                                     "css",
+                                     "webgl",
+                                     "transitions",
+                                     "hover"
+                                 ]
+                    },
+                    {
+                        "id":  "gsap-showcase",
+                        "name":  "GSAP Showcase",
+                        "url":  "https://gsap.com/showcase/",
+                        "sourceType":  "implementation-showcase",
+                        "accessModel":  "free-browse",
+                        "priority":  5,
+                        "useFor":  [
+                                       "scroll choreography",
+                                       "timeline animation",
+                                       "advanced web motion",
+                                       "creative coding"
+                                   ],
+                        "bestWhen":  "GSAP is likely the right implementation library or the site needs advanced sequencing.",
+                        "agentUse":  "Use to identify achievable motion patterns and implementation approaches.",
+                        "licenseRule":  "Inspiration only for showcase sites; follow GSAP license terms for the library.",
+                        "tags":  [
+                                     "gsap",
+                                     "scroll",
+                                     "timeline",
+                                     "creative-coding",
+                                     "animation"
+                                 ]
+                    },
+                    {
+                        "id":  "rive",
+                        "name":  "Rive",
+                        "url":  "https://rive.app/",
+                        "sourceType":  "interactive-authoring",
+                        "accessModel":  "freemium",
+                        "priority":  5,
+                        "useFor":  [
+                                       "interactive vector animation",
+                                       "state machines",
+                                       "app onboarding",
+                                       "product UI animation"
+                                   ],
+                        "bestWhen":  "Animation should respond to user input, product state, or runtime variables.",
+                        "agentUse":  "Use for owned or licensed .riv files and runtime-backed interactions.",
+                        "licenseRule":  "Use owned, licensed, or marketplace-permitted Rive files only.",
+                        "tags":  [
+                                     "rive",
+                                     "interactive",
+                                     "state-machine",
+                                     "vector",
+                                     "runtime"
+                                 ]
+                    },
+                    {
+                        "id":  "spline",
+                        "name":  "Spline",
+                        "url":  "https://spline.design/",
+                        "sourceType":  "interactive-authoring",
+                        "accessModel":  "freemium",
+                        "priority":  5,
+                        "useFor":  [
+                                       "interactive 3D websites",
+                                       "3D product scenes",
+                                       "3D hero backgrounds",
+                                       "Webflow or Framer embeds"
+                                   ],
+                        "bestWhen":  "The brand needs tangible 3D, product depth, or interactive spatial scenes.",
+                        "agentUse":  "Use for owned or remixable 3D scenes. Verify performance, fallbacks, and embed licensing.",
+                        "licenseRule":  "Use only owned, licensed, or remix-permitted scenes.",
+                        "tags":  [
+                                     "spline",
+                                     "3d",
+                                     "interactive",
+                                     "webgl",
+                                     "product",
+                                     "hero"
+                                 ]
+                    },
+                    {
+                        "id":  "godly-sites",
+                        "name":  "Godly Sites",
+                        "url":  "https://godly.design/sites/",
+                        "sourceType":  "landing-gallery",
+                        "accessModel":  "free-browse",
+                        "priority":  5,
+                        "useFor":  [
+                                       "premium SaaS landing pages",
+                                       "AI products",
+                                       "startup websites",
+                                       "modern product pages"
+                                   ],
+                        "bestWhen":  "You need polished contemporary landing pages that are easier to adapt than highly experimental award sites.",
+                        "agentUse":  "Use for hierarchy, section rhythm, hero composition, and restraint. Pair with Motion or GSAP for implementation.",
+                        "licenseRule":  "Inspiration only.",
+                        "tags":  [
+                                     "saas",
+                                     "startup",
+                                     "landing",
+                                     "ai",
+                                     "product",
+                                     "premium",
+                                     "clean"
+                                 ]
+                    },
+                    {
+                        "id":  "land-book",
+                        "name":  "Land-book",
+                        "url":  "https://land-book.com/",
+                        "sourceType":  "landing-gallery",
+                        "accessModel":  "free-browse",
+                        "priority":  4,
+                        "useFor":  [
+                                       "landing page patterns",
+                                       "portfolio sites",
+                                       "startup pages",
+                                       "visual scanning"
+                                   ],
+                        "bestWhen":  "You need broad landing-page inspiration and quick pattern discovery.",
+                        "agentUse":  "Use for layout and section ideas. Verify motion directly on the referenced site before adapting.",
+                        "licenseRule":  "Inspiration only.",
+                        "tags":  [
+                                     "landing",
+                                     "portfolio",
+                                     "startup",
+                                     "gallery"
+                                 ]
+                    },
+                    {
+                        "id":  "lapa-ninja",
+                        "name":  "Lapa Ninja",
+                        "url":  "https://www.lapa.ninja/",
+                        "sourceType":  "landing-gallery",
+                        "accessModel":  "free-browse",
+                        "priority":  4,
+                        "useFor":  [
+                                       "landing pages",
+                                       "marketing pages",
+                                       "startup layouts",
+                                       "conversion sections"
+                                   ],
+                        "bestWhen":  "You need many landing-page examples for offer hierarchy and section composition.",
+                        "agentUse":  "Use for structure and conversion flow. Motion must be inferred from the live source site.",
+                        "licenseRule":  "Inspiration only.",
+                        "tags":  [
+                                     "landing",
+                                     "marketing",
+                                     "startup",
+                                     "conversion"
+                                 ]
+                    },
+                    {
+                        "id":  "one-page-love",
+                        "name":  "One Page Love",
+                        "url":  "https://onepagelove.com/",
+                        "sourceType":  "landing-gallery",
+                        "accessModel":  "free-browse",
+                        "priority":  3,
+                        "useFor":  [
+                                       "one-page sites",
+                                       "landing page sections",
+                                       "launch pages"
+                                   ],
+                        "bestWhen":  "You need single-page flow ideas and compact landing-page structure.",
+                        "agentUse":  "Use for information architecture and section ordering.",
+                        "licenseRule":  "Inspiration only.",
+                        "tags":  [
+                                     "one-page",
+                                     "landing",
+                                     "launch"
+                                 ]
+                    },
+                    {
+                        "id":  "jitter-templates",
+                        "name":  "Jitter Templates",
+                        "url":  "https://jitter.video/templates/",
+                        "sourceType":  "motion-template-library",
+                        "accessModel":  "mixed-free-paid",
+                        "priority":  4,
+                        "useFor":  [
+                                       "motion graphics templates",
+                                       "social graphics",
+                                       "kinetic typography",
+                                       "micro promos"
+                                   ],
+                        "bestWhen":  "You need quick animated compositions or motion direction for hero/marketing media.",
+                        "agentUse":  "Use owned/exported assets only after license review; use templates as direction otherwise.",
+                        "licenseRule":  "Per-template license required.",
+                        "tags":  [
+                                     "jitter",
+                                     "templates",
+                                     "kinetic-type",
+                                     "marketing",
+                                     "video"
+                                 ]
+                    },
+                    {
+                        "id":  "framer-marketplace",
+                        "name":  "Framer Marketplace",
+                        "url":  "https://www.framer.com/community/marketplace/",
+                        "sourceType":  "template-marketplace",
+                        "accessModel":  "mixed-free-paid",
+                        "priority":  4,
+                        "useFor":  [
+                                       "Framer templates",
+                                       "animated landing pages",
+                                       "interactive components",
+                                       "no-code prototypes"
+                                   ],
+                        "bestWhen":  "You want to study or buy animated Framer templates/components for premium sites.",
+                        "agentUse":  "Use for pattern discovery or licensed template assets; adapt code/design to target stack when needed.",
+                        "licenseRule":  "Per-template or per-component license required.",
+                        "tags":  [
+                                     "framer",
+                                     "templates",
+                                     "landing",
+                                     "components",
+                                     "no-code"
+                                 ]
+                    },
+                    {
+                        "id":  "webflow-templates",
+                        "name":  "Webflow Templates",
+                        "url":  "https://webflow.com/templates",
+                        "sourceType":  "template-marketplace",
+                        "accessModel":  "mixed-free-paid",
+                        "priority":  3,
+                        "useFor":  [
+                                       "Webflow interactions",
+                                       "landing page templates",
+                                       "marketing sites",
+                                       "CMS sites"
+                                   ],
+                        "bestWhen":  "You need polished interaction patterns from Webflow-style sites.",
+                        "agentUse":  "Use for interaction references or licensed template purchases.",
+                        "licenseRule":  "Per-template license required.",
+                        "tags":  [
+                                     "webflow",
+                                     "templates",
+                                     "interactions",
+                                     "landing"
+                                 ]
+                    }
+                ]
+}

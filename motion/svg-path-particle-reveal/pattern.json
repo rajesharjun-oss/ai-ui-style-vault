@@ -1,0 +1,38 @@
+{
+  "id": "svg-path-particle-reveal",
+  "name": "SVG Path Particle Reveal",
+  "bestFor": [
+    "cinematic logo reveals",
+    "moon and eclipse intros",
+    "constellation loaders",
+    "premium landing-page hero moments",
+    "WebGL product mark reveals"
+  ],
+  "useWhen": "A project needs an SVG silhouette, line-art path, moon, constellation, route, icon, or logo mark to scatter from depth and assemble into a premium particle shape.",
+  "preferredStack": [
+    "Three.js",
+    "GSAP timeline",
+    "SVG getTotalLength and getPointAtLength",
+    "Canvas fallback"
+  ],
+  "localPath": "motion/svg-path-particle-reveal/index.html",
+  "verificationNotes": "motion/svg-path-particle-reveal/verification-notes.md",
+  "source": "User-provided JavaScript snippet that samples an SVG path with getTotalLength/getPointAtLength, creates THREE.Vector3 vertices, jitters them in x/y/z, and animates them from a centered origin with a GSAP timeline.",
+  "implementationNotes": [
+    "Use owned, generated, open-source-permitted, or user-provided SVG paths only.",
+    "Normalize the SVG viewBox before mapping vertices into the scene; the captured 600 by 552 origin only applies to matching artwork.",
+    "For production Three.js, render sampled points with BufferGeometry and THREE.Points rather than one mesh per point.",
+    "Tune point density by device class; the captured 0.1 path step is dense and may be too heavy for mobile.",
+    "Use as a cinematic hero, loader, ambient background, logo reveal, or transition, not as critical navigation.",
+    "Keep source-video headings and code frames out of the preview UI; code belongs in files and metadata."
+  ],
+  "reducedMotion": "Render the final path or logo as a static particle/shape image, skip the scatter timeline, and do not delay access to page content.",
+  "avoid": [
+    "unlicensed logo or icon paths",
+    "too many particles on mobile",
+    "blocking auth, checkout, or data-entry flows",
+    "text placed directly on dense bright particles",
+    "WebGL-only implementation with no fallback",
+    "visible code panels inside the design preview"
+  ]
+}

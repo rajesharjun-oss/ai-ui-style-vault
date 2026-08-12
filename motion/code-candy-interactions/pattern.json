@@ -1,0 +1,50 @@
+{
+    "id":  "code-candy-interactions-gallery",
+    "name":  "Code Candy Interaction Gallery",
+    "source":  "User-provided public TikTok links from @code_candy; reconstructed from visible code frames and thumbnails.",
+    "localPath":  "motion/code-candy-interactions/index.html",
+    "verificationNotes":  "motion/code-candy-interactions/verification-notes.md",
+    "childEntries":  [
+                         "motion/code-candy-auth-slanted-overlay/",
+                         "motion/code-candy-hover-pill-menu/",
+                         "motion/code-candy-floating-indicator-nav/",
+                         "motion/code-candy-auth-overlay-slide/"
+                     ],
+    "options":  [
+                    {
+                        "role":  "auth-slanted-overlay",
+                        "recommendation":  "strong",
+                        "useCase":  "Dark premium login/signup card with a gradient slanted overlay. Click only; no autoplay."
+                    },
+                    {
+                        "role":  "hover-only-pill-menu",
+                        "recommendation":  "strong",
+                        "useCase":  "Compact nav or tool rail where labels reveal on hover/focus."
+                    },
+                    {
+                        "role":  "floating-indicator-nav",
+                        "recommendation":  "strong",
+                        "useCase":  "Mobile or compact nav with a circular active indicator. Starts inactive; click only, no autoplay."
+                    },
+                    {
+                        "role":  "auth-overlay-slide",
+                        "recommendation":  "conditional",
+                        "useCase":  "Light auth surface needing a clean click-triggered overlay slide between sign-in and create-account states."
+                    }
+                ],
+    "useWhen":  "A project needs to compare the four Code Candy stateful interaction entries in one place before choosing a specific reusable folder.",
+    "avoid":  [
+                  "treating the gallery as a production page",
+                  "autoplaying auth or nav state changes",
+                  "shipping source-video headlines inside components",
+                  "rendering code snippets in visual previews"
+              ],
+    "reducedMotion":  "Disable animated state transitions and show the target state instantly.",
+    "implementationNotes":  [
+                                "Use the four standalone folders for implementation handoff; keep this folder as a preview gallery.",
+                                "Stateful controls must wait for explicit user input: click, hover, or focus depending on pattern.",
+                                "Do not include video-title/headline overlays from the source videos in production components.",
+                                "Do not render code snippets inside visual previews; keep previews design-only so agents do not copy code text into UI.",
+                                "Keep reduced-motion fallbacks: disable nonessential transitions and show the final static state."
+                            ]
+}

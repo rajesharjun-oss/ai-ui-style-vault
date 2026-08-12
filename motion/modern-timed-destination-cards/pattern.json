@@ -1,0 +1,36 @@
+{
+    "id":  "modern-timed-destination-cards",
+    "name":  "Modern Timed Destination Cards",
+    "bestFor":  [
+                    "travel landing pages",
+                    "editorial hero rotators",
+                    "location storytelling",
+                    "luxury hospitality pages",
+                    "campaign microsites"
+                ],
+    "useWhen":  "A project needs a full-bleed hero where timed destination cards promote one card into the main stage with a visible progress rail.",
+    "preferredStack":  [
+                           "CSS transitions",
+                           "vanilla JavaScript",
+                           "GSAP Flip for production choreography",
+                           "Motion for React optional"
+                       ],
+    "localPath":  "motion/modern-timed-destination-cards/index.html",
+    "verificationNotes":  "motion/modern-timed-destination-cards/verification-notes.md",
+    "source":  "User-provided WhatsApp screenshot of a modern timed cards clip with partial visible GSAP Flip code.",
+    "implementationNotes":  [
+                                "Use a visible progress indicator when timing changes the featured card.",
+                                "Allow manual card selection and pause/play controls.",
+                                "Keep timed motion away from forms and critical decision flows.",
+                                "Use licensed or owned destination imagery in production; this preview uses CSS scenic fields.",
+                                "Respect reduced motion by disabling timed cycling."
+                            ],
+    "reducedMotion":  "Disable timed cycling, keep the selected card static, and let users switch cards manually.",
+    "avoid":  [
+                  "uncontrolled autoplay",
+                  "text over busy imagery without a scrim",
+                  "layout shift during card promotion",
+                  "copying travel footage or proprietary imagery",
+                  "hiding content behind animation"
+              ]
+}

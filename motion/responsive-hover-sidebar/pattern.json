@@ -1,0 +1,36 @@
+{
+    "id":  "responsive-hover-sidebar",
+    "name":  "Responsive Hover Sidebar",
+    "bestFor":  [
+                    "admin dashboards",
+                    "SaaS app shells",
+                    "file managers",
+                    "member portals",
+                    "settings-heavy tools"
+                ],
+    "useWhen":  "A project needs a dark collapsible sidebar where labels reveal on hover, focus, or explicit toggle, and active items are clear.",
+    "preferredStack":  [
+                           "CSS transitions",
+                           "semantic nav buttons",
+                           "vanilla JavaScript",
+                           "Lucide or local SVG icons"
+                       ],
+    "localPath":  "motion/responsive-hover-sidebar/index.html",
+    "verificationNotes":  "motion/responsive-hover-sidebar/verification-notes.md",
+    "source":  "User-provided WhatsApp screenshot of a responsive sidebar clip with partial visible CSS.",
+    "implementationNotes":  [
+                                "Labels must be available on hover, focus, and mobile, not hover-only.",
+                                "Every nav target must be keyboard operable and have a visible active state.",
+                                "On small screens, prefer the expanded readable state over icon-only navigation.",
+                                "Use real route links or buttons wired to application state in production.",
+                                "Keep source-video social UI and code frames out of previews."
+                            ],
+    "reducedMotion":  "Remove width animation timing and reveal labels instantly while preserving focus order.",
+    "avoid":  [
+                  "hover-only labels without focus support",
+                  "unlabeled icons",
+                  "active states with poor contrast",
+                  "sidebar overlays that trap focus",
+                  "dead navigation items"
+              ]
+}

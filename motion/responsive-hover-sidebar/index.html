@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive Hover Sidebar</title>
+    <style>
+      :root { color-scheme: light; --bg: #d9dfeb; --panel: #0f101c; --ink: #f7f7ff; --muted: #aeb0c2; --active: #ffffff; --active-ink: #20212b; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 28px; background: radial-gradient(circle at 50% 18%, rgba(255,255,255,.8), transparent 28%), linear-gradient(135deg, #cbd4e2, #e8edf5); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      button { font: inherit; }
+      .shell { width: min(920px, 96vw); min-height: 560px; display: grid; place-items: center; border-radius: 28px; background: rgba(255,255,255,.36); box-shadow: inset 0 0 0 1px rgba(255,255,255,.55), 0 30px 80px rgba(42,52,78,.18); }
+      .sidebar { width: 136px; min-height: 430px; padding: 24px 18px; overflow: hidden; border-radius: 18px; background: var(--panel); color: var(--ink); box-shadow: 0 28px 52px rgba(14, 16, 30, .35); transition: width 420ms cubic-bezier(.25,1,.5,1); }
+      .sidebar.is-open, .sidebar:not(.is-collapsed):focus-within, .sidebar:not(.is-collapsed):hover { width: min(320px, calc(96vw - 56px)); } .sidebar.is-collapsed { width: 136px; max-width: 136px; }
+      .top { display: flex; align-items: center; gap: 12px; min-height: 48px; margin-bottom: 34px; }
+      .logo, .icon { width: 42px; height: 42px; flex: 0 0 42px; display: grid; place-items: center; color: currentColor; border-radius: 14px; }
+      .logo { background: rgba(255,255,255,.08); }
+      .title { width: 0; overflow: hidden; color: #fff; font-size: 22px; font-weight: 850; opacity: 0; white-space: nowrap; pointer-events: none; transform: translateX(-8px); transition: width 300ms ease, opacity 300ms ease, transform 300ms ease; }
+      .menu { margin-left: auto; width: 42px; height: 42px; border: 0; border-radius: 12px; color: #fff; background: transparent; cursor: pointer; }
+      ul { list-style: none; display: grid; gap: 14px; margin: 0; padding: 0; }
+      .nav-btn { width: 100%; min-height: 62px; display: flex; align-items: center; gap: 18px; border: 0; border-radius: 16px; color: var(--muted); background: transparent; cursor: pointer; padding: 0; text-align: left; }
+      .nav-btn[aria-current="true"] { color: var(--active-ink); background: var(--active); box-shadow: 0 18px 34px rgba(0,0,0,.18); }
+      .links-name { color: inherit; font-size: 15px; font-weight: 650; white-space: nowrap; opacity: 0; pointer-events: none; transform: translateX(-8px); transition: opacity 360ms ease, transform 360ms ease; }
+      .sidebar.is-open .links-name, .sidebar:not(.is-collapsed):hover .links-name, .sidebar:not(.is-collapsed):focus-within .links-name { opacity: 1; transform: translateX(0); pointer-events: auto; } .sidebar.is-open .title, .sidebar:not(.is-collapsed):hover .title, .sidebar:not(.is-collapsed):focus-within .title { width: 92px; opacity: 1; transform: translateX(0); pointer-events: auto; } .sidebar.is-collapsed .title { width: 0; opacity: 0; pointer-events: none; } .sidebar.is-collapsed .links-name { opacity: 0; pointer-events: none; }
+      .nav-btn:focus-visible, .menu:focus-visible { outline: 3px solid rgba(255,255,255,.82); outline-offset: 4px; }
+      svg { width: 22px; height: 22px; stroke: currentColor; stroke-width: 2; fill: none; }
+      @media (max-width: 560px) { body { padding: 18px; } .shell { min-height: 520px; align-items: start; padding: 28px 14px; } .sidebar, .sidebar.is-open, .sidebar:hover, .sidebar:focus-within { width: min(320px, calc(100vw - 36px)); } .title { width: 92px; } .title, .links-name { opacity: 1; transform: none; pointer-events: auto; } }
+      @media (prefers-reduced-motion: reduce) { * { transition-duration: 1ms !important; } }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="sidebar is-open" aria-label="App navigation">
+        <div class="top"><div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 8l4 2.2v4.6L12 17l-4-2.2v-4.6L12 8z"/></svg></div><div class="title">Menu</div><button class="menu" type="button" aria-label="Toggle sidebar" aria-expanded="true"><svg viewBox="0 0 24 24"><path d="M5 7h14M9 12h10M13 17h6"/></svg></button></div>
+        <ul>
+          <li><button class="nav-btn" type="button" aria-current="false"><span class="icon"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg></span><span class="links-name">Dashboard</span></button></li>
+          <li><button class="nav-btn" type="button" aria-current="false"><span class="icon"><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0"/></svg></span><span class="links-name">User</span></button></li>
+          <li><button class="nav-btn" type="button" aria-current="false"><span class="icon"><svg viewBox="0 0 24 24"><path d="M5 6h14v10H8l-3 3V6z"/></svg></span><span class="links-name">Messages</span></button></li>
+          <li><button class="nav-btn" type="button" aria-current="false"><span class="icon"><svg viewBox="0 0 24 24"><path d="M3 7h7l2 3h9v9H3z"/></svg></span><span class="links-name">File Manager</span></button></li>
+          <li><button class="nav-btn" type="button" aria-current="true"><span class="icon"><svg viewBox="0 0 24 24"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.04.04-2.12 2.12-.04-.04a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.57V20h-3v-.08a1.7 1.7 0 0 0-1.04-1.57 1.7 1.7 0 0 0-1.87.34l-.04.04-2.12-2.12.04-.04A1.7 1.7 0 0 0 5 15a1.7 1.7 0 0 0-1.57-1.04H3.35v-3h.08A1.7 1.7 0 0 0 5 9.92a1.7 1.7 0 0 0-.34-1.87l-.04-.04 2.12-2.12.04.04A1.7 1.7 0 0 0 8.65 6.27 1.7 1.7 0 0 0 9.69 4.7V4.62h3v.08a1.7 1.7 0 0 0 1.04 1.57 1.7 1.7 0 0 0 1.87-.34l.04-.04 2.12 2.12-.04.04A1.7 1.7 0 0 0 17.38 9.92a1.7 1.7 0 0 0 1.57 1.04h.08v3h-.08A1.7 1.7 0 0 0 19.4 15z"/></svg></span><span class="links-name">Setting</span></button></li>
+        </ul>
+      </aside>
+    </main>
+    <script>
+      const sidebar = document.querySelector('.sidebar');
+      const menu = document.querySelector('.menu');
+      const buttons = document.querySelectorAll('.nav-btn');
+            function setSidebarState(open) {
+        const forceOpen = matchMedia('(max-width: 560px)').matches;
+        const isOpen = forceOpen || open;
+        sidebar.classList.toggle('is-open', isOpen);
+        sidebar.classList.toggle('is-collapsed', !isOpen);
+        menu.setAttribute('aria-expanded', String(isOpen));
+        sidebar.style.width = isOpen ? '' : '136px';
+        sidebar.style.maxWidth = isOpen ? '' : '136px';
+      }
+      menu.addEventListener('click', () => setSidebarState(!sidebar.classList.contains('is-open')));
+      addEventListener('resize', () => setSidebarState(sidebar.classList.contains('is-open')));
+      buttons.forEach((button) => button.addEventListener('click', () => { buttons.forEach((item) => item.setAttribute('aria-current', 'false')); button.setAttribute('aria-current', 'true'); }));
+    </script>
+  </body>
+</html>

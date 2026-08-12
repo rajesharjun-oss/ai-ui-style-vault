@@ -1,364 +1,388 @@
 {
-    "name":  "AI UI Style Vault Agent Index",
-    "generatedAt":  "2026-08-04",
-    "purpose":  "Machine-readable entry point for agents choosing and adapting UI references from this vault.",
-    "entryPoints":  {
-                        "humanReadme":  "README.md",
-                        "agentInstructions":  "AGENTS.md",
-                        "agentUsageGuide":  "guides/AGENT_USAGE.md",
-                        "buildChecklist":  "guides/AGENT_BUILD_CHECKLIST.md",
-                        "styleSelectionGuide":  "guides/STYLE_SELECTION_GUIDE.md",
-                        "webToolDesignMatrix":  "guides/WEB_TOOL_DESIGN_MATRIX.md",
-                        "siteInteractionPatterns":  "guides/SITE_INTERACTION_PATTERNS.md",
-                        "styleCatalog":  "catalog.json",
-                        "screenCatalog":  "screen-catalog.json",
-                        "capturedStyles":  "CAPTURED_STYLES.md",
-                        "screenReferences":  "SCREEN_REFERENCES.md",
-                        "sources":  "sources.json",
-                        "vaultSelectionTemplate":  "templates/VAULT_SELECTION.md",
-                        "generatedSiteValidator":  "scripts/validate-generated-site.ps1",
-                        "styleSelector":  "scripts/select-vault-style.ps1",
-                        "motionReadme":  "motion/README.md",
-                        "motionGuide":  "motion/LANDING_PAGE_MOTION_GUIDE.md",
-                        "motionCatalog":  "motion/motion-catalog.json",
-                        "motionReferences":  "motion/MOTION_REFERENCES.md",
-                        "motionSelector":  "scripts/select-motion-references.ps1",
-                        "motionCatalogGenerator":  "scripts/generate-motion-catalog.ps1",
-                        "motionCatalogValidator":  "scripts/validate-motion-catalog.ps1"
-                    },
-    "inventory":  {
-                      "styleBundles":  520,
-                      "screenReferences":  118,
-                      "primaryStyleRoot":  "styles/refero-styles",
-                      "screenReferenceRoot":  "screens/refero",
-                      "mediaPolicy":  "remote-links-only",
-                      "motionStyleReferences":  512,
-                      "highSignalMotionReferences":  34,
-                      "styleReferencesWithPreviewVideo":  346,
-                      "motionPatterns":  10,
-                      "motionReferenceRoot":  "motion"
-                  },
-    "selectionProtocol":  [
-                              "Inspect the target repository and identify product type, audience, page needs, interaction density, tone, accessibility constraints, and styling stack.",
-                              "Run scripts/select-vault-style.ps1 with the project brief and optional -ProjectPath to generate a first-pass VAULT_SELECTION report before manually reviewing candidates.",
-                              "Read guides/AGENT_BUILD_CHECKLIST.md before building, including visual QA, asset QA, and handoff gates.",
-                              "Read guides/SITE_INTERACTION_PATTERNS.md when the target site needs rotating hero media, dropdowns, mega menus, category browsing, brand grids, or top-nav interaction.",
-                              "Create a VAULT_SELECTION.md record from templates/VAULT_SELECTION.md before implementation.",
-                              "Read catalog.json and shortlist 3 to 5 style bundles using category, bestFor, tags, theme, northStar, primaryColors, fonts, and available files.",
-                              "Read screen-catalog.json and shortlist page-specific screen references for required page types.",
-                              "Score style candidates using product fit, page coverage, density fit, tone fit, implementation fit, accessibility fit, and license risk.",
-                              "Choose one primary style bundle, optional supporting style bundles only for clear gaps, and one screen reference per important page type.",
-                              "Read the selected folders deeply before implementation.",
-                              "Implement an original UI in the target repository using the selected tokens, rules, and page patterns.",
-                              "Run generated-site, visual, asset, responsive, and available project checks before handoff.",
-                              "For landing pages, motion graphics websites, cinematic hero sections, product tours, scroll stories, or animated UI, run scripts/select-motion-references.ps1 and read motion/LANDING_PAGE_MOTION_GUIDE.md before implementation."
-                          ],
-    "scoringWeights":  {
-                           "productDomainFit":  25,
-                           "pageCoverage":  20,
-                           "interactionDensityFit":  15,
-                           "toneFit":  15,
-                           "implementationFit":  10,
-                           "accessibilityFit":  10,
-                           "licenseRisk":  5
-                       },
-    "productArchetypes":  [
-                              {
-                                  "name":  "AI assistant or AI workspace",
-                                  "styleHints":  [
-                                                     "anthropic",
-                                                     "claude",
-                                                     "cursor",
-                                                     "dimension",
-                                                     "factory",
-                                                     "elevenlabs"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "dashboard",
-                                                          "login",
-                                                          "developers-page",
-                                                          "blog"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "ai",
-                                                        "developer-tools",
-                                                        "productivity",
-                                                        "workspace",
-                                                        "technical"
-                                                    ]
-                              },
-                              {
-                                  "name":  "Developer tool or API product",
-                                  "styleHints":  [
-                                                     "cursor",
-                                                     "factory",
-                                                     "grafbase",
-                                                     "browserbase",
-                                                     "caldera",
-                                                     "changelog"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "developers-page",
-                                                          "integration-page",
-                                                          "dashboard",
-                                                          "login"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "dev tools",
-                                                        "api",
-                                                        "docs",
-                                                        "technical",
-                                                        "terminal"
-                                                    ]
-                              },
-                              {
-                                  "name":  "SaaS dashboard or admin panel",
-                                  "styleHints":  [
-                                                     "basedash",
-                                                     "attio",
-                                                     "dub",
-                                                     "altitude",
-                                                     "assurestor",
-                                                     "august-health-ehr"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "dashboard",
-                                                          "profile-account",
-                                                          "contacts",
-                                                          "login"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "saas",
-                                                        "dashboard",
-                                                        "admin",
-                                                        "internal tools",
-                                                        "operations"
-                                                    ]
-                              },
-                              {
-                                  "name":  "Finance, fintech, crypto, or analytics",
-                                  "styleHints":  [
-                                                     "fey",
-                                                     "glassnode",
-                                                     "fold",
-                                                     "acctual",
-                                                     "altitude",
-                                                     "auros"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "dashboard",
-                                                          "product-details",
-                                                          "profile-account",
-                                                          "paywall-subscription"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "finance",
-                                                        "fintech",
-                                                        "crypto",
-                                                        "analytics",
-                                                        "market data"
-                                                    ]
-                              },
-                              {
-                                  "name":  "Ecommerce or product catalog",
-                                  "styleHints":  [
-                                                     "apple",
-                                                     "acne-studios",
-                                                     "becane",
-                                                     "emmalewisham",
-                                                     "arsenijs-fabrica"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "product-page-landing",
-                                                          "product-details",
-                                                          "catalog-page",
-                                                          "404-page"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "e-commerce",
-                                                        "retail",
-                                                        "catalog",
-                                                        "product",
-                                                        "commerce"
-                                                    ]
-                              },
-                              {
-                                  "name":  "Marketplace or service platform",
-                                  "styleHints":  [
-                                                     "awesomic",
-                                                     "cord",
-                                                     "dribbble",
-                                                     "cosmos",
-                                                     "creative-giants"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "catalog-page",
-                                                          "profile-account",
-                                                          "product-details",
-                                                          "contacts"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "marketplace",
-                                                        "services",
-                                                        "portfolio",
-                                                        "search",
-                                                        "profiles"
-                                                    ]
-                              },
-                              {
-                                  "name":  "Health, wellness, or care product",
-                                  "styleHints":  [
-                                                     "alden",
-                                                     "ease-health",
-                                                     "august-health-ehr",
-                                                     "amaterasu"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "dashboard",
-                                                          "profile-account",
-                                                          "paywall-subscription",
-                                                          "about"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "healthcare",
-                                                        "wellness",
-                                                        "patient",
-                                                        "care",
-                                                        "calm"
-                                                    ]
-                              },
-                              {
-                                  "name":  "Education or learning app",
-                                  "styleHints":  [
-                                                     "duolingo",
-                                                     "goodnotes",
-                                                     "evernote",
-                                                     "foodnoms"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "dashboard",
-                                                          "blog",
-                                                          "profile-account",
-                                                          "paywall-subscription"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "education",
-                                                        "learning",
-                                                        "productivity",
-                                                        "progress",
-                                                        "consumer"
-                                                    ]
-                              },
-                              {
-                                  "name":  "Creative studio or portfolio",
-                                  "styleHints":  [
-                                                     "active-theory",
-                                                     "area-17",
-                                                     "dash-digital-studio",
-                                                     "branding",
-                                                     "247studio"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "about",
-                                                          "blog",
-                                                          "media-kit",
-                                                          "contacts"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "agency",
-                                                        "portfolio",
-                                                        "creative",
-                                                        "editorial",
-                                                        "case-study"
-                                                    ]
-                              },
-                              {
-                                  "name":  "Corporate or enterprise landing page",
-                                  "styleHints":  [
-                                                     "ai-for-business",
-                                                     "amplemarket",
-                                                     "frontify",
-                                                     "dock",
-                                                     "atlassian"
-                                                 ],
-                                  "screenPageTypes":  [
-                                                          "product-page-landing",
-                                                          "integration-page",
-                                                          "careers",
-                                                          "contacts"
-                                                      ],
-                                  "selectionTags":  [
-                                                        "enterprise",
-                                                        "b2b",
-                                                        "saas",
-                                                        "landing",
-                                                        "integrations"
-                                                    ]
-                              }
-                          ],
-    "interactionPatternAddOns":  [
-                                     "Rotating Editorial Hero",
-                                     "Product Taxonomy Mega Menu",
-                                     "Brand Logo Mega Menu",
-                                     "Split Utility Mega Menu",
-                                     "Icon Category Drawer"
-                                 ],
-    "requiredReadFilesForSelectedStyle":  [
-                                              "README.md",
-                                              "DESIGN.md",
-                                              "implementation-prompt.md",
-                                              "style.json",
-                                              "tokens/colors.md",
-                                              "tokens/typography.md",
-                                              "tokens/spacing-shape.md",
-                                              "tokens/components.md",
-                                              "tokens/guidelines.md",
-                                              "code/design-tokens.json",
-                                              "code/css-variables.css",
-                                              "code/tailwind-v4.css"
-                                          ],
-    "requiredReadFilesForSelectedScreen":  [
-                                               "README.md",
-                                               "implementation-prompt.md",
-                                               "screen.json",
-                                               "tokens/page-elements.md",
-                                               "tokens/colors.md",
-                                               "code/design-tokens.json",
-                                               "code/css-variables.css"
-                                           ],
-    "outputContractBeforeImplementation":  {
-                                               "primaryStyle":  "Name and path of selected primary style bundle.",
-                                               "supportingReferences":  "Screen or style paths used for page-specific behavior.",
-                                               "fitRationale":  "Short explanation tied to product type, audience, density, tone, and stack.",
-                                               "adaptationPlan":  "Tokens, components, layout patterns, and states to implement.",
-                                               "copyAssetPolicy":  "State that protected logos, screenshots, exact product copy, and proprietary layouts will not be copied.",
-                                               "selectionRecord":  "Create or update VAULT_SELECTION.md in the generated project or target repo before implementation. The automated selector may create VAULT_SELECTION.generated.md as the first draft.",
-                                               "motionSelection":  "For landing pages or motion-heavy sites, list selected motion references, motion patterns, implementation resources, and reduced-motion plan."
-                                           },
-    "requiredBuildArtifacts":  [
-                                   "VAULT_SELECTION.md, VAULT_SELECTION.generated.md, or equivalent filled selection record",
-                                   "Visual QA evidence or notes for desktop and mobile",
-                                   "Asset audit result",
-                                   "Available lint, typecheck, test, and build results",
-                                   "Localhost URL when the user asks to see the build locally",
-                                   "MOTION_SELECTION.md, MOTION_SELECTION.generated.md, or motion notes when the build uses landing-page motion or motion graphics"
-                               ],
-    "requiredGeneratedSiteChecks":  [
-                                        "No hotlinked target-site images or copied protected media",
-                                        "No placeholder, lorem ipsum, TODO-heavy UI, or console debugging",
-                                        "Headers and sticky elements do not cover headings, forms, cards, or anchor targets",
-                                        "Forms, fieldsets, labels, legends, focus states, and text wrapping are visually checked",
-                                        "Desktop and mobile layouts have no obvious overlap",
-                                        "Reduced-motion behavior checked for autoplay, scroll scenes, video, canvas, and looping animation",
-                                        "Motion performance checked for mobile, layout shift, and unreadable animated text"
-                                    ],
-    "safetyRules":  [
-                        "Use references as inspiration for original implementation unless a source explicitly grants reuse rights.",
-                        "Do not vendor screenshots, videos, logos, or brand assets without permission.",
-                        "Do not clone a protected brand or page pixel-for-pixel.",
-                        "Preserve token logic, spacing rhythm, mood, component behavior, and page-type structure when useful.",
-                        "Tailor information architecture, copy, navigation, feature hierarchy, responsiveness, and accessibility to the target product.",
-                        "Do not copy reference-site animation sequences, videos, product footage, or proprietary brand motion.",
-                        "Use owned, generated, user-provided, or clearly licensed motion assets only."
-                    ]
+  "name": "AI UI Style Vault Agent Index",
+  "generatedAt": "2026-08-05",
+  "purpose": "Machine-readable entry point for agents choosing and adapting UI references from this vault.",
+  "entryPoints": {
+    "humanReadme": "README.md",
+    "agentInstructions": "AGENTS.md",
+    "agentUsageGuide": "guides/AGENT_USAGE.md",
+    "buildChecklist": "guides/AGENT_BUILD_CHECKLIST.md",
+    "styleSelectionGuide": "guides/STYLE_SELECTION_GUIDE.md",
+    "webToolDesignMatrix": "guides/WEB_TOOL_DESIGN_MATRIX.md",
+    "siteInteractionPatterns": "guides/SITE_INTERACTION_PATTERNS.md",
+    "styleCatalog": "catalog.json",
+    "screenCatalog": "screen-catalog.json",
+    "capturedStyles": "CAPTURED_STYLES.md",
+    "screenReferences": "SCREEN_REFERENCES.md",
+    "sources": "sources.json",
+    "vaultSelectionTemplate": "templates/VAULT_SELECTION.md",
+    "generatedSiteValidator": "scripts/validate-generated-site.ps1",
+    "styleSelector": "scripts/select-vault-style.ps1",
+    "motionReadme": "motion/README.md",
+    "motionGuide": "motion/LANDING_PAGE_MOTION_GUIDE.md",
+    "motionCatalog": "motion/motion-catalog.json",
+    "motionReferences": "motion/MOTION_REFERENCES.md",
+    "motionSelector": "scripts/select-motion-references.ps1",
+    "motionCatalogGenerator": "scripts/generate-motion-catalog.ps1",
+    "motionCatalogValidator": "scripts/validate-motion-catalog.ps1",
+    "premiumMotionSourceGuide": "motion/PREMIUM_MOTION_SOURCES.md",
+    "premiumMotionSourceCatalog": "motion/premium-motion-sources.json",
+    "premiumMotionSourceSelector": "scripts/select-premium-motion-sources.ps1",
+    "premiumMotionSourceValidator": "scripts/validate-premium-motion-sources.ps1",
+    "motionSitesPromptReferences": "motion/MOTIONSITES_PROMPT_REFERENCES.md",
+    "motionSitesPromptCatalog": "motion/motionsites-prompt-catalog.json",
+    "promptReferenceSelector": "scripts/select-prompt-references.ps1",
+    "promptReferenceValidator": "scripts/validate-prompt-references.ps1"
+  },
+  "inventory": {
+    "styleBundles": 520,
+    "screenReferences": 118,
+    "primaryStyleRoot": "styles/refero-styles",
+    "screenReferenceRoot": "screens/refero",
+    "mediaPolicy": "remote-links-only",
+    "motionStyleReferences": 512,
+    "highSignalMotionReferences": 34,
+    "styleReferencesWithPreviewVideo": 346,
+    "motionPatterns": 22,
+    "motionReferenceRoot": "motion",
+    "premiumMotionSources": 30,
+    "premiumMotionInspirationSources": 10,
+    "premiumMotionImplementationSources": 8,
+    "premiumMotionAssetSources": 12,
+    "motionSitesPromptReferences": 300,
+    "motionSitesPromptCards": 155,
+    "motionSitesAnimatedBackgrounds": 145,
+    "motionSitesCopyPromptCards": 53,
+    "motionSitesPremiumPromptCards": 102,
+    "motionSitesPromptReferenceRoot": "motion"
+  },
+  "selectionProtocol": [
+    "Inspect the target repository and identify product type, audience, page needs, interaction density, tone, accessibility constraints, and styling stack.",
+    "Run scripts/select-vault-style.ps1 with the project brief and optional -ProjectPath to generate a first-pass VAULT_SELECTION report before manually reviewing candidates.",
+    "Read guides/AGENT_BUILD_CHECKLIST.md before building, including visual QA, asset QA, and handoff gates.",
+    "Read guides/SITE_INTERACTION_PATTERNS.md when the target site needs rotating hero media, dropdowns, mega menus, category browsing, brand grids, or top-nav interaction.",
+    "Create a VAULT_SELECTION.md record from templates/VAULT_SELECTION.md before implementation.",
+    "Read catalog.json and shortlist 3 to 5 style bundles using category, bestFor, tags, theme, northStar, primaryColors, fonts, and available files.",
+    "Read screen-catalog.json and shortlist page-specific screen references for required page types.",
+    "Score style candidates using product fit, page coverage, density fit, tone fit, implementation fit, accessibility fit, and license risk.",
+    "Choose one primary style bundle, optional supporting style bundles only for clear gaps, and one screen reference per important page type.",
+    "Read the selected folders deeply before implementation.",
+    "Implement an original UI in the target repository using the selected tokens, rules, and page patterns.",
+    "Run generated-site, visual, asset, responsive, and available project checks before handoff.",
+    "For landing pages, motion graphics websites, cinematic hero sections, product tours, scroll stories, or animated UI, run scripts/select-motion-references.ps1 and read motion/LANDING_PAGE_MOTION_GUIDE.md before implementation.",
+    "When the build needs external premium motion direction, licensed animation assets, interactive 3D, or implementation examples, run scripts/select-premium-motion-sources.ps1 and record selected URLs and license notes before implementation.",
+    "When the build needs prompt scaffolding, section prompt direction, app prompt direction, or animated background strategy, run scripts/select-prompt-references.ps1 and record selected MotionSites source/access notes before implementation."
+  ],
+  "scoringWeights": {
+    "productDomainFit": 25,
+    "pageCoverage": 20,
+    "interactionDensityFit": 15,
+    "toneFit": 15,
+    "implementationFit": 10,
+    "accessibilityFit": 10,
+    "licenseRisk": 5
+  },
+  "productArchetypes": [
+    {
+      "name": "AI assistant or AI workspace",
+      "styleHints": [
+        "anthropic",
+        "claude",
+        "cursor",
+        "dimension",
+        "factory",
+        "elevenlabs"
+      ],
+      "screenPageTypes": [
+        "dashboard",
+        "login",
+        "developers-page",
+        "blog"
+      ],
+      "selectionTags": [
+        "ai",
+        "developer-tools",
+        "productivity",
+        "workspace",
+        "technical"
+      ]
+    },
+    {
+      "name": "Developer tool or API product",
+      "styleHints": [
+        "cursor",
+        "factory",
+        "grafbase",
+        "browserbase",
+        "caldera",
+        "changelog"
+      ],
+      "screenPageTypes": [
+        "developers-page",
+        "integration-page",
+        "dashboard",
+        "login"
+      ],
+      "selectionTags": [
+        "dev tools",
+        "api",
+        "docs",
+        "technical",
+        "terminal"
+      ]
+    },
+    {
+      "name": "SaaS dashboard or admin panel",
+      "styleHints": [
+        "basedash",
+        "attio",
+        "dub",
+        "altitude",
+        "assurestor",
+        "august-health-ehr"
+      ],
+      "screenPageTypes": [
+        "dashboard",
+        "profile-account",
+        "contacts",
+        "login"
+      ],
+      "selectionTags": [
+        "saas",
+        "dashboard",
+        "admin",
+        "internal tools",
+        "operations"
+      ]
+    },
+    {
+      "name": "Finance, fintech, crypto, or analytics",
+      "styleHints": [
+        "fey",
+        "glassnode",
+        "fold",
+        "acctual",
+        "altitude",
+        "auros"
+      ],
+      "screenPageTypes": [
+        "dashboard",
+        "product-details",
+        "profile-account",
+        "paywall-subscription"
+      ],
+      "selectionTags": [
+        "finance",
+        "fintech",
+        "crypto",
+        "analytics",
+        "market data"
+      ]
+    },
+    {
+      "name": "Ecommerce or product catalog",
+      "styleHints": [
+        "apple",
+        "acne-studios",
+        "becane",
+        "emmalewisham",
+        "arsenijs-fabrica"
+      ],
+      "screenPageTypes": [
+        "product-page-landing",
+        "product-details",
+        "catalog-page",
+        "404-page"
+      ],
+      "selectionTags": [
+        "e-commerce",
+        "retail",
+        "catalog",
+        "product",
+        "commerce"
+      ]
+    },
+    {
+      "name": "Marketplace or service platform",
+      "styleHints": [
+        "awesomic",
+        "cord",
+        "dribbble",
+        "cosmos",
+        "creative-giants"
+      ],
+      "screenPageTypes": [
+        "catalog-page",
+        "profile-account",
+        "product-details",
+        "contacts"
+      ],
+      "selectionTags": [
+        "marketplace",
+        "services",
+        "portfolio",
+        "search",
+        "profiles"
+      ]
+    },
+    {
+      "name": "Health, wellness, or care product",
+      "styleHints": [
+        "alden",
+        "ease-health",
+        "august-health-ehr",
+        "amaterasu"
+      ],
+      "screenPageTypes": [
+        "dashboard",
+        "profile-account",
+        "paywall-subscription",
+        "about"
+      ],
+      "selectionTags": [
+        "healthcare",
+        "wellness",
+        "patient",
+        "care",
+        "calm"
+      ]
+    },
+    {
+      "name": "Education or learning app",
+      "styleHints": [
+        "duolingo",
+        "goodnotes",
+        "evernote",
+        "foodnoms"
+      ],
+      "screenPageTypes": [
+        "dashboard",
+        "blog",
+        "profile-account",
+        "paywall-subscription"
+      ],
+      "selectionTags": [
+        "education",
+        "learning",
+        "productivity",
+        "progress",
+        "consumer"
+      ]
+    },
+    {
+      "name": "Creative studio or portfolio",
+      "styleHints": [
+        "active-theory",
+        "area-17",
+        "dash-digital-studio",
+        "branding",
+        "247studio"
+      ],
+      "screenPageTypes": [
+        "about",
+        "blog",
+        "media-kit",
+        "contacts"
+      ],
+      "selectionTags": [
+        "agency",
+        "portfolio",
+        "creative",
+        "editorial",
+        "case-study"
+      ]
+    },
+    {
+      "name": "Corporate or enterprise landing page",
+      "styleHints": [
+        "ai-for-business",
+        "amplemarket",
+        "frontify",
+        "dock",
+        "atlassian"
+      ],
+      "screenPageTypes": [
+        "product-page-landing",
+        "integration-page",
+        "careers",
+        "contacts"
+      ],
+      "selectionTags": [
+        "enterprise",
+        "b2b",
+        "saas",
+        "landing",
+        "integrations"
+      ]
+    }
+  ],
+  "interactionPatternAddOns": [
+    "Rotating Editorial Hero",
+    "Product Taxonomy Mega Menu",
+    "Brand Logo Mega Menu",
+    "Split Utility Mega Menu",
+    "Icon Category Drawer"
+  ],
+  "requiredReadFilesForSelectedStyle": [
+    "README.md",
+    "DESIGN.md",
+    "implementation-prompt.md",
+    "style.json",
+    "tokens/colors.md",
+    "tokens/typography.md",
+    "tokens/spacing-shape.md",
+    "tokens/components.md",
+    "tokens/guidelines.md",
+    "code/design-tokens.json",
+    "code/css-variables.css",
+    "code/tailwind-v4.css"
+  ],
+  "requiredReadFilesForSelectedScreen": [
+    "README.md",
+    "implementation-prompt.md",
+    "screen.json",
+    "tokens/page-elements.md",
+    "tokens/colors.md",
+    "code/design-tokens.json",
+    "code/css-variables.css"
+  ],
+  "outputContractBeforeImplementation": {
+    "primaryStyle": "Name and path of selected primary style bundle.",
+    "supportingReferences": "Screen or style paths used for page-specific behavior.",
+    "fitRationale": "Short explanation tied to product type, audience, density, tone, and stack.",
+    "adaptationPlan": "Tokens, components, layout patterns, and states to implement.",
+    "copyAssetPolicy": "State that protected logos, screenshots, exact product copy, and proprietary layouts will not be copied.",
+    "selectionRecord": "Create or update VAULT_SELECTION.md in the generated project or target repo before implementation. The automated selector may create VAULT_SELECTION.generated.md as the first draft.",
+    "motionSelection": "For landing pages or motion-heavy sites, list selected motion references, motion patterns, implementation resources, and reduced-motion plan."
+  },
+  "requiredBuildArtifacts": [
+    "VAULT_SELECTION.md, VAULT_SELECTION.generated.md, or equivalent filled selection record",
+    "Visual QA evidence or notes for desktop and mobile",
+    "Asset audit result",
+    "Available lint, typecheck, test, and build results",
+    "Localhost URL when the user asks to see the build locally",
+    "MOTION_SELECTION.md, MOTION_SELECTION.generated.md, or motion notes when the build uses landing-page motion or motion graphics",
+    "Premium motion source selection notes when external animation inspiration, templates, stock motion, Lottie, Rive, Spline, or 3D assets are used",
+    "Prompt reference selection notes when MotionSites prompt references are used, including source URL, access label, adaptation plan, and license/access note."
+  ],
+  "requiredGeneratedSiteChecks": [
+    "No hotlinked target-site images or copied protected media",
+    "No placeholder, lorem ipsum, TODO-heavy UI, or console debugging",
+    "Headers and sticky elements do not cover headings, forms, cards, or anchor targets",
+    "Forms, fieldsets, labels, legends, focus states, and text wrapping are visually checked",
+    "Desktop and mobile layouts have no obvious overlap",
+    "Reduced-motion behavior checked for autoplay, scroll scenes, video, canvas, and looping animation",
+    "Motion performance checked for mobile, layout shift, and unreadable animated text"
+  ],
+  "safetyRules": [
+    "Use references as inspiration for original implementation unless a source explicitly grants reuse rights.",
+    "Do not vendor screenshots, videos, logos, or brand assets without permission.",
+    "Do not clone a protected brand or page pixel-for-pixel.",
+    "Preserve token logic, spacing rhythm, mood, component behavior, and page-type structure when useful.",
+    "Tailor information architecture, copy, navigation, feature hierarchy, responsiveness, and accessibility to the target product.",
+    "Do not copy reference-site animation sequences, videos, product footage, or proprietary brand motion.",
+    "Use owned, generated, user-provided, or clearly licensed motion assets only.",
+    "External premium motion sources must be treated as inspiration unless a concrete asset license or open-source license permits reuse.",
+    "Do not republish full MotionSites prompt text, premium prompt text, screenshots, videos, background assets, generated site output, or copied code unless separately licensed."
+  ]
 }

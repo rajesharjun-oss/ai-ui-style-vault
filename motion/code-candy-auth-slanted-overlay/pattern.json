@@ -1,0 +1,31 @@
+{
+    "id":  "code-candy-auth-slanted-overlay",
+    "name":  "Code Candy Auth Slanted Overlay",
+    "bestFor":  [
+                    "login/signup flows",
+                    "SaaS onboarding",
+                    "membership sites",
+                    "premium product accounts"
+                ],
+    "useWhen":  "A project needs a dark, premium auth surface where a slanted gradient overlay switches between sign-in and create-account forms only after the visitor clicks.",
+    "preferredStack":  [
+                           "CSS transitions",
+                           "vanilla JavaScript",
+                           "Motion for React when integrating into React"
+                       ],
+    "localPath":  "motion/code-candy-auth-slanted-overlay/index.html",
+    "verificationNotes":  "motion/code-candy-auth-slanted-overlay/verification-notes.md",
+    "implementationNotes":  [
+                                "Keep the overlay transition click-triggered and reversible.",
+                                "Use real form controls, labels, validation, and secure backend auth in production.",
+                                "Remove source-video headings and keep preview UI design-only.",
+                                "Use transform, opacity, filter, and clip-path; avoid layout-shifting autoplay loops."
+                            ],
+    "reducedMotion":  "Show the selected form instantly, remove blur/slide timing, and keep both forms reachable by keyboard.",
+    "avoid":  [
+                  "autoplaying between auth states",
+                  "fake-only auth",
+                  "unlabeled inputs",
+                  "placing code text inside the visual preview"
+              ]
+}

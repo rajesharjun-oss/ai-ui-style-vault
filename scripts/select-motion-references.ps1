@@ -118,6 +118,8 @@ $intentAliases = [ordered]@{
   "creative-studio" = @("creative", "studio", "agency", "portfolio", "experimental", "bold", "kinetic")
   "technical-motion" = @("developer", "api", "docs", "terminal", "code", "technical")
   "immersive-3d" = @("3d", "webgl", "three", "spatial", "game", "interactive", "canvas")
+  "ambient-symbolic" = @("moon", "eclipse", "night", "space", "astronomy", "astrology", "sleep", "meditation", "wellness", "background", "loading", "loader", "coming soon", "waitlist", "404")
+  "stateful-ui" = @("login", "signup", "sign up", "auth", "authentication", "hover menu", "navigation", "navbar", "nav bar", "menu", "microinteraction", "indicator", "carousel", "slider", "timed card", "timed cards", "card", "cards", "sidebar", "side bar", "pill", "delete", "destructive", "button")
 }
 
 $detectedIntents = New-Object System.Collections.Generic.List[string]
@@ -155,18 +157,32 @@ $styleRows = foreach ($ref in @($motionCatalog.styleReferences)) {
 }
 $selectedStyles = @($styleRows | Sort-Object -Property @{ Expression = "score"; Descending = $true }, @{ Expression = "previewVideoCount"; Descending = $true }, @{ Expression = "name"; Descending = $false } | Select-Object -First $TopStyles)
 
+$patternAliases = @{
+  "team-carousel-slider" = @("team carousel", "carousel slider", "profile carousel", "speaker carousel")
+  "modern-timed-destination-cards" = @("timed cards", "timed card", "timed hero cards", "destination cards", "travel cards")
+  "responsive-hover-sidebar" = @("responsive sidebar", "hover sidebar", "collapsible sidebar", "side bar", "sidebar")
+  "glass-theme-pill-nav" = @("glass pill", "pill navigation", "pill nav", "theme pill", "glass nav")
+  "animated-delete-button" = @("animated delete", "delete button", "destructive button", "trash button")
+}
 $patternRows = foreach ($pattern in @($motionCatalog.patterns)) {
   $search = Normalize-Text (Convert-ToSearchText @($pattern.name, $pattern.id, $pattern.bestFor, $pattern.useWhen, $pattern.preferredStack))
   $score = 0
   $matches = @($terms | Where-Object { $_.Length -gt 3 -and $search.Contains($_) } | Select-Object -Unique -First 8)
   if ($matches.Count -gt 0) { $score += [Math]::Min(50, $matches.Count * 8) }
+  if ($patternAliases.ContainsKey($pattern.id)) {
+    foreach ($alias in $patternAliases[$pattern.id]) {
+      if ($combinedNormalized.Contains((Normalize-Text $alias))) { $score += 50; break }
+    }
+  }
   foreach ($intent in $detectedIntents) {
     if (($intent -eq "cinematic-media" -and $pattern.id -eq "cinematic-media-hero") -or
         ($intent -eq "product-story" -and $pattern.id -in @("scroll-product-story", "product-ui-tour", "animated-data-proof")) -or
         ($intent -eq "creative-studio" -and $pattern.id -in @("kinetic-hero-type", "scroll-product-story")) -or
         ($intent -eq "technical-motion" -and $pattern.id -in @("animated-data-proof", "product-ui-tour", "microinteraction-system")) -or
         ($intent -eq "immersive-3d" -and $pattern.id -eq "threejs-product-stage") -or
-        ($intent -eq "quiet-premium" -and $pattern.id -in @("microinteraction-system", "cinematic-media-hero"))) { $score += 30 }
+        ($intent -eq "quiet-premium" -and $pattern.id -in @("microinteraction-system", "cinematic-media-hero", "ambient-eclipse-moon")) -or
+        ($intent -eq "ambient-symbolic" -and $pattern.id -eq "ambient-eclipse-moon") -or
+        ($intent -eq "stateful-ui" -and $pattern.id -in @("microinteraction-system", "motion-safe-mega-menu", "code-candy-auth-slanted-overlay", "code-candy-hover-pill-menu", "code-candy-floating-indicator-nav", "code-candy-auth-overlay-slide", "code-candy-hover-expanding-login", "team-carousel-slider", "modern-timed-destination-cards", "responsive-hover-sidebar", "glass-theme-pill-nav", "animated-delete-button"))) { $score += 30 }
   }
   [pscustomobject][ordered]@{ score = [Math]::Min(100, $score); id = [string]$pattern.id; name = [string]$pattern.name; useWhen = [string]$pattern.useWhen; preferredStack = @($pattern.preferredStack); pattern = $pattern }
 }
@@ -201,6 +217,12 @@ Add-UniqueString $readFiles "motion/MOTION_REFERENCES.md"
 Add-UniqueString $readFiles "motion/motion-catalog.json"
 foreach ($row in $selectedStyles) {
   foreach ($file in @($row.ref.requiredReadFiles)) { Add-UniqueString $readFiles ([string]$file) }
+}
+foreach ($row in $selectedPatterns) {
+  $pattern = $row.pattern
+  foreach ($file in @((Get-ObjectValue $pattern "localPath"), (Get-ObjectValue $pattern "verificationNotes"))) {
+    if (-not [string]::IsNullOrWhiteSpace([string]$file)) { Add-UniqueString $readFiles ([string]$file) }
+  }
 }
 
 $md = New-Object System.Text.StringBuilder

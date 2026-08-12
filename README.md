@@ -4,19 +4,21 @@ A curated, repo-friendly library of UI style references for AI-assisted implemen
 
 This vault stores public source links, source-derived design notes, tokens, component guidance, screen-reference metadata, motion guidance, and ready-to-paste implementation prompts. It is meant to help Codex or another AI builder create original interfaces with a clear visual direction, without copying protected brand assets, proprietary layouts, screenshots, videos, or logos.
 
-Current contents: 520 Refero Styles bundles, 118 Refero screen references, and 512 motion references.
+Current contents: 520 Refero Styles bundles, 118 Refero screen references, 512 motion references, 30 premium motion source entries, and 300 MotionSites prompt/background references.
 
 ## Quick Use
 
 1. If an AI agent is choosing a design for a target repo, start with [AGENTS.md](AGENTS.md), [agent-index.json](agent-index.json), [guides/AGENT_USAGE.md](guides/AGENT_USAGE.md), and [guides/AGENT_BUILD_CHECKLIST.md](guides/AGENT_BUILD_CHECKLIST.md).
 2. For an automated visual first pass, run `scripts/select-vault-style.ps1` with a brief and optional `-ProjectPath`; it writes a `VAULT_SELECTION.generated.md` report.
 3. For landing pages, cinematic sites, product tours, scroll stories, or motion graphics websites, run `scripts/select-motion-references.ps1`; it writes a `MOTION_SELECTION.generated.md` report.
-4. Open [CAPTURED_STYLES.md](CAPTURED_STYLES.md), [SCREEN_REFERENCES.md](SCREEN_REFERENCES.md), [motion/MOTION_REFERENCES.md](motion/MOTION_REFERENCES.md), [catalog.json](catalog.json), [screen-catalog.json](screen-catalog.json), or [motion/motion-catalog.json](motion/motion-catalog.json).
-5. For a full visual system, choose a folder under `styles/refero-styles/<style-slug>/` and give the AI builder `implementation-prompt.md` plus the `tokens/` and `code/` folders.
-6. For a specific page type, choose a folder under `screens/refero/<channel>/<page-type>/<screen-slug>/` and give the AI builder `implementation-prompt.md`, `screen.json`, and the linked screenshot references.
-7. For professional motion, pair the selected visual style with [motion/LANDING_PAGE_MOTION_GUIDE.md](motion/LANDING_PAGE_MOTION_GUIDE.md), selected motion patterns, and official implementation resources listed in the motion catalog.
-8. Copy [templates/VAULT_SELECTION.md](templates/VAULT_SELECTION.md) into the generated project and fill it before implementation.
-9. Use every bundle as inspiration for an original UI. Do not copy logos, brand assets, screenshots, videos, product copy, animation sequences, or proprietary layouts.
+4. When more external premium inspiration, licensed motion assets, 3D scenes, Lottie/Rive files, or implementation examples are needed, run `scripts/select-premium-motion-sources.ps1`; it writes a `PREMIUM_MOTION_SOURCE_SELECTION.generated.md` report.
+5. When the agent needs AI-builder prompt direction, landing-page prompt scaffolds, section prompts, app prompts, or animated background strategy, run `scripts/select-prompt-references.ps1`; it writes a `PROMPT_REFERENCE_SELECTION.generated.md` report.
+6. Open [CAPTURED_STYLES.md](CAPTURED_STYLES.md), [SCREEN_REFERENCES.md](SCREEN_REFERENCES.md), [motion/MOTION_REFERENCES.md](motion/MOTION_REFERENCES.md), [motion/PREMIUM_MOTION_SOURCES.md](motion/PREMIUM_MOTION_SOURCES.md), [motion/MOTIONSITES_PROMPT_REFERENCES.md](motion/MOTIONSITES_PROMPT_REFERENCES.md), [catalog.json](catalog.json), [screen-catalog.json](screen-catalog.json), [motion/motion-catalog.json](motion/motion-catalog.json), [motion/premium-motion-sources.json](motion/premium-motion-sources.json), or [motion/motionsites-prompt-catalog.json](motion/motionsites-prompt-catalog.json).
+7. For a full visual system, choose a folder under `styles/refero-styles/<style-slug>/` and give the AI builder `implementation-prompt.md` plus the `tokens/` and `code/` folders.
+8. For a specific page type, choose a folder under `screens/refero/<channel>/<page-type>/<screen-slug>/` and give the AI builder `implementation-prompt.md`, `screen.json`, and the linked screenshot references.
+9. For professional motion, pair the selected visual style with [motion/LANDING_PAGE_MOTION_GUIDE.md](motion/LANDING_PAGE_MOTION_GUIDE.md), selected motion patterns, MotionSites prompt references, and official implementation resources listed in the motion catalog.
+10. Copy [templates/VAULT_SELECTION.md](templates/VAULT_SELECTION.md) into the generated project and fill it before implementation.
+11. Use every bundle as inspiration for an original UI. Do not copy logos, brand assets, screenshots, videos, product copy, prompt bodies, animation sequences, or proprietary layouts.
 
 ## Agent-Ready Selection
 
@@ -33,6 +35,12 @@ This repo is organized so an AI builder can inspect a target GitHub repository, 
 - [motion/LANDING_PAGE_MOTION_GUIDE.md](motion/LANDING_PAGE_MOTION_GUIDE.md): professional motion strategy, patterns, library choices, performance rules, accessibility, and QA guidance.
 - [motion/motion-catalog.json](motion/motion-catalog.json): machine-readable motion references, patterns, official implementation resources, and media policy.
 - [motion/MOTION_REFERENCES.md](motion/MOTION_REFERENCES.md): human-readable motion-heavy style shortlist.
+- [motion/PREMIUM_MOTION_SOURCES.md](motion/PREMIUM_MOTION_SOURCES.md): curated external sources for premium inspiration, licensed motion assets, 3D tools, Lottie/Rive, templates, and implementation examples.
+- [motion/premium-motion-sources.json](motion/premium-motion-sources.json): machine-readable premium motion source catalog.
+- [scripts/select-premium-motion-sources.ps1](scripts/select-premium-motion-sources.ps1): automated selector for external premium motion sources.
+- [motion/MOTIONSITES_PROMPT_REFERENCES.md](motion/MOTIONSITES_PROMPT_REFERENCES.md): MotionSites prompt-card and animated-background references with license-safe usage rules.
+- [motion/motionsites-prompt-catalog.json](motion/motionsites-prompt-catalog.json): machine-readable MotionSites prompt/background reference catalog.
+- [scripts/select-prompt-references.ps1](scripts/select-prompt-references.ps1): automated selector for MotionSites prompt references.
 - [scripts/select-vault-style.ps1](scripts/select-vault-style.ps1): automated first-pass selector that writes a `VAULT_SELECTION.generated.md` report from a brief and optional project path.
 - [scripts/select-motion-references.ps1](scripts/select-motion-references.ps1): automated first-pass motion selector that writes a `MOTION_SELECTION.generated.md` report.
 
@@ -41,13 +49,15 @@ Recommended agent behavior:
 1. Inspect the target repo and identify product type, audience, page needs, density, tone, stack, and motion needs.
 2. Run `scripts/select-vault-style.ps1` for a first-pass visual shortlist, then review it manually.
 3. When the build is a landing page, motion-heavy site, cinematic hero, product tour, scroll story, or animated UI, run `scripts/select-motion-references.ps1` and read `motion/LANDING_PAGE_MOTION_GUIDE.md`.
-4. Shortlist styles from `catalog.json`.
-5. Shortlist page references from `screen-catalog.json`.
-6. Choose one primary style bundle, page-specific screen references, and motion patterns only where they help the product communicate.
-7. Create a `VAULT_SELECTION.md` record from the template or review the generated selector report.
-8. Read the selected folders deeply.
-9. Implement an original UI using the target repo's conventions.
-10. Run the visual, asset, motion, accessibility, and project checks before handoff.
+4. When the build needs more external inspiration, licensed assets, 3D scenes, Lottie/Rive files, motion templates, or implementation examples, run `scripts/select-premium-motion-sources.ps1` and record source/license notes.
+5. When the build needs AI-builder prompt scaffolding, section prompts, app prompts, or animated background direction, run `scripts/select-prompt-references.ps1` and record source/access notes.
+6. Shortlist styles from `catalog.json`.
+6. Shortlist page references from `screen-catalog.json`.
+7. Choose one primary style bundle, page-specific screen references, and motion patterns only where they help the product communicate.
+8. Create a `VAULT_SELECTION.md` record from the template or review the generated selector report.
+9. Read the selected folders deeply.
+10. Implement an original UI using the target repo's conventions.
+11. Run the visual, asset, motion, accessibility, and project checks before handoff.
 
 ## Style Bundle Contents
 
@@ -80,10 +90,14 @@ The motion layer helps agents build professional landing pages and motion graphi
 
 - `motion/README.md`: how to use the motion layer.
 - `motion/LANDING_PAGE_MOTION_GUIDE.md`: motion models, patterns, library choice, timing tokens, reduced-motion contract, and QA rules.
-- `motion/motion-catalog.json`: 512 motion-relevant style references, 34 high-signal motion systems, 346 references with preview video links, 10 motion patterns, and official implementation-resource links.
+- `motion/motion-catalog.json`: 512 motion-relevant style references, 34 high-signal motion systems, 346 references with preview video links, 21 motion patterns, and official implementation-resource links.
 - `motion/MOTION_REFERENCES.md`: scan-friendly shortlist for motion-heavy styles and patterns.
+- `motion/PREMIUM_MOTION_SOURCES.md`: 30 external premium motion sources grouped by inspiration, implementation, 3D/interactive tools, and licensed asset/template sources.
+- `motion/premium-motion-sources.json`: machine-readable catalog for external premium motion source selection.
+- `motion/MOTIONSITES_PROMPT_REFERENCES.md`: 300 MotionSites prompt-card and animated-background references for prompt direction.
+- `motion/motionsites-prompt-catalog.json`: machine-readable MotionSites prompt/background reference catalog.
 
-Use motion references as choreography guidance only. Build original animation from the target product, user-provided assets, generated assets, owned assets, or clearly licensed media.
+Use motion references as choreography guidance only. Build original animation from the target product, user-provided assets, generated assets, owned assets, or clearly licensed media. Use MotionSites prompt references as source-linked direction only; do not republish full prompt bodies, premium prompt text, screenshots, videos, assets, generated outputs, or copied code.
 
 ## Repository Structure
 
@@ -119,6 +133,7 @@ ai-ui-style-vault/
     validate-generated-site.ps1
     validate-agent-guides.ps1
     validate-motion-catalog.ps1
+    validate-prompt-references.ps1
     validate-screen-references.ps1
     validate-vault.ps1
   styles/
@@ -182,6 +197,18 @@ Generate a first-pass motion selection report for a target repo or brief:
 powershell -ExecutionPolicy Bypass -File .\scripts\select-motion-references.ps1 -Brief "Cinematic SaaS landing page with scroll product story and animated product tour" -ProjectPath <target-repo> -OutputPath <target-repo>\MOTION_SELECTION.generated.md
 ```
 
+Generate a first-pass premium motion source report for external inspiration or licensed assets:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\select-premium-motion-sources.ps1 -Brief "Cinematic 3D SaaS landing page with licensed hero motion assets" -ProjectPath <target-repo> -OutputPath <target-repo>\PREMIUM_MOTION_SOURCE_SELECTION.generated.md
+```
+
+Generate a first-pass MotionSites prompt reference report:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\select-prompt-references.ps1 -Brief "Premium AI SaaS landing page with animated hero, pricing, dashboard preview, and abstract background" -IncludeBackgrounds -OutputPath <target-repo>\PROMPT_REFERENCE_SELECTION.generated.md
+```
+
 Generate screen references from downloaded public Refero search JSON files:
 
 ```powershell
@@ -194,6 +221,7 @@ Validate before committing:
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-vault.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-screen-references.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-motion-catalog.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\validate-prompt-references.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\validate-agent-guides.ps1
 ```
 

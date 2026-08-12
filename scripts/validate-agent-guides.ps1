@@ -21,6 +21,14 @@ $requiredFiles = @(
   "scripts/generate-motion-catalog.ps1",
   "scripts/select-motion-references.ps1",
   "scripts/validate-motion-catalog.ps1",
+  "motion/PREMIUM_MOTION_SOURCES.md",
+  "motion/premium-motion-sources.json",
+  "scripts/select-premium-motion-sources.ps1",
+  "scripts/validate-premium-motion-sources.ps1",
+  "motion/MOTIONSITES_PROMPT_REFERENCES.md",
+  "motion/motionsites-prompt-catalog.json",
+  "scripts/select-prompt-references.ps1",
+  "scripts/validate-prompt-references.ps1",
   "sources.json"
 )
 
@@ -42,6 +50,8 @@ $agentIndex = Get-Content -LiteralPath (Join-Path $root "agent-index.json") -Raw
 $catalog = Get-Content -LiteralPath (Join-Path $root "catalog.json") -Raw | ConvertFrom-Json
 $screenCatalog = Get-Content -LiteralPath (Join-Path $root "screen-catalog.json") -Raw | ConvertFrom-Json
 $motionCatalog = Get-Content -LiteralPath (Join-Path $root "motion/motion-catalog.json") -Raw | ConvertFrom-Json
+$premiumMotionSources = Get-Content -LiteralPath (Join-Path $root "motion/premium-motion-sources.json") -Raw | ConvertFrom-Json
+$motionSitesPromptReferences = Get-Content -LiteralPath (Join-Path $root "motion/motionsites-prompt-catalog.json") -Raw | ConvertFrom-Json
 $sources = Get-Content -LiteralPath (Join-Path $root "sources.json") -Raw | ConvertFrom-Json
 
 if ($agentIndex.inventory.styleBundles -ne $catalog.totalStyles) {
@@ -59,6 +69,18 @@ if ($agentIndex.inventory.screenReferences -ne $screenCatalog.totalScreenReferen
 if ($agentIndex.inventory.motionStyleReferences -ne $motionCatalog.totals.styleReferences) {
   Write-Host "VALIDATION=FAIL"
   Write-Host "MOTION_COUNT_MISMATCH agent-index.json=$($agentIndex.inventory.motionStyleReferences) motion-catalog.json=$($motionCatalog.totals.styleReferences)"
+  exit 1
+}
+
+if ($agentIndex.inventory.premiumMotionSources -ne $premiumMotionSources.totals.sources) {
+  Write-Host "VALIDATION=FAIL"
+  Write-Host "PREMIUM_MOTION_SOURCE_COUNT_MISMATCH agent-index.json=$($agentIndex.inventory.premiumMotionSources) premium-motion-sources.json=$($premiumMotionSources.totals.sources)"
+  exit 1
+}
+
+if ($agentIndex.inventory.motionSitesPromptReferences -ne $motionSitesPromptReferences.totals.references) {
+  Write-Host "VALIDATION=FAIL"
+  Write-Host "MOTIONSITES_PROMPT_REFERENCE_COUNT_MISMATCH agent-index.json=$($agentIndex.inventory.motionSitesPromptReferences) motionsites-prompt-catalog.json=$($motionSitesPromptReferences.totals.references)"
   exit 1
 }
 
@@ -83,7 +105,15 @@ $requiredEntryPoints = @(
   "motionReferences",
   "motionSelector",
   "motionCatalogGenerator",
-  "motionCatalogValidator"
+  "motionCatalogValidator",
+  "premiumMotionSourceGuide",
+  "premiumMotionSourceCatalog",
+  "premiumMotionSourceSelector",
+  "premiumMotionSourceValidator",
+  "motionSitesPromptReferences",
+  "motionSitesPromptCatalog",
+  "promptReferenceSelector",
+  "promptReferenceValidator"
 )
 
 foreach ($entryPoint in $requiredEntryPoints) {
@@ -97,5 +127,7 @@ foreach ($entryPoint in $requiredEntryPoints) {
 Write-Host "TOTAL_STYLES=$($catalog.totalStyles)"
 Write-Host "TOTAL_SCREEN_REFERENCES=$($screenCatalog.totalScreenReferences)"
 Write-Host "TOTAL_MOTION_REFERENCES=$($motionCatalog.totals.styleReferences)"
+Write-Host "TOTAL_PREMIUM_MOTION_SOURCES=$($premiumMotionSources.totals.sources)"
+Write-Host "TOTAL_MOTIONSITES_PROMPT_REFERENCES=$($motionSitesPromptReferences.totals.references)"
 Write-Host "AGENT_GUIDES=PASS"
 Write-Host "VALIDATION=PASS"

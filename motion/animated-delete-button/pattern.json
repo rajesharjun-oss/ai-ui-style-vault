@@ -1,0 +1,36 @@
+{
+    "id":  "animated-delete-button",
+    "name":  "Animated Delete Button",
+    "bestFor":  [
+                    "destructive actions",
+                    "file managers",
+                    "cart item removal",
+                    "admin tools",
+                    "confirmation microinteractions"
+                ],
+    "useWhen":  "A project needs a compact destructive-action button where the trash icon animates on click and resolves into a clear completed state.",
+    "preferredStack":  [
+                           "CSS keyframes",
+                           "semantic button",
+                           "vanilla JavaScript",
+                           "SVG icon animation"
+                       ],
+    "localPath":  "motion/animated-delete-button/index.html",
+    "verificationNotes":  "motion/animated-delete-button/verification-notes.md",
+    "source":  "User-provided WhatsApp screenshot of an animated delete button clip with partial visible HTML/SVG structure.",
+    "implementationNotes":  [
+                                "Use only after confirmation when the action is truly destructive or irreversible.",
+                                "Animate on click, not on page load.",
+                                "Disable duplicate clicks while the action is pending.",
+                                "Use server-confirmed success before showing permanent deleted state in production.",
+                                "Keep animation short and provide reduced-motion behavior."
+                            ],
+    "reducedMotion":  "Skip the trash/paper animation and update the label/state immediately after the action resolves.",
+    "avoid":  [
+                  "triggering destructive work without confirmation when needed",
+                  "fake success before backend confirmation",
+                  "long blocking animation",
+                  "icon-only destructive buttons without labels",
+                  "autoplaying the delete animation"
+              ]
+}

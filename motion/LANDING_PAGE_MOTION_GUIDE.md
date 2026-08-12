@@ -106,6 +106,65 @@ Build notes:
 - Keep form validation and error states fast and calm.
 - Do not delay task completion with flourish.
 
+### 9. Stateful UI Interactions
+
+Use for auth cards, dropdowns, expanding menus, tabs, nav indicators, accordions, and other components where motion represents an explicit user state change.
+
+Build notes:
+
+- Do not autoplay login/signup, nav, menu, tab, or form-state transitions.
+- Trigger movement only from click, hover, focus, valid scroll position, or a real product event.
+- Make every moving state reversible where the user expects it, especially sign-in/create-account panels.
+- Click-away, focus-away, or `Esc` should collapse sticky auth expansions after a mode switch.
+- Remove source-video labels, tutorial headings, watermarks, and showcase copy before using the component in production.
+- Prefer the specific Code Candy folder when the brief asks for premium auth transitions, expanding hover menus, or animated nav indicators: `motion/code-candy-auth-slanted-overlay/`, `motion/code-candy-hover-pill-menu/`, `motion/code-candy-floating-indicator-nav/`, or `motion/code-candy-auth-overlay-slide/`.
+- Use motion/code-candy-hover-expanding-login/ when the brief asks for a dramatic neon auth surface that reacts to hover/focus and supports explicit login/signup switching.
+- In reduced motion, change state instantly and keep focus order stable.
+### 10. Ambient Eclipse Background
+
+Use for a dark, cinematic, night-themed, wellness, sleep, astrology, astronomy, music, photography, luxury, or coming-soon page where a black moon disk and glowing rim can set the atmosphere.
+
+Best options:
+
+- Hero background: best default. Keep the moon full-screen or centered with minimal copy above or beside it.
+- Ambient page background: best when the product has a calm/night/premium theme. Dim the glow behind cards or forms.
+- Coming soon or waitlist: strong fit. Pair with one clear CTA and short launch copy.
+- Login backdrop: strong fit when the auth card remains readable and the moon stays decorative.
+- 404 or empty state: strong fit for lost-in-space, night, or quiet recovery pages.
+- Loading screen: conditional. Use only when the product theme fits, keep it short, and do not block progress with decoration.
+- Section divider: conditional. Use once as a cinematic pause between editorial sections.
+
+Build notes:
+
+- Prefer CSS: black circular disk, white pseudo-element/radial gradient behind it, soft layered `box-shadow`, and gentle opacity/transform keyframes.
+- Keep text and CTAs away from the bright rim.
+- Do not add GSAP, Three.js, or video unless the scene genuinely needs choreography beyond a simple eclipse loop.
+- Support `prefers-reduced-motion` by freezing the moon and removing continuous pulse/drift.
+
+### 11. SVG Path Particle Reveals
+
+Use `motion/svg-path-particle-reveal/` when a moon, eclipse, constellation, logo, route line, product mark, or icon should scatter from depth and assemble into a premium shape.
+
+Build notes:
+
+- Start from an owned, generated, open-source-permitted, or user-provided SVG path.
+- Sample with `getTotalLength()` and `getPointAtLength()`, then map the points into a normalized scene.
+- In production Three.js, render points with `BufferGeometry` and `THREE.Points`.
+- Tune point density by device; the captured `0.1` path step is cinematic but often too dense for mobile.
+- Use as a hero reveal, short loader, transition, or ambient brand moment. Do not block forms, checkout, or important task flows.
+- Provide a static final-path fallback for `prefers-reduced-motion` and WebGL failure.
+
+### 12. Screenshot-Derived UI Motion Entries
+
+Use these local entries when a site or app needs reusable interaction patterns from the screenshot library. Treat them as original reconstructions for product UI, not as video clones.
+
+- Use `motion/team-carousel-slider/` for dark editorial people/profile sections. Autoplay is acceptable only with previous, next, pause controls, keyboard access, and reduced-motion fallback.
+- Use `motion/modern-timed-destination-cards/` for travel, hospitality, campaign, or editorial heroes where cards promote into a featured stage. Include visible progress, manual card selection, and pause/play.
+- Use `motion/responsive-hover-sidebar/` for dashboards and app shells. Labels must reveal on hover, focus, explicit toggle, and mobile; every nav target must be clickable.
+- Use `motion/glass-theme-pill-nav/` for compact warm consumer navigation. The active pill moves only after user selection and must recalculate on resize/theme changes.
+- Use `motion/animated-delete-button/` for destructive microinteractions. Animate on click only, disable duplicate clicks while pending, and show permanent success only after backend confirmation.
+- Keep source-video headings, tutorial labels, watermarks, and visible code panels out of the preview UI. The code belongs in the files and metadata, not inside the design preview.
+- Use owned, generated, user-provided, open-source-permitted, or clearly licensed images, icons, and media in production.
 ## Library Choice
 
 | Need | Prefer |
@@ -199,3 +258,8 @@ CSS baseline:
 - Do not create scroll hijacking or inaccessible canvas-only pages.
 - Do not add heavy motion libraries without a clear product reason.
 - Do not allow animation to cause layout shift or text overlap.
+
+### 11. Code Candy screenshot-derived auth effect
+
+- Use `motion/code-candy-hover-expanding-login/` for hover/focus auth cards with neon conic-gradient borders and explicit login/signup state switching.
+- Treat this as a reconstructed reference from a partial screenshot. Rebuild them as original code in the target app and tune performance, contrast, and reduced motion before shipping.

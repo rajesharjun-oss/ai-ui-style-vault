@@ -1,0 +1,36 @@
+{
+    "id":  "team-carousel-slider",
+    "name":  "Team Carousel Slider",
+    "bestFor":  [
+                    "agency team sections",
+                    "founder profiles",
+                    "portfolio case studies",
+                    "conference speaker blocks",
+                    "premium about pages"
+                ],
+    "useWhen":  "A project needs a dark editorial team carousel where one featured profile is staged large and supporting profile cards sit to the side.",
+    "preferredStack":  [
+                           "CSS transitions",
+                           "vanilla JavaScript",
+                           "semantic buttons",
+                           "Motion for React optional"
+                       ],
+    "localPath":  "motion/team-carousel-slider/index.html",
+    "verificationNotes":  "motion/team-carousel-slider/verification-notes.md",
+    "source":  "User-provided WhatsApp screenshot of a team carousel slider clip with partial visible CSS and JavaScript.",
+    "implementationNotes":  [
+                                "Use for profile storytelling, not as the only way to access team information.",
+                                "Autoplay is acceptable only when paired with visible controls, pause behavior, and reduced-motion handling.",
+                                "Keep profile cards clickable and keyboard operable.",
+                                "Use owned, generated, or licensed portraits in production; this preview uses abstract CSS portrait fields.",
+                                "Keep source-video headings and code frames out of production previews."
+                            ],
+    "reducedMotion":  "Disable autoplay and switch profiles instantly or with a very short fade while preserving manual controls.",
+    "avoid":  [
+                  "unpausable autoplay",
+                  "tiny unreadable profile cards",
+                  "keyboard-inaccessible carousel controls",
+                  "copying real portraits from screenshots",
+                  "using this for critical navigation"
+              ]
+}

@@ -1,110 +1,156 @@
 {
-    "sources":  [
-                    {
-                        "name":  "Refero Styles",
-                        "slug":  "refero-styles",
-                        "url":  "https://styles.refero.design/",
-                        "captureMode":  "manual-review",
-                        "defaultLicenseStatus":  "inspiration-only-unless-explicitly-licensed",
-                        "recommendedArtifacts":  [
-                                                     "DESIGN.md",
-                                                     "Tailwind v4 tokens when available",
-                                                     "CSS variables when available",
-                                                     "Design tokens when available",
-                                                     "source link",
-                                                     "AI implementation prompt",
-                                                     "manual notes"
-                                                 ]
-                    },
-                    {
-                        "name":  "Refero iOS Apps",
-                        "slug":  "refero-ios-apps",
-                        "url":  "https://refero.design/apps/search",
-                        "captureMode":  "bounded-public-api-reference",
-                        "defaultLicenseStatus":  "inspiration-only-unless-explicitly-licensed",
-                        "recommendedArtifacts":  [
-                                                     "screen metadata",
-                                                     "page type",
-                                                     "app store link",
-                                                     "Refero view link",
-                                                     "remote media reference links",
-                                                     "colors",
-                                                     "page elements",
-                                                     "design patterns",
-                                                     "AI implementation prompt"
-                                                 ]
-                    },
-                    {
-                        "name":  "Refero Web Screens",
-                        "slug":  "refero-web-screens",
-                        "url":  "https://refero.design/search",
-                        "captureMode":  "bounded-public-api-reference",
-                        "defaultLicenseStatus":  "inspiration-only-unless-explicitly-licensed",
-                        "recommendedArtifacts":  [
-                                                     "screen metadata",
-                                                     "page type",
-                                                     "source page link",
-                                                     "Refero view link",
-                                                     "remote media reference links",
-                                                     "colors",
-                                                     "fonts",
-                                                     "page elements",
-                                                     "design patterns",
-                                                     "AI implementation prompt"
-                                                 ]
-                    },
-                    {
-                        "name":  "shadcn/ui",
-                        "slug":  "shadcn-ui",
-                        "url":  "https://ui.shadcn.com/",
-                        "captureMode":  "open-source-reference",
-                        "defaultLicenseStatus":  "check-project-license",
-                        "recommendedArtifacts":  [
-                                                     "component links",
-                                                     "block links",
-                                                     "usage notes",
-                                                     "license notes"
-                                                 ]
-                    },
-                    {
-                        "name":  "Figma Community",
-                        "slug":  "figma-community",
-                        "url":  "https://www.figma.com/community",
-                        "captureMode":  "license-review-required",
-                        "defaultLicenseStatus":  "varies-by-file",
-                        "recommendedArtifacts":  [
-                                                     "file link",
-                                                     "creator",
-                                                     "license notes",
-                                                     "tags",
-                                                     "AI usage notes"
-                                                 ]
-                    },
-                    {
-                        "name":  "Motion Implementation Resources",
-                        "slug":  "motion-implementation-resources",
-                        "url":  "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations",
-                        "captureMode":  "official-documentation-reference",
-                        "defaultLicenseStatus":  "documentation-links-only",
-                        "recommendedArtifacts":  [
-                                                     "CSS animation documentation link",
-                                                     "Motion for React documentation link",
-                                                     "GSAP documentation link",
-                                                     "LottieFiles runtime documentation link",
-                                                     "Rive runtime documentation link",
-                                                     "Three.js documentation link",
-                                                     "Anime.js documentation link",
-                                                     "reduced-motion guidance notes"
-                                                 ],
-                        "implementationResourceLinks":  [
-                                                            "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations",
-                                                            "https://motion.dev/docs/react-quick-start",
-                                                            "https://gsap.com/docs/v3/",
-                                                            "https://docs.lottiefiles.com/en/runtimes/distributions/react",
-                                                            "https://rive.app/docs/runtimes/web/web-js",
-                                                            "https://threejs.org/docs/",
-                                                            "https://animejs.com/documentation/"
-                                                        ]
-                    }
-                ]
+  "sources": [
+    {
+      "name": "Refero Styles",
+      "slug": "refero-styles",
+      "url": "https://styles.refero.design/",
+      "captureMode": "manual-review",
+      "defaultLicenseStatus": "inspiration-only-unless-explicitly-licensed",
+      "recommendedArtifacts": [
+        "DESIGN.md",
+        "Tailwind v4 tokens when available",
+        "CSS variables when available",
+        "Design tokens when available",
+        "source link",
+        "AI implementation prompt",
+        "manual notes"
+      ]
+    },
+    {
+      "name": "Refero iOS Apps",
+      "slug": "refero-ios-apps",
+      "url": "https://refero.design/apps/search",
+      "captureMode": "bounded-public-api-reference",
+      "defaultLicenseStatus": "inspiration-only-unless-explicitly-licensed",
+      "recommendedArtifacts": [
+        "screen metadata",
+        "page type",
+        "app store link",
+        "Refero view link",
+        "remote media reference links",
+        "colors",
+        "page elements",
+        "design patterns",
+        "AI implementation prompt"
+      ]
+    },
+    {
+      "name": "Refero Web Screens",
+      "slug": "refero-web-screens",
+      "url": "https://refero.design/search",
+      "captureMode": "bounded-public-api-reference",
+      "defaultLicenseStatus": "inspiration-only-unless-explicitly-licensed",
+      "recommendedArtifacts": [
+        "screen metadata",
+        "page type",
+        "source page link",
+        "Refero view link",
+        "remote media reference links",
+        "colors",
+        "fonts",
+        "page elements",
+        "design patterns",
+        "AI implementation prompt"
+      ]
+    },
+    {
+      "name": "shadcn/ui",
+      "slug": "shadcn-ui",
+      "url": "https://ui.shadcn.com/",
+      "captureMode": "open-source-reference",
+      "defaultLicenseStatus": "check-project-license",
+      "recommendedArtifacts": [
+        "component links",
+        "block links",
+        "usage notes",
+        "license notes"
+      ]
+    },
+    {
+      "name": "Figma Community",
+      "slug": "figma-community",
+      "url": "https://www.figma.com/community",
+      "captureMode": "license-review-required",
+      "defaultLicenseStatus": "varies-by-file",
+      "recommendedArtifacts": [
+        "file link",
+        "creator",
+        "license notes",
+        "tags",
+        "AI usage notes"
+      ]
+    },
+    {
+      "name": "Motion Implementation Resources",
+      "slug": "motion-implementation-resources",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations",
+      "captureMode": "official-documentation-reference",
+      "defaultLicenseStatus": "documentation-links-only",
+      "recommendedArtifacts": [
+        "CSS animation documentation link",
+        "Motion for React documentation link",
+        "GSAP documentation link",
+        "LottieFiles runtime documentation link",
+        "Rive runtime documentation link",
+        "Three.js documentation link",
+        "Anime.js documentation link",
+        "reduced-motion guidance notes"
+      ],
+      "implementationResourceLinks": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations",
+        "https://motion.dev/docs/react-quick-start",
+        "https://gsap.com/docs/v3/",
+        "https://docs.lottiefiles.com/en/runtimes/distributions/react",
+        "https://rive.app/docs/runtimes/web/web-js",
+        "https://threejs.org/docs/",
+        "https://animejs.com/documentation/"
+      ]
+    },
+    {
+      "name": "Premium Motion Sources",
+      "slug": "premium-motion-sources",
+      "url": "motion/PREMIUM_MOTION_SOURCES.md",
+      "captureMode": "curated-external-source-catalog",
+      "defaultLicenseStatus": "varies-by-source-license-review-required",
+      "recommendedArtifacts": [
+        "source link",
+        "source type",
+        "best use case",
+        "license rule",
+        "AI usage note",
+        "selector output",
+        "reduced-motion plan"
+      ]
+    },
+    {
+      "name": "User-provided Motion Screenshots",
+      "slug": "user-provided-motion-screenshots",
+      "url": "local-user-supplied-screenshots",
+      "captureMode": "manual-reconstruction-reference",
+      "defaultLicenseStatus": "inspiration-only-no-media-or-code-reuse-unless-explicitly-licensed",
+      "recommendedArtifacts": [
+        "clean original preview implementation",
+        "pattern.json with useWhen and reducedMotion guidance",
+        "verification-notes.md describing visible source signals and limitations",
+        "no tutorial headings or visible code panels in preview UI",
+        "owned/generated/licensed replacement assets for production"
+      ]
+    },
+    {
+      "name": "MotionSites",
+      "slug": "motionsites",
+      "url": "https://motionsites.ai/",
+      "captureMode": "public-metadata-and-prompt-reference-catalog",
+      "defaultLicenseStatus": "metadata-and-source-links-only-full-prompts-assets-license-review-required",
+      "recommendedArtifacts": [
+        "prompt card metadata",
+        "section/app/site/background category",
+        "access label copy or premium",
+        "source URL",
+        "paraphrased prompt digest",
+        "license/usage note",
+        "AI selection tags"
+      ]
+    }
+  ]
 }

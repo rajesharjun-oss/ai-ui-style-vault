@@ -1,0 +1,32 @@
+{
+    "id":  "code-candy-hover-pill-menu",
+    "name":  "Code Candy Hover Pill Menu",
+    "bestFor":  [
+                    "compact nav",
+                    "tool rails",
+                    "dashboards",
+                    "editor toolbars",
+                    "SaaS product shells"
+                ],
+    "useWhen":  "A project needs a compact pill menu where labels reveal only on hover or keyboard focus without moving on its own.",
+    "preferredStack":  [
+                           "CSS transitions",
+                           "semantic buttons",
+                           "Motion for React optional"
+                       ],
+    "localPath":  "motion/code-candy-hover-pill-menu/index.html",
+    "verificationNotes":  "motion/code-candy-hover-pill-menu/verification-notes.md",
+    "implementationNotes":  [
+                                "Hover and focus are the only expansion triggers.",
+                                "Keep icon buttons keyboard focusable and labeled.",
+                                "Use fixed dimensions so expanded labels do not shift surrounding layout.",
+                                "Use this as a component pattern, not as a full page template."
+                            ],
+    "reducedMotion":  "Keep hover/focus state changes instant or very short, with labels still accessible to assistive tech.",
+    "avoid":  [
+                  "autoplay expansion",
+                  "hover-only access without focus support",
+                  "unlabeled icons",
+                  "expanding menus that cover primary content"
+              ]
+}
