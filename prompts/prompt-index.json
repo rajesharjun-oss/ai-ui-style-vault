@@ -1,0 +1,97 @@
+{
+  "name": "AI UI Style Vault Prompt Index",
+  "version": "1.0.0",
+  "canonicalInstructions": "AGENTS.md",
+  "humanRouter": "PROMPTS.md",
+  "platformAdapters": {
+    "codex": "AGENTS.md",
+    "claudeCode": "CLAUDE.md",
+    "geminiCli": "GEMINI.md"
+  },
+  "prompts": [
+    {
+      "id": "senior-product-team",
+      "path": "prompts/SENIOR_PRODUCT_TEAM_PROMPT.md",
+      "requiredFor": [
+        "all product interface builds"
+      ],
+      "triggers": [
+        "website",
+        "web app",
+        "dashboard",
+        "application",
+        "interface",
+        "ui"
+      ]
+    },
+    {
+      "id": "build-premium-business-website",
+      "path": "prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md",
+      "requiredFor": [
+        "new website for a real business"
+      ],
+      "triggers": [
+        "build a website for this business",
+        "maps link",
+        "business link",
+        "company website",
+        "restaurant website",
+        "professional services website",
+        "local business website"
+      ],
+      "followedBy": [
+        "visual-qa-and-revision"
+      ]
+    },
+    {
+      "id": "refine-existing-business-website",
+      "path": "prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md",
+      "requiredFor": [
+        "redesign or improvement of an existing business site"
+      ],
+      "triggers": [
+        "redesign",
+        "improve this website",
+        "make it premium",
+        "refine the site",
+        "fix the design",
+        "modernise",
+        "screenshots"
+      ],
+      "followedBy": [
+        "visual-qa-and-revision"
+      ]
+    },
+    {
+      "id": "visual-qa-and-revision",
+      "path": "prompts/VISUAL_QA_AND_REVISION.md",
+      "requiredFor": [
+        "all browser-rendered builds after the first render"
+      ],
+      "triggers": [
+        "localhost",
+        "preview",
+        "browser render",
+        "screenshot",
+        "visual qa",
+        "before handoff"
+      ]
+    }
+  ],
+  "requiredPlanningArtifactsForBusinessBuilds": [
+    "BUSINESS_RESEARCH.md",
+    "ASSET_PLAN.md",
+    "VAULT_SELECTION.md",
+    "BUILD_CONTRACT.md",
+    "CONTENT_PLAN.md",
+    "design-recipe.json"
+  ],
+  "handoffRequirements": [
+    "verified business facts and provisional assumptions",
+    "rendered desktop and mobile screenshots",
+    "asset provenance and licence notes",
+    "commands and checks run",
+    "truthful localhost or deployment instructions",
+    "remaining risks and owner-confirmation items"
+  ]
+}

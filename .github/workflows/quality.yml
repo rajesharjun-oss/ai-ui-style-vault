@@ -23,6 +23,7 @@ jobs:
       - name: Validate JSON documents
         run: |
           python -m json.tool agent-index.json >/dev/null
+          python -m json.tool prompts/prompt-index.json >/dev/null
           python -m json.tool quality/content-rules.json >/dev/null
           python -m json.tool quality/product-quality-gates.json >/dev/null
           python -m json.tool schemas/design-recipe.schema.json >/dev/null
