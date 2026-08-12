@@ -1,0 +1,157 @@
+{
+  "name": "AI UI Style Vault Product Quality Gates",
+  "version": "1.0.0",
+  "gates": [
+    {
+      "id": "product-frame",
+      "owner": "product-design",
+      "requiredEvidence": [
+        "primary user",
+        "top task",
+        "primary action",
+        "risk level",
+        "success outcome"
+      ],
+      "rejectWhen": [
+        "page purpose is undefined",
+        "features are listed without a user journey"
+      ]
+    },
+    {
+      "id": "information-architecture",
+      "owner": "product-design",
+      "requiredEvidence": [
+        "page inventory",
+        "one purpose per page",
+        "progressive disclosure decisions",
+        "state inventory"
+      ],
+      "rejectWhen": [
+        "homepage contains all detailed content",
+        "two sections serve the same purpose"
+      ]
+    },
+    {
+      "id": "content-design",
+      "owner": "content-design",
+      "requiredEvidence": [
+        "content density mode",
+        "copy budgets",
+        "message hierarchy",
+        "repetition review",
+        "generic phrase review"
+      ],
+      "rejectWhen": [
+        "first viewport is paragraph-heavy",
+        "generic claims replace specific outcomes",
+        "cards contain essays"
+      ]
+    },
+    {
+      "id": "visual-system",
+      "owner": "product-design",
+      "requiredEvidence": [
+        "one primary style",
+        "production theme archetype",
+        "token mapping",
+        "component attitude"
+      ],
+      "rejectWhen": [
+        "unrelated styles are mixed",
+        "brand expression is copied"
+      ]
+    },
+    {
+      "id": "component-state",
+      "owner": "front-end",
+      "requiredEvidence": [
+        "component inventory",
+        "loading",
+        "empty",
+        "error",
+        "success",
+        "disabled",
+        "permission states where relevant"
+      ],
+      "rejectWhen": [
+        "only populated happy path exists"
+      ]
+    },
+    {
+      "id": "responsive",
+      "owner": "front-end",
+      "requiredEvidence": [
+        "1440 review",
+        "1280 review",
+        "390 review",
+        "long-content stress test"
+      ],
+      "rejectWhen": [
+        "obvious overlap",
+        "mobile is only a stacked desktop layout",
+        "tables have no mobile strategy"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "owner": "front-end",
+      "requiredEvidence": [
+        "keyboard flow",
+        "focus-visible",
+        "labels",
+        "semantic structure",
+        "contrast",
+        "zoom"
+      ],
+      "rejectWhen": [
+        "control lacks accessible name",
+        "focus is trapped or invisible",
+        "content depends on color or motion alone"
+      ]
+    },
+    {
+      "id": "motion",
+      "owner": "product-and-front-end",
+      "requiredEvidence": [
+        "motion purpose",
+        "primary motion model",
+        "reduced-motion plan",
+        "mobile performance review"
+      ],
+      "rejectWhen": [
+        "motion delays tasks",
+        "no reduced-motion fallback",
+        "multiple libraries without reason"
+      ]
+    },
+    {
+      "id": "asset-originality",
+      "owner": "all",
+      "requiredEvidence": [
+        "asset audit",
+        "source/license notes",
+        "copy policy"
+      ],
+      "rejectWhen": [
+        "target-site media is hotlinked or copied",
+        "premium prompt or protected brand expression is republished"
+      ]
+    },
+    {
+      "id": "engineering",
+      "owner": "front-end",
+      "requiredEvidence": [
+        "lint",
+        "typecheck",
+        "tests",
+        "build",
+        "validator results"
+      ],
+      "rejectWhen": [
+        "placeholder or debug content remains",
+        "build fails",
+        "critical validator errors remain"
+      ]
+    }
+  ]
+}
