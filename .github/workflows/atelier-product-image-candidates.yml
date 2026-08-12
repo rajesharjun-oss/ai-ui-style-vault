@@ -17,7 +17,7 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check pillow requests
-      - name: Download Wikimedia product-specific candidates
+      - name: Generate product-specific photographs
         shell: bash
         run: |
           set -euo pipefail
@@ -27,6 +27,7 @@ jobs:
           import io
           import json
           import time
+          import urllib.parse
           from pathlib import Path
 
           import requests
@@ -35,18 +36,18 @@ jobs:
           from urllib3.util.retry import Retry
 
           products = [
-              ("arc-desk-lamp", "desk lamp"),
-              ("drift-ceramic-vase", "ceramic vase"),
-              ("halo-speaker", "wireless loudspeaker"),
-              ("axis-watch", "wrist watch"),
-              ("field-jacket", "field jacket clothing"),
-              ("form-carryall", "leather tote bag"),
-              ("fold-weekender", "duffel travel bag"),
-              ("meridian-headphones", "over ear headphones"),
-              ("orbit-tray", "leather valet tray"),
-              ("studio-overshirt", "overshirt clothing"),
-              ("fold-wallet", "leather wallet"),
-              ("axis-stool", "wooden stool furniture"),
+              ("arc-desk-lamp", "a sculptural modern adjustable desk lamp in matte graphite metal, single product"),
+              ("drift-ceramic-vase", "a hand-finished asymmetric ceramic vase in warm off-white stoneware, single product"),
+              ("halo-speaker", "a premium compact wireless speaker with tactile fabric and minimal physical controls, single product"),
+              ("axis-watch", "a restrained premium wristwatch with brushed steel case, clear dial and black leather strap, single product"),
+              ("field-jacket", "an olive cotton field jacket displayed neatly on a minimal hanger, no person, single garment"),
+              ("form-carryall", "a structured premium leather tote carryall bag in warm brown, single product"),
+              ("fold-weekender", "a soft-sided premium charcoal weekender duffel travel bag, single product"),
+              ("meridian-headphones", "premium over-ear wireless headphones in dark graphite, single product"),
+              ("orbit-tray", "a shallow vegetable-tanned leather valet catchall tray holding one key, single product"),
+              ("studio-overshirt", "a sand-coloured brushed cotton overshirt displayed neatly on a minimal hanger, no person, single garment"),
+              ("fold-wallet", "a compact premium full-grain brown leather bifold wallet, single product"),
+              ("axis-stool", "a compact modern wooden stool with a softened oak seat and black steel frame, single product"),
           ]
 
           root = Path("candidate-images")
@@ -55,135 +56,90 @@ jobs:
 
           session = requests.Session()
           retry = Retry(
-              total=7,
+              total=5,
               connect=4,
               read=4,
-              status=7,
-              backoff_factor=4,
-              status_forcelist=(429, 500, 502, 503, 504),
+              status=5,
+              backoff_factor=3,
+              status_forcelist=(408, 429, 500, 502, 503, 504),
               allowed_methods=frozenset(["GET"]),
               respect_retry_after_header=True,
           )
           session.mount("https://", HTTPAdapter(max_retries=retry))
           session.headers.update({
-              "User-Agent": "AtelierNorthCandidateFetcher/1.1 (noncommercial product-image QA; GitHub Actions)",
-              "Accept": "application/json,image/*;q=0.9,*/*;q=0.5",
+              "User-Agent": "Mozilla/5.0 (compatible; AtelierNorthProductAssetBuilder/1.0)",
+              "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
           })
 
-          def fetch_bytes(url: str) -> bytes:
-              response = session.get(url, timeout=60)
-              response.raise_for_status()
-              return response.content
+          style = (
+              "photorealistic premium ecommerce studio product photography, warm neutral limestone background, "
+              "soft directional daylight, subtle natural shadow, quiet luxury editorial styling, realistic materials, "
+              "object centred with generous negative space, vertical 4 by 5 composition, no text, no logo, no watermark, "
+              "no collage, no duplicate object, no hands"
+          )
 
-          def search(query: str) -> list[dict]:
+          for index, (slug, subject) in enumerate(products, start=1):
+              prompt = f"{subject}; {style}"
               params = {
-                  "action": "query",
-                  "format": "json",
-                  "formatversion": "2",
-                  "generator": "search",
-                  "gsrnamespace": "6",
-                  "gsrsearch": f"{query} filetype:bitmap",
-                  "gsrlimit": "16",
-                  "prop": "imageinfo",
-                  "iiprop": "url|mime|size|extmetadata",
-                  "iiurlwidth": "900",
-                  "maxlag": "5",
-                  "origin": "*",
+                  "width": "900",
+                  "height": "1125",
+                  "seed": str(4100 + index * 97),
+                  "model": "flux",
+                  "nologo": "true",
+                  "enhance": "true",
+                  "private": "true",
+                  "safe": "true",
               }
-              response = session.get("https://commons.wikimedia.org/w/api.php", params=params, timeout=60)
-              response.raise_for_status()
-              pages = response.json().get("query", {}).get("pages", [])
-              output = []
-              for page in pages:
-                  info = (page.get("imageinfo") or [{}])[0]
-                  mime = str(info.get("mime", ""))
-                  thumb = info.get("thumburl") or info.get("url")
-                  width = int(info.get("width") or 0)
-                  height = int(info.get("height") or 0)
-                  title = str(page.get("title", ""))
-                  if not thumb or not mime.startswith("image/") or width < 350 or height < 350:
-                      continue
-                  lower = title.lower()
-                  if any(token in lower for token in ("logo", "icon", "diagram", "map", "coat of arms", "flag", "drawing", "painting", "patent")):
-                      continue
-                  output.append({
-                      "title": title,
-                      "url": thumb,
-                      "source_url": info.get("descriptionurl") or info.get("url"),
-                      "width": width,
-                      "height": height,
-                      "mime": mime,
-                  })
-              return output
-
-          max_candidates = 6
-          for product_index, (slug, query) in enumerate(products):
-              folder = root / slug
-              folder.mkdir(parents=True, exist_ok=True)
+              url = "https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt, safe="") + "?" + urllib.parse.urlencode(params)
+              path = root / f"{slug}.jpg"
               try:
-                  candidates = search(query)
+                  response = session.get(url, timeout=240)
+                  response.raise_for_status()
+                  image = Image.open(io.BytesIO(response.content)).convert("RGB")
+                  image = ImageOps.fit(image, (900, 1125), method=Image.Resampling.LANCZOS)
+                  image.save(path, "JPEG", quality=91, optimize=True, progressive=True)
+                  manifest.append({
+                      "slug": slug,
+                      "subject": subject,
+                      "prompt": prompt,
+                      "seed": params["seed"],
+                      "source": "generated-concept",
+                      "generator": "Pollinations image endpoint",
+                      "path": str(path),
+                      "size": image.size,
+                  })
               except Exception as exc:
-                  manifest.append({"slug": slug, "query": query, "error": f"search failed: {exc}"})
-                  candidates = []
-              saved = 0
-              for item in candidates:
-                  if saved >= max_candidates:
-                      break
-                  try:
-                      image = Image.open(io.BytesIO(fetch_bytes(item["url"]))).convert("RGB")
-                      ratio = image.width / max(image.height, 1)
-                      if ratio > 2.4 or ratio < 0.35:
-                          continue
-                      saved += 1
-                      path = folder / f"{saved}.jpg"
-                      image.save(path, "JPEG", quality=90, optimize=True)
-                      manifest.append({
-                          "slug": slug,
-                          "query": query,
-                          "candidate": saved,
-                          "path": str(path),
-                          "download_url": item["url"],
-                          **item,
-                      })
-                  except Exception as exc:
-                      manifest.append({"slug": slug, "query": query, "title": item.get("title"), "error": str(exc)})
-              # Respect Wikimedia request guidance and shared-runner rate limits.
-              if product_index < len(products) - 1:
-                  time.sleep(6)
+                  manifest.append({"slug": slug, "subject": subject, "error": str(exc), "url": url})
+              time.sleep(3)
 
           (root / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
 
-          cell_w, cell_h = 220, 280
-          label_h = 52
-          cols = max_candidates
-          sheet_w = cell_w * cols
-          sheet_h = (cell_h + label_h) * len(products)
-          sheet = Image.new("RGB", (sheet_w, sheet_h), "#f3efe7")
+          cell_w, cell_h = 240, 300
+          label_h = 42
+          cols = 4
+          rows = 3
+          sheet = Image.new("RGB", (cell_w * cols, (cell_h + label_h) * rows), "#f3efe7")
           draw = ImageDraw.Draw(sheet)
           font = ImageFont.load_default()
 
-          for row, (slug, query) in enumerate(products):
+          for position, (slug, _) in enumerate(products):
+              row, col = divmod(position, cols)
+              x0 = col * cell_w
               y0 = row * (cell_h + label_h)
-              draw.rectangle((0, y0, sheet_w, y0 + label_h), fill="#1b1714")
-              draw.text((10, y0 + 8), slug, fill="white", font=font)
-              draw.text((10, y0 + 27), query, fill="#d7d0c4", font=font)
-              for col in range(cols):
-                  index = col + 1
-                  x0 = col * cell_w
-                  path = root / slug / f"{index}.jpg"
-                  if path.exists():
-                      image = Image.open(path).convert("RGB")
-                      image = ImageOps.fit(image, (cell_w, cell_h), method=Image.Resampling.LANCZOS)
-                      sheet.paste(image, (x0, y0 + label_h))
-                  else:
-                      draw.rectangle((x0, y0 + label_h, x0 + cell_w, y0 + label_h + cell_h), fill="#d7d0c4")
-                  draw.rectangle((x0 + 7, y0 + label_h + 7, x0 + 36, y0 + label_h + 30), fill="white")
-                  draw.text((x0 + 17, y0 + label_h + 13), str(index), fill="black", font=font)
+              path = root / f"{slug}.jpg"
+              if path.exists():
+                  image = Image.open(path).convert("RGB")
+                  image = ImageOps.fit(image, (cell_w, cell_h), method=Image.Resampling.LANCZOS)
+                  sheet.paste(image, (x0, y0))
+              else:
+                  draw.rectangle((x0, y0, x0 + cell_w, y0 + cell_h), fill="#d7d0c4")
+              draw.rectangle((x0, y0 + cell_h, x0 + cell_w, y0 + cell_h + label_h), fill="#1b1714")
+              draw.text((x0 + 8, y0 + cell_h + 14), slug, fill="white", font=font)
 
-          sheet.save(root / "contact-sheet.jpg", "JPEG", quality=88, optimize=True)
+          sheet.save(root / "contact-sheet.jpg", "JPEG", quality=90, optimize=True)
           PY
 
-      - name: Upload candidates
+      - name: Upload generated product assets
         uses: actions/upload-artifact@v4
         with:
           name: atelier-product-image-candidates
