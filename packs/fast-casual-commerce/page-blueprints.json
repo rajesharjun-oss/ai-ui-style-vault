@@ -1,0 +1,524 @@
+{
+  "name": "Fast-Casual Commerce Page Blueprints",
+  "version": "1.0.0",
+  "instructions": "Choose only the blueprints required by the verified business model. Remove unsupported fulfilment, payment, loyalty, tracking, or promotion features rather than inventing them.",
+  "blueprints": [
+    {
+      "id": "restaurant-ordering-home",
+      "purpose": "Establish branch and fulfilment context, surface high-priority products or deals, and move the customer into the menu quickly.",
+      "defaultContentDensity": "balanced",
+      "primaryAction": "Browse or start order",
+      "requiredBlocks": [
+        "brand and branch context",
+        "fulfilment selection",
+        "service status",
+        "primary order action",
+        "featured products or categories",
+        "cart status when active"
+      ],
+      "optionalBlocks": [
+        "verified deal",
+        "loyalty summary",
+        "store notice",
+        "compact trust or quality proof",
+        "app promotion"
+      ],
+      "primaryStates": [
+        "loading",
+        "branch-required",
+        "fulfilment-required",
+        "store-open",
+        "store-closed",
+        "delivery-unavailable",
+        "error",
+        "offline"
+      ],
+      "desktopComposition": "Compact commerce header followed by context selection and an immediate product or category entry point. Keep marketing secondary.",
+      "mobileTransformation": "Prioritise branch, fulfilment, menu entry, and cart. Use a bottom cart action only when it does not cover content or system controls.",
+      "antiPatterns": [
+        "full-screen marketing hero before menu access",
+        "branch or fulfilment hidden until checkout",
+        "unverified delivery-time promise",
+        "several promotional carousels before products"
+      ],
+      "acceptanceCriteria": [
+        "A first-time customer can identify the active branch or address context.",
+        "The primary menu or order action is available in the first viewport.",
+        "Store-closed and delivery-unavailable states have safe alternatives."
+      ]
+    },
+    {
+      "id": "menu-catalog",
+      "purpose": "Help customers browse available products by category, understand price and key attributes, and add or customise items.",
+      "defaultContentDensity": "data-dense",
+      "primaryAction": "Select or add product",
+      "requiredBlocks": [
+        "branch and fulfilment context",
+        "sticky or persistent category navigation",
+        "search when catalog size justifies it",
+        "product cards with photography",
+        "product name",
+        "short description",
+        "price or starting price",
+        "availability",
+        "add or customise action",
+        "cart summary"
+      ],
+      "optionalBlocks": [
+        "dietary filters",
+        "allergen filter",
+        "sort",
+        "recommended products",
+        "deal badge",
+        "recently ordered"
+      ],
+      "primaryStates": [
+        "loading",
+        "populated",
+        "empty-category",
+        "filtered-empty",
+        "out-of-stock",
+        "temporarily-unavailable",
+        "store-closed",
+        "error",
+        "offline-cart"
+      ],
+      "desktopComposition": "Category rail and product grid with visible prices and stable card heights. Cart may use a side summary when space permits.",
+      "mobileTransformation": "Use horizontally scrollable category navigation with visible selected state; use one- or two-column cards based on content and image quality; keep product actions reachable without hover.",
+      "antiPatterns": [
+        "product cards without prices",
+        "ingredient essays",
+        "inconsistent image ratios",
+        "category navigation that loses selected context",
+        "disabled-looking cards with no availability explanation"
+      ],
+      "acceptanceCriteria": [
+        "Each purchasable product exposes a clear price and action.",
+        "Unavailable products cannot be added.",
+        "Changing category preserves branch, fulfilment, and cart context."
+      ]
+    },
+    {
+      "id": "product-customizer",
+      "purpose": "Help customers complete required choices, optional modifiers, removals, quantity, and price review before adding a product.",
+      "defaultContentDensity": "data-dense",
+      "primaryAction": "Add configured product",
+      "requiredBlocks": [
+        "product identity and image",
+        "base price",
+        "required option groups",
+        "optional modifiers",
+        "price deltas",
+        "selected configuration summary",
+        "quantity",
+        "live total",
+        "add action",
+        "validation and unavailable-option recovery"
+      ],
+      "optionalBlocks": [
+        "ingredient removal",
+        "allergen information",
+        "nutrition link",
+        "special instructions",
+        "recommended add-on"
+      ],
+      "primaryStates": [
+        "loading",
+        "ready",
+        "required-option-missing",
+        "modifier-unavailable",
+        "out-of-stock",
+        "price-changed",
+        "adding",
+        "added",
+        "error"
+      ],
+      "desktopComposition": "Two-region layout with stable product context and scrollable configuration. Keep the total and primary action visible without obscuring options.",
+      "mobileTransformation": "Use a full-screen route or sheet with a persistent, safe-area-aware action bar. Required groups must remain reachable after validation.",
+      "antiPatterns": [
+        "modal too small for product options",
+        "price changes not reflected immediately",
+        "required options indicated only by colour",
+        "silent replacement of unavailable modifiers",
+        "add action enabled while required choices are missing"
+      ],
+      "acceptanceCriteria": [
+        "Required groups are programmatically identified and keyboard operable.",
+        "The displayed total matches the selected options and quantity.",
+        "A validation error moves focus to the first unresolved group without clearing other choices."
+      ]
+    },
+    {
+      "id": "cart-review",
+      "purpose": "Let customers review configured items, quantities, discounts, fees, fulfilment, conflicts, and the next checkout action.",
+      "defaultContentDensity": "data-dense",
+      "primaryAction": "Continue to checkout",
+      "requiredBlocks": [
+        "branch and fulfilment context",
+        "cart line items",
+        "configuration summary",
+        "quantity controls",
+        "edit and remove actions",
+        "subtotal",
+        "discounts",
+        "fees when verified",
+        "total",
+        "conflict resolution",
+        "checkout action"
+      ],
+      "optionalBlocks": [
+        "promo code",
+        "recommended add-on",
+        "minimum-order progress",
+        "loyalty redemption preview",
+        "estimated fulfilment time when verified"
+      ],
+      "primaryStates": [
+        "empty",
+        "populated",
+        "updating",
+        "minimum-order-not-met",
+        "cart-conflict",
+        "cart-recalculated",
+        "coupon-applied",
+        "coupon-invalid",
+        "store-closed",
+        "error",
+        "offline-cart"
+      ],
+      "desktopComposition": "Line items and order summary in separate but connected regions. Keep material price changes close to affected items.",
+      "mobileTransformation": "Use a full cart page or full-height drawer. Keep the total and next action visible after the user has reviewed conflicts and changes.",
+      "antiPatterns": [
+        "hidden fees revealed only after payment selection",
+        "remove action without accessible confirmation or undo",
+        "recommendations placed before unresolved conflicts",
+        "cart recalculation without explanation"
+      ],
+      "acceptanceCriteria": [
+        "All line items can be edited or removed with keyboard and touch.",
+        "Material cart changes are explicit.",
+        "Checkout is blocked while unresolved conflicts remain."
+      ]
+    },
+    {
+      "id": "checkout",
+      "purpose": "Collect and validate customer, fulfilment, address, schedule, payment, consent, and final order confirmation information.",
+      "defaultContentDensity": "data-dense",
+      "primaryAction": "Place order",
+      "requiredBlocks": [
+        "checkout progress or section hierarchy",
+        "contact details",
+        "fulfilment details",
+        "address or pickup branch",
+        "schedule when supported",
+        "payment method",
+        "final order summary",
+        "terms or required consent",
+        "place-order action",
+        "error recovery"
+      ],
+      "optionalBlocks": [
+        "saved addresses",
+        "delivery instructions",
+        "loyalty redemption",
+        "tip",
+        "invoice details"
+      ],
+      "primaryStates": [
+        "ready",
+        "validation-error",
+        "address-validating",
+        "outside-delivery-zone",
+        "cart-recalculated",
+        "submitting",
+        "payment-pending",
+        "payment-failed",
+        "payment-authorised",
+        "order-creation-error",
+        "offline"
+      ],
+      "desktopComposition": "Single-column staged form or two-column form and sticky summary. Avoid splitting related address and fulfilment information.",
+      "mobileTransformation": "Use sequential sections with a concise summary and safe-area-aware final action. Do not hide validation behind a collapsed section.",
+      "antiPatterns": [
+        "guest checkout blocked without a business requirement",
+        "duplicate place-order submission",
+        "payment success treated as order confirmation without an order identifier",
+        "form labels replaced by placeholders",
+        "unexpected cart reset on payment failure"
+      ],
+      "acceptanceCriteria": [
+        "Submission is idempotent.",
+        "Errors preserve valid customer and cart data.",
+        "The customer sees the final total and fulfilment context before placing the order."
+      ]
+    },
+    {
+      "id": "order-confirmation",
+      "purpose": "Confirm that the business accepted the order and provide the information needed for fulfilment, support, receipt, and tracking.",
+      "defaultContentDensity": "balanced",
+      "primaryAction": "Track or prepare for fulfilment",
+      "requiredBlocks": [
+        "confirmed status",
+        "order identifier",
+        "branch",
+        "fulfilment mode",
+        "address or pickup instructions",
+        "items and total",
+        "verified estimate or next status",
+        "support path",
+        "receipt access"
+      ],
+      "optionalBlocks": [
+        "loyalty earned",
+        "calendar reminder",
+        "share order",
+        "reorder later"
+      ],
+      "primaryStates": [
+        "order-confirmed",
+        "confirmation-delayed",
+        "partial-information",
+        "support-required",
+        "error"
+      ],
+      "desktopComposition": "Clear confirmation panel followed by order details and next steps.",
+      "mobileTransformation": "Place status, identifier, next step, and support above secondary detail.",
+      "antiPatterns": [
+        "celebration before confirmation is verified",
+        "missing order identifier",
+        "ambiguous pickup branch",
+        "upsell before essential confirmation information"
+      ],
+      "acceptanceCriteria": [
+        "The customer can prove and locate the order.",
+        "The next fulfilment action is clear.",
+        "Support is reachable without restarting the order."
+      ]
+    },
+    {
+      "id": "order-tracking",
+      "purpose": "Show verified order progress, fulfilment details, support, and terminal outcomes without inventing precision.",
+      "defaultContentDensity": "balanced",
+      "primaryAction": "Understand current status",
+      "requiredBlocks": [
+        "current status",
+        "ordered status timeline",
+        "order identifier",
+        "branch or delivery context",
+        "verified estimate when available",
+        "support path",
+        "receipt or order details"
+      ],
+      "optionalBlocks": [
+        "courier tracking when provided",
+        "map when licensed and useful",
+        "pickup instructions",
+        "feedback after completion"
+      ],
+      "primaryStates": [
+        "order-confirmed",
+        "preparing",
+        "ready-for-pickup",
+        "out-for-delivery",
+        "delivered",
+        "delayed",
+        "cancelled",
+        "tracking-unavailable",
+        "error"
+      ],
+      "desktopComposition": "Status-led page with detail and support secondary.",
+      "mobileTransformation": "Current status and next action first; timeline remains readable without horizontal scrolling.",
+      "antiPatterns": [
+        "animated progress unrelated to backend status",
+        "fake minute-by-minute precision",
+        "support hidden until cancellation",
+        "map treated as the only status explanation"
+      ],
+      "acceptanceCriteria": [
+        "Status is derived from verified order data.",
+        "Every terminal or exceptional state has a support path.",
+        "Reduced-motion users receive the same status information."
+      ]
+    },
+    {
+      "id": "deals-promotions",
+      "purpose": "Explain available, verified promotions and let eligible customers apply them without obscuring conditions.",
+      "defaultContentDensity": "balanced",
+      "primaryAction": "Use eligible deal",
+      "requiredBlocks": [
+        "deal identity",
+        "benefit",
+        "eligibility",
+        "validity period when verified",
+        "participating branches or fulfilment modes",
+        "qualification conditions",
+        "use-deal action"
+      ],
+      "optionalBlocks": [
+        "promo code",
+        "countdown only when authoritative",
+        "related products",
+        "loyalty tie-in"
+      ],
+      "primaryStates": [
+        "eligible",
+        "ineligible",
+        "coupon-applied",
+        "coupon-invalid",
+        "coupon-expired",
+        "usage-limit-reached",
+        "branch-ineligible",
+        "error"
+      ],
+      "desktopComposition": "Prioritised deal list with conditions available before action.",
+      "mobileTransformation": "One primary deal per card or row; conditions expand without moving the action out of context.",
+      "antiPatterns": [
+        "hidden exclusions",
+        "unverified countdown",
+        "deal price without normal-price context when legally or commercially required",
+        "promotion applied without showing cart impact"
+      ],
+      "acceptanceCriteria": [
+        "Customers can understand qualification before changing the cart.",
+        "Expired or ineligible promotions cannot be applied.",
+        "The cart shows the exact discount effect."
+      ]
+    },
+    {
+      "id": "loyalty-program",
+      "purpose": "Explain earning and redemption, show verified balance and activity, and support safe reward use.",
+      "defaultContentDensity": "balanced",
+      "primaryAction": "Earn or redeem reward",
+      "requiredBlocks": [
+        "balance or enrolment state",
+        "earning rule",
+        "redemption rule",
+        "expiry information when applicable",
+        "eligible order context",
+        "activity or transaction history",
+        "support path"
+      ],
+      "optionalBlocks": [
+        "tier progress",
+        "referral",
+        "reward catalogue",
+        "app promotion"
+      ],
+      "primaryStates": [
+        "signed-out",
+        "not-enrolled",
+        "active",
+        "balance-loading",
+        "insufficient-balance",
+        "reward-applied",
+        "reward-unavailable",
+        "expired",
+        "error"
+      ],
+      "desktopComposition": "Balance and primary rule first, followed by redemption and activity.",
+      "mobileTransformation": "Keep balance, eligible value, and redemption consequence visible before confirmation.",
+      "antiPatterns": [
+        "points treated as cash without explaining conversion",
+        "expiry hidden",
+        "reward automatically applied without consent",
+        "balance displayed when stale without a status indication"
+      ],
+      "acceptanceCriteria": [
+        "Balance and redemption are sourced from the loyalty system.",
+        "Applying a reward updates the order summary explicitly.",
+        "Customers can understand expiry and eligibility."
+      ]
+    },
+    {
+      "id": "branch-locator",
+      "purpose": "Help customers find an eligible branch by location, hours, service mode, and current availability.",
+      "defaultContentDensity": "data-dense",
+      "primaryAction": "Select branch",
+      "requiredBlocks": [
+        "location search or permission-safe geolocation",
+        "branch list",
+        "distance when accurately calculated",
+        "address",
+        "opening status",
+        "hours",
+        "supported fulfilment modes",
+        "select or directions action"
+      ],
+      "optionalBlocks": [
+        "map",
+        "working-now filter",
+        "24-hour filter",
+        "accessibility information",
+        "parking or landmark information"
+      ],
+      "primaryStates": [
+        "location-required",
+        "permission-denied",
+        "searching",
+        "results",
+        "no-results",
+        "branch-closed",
+        "service-unavailable",
+        "error"
+      ],
+      "desktopComposition": "Search and list remain primary; map is supportive rather than mandatory.",
+      "mobileTransformation": "List-first result with optional map view. Selection must not depend on hover or tiny map targets.",
+      "antiPatterns": [
+        "map-only interface",
+        "geolocation requested before explaining benefit",
+        "distance guessed from straight-line coordinates without disclosure",
+        "hours or service modes hidden"
+      ],
+      "acceptanceCriteria": [
+        "Branch selection works without granting geolocation.",
+        "Closed and unsupported-service branches are clear.",
+        "Selected branch propagates to menu, cart, and checkout."
+      ]
+    },
+    {
+      "id": "delivery-zone-checker",
+      "purpose": "Validate an address against current delivery service, branch eligibility, fees, minimums, and scheduling rules.",
+      "defaultContentDensity": "balanced",
+      "primaryAction": "Confirm delivery eligibility",
+      "requiredBlocks": [
+        "address input",
+        "address clarification when needed",
+        "validation status",
+        "eligible branch",
+        "delivery availability",
+        "verified fee and minimum when known",
+        "alternative action when ineligible"
+      ],
+      "optionalBlocks": [
+        "saved addresses",
+        "map pin correction",
+        "landmark",
+        "scheduled delivery"
+      ],
+      "primaryStates": [
+        "idle",
+        "searching",
+        "multiple-matches",
+        "validating",
+        "eligible",
+        "outside-delivery-zone",
+        "delivery-unavailable",
+        "branch-closed",
+        "error"
+      ],
+      "desktopComposition": "Address input with immediate status and branch context.",
+      "mobileTransformation": "Use native-friendly address entry, clear progress, and a full-width result; keep pickup alternative visible.",
+      "antiPatterns": [
+        "accepting an address before service validation",
+        "delivery promise based on incomplete address",
+        "zone failure with no pickup or branch alternative",
+        "map pin as the only accessible input"
+      ],
+      "acceptanceCriteria": [
+        "Delivery eligibility is verified before checkout.",
+        "Ineligible customers receive truthful alternatives.",
+        "Changing the address triggers cart and price revalidation."
+      ]
+    }
+  ]
+}
