@@ -15,8 +15,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install Pillow
-        run: python -m pip install --disable-pip-version-check pillow
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check pillow requests
       - name: Download Wikimedia product-specific candidates
         shell: bash
         run: |
@@ -27,11 +27,12 @@ jobs:
           import io
           import json
           import time
-          import urllib.parse
-          import urllib.request
           from pathlib import Path
 
+          import requests
           from PIL import Image, ImageDraw, ImageFont, ImageOps
+          from requests.adapters import HTTPAdapter
+          from urllib3.util.retry import Retry
 
           products = [
               ("arc-desk-lamp", "desk lamp"),
@@ -51,15 +52,28 @@ jobs:
           root = Path("candidate-images")
           root.mkdir(parents=True, exist_ok=True)
           manifest: list[dict] = []
-          headers = {
-              "User-Agent": "AtelierNorthCandidateFetcher/1.0 (product-image QA; contact: github-actions)",
-              "Accept": "application/json",
-          }
+
+          session = requests.Session()
+          retry = Retry(
+              total=7,
+              connect=4,
+              read=4,
+              status=7,
+              backoff_factor=4,
+              status_forcelist=(429, 500, 502, 503, 504),
+              allowed_methods=frozenset(["GET"]),
+              respect_retry_after_header=True,
+          )
+          session.mount("https://", HTTPAdapter(max_retries=retry))
+          session.headers.update({
+              "User-Agent": "AtelierNorthCandidateFetcher/1.1 (noncommercial product-image QA; GitHub Actions)",
+              "Accept": "application/json,image/*;q=0.9,*/*;q=0.5",
+          })
 
           def fetch_bytes(url: str) -> bytes:
-              request = urllib.request.Request(url, headers=headers)
-              with urllib.request.urlopen(request, timeout=45) as response:
-                  return response.read()
+              response = session.get(url, timeout=60)
+              response.raise_for_status()
+              return response.content
 
           def search(query: str) -> list[dict]:
               params = {
@@ -69,15 +83,16 @@ jobs:
                   "generator": "search",
                   "gsrnamespace": "6",
                   "gsrsearch": f"{query} filetype:bitmap",
-                  "gsrlimit": "24",
+                  "gsrlimit": "16",
                   "prop": "imageinfo",
                   "iiprop": "url|mime|size|extmetadata",
                   "iiurlwidth": "900",
+                  "maxlag": "5",
                   "origin": "*",
               }
-              url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
-              data = json.loads(fetch_bytes(url))
-              pages = data.get("query", {}).get("pages", [])
+              response = session.get("https://commons.wikimedia.org/w/api.php", params=params, timeout=60)
+              response.raise_for_status()
+              pages = response.json().get("query", {}).get("pages", [])
               output = []
               for page in pages:
                   info = (page.get("imageinfo") or [{}])[0]
@@ -86,44 +101,59 @@ jobs:
                   width = int(info.get("width") or 0)
                   height = int(info.get("height") or 0)
                   title = str(page.get("title", ""))
-                  if not thumb or not mime.startswith("image/"):
-                      continue
-                  if width < 350 or height < 350:
+                  if not thumb or not mime.startswith("image/") or width < 350 or height < 350:
                       continue
                   lower = title.lower()
-                  if any(token in lower for token in ("logo", "icon", "diagram", "map", "coat of arms", "flag", "drawing", "painting")):
+                  if any(token in lower for token in ("logo", "icon", "diagram", "map", "coat of arms", "flag", "drawing", "painting", "patent")):
                       continue
-                  output.append({"title": title, "url": thumb, "source_url": info.get("descriptionurl") or info.get("url"), "width": width, "height": height, "mime": mime})
+                  output.append({
+                      "title": title,
+                      "url": thumb,
+                      "source_url": info.get("descriptionurl") or info.get("url"),
+                      "width": width,
+                      "height": height,
+                      "mime": mime,
+                  })
               return output
 
-          max_candidates = 8
-          for slug, query in products:
+          max_candidates = 6
+          for product_index, (slug, query) in enumerate(products):
               folder = root / slug
               folder.mkdir(parents=True, exist_ok=True)
-              candidates = search(query)
+              try:
+                  candidates = search(query)
+              except Exception as exc:
+                  manifest.append({"slug": slug, "query": query, "error": f"search failed: {exc}"})
+                  candidates = []
               saved = 0
               for item in candidates:
                   if saved >= max_candidates:
                       break
                   try:
-                      payload = fetch_bytes(item["url"])
-                      image = Image.open(io.BytesIO(payload)).convert("RGB")
-                      # Reject extremely panoramic images that do not work for product cards.
+                      image = Image.open(io.BytesIO(fetch_bytes(item["url"]))).convert("RGB")
                       ratio = image.width / max(image.height, 1)
                       if ratio > 2.4 or ratio < 0.35:
                           continue
                       saved += 1
                       path = folder / f"{saved}.jpg"
                       image.save(path, "JPEG", quality=90, optimize=True)
-                      record = {"slug": slug, "query": query, "candidate": saved, "path": str(path), "download_url": item["url"], **item}
-                      manifest.append(record)
+                      manifest.append({
+                          "slug": slug,
+                          "query": query,
+                          "candidate": saved,
+                          "path": str(path),
+                          "download_url": item["url"],
+                          **item,
+                      })
                   except Exception as exc:
                       manifest.append({"slug": slug, "query": query, "title": item.get("title"), "error": str(exc)})
-                  time.sleep(0.12)
+              # Respect Wikimedia request guidance and shared-runner rate limits.
+              if product_index < len(products) - 1:
+                  time.sleep(6)
 
           (root / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
 
-          cell_w, cell_h = 190, 245
+          cell_w, cell_h = 220, 280
           label_h = 52
           cols = max_candidates
           sheet_w = cell_w * cols
