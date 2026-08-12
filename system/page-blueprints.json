@@ -1,0 +1,346 @@
+{
+  "name": "AI UI Style Vault Page Blueprints",
+  "version": "1.0.0",
+  "instructions": "Choose the nearest blueprint, remove irrelevant blocks, and adapt it to the product. Never include every optional block automatically.",
+  "blueprints": [
+    {
+      "id": "product-marketing-home",
+      "purpose": "Explain the product, establish relevance and proof, and route the visitor to one primary action.",
+      "defaultContentDensity": "balanced",
+      "recommendedMajorSections": {
+        "min": 5,
+        "max": 8
+      },
+      "requiredBlocks": [
+        "concise hero",
+        "product or outcome proof",
+        "credibility signal",
+        "major capabilities",
+        "final action"
+      ],
+      "optionalBlocks": [
+        "workflow",
+        "use cases",
+        "comparison",
+        "testimonials",
+        "pricing preview",
+        "faq"
+      ],
+      "primaryStates": [
+        "default",
+        "reduced-motion",
+        "mobile"
+      ],
+      "antiPatterns": [
+        "company history before product explanation",
+        "more than two hero CTAs",
+        "repeated benefit sections",
+        "twelve-section default homepage"
+      ]
+    },
+    {
+      "id": "professional-services-home",
+      "purpose": "Establish the service offer, expertise, relevance, and consultation path without placing every service detail on the homepage.",
+      "defaultContentDensity": "informational",
+      "recommendedMajorSections": {
+        "min": 5,
+        "max": 8
+      },
+      "requiredBlocks": [
+        "offer-led hero",
+        "service summary",
+        "evidence or credentials",
+        "engagement process",
+        "consultation action"
+      ],
+      "optionalBlocks": [
+        "industry focus",
+        "case results",
+        "insights",
+        "team preview"
+      ],
+      "primaryStates": [
+        "default",
+        "mobile"
+      ],
+      "antiPatterns": [
+        "long corporate introduction",
+        "full service essays on homepage",
+        "generic trust claims without evidence"
+      ]
+    },
+    {
+      "id": "saas-dashboard",
+      "purpose": "Show current status, exceptions, trends, and next actions.",
+      "defaultContentDensity": "data-dense",
+      "recommendedMajorSections": {
+        "min": 3,
+        "max": 7
+      },
+      "requiredBlocks": [
+        "page context",
+        "priority status or exception",
+        "primary action",
+        "core data view"
+      ],
+      "optionalBlocks": [
+        "trend metrics",
+        "recent activity",
+        "saved views",
+        "secondary insights"
+      ],
+      "primaryStates": [
+        "loading",
+        "empty",
+        "filtered-empty",
+        "error",
+        "permission-denied",
+        "populated",
+        "mobile"
+      ],
+      "antiPatterns": [
+        "six equal metric cards by default",
+        "paragraphs explaining every widget",
+        "marketing copy inside dashboard"
+      ]
+    },
+    {
+      "id": "review-workspace",
+      "purpose": "Help a reviewer inspect evidence, resolve exceptions, record decisions, and complete or escalate work.",
+      "defaultContentDensity": "data-dense",
+      "recommendedMajorSections": {
+        "min": 3,
+        "max": 6
+      },
+      "requiredBlocks": [
+        "work queue or context",
+        "focused detail",
+        "evidence",
+        "resolution actions",
+        "audit trail"
+      ],
+      "optionalBlocks": [
+        "comments",
+        "comparison",
+        "policy reference",
+        "history"
+      ],
+      "primaryStates": [
+        "loading",
+        "no-selection",
+        "error",
+        "permission-denied",
+        "conflict",
+        "saved",
+        "completed",
+        "mobile"
+      ],
+      "antiPatterns": [
+        "detail hidden below long summary",
+        "actions far from evidence",
+        "destructive resolution without confirmation"
+      ]
+    },
+    {
+      "id": "file-upload-analysis",
+      "purpose": "Collect a file, explain requirements, show upload/processing progress, and lead into results or recovery.",
+      "defaultContentDensity": "balanced",
+      "recommendedMajorSections": {
+        "min": 2,
+        "max": 5
+      },
+      "requiredBlocks": [
+        "file requirements",
+        "upload control",
+        "privacy or retention note when relevant",
+        "progress",
+        "result or recovery"
+      ],
+      "optionalBlocks": [
+        "sample template",
+        "mapping preview",
+        "recent uploads"
+      ],
+      "primaryStates": [
+        "idle",
+        "drag-active",
+        "selected",
+        "uploading",
+        "processing",
+        "validation-error",
+        "processing-error",
+        "success"
+      ],
+      "antiPatterns": [
+        "indefinite spinner",
+        "file requirements after failure only",
+        "loss of selected file on recoverable error"
+      ]
+    },
+    {
+      "id": "authentication",
+      "purpose": "Enable secure entry with minimal distraction and clear recovery.",
+      "defaultContentDensity": "sparse",
+      "recommendedMajorSections": {
+        "min": 1,
+        "max": 3
+      },
+      "requiredBlocks": [
+        "identity",
+        "authentication form",
+        "recovery path"
+      ],
+      "optionalBlocks": [
+        "security note",
+        "SSO options",
+        "small product proof"
+      ],
+      "primaryStates": [
+        "default",
+        "submitting",
+        "validation-error",
+        "authentication-error",
+        "locked",
+        "success"
+      ],
+      "antiPatterns": [
+        "marketing essay beside form",
+        "unclear account context",
+        "placeholder used as label"
+      ]
+    },
+    {
+      "id": "settings",
+      "purpose": "Help users understand and change preferences, account, access, billing, or integrations safely.",
+      "defaultContentDensity": "data-dense",
+      "recommendedMajorSections": {
+        "min": 2,
+        "max": 8
+      },
+      "requiredBlocks": [
+        "settings navigation",
+        "grouped fields",
+        "save or autosave status"
+      ],
+      "optionalBlocks": [
+        "danger zone",
+        "activity",
+        "permissions",
+        "integration status"
+      ],
+      "primaryStates": [
+        "loading",
+        "saved",
+        "unsaved",
+        "validation-error",
+        "permission-denied",
+        "conflict"
+      ],
+      "antiPatterns": [
+        "all settings in one endless form",
+        "danger actions mixed with routine fields"
+      ]
+    },
+    {
+      "id": "report-results",
+      "purpose": "Present findings, interpretation, evidence, and export or follow-up actions.",
+      "defaultContentDensity": "informational",
+      "recommendedMajorSections": {
+        "min": 3,
+        "max": 7
+      },
+      "requiredBlocks": [
+        "report context",
+        "headline findings",
+        "detailed evidence",
+        "export or share action"
+      ],
+      "optionalBlocks": [
+        "methodology",
+        "exceptions",
+        "recommendations",
+        "audit trail"
+      ],
+      "primaryStates": [
+        "generating",
+        "partial",
+        "error",
+        "complete",
+        "stale"
+      ],
+      "antiPatterns": [
+        "summary repeated in every section",
+        "charts without interpretation or labels",
+        "export action hidden"
+      ]
+    },
+    {
+      "id": "pricing",
+      "purpose": "Help qualified users understand plan differences, costs, and the next commitment.",
+      "defaultContentDensity": "balanced",
+      "recommendedMajorSections": {
+        "min": 3,
+        "max": 6
+      },
+      "requiredBlocks": [
+        "pricing context",
+        "plan comparison",
+        "included capabilities",
+        "primary purchase/contact action"
+      ],
+      "optionalBlocks": [
+        "calculator",
+        "faq",
+        "enterprise note",
+        "billing toggle"
+      ],
+      "primaryStates": [
+        "default",
+        "billing-period-change",
+        "selected",
+        "loading",
+        "error"
+      ],
+      "antiPatterns": [
+        "hidden exclusions",
+        "too many equal plans",
+        "vague plan names without audience or outcome"
+      ]
+    },
+    {
+      "id": "detail-record",
+      "purpose": "Show one entity, its status, evidence, related activity, and available actions.",
+      "defaultContentDensity": "data-dense",
+      "recommendedMajorSections": {
+        "min": 3,
+        "max": 7
+      },
+      "requiredBlocks": [
+        "record identity",
+        "status",
+        "primary actions",
+        "key fields",
+        "activity or evidence"
+      ],
+      "optionalBlocks": [
+        "related records",
+        "comments",
+        "history",
+        "attachments"
+      ],
+      "primaryStates": [
+        "loading",
+        "not-found",
+        "permission-denied",
+        "error",
+        "editing",
+        "saved",
+        "archived"
+      ],
+      "antiPatterns": [
+        "all fields given equal visual weight",
+        "primary action detached from status"
+      ]
+    }
+  ]
+}

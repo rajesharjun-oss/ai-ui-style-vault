@@ -1,0 +1,354 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "AI UI Style Vault Production Theme Archetypes",
+  "version": "1.0.0",
+  "purpose": "Original, curated directions used to translate broad reference material into coherent production systems. These are not brand clones.",
+  "themes": [
+    {
+      "id": "executive-finance",
+      "name": "Executive Finance",
+      "bestFor": [
+        "tax platforms",
+        "audit tools",
+        "finance operations",
+        "investment analytics"
+      ],
+      "tone": [
+        "trustworthy",
+        "precise",
+        "calm",
+        "premium"
+      ],
+      "density": "high",
+      "contentDensity": "data-dense",
+      "radiusAttitude": "restrained",
+      "typographyAttitude": "compact sans with editorial numeric hierarchy",
+      "colorAttitude": "neutral foundation with one controlled functional accent",
+      "surfaceAttitude": "flat working surfaces with selective elevation",
+      "motionModel": "quiet-premium",
+      "avoid": [
+        "neon gradients",
+        "glass dashboards",
+        "playful decorative icons",
+        "oversized marketing type inside operational screens"
+      ]
+    },
+    {
+      "id": "quiet-professional",
+      "name": "Quiet Professional",
+      "bestFor": [
+        "consulting",
+        "legal",
+        "accounting",
+        "B2B services",
+        "internal portals"
+      ],
+      "tone": [
+        "credible",
+        "restrained",
+        "clear",
+        "human"
+      ],
+      "density": "medium",
+      "contentDensity": "informational",
+      "radiusAttitude": "subtle",
+      "typographyAttitude": "readable sans with measured display scale",
+      "colorAttitude": "warm neutral with conservative accent",
+      "surfaceAttitude": "open layouts, dividers, and limited cards",
+      "motionModel": "quiet-premium",
+      "avoid": [
+        "card soup",
+        "heavy shadows",
+        "generic corporate stock patterns",
+        "long homepage essays"
+      ]
+    },
+    {
+      "id": "premium-enterprise",
+      "name": "Premium Enterprise",
+      "bestFor": [
+        "enterprise SaaS",
+        "security",
+        "infrastructure",
+        "workflow platforms"
+      ],
+      "tone": [
+        "confident",
+        "structured",
+        "technical",
+        "polished"
+      ],
+      "density": "medium-high",
+      "contentDensity": "balanced",
+      "radiusAttitude": "moderate",
+      "typographyAttitude": "strong sans with compact supporting copy",
+      "colorAttitude": "deep neutral plus decisive accent",
+      "surfaceAttitude": "layered product frames and disciplined panels",
+      "motionModel": "product-story",
+      "avoid": [
+        "consumer playfulness",
+        "decorative motion loops",
+        "too many equal feature cards"
+      ]
+    },
+    {
+      "id": "modern-editorial",
+      "name": "Modern Editorial",
+      "bestFor": [
+        "reports",
+        "research",
+        "thought leadership",
+        "media",
+        "professional publications"
+      ],
+      "tone": [
+        "editorial",
+        "intelligent",
+        "clear",
+        "distinctive"
+      ],
+      "density": "medium",
+      "contentDensity": "informational",
+      "radiusAttitude": "minimal",
+      "typographyAttitude": "expressive display paired with highly readable body",
+      "colorAttitude": "paper-like neutrals with selective color",
+      "surfaceAttitude": "open composition, rules, and image-led rhythm",
+      "motionModel": "quiet-premium",
+      "avoid": [
+        "repetitive SaaS card grids",
+        "small body text",
+        "decorative dashboards"
+      ]
+    },
+    {
+      "id": "technical-developer",
+      "name": "Technical Developer",
+      "bestFor": [
+        "APIs",
+        "developer tools",
+        "infrastructure",
+        "documentation",
+        "observability"
+      ],
+      "tone": [
+        "precise",
+        "technical",
+        "fast",
+        "credible"
+      ],
+      "density": "high",
+      "contentDensity": "balanced",
+      "radiusAttitude": "compact",
+      "typographyAttitude": "sans plus mono accents with clear code hierarchy",
+      "colorAttitude": "dark or neutral system with semantic syntax accents",
+      "surfaceAttitude": "structured panels, code surfaces, and clear borders",
+      "motionModel": "technical-motion",
+      "avoid": [
+        "fake terminal decoration",
+        "unreadable neon",
+        "motion that interrupts code reading"
+      ]
+    },
+    {
+      "id": "ai-workspace",
+      "name": "AI Workspace",
+      "bestFor": [
+        "assistants",
+        "agent platforms",
+        "automation workspaces",
+        "creative AI tools"
+      ],
+      "tone": [
+        "focused",
+        "capable",
+        "calm",
+        "modern"
+      ],
+      "density": "medium-high",
+      "contentDensity": "data-dense",
+      "radiusAttitude": "moderate",
+      "typographyAttitude": "neutral workhorse sans with clear conversational hierarchy",
+      "colorAttitude": "quiet canvas with status-aware accents",
+      "surfaceAttitude": "workspace-first, minimal chrome, contextual panels",
+      "motionModel": "product-story",
+      "avoid": [
+        "purple gradient by default",
+        "sparkles everywhere",
+        "marketing copy inside the workspace",
+        "chat as the only interaction model"
+      ]
+    },
+    {
+      "id": "data-command-centre",
+      "name": "Data Command Centre",
+      "bestFor": [
+        "operations",
+        "monitoring",
+        "analytics",
+        "risk",
+        "logistics"
+      ],
+      "tone": [
+        "dense",
+        "decisive",
+        "operational",
+        "clear"
+      ],
+      "density": "command-centre",
+      "contentDensity": "data-dense",
+      "radiusAttitude": "restrained",
+      "typographyAttitude": "compact sans with strong numeric and status hierarchy",
+      "colorAttitude": "neutral base with semantic risk colors",
+      "surfaceAttitude": "panels grouped by decision priority",
+      "motionModel": "technical-motion",
+      "avoid": [
+        "six equal KPI cards regardless of importance",
+        "decorative charts",
+        "low-contrast status colors"
+      ]
+    },
+    {
+      "id": "warm-consumer",
+      "name": "Warm Consumer",
+      "bestFor": [
+        "personal productivity",
+        "wellness",
+        "consumer finance",
+        "community products"
+      ],
+      "tone": [
+        "friendly",
+        "clear",
+        "reassuring",
+        "polished"
+      ],
+      "density": "medium",
+      "contentDensity": "balanced",
+      "radiusAttitude": "soft",
+      "typographyAttitude": "friendly sans with generous readability",
+      "colorAttitude": "warm neutrals and limited optimistic accents",
+      "surfaceAttitude": "soft sections with meaningful illustration",
+      "motionModel": "microinteraction-led",
+      "avoid": [
+        "childish iconography",
+        "excessive bounce",
+        "patronising copy"
+      ]
+    },
+    {
+      "id": "cinematic-product",
+      "name": "Cinematic Product",
+      "bestFor": [
+        "launch sites",
+        "hardware",
+        "hospitality",
+        "real estate",
+        "showrooms"
+      ],
+      "tone": [
+        "immersive",
+        "premium",
+        "visual",
+        "controlled"
+      ],
+      "density": "low",
+      "contentDensity": "sparse",
+      "radiusAttitude": "contextual",
+      "typographyAttitude": "large but concise display with minimal support",
+      "colorAttitude": "media-led palette with high legibility",
+      "surfaceAttitude": "full-bleed media and selective overlays",
+      "motionModel": "cinematic-media",
+      "avoid": [
+        "autoplay without controls",
+        "text hidden inside motion",
+        "borrowed footage",
+        "long copy over video"
+      ]
+    },
+    {
+      "id": "healthcare-calm",
+      "name": "Healthcare Calm",
+      "bestFor": [
+        "care platforms",
+        "patient tools",
+        "clinical operations",
+        "wellness services"
+      ],
+      "tone": [
+        "calm",
+        "safe",
+        "clear",
+        "respectful"
+      ],
+      "density": "medium",
+      "contentDensity": "informational",
+      "radiusAttitude": "soft-restrained",
+      "typographyAttitude": "highly readable sans with calm hierarchy",
+      "colorAttitude": "soft neutral base with accessible semantic accents",
+      "surfaceAttitude": "clear grouping and generous breathing room",
+      "motionModel": "quiet-premium",
+      "avoid": [
+        "low-contrast pastels",
+        "playful error states",
+        "hidden risk information"
+      ]
+    },
+    {
+      "id": "luxury-minimal",
+      "name": "Luxury Minimal",
+      "bestFor": [
+        "premium services",
+        "fashion",
+        "architecture",
+        "high-end hospitality"
+      ],
+      "tone": [
+        "refined",
+        "quiet",
+        "editorial",
+        "exclusive"
+      ],
+      "density": "low",
+      "contentDensity": "sparse",
+      "radiusAttitude": "minimal",
+      "typographyAttitude": "distinctive display with restrained body",
+      "colorAttitude": "limited palette with strong material contrast",
+      "surfaceAttitude": "open canvas, image-led rhythm, almost no cards",
+      "motionModel": "quiet-premium",
+      "avoid": [
+        "feature grids",
+        "too many badges",
+        "cheap gradient effects",
+        "wordy persuasion"
+      ]
+    },
+    {
+      "id": "playful-productivity",
+      "name": "Playful Productivity",
+      "bestFor": [
+        "learning",
+        "team collaboration",
+        "creative tools",
+        "habit products"
+      ],
+      "tone": [
+        "energetic",
+        "friendly",
+        "clear",
+        "purposeful"
+      ],
+      "density": "medium",
+      "contentDensity": "balanced",
+      "radiusAttitude": "soft",
+      "typographyAttitude": "friendly sans with expressive labels",
+      "colorAttitude": "controlled multi-accent system",
+      "surfaceAttitude": "clear modules with selective illustration",
+      "motionModel": "microinteraction-led",
+      "avoid": [
+        "motion on every object",
+        "rainbow inconsistency",
+        "unclear primary action"
+      ]
+    }
+  ]
+}
