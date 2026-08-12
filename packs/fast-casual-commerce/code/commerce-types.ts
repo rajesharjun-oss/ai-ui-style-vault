@@ -44,7 +44,7 @@ export interface Branch {
   phone?: string;
   fulfilmentModes: FulfilmentMode[];
   openingWindows: OpeningWindow[];
-  statusSource: "live" | "schedule" | "manual" | "unknown";
+  statusSource: "live" | "schedule" | "manual" | "unknown" | "static-prototype";
 }
 
 export interface Category {
