@@ -1,0 +1,172 @@
+{
+  "version": "1.0.0",
+  "requiredArtifacts": [
+    "VAULT_SELECTION.md",
+    "BUILD_CONTRACT.md",
+    "CONTENT_PLAN.md",
+    "design-recipe.json"
+  ],
+  "thresholds": {
+    "heroHeadline": {
+      "recommendedMinWords": 5,
+      "recommendedMaxWords": 12,
+      "errorMaxWords": 16
+    },
+    "heroSupport": {
+      "recommendedMaxWords": 35,
+      "warningMaxWords": 55,
+      "errorMaxWords": 80
+    },
+    "paragraph": {
+      "warningMaxWords": 70,
+      "errorMaxWords": 110
+    },
+    "sectionHeading": {
+      "warningMaxWords": 14,
+      "errorMaxWords": 20
+    },
+    "cta": {
+      "warningMaxWords": 6,
+      "errorMaxWords": 9
+    },
+    "marketingPage": {
+      "warningTotalWords": 1000,
+      "errorTotalWords": 1500,
+      "warningSectionCount": 10,
+      "errorSectionCount": 14,
+      "warningCardCount": 14,
+      "errorCardCount": 22
+    },
+    "duplicateTextMinWords": 8,
+    "genericPhraseWarningCount": 1,
+    "genericPhraseErrorCount": 4,
+    "genericVisualRiskWarningScore": 5,
+    "genericVisualRiskErrorScore": 9
+  },
+  "genericPhrases": [
+    "revolutionize your workflow",
+    "revolutionise your workflow",
+    "unlock your potential",
+    "transform your business",
+    "take your business to the next level",
+    "take your workflow to the next level",
+    "seamless and powerful",
+    "powerful and intuitive",
+    "robust and scalable",
+    "cutting-edge solution",
+    "cutting edge solution",
+    "all-in-one platform",
+    "all in one platform",
+    "built for the future",
+    "empower your team",
+    "supercharge productivity",
+    "effortlessly streamline",
+    "reimagine the way you work",
+    "drive innovation",
+    "unlock new possibilities",
+    "game-changing",
+    "next-generation platform",
+    "next generation platform"
+  ],
+  "vagueCtas": [
+    "click here",
+    "learn more",
+    "get started",
+    "submit",
+    "continue",
+    "discover more",
+    "explore more",
+    "read more"
+  ],
+  "visualRiskSignals": {
+    "gradient": {
+      "patterns": [
+        "bg-gradient",
+        "linear-gradient(",
+        "radial-gradient("
+      ],
+      "pointsAfter": 3,
+      "points": 2
+    },
+    "glass": {
+      "patterns": [
+        "backdrop-blur",
+        "backdrop-filter"
+      ],
+      "pointsAfter": 3,
+      "points": 2
+    },
+    "oversizedType": {
+      "patterns": [
+        "text-8xl",
+        "text-9xl",
+        "font-size: 8",
+        "font-size:8"
+      ],
+      "pointsAfter": 1,
+      "points": 2
+    },
+    "largeRadius": {
+      "patterns": [
+        "rounded-3xl",
+        "border-radius: 32px",
+        "border-radius:32px"
+      ],
+      "pointsAfter": 8,
+      "points": 2
+    },
+    "pillEverything": {
+      "patterns": [
+        "rounded-full",
+        "border-radius: 9999"
+      ],
+      "pointsAfter": 10,
+      "points": 1
+    },
+    "sparkleDecoration": {
+      "patterns": [
+        "sparkles",
+        "sparkle",
+        "wand2",
+        "stars"
+      ],
+      "pointsAfter": 5,
+      "points": 1
+    },
+    "heavyShadow": {
+      "patterns": [
+        "shadow-2xl",
+        "box-shadow"
+      ],
+      "pointsAfter": 10,
+      "points": 1
+    }
+  },
+  "stateSignals": [
+    "loading",
+    "empty",
+    "error",
+    "success",
+    "disabled",
+    "permission",
+    "retry"
+  ],
+  "motionSignals": [
+    "@keyframes",
+    "animation:",
+    "transition:",
+    "framer-motion",
+    "motion/react",
+    "gsap",
+    "scrolltrigger",
+    "lottie",
+    "rive",
+    "three.js",
+    "requestanimationframe"
+  ],
+  "reducedMotionSignals": [
+    "prefers-reduced-motion",
+    "usereducedmotion",
+    "reduced-motion"
+  ]
+}

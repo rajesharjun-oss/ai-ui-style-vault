@@ -1,0 +1,161 @@
+{
+  "name": "AI UI Style Vault Motion Primitives",
+  "version": "1.0.0",
+  "intensityLevels": [
+    "none",
+    "subtle",
+    "balanced",
+    "expressive"
+  ],
+  "timingTokens": {
+    "fastMs": 120,
+    "baseMs": 180,
+    "slowMs": 320,
+    "pageMs": 520,
+    "standardEase": "cubic-bezier(0.2, 0, 0, 1)",
+    "emphasizedEase": "cubic-bezier(0.16, 1, 0.3, 1)"
+  },
+  "globalRules": [
+    "motion must communicate hierarchy, state, continuity, status, or causality",
+    "prefer transform and opacity",
+    "do not block task completion",
+    "provide reduced-motion fallback",
+    "use one primary animation approach"
+  ],
+  "primitives": [
+    {
+      "id": "button-press",
+      "purpose": "Confirm direct manipulation",
+      "preferredTool": "css",
+      "defaultDurationMs": 120,
+      "reducedMotion": "retain instant state change without scale"
+    },
+    {
+      "id": "icon-slide-button",
+      "purpose": "Clarify directional action on hover or focus",
+      "preferredTool": "css",
+      "defaultDurationMs": 180,
+      "reducedMotion": "use color or underline only"
+    },
+    {
+      "id": "loading-button",
+      "purpose": "Show submitted work while preventing duplicates",
+      "preferredTool": "css-or-motion",
+      "defaultDurationMs": 180,
+      "reducedMotion": "static spinner or progress label"
+    },
+    {
+      "id": "fade-rise",
+      "purpose": "Introduce a section while preserving reading order",
+      "preferredTool": "css-or-motion",
+      "defaultDurationMs": 320,
+      "reducedMotion": "opacity-only or immediate"
+    },
+    {
+      "id": "stagger-children",
+      "purpose": "Reveal related items in sequence",
+      "preferredTool": "motion",
+      "defaultDurationMs": 320,
+      "maxItems": 6,
+      "reducedMotion": "simultaneous display"
+    },
+    {
+      "id": "mask-reveal",
+      "purpose": "Create controlled editorial entry",
+      "preferredTool": "css-or-gsap",
+      "defaultDurationMs": 520,
+      "reducedMotion": "immediate final state"
+    },
+    {
+      "id": "shared-layout-tabs",
+      "purpose": "Preserve continuity between selected views",
+      "preferredTool": "motion",
+      "defaultDurationMs": 220,
+      "reducedMotion": "instant indicator change"
+    },
+    {
+      "id": "number-transition",
+      "purpose": "Show a meaningful data update",
+      "preferredTool": "css-or-motion",
+      "defaultDurationMs": 320,
+      "reducedMotion": "replace value immediately and announce change"
+    },
+    {
+      "id": "animated-data-change",
+      "purpose": "Connect previous and new chart/table state",
+      "preferredTool": "motion-or-chart-native",
+      "defaultDurationMs": 320,
+      "reducedMotion": "instant redraw with status text"
+    },
+    {
+      "id": "modal-transition",
+      "purpose": "Explain overlay entry and focus change",
+      "preferredTool": "css-or-motion",
+      "defaultDurationMs": 180,
+      "reducedMotion": "instant or short opacity"
+    },
+    {
+      "id": "drawer-transition",
+      "purpose": "Show contextual panel origin",
+      "preferredTool": "css-or-motion",
+      "defaultDurationMs": 220,
+      "reducedMotion": "instant panel"
+    },
+    {
+      "id": "route-transition",
+      "purpose": "Provide continuity between major views",
+      "preferredTool": "framework-or-motion",
+      "defaultDurationMs": 320,
+      "reducedMotion": "no spatial movement"
+    },
+    {
+      "id": "sticky-product-story",
+      "purpose": "Explain a product through staged states",
+      "preferredTool": "gsap-or-native-scroll",
+      "defaultDurationMs": 0,
+      "reducedMotion": "static stacked sections",
+      "constraints": [
+        "native scrolling",
+        "one pinned scene at a time",
+        "content available without animation"
+      ]
+    },
+    {
+      "id": "cinematic-media-hero",
+      "purpose": "Create controlled atmosphere with owned or licensed media",
+      "preferredTool": "css-video-or-gsap",
+      "defaultDurationMs": 520,
+      "reducedMotion": "static poster",
+      "constraints": [
+        "pause control",
+        "stable dimensions",
+        "readable copy",
+        "no protected footage"
+      ]
+    },
+    {
+      "id": "product-ui-tour",
+      "purpose": "Demonstrate real workflow states",
+      "preferredTool": "motion",
+      "defaultDurationMs": 520,
+      "reducedMotion": "static step sequence",
+      "constraints": [
+        "prefer real DOM UI",
+        "pause when useful",
+        "labels remain readable"
+      ]
+    },
+    {
+      "id": "spotlight-or-tilt-card",
+      "purpose": "Add selective pointer-responsive depth",
+      "preferredTool": "css-or-motion",
+      "defaultDurationMs": 180,
+      "reducedMotion": "static surface",
+      "constraints": [
+        "desktop enhancement only",
+        "never required for comprehension",
+        "use sparingly"
+      ]
+    }
+  ]
+}

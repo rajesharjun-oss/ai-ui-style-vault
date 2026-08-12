@@ -1,0 +1,470 @@
+{
+  "name": "AI UI Style Vault Component Manifest",
+  "version": "1.0.0",
+  "universalRequirements": [
+    "semantic HTML or equivalent native semantics",
+    "visible focus",
+    "keyboard operation",
+    "accessible name",
+    "long-content resilience",
+    "mobile behavior",
+    "high-zoom support",
+    "reduced-motion-safe transitions"
+  ],
+  "stateVocabulary": [
+    "default",
+    "hover",
+    "focus-visible",
+    "active",
+    "selected",
+    "disabled",
+    "read-only",
+    "loading",
+    "empty",
+    "error",
+    "success",
+    "warning",
+    "permission-denied",
+    "offline",
+    "retrying"
+  ],
+  "components": [
+    {
+      "id": "button",
+      "category": "action",
+      "requiredStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "active",
+        "disabled",
+        "loading"
+      ],
+      "requiredVariants": [
+        "primary",
+        "secondary",
+        "quiet",
+        "destructive"
+      ],
+      "contentBudget": {
+        "labelWordsMax": 6
+      }
+    },
+    {
+      "id": "icon-button",
+      "category": "action",
+      "requiredStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "active",
+        "disabled",
+        "loading"
+      ],
+      "requiredAccessibility": [
+        "accessible name",
+        "tooltip when meaning is not obvious"
+      ]
+    },
+    {
+      "id": "input",
+      "category": "form",
+      "requiredStates": [
+        "default",
+        "focus-visible",
+        "disabled",
+        "read-only",
+        "error",
+        "success"
+      ],
+      "requiredParts": [
+        "label",
+        "control",
+        "optional help",
+        "error"
+      ]
+    },
+    {
+      "id": "textarea",
+      "category": "form",
+      "requiredStates": [
+        "default",
+        "focus-visible",
+        "disabled",
+        "read-only",
+        "error"
+      ],
+      "requiredParts": [
+        "label",
+        "control",
+        "optional help",
+        "optional count",
+        "error"
+      ]
+    },
+    {
+      "id": "select",
+      "category": "form",
+      "requiredStates": [
+        "default",
+        "focus-visible",
+        "disabled",
+        "error",
+        "loading"
+      ],
+      "requiredAccessibility": [
+        "keyboard selection",
+        "announced value"
+      ]
+    },
+    {
+      "id": "combobox",
+      "category": "form",
+      "requiredStates": [
+        "default",
+        "focus-visible",
+        "open",
+        "loading",
+        "empty",
+        "error",
+        "disabled"
+      ],
+      "requiredAccessibility": [
+        "keyboard navigation",
+        "active option announcement"
+      ]
+    },
+    {
+      "id": "checkbox-radio-switch",
+      "category": "form",
+      "requiredStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled",
+        "error"
+      ],
+      "requiredParts": [
+        "control",
+        "label",
+        "optional description"
+      ]
+    },
+    {
+      "id": "date-picker",
+      "category": "form",
+      "requiredStates": [
+        "default",
+        "focus-visible",
+        "open",
+        "selected",
+        "disabled",
+        "error"
+      ],
+      "requiredAccessibility": [
+        "keyboard calendar navigation",
+        "manual input path when appropriate"
+      ]
+    },
+    {
+      "id": "file-upload",
+      "category": "form",
+      "requiredStates": [
+        "idle",
+        "drag-active",
+        "selected",
+        "uploading",
+        "processing",
+        "error",
+        "success",
+        "disabled"
+      ],
+      "requiredParts": [
+        "requirements",
+        "input",
+        "file summary",
+        "progress",
+        "remove or replace",
+        "error recovery"
+      ]
+    },
+    {
+      "id": "form-field",
+      "category": "form-foundation",
+      "requiredStates": [
+        "default",
+        "disabled",
+        "read-only",
+        "error",
+        "success"
+      ],
+      "requiredParts": [
+        "label",
+        "required indicator",
+        "description",
+        "control",
+        "message"
+      ]
+    },
+    {
+      "id": "card",
+      "category": "surface",
+      "requiredStates": [
+        "default",
+        "hover when interactive",
+        "focus-visible when interactive",
+        "selected when selectable",
+        "disabled when actionable"
+      ],
+      "rule": "Use only for independent objects, comparisons, or interaction—not as a border around every paragraph."
+    },
+    {
+      "id": "metric-card",
+      "category": "data",
+      "requiredStates": [
+        "loading",
+        "empty",
+        "error",
+        "populated"
+      ],
+      "requiredParts": [
+        "label",
+        "value",
+        "context or delta when meaningful"
+      ]
+    },
+    {
+      "id": "chart-card",
+      "category": "data",
+      "requiredStates": [
+        "loading",
+        "empty",
+        "error",
+        "populated"
+      ],
+      "requiredAccessibility": [
+        "text alternative or data table",
+        "clear units and labels"
+      ]
+    },
+    {
+      "id": "data-table",
+      "category": "data",
+      "requiredStates": [
+        "loading",
+        "empty",
+        "filtered-empty",
+        "error",
+        "populated",
+        "permission-denied"
+      ],
+      "requiredCapabilities": [
+        "column labels",
+        "sort when relevant",
+        "filter when relevant",
+        "search when relevant",
+        "responsive strategy",
+        "row detail",
+        "pagination or virtualization"
+      ]
+    },
+    {
+      "id": "tabs",
+      "category": "navigation",
+      "requiredStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled"
+      ],
+      "requiredAccessibility": [
+        "arrow-key navigation",
+        "tab-panel relationships"
+      ]
+    },
+    {
+      "id": "accordion",
+      "category": "disclosure",
+      "requiredStates": [
+        "collapsed",
+        "expanded",
+        "hover",
+        "focus-visible",
+        "disabled"
+      ],
+      "requiredAccessibility": [
+        "button semantics",
+        "expanded state"
+      ]
+    },
+    {
+      "id": "tooltip",
+      "category": "disclosure",
+      "requiredStates": [
+        "hidden",
+        "visible"
+      ],
+      "requiredAccessibility": [
+        "hover and focus trigger",
+        "nonessential concise content"
+      ]
+    },
+    {
+      "id": "popover-menu-command",
+      "category": "overlay",
+      "requiredStates": [
+        "closed",
+        "open",
+        "focus-visible",
+        "selected",
+        "disabled",
+        "empty"
+      ],
+      "requiredAccessibility": [
+        "focus management",
+        "escape close",
+        "keyboard navigation"
+      ]
+    },
+    {
+      "id": "dialog",
+      "category": "overlay",
+      "requiredStates": [
+        "closed",
+        "open",
+        "submitting",
+        "error",
+        "success"
+      ],
+      "requiredAccessibility": [
+        "labelled dialog",
+        "focus trap",
+        "focus restore",
+        "escape behavior"
+      ]
+    },
+    {
+      "id": "drawer",
+      "category": "overlay",
+      "requiredStates": [
+        "closed",
+        "open",
+        "loading",
+        "error"
+      ],
+      "requiredAccessibility": [
+        "focus management",
+        "close control",
+        "mobile-safe viewport"
+      ]
+    },
+    {
+      "id": "toast-banner",
+      "category": "feedback",
+      "requiredStates": [
+        "info",
+        "success",
+        "warning",
+        "error"
+      ],
+      "requiredAccessibility": [
+        "appropriate live-region behavior",
+        "persistent alternative for critical errors"
+      ]
+    },
+    {
+      "id": "navigation-shell",
+      "category": "navigation",
+      "requiredStates": [
+        "desktop",
+        "mobile-closed",
+        "mobile-open",
+        "active-route",
+        "collapsed",
+        "permission-filtered"
+      ],
+      "requiredAccessibility": [
+        "landmarks",
+        "skip link",
+        "focus restore",
+        "no scroll trap"
+      ]
+    },
+    {
+      "id": "pagination",
+      "category": "navigation",
+      "requiredStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "current",
+        "disabled"
+      ],
+      "requiredAccessibility": [
+        "current page announcement",
+        "previous and next labels"
+      ]
+    },
+    {
+      "id": "empty-state",
+      "category": "feedback",
+      "requiredVariants": [
+        "first-use",
+        "filtered",
+        "permission",
+        "error",
+        "completed"
+      ],
+      "requiredParts": [
+        "specific title",
+        "concise explanation",
+        "appropriate next action"
+      ]
+    },
+    {
+      "id": "error-state",
+      "category": "feedback",
+      "requiredVariants": [
+        "inline",
+        "section",
+        "page",
+        "system"
+      ],
+      "requiredParts": [
+        "failure",
+        "impact",
+        "recovery",
+        "support path when needed"
+      ]
+    },
+    {
+      "id": "skeleton-progress",
+      "category": "feedback",
+      "requiredStates": [
+        "indeterminate",
+        "determinate",
+        "paused",
+        "error",
+        "complete"
+      ],
+      "rule": "Choose progress for meaningful duration and skeletons for stable layout; do not hide long-running work behind an indefinite spinner."
+    },
+    {
+      "id": "stepper",
+      "category": "workflow",
+      "requiredStates": [
+        "upcoming",
+        "current",
+        "complete",
+        "error",
+        "disabled"
+      ],
+      "requiredAccessibility": [
+        "ordered structure",
+        "current-step announcement"
+      ]
+    }
+  ]
+}

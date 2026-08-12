@@ -1,0 +1,381 @@
+{
+  "schemaVersion": "1.0.0",
+  "product": {
+    "name": "Tax Review Workspace",
+    "type": "saas-web-app",
+    "domain": "tax compliance and review",
+    "primaryUsers": [
+      "tax consultants",
+      "finance managers"
+    ],
+    "secondaryUsers": [
+      "review managers",
+      "client approvers"
+    ],
+    "topTasks": [
+      "upload transaction schedules",
+      "review VAT and WHT exceptions",
+      "resolve classifications",
+      "approve findings",
+      "export review reports"
+    ],
+    "primaryOutcome": "Complete a documented tax review with fewer unresolved exceptions.",
+    "trustLevel": "critical",
+    "riskLevel": "regulated",
+    "successSignals": [
+      "exceptions resolved",
+      "review approved",
+      "report exported",
+      "audit trail complete"
+    ]
+  },
+  "experience": {
+    "primaryJourney": [
+      "sign in",
+      "open engagement",
+      "upload schedule",
+      "process data",
+      "review exceptions",
+      "resolve findings",
+      "approve",
+      "export report"
+    ],
+    "pages": [
+      {
+        "id": "dashboard",
+        "purpose": "Show active engagements, blocked reviews, deadlines, and the next highest-priority action.",
+        "audience": [
+          "tax consultants",
+          "review managers"
+        ],
+        "primaryAction": "Open priority review",
+        "secondaryActions": [
+          "Create engagement",
+          "Upload schedule"
+        ],
+        "blueprint": "saas-dashboard",
+        "requiredInformation": [
+          "engagement status",
+          "unresolved exception count",
+          "deadline",
+          "review owner"
+        ],
+        "deferredInformation": [
+          "full engagement history",
+          "methodology detail"
+        ],
+        "requiredStates": [
+          "loading",
+          "empty",
+          "error",
+          "permission-denied",
+          "populated"
+        ]
+      },
+      {
+        "id": "upload",
+        "purpose": "Collect a valid schedule, explain requirements, and show processing progress or recovery.",
+        "audience": [
+          "tax consultants"
+        ],
+        "primaryAction": "Upload schedule",
+        "secondaryActions": [
+          "Download template"
+        ],
+        "blueprint": "file-upload-analysis",
+        "requiredInformation": [
+          "accepted format",
+          "required headers",
+          "retention note"
+        ],
+        "deferredInformation": [
+          "advanced mapping rules"
+        ],
+        "requiredStates": [
+          "idle",
+          "selected",
+          "uploading",
+          "processing",
+          "validation-error",
+          "processing-error",
+          "success"
+        ]
+      },
+      {
+        "id": "review-workspace",
+        "purpose": "Inspect evidence, resolve exceptions, document decisions, and submit the review for approval.",
+        "audience": [
+          "tax consultants",
+          "review managers"
+        ],
+        "primaryAction": "Resolve selected exception",
+        "secondaryActions": [
+          "Add note",
+          "Escalate",
+          "View source row"
+        ],
+        "blueprint": "review-workspace",
+        "requiredInformation": [
+          "exception reason",
+          "transaction evidence",
+          "suggested classification",
+          "policy reference",
+          "decision history"
+        ],
+        "deferredInformation": [
+          "full methodology",
+          "unrelated engagement metrics"
+        ],
+        "requiredStates": [
+          "loading",
+          "no-selection",
+          "error",
+          "conflict",
+          "saved",
+          "completed",
+          "permission-denied"
+        ]
+      },
+      {
+        "id": "report",
+        "purpose": "Summarize findings, evidence, unresolved items, recommendations, and export options.",
+        "audience": [
+          "review managers",
+          "client approvers"
+        ],
+        "primaryAction": "Export report",
+        "secondaryActions": [
+          "Share for approval"
+        ],
+        "blueprint": "report-results",
+        "requiredInformation": [
+          "headline findings",
+          "material exceptions",
+          "recommendations",
+          "scope",
+          "status"
+        ],
+        "deferredInformation": [
+          "row-level evidence until expanded"
+        ],
+        "requiredStates": [
+          "generating",
+          "partial",
+          "error",
+          "complete",
+          "stale"
+        ]
+      }
+    ]
+  },
+  "content": {
+    "density": "data-dense",
+    "tone": [
+      "precise",
+      "professional",
+      "calm",
+      "specific"
+    ],
+    "readingStyle": "plain-business",
+    "progressiveDisclosure": true,
+    "preferVisualExplanation": true,
+    "copyBudgets": {
+      "heroHeadlineWordsMax": 10,
+      "heroSupportWordsMax": 30,
+      "featureDescriptionWordsMax": 40,
+      "paragraphWordsMax": 65,
+      "majorSectionsMax": 7
+    },
+    "messageHierarchy": [
+      "current risk",
+      "required action",
+      "evidence",
+      "decision consequence",
+      "supporting detail"
+    ],
+    "prohibitedPatterns": [
+      "generic AI marketing language",
+      "paragraphs inside every dashboard card",
+      "repeated benefit claims",
+      "promotional language inside review screens"
+    ],
+    "industryTerminology": [
+      "VAT",
+      "WHT",
+      "exception",
+      "classification",
+      "review evidence",
+      "engagement",
+      "approval",
+      "audit trail"
+    ]
+  },
+  "visualDirection": {
+    "productionTheme": "executive-finance",
+    "primaryStyle": {
+      "name": "Acctual",
+      "path": "styles/refero-styles/acctual"
+    },
+    "supportingReferences": [
+      {
+        "path": "screens/refero/web/dashboard/<selected-dashboard>",
+        "purpose": "Dense dashboard hierarchy and status grouping"
+      },
+      {
+        "path": "screens/refero/web/login/<selected-login>",
+        "purpose": "Focused authentication composition"
+      }
+    ],
+    "tone": [
+      "trustworthy",
+      "data-forward",
+      "restrained",
+      "premium"
+    ],
+    "colorMode": "light",
+    "radiusAttitude": "restrained",
+    "surfaceAttitude": "Open working canvas with selective panels and clear dividers",
+    "typographyAttitude": "Compact professional sans with strong numeric hierarchy",
+    "originalityStatement": "Use the selected references for token logic and composition principles only; create original navigation, content, workflows, components, and motion for the tax-review product."
+  },
+  "layout": {
+    "navigation": "collapsible sidebar with contextual page header",
+    "interfaceDensity": "high",
+    "contentWidth": "wide",
+    "responsiveStrategy": [
+      "collapse sidebar into a modal drawer",
+      "turn split review workspace into list then full-screen detail",
+      "preserve primary resolution action in a bottom action bar",
+      "prioritize exception, amount, status, and action columns on mobile"
+    ],
+    "tableMobileStrategy": "priority columns plus row detail drawer",
+    "firstViewportGoal": "Show blocked reviews, material exceptions, and the next action without explanatory paragraphs."
+  },
+  "components": {
+    "required": [
+      "navigation-shell",
+      "button",
+      "icon-button",
+      "form-field",
+      "file-upload",
+      "data-table",
+      "metric-card",
+      "tabs",
+      "drawer",
+      "dialog",
+      "toast-banner",
+      "empty-state",
+      "error-state",
+      "skeleton-progress",
+      "stepper"
+    ],
+    "requiredStates": [
+      "loading",
+      "empty",
+      "filtered-empty",
+      "error",
+      "success",
+      "disabled",
+      "permission-denied",
+      "conflict",
+      "retrying"
+    ],
+    "reusePolicy": "Use shared semantic components and state patterns; do not duplicate page-specific controls with different behavior.",
+    "dataPatterns": [
+      "sortable exception table",
+      "filter bar",
+      "row detail drawer",
+      "review status timeline",
+      "report summary"
+    ],
+    "formPatterns": [
+      "file upload with processing",
+      "classification form",
+      "decision note",
+      "approval confirmation"
+    ]
+  },
+  "motion": {
+    "model": "quiet-premium",
+    "intensity": "subtle",
+    "primitives": [
+      "button-press",
+      "loading-button",
+      "shared-layout-tabs",
+      "drawer-transition",
+      "animated-data-change"
+    ],
+    "primaryTool": "CSS transitions plus Motion for React only where shared state needs continuity",
+    "assetSources": [],
+    "reducedMotionPlan": "Remove spatial movement and animated data interpolation; show final states immediately while retaining status announcements and focus movement."
+  },
+  "accessibility": {
+    "target": "WCAG-2.2-AA",
+    "keyboard": true,
+    "focusVisible": true,
+    "contrast": true,
+    "zoom": true,
+    "screenReader": true,
+    "motionSensitivity": true,
+    "notes": [
+      "table row actions must be keyboard reachable",
+      "processing status must be announced",
+      "errors must preserve uploaded-file context where possible"
+    ]
+  },
+  "performance": {
+    "mobileFirstPaintPriority": true,
+    "lazyLoadOffscreenMedia": true,
+    "avoidLayoutAnimation": true,
+    "bundleDiscipline": "Use CSS for simple transitions and avoid shipping heavy animation or chart packages for minor effects.",
+    "budgets": {
+      "initialJavaScript": "project-specific",
+      "largestContentfulPaint": "review on mobile"
+    }
+  },
+  "assetPolicy": {
+    "allowed": [
+      "user-provided assets",
+      "original local UI",
+      "generated assets",
+      "clearly licensed media"
+    ],
+    "prohibited": [
+      "copied target-site screenshots",
+      "protected logos",
+      "reference-site footage",
+      "premium prompt text",
+      "exact brand layouts"
+    ],
+    "licenseNotesRequired": true
+  },
+  "quality": {
+    "requiredViewports": [
+      "1440x1000",
+      "1280x800",
+      "390x844"
+    ],
+    "requiredCommands": [
+      "lint",
+      "typecheck",
+      "tests",
+      "build",
+      "python scripts/validate-content-design.py <target-root>"
+    ],
+    "requiredEvidence": [
+      "filled planning artifacts",
+      "desktop and mobile screenshots or notes",
+      "keyboard and focus review",
+      "state coverage review",
+      "asset audit",
+      "reduced-motion review"
+    ],
+    "rejectConditions": [
+      "first viewport dominated by prose",
+      "missing exception states",
+      "generic SaaS wording",
+      "table unusable on mobile",
+      "copied or hotlinked protected assets"
+    ]
+  }
+}

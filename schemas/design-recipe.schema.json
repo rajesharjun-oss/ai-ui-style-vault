@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-ui-style-vault/design-recipe.schema.json",
+  "title": "AI UI Style Vault Design Recipe",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion", "product", "experience", "content", "visualDirection",
+    "layout", "components", "motion", "accessibility", "performance",
+    "assetPolicy", "quality"
+  ],
+  "properties": {
+    "schemaVersion": {"const": "1.0.0"},
+    "product": {
+      "type": "object",
+      "required": ["name", "type", "primaryUsers", "topTasks", "primaryOutcome", "trustLevel", "riskLevel"],
+      "properties": {
+        "name": {"type": "string", "minLength": 2},
+        "type": {"type": "string", "enum": ["marketing-website", "professional-services-website", "saas-web-app", "internal-tool", "dashboard", "ai-workspace", "ecommerce", "mobile-style-app", "other"]},
+        "domain": {"type": "string"},
+        "primaryUsers": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "secondaryUsers": {"type": "array", "items": {"type": "string"}},
+        "topTasks": {"type": "array", "minItems": 1, "maxItems": 7, "items": {"type": "string"}},
+        "primaryOutcome": {"type": "string", "minLength": 5},
+        "trustLevel": {"enum": ["low", "medium", "high", "critical"]},
+        "riskLevel": {"enum": ["low", "medium", "high", "regulated"]},
+        "successSignals": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "experience": {
+      "type": "object",
+      "required": ["primaryJourney", "pages"],
+      "properties": {
+        "primaryJourney": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+        "pages": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/page"}}
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": ["density", "tone", "readingStyle", "progressiveDisclosure", "preferVisualExplanation", "copyBudgets", "prohibitedPatterns"],
+      "properties": {
+        "density": {"enum": ["sparse", "balanced", "informational", "data-dense"]},
+        "tone": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "readingStyle": {"type": "string"},
+        "progressiveDisclosure": {"type": "boolean"},
+        "preferVisualExplanation": {"type": "boolean"},
+        "copyBudgets": {"type": "object"},
+        "messageHierarchy": {"type": "array", "items": {"type": "string"}},
+        "prohibitedPatterns": {"type": "array", "items": {"type": "string"}},
+        "industryTerminology": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "visualDirection": {
+      "type": "object",
+      "required": ["productionTheme", "primaryStyle", "tone", "colorMode", "radiusAttitude", "surfaceAttitude", "originalityStatement"],
+      "properties": {
+        "productionTheme": {"type": "string"},
+        "primaryStyle": {"type": "object", "required": ["name", "path"]},
+        "supportingReferences": {"type": "array", "items": {"type": "object", "required": ["path", "purpose"]}},
+        "tone": {"type": "array", "items": {"type": "string"}},
+        "colorMode": {"enum": ["light", "dark", "adaptive"]},
+        "radiusAttitude": {"enum": ["minimal", "restrained", "moderate", "soft", "contextual"]},
+        "surfaceAttitude": {"type": "string"},
+        "typographyAttitude": {"type": "string"},
+        "originalityStatement": {"type": "string", "minLength": 20}
+      }
+    },
+    "layout": {"type": "object", "required": ["navigation", "interfaceDensity", "contentWidth", "responsiveStrategy"]},
+    "components": {"type": "object", "required": ["required", "requiredStates", "reusePolicy"]},
+    "motion": {
+      "type": "object",
+      "required": ["model", "intensity", "primitives", "primaryTool", "reducedMotionPlan"],
+      "properties": {
+        "model": {"enum": ["none", "quiet-premium", "product-story", "cinematic-media", "creative-studio", "technical-motion", "immersive-3d", "microinteraction-led"]},
+        "intensity": {"enum": ["none", "subtle", "balanced", "expressive"]},
+        "primitives": {"type": "array", "maxItems": 5, "items": {"type": "string"}},
+        "primaryTool": {"type": "string"},
+        "assetSources": {"type": "array", "items": {"type": "string"}},
+        "reducedMotionPlan": {"type": "string", "minLength": 15}
+      }
+    },
+    "accessibility": {"type": "object", "required": ["target", "keyboard", "focusVisible", "contrast", "zoom", "screenReader", "motionSensitivity"]},
+    "performance": {"type": "object", "required": ["mobileFirstPaintPriority", "lazyLoadOffscreenMedia", "avoidLayoutAnimation", "bundleDiscipline"]},
+    "assetPolicy": {"type": "object", "required": ["allowed", "prohibited", "licenseNotesRequired"]},
+    "quality": {"type": "object", "required": ["requiredViewports", "requiredCommands", "requiredEvidence", "rejectConditions"]}
+  },
+  "$defs": {
+    "page": {
+      "type": "object",
+      "required": ["id", "purpose", "primaryAction", "blueprint", "requiredStates"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "purpose": {"type": "string", "minLength": 8},
+        "audience": {"type": "array", "items": {"type": "string"}},
+        "primaryAction": {"type": "string", "minLength": 2},
+        "secondaryActions": {"type": "array", "items": {"type": "string"}},
+        "blueprint": {"type": "string"},
+        "requiredInformation": {"type": "array", "items": {"type": "string"}},
+        "deferredInformation": {"type": "array", "items": {"type": "string"}},
+        "requiredStates": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      }
+    }
+  }
+}
