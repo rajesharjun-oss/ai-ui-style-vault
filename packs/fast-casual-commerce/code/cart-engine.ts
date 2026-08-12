@@ -264,5 +264,6 @@ export function canCheckout(cart: Cart): boolean {
  * Security boundary:
  * The browser calculation is presentation only. The server must reprice and revalidate
  * branch, fulfilment, address, availability, promotions, fees, tax, payment, and order
- * creation with an idempotency key before accepting an order.
+ * creation with an idempotency key before accepting an order. A payment-pending state
+ * must be resolved through the payment or order API; never infer confirmation client-side.
  */
