@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "name": "Ember Kitchen sample menu",
+    "purpose": "Non-production sample data for layout, state, and customiser testing.",
+    "warning": "Do not present these products, prices, branches, hours, or images as facts about a real business.",
+    "currency": "NGN",
+    "priceUnit": "minor"
+  },
+  "branches": [
+    {
+      "id": "sample-central",
+      "name": "Sample Central Branch",
+      "address": "Owner confirmation required",
+      "timezone": "Africa/Lagos",
+      "fulfilmentModes": ["delivery", "pickup"],
+      "statusSource": "static-prototype"
+    }
+  ],
+  "categories": [
+    {"id": "signature", "name": "Signature", "sortOrder": 10, "productIds": ["smoky-chicken-flatbread", "garden-heat-flatbread"]},
+    {"id": "sides", "name": "Sides", "sortOrder": 20, "productIds": ["spiced-potato-bites"]},
+    {"id": "drinks", "name": "Drinks", "sortOrder": 30, "productIds": ["citrus-sparkler"]},
+    {"id": "desserts", "name": "Desserts", "sortOrder": 40, "productIds": ["cocoa-swirl"]}
+  ],
+  "products": [
+    {
+      "id": "smoky-chicken-flatbread",
+      "categoryId": "signature",
+      "name": "Smoky Chicken Flatbread",
+      "description": "Roasted chicken, sweet pepper, onion, smoky tomato sauce, and mozzarella.",
+      "basePrice": {"amountMinor": 720000, "currency": "NGN"},
+      "priceLabel": "from",
+      "availability": "available",
+      "sortOrder": 10,
+      "images": [
+        {
+          "src": "/assets/sample/smoky-chicken.webp",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Concept photograph of a smoky chicken flatbread",
+          "provenance": "generated-concept"
+        }
+      ],
+      "optionGroups": [
+        {
+          "id": "size",
+          "name": "Size",
+          "required": true,
+          "selection": "single",
+          "minimumSelections": 1,
+          "maximumSelections": 1,
+          "sortOrder": 10,
+          "values": [
+            {"id": "medium", "name": "Medium", "priceDelta": {"amountMinor": 0, "currency": "NGN"}, "availability": "available", "sortOrder": 10},
+            {"id": "large", "name": "Large", "priceDelta": {"amountMinor": 240000, "currency": "NGN"}, "availability": "available", "sortOrder": 20}
+          ]
+        },
+        {
+          "id": "base",
+          "name": "Base",
+          "required": true,
+          "selection": "single",
+          "minimumSelections": 1,
+          "maximumSelections": 1,
+          "sortOrder": 20,
+          "values": [
+            {"id": "classic", "name": "Classic", "priceDelta": {"amountMinor": 0, "currency": "NGN"}, "availability": "available", "sortOrder": 10},
+            {"id": "thin", "name": "Thin", "priceDelta": {"amountMinor": 0, "currency": "NGN"}, "availability": "temporarily-unavailable", "sortOrder": 20}
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Add extras",
+          "required": false,
+          "selection": "multiple",
+          "minimumSelections": 0,
+          "maximumSelections": 3,
+          "sortOrder": 30,
+          "values": [
+            {"id": "extra-cheese", "name": "Extra cheese", "priceDelta": {"amountMinor": 85000, "currency": "NGN"}, "availability": "available", "sortOrder": 10},
+            {"id": "jalapeno", "name": "Jalapeño", "priceDelta": {"amountMinor": 50000, "currency": "NGN"}, "availability": "available", "sortOrder": 20}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garden-heat-flatbread",
+      "categoryId": "signature",
+      "name": "Garden Heat Flatbread",
+      "description": "Mushroom, pepper, onion, chilli, tomato sauce, and mozzarella.",
+      "basePrice": {"amountMinor": 640000, "currency": "NGN"},
+      "priceLabel": "fixed",
+      "availability": "temporarily-unavailable",
+      "sortOrder": 20,
+      "images": [
+        {"src": "/assets/sample/garden-heat.webp", "width": 1200, "height": 1200, "alt": "Concept photograph of a vegetable flatbread", "provenance": "generated-concept"}
+      ],
+      "optionGroups": []
+    },
+    {
+      "id": "spiced-potato-bites",
+      "categoryId": "sides",
+      "name": "Spiced Potato Bites",
+      "description": "Crisp potato bites with a warm spice blend.",
+      "basePrice": {"amountMinor": 260000, "currency": "NGN"},
+      "priceLabel": "fixed",
+      "availability": "available",
+      "sortOrder": 10,
+      "images": [
+        {"src": "/assets/sample/potato-bites.webp", "width": 1200, "height": 1200, "alt": "Concept photograph of spiced potato bites", "provenance": "generated-concept"}
+      ],
+      "optionGroups": []
+    },
+    {
+      "id": "citrus-sparkler",
+      "categoryId": "drinks",
+      "name": "Citrus Sparkler",
+      "description": "Chilled citrus drink with sparkling water.",
+      "basePrice": {"amountMinor": 180000, "currency": "NGN"},
+      "priceLabel": "fixed",
+      "availability": "available",
+      "sortOrder": 10,
+      "images": [
+        {"src": "/assets/sample/citrus-sparkler.webp", "width": 1200, "height": 1200, "alt": "Concept photograph of a citrus sparkling drink", "provenance": "generated-concept"}
+      ],
+      "optionGroups": []
+    },
+    {
+      "id": "cocoa-swirl",
+      "categoryId": "desserts",
+      "name": "Cocoa Swirl",
+      "description": "Warm baked cocoa swirl with a soft centre.",
+      "basePrice": {"amountMinor": 230000, "currency": "NGN"},
+      "priceLabel": "fixed",
+      "availability": "out-of-stock",
+      "sortOrder": 10,
+      "images": [
+        {"src": "/assets/sample/cocoa-swirl.webp", "width": 1200, "height": 1200, "alt": "Concept photograph of a cocoa baked dessert", "provenance": "generated-concept"}
+      ],
+      "optionGroups": []
+    }
+  ]
+}
