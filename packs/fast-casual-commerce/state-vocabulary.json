@@ -1,0 +1,135 @@
+{
+  "name": "Fast-Casual Commerce State Vocabulary",
+  "version": "1.0.0",
+  "extends": "system/component-manifest.json#stateVocabulary",
+  "states": [
+    {
+      "id": "out-of-stock",
+      "meaning": "The product or required option cannot be purchased.",
+      "requiredResponse": "Disable purchase, preserve context, explain the unavailable item, and offer an appropriate alternative."
+    },
+    {
+      "id": "temporarily-unavailable",
+      "meaning": "The item is expected to return but is not currently orderable.",
+      "requiredResponse": "Show availability status without removing the item from discovery unless the business requires it."
+    },
+    {
+      "id": "store-closed",
+      "meaning": "The selected branch is not accepting the selected fulfilment mode now.",
+      "requiredResponse": "Show next opening time when verified and offer scheduling or another branch only when supported."
+    },
+    {
+      "id": "delivery-unavailable",
+      "meaning": "Delivery is unavailable for the branch, time, address, or order.",
+      "requiredResponse": "Explain the reason and offer pickup, another address, or another branch when supported."
+    },
+    {
+      "id": "outside-delivery-zone",
+      "meaning": "The entered address is outside the verified service area.",
+      "requiredResponse": "Do not imply delivery is possible. Offer pickup or eligible nearby branches if available."
+    },
+    {
+      "id": "minimum-order-not-met",
+      "meaning": "The delivery or promotion threshold has not been reached.",
+      "requiredResponse": "Show the remaining amount and keep the cart editable."
+    },
+    {
+      "id": "required-option-missing",
+      "meaning": "A product cannot be added until a required choice is made.",
+      "requiredResponse": "Identify the exact option group, move focus to it, and preserve all other selections."
+    },
+    {
+      "id": "modifier-unavailable",
+      "meaning": "A selected modifier is no longer available.",
+      "requiredResponse": "Remove or replace it only with user acknowledgement and recalculate the line total."
+    },
+    {
+      "id": "coupon-applied",
+      "meaning": "A valid promotion changed the order total.",
+      "requiredResponse": "Show the discount, qualification, and updated total."
+    },
+    {
+      "id": "coupon-invalid",
+      "meaning": "The code is not valid for the current order.",
+      "requiredResponse": "Give a specific, non-destructive explanation without clearing the cart."
+    },
+    {
+      "id": "coupon-expired",
+      "meaning": "The promotion is no longer valid.",
+      "requiredResponse": "Explain expiry and remove any provisional discount."
+    },
+    {
+      "id": "location-changed",
+      "meaning": "The customer changed branch or delivery address.",
+      "requiredResponse": "Revalidate availability, pricing, tax, fees, promotions, and fulfilment."
+    },
+    {
+      "id": "cart-recalculated",
+      "meaning": "The cart changed because branch, address, time, availability, price, or promotion changed.",
+      "requiredResponse": "Show exactly what changed and require confirmation before checkout when material."
+    },
+    {
+      "id": "cart-conflict",
+      "meaning": "One or more cart lines cannot be fulfilled under the current context.",
+      "requiredResponse": "Group conflicts, preserve valid items, and provide direct edit or removal actions."
+    },
+    {
+      "id": "payment-pending",
+      "meaning": "Payment outcome is not yet confirmed.",
+      "requiredResponse": "Prevent duplicate submission and provide a safe status-check or recovery path."
+    },
+    {
+      "id": "payment-failed",
+      "meaning": "Payment did not complete.",
+      "requiredResponse": "Keep the order context, explain the next action, and do not imply the order is confirmed."
+    },
+    {
+      "id": "payment-authorised",
+      "meaning": "Payment is authorised but order creation still requires confirmation.",
+      "requiredResponse": "Continue idempotently and handle order-creation failure without double charging."
+    },
+    {
+      "id": "order-confirmed",
+      "meaning": "The business accepted the order.",
+      "requiredResponse": "Show order identifier, fulfilment, branch, items, total, contact path, and next status."
+    },
+    {
+      "id": "preparing",
+      "meaning": "The order is being prepared.",
+      "requiredResponse": "Show status and verified estimate only when available."
+    },
+    {
+      "id": "ready-for-pickup",
+      "meaning": "The order is ready at the selected branch.",
+      "requiredResponse": "Show pickup instructions, branch, order identifier, and contact path."
+    },
+    {
+      "id": "out-for-delivery",
+      "meaning": "The order has left the branch for delivery.",
+      "requiredResponse": "Show delivery status and tracking details only when verified."
+    },
+    {
+      "id": "delivered",
+      "meaning": "Delivery is complete.",
+      "requiredResponse": "Show completion, receipt access, support, and feedback path."
+    },
+    {
+      "id": "cancelled",
+      "meaning": "The order will not be fulfilled.",
+      "requiredResponse": "Show the verified reason, refund status when applicable, and support path."
+    },
+    {
+      "id": "offline-cart",
+      "meaning": "The device is offline while the user has an active cart.",
+      "requiredResponse": "Preserve local intent, clearly mark stale price or availability, and revalidate before submission."
+    }
+  ],
+  "transitionRules": [
+    "Never move from payment-pending to order-confirmed without a verified order identifier.",
+    "Any branch, address, fulfilment, schedule, or material option change must trigger cart revalidation.",
+    "Do not silently remove paid modifiers, discounts, or cart lines.",
+    "Preserve the user's valid selections when one option fails.",
+    "Announce material cart and order-state changes to assistive technology.",
+    "Treat backend status as source of truth; animation must not invent progress."
+  ]
+}
