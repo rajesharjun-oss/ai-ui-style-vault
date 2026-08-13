@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": {
+    "name": "Amina and Idris Fictional Celebration",
+    "productType": "nikkah-and-reception-microsite",
+    "audience": ["invited-guests", "family", "event-coordinators"],
+    "primaryAction": "complete-rsvp",
+    "riskLevel": "high-personal-data",
+    "fictionalExample": true
+  },
+  "domainPack": {
+    "id": "celebration-event-microsite",
+    "path": "packs/celebration-event-microsite",
+    "requiredPrompt": "prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md"
+  },
+  "event": {
+    "timezone": "Africa/Lagos",
+    "primaryStart": "2027-09-18T10:00:00+01:00",
+    "primaryEnd": "2027-09-18T19:00:00+01:00",
+    "rsvpOpens": "2027-04-01T09:00:00+01:00",
+    "rsvpCloses": "2027-08-01T23:59:00+01:00",
+    "postEventMode": "gallery"
+  },
+  "privacy": {
+    "model": "public-summary-private-details",
+    "indexing": "noindex",
+    "guestLookup": "guest-code",
+    "mediaAccess": "mixed",
+    "financialDetails": "verified-guest-only",
+    "analyticsExclusions": ["guest-names", "invitation-codes", "rsvp-values", "dietary-data", "gift-details", "private-media-identifiers"]
+  },
+  "visualDirection": {
+    "productionTheme": "traditional-celebration",
+    "primaryStyleBundle": "to-be-selected-from-vault",
+    "tone": ["ceremonial", "warm", "specific", "premium"],
+    "contentDensity": "balanced",
+    "typography": {
+      "display": "formal editorial display selected for supplied names and languages",
+      "body": "highly readable contemporary sans",
+      "scriptUse": "monogram-or-short-name-accent-only"
+    },
+    "colourSource": "verified attire and décor palette",
+    "surfaceAttitude": "open photography, material-inspired dividers, limited cards",
+    "mediaAttitude": "couple-provided portraits and ceremony details with approved crops"
+  },
+  "pages": [
+    {"id": "home", "blueprint": "celebration-invitation-home", "primaryAction": "rsvp", "access": "public"},
+    {"id": "meet", "blueprint": "meet-the-couple", "primaryAction": "read-story", "access": "public"},
+    {"id": "story", "blueprint": "story-timeline", "primaryAction": "view-event-details", "access": "public"},
+    {"id": "details", "blueprint": "event-details", "primaryAction": "open-directions", "access": "guest-only"},
+    {"id": "dress-code", "blueprint": "dress-code-colours", "primaryAction": "view-guidance", "access": "guest-only"},
+    {"id": "gallery", "blueprint": "memory-gallery", "primaryAction": "open-viewer", "access": "mixed"},
+    {"id": "rsvp", "blueprint": "rsvp", "primaryAction": "submit-response", "access": "guest-only"},
+    {"id": "gifts", "blueprint": "gifting-registry", "primaryAction": "reveal-verified-options", "access": "guest-only"},
+    {"id": "faq", "blueprint": "event-faq", "primaryAction": "contact-coordinator", "access": "guest-only"},
+    {"id": "after", "blueprint": "post-event-thank-you-gallery", "primaryAction": "view-approved-gallery", "access": "mixed"}
+  ],
+  "components": [
+    "event-hero",
+    "event-countdown",
+    "event-status-banner",
+    "event-schedule",
+    "dress-code-palette",
+    "couple-profile",
+    "relationship-timeline",
+    "memory-gallery",
+    "photo-lightbox",
+    "accessible-video-dialog",
+    "guest-lookup",
+    "rsvp-form",
+    "rsvp-confirmation",
+    "secure-gift-details",
+    "mobile-event-menu"
+  ],
+  "motion": {
+    "model": "ceremonial-reveal",
+    "intensity": "subtle",
+    "primitives": ["hero-fade-rise", "monogram-draw", "section-reveal", "gallery-crossfade", "dialog-transition"],
+    "decorativeLayer": "low-density-petals-on-home-only",
+    "reducedMotion": "all content immediately visible; particles and parallax disabled; dialogs remain functional"
+  },
+  "content": {
+    "homepage": "concise",
+    "heroHeadlineWordsMax": 12,
+    "heroSupportWordsMax": 35,
+    "profileSummaryWordsMax": 60,
+    "timelineSummaryWordsMax": 45,
+    "longContent": "dedicated-pages-and-progressive-disclosure",
+    "prohibited": ["invented-personal-story", "generic-love-filler", "public-bank-details", "unverified-scripture", "repeated-rsvp-sections"]
+  },
+  "assets": {
+    "coupleMedia": "couple-provided-or-photographer-licensed",
+    "generatedMedia": "decorative-only",
+    "hero": "responsive, focal-point-aware, preloaded only if true LCP",
+    "gallery": "lazy-loaded transformed derivatives",
+    "video": "poster, controls, captions-or-transcript, no autoplay sound",
+    "consentRegisterRequired": true
+  },
+  "integrations": {
+    "rsvp": "design-only-prototype",
+    "guestLookup": "requires-integration",
+    "maps": "requires-host-confirmation",
+    "calendar": "requires-integration",
+    "emailConfirmation": "out-of-scope",
+    "whatsappConfirmation": "out-of-scope",
+    "giftRegistry": "requires-host-confirmation",
+    "protectedTransfer": "requires-host-confirmation",
+    "analytics": "privacy-conscious-basic"
+  },
+  "responsive": {
+    "desktop": "media-led compositions and compact fixed navigation",
+    "laptop": "preserve hierarchy and shorten decorative spacing",
+    "tablet": "switch timelines and profile compositions when reading order requires",
+    "mobile": "names/date/action first; stacked profiles; single-column timeline; semantic menu",
+    "zoom": "supports 200 and 400 percent without content loss"
+  },
+  "qualityGates": [
+    "event-lifecycle-tested",
+    "rsvp-states-tested",
+    "guest-access-tested",
+    "gift-details-protected",
+    "desktop-and-mobile-rendered",
+    "keyboard-and-focus-tested",
+    "reduced-motion-tested",
+    "no-animation-fallback-tested",
+    "asset-consent-reviewed",
+    "verified-versus-provisional-content-reported"
+  ]
+}
