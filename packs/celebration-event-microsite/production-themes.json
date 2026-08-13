@@ -1,0 +1,72 @@
+{
+  "name": "Celebration & Event Microsite Production Themes",
+  "version": "1.0.0",
+  "purpose": "Original visual directions selected from the couple, culture, faith, venue, attire and available media. They are not fixed wedding templates.",
+  "themes": [
+    {
+      "id": "romantic-editorial",
+      "name": "Romantic Editorial",
+      "bestFor": ["weddings", "engagements", "anniversaries", "portrait-led celebrations"],
+      "tone": ["romantic", "editorial", "warm", "refined"],
+      "contentDensity": "balanced",
+      "typographyAttitude": "expressive serif with script used sparingly and a highly readable sans for utility text",
+      "colourAttitude": "blush, wine, champagne and warm neutral tones derived from the actual event palette",
+      "surfaceAttitude": "open photographic sections, soft dividers and limited decorative cards",
+      "mediaAttitude": "portrait-led with consistent colour grading and intimate detail photography",
+      "motionModel": "quiet-celebration",
+      "avoid": ["script body copy", "generic floral overload", "long prose over photography", "petals on every screen"]
+    },
+    {
+      "id": "traditional-celebration",
+      "name": "Traditional Celebration",
+      "bestFor": ["Nikkah", "traditional weddings", "multi-ceremony weddings", "culturally specific events"],
+      "tone": ["ceremonial", "joyful", "culturally grounded", "premium"],
+      "contentDensity": "informational",
+      "typographyAttitude": "formal display typography paired with clear contemporary utility text",
+      "colourAttitude": "jewel tones, metallic accents and neutrals derived from attire, textiles and ceremony materials",
+      "surfaceAttitude": "material-inspired sections, fine borders and pattern used as an accent rather than wallpaper",
+      "mediaAttitude": "traditional attire, family and ceremonial detail photography with respectful captions",
+      "motionModel": "ceremonial-reveal",
+      "avoid": ["mixing unrelated cultural motifs", "invented symbols", "costume-like styling", "low-contrast gold text"]
+    },
+    {
+      "id": "luxury-minimal-celebration",
+      "name": "Luxury Minimal Celebration",
+      "bestFor": ["destination weddings", "modern venues", "intimate ceremonies", "high-end anniversaries"],
+      "tone": ["quiet", "exclusive", "precise", "timeless"],
+      "contentDensity": "sparse",
+      "typographyAttitude": "distinctive serif or restrained sans with measured display scale",
+      "colourAttitude": "small neutral palette with one material or botanical accent",
+      "surfaceAttitude": "large photography, generous whitespace, almost no card grids",
+      "mediaAttitude": "architectural venue photography, close portraits and deliberate negative space",
+      "motionModel": "quiet-premium",
+      "avoid": ["generic luxury black-and-gold", "oversized headlines without information", "feature grids", "decorative badges"]
+    },
+    {
+      "id": "modern-playful-celebration",
+      "name": "Modern Playful Celebration",
+      "bestFor": ["engagement parties", "birthdays", "young couples", "informal receptions"],
+      "tone": ["energetic", "friendly", "personal", "confident"],
+      "contentDensity": "balanced",
+      "typographyAttitude": "friendly contemporary type with one expressive display face",
+      "colourAttitude": "controlled multi-accent palette based on event stationery or décor",
+      "surfaceAttitude": "modular compositions, playful crops and selective illustration",
+      "mediaAttitude": "candid photography, motion clips and graphic details",
+      "motionModel": "microinteraction-led-celebration",
+      "avoid": ["confetti on every interaction", "rainbow inconsistency", "childish iconography", "motion that delays RSVP"]
+    },
+    {
+      "id": "faith-centred-ceremony",
+      "name": "Faith-Centred Ceremony",
+      "bestFor": ["Nikkah", "church weddings", "faith-led engagements", "blessing ceremonies"],
+      "tone": ["reverent", "warm", "calm", "hopeful"],
+      "contentDensity": "informational",
+      "typographyAttitude": "calm editorial type with highly legible scripture and ceremony text",
+      "colourAttitude": "soft neutrals and restrained ceremonial accents",
+      "surfaceAttitude": "clear hierarchy, quiet quotation sections and respectful use of symbolism",
+      "mediaAttitude": "couple, ceremony, family and place imagery with consent-aware captions",
+      "motionModel": "quiet-celebration",
+      "avoid": ["invented scripture", "decorative use of sacred text", "unverified religious symbols", "autoplay audio"]
+    }
+  ]
+}
