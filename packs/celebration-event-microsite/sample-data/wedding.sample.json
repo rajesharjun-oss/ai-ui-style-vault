@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "id": "amina-idris-2027-demo",
+    "title": "Amina & Idris",
+    "publicTitle": "Amina and Idris — A Fictional Celebration",
+    "eventType": "multi-event-celebration",
+    "timezone": "Africa/Lagos",
+    "locale": "en-NG",
+    "fictional": true,
+    "description": "Fictional sample data for validating the Celebration & Event Microsite pack. No person, venue or event in this file is real."
+  },
+  "hosts": [
+    {
+      "id": "amina",
+      "displayName": "Amina Bello",
+      "preferredTitle": "Amina",
+      "shortBio": "A thoughtful maker who loves books, family gatherings and carefully planned details.",
+      "fullBio": "This is deliberately fictional sample content. A real build must replace it with verified words supplied or approved by the couple.",
+      "quotation": "Home is the life we choose to build together.",
+      "quickFacts": [
+        {"label": "Hometown", "value": "Fictional sample", "private": false},
+        {"label": "Favourite ritual", "value": "Weekend breakfast", "private": false}
+      ],
+      "portraitMediaId": "portrait-amina",
+      "contentStatus": "verified-couple-content"
+    },
+    {
+      "id": "idris",
+      "displayName": "Idris Lawal",
+      "preferredTitle": "Idris",
+      "shortBio": "A calm problem-solver who enjoys music, long walks and bringing people together.",
+      "fullBio": "This is deliberately fictional sample content. A real build must replace it with verified words supplied or approved by the couple.",
+      "quotation": "The best plans make room for joy.",
+      "quickFacts": [
+        {"label": "Hometown", "value": "Fictional sample", "private": false},
+        {"label": "Favourite pastime", "value": "Live music", "private": false}
+      ],
+      "portraitMediaId": "portrait-idris",
+      "contentStatus": "verified-couple-content"
+    }
+  ],
+  "events": [
+    {
+      "id": "nikkah",
+      "name": "Nikkah Ceremony",
+      "eventType": "nikkah",
+      "startsAt": "2027-09-18T10:00:00+01:00",
+      "endsAt": "2027-09-18T12:00:00+01:00",
+      "timezone": "Africa/Lagos",
+      "venue": "The Crescent Hall — Fictional Demo Venue",
+      "address": "12 Example Avenue, Lagos — fictional address",
+      "directionsUrl": "https://example.com/directions/nikkah",
+      "attendanceScope": "invitation-specific",
+      "status": "confirmed",
+      "instructions": "Please arrive thirty minutes before the ceremony. This instruction is fictional sample content."
+    },
+    {
+      "id": "reception",
+      "name": "Wedding Reception",
+      "eventType": "reception",
+      "startsAt": "2027-09-18T14:00:00+01:00",
+      "endsAt": "2027-09-18T19:00:00+01:00",
+      "timezone": "Africa/Lagos",
+      "venue": "Palm Court — Fictional Demo Venue",
+      "address": "44 Sample Road, Lagos — fictional address",
+      "directionsUrl": "https://example.com/directions/reception",
+      "attendanceScope": "all-invited-guests",
+      "status": "confirmed",
+      "instructions": "Guest check-in opens at 1:30 PM. This instruction is fictional sample content."
+    }
+  ],
+  "rsvp": {
+    "opensAt": "2027-04-01T09:00:00+01:00",
+    "closesAt": "2027-08-01T23:59:00+01:00",
+    "sourceOfTruth": "prototype",
+    "confirmationChannels": ["onscreen"],
+    "editableBeforeDeadline": true,
+    "collects": ["attendance", "event-selection", "guest-count", "meal", "dietary", "message"]
+  },
+  "privacy": {
+    "model": "public-summary-private-details",
+    "indexing": "noindex",
+    "guestLookup": "code",
+    "mediaAccess": "mixed",
+    "financialDetailsAccess": "verified-guest",
+    "retention": {
+      "guestData": "Delete or archive within 90 days after the event, subject to host confirmation.",
+      "site": "Transition to a thank-you gallery for six months, then review.",
+      "media": "Publish only approved images; remove on consent withdrawal.",
+      "financialDetails": "Remove immediately after the event."
+    }
+  },
+  "lifecycle": {
+    "primaryEventStart": "2027-09-18T10:00:00+01:00",
+    "primaryEventEnd": "2027-09-18T19:00:00+01:00",
+    "postEventMode": "gallery",
+    "postEventPublishAt": "2027-09-25T12:00:00+01:00",
+    "archiveAt": "2028-03-18T12:00:00+01:00"
+  },
+  "dressCode": {
+    "title": "Formal with earth-tone accents",
+    "guidance": "Choose formal attire in warm neutral and muted green tones. This is fictional sample guidance.",
+    "colours": [
+      {"name": "Champagne", "value": "#E6D2B5"},
+      {"name": "Olive", "value": "#66704B"},
+      {"name": "Cocoa", "value": "#6A4635"}
+    ],
+    "restrictedColours": ["Bridal white"],
+    "traditionalGuidance": "Traditional attire is welcome. Confirm the final aso-ebi or fabric guidance with the hosts."
+  },
+  "story": [
+    {
+      "id": "first-meeting",
+      "title": "The first meeting",
+      "summary": "A fictional introduction at a community book event became an unexpectedly long conversation.",
+      "fullStory": "Fictional sample narrative used only to test the timeline and progressive-disclosure contracts.",
+      "sequence": 1,
+      "date": "2023-03-11",
+      "mediaIds": ["memory-first-meeting"],
+      "contentStatus": "verified-couple-content"
+    },
+    {
+      "id": "proposal",
+      "title": "The proposal",
+      "summary": "A quiet fictional proposal surrounded by close family marked the next chapter.",
+      "fullStory": "Fictional sample narrative. A production site must use a verified account from the couple.",
+      "sequence": 2,
+      "date": "2026-12-20",
+      "mediaIds": ["memory-proposal"],
+      "contentStatus": "verified-couple-content"
+    }
+  ],
+  "media": [
+    {
+      "id": "portrait-amina",
+      "type": "image",
+      "src": "/demo-media/amina-placeholder.jpg",
+      "alt": "Fictional placeholder portrait for Amina",
+      "caption": "Replace with an approved couple-provided portrait.",
+      "provenance": "decorative-generated-asset",
+      "access": "public",
+      "consentStatus": "restricted",
+      "downloadAllowed": false
+    },
+    {
+      "id": "portrait-idris",
+      "type": "image",
+      "src": "/demo-media/idris-placeholder.jpg",
+      "alt": "Fictional placeholder portrait for Idris",
+      "caption": "Replace with an approved couple-provided portrait.",
+      "provenance": "decorative-generated-asset",
+      "access": "public",
+      "consentStatus": "restricted",
+      "downloadAllowed": false
+    },
+    {
+      "id": "memory-first-meeting",
+      "type": "image",
+      "src": "/demo-media/first-meeting-placeholder.jpg",
+      "alt": "Decorative fictional memory placeholder",
+      "caption": "Conceptual placeholder, not documentary media.",
+      "provenance": "decorative-generated-asset",
+      "access": "guest-only",
+      "consentStatus": "restricted",
+      "downloadAllowed": false
+    },
+    {
+      "id": "memory-proposal",
+      "type": "video",
+      "src": "/demo-media/proposal-placeholder.mp4",
+      "poster": "/demo-media/proposal-poster-placeholder.jpg",
+      "alt": "Fictional proposal-video placeholder",
+      "caption": "Replace with an approved couple-provided video and transcript.",
+      "transcript": "Fictional placeholder transcript.",
+      "provenance": "decorative-generated-asset",
+      "access": "guest-only",
+      "consentStatus": "restricted",
+      "downloadAllowed": false
+    }
+  ],
+  "travel": {
+    "summary": "Fictional sample travel information for guests visiting Lagos.",
+    "airport": "Use the confirmed airport and arrival guidance supplied by the hosts.",
+    "transport": ["No official transport is configured in this prototype."],
+    "accommodation": [
+      {
+        "name": "Example Hotel — fictional",
+        "status": "provisional",
+        "address": "1 Demo Street, Lagos — fictional address",
+        "bookingUrl": "https://example.com/hotel",
+        "notes": "Recommendation only; no room block or rate is confirmed."
+      }
+    ]
+  },
+  "gifting": {
+    "enabled": true,
+    "message": "Your presence is the greatest gift. Verified gift options may be shared with invited guests who ask.",
+    "methods": ["registry", "protected-transfer", "physical-gift"],
+    "verificationContact": "Use a host-confirmed contact; none is included in this fictional sample."
+  },
+  "contentStatus": {
+    "verified": ["all content is explicitly fictional sample data"],
+    "requiresConfirmation": ["all real names", "all real dates", "venues", "guest rules", "dress code", "travel", "gifting", "media consent"],
+    "private": ["guest list", "invitation codes", "RSVP responses", "contact details", "financial details", "guest-only media"]
+  }
+}
