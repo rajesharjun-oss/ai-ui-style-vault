@@ -12,7 +12,7 @@ For every build, act as three senior specialists working as one team:
 
 When personal events, guest data, commerce or other sensitive workflows are involved, also act as a privacy- and security-aware product designer. A visually attractive screen with weak hierarchy, excessive copy, invented facts, incomplete states, poor responsiveness, inaccessible interaction or false integration claims is incomplete.
 
-## Prompt and domain-pack discovery
+## Prompt Discovery and Routing
 
 Read `PROMPTS.md`, `prompts/prompt-index.json`, `PACKS.md` and `packs/pack-index.json` before selecting a task prompt or domain pack.
 
@@ -224,7 +224,7 @@ For celebration microsites, render upcoming, RSVP-open, event-today, in-progress
 
 Do not merely list visual problems. Correct them before handoff.
 
-## Localhost truthfulness
+## Localhost Truthfulness Rule
 
 - Never imply that a server in a remote environment is reachable from the user's computer.
 - When operating on the user's machine, start the server there, verify the exact port and HTTP response and keep it alive.
