@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Prompt Index",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "canonicalInstructions": "AGENTS.md",
   "humanRouter": "PROMPTS.md",
   "domainPackRouter": "PACKS.md",
@@ -33,6 +33,38 @@
         "professional services website",
         "local business website"
       ],
+      "followedBy": ["visual-qa-and-revision"]
+    },
+    {
+      "id": "build-celebration-event-microsite",
+      "path": "prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md",
+      "priority": 110,
+      "requiredFor": [
+        "wedding or Nikkah website",
+        "engagement or anniversary website",
+        "save-the-date or invitation microsite",
+        "couple story and event details",
+        "guest RSVP and private event access",
+        "post-event thank-you or gallery"
+      ],
+      "triggers": [
+        "wedding website",
+        "nikkah website",
+        "engagement website",
+        "anniversary website",
+        "couple website",
+        "save the date",
+        "wedding invitation",
+        "event microsite",
+        "rsvp website",
+        "relationship story",
+        "wedding gallery",
+        "gift registry",
+        "private celebration",
+        "post event gallery"
+      ],
+      "requiresDomainPack": "celebration-event-microsite",
+      "optionalPrompts": ["build-premium-business-website"],
       "followedBy": ["visual-qa-and-revision"]
     },
     {
@@ -73,7 +105,7 @@
       "id": "refine-existing-business-website",
       "path": "prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md",
       "priority": 60,
-      "requiredFor": ["redesign or improvement of an existing business site"],
+      "requiredFor": ["redesign or improvement of an existing business or event site"],
       "triggers": [
         "redesign",
         "improve this website",
@@ -102,15 +134,17 @@
     "design-recipe.json"
   ],
   "additionalPlanningArtifactsByDomainPack": {
-    "fast-casual-commerce": ["COMMERCE_BUILD_CONTRACT.md"]
+    "fast-casual-commerce": ["COMMERCE_BUILD_CONTRACT.md"],
+    "celebration-event-microsite": ["EVENT_BUILD_CONTRACT.md", "COUPLE_CONTENT_PLAN.md", "ASSET_PLAN.md"]
   },
   "handoffRequirements": [
-    "verified business facts and provisional assumptions",
+    "verified facts and provisional assumptions",
     "rendered desktop and mobile screenshots",
-    "asset provenance and licence notes",
+    "asset provenance, consent and licence notes",
     "commands and checks run",
     "truthful localhost or deployment instructions",
     "integrated versus prototype-only capabilities",
+    "privacy and data-retention plan when personal data is present",
     "remaining risks and owner-confirmation items"
   ]
 }

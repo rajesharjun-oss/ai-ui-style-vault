@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-ui-style-vault/guest-rsvp.schema.json",
+  "title": "Guest RSVP Submission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["eventId", "guestReference", "attendance", "attendees", "consent", "submittedAt"],
+  "properties": {
+    "eventId": {"type": "string", "minLength": 1},
+    "guestReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["guestId"],
+      "properties": {
+        "guestId": {"type": "string", "minLength": 1},
+        "householdId": {"type": "string"},
+        "invitationCodeHash": {"type": "string", "description": "Store only a secure server-side derivative when appropriate; never return it to the public client."}
+      }
+    },
+    "attendance": {"type": "string", "enum": ["attending", "not-attending", "partial"]},
+    "eventSelections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["eventId", "response"],
+        "properties": {
+          "eventId": {"type": "string"},
+          "response": {"type": "string", "enum": ["attending", "not-attending"]}
+        }
+      }
+    },
+    "attendees": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["displayName", "invitationRole"],
+        "properties": {
+          "displayName": {"type": "string", "minLength": 1, "maxLength": 120},
+          "invitationRole": {"type": "string", "enum": ["primary", "named-guest", "approved-plus-one", "child"]},
+          "mealPreference": {"type": "string", "maxLength": 120},
+          "dietaryRequirements": {"type": "string", "maxLength": 500}
+        }
+      }
+    },
+    "approvedGuestLimit": {"type": "integer", "minimum": 0},
+    "travel": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "travelling": {"type": "boolean"},
+        "requiresAccommodationInformation": {"type": "boolean"},
+        "requiresTransportInformation": {"type": "boolean"}
+      }
+    },
+    "songRequest": {"type": "string", "maxLength": 200},
+    "message": {"type": "string", "maxLength": 1200},
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "email": {"type": "string", "format": "email"},
+        "phone": {"type": "string", "maxLength": 40},
+        "preferredConfirmation": {"type": "string", "enum": ["onscreen", "email", "sms", "whatsapp"]}
+      }
+    },
+    "consent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["privacyNoticeAccepted"],
+      "properties": {
+        "privacyNoticeAccepted": {"const": true},
+        "confirmationMessagingAccepted": {"type": "boolean"},
+        "guestPhotoUploadTermsAccepted": {"type": "boolean"}
+      }
+    },
+    "revision": {"type": "integer", "minimum": 1, "default": 1},
+    "submittedAt": {"type": "string", "format": "date-time"},
+    "confirmedAt": {"type": "string", "format": "date-time"},
+    "confirmationReference": {"type": "string"},
+    "status": {"type": "string", "enum": ["submitted", "confirmed", "conflict", "cancelled"]}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"attendance": {"const": "attending"}}},
+      "then": {"properties": {"attendees": {"minItems": 1}}}
+    },
+    {
+      "if": {"required": ["approvedGuestLimit"]},
+      "then": {
+        "description": "The application must additionally enforce attendees.length <= approvedGuestLimit in server-side business logic."
+      }
+    }
+  ]
+}

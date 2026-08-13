@@ -1,0 +1,40 @@
+{
+  "name": "Celebration & Event Microsite State Vocabulary",
+  "version": "1.0.0",
+  "instructions": "Use verified event instants, an explicit IANA timezone and server-authoritative RSVP rules. Copy examples are guidance only and must be adapted to the event.",
+  "states": [
+    {"id": "save-the-date", "category": "event-lifecycle", "meaning": "The date is announced but full invitation details may be unavailable.", "requiredUI": ["confirmed date", "event identity", "details-coming message"], "recoveryOrNext": "Route to notification or return-later guidance only when supported."},
+    {"id": "invitation-announced", "category": "event-lifecycle", "meaning": "The invitation and essential event details are published.", "requiredUI": ["date", "place summary", "guest action"], "recoveryOrNext": "Route guests to RSVP or details according to access rights."},
+    {"id": "rsvp-not-open", "category": "rsvp", "meaning": "The event is announced but responses are not yet accepted.", "requiredUI": ["opening date when confirmed", "read-only event details"], "recoveryOrNext": "Do not show an active submission control."},
+    {"id": "rsvp-open", "category": "rsvp", "meaning": "Eligible invited guests may submit or edit responses.", "requiredUI": ["deadline", "guest context", "attendance action", "privacy note"], "recoveryOrNext": "Provide confirmation and an edit path when supported."},
+    {"id": "rsvp-submitting", "category": "rsvp", "meaning": "A response is being validated and persisted.", "requiredUI": ["progress", "disabled duplicate submission", "preserved answers"], "recoveryOrNext": "On failure retain data and offer retry."},
+    {"id": "rsvp-confirmed", "category": "rsvp", "meaning": "The response was accepted by the source of truth.", "requiredUI": ["guest identity", "attendance result", "selected events", "confirmation reference or edit path"], "recoveryOrNext": "Offer calendar, directions or edit actions only when supported."},
+    {"id": "rsvp-editing", "category": "rsvp", "meaning": "A previously confirmed response is being changed before the deadline.", "requiredUI": ["current saved values", "unsaved-change status", "save action"], "recoveryOrNext": "Warn before discarding changes."},
+    {"id": "rsvp-error", "category": "rsvp", "meaning": "The response could not be validated, saved or confirmed.", "requiredUI": ["failure", "impact", "preserved answers", "retry or contact path"], "recoveryOrNext": "Do not display a success message until server confirmation exists."},
+    {"id": "rsvp-deadline-passed", "category": "rsvp", "meaning": "New or edited responses are no longer accepted through the standard flow.", "requiredUI": ["closed status", "deadline", "contact path when permitted"], "recoveryOrNext": "Disable form submission and preserve event details."},
+    {"id": "event-upcoming", "category": "event-lifecycle", "meaning": "The primary event has not begun.", "requiredUI": ["human-readable remaining time or date", "local event time", "next guest action"], "recoveryOrNext": "Transition to today based on event timezone."},
+    {"id": "event-today", "category": "event-lifecycle", "meaning": "The local event date is today but the event may not have started.", "requiredUI": ["today message", "start time", "directions or schedule"], "recoveryOrNext": "Transition to in-progress at the verified start instant, not at browser-local midnight."},
+    {"id": "event-in-progress", "category": "event-lifecycle", "meaning": "The event is currently within its verified start and end instants.", "requiredUI": ["current event", "live practical information", "next scheduled item when applicable"], "recoveryOrNext": "Transition to completed at the final verified event end."},
+    {"id": "event-completed", "category": "event-lifecycle", "meaning": "All configured events have ended.", "requiredUI": ["thank-you or completed message", "disabled RSVP", "post-event status"], "recoveryOrNext": "Route to gallery or archive when configured."},
+    {"id": "post-event-gallery", "category": "post-event", "meaning": "Approved event photographs or video are published after the celebration.", "requiredUI": ["thank-you context", "media consent status", "viewer controls"], "recoveryOrNext": "Respect download, guest-upload and archival permissions."},
+    {"id": "site-archived", "category": "post-event", "meaning": "The site is read-only, access-limited or intentionally retired.", "requiredUI": ["archive status", "available content", "contact or closure guidance"], "recoveryOrNext": "Do not expose stale RSVP, gifting or guest actions."},
+    {"id": "guest-not-found", "category": "guest-access", "meaning": "No eligible guest matched the submitted lookup information.", "requiredUI": ["neutral message", "retry guidance", "contact path when allowed"], "recoveryOrNext": "Do not reveal whether similar names exist."},
+    {"id": "guest-code-required", "category": "guest-access", "meaning": "Private content or an RSVP requires an invitation code.", "requiredUI": ["labelled code field", "privacy explanation"], "recoveryOrNext": "Validate server-side and rate limit attempts."},
+    {"id": "guest-code-invalid", "category": "guest-access", "meaning": "The submitted invitation code is invalid, expired or not authorised for this content.", "requiredUI": ["neutral error", "retry or support path"], "recoveryOrNext": "Do not reveal guest names or access scope."},
+    {"id": "guest-limit-reached", "category": "guest-access", "meaning": "The requested attendee count exceeds the invitation allowance.", "requiredUI": ["approved count", "specific correction guidance"], "recoveryOrNext": "Prevent submission until the count is valid."},
+    {"id": "gallery-loading", "category": "media", "meaning": "Gallery metadata or media is loading.", "requiredUI": ["stable layout", "meaningful progress or skeleton"], "recoveryOrNext": "Load critical media first and allow retry."},
+    {"id": "gallery-empty", "category": "media", "meaning": "No approved media is available for the selected collection.", "requiredUI": ["specific empty message", "next update or return path"], "recoveryOrNext": "Do not fabricate placeholder couple photographs."},
+    {"id": "media-unavailable", "category": "media", "meaning": "A photograph, video or transcript cannot be loaded or accessed.", "requiredUI": ["alternative text or summary", "retry or fallback"], "recoveryOrNext": "Keep the surrounding story understandable without the media."},
+    {"id": "gift-details-hidden", "category": "gifting", "meaning": "Sensitive gifting or delivery details are intentionally not visible.", "requiredUI": ["optional-gift message", "disclosure or verification action"], "recoveryOrNext": "Reveal only after the configured deliberate action or guest verification."},
+    {"id": "gift-details-revealed", "category": "gifting", "meaning": "Verified gifting details are shown to an authorised guest.", "requiredUI": ["recipient verification cue", "details", "safe copy feedback", "contact verification"], "recoveryOrNext": "Avoid inclusion in public metadata, logs or analytics payloads."},
+    {"id": "offline-read-only", "category": "system", "meaning": "Publicly cached information is available but private actions cannot be verified or submitted.", "requiredUI": ["offline status", "read-only details", "retry when online"], "recoveryOrNext": "Never queue financial or RSVP submission without an explicit secure design."}
+  ],
+  "transitionRules": [
+    "Event lifecycle uses verified ISO instants and an IANA timezone.",
+    "RSVP opening and deadline are independent from the event start and end.",
+    "The interface must not infer event completion only from the calendar date when an end instant is available.",
+    "A server response is required before entering rsvp-confirmed.",
+    "Private access and gifting states must not expose guest or financial information in error messages.",
+    "Post-event mode removes or disables obsolete pre-event primary actions."
+  ]
+}

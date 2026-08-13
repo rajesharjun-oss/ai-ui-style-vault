@@ -1,0 +1,116 @@
+{
+  "id": "celebration-event-microsite",
+  "name": "Celebration & Event Microsite",
+  "version": "1.0.0",
+  "status": "production-guidance",
+  "purpose": "Create original, premium, culturally relevant and privacy-aware microsites for couples and private celebrations, including complete RSVP and post-event lifecycle behaviour.",
+  "productTypes": [
+    "wedding-microsite",
+    "nikkah-invitation",
+    "engagement-microsite",
+    "anniversary-site",
+    "save-the-date",
+    "private-celebration",
+    "event-rsvp",
+    "post-event-gallery"
+  ],
+  "triggers": [
+    "wedding website",
+    "nikkah website",
+    "engagement website",
+    "anniversary website",
+    "couple website",
+    "save the date",
+    "wedding invitation",
+    "event microsite",
+    "rsvp website",
+    "relationship story",
+    "wedding gallery",
+    "gift registry",
+    "private event website"
+  ],
+  "requiredPrompt": "prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md",
+  "requiredReads": [
+    "packs/celebration-event-microsite/production-themes.json",
+    "packs/celebration-event-microsite/page-blueprints.json",
+    "packs/celebration-event-microsite/component-manifest.json",
+    "packs/celebration-event-microsite/state-vocabulary.json",
+    "packs/celebration-event-microsite/content-and-storytelling.md",
+    "packs/celebration-event-microsite/photography-and-video-standard.md",
+    "packs/celebration-event-microsite/privacy-and-guest-access.md",
+    "packs/celebration-event-microsite/accessibility-and-responsive.md",
+    "packs/celebration-event-microsite/motion-guidance.md",
+    "packs/celebration-event-microsite/implementation-prompt.md"
+  ],
+  "requiredPlanningArtifacts": [
+    "EVENT_BUILD_CONTRACT.md",
+    "COUPLE_CONTENT_PLAN.md",
+    "ASSET_PLAN.md",
+    "VAULT_SELECTION.md",
+    "BUILD_CONTRACT.md",
+    "CONTENT_PLAN.md",
+    "design-recipe.json"
+  ],
+  "requiredBlueprintIds": [
+    "celebration-invitation-home",
+    "meet-the-couple",
+    "story-timeline",
+    "event-details",
+    "dress-code-colours",
+    "memory-gallery",
+    "rsvp",
+    "gifting-registry",
+    "travel-accommodation",
+    "event-faq",
+    "post-event-thank-you-gallery"
+  ],
+  "requiredLifecycleStates": [
+    "save-the-date",
+    "invitation-announced",
+    "rsvp-not-open",
+    "rsvp-open",
+    "rsvp-deadline-passed",
+    "event-upcoming",
+    "event-today",
+    "event-in-progress",
+    "event-completed",
+    "post-event-gallery",
+    "site-archived"
+  ],
+  "privacyModels": [
+    "public",
+    "public-summary-private-details",
+    "guest-code",
+    "authenticated-guest",
+    "fully-private"
+  ],
+  "contentClassification": [
+    "verified-couple-content",
+    "requires-couple-confirmation",
+    "decorative-generated-asset",
+    "licensed-third-party-asset",
+    "prototype-only",
+    "private-do-not-index"
+  ],
+  "capabilityClassification": [
+    "verified-and-integrated",
+    "design-only-prototype",
+    "requires-integration",
+    "requires-host-confirmation",
+    "out-of-scope"
+  ],
+  "dataSensitivity": "high when guest lists, attendance, contact details, private photographs, travel information or gifting details are present",
+  "integrationBoundaries": [
+    "RSVP persistence and confirmation must have a named source of truth.",
+    "Guest lookup must not reveal the complete guest list or allow enumeration.",
+    "Financial and gifting details require deliberate disclosure and owner confirmation.",
+    "Calendar, maps, messaging, media hosting and analytics must be labelled as integrated or prototype-only.",
+    "Post-event access and retention must be defined before launch."
+  ],
+  "originalityPolicy": "Use event-site principles for an original implementation. Never copy another couple's identity, photographs, story, wording, financial information, exact layout or proprietary assets.",
+  "templateRoot": "packs/celebration-event-microsite/templates",
+  "codeRoot": "packs/celebration-event-microsite/code",
+  "sampleDataRoot": "packs/celebration-event-microsite/sample-data",
+  "schemaRoot": "packs/celebration-event-microsite/schemas",
+  "validationCommand": "python scripts/validate-celebration-pack.py"
+}

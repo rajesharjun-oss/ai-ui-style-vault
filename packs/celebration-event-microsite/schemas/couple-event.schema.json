@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-ui-style-vault/celebration-event.schema.json",
+  "title": "Celebration Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["meta", "hosts", "events", "privacy", "lifecycle", "contentStatus"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "eventType", "timezone", "fictional"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1},
+        "eventType": {
+          "type": "string",
+          "enum": ["wedding", "nikkah", "engagement", "anniversary", "birthday", "graduation", "memorial", "private-celebration", "multi-event-celebration"]
+        },
+        "timezone": {"type": "string", "pattern": "^[A-Za-z_]+(?:/[A-Za-z0-9_+.-]+)+$"},
+        "locale": {"type": "string", "default": "en"},
+        "fictional": {"type": "boolean"},
+        "publicTitle": {"type": "string"},
+        "description": {"type": "string", "maxLength": 500}
+      }
+    },
+    "hosts": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "items": {"$ref": "#/$defs/person"}
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/event"}
+    },
+    "rsvp": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "opensAt": {"type": "string", "format": "date-time"},
+        "closesAt": {"type": "string", "format": "date-time"},
+        "sourceOfTruth": {"type": "string", "enum": ["api", "database", "spreadsheet", "email-workflow", "prototype", "unsupported"]},
+        "confirmationChannels": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["onscreen", "email", "sms", "whatsapp", "none"]},
+          "uniqueItems": true
+        },
+        "editableBeforeDeadline": {"type": "boolean"},
+        "collects": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["attendance", "event-selection", "guest-count", "meal", "dietary", "travel", "accommodation", "song-request", "message"]},
+          "uniqueItems": true
+        }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model", "indexing", "guestLookup", "mediaAccess", "retention"],
+      "properties": {
+        "model": {"type": "string", "enum": ["public", "public-summary-private-details", "guest-code", "authenticated-guest", "fully-private"]},
+        "indexing": {"type": "string", "enum": ["allowed", "noindex", "protected"]},
+        "guestLookup": {"type": "string", "enum": ["none", "code", "name-and-code", "authenticated"]},
+        "mediaAccess": {"type": "string", "enum": ["public", "mixed", "guest-only", "host-only"]},
+        "financialDetailsAccess": {"type": "string", "enum": ["none", "deliberate-public-disclosure", "verified-guest", "authenticated-guest"]},
+        "retention": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["guestData", "site"],
+          "properties": {
+            "guestData": {"type": "string", "minLength": 1},
+            "site": {"type": "string", "minLength": 1},
+            "media": {"type": "string"},
+            "financialDetails": {"type": "string"}
+          }
+        }
+      }
+    },
+    "lifecycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primaryEventStart", "primaryEventEnd", "postEventMode"],
+      "properties": {
+        "primaryEventStart": {"type": "string", "format": "date-time"},
+        "primaryEventEnd": {"type": "string", "format": "date-time"},
+        "postEventMode": {"type": "string", "enum": ["thank-you", "gallery", "read-only-archive", "retire-site"]},
+        "postEventPublishAt": {"type": "string", "format": "date-time"},
+        "archiveAt": {"type": "string", "format": "date-time"}
+      }
+    },
+    "dressCode": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {"type": "string"},
+        "guidance": {"type": "string"},
+        "colours": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "value"],
+            "properties": {
+              "name": {"type": "string"},
+              "value": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"}
+            }
+          }
+        },
+        "restrictedColours": {"type": "array", "items": {"type": "string"}},
+        "traditionalGuidance": {"type": "string"}
+      }
+    },
+    "story": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/milestone"}
+    },
+    "media": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/media"}
+    },
+    "travel": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "summary": {"type": "string"},
+        "airport": {"type": "string"},
+        "transport": {"type": "array", "items": {"type": "string"}},
+        "accommodation": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "status"],
+            "properties": {
+              "name": {"type": "string"},
+              "status": {"type": "string", "enum": ["recommended", "official-room-block", "provisional"]},
+              "address": {"type": "string"},
+              "bookingUrl": {"type": "string", "format": "uri"},
+              "notes": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "gifting": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "message": {"type": "string"},
+        "methods": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["registry", "protected-transfer", "physical-gift", "charity", "none"]},
+          "uniqueItems": true
+        },
+        "verificationContact": {"type": "string"}
+      }
+    },
+    "contentStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verified", "requiresConfirmation", "private"],
+      "properties": {
+        "verified": {"type": "array", "items": {"type": "string"}},
+        "requiresConfirmation": {"type": "array", "items": {"type": "string"}},
+        "private": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "$defs": {
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "displayName", "contentStatus"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "displayName": {"type": "string", "minLength": 1},
+        "preferredTitle": {"type": "string"},
+        "shortBio": {"type": "string", "maxLength": 500},
+        "fullBio": {"type": "string"},
+        "quotation": {"type": "string"},
+        "quickFacts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "value"],
+            "properties": {"label": {"type": "string"}, "value": {"type": "string"}, "private": {"type": "boolean"}}
+          }
+        },
+        "portraitMediaId": {"type": "string"},
+        "contentStatus": {"type": "string", "enum": ["verified-couple-content", "requires-couple-confirmation"]}
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "startsAt", "endsAt", "timezone", "attendanceScope", "status"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "eventType": {"type": "string"},
+        "startsAt": {"type": "string", "format": "date-time"},
+        "endsAt": {"type": "string", "format": "date-time"},
+        "timezone": {"type": "string"},
+        "venue": {"type": "string"},
+        "address": {"type": "string"},
+        "directionsUrl": {"type": "string", "format": "uri"},
+        "attendanceScope": {"type": "string", "enum": ["all-invited-guests", "invitation-specific", "private-family", "public"]},
+        "status": {"type": "string", "enum": ["confirmed", "provisional", "cancelled"]},
+        "instructions": {"type": "string"}
+      }
+    },
+    "milestone": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "summary", "sequence", "contentStatus"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "summary": {"type": "string", "maxLength": 500},
+        "fullStory": {"type": "string"},
+        "sequence": {"type": "integer", "minimum": 1},
+        "date": {"type": "string", "format": "date"},
+        "mediaIds": {"type": "array", "items": {"type": "string"}},
+        "contentStatus": {"type": "string", "enum": ["verified-couple-content", "requires-couple-confirmation", "private-do-not-index"]}
+      }
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "src", "provenance", "access", "consentStatus"],
+      "properties": {
+        "id": {"type": "string"},
+        "type": {"type": "string", "enum": ["image", "video", "audio", "document"]},
+        "src": {"type": "string"},
+        "poster": {"type": "string"},
+        "alt": {"type": "string"},
+        "caption": {"type": "string"},
+        "transcript": {"type": "string"},
+        "provenance": {"type": "string", "enum": ["couple-provided", "host-provided", "photographer-licensed", "licensed-third-party", "decorative-generated-asset", "original"]},
+        "access": {"type": "string", "enum": ["public", "guest-only", "host-only"]},
+        "consentStatus": {"type": "string", "enum": ["confirmed", "pending", "restricted"]},
+        "downloadAllowed": {"type": "boolean"}
+      }
+    }
+  }
+}

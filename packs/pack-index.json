@@ -1,9 +1,62 @@
 {
   "name": "AI UI Style Vault Domain Pack Index",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "canonicalInstructions": "AGENTS.md",
   "humanRouter": "PACKS.md",
+  "routingRule": "The most specific matching pack wins. Packs extend rather than replace core rules.",
   "packs": [
+    {
+      "id": "celebration-event-microsite",
+      "name": "Celebration & Event Microsite",
+      "path": "packs/celebration-event-microsite",
+      "status": "production-guidance",
+      "requiredPrompt": "prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md",
+      "triggers": [
+        "wedding website",
+        "nikkah website",
+        "engagement website",
+        "anniversary website",
+        "couple website",
+        "save the date",
+        "wedding invitation",
+        "event microsite",
+        "rsvp website",
+        "relationship story",
+        "wedding gallery",
+        "gift registry",
+        "private celebration",
+        "post event gallery"
+      ],
+      "productTypes": [
+        "wedding-microsite",
+        "nikkah-invitation",
+        "engagement-microsite",
+        "anniversary-site",
+        "save-the-date",
+        "private-celebration",
+        "event-rsvp",
+        "post-event-gallery"
+      ],
+      "requiredReads": [
+        "packs/celebration-event-microsite/pack.json",
+        "packs/celebration-event-microsite/production-themes.json",
+        "packs/celebration-event-microsite/page-blueprints.json",
+        "packs/celebration-event-microsite/component-manifest.json",
+        "packs/celebration-event-microsite/state-vocabulary.json",
+        "packs/celebration-event-microsite/content-and-storytelling.md",
+        "packs/celebration-event-microsite/photography-and-video-standard.md",
+        "packs/celebration-event-microsite/privacy-and-guest-access.md",
+        "packs/celebration-event-microsite/accessibility-and-responsive.md",
+        "packs/celebration-event-microsite/motion-guidance.md",
+        "packs/celebration-event-microsite/implementation-prompt.md"
+      ],
+      "templateRoot": "packs/celebration-event-microsite/templates",
+      "codeRoot": "packs/celebration-event-microsite/code",
+      "sampleDataRoot": "packs/celebration-event-microsite/sample-data",
+      "schemaRoot": "packs/celebration-event-microsite/schemas",
+      "validationCommand": "python scripts/validate-celebration-pack.py",
+      "copyPolicy": "Use celebration-site principles for an original implementation. Do not copy another couple's identity, photographs, story, wording, financial details, exact layout or proprietary assets."
+    },
     {
       "id": "fast-casual-commerce",
       "name": "Fast-Casual Commerce",
