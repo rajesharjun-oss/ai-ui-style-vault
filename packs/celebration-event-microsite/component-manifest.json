@@ -1,0 +1,218 @@
+{
+  "name": "Celebration & Event Microsite Component Manifest",
+  "version": "1.0.0",
+  "universalRequirements": [
+    "semantic HTML or equivalent native semantics",
+    "keyboard operation",
+    "visible focus",
+    "accessible name",
+    "high zoom and long-name resilience",
+    "mobile transformation",
+    "reduced-motion fallback",
+    "content visible without scroll-reveal JavaScript",
+    "verified content and media provenance"
+  ],
+  "components": [
+    {
+      "id": "event-hero",
+      "category": "identity",
+      "requiredParts": ["couple or host identity", "event type", "date", "location summary", "primary action", "media alternative"],
+      "requiredStates": ["save-the-date", "invitation-announced", "rsvp-open", "event-today", "event-completed", "media-unavailable", "mobile", "reduced-motion"],
+      "rule": "Keep the first viewport concise and preserve portrait focal points at every breakpoint."
+    },
+    {
+      "id": "couple-monogram",
+      "category": "identity",
+      "requiredParts": ["text alternative", "decorative or meaningful classification"],
+      "requiredStates": ["static", "animated", "reduced-motion"],
+      "rule": "Do not generate a monogram that conflicts with names, order preferences, language or cultural conventions."
+    },
+    {
+      "id": "event-countdown",
+      "category": "status",
+      "requiredParts": ["event label", "local target time", "timezone", "accessible status text"],
+      "requiredStates": ["event-upcoming", "event-today", "event-in-progress", "event-completed", "invalid-date"],
+      "requiredAccessibility": ["do not announce every second through a live region", "provide a static sentence alternative"],
+      "rule": "Derive status from verified instants and never remain in today state after the event ends."
+    },
+    {
+      "id": "event-status-banner",
+      "category": "status",
+      "requiredParts": ["status", "meaning", "next action when relevant"],
+      "requiredStates": ["rsvp-not-open", "rsvp-open", "rsvp-deadline-passed", "event-upcoming", "event-today", "event-in-progress", "event-completed", "site-archived"]
+    },
+    {
+      "id": "event-schedule",
+      "category": "information",
+      "requiredParts": ["ordered events", "date", "time", "timezone", "venue", "attendance context"],
+      "requiredStates": ["default", "event-upcoming", "event-today", "event-completed", "schedule-updated", "venue-unconfirmed", "mobile"],
+      "requiredAccessibility": ["ordered structure", "machine-readable datetime", "no colour-only event distinction"]
+    },
+    {
+      "id": "event-details-card",
+      "category": "information",
+      "requiredParts": ["event name", "date and time", "venue", "address", "directions action"],
+      "requiredStates": ["default", "today", "completed", "directions-unavailable", "private-details-hidden"],
+      "rule": "Use for distinct events, not as a border around every sentence."
+    },
+    {
+      "id": "dress-code-palette",
+      "category": "guidance",
+      "requiredParts": ["dress-code label", "plain-language guidance", "named swatches"],
+      "requiredStates": ["default", "guidance-expanded", "reference-unavailable", "mobile"],
+      "requiredAccessibility": ["every colour has a text name", "meaning does not depend on swatches alone"]
+    },
+    {
+      "id": "couple-profile",
+      "category": "story",
+      "requiredParts": ["name", "portrait", "short introduction", "verified facts"],
+      "requiredStates": ["default", "biography-collapsed", "biography-expanded", "media-unavailable", "mobile"],
+      "rule": "Do not present generated people as the real couple."
+    },
+    {
+      "id": "profile-quick-facts",
+      "category": "story",
+      "requiredParts": ["fact label", "verified value"],
+      "requiredStates": ["default", "partial", "hidden-private-fact"],
+      "rule": "Omit unknown facts instead of inventing filler."
+    },
+    {
+      "id": "relationship-timeline",
+      "category": "story",
+      "requiredParts": ["ordered milestones", "date or sequence", "summary", "detail control when needed"],
+      "requiredStates": ["default", "chapter-collapsed", "chapter-expanded", "media-unavailable", "mobile", "reduced-motion"],
+      "requiredAccessibility": ["semantic ordered list", "visible content without animation", "focus preserved after expansion"]
+    },
+    {
+      "id": "story-chapter",
+      "category": "story",
+      "requiredParts": ["chapter title", "summary", "verified narrative"],
+      "requiredStates": ["collapsed", "expanded", "media-unavailable"],
+      "contentBudget": {"summaryWordsMax": 45},
+      "rule": "Lead with a summary and progressively disclose long narrative."
+    },
+    {
+      "id": "memory-gallery",
+      "category": "media",
+      "requiredParts": ["media items", "captions or alternatives", "viewer action"],
+      "requiredStates": ["gallery-loading", "gallery-empty", "populated", "media-unavailable", "mobile"],
+      "requiredAccessibility": ["semantic buttons for interactive items", "meaningful alt text", "lazy loading after critical media"]
+    },
+    {
+      "id": "photo-lightbox",
+      "category": "overlay",
+      "requiredParts": ["labelled dialog", "media", "caption", "previous", "next", "close"],
+      "requiredStates": ["closed", "open", "loading", "error", "first-item", "last-item"],
+      "requiredAccessibility": ["focus trap", "focus restore", "escape close", "arrow-key navigation", "body scroll management"]
+    },
+    {
+      "id": "accessible-video-dialog",
+      "category": "overlay",
+      "requiredParts": ["semantic trigger", "labelled dialog", "video controls", "captions or transcript path", "close"],
+      "requiredStates": ["closed", "opening", "playing", "paused", "loading", "video-unavailable", "closed-restored"],
+      "requiredAccessibility": ["no forced autoplay with sound", "keyboard controls", "focus trap and restore", "reduced-motion-safe transition"]
+    },
+    {
+      "id": "venue-map",
+      "category": "location",
+      "requiredParts": ["written venue name", "written address", "map alternative", "directions action"],
+      "requiredStates": ["loading", "interactive", "static-fallback", "directions-unavailable"],
+      "rule": "A map never replaces the written address or arrival instructions."
+    },
+    {
+      "id": "directions-card",
+      "category": "location",
+      "requiredParts": ["venue", "address", "copy action", "external directions action"],
+      "requiredStates": ["default", "copy-success", "copy-error", "external-map-unavailable"]
+    },
+    {
+      "id": "accommodation-card",
+      "category": "travel",
+      "requiredParts": ["name", "relationship to event", "address", "booking status"],
+      "requiredStates": ["recommended", "official-room-block", "booking-link-unavailable", "sold-out", "unconfirmed"],
+      "rule": "Distinguish recommendations from host-arranged accommodation."
+    },
+    {
+      "id": "guest-lookup",
+      "category": "privacy-workflow",
+      "requiredParts": ["lookup field", "label", "privacy guidance", "result or recovery"],
+      "requiredStates": ["idle", "searching", "matched", "guest-not-found", "guest-code-required", "guest-code-invalid", "rate-limited", "offline-read-only"],
+      "requiredSecurity": ["resist enumeration", "rate limit", "return minimal match information", "server-side authorization"]
+    },
+    {
+      "id": "rsvp-form",
+      "category": "workflow",
+      "requiredParts": ["guest identity", "attendance", "approved guest count", "event selection when applicable", "privacy notice", "submit"],
+      "requiredStates": ["rsvp-not-open", "rsvp-open", "rsvp-submitting", "validation-error", "rsvp-error", "rsvp-confirmed", "rsvp-editing", "rsvp-deadline-passed", "guest-limit-reached"],
+      "requiredAccessibility": ["persistent labels", "fieldset and legend for grouped choices", "error summary", "focus moved to error or confirmation"]
+    },
+    {
+      "id": "rsvp-confirmation",
+      "category": "feedback",
+      "requiredParts": ["confirmed guest", "attendance result", "selected events", "reference or edit path"],
+      "requiredStates": ["confirmed-attending", "confirmed-not-attending", "partial-attendance", "confirmation-delivery-pending", "confirmation-delivery-failed"]
+    },
+    {
+      "id": "rsvp-closed-state",
+      "category": "feedback",
+      "requiredParts": ["deadline status", "what can no longer be changed", "contact path when permitted"],
+      "requiredStates": ["rsvp-not-open", "rsvp-deadline-passed", "event-completed", "contact-unavailable"]
+    },
+    {
+      "id": "gift-options",
+      "category": "gifting",
+      "requiredParts": ["optional-gift message", "available methods", "verification guidance"],
+      "requiredStates": ["default", "gift-details-hidden", "gift-details-revealed", "registry-unavailable", "guest-code-required"],
+      "rule": "Gifting must remain optional in wording and visual hierarchy."
+    },
+    {
+      "id": "registry-card",
+      "category": "gifting",
+      "requiredParts": ["registry name", "destination", "external-link disclosure"],
+      "requiredStates": ["available", "unavailable", "expired"],
+      "requiredSecurity": ["validate destination", "use safe external-link attributes where applicable"]
+    },
+    {
+      "id": "secure-gift-details",
+      "category": "privacy-workflow",
+      "requiredParts": ["disclosure control", "verified recipient", "verified method", "copy feedback", "contact verification"],
+      "requiredStates": ["gift-details-hidden", "guest-code-required", "guest-code-invalid", "gift-details-revealed", "copy-success", "copy-error", "details-withdrawn"],
+      "requiredSecurity": ["do not include sensitive details in public metadata or indexed page source when protection is required", "host confirmation", "audit content changes"]
+    },
+    {
+      "id": "whatsapp-contact",
+      "category": "contact",
+      "requiredParts": ["named contact role", "purpose", "external action"],
+      "requiredStates": ["available", "unavailable", "privacy-consent-required"],
+      "rule": "Do not expose personal contact details without host approval."
+    },
+    {
+      "id": "faq-accordion",
+      "category": "disclosure",
+      "requiredParts": ["question button", "answer region"],
+      "requiredStates": ["collapsed", "expanded", "focus-visible", "disabled"],
+      "requiredAccessibility": ["button semantics", "aria-expanded", "controlled region relationship", "no nested accordion"]
+    },
+    {
+      "id": "mobile-event-menu",
+      "category": "navigation",
+      "requiredParts": ["menu trigger", "current page", "navigation", "primary guest action", "close"],
+      "requiredStates": ["closed", "open", "active-route", "rsvp-open", "rsvp-closed", "event-completed"],
+      "requiredAccessibility": ["focus management", "escape close", "focus restore", "no scroll trap", "skip link"]
+    },
+    {
+      "id": "petal-motion-layer",
+      "category": "decorative-motion",
+      "requiredParts": ["decorative classification", "density control", "static fallback"],
+      "requiredStates": ["enabled", "paused", "reduced-motion", "hidden-on-low-power"],
+      "rule": "Decorative particles must never obscure text, capture pointer events or reduce task performance."
+    },
+    {
+      "id": "post-event-gallery",
+      "category": "post-event",
+      "requiredParts": ["thank-you context", "published media", "consent status", "archive or access guidance"],
+      "requiredStates": ["event-completed", "gallery-loading", "gallery-empty", "post-event-gallery", "guest-upload-open", "guest-upload-closed", "site-archived"],
+      "requiredAccessibility": ["same media-dialog and caption requirements as memory gallery"]
+    }
+  ]
+}
