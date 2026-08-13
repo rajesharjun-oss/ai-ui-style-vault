@@ -11,14 +11,13 @@ permissions:
 jobs:
   candidates:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install dependencies
+      - name: Install Pillow
         run: python -m pip install --disable-pip-version-check pillow requests
-      - name: Download product-specific Openverse photographs
+      - name: Download and normalize final stock photographs
         shell: bash
         run: |
           set -euo pipefail
@@ -27,162 +26,55 @@ jobs:
 
           import io
           import json
-          import time
           from pathlib import Path
 
           import requests
-          from PIL import Image, ImageDraw, ImageFont, ImageOps
-          from requests.adapters import HTTPAdapter
-          from urllib3.util.retry import Retry
-
-          products = [
-              ("arc-desk-lamp", "modern desk lamp product"),
-              ("drift-ceramic-vase", "ceramic vase product"),
-              ("halo-speaker", "wireless speaker product"),
-              ("axis-watch", "wrist watch product"),
-              ("field-jacket", "olive field jacket clothing"),
-              ("form-carryall", "leather tote bag product"),
-              ("fold-weekender", "duffel weekender travel bag"),
-              ("meridian-headphones", "over ear headphones product"),
-              ("orbit-tray", "leather valet tray catchall"),
-              ("studio-overshirt", "overshirt clothing jacket"),
-              ("fold-wallet", "leather bifold wallet product"),
-              ("axis-stool", "modern wooden stool furniture"),
-          ]
+          from PIL import Image, ImageOps
 
           root = Path("candidate-images")
           root.mkdir(parents=True, exist_ok=True)
-          manifest: list[dict] = []
+
+          sources = [
+              {
+                  "slug": "fold-wallet",
+                  "url": "https://images.pexels.com/photos/15763948/pexels-photo-15763948.jpeg?cs=srgb&fm=jpg&w=1800",
+                  "sourcePage": "https://www.pexels.com/photo/brown-leather-wallet-on-white-back-15763948/",
+                  "creator": "Josh Withers",
+                  "license": "Pexels License",
+              },
+              {
+                  "slug": "axis-stool",
+                  "url": "https://images.unsplash.com/photo-1551907234-fb773fb08a2a?auto=format&fit=crop&fm=jpg&q=84&w=1800",
+                  "sourcePage": "https://unsplash.com/photos/round-brown-wooden-stool-RvyJGaoaWrs",
+                  "creator": "Goashape Studio",
+                  "license": "Unsplash License",
+              },
+          ]
 
           session = requests.Session()
-          retry = Retry(
-              total=6,
-              connect=4,
-              read=4,
-              status=6,
-              backoff_factor=2,
-              status_forcelist=(408, 429, 500, 502, 503, 504),
-              allowed_methods=frozenset(["GET"]),
-              respect_retry_after_header=True,
-          )
-          session.mount("https://", HTTPAdapter(max_retries=retry))
-          session.headers.update({
-              "User-Agent": "AtelierNorthProductPhotoResearch/1.0 (noncommercial UI prototype; GitHub Actions)",
-              "Accept": "application/json,image/*;q=0.9,*/*;q=0.5",
-          })
+          session.headers.update({"User-Agent": "Mozilla/5.0 AtelierNorthDemo/1.0"})
+          manifest = []
 
-          def search(query: str) -> list[dict]:
-              response = session.get(
-                  "https://api.openverse.org/v1/images/",
-                  params={
-                      "q": query,
-                      "page_size": 30,
-                      "license_type": "commercial",
-                      "category": "photograph",
-                      "mature": "false",
-                  },
-                  timeout=75,
-              )
+          for item in sources:
+              response = session.get(item["url"], timeout=120)
               response.raise_for_status()
-              return response.json().get("results", [])
+              image = Image.open(io.BytesIO(response.content)).convert("RGB")
 
-          def download(url: str) -> bytes:
-              response = session.get(url, timeout=90)
-              response.raise_for_status()
-              return response.content
+              # Preserve the full product while normalizing every catalogue asset to 4:5.
+              canvas = Image.new("RGB", (960, 1200), "#eee5d8")
+              contained = ImageOps.contain(image, (900, 1120), method=Image.Resampling.LANCZOS)
+              x = (canvas.width - contained.width) // 2
+              y = (canvas.height - contained.height) // 2
+              canvas.paste(contained, (x, y))
+              path = root / f'{item["slug"]}.jpg'
+              canvas.save(path, "JPEG", quality=90, optimize=True, progressive=True)
+              manifest.append({**item, "localPath": str(path), "dimensions": [960, 1200]})
 
-          max_candidates = 8
-          for product_index, (slug, query) in enumerate(products):
-              folder = root / slug
-              folder.mkdir(parents=True, exist_ok=True)
-              try:
-                  results = search(query)
-              except Exception as exc:
-                  manifest.append({"slug": slug, "query": query, "error": f"search failed: {exc}"})
-                  results = []
-
-              saved = 0
-              for result in results:
-                  if saved >= max_candidates:
-                      break
-                  title = str(result.get("title") or "")
-                  tags = [str(tag.get("name") or "") for tag in (result.get("tags") or [])[:24]]
-                  text = (title + " " + " ".join(tags)).lower()
-                  # Reject results whose indexed words strongly suggest a non-product subject.
-                  if any(term in text for term in ("animal", "dog", "cat", "wolf", "fox", "landscape", "mountain", "beach", "flower", "food", "car", "aircraft")):
-                      continue
-                  source_url = result.get("thumbnail") or result.get("url")
-                  if not source_url:
-                      continue
-                  try:
-                      image = Image.open(io.BytesIO(download(source_url))).convert("RGB")
-                      if image.width < 300 or image.height < 300:
-                          continue
-                      ratio = image.width / max(image.height, 1)
-                      if ratio > 2.8 or ratio < 0.3:
-                          continue
-                      saved += 1
-                      output = folder / f"{saved}.jpg"
-                      image.save(output, "JPEG", quality=90, optimize=True)
-                      manifest.append({
-                          "slug": slug,
-                          "query": query,
-                          "candidate": saved,
-                          "path": str(output),
-                          "title": title,
-                          "creator": result.get("creator"),
-                          "license": result.get("license"),
-                          "license_version": result.get("license_version"),
-                          "license_url": result.get("license_url"),
-                          "attribution": result.get("attribution"),
-                          "foreign_landing_url": result.get("foreign_landing_url"),
-                          "download_url": source_url,
-                          "width": image.width,
-                          "height": image.height,
-                          "tags": tags,
-                      })
-                  except Exception as exc:
-                      manifest.append({"slug": slug, "query": query, "title": title, "error": str(exc)})
-
-              if product_index < len(products) - 1:
-                  time.sleep(1.5)
-
-          (root / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
-
-          cell_w, cell_h = 190, 245
-          label_h = 52
-          cols = max_candidates
-          sheet_w = cell_w * cols
-          sheet_h = (cell_h + label_h) * len(products)
-          sheet = Image.new("RGB", (sheet_w, sheet_h), "#f3efe7")
-          draw = ImageDraw.Draw(sheet)
-          font = ImageFont.load_default()
-
-          for row, (slug, query) in enumerate(products):
-              y0 = row * (cell_h + label_h)
-              draw.rectangle((0, y0, sheet_w, y0 + label_h), fill="#1b1714")
-              draw.text((10, y0 + 8), slug, fill="white", font=font)
-              draw.text((10, y0 + 27), query, fill="#d7d0c4", font=font)
-              for col in range(cols):
-                  index = col + 1
-                  x0 = col * cell_w
-                  path = root / slug / f"{index}.jpg"
-                  if path.exists():
-                      image = Image.open(path).convert("RGB")
-                      image = ImageOps.fit(image, (cell_w, cell_h), method=Image.Resampling.LANCZOS)
-                      sheet.paste(image, (x0, y0 + label_h))
-                  else:
-                      draw.rectangle((x0, y0 + label_h, x0 + cell_w, y0 + label_h + cell_h), fill="#d7d0c4")
-                  draw.rectangle((x0 + 7, y0 + label_h + 7, x0 + 36, y0 + label_h + 30), fill="white")
-                  draw.text((x0 + 17, y0 + label_h + 13), str(index), fill="black", font=font)
-
-          sheet.save(root / "contact-sheet.jpg", "JPEG", quality=89, optimize=True)
+          (root / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
           PY
-
-      - name: Upload Openverse product candidates
-        if: always()
+      - name: Upload final stock photographs
         uses: actions/upload-artifact@v4
         with:
-          name: atelier-product-image-candidates
+          name: atelier-final-stock-product-images
           path: candidate-images
           retention-days: 1
