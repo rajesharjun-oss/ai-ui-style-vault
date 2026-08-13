@@ -1,4 +1,4 @@
-name: Verify celebration feature branch
+name: Finalize celebration feature branch
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  verify:
+  finalize:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,12 +21,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Remove temporary branch-only files from working tree
+      - name: Apply compatibility fixes and stage cleanup
         shell: bash
         run: |
           set -euo pipefail
+          sed -i 's/^## Prompt and domain-pack discovery$/## Prompt Discovery and Routing/' AGENTS.md
+          sed -i 's/^## Localhost truthfulness$/## Localhost Truthfulness Rule/' AGENTS.md
+          git add -- AGENTS.md
           git rm -f --ignore-unmatch \
             .github/tmp/celebration-pack/part-00 \
+            .github/tmp/celebration-pack/part-01 \
+            .github/tmp/celebration-pack/part-02 \
+            .github/tmp/celebration-pack/part-03 \
+            .github/tmp/celebration-pack/part-04 \
             .github/workflows/cleanup-celebration-branch.yml \
             .github/workflows/export-celebration-feature.yml \
             .github/workflows/final-clean-celebration.yml \
@@ -34,14 +41,12 @@ jobs:
       - name: Compile Python tools
         run: python -m py_compile scripts/validate-content-design.py scripts/initialize-vault-project.py scripts/validate-domain-packs.py scripts/validate-celebration-pack.py
       - name: Run unit tests
-        shell: bash
-        run: |
-          set -o pipefail
-          python -m unittest discover -s tests -p 'test_*.py' -v 2>&1 | tee celebration-unit-tests.txt
-      - name: Parse core and celebration JSON
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Validate JSON documents
         shell: bash
         run: |
           set -euo pipefail
+          python -m json.tool agent-index.json >/dev/null
           python -m json.tool prompts/prompt-index.json >/dev/null
           python -m json.tool packs/pack-index.json >/dev/null
           for file in \
@@ -56,51 +61,18 @@ jobs:
             packs/celebration-event-microsite/templates/design-recipe.example.json; do
             python -m json.tool "$file" >/dev/null
           done
-      - name: Validate both domain packs
-        shell: bash
+      - name: Validate domain packs
         run: |
-          set -o pipefail
-          python scripts/validate-domain-packs.py 2>&1 | tee fast-casual-validation.txt
-          python scripts/validate-celebration-pack.py 2>&1 | tee celebration-validation.txt
-      - name: Create verification report
-        shell: bash
-        run: |
-          set -euo pipefail
-          {
-            echo 'CELEBRATION_FEATURE_VERIFICATION=PASS'
-            echo "HEAD_BEFORE_CLEANUP=$(git rev-parse HEAD)"
-            echo 'TEMP_FILES_PRESENT_AFTER_STAGING:'
-            for file in \
-              .github/tmp/celebration-pack/part-00 \
-              .github/workflows/cleanup-celebration-branch.yml \
-              .github/workflows/export-celebration-feature.yml \
-              .github/workflows/final-clean-celebration.yml \
-              .github/workflows/verify-celebration-feature.yml; do
-              if test -e "$file"; then echo "PRESENT $file"; else echo "ABSENT $file"; fi
-            done
-            echo 'CHANGED_FILES_AGAINST_MAIN:'
-            git diff --name-status origin/main...HEAD
-            echo 'STAGED_CLEANUP:'
-            git diff --cached --name-status
-          } > celebration-feature-verification.txt
-      - name: Upload verification evidence
-        uses: actions/upload-artifact@v4
-        with:
-          name: celebration-feature-verification
-          path: |
-            celebration-feature-verification.txt
-            celebration-unit-tests.txt
-            fast-casual-validation.txt
-            celebration-validation.txt
-          retention-days: 2
-      - name: Commit cleanup after successful verification
+          python scripts/validate-domain-packs.py
+          python scripts/validate-celebration-pack.py
+      - name: Validate agent discovery
+        shell: pwsh
+        run: ./scripts/validate-agent-guides.ps1
+      - name: Commit final clean branch
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if git diff --cached --quiet; then
-            exit 0
-          fi
-          git commit -m 'Remove temporary celebration feature files'
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Finalize Celebration & Event Microsite pack"
           git push origin HEAD:feat/celebration-event-microsite-pack
