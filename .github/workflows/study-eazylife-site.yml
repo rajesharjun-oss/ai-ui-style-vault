@@ -1,0 +1,502 @@
+name: Study Eazylife website
+
+on:
+  push:
+    branches:
+      - tmp/study-eazylife-site
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install browser inspection tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/eazylife-study
+          cd /tmp/eazylife-study
+          npm init -y >/dev/null
+          npm install --silent playwright@1.56.1 lighthouse@12.8.2
+          npx playwright install --with-deps chromium
+
+      - name: Capture response, rendered views, structure and interactions
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="$GITHUB_WORKSPACE/study-output"
+          mkdir -p "$OUT"
+          TARGET='https://eazylifewith.abbeyspace.com/'
+
+          curl --silent --show-error --location --max-redirs 15 \
+            --connect-timeout 30 --max-time 180 \
+            --user-agent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131 Safari/537.36' \
+            --header 'Accept-Language: en-GB,en;q=0.9' \
+            --dump-header "$OUT/response-headers.txt" \
+            --output "$OUT/curl-page.html" \
+            --write-out 'status=%{http_code}\nfinal_url=%{url_effective}\ncontent_type=%{content_type}\nsize_download=%{size_download}\ntime_total=%{time_total}\n' \
+            "$TARGET" > "$OUT/curl-summary.txt" || true
+
+          cd /tmp/eazylife-study
+          OUT="$OUT" TARGET="$TARGET" node <<'NODE'
+          const { chromium } = require('playwright');
+          const fs = require('fs');
+          const path = require('path');
+
+          const OUT = process.env.OUT;
+          const TARGET = process.env.TARGET;
+          const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+          function clean(value) {
+            return String(value ?? '').replace(/\s+/g, ' ').trim();
+          }
+
+          async function dismissConsent(page) {
+            const labels = [
+              /accept all/i,
+              /accept cookies/i,
+              /^accept$/i,
+              /allow all/i,
+              /^agree$/i,
+              /i agree/i,
+              /continue/i,
+            ];
+            for (const label of labels) {
+              const candidates = page.getByRole('button', { name: label });
+              const count = await candidates.count().catch(() => 0);
+              if (count > 0) {
+                try {
+                  await candidates.first().click({ timeout: 1500 });
+                  await sleep(500);
+                  return true;
+                } catch {}
+              }
+            }
+            return false;
+          }
+
+          async function inspectViewport(browser, name, viewport) {
+            const context = await browser.newContext({
+              viewport,
+              locale: 'en-GB',
+              colorScheme: 'light',
+              userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131 Safari/537.36',
+            });
+            const page = await context.newPage();
+            const consoleMessages = [];
+            const pageErrors = [];
+            const requestFailures = [];
+            const responseStatus = [];
+
+            page.on('console', (message) => {
+              consoleMessages.push({ type: message.type(), text: clean(message.text()) });
+            });
+            page.on('pageerror', (error) => pageErrors.push(clean(error.message || error)));
+            page.on('requestfailed', (request) => {
+              requestFailures.push({
+                url: request.url(),
+                method: request.method(),
+                resourceType: request.resourceType(),
+                failure: request.failure()?.errorText || '',
+              });
+            });
+            page.on('response', (response) => {
+              const status = response.status();
+              if (status >= 400) {
+                responseStatus.push({ status, url: response.url(), resourceType: response.request().resourceType() });
+              }
+            });
+
+            let navigation = {};
+            try {
+              const response = await page.goto(TARGET, { waitUntil: 'domcontentloaded', timeout: 120000 });
+              navigation = {
+                ok: response ? response.ok() : null,
+                status: response ? response.status() : null,
+                finalUrl: page.url(),
+              };
+            } catch (error) {
+              navigation = { error: clean(error.message || error), finalUrl: page.url() };
+            }
+
+            await sleep(7000);
+            const consentDismissed = await dismissConsent(page);
+            await sleep(2000);
+
+            await page.screenshot({ path: path.join(OUT, `${name}-viewport.png`), fullPage: false });
+            await page.screenshot({ path: path.join(OUT, `${name}-full-page.png`), fullPage: true });
+            fs.writeFileSync(path.join(OUT, `${name}-rendered.html`), await page.content(), 'utf8');
+
+            const data = await page.evaluate(() => {
+              const norm = (value) => String(value ?? '').replace(/\s+/g, ' ').trim();
+              const attr = (element, name) => element.getAttribute(name) || '';
+              const visible = (element) => {
+                const style = getComputedStyle(element);
+                const rect = element.getBoundingClientRect();
+                return style.display !== 'none' && style.visibility !== 'hidden' && Number(style.opacity) > 0 && rect.width > 0 && rect.height > 0;
+              };
+              const unique = (items) => [...new Set(items.filter(Boolean))];
+              const describe = (element) => {
+                const rect = element.getBoundingClientRect();
+                const style = getComputedStyle(element);
+                return {
+                  tag: element.tagName.toLowerCase(),
+                  id: element.id || '',
+                  className: typeof element.className === 'string' ? element.className : '',
+                  text: norm(element.innerText || element.textContent).slice(0, 240),
+                  role: attr(element, 'role'),
+                  ariaLabel: attr(element, 'aria-label'),
+                  position: style.position,
+                  zIndex: style.zIndex,
+                  display: style.display,
+                  width: Math.round(rect.width),
+                  height: Math.round(rect.height),
+                  top: Math.round(rect.top),
+                  left: Math.round(rect.left),
+                };
+              };
+
+              const metas = {};
+              for (const meta of document.querySelectorAll('meta')) {
+                const key = meta.getAttribute('name') || meta.getAttribute('property') || meta.getAttribute('http-equiv');
+                if (key) metas[key] = meta.getAttribute('content') || '';
+              }
+
+              const headings = [...document.querySelectorAll('h1,h2,h3,h4,h5,h6')]
+                .filter(visible)
+                .map((element) => ({ level: Number(element.tagName.slice(1)), text: norm(element.innerText), id: element.id || '' }));
+
+              const links = [...document.querySelectorAll('a[href]')]
+                .filter(visible)
+                .map((element) => ({
+                  text: norm(element.innerText || element.getAttribute('aria-label')).slice(0, 180),
+                  href: element.href,
+                  target: element.target || '',
+                  rel: element.rel || '',
+                }));
+
+              const buttons = [...document.querySelectorAll('button,[role="button"],input[type="button"],input[type="submit"]')]
+                .filter(visible)
+                .map((element) => ({
+                  text: norm(element.innerText || element.value || element.getAttribute('aria-label')).slice(0, 180),
+                  type: element.getAttribute('type') || '',
+                  disabled: Boolean(element.disabled || element.getAttribute('aria-disabled') === 'true'),
+                  ariaExpanded: element.getAttribute('aria-expanded'),
+                  ariaControls: element.getAttribute('aria-controls'),
+                }));
+
+              const forms = [...document.forms].map((form) => ({
+                action: form.action,
+                method: form.method,
+                fields: [...form.querySelectorAll('input,select,textarea,button')].map((field) => ({
+                  tag: field.tagName.toLowerCase(),
+                  type: field.getAttribute('type') || '',
+                  name: field.getAttribute('name') || '',
+                  placeholder: field.getAttribute('placeholder') || '',
+                  label: norm(field.labels ? [...field.labels].map((label) => label.innerText).join(' ') : ''),
+                  ariaLabel: field.getAttribute('aria-label') || '',
+                  required: Boolean(field.required),
+                })),
+              }));
+
+              const images = [...document.images].map((image) => ({
+                src: image.currentSrc || image.src,
+                alt: image.alt || '',
+                width: image.naturalWidth,
+                height: image.naturalHeight,
+                renderedWidth: Math.round(image.getBoundingClientRect().width),
+                renderedHeight: Math.round(image.getBoundingClientRect().height),
+                loading: image.loading || '',
+                complete: image.complete,
+              }));
+
+              const sections = [...document.querySelectorAll('main,section,article,aside,footer,header')]
+                .filter(visible)
+                .map((section, index) => ({
+                  index,
+                  tag: section.tagName.toLowerCase(),
+                  id: section.id || '',
+                  ariaLabel: section.getAttribute('aria-label') || '',
+                  heading: norm(section.querySelector('h1,h2,h3,h4')?.innerText || ''),
+                  textSample: norm(section.innerText).slice(0, 500),
+                }));
+
+              const rootStyle = getComputedStyle(document.documentElement);
+              const customProperties = {};
+              for (const name of rootStyle) {
+                if (name.startsWith('--')) customProperties[name] = rootStyle.getPropertyValue(name).trim();
+              }
+
+              const sampleSelectors = ['body', 'h1', 'h2', 'h3', 'p', 'a', 'button', 'input'];
+              const typography = {};
+              for (const selector of sampleSelectors) {
+                const element = document.querySelector(selector);
+                if (!element) continue;
+                const style = getComputedStyle(element);
+                typography[selector] = {
+                  fontFamily: style.fontFamily,
+                  fontSize: style.fontSize,
+                  fontWeight: style.fontWeight,
+                  lineHeight: style.lineHeight,
+                  letterSpacing: style.letterSpacing,
+                  color: style.color,
+                  backgroundColor: style.backgroundColor,
+                };
+              }
+
+              const allElements = [...document.querySelectorAll('body *')];
+              const animated = allElements.filter((element) => {
+                const style = getComputedStyle(element);
+                return (style.animationName && style.animationName !== 'none') ||
+                  (style.transitionDuration && style.transitionDuration !== '0s');
+              });
+
+              const fixedOrSticky = allElements
+                .filter((element) => ['fixed', 'sticky'].includes(getComputedStyle(element).position) && visible(element))
+                .slice(0, 80)
+                .map(describe);
+
+              const resourceEntries = performance.getEntriesByType('resource').map((entry) => ({
+                name: entry.name,
+                initiatorType: entry.initiatorType,
+                duration: Math.round(entry.duration),
+                transferSize: entry.transferSize || 0,
+                encodedBodySize: entry.encodedBodySize || 0,
+              }));
+
+              const navigationEntry = performance.getEntriesByType('navigation')[0];
+              const navTiming = navigationEntry ? {
+                domContentLoaded: Math.round(navigationEntry.domContentLoadedEventEnd),
+                loadEvent: Math.round(navigationEntry.loadEventEnd),
+                responseEnd: Math.round(navigationEntry.responseEnd),
+                transferSize: navigationEntry.transferSize || 0,
+                encodedBodySize: navigationEntry.encodedBodySize || 0,
+              } : null;
+
+              const scripts = [...document.scripts].map((script) => script.src).filter(Boolean);
+              const stylesheets = [...document.querySelectorAll('link[rel="stylesheet"]')].map((link) => link.href);
+              const preload = [...document.querySelectorAll('link[rel="preload"],link[rel="modulepreload"]')].map((link) => ({ href: link.href, as: link.as || '', rel: link.rel }));
+              const favicons = [...document.querySelectorAll('link[rel*="icon"]')].map((link) => link.href);
+              const jsonLd = [...document.querySelectorAll('script[type="application/ld+json"]')].map((script) => script.textContent || '');
+
+              return {
+                url: location.href,
+                origin: location.origin,
+                title: document.title,
+                lang: document.documentElement.lang || '',
+                metas,
+                favicons,
+                bodyText: norm(document.body.innerText).slice(0, 30000),
+                headings,
+                links,
+                buttons,
+                forms,
+                images,
+                sections,
+                scripts,
+                stylesheets,
+                preload,
+                jsonLd,
+                customProperties,
+                typography,
+                fixedOrSticky,
+                animationSignals: {
+                  elementsWithAnimationOrTransition: animated.length,
+                  videoCount: document.querySelectorAll('video').length,
+                  canvasCount: document.querySelectorAll('canvas').length,
+                  svgCount: document.querySelectorAll('svg').length,
+                  dialogCount: document.querySelectorAll('dialog').length,
+                },
+                storage: {
+                  localStorageKeys: Object.keys(localStorage),
+                  sessionStorageKeys: Object.keys(sessionStorage),
+                },
+                resourceEntries,
+                navigationTiming: navTiming,
+                documentDimensions: {
+                  viewportWidth: innerWidth,
+                  viewportHeight: innerHeight,
+                  scrollWidth: document.documentElement.scrollWidth,
+                  scrollHeight: document.documentElement.scrollHeight,
+                },
+              };
+            });
+
+            const internalUrls = [...new Set(data.links
+              .map((item) => item.href)
+              .filter((href) => {
+                try {
+                  const url = new URL(href);
+                  return url.origin === new URL(data.url).origin && ['http:', 'https:'].includes(url.protocol);
+                } catch { return false; }
+              }))].slice(0, 20);
+
+            const result = {
+              viewport,
+              navigation,
+              consentDismissed,
+              ...data,
+              internalUrls,
+              consoleMessages,
+              pageErrors,
+              requestFailures,
+              errorResponses: responseStatus,
+            };
+
+            fs.writeFileSync(path.join(OUT, `${name}-inspection.json`), JSON.stringify(result, null, 2), 'utf8');
+            await context.close();
+            return result;
+          }
+
+          async function crawl(browser, urls) {
+            const context = await browser.newContext({ viewport: { width: 1280, height: 800 }, locale: 'en-GB' });
+            const output = [];
+            for (const url of urls.slice(0, 15)) {
+              const page = await context.newPage();
+              let status = null;
+              let error = null;
+              try {
+                const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 70000 });
+                status = response?.status() ?? null;
+                await sleep(1200);
+              } catch (caught) {
+                error = clean(caught.message || caught);
+              }
+              const info = await page.evaluate(() => ({
+                finalUrl: location.href,
+                title: document.title,
+                description: document.querySelector('meta[name="description"]')?.content || '',
+                h1: [...document.querySelectorAll('h1')].map((node) => node.innerText.replace(/\s+/g, ' ').trim()).filter(Boolean),
+                textSample: document.body?.innerText.replace(/\s+/g, ' ').trim().slice(0, 1200) || '',
+              })).catch(() => ({ finalUrl: page.url(), title: '', description: '', h1: [], textSample: '' }));
+              output.push({ url, status, error, ...info });
+              await page.close();
+            }
+            await context.close();
+            fs.writeFileSync(path.join(OUT, 'internal-page-crawl.json'), JSON.stringify(output, null, 2), 'utf8');
+          }
+
+          (async () => {
+            const browser = await chromium.launch({ headless: true });
+            try {
+              const desktop = await inspectViewport(browser, 'desktop-1440x1000', { width: 1440, height: 1000 });
+              await inspectViewport(browser, 'laptop-1280x800', { width: 1280, height: 800 });
+              await inspectViewport(browser, 'mobile-390x844', { width: 390, height: 844 });
+              await crawl(browser, desktop.internalUrls);
+            } finally {
+              await browser.close();
+            }
+          })().catch((error) => {
+            fs.writeFileSync(path.join(OUT, 'fatal-error.txt'), String(error.stack || error), 'utf8');
+            process.exitCode = 1;
+          });
+          NODE
+
+      - name: Run a best-effort Lighthouse audit
+        if: always()
+        shell: bash
+        run: |
+          set +e
+          OUT="$GITHUB_WORKSPACE/study-output"
+          cd /tmp/eazylife-study
+          CHROME_PATH="$(find "$HOME/.cache/ms-playwright" -type f -path '*/chrome-linux*/chrome' | head -n 1)"
+          export CHROME_PATH
+          npx lighthouse 'https://eazylifewith.abbeyspace.com/' \
+            --output=json --output=html \
+            --output-path="$OUT/lighthouse-report" \
+            --only-categories=performance,accessibility,best-practices,seo \
+            --chrome-flags='--headless --no-sandbox --disable-dev-shm-usage' \
+            --quiet > "$OUT/lighthouse-command.txt" 2>&1
+          echo "lighthouse_exit=$?" >> "$OUT/lighthouse-command.txt"
+
+      - name: Create consolidated summary
+        if: always()
+        shell: bash
+        run: |
+          OUT="$GITHUB_WORKSPACE/study-output"
+          python - <<'PY'
+          from __future__ import annotations
+          import json
+          import re
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          out = Path('study-output')
+          desktop_path = out / 'desktop-1440x1000-inspection.json'
+          report = {'target': 'https://eazylifewith.abbeyspace.com/'}
+          if desktop_path.exists():
+              data = json.loads(desktop_path.read_text(encoding='utf-8'))
+              origin = data.get('origin', '')
+              links = data.get('links', [])
+              report.update({
+                  'title': data.get('title'),
+                  'finalUrl': data.get('url'),
+                  'navigation': data.get('navigation'),
+                  'metaDescription': data.get('metas', {}).get('description', ''),
+                  'headings': data.get('headings', []),
+                  'visibleButtons': data.get('buttons', []),
+                  'forms': data.get('forms', []),
+                  'sections': data.get('sections', []),
+                  'imageCount': len(data.get('images', [])),
+                  'internalLinkCount': sum(1 for item in links if item.get('href', '').startswith(origin)),
+                  'externalLinkCount': sum(1 for item in links if item.get('href', '').startswith('http') and not item.get('href', '').startswith(origin)),
+                  'scripts': data.get('scripts', []),
+                  'stylesheets': data.get('stylesheets', []),
+                  'typography': data.get('typography', {}),
+                  'animationSignals': data.get('animationSignals', {}),
+                  'fixedOrSticky': data.get('fixedOrSticky', []),
+                  'navigationTiming': data.get('navigationTiming'),
+                  'requestFailureCount': len(data.get('requestFailures', [])),
+                  'consoleErrorCount': sum(1 for item in data.get('consoleMessages', []) if item.get('type') == 'error'),
+                  'pageErrors': data.get('pageErrors', []),
+                  'errorResponses': data.get('errorResponses', []),
+                  'documentDimensions': data.get('documentDimensions', {}),
+              })
+
+              sources = ' '.join(data.get('scripts', []) + data.get('stylesheets', []) + [data.get('metas', {}).get('generator', '')]).lower()
+              tech = []
+              indicators = {
+                  'WordPress': ['wp-content', 'wp-includes', 'wordpress'],
+                  'Elementor': ['elementor'],
+                  'WooCommerce': ['woocommerce', 'wc-blocks'],
+                  'Webflow': ['webflow'],
+                  'Shopify': ['cdn.shopify', 'shopify'],
+                  'React': ['react'],
+                  'Next.js': ['/_next/', 'next.js'],
+                  'Vue': ['vue'],
+                  'Bootstrap': ['bootstrap'],
+                  'Tailwind CSS': ['tailwind'],
+                  'jQuery': ['jquery'],
+              }
+              for name, needles in indicators.items():
+                  if any(needle in sources for needle in needles):
+                      tech.append(name)
+              report['technologySignals'] = tech
+
+          lighthouse_json = out / 'lighthouse-report.report.json'
+          if lighthouse_json.exists():
+              lh = json.loads(lighthouse_json.read_text(encoding='utf-8'))
+              report['lighthouse'] = {
+                  key: round(value.get('score', 0) * 100)
+                  for key, value in lh.get('categories', {}).items()
+              }
+              report['lighthouseFinalUrl'] = lh.get('finalUrl')
+
+          (out / 'consolidated-study.json').write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding='utf-8')
+          print(json.dumps(report, indent=2, ensure_ascii=False))
+          PY
+
+      - name: Upload study evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eazylife-website-study
+          path: study-output
+          retention-days: 2
