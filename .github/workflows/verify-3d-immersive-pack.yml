@@ -1,0 +1,154 @@
+name: Verify 3D immersive web pack
+
+on:
+  push:
+    branches:
+      - feat/3d-immersive-web-pack
+    paths:
+      - .github/workflows/verify-3d-immersive-pack.yml
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/3d-immersive-web-pack
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile tools and run tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile \
+            scripts/validate-content-design.py \
+            scripts/initialize-vault-project.py \
+            scripts/validate-domain-packs.py \
+            scripts/validate-celebration-pack.py \
+            scripts/validate-3d-immersive-pack.py \
+            scripts/select-3d-references.py
+          python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Run all domain and capability validators
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/validate-domain-packs.py
+          python scripts/validate-celebration-pack.py
+          python scripts/validate-3d-immersive-pack.py
+          python scripts/select-3d-references.py \
+            'premium product configurator with material swatches and a mobile fallback' \
+            --style-family product-configurator \
+            --limit 5 \
+            --json /tmp/3d-selection.json >/dev/null
+
+      - name: Parse all JSON documents
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          for path in Path('.').rglob('*.json'):
+              json.loads(path.read_text(encoding='utf-8'))
+          selection = json.loads(Path('/tmp/3d-selection.json').read_text(encoding='utf-8'))
+          assert selection['count'] > 0
+          PY
+
+      - name: Write versioned validation report
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          root = Path('.')
+          def load(path):
+              return json.loads((root / path).read_text(encoding='utf-8'))
+
+          families = load('packs/3d-immersive-web/style-families.json')['families']
+          themes = load('packs/3d-immersive-web/production-themes.json')['themes']
+          blueprints = load('packs/3d-immersive-web/page-blueprints.json')['blueprints']
+          components = load('packs/3d-immersive-web/component-manifest.json')['components']
+          patterns = load('packs/3d-immersive-web/interaction-patterns.json')['patterns']
+          states = load('packs/3d-immersive-web/state-vocabulary.json')['states']
+          sources = load('3d/source-catalog.json')['sources']
+          techniques = load('3d/techniques/technique-catalog.json')['techniques']
+          refs = load('3d/references/refs-gallery-3d.json')
+          summary = load('3d/references/refs-gallery-collection-summary.json')
+
+          report = f'''# 3D & Immersive Web Pack Validation Report
+
+**Validated commit:** `{__import__('subprocess').check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()}`  
+**Validation date:** 2026-08-15  
+**Result:** PASS
+
+## Automated checks
+
+- Python tools compiled successfully.
+- Full repository unit-test discovery passed.
+- Fast-Casual Commerce pack validator passed.
+- Celebration & Event Microsite pack validator passed.
+- 3D & Immersive Web pack validator passed.
+- Every JSON document in the repository parsed successfully.
+- The 3D reference selector returned results for a product-configurator brief.
+
+## 3D pack inventory
+
+| Inventory | Count |
+|---|---:|
+| Style families | {len(families)} |
+| Production themes | {len(themes)} |
+| Page/experience blueprints | {len(blueprints)} |
+| Component contracts | {len(components)} |
+| Interaction patterns | {len(patterns)} |
+| State contracts | {len(states)} |
+| Reference-source records | {len(sources)} |
+| Technique records | {len(techniques)} |
+| Refs.Gallery project metadata records | {len(refs.get('references', []))} |
+
+## Refs.Gallery collection
+
+- Source: `{refs.get('sourceUrl', '')}`
+- Retrieved: `{refs.get('retrievedAt', '')}`
+- Public project records: **{len(refs.get('references', []))}**
+- Records with live-site URLs: **{summary.get('withLiveUrl', 0)}**
+- Stored material: project links and public metadata only.
+- Not stored: source screenshots, project media, code, branding, copy, models, textures or exact layouts.
+- Reuse status: every project record is `reference-only`; current rights must be verified independently.
+
+## Capability guarantees enforced by the pack
+
+- A documented reason for using 3D and comparison with simpler media.
+- A complete semantic static/2D fallback.
+- Essential information and controls remain DOM-based.
+- Static, basic-mobile, balanced and high capability tiers.
+- Reduced-motion, save-data, low-power, unsupported, scene-error and context-loss states.
+- Mobile-specific assets and interaction rather than a shrunken desktop scene.
+- Recorded provenance and licence posture for models, textures, HDRIs, animations, shaders and code examples.
+- Measured bundle, asset, geometry, draw-call, texture, GPU-memory and frame-time budgets.
+
+This report records repository validation only. It does not grant a licence to reuse an external reference or asset.
+'''
+          Path('3d/VALIDATION_REPORT.md').write_text(report, encoding='utf-8')
+          PY
+
+      - name: Commit report and remove one-shot workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm -f .github/workflows/verify-3d-immersive-pack.yml
+          git add -- 3d/VALIDATION_REPORT.md .github/workflows/verify-3d-immersive-pack.yml
+          git commit -m 'Add 3D pack validation report'
+          git push origin HEAD:feat/3d-immersive-web-pack
