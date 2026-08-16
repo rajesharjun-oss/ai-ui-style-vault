@@ -6,9 +6,10 @@
   "withTags": 0,
   "styleFamilyCounts": {},
   "limitations": [
-    "The catalogue stores links and metadata only.",
-    "Dynamic pagination and source-site changes may affect completeness.",
-    "A reference listing does not grant reuse rights.",
-    "Review the live project and current terms before using any technique or asset."
+    "The attempted public metadata collection returned zero usable project records because the category depends on dynamic/source access behaviour that could not be enumerated reliably without bypassing access controls.",
+    "The vault does not bypass security checkpoints or access restrictions in order to populate the catalogue.",
+    "The source remains registered as a discovery seed for manual or future public metadata review.",
+    "The catalogue stores links and minimal metadata only; it does not copy screenshots, code, models, textures, videos, branding or exact layouts.",
+    "A reference listing does not grant reuse rights. Review the live project and current terms before using any technique or asset."
   ]
 }
