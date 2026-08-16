@@ -1,7 +1,7 @@
 {
   "id": "3d-immersive-web",
   "name": "3D & Immersive Web",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "production-guidance",
   "packKind": "capability",
   "purpose": "Add purposeful, original, accessible and performance-budgeted real-time 3D or spatial interaction.",
@@ -45,6 +45,7 @@
     "packs/3d-immersive-web/semantic-relevance-standard.md",
     "packs/3d-immersive-web/style-families.json",
     "packs/3d-immersive-web/production-themes.json",
+    "packs/3d-immersive-web/design-combination-system.json",
     "packs/3d-immersive-web/page-blueprints.json",
     "packs/3d-immersive-web/component-manifest.json",
     "packs/3d-immersive-web/interaction-patterns.json",
@@ -58,7 +59,8 @@
     "packs/3d-immersive-web/implementation-prompt.md",
     "3d/source-catalog.json",
     "3d/techniques/technique-catalog.json",
-    "3d/references/refs-gallery-3d.json"
+    "3d/references/refs-gallery-3d.json",
+    "3d/references/expansion-sources-2026-08-16.json"
   ],
   "requiredPlanningArtifacts": [
     "THREE_D_RELEVANCE_CONTRACT.md",
@@ -70,6 +72,14 @@
     "CONTENT_PLAN.md",
     "design-recipe.json"
   ],
+  "designLibrary": {
+    "canonicalStyleFamilies": 21,
+    "productionThemes": 8,
+    "sceneArchetypes": 30,
+    "artDirections": 10,
+    "concreteCombinableDirections": 300,
+    "selectionCommand": "python scripts/select-3d-design-ideas.py"
+  },
   "capabilityTiers": [
     "static",
     "basic-mobile",
@@ -92,6 +102,7 @@
   "schemaRoot": "packs/3d-immersive-web/schemas",
   "referenceRoot": "3d",
   "selectorCommand": "python scripts/select-3d-references.py",
+  "ideaSelectorCommand": "python scripts/select-3d-design-ideas.py",
   "validationCommand": "python scripts/validate-3d-immersive-pack.py",
   "copyPolicy": "Do not copy another site's code, media, branding, copy, models, textures, animation sequence or exact composition.",
   "semanticRelevanceGate": {
