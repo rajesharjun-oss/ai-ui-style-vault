@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": {
+    "name": "Fictional Modular Speaker",
+    "productType": "cinematic-product-launch",
+    "primaryAction": "view-specifications",
+    "fictionalExample": true
+  },
+  "capabilityPack": {
+    "id": "3d-immersive-web",
+    "path": "packs/3d-immersive-web"
+  },
+  "purpose": {
+    "problem": "Explain modular components and finishes.",
+    "why3d": "Exploded and material views support understanding."
+  },
+  "mediumDecision": {
+    "selected": "React Three Fiber",
+    "fallback": "Product gallery and exploded diagram"
+  },
+  "visualDirection": {
+    "styleFamily": "photoreal-product-reveal",
+    "productionTheme": "product-studio",
+    "blueprint": "cinematic-product-launch"
+  },
+  "capabilityTiers": [
+    "static",
+    "basic-mobile",
+    "balanced",
+    "high"
+  ],
+  "qualityGates": [
+    "all tiers",
+    "primary task without 3D",
+    "context loss",
+    "asset licences",
+    "mobile touch",
+    "budget evidence"
+  ]
+}

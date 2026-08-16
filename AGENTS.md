@@ -18,6 +18,7 @@ Read `PROMPTS.md`, `prompts/prompt-index.json`, `PACKS.md` and `packs/pack-index
 
 Use these routes automatically:
 
+- 3D website, immersive WebGL/WebGPU experience, Three.js/R3F/Babylon/Spline build, configurator, showroom, digital twin, spatial portfolio, interactive globe, AR or WebXR: `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` plus `packs/3d-immersive-web/` and any matching product-domain pack.
 - Wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gift registry, private celebration or post-event gallery: `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` plus `packs/celebration-event-microsite/`.
 - Restaurant, cafe, bakery, takeaway, delivery, menu, pickup, quick-service, fast-casual or food-ordering commerce: `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` plus `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` and `packs/fast-casual-commerce/`.
 - New website for another real business: `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md`.
@@ -44,6 +45,7 @@ Pack-specific contracts currently include:
 
 - Fast-Casual Commerce: `COMMERCE_BUILD_CONTRACT.md`.
 - Celebration & Event Microsite: `EVENT_BUILD_CONTRACT.md`, `COUPLE_CONTENT_PLAN.md` and `ASSET_PLAN.md`.
+- 3D & Immersive Web: `THREE_D_BUILD_CONTRACT.md`, `SCENE_ASSET_PLAN.md` and `PERFORMANCE_AND_FALLBACK_PLAN.md`.
 
 ## Mandatory reading order
 
@@ -92,6 +94,12 @@ For a celebration or couple microsite, also create:
 - `EVENT_BUILD_CONTRACT.md`
 - `COUPLE_CONTENT_PLAN.md`
 - `ASSET_PLAN.md`
+
+For a 3D or immersive experience, also create:
+
+- `THREE_D_BUILD_CONTRACT.md`
+- `SCENE_ASSET_PLAN.md`
+- `PERFORMANCE_AND_FALLBACK_PLAN.md`
 
 Use the project initializer for core files and copy pack-specific templates from the selected pack.
 
@@ -162,6 +170,20 @@ For celebration sites:
 - Never leave “Today is the day” active after the final event ends.
 - After completion, replace countdown and RSVP urgency with thank-you, gallery or archive behaviour.
 
+## 3D and immersive web rules
+
+- Prove what 3D improves and choose the smallest sufficient medium.
+- Complete `THREE_D_RELEVANCE_CONTRACT.md` before searching for models/video/backgrounds. Reject any major visual whose subject is not directly tied to the business, product, service, process, place, verified data, audience or page purpose. Primary visuals require relevance score 4–5; secondary decoration requires at least 3. Never use an unrelated Ferrari, spaceship, luxury object or other spectacle merely because it looks premium.
+- Apply `packs/3d-immersive-web/` as a capability pack alongside the product-domain pack.
+- Build a complete semantic static fallback first; essential content and controls remain DOM.
+- Define static, basic-mobile, balanced and high tiers before heavy downloads.
+- Support reduced motion, save data, low power/memory, unsupported, errors and context loss.
+- Measure assets, draw calls, triangles, GPU memory, frame time and first useful frame.
+- Record licence/provenance for every model, texture, HDRI, animation, shader and code example.
+- Treat Refs.Gallery, awards sites, portfolios and marketplaces as reference-only unless separate terms permit reuse.
+- Do not copy code, media, branding, copy, models, textures, exact layout or choreography.
+- Mobile receives an intentional tier; AR/XR starts only after user intent and has a standard-view fallback.
+
 ## Front-end engineering rules
 
 - Preserve the target repository's stack and conventions unless a documented reason requires change.
@@ -221,6 +243,8 @@ After the first render, execute `prompts/VISUAL_QA_AND_REVISION.md`. Capture and
 For restaurant commerce, render menu, customiser, cart, checkout, confirmation and relevant failure states.
 
 For celebration microsites, render upcoming, RSVP-open, event-today, in-progress, completed and post-event states; couple profiles; timeline; gallery/viewer; video dialog; RSVP default/error/submitting/confirmed/closed; guest-code; gifting; mobile menu; reduced-motion and no-animation modes.
+
+For 3D experiences, render static, basic-mobile, balanced and high tiers; reduced-motion/save-data; WebGL disabled; loading phases; model/texture/scene failure; context loss; keyboard/focus; mobile touch; fullscreen and XR unsupported/denied/exit states when applicable. Prove that the primary task works without 3D.
 
 Do not merely list visual problems. Correct them before handoff.
 

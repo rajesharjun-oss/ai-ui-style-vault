@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-ui-style-vault/semantic-relevance.schema.json",
+  "title": "3D Semantic Relevance Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "assetId",
+    "subject",
+    "pagePurpose",
+    "relationshipType",
+    "evidence",
+    "relevanceScore",
+    "role",
+    "decision"
+  ],
+  "properties": {
+    "assetId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pagePurpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relationshipType": {
+      "enum": [
+        "product",
+        "service",
+        "process",
+        "place",
+        "brand-symbol",
+        "verified-data",
+        "audience-context"
+      ]
+    },
+    "evidence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relevanceScore": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "role": {
+      "enum": [
+        "primary",
+        "secondary-decoration"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "approve",
+        "reject"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "role": {
+            "const": "primary"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "relevanceScore": {
+            "minimum": 4
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "role": {
+            "const": "secondary-decoration"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "relevanceScore": {
+            "minimum": 3
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "const": "approve"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "relevanceScore": {
+            "minimum": 3
+          }
+        }
+      }
+    }
+  ]
+}

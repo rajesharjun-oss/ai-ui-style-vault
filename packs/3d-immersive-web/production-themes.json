@@ -1,0 +1,182 @@
+{
+  "name": "3D & Immersive Web Production Themes",
+  "version": "1.0.0",
+  "themes": [
+    {
+      "id": "product-studio",
+      "name": "Product Studio",
+      "styleFamilies": [
+        "minimal-3d-object-hero",
+        "photoreal-product-reveal",
+        "product-configurator"
+      ],
+      "tone": [
+        "precise",
+        "premium",
+        "material-aware"
+      ],
+      "contentDensity": "balanced",
+      "domRole": "Essential content, controls and transactions remain semantic DOM.",
+      "fallback": "Complete static or 2D experience.",
+      "avoid": [
+        "spectacle without purpose",
+        "canvas-only controls",
+        "unmeasured performance"
+      ]
+    },
+    {
+      "id": "cinematic-product-story",
+      "name": "Cinematic Product Story",
+      "styleFamilies": [
+        "scroll-driven-camera-journey",
+        "photoreal-product-reveal",
+        "2d-to-3d-transition"
+      ],
+      "tone": [
+        "cinematic",
+        "focused",
+        "editorial"
+      ],
+      "contentDensity": "balanced",
+      "domRole": "Essential content, controls and transactions remain semantic DOM.",
+      "fallback": "Complete static or 2D experience.",
+      "avoid": [
+        "spectacle without purpose",
+        "canvas-only controls",
+        "unmeasured performance"
+      ]
+    },
+    {
+      "id": "spatial-creative",
+      "name": "Spatial Creative",
+      "styleFamilies": [
+        "walkable-spatial-portfolio",
+        "portal-navigation",
+        "3d-typography"
+      ],
+      "tone": [
+        "expressive",
+        "experimental",
+        "crafted"
+      ],
+      "contentDensity": "balanced",
+      "domRole": "Essential content, controls and transactions remain semantic DOM.",
+      "fallback": "Complete static or 2D experience.",
+      "avoid": [
+        "spectacle without purpose",
+        "canvas-only controls",
+        "unmeasured performance"
+      ]
+    },
+    {
+      "id": "playful-world",
+      "name": "Playful World",
+      "styleFamilies": [
+        "low-poly-world",
+        "clay-soft-toy-3d",
+        "character-led-experience"
+      ],
+      "tone": [
+        "friendly",
+        "energetic",
+        "clear"
+      ],
+      "contentDensity": "balanced",
+      "domRole": "Essential content, controls and transactions remain semantic DOM.",
+      "fallback": "Complete static or 2D experience.",
+      "avoid": [
+        "spectacle without purpose",
+        "canvas-only controls",
+        "unmeasured performance"
+      ]
+    },
+    {
+      "id": "technical-holographic",
+      "name": "Technical Holographic",
+      "styleFamilies": [
+        "holographic-cyber-interface",
+        "particles-nebulae",
+        "interactive-globe-map"
+      ],
+      "tone": [
+        "technical",
+        "credible",
+        "controlled"
+      ],
+      "contentDensity": "balanced",
+      "domRole": "Essential content, controls and transactions remain semantic DOM.",
+      "fallback": "Complete static or 2D experience.",
+      "avoid": [
+        "spectacle without purpose",
+        "canvas-only controls",
+        "unmeasured performance"
+      ]
+    },
+    {
+      "id": "architectural-explorer",
+      "name": "Architectural Explorer",
+      "styleFamilies": [
+        "architectural-digital-twin",
+        "isometric-diorama",
+        "interactive-globe-map"
+      ],
+      "tone": [
+        "accurate",
+        "calm",
+        "spatial"
+      ],
+      "contentDensity": "balanced",
+      "domRole": "Essential content, controls and transactions remain semantic DOM.",
+      "fallback": "Complete static or 2D experience.",
+      "avoid": [
+        "spectacle without purpose",
+        "canvas-only controls",
+        "unmeasured performance"
+      ]
+    },
+    {
+      "id": "organic-sensory",
+      "name": "Organic Sensory",
+      "styleFamilies": [
+        "liquid-organic-shaders",
+        "glass-refraction",
+        "particles-nebulae"
+      ],
+      "tone": [
+        "sensory",
+        "fluid",
+        "atmospheric"
+      ],
+      "contentDensity": "balanced",
+      "domRole": "Essential content, controls and transactions remain semantic DOM.",
+      "fallback": "Complete static or 2D experience.",
+      "avoid": [
+        "spectacle without purpose",
+        "canvas-only controls",
+        "unmeasured performance"
+      ]
+    },
+    {
+      "id": "xr-preview",
+      "name": "Xr Preview",
+      "styleFamilies": [
+        "ar-webxr",
+        "product-configurator",
+        "architectural-digital-twin"
+      ],
+      "tone": [
+        "practical",
+        "clear",
+        "capability-aware"
+      ],
+      "contentDensity": "balanced",
+      "domRole": "Essential content, controls and transactions remain semantic DOM.",
+      "fallback": "Complete static or 2D experience.",
+      "avoid": [
+        "spectacle without purpose",
+        "canvas-only controls",
+        "unmeasured performance"
+      ]
+    }
+  ]
+}

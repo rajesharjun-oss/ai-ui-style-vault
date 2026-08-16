@@ -263,3 +263,13 @@ choose a small set of motion patterns, and implement reduced-motion fallbacks.
 Build production-quality UI with responsive layout, accessibility, loading, empty, and error states,
 server-side authorization where relevant, and clean implementation notes.
 ```
+
+
+## 3D & Immersive Web capability pack
+
+`packs/3d-immersive-web/` covers purposeful 3D sites, configurators, spatial portfolios, showrooms, digital twins, globes and AR/XR. It includes 21 style families, 39 interactions, 30 source records, 34 technique records and 0 Refs.Gallery metadata links.
+
+```bash
+python scripts/select-3d-references.py "premium product configurator"
+python scripts/validate-3d-immersive-pack.py
+```

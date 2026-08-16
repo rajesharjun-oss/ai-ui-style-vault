@@ -1,0 +1,522 @@
+{
+  "name": "3D & Immersive Web Style Families",
+  "version": "1.0.0",
+  "selectionRule": "Choose a family only when depth, spatial interaction or real-time visualisation materially improves understanding, confidence or storytelling.",
+  "families": [
+    {
+      "id": "minimal-3d-object-hero",
+      "name": "Minimal 3D Object Hero",
+      "bestFor": [
+        "SaaS",
+        "hardware",
+        "single-product launches"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "low-to-medium",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Responsive still image"
+    },
+    {
+      "id": "photoreal-product-reveal",
+      "name": "Photoreal Product Reveal",
+      "bestFor": [
+        "Electronics",
+        "automotive",
+        "beauty",
+        "luxury products"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Product photography or rendered video"
+    },
+    {
+      "id": "product-configurator",
+      "name": "Product Configurator",
+      "bestFor": [
+        "Furniture",
+        "vehicles",
+        "equipment",
+        "custom products"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium-to-high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Variant photography and standard product form"
+    },
+    {
+      "id": "low-poly-world",
+      "name": "Low-Poly World",
+      "bestFor": [
+        "Education",
+        "games",
+        "playful campaigns"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Illustrated map or chapter experience"
+    },
+    {
+      "id": "clay-soft-toy-3d",
+      "name": "Clay or Soft-Toy 3D",
+      "bestFor": [
+        "Friendly consumer brands and onboarding"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "low-to-medium",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "2D render or Rive"
+    },
+    {
+      "id": "isometric-diorama",
+      "name": "Isometric Diorama",
+      "bestFor": [
+        "Property",
+        "logistics",
+        "process explanation"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Accessible isometric diagram"
+    },
+    {
+      "id": "walkable-spatial-portfolio",
+      "name": "Walkable Spatial Portfolio",
+      "bestFor": [
+        "Studios",
+        "artists",
+        "game developers"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Conventional portfolio index"
+    },
+    {
+      "id": "scroll-driven-camera-journey",
+      "name": "Scroll-Driven Camera Journey",
+      "bestFor": [
+        "Product launches",
+        "brand stories",
+        "editorial"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "DOM chapters with stills or video"
+    },
+    {
+      "id": "3d-typography",
+      "name": "3D Typography",
+      "bestFor": [
+        "Fashion",
+        "music",
+        "entertainment"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Equivalent DOM heading"
+    },
+    {
+      "id": "glass-refraction",
+      "name": "Glass and Refraction",
+      "bestFor": [
+        "Luxury technology and beauty"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Static glass render"
+    },
+    {
+      "id": "liquid-organic-shaders",
+      "name": "Liquid and Organic Shaders",
+      "bestFor": [
+        "Beauty",
+        "wellness",
+        "music",
+        "art"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Compressed loop or still"
+    },
+    {
+      "id": "particles-nebulae",
+      "name": "Particles and Nebulae",
+      "bestFor": [
+        "AI",
+        "science",
+        "space and data"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium-to-high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Video or SVG/canvas field"
+    },
+    {
+      "id": "holographic-cyber-interface",
+      "name": "Holographic or Cyber Interface",
+      "bestFor": [
+        "Gaming",
+        "security and future technology"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium-to-high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Accessible dark DOM UI"
+    },
+    {
+      "id": "architectural-digital-twin",
+      "name": "Architectural Digital Twin",
+      "bestFor": [
+        "Real estate",
+        "factories",
+        "infrastructure"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "very-high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Plans, photos, maps and tables"
+    },
+    {
+      "id": "interactive-globe-map",
+      "name": "Interactive Globe or Map",
+      "bestFor": [
+        "Logistics",
+        "travel and global networks"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium-to-high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Accessible list and 2D map"
+    },
+    {
+      "id": "character-led-experience",
+      "name": "Character-Led Experience",
+      "bestFor": [
+        "Education",
+        "onboarding and storytelling"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Illustration or Rive"
+    },
+    {
+      "id": "portal-navigation",
+      "name": "Portal Navigation",
+      "bestFor": [
+        "Portfolios",
+        "exhibitions and entertainment"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Standard chapter navigation"
+    },
+    {
+      "id": "2d-to-3d-transition",
+      "name": "2D-to-3D Transition",
+      "bestFor": [
+        "Editorial portfolios and campaigns"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium-to-high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Ordinary page transition"
+    },
+    {
+      "id": "physics-based-interaction",
+      "name": "Physics-Based Interaction",
+      "bestFor": [
+        "Games",
+        "promotions and playful tools"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Direct or scripted interaction"
+    },
+    {
+      "id": "mixed-dom-webgl",
+      "name": "Mixed DOM and WebGL",
+      "bestFor": [
+        "Commercial and content-led websites"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "medium",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Complete 2D website"
+    },
+    {
+      "id": "ar-webxr",
+      "name": "AR or WebXR Experience",
+      "bestFor": [
+        "Products",
+        "museums",
+        "property and education"
+      ],
+      "visualTraits": [
+        "purpose-led spatial composition",
+        "semantic DOM content",
+        "controlled art direction"
+      ],
+      "typicalInteractions": [
+        "guided focus",
+        "direct reset",
+        "capability-aware enhancement"
+      ],
+      "preferredImplementation": [
+        "Use the smallest medium that fulfils the task"
+      ],
+      "performanceRisk": "high",
+      "mobileStrategy": "DOM-first with reduced assets and guided interaction",
+      "fallback": "Standard viewer, photos and measurements"
+    }
+  ]
+}

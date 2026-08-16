@@ -1,9 +1,9 @@
 {
   "name": "AI UI Style Vault Domain Pack Index",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "canonicalInstructions": "AGENTS.md",
   "humanRouter": "PACKS.md",
-  "routingRule": "The most specific matching pack wins. Packs extend rather than replace core rules.",
+  "routingRule": "Select one product-domain pack and add capability packs such as 3d-immersive-web when requested.",
   "packs": [
     {
       "id": "celebration-event-microsite",
@@ -55,7 +55,8 @@
       "sampleDataRoot": "packs/celebration-event-microsite/sample-data",
       "schemaRoot": "packs/celebration-event-microsite/schemas",
       "validationCommand": "python scripts/validate-celebration-pack.py",
-      "copyPolicy": "Use celebration-site principles for an original implementation. Do not copy another couple's identity, photographs, story, wording, financial details, exact layout or proprietary assets."
+      "copyPolicy": "Use celebration-site principles for an original implementation. Do not copy another couple's identity, photographs, story, wording, financial details, exact layout or proprietary assets.",
+      "packKind": "product-domain"
     },
     {
       "id": "fast-casual-commerce",
@@ -104,7 +105,65 @@
       "codeRoot": "packs/fast-casual-commerce/code",
       "sampleDataRoot": "packs/fast-casual-commerce/sample-data",
       "validationCommand": "python scripts/validate-domain-packs.py",
-      "copyPolicy": "Use commerce and interaction principles for an original implementation. Do not copy another restaurant's logo, photography, proprietary code, exact product copy, promotions, page composition, or checkout flow."
+      "copyPolicy": "Use commerce and interaction principles for an original implementation. Do not copy another restaurant's logo, photography, proprietary code, exact product copy, promotions, page composition, or checkout flow.",
+      "packKind": "product-domain"
+    },
+    {
+      "id": "3d-immersive-web",
+      "name": "3D & Immersive Web",
+      "path": "packs/3d-immersive-web",
+      "status": "production-guidance",
+      "packKind": "capability",
+      "requiredPrompt": "prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md",
+      "triggers": [
+        "3d website",
+        "immersive website",
+        "webgl",
+        "webgpu",
+        "three.js",
+        "react three fiber",
+        "spline",
+        "product configurator",
+        "virtual showroom",
+        "digital twin",
+        "webxr"
+      ],
+      "productTypes": [
+        "3d-marketing-site",
+        "product-configurator",
+        "spatial-portfolio",
+        "digital-twin",
+        "ar-preview"
+      ],
+      "requiredReads": [
+        "packs/3d-immersive-web/pack.json",
+        "packs/3d-immersive-web/semantic-relevance-standard.md",
+        "3d/subject-domain-map.json",
+        "packs/3d-immersive-web/style-families.json",
+        "packs/3d-immersive-web/production-themes.json",
+        "packs/3d-immersive-web/page-blueprints.json",
+        "packs/3d-immersive-web/component-manifest.json",
+        "packs/3d-immersive-web/interaction-patterns.json",
+        "packs/3d-immersive-web/state-vocabulary.json",
+        "packs/3d-immersive-web/performance-budgets.json",
+        "packs/3d-immersive-web/accessibility-and-fallbacks.md",
+        "packs/3d-immersive-web/asset-and-model-standard.md",
+        "packs/3d-immersive-web/lighting-and-material-standard.md",
+        "packs/3d-immersive-web/camera-and-scroll-guidance.md",
+        "packs/3d-immersive-web/mobile-3d-guidance.md",
+        "packs/3d-immersive-web/implementation-prompt.md",
+        "3d/source-catalog.json",
+        "3d/techniques/technique-catalog.json",
+        "3d/references/refs-gallery-3d.json"
+      ],
+      "templateRoot": "packs/3d-immersive-web/templates",
+      "codeRoot": "packs/3d-immersive-web/code",
+      "sampleDataRoot": "packs/3d-immersive-web/sample-data",
+      "schemaRoot": "packs/3d-immersive-web/schemas",
+      "referenceRoot": "3d",
+      "selectorCommand": "python scripts/select-3d-references.py",
+      "validationCommand": "python scripts/validate-3d-immersive-pack.py",
+      "copyPolicy": "Reference principles only; do not copy source assets, code or exact composition."
     }
   ]
 }

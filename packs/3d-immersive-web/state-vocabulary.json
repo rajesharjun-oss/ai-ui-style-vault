@@ -1,0 +1,457 @@
+{
+  "name": "3D & Immersive Web State Vocabulary",
+  "version": "1.0.0",
+  "states": [
+    {
+      "id": "loading-shell",
+      "category": "system",
+      "meaning": "Loading shell",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "loading-scene",
+      "category": "loading",
+      "meaning": "Loading scene",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "downloading-assets",
+      "category": "loading",
+      "meaning": "Downloading assets",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "decoding-model",
+      "category": "loading",
+      "meaning": "Decoding model",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "transcoding-textures",
+      "category": "loading",
+      "meaning": "Transcoding textures",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "compiling-shaders",
+      "category": "loading",
+      "meaning": "Compiling shaders",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "interactive",
+      "category": "ready",
+      "meaning": "Interactive",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "paused",
+      "category": "system",
+      "meaning": "Paused",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "reduced-motion",
+      "category": "preference",
+      "meaning": "Reduced motion",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "save-data",
+      "category": "preference",
+      "meaning": "Save data",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "low-power",
+      "category": "capability",
+      "meaning": "Low power",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "low-memory",
+      "category": "capability",
+      "meaning": "Low memory",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "webgl-unavailable",
+      "category": "unsupported",
+      "meaning": "Webgl unavailable",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "webgpu-unavailable",
+      "category": "unsupported",
+      "meaning": "Webgpu unavailable",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "context-lost",
+      "category": "resilience",
+      "meaning": "Context lost",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "context-restoring",
+      "category": "resilience",
+      "meaning": "Context restoring",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "context-restored",
+      "category": "resilience",
+      "meaning": "Context restored",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "scene-error",
+      "category": "error",
+      "meaning": "Scene error",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "model-unavailable",
+      "category": "error",
+      "meaning": "Model unavailable",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "texture-unavailable",
+      "category": "error",
+      "meaning": "Texture unavailable",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "shader-error",
+      "category": "error",
+      "meaning": "Shader error",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "asset-licence-missing",
+      "category": "governance",
+      "meaning": "Asset licence missing",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "asset-credit-required",
+      "category": "governance",
+      "meaning": "Asset credit required",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "quality-high",
+      "category": "quality",
+      "meaning": "Quality high",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "quality-balanced",
+      "category": "quality",
+      "meaning": "Quality balanced",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "quality-low",
+      "category": "quality",
+      "meaning": "Quality low",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "fallback-static",
+      "category": "fallback",
+      "meaning": "Fallback static",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "fallback-video",
+      "category": "fallback",
+      "meaning": "Fallback video",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "fallback-2d-diagram",
+      "category": "fallback",
+      "meaning": "Fallback 2d diagram",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "variant-changing",
+      "category": "configuration",
+      "meaning": "Variant changing",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "variant-unavailable",
+      "category": "configuration",
+      "meaning": "Variant unavailable",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "configuration-invalid",
+      "category": "configuration",
+      "meaning": "Configuration invalid",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "location-focused",
+      "category": "selection",
+      "meaning": "Location focused",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "object-focused",
+      "category": "selection",
+      "meaning": "Object focused",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "transitioning-camera",
+      "category": "motion",
+      "meaning": "Transitioning camera",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "xr-unsupported",
+      "category": "xr",
+      "meaning": "Xr unsupported",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "xr-permission-requested",
+      "category": "xr",
+      "meaning": "Xr permission requested",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "xr-permission-denied",
+      "category": "xr",
+      "meaning": "Xr permission denied",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "xr-session-active",
+      "category": "xr",
+      "meaning": "Xr session active",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "xr-session-error",
+      "category": "xr",
+      "meaning": "Xr session error",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    },
+    {
+      "id": "offline-static",
+      "category": "network",
+      "meaning": "Offline static",
+      "requiredUI": [
+        "plain-language status",
+        "impact",
+        "recovery or fallback"
+      ],
+      "recoveryOrNext": "Preserve the primary task and move to a safe lower tier when needed."
+    }
+  ]
+}

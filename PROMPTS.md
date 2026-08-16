@@ -10,6 +10,7 @@ Read `PACKS.md` and `packs/pack-index.json` whenever a product-specific pack may
 
 | User request | Required prompt and pack |
 |---|---|
+| Build a 3D website, immersive WebGL/WebGPU, Three.js/R3F/Babylon/Spline, configurator, showroom, digital twin, spatial portfolio, globe, AR or WebXR | `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` + `packs/3d-immersive-web/` + matching product-domain pack |
 | Build a wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gift registry, private celebration or post-event gallery website | `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` + `packs/celebration-event-microsite/` |
 | Build a restaurant, cafe, bakery, takeaway, pickup, delivery, menu, quick-service, fast-casual, or food-ordering website/application | `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` + `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` + `packs/fast-casual-commerce/` |
 | Build a new website for another real business from Maps, Instagram, an existing site, a brief, or other public sources | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
@@ -17,7 +18,9 @@ Read `PACKS.md` and `packs/pack-index.json` whenever a product-specific pack may
 | Review the first rendered implementation, screenshots, or localhost build | `prompts/VISUAL_QA_AND_REVISION.md` |
 | Build any product interface, web app, dashboard, or app screen | `prompts/SENIOR_PRODUCT_TEAM_PROMPT.md` |
 
-The most specific route wins.
+The most specific product-domain route wins. Capability prompts such as 3D may be added alongside it.
+
+For a 3D build, use the 3D prompt, all pack reads, the matching product-domain pack and visual QA.
 
 For a celebration-event build, the agent must use:
 

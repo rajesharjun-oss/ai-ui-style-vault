@@ -1,0 +1,488 @@
+{
+  "name": "3D & Immersive Web Source Catalog",
+  "version": "1.0.0",
+  "lastReviewed": "2026-08-15",
+  "selectionPolicy": "Reference portals inspire; official docs explain; examples and assets require their current licence.",
+  "sources": [
+    {
+      "id": "refs-gallery-3d",
+      "name": "Refs.Gallery — 3D category",
+      "url": "https://refs.gallery/category/3d",
+      "sourceType": "reference-gallery",
+      "role": [
+        "inspiration"
+      ],
+      "licencePosture": "reference-only",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "awwwards-webgl",
+      "name": "Awwwards WebGL",
+      "url": "https://www.awwwards.com/websites/webgl/",
+      "sourceType": "awards-gallery",
+      "role": [
+        "inspiration"
+      ],
+      "licencePosture": "reference-only",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "fwa",
+      "name": "The FWA",
+      "url": "https://thefwa.com/",
+      "sourceType": "awards-gallery",
+      "role": [
+        "inspiration"
+      ],
+      "licencePosture": "reference-only",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "codrops-demos",
+      "name": "Codrops demos",
+      "url": "https://tympanus.net/codrops/demos/",
+      "sourceType": "implementation-demo",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-per-demo",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "threejs-examples",
+      "name": "Three.js examples",
+      "url": "https://threejs.org/examples/",
+      "sourceType": "official-implementation",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "official-project-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "threejs-docs",
+      "name": "Three.js documentation",
+      "url": "https://threejs.org/docs/",
+      "sourceType": "official-documentation",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "official-project-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "r3f-docs",
+      "name": "React Three Fiber documentation",
+      "url": "https://r3f.docs.pmnd.rs/",
+      "sourceType": "official-documentation",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "official-project-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "drei-docs",
+      "name": "Drei documentation",
+      "url": "https://drei.docs.pmnd.rs/",
+      "sourceType": "official-documentation",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "official-project-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "babylonjs",
+      "name": "Babylon.js",
+      "url": "https://www.babylonjs.com/",
+      "sourceType": "official-platform",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "official-project-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "babylon-playground",
+      "name": "Babylon.js Playground",
+      "url": "https://playground.babylonjs.com/",
+      "sourceType": "official-implementation",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-snippet",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "theatrejs",
+      "name": "Theatre.js",
+      "url": "https://www.theatrejs.com/",
+      "sourceType": "official-tool",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "official-project-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "gsap",
+      "name": "GSAP",
+      "url": "https://gsap.com/",
+      "sourceType": "official-tool",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-current-official-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "spline",
+      "name": "Spline",
+      "url": "https://spline.design/",
+      "sourceType": "official-tool",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "platform-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "spline-community",
+      "name": "Spline Community",
+      "url": "https://community.spline.design/",
+      "sourceType": "community-scene",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-per-project-and-platform",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "framer-3d",
+      "name": "Framer 3D templates",
+      "url": "https://www.framer.com/marketplace/templates/categories/3d/",
+      "sourceType": "template-marketplace",
+      "role": [
+        "inspiration"
+      ],
+      "licencePosture": "purchase-or-template-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "rive",
+      "name": "Rive",
+      "url": "https://rive.app/",
+      "sourceType": "official-tool",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "platform-and-file-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "rive-community",
+      "name": "Rive Community",
+      "url": "https://rive.app/community/",
+      "sourceType": "community-file",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-per-file",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "model-viewer",
+      "name": "model-viewer",
+      "url": "https://modelviewer.dev/",
+      "sourceType": "official-component",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "official-project-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "khronos-gltf",
+      "name": "Khronos glTF",
+      "url": "https://www.khronos.org/gltf/",
+      "sourceType": "official-standard",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "standard-and-sample-specific",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "gltf-samples",
+      "name": "Khronos glTF Sample Assets",
+      "url": "https://github.com/KhronosGroup/glTF-Sample-Assets",
+      "sourceType": "official-sample-assets",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-per-asset",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "polyhaven",
+      "name": "Poly Haven",
+      "url": "https://polyhaven.com/",
+      "sourceType": "asset-library",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "CC0-current-official-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "ambientcg",
+      "name": "ambientCG",
+      "url": "https://ambientcg.com/",
+      "sourceType": "asset-library",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "CC0-current-official-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "quaternius",
+      "name": "Quaternius",
+      "url": "https://quaternius.com/",
+      "sourceType": "asset-library",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "CC0-current-official-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "url": "https://kenney.nl/assets",
+      "sourceType": "asset-library",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-current-pack-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "sketchfab",
+      "name": "Sketchfab downloadable models",
+      "url": "https://sketchfab.com/3d-models?features=downloadable",
+      "sourceType": "asset-marketplace",
+      "role": [
+        "inspiration"
+      ],
+      "licencePosture": "per-item-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "url": "https://www.blender.org/",
+      "sourceType": "official-tool",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "official-project-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "blenderkit",
+      "name": "BlenderKit",
+      "url": "https://www.blenderkit.com/",
+      "sourceType": "asset-library",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "per-asset-and-platform-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "mixamo",
+      "name": "Adobe Mixamo",
+      "url": "https://www.mixamo.com/",
+      "sourceType": "animation-service",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-current-adobe-terms",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "webxr-samples",
+      "name": "Immersive Web WebXR Samples",
+      "url": "https://immersive-web.github.io/webxr-samples/",
+      "sourceType": "official-standards-samples",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-repository",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    },
+    {
+      "id": "webgpu-samples",
+      "name": "WebGPU Samples",
+      "url": "https://webgpu.github.io/webgpu-samples/",
+      "sourceType": "official-community-samples",
+      "role": [
+        "implementation-or-asset-discovery"
+      ],
+      "licencePosture": "verify-repository",
+      "bestFor": [
+        "3D reference and implementation selection"
+      ],
+      "caveats": [
+        "Verify current source and per-item terms before reuse."
+      ]
+    }
+  ]
+}

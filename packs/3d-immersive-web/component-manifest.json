@@ -1,0 +1,557 @@
+{
+  "name": "3D & Immersive Web Component Manifest",
+  "version": "1.0.0",
+  "components": [
+    {
+      "id": "immersive-app-shell",
+      "category": "structure",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "canvas-stage",
+      "category": "rendering",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "scene-loader",
+      "category": "loading",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "loading-progress",
+      "category": "feedback",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "capability-gate",
+      "category": "progressive-enhancement",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "fallback-render",
+      "category": "fallback",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "camera-rig",
+      "category": "navigation",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "scroll-camera-controller",
+      "category": "navigation",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "orbit-controller",
+      "category": "navigation",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "focus-target",
+      "category": "navigation",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "hotspot-annotation",
+      "category": "annotation",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "model-viewer",
+      "category": "product",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "product-configurator",
+      "category": "commerce",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "variant-selector",
+      "category": "commerce",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "material-swatch",
+      "category": "commerce",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "environment-switcher",
+      "category": "rendering",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "quality-selector",
+      "category": "performance",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "performance-monitor",
+      "category": "performance",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "scene-error-state",
+      "category": "feedback",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "fullscreen-toggle",
+      "category": "controls",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "audio-toggle",
+      "category": "controls",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "dom-overlay",
+      "category": "accessibility",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "spatial-navigation",
+      "category": "navigation",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "portal-transition",
+      "category": "navigation",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "model-credit",
+      "category": "licensing",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "ar-launcher",
+      "category": "xr",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "asset-preload-manager",
+      "category": "loading",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "animation-timeline-controller",
+      "category": "motion",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    },
+    {
+      "id": "context-loss-recovery",
+      "category": "resilience",
+      "requiredParts": [
+        "accessible DOM counterpart when interactive",
+        "status",
+        "mobile behaviour",
+        "fallback"
+      ],
+      "requiredStates": [
+        "default",
+        "loading",
+        "interactive",
+        "error",
+        "reduced-motion",
+        "fallback"
+      ],
+      "rule": "Do not make the canvas the only source of essential information or control."
+    }
+  ]
+}

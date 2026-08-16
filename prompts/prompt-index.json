@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Prompt Index",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "canonicalInstructions": "AGENTS.md",
   "humanRouter": "PROMPTS.md",
   "domainPackRouter": "PACKS.md",
@@ -10,20 +10,31 @@
     "claudeCode": "CLAUDE.md",
     "geminiCli": "GEMINI.md"
   },
-  "routingRule": "The most specific matching prompt wins and may require one or more general prompts plus a domain pack.",
+  "routingRule": "The most specific product prompt wins; capability prompts such as 3D may be added alongside it.",
   "prompts": [
     {
       "id": "senior-product-team",
       "path": "prompts/SENIOR_PRODUCT_TEAM_PROMPT.md",
       "priority": 10,
-      "requiredFor": ["all product interface builds"],
-      "triggers": ["website", "web app", "dashboard", "application", "interface", "ui"]
+      "requiredFor": [
+        "all product interface builds"
+      ],
+      "triggers": [
+        "website",
+        "web app",
+        "dashboard",
+        "application",
+        "interface",
+        "ui"
+      ]
     },
     {
       "id": "build-premium-business-website",
       "path": "prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md",
       "priority": 40,
-      "requiredFor": ["new website for a real business"],
+      "requiredFor": [
+        "new website for a real business"
+      ],
       "triggers": [
         "build a website for this business",
         "maps link",
@@ -33,7 +44,9 @@
         "professional services website",
         "local business website"
       ],
-      "followedBy": ["visual-qa-and-revision"]
+      "followedBy": [
+        "visual-qa-and-revision"
+      ]
     },
     {
       "id": "build-celebration-event-microsite",
@@ -64,8 +77,12 @@
         "post event gallery"
       ],
       "requiresDomainPack": "celebration-event-microsite",
-      "optionalPrompts": ["build-premium-business-website"],
-      "followedBy": ["visual-qa-and-revision"]
+      "optionalPrompts": [
+        "build-premium-business-website"
+      ],
+      "followedBy": [
+        "visual-qa-and-revision"
+      ]
     },
     {
       "id": "build-restaurant-commerce-experience",
@@ -97,15 +114,21 @@
         "loyalty",
         "order tracking"
       ],
-      "requiresPrompts": ["build-premium-business-website"],
+      "requiresPrompts": [
+        "build-premium-business-website"
+      ],
       "requiresDomainPack": "fast-casual-commerce",
-      "followedBy": ["visual-qa-and-revision"]
+      "followedBy": [
+        "visual-qa-and-revision"
+      ]
     },
     {
       "id": "refine-existing-business-website",
       "path": "prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md",
       "priority": 60,
-      "requiredFor": ["redesign or improvement of an existing business or event site"],
+      "requiredFor": [
+        "redesign or improvement of an existing business or event site"
+      ],
       "triggers": [
         "redesign",
         "improve this website",
@@ -115,14 +138,57 @@
         "modernise",
         "screenshots"
       ],
-      "followedBy": ["visual-qa-and-revision"]
+      "followedBy": [
+        "visual-qa-and-revision"
+      ]
     },
     {
       "id": "visual-qa-and-revision",
       "path": "prompts/VISUAL_QA_AND_REVISION.md",
       "priority": 90,
-      "requiredFor": ["all browser-rendered builds after the first render"],
-      "triggers": ["localhost", "preview", "browser render", "screenshot", "visual qa", "before handoff"]
+      "requiredFor": [
+        "all browser-rendered builds after the first render"
+      ],
+      "triggers": [
+        "localhost",
+        "preview",
+        "browser render",
+        "screenshot",
+        "visual qa",
+        "before handoff"
+      ]
+    },
+    {
+      "id": "build-3d-immersive-web-experience",
+      "path": "prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md",
+      "priority": 120,
+      "requiredFor": [
+        "3D or immersive website",
+        "WebGL/WebGPU",
+        "product configurator",
+        "digital twin",
+        "AR/WebXR"
+      ],
+      "triggers": [
+        "3d website",
+        "immersive website",
+        "webgl",
+        "webgpu",
+        "three.js",
+        "react three fiber",
+        "r3f",
+        "babylon.js",
+        "spline",
+        "3d configurator",
+        "virtual showroom",
+        "digital twin",
+        "webxr"
+      ],
+      "requiresCapabilityPack": "3d-immersive-web",
+      "combineWithMatchingProductDomainPack": true,
+      "followedBy": [
+        "visual-qa-and-revision"
+      ]
     }
   ],
   "requiredPlanningArtifactsForBusinessBuilds": [
@@ -134,8 +200,20 @@
     "design-recipe.json"
   ],
   "additionalPlanningArtifactsByDomainPack": {
-    "fast-casual-commerce": ["COMMERCE_BUILD_CONTRACT.md"],
-    "celebration-event-microsite": ["EVENT_BUILD_CONTRACT.md", "COUPLE_CONTENT_PLAN.md", "ASSET_PLAN.md"]
+    "fast-casual-commerce": [
+      "COMMERCE_BUILD_CONTRACT.md"
+    ],
+    "celebration-event-microsite": [
+      "EVENT_BUILD_CONTRACT.md",
+      "COUPLE_CONTENT_PLAN.md",
+      "ASSET_PLAN.md"
+    ],
+    "3d-immersive-web": [
+      "THREE_D_RELEVANCE_CONTRACT.md",
+      "THREE_D_BUILD_CONTRACT.md",
+      "SCENE_ASSET_PLAN.md",
+      "PERFORMANCE_AND_FALLBACK_PLAN.md"
+    ]
   },
   "handoffRequirements": [
     "verified facts and provisional assumptions",

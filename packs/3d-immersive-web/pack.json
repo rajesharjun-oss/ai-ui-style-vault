@@ -1,0 +1,103 @@
+{
+  "id": "3d-immersive-web",
+  "name": "3D & Immersive Web",
+  "version": "1.0.0",
+  "status": "production-guidance",
+  "packKind": "capability",
+  "purpose": "Add purposeful, original, accessible and performance-budgeted real-time 3D or spatial interaction.",
+  "productTypes": [
+    "3d-marketing-site",
+    "product-configurator",
+    "spatial-portfolio",
+    "immersive-story",
+    "interactive-showroom",
+    "digital-twin",
+    "3d-map",
+    "ar-preview",
+    "webxr-experience"
+  ],
+  "triggers": [
+    "3d website",
+    "immersive website",
+    "webgl",
+    "webgpu",
+    "three.js",
+    "react three fiber",
+    "r3f",
+    "babylon.js",
+    "spline",
+    "3d configurator",
+    "virtual showroom",
+    "digital twin",
+    "3d portfolio",
+    "scroll camera",
+    "webxr",
+    "interactive 3d"
+  ],
+  "requiredPrompt": "prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md",
+  "canCombineWith": [
+    "fast-casual-commerce",
+    "celebration-event-microsite",
+    "future product-domain packs"
+  ],
+  "requiredReads": [
+    "3d/subject-domain-map.json",
+    "packs/3d-immersive-web/semantic-relevance-standard.md",
+    "packs/3d-immersive-web/style-families.json",
+    "packs/3d-immersive-web/production-themes.json",
+    "packs/3d-immersive-web/page-blueprints.json",
+    "packs/3d-immersive-web/component-manifest.json",
+    "packs/3d-immersive-web/interaction-patterns.json",
+    "packs/3d-immersive-web/state-vocabulary.json",
+    "packs/3d-immersive-web/performance-budgets.json",
+    "packs/3d-immersive-web/accessibility-and-fallbacks.md",
+    "packs/3d-immersive-web/asset-and-model-standard.md",
+    "packs/3d-immersive-web/lighting-and-material-standard.md",
+    "packs/3d-immersive-web/camera-and-scroll-guidance.md",
+    "packs/3d-immersive-web/mobile-3d-guidance.md",
+    "packs/3d-immersive-web/implementation-prompt.md",
+    "3d/source-catalog.json",
+    "3d/techniques/technique-catalog.json",
+    "3d/references/refs-gallery-3d.json"
+  ],
+  "requiredPlanningArtifacts": [
+    "THREE_D_RELEVANCE_CONTRACT.md",
+    "THREE_D_BUILD_CONTRACT.md",
+    "SCENE_ASSET_PLAN.md",
+    "PERFORMANCE_AND_FALLBACK_PLAN.md",
+    "VAULT_SELECTION.md",
+    "BUILD_CONTRACT.md",
+    "CONTENT_PLAN.md",
+    "design-recipe.json"
+  ],
+  "capabilityTiers": [
+    "static",
+    "basic-mobile",
+    "balanced",
+    "high"
+  ],
+  "mediumDecisionOrder": [
+    "DOM/CSS",
+    "CSS perspective",
+    "image sequence/video",
+    "Rive",
+    "Spline/embed",
+    "model-viewer",
+    "custom WebGL/WebGPU",
+    "WebXR"
+  ],
+  "templateRoot": "packs/3d-immersive-web/templates",
+  "codeRoot": "packs/3d-immersive-web/code",
+  "sampleDataRoot": "packs/3d-immersive-web/sample-data",
+  "schemaRoot": "packs/3d-immersive-web/schemas",
+  "referenceRoot": "3d",
+  "selectorCommand": "python scripts/select-3d-references.py",
+  "validationCommand": "python scripts/validate-3d-immersive-pack.py",
+  "copyPolicy": "Do not copy another site's code, media, branding, copy, models, textures, animation sequence or exact composition.",
+  "semanticRelevanceGate": {
+    "primaryMinimumScore": 4,
+    "secondaryMinimumScore": 3,
+    "rejectUnrelatedAssets": true,
+    "requiredContract": "THREE_D_RELEVANCE_CONTRACT.md"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "name": "3D Semantic Subject-Domain Map",
+  "version": "1.0.0",
+  "rule": "A 3D image, video, object, environment or animated background must have a direct, documented relationship to the business, product, service, process, place, audience or page purpose. Visual impressiveness alone is never sufficient.",
+  "relationshipTypes": [
+    "product",
+    "service",
+    "process",
+    "place",
+    "brand-symbol",
+    "verified-data",
+    "audience-context"
+  ],
+  "domains": [
+    {
+      "id": "restaurant-food",
+      "signals": [
+        "restaurant",
+        "pizza",
+        "food",
+        "cafe",
+        "bakery",
+        "meal",
+        "delivery"
+      ],
+      "approvedSubjects": [
+        "actual menu products",
+        "ingredients",
+        "dough or preparation",
+        "oven or kitchen equipment",
+        "food packaging",
+        "delivery packaging",
+        "restaurant interior or table context"
+      ],
+      "conditionallyApproved": [
+        "abstract steam, heat, ingredient particles or typographic forms tied to the menu"
+      ],
+      "rejectExamples": [
+        "sports car",
+        "spaceship",
+        "weapon",
+        "unrelated luxury watch",
+        "random robot",
+        "generic cyber city"
+      ]
+    },
+    {
+      "id": "fashion-retail",
+      "signals": [
+        "fashion",
+        "clothing",
+        "apparel",
+        "shoe",
+        "bag",
+        "jewellery"
+      ],
+      "approvedSubjects": [
+        "actual garments",
+        "fabric",
+        "accessories",
+        "mannequin or display forms",
+        "product turntable",
+        "retail display environment"
+      ],
+      "conditionallyApproved": [
+        "abstract textile or material studies"
+      ],
+      "rejectExamples": [
+        "unrelated vehicles",
+        "spacecraft",
+        "industrial machinery unrelated to production"
+      ]
+    },
+    {
+      "id": "automotive",
+      "signals": [
+        "automotive",
+        "car",
+        "vehicle",
+        "motorcycle"
+      ],
+      "approvedSubjects": [
+        "actual vehicle",
+        "vehicle components",
+        "wheel, lighting or interior details",
+        "showroom",
+        "road or verified use context"
+      ],
+      "conditionallyApproved": [
+        "technical airflow or engineering visualisation"
+      ],
+      "rejectExamples": [
+        "food products",
+        "random fashion items",
+        "unrelated architecture"
+      ]
+    },
+    {
+      "id": "real-estate-architecture",
+      "signals": [
+        "real estate",
+        "property",
+        "building",
+        "architecture",
+        "interior"
+      ],
+      "approvedSubjects": [
+        "actual building",
+        "unit or room",
+        "floor plan",
+        "site plan",
+        "materials",
+        "neighbourhood context",
+        "verified digital twin"
+      ],
+      "conditionallyApproved": [
+        "sun-path or spatial data visualisation"
+      ],
+      "rejectExamples": [
+        "unrelated cars as hero object",
+        "random consumer gadgets",
+        "fantasy planets"
+      ]
+    },
+    {
+      "id": "professional-services",
+      "signals": [
+        "tax",
+        "accounting",
+        "audit",
+        "consulting",
+        "legal",
+        "professional services"
+      ],
+      "approvedSubjects": [
+        "documents",
+        "data structures",
+        "verified charts or flows",
+        "abstract architectural forms tied to trust or structure",
+        "service-process diagrams"
+      ],
+      "conditionallyApproved": [
+        "restrained abstract geometry representing systems, compliance or networks"
+      ],
+      "rejectExamples": [
+        "sports cars",
+        "cash rain",
+        "spaceships",
+        "random luxury goods",
+        "game weapons"
+      ]
+    },
+    {
+      "id": "wedding-celebration",
+      "signals": [
+        "wedding",
+        "nikkah",
+        "engagement",
+        "anniversary",
+        "couple"
+      ],
+      "approvedSubjects": [
+        "rings",
+        "flowers",
+        "fabric",
+        "monogram",
+        "venue details",
+        "ceremonial objects",
+        "approved couple-provided motifs"
+      ],
+      "conditionallyApproved": [
+        "petals, confetti or material particles appropriate to the event"
+      ],
+      "rejectExamples": [
+        "unrelated sports cars",
+        "spaceships",
+        "cyber weapons",
+        "random machinery"
+      ]
+    },
+    {
+      "id": "beauty-wellness",
+      "signals": [
+        "beauty",
+        "cosmetic",
+        "skincare",
+        "wellness",
+        "spa"
+      ],
+      "approvedSubjects": [
+        "actual product packaging",
+        "ingredients with verified relevance",
+        "skin-safe material studies",
+        "water or organic forms tied to product claims"
+      ],
+      "conditionallyApproved": [
+        "liquid, glass or organic shaders that support the brand/material story"
+      ],
+      "rejectExamples": [
+        "unrelated vehicles",
+        "industrial weapons",
+        "random electronics"
+      ]
+    },
+    {
+      "id": "technology-electronics",
+      "signals": [
+        "technology",
+        "software",
+        "hardware",
+        "electronics",
+        "device",
+        "ai"
+      ],
+      "approvedSubjects": [
+        "actual device or hardware",
+        "verified system architecture",
+        "data or network visualisation",
+        "product UI integrated with a device model"
+      ],
+      "conditionallyApproved": [
+        "abstract particles or spatial data when tied to a specific technical concept"
+      ],
+      "rejectExamples": [
+        "unrelated luxury cars",
+        "food products",
+        "random fantasy props"
+      ]
+    },
+    {
+      "id": "travel-hospitality",
+      "signals": [
+        "hotel",
+        "travel",
+        "tourism",
+        "resort",
+        "destination"
+      ],
+      "approvedSubjects": [
+        "actual destination",
+        "hotel or room",
+        "route map",
+        "landmarks",
+        "luggage or service context",
+        "verified spatial tour"
+      ],
+      "conditionallyApproved": [
+        "globe or route animation using real locations"
+      ],
+      "rejectExamples": [
+        "random product configurators",
+        "unrelated machinery",
+        "fantasy planets presented as destination"
+      ]
+    },
+    {
+      "id": "logistics-mobility",
+      "signals": [
+        "logistics",
+        "shipping",
+        "supply chain",
+        "mobility",
+        "fleet"
+      ],
+      "approvedSubjects": [
+        "verified routes",
+        "vehicles used by the service",
+        "warehouse",
+        "containers",
+        "packages",
+        "network map"
+      ],
+      "conditionallyApproved": [
+        "data-driven globe or network"
+      ],
+      "rejectExamples": [
+        "unrelated food or fashion products",
+        "fantasy vehicles"
+      ]
+    },
+    {
+      "id": "education-science",
+      "signals": [
+        "education",
+        "school",
+        "course",
+        "science",
+        "museum"
+      ],
+      "approvedSubjects": [
+        "subject-matter models",
+        "scientific structures",
+        "learning objects",
+        "museum exhibits",
+        "data visualisations"
+      ],
+      "conditionallyApproved": [
+        "characters or worlds that directly support the lesson"
+      ],
+      "rejectExamples": [
+        "unrelated luxury products",
+        "random brand spectacle"
+      ]
+    }
+  ],
+  "universalRejectRules": [
+    "Reject an asset selected only because it looks premium, futuristic or impressive.",
+    "Reject any subject that could be swapped into an unrelated website without changing the meaning of the section.",
+    "Reject decorative background video whose subject contradicts the product or service.",
+    "Reject generated visuals that imply a real product, property, facility or capability that does not exist.",
+    "When no domain-specific subject is justified, prefer restrained abstract motion or no 3D at all."
+  ]
+}

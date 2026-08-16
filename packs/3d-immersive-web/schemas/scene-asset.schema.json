@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-ui-style-vault/scene-asset.schema.json",
+  "title": "3D Scene Asset Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "kind",
+    "source",
+    "licence",
+    "runtime",
+    "metrics",
+    "fallback"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object"
+    },
+    "licence": {
+      "type": "object"
+    },
+    "runtime": {
+      "type": "object"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "fallback": {
+      "type": "object"
+    }
+  }
+}

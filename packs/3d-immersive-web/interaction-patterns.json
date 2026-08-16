@@ -1,0 +1,357 @@
+{
+  "name": "3D & Immersive Web Interaction Patterns",
+  "version": "1.0.0",
+  "patterns": [
+    {
+      "id": "pointer-parallax-object",
+      "description": "Subtle pointer response",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Static pose"
+    },
+    {
+      "id": "bounded-orbit-inspection",
+      "description": "Constrained product inspection",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Camera preset gallery"
+    },
+    {
+      "id": "camera-preset-navigation",
+      "description": "Move to labelled authored viewpoints",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Direct still views"
+    },
+    {
+      "id": "scroll-camera-path",
+      "description": "Synchronise camera with chapters",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "DOM chapters"
+    },
+    {
+      "id": "chapter-snap",
+      "description": "Settle on authored story states",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Direct navigation"
+    },
+    {
+      "id": "object-hotspots",
+      "description": "Select labelled object points",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "DOM hotspot list"
+    },
+    {
+      "id": "exploded-view",
+      "description": "Separate assemblies",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Exploded diagram"
+    },
+    {
+      "id": "section-cut",
+      "description": "Reveal interiors",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Section drawing"
+    },
+    {
+      "id": "material-switch",
+      "description": "Change verified material",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Variant photography"
+    },
+    {
+      "id": "environment-switch",
+      "description": "Preview context lighting",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Neutral render"
+    },
+    {
+      "id": "model-morph",
+      "description": "Transition between forms",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Before/after media"
+    },
+    {
+      "id": "image-to-3d-transition",
+      "description": "Connect DOM image and scene",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Direct page transition"
+    },
+    {
+      "id": "portal-navigation",
+      "description": "Preview and enter chapters",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Standard links"
+    },
+    {
+      "id": "guided-world-nodes",
+      "description": "Move among labelled stations",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Map/index"
+    },
+    {
+      "id": "first-person-navigation",
+      "description": "Optional free movement",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Guided nodes"
+    },
+    {
+      "id": "drag-throw-physics",
+      "description": "Tactile object physics",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Direct controls"
+    },
+    {
+      "id": "object-assembly",
+      "description": "Assemble parts",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Text steps"
+    },
+    {
+      "id": "timeline-scrub",
+      "description": "Scrub process or story",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Play/pause and chapters"
+    },
+    {
+      "id": "audio-reactive-scene",
+      "description": "Respond to opt-in audio",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Silent mode"
+    },
+    {
+      "id": "cursor-attraction-particles",
+      "description": "Pointer particle response",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Static field"
+    },
+    {
+      "id": "data-driven-particles",
+      "description": "Map verified data to points",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Table and legend"
+    },
+    {
+      "id": "globe-route-animation",
+      "description": "Animate verified routes",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "2D map/list"
+    },
+    {
+      "id": "map-location-focus",
+      "description": "Synchronise list and map",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Location list"
+    },
+    {
+      "id": "character-state-machine",
+      "description": "Character reflects task state",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Text state and illustration"
+    },
+    {
+      "id": "skeletal-animation-control",
+      "description": "Play named animation clips",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Fallback video"
+    },
+    {
+      "id": "camera-look-at-focus",
+      "description": "Focus selected object",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Instant reduced-motion focus"
+    },
+    {
+      "id": "depth-hover-cards",
+      "description": "CSS/WebGL depth feedback",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Flat layout"
+    },
+    {
+      "id": "refraction-lens",
+      "description": "Decorative lens distortion",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Static render"
+    },
+    {
+      "id": "liquid-pointer-field",
+      "description": "Fluid pointer shader",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Video/still"
+    },
+    {
+      "id": "3d-text-extrusion",
+      "description": "Spatial display type",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "DOM headline"
+    },
+    {
+      "id": "shared-canvas-sections",
+      "description": "One renderer across sections",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Static section renders"
+    },
+    {
+      "id": "multi-view-canvas",
+      "description": "Several views from one renderer",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Image grid"
+    },
+    {
+      "id": "progressive-model-streaming",
+      "description": "Coarse-to-detail model loading",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Data-first plan"
+    },
+    {
+      "id": "quality-auto-downgrade",
+      "description": "Reduce effects after sustained low FPS",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Lower tier"
+    },
+    {
+      "id": "context-loss-restore",
+      "description": "Recover graphics context",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Static fallback"
+    },
+    {
+      "id": "ar-place-object",
+      "description": "Place object in environment",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Viewer/photos"
+    },
+    {
+      "id": "xr-guided-tour",
+      "description": "Immersive checkpoints",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Non-XR tour"
+    },
+    {
+      "id": "scroll-annotation-sync",
+      "description": "Synchronise DOM annotation and scene",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Static annotation"
+    },
+    {
+      "id": "model-measurement",
+      "description": "Show verified dimensions",
+      "bestFor": [
+        "purpose-specific use"
+      ],
+      "risks": "Performance, orientation or accessibility if overused",
+      "fallback": "Dimension table"
+    }
+  ]
+}

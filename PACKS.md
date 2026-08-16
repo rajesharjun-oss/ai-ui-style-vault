@@ -8,10 +8,23 @@ Agents must follow `AGENTS.md` first. A domain pack adds requirements; it never 
 
 | Product or task | Required pack | Required task prompt |
 |---|---|---|
+| 3D, WebGL/WebGPU, Three.js/R3F/Babylon/Spline, configurator, showroom, digital twin, spatial portfolio, globe, AR or WebXR | `packs/3d-immersive-web/` plus matching product-domain pack | `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` |
 | Wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gift registry, private celebration or post-event gallery | `packs/celebration-event-microsite/` | `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` |
 | Restaurant, food ordering, takeaway, delivery, menu, quick-service, fast-casual, cafe, bakery, or multi-branch food commerce | `packs/fast-casual-commerce/` | `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` |
 
 The most specific route wins. The machine-readable router is `packs/pack-index.json`.
+
+## Product-domain and capability packs
+
+Select one product-domain pack and add capability packs when needed. A 3D restaurant configurator, for example, uses both Fast-Casual Commerce and 3D & Immersive Web.
+
+## 3D & Immersive Web capability pack
+
+**Semantic relevance is a hard gate.** Complete `THREE_D_RELEVANCE_CONTRACT.md` before asset selection. A 3D object, video or background must directly match the business/product/page purpose; unrelated spectacle is rejected.
+
+Use `packs/3d-immersive-web/` for purposeful real-time depth, model inspection/configuration, camera storytelling, spatial worlds, digital twins, maps or AR/XR. Read `pack.json`, all required reads, `3d/source-catalog.json`, `3d/techniques/` and `3d/references/`.
+
+Prove the need, compare simpler media, build the fallback first, keep controls/content in DOM, define capability tiers, measure budgets and record every asset licence. Refs.Gallery and other galleries are reference-only unless separate terms grant reuse.
 
 ## Celebration & Event Microsite Pack
 

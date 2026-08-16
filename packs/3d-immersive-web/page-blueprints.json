@@ -1,0 +1,458 @@
+{
+  "name": "3D & Immersive Web Page Blueprints",
+  "version": "1.0.0",
+  "instructions": "Select the smallest blueprint that solves the task and combine it with the matching product-domain pack.",
+  "blueprints": [
+    {
+      "id": "mixed-dom-webgl-marketing",
+      "purpose": "Use a shared stage to strengthen a readable commercial site.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "minimal-3d-hero",
+      "purpose": "Present one meaningful object while identification and action remain immediate.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "cinematic-product-launch",
+      "purpose": "Explain a flagship product through authored camera chapters and real evidence.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "3d-product-configurator",
+      "purpose": "Inspect and configure a product while price, status and purchase controls remain explicit.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "spatial-portfolio",
+      "purpose": "Organise creative work spatially while preserving a normal project index and deep links.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "scroll-camera-story",
+      "purpose": "Synchronise semantic story chapters with a continuous scene.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "interactive-showroom",
+      "purpose": "Explore curated products, rooms or exhibits through guided stations.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "digital-twin-explorer",
+      "purpose": "Inspect facilities, machines or infrastructure with accurate zones and data overlays.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "3d-data-globe",
+      "purpose": "Show verified locations and routes with search, filters and an accessible list.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "character-led-experience",
+      "purpose": "Use a character to guide onboarding, education or storytelling through explicit states.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    },
+    {
+      "id": "webxr-ar-preview",
+      "purpose": "Offer opt-in AR/XR after compatibility, scale and fallback are clear.",
+      "requiredBlocks": [
+        "semantic DOM shell",
+        "3D purpose",
+        "capability gate",
+        "scene or viewer",
+        "designed fallback",
+        "primary action"
+      ],
+      "optionalBlocks": [
+        "hotspots",
+        "quality selector",
+        "camera presets",
+        "AR/XR"
+      ],
+      "primaryStates": [
+        "loading-shell",
+        "loading-scene",
+        "interactive",
+        "reduced-motion",
+        "low-power",
+        "scene-error",
+        "fallback-static",
+        "mobile"
+      ],
+      "desktopComposition": "Canvas and DOM use a stable authored composition.",
+      "mobileTransformation": "DOM-first, fewer assets/effects and guided touch interaction.",
+      "antiPatterns": [
+        "canvas-only website",
+        "unbounded camera",
+        "no fallback",
+        "hidden primary action"
+      ],
+      "acceptanceCriteria": [
+        "The primary task works without 3D.",
+        "Essential content and controls remain semantic DOM.",
+        "Performance and fallback evidence exists."
+      ]
+    }
+  ]
+}
