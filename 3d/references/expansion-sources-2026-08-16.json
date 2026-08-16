@@ -1,0 +1,71 @@
+{
+  "name": "3D Inspiration Expansion Sources",
+  "retrievedAt": "2026-08-16",
+  "purpose": "Record current public inspiration sources used to expand the structured design system. Counts are discovery snapshots only and may change.",
+  "sources": [
+    {
+      "id": "a1-gallery-3d",
+      "name": "A1 Gallery — 3D",
+      "url": "https://www.a1.gallery/style/3d",
+      "sourceType": "reference-gallery",
+      "publicCountAtRetrieval": 91,
+      "observedContent": ["landing pages", "portfolios", "agency sites", "product sites", "animated 3D compositions"],
+      "usagePolicy": "reference-only",
+      "notes": "Study hierarchy, composition and interaction principles; do not copy screenshots, media, code or exact layouts."
+    },
+    {
+      "id": "mesh3d-all-websites",
+      "name": "mesh3d — All Websites",
+      "url": "https://mesh3d.gallery/websites",
+      "sourceType": "reference-gallery",
+      "publicCountAtRetrieval": 356,
+      "observedContent": ["Three.js", "WebGL", "interactive 3D", "portfolios", "brands", "real estate", "product experiences"],
+      "usagePolicy": "reference-only",
+      "notes": "Curated external projects. Individual project rights must be checked separately."
+    },
+    {
+      "id": "mesh3d-webgl",
+      "name": "mesh3d — WebGL Filter",
+      "url": "https://mesh3d.gallery/websites?tech=webgl",
+      "sourceType": "reference-gallery",
+      "publicCountAtRetrieval": 232,
+      "observedContent": ["WebGL", "Three.js", "creative development", "immersive marketing"],
+      "usagePolicy": "reference-only"
+    },
+    {
+      "id": "mesh3d-featured",
+      "name": "mesh3d — Featured",
+      "url": "https://mesh3d.gallery/websites?sort=featured",
+      "sourceType": "reference-gallery",
+      "publicCountAtRetrieval": 48,
+      "observedContent": ["high-quality selected 3D web experiences"],
+      "usagePolicy": "reference-only"
+    },
+    {
+      "id": "threejs-resources-showcase",
+      "name": "ThreeJS Resources — Showcase",
+      "url": "https://threejsresources.com/showcase",
+      "sourceType": "reference-gallery",
+      "publicCountAtRetrieval": null,
+      "observedCategories": ["Agency websites", "Architecture", "Branding", "Creative Portfolios", "Data Visualization", "E-commerce", "Educational", "Entertainment", "Experiments", "Games", "Generative Art", "Landing Pages", "Product Configurators", "Real Estate", "SaaS"],
+      "usagePolicy": "reference-only",
+      "notes": "Public showcase provides domain-specific examples useful for semantic matching."
+    },
+    {
+      "id": "refs-gallery-3d-tag",
+      "name": "Refs.Gallery — 3D tag",
+      "url": "https://refs.gallery/tags/3d",
+      "sourceType": "reference-gallery",
+      "publicCountAtRetrieval": null,
+      "observedProjects": ["Huge Inc.", "Suvrees Watch 001", "099", "Patio", "Hyer", "ChainGPT Labs", "Trawelt"],
+      "usagePolicy": "reference-only",
+      "notes": "The indexed tag page exposes public project names. Do not bypass access controls or copy preview media."
+    }
+  ],
+  "curationRules": [
+    "External galleries are inspiration only unless a specific project licence grants more rights.",
+    "A high-quality reference is not automatically relevant to the target business.",
+    "Use THREE_D_RELEVANCE_CONTRACT.md before applying any reference direction.",
+    "Record only minimal public metadata; do not mirror screenshots, videos, models, textures, code or copyrighted copy."
+  ]
+}
