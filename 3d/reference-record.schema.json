@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-ui-style-vault/3d-reference-record.schema.json",
+  "title": "3D Reference Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "sourceId", "sourceType", "projectPage", "usagePolicy", "retrievedAt"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1, "maxLength": 240},
+    "sourceId": {"type": "string", "minLength": 1},
+    "sourceType": {
+      "type": "string",
+      "enum": ["reference-gallery", "awards-gallery", "official-documentation", "official-example", "implementation-demo", "community-demo", "template-marketplace", "asset-library", "owner-provided", "original"]
+    },
+    "projectPage": {"type": "string", "format": "uri"},
+    "liveUrl": {"type": "string"},
+    "creator": {"type": "string", "maxLength": 200},
+    "publishedText": {"type": "string", "maxLength": 120},
+    "description": {"type": "string", "maxLength": 500},
+    "tags": {"type": "array", "items": {"type": "string", "maxLength": 80}, "uniqueItems": true},
+    "styleFamily": {"type": "string"},
+    "interactionPatterns": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "probableStack": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "performanceRisk": {"type": "string", "enum": ["low", "medium", "high", "very-high", "unknown"]},
+    "mobileStrategy": {"type": "string", "maxLength": 300},
+    "accessibilityFallback": {"type": "string", "maxLength": 300},
+    "usagePolicy": {"type": "string", "enum": ["reference-only", "verify-per-example", "verify-per-item", "official-project-terms", "owner-provided", "original"]},
+    "licencePosture": {"type": "string", "maxLength": 240},
+    "copyPolicy": {"type": "string", "maxLength": 320},
+    "retrievedAt": {"type": "string"},
+    "reviewStatus": {"type": "string", "enum": ["unreviewed", "metadata-reviewed", "live-reviewed", "retired"]}
+  }
+}
