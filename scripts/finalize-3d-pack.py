@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,31 +44,34 @@ semantic_blocks = heredoc_blocks(ROOT / ".github/workflows/materialize-3d-pack.y
 if len(semantic_blocks) < 2:
     raise RuntimeError("Semantic materializer block not found")
 semantic = semantic_blocks[1]
-old = '''              approved = any(any(token in item for token in _norm(value).split()) for value in domain["approvedSubjects"])
-              rejected = any(any(token in item for token in _norm(value).split()) for value in domain["rejectExamples"])
-              if rejected and not approved:
-                  return {"decision":"reject","score":0,"domain":domain["id"],"reason":"Subject matches an explicit unrelated example for this domain."}
-              if approved:
-                  return {"decision":"candidate","score":4,"domain":domain["id"],"reason":"Subject matches the domain visual vocabulary; verify exact business/page evidence before approval."}
-'''
-new = '''              stop = {"a","an","and","as","at","by","for","from","in","into","of","on","or","the","to","with","actual","random","unrelated","verified","generic"}
-              item_words = set(item.split())
-              def meaningful_terms(value: str) -> set[str]:
-                  return {word for word in _norm(value).split() if word not in stop and len(word) >= 3}
-              def matches(values: list[str]) -> bool:
-                  return any(bool(meaningful_terms(value) & item_words) for value in values)
-              # Deny-first: an explicitly unrelated subject cannot be rescued by
-              # coincidental overlap with broad approved vocabulary.
-              rejected = matches(domain["rejectExamples"])
-              if rejected:
-                  return {"decision":"reject","score":0,"domain":domain["id"],"reason":"Subject matches an explicit unrelated example for this domain."}
-              approved = matches(domain["approvedSubjects"]) or any(_norm(signal) in item_words for signal in domain["signals"])
-              if approved:
-                  return {"decision":"candidate","score":4,"domain":domain["id"],"reason":"Subject matches the domain visual vocabulary; verify exact business/page evidence before approval."}
-'''
-if old not in semantic:
+pattern = re.compile(
+    r'(?P<i>\s*)approved = any\(any\(token in item for token in _norm\(value\)\.split\(\)\) for value in domain\["approvedSubjects"\]\)\n'
+    r'(?P=i)rejected = any\(any\(token in item for token in _norm\(value\)\.split\(\)\) for value in domain\["rejectExamples"\]\)\n'
+    r'(?P=i)if rejected and not approved:\n'
+    r'(?P=i)    return \{"decision":"reject","score":0,"domain":domain\["id"\],"reason":"Subject matches an explicit unrelated example for this domain\."\}\n'
+    r'(?P=i)if approved:\n'
+    r'(?P=i)    return \{"decision":"candidate","score":4,"domain":domain\["id"\],"reason":"Subject matches the domain visual vocabulary; verify exact business/page evidence before approval\."\}\n'
+)
+match = pattern.search(semantic)
+if not match:
     raise RuntimeError("Expected permissive semantic matcher was not found")
-semantic = semantic.replace(old, new, 1)
+i = match.group("i")
+replacement = (
+    f'{i}stop = {{"a","an","and","as","at","by","for","from","in","into","of","on","or","the","to","with","actual","random","unrelated","verified","generic"}}\n'
+    f'{i}item_words = set(item.split())\n'
+    f'{i}def meaningful_terms(value: str) -> set[str]:\n'
+    f'{i}    return {{word for word in _norm(value).split() if word not in stop and len(word) >= 3}}\n'
+    f'{i}def matches(values: list[str]) -> bool:\n'
+    f'{i}    return any(bool(meaningful_terms(value) & item_words) for value in values)\n'
+    f'{i}# Explicit exclusions win over broad approved vocabulary.\n'
+    f'{i}rejected = matches(domain["rejectExamples"])\n'
+    f'{i}if rejected:\n'
+    f'{i}    return {{"decision":"reject","score":0,"domain":domain["id"],"reason":"Subject matches an explicit unrelated example for this domain."}}\n'
+    f'{i}approved = matches(domain["approvedSubjects"]) or any(_norm(signal) in item_words for signal in domain["signals"])\n'
+    f'{i}if approved:\n'
+    f'{i}    return {{"decision":"candidate","score":4,"domain":domain["id"],"reason":"Subject matches the domain visual vocabulary; verify exact business/page evidence before approval."}}\n'
+)
+semantic = pattern.sub(lambda _m: replacement, semantic, count=1)
 exec(compile(semantic, "semantic-materializer.py", "exec"), {"__name__": "__main__"})
 
 # 3. Require the complete scene to be relevant, not only the hero model.
