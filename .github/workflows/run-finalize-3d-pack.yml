@@ -47,23 +47,15 @@ jobs:
           assert mod.scene_relevance('pizza restaurant food delivery', {'product':'pepperoni pizza','environment':'restaurant interior','prop':'pizza oven'})['decision'] == 'candidate'
           print('SEMANTIC_RELEVANCE_HARD_GATE=PASS')
           PY
-      - name: Commit actual library files
+      - name: Commit validated library files only
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git rm -f --ignore-unmatch \
-            .github/workflows/generate-3d-immersive-pack.yml \
-            .github/workflows/extend-3d-reference-pipeline.yml \
-            .github/workflows/verify-3d-immersive-pack.yml \
-            .github/workflows/materialize-3d-pack.yml \
-            .github/workflows/materialize-3d-pack-v2.yml \
-            .github/workflows/patch-3d-relevance-matcher.yml \
-            .github/workflows/export-3d-feature.yml \
-            .github/workflows/finalize-3d-pack.yml \
-            .github/workflows/run-finalize-3d-pack.yml \
-            scripts/finalize-3d-pack.py
-          git add -- AGENTS.md CLAUDE.md GEMINI.md PACKS.md PROMPTS.md README.md agent-index.json prompts packs 3d scripts tests .github/workflows/quality.yml
+          git checkout -- .github/workflows/quality.yml
+          find . -type d -name __pycache__ -prune -exec rm -rf {} +
+          git add -- AGENTS.md CLAUDE.md GEMINI.md PACKS.md PROMPTS.md README.md agent-index.json prompts packs 3d scripts tests
+          git reset -- scripts/finalize-3d-pack.py
           git commit -m 'Materialize 3D immersive pack with strict semantic relevance'
           git push origin HEAD:feat/3d-immersive-web-pack
 
-# rerun: matcher hardening v2
+# rerun: push library files only
