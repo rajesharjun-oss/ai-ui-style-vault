@@ -3,7 +3,7 @@
 **Branch:** `feat/3d-immersive-web-pack`  
 **Validated:** 16 August 2026  
 **Pull request:** #5  
-**Vault quality run:** `31973073055` — passed
+**Vault quality run:** `31973140954` — passed
 
 ## Validated inventory
 
@@ -57,7 +57,7 @@ The Vault quality workflow passed all of the following:
 - 3D & Immersive Web validator.
 - Cross-agent/index validation.
 
-The 3D validator now explicitly requires:
+The 3D validator explicitly requires:
 
 - 30 unique scene archetypes.
 - 10 unique art directions.
