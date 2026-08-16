@@ -4,6 +4,21 @@ This capability pack helps AI agents create original 3D, WebGL, WebGPU, spatial,
 
 It can be combined with a product-domain pack. The domain pack defines what the product must accomplish; this pack defines when and how spatial technology is selected, implemented, measured and degraded safely.
 
+## Design-library depth
+
+The pack now has two complementary layers:
+
+1. **Canonical architecture:** 21 style families, 8 production themes, 11 experience blueprints, 29 component contracts and 39 interaction patterns.
+2. **Concrete design-direction matrix:** 30 scene archetypes × 10 art-direction treatments = **300 combinable 3D design directions**.
+
+Inspect `design-combination-system.json` or run:
+
+```text
+python scripts/select-3d-design-ideas.py "<business, product and page brief>"
+```
+
+The selector filters scene archetypes by detected business domain before ranking treatments. A shortlisted direction is not automatic approval: the actual model, environment, props, materials, lighting, motion, video and fallback media must still pass `THREE_D_RELEVANCE_CONTRACT.md`.
+
 ## Required medium decision
 
 ```text
@@ -21,10 +36,33 @@ Escalate only when the preceding option cannot deliver the required interaction,
 
 ## Required contracts
 
+- `THREE_D_RELEVANCE_CONTRACT.md`
 - `THREE_D_BUILD_CONTRACT.md`
 - `SCENE_ASSET_PLAN.md`
 - `PERFORMANCE_AND_FALLBACK_PLAN.md`
 - Core project contracts and any selected product-domain contract
+
+## Semantic relevance is a hard gate
+
+Every major 3D object, video, animated background, environment or spatial effect must directly support the actual business, product, service, process, place, verified data, audience or page purpose.
+
+Examples:
+
+- Pizza site → pizza, dough, ingredients, ovens, packaging and food-service environments.
+- Fashion → actual garments, fabrics, accessories and product inspection.
+- Property → verified buildings, floor plans, interiors, materials or neighbourhood context.
+- Professional services → verified process, system or data visualisation, or restrained domain-specific abstraction.
+- Celebration → verified rings, flowers, fabric, monograms and venue or ceremonial motifs.
+- Automotive → verified vehicles, components, showrooms or engineering context.
+
+A Ferrari on a pizza website is rejected. A relevant pizza model inside an unrelated sports-car showroom is also rejected because the whole scene must make sense.
+
+Relevance thresholds:
+
+- Primary visual: score 4–5.
+- Secondary decoration: at least 3.
+- Score below 3: reject.
+- Explicit forbidden-domain subject: reject before positive matching.
 
 ## Non-negotiable rules
 
@@ -36,5 +74,12 @@ Escalate only when the preceding option cannot deliver the required interaction,
 - Mobile receives an intentional lower tier.
 - Reduced motion, unsupported devices, low power, errors and context loss are complete states.
 - Real-time scenes are measured against `performance-budgets.json`.
+- Generated or licensed media must match the verified business context; visual impressiveness alone never justifies an asset.
 
-The Refs.Gallery metadata catalogue currently records 0 unique public project links discovered during the recorded collection. It stores no copied project media or code.
+## Inspiration library
+
+The source library covers reference galleries, official examples, community demos and asset libraries. `3d/references/expansion-sources-2026-08-16.json` records the latest expansion review, including A1 Gallery, mesh3d, ThreeJS Resources and the publicly indexed Refs.Gallery 3D tag.
+
+The original automated Refs.Gallery category collection still records 0 safely enumerated project records. The vault does not bypass source access controls and does not copy project screenshots, videos, source code, models, textures, branding, marketing copy or exact layouts.
+
+Use `3d/REFERENCE_COLLECTION_POLICY.md` and verify current per-item rights before production reuse.
