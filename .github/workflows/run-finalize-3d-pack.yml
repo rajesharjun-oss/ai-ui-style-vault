@@ -65,3 +65,5 @@ jobs:
           git add -- AGENTS.md CLAUDE.md GEMINI.md PACKS.md PROMPTS.md README.md agent-index.json prompts packs 3d scripts tests .github/workflows/quality.yml
           git commit -m 'Materialize 3D immersive pack with strict semantic relevance'
           git push origin HEAD:feat/3d-immersive-web-pack
+
+# rerun: matcher hardening v2
