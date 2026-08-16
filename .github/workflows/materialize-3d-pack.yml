@@ -1,0 +1,473 @@
+name: Materialize 3D pack with semantic relevance
+
+on:
+  push:
+    branches:
+      - feat/3d-immersive-web-pack
+    paths:
+      - .github/workflows/materialize-3d-pack.yml
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/3d-immersive-web-pack
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download Refs.Gallery metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/refs-gallery-3d
+          curl -fsSL \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/artifacts/9251402447/zip" \
+            -o /tmp/refs-gallery-3d.zip || true
+          if test -s /tmp/refs-gallery-3d.zip; then
+            unzip -q /tmp/refs-gallery-3d.zip -d /tmp/refs-gallery-3d || true
+          fi
+
+      - name: Run existing generator with resilient quality-file patching
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import textwrap
+
+          workflow = Path('.github/workflows/generate-3d-immersive-pack.yml').read_text(encoding='utf-8')
+          start_marker = "          python - <<'PY'\n"
+          end_marker = "\n          PY\n"
+          start = workflow.index(start_marker) + len(start_marker)
+          end = workflow.index(end_marker, start)
+          code = textwrap.dedent(workflow[start:end])
+          code = code.replace(
+              'if json_marker not in quality: raise RuntimeError("Quality JSON marker missing")',
+              'if json_marker not in quality: json_marker = ""',
+          )
+          code = code.replace(
+              'if validator_marker not in quality: raise RuntimeError("Quality validator marker missing")',
+              'if validator_marker not in quality: validator_marker = ""',
+          )
+          exec(compile(code, 'materialized-3d-generator.py', 'exec'), {'__name__': '__main__'})
+          PY
+
+      - name: Add semantic relevance contracts and hard gates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from __future__ import annotations
+          import json
+          from pathlib import Path
+
+          ROOT = Path.cwd()
+          PACK = ROOT / 'packs' / '3d-immersive-web'
+
+          def write(path, text):
+              p = ROOT / path
+              p.parent.mkdir(parents=True, exist_ok=True)
+              p.write_text(text.strip() + '\n', encoding='utf-8')
+
+          def write_json(path, obj):
+              p = ROOT / path
+              p.parent.mkdir(parents=True, exist_ok=True)
+              p.write_text(json.dumps(obj, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          domain_map = {
+            'name': '3D Semantic Subject-Domain Map',
+            'version': '1.0.0',
+            'rule': 'A 3D image, video, object, environment or animated background must have a direct, documented relationship to the business, product, service, process, place, audience or page purpose. Visual impressiveness alone is never sufficient.',
+            'relationshipTypes': ['product', 'service', 'process', 'place', 'brand-symbol', 'verified-data', 'audience-context'],
+            'domains': [
+              {'id':'restaurant-food','signals':['restaurant','pizza','food','cafe','bakery','meal','delivery'], 'approvedSubjects':['actual menu products','ingredients','dough or preparation','oven or kitchen equipment','food packaging','delivery packaging','restaurant interior or table context'], 'conditionallyApproved':['abstract steam, heat, ingredient particles or typographic forms tied to the menu'], 'rejectExamples':['sports car','spaceship','weapon','unrelated luxury watch','random robot','generic cyber city']},
+              {'id':'fashion-retail','signals':['fashion','clothing','apparel','shoe','bag','jewellery'], 'approvedSubjects':['actual garments','fabric','accessories','mannequin or display forms','product turntable','retail display environment'], 'conditionallyApproved':['abstract textile or material studies'], 'rejectExamples':['unrelated vehicles','spacecraft','industrial machinery unrelated to production']},
+              {'id':'automotive','signals':['automotive','car','vehicle','motorcycle'], 'approvedSubjects':['actual vehicle','vehicle components','wheel, lighting or interior details','showroom','road or verified use context'], 'conditionallyApproved':['technical airflow or engineering visualisation'], 'rejectExamples':['food products','random fashion items','unrelated architecture']},
+              {'id':'real-estate-architecture','signals':['real estate','property','building','architecture','interior'], 'approvedSubjects':['actual building','unit or room','floor plan','site plan','materials','neighbourhood context','verified digital twin'], 'conditionallyApproved':['sun-path or spatial data visualisation'], 'rejectExamples':['unrelated cars as hero object','random consumer gadgets','fantasy planets']},
+              {'id':'professional-services','signals':['tax','accounting','audit','consulting','legal','professional services'], 'approvedSubjects':['documents','data structures','verified charts or flows','abstract architectural forms tied to trust or structure','service-process diagrams'], 'conditionallyApproved':['restrained abstract geometry representing systems, compliance or networks'], 'rejectExamples':['sports cars','cash rain','spaceships','random luxury goods','game weapons']},
+              {'id':'wedding-celebration','signals':['wedding','nikkah','engagement','anniversary','couple'], 'approvedSubjects':['rings','flowers','fabric','monogram','venue details','ceremonial objects','approved couple-provided motifs'], 'conditionallyApproved':['petals, confetti or material particles appropriate to the event'], 'rejectExamples':['unrelated sports cars','spaceships','cyber weapons','random machinery']},
+              {'id':'beauty-wellness','signals':['beauty','cosmetic','skincare','wellness','spa'], 'approvedSubjects':['actual product packaging','ingredients with verified relevance','skin-safe material studies','water or organic forms tied to product claims'], 'conditionallyApproved':['liquid, glass or organic shaders that support the brand/material story'], 'rejectExamples':['unrelated vehicles','industrial weapons','random electronics']},
+              {'id':'technology-electronics','signals':['technology','software','hardware','electronics','device','ai'], 'approvedSubjects':['actual device or hardware','verified system architecture','data or network visualisation','product UI integrated with a device model'], 'conditionallyApproved':['abstract particles or spatial data when tied to a specific technical concept'], 'rejectExamples':['unrelated luxury cars','food products','random fantasy props']},
+              {'id':'travel-hospitality','signals':['hotel','travel','tourism','resort','destination'], 'approvedSubjects':['actual destination','hotel or room','route map','landmarks','luggage or service context','verified spatial tour'], 'conditionallyApproved':['globe or route animation using real locations'], 'rejectExamples':['random product configurators','unrelated machinery','fantasy planets presented as destination']},
+              {'id':'logistics-mobility','signals':['logistics','shipping','supply chain','mobility','fleet'], 'approvedSubjects':['verified routes','vehicles used by the service','warehouse','containers','packages','network map'], 'conditionallyApproved':['data-driven globe or network'], 'rejectExamples':['unrelated food or fashion products','fantasy vehicles']},
+              {'id':'education-science','signals':['education','school','course','science','museum'], 'approvedSubjects':['subject-matter models','scientific structures','learning objects','museum exhibits','data visualisations'], 'conditionallyApproved':['characters or worlds that directly support the lesson'], 'rejectExamples':['unrelated luxury products','random brand spectacle']}
+            ],
+            'universalRejectRules': [
+              'Reject an asset selected only because it looks premium, futuristic or impressive.',
+              'Reject any subject that could be swapped into an unrelated website without changing the meaning of the section.',
+              'Reject decorative background video whose subject contradicts the product or service.',
+              'Reject generated visuals that imply a real product, property, facility or capability that does not exist.',
+              'When no domain-specific subject is justified, prefer restrained abstract motion or no 3D at all.'
+            ]
+          }
+          write_json('3d/subject-domain-map.json', domain_map)
+
+          write('packs/3d-immersive-web/semantic-relevance-standard.md', '''
+          # Semantic Relevance Standard for 3D, Video and Animated Backgrounds
+
+          ## Hard rule
+
+          Every major 3D object, scene, background animation, video loop, particle system and spatial environment must directly support the actual business, product, service, process, place, audience or page purpose. **Visual impressiveness alone is not a valid reason to use an asset.**
+
+          A pizza website must not receive a Ferrari merely because the model is attractive. A tax firm must not receive a spaceship because it looks futuristic. A wedding site must not receive an unrelated cyber city because it looks premium.
+
+          ## Relevance test
+
+          Before an asset enters the build, answer:
+
+          1. What real business/product/service/page fact does this subject represent?
+          2. Which relationship applies: product, service, process, place, brand symbol, verified data or audience context?
+          3. Would the asset still make sense if the brand name and logo were removed?
+          4. Is the subject accurate, verified and non-misleading?
+          5. Is there a more relevant asset or a simpler medium?
+
+          If questions 1–4 cannot be answered specifically, reject the asset.
+
+          ## Relevance score
+
+          Score every major visual from 0–5:
+
+          - 5 — the actual product/place/process or a precise visualisation of verified data.
+          - 4 — directly supports a core service, use case or brand-specific concept.
+          - 3 — relevant supporting atmosphere or material metaphor; acceptable only as secondary decoration.
+          - 2 — loosely category-related but generic; do not use as a primary visual.
+          - 1 — visually attractive but semantically weak.
+          - 0 — unrelated or misleading.
+
+          Primary 3D subjects and hero video/backgrounds require **4 or 5**. Secondary decoration requires **at least 3**. A score below 3 is rejected.
+
+          ## Scene consistency
+
+          Relevance applies to the whole scene, not only the central model. Validate:
+
+          - Object subject.
+          - Environment/background.
+          - Props.
+          - Materials and textures.
+          - Lighting mood.
+          - Camera behaviour.
+          - Particle effects.
+          - Sound, if any.
+          - Video or fallback imagery.
+
+          A relevant pizza model inside an unrelated luxury-car showroom is still a failed scene.
+
+          ## Business research dependency
+
+          Do not select 3D assets before the business/product research and content contract are complete. The approved subject list must be derived from verified business facts, supplied assets, product catalogue, service description and page purpose.
+
+          ## Generated media
+
+          Generated objects and backgrounds must not invent products, facilities, properties, awards, capabilities or physical details. Label conceptual decorative media internally and never present it as documentary evidence.
+
+          ## Asset source selection
+
+          Search asset libraries only after the approved-subject list is written. Search by the approved nouns and attributes, not by broad terms such as “cool 3D”, “premium 3D” or “futuristic background”.
+
+          ## Visual QA
+
+          During rendered QA ask:
+
+          - Does every major object belong to this business?
+          - Does every background support the section claim?
+          - Are environment, lighting and material choices consistent with the brand/product?
+          - Is any asset present only because it looks expensive or impressive?
+          - Could the scene be moved unchanged to an unrelated website? If yes, revise it.
+
+          The build is incomplete until all major visual assets pass the relevance gate.
+          ''')
+
+          write('packs/3d-immersive-web/templates/THREE_D_RELEVANCE_CONTRACT.md', '''
+          # 3D Semantic Relevance Contract
+
+          Complete before selecting or downloading 3D models, videos or animated backgrounds.
+
+          ## Business and page context
+          - Business/organisation:
+          - Product/service:
+          - Audience:
+          - Page/section:
+          - Primary user task:
+          - Verified facts used to select visuals:
+
+          ## Approved visual vocabulary
+          - Approved primary 3D subjects:
+          - Approved supporting objects/props:
+          - Approved environments/backgrounds:
+          - Approved materials/textures:
+          - Approved lighting moods:
+          - Approved motion behaviours:
+          - Approved data-driven visualisations:
+
+          ## Explicit exclusions
+          - Forbidden/unrelated subjects:
+          - Misleading product/facility representations:
+          - Brand-inconsistent environments:
+          - Motion/background treatments to avoid:
+
+          ## Asset relevance register
+
+          | Asset ID | Subject | Page purpose | Relationship type | Verified evidence | Relevance score 0–5 | Decision |
+          |---|---|---|---|---|---:|---|
+          | | | | product/service/process/place/brand-symbol/verified-data/audience-context | | | approve/reject |
+
+          Rules: primary visuals require 4–5; secondary decoration requires at least 3; below 3 is rejected.
+
+          ## Scene-level check
+          - Central subject relevant:
+          - Props relevant:
+          - Environment relevant:
+          - Materials relevant:
+          - Lighting relevant:
+          - Camera/motion relevant:
+          - Fallback media relevant:
+          - Would this scene still make sense without the brand name? Explain:
+
+          ## Final justification
+          One sentence explaining why this specific scene belongs to this specific business/page:
+          ''')
+
+          write_json('packs/3d-immersive-web/schemas/semantic-relevance.schema.json', {
+            '$schema':'https://json-schema.org/draft/2020-12/schema',
+            '$id':'https://example.invalid/ai-ui-style-vault/semantic-relevance.schema.json',
+            'title':'3D Semantic Relevance Record',
+            'type':'object',
+            'additionalProperties':False,
+            'required':['assetId','subject','pagePurpose','relationshipType','evidence','relevanceScore','role','decision'],
+            'properties':{
+              'assetId':{'type':'string','minLength':1},
+              'subject':{'type':'string','minLength':1},
+              'pagePurpose':{'type':'string','minLength':1},
+              'relationshipType':{'enum':['product','service','process','place','brand-symbol','verified-data','audience-context']},
+              'evidence':{'type':'string','minLength':1},
+              'relevanceScore':{'type':'integer','minimum':0,'maximum':5},
+              'role':{'enum':['primary','secondary-decoration']},
+              'decision':{'enum':['approve','reject']},
+              'notes':{'type':'string'}
+            },
+            'allOf':[
+              {'if':{'properties':{'role':{'const':'primary'}}},'then':{'properties':{'relevanceScore':{'minimum':4}}}},
+              {'if':{'properties':{'role':{'const':'secondary-decoration'}}},'then':{'properties':{'relevanceScore':{'minimum':3}}}},
+              {'if':{'properties':{'decision':{'const':'approve'}}},'then':{'properties':{'relevanceScore':{'minimum':3}}}}
+            ]
+          })
+
+          write('packs/3d-immersive-web/code/semantic-relevance.py', '''
+          from __future__ import annotations
+          import json
+          from pathlib import Path
+
+          ROOT = Path(__file__).resolve().parents[3]
+          MAP = json.loads((ROOT / "3d/subject-domain-map.json").read_text(encoding="utf-8"))
+
+          def _norm(value: str) -> str:
+              return " ".join(value.lower().replace("-", " ").split())
+
+          def detect_domain(brief: str) -> dict | None:
+              hay = _norm(brief)
+              ranked = []
+              for domain in MAP["domains"]:
+                  score = sum(1 for signal in domain["signals"] if _norm(signal) in hay)
+                  ranked.append((score, domain))
+              ranked.sort(key=lambda pair: -pair[0])
+              return ranked[0][1] if ranked and ranked[0][0] > 0 else None
+
+          def subject_relevance(brief: str, subject: str) -> dict:
+              domain = detect_domain(brief)
+              item = _norm(subject)
+              if domain is None:
+                  return {"decision":"manual-review","score":0,"reason":"No domain detected; derive approved subjects from verified business research."}
+              approved = any(any(token in item for token in _norm(value).split()) for value in domain["approvedSubjects"])
+              rejected = any(any(token in item for token in _norm(value).split()) for value in domain["rejectExamples"])
+              if rejected and not approved:
+                  return {"decision":"reject","score":0,"domain":domain["id"],"reason":"Subject matches an explicit unrelated example for this domain."}
+              if approved:
+                  return {"decision":"candidate","score":4,"domain":domain["id"],"reason":"Subject matches the domain visual vocabulary; verify exact business/page evidence before approval."}
+              return {"decision":"manual-review","score":2,"domain":domain["id"],"reason":"No direct domain match; do not use as a primary visual without specific verified justification."}
+          ''')
+
+          pack_path = PACK / 'pack.json'
+          pack = json.loads(pack_path.read_text(encoding='utf-8'))
+          for item in ['packs/3d-immersive-web/semantic-relevance-standard.md','3d/subject-domain-map.json']:
+              if item not in pack['requiredReads']:
+                  pack['requiredReads'].insert(0, item)
+          if 'THREE_D_RELEVANCE_CONTRACT.md' not in pack['requiredPlanningArtifacts']:
+              pack['requiredPlanningArtifacts'].insert(0, 'THREE_D_RELEVANCE_CONTRACT.md')
+          pack['semanticRelevanceGate'] = {'primaryMinimumScore':4,'secondaryMinimumScore':3,'rejectUnrelatedAssets':True,'requiredContract':'THREE_D_RELEVANCE_CONTRACT.md'}
+          pack_path.write_text(json.dumps(pack, indent=2) + '\n', encoding='utf-8')
+
+          prompt_path = ROOT / 'prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md'
+          prompt = prompt_path.read_text(encoding='utf-8')
+          relevance = '''\n## Mandatory semantic relevance gate\n\nBefore searching for or selecting any model, video, animated background, environment or shader, complete `THREE_D_RELEVANCE_CONTRACT.md` and read `semantic-relevance-standard.md` plus `3d/subject-domain-map.json`. Every primary visual requires a documented relevance score of 4–5; secondary decoration requires at least 3. Reject any asset chosen mainly because it looks premium, futuristic or impressive. A pizza website must not receive an unrelated Ferrari, and equivalent cross-domain mismatches are prohibited. Validate the central object, environment, props, materials, lighting, camera motion and fallback media as one coherent scene.\n'''
+          if 'Mandatory semantic relevance gate' not in prompt:
+              prompt = prompt.replace('\nAct as a senior product designer', relevance + '\nAct as a senior product designer', 1)
+              prompt_path.write_text(prompt, encoding='utf-8')
+
+          impl_path = PACK / 'implementation-prompt.md'
+          impl = impl_path.read_text(encoding='utf-8')
+          if 'semantic relevance' not in impl.lower():
+              impl += '\n\n## Semantic relevance gate\nComplete `THREE_D_RELEVANCE_CONTRACT.md` before asset search. Primary visuals need relevance 4–5; secondary decoration needs at least 3. Reject unrelated spectacle, including category-inappropriate vehicles, fantasy objects, backgrounds or props. Validate the whole scene, not only the main model.\n'
+              impl_path.write_text(impl, encoding='utf-8')
+
+          agents_path = ROOT / 'AGENTS.md'
+          agents = agents_path.read_text(encoding='utf-8')
+          signal = '- Prove what 3D improves and choose the smallest sufficient medium.'
+          if signal in agents and 'THREE_D_RELEVANCE_CONTRACT.md' not in agents:
+              agents = agents.replace(signal, signal + '\n- Complete `THREE_D_RELEVANCE_CONTRACT.md` before searching for models/video/backgrounds. Reject any major visual whose subject is not directly tied to the business, product, service, process, place, verified data, audience or page purpose. Primary visuals require relevance score 4–5; secondary decoration requires at least 3. Never use an unrelated Ferrari, spaceship, luxury object or other spectacle merely because it looks premium.', 1)
+              agents_path.write_text(agents, encoding='utf-8')
+
+          for adapter in ['CLAUDE.md','GEMINI.md']:
+              p = ROOT / adapter
+              text = p.read_text(encoding='utf-8')
+              marker = '3D website, immersive WebGL/WebGPU'
+              if marker in text and 'THREE_D_RELEVANCE_CONTRACT.md' not in text:
+                  text += '\nFor every 3D build, complete `THREE_D_RELEVANCE_CONTRACT.md` before asset selection and reject semantically unrelated 3D/video/background media.\n'
+                  p.write_text(text, encoding='utf-8')
+
+          packs_path = ROOT / 'PACKS.md'
+          packs_text = packs_path.read_text(encoding='utf-8')
+          heading = '## 3D & Immersive Web capability pack'
+          if heading in packs_text and 'semantic relevance' not in packs_text.lower():
+              packs_text = packs_text.replace(heading, heading + '\n\n**Semantic relevance is a hard gate.** Complete `THREE_D_RELEVANCE_CONTRACT.md` before asset selection. A 3D object, video or background must directly match the business/product/page purpose; unrelated spectacle is rejected.', 1)
+              packs_path.write_text(packs_text, encoding='utf-8')
+
+          # Extend sample data with a successful relevance record.
+          sample_path = PACK / 'sample-data/immersive-product.sample.json'
+          sample = json.loads(sample_path.read_text(encoding='utf-8'))
+          sample['semanticRelevance'] = {
+              'approvedSubjects':['modular speaker','speaker components','speaker materials'],
+              'forbiddenSubjects':['sports car','spaceship','unrelated luxury products'],
+              'assets':[{'assetId':'speaker-model','subject':'modular speaker','pagePurpose':'explain modular product construction','relationshipType':'product','evidence':'fictional product contract','relevanceScore':5,'role':'primary','decision':'approve'}]
+          }
+          sample_path.write_text(json.dumps(sample, indent=2) + '\n', encoding='utf-8')
+
+          # Append relevance checks to validator.
+          validator = ROOT / 'scripts/validate-3d-immersive-pack.py'
+          text = validator.read_text(encoding='utf-8')
+          anchor = '    sample = load(PACK / "sample-data/immersive-product.sample.json", errors)'
+          if anchor in text and 'semantic-relevance-standard.md' not in text:
+              insertion = '''    for relative in ["semantic-relevance-standard.md", "templates/THREE_D_RELEVANCE_CONTRACT.md", "schemas/semantic-relevance.schema.json"]:\n        if not (PACK / relative).is_file(): errors.append(f"Missing semantic relevance file: {relative}")\n    if not (ROOT / "3d/subject-domain-map.json").is_file(): errors.append("Missing 3d/subject-domain-map.json")\n    semantic_schema = load(PACK / "schemas/semantic-relevance.schema.json", errors)\n    if semantic_schema.get("$schema") != "https://json-schema.org/draft/2020-12/schema": errors.append("Semantic relevance schema must use draft 2020-12")\n'''
+              text = text.replace(anchor, insertion + anchor, 1)
+              text = text.replace('    if sample.get("fallback", {}).get("preservesPrimaryTask") is not True: errors.append("Fallback must preserve task")', '    if sample.get("fallback", {}).get("preservesPrimaryTask") is not True: errors.append("Fallback must preserve task")\n    relevance_assets = sample.get("semanticRelevance", {}).get("assets", [])\n    if not relevance_assets: errors.append("Sample must include semantic relevance records")\n    for asset in relevance_assets:\n        minimum = 4 if asset.get("role") == "primary" else 3\n        if asset.get("decision") == "approve" and asset.get("relevanceScore", 0) < minimum: errors.append(f"Approved asset below relevance threshold: {asset.get(\'assetId\')}")', 1)
+              validator.write_text(text, encoding='utf-8')
+
+          test_path = ROOT / 'tests/test_3d_semantic_relevance.py'
+          write('tests/test_3d_semantic_relevance.py', '''
+          from __future__ import annotations
+          import importlib.util
+          import json
+          import unittest
+          from pathlib import Path
+
+          ROOT = Path(__file__).resolve().parents[1]
+          MODULE = ROOT / "packs/3d-immersive-web/code/semantic-relevance.py"
+          spec = importlib.util.spec_from_file_location("semantic_relevance", MODULE)
+          semantic = importlib.util.module_from_spec(spec)
+          assert spec and spec.loader
+          spec.loader.exec_module(semantic)
+
+          class SemanticRelevanceTests(unittest.TestCase):
+              def test_pizza_accepts_food_subject(self):
+                  result = semantic.subject_relevance("pizza restaurant food delivery", "pepperoni pizza and oven")
+                  self.assertEqual(result["decision"], "candidate")
+                  self.assertGreaterEqual(result["score"], 4)
+
+              def test_pizza_rejects_ferrari(self):
+                  result = semantic.subject_relevance("pizza restaurant food delivery", "red Ferrari sports car")
+                  self.assertEqual(result["decision"], "reject")
+                  self.assertEqual(result["score"], 0)
+
+              def test_professional_services_rejects_sports_car(self):
+                  result = semantic.subject_relevance("tax accounting consulting firm", "luxury sports car")
+                  self.assertEqual(result["decision"], "reject")
+
+              def test_pack_requires_relevance_contract(self):
+                  pack = json.loads((ROOT / "packs/3d-immersive-web/pack.json").read_text(encoding="utf-8"))
+                  self.assertIn("THREE_D_RELEVANCE_CONTRACT.md", pack["requiredPlanningArtifacts"])
+                  self.assertEqual(pack["semanticRelevanceGate"]["primaryMinimumScore"], 4)
+
+          if __name__ == "__main__": unittest.main()
+          ''')
+
+          # Ensure machine indexes include relevance contract.
+          prompt_index = ROOT / 'prompts/prompt-index.json'
+          data = json.loads(prompt_index.read_text(encoding='utf-8'))
+          data.setdefault('additionalPlanningArtifactsByDomainPack', {}).setdefault('3d-immersive-web', [])
+          if 'THREE_D_RELEVANCE_CONTRACT.md' not in data['additionalPlanningArtifactsByDomainPack']['3d-immersive-web']:
+              data['additionalPlanningArtifactsByDomainPack']['3d-immersive-web'].insert(0, 'THREE_D_RELEVANCE_CONTRACT.md')
+          prompt_index.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+
+          pack_index = ROOT / 'packs/pack-index.json'
+          data = json.loads(pack_index.read_text(encoding='utf-8'))
+          entry = next(i for i in data['packs'] if i['id']=='3d-immersive-web')
+          if 'packs/3d-immersive-web/semantic-relevance-standard.md' not in entry['requiredReads']:
+              entry['requiredReads'].insert(1, 'packs/3d-immersive-web/semantic-relevance-standard.md')
+          if '3d/subject-domain-map.json' not in entry['requiredReads']:
+              entry['requiredReads'].insert(2, '3d/subject-domain-map.json')
+          pack_index.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+
+          # Add semantic files to quality JSON validation and 3D validator step if generator marker missed.
+          quality_path = ROOT / '.github/workflows/quality.yml'
+          quality = quality_path.read_text(encoding='utf-8')
+          marker = '          python -m json.tool templates/design-recipe.example.json >/dev/null\n'
+          additions = '''          python -m json.tool packs/3d-immersive-web/pack.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/style-families.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/production-themes.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/page-blueprints.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/component-manifest.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/interaction-patterns.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/state-vocabulary.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/performance-budgets.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/sample-data/immersive-product.sample.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/schemas/immersive-experience.schema.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/schemas/scene-asset.schema.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/schemas/semantic-relevance.schema.json >/dev/null\n          python -m json.tool packs/3d-immersive-web/templates/design-recipe.example.json >/dev/null\n          python -m json.tool 3d/source-catalog.json >/dev/null\n          python -m json.tool 3d/subject-domain-map.json >/dev/null\n          python -m json.tool 3d/techniques/technique-catalog.json >/dev/null\n          python -m json.tool 3d/references/refs-gallery-3d.json >/dev/null\n'''
+          if 'packs/3d-immersive-web/pack.json' not in quality and marker in quality:
+              quality = quality.replace(marker, additions + marker, 1)
+          if 'Validate 3D & Immersive Web pack' not in quality:
+              validator_marker = '      - name: Validate agent indexes and required files\n'
+              block = '      - name: Validate 3D & Immersive Web pack\n        run: python scripts/validate-3d-immersive-pack.py\n'
+              if validator_marker in quality:
+                  quality = quality.replace(validator_marker, block + validator_marker, 1)
+          compile_line = 'scripts/validate-domain-packs.py scripts/validate-celebration-pack.py'
+          if 'scripts/validate-3d-immersive-pack.py' not in quality.split('\n')[15:25].__str__() and compile_line in quality:
+              quality = quality.replace(compile_line, compile_line + ' scripts/validate-3d-immersive-pack.py scripts/select-3d-references.py', 1)
+          quality_path.write_text(quality, encoding='utf-8')
+          PY
+
+      - name: Validate materialized pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/validate-3d-immersive-pack.py scripts/select-3d-references.py packs/3d-immersive-web/code/semantic-relevance.py
+          python scripts/validate-domain-packs.py
+          python scripts/validate-celebration-pack.py
+          python scripts/validate-3d-immersive-pack.py
+          python -m unittest discover -s tests -p 'test_*.py' -v
+          python scripts/select-3d-references.py 'premium pizza restaurant 3d product experience' --limit 5 >/tmp/3d-selection.json
+          python -m json.tool /tmp/3d-selection.json >/dev/null
+
+      - name: Commit actual pack and remove one-shot scaffolding
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm -f --ignore-unmatch \
+            .github/workflows/generate-3d-immersive-pack.yml \
+            .github/workflows/extend-3d-reference-pipeline.yml \
+            .github/workflows/verify-3d-immersive-pack.yml \
+            .github/workflows/materialize-3d-pack.yml
+          git add -- \
+            AGENTS.md CLAUDE.md GEMINI.md PACKS.md PROMPTS.md README.md agent-index.json \
+            prompts packs 3d scripts tests .github/workflows/quality.yml
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 1
+          fi
+          git commit -m 'Materialize 3D immersive pack with semantic relevance gates'
+          git push origin HEAD:feat/3d-immersive-web-pack
