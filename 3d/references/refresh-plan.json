@@ -1,0 +1,24 @@
+{
+  "name": "3D Reference Catalogue Refresh Plan",
+  "version": "1.0.0",
+  "cadence": {
+    "reference-galleries": "quarterly",
+    "official-documentation-and-examples": "every six months or before a major build",
+    "asset-licences": "before every production use",
+    "broken-links": "monthly when automation is available"
+  },
+  "qualityChecks": [
+    "deduplicate canonical URLs",
+    "reject binary, base64, archived project and copied source content",
+    "preserve reference-only usage policy by default",
+    "flag redirects and unavailable projects",
+    "verify style and interaction classifications manually",
+    "apply the semantic relevance contract before project selection",
+    "review current licence and attribution requirements before reuse"
+  ],
+  "ownership": "The build agent or assigned library curator records reviewer and review date.",
+  "refsGallery": {
+    "source": "https://refs.gallery/category/3d",
+    "policy": "Respect public access controls. If the category cannot be enumerated without bypassing security or dynamic access controls, keep the source seed and report zero collected records rather than circumventing the restriction."
+  }
+}
