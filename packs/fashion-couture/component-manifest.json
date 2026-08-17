@@ -1,0 +1,14 @@
+{
+  "components": [
+    {"id":"couture-hero","states":["default","media-loading","media-fallback","reduced-motion"],"requirements":["specific offer","primary CTA","brand-relevant garment/material visual"]},
+    {"id":"collection-card","states":["default","hover","focus","unavailable"],"requirements":["category/garment name","provenance-aware media","clear detail or enquiry action"]},
+    {"id":"lookbook-grid","states":["loading","ready","empty","error"],"requirements":["responsive crops","keyboard-accessible viewer","no fabricated client-work claims"]},
+    {"id":"garment-media-viewer","states":["loading","ready","zoom","error","fallback"],"requirements":["fit/detail visibility","alt text","touch/keyboard support"]},
+    {"id":"fabric-detail","states":["default","verified","provisional"],"requirements":["material claim evidence","macro/detail media when available"]},
+    {"id":"bespoke-process-step","states":["default","active","completed"],"requirements":["real operational step only","no invented lead times"]},
+    {"id":"measurement-guidance","states":["default","needs-confirmation"],"requirements":["owner-approved instructions","privacy-conscious personal data handling"]},
+    {"id":"enquiry-panel","states":["default","channel-unavailable","sent","error"],"requirements":["verified channel","specific action","prefilled context where supported"]},
+    {"id":"trust-proof","states":["verified","owner-supplied"],"requirements":["real testimonial, credential, client signal or process evidence only"]},
+    {"id":"social-proof-strip","states":["default","unavailable"],"requirements":["verified profile links","no invented follower or engagement counts"]}
+  ]
+}
