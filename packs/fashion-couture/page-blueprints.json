@@ -1,0 +1,10 @@
+{
+  "blueprints": [
+    {"id":"couture-home","purpose":"Establish brand, show core categories, prove craft and drive enquiry.","sections":["hero","category-led collections","craft/material proof","featured lookbook","order/fitting process","trust proof","contact CTA"]},
+    {"id":"collection-index","purpose":"Let clients browse verified garment or service categories.","sections":["collection intro","filters","lookbook grid","detail entry points","enquiry CTA"]},
+    {"id":"garment-detail","purpose":"Help a client inspect a garment or style before enquiry.","sections":["media stage","garment facts","material/detail views","fit/customisation notes","availability/price guidance if verified","enquiry CTA"]},
+    {"id":"bespoke-process","purpose":"Explain how a made-to-order engagement works.","sections":["process overview","consultation","fabric/material selection","measurement/fitting","production","handoff/delivery","FAQ","enquiry CTA"]},
+    {"id":"brand-story","purpose":"Explain the atelier, craft philosophy and evidence without generic founder prose.","sections":["brand statement","craftsmanship","materials","atelier/process media","values/proof","contact CTA"]},
+    {"id":"contact-order","purpose":"Convert interest into an actionable enquiry.","sections":["contact channels","structured enquiry options","what to send","location/service area if verified","response expectations if verified","social links"]}
+  ]
+}
