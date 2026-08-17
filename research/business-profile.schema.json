@@ -12,7 +12,7 @@
     "offers": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["name","evidenceStatus"], "properties": {"name": {"type": "string"}, "description": {"type": "string"}, "evidenceStatus": {"enum": ["verified","provisional","owner-confirmed"]}}}},
     "audiences": {"type": "array", "minItems": 1, "items": {"type": "string"}},
     "primaryConversion": {"type": "object", "required": ["action","channel","evidenceStatus"], "properties": {"action": {"type": "string"}, "channel": {"type": "string"}, "evidenceStatus": {"enum": ["verified","provisional","owner-confirmed"]}}},
-    "evidenceSources": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["type","reference","accessStatus"], "properties": {"type": {"type": "string"}, "reference": {"type": "string"}, "accessStatus": {"enum": ["inspected","user-supplied","blocked","partial"]}}},
+    "evidenceSources": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["type","reference","accessStatus"], "properties": {"type": {"type": "string"}, "reference": {"type": "string"}, "accessStatus": {"enum": ["inspected","user-supplied","blocked","partial"]}}}},
     "brandSignals": {"type": "object", "required": ["positioning","visualSignals","tone"], "properties": {"positioning": {"type": "array", "items": {"type": "string"}}, "visualSignals": {"type": "array", "items": {"type": "string"}}, "tone": {"type": "array", "items": {"type": "string"}}}},
     "operationalFacts": {"type": "object", "additionalProperties": {"type": ["string","number","boolean","null"]}},
     "researchGaps": {"type": "array", "items": {"type": "string"}},
