@@ -26,9 +26,12 @@ jobs:
             scripts/validate-3d-immersive-pack.py \
             scripts/select-3d-references.py \
             scripts/normalize-3d-reference-catalog.py \
+            scripts/build-ai-agent-recipes.py \
             packs/3d-immersive-web/code/semantic-relevance.py
       - name: Run unit tests
         run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Validate executable AI agent recipe coverage
+        run: python scripts/build-ai-agent-recipes.py --check
       - name: Validate JSON documents
         run: |
           python -m json.tool agent-index.json >/dev/null
@@ -67,15 +70,20 @@ jobs:
           python -m json.tool packs/3d-immersive-web/schemas/scene-asset.schema.json >/dev/null
           python -m json.tool packs/3d-immersive-web/schemas/semantic-relevance.schema.json >/dev/null
           python -m json.tool packs/3d-immersive-web/templates/design-recipe.example.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/design-combination-system.json >/dev/null
           python -m json.tool 3d/source-catalog.json >/dev/null
           python -m json.tool 3d/subject-domain-map.json >/dev/null
           python -m json.tool 3d/techniques/technique-catalog.json >/dev/null
+          python -m json.tool 3d/techniques/motionsites-motion-patterns.json >/dev/null
+          python -m json.tool 3d/techniques/motionsites-motion-patterns-wave2.json >/dev/null
           python -m json.tool 3d/reference-record.schema.json >/dev/null
           python -m json.tool 3d/references/collection-seeds.json >/dev/null
           python -m json.tool 3d/references/manual-import.example.json >/dev/null
           python -m json.tool 3d/references/refresh-plan.json >/dev/null
           python -m json.tool 3d/references/refs-gallery-3d.json >/dev/null
           python -m json.tool 3d/references/refs-gallery-collection-summary.json >/dev/null
+          python -m json.tool 3d/references/motionsites-public-catalog-2026-08-17.json >/dev/null
+          python -m json.tool 3d/references/motionsites-public-catalog-wave2-2026-08-17.json >/dev/null
 
           python -m json.tool quality/content-rules.json >/dev/null
           python -m json.tool quality/product-quality-gates.json >/dev/null
