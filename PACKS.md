@@ -4,11 +4,14 @@ Domain packs extend the core AI UI Style Vault with product-specific page bluepr
 
 Agents must follow `AGENTS.md` first. A domain pack adds requirements; it never replaces the core product-design, content-design, accessibility, asset, validation, originality or truthfulness rules.
 
+For real businesses, product-domain selection happens only after `BUSINESS_RESEARCH.md` and `business-profile.json` establish what the business actually does. Validate the profile with `python scripts/validate-business-understanding.py <business-profile.json>` before design selection.
+
 ## Automatic routing
 
 | Product or task | Required pack | Required task prompt |
 |---|---|---|
 | 3D, WebGL/WebGPU, Three.js/R3F/Babylon/Spline, configurator, showroom, digital twin, spatial portfolio, globe, AR or WebXR | `packs/3d-immersive-web/` plus matching product-domain pack | `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` |
+| Fashion, couture, tailoring, bespoke atelier, corporate wear, kaftans, traditional wear, occasion wear or made-to-order fashion | `packs/fashion-couture/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
 | Wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gift registry, private celebration or post-event gallery | `packs/celebration-event-microsite/` | `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` |
 | Restaurant, food ordering, takeaway, delivery, menu, quick-service, fast-casual, cafe, bakery, or multi-branch food commerce | `packs/fast-casual-commerce/` | `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` |
 
@@ -16,7 +19,35 @@ The most specific route wins. The machine-readable router is `packs/pack-index.j
 
 ## Product-domain and capability packs
 
-Select one product-domain pack and add capability packs when needed. A 3D restaurant configurator, for example, uses both Fast-Casual Commerce and 3D & Immersive Web.
+Select one product-domain pack and add capability packs when needed. A 3D couture site uses Fashion & Couture plus 3D & Immersive Web; a 3D restaurant configurator uses Fast-Casual Commerce plus 3D & Immersive Web.
+
+## Fashion & Couture Pack
+
+Use `packs/fashion-couture/` for couture houses, bespoke tailors, fashion ateliers, corporate tailoring, kaftans, traditional wear, occasion wear and made-to-order fashion.
+
+Read in this order:
+
+1. `packs/fashion-couture/pack.json`
+2. `packs/fashion-couture/production-themes.json`
+3. `packs/fashion-couture/page-blueprints.json`
+4. `packs/fashion-couture/component-manifest.json`
+5. `packs/fashion-couture/state-vocabulary.json`
+6. `packs/fashion-couture/content-and-merchandising.md`
+7. `packs/fashion-couture/photography-and-material-standard.md`
+8. `packs/fashion-couture/motion-guidance.md`
+9. `packs/fashion-couture/accessibility-and-responsive.md`
+10. `packs/fashion-couture/implementation-prompt.md`
+11. `packs/fashion-couture/templates/FASHION_BUILD_CONTRACT.md`
+
+### Fashion selection rules
+
+- Research the business before choosing luxury/editorial styling.
+- Prioritise garment categories, craftsmanship, fit, material quality, process and enquiry/order conversion.
+- Use official or owner-supplied garment photography first; generated media is concept-only and must not be presented as client work.
+- Do not invent prices, lead times, delivery coverage, measurements, fabric origins, client lists or awards.
+- If 3D is used, it must relate directly to garments, tailoring, textile/materials, atelier process or verified brand cues.
+- Do not treat fashion as permission for unrelated cars, jewellery, architecture or futuristic spectacle.
+- Transform editorial layouts intentionally for mobile and preserve garment inspection and conversion with reduced motion.
 
 ## 3D & Immersive Web capability pack
 
@@ -24,80 +55,15 @@ Select one product-domain pack and add capability packs when needed. A 3D restau
 
 Use `packs/3d-immersive-web/` for purposeful real-time depth, model inspection/configuration, camera storytelling, spatial worlds, digital twins, maps or AR/XR. Read `pack.json`, all required reads, `3d/source-catalog.json`, `3d/techniques/` and `3d/references/`.
 
-Prove the need, compare simpler media, build the fallback first, keep controls/content in DOM, define capability tiers, measure budgets and record every asset licence. Refs.Gallery and other galleries are reference-only unless separate terms grant reuse.
+Prove the need, compare simpler media, build the fallback first, keep controls/content in DOM, define capability tiers, measure budgets and record every asset licence. Refs.Gallery, MotionSites and other galleries are reference-only unless separate terms grant reuse.
 
 ## Celebration & Event Microsite Pack
 
-Use the pack when the product needs any combination of:
-
-- Wedding, Nikkah, engagement, anniversary or save-the-date presentation.
-- Couple or host profiles and a relationship/event story.
-- Multi-event schedules, venues, directions, dress code or travel guidance.
-- Personal photo galleries, proposal/engagement video or post-event media.
-- Guest-code access, invitation-specific details or private media.
-- RSVP, confirmation, response editing or deadline states.
-- Optional gift registry, protected gifting or physical-gift coordination.
-- Event lifecycle from announcement through post-event gallery and archive.
-
-Read in this order:
-
-1. `packs/celebration-event-microsite/pack.json`
-2. `packs/celebration-event-microsite/production-themes.json`
-3. `packs/celebration-event-microsite/page-blueprints.json`
-4. `packs/celebration-event-microsite/component-manifest.json`
-5. `packs/celebration-event-microsite/state-vocabulary.json`
-6. `packs/celebration-event-microsite/content-and-storytelling.md`
-7. `packs/celebration-event-microsite/photography-and-video-standard.md`
-8. `packs/celebration-event-microsite/privacy-and-guest-access.md`
-9. `packs/celebration-event-microsite/accessibility-and-responsive.md`
-10. `packs/celebration-event-microsite/motion-guidance.md`
-11. `packs/celebration-event-microsite/implementation-prompt.md`
-12. `packs/celebration-event-microsite/code/`, `schemas/`, `sample-data/` and `templates/`
-
-### Celebration selection rules
-
-- Derive the design from verified couple/host content, culture, faith, venue, attire and approved media.
-- Do not default every event to burgundy, scripts, petals or the same timeline.
-- Do not invent names, stories, dates, venues, guest rules, quotations, financial details or travel arrangements.
-- Do not present generated people as the actual couple, relatives or guests.
-- Keep the homepage concise; progressively disclose biographies and long story chapters.
-- Define the entire lifecycle, including event completion and post-event mode.
-- Protect guest data, private media and gifting details according to a selected privacy model.
-- Use semantic gallery/video controls, real form states, reduced-motion support and a no-animation content fallback.
-- Never copy another couple's photographs, personal story, wording, financial information, exact layout or proprietary assets.
+Use the pack for wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gifting, private celebration, event-day and post-event lifecycle experiences. Follow its privacy, guest-access, media, lifecycle and content rules; never copy another couple's identity, photographs, story, financial information or exact layout.
 
 ## Fast-Casual Commerce Pack
 
-Use the pack when the product needs any combination of:
-
-- Branch-aware menus and opening status.
-- Delivery, pickup, dine-in, or takeaway selection.
-- Product categories, visible prices, availability, and modifiers.
-- Product customisation, quantity, cart, coupons, checkout, or payments.
-- Deals, loyalty, order confirmation, and order tracking.
-- Delivery-zone or service-area checks.
-
-Read in this order:
-
-1. `packs/fast-casual-commerce/pack.json`
-2. `packs/fast-casual-commerce/production-theme.json`
-3. `packs/fast-casual-commerce/page-blueprints.json`
-4. `packs/fast-casual-commerce/component-manifest.json`
-5. `packs/fast-casual-commerce/state-vocabulary.json`
-6. `packs/fast-casual-commerce/content-and-merchandising.md`
-7. `packs/fast-casual-commerce/food-photography-standard.md`
-8. `packs/fast-casual-commerce/accessibility-and-responsive.md`
-9. `packs/fast-casual-commerce/implementation-prompt.md`
-10. `packs/fast-casual-commerce/code/` and `packs/fast-casual-commerce/templates/`
-
-### Commerce selection rules
-
-- Use one primary visual system and adapt it to the business.
-- Treat menu browsing and ordering as the main product journey, not as a decorative section below a marketing hero.
-- Keep products, prices, service mode, branch, availability, and cart status close to the user.
-- Use realistic, consistently art-directed product photography unless the brief explicitly requests illustration.
-- Do not clone Dodo Pizza or another food brand. Do not copy logos, proprietary code, exact page composition, product text, photography, promotions, or checkout flows.
-- Use the pack as an original commerce architecture and interaction system.
+Use the pack for branch-aware food menus, fulfilment selection, product configuration, cart, checkout, loyalty and tracking. Treat menu browsing and ordering as the product; keep products, prices, branch, fulfilment, availability and cart state visible and do not clone another food brand.
 
 ## Minimal invocation
 
