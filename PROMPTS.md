@@ -6,6 +6,18 @@ Agents must first follow `AGENTS.md`. The prompts below add task-specific instru
 
 Read `PACKS.md` and `packs/pack-index.json` whenever a product-specific pack may apply.
 
+## Mandatory real-business research gate
+
+Whenever the target is a real business, brand, creator, organisation, venue, product or service, read `guides/BUSINESS_RESEARCH_GATE.md` before selecting any style, production theme, screen reference, 3D scene, motion pattern or AI-agent recipe.
+
+The required order is:
+
+`environment inspection → business research → research gate → product/content strategy → asset strategy → vault/style/3D recipe selection → contracts → implementation → render → visual QA → validation → handoff`
+
+The agent must understand the business first. Do not design from a business name, social handle, logo or inaccessible link alone.
+
+If supplied Instagram, TikTok or other sources are blocked, try alternative current public sources. If the business's core offer, audience and primary website task still cannot be established reliably, mark the research `blocked`, stop before design selection, and ask the user for screenshots, screen recording, bio, service/product information or other evidence. Do not build a generic concept to fill the gap.
+
 ## Automatic routing
 
 | User request | Required prompt and pack |
@@ -20,7 +32,7 @@ Read `PACKS.md` and `packs/pack-index.json` whenever a product-specific pack may
 
 The most specific product-domain route wins. Capability prompts such as 3D may be added alongside it.
 
-For a 3D build, use the 3D prompt, all pack reads, the matching product-domain pack and visual QA.
+For a 3D build, use the 3D prompt, all pack reads, the matching product-domain pack and visual QA. When the 3D target is a real business, the business research gate comes before recipe selection.
 
 For a celebration-event build, the agent must use:
 
@@ -31,21 +43,24 @@ For a celebration-event build, the agent must use:
 
 For a restaurant-commerce build, the agent must use:
 
-1. `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md`
+1. `guides/BUSINESS_RESEARCH_GATE.md`
+2. `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md`
+3. `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md`
+4. `packs/fast-casual-commerce/pack.json` and every required read
+5. `prompts/VISUAL_QA_AND_REVISION.md` after the first render
+
+For another new business website, the agent must use:
+
+1. `guides/BUSINESS_RESEARCH_GATE.md`
 2. `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md`
-3. `packs/fast-casual-commerce/pack.json` and every required read
-4. `prompts/VISUAL_QA_AND_REVISION.md` after the first render
-
-For another new business website, the agent must use both:
-
-1. `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md`
-2. `prompts/VISUAL_QA_AND_REVISION.md` after the first render
+3. `prompts/VISUAL_QA_AND_REVISION.md` after the first render
 
 For a redesign, the agent must use:
 
-1. `prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md`
-2. The relevant domain pack when one matches
-3. `prompts/VISUAL_QA_AND_REVISION.md` after the first render
+1. `guides/BUSINESS_RESEARCH_GATE.md` when the target is a real business
+2. `prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md`
+3. The relevant domain pack when one matches
+4. `prompts/VISUAL_QA_AND_REVISION.md` after the first render
 
 ## Minimal human invocation
 
@@ -57,7 +72,7 @@ Build a premium website for: <COUPLE, EVENT, BUSINESS LINK OR BRIEF>.
 Follow the automatic prompt and domain-pack routing in PROMPTS.md and PACKS.md.
 ```
 
-The agent must discover the relevant prompt and pack, create the contracts, build, render, inspect, revise and provide evidence.
+For a real business, the agent must first research and understand the business, pass the research gate, then discover the relevant prompt and pack, create the contracts, select the design, build, render, inspect, revise and provide evidence.
 
 ## Required truthfulness
 
@@ -67,6 +82,8 @@ The agent must not:
 - Claim that a page is visually correct without rendering it.
 - Present generated or stock imagery as official business or couple photography.
 - Present assumptions as verified business or event facts.
+- Infer a business model merely from a social handle, logo, category guess or inaccessible source.
+- Continue to visual design when the minimum business research gate is blocked.
 - Invent couple stories, event details, guest rules, scriptures, travel arrangements or financial details.
 - Present prototype RSVP, guest lookup, cart, payment, delivery, loyalty or tracking functions as real integrations.
 - Expose private guest, media or gifting information contrary to the selected privacy contract.
