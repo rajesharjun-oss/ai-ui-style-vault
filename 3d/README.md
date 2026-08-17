@@ -34,10 +34,14 @@ to shortlist reference metadata.
 
 `references/expansion-sources-2026-08-16.json` records the current expansion review, including A1 Gallery, mesh3d, ThreeJS Resources and the publicly indexed Refs.Gallery 3D tag.
 
-MotionSites is now recorded as a separate public reference source:
+MotionSites is recorded as a separate public reference source:
 
 - `references/motionsites-public-catalog-2026-08-17.json` — 62 public design/section references.
+- `references/motionsites-public-catalog-wave2-2026-08-17.json` — 76 additional public design/section references.
+- **138 MotionSites public reference records total.**
 - `techniques/motionsites-motion-patterns.json` — 28 reusable motion abstractions.
+- `techniques/motionsites-motion-patterns-wave2.json` — 12 additional reusable motion abstractions.
+- **40 MotionSites-derived motion patterns total.**
 - `MOTIONSITES_REFERENCE_NOTES.md` — source scope, originality safeguards and high-value lessons.
 
 The MotionSites extraction is **reference-only**. It records public titles, categories and high-level motion observations; it does not copy premium/full prompts, source code, proprietary media, exact layouts or paid-library content.
