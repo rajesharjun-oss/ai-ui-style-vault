@@ -1,4 +1,4 @@
-# Dodo Yaba Cinematic Scroll V4.1
+# Dodo Yaba Cinematic Scroll V4.2
 
 Reference implementation for the `3d-immersive-web` capability pack.
 
@@ -9,7 +9,11 @@ Reference implementation for the `3d-immersive-web` capability pack.
 - target-mapped ingredient arrivals constrained to the pizza topping zone;
 - inertial scroll interpolation for smoother motion;
 - a clean raw-assembly to baked-pizza handoff;
-- **live build-your-own pizza canvas** that begins with a cheese base and adds/removes selected toppings;
+- **standardized live build-your-own pizza canvas** that begins with a cheese base and adds/removes selected toppings;
+- the same builder hierarchy used across the main 3D experience and the Classic page in the downloadable build;
+- pizza preview on the left, controls on the right;
+- curated topping placement with lower density and more even distribution;
+- compact topping summary instead of an oversized label;
 - size, crust and quick-combo controls with live price updates;
 - semantic DOM commerce UI and cart persistence;
 - Dodo Yaba business context as a working demonstration rather than a design to clone.
