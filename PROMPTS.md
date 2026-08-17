@@ -12,17 +12,18 @@ Whenever the target is a real business, brand, creator, organisation, venue, pro
 
 The required order is:
 
-`environment inspection → business research → research gate → product/content strategy → asset strategy → vault/style/3D recipe selection → contracts → implementation → render → visual QA → validation → handoff`
+`environment inspection → business research → business-profile.json → research gate → product/content strategy → asset strategy → domain/style/3D recipe selection → contracts → implementation → render → visual QA → validation → handoff`
 
-The agent must understand the business first. Do not design from a business name, social handle, logo or inaccessible link alone.
+The agent must understand the business first. Do not design from a business name, social handle, logo or inaccessible link alone. Create `business-profile.json` using `research/business-profile.schema.json` and validate it with `python scripts/validate-business-understanding.py <path-to-business-profile.json>`.
 
-If supplied Instagram, TikTok or other sources are blocked, try alternative current public sources. If the business's core offer, audience and primary website task still cannot be established reliably, mark the research `blocked`, stop before design selection, and ask the user for screenshots, screen recording, bio, service/product information or other evidence. Do not build a generic concept to fill the gap.
+If supplied Instagram, TikTok or other sources are blocked, try alternative current public sources. If the business's core offer, audience and primary website task still cannot be established reliably, set the profile status to `blocked`, set `designSelectionAllowed` to `false`, stop before design selection, and ask the user for screenshots, screen recording, bio, service/product information or other evidence. Do not build a generic concept to fill the gap.
 
 ## Automatic routing
 
 | User request | Required prompt and pack |
 |---|---|
 | Build a 3D website, immersive WebGL/WebGPU, Three.js/R3F/Babylon/Spline, configurator, showroom, digital twin, spatial portfolio, globe, AR or WebXR | `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` + `packs/3d-immersive-web/` + matching product-domain pack |
+| Build a fashion, couture, bespoke tailoring, atelier, corporate wear, kaftan, traditional wear, occasion wear or made-to-order fashion website | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` + `packs/fashion-couture/` |
 | Build a wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gift registry, private celebration or post-event gallery website | `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` + `packs/celebration-event-microsite/` |
 | Build a restaurant, cafe, bakery, takeaway, pickup, delivery, menu, quick-service, fast-casual, or food-ordering website/application | `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` + `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` + `packs/fast-casual-commerce/` |
 | Build a new website for another real business from Maps, Instagram, an existing site, a brief, or other public sources | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
@@ -33,6 +34,15 @@ If supplied Instagram, TikTok or other sources are blocked, try alternative curr
 The most specific product-domain route wins. Capability prompts such as 3D may be added alongside it.
 
 For a 3D build, use the 3D prompt, all pack reads, the matching product-domain pack and visual QA. When the 3D target is a real business, the business research gate comes before recipe selection.
+
+For a fashion/couture build, the agent must use:
+
+1. `guides/BUSINESS_RESEARCH_GATE.md`
+2. `research/business-profile.schema.json` and a validated `business-profile.json`
+3. `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md`
+4. `packs/fashion-couture/pack.json` and every required read
+5. `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` only when 3D/motion capability is requested or justified
+6. `prompts/VISUAL_QA_AND_REVISION.md` after the first render
 
 For a celebration-event build, the agent must use:
 
@@ -72,7 +82,7 @@ Build a premium website for: <COUPLE, EVENT, BUSINESS LINK OR BRIEF>.
 Follow the automatic prompt and domain-pack routing in PROMPTS.md and PACKS.md.
 ```
 
-For a real business, the agent must first research and understand the business, pass the research gate, then discover the relevant prompt and pack, create the contracts, select the design, build, render, inspect, revise and provide evidence.
+For a real business, the agent must first research and understand the business, produce and validate `business-profile.json`, pass the research gate, then discover the relevant prompt and pack, create the contracts, select the design, build, render, inspect, revise and provide evidence.
 
 ## Required truthfulness
 
