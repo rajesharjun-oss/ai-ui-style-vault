@@ -1,6 +1,6 @@
 # 3D Reference and Technique Library
 
-This directory supports `packs/3d-immersive-web/` with structured styles, sources, reference metadata, techniques, semantic domain rules and design-direction selection.
+This directory supports `packs/3d-immersive-web/` with structured styles, sources, reference metadata, techniques, semantic domain rules, executable AI-agent recipes and design-direction selection.
 
 ## Design depth
 
@@ -29,6 +29,30 @@ python scripts/select-3d-references.py "<brief>"
 ```
 
 to shortlist reference metadata.
+
+## Executable AI-agent recipe layer
+
+Read `AI_AGENT_RECIPE_STANDARD.md` and run:
+
+```text
+python scripts/build-ai-agent-recipes.py
+```
+
+The materializer resolves the current structured library into **478 executable recipes**:
+
+- 300 design-direction recipes;
+- 138 MotionSites public reference-abstraction recipes;
+- 40 MotionSites-derived motion-pattern recipes.
+
+Every recipe contains explicit when-to-use/when-not-to-use rules, design objective, composition instructions, motion instructions, implementation approach, asset guidance, responsive behaviour, performance limits, accessibility/fallback rules, originality constraints, acceptance criteria and a self-contained agent prompt.
+
+This makes the library instruction-driven: agents should not treat a title or reference record as enough information to build. A build must select a primary design recipe, optionally add a small number of compatible motion recipes, execute their constraints and validate their acceptance criteria.
+
+Default generated output:
+
+`3d/generated/ai-agent-recipes.json`
+
+CI runs `python scripts/build-ai-agent-recipes.py --check` and fails if coverage drifts from the expected 300 + 138 + 40 = 478 recipes or any recipe is missing required instructions.
 
 ## Reference sources
 
