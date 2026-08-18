@@ -24,6 +24,9 @@ jobs:
             scripts/validate-domain-packs.py \
             scripts/validate-celebration-pack.py \
             scripts/validate-fashion-couture-pack.py \
+            scripts/validate-beauty-wellness-pack.py \
+            scripts/validate-hospitality-pack.py \
+            scripts/validate-saas-technology-pack.py \
             scripts/validate-professional-services-pack.py \
             scripts/validate-real-estate-pack.py \
             scripts/validate-business-understanding.py \
@@ -69,6 +72,24 @@ jobs:
           python -m json.tool packs/fashion-couture/page-blueprints.json >/dev/null
           python -m json.tool packs/fashion-couture/component-manifest.json >/dev/null
           python -m json.tool packs/fashion-couture/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/beauty-wellness/pack.json >/dev/null
+          python -m json.tool packs/beauty-wellness/production-themes.json >/dev/null
+          python -m json.tool packs/beauty-wellness/page-blueprints.json >/dev/null
+          python -m json.tool packs/beauty-wellness/component-manifest.json >/dev/null
+          python -m json.tool packs/beauty-wellness/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/hospitality/pack.json >/dev/null
+          python -m json.tool packs/hospitality/production-themes.json >/dev/null
+          python -m json.tool packs/hospitality/page-blueprints.json >/dev/null
+          python -m json.tool packs/hospitality/component-manifest.json >/dev/null
+          python -m json.tool packs/hospitality/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/saas-technology/pack.json >/dev/null
+          python -m json.tool packs/saas-technology/production-themes.json >/dev/null
+          python -m json.tool packs/saas-technology/page-blueprints.json >/dev/null
+          python -m json.tool packs/saas-technology/component-manifest.json >/dev/null
+          python -m json.tool packs/saas-technology/state-vocabulary.json >/dev/null
 
           python -m json.tool packs/professional-services/pack.json >/dev/null
           python -m json.tool packs/professional-services/production-themes.json >/dev/null
@@ -124,6 +145,12 @@ jobs:
         run: python scripts/validate-celebration-pack.py
       - name: Validate Fashion & Couture pack
         run: python scripts/validate-fashion-couture-pack.py
+      - name: Validate Beauty & Wellness pack
+        run: python scripts/validate-beauty-wellness-pack.py
+      - name: Validate Hospitality pack
+        run: python scripts/validate-hospitality-pack.py
+      - name: Validate SaaS & Technology pack
+        run: python scripts/validate-saas-technology-pack.py
       - name: Validate Professional Services pack
         run: python scripts/validate-professional-services-pack.py
       - name: Validate Real Estate pack
