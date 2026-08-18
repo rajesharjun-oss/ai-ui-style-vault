@@ -22,13 +22,17 @@ jobs:
             scripts/score-design-selection.py \
             scripts/select-section-recipes.py \
             scripts/validate-anti-generic-visual.py \
-            scripts/plan-vault-build.py
+            scripts/plan-vault-build.py \
+            scripts/vault-build-orchestrator.py \
+            scripts/select-3d-interaction-plan.py \
+            scripts/validate-business-understanding.py
       - name: Validate design intelligence JSON
         run: |
           python -m json.tool system/design-selection-scoring.json >/dev/null
           python -m json.tool system/section-recipes.json >/dev/null
           python -m json.tool quality/anti-generic-visual-rules.json >/dev/null
           python -m json.tool quality/VISUAL_QA_OBSERVATIONS.template.json >/dev/null
+          python -m json.tool 3d/interaction-intent-system.json >/dev/null
       - name: Validate section recipe inventory
         run: |
           python - <<'PY'
@@ -45,6 +49,26 @@ jobs:
               assert r.get('composition') and r.get('requires') is not None and r.get('avoid') is not None
           print('Validated 40 section recipes across 10 section families')
           PY
+      - name: Validate 3D interaction intent inventory
+        run: |
+          python - <<'PY'
+          import json
+          system=json.load(open('3d/interaction-intent-system.json', encoding='utf-8'))
+          classes=system['subjectClasses']
+          assert len(classes) >= 7
+          ids=[x['id'] for x in classes]
+          assert len(ids) == len(set(ids)), 'duplicate 3D subject class ids'
+          for item in classes:
+              assert item.get('businessSignals'), item['id']
+              assert item.get('validGoals'), item['id']
+              assert item.get('allowedInteractions'), item['id']
+              assert item.get('requirements'), item['id']
+              assert item.get('reject'), item['id']
+          print(f'Validated {len(classes)} subject-aware 3D interaction classes')
+          PY
       - name: Run design intelligence tests
         run: |
-          python -m unittest tests.test_design_selection_engine tests.test_anti_generic_visual_gate -v
+          python -m unittest \
+            tests.test_design_selection_engine \
+            tests.test_anti_generic_visual_gate \
+            tests.test_3d_interaction_intent -v
