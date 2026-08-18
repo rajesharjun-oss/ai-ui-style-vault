@@ -1,9 +1,10 @@
 {
   "name": "3D Interaction Intent System",
-  "version": "1.0.0",
-  "purpose": "Prevent visually impressive but semantically wrong 3D interactions by matching subject structure, user goal, camera behaviour and technical implementation before scene design.",
+  "version": "1.1.0",
+  "purpose": "Prevent visually impressive but semantically wrong 3D interactions by matching business relevance, subject structure, user goal, camera behaviour and technical implementation before scene design.",
   "hardRules": [
     "Never choose an interaction because it is impressive; choose it because it explains, inspects, configures, compares, navigates or tells a verified story about the subject.",
+    "The 3D subject itself must be relevant to the verified business. A valid interaction pattern cannot rescue an unrelated subject.",
     "A subject must support the proposed motion physically or conceptually. Assembly requires meaningful separable parts; exploded view requires real component hierarchy; walkthrough requires navigable spatial geometry; material switching requires real variants.",
     "Camera motion must serve the task. Zoom, orbit, dolly, truck, pan, crane, fly-through and first-person navigation are not interchangeable effects.",
     "Do not animate a real product, property or mechanism in ways that imply capabilities, geometry or construction that are not verified.",
@@ -15,6 +16,7 @@
   "subjectClasses": [
     {
       "id": "assembled-product",
+      "businessSignals": ["hardware", "device", "electronics", "machine", "manufacturing", "automotive", "vehicle", "product"],
       "examples": ["car", "motorcycle", "machine", "appliance", "watch", "hardware device"],
       "validGoals": ["inspect", "explain-construction", "configure", "compare", "story"],
       "allowedInteractions": ["bounded-orbit-inspection", "camera-preset-navigation", "object-hotspots", "exploded-view", "object-assembly", "material-switch", "camera-look-at-focus", "timeline-scrub", "scroll-camera-path"],
@@ -24,6 +26,7 @@
     },
     {
       "id": "vehicle",
+      "businessSignals": ["automotive", "car", "vehicle", "motorcycle", "mobility", "fleet", "truck", "bicycle"],
       "examples": ["car", "truck", "motorcycle", "bicycle"],
       "validGoals": ["inspect", "explain-construction", "configure", "compare", "story"],
       "allowedInteractions": ["bounded-orbit-inspection", "camera-preset-navigation", "object-hotspots", "exploded-view", "object-assembly", "material-switch", "camera-look-at-focus", "scroll-camera-path", "timeline-scrub"],
@@ -33,6 +36,7 @@
     },
     {
       "id": "architecture-property",
+      "businessSignals": ["real estate", "property", "architecture", "interior", "hotel", "resort", "building", "developer", "apartment", "office", "hospitality"],
       "examples": ["house", "apartment", "office", "hotel", "development", "interior"],
       "validGoals": ["inspect", "navigate-space", "compare", "explain-layout", "story"],
       "allowedInteractions": ["camera-preset-navigation", "guided-world-nodes", "first-person-navigation", "section-cut", "model-measurement", "object-hotspots", "scroll-camera-path", "camera-look-at-focus", "map-location-focus"],
@@ -43,6 +47,7 @@
     },
     {
       "id": "garment-textile",
+      "businessSignals": ["fashion", "couture", "tailor", "tailoring", "garment", "apparel", "clothing", "kaftan", "suit", "fabric", "textile", "atelier"],
       "examples": ["suit", "kaftan", "dress", "shoe", "bag", "fabric"],
       "validGoals": ["inspect", "compare", "configure", "show-material", "story"],
       "allowedInteractions": ["bounded-orbit-inspection", "camera-preset-navigation", "material-switch", "object-hotspots", "camera-look-at-focus", "scroll-camera-path"],
@@ -52,6 +57,7 @@
     },
     {
       "id": "food-product",
+      "businessSignals": ["restaurant", "food", "pizza", "cafe", "bakery", "meal", "drink", "menu", "delivery"],
       "examples": ["pizza", "meal", "drink", "packaged food"],
       "validGoals": ["inspect", "show-ingredients", "configure", "show-process", "story"],
       "allowedInteractions": ["camera-preset-navigation", "object-hotspots", "camera-look-at-focus", "timeline-scrub", "scroll-camera-path"],
@@ -61,6 +67,7 @@
     },
     {
       "id": "spatial-data",
+      "businessSignals": ["logistics", "shipping", "supply chain", "data", "analytics", "network", "infrastructure", "mapping", "fleet", "global", "route", "operations"],
       "examples": ["globe", "network", "route map", "digital twin", "operations map"],
       "validGoals": ["explore-data", "compare", "navigate", "monitor", "story"],
       "allowedInteractions": ["data-driven-particles", "globe-route-animation", "map-location-focus", "camera-preset-navigation", "object-hotspots", "timeline-scrub", "scroll-annotation-sync"],
@@ -69,6 +76,7 @@
     },
     {
       "id": "abstract-concept",
+      "businessSignals": ["any"],
       "examples": ["service process", "brand motif", "system architecture", "conceptual network"],
       "validGoals": ["explain", "story", "orient"],
       "allowedInteractions": ["scroll-camera-path", "scroll-annotation-sync", "camera-preset-navigation", "data-driven-particles", "3d-text-extrusion"],
