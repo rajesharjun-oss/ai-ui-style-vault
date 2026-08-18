@@ -19,6 +19,22 @@ def get_subject(system, subject_class):
     return None
 
 
+def business_blob(profile):
+    parts = [profile.get("businessCategory", ""), *profile.get("subcategories", []), *profile.get("audiences", [])]
+    parts.extend(x.get("name", "") for x in profile.get("offers", []))
+    parts.extend(profile.get("brandSignals", {}).get("positioning", []))
+    return norm(" ".join(str(x) for x in parts))
+
+
+def subject_matches_business(subject, profile):
+    signals = [norm(x) for x in subject.get("businessSignals", [])]
+    if "any" in signals:
+        return True, []
+    blob = business_blob(profile)
+    matched = [s for s in signals if s and s in blob]
+    return bool(matched), matched
+
+
 def main():
     p = argparse.ArgumentParser(description="Select a subject-aware 3D interaction plan. Never use interaction patterns as generic spectacle.")
     p.add_argument("profile", help="Validated business-profile.json")
@@ -39,6 +55,18 @@ def main():
         print(json.dumps({"status":"blocked","reason":"Unknown subject class."}, indent=2))
         return 2
 
+    relevant, matched_signals = subject_matches_business(subject, profile)
+    if not relevant:
+        print(json.dumps({
+            "status":"blocked",
+            "reason":f"3D subject class '{args.subject_class}' is not supported by the verified business profile.",
+            "business":profile.get("officialName"),
+            "businessCategory":profile.get("businessCategory"),
+            "requiredBusinessSignals":subject.get("businessSignals", []),
+            "rule":"The subject must be relevant before interaction style is considered."
+        }, indent=2))
+        return 3
+
     goal = norm(args.goal)
     valid_goals = [norm(x) for x in subject.get("validGoals", [])]
     if goal not in valid_goals:
@@ -48,7 +76,7 @@ def main():
             "validGoals":subject.get("validGoals", []),
             "reject":subject.get("reject", [])
         }, indent=2))
-        return 3
+        return 4
 
     catalog = {p["id"]: p for p in json.loads(PATTERNS.read_text(encoding="utf-8"))["patterns"]}
     allowed = list(subject.get("allowedInteractions", []))
@@ -68,7 +96,6 @@ def main():
             else:
                 rejected.append({"id":rid,"reason":"Interaction is not semantically valid for this subject class and goal."})
     else:
-        # Conservative defaults: choose only a small authored subset. The agent may refine after requirements are verified.
         preference = {
             "inspect":["bounded-orbit-inspection","camera-preset-navigation","camera-look-at-focus","object-hotspots"],
             "explain-construction":["object-assembly","exploded-view","camera-look-at-focus","scroll-annotation-sync"],
@@ -90,8 +117,9 @@ def main():
 
     selected = selected[:max(1, args.max_patterns)]
     result = {
-        "status":"ready" if selected and not any(r["id"] in requested for r in rejected) else "review-required" if selected else "blocked",
+        "status":"ready" if selected and not rejected else "review-required" if selected else "blocked",
         "business":profile.get("officialName"),
+        "businessRelevance":{"matched":True,"signals":matched_signals or ["any"]},
         "subjectClass":args.subject_class,
         "goal":args.goal,
         "selectedInteractions":[{"id":rid,"description":catalog[rid]["description"],"fallback":catalog[rid]["fallback"]} for rid in selected],
@@ -104,7 +132,7 @@ def main():
         "implementationFamilies":system["implementationFamilies"]
     }
     print(json.dumps(result, indent=2))
-    return 0 if result["status"] == "ready" else 4
+    return 0 if result["status"] == "ready" else 5
 
 
 if __name__ == "__main__":
