@@ -1,0 +1,58 @@
+{
+  "name": "HeroUI v3 Implementation Patterns",
+  "version": "1.0.0",
+  "observedFrom": [
+    "packages/react/README.md",
+    "packages/react/src/components/button/button.tsx",
+    "packages/react/src/components/modal/modal.tsx",
+    "packages/styles/src/components/index.ts"
+  ],
+  "patterns": [
+    {
+      "id":"react-aria-behavior-layer",
+      "principle":"Build interactive semantics on established accessibility primitives rather than styling raw divs into controls.",
+      "vaultUse":"Prefer React Aria/HeroUI for keyboard, focus, selection and overlay semantics in compatible React builds."
+    },
+    {
+      "id":"behavior-style-separation",
+      "principle":"Keep component behavior in React and visual variants in a separate style package.",
+      "vaultUse":"Allows one accessible primitive to adopt radically different domain-specific Vault themes without rewriting interaction logic."
+    },
+    {
+      "id":"compound-component-api",
+      "principle":"Expose meaningful composition pieces such as root, trigger, backdrop, container, dialog, header, body, footer and close trigger.",
+      "vaultUse":"Prefer semantic subcomponents over giant prop surfaces when complex structures need layout flexibility."
+    },
+    {
+      "id":"context-with-local-precedence",
+      "principle":"Group context can provide defaults while direct child props override them.",
+      "vaultUse":"Useful for button groups, selection groups, toolbars and other coordinated controls."
+    },
+    {
+      "id":"controlled-overlay-state",
+      "principle":"Support controlled open state and onOpenChange while keeping trigger/dialog composition accessible.",
+      "vaultUse":"Apply to modal, drawer, popover and menu patterns that need application-level state orchestration."
+    },
+    {
+      "id":"slot-markers",
+      "principle":"Use stable semantic slot markers for styling and composition boundaries.",
+      "vaultUse":"Data-slot conventions can improve maintainability and visual QA targeting without coupling to brand class names."
+    },
+    {
+      "id":"render-prop-style-composition",
+      "principle":"Compose visual classes with interaction render state instead of duplicating behavioral logic.",
+      "vaultUse":"Keep hover/pressed/focus/open/selected styling aligned with the primitive's actual state."
+    },
+    {
+      "id":"responsive-overlay-placement",
+      "principle":"Treat overlay placement, scrolling and sizing as explicit behavior rather than incidental CSS.",
+      "vaultUse":"Modal/drawer behavior should intentionally transform for mobile instead of merely shrinking desktop UI."
+    },
+    {
+      "id":"state-complete-primitives",
+      "principle":"Interactive primitives should expose disabled, invalid, selected, open, loading, empty and focus-visible states where meaningful.",
+      "vaultUse":"Use HeroUI state behavior as a floor, then add product/domain-specific loading, recovery and permission states."
+    }
+  ],
+  "originalityRule":"These are transferable engineering principles. Do not copy HeroUI branding or force its default visual expression into unrelated products."
+}
