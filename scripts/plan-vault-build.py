@@ -5,6 +5,8 @@ from pathlib import Path
 
 DOMAIN_RULES = [
     ("fashion-couture", {"fashion","couture","tailor","tailoring","atelier","corporate wear","suit","kaftan","traditional wear","occasion wear","made to order","made-to-order","fabric"}),
+    ("real-estate", {"real estate","property","properties","developer","development","brokerage","estate agency","residential","commercial property","apartment","land","housing","office space","industrial property"}),
+    ("professional-services", {"professional services","accounting","accountant","audit","auditing","tax","taxation","legal","law firm","lawyer","consulting","consultancy","advisory","engineering consulting","architecture firm","risk","assurance","strategy consulting"}),
     ("fast-casual-commerce", {"restaurant","cafe","bakery","food","pizza","takeaway","delivery","menu","quick service","fast casual"}),
     ("celebration-event-microsite", {"wedding","nikkah","engagement","anniversary","save the date","rsvp","celebration"}),
 ]
@@ -20,11 +22,11 @@ def choose_domain(profile: dict) -> str | None:
         return explicit
     blob = text_blob(profile)
     scored = []
-    for pack, terms in DOMAIN_RULES:
+    for priority, (pack, terms) in enumerate(DOMAIN_RULES):
         score = sum(1 for term in terms if term in blob)
-        scored.append((score, pack))
+        scored.append((score, -priority, pack))
     scored.sort(reverse=True)
-    return scored[0][1] if scored and scored[0][0] else None
+    return scored[0][2] if scored and scored[0][0] else None
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Plan a Vault build from a validated business profile.")
