@@ -27,6 +27,7 @@ jobs:
             scripts/select-3d-interaction-plan.py \
             scripts/select-heroui-components.py \
             scripts/select-component-intelligence.py \
+            scripts/resolve-component-contract.py \
             scripts/validate-business-understanding.py
       - name: Validate design intelligence JSON
         run: |
@@ -42,9 +43,11 @@ jobs:
           python -m json.tool references/heroui-v3/implementation-patterns.json >/dev/null
           python -m json.tool references/heroui-v3/storybook-testing-patterns.json >/dev/null
           python -m json.tool references/heroui-v3/component-state-contracts.json >/dev/null
+          python -m json.tool references/heroui-v3/behavior-contracts.json >/dev/null
           python -m json.tool references/heroui-v3/source-snapshot.json >/dev/null
           python -m json.tool references/component-gallery/component-catalog.json >/dev/null
           python -m json.tool references/component-gallery/design-system-summary.json >/dev/null
+          python -m json.tool references/component-gallery/contract-rules.json >/dev/null
       - name: Validate section recipe inventory
         run: |
           python - <<'PY'
@@ -80,9 +83,11 @@ jobs:
           assert len(deeper['observedPatterns']) >= 3
           states=json.load(open('references/heroui-v3/component-state-contracts.json', encoding='utf-8'))
           assert len(states['contracts']) == 25
-          print('Validated 175 HeroUI indexed primitives + 25 derived state contracts + deep testing patterns')
+          behaviors=json.load(open('references/heroui-v3/behavior-contracts.json', encoding='utf-8'))
+          assert len(behaviors['components']) >= 25
+          print('Validated HeroUI primitives, state contracts, behavior contracts and deep testing patterns')
           PY
-      - name: Validate Component Gallery inventory
+      - name: Validate Component Gallery inventory and contracts
         run: |
           python - <<'PY'
           import json
@@ -95,9 +100,12 @@ jobs:
           summary=json.load(open('references/component-gallery/design-system-summary.json', encoding='utf-8'))
           assert summary['designSystems'] == 95
           assert summary['examples'] == 2671
+          rules=json.load(open('references/component-gallery/contract-rules.json', encoding='utf-8'))
+          assert len(rules['componentArchetypes']) == 60
+          assert len(rules['criticalDistinctions']) >= 10
           unified=json.load(open('references/component-intelligence-index.json', encoding='utf-8'))
           assert len(unified['sources']) == 2
-          print('Validated 60 Component Gallery families across 95 design systems / 2,671 examples')
+          print('Validated 60 Component Gallery families, canonical contract rules and cross-system metadata')
           PY
       - name: Validate 3D interaction intent inventory
         run: |
@@ -123,4 +131,5 @@ jobs:
             tests.test_anti_generic_visual_gate \
             tests.test_3d_interaction_intent \
             tests.test_heroui_reference \
-            tests.test_component_gallery_reference -v
+            tests.test_component_gallery_reference \
+            tests.test_component_contracts -v
