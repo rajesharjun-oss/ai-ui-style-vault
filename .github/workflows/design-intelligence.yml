@@ -36,6 +36,9 @@ jobs:
           python -m json.tool 3d/interaction-intent-system.json >/dev/null
           python -m json.tool references/heroui-v3/component-catalog.json >/dev/null
           python -m json.tool references/heroui-v3/hooks-catalog.json >/dev/null
+          python -m json.tool references/heroui-v3/style-variant-catalog.json >/dev/null
+          python -m json.tool references/heroui-v3/implementation-patterns.json >/dev/null
+          python -m json.tool references/heroui-v3/source-snapshot.json >/dev/null
       - name: Validate section recipe inventory
         run: |
           python - <<'PY'
@@ -62,7 +65,11 @@ jobs:
           assert len(names) == len(set(names)), 'duplicate HeroUI component ids'
           hooks=json.load(open('references/heroui-v3/hooks-catalog.json', encoding='utf-8'))
           assert hooks['hookCount'] == 10 and len(hooks['hooks']) == 10
-          print('Validated 82 HeroUI component families and 10 hooks')
+          styles=json.load(open('references/heroui-v3/style-variant-catalog.json', encoding='utf-8'))
+          assert styles['variantFamilyCount'] == 83 and len(styles['variantFamilies']) == 83
+          snapshot=json.load(open('references/heroui-v3/source-snapshot.json', encoding='utf-8'))
+          assert snapshot['captured']['totalIndexedItems'] == 175
+          print('Validated 82 HeroUI components, 83 style variants, 10 hooks = 175 indexed items')
           PY
       - name: Validate 3D interaction intent inventory
         run: |
