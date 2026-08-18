@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "purpose": "Score production-theme selection from verified business understanding instead of aesthetic preference.",
+  "minimumPassingScore": 68,
+  "minimumWinningMargin": 4,
+  "weights": {
+    "domainFit": 30,
+    "conversionFit": 20,
+    "toneFit": 15,
+    "contentDensityFit": 10,
+    "trustFit": 10,
+    "assetFit": 10,
+    "performanceFit": 5
+  },
+  "hardGates": [
+    "business research status must be ready",
+    "designSelectionAllowed must be true",
+    "primary conversion must be known",
+    "theme must not contradict the selected domain pack",
+    "asset-heavy theme requires an asset plan with usable media or an explicit concept-only fallback",
+    "immersive-3d is a capability choice, not a default visual style"
+  ],
+  "domainAffinities": {
+    "fashion-couture": ["luxury-minimal", "cinematic-product", "modern-editorial"],
+    "beauty-wellness": ["warm-consumer", "healthcare-calm", "luxury-minimal"],
+    "hospitality": ["cinematic-product", "luxury-minimal", "modern-editorial"],
+    "saas-technology": ["premium-enterprise", "technical-developer", "ai-workspace"],
+    "professional-services": ["quiet-professional", "executive-finance", "modern-editorial"],
+    "real-estate": ["cinematic-product", "luxury-minimal", "modern-editorial"],
+    "fast-casual-commerce": ["warm-consumer", "cinematic-product", "playful-productivity"],
+    "celebration-event-microsite": ["luxury-minimal", "modern-editorial", "cinematic-product"]
+  },
+  "conversionAffinities": {
+    "book": ["quiet-professional", "warm-consumer", "healthcare-calm", "luxury-minimal"],
+    "enquire": ["quiet-professional", "luxury-minimal", "modern-editorial"],
+    "buy": ["warm-consumer", "cinematic-product", "playful-productivity"],
+    "order": ["warm-consumer", "cinematic-product"],
+    "trial": ["premium-enterprise", "technical-developer", "ai-workspace"],
+    "signup": ["premium-enterprise", "ai-workspace", "playful-productivity"],
+    "demo": ["premium-enterprise", "technical-developer", "cinematic-product"],
+    "viewing": ["cinematic-product", "luxury-minimal"],
+    "contact": ["quiet-professional", "modern-editorial"]
+  },
+  "trustAffinities": {
+    "low": ["playful-productivity", "warm-consumer"],
+    "medium": ["modern-editorial", "premium-enterprise", "luxury-minimal"],
+    "high": ["quiet-professional", "executive-finance", "healthcare-calm", "premium-enterprise"],
+    "critical": ["executive-finance", "healthcare-calm", "quiet-professional"]
+  },
+  "assetRequirements": {
+    "cinematic-product": "strong owned/licensed/generative-concept media plan",
+    "luxury-minimal": "high-quality subject-specific photography or material detail",
+    "modern-editorial": "editorial imagery is optional but must be coherent when used",
+    "premium-enterprise": "real product UI or truthful prototype frames",
+    "technical-developer": "real code/API/product examples",
+    "ai-workspace": "real workflow/product states rather than decorative AI imagery"
+  },
+  "selectionRule": "Choose the highest-scoring theme only when it passes all hard gates and beats the runner-up by the minimum winning margin. Otherwise present the top two as a deliberate tie requiring documented resolution."
+}
