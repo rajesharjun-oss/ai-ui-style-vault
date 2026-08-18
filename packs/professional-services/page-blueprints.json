@@ -1,0 +1,11 @@
+{
+  "blueprints": [
+    {"id":"authority-home","purpose":"Establish service relevance, credibility and next action","sections":["specific hero","service pathways","proof strip","sector/problem pathways","featured insight or case","engagement process","contact CTA"]},
+    {"id":"service-detail","purpose":"Explain one service and qualify prospective clients","sections":["service promise","who it is for","problems solved","scope","approach","evidence","related expertise","engagement CTA"]},
+    {"id":"sector-detail","purpose":"Show domain fluency for one industry","sections":["sector context","priority issues","relevant services","evidence","team","insights","contact CTA"]},
+    {"id":"case-study","purpose":"Prove capability without exaggeration","sections":["context","challenge","approach","outcome","constraints/disclosure","related services"]},
+    {"id":"people-expertise","purpose":"Make expertise discoverable and credible","sections":["leadership intro","profiles","specialisms","credentials","contact pathways"]},
+    {"id":"insights-hub","purpose":"Organise useful thought leadership","sections":["featured insight","topic filters","latest items","service links","subscribe/contact"]},
+    {"id":"contact-qualification","purpose":"Convert the right prospect","sections":["reason to contact","service selector","contact methods","location/practical info","privacy note"]}
+  ]
+}

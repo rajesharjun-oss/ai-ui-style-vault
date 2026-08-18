@@ -1,0 +1,14 @@
+{
+  "components": [
+    {"id":"property-card","states":["available","reserved","sold","off-market","loading"],"requirements":["verified title/location","status","price status","primary media provenance"]},
+    {"id":"property-filter","states":["idle","active","no-results"],"requirements":["keyboard access","clear filters","URL/shareable state when appropriate"]},
+    {"id":"property-gallery","states":["loading","ready","error","fallback"],"requirements":["photo/render labels","keyboard/touch viewer","captions where useful"]},
+    {"id":"property-facts","states":["verified","needs-confirmation"],"requirements":["units","dimensions","bed/bath/type or relevant commercial specs"]},
+    {"id":"availability-badge","states":["available","limited","reserved","sold","unknown"],"requirements":["source-of-truth status","no false urgency"]},
+    {"id":"price-display","states":["exact","from","guide","on-request","unknown"],"requirements":["currency","status language","no invented values"]},
+    {"id":"location-module","states":["map-ready","map-unavailable","text-fallback"],"requirements":["textual location","verified landmarks/access claims"]},
+    {"id":"floorplan-viewer","states":["loading","ready","unavailable","error"],"requirements":["labelled source","download alternative when allowed"]},
+    {"id":"viewing-cta","states":["default","submitting","success","error","channel-unavailable"],"requirements":["property context preserved","verified contact destination"]},
+    {"id":"media-provenance-label","states":["photograph","render","illustrative","stock"],"requirements":["visible when distinction materially affects interpretation"]}
+  ]
+}
