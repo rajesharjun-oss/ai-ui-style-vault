@@ -1,0 +1,20 @@
+{
+  "name": "HeroUI v3 Hooks Reference",
+  "version": "1.0.0",
+  "upstream": "heroui-inc/heroui@v3",
+  "exportSource": "packages/react/src/hooks/index.ts",
+  "hookCount": 10,
+  "hooks": [
+    {"name":"use-css-variable","purpose":"CSS variable access/update","sourcePath":"packages/react/src/hooks/use-css-variable"},
+    {"name":"use-is-hydrated","purpose":"hydration-aware rendering","sourcePath":"packages/react/src/hooks/use-is-hydrated"},
+    {"name":"use-list-data","purpose":"list state and data handling","sourcePath":"packages/react/src/hooks/use-list-data"},
+    {"name":"use-measured-height","purpose":"measure content height","sourcePath":"packages/react/src/hooks/use-measured-height"},
+    {"name":"use-mounted","purpose":"mounted-state safety","sourcePath":"packages/react/src/hooks/use-mounted"},
+    {"name":"use-overlay-state","purpose":"overlay open/close state","sourcePath":"packages/react/src/hooks/use-overlay-state"},
+    {"name":"use-safe-layout-effect","purpose":"SSR-safe layout effect","sourcePath":"packages/react/src/hooks/use-safe-layout-effect"},
+    {"name":"use-isomorphic-layout-effect","purpose":"isomorphic layout effect","sourcePath":"packages/react/src/hooks/use-isomorphic-layout-effect"},
+    {"name":"use-media-query","purpose":"responsive and capability queries","sourcePath":"packages/react/src/hooks/use-media-query"},
+    {"name":"use-theme","purpose":"theme state/access","sourcePath":"packages/react/src/hooks/use-theme"}
+  ],
+  "adoptionRule": "Use upstream hooks directly when @heroui/react is an approved dependency; otherwise reproduce the behavior contract, not exact implementation, unless vendoring under verified applicable license terms."
+}
