@@ -24,7 +24,10 @@ jobs:
             scripts/validate-domain-packs.py \
             scripts/validate-celebration-pack.py \
             scripts/validate-fashion-couture-pack.py \
+            scripts/validate-professional-services-pack.py \
+            scripts/validate-real-estate-pack.py \
             scripts/validate-business-understanding.py \
+            scripts/plan-vault-build.py \
             scripts/validate-3d-immersive-pack.py \
             scripts/select-3d-references.py \
             scripts/normalize-3d-reference-catalog.py \
@@ -66,6 +69,18 @@ jobs:
           python -m json.tool packs/fashion-couture/page-blueprints.json >/dev/null
           python -m json.tool packs/fashion-couture/component-manifest.json >/dev/null
           python -m json.tool packs/fashion-couture/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/professional-services/pack.json >/dev/null
+          python -m json.tool packs/professional-services/production-themes.json >/dev/null
+          python -m json.tool packs/professional-services/page-blueprints.json >/dev/null
+          python -m json.tool packs/professional-services/component-manifest.json >/dev/null
+          python -m json.tool packs/professional-services/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/real-estate/pack.json >/dev/null
+          python -m json.tool packs/real-estate/production-themes.json >/dev/null
+          python -m json.tool packs/real-estate/page-blueprints.json >/dev/null
+          python -m json.tool packs/real-estate/component-manifest.json >/dev/null
+          python -m json.tool packs/real-estate/state-vocabulary.json >/dev/null
 
           python -m json.tool packs/3d-immersive-web/pack.json >/dev/null
           python -m json.tool packs/3d-immersive-web/style-families.json >/dev/null
@@ -109,6 +124,10 @@ jobs:
         run: python scripts/validate-celebration-pack.py
       - name: Validate Fashion & Couture pack
         run: python scripts/validate-fashion-couture-pack.py
+      - name: Validate Professional Services pack
+        run: python scripts/validate-professional-services-pack.py
+      - name: Validate Real Estate pack
+        run: python scripts/validate-real-estate-pack.py
       - name: Validate 3D & Immersive Web pack
         run: python scripts/validate-3d-immersive-pack.py
       - name: Validate agent indexes and required files
