@@ -12,67 +12,63 @@ For real businesses, product-domain selection happens only after `BUSINESS_RESEA
 |---|---|---|
 | 3D, WebGL/WebGPU, Three.js/R3F/Babylon/Spline, configurator, showroom, digital twin, spatial portfolio, globe, AR or WebXR | `packs/3d-immersive-web/` plus matching product-domain pack | `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` |
 | Fashion, couture, tailoring, bespoke atelier, corporate wear, kaftans, traditional wear, occasion wear or made-to-order fashion | `packs/fashion-couture/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
-| Accounting, audit, tax, legal, consulting, advisory, engineering consulting, architecture practice or other expertise-led professional services | `packs/professional-services/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
-| Property developer, estate agency, brokerage, residential/commercial property, property listings, off-plan or mixed-use development | `packs/real-estate/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
+| Beauty salon, spa, barber, grooming, skincare/aesthetic clinic, nail or wellness studio | `packs/beauty-wellness/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
+| Hotel, resort, serviced apartment, guest house, lodge or accommodation-led hospitality | `packs/hospitality/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
+| SaaS, software platform, AI product, developer tool, API platform, workflow or enterprise software | `packs/saas-technology/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
+| Accounting, audit, tax, legal, consulting, advisory, architecture or engineering consulting | `packs/professional-services/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
+| Property developer, estate agency, brokerage, residential/commercial listings or off-plan development | `packs/real-estate/` | `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` |
 | Wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gift registry, private celebration or post-event gallery | `packs/celebration-event-microsite/` | `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` |
 | Restaurant, food ordering, takeaway, delivery, menu, quick-service, fast-casual, cafe, bakery, or multi-branch food commerce | `packs/fast-casual-commerce/` | `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` |
 
-The most specific route wins. The machine-readable router is `packs/pack-index.json`, and `scripts/plan-vault-build.py` provides business-profile-driven selection.
+The most specific route wins. The machine-readable router is `packs/pack-index.json`.
 
 ## Product-domain and capability packs
 
-Select one product-domain pack and add capability packs when needed. A 3D couture site uses Fashion & Couture plus 3D & Immersive Web; a 3D property experience uses Real Estate plus 3D & Immersive Web only when a model/site/spatial interaction materially helps evaluation.
+Select one product-domain pack and add capability packs when needed. A 3D couture site uses Fashion & Couture plus 3D & Immersive Web; a hotel virtual tour uses Hospitality plus 3D & Immersive Web; an interactive software topology may use SaaS & Technology plus 3D only when the visualisation is semantically justified.
 
-## Fashion & Couture Pack
+## Beauty & Wellness Pack
 
-Use `packs/fashion-couture/` for couture houses, bespoke tailors, fashion ateliers, corporate tailoring, kaftans, traditional wear, occasion wear and made-to-order fashion.
+Use `packs/beauty-wellness/` for salons, spas, barbers, skincare/aesthetic clinics, nail studios, makeup studios and appointment-led wellness businesses.
 
-- Research the business before choosing luxury/editorial styling.
-- Prioritise garment categories, craftsmanship, fit, material quality, process and enquiry/order conversion.
-- Use official or owner-supplied garment photography first; generated media is concept-only and must not be presented as client work.
-- Do not invent prices, lead times, delivery coverage, measurements, fabric origins, client lists or awards.
-- If 3D is used, it must relate directly to garments, tailoring, textile/materials, atelier process or verified brand cues.
-- Transform editorial layouts intentionally for mobile and preserve garment inspection and conversion with reduced motion.
+Prioritise service clarity, practitioner trust, verified pricing/duration where available, booking path, location/policies and consented work/results. Never invent medical outcomes, qualifications, prices, before-and-after results or booking availability. Generated people cannot be presented as real clients or staff.
 
-Read all paths listed in the pack index before implementation.
+## Hospitality Pack
+
+Use `packs/hospitality/` for hotels, resorts, serviced apartments, guest houses, lodges and accommodation-led businesses.
+
+Prioritise rooms, real property media, location, capacity, amenities, rate/availability status, stay policies and booking. Never infer amenities from category or present stock/generated rooms as the property. Distinguish live booking integration, external booking and prototype availability.
+
+## SaaS & Technology Pack
+
+Use `packs/saas-technology/` for software, SaaS, AI products, developer tools, API platforms, workflow systems and enterprise technology.
+
+Show the product workflow rather than relying on generic technology aesthetics. Never fabricate dashboards, customers, metrics, pricing, integrations, uptime, certifications or security posture. Mark beta, planned and conceptual functionality clearly. Abstract gradients, chrome blobs and 3D objects are not product proof.
 
 ## Professional Services Pack
 
-Use `packs/professional-services/` for accounting, audit, tax, legal, consulting, advisory, engineering consulting, architecture practices and similar expertise-led firms.
-
-- Lead with exact service scope, client fit, proof and engagement path—not generic consulting slogans.
-- Never invent clients, awards, rankings, memberships, credentials, years in business, staff counts or case outcomes.
-- Anonymous case studies must be clearly described as anonymised.
-- Distinguish firm credentials from individual credentials.
-- Keep regulated/legal/tax/financial statements current and sourceable.
-- Use real team/process/project evidence where possible; stock/generated people are never staff or client proof.
-- 3D is exceptional and must directly support the service, process, project, architecture, engineering object or verified data.
+Use `packs/professional-services/` for trust-heavy expertise businesses. Prioritise service scope, client fit, people, credentials, evidence and a credible engagement path. Do not invent clients, outcomes, rankings, awards or qualifications.
 
 ## Real Estate Pack
 
-Use `packs/real-estate/` for property developers, estate agencies, brokerages, residential/commercial listings, off-plan projects and mixed-use developments.
+Use `packs/real-estate/` for developers, brokerages and property listings. Keep property facts, media provenance, location, price/availability status, floorplans and viewing/enquiry paths explicit. Distinguish photography, CGI, stock and generated media.
 
-- Keep location, property/development name, type, availability, price status, key specifications and enquiry/viewing action close to the primary media.
-- Never invent prices, availability, dimensions, completion dates, title status, amenities, travel times, yields or financing terms.
-- Distinguish actual photography from architectural CGI/renders, stock and generated illustrative media.
-- Do not present stock homes as listed property or renders as completed reality.
-- Avoid false scarcity unless connected to a current source of truth.
-- Maps require textual location fallbacks; galleries and floorplans require keyboard/touch/mobile access.
-- 3D property models must correspond to the actual project or be clearly labelled illustrative, with a static gallery/floorplan fallback.
+## Fashion & Couture Pack
+
+Use `packs/fashion-couture/` for couture houses, bespoke tailors, fashion ateliers, corporate tailoring, kaftans, traditional wear, occasion wear and made-to-order fashion. Prioritise garments, craftsmanship, materials, fit and enquiry/order conversion; generated fashion media is concept-only unless explicitly owner-approved as such.
 
 ## 3D & Immersive Web capability pack
 
 **Semantic relevance is a hard gate.** Complete `THREE_D_RELEVANCE_CONTRACT.md` before asset selection. A 3D object, video or background must directly match the business/product/page purpose; unrelated spectacle is rejected.
 
-Use `packs/3d-immersive-web/` for purposeful real-time depth, model inspection/configuration, camera storytelling, spatial worlds, digital twins, maps or AR/XR. Prove the need, compare simpler media, build the fallback first, keep controls/content in DOM, define capability tiers, measure budgets and record every asset licence. External galleries remain reference-only unless separate terms grant reuse.
+Use `packs/3d-immersive-web/` for purposeful real-time depth, model inspection/configuration, camera storytelling, spatial worlds, digital twins, maps or AR/XR. Prove the need, compare simpler media, build the fallback first, keep controls/content in DOM, define capability tiers, measure budgets and record every asset licence.
 
 ## Celebration & Event Microsite Pack
 
-Use the pack for wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gifting, private celebration, event-day and post-event lifecycle experiences. Follow its privacy, guest-access, media, lifecycle and content rules; never copy another couple's identity, photographs, story, financial information or exact layout.
+Use the pack for wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gifting, private celebration, event-day and post-event lifecycle experiences. Follow its privacy, guest-access, media, lifecycle and content rules.
 
 ## Fast-Casual Commerce Pack
 
-Use the pack for branch-aware food menus, fulfilment selection, product configuration, cart, checkout, loyalty and tracking. Treat menu browsing and ordering as the product; keep products, prices, branch, fulfilment, availability and cart state visible and do not clone another food brand.
+Use the pack for branch-aware food menus, fulfilment selection, product configuration, cart, checkout, loyalty and tracking. Treat menu browsing and ordering as the product and do not clone another food brand.
 
 ## Minimal invocation
 
