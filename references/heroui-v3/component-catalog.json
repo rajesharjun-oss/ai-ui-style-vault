@@ -1,0 +1,51 @@
+{
+  "name": "HeroUI v3 Component Reference Catalog",
+  "version": "1.0.0",
+  "upstream": {
+    "repository": "heroui-inc/heroui",
+    "branch": "v3",
+    "package": "@heroui/react",
+    "observedPackageVersion": "3.2.4",
+    "componentExportSource": "packages/react/src/components/index.ts",
+    "componentCount": 82,
+    "sourcePathTemplate": "packages/react/src/components/{component}",
+    "stylePathTemplate": "packages/styles/src/components/{component}",
+    "licenseNote": "packages/react/package.json declares MIT while the repository root LICENSE is Apache-2.0. Preserve applicable notices and verify current upstream terms before vendoring exact source."
+  },
+  "adoptionModes": ["dependency", "behavior-contract", "reference"],
+  "categories": {
+    "actions-navigation": ["button", "button-group", "toggle-button", "toggle-button-group", "toolbar", "link", "close-button", "kbd"],
+    "forms-input": ["input", "input-group", "textarea", "textfield", "search-field", "number-field", "input-otp", "label", "description", "error-message", "field-error", "fieldset", "form"],
+    "selection-collections": ["checkbox", "checkbox-group", "radio", "radio-group", "switch", "switch-group", "select", "autocomplete", "combo-box", "list-box", "list-box-item", "list-box-section", "menu", "menu-item", "menu-section", "dropdown", "tag", "tag-group", "chip"],
+    "overlays-feedback": ["modal", "drawer", "popover", "tooltip", "alert-dialog", "toast", "alert"],
+    "structure-data": ["table", "pagination", "tabs", "breadcrumbs", "accordion", "disclosure", "disclosure-group", "card", "surface", "header", "separator", "scroll-shadow"],
+    "date-time": ["calendar", "range-calendar", "calendar-year-picker", "date-field", "date-picker", "date-range-picker", "time-field"],
+    "color": ["color-area", "color-field", "color-picker", "color-slider", "color-swatch", "color-swatch-picker"],
+    "status-range": ["slider", "meter", "progress-bar", "progress-circle", "spinner", "skeleton"],
+    "display": ["avatar", "badge", "typography", "empty-state"]
+  },
+  "stateFamilies": {
+    "actions-navigation": ["default", "hover", "focus-visible", "pressed", "disabled"],
+    "forms-input": ["default", "focus", "filled", "disabled", "invalid", "read-only"],
+    "selection-collections": ["default", "hover", "focus-visible", "selected", "disabled", "empty"],
+    "overlays-feedback": ["closed", "opening", "open", "closing", "focus-managed", "dismissed"],
+    "structure-data": ["default", "responsive", "focus-visible", "empty", "loading", "error"],
+    "date-time": ["default", "focus", "selected", "unavailable", "invalid", "disabled"],
+    "color": ["default", "focus", "selected", "dragging", "disabled"],
+    "status-range": ["default", "loading", "complete", "indeterminate", "disabled"],
+    "display": ["default", "loading", "fallback"]
+  },
+  "policy": {
+    "preferred": [
+      "Install @heroui/react when the target React/Tailwind stack is compatible and HeroUI semantics reduce implementation risk.",
+      "Use the catalog as a behavior and accessibility contract when the target stack differs.",
+      "Restyle components according to the selected Vault production theme rather than adopting HeroUI visual defaults blindly."
+    ],
+    "prohibited": [
+      "Do not claim HeroUI components are original Vault inventions.",
+      "Do not copy HeroUI trademarks or branding into client work.",
+      "Do not remove applicable upstream license or copyright notices from vendored code.",
+      "Do not force a HeroUI-looking interface when domain research and Vault design selection require another direction."
+    ]
+  }
+}
