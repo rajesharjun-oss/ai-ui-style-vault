@@ -1,0 +1,26 @@
+{
+  "source": "https://github.com/heroui-inc/heroui",
+  "branch": "v3",
+  "observedCommit": "cabf40b30c3d915c2bc4cf991151162362fd2331",
+  "observedPackage": "@heroui/react",
+  "observedPackageVersion": "3.2.4",
+  "captured": {
+    "reactComponentFamilies": 82,
+    "styleVariantFamilies": 83,
+    "publicHooks": 10,
+    "totalIndexedItems": 175
+  },
+  "upstreamFilesUsedForInventory": [
+    "packages/react/src/components/index.ts",
+    "packages/react/src/hooks/index.ts",
+    "packages/styles/src/components/index.ts",
+    "packages/react/package.json",
+    "packages/react/README.md",
+    "LICENSE"
+  ],
+  "licenseSignals": {
+    "repositoryRoot": "Apache-2.0",
+    "reactPackageMetadata": "MIT",
+    "policy": "Keep provenance and applicable notices. Verify exact-source licensing before vendoring code."
+  }
+}
