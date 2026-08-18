@@ -1,0 +1,39 @@
+{
+  "name": "Vault Component Intelligence Index",
+  "version": "1.0.0",
+  "purpose": "Route component design questions through cross-system semantics first, then to an implementation primitive appropriate to the target stack.",
+  "sources": [
+    {
+      "id": "component-gallery",
+      "role": "cross-system-taxonomy-and-comparison",
+      "path": "references/component-gallery/component-catalog.json",
+      "coverage": {"canonicalFamilies":60,"designSystems":95,"examples":2671},
+      "selector": "python scripts/select-component-intelligence.py \"<component need>\""
+    },
+    {
+      "id": "heroui-v3",
+      "role": "react-implementation-and-accessibility-reference",
+      "path": "references/heroui-v3/component-catalog.json",
+      "coverage": {"componentFamilies":82,"styleVariantFamilies":83,"publicHooks":10,"indexedItems":175},
+      "selector": "python scripts/select-heroui-components.py \"<component need>\""
+    }
+  ],
+  "selectionOrder": [
+    "Resolve the canonical component family and aliases using Component Gallery.",
+    "Check whether the user task needs a different semantic component despite visual similarity.",
+    "Define states, keyboard behavior, focus, labels, validation and responsive behavior.",
+    "For React/Tailwind projects, inspect the corresponding HeroUI primitive and its tests/stories when compatible.",
+    "For other stacks, implement the behavior contract with native semantics or an accessible licensed primitive.",
+    "Apply the target business/domain visual theme after behavior is correct.",
+    "Run rendered QA; never infer correctness from source presence alone."
+  ],
+  "hardRules": [
+    "Component semantics outrank appearance.",
+    "Do not use a dropdown menu when a form select is required, or vice versa.",
+    "Do not use tooltips for essential interactive content.",
+    "Do not replace semantic buttons, links, labels or form controls with generic clickable containers.",
+    "Do not treat a design-system screenshot as a template to clone.",
+    "Do not assume a source is reusable without checking its license.",
+    "Do not let component-library defaults override the selected domain pack or production theme."
+  ]
+}
