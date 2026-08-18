@@ -97,7 +97,7 @@ def main():
     hard_block = args.use_3d and three_d_plan.get("status") == "blocked"
     final = {
         "status":"blocked" if hard_block else "ready",
-        "schemaVersion":"1.0.0",
+        "schemaVersion":"1.1.0",
         "business":{
             "name":profile.get("officialName"),
             "category":profile.get("businessCategory"),
@@ -111,12 +111,14 @@ def main():
             "themeSelection":theme_plan,
             "sectionSelection":section_plan,
             "density":args.density,
-            "selectionRule":"Use the winning theme only when it passes score/margin rules; use section recipes as composition contracts, not copyable templates."
+            "componentIntelligenceIndex":"references/component-intelligence-index.json",
+            "componentContractResolver":"python scripts/resolve-component-contract.py \"<component or alias>\"",
+            "selectionRule":"Use the winning theme only when it passes score/margin rules; use section recipes and component contracts as behavior/composition contracts, not copyable templates."
         },
         "threeD":three_d_plan,
-        "requiredArtifacts":["BUSINESS_RESEARCH.md","business-profile.json","VAULT_SELECTION.md","BUILD_CONTRACT.md","CONTENT_PLAN.md","ASSET_PLAN.md","design-recipe.json","VISUAL_QA_OBSERVATIONS.json","VISUAL_QA_REPORT.md"],
-        "implementationOrder":["complete pack-specific contract","resolve owner-confirmation gaps that affect claims or conversion","materialize selected visual direction","implement semantic DOM/static fallback","implement sections","add justified motion/3D only after static task works","render required viewports and states","run anti-generic visual QA gate","revise until passing","handoff with evidence"],
-        "handoffGate":{"antiGenericMinimumScore":75,"mustHaveRenderedQA":True,"mustHaveVerifiedPrimaryCTA":True,"mustHaveMobileOverflowClearance":True}
+        "requiredArtifacts":["BUSINESS_RESEARCH.md","business-profile.json","VAULT_SELECTION.md","BUILD_CONTRACT.md","CONTENT_PLAN.md","ASSET_PLAN.md","design-recipe.json","VISUAL_QA_OBSERVATIONS.json","DESIGN_CRITIC_OBSERVATIONS.json","VISUAL_QA_REPORT.md","design-critic-result.json"],
+        "implementationOrder":["complete pack-specific contract","resolve owner-confirmation gaps that affect claims or conversion","resolve canonical component contracts for important interactions","materialize selected visual direction","implement semantic DOM/static fallback","implement sections and component states","add justified motion/3D only after static task works","render required viewports and states","run anti-generic visual QA gate","run Design Critic against plan and component contracts","revise until both gates pass","handoff with evidence"],
+        "handoffGate":{"antiGenericMinimumScore":75,"designCriticMinimumScore":80,"mustHaveRenderedQA":True,"mustHaveVerifiedPrimaryCTA":True,"mustHaveMobileOverflowClearance":True,"mustPassComponentSemanticReview":True}
     }
 
     output = Path(args.output)
