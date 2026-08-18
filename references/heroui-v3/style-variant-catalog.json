@@ -1,0 +1,10 @@
+{
+  "name": "HeroUI v3 Style Variant Reference",
+  "version": "1.0.0",
+  "upstream": "heroui-inc/heroui@v3",
+  "exportSource": "packages/styles/src/components/index.ts",
+  "variantFamilyCount": 83,
+  "variantFamilies": ["accordion","alert","alert-dialog","autocomplete","avatar","badge","breadcrumbs","button","button-group","calendar","calendar-year-picker","range-calendar","card","checkbox","checkbox-group","chip","color-area","color-field","color-input-group","color-picker","color-slider","color-swatch","close-button","color-swatch-picker","combo-box","date-field","date-picker","date-range-picker","date-input-group","description","drawer","disclosure","disclosure-group","dropdown","empty-state","error-message","field-error","fieldset","header","input","input-group","input-otp","kbd","label","link","list-box","list-box-item","list-box-section","menu","meter","progress-bar","progress-circle","menu-item","menu-section","modal","number-field","pagination","popover","radio","radio-group","scroll-shadow","search-field","select","separator","skeleton","slider","spinner","surface","switch","switch-group","table","tabs","tag","tag-group","typography","textfield","textarea","time-field","toast","toggle-button","toggle-button-group","toolbar","tooltip"],
+  "implementationPattern": "Variant definitions are separated from React behavior in @heroui/styles. Agents may learn from this separation: semantic/accessible behavior and visual variants should remain independently composable.",
+  "vaultRule": "Do not import HeroUI's visual defaults as a brand. Translate the selected Vault production theme into component variants while preserving interaction semantics."
+}
