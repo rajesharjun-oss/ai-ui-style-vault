@@ -52,17 +52,27 @@ def validate(profile: dict) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate the Vault business-understanding research gate.")
     parser.add_argument("profile", help="Path to business-profile.json")
+    parser.add_argument("--json", action="store_true", dest="json_output", help="Return machine-readable JSON for orchestrators.")
     args = parser.parse_args()
     path = Path(args.profile)
     profile = json.loads(path.read_text(encoding="utf-8"))
     errors = validate(profile)
-    if errors:
+    result = {
+        "status":"fail" if errors else "pass",
+        "researchStatus":profile.get("status"),
+        "confidence":profile.get("confidence", {}).get("score"),
+        "designSelectionAllowed":profile.get("designSelectionAllowed", profile.get("status") == "ready"),
+        "errors":errors
+    }
+    if args.json_output:
+        print(json.dumps(result, indent=2))
+    elif errors:
         print("BUSINESS UNDERSTANDING: FAIL")
         for error in errors:
             print(f"- {error}")
-        return 1
-    print(f"BUSINESS UNDERSTANDING: PASS ({profile['status']}, confidence={profile['confidence']['score']})")
-    return 0
+    else:
+        print(f"BUSINESS UNDERSTANDING: PASS ({profile['status']}, confidence={profile['confidence']['score']})")
+    return 1 if errors else 0
 
 if __name__ == "__main__":
     raise SystemExit(main())
