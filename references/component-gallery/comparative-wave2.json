@@ -1,0 +1,139 @@
+{
+  "name": "Component Gallery Comparative Research Wave 2",
+  "version": "1.0.0",
+  "observedDate": "2026-08-18",
+  "sourceRoot": "https://component.gallery/components/",
+  "policy": "Use public taxonomy, counts, guidance and behavior principles as cross-system research. Do not copy screenshots, branded visual expression, proprietary code or exact compositions. Verify the originating design system license before source reuse.",
+  "components": [
+    {
+      "id": "combobox",
+      "exampleCount": 37,
+      "aliases": ["autocomplete", "autosuggest"],
+      "purpose": "A text input combined with a popup option collection so users can filter or search a predefined set while retaining keyboard selection behavior.",
+      "requiredStates": ["closed", "open", "focused", "query-entered", "results", "no-results", "loading", "selected", "disabled", "invalid"],
+      "keyboardModel": ["Typing filters or searches options", "ArrowDown/ArrowUp moves active option", "Enter commits the active option", "Escape closes the popup without unexpectedly clearing a committed value", "Tab follows the host application's focus model"],
+      "responsiveRules": ["Keep the text field visible and usable at narrow widths", "Popup must remain within viewport bounds", "Large result sets need scrolling without trapping the page", "On mobile, a full-width or sheet treatment may replace a tiny anchored popup when needed"],
+      "antiPatterns": ["Using a combobox when a small static select is sufficient", "Treating typed free text as a valid value when the data model requires predefined options", "Hiding the current selection", "Mouse-only option selection"],
+      "heroUIMatches": ["combo-box", "autocomplete"],
+      "comparativeSignal": "Across systems, the key distinction from Select is typed filtering/search plus listbox-style option navigation."
+    },
+    {
+      "id": "datepicker",
+      "exampleCount": 44,
+      "aliases": ["calendar", "datetime picker"],
+      "purpose": "A calendar-oriented control for choosing a valid date, date range or date/time while respecting locale, constraints and typed entry when supported.",
+      "requiredStates": ["closed", "open", "focused-date", "selected", "range-start", "range-end", "disabled-date", "unavailable-date", "invalid", "loading-availability"],
+      "keyboardModel": ["Arrow keys navigate dates according to calendar semantics", "Enter/Space selects the focused date", "Escape closes an overlay calendar", "Month/year movement must remain keyboard reachable", "Focus returns predictably to the trigger or date field"],
+      "responsiveRules": ["Use enough touch area for calendar cells", "Avoid clipped month grids", "Range selection must remain understandable on narrow screens", "Long month/localized labels must not overflow", "Consider full-screen/sheet calendars on small mobile viewports"],
+      "antiPatterns": ["Forcing a calendar when direct date entry is faster", "Using ambiguous date formats", "Allowing unavailable dates to appear selectable", "Moving months without announcing context to assistive technology"],
+      "heroUIMatches": ["date-picker", "date-range-picker", "calendar", "range-calendar", "date-field"],
+      "comparativeSignal": "The gallery shows calendar, range-calendar, scrollable calendar, appointment-picker and datetime variants; the task and constraints should choose the model rather than styling preference."
+    },
+    {
+      "id": "dropdown-menu",
+      "exampleCount": 49,
+      "aliases": ["select menu"],
+      "purpose": "A trigger-controlled menu of actions or navigation choices; unlike Select, it is not primarily a form value input.",
+      "requiredStates": ["closed", "open", "focused-item", "disabled-item", "checked-item", "submenu-open", "action-pending"],
+      "keyboardModel": ["Enter/Space opens from a button trigger", "Arrow keys navigate menu items", "Enter/Space activates the focused action", "Escape closes and restores trigger focus", "Submenus follow directional keyboard conventions"],
+      "responsiveRules": ["Keep popup inside viewport", "Provide sufficient item hit targets", "Long labels may wrap only when it does not destroy scanability", "For complex mobile menus, promote to a sheet/drawer rather than an unusably small floating menu"],
+      "antiPatterns": ["Using it as a form Select", "Putting arbitrary form layouts inside a menu role", "Using hover as the only way to open", "Making disabled actions look enabled"],
+      "heroUIMatches": ["dropdown", "menu", "menu-item", "menu-section"],
+      "comparativeSignal": "Component Gallery explicitly separates Dropdown Menu from Select because one exposes actions/navigation and the other commits form values."
+    },
+    {
+      "id": "tabs",
+      "exampleCount": 80,
+      "aliases": ["tabbed interface"],
+      "purpose": "Switch between related content panels while keeping all panels at the same information level.",
+      "requiredStates": ["selected", "unselected", "focused", "disabled", "panel-loading", "panel-error"],
+      "keyboardModel": ["Arrow keys move among tabs according to orientation", "Home/End may move to first/last tab", "Selected tab controls a corresponding tabpanel", "Focus behavior must follow manual or automatic activation deliberately"],
+      "responsiveRules": ["Do not shrink labels below readability", "Use horizontal scroll or an intentional alternate navigation at narrow widths", "Keep selected state visible when tab list scrolls", "Do not silently turn tabs into unrelated accordion semantics unless the information architecture allows it"],
+      "antiPatterns": ["Using tabs for sequential steps", "Using tabs for unrelated destinations", "Hiding critical content behind many tabs", "Mouse-only tab changes"],
+      "heroUIMatches": ["tabs"],
+      "comparativeSignal": "With 80 examples, tabs are widely implemented, but correct keyboard/tabpanel semantics are more important than the underline/pill visual treatment."
+    },
+    {
+      "id": "toast",
+      "exampleCount": 41,
+      "aliases": ["snackbar"],
+      "purpose": "Transient layered feedback for a completed or failed action without blocking the primary task.",
+      "requiredStates": ["entering", "visible", "actionable", "dismissing", "dismissed", "queued", "paused"],
+      "keyboardModel": ["Any action inside the toast must be keyboard reachable", "Dismiss control must have an accessible name", "Focus should not be stolen for routine informational toasts"],
+      "responsiveRules": ["Toast stack must not obscure primary mobile controls", "Long messages should wrap without covering the whole viewport", "Respect safe areas", "Limit concurrent toasts and preserve reading time"],
+      "antiPatterns": ["Using a toast for information the user must review before continuing", "Auto-dismissing critical errors too quickly", "Stacking unlimited notifications", "Using color alone to communicate severity"],
+      "heroUIMatches": ["toast", "alert"],
+      "comparativeSignal": "The gallery treats Toast as layered transient feedback; persistent or blocking information belongs in Alert or Dialog patterns."
+    },
+    {
+      "id": "tooltip",
+      "exampleCount": 74,
+      "aliases": ["toggletip"],
+      "purpose": "Provide concise supplementary information associated with an element without becoming the main interactive surface.",
+      "requiredStates": ["hidden", "show-delay", "visible", "hide-delay", "disabled-trigger"],
+      "keyboardModel": ["Tooltip must be available from keyboard focus as well as pointer hover", "Escape may dismiss a visible tooltip", "Tooltip content must not require pointer-only interaction"],
+      "responsiveRules": ["Do not depend on hover on touch devices", "Keep content short and within viewport", "If content needs controls or lengthy explanation, promote to Popover or inline help"],
+      "antiPatterns": ["Putting buttons or links inside a tooltip", "Using tooltip for essential labels", "Showing important validation only in a tooltip", "Hover-only access"],
+      "heroUIMatches": ["tooltip"],
+      "comparativeSignal": "Component Gallery relates Tooltip to Popover but distinguishes it by concise non-primary information and lack of an interactive content surface."
+    },
+    {
+      "id": "popover",
+      "exampleCount": 50,
+      "aliases": [],
+      "purpose": "Show interactive contextual content anchored to a trigger without necessarily blocking interaction with the rest of the page.",
+      "requiredStates": ["closed", "open", "focus-within", "position-flipped", "dismissed", "trigger-disabled"],
+      "keyboardModel": ["Enter/Space opens from a button trigger", "Escape closes and restores trigger focus", "Interactive descendants are keyboard reachable", "Modal versus non-modal focus behavior must be decided explicitly"],
+      "responsiveRules": ["Flip or shift to remain on-screen", "Keep content concise", "For complex mobile content, use a sheet/drawer/dialog", "Avoid internal scrolling unless necessary"],
+      "antiPatterns": ["Using the trigger for a second unrelated action", "Putting critical always-needed information only in a popover", "Failing to return focus", "Treating a modal popover as non-modal or vice versa"],
+      "heroUIMatches": ["popover"],
+      "comparativeSignal": "The gallery explicitly notes that popovers may contain interactive elements and are commonly click-triggered, unlike ordinary tooltips."
+    },
+    {
+      "id": "tree-view",
+      "exampleCount": 14,
+      "aliases": [],
+      "purpose": "Navigate or manipulate nested hierarchical data such as filesystems, taxonomies or organizational structures.",
+      "requiredStates": ["collapsed", "expanded", "focused-node", "selected-node", "disabled-node", "loading-children", "empty-branch"],
+      "keyboardModel": ["ArrowUp/ArrowDown moves visible-node focus", "ArrowRight expands or moves into children", "ArrowLeft collapses or moves to parent", "Enter/Space activates or selects according to the product model", "Home/End support should be considered for long trees"],
+      "responsiveRules": ["Preserve hierarchy at narrow widths", "Avoid uncontrolled indentation that destroys content width", "Large trees need filtering/search and virtualization where appropriate", "Touch expand controls must be distinct from node activation when both exist"],
+      "antiPatterns": ["Using a tree for flat data", "Using an accordion when hierarchical navigation/selection is required", "Icons that add clutter without differentiating node types", "Expansion state with no visible indicator"],
+      "heroUIMatches": ["disclosure-group", "list-box"],
+      "comparativeSignal": "Component Gallery warns against tree views for non-hierarchical data and points to dedicated ARIA tree semantics for keyboard interaction."
+    },
+    {
+      "id": "carousel",
+      "exampleCount": 22,
+      "aliases": ["content slider"],
+      "purpose": "Browse a bounded sequence of related slides or media items when showing all items at once would be impractical.",
+      "requiredStates": ["current-slide", "previous-available", "next-available", "autoplay-running", "autoplay-paused", "dragging", "reduced-motion"],
+      "keyboardModel": ["Visible previous/next controls are keyboard operable", "Slide changes must not unexpectedly move focus", "Autoplay must be pausable", "Inactive content should not create confusing tab stops"],
+      "responsiveRules": ["Support swipe/scroll without requiring gesture-only controls", "Use logical properties and scroll snapping where appropriate", "Keep navigation controls visible", "Respect reduced motion", "Ensure partially visible slides do not imply inaccessible content"],
+      "antiPatterns": ["Hiding primary content in an auto-advancing carousel", "Gesture-only navigation", "Autoplay without pause", "Using carousel when a simple grid/list gives better discoverability"],
+      "heroUIMatches": ["scroll-shadow"],
+      "comparativeSignal": "The gallery emphasizes discoverability, on-screen controls, hiding inactive content appropriately and respecting motion preferences."
+    },
+    {
+      "id": "navigation",
+      "exampleCount": 62,
+      "aliases": ["nav", "menu"],
+      "purpose": "Provide structured links for moving between pages, views or meaningful regions within the current page.",
+      "requiredStates": ["current", "default", "hover", "focus-visible", "expanded-group", "collapsed-group", "mobile-open", "mobile-closed"],
+      "keyboardModel": ["Normal navigation links remain reachable in document order", "Current destination is conveyed semantically", "Disclosure-based mobile/mega navigation has explicit trigger state", "Escape closes temporary navigation overlays and restores focus when appropriate"],
+      "responsiveRules": ["Choose horizontal, vertical, rail, bottom, side or in-page navigation from the information architecture", "Mobile navigation must preserve priority rather than simply hide everything behind one menu", "Long labels and localization must be accommodated", "Active destination remains visible"],
+      "antiPatterns": ["Using application-menu keyboard semantics for ordinary site navigation links without reason", "Hiding critical destinations on mobile", "Multiple unlabeled navigation landmarks", "Treating tabs, menus and navigation as interchangeable because they look similar"],
+      "heroUIMatches": ["header", "menu", "tabs", "breadcrumbs", "link"],
+      "comparativeSignal": "The 62 examples span app bars, side navigation, bottom navigation, rails, jump links, primary/secondary navigation and mega menus; the information architecture should select the pattern."
+    }
+  ],
+  "crossComponentHardRules": [
+    "Combobox is not merely a styled Select: typed filtering/search changes its interaction and state model.",
+    "Dropdown Menu exposes actions or navigation; Select commits form values.",
+    "Tooltip is supplementary and non-interactive; Popover may contain interactive contextual content.",
+    "Tabs represent peer panels; Stepper represents sequence/progress; Navigation moves among destinations.",
+    "Toast is transient feedback; Alert is persistent/prominent feedback; Modal/Alert Dialog blocks or focuses the task.",
+    "Tree View is hierarchical; Accordion is disclosure-oriented; a flat List should remain a List.",
+    "Carousel is not a default way to hide overflow; use it only when sequential browsing is a real task.",
+    "Datepicker must encode locale and date constraints, not just render a calendar grid."
+  ]
+}
