@@ -1,227 +1,193 @@
 # AI Agent Instructions
 
-This repository is an AI-readable product-design and front-end engineering system. It is not a screenshot folder and it is not permission to clone another brand, couple, event or product. Use it to produce original websites, web applications, dashboards, commerce experiences and event microsites that feel deliberately designed, concise, accessible, responsive, privacy-aware and production-ready.
+This repository is an AI-readable product-design and front-end engineering system. It is intentionally deep, but agents must **not read the whole repository for every task**. Start with `AI_START_HERE.md`, use `agent-runtime-index.json`, generate a plan, then read only the selected prompt, pack, contracts and references needed for the current build.
 
-## Operating model
+Act as a senior product designer, content designer and front-end engineer working as one team. For sensitive, transactional or personal-data workflows, also apply privacy/security judgment.
 
-For every build, act as three senior specialists working as one team:
+## Fast path
 
-1. **Senior product designer** — understands users, tasks, hierarchy, information architecture, interaction model, states and visual direction.
-2. **Senior content designer** — controls message priority, copy length, labels, progressive disclosure and page density; removes repetition and generic AI language.
-3. **Senior front-end engineer** — implements semantic, responsive, accessible, performant components with complete states and disciplined motion.
+For a normal real-business build:
 
-When personal events, guest data, commerce or other sensitive workflows are involved, also act as a privacy- and security-aware product designer. A visually attractive screen with weak hierarchy, excessive copy, invented facts, incomplete states, poor responsiveness, inaccessible interaction or false integration claims is incomplete.
+```bash
+python scripts/vault-agent.py plan business-profile.json
+```
+
+Then read `vault-build-plan.json` and follow its file pointers. For difficult components:
+
+```bash
+python scripts/vault-agent.py component "<component need>"
+```
+
+After rendered QA:
+
+```bash
+python scripts/vault-agent.py critic vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json
+```
+
+Do not preload all style references, all Component Gallery examples, all HeroUI research, all motion references or all 3D recipes. Search/select first, then deep-read only the chosen material.
 
 ## Prompt Discovery and Routing
 
-Read `PROMPTS.md`, `prompts/prompt-index.json`, `PACKS.md` and `packs/pack-index.json` before selecting a task prompt or domain pack.
+Use the most specific route:
 
-Use these routes automatically:
+- Real business website: `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` + selected product-domain pack.
+- Existing-site redesign: `prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md` + selected product-domain pack.
+- Restaurant/food commerce: `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` + `packs/fast-casual-commerce/`.
+- Celebration/event: `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` + `packs/celebration-event-microsite/`.
+- 3D/immersive: `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` + `packs/3d-immersive-web/` + matching product-domain pack.
+- General product UI: `prompts/SENIOR_PRODUCT_TEAM_PROMPT.md`.
+- After first browser render: `prompts/VISUAL_QA_AND_REVISION.md`.
 
-- 3D website, immersive WebGL/WebGPU experience, Three.js/R3F/Babylon/Spline build, configurator, showroom, digital twin, spatial portfolio, interactive globe, AR or WebXR: `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` plus `packs/3d-immersive-web/` and any matching product-domain pack.
-- Wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gift registry, private celebration or post-event gallery: `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` plus `packs/celebration-event-microsite/`.
-- Restaurant, cafe, bakery, takeaway, delivery, menu, pickup, quick-service, fast-casual or food-ordering commerce: `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` plus `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` and `packs/fast-casual-commerce/`.
-- New website for another real business: `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` plus the product-domain pack selected after the business research gate.
-- Redesign or improvement of an existing website: `prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md` plus the relevant domain pack.
-- After the first browser render: `prompts/VISUAL_QA_AND_REVISION.md`.
-- General product interface work: `prompts/SENIOR_PRODUCT_TEAM_PROMPT.md`.
-
-The most specific route wins. Task prompts and packs add requirements; they do not replace this file, `PRD.md` or the core contracts.
+Use `prompts/prompt-index.json` and `packs/pack-index.json` for machine routing. The most specific route wins.
 
 ## Business-understanding gate
 
-For every real business, brand, organisation, venue, product or service, the agent must research and understand the business before selecting a theme, section composition, style, 3D scene or motion recipe.
+For a real business, brand, organisation, venue, product or service, establish what it actually does, who it serves and what the primary website action is before selecting style, motion or 3D.
 
 Create `BUSINESS_RESEARCH.md` and `business-profile.json`, then validate:
 
 ```bash
-python scripts/validate-business-understanding.py business-profile.json
+python scripts/validate-business-understanding.py business-profile.json --json
 ```
 
-The research status must be `ready` and `designSelectionAllowed` must be true before visual design selection. If the core offer, audience or primary conversion cannot be established, stop before design and request evidence rather than inventing a generic concept.
+Design selection requires `status=ready` and `designSelectionAllowed=true`. If the core business cannot be established, stop before visual design and request evidence instead of inventing a generic concept.
 
-## Domain-pack discovery
+## Progressive disclosure
 
-Domain packs live under `packs/` and are indexed by `packs/pack-index.json`.
+Always read only:
 
-When a trigger matches:
+1. `AI_START_HERE.md`
+2. this file
+3. `agent-runtime-index.json`
+4. generated `vault-build-plan.json` when available
 
-1. Read the selected pack's `pack.json`.
-2. Read every file in its `requiredReads` list.
-3. Add the pack to `VAULT_SELECTION.md` and `design-recipe.json`.
-4. Create the pack-specific contracts before implementation.
-5. Use the pack's blueprints, components, states, content rules, asset rules, privacy rules, code contracts and QA requirements.
-6. Remove unsupported capabilities rather than inventing them.
+Then expand only into:
 
-Current product-domain packs include Fast-Casual Commerce, Celebration & Event Microsite, Fashion & Couture, Beauty & Wellness, Hospitality, SaaS & Technology, Professional Services and Real Estate. `3d-immersive-web` is a capability pack that may be layered on when justified.
+- the selected task prompt;
+- the selected pack's `pack.json` and its `requiredReads`;
+- selected theme/section/component/3D recipes;
+- task-specific contracts;
+- the target repository's own conventions;
+- QA files during validation.
 
-## Mandatory reading order
-
-Before implementation, read:
-
-1. `PRD.md`
-2. `PROMPTS.md`
-3. `PACKS.md`
-4. The selected task prompt
-5. The selected domain pack and every required read
-6. `guides/SENIOR_PRODUCT_TEAM_PROTOCOL.md`
-7. `guides/CONTENT_DESIGN_SYSTEM.md`
-8. `guides/INFORMATION_ARCHITECTURE_AND_PAGE_COMPOSITION.md`
-9. `guides/FRONTEND_IMPLEMENTATION_STANDARD.md`
-10. `guides/COMPONENT_AND_STATE_STANDARD.md`
-11. `guides/ANTI_GENERIC_AI_UI_CHECKLIST.md`
-12. `guides/AGENT_USAGE.md`
-13. `guides/AGENT_BUILD_CHECKLIST.md`
-14. `agent-index.json`
-15. `system/page-blueprints.json`
-16. `system/component-manifest.json`
-17. `system/motion-primitives.json`
-18. `system/production-theme-archetypes.json`
-19. `system/design-selection-scoring.json`
-20. `system/section-recipes.json`
-21. Style, screen and motion catalogues as needed
-
-## Scored design-selection rule
-
-Production-theme selection must be evidence-based, not aesthetic preference.
-
-After the business research gate and domain-pack selection, run:
-
-```bash
-python scripts/score-design-selection.py business-profile.json --domain-pack <pack-id> --asset-readiness <strong|adequate|limited|none>
-```
-
-The scoring model weighs domain fit, conversion fit, brand tone, content density, trust requirements, asset readiness and performance. Record the scores, winning margin and rationale in `VAULT_SELECTION.md` and `design-recipe.json`. Do not select a lower-scoring direction merely because it looks more dramatic unless a documented product reason resolves the difference.
-
-If the winner does not meet the minimum score or the top two are within the configured winning margin, treat the result as `tie-or-review` and resolve it deliberately before coding.
-
-## Section-level composition rule
-
-Do not compose an entire page by repeating one visual pattern. Use `system/section-recipes.json` to select section-level composition according to purpose, domain, conversion, density and available evidence.
-
-Example:
-
-```bash
-python scripts/select-section-recipes.py business-profile.json --domain-pack <pack-id> --section hero --section proof --section services --section cta --section footer
-```
-
-A page may use different section recipes when their purposes differ. Recipe selection is not permission to clone a fixed layout; adapt the composition to the verified business, content and assets. Record selected recipe IDs in the page plan or `design-recipe.json`.
+Reference archives are query-on-demand, not mandatory preload material.
 
 ## No-code-before-contract rule
 
-Do not start UI implementation until the target project contains completed equivalents of:
+Before implementation, the target project needs completed equivalents of:
 
 - `VAULT_SELECTION.md`
 - `BUILD_CONTRACT.md`
 - `CONTENT_PLAN.md`
 - `design-recipe.json`
 
-For a real business website, also create:
+For real business sites also create `BUSINESS_RESEARCH.md`, `business-profile.json`, and `ASSET_PLAN.md` when media is involved.
 
-- `BUSINESS_RESEARCH.md`
-- `business-profile.json`
-- `ASSET_PLAN.md` when imagery, video, illustration or 3D is involved
+Additional contracts are mandatory when their route is selected:
 
-For transactional food commerce, also create `COMMERCE_BUILD_CONTRACT.md`.
+- Restaurant/transactional food: `COMMERCE_BUILD_CONTRACT.md`.
+- Celebration/event: `EVENT_BUILD_CONTRACT.md`, `COUPLE_CONTENT_PLAN.md`, `ASSET_PLAN.md`.
+- 3D/immersive: `THREE_D_RELEVANCE_CONTRACT.md`, `THREE_D_BUILD_CONTRACT.md`, `SCENE_ASSET_PLAN.md`, `PERFORMANCE_AND_FALLBACK_PLAN.md`.
+- Any selected product-domain pack: the pack-specific contract named by its `pack.json`.
 
-For celebration/event work, also create `EVENT_BUILD_CONTRACT.md`, `COUPLE_CONTENT_PLAN.md` and `ASSET_PLAN.md`.
+## Design-selection rule
 
-For 3D or immersive experiences, also create `THREE_D_BUILD_CONTRACT.md`, `SCENE_ASSET_PLAN.md` and `PERFORMANCE_AND_FALLBACK_PLAN.md`.
+Production-theme selection must be evidence-based. Use the orchestrator or:
 
-Add any other selected domain pack's required contract from its `pack.json`.
+```bash
+python scripts/score-design-selection.py business-profile.json --domain-pack <pack-id> --asset-readiness <strong|adequate|limited|none>
+```
 
-Contracts must identify product/event, primary users or guests, top tasks, risk and success outcome; page purpose and one primary action per page or state; content-density mode and copy budgets; primary style, scored production theme, section recipes, supporting references, motion model and selected pack; component inventory and required states; responsive, accessibility, performance and reduced-motion requirements; omitted/deferred information; verified facts, assumptions, private information, asset provenance, consent and owner-confirmation items; sources of truth, integrations, prototype-only capabilities and recovery rules.
+Do not choose a more dramatic lower-scoring direction without a documented product reason. Resolve `tie-or-review` before coding.
 
-## Product-design rules
+Use `system/section-recipes.json` for section composition rather than repeating one pattern across the page. Section recipes are composition contracts, not templates to clone.
 
-- Design around the user's or guest's task, not a template's available sections.
-- Give every page one clear purpose and one primary action.
-- Prioritise the first viewport; explain the product or event and next action without an essay.
-- Use one primary visual system. Add supporting references only to solve a specific gap.
-- Prefer hierarchy, spacing, composition, product UI, data, media and interaction over additional paragraphs.
-- Define the complete journey and all meaningful loading, empty, error, success, permission, destructive and recovery states.
-- Avoid card soup and filler sections.
-- Make practical business or event information easy to find.
+## Component intelligence rule
 
-## Content-design rules
+Component semantics outrank appearance. Resolve ambiguous controls through:
 
-- Treat words as interface material with a budget.
-- Default to `balanced` density unless the product clearly requires `sparse`, `informational` or `data-dense`.
-- Keep hero headlines specific and usually 5–12 words; support copy usually 15–35 words.
-- Move secondary detail into dedicated pages, tabs, accordions, drawers or contextual help.
-- Remove duplicate benefits, repeated actions, filler and generic AI marketing language.
-- Use concrete product, industry or event terminology.
+```bash
+python scripts/resolve-component-contract.py "<component or alias>"
+```
+
+For compatible React/Tailwind projects, HeroUI may provide a useful implementation primitive, but its default visual treatment must still be adapted to the selected domain/theme.
+
+Hard distinctions include:
+
+- Button performs an action; Link navigates.
+- Select commits form values; Dropdown Menu exposes actions/navigation.
+- Combobox adds typed filtering/search behavior.
+- Tooltip is concise supplementary information; Popover may contain interactive content.
+- Alert is persistent/prominent; Toast is transient.
+- Tabs switch peer panels; Stepper represents sequence/progress.
+- Accordion is disclosure; Tree View is hierarchical navigation/data.
+- Spinner is indeterminate; Progress Bar is measurable.
+
+Implement required loading, empty, error, success, disabled, hover, focus, active, selected, permission and recovery states where meaningful.
+
+## Product and content rules
+
+- Design around the user's task, not a template's available sections.
+- Give each page/state a clear purpose and primary action.
+- Keep the first viewport concise and specific.
+- Prefer hierarchy, product UI, media, data and interaction over unnecessary prose.
+- Avoid card soup, repeated section rhythm and generic AI marketing language.
 - Separate verified facts from assumptions.
-- Do not invent claims, prices, hours, addresses, availability, discounts, event dates, venues, guest rules, couple stories, quotations, travel arrangements or financial details.
+- Do not invent claims, prices, hours, addresses, availability, credentials, event details, discounts, integrations, customer proof or operational capabilities.
 
-## Asset and art-direction rules
+## Asset rules
 
-- Use user-provided, original, generated, owned or clearly licensed assets only.
-- Do not hotlink or copy protected target-site media.
-- Do not present generated or stock imagery as official business or couple photography.
-- Plan subject, purpose, crop, focal point, aspect ratio, mobile treatment, alternative text, access, consent and provenance before implementation.
-- Keep product photography or event-media treatment consistent.
-- Do not repeat one photograph across unrelated sections merely to fill space.
-- Use process imagery to prove process claims.
+Use user-provided, original, generated, owned or clearly licensed assets. Do not hotlink or copy protected target-site media. Do not present generated/stock imagery as official business photography. Track provenance and keep visual subject matter relevant to the section and business.
 
-## 3D and immersive web rules
+## 3D and immersive rules
 
-- Prove what 3D improves and choose the smallest sufficient medium.
-- Complete `THREE_D_RELEVANCE_CONTRACT.md` before searching for models/video/backgrounds. Reject any major visual whose subject is not directly tied to the business, product, service, process, place, verified data, audience or page purpose. Primary visuals require relevance score 4–5; secondary decoration requires at least 3.
-- Never use an unrelated Ferrari, spaceship, luxury object or other spectacle merely because it looks premium.
-- Build a complete semantic static fallback first; essential content and controls remain DOM.
-- Define static, basic-mobile, balanced and high tiers before heavy downloads.
-- Support reduced motion, save data, low power/memory, unsupported, errors and context loss.
-- Record licence/provenance for every model, texture, HDRI, animation, shader and code example.
-- Do not copy code, media, branding, copy, models, textures, exact layout or choreography from references.
+3D is not decoration. It must explain, inspect, configure, compare, navigate or tell a verified story about a relevant subject.
 
-## Front-end engineering rules
+Use:
 
-- Preserve the target repository's stack and conventions unless a documented reason requires change.
-- Implement design tokens and reusable primitives before duplicating page markup.
-- Use semantic HTML, keyboard support, visible focus, correct labels and accessible names.
-- Implement all relevant states, including loading, empty, error, success, disabled, hover, focus, active, selected and permission states.
-- Use the smallest motion tool that solves the problem.
-- Support `prefers-reduced-motion` and static/no-animation fallbacks.
-- Scroll-reveal content must remain visible when JavaScript or animation initialisation fails.
-- Prevent horizontal overflow and deliberately transform mobile layouts.
+```bash
+python scripts/select-3d-interaction-plan.py business-profile.json --subject-class <class> --goal <goal>
+```
+
+Camera operations are not interchangeable effects: zoom changes FOV; dolly moves camera position; orbit inspects a bounded subject; fly-through is for navigable space; section transitions require meaningful internal structure.
+
+Reject unrelated spectacle, fake product/property geometry, unverified assembly/internal parts, and interaction models that do not fit the subject. Essential content/actions remain semantic DOM with reduced-motion and non-WebGL fallbacks.
+
+## Originality rule
+
+References are for principles, not cloning. Do not copy protected logos, screenshots, source code, proprietary prompts, media, exact layout, exact choreography, branded copy, models or textures unless an applicable license/permission explicitly permits reuse and required notices are retained.
 
 ## Anti-generic UI rule
 
-Reject and revise designs with several unsupported signals: default purple/blue gradients or glass cards; oversized headlines followed by long paragraphs; repeated rounded cards containing similar copy; decorative sparkles, blobs or badges with no meaning; identical section rhythm; excessive pills/radii; generic icons and vague benefits; motion on every object; desktop-only polish; repeated/misleading imagery; or a design that could be relabelled for an unrelated business.
+Reject designs dominated by unsupported purple/blue gradients, glass cards, giant type, excessive pills, repeated rounded cards, generic icons, decorative blobs/sparkles, vague benefits, motion everywhere, repeated imagery, or a layout that could be relabelled for an unrelated business without substantial change.
 
 ## Rendered visual-QA rule
 
-A browser-rendered build is not complete from source inspection alone. After the first render, execute `prompts/VISUAL_QA_AND_REVISION.md`. Capture and inspect desktop, laptop and mobile views, record findings, fix them and recapture.
+Source inspection is not visual QA. After first render, run `prompts/VISUAL_QA_AND_REVISION.md` and inspect desktop, laptop and mobile states.
 
-Copy `quality/VISUAL_QA_OBSERVATIONS.template.json` into the project, complete it from the rendered evidence and run:
+Create `VISUAL_QA_OBSERVATIONS.json` and `DESIGN_CRITIC_OBSERVATIONS.json`, then run:
 
 ```bash
-python scripts/validate-anti-generic-visual.py <site-root> <VISUAL_QA_OBSERVATIONS.json> --json-out <visual-qa-score.json>
+python scripts/validate-anti-generic-visual.py <site-root> VISUAL_QA_OBSERVATIONS.json --json-out visual-qa-score.json
+python scripts/run-design-critic.py vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json --json-out design-critic-result.json
 ```
 
-The minimum passing score is 75. Hard failures include uncleared mobile horizontal overflow, unverified media provenance and an unverified primary action. Do not hand off until the gate passes.
+The anti-generic minimum is 75 and the Design Critic minimum is 80. Revise until both pass. Horizontal overflow, unverified media provenance, unverified primary action and benchmark hard failures cannot be waived by a high numeric score.
 
 ## Localhost Truthfulness Rule
 
-- Never imply that a server in a remote environment is reachable from the user's computer.
-- When operating on the user's machine, start the server there, verify the exact port and HTTP response and keep it alive.
-- When operating remotely, explain the boundary and provide a deployable package, self-contained preview or exact local instructions.
-- Do not fabricate server status, paths, ports, screenshots or validation results.
+Never imply that a remote server is reachable from the user's computer. When operating on the user's machine, start the exact build there and verify the port/HTTP response. When operating remotely, explain that boundary and provide a deployable package, preview or exact local instructions. Never fabricate server status, paths, ports, screenshots or validation results.
 
-## Validation and handoff
+## Handoff
 
 Before claiming completion:
 
 1. Run available lint, typecheck, tests and build.
-2. Run `scripts/validate-content-design.py <target-root>`.
-3. Run the selected domain-pack validator.
-4. Inspect at least 1440×1000, 1280×800 and approximately 390×844; add pack-specific states and viewports.
-5. Verify keyboard flow, focus, forms, long content, mobile navigation, sticky elements, reduced motion, no-animation fallback and meaningful error/success states.
-6. Run the structured anti-generic visual QA gate and retain its score/evidence.
-7. Confirm required planning artifacts exist and no placeholders, copied media, hotlinked assets, TODO-heavy UI or console debugging remain.
-8. Summarise business research, selection scores, section recipes, references, pack, content, assets, states, integrations, checks, screenshots and risks.
-9. Distinguish verified, provisional, private, generated, licensed, integrated and prototype-only content/capabilities.
-10. Give truthful local or deployed access instructions.
+2. Validate the selected domain pack and content rules.
+3. Verify keyboard/focus/forms, long content, mobile navigation, sticky elements, reduced motion and recovery states.
+4. Pass the rendered anti-generic gate and Design Critic.
+5. Confirm planning artifacts exist and no placeholders, TODO-heavy UI, copied media or user-impacting console errors remain.
+6. Distinguish verified, provisional, generated, licensed, integrated and prototype-only content/capabilities.
+7. Provide truthful access instructions and known limitations.
 
 Do not hand off a page that is merely attractive. Hand off a coherent, accurate, original and trustworthy product experience.
