@@ -1,47 +1,17 @@
 {
   "id": "3d-immersive-web",
   "name": "3D & Immersive Web",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "production-guidance",
   "packKind": "capability",
-  "purpose": "Add purposeful, original, accessible and performance-budgeted real-time 3D or spatial interaction.",
-  "productTypes": [
-    "3d-marketing-site",
-    "product-configurator",
-    "spatial-portfolio",
-    "immersive-story",
-    "interactive-showroom",
-    "digital-twin",
-    "3d-map",
-    "ar-preview",
-    "webxr-experience"
-  ],
-  "triggers": [
-    "3d website",
-    "immersive website",
-    "webgl",
-    "webgpu",
-    "three.js",
-    "react three fiber",
-    "r3f",
-    "babylon.js",
-    "spline",
-    "3d configurator",
-    "virtual showroom",
-    "digital twin",
-    "3d portfolio",
-    "scroll camera",
-    "webxr",
-    "interactive 3d"
-  ],
+  "purpose": "Add purposeful, original, accessible and performance-budgeted real-time 3D or spatial interaction, selected according to business relevance, subject structure and user intent.",
+  "productTypes": ["3d-marketing-site","product-configurator","spatial-portfolio","immersive-story","interactive-showroom","digital-twin","3d-map","ar-preview","webxr-experience"],
+  "triggers": ["3d website","immersive website","webgl","webgpu","three.js","react three fiber","r3f","babylon.js","spline","3d configurator","virtual showroom","digital twin","3d portfolio","scroll camera","webxr","interactive 3d"],
   "requiredPrompt": "prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md",
-  "canCombineWith": [
-    "fast-casual-commerce",
-    "celebration-event-microsite",
-    "future product-domain packs"
-  ],
+  "canCombineWith": ["fast-casual-commerce","celebration-event-microsite","fashion-couture","beauty-wellness","hospitality","saas-technology","professional-services","real-estate"],
   "requiredReads": [
     "3d/subject-domain-map.json",
+    "3d/interaction-intent-system.json",
     "packs/3d-immersive-web/semantic-relevance-standard.md",
     "packs/3d-immersive-web/style-families.json",
     "packs/3d-immersive-web/production-themes.json",
@@ -62,16 +32,7 @@
     "3d/references/refs-gallery-3d.json",
     "3d/references/expansion-sources-2026-08-16.json"
   ],
-  "requiredPlanningArtifacts": [
-    "THREE_D_RELEVANCE_CONTRACT.md",
-    "THREE_D_BUILD_CONTRACT.md",
-    "SCENE_ASSET_PLAN.md",
-    "PERFORMANCE_AND_FALLBACK_PLAN.md",
-    "VAULT_SELECTION.md",
-    "BUILD_CONTRACT.md",
-    "CONTENT_PLAN.md",
-    "design-recipe.json"
-  ],
+  "requiredPlanningArtifacts": ["THREE_D_RELEVANCE_CONTRACT.md","THREE_D_BUILD_CONTRACT.md","SCENE_ASSET_PLAN.md","PERFORMANCE_AND_FALLBACK_PLAN.md","VAULT_SELECTION.md","BUILD_CONTRACT.md","CONTENT_PLAN.md","design-recipe.json"],
   "designLibrary": {
     "canonicalStyleFamilies": 21,
     "productionThemes": 8,
@@ -80,22 +41,14 @@
     "concreteCombinableDirections": 300,
     "selectionCommand": "python scripts/select-3d-design-ideas.py"
   },
-  "capabilityTiers": [
-    "static",
-    "basic-mobile",
-    "balanced",
-    "high"
-  ],
-  "mediumDecisionOrder": [
-    "DOM/CSS",
-    "CSS perspective",
-    "image sequence/video",
-    "Rive",
-    "Spline/embed",
-    "model-viewer",
-    "custom WebGL/WebGPU",
-    "WebXR"
-  ],
+  "interactionIntent": {
+    "system": "3d/interaction-intent-system.json",
+    "selectorCommand": "python scripts/select-3d-interaction-plan.py",
+    "rule": "Subject relevance and interaction validity are mandatory before 3D design recipe selection.",
+    "subjectClasses": ["assembled-product","vehicle","architecture-property","garment-textile","food-product","spatial-data","abstract-concept"]
+  },
+  "capabilityTiers": ["static","basic-mobile","balanced","high"],
+  "mediumDecisionOrder": ["DOM/CSS","CSS perspective","authored video","image sequence","Rive","Spline/embed","model-viewer","Three.js/R3F/Babylon","custom WebGL/WebGPU","WebXR"],
   "templateRoot": "packs/3d-immersive-web/templates",
   "codeRoot": "packs/3d-immersive-web/code",
   "sampleDataRoot": "packs/3d-immersive-web/sample-data",
@@ -105,10 +58,5 @@
   "ideaSelectorCommand": "python scripts/select-3d-design-ideas.py",
   "validationCommand": "python scripts/validate-3d-immersive-pack.py",
   "copyPolicy": "Do not copy another site's code, media, branding, copy, models, textures, animation sequence or exact composition.",
-  "semanticRelevanceGate": {
-    "primaryMinimumScore": 4,
-    "secondaryMinimumScore": 3,
-    "rejectUnrelatedAssets": true,
-    "requiredContract": "THREE_D_RELEVANCE_CONTRACT.md"
-  }
+  "semanticRelevanceGate": {"primaryMinimumScore":4,"secondaryMinimumScore":3,"rejectUnrelatedAssets":true,"requiredContract":"THREE_D_RELEVANCE_CONTRACT.md"}
 }
