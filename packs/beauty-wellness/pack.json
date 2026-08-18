@@ -1,0 +1,23 @@
+{
+  "id": "beauty-wellness",
+  "name": "Beauty & Wellness",
+  "version": "1.0.0",
+  "status": "production-guidance",
+  "purpose": "Business-aware design guidance for salons, spas, barbers, beauty studios, skincare clinics, wellness studios and appointment-led personal-care businesses.",
+  "requiredPrompt": "prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md",
+  "extends": ["AGENTS.md","PRD.md","prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md","prompts/VISUAL_QA_AND_REVISION.md"],
+  "productPrinciple": "Services, practitioner trust, treatment suitability, availability and booking are the product. Aesthetic polish must not obscure practical booking information or inflate claims.",
+  "primaryJourneys": ["understand services","compare treatment options","evaluate practitioner and hygiene trust","see verified work/results","understand price guidance and policies","book or enquire through a verified channel"],
+  "requiredPlanningArtifacts": ["BUSINESS_RESEARCH.md","business-profile.json","ASSET_PLAN.md","VAULT_SELECTION.md","BUILD_CONTRACT.md","CONTENT_PLAN.md","BEAUTY_WELLNESS_BUILD_CONTRACT.md","design-recipe.json"],
+  "productionThemes": "packs/beauty-wellness/production-themes.json",
+  "pageBlueprints": "packs/beauty-wellness/page-blueprints.json",
+  "componentManifest": "packs/beauty-wellness/component-manifest.json",
+  "stateVocabulary": "packs/beauty-wellness/state-vocabulary.json",
+  "contentGuide": "packs/beauty-wellness/content-and-booking.md",
+  "assetGuide": "packs/beauty-wellness/photography-and-results-standard.md",
+  "motionGuide": "packs/beauty-wellness/motion-guidance.md",
+  "accessibilityGuide": "packs/beauty-wellness/accessibility-and-responsive.md",
+  "implementationPrompt": "packs/beauty-wellness/implementation-prompt.md",
+  "templates": ["packs/beauty-wellness/templates/BEAUTY_WELLNESS_BUILD_CONTRACT.md"],
+  "rejectConditions": ["design before research gate is ready","invented medical or efficacy claims","before-and-after media without provenance or consent","generated people presented as real clients","hidden booking terms or unclear prices when known","decorative luxury visuals unrelated to service or practitioner","booking UI presented as integrated when it is only a prototype","motion that interferes with service comparison or accessibility"]
+}
