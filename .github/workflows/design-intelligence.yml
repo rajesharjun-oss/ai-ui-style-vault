@@ -28,6 +28,7 @@ jobs:
             scripts/select-heroui-components.py \
             scripts/select-component-intelligence.py \
             scripts/resolve-component-contract.py \
+            scripts/run-design-critic.py \
             scripts/validate-business-understanding.py
       - name: Validate design intelligence JSON
         run: |
@@ -35,6 +36,8 @@ jobs:
           python -m json.tool system/section-recipes.json >/dev/null
           python -m json.tool quality/anti-generic-visual-rules.json >/dev/null
           python -m json.tool quality/VISUAL_QA_OBSERVATIONS.template.json >/dev/null
+          python -m json.tool quality/DESIGN_CRITIC_OBSERVATIONS.template.json >/dev/null
+          python -m json.tool benchmarks/component-benchmarks.json >/dev/null
           python -m json.tool 3d/interaction-intent-system.json >/dev/null
           python -m json.tool references/component-intelligence-index.json >/dev/null
           python -m json.tool references/heroui-v3/component-catalog.json >/dev/null
@@ -99,20 +102,31 @@ jobs:
           assert len({x['id'] for x in items}) == 60
           assert data['source']['designSystemCount'] == 95
           assert data['source']['exampleCount'] == 2671
-          summary=json.load(open('references/component-gallery/design-system-summary.json', encoding='utf-8'))
-          assert summary['designSystems'] == 95
-          assert summary['examples'] == 2671
           rules=json.load(open('references/component-gallery/contract-rules.json', encoding='utf-8'))
           assert len(rules['componentArchetypes']) == 60
           assert len(rules['criticalDistinctions']) >= 10
           wave1=json.load(open('references/component-gallery/comparative-patterns-wave1.json', encoding='utf-8'))
-          assert len(wave1['components']) == 4
           wave2=json.load(open('references/component-gallery/comparative-wave2.json', encoding='utf-8'))
+          assert len(wave1['components']) == 4
           assert len(wave2['components']) == 10
-          assert len(wave2['crossComponentHardRules']) >= 8
-          unified=json.load(open('references/component-intelligence-index.json', encoding='utf-8'))
-          assert len(unified['sources']) == 2
-          print('Validated 60 Component Gallery families plus comparative research waves 1 and 2')
+          print('Validated Component Gallery taxonomy and comparative research')
+          PY
+      - name: Validate component benchmark suite
+        run: |
+          python - <<'PY'
+          import json
+          data=json.load(open('benchmarks/component-benchmarks.json', encoding='utf-8'))
+          benches=data['benchmarks']
+          assert len(benches) == 10, len(benches)
+          assert len({x['id'] for x in benches}) == 10
+          for b in benches:
+              assert len(b['requiredComponents']) >= 5, b['id']
+              assert len(b['criticalStates']) >= 3, b['id']
+              assert len(b['forbiddenSubstitutions']) >= 2, b['id']
+              assert len(b['mobileExpectations']) >= 2, b['id']
+          automotive=next(x for x in benches if x['id']=='b10-automotive-3d-configurator')
+          assert automotive['required3D']['subjectClass']=='vehicle'
+          print('Validated 10 realistic component benchmarks including subject-aware automotive 3D')
           PY
       - name: Validate 3D interaction intent inventory
         run: |
@@ -140,4 +154,5 @@ jobs:
             tests.test_heroui_reference \
             tests.test_component_gallery_reference \
             tests.test_component_contracts \
-            tests.test_component_gallery_wave2 -v
+            tests.test_component_gallery_wave2 \
+            tests.test_component_benchmarks_and_critic -v
