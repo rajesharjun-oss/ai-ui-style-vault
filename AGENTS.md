@@ -122,7 +122,13 @@ For a real business website, also create:
 - `business-profile.json`
 - `ASSET_PLAN.md` when imagery, video, illustration or 3D is involved
 
-Add the selected domain pack's required contract. For 3D or immersive experiences also create `THREE_D_BUILD_CONTRACT.md`, `SCENE_ASSET_PLAN.md` and `PERFORMANCE_AND_FALLBACK_PLAN.md`.
+For transactional food commerce, also create `COMMERCE_BUILD_CONTRACT.md`.
+
+For celebration/event work, also create `EVENT_BUILD_CONTRACT.md`, `COUPLE_CONTENT_PLAN.md` and `ASSET_PLAN.md`.
+
+For 3D or immersive experiences, also create `THREE_D_BUILD_CONTRACT.md`, `SCENE_ASSET_PLAN.md` and `PERFORMANCE_AND_FALLBACK_PLAN.md`.
+
+Add any other selected domain pack's required contract from its `pack.json`.
 
 Contracts must identify product/event, primary users or guests, top tasks, risk and success outcome; page purpose and one primary action per page or state; content-density mode and copy budgets; primary style, scored production theme, section recipes, supporting references, motion model and selected pack; component inventory and required states; responsive, accessibility, performance and reduced-motion requirements; omitted/deferred information; verified facts, assumptions, private information, asset provenance, consent and owner-confirmation items; sources of truth, integrations, prototype-only capabilities and recovery rules.
 
