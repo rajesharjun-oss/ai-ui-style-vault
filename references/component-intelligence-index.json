@@ -1,28 +1,35 @@
 {
   "name": "Vault Component Intelligence Index",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "purpose": "Route component design questions through cross-system semantics first, then to an implementation primitive appropriate to the target stack.",
   "sources": [
     {
       "id": "component-gallery",
-      "role": "cross-system-taxonomy-and-comparison",
+      "role": "cross-system-taxonomy-comparison-and-canonical-contracts",
       "path": "references/component-gallery/component-catalog.json",
+      "contractRules": "references/component-gallery/contract-rules.json",
+      "standard": "references/component-gallery/CANONICAL_COMPONENT_STANDARD.md",
       "coverage": {"canonicalFamilies":60,"designSystems":95,"examples":2671},
-      "selector": "python scripts/select-component-intelligence.py \"<component need>\""
+      "selector": "python scripts/select-component-intelligence.py \"<component need>\"",
+      "contractResolver": "python scripts/resolve-component-contract.py \"<component or alias>\""
     },
     {
       "id": "heroui-v3",
-      "role": "react-implementation-and-accessibility-reference",
+      "role": "react-implementation-accessibility-state-and-testing-reference",
       "path": "references/heroui-v3/component-catalog.json",
-      "coverage": {"componentFamilies":82,"styleVariantFamilies":83,"publicHooks":10,"indexedItems":175},
+      "behaviorContracts": "references/heroui-v3/behavior-contracts.json",
+      "stateContracts": "references/heroui-v3/component-state-contracts.json",
+      "testingPatterns": "references/heroui-v3/storybook-testing-patterns.json",
+      "coverage": {"componentFamilies":82,"styleVariantFamilies":83,"publicHooks":10,"indexedItems":175,"derivedStateContracts":25,"deepBehaviorContracts":27},
       "selector": "python scripts/select-heroui-components.py \"<component need>\""
     }
   ],
   "selectionOrder": [
     "Resolve the canonical component family and aliases using Component Gallery.",
-    "Check whether the user task needs a different semantic component despite visual similarity.",
+    "Resolve the full canonical behavior contract before choosing a visual implementation.",
+    "Check critical distinctions such as button/link, select/menu, tooltip/popover, tabs/segmented-control and spinner/progress-bar.",
     "Define states, keyboard behavior, focus, labels, validation and responsive behavior.",
-    "For React/Tailwind projects, inspect the corresponding HeroUI primitive and its tests/stories when compatible.",
+    "For React/Tailwind projects, inspect the corresponding HeroUI primitive, behavior contract and tests/stories when compatible.",
     "For other stacks, implement the behavior contract with native semantics or an accessible licensed primitive.",
     "Apply the target business/domain visual theme after behavior is correct.",
     "Run rendered QA; never infer correctness from source presence alone."
