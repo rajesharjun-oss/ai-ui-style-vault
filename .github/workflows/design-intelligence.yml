@@ -35,11 +35,13 @@ jobs:
           python -m json.tool quality/anti-generic-visual-rules.json >/dev/null
           python -m json.tool quality/VISUAL_QA_OBSERVATIONS.template.json >/dev/null
           python -m json.tool 3d/interaction-intent-system.json >/dev/null
+          python -m json.tool references/component-intelligence-index.json >/dev/null
           python -m json.tool references/heroui-v3/component-catalog.json >/dev/null
           python -m json.tool references/heroui-v3/hooks-catalog.json >/dev/null
           python -m json.tool references/heroui-v3/style-variant-catalog.json >/dev/null
           python -m json.tool references/heroui-v3/implementation-patterns.json >/dev/null
           python -m json.tool references/heroui-v3/storybook-testing-patterns.json >/dev/null
+          python -m json.tool references/heroui-v3/component-state-contracts.json >/dev/null
           python -m json.tool references/heroui-v3/source-snapshot.json >/dev/null
           python -m json.tool references/component-gallery/component-catalog.json >/dev/null
           python -m json.tool references/component-gallery/design-system-summary.json >/dev/null
@@ -73,9 +75,12 @@ jobs:
           assert styles['variantFamilyCount'] == 83 and len(styles['variantFamilies']) == 83
           snapshot=json.load(open('references/heroui-v3/source-snapshot.json', encoding='utf-8'))
           assert snapshot['captured']['totalIndexedItems'] == 175
+          assert snapshot['captured']['derivedStateContracts'] == 25
           deeper=json.load(open('references/heroui-v3/storybook-testing-patterns.json', encoding='utf-8'))
           assert len(deeper['observedPatterns']) >= 3
-          print('Validated 175 HeroUI indexed primitives plus Storybook/testing behavior patterns')
+          states=json.load(open('references/heroui-v3/component-state-contracts.json', encoding='utf-8'))
+          assert len(states['contracts']) == 25
+          print('Validated 175 HeroUI indexed primitives + 25 derived state contracts + deep testing patterns')
           PY
       - name: Validate Component Gallery inventory
         run: |
@@ -90,6 +95,8 @@ jobs:
           summary=json.load(open('references/component-gallery/design-system-summary.json', encoding='utf-8'))
           assert summary['designSystems'] == 95
           assert summary['examples'] == 2671
+          unified=json.load(open('references/component-intelligence-index.json', encoding='utf-8'))
+          assert len(unified['sources']) == 2
           print('Validated 60 Component Gallery families across 95 design systems / 2,671 examples')
           PY
       - name: Validate 3D interaction intent inventory
