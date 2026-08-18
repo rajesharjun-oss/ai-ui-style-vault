@@ -28,6 +28,8 @@ Do not preload all style references, all Component Gallery examples, all HeroUI 
 
 ## Prompt Discovery and Routing
 
+Use `PROMPTS.md` and `PACKS.md` as the human-readable routing summaries, and `prompts/prompt-index.json` plus `packs/pack-index.json` for machine routing.
+
 Use the most specific route:
 
 - Real business website: `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` + selected product-domain pack.
@@ -38,7 +40,7 @@ Use the most specific route:
 - General product UI: `prompts/SENIOR_PRODUCT_TEAM_PROMPT.md`.
 - After first browser render: `prompts/VISUAL_QA_AND_REVISION.md`.
 
-Use `prompts/prompt-index.json` and `packs/pack-index.json` for machine routing. The most specific route wins.
+The most specific route wins.
 
 ## Business-understanding gate
 
