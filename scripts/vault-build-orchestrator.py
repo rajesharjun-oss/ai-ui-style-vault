@@ -116,7 +116,7 @@ def main():
         "threeD":three_d_plan,
         "requiredArtifacts":["BUSINESS_RESEARCH.md","business-profile.json","VAULT_SELECTION.md","BUILD_CONTRACT.md","CONTENT_PLAN.md","ASSET_PLAN.md","design-recipe.json","VISUAL_QA_OBSERVATIONS.json","VISUAL_QA_REPORT.md"],
         "implementationOrder":["complete pack-specific contract","resolve owner-confirmation gaps that affect claims or conversion","materialize selected visual direction","implement semantic DOM/static fallback","implement sections","add justified motion/3D only after static task works","render required viewports and states","run anti-generic visual QA gate","revise until passing","handoff with evidence"],
-        "handoffGate":{"antiGenericMinimumScore":75,"mustHaveRenderedQA":true,"mustHaveVerifiedPrimaryCTA":true,"mustHaveMobileOverflowClearance":true}
+        "handoffGate":{"antiGenericMinimumScore":75,"mustHaveRenderedQA":True,"mustHaveVerifiedPrimaryCTA":True,"mustHaveMobileOverflowClearance":True}
     }
 
     output = Path(args.output)
