@@ -48,6 +48,7 @@ jobs:
           python -m json.tool references/component-gallery/component-catalog.json >/dev/null
           python -m json.tool references/component-gallery/design-system-summary.json >/dev/null
           python -m json.tool references/component-gallery/contract-rules.json >/dev/null
+          python -m json.tool references/component-gallery/comparative-patterns-wave1.json >/dev/null
       - name: Validate section recipe inventory
         run: |
           python - <<'PY'
@@ -103,9 +104,11 @@ jobs:
           rules=json.load(open('references/component-gallery/contract-rules.json', encoding='utf-8'))
           assert len(rules['componentArchetypes']) == 60
           assert len(rules['criticalDistinctions']) >= 10
+          wave1=json.load(open('references/component-gallery/comparative-patterns-wave1.json', encoding='utf-8'))
+          assert len(wave1['components']) == 4
           unified=json.load(open('references/component-intelligence-index.json', encoding='utf-8'))
           assert len(unified['sources']) == 2
-          print('Validated 60 Component Gallery families, canonical contract rules and cross-system metadata')
+          print('Validated 60 Component Gallery families, canonical contracts and comparative research wave 1')
           PY
       - name: Validate 3D interaction intent inventory
         run: |
