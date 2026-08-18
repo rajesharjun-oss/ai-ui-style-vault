@@ -1,0 +1,23 @@
+{
+  "id": "saas-technology",
+  "name": "SaaS & Technology",
+  "version": "1.0.0",
+  "status": "production-guidance",
+  "purpose": "Product-aware guidance for SaaS, software platforms, AI products, developer tools, workflow systems and B2B/B2C technology products.",
+  "requiredPrompt": "prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md",
+  "extends": ["AGENTS.md","PRD.md","prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md","prompts/VISUAL_QA_AND_REVISION.md"],
+  "productPrinciple": "The product workflow, user outcome, evidence, pricing/access model and conversion path are the product. Abstract technology aesthetics must never substitute for showing what the software actually does.",
+  "primaryJourneys": ["understand problem and product","see product workflow","evaluate fit and proof","understand pricing or sales path","assess security/integration claims","start trial, request demo or contact sales"],
+  "requiredPlanningArtifacts": ["BUSINESS_RESEARCH.md","business-profile.json","ASSET_PLAN.md","VAULT_SELECTION.md","BUILD_CONTRACT.md","CONTENT_PLAN.md","SAAS_BUILD_CONTRACT.md","design-recipe.json"],
+  "productionThemes": "packs/saas-technology/production-themes.json",
+  "pageBlueprints": "packs/saas-technology/page-blueprints.json",
+  "componentManifest": "packs/saas-technology/component-manifest.json",
+  "stateVocabulary": "packs/saas-technology/state-vocabulary.json",
+  "contentGuide": "packs/saas-technology/content-and-product-proof.md",
+  "assetGuide": "packs/saas-technology/product-media-standard.md",
+  "motionGuide": "packs/saas-technology/motion-guidance.md",
+  "accessibilityGuide": "packs/saas-technology/accessibility-and-responsive.md",
+  "implementationPrompt": "packs/saas-technology/implementation-prompt.md",
+  "templates": ["packs/saas-technology/templates/SAAS_BUILD_CONTRACT.md"],
+  "rejectConditions": ["design before research gate is ready","generic AI gradients and floating orbs with no product meaning","fake dashboards or fabricated product screenshots","invented integrations, customers, uptime, security certifications or metrics","pricing or trial claims not verified","marketing site that never demonstrates the product workflow","motion-heavy hero that delays understanding","prototype functionality presented as a real integration"]
+}

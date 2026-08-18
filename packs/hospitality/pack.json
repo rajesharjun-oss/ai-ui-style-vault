@@ -1,0 +1,23 @@
+{
+  "id": "hospitality",
+  "name": "Hospitality",
+  "version": "1.0.0",
+  "status": "production-guidance",
+  "purpose": "Design and engineering guidance for hotels, resorts, serviced apartments, guest houses, lodges and accommodation-led hospitality businesses.",
+  "requiredPrompt": "prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md",
+  "extends": ["AGENTS.md","PRD.md","prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md","prompts/VISUAL_QA_AND_REVISION.md"],
+  "productPrinciple": "Rooms, location, amenities, availability, policies and booking confidence are the product. Atmosphere supports the decision but cannot replace practical stay information.",
+  "primaryJourneys": ["understand property and location","compare room types","inspect real property media","check amenities and policies","understand rate/availability status","book or enquire through a verified channel"],
+  "requiredPlanningArtifacts": ["BUSINESS_RESEARCH.md","business-profile.json","ASSET_PLAN.md","VAULT_SELECTION.md","BUILD_CONTRACT.md","CONTENT_PLAN.md","HOSPITALITY_BUILD_CONTRACT.md","design-recipe.json"],
+  "productionThemes": "packs/hospitality/production-themes.json",
+  "pageBlueprints": "packs/hospitality/page-blueprints.json",
+  "componentManifest": "packs/hospitality/component-manifest.json",
+  "stateVocabulary": "packs/hospitality/state-vocabulary.json",
+  "contentGuide": "packs/hospitality/content-and-booking-standard.md",
+  "assetGuide": "packs/hospitality/property-media-standard.md",
+  "motionGuide": "packs/hospitality/motion-guidance.md",
+  "accessibilityGuide": "packs/hospitality/accessibility-and-responsive.md",
+  "implementationPrompt": "packs/hospitality/implementation-prompt.md",
+  "templates": ["packs/hospitality/templates/HOSPITALITY_BUILD_CONTRACT.md"],
+  "rejectConditions": ["design before research gate is ready","invented room rates or availability","stock or generated rooms presented as the property","booking widget presented as real without integration","amenities or policies inferred from category","image-heavy home page that hides rooms/location/booking","cinematic motion that delays booking or room inspection","desktop-only gallery or booking flow"]
+}
