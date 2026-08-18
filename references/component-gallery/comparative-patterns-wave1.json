@@ -1,0 +1,57 @@
+{
+  "name": "Component Gallery Comparative Patterns — Wave 1",
+  "version": "1.0.0",
+  "observedDate": "2026-08-18",
+  "purpose": "Use cross-system prevalence and documentation signals to prioritize which behaviors deserve deeper Vault contracts. Counts are research metadata, not reuse permission.",
+  "components": [
+    {
+      "id": "modal",
+      "examples": 82,
+      "techSignals": {"React":49,"Web Components":17,"Sass":14,"Vue":10,"CSS-in-JS":9,"Mobile":7,"CSS":7,"Tailwind CSS":5},
+      "featureSignals": {"Code examples":64,"Open source":64,"Usage guidelines":48,"Accessibility":25,"Tone of voice":18,"Accessibility issues":5},
+      "highValueSystemsObserved": ["Ariakit","Atlassian Design System","Carbon Design System","Cauldron","Fluent UI","Headless UI","Helsinki Design System","HeroUI","Material Design","Paste","Polaris","Radix Primitives"],
+      "vaultTakeaways": [
+        "Modal is a mature cross-system pattern with unusually strong accessibility and usage-guidance coverage.",
+        "Treat alert/confirm/input dialogs as task-specific dialog variants rather than visual skins.",
+        "Focus management, dismissal, title/description semantics and action priority belong in the canonical contract."
+      ]
+    },
+    {
+      "id": "select",
+      "examples": 82,
+      "techSignals": {"React":51,"Sass":17,"Web Components":14,"Vue":12,"Angular":9,"CSS-in-JS":9,"CSS":8,"HTML":5,"Tailwind CSS":4},
+      "featureSignals": {"Code examples":71,"Open source":63,"Usage guidelines":47,"Accessibility":21,"Tone of voice":17,"Accessibility issues":3,"Research":2},
+      "highValueSystemsObserved": ["A11Y Style Guide","Ariakit","Atlassian Design System","Carbon Design System","Cauldron"],
+      "vaultTakeaways": [
+        "Select is a form-value selection pattern and must remain distinct from action/navigation dropdown menus.",
+        "Native and custom selects may coexist; custom behavior must justify its complexity and preserve keyboard/value semantics.",
+        "Filtering belongs to combobox/autocomplete rather than being silently added to every select."
+      ]
+    },
+    {
+      "id": "table",
+      "examples": 74,
+      "techSignals": {"React":44,"Sass":14,"Web Components":13,"CSS-in-JS":8,"Vue":8,"Angular":7,"CSS":6,"Tailwind CSS":5},
+      "featureSignals": {"Code examples":66,"Open source":55,"Usage guidelines":49,"Accessibility":16,"Tone of voice":16,"Accessibility issues":4,"Research":2},
+      "highValueSystemsObserved": ["A11Y Style Guide","Atlassian Design System","Base Web","Carbon Design System"],
+      "vaultTakeaways": [
+        "Distinguish semantic tables from application grids; sorting/selection/filtering change the interaction contract.",
+        "Responsive handling is a design decision: horizontal scroll, priority columns, detail disclosure or alternate mobile view must be explicit.",
+        "Do not replace dense comparable data with card soup solely for mobile aesthetics."
+      ]
+    },
+    {
+      "id": "file-upload",
+      "examples": 32,
+      "techSignals": {"React":15,"Sass":8,"CSS-in-JS":5,"Vanilla JS":3,"Vue":3,"Web Components":3,"Nunjucks":3,"HTML":2,"Mobile":2,"Tailwind CSS":1},
+      "featureSignals": {"Open source":25,"Code examples":21,"Usage guidelines":16,"Tone of voice":9,"Accessibility":5,"Accessibility issues":4,"Research":1},
+      "highValueSystemsObserved": ["Base Web","Carbon Design System","Chakra UI","Elisa Design System","Elastic UI framework"],
+      "vaultTakeaways": [
+        "Dropzone is an enhancement, not the only upload mechanism; a keyboard-operable file input path remains required.",
+        "The contract must include selected-file state, validation, upload progress, failure/retry, removal and size/type constraints.",
+        "Do not imply successful upload until the server has accepted the file."
+      ]
+    }
+  ],
+  "nextWavePriorities": ["combobox","datepicker","dropdown-menu","tabs","toast","tooltip","popover","tree-view","carousel","navigation"]
+}
