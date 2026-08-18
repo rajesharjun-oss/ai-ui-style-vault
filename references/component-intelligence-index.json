@@ -1,6 +1,6 @@
 {
   "name": "Vault Component Intelligence Index",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "purpose": "Route component design questions through cross-system semantics first, then to an implementation primitive appropriate to the target stack.",
   "sources": [
     {
@@ -9,7 +9,16 @@
       "path": "references/component-gallery/component-catalog.json",
       "contractRules": "references/component-gallery/contract-rules.json",
       "standard": "references/component-gallery/CANONICAL_COMPONENT_STANDARD.md",
-      "coverage": {"canonicalFamilies":60,"designSystems":95,"examples":2671},
+      "comparativeResearch": [
+        "references/component-gallery/comparative-patterns-wave1.json",
+        "references/component-gallery/comparative-wave2.json"
+      ],
+      "coverage": {
+        "canonicalFamilies": 60,
+        "designSystems": 95,
+        "examples": 2671,
+        "deepComparativeFamilies": 14
+      },
       "selector": "python scripts/select-component-intelligence.py \"<component need>\"",
       "contractResolver": "python scripts/resolve-component-contract.py \"<component or alias>\""
     },
@@ -20,13 +29,21 @@
       "behaviorContracts": "references/heroui-v3/behavior-contracts.json",
       "stateContracts": "references/heroui-v3/component-state-contracts.json",
       "testingPatterns": "references/heroui-v3/storybook-testing-patterns.json",
-      "coverage": {"componentFamilies":82,"styleVariantFamilies":83,"publicHooks":10,"indexedItems":175,"derivedStateContracts":25,"deepBehaviorContracts":27},
+      "coverage": {
+        "componentFamilies": 82,
+        "styleVariantFamilies": 83,
+        "publicHooks": 10,
+        "indexedItems": 175,
+        "derivedStateContracts": 25,
+        "deepBehaviorContracts": 27
+      },
       "selector": "python scripts/select-heroui-components.py \"<component need>\""
     }
   ],
   "selectionOrder": [
     "Resolve the canonical component family and aliases using Component Gallery.",
     "Resolve the full canonical behavior contract before choosing a visual implementation.",
+    "Read comparative research when the component has a deep-research record, especially for high-risk interactive patterns.",
     "Check critical distinctions such as button/link, select/menu, tooltip/popover, tabs/segmented-control and spinner/progress-bar.",
     "Define states, keyboard behavior, focus, labels, validation and responsive behavior.",
     "For React/Tailwind projects, inspect the corresponding HeroUI primitive, behavior contract and tests/stories when compatible.",
