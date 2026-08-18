@@ -1,0 +1,50 @@
+name: Design intelligence
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-design-intelligence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile design intelligence tools
+        run: |
+          python -m py_compile \
+            scripts/score-design-selection.py \
+            scripts/select-section-recipes.py \
+            scripts/validate-anti-generic-visual.py \
+            scripts/plan-vault-build.py
+      - name: Validate design intelligence JSON
+        run: |
+          python -m json.tool system/design-selection-scoring.json >/dev/null
+          python -m json.tool system/section-recipes.json >/dev/null
+          python -m json.tool quality/anti-generic-visual-rules.json >/dev/null
+          python -m json.tool quality/VISUAL_QA_OBSERVATIONS.template.json >/dev/null
+      - name: Validate section recipe inventory
+        run: |
+          python - <<'PY'
+          import json
+          data=json.load(open('system/section-recipes.json', encoding='utf-8'))
+          recipes=data['recipes']
+          assert len(recipes) == 40, f'expected 40 section recipes, got {len(recipes)}'
+          sections={r['section'] for r in recipes}
+          expected={'hero','proof','services','gallery','process','pricing','team','faq','cta','footer'}
+          assert sections == expected, (sections, expected)
+          ids=[r['id'] for r in recipes]
+          assert len(ids) == len(set(ids)), 'duplicate section recipe ids'
+          for r in recipes:
+              assert r.get('composition') and r.get('requires') is not None and r.get('avoid') is not None
+          print('Validated 40 section recipes across 10 section families')
+          PY
+      - name: Run design intelligence tests
+        run: |
+          python -m unittest tests.test_design_selection_engine tests.test_anti_generic_visual_gate -v
