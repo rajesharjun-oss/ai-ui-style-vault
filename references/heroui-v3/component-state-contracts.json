@@ -1,0 +1,32 @@
+{
+  "name": "HeroUI-Derived Component State Contracts",
+  "version": "1.0.0",
+  "policy": "Derived behavioral contracts informed by HeroUI v3 component structure, tests and React Aria semantics. These are vault guidance, not copied source.",
+  "contracts": [
+    {"component":"button","states":["default","hover","pressed","focus-visible","disabled","loading"],"must":["accessible name","Enter/Space activation","disabled blocks press","focus visible"]},
+    {"component":"accordion","states":["collapsed","expanded","focus-visible","disabled"],"must":["button-like disclosure trigger","aria-expanded state","keyboard operability","content relationship"]},
+    {"component":"alert-dialog","states":["closed","opening","open","closing"],"must":["destructive purpose is explicit","initial focus is deliberate","escape/dismiss policy","focus returns after close"]},
+    {"component":"autocomplete","states":["idle","focused","filtering","open","option-focused","selected","empty","invalid","disabled"],"must":["input label","keyboard option navigation","selection announcement","empty result handling"]},
+    {"component":"checkbox","states":["unchecked","checked","indeterminate","focus-visible","disabled","invalid"],"must":["persistent label","Space toggles","group semantics when grouped"]},
+    {"component":"combo-box","states":["closed","open","filtering","option-focused","selected","empty","invalid","disabled"],"must":["editable input semantics","popup relationship","keyboard navigation","clear selection behavior"]},
+    {"component":"date-picker","states":["closed","open","focused","date-selected","invalid","disabled"],"must":["locale-aware date semantics","keyboard calendar navigation","validation messaging","clear selected date"]},
+    {"component":"date-range-picker","states":["closed","open","start-selected","range-preview","range-selected","invalid","disabled"],"must":["range endpoints are understandable","keyboard date navigation","invalid range recovery"]},
+    {"component":"drawer","states":["closed","opening","open","closing"],"must":["focus containment when modal","dismiss policy","focus return","mobile-safe viewport behavior"]},
+    {"component":"dropdown-menu","states":["closed","open","item-focused","item-disabled"],"must":["command/navigation semantics","arrow-key navigation","escape closes","focus returns to trigger"]},
+    {"component":"form","states":["pristine","editing","submitting","success","invalid","server-error"],"must":["persistent labels","field-level errors","submission status","recovery path"]},
+    {"component":"input","states":["empty","filled","focused","invalid","disabled","readonly"],"must":["accessible label","description/error relationship","visible focus","autofill/long-content resilience"]},
+    {"component":"list-box","states":["idle","option-focused","selected","multi-selected","empty","disabled"],"must":["selection model is explicit","keyboard navigation","selected state announced"]},
+    {"component":"menu","states":["closed","open","item-focused","item-disabled"],"must":["menu item roles","arrow-key navigation","escape behavior","no form-value misuse"]},
+    {"component":"modal","states":["closed","opening","open","closing"],"must":["dialog labeling","focus containment","escape/dismiss policy","scroll strategy","focus return"]},
+    {"component":"number-field","states":["empty","valid","invalid","focused","disabled","min","max"],"must":["numeric constraints","increment/decrement keyboard support","formatted value remains understandable"]},
+    {"component":"pagination","states":["first-page","middle-page","last-page","focus-visible","disabled-control"],"must":["current page announced","previous/next disabled correctly","large page counts handled"]},
+    {"component":"popover","states":["closed","open","focus-within","dismissed"],"must":["anchored trigger relationship","interactive focus behavior","outside/escape dismissal policy"]},
+    {"component":"select","states":["closed","open","option-focused","selected","invalid","disabled"],"must":["form-value semantics","keyboard option navigation","current value announced","label and validation"]},
+    {"component":"slider","states":["idle","focused","dragging","min","max","disabled"],"must":["keyboard increments","numeric value announcement","touch target","visible current value when needed"]},
+    {"component":"switch","states":["off","on","focus-visible","disabled"],"must":["binary setting label","Space/click toggles","state announced"]},
+    {"component":"table","states":["ready","loading","empty","error","row-selected","sorting","sorted-ascending","sorted-descending"],"must":["accessible grid/table label","row/column semantics","sorting state","selection state","mobile overflow strategy"]},
+    {"component":"tabs","states":["tab-idle","tab-focused","tab-selected","panel-active","disabled"],"must":["tablist/tab/tabpanel relationships","arrow-key navigation","selected tab is clear"]},
+    {"component":"toast","states":["queued","visible","dismissing","dismissed"],"must":["priority appropriate to message","does not steal focus unnecessarily","critical content has persistent alternative"]},
+    {"component":"tooltip","states":["hidden","visible","focus-triggered","hover-triggered"],"must":["supplementary content only","keyboard discoverability","does not contain essential controls"]}
+  ]
+}
