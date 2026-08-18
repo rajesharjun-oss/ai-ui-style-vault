@@ -1,0 +1,67 @@
+{
+  "name": "AI UI Style Vault Runtime Index",
+  "version": "1.0.0",
+  "purpose": "Keep agent context small by routing each task to only the files needed for the current stage.",
+  "entry": {
+    "humanAndAgentStart": "AI_START_HERE.md",
+    "canonicalRules": "AGENTS.md",
+    "masterPlanner": "scripts/vault-build-orchestrator.py",
+    "componentResolver": "scripts/resolve-component-contract.py",
+    "designCritic": "scripts/run-design-critic.py",
+    "antiGenericGate": "scripts/validate-anti-generic-visual.py"
+  },
+  "stages": {
+    "route": {
+      "read": ["AI_START_HERE.md", "AGENTS.md", "prompts/prompt-index.json", "packs/pack-index.json"],
+      "avoidPreloading": ["catalog.json", "screen-catalog.json", "motion/motion-catalog.json", "3d/ai-agent-recipes.json", "all Component Gallery examples", "all HeroUI references"]
+    },
+    "research": {
+      "when": "real business, brand, organisation, venue, product or service",
+      "read": ["guides/BUSINESS_RESEARCH_GATE.md", "research/business-profile.schema.json"],
+      "produce": ["BUSINESS_RESEARCH.md", "business-profile.json"],
+      "validate": "python scripts/validate-business-understanding.py business-profile.json --json"
+    },
+    "plan": {
+      "command": "python scripts/vault-build-orchestrator.py business-profile.json --output vault-build-plan.json",
+      "readAfter": ["vault-build-plan.json", "selected prompt", "selected pack/pack.json"],
+      "rule": "Only expand into selected requiredReads and recipes."
+    },
+    "components": {
+      "when": "interaction or component semantics are non-trivial",
+      "command": "python scripts/resolve-component-contract.py \"<component need>\"",
+      "secondary": "python scripts/select-heroui-components.py \"<component need>\"",
+      "read": ["returned canonical contract", "returned HeroUI records when stack-compatible"]
+    },
+    "3d": {
+      "when": "3D is justified by subject and user goal",
+      "read": ["prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md", "3d/interaction-intent-system.json", "packs/3d-immersive-web/pack.json"],
+      "command": "python scripts/select-3d-interaction-plan.py business-profile.json --subject-class <class> --goal <goal>",
+      "rule": "Do not load the full 478-recipe registry unless selection needs it."
+    },
+    "qa": {
+      "read": ["prompts/VISUAL_QA_AND_REVISION.md"],
+      "produce": ["VISUAL_QA_OBSERVATIONS.json", "DESIGN_CRITIC_OBSERVATIONS.json", "VISUAL_QA_REPORT.md"],
+      "commands": [
+        "python scripts/validate-anti-generic-visual.py <site-root> VISUAL_QA_OBSERVATIONS.json --json-out visual-qa-score.json",
+        "python scripts/run-design-critic.py vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json --json-out design-critic-result.json"
+      ]
+    }
+  },
+  "taskRoutes": {
+    "businessWebsite": ["prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md", "selected product-domain pack"],
+    "redesign": ["prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md", "selected product-domain pack"],
+    "restaurant": ["prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md", "packs/fast-casual-commerce/"],
+    "celebration": ["prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md", "packs/celebration-event-microsite/"],
+    "3d": ["prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md", "packs/3d-immersive-web/", "matching product-domain pack"],
+    "productUI": ["prompts/SENIOR_PRODUCT_TEAM_PROMPT.md", "component intelligence as needed"]
+  },
+  "contextBudgetRules": [
+    "Read indexes before catalogs.",
+    "Search/select before deep-reading references.",
+    "Never preload all 478 3D recipes.",
+    "Never preload all 2,671 Component Gallery examples.",
+    "Never preload all captured styles or screen references.",
+    "Prefer a generated plan containing file pointers over duplicated prose.",
+    "A selected pack's requiredReads are authoritative for that task; unrelated packs stay out of context."
+  ]
+}
