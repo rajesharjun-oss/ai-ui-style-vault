@@ -1,0 +1,50 @@
+{
+  "name": "Vault Canonical Component Contract Rules",
+  "version": "1.0.0",
+  "source": {
+    "taxonomy": "https://component.gallery/components/",
+    "observedDate": "2026-08-18",
+    "componentFamilies": 60,
+    "designSystems": 95,
+    "examples": 2671,
+    "policy": "Use Component Gallery as a cross-system taxonomy and comparison source. Preserve semantics and behavior; do not copy screenshots, proprietary brand styling, or third-party code without a compatible license."
+  },
+  "universalRequirements": [
+    "Use the native semantic element or an accessibility-equivalent primitive whenever one exists.",
+    "Define default, hover/focus, disabled and error/loading states when they are meaningful to the component.",
+    "Keyboard behavior must follow the component's interaction model rather than visual appearance.",
+    "Do not hide required labels, instructions, status or errors behind hover-only interaction.",
+    "Touch targets and spacing must remain usable on mobile.",
+    "The component must survive realistic long labels, translated content and 200% zoom.",
+    "Do not choose a component merely because another design system uses it; choose it because it matches the user task."
+  ],
+  "archetypes": {
+    "action": {"states":["default","hover","focus-visible","pressed","disabled"],"keyboard":["Tab to focus","Enter/Space activate when button semantics apply"],"a11y":["accessible name","visible focus","disabled behavior blocks action"],"responsive":["44px-class touch target where practical","label must not clip"],"avoid":["using a button for navigation","icon-only action without accessible name"]},
+    "navigation": {"states":["default","current","hover","focus-visible","disabled-if-applicable"],"keyboard":["Tab through links/controls","arrow keys only where the pattern defines composite navigation"],"a11y":["landmark or list semantics where appropriate","current location/state announced"],"responsive":["mobile navigation remains reachable without horizontal overflow"],"avoid":["using action controls as links","hiding destination context"]},
+    "selection": {"states":["default","hover","focus-visible","selected","disabled","invalid"],"keyboard":["Tab enters control","arrow keys move among composite options where defined","Space/Enter selects as appropriate"],"a11y":["label and group name","selected state announced","validation associated with control"],"responsive":["options remain operable by touch","popup/list does not overflow viewport"],"avoid":["using menu semantics for form-value selection","visual-only selected state"]},
+    "text-input": {"states":["empty","filled","focus-visible","disabled","readonly","invalid","validating"],"keyboard":["native text editing","Tab moves focus","Enter behavior defined by form context"],"a11y":["persistent label","description/error association","autocomplete/inputmode when appropriate"],"responsive":["no text clipping at zoom","mobile keyboard type matches input"],"avoid":["placeholder as sole label","error communicated only by color"]},
+    "overlay": {"states":["closed","opening","open","closing","disabled-trigger-if-applicable"],"keyboard":["trigger keyboard-operable","Escape dismisses when dismissable","focus is moved/trapped/returned according to overlay type"],"a11y":["correct dialog/menu/popover semantics","label/title where required","background interaction policy explicit"],"responsive":["fit within viewport","mobile placement intentionally changes when needed"],"avoid":["generic div overlay without focus management","modal for non-blocking information"]},
+    "feedback": {"states":["info","success","warning","error","loading-if-applicable","dismissed-if-dismissible"],"keyboard":["dismiss action keyboard-operable when present"],"a11y":["live-region/alert behavior proportionate to urgency","message remains understandable without icon/color"],"responsive":["message wraps without hiding actions"],"avoid":["toast for critical information that must persist","alert that steals focus unnecessarily"]},
+    "disclosure": {"states":["collapsed","expanded","hover","focus-visible","disabled-if-applicable"],"keyboard":["trigger uses button semantics","Enter/Space toggle","focus order remains logical"],"a11y":["expanded state exposed","trigger identifies controlled region when useful"],"responsive":["expanded content reflows without horizontal overflow"],"avoid":["using disclosure for hierarchical navigation that needs tree semantics","animation that delays access to content"]},
+    "data": {"states":["loading","ready","empty","error","selected-if-applicable","sorted-if-applicable"],"keyboard":["navigation/selection model documented","sorting and row actions keyboard-operable"],"a11y":["correct table/grid/list semantics","headers/labels associated","selection/sort state announced"],"responsive":["explicit mobile strategy: scroll, priority columns, stacked detail or alternate view"],"avoid":["turning every dataset into cards","visual table without semantic headers"]},
+    "progress": {"states":["idle","active","complete","error-if-task-can-fail"],"keyboard":[],"a11y":["determinate value exposed when known","indeterminate status not represented as fake percentage"],"responsive":["label/value remain readable"],"avoid":["spinner when known progress exists","fake progress values"]},
+    "media": {"states":["loading","ready","error","fallback"],"keyboard":["media controls keyboard-operable when interactive"],"a11y":["alt/caption/transcript appropriate to content","decorative media excluded from accessibility tree"],"responsive":["aspect ratio and focal crop planned","controls remain reachable on mobile"],"avoid":["important text baked into images","autoplay audio","media without provenance"]},
+    "content": {"states":["default"],"keyboard":[],"a11y":["semantic structure matches meaning"],"responsive":["content reflows at zoom and narrow widths"],"avoid":["using generic containers where semantic elements communicate meaning"]},
+    "layout": {"states":["default"],"keyboard":[],"a11y":["layout does not alter logical reading/focus order"],"responsive":["spacing and direction adapt intentionally"],"avoid":["visual ordering that contradicts DOM reading order"]}
+  },
+  "componentArchetypes": {
+    "accordion":"disclosure","alert":"feedback","avatar":"media","badge":"content","breadcrumbs":"navigation","button":"action","button-group":"action","card":"content","carousel":"media","checkbox":"selection","color-picker":"selection","combobox":"selection","date-input":"text-input","datepicker":"selection","drawer":"overlay","dropdown-menu":"overlay","empty-state":"content","fieldset":"content","file":"content","file-upload":"text-input","footer":"navigation","form":"text-input","header":"navigation","heading":"content","hero":"content","icon":"media","image":"media","label":"content","link":"navigation","list":"content","modal":"overlay","navigation":"navigation","pagination":"navigation","popover":"overlay","progress-bar":"progress","progress-indicator":"progress","quote":"content","radio-button":"selection","rating":"selection","rich-text-editor":"text-input","search-input":"text-input","segmented-control":"selection","select":"selection","separator":"content","skeleton":"progress","skip-link":"navigation","slider":"selection","spinner":"progress","stack":"layout","stepper":"selection","table":"data","tabs":"selection","text-input":"text-input","textarea":"text-input","toast":"feedback","toggle":"selection","tooltip":"overlay","tree-view":"navigation","video":"media","visually-hidden":"content"
+  },
+  "criticalDistinctions": {
+    "button-vs-link":"Button performs an action in the current context; Link navigates to another resource/location.",
+    "select-vs-dropdown-menu":"Select chooses a form value; Dropdown menu exposes actions or navigation and is not a form-value picker.",
+    "tooltip-vs-popover":"Tooltip is concise supplementary information and normally non-interactive; Popover can contain interactive contextual content.",
+    "alert-vs-toast":"Alert is persistent/prominent status in context; Toast is transient layered feedback and must not carry information the user cannot afford to miss.",
+    "tabs-vs-segmented-control":"Tabs switch among related content panels with tab semantics; Segmented control switches a small set of modes/options and may behave more like a radio/toggle group.",
+    "spinner-vs-progress-bar":"Spinner communicates indeterminate work; Progress bar communicates measurable progress.",
+    "accordion-vs-tree-view":"Accordion progressively discloses content sections; Tree view represents navigable nested hierarchy.",
+    "modal-vs-popover":"Modal blocks/interrupts the underlying context and requires focus management; Popover is anchored contextual content and is usually non-modal.",
+    "checkbox-vs-radio":"Checkbox permits independent/multiple choices; Radio selects exactly one option from a set.",
+    "combobox-vs-select":"Combobox includes text input/filtering and may permit free-form entry depending on implementation; Select chooses from predefined values."
+  }
+}
