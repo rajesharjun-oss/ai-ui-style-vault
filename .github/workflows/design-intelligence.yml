@@ -26,6 +26,7 @@ jobs:
             scripts/vault-build-orchestrator.py \
             scripts/select-3d-interaction-plan.py \
             scripts/select-heroui-components.py \
+            scripts/select-component-intelligence.py \
             scripts/validate-business-understanding.py
       - name: Validate design intelligence JSON
         run: |
@@ -38,7 +39,10 @@ jobs:
           python -m json.tool references/heroui-v3/hooks-catalog.json >/dev/null
           python -m json.tool references/heroui-v3/style-variant-catalog.json >/dev/null
           python -m json.tool references/heroui-v3/implementation-patterns.json >/dev/null
+          python -m json.tool references/heroui-v3/storybook-testing-patterns.json >/dev/null
           python -m json.tool references/heroui-v3/source-snapshot.json >/dev/null
+          python -m json.tool references/component-gallery/component-catalog.json >/dev/null
+          python -m json.tool references/component-gallery/design-system-summary.json >/dev/null
       - name: Validate section recipe inventory
         run: |
           python - <<'PY'
@@ -69,7 +73,24 @@ jobs:
           assert styles['variantFamilyCount'] == 83 and len(styles['variantFamilies']) == 83
           snapshot=json.load(open('references/heroui-v3/source-snapshot.json', encoding='utf-8'))
           assert snapshot['captured']['totalIndexedItems'] == 175
-          print('Validated 82 HeroUI components, 83 style variants, 10 hooks = 175 indexed items')
+          deeper=json.load(open('references/heroui-v3/storybook-testing-patterns.json', encoding='utf-8'))
+          assert len(deeper['observedPatterns']) >= 3
+          print('Validated 175 HeroUI indexed primitives plus Storybook/testing behavior patterns')
+          PY
+      - name: Validate Component Gallery inventory
+        run: |
+          python - <<'PY'
+          import json
+          data=json.load(open('references/component-gallery/component-catalog.json', encoding='utf-8'))
+          items=data['components']
+          assert len(items) == 60, f'expected 60 Component Gallery families, got {len(items)}'
+          assert len({x['id'] for x in items}) == 60
+          assert data['source']['designSystemCount'] == 95
+          assert data['source']['exampleCount'] == 2671
+          summary=json.load(open('references/component-gallery/design-system-summary.json', encoding='utf-8'))
+          assert summary['designSystems'] == 95
+          assert summary['examples'] == 2671
+          print('Validated 60 Component Gallery families across 95 design systems / 2,671 examples')
           PY
       - name: Validate 3D interaction intent inventory
         run: |
@@ -94,4 +115,5 @@ jobs:
             tests.test_design_selection_engine \
             tests.test_anti_generic_visual_gate \
             tests.test_3d_interaction_intent \
-            tests.test_heroui_reference -v
+            tests.test_heroui_reference \
+            tests.test_component_gallery_reference -v
