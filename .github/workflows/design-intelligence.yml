@@ -25,6 +25,7 @@ jobs:
             scripts/plan-vault-build.py \
             scripts/vault-build-orchestrator.py \
             scripts/select-3d-interaction-plan.py \
+            scripts/select-heroui-components.py \
             scripts/validate-business-understanding.py
       - name: Validate design intelligence JSON
         run: |
@@ -33,6 +34,8 @@ jobs:
           python -m json.tool quality/anti-generic-visual-rules.json >/dev/null
           python -m json.tool quality/VISUAL_QA_OBSERVATIONS.template.json >/dev/null
           python -m json.tool 3d/interaction-intent-system.json >/dev/null
+          python -m json.tool references/heroui-v3/component-catalog.json >/dev/null
+          python -m json.tool references/heroui-v3/hooks-catalog.json >/dev/null
       - name: Validate section recipe inventory
         run: |
           python - <<'PY'
@@ -48,6 +51,18 @@ jobs:
           for r in recipes:
               assert r.get('composition') and r.get('requires') is not None and r.get('avoid') is not None
           print('Validated 40 section recipes across 10 section families')
+          PY
+      - name: Validate HeroUI reference inventory
+        run: |
+          python - <<'PY'
+          import json
+          data=json.load(open('references/heroui-v3/component-catalog.json', encoding='utf-8'))
+          names=[name for values in data['categories'].values() for name in values]
+          assert len(names) == 82, f'expected 82 HeroUI component families, got {len(names)}'
+          assert len(names) == len(set(names)), 'duplicate HeroUI component ids'
+          hooks=json.load(open('references/heroui-v3/hooks-catalog.json', encoding='utf-8'))
+          assert hooks['hookCount'] == 10 and len(hooks['hooks']) == 10
+          print('Validated 82 HeroUI component families and 10 hooks')
           PY
       - name: Validate 3D interaction intent inventory
         run: |
@@ -71,4 +86,5 @@ jobs:
           python -m unittest \
             tests.test_design_selection_engine \
             tests.test_anti_generic_visual_gate \
-            tests.test_3d_interaction_intent -v
+            tests.test_3d_interaction_intent \
+            tests.test_heroui_reference -v
