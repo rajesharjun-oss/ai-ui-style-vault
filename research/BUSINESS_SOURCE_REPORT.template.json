@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": {
+    "type": "google-maps",
+    "reference": "https://maps.example/business",
+    "accessStatus": "inspected",
+    "capturedAt": null
+  },
+  "business": {
+    "name": "Example Business",
+    "facts": {
+      "address": "",
+      "phone": "",
+      "website": "",
+      "rating": ""
+    },
+    "hours": [],
+    "offers": [],
+    "highlights": []
+  },
+  "assets": [],
+  "reviews": [],
+  "evidence": [
+    {
+      "claim": "Example Business is the official business name shown by the source.",
+      "sourceReference": "https://maps.example/business",
+      "status": "verified"
+    }
+  ],
+  "inference": {
+    "businessCategory": "business category",
+    "subcategories": [],
+    "audiences": ["primary audience"],
+    "primaryConversion": {
+      "action": "primary action",
+      "channel": "website",
+      "evidenceStatus": "provisional"
+    },
+    "brandSignals": {
+      "positioning": [],
+      "visualSignals": [],
+      "tone": []
+    },
+    "recommendedDomainPack": null,
+    "researchGaps": [],
+    "prohibitedAssumptions": [],
+    "confidence": {
+      "score": 70,
+      "rationale": "Replace this template rationale with evidence-based confidence from the inspected source."
+    }
+  },
+  "contentPolicy": {
+    "facts": "verbatim",
+    "reviews": "verbatim",
+    "assets": "allowlist-only",
+    "unsupportedFields": "omit-or-empty"
+  }
+}
