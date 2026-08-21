@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Prompt Index",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "canonicalInstructions": "AGENTS.md",
   "humanRouter": "PROMPTS.md",
   "domainPackRouter": "PACKS.md",
@@ -10,8 +10,41 @@
     "claudeCode": "CLAUDE.md",
     "geminiCli": "GEMINI.md"
   },
-  "routingRule": "The most specific product prompt wins; capability prompts such as 3D may be added alongside it.",
+  "routingRule": "For real-business source URLs, ingest and validate source evidence before selecting the product prompt. The most specific product prompt then wins; capability prompts such as 3D may be added alongside it.",
   "prompts": [
+    {
+      "id": "business-source-ingestion",
+      "path": "prompts/BUSINESS_SOURCE_INGESTION.md",
+      "priority": 130,
+      "requiredFor": [
+        "Google Maps or business listing supplied as source",
+        "business website or social profile supplied as evidence source",
+        "URL-first autonomous website generation"
+      ],
+      "triggers": [
+        "google maps link",
+        "maps link",
+        "business link",
+        "business url",
+        "build from this link",
+        "build a website from this map",
+        "directory listing",
+        "instagram business profile",
+        "source ingestion"
+      ],
+      "produces": [
+        "BUSINESS_SOURCE_REPORT.json",
+        "CONTENT_SOURCE_OF_TRUTH.json",
+        "ASSET_MANIFEST.json",
+        "BUSINESS_RESEARCH.md",
+        "business-profile.json",
+        "BUILD_PROMPT.md",
+        "ingestion-summary.json"
+      ],
+      "followedBy": [
+        "build-premium-business-website"
+      ]
+    },
     {
       "id": "senior-product-team",
       "path": "prompts/SENIOR_PRODUCT_TEAM_PROMPT.md",
@@ -37,8 +70,6 @@
       ],
       "triggers": [
         "build a website for this business",
-        "maps link",
-        "business link",
         "company website",
         "restaurant website",
         "professional services website",
@@ -198,6 +229,13 @@
     "BUILD_CONTRACT.md",
     "CONTENT_PLAN.md",
     "design-recipe.json"
+  ],
+  "sourceIngestionArtifactsWhenBusinessUrlProvided": [
+    "BUSINESS_SOURCE_REPORT.json",
+    "CONTENT_SOURCE_OF_TRUTH.json",
+    "ASSET_MANIFEST.json",
+    "BUILD_PROMPT.md",
+    "ingestion-summary.json"
   ],
   "additionalPlanningArtifactsByDomainPack": {
     "fast-casual-commerce": [
