@@ -1,12 +1,13 @@
 {
   "name": "AI UI Style Vault Runtime Index",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "purpose": "Keep agent context small by routing each task to only the files needed for the current stage.",
   "entry": {
     "humanAndAgentStart": "AI_START_HERE.md",
     "canonicalRules": "AGENTS.md",
     "businessSourceIngestion": "scripts/ingest-business-source.py",
     "sourcePlaybookIndex": "research/source-playbooks/index.json",
+    "businessContentModel": "scripts/generate-business-content-model.py",
     "masterPlanner": "scripts/vault-build-orchestrator.py",
     "componentResolver": "scripts/resolve-component-contract.py",
     "designCritic": "scripts/run-design-critic.py",
@@ -31,6 +32,13 @@
       },
       "rule": "Verified/source values are not rewritten or substituted. Reviews marked verbatim remain exact. Unsupported fields stay omitted/empty. Read only the selected source playbook, not all playbooks."
     },
+    "contentModel": {
+      "when": "a source-ingestion bundle exists and the build may need evidence-backed public content structure or admin/CMS functionality",
+      "read": ["BUSINESS_SOURCE_REPORT.json", "CONTENT_SOURCE_OF_TRUTH.json", "ASSET_MANIFEST.json", "research/business-entity-model.schema.json"],
+      "command": "python scripts/vault-agent.py model business-ingestion",
+      "produce": ["BUSINESS_ENTITY_MODEL.json", "PUBLIC_CONTENT_MODEL.json", "ADMIN_CMS_MODEL.json", "CMS_BUILD_CONTRACT.md", "content-model-summary.json"],
+      "rule": "Only evidenced entities become public/CMS records. Missing evidence never creates placeholder operational modules, sample data or dashboard statistics."
+    },
     "research": {
       "when": "real business, brand, organisation, venue, product or service without a completed source-ingestion bundle",
       "read": ["guides/BUSINESS_RESEARCH_GATE.md", "research/business-profile.schema.json"],
@@ -39,7 +47,7 @@
     },
     "plan": {
       "command": "python scripts/vault-build-orchestrator.py business-profile.json --output vault-build-plan.json",
-      "readAfter": ["vault-build-plan.json", "selected prompt", "selected pack/pack.json"],
+      "readAfter": ["vault-build-plan.json", "PUBLIC_CONTENT_MODEL.json when present", "ADMIN_CMS_MODEL.json when admin is requested", "selected prompt", "selected pack/pack.json"],
       "rule": "Only expand into selected requiredReads and recipes."
     },
     "components": {
@@ -65,6 +73,7 @@
   },
   "taskRoutes": {
     "businessSource": ["prompts/BUSINESS_SOURCE_INGESTION.md", "research/business-source-report.schema.json", "research/source-playbooks/index.json", "selected source-specific playbook"],
+    "businessCMS": ["BUSINESS_ENTITY_MODEL.json", "PUBLIC_CONTENT_MODEL.json", "ADMIN_CMS_MODEL.json", "CMS_BUILD_CONTRACT.md"],
     "businessWebsite": ["prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md", "selected product-domain pack"],
     "redesign": ["prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md", "selected product-domain pack"],
     "restaurant": ["prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md", "packs/fast-casual-commerce/"],
@@ -75,6 +84,7 @@
   "contextBudgetRules": [
     "Read indexes before catalogs.",
     "For business URLs, ingest source evidence before design catalogs.",
+    "Generate the content/CMS model before inventing an admin structure.",
     "Load exactly one source-specific extraction playbook for the primary URL unless a second source is explicitly inspected.",
     "Search/select before deep-reading references.",
     "Never preload all 478 3D recipes.",
