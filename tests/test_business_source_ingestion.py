@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = ROOT / "scripts" / "ingest-business-source.py"
 FRONT = ROOT / "scripts" / "vault-agent.py"
+PLAYBOOK_INDEX = ROOT / "research" / "source-playbooks" / "index.json"
 
 
 class BusinessSourceIngestionTests(unittest.TestCase):
@@ -87,18 +88,49 @@ class BusinessSourceIngestionTests(unittest.TestCase):
             },
         }
 
+    def run_url(self, url):
+        td = tempfile.TemporaryDirectory()
+        out = Path(td.name) / "out"
+        result = subprocess.run(
+            [sys.executable, str(SCRIPT), url, "--output-dir", str(out), "--json"],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+        return td, out, result
+
     def test_url_mode_creates_research_request_without_fake_scraping(self):
-        with tempfile.TemporaryDirectory() as td:
-            out = Path(td) / "out"
-            result = subprocess.run(
-                [sys.executable, str(SCRIPT), "https://maps.example/jays", "--output-dir", str(out), "--json"],
-                cwd=ROOT, capture_output=True, text=True,
-            )
+        td, out, result = self.run_url("https://www.google.com/maps/place/Jays+Diner")
+        with td:
             self.assertEqual(result.returncode, 3, result.stdout + result.stderr)
             payload = json.loads(result.stdout)
             self.assertEqual(payload["status"], "research-required")
+            self.assertEqual(payload["source"]["typeHint"], "google-maps")
+            self.assertEqual(payload["playbook"]["path"], "research/source-playbooks/google-maps.md")
+            self.assertIn(payload["playbook"]["path"], payload["requiredReads"])
             self.assertTrue((out / "business-source-request.json").exists())
             self.assertIn("does not pretend", (ROOT / "prompts" / "BUSINESS_SOURCE_INGESTION.md").read_text(encoding="utf-8"))
+
+    def test_source_specific_playbook_routing(self):
+        cases = [
+            ("https://www.instagram.com/emmytainattain/", "instagram", "research/source-playbooks/instagram.md"),
+            ("https://www.facebook.com/examplebusiness", "facebook-directory", "research/source-playbooks/facebook-directory.md"),
+            ("https://www.examplebusiness.com/", "business-website", "research/source-playbooks/business-website.md"),
+        ]
+        for url, expected_id, expected_path in cases:
+            td, out, result = self.run_url(url)
+            with td:
+                self.assertEqual(result.returncode, 3, result.stdout + result.stderr)
+                payload = json.loads(result.stdout)
+                self.assertEqual(payload["source"]["typeHint"], expected_id)
+                self.assertEqual(payload["playbook"]["path"], expected_path)
+
+    def test_playbook_inventory_exists_and_paths_resolve(self):
+        data = json.loads(PLAYBOOK_INDEX.read_text(encoding="utf-8"))
+        ids = {x["id"] for x in data["playbooks"]}
+        self.assertEqual(ids, {"google-maps", "instagram", "facebook-directory", "business-website"})
+        self.assertEqual(len(data["playbooks"]), 4)
+        for item in data["playbooks"]:
+            self.assertTrue((ROOT / item["path"]).exists(), item["path"])
+        self.assertGreaterEqual(len(data["sharedRules"]), 5)
 
     def test_report_materializes_all_source_of_truth_artifacts(self):
         with tempfile.TemporaryDirectory() as td:
