@@ -4,7 +4,7 @@ Use this prompt when the user gives a Google Maps link, business website URL, so
 
 ## Goal
 
-Turn a minimal source reference into a strict, evidence-backed build input before any visual direction is chosen.
+Turn a minimal source reference into a strict, evidence-backed build input before any visual direction or admin/CMS structure is chosen.
 
 ## Source-specific routing
 
@@ -34,7 +34,13 @@ Read the shared ingestion prompt plus only the selected playbook. Do not preload
 python scripts/vault-agent.py ingest BUSINESS_SOURCE_REPORT.json --output-dir business-ingestion
 ```
 
-11. Read `business-ingestion/ingestion-summary.json`. If ready, continue with the generated `business-profile.json` and Master Build Orchestrator. If owner confirmation is required, stop visual design until the blocking gap is resolved.
+11. Convert the ingestion bundle into evidence-backed public and admin/CMS models:
+
+```bash
+python scripts/vault-agent.py model business-ingestion
+```
+
+12. Read `business-ingestion/ingestion-summary.json` and `business-ingestion/content-model-summary.json`. If ready, continue with the generated `business-profile.json` and Master Build Orchestrator. If owner confirmation is required, stop visual design until the blocking gap is resolved.
 
 ## Raw URL mode
 
@@ -71,7 +77,21 @@ A source playbook governs one inspected source. When the business needs multiple
 - Generated concept media is allowed only when the report explicitly chooses `verified-plus-generated-concept`, and it must not be presented as verified business photography.
 - Do not force every business into a one-page site. Page/route architecture is decided later by the selected domain pack and build plan.
 
+## Admin/CMS truth rules
+
+Evidence creates the content model; visual completeness does not.
+
+- Business facts may become editable-with-provenance CMS fields.
+- Hours become manageable records only when hours are evidenced or owner-defined.
+- Approved media may become gallery records with reorder/visibility controls.
+- Reviews may become moderation records, but verbatim review copy is immutable; feature/hide is permitted by default, rewriting is not.
+- Offers/highlights become CMS records only when supported by evidence.
+- Do not invent orders, revenue, inventory, stock status, bookings, customers, system-health percentages, security logs, user activity or dashboard analytics because an admin screen would otherwise look empty.
+- A requested operational module with no underlying dataset or owner-defined process stays disabled until its requirements and data source are established.
+
 ## Expected outputs
+
+Source ingestion:
 
 - `BUSINESS_SOURCE_REPORT.json`
 - `CONTENT_SOURCE_OF_TRUTH.json`
@@ -81,4 +101,12 @@ A source playbook governs one inspected source. When the business needs multiple
 - `BUILD_PROMPT.md`
 - `ingestion-summary.json`
 
-These artifacts exist to reduce agent improvisation. The source report is evidence; the business profile is planning input; the build prompt is a constraint layer; none of them substitutes for rendered QA.
+Entity/content/CMS modeling:
+
+- `BUSINESS_ENTITY_MODEL.json`
+- `PUBLIC_CONTENT_MODEL.json`
+- `ADMIN_CMS_MODEL.json`
+- `CMS_BUILD_CONTRACT.md`
+- `content-model-summary.json`
+
+These artifacts exist to reduce agent improvisation. The source report is evidence; the entity model determines what records actually exist; the business profile is planning input; the build prompt is a constraint layer; none of them substitutes for rendered QA.
