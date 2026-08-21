@@ -1,0 +1,41 @@
+{
+  "name": "Business Source Extraction Playbooks",
+  "version": "1.0.0",
+  "purpose": "Route a raw business source URL to the smallest source-specific evidence playbook before Business Source Report creation.",
+  "playbooks": [
+    {
+      "id": "google-maps",
+      "path": "research/source-playbooks/google-maps.md",
+      "hostSignals": ["google.com/maps", "maps.google.", "goo.gl/maps", "maps.app.goo.gl"],
+      "priority": 100
+    },
+    {
+      "id": "instagram",
+      "path": "research/source-playbooks/instagram.md",
+      "hostSignals": ["instagram.com"],
+      "priority": 95
+    },
+    {
+      "id": "facebook-directory",
+      "path": "research/source-playbooks/facebook-directory.md",
+      "hostSignals": ["facebook.com", "fb.com", "yelp.", "tripadvisor.", "foursquare.", "waze.com", "yellowpages.", "directory"],
+      "priority": 80
+    },
+    {
+      "id": "business-website",
+      "path": "research/source-playbooks/business-website.md",
+      "hostSignals": [],
+      "priority": 10,
+      "fallback": true
+    }
+  ],
+  "sharedRules": [
+    "Do not claim a source was inspected when access is blocked.",
+    "Copy exact business values without normalization when they are intended for source-of-truth use.",
+    "Separate verified/source facts from inference.",
+    "Reviews selected for use remain verbatim, including punctuation, casing, typos, emoji and blank lines.",
+    "Record asset provenance and an explicit asset policy before build planning.",
+    "Unsupported fields are omitted or left empty; never create placeholder business records.",
+    "If source types conflict, preserve each source independently and resolve the conflict explicitly rather than silently picking one."
+  ]
+}
