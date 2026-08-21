@@ -1,10 +1,11 @@
 {
   "name": "AI UI Style Vault Runtime Index",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "purpose": "Keep agent context small by routing each task to only the files needed for the current stage.",
   "entry": {
     "humanAndAgentStart": "AI_START_HERE.md",
     "canonicalRules": "AGENTS.md",
+    "businessSourceIngestion": "scripts/ingest-business-source.py",
     "masterPlanner": "scripts/vault-build-orchestrator.py",
     "componentResolver": "scripts/resolve-component-contract.py",
     "designCritic": "scripts/run-design-critic.py",
@@ -15,8 +16,16 @@
       "read": ["AI_START_HERE.md", "AGENTS.md", "prompts/prompt-index.json", "packs/pack-index.json"],
       "avoidPreloading": ["catalog.json", "screen-catalog.json", "motion/motion-catalog.json", "3d/ai-agent-recipes.json", "all Component Gallery examples", "all HeroUI references"]
     },
+    "sourceIngestion": {
+      "when": "user provides a Google Maps/business/site/social/directory URL or structured business-source evidence",
+      "read": ["prompts/BUSINESS_SOURCE_INGESTION.md", "research/business-source-report.schema.json"],
+      "urlCommand": "python scripts/vault-agent.py ingest <business-source-url>",
+      "reportCommand": "python scripts/vault-agent.py ingest BUSINESS_SOURCE_REPORT.json --output-dir business-ingestion",
+      "produce": ["business-source-request.json when URL research is required", "BUSINESS_SOURCE_REPORT.json", "CONTENT_SOURCE_OF_TRUTH.json", "ASSET_MANIFEST.json", "BUSINESS_RESEARCH.md", "business-profile.json", "BUILD_PROMPT.md", "ingestion-summary.json"],
+      "rule": "Verified/source values are not rewritten or substituted. Reviews marked verbatim remain exact. Unsupported fields stay omitted/empty."
+    },
     "research": {
-      "when": "real business, brand, organisation, venue, product or service",
+      "when": "real business, brand, organisation, venue, product or service without a completed source-ingestion bundle",
       "read": ["guides/BUSINESS_RESEARCH_GATE.md", "research/business-profile.schema.json"],
       "produce": ["BUSINESS_RESEARCH.md", "business-profile.json"],
       "validate": "python scripts/validate-business-understanding.py business-profile.json --json"
@@ -48,6 +57,7 @@
     }
   },
   "taskRoutes": {
+    "businessSource": ["prompts/BUSINESS_SOURCE_INGESTION.md", "research/business-source-report.schema.json", "source-specific research tools"],
     "businessWebsite": ["prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md", "selected product-domain pack"],
     "redesign": ["prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md", "selected product-domain pack"],
     "restaurant": ["prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md", "packs/fast-casual-commerce/"],
@@ -57,6 +67,7 @@
   },
   "contextBudgetRules": [
     "Read indexes before catalogs.",
+    "For business URLs, ingest source evidence before design catalogs.",
     "Search/select before deep-reading references.",
     "Never preload all 478 3D recipes.",
     "Never preload all 2,671 Component Gallery examples.",
