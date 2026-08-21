@@ -208,11 +208,27 @@ def build_research_markdown(report):
     return "\n".join(lines).rstrip() + "\n"
 
 
+def build_verbatim_reviews(reviews):
+    if not reviews:
+        return "(No review records supplied.)"
+    chunks = []
+    for i, review in enumerate(reviews, start=1):
+        chunks.append(
+            f"### Review {i}\n"
+            f"Author: {review['author']}\n"
+            f"Rating: {review['rating']}\n"
+            f"Relative time: {review['relativeTime']}\n"
+            f"Verbatim: true\n\n"
+            f"{review['text']}"
+        )
+    return "\n\n---\n\n".join(chunks)
+
+
 def build_prompt(report):
     b = report["business"]
     facts_json = json.dumps(b.get("facts", {}), indent=2, ensure_ascii=False)
     assets_json = json.dumps(report["assets"], indent=2, ensure_ascii=False)
-    reviews_json = json.dumps(report["reviews"], indent=2, ensure_ascii=False)
+    reviews_text = build_verbatim_reviews(report["reviews"])
     return f'''# Evidence-Constrained Build Prompt — {b['name']}
 
 Build from the attached Vault plan and selected domain pack. Treat the source-of-truth below as authoritative.
@@ -249,11 +265,9 @@ Build from the attached Vault plan and selected domain pack. Treat the source-of
 {assets_json}
 ```
 
-## Reviews — verbatim
+## Reviews — verbatim literal text
 
-```json
-{reviews_json}
-```
+{reviews_text}
 
 ## Design inference (not verified business facts)
 
