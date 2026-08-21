@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-ui-style-vault.local/research/business-entity-model.schema.json",
+  "title": "Vault Business Entity and CMS Model",
+  "type": "object",
+  "required": ["schemaVersion", "businessName", "sourceReference", "entities", "publicModel", "adminModel", "rules"],
+  "properties": {
+    "schemaVersion": {"const": "1.0.0"},
+    "businessName": {"type": "string", "minLength": 1},
+    "sourceReference": {"type": "string", "minLength": 1},
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "sourceStatus", "publicVisibility", "adminCapability", "fields"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "type": {"type": "string", "minLength": 1},
+          "sourceStatus": {"enum": ["verified", "user-supplied", "provisional", "inferred"]},
+          "publicVisibility": {"enum": ["public", "conditional", "hidden"]},
+          "adminCapability": {"enum": ["immutable-source", "editable-with-provenance", "moderation-only", "asset-management", "not-managed"]},
+          "fields": {"type": "object"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "publicModel": {"type": "object"},
+    "adminModel": {"type": "object"},
+    "rules": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
