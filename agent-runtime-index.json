@@ -1,11 +1,12 @@
 {
   "name": "AI UI Style Vault Runtime Index",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "purpose": "Keep agent context small by routing each task to only the files needed for the current stage.",
   "entry": {
     "humanAndAgentStart": "AI_START_HERE.md",
     "canonicalRules": "AGENTS.md",
     "businessSourceIngestion": "scripts/ingest-business-source.py",
+    "sourcePlaybookIndex": "research/source-playbooks/index.json",
     "masterPlanner": "scripts/vault-build-orchestrator.py",
     "componentResolver": "scripts/resolve-component-contract.py",
     "designCritic": "scripts/run-design-critic.py",
@@ -18,11 +19,17 @@
     },
     "sourceIngestion": {
       "when": "user provides a Google Maps/business/site/social/directory URL or structured business-source evidence",
-      "read": ["prompts/BUSINESS_SOURCE_INGESTION.md", "research/business-source-report.schema.json"],
+      "read": ["prompts/BUSINESS_SOURCE_INGESTION.md", "research/business-source-report.schema.json", "research/source-playbooks/index.json", "the single source playbook selected by the URL router"],
       "urlCommand": "python scripts/vault-agent.py ingest <business-source-url>",
       "reportCommand": "python scripts/vault-agent.py ingest BUSINESS_SOURCE_REPORT.json --output-dir business-ingestion",
       "produce": ["business-source-request.json when URL research is required", "BUSINESS_SOURCE_REPORT.json", "CONTENT_SOURCE_OF_TRUTH.json", "ASSET_MANIFEST.json", "BUSINESS_RESEARCH.md", "business-profile.json", "BUILD_PROMPT.md", "ingestion-summary.json"],
-      "rule": "Verified/source values are not rewritten or substituted. Reviews marked verbatim remain exact. Unsupported fields stay omitted/empty."
+      "sourcePlaybooks": {
+        "google-maps": "research/source-playbooks/google-maps.md",
+        "instagram": "research/source-playbooks/instagram.md",
+        "facebook-directory": "research/source-playbooks/facebook-directory.md",
+        "business-website": "research/source-playbooks/business-website.md"
+      },
+      "rule": "Verified/source values are not rewritten or substituted. Reviews marked verbatim remain exact. Unsupported fields stay omitted/empty. Read only the selected source playbook, not all playbooks."
     },
     "research": {
       "when": "real business, brand, organisation, venue, product or service without a completed source-ingestion bundle",
@@ -57,7 +64,7 @@
     }
   },
   "taskRoutes": {
-    "businessSource": ["prompts/BUSINESS_SOURCE_INGESTION.md", "research/business-source-report.schema.json", "source-specific research tools"],
+    "businessSource": ["prompts/BUSINESS_SOURCE_INGESTION.md", "research/business-source-report.schema.json", "research/source-playbooks/index.json", "selected source-specific playbook"],
     "businessWebsite": ["prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md", "selected product-domain pack"],
     "redesign": ["prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md", "selected product-domain pack"],
     "restaurant": ["prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md", "packs/fast-casual-commerce/"],
@@ -68,6 +75,7 @@
   "contextBudgetRules": [
     "Read indexes before catalogs.",
     "For business URLs, ingest source evidence before design catalogs.",
+    "Load exactly one source-specific extraction playbook for the primary URL unless a second source is explicitly inspected.",
     "Search/select before deep-reading references.",
     "Never preload all 478 3D recipes.",
     "Never preload all 2,671 Component Gallery examples.",
