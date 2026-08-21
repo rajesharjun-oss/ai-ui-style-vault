@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
+PLAYBOOK_INDEX = ROOT / "research" / "source-playbooks" / "index.json"
 
 
 def is_url(value: str) -> bool:
@@ -18,6 +19,25 @@ def is_url(value: str) -> bool:
 
 def write_json(path: Path, payload):
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def load_playbook_index():
+    return json.loads(PLAYBOOK_INDEX.read_text(encoding="utf-8"))
+
+
+def detect_source_type(url: str):
+    parsed = urlparse(url)
+    haystack = f"{parsed.netloc.lower()}{parsed.path.lower()}"
+    index = load_playbook_index()
+    ordered = sorted(index["playbooks"], key=lambda item: item.get("priority", 0), reverse=True)
+    fallback = None
+    for item in ordered:
+        if item.get("fallback"):
+            fallback = item
+            continue
+        if any(signal.lower() in haystack for signal in item.get("hostSignals", [])):
+            return item
+    return fallback or ordered[-1]
 
 
 def validate_report(report):
@@ -85,22 +105,36 @@ def validate_report(report):
 
 
 def research_request(url, output_dir):
+    playbook = detect_source_type(url)
+    index = load_playbook_index()
+    source_type = playbook["id"]
     request = {
-        "schemaVersion": "1.0.0",
+        "schemaVersion": "1.1.0",
         "status": "research-required",
-        "source": {"reference": url, "typeHint": "auto-detect"},
-        "instruction": "Inspect the source with available web/browser/connectors, then create a Business Source Report conforming to research/business-source-report.schema.json. Preserve exact factual strings and verbatim reviews. Do not invent missing fields or substitute assets.",
+        "source": {"reference": url, "typeHint": source_type},
+        "playbook": {
+            "id": source_type,
+            "path": playbook["path"]
+        },
+        "instruction": "Inspect the source with available web/browser/connectors using the selected source-specific playbook, then create a Business Source Report conforming to research/business-source-report.schema.json. Preserve exact factual strings and verbatim reviews. Do not invent missing fields or substitute assets.",
+        "requiredReads": [
+            "prompts/BUSINESS_SOURCE_INGESTION.md",
+            "research/business-source-report.schema.json",
+            playbook["path"]
+        ],
         "requiredExtraction": [
             "official business name",
             "contact/location/website/rating facts shown by the source",
             "hours exactly as shown when available",
             "offers/highlights supported by evidence",
-            "permitted business assets with provenance",
+            "permitted business assets with provenance and ownership/use status",
             "reviews verbatim when selected",
             "evidence records for important claims",
             "business category/audience/conversion inference separated from verified facts",
-            "research gaps and prohibited assumptions"
+            "research gaps, source conflicts and prohibited assumptions"
         ],
+        "sharedHardRules": index["sharedRules"],
+        "blockedSourceRule": "If this source is blocked or partial, mark access accurately and use other public/user-supplied sources only as separate evidence records. Never claim blocked content was inspected.",
         "nextCommand": "python scripts/vault-agent.py ingest <BUSINESS_SOURCE_REPORT.json>"
     }
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -301,7 +335,7 @@ def materialize(report, output_dir):
 
 def main():
     p = argparse.ArgumentParser(description="Normalize evidence from a business source into Vault source-of-truth and planning artifacts without inventing missing data.")
-    p.add_argument("source", help="Business URL (creates a research request) or Business Source Report JSON file")
+    p.add_argument("source", help="Business URL (creates a source-specific research request) or Business Source Report JSON file")
     p.add_argument("--output-dir", default="business-ingestion")
     p.add_argument("--json", action="store_true", help="Print machine-readable result")
     args = p.parse_args()
