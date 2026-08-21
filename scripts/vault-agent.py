@@ -22,6 +22,11 @@ def main():
     ingest.add_argument("--output-dir", default="business-ingestion")
     ingest.add_argument("--json", action="store_true")
 
+    model = sub.add_parser("model", help="Generate evidence-backed public content and admin/CMS entity models from an ingestion bundle.")
+    model.add_argument("source", help="BUSINESS_SOURCE_REPORT.json or ingestion directory")
+    model.add_argument("--output-dir")
+    model.add_argument("--json", action="store_true")
+
     plan = sub.add_parser("plan", help="Create a complete vault build plan from a validated business profile.")
     plan.add_argument("profile")
     plan.add_argument("--output", default="vault-build-plan.json")
@@ -49,6 +54,14 @@ def main():
         if args.json:
             forwarded.append("--json")
         return run("ingest-business-source.py", forwarded)
+
+    if args.command == "model":
+        forwarded = [args.source]
+        if args.output_dir:
+            forwarded += ["--output-dir", args.output_dir]
+        if args.json:
+            forwarded.append("--json")
+        return run("generate-business-content-model.py", forwarded)
 
     if args.command == "plan":
         forwarded = [args.profile, "--output", args.output, "--asset-readiness", args.asset_readiness,
