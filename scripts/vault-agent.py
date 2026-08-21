@@ -17,6 +17,11 @@ def main():
     p = argparse.ArgumentParser(description="Compact front door for AI agents using the AI UI Style Vault.")
     sub = p.add_subparsers(dest="command", required=True)
 
+    ingest = sub.add_parser("ingest", help="Ingest a business source URL or evidence report into strict source-of-truth artifacts.")
+    ingest.add_argument("source")
+    ingest.add_argument("--output-dir", default="business-ingestion")
+    ingest.add_argument("--json", action="store_true")
+
     plan = sub.add_parser("plan", help="Create a complete vault build plan from a validated business profile.")
     plan.add_argument("profile")
     plan.add_argument("--output", default="vault-build-plan.json")
@@ -38,6 +43,12 @@ def main():
     critic.add_argument("--json-out", default="design-critic-result.json")
 
     args = p.parse_args()
+
+    if args.command == "ingest":
+        forwarded = [args.source, "--output-dir", args.output_dir]
+        if args.json:
+            forwarded.append("--json")
+        return run("ingest-business-source.py", forwarded)
 
     if args.command == "plan":
         forwarded = [args.profile, "--output", args.output, "--asset-readiness", args.asset_readiness,
