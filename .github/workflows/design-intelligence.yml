@@ -24,6 +24,8 @@ jobs:
             scripts/validate-anti-generic-visual.py \
             scripts/plan-vault-build.py \
             scripts/vault-build-orchestrator.py \
+            scripts/ingest-business-source.py \
+            scripts/vault-agent.py \
             scripts/select-3d-interaction-plan.py \
             scripts/select-heroui-components.py \
             scripts/select-component-intelligence.py \
@@ -38,6 +40,10 @@ jobs:
           python -m json.tool quality/VISUAL_QA_OBSERVATIONS.template.json >/dev/null
           python -m json.tool quality/DESIGN_CRITIC_OBSERVATIONS.template.json >/dev/null
           python -m json.tool benchmarks/component-benchmarks.json >/dev/null
+          python -m json.tool research/business-source-report.schema.json >/dev/null
+          python -m json.tool research/BUSINESS_SOURCE_REPORT.template.json >/dev/null
+          python -m json.tool agent-runtime-index.json >/dev/null
+          python -m json.tool prompts/prompt-index.json >/dev/null
           python -m json.tool 3d/interaction-intent-system.json >/dev/null
           python -m json.tool references/component-intelligence-index.json >/dev/null
           python -m json.tool references/heroui-v3/component-catalog.json >/dev/null
@@ -53,6 +59,20 @@ jobs:
           python -m json.tool references/component-gallery/contract-rules.json >/dev/null
           python -m json.tool references/component-gallery/comparative-patterns-wave1.json >/dev/null
           python -m json.tool references/component-gallery/comparative-wave2.json >/dev/null
+      - name: Validate source ingestion routing
+        run: |
+          python - <<'PY'
+          import json
+          runtime=json.load(open('agent-runtime-index.json', encoding='utf-8'))
+          prompts=json.load(open('prompts/prompt-index.json', encoding='utf-8'))
+          assert 'sourceIngestion' in runtime['stages']
+          assert runtime['entry']['businessSourceIngestion']=='scripts/ingest-business-source.py'
+          ids={p['id'] for p in prompts['prompts']}
+          assert 'business-source-ingestion' in ids
+          source_prompt=next(p for p in prompts['prompts'] if p['id']=='business-source-ingestion')
+          assert source_prompt['priority'] >= 130
+          print('Validated business-source ingestion routing and progressive-disclosure entry points')
+          PY
       - name: Validate section recipe inventory
         run: |
           python - <<'PY'
@@ -148,6 +168,8 @@ jobs:
       - name: Run design intelligence tests
         run: |
           python -m unittest \
+            tests.test_agent_usability \
+            tests.test_business_source_ingestion \
             tests.test_design_selection_engine \
             tests.test_anti_generic_visual_gate \
             tests.test_3d_interaction_intent \
