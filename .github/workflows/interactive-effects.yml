@@ -22,6 +22,7 @@ jobs:
       - name: Validate JSON and contracts
         run: |
           python -m json.tool interactive-effects/effects.json >/dev/null
+          python -m json.tool interactive-effects/effect-contract.schema.json >/dev/null
           python -m json.tool references/threeui-community.json >/dev/null
           python -m json.tool quality/EFFECT_QA_OBSERVATIONS.template.json >/dev/null
           python scripts/interactive-effects.py validate

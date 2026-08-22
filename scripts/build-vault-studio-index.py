@@ -8,6 +8,12 @@ ROOT=Path(__file__).resolve().parents[1]
 def load(path):
     return json.loads((ROOT/path).read_text(encoding="utf-8"))
 
+def display_path(target):
+    try:
+        return str(target.relative_to(ROOT))
+    except ValueError:
+        return str(target)
+
 def main():
     p=argparse.ArgumentParser(description="Build the compact data index consumed by the future Vault Studio browser.")
     p.add_argument("--output",default="studio/catalog-index.json")
@@ -30,9 +36,12 @@ def main():
       "referencePatterns":[{"id":x["id"],"family":x["family"],"runtime":x["runtime"],"reuse":x["reuse"]} for x in refs["referencePatterns"]],
       "rule":"Studio browsing never bypasses business research, semantic effect selection or source/licence boundaries."
     }
-    target=ROOT/args.output; target.parent.mkdir(parents=True,exist_ok=True)
+    target=Path(args.output)
+    if not target.is_absolute():
+        target=ROOT/target
+    target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
-    print(json.dumps({"status":"ready","output":str(target.relative_to(ROOT)),"counts":data["counts"]},indent=2))
+    print(json.dumps({"status":"ready","output":display_path(target),"counts":data["counts"]},indent=2))
     return 0
 
 if __name__=="__main__":
