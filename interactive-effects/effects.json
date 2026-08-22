@@ -1,0 +1,208 @@
+{
+  "name": "AI UI Style Vault Interactive Effect Intelligence",
+  "version": "1.0.0",
+  "principle": "Select by business purpose; none is a first-class valid result.",
+  "selectionPolicy": {
+    "minimumScore": 14,
+    "maxRecommendations": 3,
+    "noneIsValid": true,
+    "restrainedDomains": [
+      "professional-services"
+    ]
+  },
+  "performanceTiers": {
+    "light": {
+      "desktopMinFps": 55,
+      "mobileMinFps": 50,
+      "maxSlowFrameRatio": 0.15,
+      "contextLoss": false
+    },
+    "balanced": {
+      "desktopMinFps": 55,
+      "mobileMinFps": 45,
+      "maxSlowFrameRatio": 0.2,
+      "contextLoss": true
+    },
+    "high": {
+      "desktopMinFps": 50,
+      "mobileMinFps": 40,
+      "maxSlowFrameRatio": 0.25,
+      "contextLoss": true
+    }
+  },
+  "runtimeRules": [
+    "Prefer the lowest-complexity runtime that can express the approved interaction.",
+    "Do not merge revision-specific Three.js renderers blindly; isolate incompatible runtimes.",
+    "Every animated effect needs a reduced-motion fallback.",
+    "High-cost effects that miss mobile budgets must simplify or fall back."
+  ],
+  "semanticRules": [
+    "Every effect must support a verified product, service, asset, place, workflow or conversion goal.",
+    "Data-looking visuals must not be presented as live telemetry without a real dataset.",
+    "Procedural scenery must not be presented as a literal depiction of a real property, venue or destination.",
+    "Approved media remains primary for real people, products, properties, venues and events.",
+    "Route to the 3D interaction-intent system when the subject becomes explorable, configurable or spatially informative."
+  ],
+  "effects": [
+    {
+      "id": "ambient-particle-network",
+      "label": "Ambient Particle Network",
+      "family": "ambient-field",
+      "summary": "Restrained connected points/lines for a genuine technology or connectivity narrative.",
+      "sections": ["hero", "cta"],
+      "domains": ["saas-technology"],
+      "signals": ["technology", "software", "ai", "network", "platform", "cloud", "connectivity", "automation"],
+      "runtime": "canvas-2d",
+      "tier": "light",
+      "assetMode": "none",
+      "mobile": "Reduce density and pointer influence.",
+      "reducedMotion": "Static sparse point field.",
+      "controls": {"density": 0.35, "speed": 0.2, "pointerInfluence": "subtle"},
+      "avoid": ["professional services with no technology narrative", "pages already dominated by 3D"]
+    },
+    {
+      "id": "data-topology-field",
+      "label": "Data Topology Field",
+      "family": "data-visual-field",
+      "summary": "Abstract topology/flow metaphor for real data, infrastructure, automation or integration concepts.",
+      "sections": ["hero", "proof", "process"],
+      "domains": ["saas-technology"],
+      "signals": ["data", "analytics", "api", "infrastructure", "platform", "workflow", "automation", "fintech", "integration", "developer"],
+      "runtime": "webgl",
+      "tier": "balanced",
+      "assetMode": "none",
+      "mobile": "Lower render resolution and simplify geometry.",
+      "reducedMotion": "Static topology illustration.",
+      "controls": {"complexity": 0.4, "motion": 0.2, "contrast": "low"},
+      "avoid": ["generic corporate pages", "unverified telemetry claims"]
+    },
+    {
+      "id": "fluid-organic-field",
+      "label": "Fluid Organic Field",
+      "family": "ambient-field",
+      "summary": "Slow organic motion for evidenced wellness, beauty, botanical or sensory positioning.",
+      "sections": ["hero", "story", "cta"],
+      "domains": ["beauty-wellness", "hospitality"],
+      "signals": ["beauty", "wellness", "spa", "skincare", "organic", "botanical", "natural", "calm", "sensory", "retreat"],
+      "runtime": "webgl",
+      "tier": "balanced",
+      "assetMode": "none",
+      "mobile": "Reduce simulation resolution and disable pointer response.",
+      "reducedMotion": "Soft static gradient or approved image.",
+      "controls": {"flow": 0.22, "distortion": 0.18},
+      "avoid": ["clinical information sections", "dense transactional screens"]
+    },
+    {
+      "id": "kinetic-editorial-type",
+      "label": "Kinetic Editorial Type",
+      "family": "kinetic-type",
+      "summary": "Motion applied to concise real headings while preserving readable static text.",
+      "sections": ["hero", "section-intro", "cta"],
+      "domains": ["fashion-couture", "celebration-event-microsite", "beauty-wellness"],
+      "signals": ["fashion", "couture", "atelier", "editorial", "campaign", "celebration", "wedding", "event", "creative", "luxury"],
+      "runtime": "dom-motion",
+      "tier": "light",
+      "assetMode": "none",
+      "mobile": "Reduce transforms and keep line breaks stable.",
+      "reducedMotion": "Static typography with identical copy.",
+      "controls": {"reveal": "mask", "intensity": "subtle"},
+      "avoid": ["long body copy", "legal/compliance text", "data-dense product UI"]
+    },
+    {
+      "id": "tactile-premium-cta",
+      "label": "Tactile Premium CTA",
+      "family": "interactive-cta",
+      "summary": "Premium button feedback for a real primary conversion without obscuring button semantics.",
+      "sections": ["hero", "pricing", "cta", "checkout"],
+      "domains": ["fast-casual-commerce", "fashion-couture", "beauty-wellness", "hospitality", "saas-technology", "real-estate", "celebration-event-microsite"],
+      "signals": ["order", "book", "reserve", "buy", "contact", "start", "request", "rsvp", "checkout", "demo"],
+      "runtime": "css",
+      "tier": "light",
+      "assetMode": "none",
+      "mobile": "Retain press/focus feedback; remove decorative motion.",
+      "reducedMotion": "Static high-contrast button.",
+      "controls": {"depth": 0.25, "glow": "off"},
+      "avoid": ["secondary actions where hierarchy would become noisy"]
+    },
+    {
+      "id": "liquid-metal-cta",
+      "label": "Liquid Metal CTA",
+      "family": "interactive-cta",
+      "summary": "High-character CTA for a deliberately expressive campaign or product moment.",
+      "sections": ["hero", "cta"],
+      "domains": ["fashion-couture", "beauty-wellness", "saas-technology", "celebration-event-microsite"],
+      "signals": ["metal", "liquid", "futuristic", "experimental", "fashion", "campaign", "launch", "innovation"],
+      "runtime": "webgl",
+      "tier": "high",
+      "assetMode": "none",
+      "mobile": "Replace with tactile CSS button on constrained devices.",
+      "reducedMotion": "Static metallic-gradient button.",
+      "controls": {"motion": 0.3, "specular": 0.45},
+      "avoid": ["checkout forms", "professional services", "high performance-priority builds"]
+    },
+    {
+      "id": "cinematic-media-reveal",
+      "label": "Cinematic Media Reveal",
+      "family": "editorial-media",
+      "summary": "Responsive media reveal for approved asset-led fashion, hospitality, property, event or beauty stories.",
+      "sections": ["hero", "gallery", "portfolio", "property", "story"],
+      "domains": ["fashion-couture", "hospitality", "real-estate", "celebration-event-microsite", "beauty-wellness"],
+      "signals": ["gallery", "property", "hotel", "fashion", "lookbook", "venue", "wedding", "portfolio", "photography", "architecture"],
+      "runtime": "dom-motion",
+      "tier": "balanced",
+      "assetMode": "required",
+      "mobile": "Use opacity/transform only and avoid pinned sequences.",
+      "reducedMotion": "Static media grid with identical approved assets.",
+      "controls": {"revealStyle": "mask", "duration": 0.6},
+      "avoid": ["weak or missing media", "transactional screens"]
+    },
+    {
+      "id": "animated-dock-navigation",
+      "label": "Animated Dock Navigation",
+      "family": "navigation-motion",
+      "summary": "Compact animated wayfinding for a small, stable destination set.",
+      "sections": ["navigation"],
+      "domains": ["saas-technology", "fashion-couture", "celebration-event-microsite"],
+      "signals": ["creative", "studio", "portfolio", "app", "tool", "interactive", "event"],
+      "runtime": "dom-motion",
+      "tier": "light",
+      "assetMode": "none",
+      "mobile": "Disable magnification and retain clear labels.",
+      "reducedMotion": "Static compact navigation.",
+      "controls": {"magnification": 0.2, "labels": "always"},
+      "avoid": ["large information architectures", "enterprise admin navigation"]
+    },
+    {
+      "id": "orbital-product-accent",
+      "label": "Orbital Product Accent",
+      "family": "procedural-scene",
+      "summary": "Restrained orbital metaphor for a product core, platform ecosystem or central capability.",
+      "sections": ["hero", "proof"],
+      "domains": ["saas-technology"],
+      "signals": ["platform", "ecosystem", "core", "engine", "ai", "technology", "orbit", "system"],
+      "runtime": "three",
+      "tier": "balanced",
+      "assetMode": "none",
+      "mobile": "Reduce geometry and freeze camera on coarse pointers.",
+      "reducedMotion": "Static orbital illustration.",
+      "controls": {"orbitCount": 3, "motion": 0.15},
+      "avoid": ["businesses without a product/system metaphor", "pages already using a primary 3D subject"]
+    },
+    {
+      "id": "generative-landscape-accent",
+      "label": "Generative Landscape Accent",
+      "family": "procedural-scene",
+      "summary": "Decorative procedural environment accent for place-led storytelling; never literal property imagery.",
+      "sections": ["hero", "story"],
+      "domains": ["hospitality", "real-estate", "celebration-event-microsite"],
+      "signals": ["landscape", "destination", "resort", "property", "architecture", "venue", "place", "garden", "nature"],
+      "runtime": "webgl",
+      "tier": "balanced",
+      "assetMode": "none",
+      "mobile": "Simplify layers and motion; use static fallback on low capability.",
+      "reducedMotion": "Static decorative illustration clearly marked as concept/decorative.",
+      "controls": {"layers": 3, "parallax": 0.15},
+      "avoid": ["property detail pages requiring accurate photography", "any context where concept art could be mistaken for reality"]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "3D & Immersive Web Default Performance Budgets",
+  "version": "1.0.0",
+  "purpose": "Starting targets that require representative-device measurement and documented exceptions.",
+  "principles": [
+    "Semantic shell first",
+    "Capability gate before heavy downloads",
+    "One shared renderer where possible",
+    "Measure sustained performance"
+  ],
+  "tiers": [
+    {
+      "id": "static",
+      "targets": {
+        "3dRuntimeBytesGzip": 0,
+        "criticalMediaBytes": 900000
+      }
+    },
+    {
+      "id": "basic-mobile",
+      "targets": {
+        "domShellJavaScriptGzipMax": 200000,
+        "lazy3dRuntimeGzipMax": 350000,
+        "critical3dAssetsMax": 1500000,
+        "totalSceneTransferMax": 4000000,
+        "visibleTrianglesMax": 150000,
+        "drawCallsMax": 100,
+        "maxTextureDimension": 2048,
+        "estimatedGpuMemoryMBMax": 128,
+        "targetFps": 30,
+        "dprMax": 1.5
+      }
+    },
+    {
+      "id": "balanced",
+      "targets": {
+        "domShellJavaScriptGzipMax": 220000,
+        "lazy3dRuntimeGzipMax": 450000,
+        "critical3dAssetsMax": 3000000,
+        "totalSceneTransferMax": 10000000,
+        "visibleTrianglesMax": 500000,
+        "drawCallsMax": 200,
+        "maxTextureDimension": 4096,
+        "estimatedGpuMemoryMBMax": 256,
+        "targetFps": 50,
+        "dprMax": 2
+      }
+    },
+    {
+      "id": "high",
+      "targets": {
+        "domShellJavaScriptGzipMax": 250000,
+        "lazy3dRuntimeGzipMax": 550000,
+        "critical3dAssetsMax": 5000000,
+        "totalSceneTransferMax": 18000000,
+        "visibleTrianglesMax": 1500000,
+        "drawCallsMax": 350,
+        "maxTextureDimension": 4096,
+        "estimatedGpuMemoryMBMax": 512,
+        "targetFps": 60,
+        "dprMax": 2
+      }
+    }
+  ],
+  "globalTargets": {
+    "shellFirstContentfulPaintSecondsOn4G": 2.5,
+    "firstUseful3dFrameSecondsOn4G": 5.0,
+    "inputLatencyMsTarget": 100,
+    "contextRestoreAttemptsMax": 1,
+    "pageHiddenRenderFps": 0
+  },
+  "exceptionRule": "Exceed a budget only with documented user benefit, measured coverage and an approved fallback."
+}

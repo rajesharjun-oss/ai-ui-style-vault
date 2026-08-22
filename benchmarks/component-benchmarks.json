@@ -1,0 +1,117 @@
+{
+  "name": "Vault Component Benchmark Suite",
+  "version": "1.0.0",
+  "purpose": "Evaluate whether an AI agent selects and implements semantically correct components for realistic product tasks instead of merely producing attractive UI.",
+  "rules": {
+    "minimumBenchmarks": 10,
+    "allRequiredComponentsMustResolve": true,
+    "allForbiddenSubstitutionsMustBeAbsent": true,
+    "allCriticalStatesMustBeRepresented": true,
+    "mobileStrategyRequired": true,
+    "keyboardStrategyRequiredForInteractiveComponents": true
+  },
+  "benchmarks": [
+    {
+      "id": "b01-professional-services-consultation",
+      "product": "Professional services consultation website",
+      "domainPack": "professional-services",
+      "task": "Choose a service, provide contact details, select a consultation date, and submit an enquiry.",
+      "requiredComponents": ["navigation", "select", "datepicker", "text-input", "textarea", "checkbox", "button", "alert"],
+      "criticalStates": ["datepicker:invalid", "select:invalid", "form:submitting", "form:error", "form:success"],
+      "forbiddenSubstitutions": ["dropdown-menu-as-select", "tooltip-as-validation", "link-as-submit-button"],
+      "mobileExpectations": ["form remains single-column and readable", "datepicker fits viewport", "primary submit action remains visible"]
+    },
+    {
+      "id": "b02-saas-admin-data-table",
+      "product": "SaaS admin dashboard",
+      "domainPack": "saas-technology",
+      "task": "Search users, filter status, sort a table, select rows, and open row actions.",
+      "requiredComponents": ["search-input", "combobox", "table", "checkbox", "dropdown-menu", "pagination", "toast"],
+      "criticalStates": ["table:loading", "table:empty", "table:error", "table:sorted", "table:selected", "combobox:no-results"],
+      "forbiddenSubstitutions": ["card-grid-as-table", "select-as-row-action-menu", "toast-as-blocking-error"],
+      "mobileExpectations": ["explicit table mobile strategy", "row actions remain reachable", "selection state remains understandable"]
+    },
+    {
+      "id": "b03-real-estate-property-search",
+      "product": "Real estate property search",
+      "domainPack": "real-estate",
+      "task": "Search location, filter property type and price, inspect results, and book a viewing.",
+      "requiredComponents": ["combobox", "select", "slider", "card", "modal", "datepicker", "button"],
+      "criticalStates": ["combobox:no-results", "slider:disabled", "modal:open", "datepicker:unavailable-date"],
+      "forbiddenSubstitutions": ["dropdown-menu-as-filter-select", "tooltip-as-property-detail", "carousel-as-only-results-navigation"],
+      "mobileExpectations": ["filters remain operable", "property cards do not hide core facts", "viewing flow works without hover"]
+    },
+    {
+      "id": "b04-fashion-product-enquiry",
+      "product": "Fashion and couture product enquiry",
+      "domainPack": "fashion-couture",
+      "task": "Inspect garment media, choose a verified option, open measurement guidance, and send an enquiry.",
+      "requiredComponents": ["carousel", "radio-button", "accordion", "popover", "button", "textarea"],
+      "criticalStates": ["carousel:current-slide", "radio-button:selected", "accordion:expanded", "popover:open"],
+      "forbiddenSubstitutions": ["tooltip-as-measurement-guide", "mechanical-tree-as-accordion", "autoplay-carousel-without-pause"],
+      "mobileExpectations": ["carousel has visible controls", "measurement guidance is touch-accessible", "enquiry action remains obvious"]
+    },
+    {
+      "id": "b05-restaurant-ordering",
+      "product": "Fast-casual food ordering",
+      "domainPack": "fast-casual-commerce",
+      "task": "Browse categories, configure an item, add it to cart, review the order, and resolve validation errors.",
+      "requiredComponents": ["navigation", "tabs", "radio-button", "checkbox", "stepper", "drawer", "alert", "button"],
+      "criticalStates": ["tabs:selected", "stepper:disabled", "drawer:open", "alert:error"],
+      "forbiddenSubstitutions": ["dropdown-menu-as-product-configurator", "toast-as-required-validation", "tabs-as-checkout-steps"],
+      "mobileExpectations": ["cart drawer fits viewport", "quantity controls meet touch needs", "product configuration remains readable"]
+    },
+    {
+      "id": "b06-hospitality-booking",
+      "product": "Hotel booking experience",
+      "domainPack": "hospitality",
+      "task": "Choose dates, compare room options, inspect policies, and begin booking.",
+      "requiredComponents": ["date-range-picker", "card", "tabs", "popover", "alert", "button"],
+      "criticalStates": ["date-range-picker:range-start", "date-range-picker:range-end", "alert:warning", "popover:open"],
+      "forbiddenSubstitutions": ["tooltip-as-policy-details", "carousel-as-room-comparison-table", "toast-as-availability-warning"],
+      "mobileExpectations": ["date-range selection remains clear", "room facts remain comparable", "policy content is not hover-only"]
+    },
+    {
+      "id": "b07-beauty-appointment",
+      "product": "Beauty and wellness appointment booking",
+      "domainPack": "beauty-wellness",
+      "task": "Select a treatment, choose practitioner, review preparation notes, pick a date, and request booking.",
+      "requiredComponents": ["select", "combobox", "accordion", "datepicker", "alert", "button"],
+      "criticalStates": ["select:selected", "combobox:no-results", "accordion:expanded", "datepicker:disabled-date", "alert:warning"],
+      "forbiddenSubstitutions": ["menu-as-practitioner-select", "tooltip-as-contraindication-note", "toast-as-safety-warning"],
+      "mobileExpectations": ["safety content remains visible", "date selection is touch-friendly", "booking action stays available"]
+    },
+    {
+      "id": "b08-celebration-rsvp",
+      "product": "Private celebration RSVP microsite",
+      "domainPack": "celebration-event-microsite",
+      "task": "Confirm attendance, select meal preference, add guest information, and submit RSVP.",
+      "requiredComponents": ["radio-button", "select", "text-input", "checkbox", "modal", "alert", "button"],
+      "criticalStates": ["radio-button:selected", "select:invalid", "modal:open", "alert:success", "form:error"],
+      "forbiddenSubstitutions": ["toast-as-rsvp-confirmation-only", "dropdown-menu-as-meal-select", "link-as-submit-button"],
+      "mobileExpectations": ["RSVP form remains readable", "confirmation remains persistent enough to review", "guest fields do not overflow"]
+    },
+    {
+      "id": "b09-internal-file-review",
+      "product": "Internal document review workspace",
+      "domainPack": "saas-technology",
+      "task": "Upload a document, inspect processing status, browse findings, and confirm a destructive reset action.",
+      "requiredComponents": ["file-upload", "progress-bar", "table", "alert-dialog", "toast", "button"],
+      "criticalStates": ["file-upload:uploading", "file-upload:error", "progress-bar:active", "table:empty", "alert-dialog:open"],
+      "forbiddenSubstitutions": ["spinner-for-known-progress", "toast-as-destructive-confirmation", "dropzone-without-file-input"],
+      "mobileExpectations": ["upload controls remain keyboard/touch accessible", "findings table has mobile strategy", "destructive action remains deliberate"]
+    },
+    {
+      "id": "b10-automotive-3d-configurator",
+      "product": "Automotive product configurator",
+      "domainPack": "saas-technology",
+      "capabilityPack": "3d-immersive-web",
+      "task": "Inspect a vehicle, change verified variants, focus details, and review configuration summary.",
+      "requiredComponents": ["button-group", "radio-button", "tabs", "popover", "alert", "button"],
+      "required3D": {"subjectClass": "vehicle", "validGoals": ["inspect", "configure"], "allowedInteractions": ["bounded-orbit-inspection", "camera-preset-navigation", "material-switch", "camera-look-at-focus"]},
+      "criticalStates": ["radio-button:selected", "popover:open", "alert:error", "3d:fallback"],
+      "forbiddenSubstitutions": ["unrelated-3d-spectacle", "continuous-spin-as-primary-interaction", "unverified-material-switch"],
+      "mobileExpectations": ["lower-fidelity 3D tier is intentional", "configuration controls remain DOM", "static fallback preserves configuration information"]
+    }
+  ]
+}

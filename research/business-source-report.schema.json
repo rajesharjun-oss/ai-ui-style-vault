@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-ui-style-vault.local/research/business-source-report.schema.json",
+  "title": "Vault Business Source Report",
+  "type": "object",
+  "required": ["schemaVersion", "source", "business", "assets", "reviews", "evidence", "inference", "contentPolicy"],
+  "properties": {
+    "schemaVersion": {"const": "1.0.0"},
+    "source": {
+      "type": "object",
+      "required": ["type", "reference", "accessStatus"],
+      "properties": {
+        "type": {"type": "string", "minLength": 2},
+        "reference": {"type": "string", "minLength": 3},
+        "accessStatus": {"enum": ["inspected", "user-supplied", "partial", "blocked"]},
+        "capturedAt": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "business": {
+      "type": "object",
+      "required": ["name", "facts", "hours"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "facts": {"type": "object", "additionalProperties": {"type": ["string", "number", "boolean", "null"]}},
+        "hours": {"type": "array", "items": {"type": "string"}},
+        "offers": {"type": "array", "items": {"type": "string"}},
+        "highlights": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "alt", "description", "evidenceStatus"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "minLength": 1},
+          "alt": {"type": "string"},
+          "description": {"type": "string"},
+          "evidenceStatus": {"enum": ["verified", "user-supplied", "provisional"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["author", "rating", "relativeTime", "text", "verbatim"],
+        "properties": {
+          "author": {"type": "string"},
+          "rating": {"type": ["integer", "number", "string"]},
+          "relativeTime": {"type": "string"},
+          "text": {"type": "string"},
+          "verbatim": {"const": true}
+        },
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["claim", "sourceReference", "status"],
+        "properties": {
+          "claim": {"type": "string"},
+          "sourceReference": {"type": "string"},
+          "status": {"enum": ["verified", "user-supplied", "provisional"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "inference": {
+      "type": "object",
+      "required": ["businessCategory", "audiences", "primaryConversion", "brandSignals", "confidence"],
+      "properties": {
+        "businessCategory": {"type": "string", "minLength": 2},
+        "subcategories": {"type": "array", "items": {"type": "string"}},
+        "audiences": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "primaryConversion": {
+          "type": "object",
+          "required": ["action", "channel", "evidenceStatus"],
+          "properties": {
+            "action": {"type": "string"},
+            "channel": {"type": "string"},
+            "evidenceStatus": {"enum": ["verified", "provisional", "owner-confirmed"]}
+          },
+          "additionalProperties": false
+        },
+        "brandSignals": {
+          "type": "object",
+          "required": ["positioning", "visualSignals", "tone"],
+          "properties": {
+            "positioning": {"type": "array", "items": {"type": "string"}},
+            "visualSignals": {"type": "array", "items": {"type": "string"}},
+            "tone": {"type": "array", "items": {"type": "string"}}
+          },
+          "additionalProperties": false
+        },
+        "recommendedDomainPack": {"type": ["string", "null"]},
+        "researchGaps": {"type": "array", "items": {"type": "string"}},
+        "prohibitedAssumptions": {"type": "array", "items": {"type": "string"}},
+        "confidence": {
+          "type": "object",
+          "required": ["score", "rationale"],
+          "properties": {
+            "score": {"type": "integer", "minimum": 0, "maximum": 100},
+            "rationale": {"type": "string", "minLength": 10}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "contentPolicy": {
+      "type": "object",
+      "required": ["facts", "reviews", "assets", "unsupportedFields"],
+      "properties": {
+        "facts": {"enum": ["verbatim", "normalized-with-provenance"]},
+        "reviews": {"const": "verbatim"},
+        "assets": {"enum": ["allowlist-only", "verified-plus-generated-concept", "verified-only"]},
+        "unsupportedFields": {"const": "omit-or-empty"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

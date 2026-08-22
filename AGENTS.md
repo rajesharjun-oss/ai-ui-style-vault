@@ -1,249 +1,195 @@
 # AI Agent Instructions
 
-This repository is an AI-readable product-design and front-end engineering system. It is not a screenshot folder and it is not permission to clone another brand, couple, event or product. Use it to produce original websites, web applications, dashboards, commerce experiences and event microsites that feel deliberately designed, concise, accessible, responsive, privacy-aware and production-ready.
+This repository is an AI-readable product-design and front-end engineering system. It is intentionally deep, but agents must **not read the whole repository for every task**. Start with `AI_START_HERE.md`, use `agent-runtime-index.json`, generate a plan, then read only the selected prompt, pack, contracts and references needed for the current build.
 
-## Operating model
+Act as a senior product designer, content designer and front-end engineer working as one team. For sensitive, transactional or personal-data workflows, also apply privacy/security judgment.
 
-For every build, act as three senior specialists working as one team:
+## Fast path
 
-1. **Senior product designer** — understands users, tasks, hierarchy, information architecture, interaction model, states and visual direction.
-2. **Senior content designer** — controls message priority, copy length, labels, progressive disclosure and page density; removes repetition and generic AI language.
-3. **Senior front-end engineer** — implements semantic, responsive, accessible, performant components with complete states and disciplined motion.
+For a normal real-business build:
 
-When personal events, guest data, commerce or other sensitive workflows are involved, also act as a privacy- and security-aware product designer. A visually attractive screen with weak hierarchy, excessive copy, invented facts, incomplete states, poor responsiveness, inaccessible interaction or false integration claims is incomplete.
+```bash
+python scripts/vault-agent.py plan business-profile.json
+```
+
+Then read `vault-build-plan.json` and follow its file pointers. For difficult components:
+
+```bash
+python scripts/vault-agent.py component "<component need>"
+```
+
+After rendered QA:
+
+```bash
+python scripts/vault-agent.py critic vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json
+```
+
+Do not preload all style references, all Component Gallery examples, all HeroUI research, all motion references or all 3D recipes. Search/select first, then deep-read only the chosen material.
 
 ## Prompt Discovery and Routing
 
-Read `PROMPTS.md`, `prompts/prompt-index.json`, `PACKS.md` and `packs/pack-index.json` before selecting a task prompt or domain pack.
+Use `PROMPTS.md` and `PACKS.md` as the human-readable routing summaries, and `prompts/prompt-index.json` plus `packs/pack-index.json` for machine routing.
 
-Use these routes automatically:
+Use the most specific route:
 
-- Wedding, Nikkah, engagement, anniversary, save-the-date, RSVP, couple story, gift registry, private celebration or post-event gallery: `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` plus `packs/celebration-event-microsite/`.
-- Restaurant, cafe, bakery, takeaway, delivery, menu, pickup, quick-service, fast-casual or food-ordering commerce: `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` plus `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` and `packs/fast-casual-commerce/`.
-- New website for another real business: `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md`.
-- Redesign or improvement of an existing website: `prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md` plus the relevant domain pack.
-- After the first browser render: `prompts/VISUAL_QA_AND_REVISION.md`.
-- General product interface work: `prompts/SENIOR_PRODUCT_TEAM_PROMPT.md`.
+- Real business website: `prompts/BUILD_PREMIUM_BUSINESS_WEBSITE.md` + selected product-domain pack.
+- Existing-site redesign: `prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md` + selected product-domain pack.
+- Restaurant/food commerce: `prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md` + `packs/fast-casual-commerce/`.
+- Celebration/event: `prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md` + `packs/celebration-event-microsite/`.
+- 3D/immersive: `prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md` + `packs/3d-immersive-web/` + matching product-domain pack.
+- General product UI: `prompts/SENIOR_PRODUCT_TEAM_PROMPT.md`.
+- After first browser render: `prompts/VISUAL_QA_AND_REVISION.md`.
 
-The most specific route wins. Task prompts and packs add requirements; they do not replace this file, `PRD.md` or the core contracts.
+The most specific route wins.
 
-## Domain-pack discovery
+## Business-understanding gate
 
-Domain packs live under `packs/` and are indexed by `packs/pack-index.json`.
+For a real business, brand, organisation, venue, product or service, establish what it actually does, who it serves and what the primary website action is before selecting style, motion or 3D.
 
-When a trigger matches:
+Create `BUSINESS_RESEARCH.md` and `business-profile.json`, then validate:
 
-1. Read the selected pack's `pack.json`.
-2. Read every file in its `requiredReads` list.
-3. Add the pack to `VAULT_SELECTION.md` and `design-recipe.json`.
-4. Create the pack-specific contracts before implementation.
-5. Use the pack's blueprints, components, states, content rules, asset rules, privacy rules, code contracts and QA requirements.
-6. Remove unsupported capabilities rather than inventing them.
+```bash
+python scripts/validate-business-understanding.py business-profile.json --json
+```
 
-Pack-specific contracts currently include:
+Design selection requires `status=ready` and `designSelectionAllowed=true`. If the core business cannot be established, stop before visual design and request evidence instead of inventing a generic concept.
 
-- Fast-Casual Commerce: `COMMERCE_BUILD_CONTRACT.md`.
-- Celebration & Event Microsite: `EVENT_BUILD_CONTRACT.md`, `COUPLE_CONTENT_PLAN.md` and `ASSET_PLAN.md`.
+## Progressive disclosure
 
-## Mandatory reading order
+Always read only:
 
-Before implementation, read:
+1. `AI_START_HERE.md`
+2. this file
+3. `agent-runtime-index.json`
+4. generated `vault-build-plan.json` when available
 
-1. `PRD.md`
-2. `PROMPTS.md`
-3. `PACKS.md`
-4. The selected task prompt
-5. The selected domain pack and every required read
-6. `guides/SENIOR_PRODUCT_TEAM_PROTOCOL.md`
-7. `guides/CONTENT_DESIGN_SYSTEM.md`
-8. `guides/INFORMATION_ARCHITECTURE_AND_PAGE_COMPOSITION.md`
-9. `guides/FRONTEND_IMPLEMENTATION_STANDARD.md`
-10. `guides/COMPONENT_AND_STATE_STANDARD.md`
-11. `guides/ANTI_GENERIC_AI_UI_CHECKLIST.md`
-12. `guides/AGENT_USAGE.md`
-13. `guides/AGENT_BUILD_CHECKLIST.md`
-14. `agent-index.json`
-15. `system/page-blueprints.json`
-16. `system/component-manifest.json`
-17. `system/motion-primitives.json`
-18. `system/production-theme-archetypes.json`
-19. Style, screen and motion catalogues as needed
+Then expand only into:
+
+- the selected task prompt;
+- the selected pack's `pack.json` and its `requiredReads`;
+- selected theme/section/component/3D recipes;
+- task-specific contracts;
+- the target repository's own conventions;
+- QA files during validation.
+
+Reference archives are query-on-demand, not mandatory preload material.
 
 ## No-code-before-contract rule
 
-Do not start UI implementation until the target project contains completed equivalents of:
+Before implementation, the target project needs completed equivalents of:
 
 - `VAULT_SELECTION.md`
 - `BUILD_CONTRACT.md`
 - `CONTENT_PLAN.md`
 - `design-recipe.json`
 
-For a real business website, also create:
+For real business sites also create `BUSINESS_RESEARCH.md`, `business-profile.json`, and `ASSET_PLAN.md` when media is involved.
 
-- `BUSINESS_RESEARCH.md`
-- `ASSET_PLAN.md` when imagery, video, illustration or 3D is involved
+Additional contracts are mandatory when their route is selected:
 
-For transactional food commerce, also create:
+- Restaurant/transactional food: `COMMERCE_BUILD_CONTRACT.md`.
+- Celebration/event: `EVENT_BUILD_CONTRACT.md`, `COUPLE_CONTENT_PLAN.md`, `ASSET_PLAN.md`.
+- 3D/immersive: `THREE_D_RELEVANCE_CONTRACT.md`, `THREE_D_BUILD_CONTRACT.md`, `SCENE_ASSET_PLAN.md`, `PERFORMANCE_AND_FALLBACK_PLAN.md`.
+- Any selected product-domain pack: the pack-specific contract named by its `pack.json`.
 
-- `COMMERCE_BUILD_CONTRACT.md`
+## Design-selection rule
 
-For a celebration or couple microsite, also create:
+Production-theme selection must be evidence-based. Use the orchestrator or:
 
-- `EVENT_BUILD_CONTRACT.md`
-- `COUPLE_CONTENT_PLAN.md`
-- `ASSET_PLAN.md`
+```bash
+python scripts/score-design-selection.py business-profile.json --domain-pack <pack-id> --asset-readiness <strong|adequate|limited|none>
+```
 
-Use the project initializer for core files and copy pack-specific templates from the selected pack.
+Do not choose a more dramatic lower-scoring direction without a documented product reason. Resolve `tie-or-review` before coding.
 
-Contracts must identify:
+Use `system/section-recipes.json` for section composition rather than repeating one pattern across the page. Section recipes are composition contracts, not templates to clone.
 
-- Product/event, primary users or guests, top tasks, risk and success outcome.
-- Page purpose and one primary action per page or state.
-- Content-density mode and copy budgets.
-- Primary style, production theme, supporting references, motion model and selected pack.
-- Component inventory and required states.
-- Responsive, accessibility, performance and reduced-motion requirements.
-- What is omitted, deferred or disclosed progressively.
-- Verified facts, assumptions, private information, asset provenance, consent and owner-confirmation items.
-- Sources of truth, integrations, prototype-only capabilities and recovery rules.
-- Privacy, retention and post-event or post-transaction behaviour when relevant.
+## Component intelligence rule
 
-## Product-design rules
+Component semantics outrank appearance. Resolve ambiguous controls through:
 
-- Design around the user's or guest's task, not a template's available sections.
-- Give every page one clear purpose and one primary action.
-- Prioritise the first viewport; explain the product or event and next action without an essay.
-- Use one primary visual system. Add supporting references only to solve a specific gap.
-- Prefer hierarchy, spacing, composition, product UI, data, media and interaction over additional paragraphs.
-- Define the complete journey and all meaningful loading, empty, error, success, permission, destructive and recovery states.
-- Avoid card soup and filler sections.
-- Make practical business or event information easy to find.
-- For commerce, treat browsing, configuration, cart, checkout, confirmation and recovery as the product.
-- For celebrations, treat invitation, event details, guest access, RSVP, event-day status and post-event transition as one lifecycle.
+```bash
+python scripts/resolve-component-contract.py "<component or alias>"
+```
 
-## Content-design rules
+For compatible React/Tailwind projects, HeroUI may provide a useful implementation primitive, but its default visual treatment must still be adapted to the selected domain/theme.
 
-- Treat words as interface material with a budget.
-- Default to `balanced` density unless the product clearly requires `sparse`, `informational` or `data-dense`.
-- Keep hero headlines specific and usually 5–12 words; support copy usually 15–35 words.
-- Move secondary detail into dedicated pages, tabs, accordions, drawers or contextual help.
-- Remove duplicate benefits, repeated actions, filler and generic AI marketing language.
-- Use concrete product, industry or event terminology.
+Hard distinctions include:
+
+- Button performs an action; Link navigates.
+- Select commits form values; Dropdown Menu exposes actions/navigation.
+- Combobox adds typed filtering/search behavior.
+- Tooltip is concise supplementary information; Popover may contain interactive content.
+- Alert is persistent/prominent; Toast is transient.
+- Tabs switch peer panels; Stepper represents sequence/progress.
+- Accordion is disclosure; Tree View is hierarchical navigation/data.
+- Spinner is indeterminate; Progress Bar is measurable.
+
+Implement required loading, empty, error, success, disabled, hover, focus, active, selected, permission and recovery states where meaningful.
+
+## Product and content rules
+
+- Design around the user's task, not a template's available sections.
+- Give each page/state a clear purpose and primary action.
+- Keep the first viewport concise and specific.
+- Prefer hierarchy, product UI, media, data and interaction over unnecessary prose.
+- Avoid card soup, repeated section rhythm and generic AI marketing language.
 - Separate verified facts from assumptions.
-- Do not invent claims, prices, hours, addresses, availability, discounts, event dates, venues, guest rules, couple stories, quotations, scriptures, travel arrangements or financial details.
-- Application screens use task language, not promotional language.
-- Commerce keeps price, availability, branch, fulfilment, fees, total and next action explicit.
-- Celebration homepages summarise; biographies, timelines, FAQs and travel details use dedicated pages or progressive disclosure.
+- Do not invent claims, prices, hours, addresses, availability, credentials, event details, discounts, integrations, customer proof or operational capabilities.
 
-## Asset and art-direction rules
+## Asset rules
 
-- Use user-provided, original, generated, owned or clearly licensed assets only.
-- Do not hotlink or copy protected target-site media.
-- Do not present generated or stock imagery as official business or couple photography.
-- Plan subject, purpose, crop, focal point, aspect ratio, mobile treatment, alternative text, access, consent and provenance before implementation.
-- Keep product photography or event-media treatment consistent.
-- Do not repeat one photograph across unrelated sections merely to fill space.
-- Use process imagery to prove process claims.
-- For food commerce, follow `packs/fast-casual-commerce/food-photography-standard.md`.
-- For celebrations, follow `packs/celebration-event-microsite/photography-and-video-standard.md`; never present generated people as the real couple, relatives or guests.
+Use user-provided, original, generated, owned or clearly licensed assets. Do not hotlink or copy protected target-site media. Do not present generated/stock imagery as official business photography. Track provenance and keep visual subject matter relevant to the section and business.
 
-## Celebration privacy and lifecycle rules
+## 3D and immersive rules
 
-For celebration sites:
+3D is not decoration. It must explain, inspect, configure, compare, navigate or tell a verified story about a relevant subject.
 
-- Choose a privacy model before implementation.
-- Guest lookup must resist enumeration and enforce access server-side; never download the whole guest list to the browser.
-- Invitation codes must be non-guessable, rate limited and excluded from analytics.
-- RSVP confirmation requires acceptance by the real source of truth.
-- Financial and gift-delivery details require host confirmation and deliberate disclosure or verified access.
-- Do not expose private guest, travel, contact, media or gifting information in metadata, page source or analytics contrary to the contract.
-- Use verified ISO instants and an IANA timezone.
-- Distinguish upcoming, today, in-progress, completed, post-event and archived states.
-- Never leave “Today is the day” active after the final event ends.
-- After completion, replace countdown and RSVP urgency with thank-you, gallery or archive behaviour.
+Use:
 
-## Front-end engineering rules
+```bash
+python scripts/select-3d-interaction-plan.py business-profile.json --subject-class <class> --goal <goal>
+```
 
-- Preserve the target repository's stack and conventions unless a documented reason requires change.
-- Implement design tokens and reusable primitives before duplicating page markup.
-- Use semantic HTML, keyboard support, visible focus, correct labels and accessible names.
-- Implement all relevant states, including loading, empty, error, success, disabled, hover, focus, active, selected and permission states.
-- Test realistic long content, names, venue titles, numbers, validation messages and mobile widths.
-- Use the smallest motion tool that solves the problem.
-- Motion must explain hierarchy, change, continuity, status, causality, ceremony or memory; decorative motion must never delay tasks.
-- Support `prefers-reduced-motion` and static/no-animation fallbacks.
-- Scroll-reveal content must remain visible when JavaScript or animation initialisation fails.
-- Prefer transform and opacity to continuous layout animation.
-- Account for sticky-header height and test browser zoom.
-- Prevent horizontal overflow and deliberately transform mobile layouts.
-- Revalidate transactional data and permissions on the server; use idempotency for payment/order submission.
+Camera operations are not interchangeable effects: zoom changes FOV; dolly moves camera position; orbit inspects a bounded subject; fly-through is for navigable space; section transitions require meaningful internal structure.
 
-## Style selection and originality
+Reject unrelated spectacle, fake product/property geometry, unverified assembly/internal parts, and interaction models that do not fit the subject. Essential content/actions remain semantic DOM with reduced-motion and non-WebGL fallbacks.
 
-Pick one primary style bundle for global colour, typography, spacing, shape, components, tone and motion attitude. Pick screen references only for page-specific composition and behaviour. Add the matching domain pack.
+## Originality rule
 
-Before coding, state:
-
-- Primary style bundle and path.
-- Selected production theme and domain pack.
-- Supporting screen references and their purpose.
-- Why the direction matches the users/guests, density, tone, culture, transaction or event model and stack.
-- What will be adapted.
-- What will not be copied.
-
-Do not copy protected logos, people, screenshots, videos, product copy, personal stories, financial details, premium prompt text, exact animation sequences, proprietary layouts, product catalogues, promotions or checkout flows.
+References are for principles, not cloning. Do not copy protected logos, screenshots, source code, proprietary prompts, media, exact layout, exact choreography, branded copy, models or textures unless an applicable license/permission explicitly permits reuse and required notices are retained.
 
 ## Anti-generic UI rule
 
-Reject and revise designs with several unsupported signals:
-
-- Default purple/blue gradients or glass cards.
-- Oversized headlines followed by long paragraphs.
-- Repeated rounded cards containing similar copy.
-- Decorative sparkles, blobs, petals or badges with no meaning.
-- Identical section rhythm throughout.
-- Excessive pills and radii.
-- Generic icons and vague benefits.
-- Several animation libraries or motion on every object.
-- Desktop-only polish.
-- Repeated or misleading imagery.
-- Transactional or RSVP features visually suggested but not integrated or labelled as prototype.
-- Celebration styling that could be reassigned to any couple without meaningful change.
-
-Use the anti-generic checklist, selected pack and validators before handoff.
+Reject designs dominated by unsupported purple/blue gradients, glass cards, giant type, excessive pills, repeated rounded cards, generic icons, decorative blobs/sparkles, vague benefits, motion everywhere, repeated imagery, or a layout that could be relabelled for an unrelated business without substantial change.
 
 ## Rendered visual-QA rule
 
-A browser-rendered build is not complete from source inspection alone.
+Source inspection is not visual QA. After first render, run `prompts/VISUAL_QA_AND_REVISION.md` and inspect desktop, laptop and mobile states.
 
-After the first render, execute `prompts/VISUAL_QA_AND_REVISION.md`. Capture and inspect desktop, laptop, relevant tablet and mobile views. Record findings, apply fixes, rebuild and recapture affected views.
+Create `VISUAL_QA_OBSERVATIONS.json` and `DESIGN_CRITIC_OBSERVATIONS.json`, then run:
 
-For restaurant commerce, render menu, customiser, cart, checkout, confirmation and relevant failure states.
+```bash
+python scripts/validate-anti-generic-visual.py <site-root> VISUAL_QA_OBSERVATIONS.json --json-out visual-qa-score.json
+python scripts/run-design-critic.py vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json --json-out design-critic-result.json
+```
 
-For celebration microsites, render upcoming, RSVP-open, event-today, in-progress, completed and post-event states; couple profiles; timeline; gallery/viewer; video dialog; RSVP default/error/submitting/confirmed/closed; guest-code; gifting; mobile menu; reduced-motion and no-animation modes.
-
-Do not merely list visual problems. Correct them before handoff.
+The anti-generic minimum is 75 and the Design Critic minimum is 80. Revise until both pass. Horizontal overflow, unverified media provenance, unverified primary action and benchmark hard failures cannot be waived by a high numeric score.
 
 ## Localhost Truthfulness Rule
 
-- Never imply that a server in a remote environment is reachable from the user's computer.
-- When operating on the user's machine, start the server there, verify the exact port and HTTP response and keep it alive.
-- When operating remotely, explain the boundary and provide a deployable package, self-contained preview or exact local instructions.
-- Do not fabricate server status, paths, ports, screenshots or validation results.
+Never imply that a remote server is reachable from the user's computer. When operating on the user's machine, start the exact build there and verify the port/HTTP response. When operating remotely, explain that boundary and provide a deployable package, preview or exact local instructions. Never fabricate server status, paths, ports, screenshots or validation results.
 
-## Validation and handoff
+## Handoff
 
 Before claiming completion:
 
 1. Run available lint, typecheck, tests and build.
-2. Run `scripts/validate-content-design.py <target-root>`.
-3. Run the selected domain-pack validator.
-4. Run `scripts/validate-generated-site.ps1 -SiteRoot <target-root>` when PowerShell is available.
-5. Inspect at least 1440×1000, 1280×800 and approximately 390×844; add pack-specific states and viewports.
-6. Verify keyboard flow, focus, forms, long content, mobile navigation, sticky elements, reduced motion, no-animation fallback and meaningful error/success states.
-7. Confirm required planning artifacts exist and no placeholders, copied media, hotlinked assets, TODO-heavy UI or console debugging remain.
-8. Summarise selected references, pack, content, assets, consent, states, integrations, checks, screenshots and risks.
-9. Distinguish verified, provisional, private, generated, licensed, integrated and prototype-only content/capabilities.
-10. Give truthful local or deployed access instructions.
+2. Validate the selected domain pack and content rules.
+3. Verify keyboard/focus/forms, long content, mobile navigation, sticky elements, reduced motion and recovery states.
+4. Pass the rendered anti-generic gate and Design Critic.
+5. Confirm planning artifacts exist and no placeholders, TODO-heavy UI, copied media or user-impacting console errors remain.
+6. Distinguish verified, provisional, generated, licensed, integrated and prototype-only content/capabilities.
+7. Provide truthful access instructions and known limitations.
 
-Do not hand off a page that is merely attractive. Hand off a coherent, accurate and trustworthy product experience.
+Do not hand off a page that is merely attractive. Hand off a coherent, accurate, original and trustworthy product experience.

@@ -1,0 +1,482 @@
+{
+  "name": "3D & Immersive Web Technique Catalog",
+  "version": "1.0.0",
+  "techniques": [
+    {
+      "id": "shared-canvas-dom-sync",
+      "name": "Shared Canvas Dom Sync",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "r3f-scroll-rig",
+      "name": "R3F Scroll Rig",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "theatre-camera-sequence",
+      "name": "Theatre Camera Sequence",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "model-viewer-product",
+      "name": "Model Viewer Product",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "gltf-meshopt-pipeline",
+      "name": "Gltf Meshopt Pipeline",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "ktx2-texture-pipeline",
+      "name": "Ktx2 Texture Pipeline",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "baked-lighting-world",
+      "name": "Baked Lighting World",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "pbr-studio-product",
+      "name": "Pbr Studio Product",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "bounded-orbit-controls",
+      "name": "Bounded Orbit Controls",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "camera-preset-state",
+      "name": "Camera Preset State",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "hotspot-dom-bridge",
+      "name": "Hotspot Dom Bridge",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "multi-view-single-renderer",
+      "name": "Multi View Single Renderer",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "instanced-world",
+      "name": "Instanced World",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "gpu-particle-field",
+      "name": "Gpu Particle Field",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "transmission-material",
+      "name": "Transmission Material",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "procedural-liquid-shader",
+      "name": "Procedural Liquid Shader",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "section-cut-clipping",
+      "name": "Section Cut Clipping",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "exploded-view-sequence",
+      "name": "Exploded View Sequence",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "digital-twin-streaming",
+      "name": "Digital Twin Streaming",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "globe-verified-routes",
+      "name": "Globe Verified Routes",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "context-loss-recovery",
+      "name": "Context Loss Recovery",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "adaptive-dpr",
+      "name": "Adaptive Dpr",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "capability-tier-gate",
+      "name": "Capability Tier Gate",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "intent-based-preload",
+      "name": "Intent Based Preload",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "xr-hit-test-placement",
+      "name": "Xr Hit Test Placement",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "portal-fbo-transition",
+      "name": "Portal Fbo Transition",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "skeletal-character-state",
+      "name": "Skeletal Character State",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "rive-pseudo-3d-character",
+      "name": "Rive Pseudo 3D Character",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "spline-embedded-scene",
+      "name": "Spline Embedded Scene",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "css-perspective-depth",
+      "name": "Css Perspective Depth",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "video-turntable",
+      "name": "Video Turntable",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "image-sequence-scroll",
+      "name": "Image Sequence Scroll",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "webgpu-progressive-enhancement",
+      "name": "Webgpu Progressive Enhancement",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    },
+    {
+      "id": "scene-asset-disposal",
+      "name": "Scene Asset Disposal",
+      "stack": [
+        "Select the smallest relevant official tool"
+      ],
+      "solves": "A specific rendering, interaction, asset-pipeline or resilience problem.",
+      "keyPractices": [
+        "measure",
+        "keep DOM equivalent",
+        "design a lower tier"
+      ],
+      "fallback": "Static, video or standard DOM equivalent."
+    }
+  ]
+}

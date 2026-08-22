@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Agent Index",
-  "generatedAt": "2026-08-05",
+  "generatedAt": "2026-08-15",
   "purpose": "Machine-readable entry point for agents choosing and adapting UI references from this vault.",
   "entryPoints": {
     "humanReadme": "README.md",
@@ -32,7 +32,13 @@
     "motionSitesPromptReferences": "motion/MOTIONSITES_PROMPT_REFERENCES.md",
     "motionSitesPromptCatalog": "motion/motionsites-prompt-catalog.json",
     "promptReferenceSelector": "scripts/select-prompt-references.ps1",
-    "promptReferenceValidator": "scripts/validate-prompt-references.ps1"
+    "promptReferenceValidator": "scripts/validate-prompt-references.ps1",
+    "threeDImmersivePack": "packs/3d-immersive-web/pack.json",
+    "threeDSourceCatalog": "3d/source-catalog.json",
+    "threeDReferenceCatalog": "3d/references/refs-gallery-3d.json",
+    "threeDTechniqueCatalog": "3d/techniques/technique-catalog.json",
+    "threeDReferenceSelector": "scripts/select-3d-references.py",
+    "threeDValidator": "scripts/validate-3d-immersive-pack.py"
   },
   "inventory": {
     "styleBundles": 520,
@@ -54,7 +60,11 @@
     "motionSitesAnimatedBackgrounds": 145,
     "motionSitesCopyPromptCards": 53,
     "motionSitesPremiumPromptCards": 102,
-    "motionSitesPromptReferenceRoot": "motion"
+    "motionSitesPromptReferenceRoot": "motion",
+    "threeDStyleFamilies": 21,
+    "threeDReferences": 0,
+    "threeDReferenceSources": 30,
+    "threeDTechniques": 34
   },
   "selectionProtocol": [
     "Inspect the target repository and identify product type, audience, page needs, interaction density, tone, accessibility constraints, and styling stack.",
@@ -71,7 +81,8 @@
     "Run generated-site, visual, asset, responsive, and available project checks before handoff.",
     "For landing pages, motion graphics websites, cinematic hero sections, product tours, scroll stories, or animated UI, run scripts/select-motion-references.ps1 and read motion/LANDING_PAGE_MOTION_GUIDE.md before implementation.",
     "When the build needs external premium motion direction, licensed animation assets, interactive 3D, or implementation examples, run scripts/select-premium-motion-sources.ps1 and record selected URLs and license notes before implementation.",
-    "When the build needs prompt scaffolding, section prompt direction, app prompt direction, or animated background strategy, run scripts/select-prompt-references.ps1 and record selected MotionSites source/access notes before implementation."
+    "When the build needs prompt scaffolding, section prompt direction, app prompt direction, or animated background strategy, run scripts/select-prompt-references.ps1 and record selected MotionSites source/access notes before implementation.",
+    "When 3D is requested, apply the 3D & Immersive Web capability pack alongside the matching product-domain pack, complete the 3D contracts and prove the static fallback."
   ],
   "scoringWeights": {
     "productDomainFit": 25,

@@ -1,0 +1,106 @@
+{
+  "name": "3D Interaction Intent System",
+  "version": "1.1.0",
+  "purpose": "Prevent visually impressive but semantically wrong 3D interactions by matching business relevance, subject structure, user goal, camera behaviour and technical implementation before scene design.",
+  "hardRules": [
+    "Never choose an interaction because it is impressive; choose it because it explains, inspects, configures, compares, navigates or tells a verified story about the subject.",
+    "The 3D subject itself must be relevant to the verified business. A valid interaction pattern cannot rescue an unrelated subject.",
+    "A subject must support the proposed motion physically or conceptually. Assembly requires meaningful separable parts; exploded view requires real component hierarchy; walkthrough requires navigable spatial geometry; material switching requires real variants.",
+    "Camera motion must serve the task. Zoom, orbit, dolly, truck, pan, crane, fly-through and first-person navigation are not interchangeable effects.",
+    "Do not animate a real product, property or mechanism in ways that imply capabilities, geometry or construction that are not verified.",
+    "For scroll-driven scenes, define authored camera states and semantic chapters before interpolation.",
+    "For direct manipulation, preserve stable orientation, bounded controls, reset/recenter and keyboard/DOM alternatives.",
+    "When a still, video or CSS treatment communicates the same information more clearly, prefer the simpler medium.",
+    "Every interaction must have reduced-motion and non-WebGL fallbacks that preserve the primary information and action."
+  ],
+  "subjectClasses": [
+    {
+      "id": "assembled-product",
+      "businessSignals": ["hardware", "device", "electronics", "machine", "manufacturing", "automotive", "vehicle", "product"],
+      "examples": ["car", "motorcycle", "machine", "appliance", "watch", "hardware device"],
+      "validGoals": ["inspect", "explain-construction", "configure", "compare", "story"],
+      "allowedInteractions": ["bounded-orbit-inspection", "camera-preset-navigation", "object-hotspots", "exploded-view", "object-assembly", "material-switch", "camera-look-at-focus", "timeline-scrub", "scroll-camera-path"],
+      "conditionalInteractions": ["section-cut", "model-morph"],
+      "requirements": ["verified model geometry", "named component hierarchy for assembly/explosion", "authored camera targets", "variant truth for material/configuration changes"],
+      "reject": ["free first-person navigation around a small product", "parts forming from arbitrary particles when the product has no meaningful assembly story", "unbounded orbit that loses product orientation"]
+    },
+    {
+      "id": "vehicle",
+      "businessSignals": ["automotive", "car", "vehicle", "motorcycle", "mobility", "fleet", "truck", "bicycle"],
+      "examples": ["car", "truck", "motorcycle", "bicycle"],
+      "validGoals": ["inspect", "explain-construction", "configure", "compare", "story"],
+      "allowedInteractions": ["bounded-orbit-inspection", "camera-preset-navigation", "object-hotspots", "exploded-view", "object-assembly", "material-switch", "camera-look-at-focus", "scroll-camera-path", "timeline-scrub"],
+      "cameraLanguage": ["dolly-in for detail reveal", "dolly-out for whole-form reveal", "low lateral truck for silhouette", "bounded orbit for inspection", "authored cockpit/interior presets"],
+      "requirements": ["verified vehicle model", "separate component meshes for assembly/explosion", "wheel/interior/body materials separated when configurable", "camera collision or bounds"],
+      "reject": ["vehicle interactions on unrelated businesses", "fake drivetrain internals", "impossible deformation presented as product behaviour", "continuous spinning as the primary experience"]
+    },
+    {
+      "id": "architecture-property",
+      "businessSignals": ["real estate", "property", "architecture", "interior", "hotel", "resort", "building", "developer", "apartment", "office", "hospitality"],
+      "examples": ["house", "apartment", "office", "hotel", "development", "interior"],
+      "validGoals": ["inspect", "navigate-space", "compare", "explain-layout", "story"],
+      "allowedInteractions": ["camera-preset-navigation", "guided-world-nodes", "first-person-navigation", "section-cut", "model-measurement", "object-hotspots", "scroll-camera-path", "camera-look-at-focus", "map-location-focus"],
+      "conditionalInteractions": ["bounded-orbit-inspection", "exploded-view"],
+      "cameraLanguage": ["exterior orbit only when site context matters", "dolly through thresholds", "room-to-room authored nodes", "floor/section elevation changes", "zoom-to-unit or amenity"],
+      "requirements": ["verified spatial geometry or clearly labelled concept model", "scale and dimensions truth", "collision/navigation bounds", "floor/room labels", "render-versus-reality provenance"],
+      "reject": ["house parts flying together unless construction sequence is the actual story", "unverified rooms or amenities", "camera paths that pass through solid walls without an intentional section transition", "free-flight controls when a guided property tour is clearer"]
+    },
+    {
+      "id": "garment-textile",
+      "businessSignals": ["fashion", "couture", "tailor", "tailoring", "garment", "apparel", "clothing", "kaftan", "suit", "fabric", "textile", "atelier"],
+      "examples": ["suit", "kaftan", "dress", "shoe", "bag", "fabric"],
+      "validGoals": ["inspect", "compare", "configure", "show-material", "story"],
+      "allowedInteractions": ["bounded-orbit-inspection", "camera-preset-navigation", "material-switch", "object-hotspots", "camera-look-at-focus", "scroll-camera-path"],
+      "conditionalInteractions": ["skeletal-animation-control", "model-morph"],
+      "requirements": ["garment or material relevance", "accurate drape/fit representation if simulated", "real variant evidence for fabric switching"],
+      "reject": ["mechanical exploded view of a garment without a construction purpose", "automotive-style assembly choreography", "fabric physics implying material properties that are not known"]
+    },
+    {
+      "id": "food-product",
+      "businessSignals": ["restaurant", "food", "pizza", "cafe", "bakery", "meal", "drink", "menu", "delivery"],
+      "examples": ["pizza", "meal", "drink", "packaged food"],
+      "validGoals": ["inspect", "show-ingredients", "configure", "show-process", "story"],
+      "allowedInteractions": ["camera-preset-navigation", "object-hotspots", "camera-look-at-focus", "timeline-scrub", "scroll-camera-path"],
+      "conditionalInteractions": ["object-assembly", "material-switch"],
+      "requirements": ["actual menu/product relevance", "ingredient truth", "food-safe and appetising art direction"],
+      "reject": ["industrial exploded view language", "unrelated mechanical assembly", "ingredients or toppings not actually offered"]
+    },
+    {
+      "id": "spatial-data",
+      "businessSignals": ["logistics", "shipping", "supply chain", "data", "analytics", "network", "infrastructure", "mapping", "fleet", "global", "route", "operations"],
+      "examples": ["globe", "network", "route map", "digital twin", "operations map"],
+      "validGoals": ["explore-data", "compare", "navigate", "monitor", "story"],
+      "allowedInteractions": ["data-driven-particles", "globe-route-animation", "map-location-focus", "camera-preset-navigation", "object-hotspots", "timeline-scrub", "scroll-annotation-sync"],
+      "requirements": ["verified data mapping", "legend", "DOM/table equivalent", "clear spatial encoding"],
+      "reject": ["decorative globe with fake routes", "particle motion that is not mapped to data", "3D depth that makes values harder to compare"]
+    },
+    {
+      "id": "abstract-concept",
+      "businessSignals": ["any"],
+      "examples": ["service process", "brand motif", "system architecture", "conceptual network"],
+      "validGoals": ["explain", "story", "orient"],
+      "allowedInteractions": ["scroll-camera-path", "scroll-annotation-sync", "camera-preset-navigation", "data-driven-particles", "3d-text-extrusion"],
+      "requirements": ["documented concept mapping", "labels or annotations", "clear reason 3D improves understanding"],
+      "reject": ["generic premium geometry with no mapping", "random liquid/refraction spectacle", "abstract object that could be reused unchanged for any industry"]
+    }
+  ],
+  "cameraOperations": {
+    "zoom": "Change lens field-of-view. Use sparingly because it changes perspective compression and can feel unnatural.",
+    "dolly-in-out": "Move camera toward or away from the subject. Preferred for cinematic approach/reveal and property movement when spatial relationship matters.",
+    "orbit": "Rotate camera around a stable target. Use for inspection of bounded objects, not as a default website effect.",
+    "pan-tilt": "Rotate camera from a fixed position. Use to redirect attention without changing position.",
+    "truck-pedestal": "Translate camera laterally or vertically. Useful for silhouette, architecture and spatial reveal.",
+    "fly-through": "Translate through a navigable environment. Appropriate for property, spatial worlds and verified digital twins, with collision/bounds and guided alternatives.",
+    "target-focus": "Interpolate camera and target to a labelled detail. Appropriate for components, rooms, amenities and hotspots.",
+    "section-transition": "Coordinate clipping/section planes with camera movement to reveal interiors or layers. Requires meaningful internal structure."
+  },
+  "implementationFamilies": [
+    {"id":"authored-video","bestFor":["cinematic non-interactive assembly", "high-fidelity one-way story"],"limits":["not true free inspection", "harder to adapt to user-controlled viewpoint"]},
+    {"id":"image-sequence","bestFor":["precise scroll-scrub reveal", "pre-rendered product or architecture motion"],"limits":["large asset count", "fixed camera path"]},
+    {"id":"spline","bestFor":["moderate interactive scenes", "art-directed product/brand scenes"],"limits":["runtime/export constraints", "complex custom logic may outgrow tool"]},
+    {"id":"model-viewer","bestFor":["bounded product inspection", "AR preview"],"limits":["limited bespoke choreography"]},
+    {"id":"three-r3f","bestFor":["custom interaction", "assembly", "exploded views", "configurators", "data-driven scenes", "complex camera systems"],"limits":["engineering/performance complexity"]},
+    {"id":"babylon","bestFor":["rich 3D applications", "configurators", "XR", "physics-heavy scenes"],"limits":["runtime complexity"]},
+    {"id":"webgpu-custom","bestFor":["specialised high-end rendering or compute"],"limits":["compatibility and engineering cost", "must have strong justification"]}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "manual-curation",
+  "retrievedAt": "2026-08-16T00:00:00Z",
+  "records": [
+    {
+      "id": "example-project",
+      "title": "Example Immersive Project",
+      "sourceType": "reference-gallery",
+      "projectPage": "https://example.com/project-reference-page",
+      "liveUrl": "https://example.com/live-project",
+      "creator": "Replace with clearly published creator information",
+      "description": "Write a short original description; never copy the source's full marketing copy.",
+      "tags": ["3d", "product"],
+      "styleFamily": "photoreal-product-reveal",
+      "interactionPatterns": ["bounded-orbit-inspection"],
+      "probableStack": ["unknown"],
+      "performanceRisk": "unknown",
+      "mobileStrategy": "Review and document the real mobile behaviour.",
+      "accessibilityFallback": "Review and document a non-3D equivalent.",
+      "usagePolicy": "reference-only",
+      "licencePosture": "A reference listing does not grant reuse rights.",
+      "copyPolicy": "Do not copy code, media, branding, copy or exact composition.",
+      "reviewStatus": "unreviewed"
+    }
+  ]
+}

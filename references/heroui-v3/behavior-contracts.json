@@ -1,0 +1,40 @@
+{
+  "name": "HeroUI v3 Behavior Contracts",
+  "version": "1.0.0",
+  "purpose": "Capture implementation behavior and state expectations from HeroUI's React/React Aria architecture without treating HeroUI visual styling as mandatory.",
+  "source": {"repository":"heroui-inc/heroui","ref":"v3","package":"@heroui/react","packageVersion":"3.2.4"},
+  "components": [
+    {"id":"button","states":["default","hovered","pressed","focus-visible","disabled"],"requiredBehavior":["accessible button role/name","Enter and Space activate","disabled blocks press","focus-visible exposed","press state can drive render-prop content"]},
+    {"id":"accordion","states":["collapsed","expanded","focus-visible","disabled"],"requiredBehavior":["button-like disclosure trigger","expanded state exposed","content associated with trigger","keyboard activation","multiple/single expansion policy explicit"]},
+    {"id":"alert-dialog","states":["closed","open","closing"],"requiredBehavior":["modal focus containment","destructive/important action clearly named","Escape/dismiss policy explicit","focus returns to trigger","dialog title/description accessible"]},
+    {"id":"autocomplete","states":["empty","typing","open","loading","no-results","selected","invalid","disabled"],"requiredBehavior":["editable text input","filtered option list","active option announced","keyboard option navigation","selection and free-text policy explicit"]},
+    {"id":"avatar","states":["image","fallback","loading","error"],"requiredBehavior":["meaningful accessible name when interactive/identity-critical","initials/image fallback","decorative avatar hidden when redundant"]},
+    {"id":"checkbox","states":["unchecked","checked","indeterminate","focus-visible","disabled","invalid"],"requiredBehavior":["Space toggles","label activates control","checked/indeterminate state announced","group relationship preserved"]},
+    {"id":"combo-box","states":["closed","open","typing","loading","no-results","selected","invalid","disabled"],"requiredBehavior":["text input plus popup list semantics","arrow-key option navigation","selection state announced","clear/reset behavior accessible"]},
+    {"id":"date-picker","states":["empty","open","selected","invalid","disabled"],"requiredBehavior":["date field and calendar relationship clear","calendar keyboard navigation","locale/date semantics preserved","validation announced","dismiss/focus return predictable"]},
+    {"id":"date-range-picker","states":["empty","selecting-start","selecting-end","complete","invalid","disabled"],"requiredBehavior":["range endpoints identifiable","calendar navigation accessible","range state announced","invalid ranges prevented or explained"]},
+    {"id":"drawer","states":["closed","opening","open","closing"],"requiredBehavior":["overlay focus policy","dismiss behavior explicit","placement intentional","close control keyboard accessible","mobile viewport respected"]},
+    {"id":"dropdown","states":["closed","open","item-focused","item-disabled"],"requiredBehavior":["trigger opens action/navigation menu","arrow-key navigation","Escape closes","focus return","not used as a form-value selector"]},
+    {"id":"form","states":["idle","dirty","validating","invalid","submitting","success","error"],"requiredBehavior":["persistent labels","errors associated with fields","submit status announced","disabled/submitting behavior deliberate","server errors recoverable"]},
+    {"id":"input","states":["empty","filled","focus-visible","disabled","readonly","invalid"],"requiredBehavior":["persistent accessible label","description/error relationship","native text editing","autocomplete/inputmode preserved"]},
+    {"id":"list-box","states":["idle","focused","selected","disabled-item","empty"],"requiredBehavior":["listbox/option semantics","arrow-key navigation","selection mode explicit","selected state announced","focus remains predictable"]},
+    {"id":"menu","states":["closed","open","focused-item","disabled-item"],"requiredBehavior":["menuitem semantics","arrow-key navigation","Enter/Space invoke","Escape closes","typeahead when appropriate"]},
+    {"id":"modal","states":["closed","opening","open","closing"],"requiredBehavior":["dialog semantics","focus containment","focus return","dismissable policy explicit","backdrop interaction explicit","title/heading accessible"]},
+    {"id":"pagination","states":["default","current","disabled-previous","disabled-next"],"requiredBehavior":["current page announced","previous/next have accessible names","page links/actions keyboard reachable","large page ranges condensed without losing meaning"]},
+    {"id":"popover","states":["closed","open"],"requiredBehavior":["anchored contextual content","trigger accessible","Escape dismissal","focus strategy based on interactive content","viewport collision handled"]},
+    {"id":"radio","states":["unchecked","checked","focus-visible","disabled","invalid"],"requiredBehavior":["one selection per radio group","arrow keys move within group","group label available","selected state announced"]},
+    {"id":"search-field","states":["empty","typing","results","no-results","loading","invalid"],"requiredBehavior":["search input named","clear action accessible","submission/filter behavior explicit","loading/no-results communicated"]},
+    {"id":"select","states":["closed","open","focused-option","selected","invalid","disabled"],"requiredBehavior":["form-value selection semantics","trigger reflects selected value","arrow-key option navigation","selection announced","label/error association"]},
+    {"id":"slider","states":["default","focus-visible","dragging","disabled","invalid"],"requiredBehavior":["arrow keys change value","min/max/current value exposed","step respected","touch/pointer drag has keyboard equivalent"]},
+    {"id":"switch","states":["off","on","focus-visible","disabled"],"requiredBehavior":["binary state announced","label names setting","Space toggles","state change immediate or save model explicit"]},
+    {"id":"table","states":["loading","ready","empty","error","row-selected","sorted"],"requiredBehavior":["accessible grid/table labeling","headers associated","selection model explicit","sorting exposed and keyboard operable","scroll container does not replace table semantics"]},
+    {"id":"tabs","states":["inactive","active","focus-visible","disabled"],"requiredBehavior":["tab/tablist/tabpanel relationship","arrow-key navigation","selected tab announced","focus and activation model explicit"]},
+    {"id":"toast","states":["entering","visible","leaving"],"requiredBehavior":["appropriate live-region announcement","does not steal focus","dismiss action accessible","critical information has persistent alternative"]},
+    {"id":"tooltip","states":["closed","open"],"requiredBehavior":["supplementary nonessential information","trigger remains independently understandable when possible","keyboard/focus access","no essential interactive controls inside tooltip"]}
+  ],
+  "upstreamEvidence": [
+    "Button tests verify accessible role/name, hover, pressed, focus-visible, disabled behavior and Enter/Space activation.",
+    "Table tests verify accessible grid labeling, selectable rows and sortable columns.",
+    "Modal implementation decomposes trigger, backdrop, container, dialog, heading, body, footer and close trigger around React Aria primitives."
+  ]
+}

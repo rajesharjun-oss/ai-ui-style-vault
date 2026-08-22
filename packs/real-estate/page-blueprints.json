@@ -1,0 +1,11 @@
+{
+  "blueprints": [
+    {"id":"property-discovery-home","purpose":"Move users quickly from proposition to suitable property","sections":["specific hero/search","featured inventory","location pathways","property types","trust/proof","viewing CTA"]},
+    {"id":"property-listing-index","purpose":"Compare available properties","sections":["filters","sort/status","listing results","map optional","empty/error states"]},
+    {"id":"property-detail","purpose":"Support an informed enquiry or viewing decision","sections":["media gallery","status/price","key facts","description","amenities/specifications","location","floorplan/documents","viewing CTA"]},
+    {"id":"development-detail","purpose":"Explain a project across place, product and delivery","sections":["hero/status","overview","residences/units","architecture/materials","amenities","location","timeline status","gallery","enquiry CTA"]},
+    {"id":"location-guide","purpose":"Explain verified place context","sections":["location summary","verified access/landmarks","map","neighbourhood media","related properties"]},
+    {"id":"agent-or-team","purpose":"Establish human contact and expertise","sections":["team intro","verified profiles","areas/property types","contact CTA"]},
+    {"id":"viewing-enquiry","purpose":"Capture qualified property interest","sections":["property context","contact details","viewing preferences","privacy/consent","success/recovery"]}
+  ]
+}

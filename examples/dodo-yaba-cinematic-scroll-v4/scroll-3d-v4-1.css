@@ -1,0 +1,16 @@
+@import url('./scroll-3d.css');
+
+/* V4.1 live pizza builder */
+.builder-group{margin:25px 0 0;border-top:1px solid rgba(255,255,255,.12);padding-top:20px}
+.builder-group>span{display:block;font:800 11px/1.2 Georgia,serif;letter-spacing:.17em;color:#d9c5b7;margin-bottom:12px}
+.buildbtns{margin:0;gap:8px}
+.buildbtns button{cursor:pointer;transition:background .2s ease,border-color .2s ease,color .2s ease,transform .2s ease}
+.buildbtns button:hover{transform:translateY(-1px);border-color:#fff7}
+.buildbtns button.active{background:#fff3df;color:#17120f;border-color:#fff3df}
+#comboBtns button.active{background:#ffc91f;border-color:#ffc91f}
+#toppingBtns button.active{background:#f45112;border-color:#f45112;color:#fff}
+.reset-build{margin-top:14px;border:0;background:none;color:#ffb38f;text-decoration:underline;text-underline-offset:4px;cursor:pointer;padding:4px 0;font-weight:700}
+.canvas-rig{display:grid;place-items:center;width:min(600px,74vw);aspect-ratio:1;transition:transform .4s ease}
+#builderCanvas{width:100%;height:100%;display:block;filter:drop-shadow(0 35px 45px rgba(0,0,0,.48));transform:translateZ(0);transition:filter .25s ease}
+.buildvisual:hover #builderCanvas{filter:drop-shadow(0 42px 52px rgba(0,0,0,.55))}
+@media(max-width:900px){.canvas-rig{width:min(580px,90vw)}.buildvisual{min-height:540px}.builder-group{margin-top:18px}}

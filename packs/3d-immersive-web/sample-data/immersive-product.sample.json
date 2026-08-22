@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "modular-speaker-demo",
+    "title": "Fictional Modular Speaker",
+    "experienceType": "product-launch",
+    "fictional": true
+  },
+  "purpose": {
+    "userProblem": "Understand fictional modular components and finishes.",
+    "why3d": "Exploded and selected-material states support understanding.",
+    "successMeasures": [
+      "specification visits",
+      "module comprehension",
+      "fallback task completion"
+    ]
+  },
+  "mediumDecision": {
+    "selected": "custom WebGL/WebGPU",
+    "considered": [
+      {
+        "medium": "DOM/CSS",
+        "decision": "fallback",
+        "reason": "Complete readable product story."
+      },
+      {
+        "medium": "custom WebGL/WebGPU",
+        "decision": "selected",
+        "reason": "Supports component and material state."
+      }
+    ]
+  },
+  "style": {
+    "styleFamily": "photoreal-product-reveal",
+    "productionTheme": "product-studio",
+    "blueprint": "cinematic-product-launch"
+  },
+  "tiers": [
+    {
+      "id": "static",
+      "trigger": "Unsupported or reduced data",
+      "experience": "Product renders and DOM chapters"
+    },
+    {
+      "id": "basic-mobile",
+      "trigger": "Low-power mobile",
+      "experience": "Low-detail model and presets"
+    },
+    {
+      "id": "balanced",
+      "trigger": "Default capable device",
+      "experience": "Compressed model and chapters"
+    },
+    {
+      "id": "high",
+      "trigger": "Measured high-end desktop",
+      "experience": "Higher LOD and selected effects"
+    }
+  ],
+  "fallback": {
+    "type": "product-gallery",
+    "preservesPrimaryTask": true,
+    "description": "Responsive renders and an exploded diagram preserve all product facts."
+  },
+  "assets": [
+    {
+      "id": "speaker-model",
+      "kind": "model",
+      "source": "owner-provided fictional demo",
+      "licenceClass": "owner-provided",
+      "runtimePath": "/models/speaker.glb",
+      "tiers": [
+        "basic-mobile",
+        "balanced",
+        "high"
+      ]
+    }
+  ],
+  "states": [
+    "loading-shell",
+    "loading-scene",
+    "decoding-model",
+    "compiling-shaders",
+    "interactive",
+    "low-power",
+    "context-lost",
+    "fallback-static"
+  ],
+  "semanticRelevance": {
+    "approvedSubjects": [
+      "modular speaker",
+      "speaker components",
+      "speaker materials"
+    ],
+    "forbiddenSubjects": [
+      "sports car",
+      "spaceship",
+      "unrelated luxury products"
+    ],
+    "assets": [
+      {
+        "assetId": "speaker-model",
+        "subject": "modular speaker",
+        "pagePurpose": "explain modular product construction",
+        "relationshipType": "product",
+        "evidence": "fictional product contract",
+        "relevanceScore": 5,
+        "role": "primary",
+        "decision": "approve"
+      }
+    ]
+  }
+}

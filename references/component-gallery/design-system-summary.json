@@ -1,0 +1,63 @@
+{
+  "name": "Component Gallery Design System Summary",
+  "version": "1.0.0",
+  "source": "https://component.gallery/design-systems/",
+  "observedDate": "2026-08-18",
+  "designSystems": 95,
+  "examples": 2671,
+  "technologyCounts": {
+    "React": 50,
+    "Sass": 22,
+    "Web Components": 20,
+    "CSS": 10,
+    "Vue": 9,
+    "CSS-in-JS": 8,
+    "Angular": 6,
+    "Mobile": 5,
+    "Nunjucks": 5,
+    "Tailwind CSS": 4,
+    "HTML": 4,
+    "Vanilla JS": 3,
+    "CSS Modules": 2,
+    "Svelte": 2,
+    "jQuery": 2,
+    "Ember": 1,
+    "Handlebars": 1,
+    "Twig": 1,
+    "Stimulus": 1
+  },
+  "featureCounts": {
+    "Code examples": 79,
+    "Open source": 69,
+    "Usage guidelines": 55,
+    "Accessibility": 27,
+    "Tone of voice": 20,
+    "Unmaintained": 11,
+    "Accessibility issues": 4,
+    "Research": 2
+  },
+  "highSignalSystems": [
+    {"name":"Polaris","organization":"Shopify","signals":["usage-guidelines","accessibility","tone-of-voice","code-examples"]},
+    {"name":"Elastic UI framework","organization":"Elastic","signals":["react","open-source","code-examples"]},
+    {"name":"Ariakit","organization":null,"signals":["react","open-source","accessibility","code-examples"]},
+    {"name":"HeroUI","organization":"HeroUI","signals":["react","tailwind-css","open-source","code-examples"]},
+    {"name":"Red Hat design system","organization":"Red Hat","signals":["web-components","usage-guidelines","code-examples"]},
+    {"name":"Visa Product Design System","organization":"Visa","signals":["angular","react","css","mobile","accessibility","usage-guidelines","open-source"]},
+    {"name":"Headless UI","organization":"Tailwind Labs","signals":["react","vue","accessibility","open-source"]},
+    {"name":"Gestalt","organization":"Pinterest","signals":["react","css","usage-guidelines","open-source"]},
+    {"name":"Base Web","organization":"Uber","signals":["react","css-in-js","usage-guidelines","open-source"]},
+    {"name":"Material Design","organization":"Google","signals":["mobile","web-components","sass","accessibility","usage-guidelines"]},
+    {"name":"Carbon Design System","organization":"IBM","signals":["react","angular","vue","svelte","web-components","usage-guidelines","open-source"]},
+    {"name":"Atlassian Design System","organization":"Atlassian","signals":["react","usage-guidelines","tone-of-voice","accessibility"]},
+    {"name":"W3C design system","organization":"W3C","signals":["sass","vanilla-js","accessibility","usage-guidelines","open-source"]},
+    {"name":"NHS Digital service manual","organization":"NHS","signals":["nunjucks","research","tone-of-voice","accessibility","usage-guidelines"]},
+    {"name":"Radix Primitives","organization":"WorkOS","signals":["react","open-source","code-examples"]}
+  ],
+  "usePolicy": [
+    "Use Component Gallery to discover terminology, cross-system conventions and upstream sources.",
+    "Treat each linked design system as a separate source with its own license and reuse rules.",
+    "Do not assume Component Gallery's presence grants rights to copy screenshots, code, icons or brand styling.",
+    "Prefer behavior and accessibility consensus across multiple systems over the visual styling of one system.",
+    "For implementation, choose a compatible licensed primitive such as HeroUI, React Aria, native HTML or another verified source."
+  ]
+}

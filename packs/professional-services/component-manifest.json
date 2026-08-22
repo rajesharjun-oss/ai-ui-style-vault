@@ -1,0 +1,14 @@
+{
+  "components": [
+    {"id":"service-pathway","states":["default","hover","focus"],"requirements":["specific service name","client problem","clear destination"]},
+    {"id":"credential-proof","states":["verified","owner-supplied"],"requirements":["sourceable credential","no decorative unsupported badges"]},
+    {"id":"case-proof","states":["verified","anonymised","provisional"],"requirements":["context","approach","outcome status","confidentiality-aware wording"]},
+    {"id":"expert-profile","states":["default","expanded"],"requirements":["real person","role","expertise","approved biography/photo"]},
+    {"id":"sector-pathway","states":["default","hover","focus"],"requirements":["specific sector","relevant issue or service"]},
+    {"id":"insight-card","states":["default","loading","unavailable"],"requirements":["real title","date when verified","topic"]},
+    {"id":"engagement-steps","states":["default","active"],"requirements":["real process only","no invented timelines"]},
+    {"id":"consultation-cta","states":["default","channel-unavailable","success","error"],"requirements":["verified contact route","specific intent"]},
+    {"id":"trust-disclosure","states":["default"],"requirements":["clear limits on case/client/credential claims"]},
+    {"id":"office-contact","states":["verified","needs-confirmation"],"requirements":["verified address/contact/hours only"]}
+  ]
+}

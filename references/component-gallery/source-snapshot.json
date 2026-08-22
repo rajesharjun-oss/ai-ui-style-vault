@@ -1,0 +1,28 @@
+{
+  "name": "The Component Gallery",
+  "source": "https://component.gallery/",
+  "capturedAt": "2026-08-18",
+  "purpose": "Cross-design-system component intelligence source. Use for taxonomy, aliases, interaction distinctions, accessibility guidance, source comparison and implementation research; do not treat examples as clone templates.",
+  "inventory": {
+    "canonicalComponentCategories": 60,
+    "designSystems": 95,
+    "examples": 2671,
+    "designSystemsWithGitHub": 70,
+    "designSystemsWithFigma": 23,
+    "designSystemsWithStorybook": 23,
+    "reactSystems": 50,
+    "webComponentSystems": 20,
+    "tailwindSystems": 4,
+    "systemsWithCodeExamples": 79,
+    "openSourceSystems": 69,
+    "systemsWithUsageGuidelines": 55,
+    "systemsWithAccessibilityGuidance": 27,
+    "systemsWithToneOfVoice": 20
+  },
+  "rightsPolicy": [
+    "Component Gallery is used as a reference/index source, not as permission to copy downstream design-system code or screenshots.",
+    "Each downstream design system retains its own licence and terms; verify those before source reuse.",
+    "Store normalized metadata, aliases, behavioral distinctions and source links rather than mirrored screenshots.",
+    "Prefer original implementation or an explicitly licensed implementation library such as HeroUI when it fits the target stack."
+  ]
+}

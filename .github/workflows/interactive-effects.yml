@@ -1,0 +1,38 @@
+name: Interactive effects
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-interactive-effects:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile tools
+        run: |
+          python -m py_compile scripts/interactive-effects.py scripts/vault-mcp.py scripts/build-vault-studio-index.py scripts/vault-agent.py
+      - name: Validate JSON and contracts
+        run: |
+          python -m json.tool interactive-effects/effects.json >/dev/null
+          python -m json.tool interactive-effects/effect-contract.schema.json >/dev/null
+          python -m json.tool references/threeui-community.json >/dev/null
+          python -m json.tool quality/EFFECT_QA_OBSERVATIONS.template.json >/dev/null
+          python scripts/interactive-effects.py validate
+      - name: Validate Studio index build
+        run: |
+          python scripts/build-vault-studio-index.py --output /tmp/vault-studio-index.json
+          python -m json.tool /tmp/vault-studio-index.json >/dev/null
+      - name: Validate MCP surface
+        run: |
+          python scripts/vault-mcp.py --list-tools >/tmp/vault-mcp-tools.json
+          python -m json.tool /tmp/vault-mcp-tools.json >/dev/null
+      - name: Run tests
+        run: python -m unittest tests.test_interactive_effects -v

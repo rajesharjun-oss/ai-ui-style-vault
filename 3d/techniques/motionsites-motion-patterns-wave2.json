@@ -1,0 +1,20 @@
+{
+  "source": "MotionSites public tutorials and indexed examples",
+  "reviewedAt": "2026-08-17",
+  "usagePolicy": "reference-only abstraction",
+  "patternCount": 12,
+  "patterns": [
+    {"id":"poster-video-canvas-crossfade","name":"Poster → Video → Canvas Crossfade","summary":"Progressively upgrade the same visual from poster to video to canvas while crossfading between media layers.","bestFor":["cinematic hero","scroll scrub","performance-sensitive media"]},
+    {"id":"frame-cache-scrubber","name":"Frame-Cache Scrubber","summary":"Decode a bounded frame cache from video and draw frame bitmaps by scroll progress for smoother deterministic scrubbing.","bestFor":["product transformation","food assembly","hardware reveal"]},
+    {"id":"scroll-lerp-controller","name":"Scroll Lerp Controller","summary":"Interpolate current motion progress toward target scroll progress inside requestAnimationFrame instead of applying raw scroll directly.","bestFor":["cinematic scroll","camera motion","image sequence"]},
+    {"id":"canvas-object-cover-render","name":"Canvas Object-Cover Render","summary":"Draw media to canvas using object-cover math so framing stays consistent across responsive viewports.","bestFor":["hero video","image sequence","background canvas"]},
+    {"id":"intersection-stagger-reveal","name":"Intersection Stagger Reveal","summary":"Reveal text and controls with staggered fade-up motion only when each block enters the viewport.","bestFor":["editorial landing pages","capability sections","navigation"]},
+    {"id":"scroll-spacer-timeline","name":"Scroll Spacer Timeline","summary":"Use deliberate spacer height between narrative sections to give a scrubbed background enough scroll distance to complete a visual transformation.","bestFor":["video scrub","chapter transitions","pinned hero"]},
+    {"id":"frosted-capability-panel","name":"Frosted Capability Panel","summary":"Place concise feature rows inside a translucent panel over moving media while keeping hierarchy and legibility intact.","bestFor":["SaaS","AI","agency"]},
+    {"id":"chevron-hover-nudge","name":"Chevron Hover Nudge","summary":"Use a tiny directional icon translation as a restrained affordance rather than animating the entire card.","bestFor":["feature rows","links","CTAs"]},
+    {"id":"mobile-cinematic-stack","name":"Mobile Cinematic Stack","summary":"Reflow split desktop hero compositions into a vertical stack while keeping the motion focal point unobstructed.","bestFor":["mobile","cinematic hero","responsive landing page"]},
+    {"id":"media-safe-empty-zone","name":"Media-Safe Empty Zone","summary":"Reserve a viewport zone with no text or controls so the most important part of the moving media remains visible during scroll.","bestFor":["3D object hero","video background","product storytelling"]},
+    {"id":"small-refinement-loop","name":"Small Refinement Loop","summary":"After the core motion works, change spacing, typography, opacity and navigation in isolated passes instead of redesigning the entire page.","bestFor":["AI-assisted design iteration","visual QA","motion tuning"]},
+    {"id":"sticky-media-negative-margin-shell","name":"Sticky Media + Negative-Margin Content Shell","summary":"Keep a sticky full-screen media stage behind a higher z-index content wrapper that visually overlaps the media without duplicating layout height.","bestFor":["video hero","agency site","scroll storytelling"]}
+  ]
+}

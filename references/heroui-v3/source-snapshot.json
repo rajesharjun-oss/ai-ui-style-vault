@@ -1,0 +1,33 @@
+{
+  "source": "https://github.com/heroui-inc/heroui",
+  "branch": "v3",
+  "observedCommit": "cabf40b30c3d915c2bc4cf991151162362fd2331",
+  "observedPackage": "@heroui/react",
+  "observedPackageVersion": "3.2.4",
+  "captured": {
+    "reactComponentFamilies": 82,
+    "styleVariantFamilies": 83,
+    "publicHooks": 10,
+    "totalIndexedItems": 175,
+    "derivedStateContracts": 25,
+    "deepObservedBehaviorPatterns": 3
+  },
+  "upstreamFilesUsedForInventory": [
+    "packages/react/src/components/index.ts",
+    "packages/react/src/hooks/index.ts",
+    "packages/styles/src/components/index.ts",
+    "packages/react/package.json",
+    "packages/react/README.md",
+    "packages/react/src/components/button/button.tsx",
+    "packages/react/src/components/modal/modal.tsx",
+    "packages/react/tests/components/button/button.test.tsx",
+    "packages/react/tests/components/button/button.ssr.test.tsx",
+    "packages/react/tests/components/table/table.test.tsx",
+    "LICENSE"
+  ],
+  "licenseSignals": {
+    "repositoryRoot": "Apache-2.0",
+    "reactPackageMetadata": "MIT",
+    "policy": "Keep provenance and applicable notices. Verify exact-source licensing before vendoring code; prefer package installation where possible."
+  }
+}

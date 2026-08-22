@@ -1,0 +1,57 @@
+{
+  "name": "HeroUI v3 Storybook & Testing Patterns",
+  "version": "1.0.0",
+  "upstream": {
+    "repository": "heroui-inc/heroui",
+    "ref": "v3",
+    "reactComponentsRoot": "packages/react/src/components",
+    "reactTestsRoot": "packages/react/tests/components",
+    "storybookPackage": "packages/storybook",
+    "licenseNote": "Repository root contains Apache-2.0 terms while @heroui/react package metadata declares MIT. Verify the applicable upstream notice when copying source; prefer package installation where possible."
+  },
+  "principles": [
+    "Treat Storybook stories as interaction/state examples rather than visual templates to clone.",
+    "Preserve React Aria keyboard, focus, selection and overlay semantics when adapting HeroUI behavior.",
+    "Test accessible role/name before visual details for interactive primitives.",
+    "Expose state to styling through semantic data attributes such as hovered, pressed, focus-visible and disabled.",
+    "Test disabled behavior as behavior, not only appearance.",
+    "For compound components, test the assembled interaction contract as well as individual slots.",
+    "For data components, test sorting, selection and accessible grid/table labeling against realistic data.",
+    "SSR-sensitive primitives should have server-render coverage where the upstream component has it."
+  ],
+  "observedPatterns": [
+    {
+      "component": "button",
+      "source": "packages/react/src/components/button/button.tsx",
+      "tests": ["packages/react/tests/components/button/button.test.tsx","packages/react/tests/components/button/button.ssr.test.tsx"],
+      "behaviorContract": ["accessible button role/name","hover state","press state","focus-visible state","disabled blocks press","keyboard activation with Enter and Space","render-prop state exposure","SSR coverage"],
+      "vaultUse": "Use as the canonical minimum button QA contract for React implementations."
+    },
+    {
+      "component": "modal",
+      "source": "packages/react/src/components/modal/modal.tsx",
+      "compoundParts": ["root","trigger","backdrop","container","dialog","header","icon","heading","body","footer","close-trigger"],
+      "behaviorContract": ["controlled or uncontrolled overlay state","dismissable backdrop policy","focus/dialog semantics delegated to React Aria","placement and scroll are explicit","close action is a real button primitive"],
+      "vaultUse": "Use as an overlay decomposition reference; never collapse modal semantics into a styled generic div."
+    },
+    {
+      "component": "table",
+      "tests": ["packages/react/tests/components/table/table.test.tsx"],
+      "compoundParts": ["scroll-container","content","header","column","body","row","cell","sortable-column-header"],
+      "behaviorContract": ["accessible grid labeling","row selection","select-all affordance","sortable columns","selection callbacks","sort callbacks","scroll container separated from data semantics"],
+      "vaultUse": "Use for data-heavy product tables where sorting/selection are actual user tasks."
+    }
+  ],
+  "storyMiningPriorities": [
+    "autocomplete and combo-box filtering/selection states",
+    "date-picker and date-range-picker validation and locale behavior",
+    "drawer/modal/popover dismissal and focus behavior",
+    "menu/list-box/select keyboard navigation",
+    "table selection, sorting, empty and loading states",
+    "form fields, descriptions, field errors and validation",
+    "toast/alert priority and dismissal",
+    "calendar/range-calendar navigation",
+    "color-control compound interactions",
+    "tabs/toggle groups selection semantics"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "3D Asset Licence Register Example",
+  "version": "1.0.0",
+  "assets": [
+    {
+      "id": "example-asset",
+      "kind": "hdri",
+      "sourceName": "Replace with verified source",
+      "sourceUrl": "https://example.com/asset",
+      "creator": "Replace",
+      "licenceClass": "per-item-terms",
+      "verifiedAt": "2026-08-15",
+      "commercialUse": "unverified",
+      "attributionRequired": "unverified",
+      "runtimePaths": [],
+      "notes": "Unknown terms block production use."
+    }
+  ]
+}

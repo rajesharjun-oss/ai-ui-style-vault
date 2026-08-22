@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-ui-style-vault/immersive-experience.schema.json",
+  "title": "3D Immersive Experience Contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "meta",
+    "purpose",
+    "mediumDecision",
+    "style",
+    "tiers",
+    "fallback",
+    "assets",
+    "states"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "experienceType",
+        "fictional"
+      ]
+    },
+    "purpose": {
+      "type": "object",
+      "required": [
+        "userProblem",
+        "why3d",
+        "successMeasures"
+      ]
+    },
+    "mediumDecision": {
+      "type": "object",
+      "required": [
+        "selected",
+        "considered"
+      ]
+    },
+    "style": {
+      "type": "object",
+      "required": [
+        "styleFamily",
+        "productionTheme",
+        "blueprint"
+      ]
+    },
+    "tiers": {
+      "type": "array",
+      "minItems": 2
+    },
+    "fallback": {
+      "type": "object",
+      "required": [
+        "type",
+        "preservesPrimaryTask",
+        "description"
+      ]
+    },
+    "assets": {
+      "type": "array"
+    },
+    "states": {
+      "type": "array",
+      "minItems": 1
+    }
+  }
+}

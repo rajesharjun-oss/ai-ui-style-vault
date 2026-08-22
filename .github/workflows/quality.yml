@@ -17,14 +17,37 @@ jobs:
         with:
           python-version: "3.12"
       - name: Compile Python tools
-        run: python -m py_compile scripts/validate-content-design.py scripts/initialize-vault-project.py scripts/validate-domain-packs.py
+        run: |
+          python -m py_compile \
+            scripts/validate-content-design.py \
+            scripts/initialize-vault-project.py \
+            scripts/validate-domain-packs.py \
+            scripts/validate-celebration-pack.py \
+            scripts/validate-fashion-couture-pack.py \
+            scripts/validate-beauty-wellness-pack.py \
+            scripts/validate-hospitality-pack.py \
+            scripts/validate-saas-technology-pack.py \
+            scripts/validate-professional-services-pack.py \
+            scripts/validate-real-estate-pack.py \
+            scripts/validate-business-understanding.py \
+            scripts/plan-vault-build.py \
+            scripts/validate-3d-immersive-pack.py \
+            scripts/select-3d-references.py \
+            scripts/normalize-3d-reference-catalog.py \
+            scripts/build-ai-agent-recipes.py \
+            packs/3d-immersive-web/code/semantic-relevance.py
       - name: Run unit tests
         run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Validate executable AI agent recipe coverage
+        run: python scripts/build-ai-agent-recipes.py --check
       - name: Validate JSON documents
         run: |
           python -m json.tool agent-index.json >/dev/null
           python -m json.tool prompts/prompt-index.json >/dev/null
           python -m json.tool packs/pack-index.json >/dev/null
+          python -m json.tool research/business-profile.schema.json >/dev/null
+          python -m json.tool research/BUSINESS_PROFILE.template.json >/dev/null
+
           python -m json.tool packs/fast-casual-commerce/pack.json >/dev/null
           python -m json.tool packs/fast-casual-commerce/production-theme.json >/dev/null
           python -m json.tool packs/fast-casual-commerce/page-blueprints.json >/dev/null
@@ -33,6 +56,81 @@ jobs:
           python -m json.tool packs/fast-casual-commerce/sample-data/menu.sample.json >/dev/null
           python -m json.tool packs/fast-casual-commerce/schemas/menu.schema.json >/dev/null
           python -m json.tool packs/fast-casual-commerce/templates/design-recipe.example.json >/dev/null
+
+          python -m json.tool packs/celebration-event-microsite/pack.json >/dev/null
+          python -m json.tool packs/celebration-event-microsite/production-themes.json >/dev/null
+          python -m json.tool packs/celebration-event-microsite/page-blueprints.json >/dev/null
+          python -m json.tool packs/celebration-event-microsite/component-manifest.json >/dev/null
+          python -m json.tool packs/celebration-event-microsite/state-vocabulary.json >/dev/null
+          python -m json.tool packs/celebration-event-microsite/sample-data/wedding.sample.json >/dev/null
+          python -m json.tool packs/celebration-event-microsite/schemas/couple-event.schema.json >/dev/null
+          python -m json.tool packs/celebration-event-microsite/schemas/guest-rsvp.schema.json >/dev/null
+          python -m json.tool packs/celebration-event-microsite/templates/design-recipe.example.json >/dev/null
+
+          python -m json.tool packs/fashion-couture/pack.json >/dev/null
+          python -m json.tool packs/fashion-couture/production-themes.json >/dev/null
+          python -m json.tool packs/fashion-couture/page-blueprints.json >/dev/null
+          python -m json.tool packs/fashion-couture/component-manifest.json >/dev/null
+          python -m json.tool packs/fashion-couture/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/beauty-wellness/pack.json >/dev/null
+          python -m json.tool packs/beauty-wellness/production-themes.json >/dev/null
+          python -m json.tool packs/beauty-wellness/page-blueprints.json >/dev/null
+          python -m json.tool packs/beauty-wellness/component-manifest.json >/dev/null
+          python -m json.tool packs/beauty-wellness/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/hospitality/pack.json >/dev/null
+          python -m json.tool packs/hospitality/production-themes.json >/dev/null
+          python -m json.tool packs/hospitality/page-blueprints.json >/dev/null
+          python -m json.tool packs/hospitality/component-manifest.json >/dev/null
+          python -m json.tool packs/hospitality/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/saas-technology/pack.json >/dev/null
+          python -m json.tool packs/saas-technology/production-themes.json >/dev/null
+          python -m json.tool packs/saas-technology/page-blueprints.json >/dev/null
+          python -m json.tool packs/saas-technology/component-manifest.json >/dev/null
+          python -m json.tool packs/saas-technology/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/professional-services/pack.json >/dev/null
+          python -m json.tool packs/professional-services/production-themes.json >/dev/null
+          python -m json.tool packs/professional-services/page-blueprints.json >/dev/null
+          python -m json.tool packs/professional-services/component-manifest.json >/dev/null
+          python -m json.tool packs/professional-services/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/real-estate/pack.json >/dev/null
+          python -m json.tool packs/real-estate/production-themes.json >/dev/null
+          python -m json.tool packs/real-estate/page-blueprints.json >/dev/null
+          python -m json.tool packs/real-estate/component-manifest.json >/dev/null
+          python -m json.tool packs/real-estate/state-vocabulary.json >/dev/null
+
+          python -m json.tool packs/3d-immersive-web/pack.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/style-families.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/production-themes.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/page-blueprints.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/component-manifest.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/interaction-patterns.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/state-vocabulary.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/performance-budgets.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/sample-data/immersive-product.sample.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/schemas/immersive-experience.schema.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/schemas/scene-asset.schema.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/schemas/semantic-relevance.schema.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/templates/design-recipe.example.json >/dev/null
+          python -m json.tool packs/3d-immersive-web/design-combination-system.json >/dev/null
+          python -m json.tool 3d/source-catalog.json >/dev/null
+          python -m json.tool 3d/subject-domain-map.json >/dev/null
+          python -m json.tool 3d/techniques/technique-catalog.json >/dev/null
+          python -m json.tool 3d/techniques/motionsites-motion-patterns.json >/dev/null
+          python -m json.tool 3d/techniques/motionsites-motion-patterns-wave2.json >/dev/null
+          python -m json.tool 3d/reference-record.schema.json >/dev/null
+          python -m json.tool 3d/references/collection-seeds.json >/dev/null
+          python -m json.tool 3d/references/manual-import.example.json >/dev/null
+          python -m json.tool 3d/references/refresh-plan.json >/dev/null
+          python -m json.tool 3d/references/refs-gallery-3d.json >/dev/null
+          python -m json.tool 3d/references/refs-gallery-collection-summary.json >/dev/null
+          python -m json.tool 3d/references/motionsites-public-catalog-2026-08-17.json >/dev/null
+          python -m json.tool 3d/references/motionsites-public-catalog-wave2-2026-08-17.json >/dev/null
+
           python -m json.tool quality/content-rules.json >/dev/null
           python -m json.tool quality/product-quality-gates.json >/dev/null
           python -m json.tool schemas/design-recipe.schema.json >/dev/null
@@ -41,8 +139,24 @@ jobs:
           python -m json.tool system/page-blueprints.json >/dev/null
           python -m json.tool system/production-theme-archetypes.json >/dev/null
           python -m json.tool templates/design-recipe.example.json >/dev/null
-      - name: Validate domain packs
+      - name: Validate Fast-Casual Commerce pack
         run: python scripts/validate-domain-packs.py
+      - name: Validate Celebration & Event Microsite pack
+        run: python scripts/validate-celebration-pack.py
+      - name: Validate Fashion & Couture pack
+        run: python scripts/validate-fashion-couture-pack.py
+      - name: Validate Beauty & Wellness pack
+        run: python scripts/validate-beauty-wellness-pack.py
+      - name: Validate Hospitality pack
+        run: python scripts/validate-hospitality-pack.py
+      - name: Validate SaaS & Technology pack
+        run: python scripts/validate-saas-technology-pack.py
+      - name: Validate Professional Services pack
+        run: python scripts/validate-professional-services-pack.py
+      - name: Validate Real Estate pack
+        run: python scripts/validate-real-estate-pack.py
+      - name: Validate 3D & Immersive Web pack
+        run: python scripts/validate-3d-immersive-pack.py
       - name: Validate agent indexes and required files
         shell: pwsh
         run: ./scripts/validate-agent-guides.ps1

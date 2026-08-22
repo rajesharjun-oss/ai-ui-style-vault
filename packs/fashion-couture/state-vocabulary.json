@@ -1,0 +1,10 @@
+{
+  "states": [
+    "business-research-blocked","business-research-ready","media-loading","media-ready","media-error","generated-concept-media","official-brand-media","collection-empty","collection-ready","garment-unavailable","enquiry-ready","enquiry-channel-unavailable","enquiry-sent","enquiry-error","owner-confirmation-required","reduced-motion","no-animation","mobile-gallery","desktop-editorial"
+  ],
+  "rules": [
+    "Generated concept media must never be presented as official garment or client photography.",
+    "Operational facts requiring owner confirmation remain visibly provisional in planning artifacts and are not promoted as facts in production UI.",
+    "The primary enquiry path must remain usable in reduced-motion and media-failure states."
+  ]
+}

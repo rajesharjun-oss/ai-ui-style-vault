@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "minimumPassingScore": 75,
+  "hardFailSignals": [
+    "business research not ready",
+    "primary action missing",
+    "generated/stock media presented as official",
+    "unrelated 3D or spectacle used as primary visual",
+    "mobile horizontal overflow",
+    "essential content hidden when motion or JavaScript fails"
+  ],
+  "penalties": {
+    "genericMarketingPhrase": 4,
+    "repeatedThreeCardGrid": 10,
+    "excessiveGlass": 12,
+    "defaultPurpleBlueGradient": 10,
+    "giantHeroType": 8,
+    "tooManyPills": 6,
+    "decorativeSparklesBlobs": 8,
+    "sameImageRepeated": 10,
+    "motionEverywhere": 10,
+    "missingReducedMotion": 15,
+    "missingOperationalStates": 12,
+    "productHiddenBelowMarketing": 15,
+    "desktopOnlyComposition": 15,
+    "genericFeatureCardCopy": 8
+  },
+  "genericPhrases": ["unlock your potential","transform your business","empower your journey","revolutionize your workflow","seamless experience","next-level experience","future-ready solution","elevate your business"],
+  "sourceHeuristics": {
+    "maxBackdropFilterDeclarations": 4,
+    "maxLinearGradientDeclarations": 8,
+    "maxVeryLargeHeadingPx": 120,
+    "maxBorderRadiusPillDeclarations": 12,
+    "maxRepeatedImageSource": 2
+  },
+  "requiredObservationFields": ["desktopReviewed","mobileReviewed","primaryActionVisible","productOrServiceVisibleEarly","sectionRhythmVaries","mobileCompositionTransformed","reducedMotionVerified","noHorizontalOverflow","mediaProvenanceVerified","operationalStatesVerified"]
+}

@@ -1,0 +1,42 @@
+name: Business content model
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-business-content-model:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile content model tools
+        run: |
+          python -m py_compile \
+            scripts/generate-business-content-model.py \
+            scripts/ingest-business-source.py \
+            scripts/vault-agent.py
+      - name: Validate content model schemas and runtime routing
+        run: |
+          python -m json.tool research/business-entity-model.schema.json >/dev/null
+          python -m json.tool research/business-source-report.schema.json >/dev/null
+          python -m json.tool agent-runtime-index.json >/dev/null
+          python - <<'PY'
+          import json
+          runtime=json.load(open('agent-runtime-index.json', encoding='utf-8'))
+          assert runtime['entry']['businessContentModel']=='scripts/generate-business-content-model.py'
+          assert 'contentModel' in runtime['stages']
+          assert 'businessCMS' in runtime['taskRoutes']
+          print('Validated business entity/CMS runtime routing')
+          PY
+      - name: Run content model regression tests
+        run: |
+          python -m unittest \
+            tests.test_business_source_ingestion \
+            tests.test_business_content_model -v
