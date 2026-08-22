@@ -1,0 +1,61 @@
+{
+  "name": "ThreeUI Community Reference Adapter",
+  "version": "1.0.0",
+  "capturedAt": "2026-08-22",
+  "source": {
+    "repository": "https://github.com/MengTo/threeui",
+    "commit": "b8612b509a91e00858fc9dd20c42a7286c7651b4",
+    "package": "@designcodeio/threeui",
+    "packageVersion": "0.3.0"
+  },
+  "observedCounts": {
+    "parentComponents": 50,
+    "routes": 111,
+    "freeVariantRecords": 141,
+    "singletonComponents": 23,
+    "browseResults": 164
+  },
+  "licenseBoundary": {
+    "communityCode": "MIT according to upstream Community repository.",
+    "remoteCatalogMedia": "Not redistributed by the upstream Community repository; do not copy into the Vault.",
+    "proAndBeta": "Not included in Community source; do not copy, reconstruct or bypass entitlement.",
+    "vaultPolicy": "Store metadata/abstractions by default. Use the public Community package only when deliberately selected and its asset/runtime/licence requirements are preserved."
+  },
+  "adoptedProductIdeas": [
+    "search rich metadata including runtime, interaction, assets and tags",
+    "live previews with typed controls and variants",
+    "controls -> implementation configuration",
+    "per-item Skill.md guidance",
+    "source integrity/provenance metadata",
+    "live FPS instrumentation",
+    "component-subpath imports and lazy loading",
+    "MCP as an agent-facing catalog interface"
+  ],
+  "runtimeObservations": {
+    "threePeerRange": ">=0.149 <1",
+    "bundledAliases": ["three@0.128.0", "three@0.165.0"],
+    "vaultRule": "Isolate source-specific Three.js revisions; never merge renderer code blindly."
+  },
+  "referencePatterns": [
+    {"id":"ParticleNetwork","family":"ambient-field","runtime":"canvas/webgl","reuse":"community-package-or-original","idea":"subtle connectivity field"},
+    {"id":"ConstellationField","family":"ambient-field","runtime":"canvas/webgl","reuse":"community-package-or-original","idea":"sparse connected-points atmosphere"},
+    {"id":"DataField","family":"data-visual-field","runtime":"webgl","reuse":"community-package-or-original","idea":"abstract data/system field"},
+    {"id":"TopologyField","family":"data-visual-field","runtime":"webgl","reuse":"community-package-or-original","idea":"topology/network metaphor"},
+    {"id":"FluidFieldBackground","family":"ambient-field","runtime":"webgl","reuse":"community-package-or-original","idea":"organic fluid background"},
+    {"id":"LiquidFormBackground","family":"ambient-field","runtime":"webgl","reuse":"community-package-or-original","idea":"liquid material atmosphere"},
+    {"id":"TypographyVortexCanvas","family":"kinetic-type","runtime":"canvas/webgl","reuse":"community-package-or-original","idea":"expressive type motion"},
+    {"id":"TextAnimationCollection","family":"kinetic-type","runtime":"dom/canvas","reuse":"community-package-or-original","idea":"headline animation family"},
+    {"id":"LiquidMetalButton","family":"interactive-cta","runtime":"webgl","reuse":"community-package-or-original","idea":"expressive material CTA"},
+    {"id":"TactileButton","family":"interactive-cta","runtime":"dom/css","reuse":"community-package-or-original","idea":"press/hover tactility"},
+    {"id":"GradientBeamCta","family":"interactive-cta","runtime":"dom/css","reuse":"community-package-or-original","idea":"animated CTA accent"},
+    {"id":"AnimatedTopDock","family":"navigation-motion","runtime":"dom-motion","reuse":"community-package-or-original","idea":"compact animated navigation"},
+    {"id":"GenieDock","family":"navigation-motion","runtime":"dom-motion","reuse":"community-package-or-original","idea":"magnifying dock behavior"},
+    {"id":"Gallery","family":"editorial-media","runtime":"dom-motion","reuse":"community-package-or-original","idea":"media presentation"},
+    {"id":"CharacterCarousel","family":"editorial-media","runtime":"dom-motion","reuse":"community-package-or-original","idea":"expressive horizontal collection"},
+    {"id":"OrbitalSphereBackground","family":"procedural-scene","runtime":"webgl","reuse":"community-package-or-original","idea":"orbital product/system accent"},
+    {"id":"GenerativeTree","family":"procedural-scene","runtime":"canvas/webgl","reuse":"community-package-or-original","idea":"organic procedural scene"},
+    {"id":"BookshelfScene","family":"procedural-scene","runtime":"three","reuse":"community-package-or-original","idea":"spatial editorial scene"},
+    {"id":"PerformanceGauges","family":"data-visual-field","runtime":"dom/svg","reuse":"community-package-or-original","idea":"verified metric visualization"},
+    {"id":"KageLandingPage","family":"full-experience","runtime":"full-html/three","reuse":"community-package-with-assets","idea":"isolated complete authored experience"}
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Runtime Index",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "purpose": "Keep agent context small by routing each task to only the files needed for the current stage.",
   "entry": {
     "humanAndAgentStart": "AI_START_HERE.md",
@@ -10,13 +10,16 @@
     "businessContentModel": "scripts/generate-business-content-model.py",
     "masterPlanner": "scripts/vault-build-orchestrator.py",
     "componentResolver": "scripts/resolve-component-contract.py",
+    "interactiveEffectEngine": "scripts/interactive-effects.py",
+    "vaultStudioIndex": "scripts/build-vault-studio-index.py",
+    "vaultMCP": "scripts/vault-mcp.py",
     "designCritic": "scripts/run-design-critic.py",
     "antiGenericGate": "scripts/validate-anti-generic-visual.py"
   },
   "stages": {
     "route": {
       "read": ["AI_START_HERE.md", "AGENTS.md", "prompts/prompt-index.json", "packs/pack-index.json"],
-      "avoidPreloading": ["catalog.json", "screen-catalog.json", "motion/motion-catalog.json", "3d/ai-agent-recipes.json", "all Component Gallery examples", "all HeroUI references"]
+      "avoidPreloading": ["catalog.json", "screen-catalog.json", "motion/motion-catalog.json", "3d/ai-agent-recipes.json", "all Component Gallery examples", "all HeroUI references", "all external effect implementations"]
     },
     "sourceIngestion": {
       "when": "user provides a Google Maps/business/site/social/directory URL or structured business-source evidence",
@@ -24,12 +27,7 @@
       "urlCommand": "python scripts/vault-agent.py ingest <business-source-url>",
       "reportCommand": "python scripts/vault-agent.py ingest BUSINESS_SOURCE_REPORT.json --output-dir business-ingestion",
       "produce": ["business-source-request.json when URL research is required", "BUSINESS_SOURCE_REPORT.json", "CONTENT_SOURCE_OF_TRUTH.json", "ASSET_MANIFEST.json", "BUSINESS_RESEARCH.md", "business-profile.json", "BUILD_PROMPT.md", "ingestion-summary.json"],
-      "sourcePlaybooks": {
-        "google-maps": "research/source-playbooks/google-maps.md",
-        "instagram": "research/source-playbooks/instagram.md",
-        "facebook-directory": "research/source-playbooks/facebook-directory.md",
-        "business-website": "research/source-playbooks/business-website.md"
-      },
+      "sourcePlaybooks": {"google-maps":"research/source-playbooks/google-maps.md","instagram":"research/source-playbooks/instagram.md","facebook-directory":"research/source-playbooks/facebook-directory.md","business-website":"research/source-playbooks/business-website.md"},
       "rule": "Verified/source values are not rewritten or substituted. Reviews marked verbatim remain exact. Unsupported fields stay omitted/empty. Read only the selected source playbook, not all playbooks."
     },
     "contentModel": {
@@ -56,6 +54,14 @@
       "secondary": "python scripts/select-heroui-components.py \"<component need>\"",
       "read": ["returned canonical contract", "returned HeroUI records when stack-compatible"]
     },
+    "effects": {
+      "when": "the static/component composition is valid and an interactive enhancement may materially support the page purpose",
+      "read": ["interactive-effects/effects.json", "references/threeui-community.json only when reference research is needed"],
+      "command": "python scripts/vault-agent.py effect business-profile.json --section <section>",
+      "skillCommand": "python scripts/vault-agent.py effect-skill <effect-id> --output SKILL.md",
+      "qaCommand": "python scripts/vault-agent.py effect-qa <effect-id> EFFECT_QA_OBSERVATIONS.json",
+      "rule": "None is a first-class result. Business purpose, accessibility, mobile behavior and measured performance outrank novelty. Route to 3D when the subject becomes explorable/configurable/spatially meaningful."
+    },
     "3d": {
       "when": "3D is justified by subject and user goal",
       "read": ["prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md", "3d/interaction-intent-system.json", "packs/3d-immersive-web/pack.json"],
@@ -64,11 +70,20 @@
     },
     "qa": {
       "read": ["prompts/VISUAL_QA_AND_REVISION.md"],
-      "produce": ["VISUAL_QA_OBSERVATIONS.json", "DESIGN_CRITIC_OBSERVATIONS.json", "VISUAL_QA_REPORT.md"],
-      "commands": [
-        "python scripts/validate-anti-generic-visual.py <site-root> VISUAL_QA_OBSERVATIONS.json --json-out visual-qa-score.json",
-        "python scripts/run-design-critic.py vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json --json-out design-critic-result.json"
-      ]
+      "produce": ["VISUAL_QA_OBSERVATIONS.json", "DESIGN_CRITIC_OBSERVATIONS.json", "VISUAL_QA_REPORT.md", "EFFECT_QA_OBSERVATIONS.json when an effect ships"],
+      "commands": ["python scripts/validate-anti-generic-visual.py <site-root> VISUAL_QA_OBSERVATIONS.json --json-out visual-qa-score.json", "python scripts/run-design-critic.py vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json --json-out design-critic-result.json", "python scripts/vault-agent.py effect-qa <effect-id> EFFECT_QA_OBSERVATIONS.json when an effect is selected"]
+    },
+    "studio": {
+      "when": "a human or agent needs a compact browse index instead of reading the full reference archive",
+      "command": "python scripts/vault-agent.py studio-index",
+      "produce": ["studio/catalog-index.json"],
+      "rule": "Studio browsing never bypasses business research, semantic effect selection or source/licence boundaries."
+    },
+    "mcp": {
+      "when": "a local MCP-capable coding agent needs compact read-only effect discovery/selection and skill retrieval",
+      "command": "python scripts/vault-mcp.py",
+      "read": ["mcp/README.md"],
+      "rule": "The initial MCP adapter is local/read-only; it does not perform business-source web research, write files or bypass third-party entitlements."
     }
   },
   "taskRoutes": {
@@ -78,6 +93,7 @@
     "redesign": ["prompts/REFINE_EXISTING_BUSINESS_WEBSITE.md", "selected product-domain pack"],
     "restaurant": ["prompts/BUILD_RESTAURANT_COMMERCE_EXPERIENCE.md", "packs/fast-casual-commerce/"],
     "celebration": ["prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md", "packs/celebration-event-microsite/"],
+    "interactiveEffect": ["interactive-effects/effects.json", "generated selected-effect skill"],
     "3d": ["prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md", "packs/3d-immersive-web/", "matching product-domain pack"],
     "productUI": ["prompts/SENIOR_PRODUCT_TEAM_PROMPT.md", "component intelligence as needed"]
   },
@@ -87,6 +103,7 @@
     "Generate the content/CMS model before inventing an admin structure.",
     "Load exactly one source-specific extraction playbook for the primary URL unless a second source is explicitly inspected.",
     "Search/select before deep-reading references.",
+    "Select an interactive effect before opening any external effect implementation; none is valid.",
     "Never preload all 478 3D recipes.",
     "Never preload all 2,671 Component Gallery examples.",
     "Never preload all captured styles or screen references.",
