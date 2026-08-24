@@ -1,11 +1,12 @@
 {
   "name": "AI UI Style Vault 3D Delivery Runtime Intelligence",
-  "version": "1.0.0",
-  "principle": "Use the smallest sufficient browser runtime. A selected 3D asset should use <model-viewer> before custom Three.js when a bounded single-model or small-model interaction can meet the verified user goal.",
+  "version": "1.1.0",
+  "principle": "Consume the already-classified 3D interaction mode and use the smallest sufficient browser runtime. Asset format never determines the mode.",
   "selectionPolicy": {
     "minimumScore": 8,
     "maxRecommendations": 3,
     "noneIsValid": true,
+    "modeGateRequired": true,
     "escalationTarget": "custom-3d-runtime"
   },
   "runtime": {
@@ -37,6 +38,7 @@
     ],
     "deescalateWhen": [
       "a still image, video, image sequence or DOM illustration communicates the same thing",
+      "the selected 3D mode is none or visual-only",
       "the model is decorative and does not materially improve comprehension or conversion"
     ]
   },
@@ -45,6 +47,7 @@
       "id": "model-viewer-basic-inspector",
       "label": "Basic 3D Inspector",
       "summary": "Present one verified GLB/glTF model with bounded rotate/zoom inspection and a normal semantic product/content layout.",
+      "compatibleModes": ["inspectable-object"],
       "goals": ["inspect", "rotate", "zoom", "product-showcase", "object-preview", "360-view"],
       "signals": ["product", "object", "model", "inspect", "rotate", "zoom", "view", "showcase"],
       "requires": ["approved-glb-or-gltf"],
@@ -58,6 +61,7 @@
       "id": "model-viewer-annotated-inspector",
       "label": "Annotated 3D Inspector",
       "summary": "Add semantic HTML hotspots, labels, dimensions or callouts to a verified model while keeping annotation copy accessible outside the renderer.",
+      "compatibleModes": ["inspectable-object"],
       "goals": ["annotate", "explain-parts", "dimensions", "feature-callouts", "technical-inspection"],
       "signals": ["hotspot", "annotation", "dimension", "feature", "parts", "technical", "callout", "explain"],
       "requires": ["approved-glb-or-gltf", "verified-annotation-content"],
@@ -71,6 +75,7 @@
       "id": "model-viewer-variant-configurator-lite",
       "label": "Variant Configurator Lite",
       "summary": "Use glTF material variants and bounded model transforms for a lightweight visual configurator when the option set is real and small.",
+      "compatibleModes": ["configurable-object"],
       "goals": ["variants", "color-options", "finish-options", "configure", "compare-materials"],
       "signals": ["variant", "colour", "color", "finish", "material", "swatch", "configure", "option"],
       "requires": ["approved-glb-with-verified-variants", "verified-option-set"],
@@ -84,6 +89,7 @@
       "id": "model-viewer-animated-product",
       "label": "Animated Product/Object Viewer",
       "summary": "Play verified glTF animation clips for demonstrations, assembly steps or controlled object motion without building a full custom render loop.",
+      "compatibleModes": ["authored-animation"],
       "goals": ["animation", "demonstration", "assembly", "motion-preview", "animated-product"],
       "signals": ["animation", "animate", "play", "clip", "assembly", "demonstration", "motion", "sequence"],
       "requires": ["approved-animated-glb"],
@@ -97,6 +103,7 @@
       "id": "model-viewer-ar-placement",
       "label": "AR Placement Preview",
       "summary": "Let users place a verified model in their physical space using supported WebXR, Scene Viewer or Quick Look modes with explicit capability/failure states.",
+      "compatibleModes": ["inspectable-object", "configurable-object"],
       "goals": ["ar", "view-in-space", "placement", "scale-preview", "room-preview", "wall-preview"],
       "signals": ["ar", "augmented reality", "view in room", "view in space", "place", "placement", "wall", "floor", "scale"],
       "requires": ["approved-glb-or-gltf", "verified-real-world-scale"],
