@@ -1,0 +1,110 @@
+{
+  "name": "AI UI Style Vault 3D Delivery Runtime Intelligence",
+  "version": "1.0.0",
+  "principle": "Use the smallest sufficient browser runtime. A selected 3D asset should use <model-viewer> before custom Three.js when a bounded single-model or small-model interaction can meet the verified user goal.",
+  "selectionPolicy": {
+    "minimumScore": 8,
+    "maxRecommendations": 3,
+    "noneIsValid": true,
+    "escalationTarget": "custom-3d-runtime"
+  },
+  "runtime": {
+    "id": "google-model-viewer",
+    "label": "Google <model-viewer>",
+    "sourceId": "google-model-viewer",
+    "package": "@google/model-viewer",
+    "primaryFormats": ["glb", "gltf"],
+    "deliveryModes": ["web-3d", "webxr", "scene-viewer", "quick-look"],
+    "strengths": [
+      "bounded product/object inspection",
+      "camera controls and auto rotation",
+      "poster/lazy-loading friendly delivery",
+      "glTF animation playback and selection",
+      "hotspots and semantic HTML annotations",
+      "material variant selection",
+      "basic model orientation and scaling",
+      "AR placement across supported device modes",
+      "environment lighting, shadows and tone mapping",
+      "custom DOM controls layered over the 3D view"
+    ],
+    "escalateWhen": [
+      "the experience requires a navigable multi-object world or room-scale scene graph",
+      "custom physics, game-like movement or complex object-object interaction is essential",
+      "the camera must follow a bespoke cinematic rail through a large scene",
+      "the experience requires arbitrary custom shaders/GPGPU or a deeply bespoke render pipeline",
+      "many independently interactive objects must coexist in one scene",
+      "digital-twin navigation, GIS-scale visualization or large spatial datasets exceed a bounded model-viewer experience"
+    ],
+    "deescalateWhen": [
+      "a still image, video, image sequence or DOM illustration communicates the same thing",
+      "the model is decorative and does not materially improve comprehension or conversion"
+    ]
+  },
+  "profiles": [
+    {
+      "id": "model-viewer-basic-inspector",
+      "label": "Basic 3D Inspector",
+      "summary": "Present one verified GLB/glTF model with bounded rotate/zoom inspection and a normal semantic product/content layout.",
+      "goals": ["inspect", "rotate", "zoom", "product-showcase", "object-preview", "360-view"],
+      "signals": ["product", "object", "model", "inspect", "rotate", "zoom", "view", "showcase"],
+      "requires": ["approved-glb-or-gltf"],
+      "features": ["camera-controls", "touch-action-pan-y", "poster", "shadow", "environment-lighting-optional", "auto-rotate-optional"],
+      "performanceTier": "light",
+      "mobile": "Keep touch-action compatible with page scroll, bound camera orbit, use a poster and defer model loading when the model is below the fold.",
+      "fallback": "Approved product/object image carousel or poster with equivalent content and CTA.",
+      "avoid": ["unbounded orbit that loses the subject", "using 3D as the only way to access essential product information"]
+    },
+    {
+      "id": "model-viewer-annotated-inspector",
+      "label": "Annotated 3D Inspector",
+      "summary": "Add semantic HTML hotspots, labels, dimensions or callouts to a verified model while keeping annotation copy accessible outside the renderer.",
+      "goals": ["annotate", "explain-parts", "dimensions", "feature-callouts", "technical-inspection"],
+      "signals": ["hotspot", "annotation", "dimension", "feature", "parts", "technical", "callout", "explain"],
+      "requires": ["approved-glb-or-gltf", "verified-annotation-content"],
+      "features": ["hotspots", "data-position", "data-normal", "animated-surface-hotspots", "screen-space-overlays", "camera-controls"],
+      "performanceTier": "light",
+      "mobile": "Keep labels short, prevent overlay collisions and provide a normal DOM list of the same annotations beneath or beside the model.",
+      "fallback": "Annotated still image plus semantic feature/dimension list.",
+      "avoid": ["invented technical specifications", "hotspots that disappear without an accessible equivalent"]
+    },
+    {
+      "id": "model-viewer-variant-configurator-lite",
+      "label": "Variant Configurator Lite",
+      "summary": "Use glTF material variants and bounded model transforms for a lightweight visual configurator when the option set is real and small.",
+      "goals": ["variants", "color-options", "finish-options", "configure", "compare-materials"],
+      "signals": ["variant", "colour", "color", "finish", "material", "swatch", "configure", "option"],
+      "requires": ["approved-glb-with-verified-variants", "verified-option-set"],
+      "features": ["availableVariants", "variantName", "orientation", "scale", "updateFraming", "custom-dom-controls"],
+      "performanceTier": "light",
+      "mobile": "Use native/semantic swatch controls outside the canvas, preserve a selected-state label and keep controls clear of software keyboards in WebXR.",
+      "fallback": "Verified variant photography or swatch/image selector.",
+      "avoid": ["pretending visual variants are purchasable/available without commerce evidence", "using scene-graph mutation when a simple material variant is sufficient"]
+    },
+    {
+      "id": "model-viewer-animated-product",
+      "label": "Animated Product/Object Viewer",
+      "summary": "Play verified glTF animation clips for demonstrations, assembly steps or controlled object motion without building a full custom render loop.",
+      "goals": ["animation", "demonstration", "assembly", "motion-preview", "animated-product"],
+      "signals": ["animation", "animate", "play", "clip", "assembly", "demonstration", "motion", "sequence"],
+      "requires": ["approved-animated-glb"],
+      "features": ["autoplay-optional", "animation-name", "timeScale", "play", "pause", "finished-event", "crossfade"],
+      "performanceTier": "balanced",
+      "mobile": "Avoid autoplay when motion is distracting, expose simple play/pause controls and keep animations short enough to preserve responsiveness.",
+      "fallback": "Video/image sequence or still-step explanation using the same verified content.",
+      "avoid": ["looping decorative motion without purpose", "essential instructions that exist only inside an animation"]
+    },
+    {
+      "id": "model-viewer-ar-placement",
+      "label": "AR Placement Preview",
+      "summary": "Let users place a verified model in their physical space using supported WebXR, Scene Viewer or Quick Look modes with explicit capability/failure states.",
+      "goals": ["ar", "view-in-space", "placement", "scale-preview", "room-preview", "wall-preview"],
+      "signals": ["ar", "augmented reality", "view in room", "view in space", "place", "placement", "wall", "floor", "scale"],
+      "requires": ["approved-glb-or-gltf", "verified-real-world-scale"],
+      "features": ["ar", "ar-modes", "ar-scale", "ar-placement", "webxr", "scene-viewer", "quick-look", "custom-ar-button", "ar-status", "ar-tracking", "xr-environment"],
+      "performanceTier": "balanced",
+      "mobile": "Treat AR as an enhancement; show the AR action only when supported, guide scanning/placement, and keep a normal 3D or image experience available.",
+      "fallback": "Normal model-viewer inspection or approved imagery when AR is unavailable or tracking fails.",
+      "avoid": ["AR for models with unverified dimensions", "assuming WebXR DOM overlays transfer into native Scene Viewer or Quick Look"]
+    }
+  ]
+}
