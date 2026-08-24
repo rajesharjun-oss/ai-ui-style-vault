@@ -66,6 +66,12 @@ def main():
     immersive_skill.add_argument("template_id")
     immersive_skill.add_argument("--output")
 
+    mode = sub.add_parser("3d-mode", help="Classify an already-justified 3D request into an explicit interaction mode before production/runtime selection.")
+    mode.add_argument("need")
+    mode.add_argument("--subject-class")
+    mode.add_argument("--asset-format", choices=["glb", "gltf", "other", "none"], default="none")
+    mode.add_argument("--asset-readiness", choices=["strong", "adequate", "limited", "none"], default="none")
+
     resource = sub.add_parser("3d-resource", help="Select a 3D production-resource category for a defined asset/production need.")
     resource.add_argument("need")
     resource.add_argument("--domain")
@@ -75,8 +81,12 @@ def main():
     resource_skill.add_argument("category_id")
     resource_skill.add_argument("--output")
 
-    runtime = sub.add_parser("3d-runtime", help="Select the smallest sufficient 3D browser-delivery profile, including Google <model-viewer> when appropriate.")
+    runtime = sub.add_parser("3d-runtime", help="Select the smallest sufficient 3D browser-delivery profile after mandatory 3D mode classification.")
     runtime.add_argument("need")
+    runtime.add_argument("--mode", required=True, choices=[
+        "none", "visual-only", "authored-animation", "inspectable-object",
+        "configurable-object", "spatial-exploration", "interactive-world"
+    ])
     runtime.add_argument("--format", choices=["glb", "gltf", "other"])
     runtime.add_argument("--ar", action="store_true")
 
@@ -163,6 +173,16 @@ def main():
             forwarded += ["--output", args.output]
         return run("immersive-templates.py", forwarded)
 
+    if args.command == "3d-mode":
+        forwarded = [
+            "classify", args.need,
+            "--asset-format", args.asset_format,
+            "--asset-readiness", args.asset_readiness
+        ]
+        if args.subject_class:
+            forwarded += ["--subject-class", args.subject_class]
+        return run("classify-3d-mode.py", forwarded)
+
     if args.command == "3d-resource":
         forwarded = ["select", args.need]
         if args.domain:
@@ -178,7 +198,7 @@ def main():
         return run("3d-production-resources.py", forwarded)
 
     if args.command == "3d-runtime":
-        forwarded = ["select", args.need]
+        forwarded = ["select", args.need, "--mode", args.mode]
         if args.format:
             forwarded += ["--format", args.format]
         if args.ar:
