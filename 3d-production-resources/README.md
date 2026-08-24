@@ -50,6 +50,14 @@ The generated skill gives the agent:
 - explicit rights and provenance checks;
 - reject/avoid conditions.
 
+After the GLB/glTF or other web-ready derivative exists, hand off to `3d-delivery-runtimes/` rather than assuming a custom renderer is required:
+
+```bash
+python scripts/vault-agent.py 3d-runtime "rotate and inspect the verified product" --format glb
+```
+
+The delivery layer may choose a bounded Google `<model-viewer>` profile, return `none` for a simpler media path, or escalate when a custom 3D runtime is genuinely required.
+
 ## Example pipeline
 
 ```text
@@ -71,7 +79,9 @@ Blender/source production
         ↓
 retopo / bake / optimize / export
         ↓
-actual browser runtime
+3D Delivery Runtime selector
+        ↓
+<model-viewer> / simpler media / custom runtime escalation
         ↓
 performance + visual QA
 ```
