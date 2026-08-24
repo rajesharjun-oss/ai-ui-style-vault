@@ -66,6 +66,15 @@ def main():
     immersive_skill.add_argument("template_id")
     immersive_skill.add_argument("--output")
 
+    resource = sub.add_parser("3d-resource", help="Select a 3D production-resource category for a defined asset/production need.")
+    resource.add_argument("need")
+    resource.add_argument("--domain")
+    resource.add_argument("--max", dest="max_items", type=int, choices=range(1, 9))
+
+    resource_skill = sub.add_parser("3d-resource-skill", help="Generate a Skill.md production contract for one selected 3D production-resource category.")
+    resource_skill.add_argument("category_id")
+    resource_skill.add_argument("--output")
+
     studio = sub.add_parser("studio-index", help="Build the compact metadata index for the future Vault Studio browser.")
     studio.add_argument("--output", default="studio/catalog-index.json")
 
@@ -144,6 +153,20 @@ def main():
         if args.output:
             forwarded += ["--output", args.output]
         return run("immersive-templates.py", forwarded)
+
+    if args.command == "3d-resource":
+        forwarded = ["select", args.need]
+        if args.domain:
+            forwarded += ["--domain", args.domain]
+        if args.max_items:
+            forwarded += ["--max", str(args.max_items)]
+        return run("3d-production-resources.py", forwarded)
+
+    if args.command == "3d-resource-skill":
+        forwarded = ["skill", args.category_id]
+        if args.output:
+            forwarded += ["--output", args.output]
+        return run("3d-production-resources.py", forwarded)
 
     if args.command == "studio-index":
         return run("build-vault-studio-index.py", ["--output", args.output])
