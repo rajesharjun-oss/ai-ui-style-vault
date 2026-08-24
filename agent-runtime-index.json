@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Runtime Index",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "purpose": "Keep agent context small by routing each task to only the files needed for the current stage.",
   "entry": {
     "humanAndAgentStart": "AI_START_HERE.md",
@@ -13,6 +13,8 @@
     "interactiveEffectEngine": "scripts/interactive-effects.py",
     "immersiveTemplateEngine": "scripts/immersive-templates.py",
     "immersiveTemplateCatalog": "immersive-templates/template-catalog.json",
+    "threeDModeEngine": "scripts/classify-3d-mode.py",
+    "threeDModeCatalog": "3d/mode-classification.json",
     "productionResourceEngine": "scripts/3d-production-resources.py",
     "productionResourceCatalog": "3d-production-resources/resource-catalog.json",
     "deliveryRuntimeEngine": "scripts/3d-delivery-runtimes.py",
@@ -81,19 +83,26 @@
       "command": "python scripts/select-3d-interaction-plan.py business-profile.json --subject-class <class> --goal <goal>",
       "rule": "Do not load the full 478-recipe registry unless selection needs it. An immersive template does not automatically justify 3D."
     },
+    "3dMode": {
+      "when": "3D has been justified and the agent must decide whether the experience is visual-only, authored animation, directly inspectable, configurable, spatially explorable or a full interactive world",
+      "read": ["3d/mode-classification.json", "3d/interaction-intent-system.json"],
+      "command": "python scripts/vault-agent.py 3d-mode \"<explicit 3D user goal>\" --subject-class <class> --asset-format <glb|gltf|other|none> --asset-readiness <strong|adequate|limited|none>",
+      "produce": ["explicit mode 0-6", "user-control contract", "asset requirement", "asset production/runtime next stage"],
+      "rule": "This stage is mandatory before 3D production/runtime selection. Classify from the user interaction goal, never from file extension. A GLB/GLTF never automatically implies free rotation. A 360 drag/swipe inspection request remains inspectable-object even when the model still needs to be produced."
+    },
     "3dProductionResources": {
-      "when": "a justified 3D/immersive plan has identified a concrete production need such as geometry, terrain, materials, scans, mocap, lighting, simulation, GIS, audio or export",
+      "when": "the selected 3D mode requires real geometry or scene assets and the required approved production asset does not yet exist",
       "read": ["3d-production-resources/README.md", "3d-production-resources/resource-catalog.json", "3d-production-resources/source-policy.json"],
       "command": "python scripts/vault-agent.py 3d-resource \"<concrete production need>\" --domain <selected-domain-pack>",
       "skillCommand": "python scripts/vault-agent.py 3d-resource-skill <category-id> --output SKILL.md",
-      "rule": "Resource discovery never justifies 3D. Select a production category first, then verify each external candidate's own licence/terms, maintenance, compatibility, security and asset provenance before use. The Awesome Blender list licence never flows through to linked resources."
+      "rule": "Resource discovery never changes the selected 3D mode and never justifies 3D. Select a production category, then verify each external candidate's licence/terms, maintenance, compatibility, security and asset provenance."
     },
     "3dDeliveryRuntime": {
-      "when": "3D is already justified and a web-ready GLB/glTF or equivalent approved asset exists or is being produced",
-      "read": ["3d-delivery-runtimes/README.md", "3d-delivery-runtimes/runtime-catalog.json", "3d-delivery-runtimes/source-policy.json"],
-      "command": "python scripts/vault-agent.py 3d-runtime \"<delivery interaction need>\" --format glb",
+      "when": "the mandatory 3D mode has been selected and an approved web-ready GLB/glTF exists for a mode that needs a browser 3D runtime",
+      "read": ["3d/mode-classification.json", "3d-delivery-runtimes/README.md", "3d-delivery-runtimes/runtime-catalog.json", "3d-delivery-runtimes/source-policy.json"],
+      "command": "python scripts/vault-agent.py 3d-runtime \"<delivery interaction need>\" --mode <selected-3d-mode> --format glb",
       "skillCommand": "python scripts/vault-agent.py 3d-runtime-skill <profile-id> --output SKILL.md",
-      "rule": "Choose the smallest sufficient delivery runtime. Prefer Google <model-viewer> for bounded inspection, hotspots, variants, animation or AR before custom Three.js; de-escalate to still/video when sufficient and escalate only for genuinely complex spatial interactions. Pin @google/model-viewer with its tested Three.js peer and verify shared/demo assets separately."
+      "rule": "Runtime selection must consume the already-selected mode. visual-only does not become rotatable because a GLB exists; inspectable/configurable modes may use <model-viewer> when bounded; spatial-exploration and interactive-world escalate to a custom runtime."
     },
     "qa": {
       "read": ["prompts/VISUAL_QA_AND_REVISION.md"],
@@ -104,13 +113,13 @@
       "when": "a human or agent needs a compact browse index instead of reading the full reference archive",
       "command": "python scripts/vault-agent.py studio-index",
       "produce": ["studio/catalog-index.json"],
-      "rule": "Studio browsing never bypasses business research, semantic effect/immersive/3D selection or source/licence boundaries."
+      "rule": "Studio browsing never bypasses business research, semantic effect/immersive/3D selection, the 3D mode gate or source/licence boundaries."
     },
     "mcp": {
-      "when": "a local MCP-capable coding agent needs compact read-only effect, immersive-template, 3D-production-resource or 3D-delivery-runtime discovery/selection and skill retrieval",
+      "when": "a local MCP-capable coding agent needs compact read-only effect, immersive-template, 3D-mode, production-resource or delivery-runtime discovery/selection and skill retrieval",
       "command": "python scripts/vault-mcp.py",
       "read": ["mcp/README.md"],
-      "rule": "The MCP adapter is local/read-only; it does not perform business-source web research, install third-party Blender resources, write files or bypass third-party entitlements."
+      "rule": "The MCP adapter is local/read-only; 3D delivery selection requires a classified mode and it does not perform business-source web research, install third-party resources, write files or bypass entitlements."
     }
   },
   "taskRoutes": {
@@ -122,9 +131,10 @@
     "celebration": ["prompts/BUILD_CELEBRATION_EVENT_MICROSITE.md", "packs/celebration-event-microsite/"],
     "immersiveWebsite": ["immersive-templates/template-catalog.json", "selected immersive template skill", "matching product-domain pack", "3D/effect selectors only when justified"],
     "interactiveEffect": ["interactive-effects/effects.json", "generated selected-effect skill"],
-    "3d": ["prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md", "packs/3d-immersive-web/", "matching product-domain pack"],
-    "3dProduction": ["3d-production-resources/resource-catalog.json", "selected 3D production-resource skill", "3d-production-resources/source-policy.json", "external candidate due diligence only after selection"],
-    "3dDelivery": ["3d-delivery-runtimes/runtime-catalog.json", "selected 3D delivery-runtime skill", "3d-delivery-runtimes/source-policy.json", "actual GLB/glTF/browser/device validation"],
+    "3d": ["prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md", "packs/3d-immersive-web/", "matching product-domain pack", "3d/mode-classification.json"],
+    "3dMode": ["3d/mode-classification.json", "classified user-control contract", "asset/runtime next stage"],
+    "3dProduction": ["selected 3D mode", "3d-production-resources/resource-catalog.json", "selected 3D production-resource skill", "external candidate due diligence"],
+    "3dDelivery": ["selected 3D mode", "3d-delivery-runtimes/runtime-catalog.json", "selected 3D delivery-runtime skill", "actual GLB/glTF/browser/device validation"],
     "productUI": ["prompts/SENIOR_PRODUCT_TEAM_PROMPT.md", "component intelligence as needed"]
   },
   "contextBudgetRules": [
@@ -135,8 +145,10 @@
     "Search/select before deep-reading references.",
     "Select the immersive architecture before opening any immersive source implementation; none is valid.",
     "Select an interactive effect before opening any external effect implementation; none is valid.",
+    "Classify the 3D mode before searching for production tools or choosing a 3D runtime.",
+    "Never infer inspectable/configurable behavior from GLB/GLTF availability alone.",
     "Select a 3D production category before opening external Blender/tool/asset sources; verify each linked resource independently.",
-    "Select a 3D delivery profile before reading model-viewer implementation examples; do not clone the full model-viewer repository into a target build.",
+    "Select a 3D delivery profile only after the mode gate and before reading model-viewer implementation examples.",
     "Never preload the full Awesome Blender list or all linked production resources.",
     "Never preload all 478 3D recipes.",
     "Never preload all 2,671 Component Gallery examples.",
