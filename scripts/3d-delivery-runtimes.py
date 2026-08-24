@@ -12,13 +12,6 @@ MODE_IDS = {
     "none", "visual-only", "authored-animation", "inspectable-object",
     "configurable-object", "spatial-exploration", "interactive-world"
 }
-PROFILE_MODES = {
-    "model-viewer-basic-inspector": {"inspectable-object"},
-    "model-viewer-annotated-inspector": {"inspectable-object"},
-    "model-viewer-variant-configurator-lite": {"configurable-object"},
-    "model-viewer-animated-product": {"authored-animation"},
-    "model-viewer-ar-placement": {"inspectable-object", "configurable-object"}
-}
 
 
 def load(path):
@@ -50,7 +43,7 @@ def validate():
     if runtime["sourceId"] not in source_ids:
         raise ValueError("runtime source is not declared")
     required = {
-        "id", "label", "summary", "goals", "signals", "requires", "features",
+        "id", "label", "summary", "compatibleModes", "goals", "signals", "requires", "features",
         "performanceTier", "mobile", "fallback", "avoid"
     }
     ids = []
@@ -60,13 +53,18 @@ def validate():
             raise ValueError(f"{item.get('id', '?')} missing {sorted(missing)}")
         if not item["fallback"] or not item["mobile"]:
             raise ValueError(f"{item['id']} missing fallback/mobile strategy")
-        if item["id"] not in PROFILE_MODES:
-            raise ValueError(f"{item['id']} missing 3D-mode compatibility mapping")
+        unknown_modes = set(item["compatibleModes"]) - MODE_IDS
+        if unknown_modes:
+            raise ValueError(f"{item['id']} has unknown compatible modes {sorted(unknown_modes)}")
+        if not item["compatibleModes"]:
+            raise ValueError(f"{item['id']} must declare at least one compatible mode")
         ids.append(item["id"])
     if len(ids) != len(set(ids)):
         raise ValueError("duplicate runtime profile ids")
     if data["selectionPolicy"].get("noneIsValid") is not True:
         raise ValueError("none must remain valid")
+    if data["selectionPolicy"].get("modeGateRequired") is not True:
+        raise ValueError("3D mode gate must remain required")
     source = next(x for x in sources["sources"] if x["id"] == runtime["sourceId"])
     if source["license"] != "Apache-2.0":
         raise ValueError("model-viewer license provenance mismatch")
@@ -80,8 +78,9 @@ def validate():
 def score(item, need, asset_format, ar_required, mode_id):
     text = tok(need)
     overlap = sorted(text & tok(item["signals"] + item["goals"] + item["features"]))
-    value = 6 if mode_id in PROFILE_MODES.get(item["id"], set()) else -100
-    reasons = [f"mode: {mode_id}"] if value > 0 else []
+    compatible = mode_id in set(item["compatibleModes"])
+    value = 6 if compatible else -100
+    reasons = [f"mode: {mode_id}"] if compatible else []
     value += min(12, len(overlap) * 3)
     if overlap:
         reasons.append("signals: " + ", ".join(overlap[:6]))
@@ -89,17 +88,18 @@ def score(item, need, asset_format, ar_required, mode_id):
         value += 3
         reasons.append(f"format: {asset_format.lower()}")
     if ar_required:
-        if item["id"] == "model-viewer-ar-placement" and mode_id in PROFILE_MODES[item["id"]]:
+        if item["id"] == "model-viewer-ar-placement" and compatible:
             value += 8
             reasons.append("AR explicitly required")
         else:
             value -= 3
-    if "ar" in text and item["id"] == "model-viewer-ar-placement" and mode_id in PROFILE_MODES[item["id"]]:
+    if "ar" in text and item["id"] == "model-viewer-ar-placement" and compatible:
         value += 5
     return {
         "id": item["id"],
         "label": item["label"],
         "score": value,
+        "compatibleModes": item["compatibleModes"],
         "performanceTier": item["performanceTier"],
         "features": item["features"],
         "reason": "; ".join(reasons) or "incompatible with selected 3D mode",
@@ -155,7 +155,7 @@ def select(need, mode_id, asset_format=None, ar_required=False):
             "candidates": []
         }
 
-    compatible = [x for x in data["profiles"] if mode_id in PROFILE_MODES.get(x["id"], set())]
+    compatible = [x for x in data["profiles"] if mode_id in set(x["compatibleModes"])]
     items = [score(x, need, asset_format, ar_required, mode_id) for x in compatible]
     items.sort(key=lambda x: (-x["score"], x["id"]))
     items = items[:data["selectionPolicy"]["maxRecommendations"]]
@@ -188,7 +188,7 @@ def skill(item):
     avoid = "\n".join(f"- {x}" for x in item["avoid"])
     features = "\n".join(f"- `{x}`" for x in item["features"])
     requirements = "\n".join(f"- {x}" for x in item["requires"])
-    compatible_modes = ", ".join(sorted(PROFILE_MODES[item["id"]]))
+    compatible_modes = ", ".join(sorted(item["compatibleModes"]))
     return f'''---
 name: implement-{item["id"]}
 description: "Implement {item["label"]} with @google/model-viewer after 3D mode, relevance and asset-production approval."
@@ -261,7 +261,7 @@ def main():
             print(json.dumps(validate(), indent=2)); return 0
         if args.cmd == "list":
             print(json.dumps([
-                {"id": x["id"], "label": x["label"], "summary": x["summary"], "compatibleModes": sorted(PROFILE_MODES[x["id"]])}
+                {"id": x["id"], "label": x["label"], "summary": x["summary"], "compatibleModes": x["compatibleModes"]}
                 for x in load(CATALOG)["profiles"]
             ], indent=2)); return 0
         if args.cmd == "select":
