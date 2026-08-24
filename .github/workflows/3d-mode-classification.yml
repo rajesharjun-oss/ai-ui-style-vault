@@ -1,0 +1,80 @@
+name: 3D mode classification
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-3d-mode-classification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile tools
+        run: |
+          python -m py_compile \
+            scripts/classify-3d-mode.py \
+            scripts/3d-delivery-runtimes.py \
+            scripts/vault-agent.py \
+            scripts/build-vault-studio-index.py \
+            scripts/vault-mcp.py
+      - name: Validate mode catalog
+        run: |
+          python -m json.tool 3d/mode-classification.json >/dev/null
+          python scripts/classify-3d-mode.py validate
+          python -m json.tool agent-runtime-index.json >/dev/null
+      - name: Validate front-door routing
+        run: |
+          python scripts/vault-agent.py --help | grep -q "3d-mode"
+          python scripts/vault-agent.py 3d-runtime --help | grep -q -- "--mode"
+          python scripts/vault-agent.py 3d-mode \
+            "users swipe or drag the mannequin 360 to inspect the dress" \
+            --subject-class garment-textile >/tmp/mode.json
+          python - <<'PY'
+          import json
+          data=json.load(open('/tmp/mode.json', encoding='utf-8'))
+          assert data['mode']['id'] == 'inspectable-object', data
+          assert data['assetPlan']['action'] == 'produce-or-source-approved-3d-asset', data
+          PY
+      - name: Validate delivery mode gate
+        run: |
+          python scripts/3d-delivery-runtimes.py select \
+            "rotate and inspect the verified dress" \
+            --mode inspectable-object \
+            --format glb >/tmp/runtime.json
+          python - <<'PY'
+          import json
+          data=json.load(open('/tmp/runtime.json', encoding='utf-8'))
+          assert data['decision'] == 'model-viewer', data
+          assert data['mode'] == 'inspectable-object', data
+          PY
+      - name: Validate Studio integration
+        run: |
+          python scripts/build-vault-studio-index.py --output /tmp/vault-studio-index.json
+          python - <<'PY'
+          import json
+          data=json.load(open('/tmp/vault-studio-index.json', encoding='utf-8'))
+          assert data['counts']['threeDModes'] == 7
+          assert '3d-mode' in data['browseKinds']
+          PY
+      - name: Validate MCP surface
+        run: |
+          python scripts/vault-mcp.py --list-tools >/tmp/vault-mcp-tools.json
+          python - <<'PY'
+          import json
+          tools={x['name']:x for x in json.load(open('/tmp/vault-mcp-tools.json', encoding='utf-8'))['tools']}
+          assert 'get_3d_mode' in tools
+          assert 'classify_3d_mode' in tools
+          runtime=tools['select_3d_delivery_runtime']['inputSchema']
+          assert 'mode' in runtime['required'], runtime
+          PY
+      - name: Run tests
+        run: |
+          python -m unittest tests.test_3d_mode_classification -v
+          python -m unittest tests.test_3d_delivery_runtimes -v
