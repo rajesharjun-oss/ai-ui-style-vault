@@ -1,0 +1,58 @@
+name: 3D production resources
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-3d-production-resources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile tools
+        run: |
+          python -m py_compile \
+            scripts/3d-production-resources.py \
+            scripts/vault-agent.py \
+            scripts/vault-mcp.py \
+            scripts/build-vault-studio-index.py
+      - name: Validate catalogs and source boundary
+        run: |
+          python -m json.tool 3d-production-resources/resource-catalog.json >/dev/null
+          python -m json.tool 3d-production-resources/source-policy.json >/dev/null
+          python scripts/3d-production-resources.py validate
+      - name: Validate front-door routing
+        run: |
+          python scripts/vault-agent.py --help | grep -q "3d-resource"
+          python scripts/vault-agent.py --help | grep -q "3d-resource-skill"
+          python -m json.tool agent-runtime-index.json >/dev/null
+      - name: Validate Studio integration
+        run: |
+          python scripts/build-vault-studio-index.py --output /tmp/vault-studio-index.json
+          python - <<'PY'
+          import json
+          data=json.load(open('/tmp/vault-studio-index.json'))
+          assert '3d-production-resource' in data['browseKinds']
+          assert data['counts']['productionResourceCategories'] >= 18
+          print('Validated Studio production-resource index')
+          PY
+      - name: Validate MCP surface
+        run: |
+          python scripts/vault-mcp.py --list-tools >/tmp/vault-mcp-tools.json
+          python - <<'PY'
+          import json
+          tools={x['name'] for x in json.load(open('/tmp/vault-mcp-tools.json'))['tools']}
+          expected={'get_3d_production_resource','select_3d_production_resource','get_3d_production_skill'}
+          assert expected <= tools, (expected, tools)
+          print('Validated 3D production MCP tools')
+          PY
+      - name: Run tests
+        run: |
+          python -m unittest tests.test_3d_production_resources -v
