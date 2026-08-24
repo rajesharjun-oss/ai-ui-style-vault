@@ -23,6 +23,7 @@ def main():
     args = p.parse_args()
     effects = load(Path("interactive-effects/effects.json"))
     immersive = load(Path("immersive-templates/template-catalog.json"))
+    modes = load(Path("3d/mode-classification.json"))
     production = load(Path("3d-production-resources/resource-catalog.json"))
     delivery = load(Path("3d-delivery-runtimes/runtime-catalog.json"))
     packs = load(Path("packs/pack-index.json"))
@@ -33,10 +34,10 @@ def main():
     recipes = sections["recipes"]
     data = {
         "name": "AI UI Style Vault Studio Index",
-        "version": "1.3.0",
+        "version": "1.4.0",
         "browseKinds": [
             "domain-pack", "section-recipe", "interactive-effect", "immersive-template",
-            "3d-production-resource", "3d-delivery-runtime", "capability-pack", "reference-pattern"
+            "3d-mode", "3d-production-resource", "3d-delivery-runtime", "capability-pack", "reference-pattern"
         ],
         "counts": {
             "domainPacks": len(product),
@@ -44,6 +45,7 @@ def main():
             "sectionRecipes": len(recipes),
             "interactiveEffects": len(effects["effects"]),
             "immersiveTemplates": len(immersive["templates"]),
+            "threeDModes": len(modes["modes"]),
             "productionResourceCategories": len(production["categories"]),
             "deliveryRuntimeProfiles": len(delivery["profiles"]),
             "referencePatterns": len(refs["referencePatterns"])
@@ -58,6 +60,14 @@ def main():
         "immersiveTemplates": [
             {"id": x["id"], "label": x["label"], "level": x["level"], "domains": x["domains"], "goals": x["goals"], "blueprint": x["blueprint"], "runtimes": x["runtimes"], "performanceTier": x["performanceTier"], "reuseMode": x["reuseMode"]}
             for x in immersive["templates"]
+        ],
+        "threeDModes": [
+            {
+                "id": x["id"], "level": x["level"], "label": x["label"], "summary": x["summary"],
+                "userControl": x["userControl"], "assetRequirement": x["assetRequirement"],
+                "preferredDelivery": x["preferredDelivery"], "nextStage": x["nextStage"]
+            }
+            for x in modes["modes"]
         ],
         "productionResources": [
             {
@@ -76,7 +86,7 @@ def main():
             for x in delivery["profiles"]
         ],
         "referencePatterns": [{"id": x["id"], "family": x["family"], "runtime": x["runtime"], "reuse": x["reuse"]} for x in refs["referencePatterns"]],
-        "rule": "Studio browsing never bypasses business research, semantic effect/immersive/3D selection or source/licence boundaries. External 3D production candidates require independent due diligence; delivery runtimes require real asset/browser validation."
+        "rule": "Studio browsing never bypasses business research, semantic effect/immersive/3D selection or source/licence boundaries. 3D mode is classified before asset production or runtime selection; file format never determines interaction mode."
     }
     target = Path(args.output)
     if not target.is_absolute():
