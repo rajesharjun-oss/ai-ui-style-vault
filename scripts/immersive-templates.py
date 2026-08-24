@@ -80,8 +80,7 @@ def score(item, profile, goal, requested_level, performance_priority, asset_read
     if asset_readiness not in item["assetReadiness"]:
         return None
     domain = profile.get("recommendedDomainPack")
-    p = profile_tokens(profile) | tok(goal)
-    overlap = sorted(p & tok(item["signals"] + item["goals"]))
+    overlap = sorted(profile_tokens(profile) & tok(item["signals"] + item["goals"]))
     value = 4
     reasons = []
     if domain in item["domains"]:
