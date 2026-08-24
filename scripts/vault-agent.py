@@ -75,6 +75,15 @@ def main():
     resource_skill.add_argument("category_id")
     resource_skill.add_argument("--output")
 
+    runtime = sub.add_parser("3d-runtime", help="Select the smallest sufficient 3D browser-delivery profile, including Google <model-viewer> when appropriate.")
+    runtime.add_argument("need")
+    runtime.add_argument("--format", choices=["glb", "gltf", "other"])
+    runtime.add_argument("--ar", action="store_true")
+
+    runtime_skill = sub.add_parser("3d-runtime-skill", help="Generate a Skill.md implementation contract for one selected 3D delivery-runtime profile.")
+    runtime_skill.add_argument("profile_id")
+    runtime_skill.add_argument("--output")
+
     studio = sub.add_parser("studio-index", help="Build the compact metadata index for the future Vault Studio browser.")
     studio.add_argument("--output", default="studio/catalog-index.json")
 
@@ -167,6 +176,20 @@ def main():
         if args.output:
             forwarded += ["--output", args.output]
         return run("3d-production-resources.py", forwarded)
+
+    if args.command == "3d-runtime":
+        forwarded = ["select", args.need]
+        if args.format:
+            forwarded += ["--format", args.format]
+        if args.ar:
+            forwarded.append("--ar")
+        return run("3d-delivery-runtimes.py", forwarded)
+
+    if args.command == "3d-runtime-skill":
+        forwarded = ["skill", args.profile_id]
+        if args.output:
+            forwarded += ["--output", args.output]
+        return run("3d-delivery-runtimes.py", forwarded)
 
     if args.command == "studio-index":
         return run("build-vault-studio-index.py", ["--output", args.output])
