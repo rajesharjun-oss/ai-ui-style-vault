@@ -1,0 +1,72 @@
+{
+  "name": "Immersive source provenance and reuse policy",
+  "version": "1.0.0",
+  "policy": [
+    "A source being public on GitHub does not imply permission to copy it.",
+    "Vendor source only when the repository grants a compatible reuse licence and required notices/assets are understood.",
+    "Reference-only sources contribute transferable interaction principles, not protected code, copy, branding, artwork, media or exact choreography.",
+    "Pinned commits make research reproducible; re-review licence and provenance before refreshing a pin."
+  ],
+  "sources": [
+    {
+      "id": "webgl-fluid-background",
+      "repository": "tkabalin/WebGL-Fluid-Background",
+      "url": "https://github.com/tkabalin/WebGL-Fluid-Background",
+      "ref": "master",
+      "pinnedCommit": "ba1f616251029fc63365bea7275ce65f1b4c1c1f",
+      "license": "MIT",
+      "reuse": "mit-reference-selective-adaptation",
+      "notes": "MIT notice must remain. Upstream itself adapts Pavel Dobryakov's fluid simulation and preserves copyright."
+    },
+    {
+      "id": "react-portfolio",
+      "repository": "Sahilmd01/React-Portfolio",
+      "url": "https://github.com/Sahilmd01/React-Portfolio",
+      "ref": "main",
+      "pinnedCommit": "836b65f68eba2d2b98c95051bdaefafc7c1a596b",
+      "license": "no licence file found during 2026-08-24 inspection",
+      "reuse": "reference-only",
+      "notes": "Use React/Framer Motion/Tailwind interaction ideas only; do not copy source/assets by default."
+    },
+    {
+      "id": "gentlerain-clone",
+      "repository": "manish-850/gentlerain.ai",
+      "url": "https://github.com/manish-850/gentlerain.ai",
+      "ref": "main",
+      "pinnedCommit": "6d0a8848dae3eda784f23595e8e834ffacbaf025",
+      "license": "no licence file found; README identifies project as an educational clone",
+      "reuse": "reference-only",
+      "notes": "Use smooth-scroll, chapter, ripple and transition mechanics as abstract research only. Never copy the original Gentlerain identity/assets/layout."
+    },
+    {
+      "id": "complete-shelf",
+      "repository": "MengTo/complete-shelf",
+      "url": "https://github.com/MengTo/complete-shelf",
+      "ref": "main",
+      "pinnedCommit": "b0b532411a9ba9f56ebcebdffe06747be0dcd84d",
+      "license": "no root reuse licence found during 2026-08-24 inspection",
+      "reuse": "reference-only",
+      "notes": "Use state-machine, deterministic transition, material-craft and accessibility principles; do not copy source/artwork without permission."
+    },
+    {
+      "id": "sylva",
+      "repository": "MengTo/sylva",
+      "url": "https://github.com/MengTo/sylva",
+      "ref": "main",
+      "pinnedCommit": "353033b8aea2fd52fe0071ed2bdc04c873984cad",
+      "license": "README explicitly says no licence is granted for reuse/redistribution of Sylva code, design or artwork",
+      "reuse": "reference-only-no-reuse-license",
+      "notes": "Only abstract procedural-world principles may be recorded. Bundled third-party components remain under their own licences."
+    },
+    {
+      "id": "website-gameover",
+      "repository": "AHMAD-JX/Website-GameOver",
+      "url": "https://github.com/AHMAD-JX/Website-GameOver",
+      "ref": "main",
+      "pinnedCommit": "a649bee850ccb3aed580b7895ea002e7852f70a1",
+      "license": "MIT",
+      "reuse": "mit-reference-selective-adaptation",
+      "notes": "Code may be adapted with notice, but audit bundled assets/plugins and their licences separately before vendoring."
+    }
+  ]
+}
