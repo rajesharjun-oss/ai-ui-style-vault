@@ -82,7 +82,7 @@ PHRASE_BOOSTS = {
         "automatic rotation", "authored animation", "assembly sequence", "scroll animation"
     ],
     "visual-only": [
-        "3d hero", "3d background", "floating object", "decorative 3d", "ambient 3d",
+        "3d hero", "hero 3d", "3d background", "floating object", "decorative 3d", "ambient 3d",
         "3d visual", "depth effect"
     ],
     "none": ["no 3d", "without 3d", "image is enough", "video is enough"]
@@ -109,7 +109,8 @@ def score_mode(mode, need):
         overlap = sorted(tokens & tok(mode["signals"]))
         base = min(8, len(overlap) * 2)
     matched_phrases = [p for p in PHRASE_BOOSTS.get(mode["id"], []) if p in text]
-    value = base + min(15, len(matched_phrases) * 5)
+    phrase_weight = 9 if mode["id"] in {"interactive-world", "spatial-exploration", "configurable-object"} else 5
+    value = base + min(24, len(matched_phrases) * phrase_weight)
     return {
         "id": mode["id"],
         "label": mode["label"],
@@ -195,7 +196,7 @@ def classify(need, subject_class=None, asset_format=None, asset_readiness="none"
 
     if mode["id"] in {"inspectable-object", "configurable-object"}:
         if assets["action"] == "validate-web-asset-and-select-runtime":
-            runtime_guidance = "Run 3d-runtime selection. Prefer <model-viewer> for bounded single-model inspection/configuration when it clears the runtime gate."
+            runtime_guidance = f"Run 3d-runtime selection with --mode {mode['id']}. Prefer <model-viewer> for bounded single-model inspection/configuration when it clears the runtime gate."
         else:
             runtime_guidance = "Keep this interaction mode, but route to 3D production-resource intelligence first to create/source an approved web-ready model."
     elif mode["id"] in {"spatial-exploration", "interactive-world"}:
