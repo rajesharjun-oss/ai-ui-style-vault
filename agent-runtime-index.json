@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault Runtime Index",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "purpose": "Keep agent context small by routing each task to only the files needed for the current stage.",
   "entry": {
     "humanAndAgentStart": "AI_START_HERE.md",
@@ -15,6 +15,8 @@
     "immersiveTemplateCatalog": "immersive-templates/template-catalog.json",
     "productionResourceEngine": "scripts/3d-production-resources.py",
     "productionResourceCatalog": "3d-production-resources/resource-catalog.json",
+    "deliveryRuntimeEngine": "scripts/3d-delivery-runtimes.py",
+    "deliveryRuntimeCatalog": "3d-delivery-runtimes/runtime-catalog.json",
     "vaultStudioIndex": "scripts/build-vault-studio-index.py",
     "vaultMCP": "scripts/vault-mcp.py",
     "designCritic": "scripts/run-design-critic.py",
@@ -23,7 +25,7 @@
   "stages": {
     "route": {
       "read": ["AI_START_HERE.md", "AGENTS.md", "prompts/prompt-index.json", "packs/pack-index.json"],
-      "avoidPreloading": ["catalog.json", "screen-catalog.json", "motion/motion-catalog.json", "3d/ai-agent-recipes.json", "all Component Gallery examples", "all HeroUI references", "all external effect implementations", "all immersive reference implementations", "the full Awesome Blender list", "all third-party 3D production implementations"]
+      "avoidPreloading": ["catalog.json", "screen-catalog.json", "motion/motion-catalog.json", "3d/ai-agent-recipes.json", "all Component Gallery examples", "all HeroUI references", "all external effect implementations", "all immersive reference implementations", "the full Awesome Blender list", "all third-party 3D production implementations", "the full google/model-viewer repository"]
     },
     "sourceIngestion": {
       "when": "user provides a Google Maps/business/site/social/directory URL or structured business-source evidence",
@@ -86,6 +88,13 @@
       "skillCommand": "python scripts/vault-agent.py 3d-resource-skill <category-id> --output SKILL.md",
       "rule": "Resource discovery never justifies 3D. Select a production category first, then verify each external candidate's own licence/terms, maintenance, compatibility, security and asset provenance before use. The Awesome Blender list licence never flows through to linked resources."
     },
+    "3dDeliveryRuntime": {
+      "when": "3D is already justified and a web-ready GLB/glTF or equivalent approved asset exists or is being produced",
+      "read": ["3d-delivery-runtimes/README.md", "3d-delivery-runtimes/runtime-catalog.json", "3d-delivery-runtimes/source-policy.json"],
+      "command": "python scripts/vault-agent.py 3d-runtime \"<delivery interaction need>\" --format glb",
+      "skillCommand": "python scripts/vault-agent.py 3d-runtime-skill <profile-id> --output SKILL.md",
+      "rule": "Choose the smallest sufficient delivery runtime. Prefer Google <model-viewer> for bounded inspection, hotspots, variants, animation or AR before custom Three.js; de-escalate to still/video when sufficient and escalate only for genuinely complex spatial interactions. Pin @google/model-viewer with its tested Three.js peer and verify shared/demo assets separately."
+    },
     "qa": {
       "read": ["prompts/VISUAL_QA_AND_REVISION.md"],
       "produce": ["VISUAL_QA_OBSERVATIONS.json", "DESIGN_CRITIC_OBSERVATIONS.json", "VISUAL_QA_REPORT.md", "EFFECT_QA_OBSERVATIONS.json when an effect ships"],
@@ -98,10 +107,10 @@
       "rule": "Studio browsing never bypasses business research, semantic effect/immersive/3D selection or source/licence boundaries."
     },
     "mcp": {
-      "when": "a local MCP-capable coding agent needs compact read-only effect, immersive-template or 3D-production-resource discovery/selection and skill retrieval",
+      "when": "a local MCP-capable coding agent needs compact read-only effect, immersive-template, 3D-production-resource or 3D-delivery-runtime discovery/selection and skill retrieval",
       "command": "python scripts/vault-mcp.py",
       "read": ["mcp/README.md"],
-      "rule": "The initial MCP adapter is local/read-only; it does not perform business-source web research, install third-party Blender resources, write files or bypass third-party entitlements."
+      "rule": "The MCP adapter is local/read-only; it does not perform business-source web research, install third-party Blender resources, write files or bypass third-party entitlements."
     }
   },
   "taskRoutes": {
@@ -115,6 +124,7 @@
     "interactiveEffect": ["interactive-effects/effects.json", "generated selected-effect skill"],
     "3d": ["prompts/BUILD_3D_IMMERSIVE_WEB_EXPERIENCE.md", "packs/3d-immersive-web/", "matching product-domain pack"],
     "3dProduction": ["3d-production-resources/resource-catalog.json", "selected 3D production-resource skill", "3d-production-resources/source-policy.json", "external candidate due diligence only after selection"],
+    "3dDelivery": ["3d-delivery-runtimes/runtime-catalog.json", "selected 3D delivery-runtime skill", "3d-delivery-runtimes/source-policy.json", "actual GLB/glTF/browser/device validation"],
     "productUI": ["prompts/SENIOR_PRODUCT_TEAM_PROMPT.md", "component intelligence as needed"]
   },
   "contextBudgetRules": [
@@ -126,6 +136,7 @@
     "Select the immersive architecture before opening any immersive source implementation; none is valid.",
     "Select an interactive effect before opening any external effect implementation; none is valid.",
     "Select a 3D production category before opening external Blender/tool/asset sources; verify each linked resource independently.",
+    "Select a 3D delivery profile before reading model-viewer implementation examples; do not clone the full model-viewer repository into a target build.",
     "Never preload the full Awesome Blender list or all linked production resources.",
     "Never preload all 478 3D recipes.",
     "Never preload all 2,671 Component Gallery examples.",
