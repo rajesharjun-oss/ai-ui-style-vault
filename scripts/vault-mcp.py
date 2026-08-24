@@ -10,8 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EFFECTS = ROOT / "interactive-effects" / "effects.json"
 IMMERSIVE = ROOT / "immersive-templates" / "template-catalog.json"
+PRODUCTION = ROOT / "3d-production-resources" / "resource-catalog.json"
 EFFECT_ENGINE = ROOT / "scripts" / "interactive-effects.py"
 IMMERSIVE_ENGINE = ROOT / "scripts" / "immersive-templates.py"
+PRODUCTION_ENGINE = ROOT / "scripts" / "3d-production-resources.py"
 
 
 def effect_catalog():
@@ -20,6 +22,10 @@ def effect_catalog():
 
 def immersive_catalog():
     return json.loads(IMMERSIVE.read_text(encoding="utf-8"))["templates"]
+
+
+def production_catalog():
+    return json.loads(PRODUCTION.read_text(encoding="utf-8"))["categories"]
 
 
 def search(query):
@@ -35,7 +41,15 @@ def search(query):
         score = sum(term in hay for term in terms)
         if score:
             out.append({"kind": "immersive-template", "id": t["id"], "label": t["label"], "score": score, "level": t["level"], "blueprint": t["blueprint"], "performanceTier": t["performanceTier"]})
-    return sorted(out, key=lambda x: (-x["score"], x["kind"], x["id"]))[:12]
+    for r in production_catalog():
+        resource_words = []
+        for candidate in r["resourceCandidates"]:
+            resource_words.extend([candidate["name"], candidate["role"]])
+        hay = " ".join([r["id"], r["label"], r["summary"], *r["domains"], *r["needs"], *r["outputs"], *resource_words]).lower()
+        score = sum(term in hay for term in terms)
+        if score:
+            out.append({"kind": "3d-production-resource", "id": r["id"], "label": r["label"], "score": score, "outputs": r["outputs"], "candidateCount": len(r["resourceCandidates"])})
+    return sorted(out, key=lambda x: (-x["score"], x["kind"], x["id"]))[:15]
 
 
 def get_effect(effect_id):
@@ -52,6 +66,13 @@ def get_immersive(template_id):
     raise KeyError(template_id)
 
 
+def get_production(category_id):
+    for r in production_catalog():
+        if r["id"] == category_id:
+            return r
+    raise KeyError(category_id)
+
+
 def run_engine(engine, args, input_profile=None):
     if input_profile is None:
         r = subprocess.run([sys.executable, str(engine), *args], cwd=ROOT, capture_output=True, text=True)
@@ -66,13 +87,16 @@ def run_engine(engine, args, input_profile=None):
 
 
 TOOLS = [
-    {"name": "search_vault", "description": "Search interactive effects and immersive templates by business purpose, runtime or signal.", "inputSchema": {"type": "object", "properties": {"query": {"type": "string"}}, "required": ["query"]}},
+    {"name": "search_vault", "description": "Search interactive effects, immersive templates and 3D production-resource categories by business purpose, runtime or production need.", "inputSchema": {"type": "object", "properties": {"query": {"type": "string"}}, "required": ["query"]}},
     {"name": "get_effect_contract", "description": "Return one machine-readable interactive-effect contract.", "inputSchema": {"type": "object", "properties": {"effect_id": {"type": "string"}}, "required": ["effect_id"]}},
     {"name": "select_interactive_effect", "description": "Select an effect or deliberately return none from a validated business profile.", "inputSchema": {"type": "object", "properties": {"profile": {"type": "object"}, "section": {"type": "string", "default": "hero"}, "performance_priority": {"enum": ["normal", "high"], "default": "normal"}, "asset_readiness": {"enum": ["strong", "adequate", "limited", "none"], "default": "limited"}}, "required": ["profile"]}},
     {"name": "get_effect_skill", "description": "Generate implementation Skill.md for a selected effect.", "inputSchema": {"type": "object", "properties": {"effect_id": {"type": "string"}}, "required": ["effect_id"]}},
     {"name": "get_immersive_template", "description": "Return one machine-readable immersive website template contract.", "inputSchema": {"type": "object", "properties": {"template_id": {"type": "string"}}, "required": ["template_id"]}},
     {"name": "select_immersive_template", "description": "Select an immersive architecture or deliberately return none from a validated business profile and user goal.", "inputSchema": {"type": "object", "properties": {"profile": {"type": "object"}, "goal": {"type": "string"}, "level": {"type": "integer", "minimum": 1, "maximum": 4}, "performance_priority": {"enum": ["normal", "high"], "default": "normal"}, "asset_readiness": {"enum": ["strong", "adequate", "limited", "none"], "default": "limited"}}, "required": ["profile", "goal"]}},
-    {"name": "get_immersive_skill", "description": "Generate implementation Skill.md for a selected immersive template.", "inputSchema": {"type": "object", "properties": {"template_id": {"type": "string"}}, "required": ["template_id"]}}
+    {"name": "get_immersive_skill", "description": "Generate implementation Skill.md for a selected immersive template.", "inputSchema": {"type": "object", "properties": {"template_id": {"type": "string"}}, "required": ["template_id"]}},
+    {"name": "get_3d_production_resource", "description": "Return one machine-readable 3D production-resource category and its discovery candidates.", "inputSchema": {"type": "object", "properties": {"category_id": {"type": "string"}}, "required": ["category_id"]}},
+    {"name": "select_3d_production_resource", "description": "Select a 3D production-resource category for a concrete asset/production need. This does not justify 3D or approve external resources.", "inputSchema": {"type": "object", "properties": {"need": {"type": "string"}, "domain": {"type": "string"}, "max": {"type": "integer", "minimum": 1, "maximum": 8}}, "required": ["need"]}},
+    {"name": "get_3d_production_skill", "description": "Generate a production Skill.md for a selected 3D resource category with rights/provenance and web-delivery gates.", "inputSchema": {"type": "object", "properties": {"category_id": {"type": "string"}}, "required": ["category_id"]}}
 ]
 
 
@@ -102,6 +126,21 @@ def call(name, args):
         if r.returncode:
             raise KeyError(args["template_id"])
         return r.stdout
+    if name == "get_3d_production_resource":
+        return get_production(args["category_id"])
+    if name == "select_3d_production_resource":
+        forwarded = ["select", args["need"]]
+        if args.get("domain"):
+            forwarded += ["--domain", args["domain"]]
+        if args.get("max"):
+            forwarded += ["--max", str(args["max"])]
+        r = run_engine(PRODUCTION_ENGINE, forwarded)
+        return json.loads(r.stdout)
+    if name == "get_3d_production_skill":
+        r = run_engine(PRODUCTION_ENGINE, ["skill", args["category_id"]])
+        if r.returncode:
+            raise KeyError(args["category_id"])
+        return r.stdout
     raise KeyError(name)
 
 
@@ -119,7 +158,7 @@ def handle(msg):
     i = msg.get("id")
     if method == "initialize":
         pv = msg.get("params", {}).get("protocolVersion") or "2025-06-18"
-        return response(i, {"protocolVersion": pv, "capabilities": {"tools": {"listChanged": False}}, "serverInfo": {"name": "ai-ui-style-vault", "version": "1.1.0"}})
+        return response(i, {"protocolVersion": pv, "capabilities": {"tools": {"listChanged": False}}, "serverInfo": {"name": "ai-ui-style-vault", "version": "1.2.0"}})
     if method == "notifications/initialized":
         return None
     if method == "ping":
