@@ -1,0 +1,38 @@
+{
+  "name": "3D Production Resource Source Policy",
+  "version": "1.0.0",
+  "principle": "A curated list can guide discovery without granting rights to the resources it links to.",
+  "sources": [
+    {
+      "id": "awesome-blender",
+      "repository": "agmmnn/awesome-blender",
+      "url": "https://github.com/agmmnn/awesome-blender",
+      "pinnedCommit": "beb0028ba436de00da336e1fd08098c1da1376df",
+      "sourceLicense": "CC0-1.0",
+      "sourceUse": "taxonomy-and-link-discovery",
+      "notes": "The Awesome Blender list is CC0 and is used as a pinned discovery/taxonomy source. The Vault does not mirror its images or treat linked projects as CC0."
+    }
+  ],
+  "linkedResourcePolicy": {
+    "inheritSourceLicense": false,
+    "defaultLicenseStatus": "verify-upstream",
+    "requirementsBeforeProductionUse": [
+      "Open the selected resource's own official repository/site and verify its current licence or terms.",
+      "Verify whether commercial use, modification, redistribution, asset embedding and generated-output use are allowed for the intended project.",
+      "Check maintenance status, Blender/runtime compatibility, export format support and security risk before installation.",
+      "Record provenance for models, textures, HDRIs, audio, datasets, scans and generated assets separately from tool/source-code provenance.",
+      "Do not redistribute paid, account-gated or restricted assets through the Vault.",
+      "Do not assume a GitHub repository or a free download is commercially reusable merely because it is publicly accessible."
+    ]
+  },
+  "realWorldRepresentationPolicy": [
+    "For a real product, property, venue, facility, person or geographic site, prefer verified geometry, approved photography/scans, owner-supplied CAD/BIM/GIS data or clearly licensed source data.",
+    "Procedural or generated geometry must not be presented as an accurate digital twin unless it was validated against authoritative source data.",
+    "Photogrammetry, maps, LiDAR and height-map sources may carry privacy, location, platform or dataset-specific restrictions that must be checked separately."
+  ],
+  "vaultBoundary": [
+    "The Vault stores its own production categories, selection rules, workflow guidance and source links.",
+    "The Vault does not mirror third-party Blender add-ons, models, textures, HDRIs, datasets, tutorials or commercial downloads by default.",
+    "A selected external resource is a candidate for due diligence, not an approved dependency or asset."
+  ]
+}

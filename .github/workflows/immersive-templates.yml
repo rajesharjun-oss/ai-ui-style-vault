@@ -1,0 +1,55 @@
+name: Immersive templates
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-immersive-templates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile tools
+        run: |
+          python -m py_compile \
+            scripts/immersive-templates.py \
+            scripts/vault-agent.py \
+            scripts/build-vault-studio-index.py \
+            scripts/vault-mcp.py
+      - name: Validate catalogs
+        run: |
+          python -m json.tool immersive-templates/template-catalog.json >/dev/null
+          python -m json.tool immersive-templates/source-policy.json >/dev/null
+          python -m json.tool agent-runtime-index.json >/dev/null
+          python scripts/immersive-templates.py validate
+      - name: Validate front door routing
+        run: |
+          python scripts/vault-agent.py --help | grep -q immersive
+          python scripts/vault-agent.py --help | grep -q immersive-skill
+      - name: Validate Studio integration
+        run: |
+          python scripts/build-vault-studio-index.py --output /tmp/vault-studio-index.json
+          python - <<'PY'
+          import json
+          data=json.load(open('/tmp/vault-studio-index.json', encoding='utf-8'))
+          assert data['counts']['immersiveTemplates'] == 6
+          assert 'immersive-template' in data['browseKinds']
+          PY
+      - name: Validate MCP surface
+        run: |
+          python scripts/vault-mcp.py --list-tools >/tmp/vault-mcp-tools.json
+          python - <<'PY'
+          import json
+          data=json.load(open('/tmp/vault-mcp-tools.json', encoding='utf-8'))
+          names={x['name'] for x in data['tools']}
+          assert {'get_immersive_template','select_immersive_template','get_immersive_skill'} <= names
+          PY
+      - name: Run tests
+        run: python -m unittest tests.test_immersive_templates -v

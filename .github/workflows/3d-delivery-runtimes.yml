@@ -1,0 +1,53 @@
+name: 3D delivery runtimes
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-3d-delivery-runtimes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile tools
+        run: |
+          python -m py_compile scripts/3d-delivery-runtimes.py scripts/vault-agent.py scripts/build-vault-studio-index.py scripts/vault-mcp.py
+      - name: Validate runtime catalogs
+        run: |
+          python -m json.tool 3d-delivery-runtimes/runtime-catalog.json >/dev/null
+          python -m json.tool 3d-delivery-runtimes/source-policy.json >/dev/null
+          python scripts/3d-delivery-runtimes.py validate
+      - name: Validate front door routing
+        run: |
+          python scripts/vault-agent.py --help | grep -q "3d-runtime"
+          python scripts/vault-agent.py --help | grep -q "3d-runtime-skill"
+      - name: Validate Studio integration
+        run: |
+          python scripts/build-vault-studio-index.py --output /tmp/vault-studio-index.json
+          python - <<'PY'
+          import json
+          data=json.load(open('/tmp/vault-studio-index.json', encoding='utf-8'))
+          assert data['counts']['deliveryRuntimeProfiles'] >= 5
+          assert '3d-delivery-runtime' in data['browseKinds']
+          print('Validated Studio delivery-runtime integration')
+          PY
+      - name: Validate MCP surface
+        run: |
+          python scripts/vault-mcp.py --list-tools >/tmp/vault-mcp-tools.json
+          python - <<'PY'
+          import json
+          tools={x['name'] for x in json.load(open('/tmp/vault-mcp-tools.json', encoding='utf-8'))['tools']}
+          expected={'get_3d_delivery_runtime','select_3d_delivery_runtime','get_3d_delivery_skill'}
+          assert expected <= tools, (expected-tools)
+          print('Validated MCP delivery-runtime tools')
+          PY
+      - name: Run tests
+        run: |
+          python -m unittest tests.test_3d_delivery_runtimes -v

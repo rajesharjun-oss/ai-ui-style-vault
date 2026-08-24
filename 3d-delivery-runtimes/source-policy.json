@@ -1,0 +1,28 @@
+{
+  "name": "AI UI Style Vault 3D Delivery Runtime Source Policy",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "google-model-viewer",
+      "repository": "google/model-viewer",
+      "repositoryUrl": "https://github.com/google/model-viewer",
+      "pinnedCommit": "297ed2bdbea0c8f921d985ff0c71afd3a819e12e",
+      "package": "@google/model-viewer",
+      "observedPackageVersion": "4.3.1",
+      "license": "Apache-2.0",
+      "peerDependencies": {
+        "three": "^0.183.0"
+      },
+      "browserSupport": "Last two major versions of evergreen desktop and mobile browsers, per upstream package README at the pinned review date.",
+      "reuse": "apache-2.0-runtime-and-pattern-adoption",
+      "rules": [
+        "Prefer installing the published package or using the official hosted build rather than copying repository internals.",
+        "When source or example code is redistributed or modified, preserve Apache-2.0 obligations, notices and modification notices as applicable.",
+        "Pin @google/model-viewer and its tested Three.js peer version for production; do not silently force an incompatible Three.js version.",
+        "Shared upstream demo models, environment maps and other assets are separate resources; verify their individual provenance before copying them into a production site.",
+        "Do not use Google trademarks or demo branding as part of the target business identity.",
+        "The runtime never makes an unverified model, property, product or claim accurate merely because it renders successfully."
+      ]
+    }
+  ]
+}

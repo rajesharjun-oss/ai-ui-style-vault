@@ -59,7 +59,8 @@ class InteractiveEffectTests(unittest.TestCase):
         r=subprocess.run([sys.executable,str(MCP),"--list-tools"],cwd=ROOT,capture_output=True,text=True)
         self.assertEqual(r.returncode,0,r.stderr)
         tools={x["name"] for x in json.loads(r.stdout)["tools"]}
-        self.assertEqual(tools,{"search_vault","get_effect_contract","select_interactive_effect","get_effect_skill"})
+        expected={"search_vault","get_effect_contract","select_interactive_effect","get_effect_skill"}
+        self.assertTrue(expected.issubset(tools), tools)
 
 if __name__=="__main__":
     unittest.main()
