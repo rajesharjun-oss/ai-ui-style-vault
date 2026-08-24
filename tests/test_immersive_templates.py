@@ -47,6 +47,30 @@ class ImmersiveTemplateTests(unittest.TestCase):
             self.assertEqual(data["decision"], "immersive-template")
             self.assertEqual(data["recommended"]["id"], "continuous-scroll-narrative")
 
+    def test_goal_does_not_count_as_business_signal(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = {
+                "status": "ready",
+                "designSelectionAllowed": True,
+                "businessCategory": "",
+                "subcategories": [],
+                "offers": [],
+                "audiences": [],
+                "primaryConversion": {},
+                "brandSignals": {},
+                "operationalFacts": {},
+                "recommendedDomainPack": "saas-technology"
+            }
+            profile = Path(td) / "profile.json"
+            profile.write_text(json.dumps(p), encoding="utf-8")
+            r = self.run_script("select", str(profile), "--goal", "storytelling", "--asset-readiness", "adequate")
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            data = json.loads(r.stdout)
+            self.assertEqual(data["decision"], "none")
+            narrative = next(x for x in data["candidates"] if x["id"] == "continuous-scroll-narrative")
+            self.assertEqual(narrative["score"], 15)
+            self.assertNotIn("business signals: storytelling", narrative["reason"])
+
     def test_high_performance_rejects_level4_high_cost(self):
         with tempfile.TemporaryDirectory() as td:
             p = self.profile(domain="hospitality", extra=["nature retreat", "landscape"])
