@@ -2,7 +2,7 @@
 
 This is the shortest supported entry point for an AI coding/design agent.
 
-The vault is large by design, but an agent should **not read the entire repository** before every build. Use progressive disclosure: understand the task, ingest/research the business when needed, model evidence-backed content/admin entities, run the router/orchestrator, resolve components, select an immersive architecture when the brief calls for one, select any justified interactive effects/3D, identify concrete 3D production needs, choose the smallest sufficient browser delivery runtime, then read only the files selected for that task.
+The vault is large by design, but an agent should **not read the entire repository** before every build. Use progressive disclosure: understand the task, ingest/research the business when needed, model evidence-backed content/admin entities, run the router/orchestrator, resolve components, select an immersive architecture when the brief calls for one, select any justified interactive effects/3D, **classify the exact 3D interaction mode**, identify concrete 3D production needs, choose the smallest sufficient browser delivery runtime, then read only the files selected for that task.
 
 ## 60-second workflow
 
@@ -83,38 +83,65 @@ python scripts/select-3d-interaction-plan.py business-profile.json --subject-cla
 
 The selected 3D plan defines what the user must be able to inspect, configure, navigate or understand. Resource availability must never be used as the reason to add 3D.
 
-13. If that 3D/immersive plan creates a concrete production need — terrain, vegetation, architecture, photogrammetry, LiDAR, materials, lighting, simulation, characters, mocap, GIS, web export, rendering, audio, data visualization or Blender automation — select the production category:
+13. **Classify the 3D mode before production or runtime selection.** This is mandatory:
+
+```bash
+python scripts/vault-agent.py 3d-mode \
+  "<explicit 3D interaction goal>" \
+  --subject-class <class> \
+  --asset-format <glb|gltf|other|none> \
+  --asset-readiness <strong|adequate|limited|none>
+```
+
+The seven modes are:
+
+```text
+0 none
+1 visual-only
+2 authored-animation
+3 inspectable-object
+4 configurable-object
+5 spatial-exploration
+6 interactive-world
+```
+
+The **interaction goal determines the mode**. The asset format only tells us whether the required asset already exists. A GLB/GLTF file never automatically means users should be able to rotate it. Conversely, “let customers swipe/drag a mannequin 360 to inspect the dress” is `inspectable-object` even if no GLB has been produced yet.
+
+14. If the selected mode requires geometry/assets that do not yet exist — terrain, vegetation, architecture, photogrammetry, LiDAR, materials, lighting, simulation, characters, mocap, GIS, web export, rendering, audio, data visualization or Blender automation — select the production category:
 
 ```bash
 python scripts/vault-agent.py 3d-resource "<concrete production need>" --domain <selected-domain-pack>
 python scripts/vault-agent.py 3d-resource-skill <category-id> --output SKILL.md
 ```
 
-The production skill provides a workflow and representative discovery candidates. Candidates are **not approved dependencies/assets**: verify each resource's own current licence/terms, compatibility, security and asset provenance before use.
+Production must satisfy the selected mode; it must not silently change the mode because a particular tool or asset is easier. Candidates are **not approved dependencies/assets**: verify each resource's own current licence/terms, compatibility, security and asset provenance before use.
 
-14. When a web-ready GLB/glTF exists, select the **smallest sufficient delivery runtime** before defaulting to custom Three.js:
+15. When the selected mode needs browser 3D and a web-ready GLB/glTF exists, choose the **smallest sufficient delivery runtime**. Pass the classified mode explicitly:
 
 ```bash
-python scripts/vault-agent.py 3d-runtime "rotate and inspect the verified product" --format glb
+python scripts/vault-agent.py 3d-runtime \
+  "rotate and inspect the verified product" \
+  --mode inspectable-object \
+  --format glb
 python scripts/vault-agent.py 3d-runtime-skill model-viewer-basic-inspector --output SKILL.md
 ```
 
-The first deep runtime adapter is Google `<model-viewer>`. It can cover bounded inspection, semantic hotspots/dimensions, material variants, glTF animation and AR placement. The selector may return `none` for a simpler still/video path or `escalate` when the interaction genuinely requires a custom 3D runtime.
+The first deep runtime adapter is Google `<model-viewer>`. `inspectable-object` and simple `configurable-object` tasks may route there. `visual-only` does not become rotatable merely because a GLB exists. `spatial-exploration` and `interactive-world` escalate to a custom Three.js/R3F/Babylon/WebGPU/WebXR plan rather than being forced into a bounded single-object viewer.
 
-15. Render desktop/mobile. If an effect ships, complete `EFFECT_QA_OBSERVATIONS.json` and run:
+16. Render desktop/mobile. If an effect ships, complete `EFFECT_QA_OBSERVATIONS.json` and run:
 
 ```bash
 python scripts/vault-agent.py effect-qa <effect-id> EFFECT_QA_OBSERVATIONS.json
 ```
 
-16. Complete `VISUAL_QA_OBSERVATIONS.json` plus `DESIGN_CRITIC_OBSERVATIONS.json` and run:
+17. Complete `VISUAL_QA_OBSERVATIONS.json` plus `DESIGN_CRITIC_OBSERVATIONS.json` and run:
 
 ```bash
 python scripts/validate-anti-generic-visual.py <site-root> VISUAL_QA_OBSERVATIONS.json --json-out visual-qa-score.json
 python scripts/run-design-critic.py vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json --json-out design-critic-result.json
 ```
 
-17. Revise until every applicable gate passes.
+18. Revise until every applicable gate passes.
 
 ## One-command helper
 
@@ -128,10 +155,11 @@ python scripts/vault-agent.py immersive business-ingestion/business-profile.json
 python scripts/vault-agent.py immersive-skill continuous-scroll-narrative --output SKILL.md
 python scripts/vault-agent.py effect business-ingestion/business-profile.json --section hero
 python scripts/vault-agent.py effect-skill ambient-particle-network --output SKILL.md
-python scripts/vault-agent.py 3d-resource "photogrammetry for an approved resort exterior" --domain hospitality
-python scripts/vault-agent.py 3d-resource-skill photogrammetry-reconstruction --output SKILL.md
-python scripts/vault-agent.py 3d-runtime "annotate verified product dimensions" --format glb
-python scripts/vault-agent.py 3d-runtime-skill model-viewer-annotated-inspector --output SKILL.md
+python scripts/vault-agent.py 3d-mode "users swipe or drag the mannequin 360 to inspect the dress" --subject-class garment-textile --asset-format none --asset-readiness none
+python scripts/vault-agent.py 3d-resource "create a web-ready mannequin and garment model" --domain fashion-couture
+python scripts/vault-agent.py 3d-resource-skill character-human --output SKILL.md
+python scripts/vault-agent.py 3d-runtime "rotate and inspect the verified dress mannequin" --mode inspectable-object --format glb
+python scripts/vault-agent.py 3d-runtime-skill model-viewer-basic-inspector --output SKILL.md
 python scripts/vault-agent.py effect-qa ambient-particle-network EFFECT_QA_OBSERVATIONS.json
 python scripts/vault-agent.py studio-index
 python scripts/vault-agent.py critic vault-build-plan.json DESIGN_CRITIC_OBSERVATIONS.json
@@ -156,22 +184,25 @@ Selection uses the validated business profile, selected domain pack, the user's 
 
 `immersive-templates/source-policy.json` pins the six research repositories. Public source is not automatically reusable source. MIT references may be selectively adapted with notices; reference-only sources contribute principles but not implementation code, branding, copy, artwork, assets or exact choreography.
 
+## 3D Mode Classification
+
+`3d/mode-classification.json` is the mandatory interaction contract after 3D relevance/intent and before production/runtime selection. It answers:
+
+> **What must the visitor actually be able to do with the 3D?**
+
+The mode is stable unless the user/product requirement changes. Do not downgrade `inspectable-object` to an authored animation because only a video is available; instead produce/source the required geometry. Do not upgrade `visual-only` to a rotatable viewer merely because a GLB exists.
+
+Detailed guidance: `3d/MODE_CLASSIFICATION.md`.
+
 ## 3D Production Resource Intelligence
 
-`3d-production-resources/resource-catalog.json` is the **production capability layer after 3D selection**. It answers:
+`3d-production-resources/resource-catalog.json` is the **production capability layer after 3D mode selection**. It answers:
 
-> We know what 3D experience and asset we need. **What production category and external resource candidates can help us create it?**
+> We know the required 3D mode and asset. **What production category and external resource candidates can help us create it?**
 
 The first catalog covers 18 production categories: procedural terrain, vegetation/nature, architectural generation, photogrammetry, point clouds/LiDAR, PBR materials/texturing, lighting/HDRI, simulation/physics, characters/humans, animation/mocap, GIS/maps, web export/glTF, asset libraries, rendering/optimization, data visualization, sound/audio, format conversion and Blender scripting.
 
 The source adapter pins `agmmnn/awesome-blender` at a known revision. Its list is CC0, but linked resources keep their own independent licences/terms. The Vault therefore stores candidate names/links and original production guidance; it does not mirror third-party Blender add-ons, models, textures, HDRIs, datasets or commercial downloads.
-
-Use:
-
-```bash
-python scripts/vault-agent.py 3d-resource "terrain and vegetation for a verified property site" --domain real-estate
-python scripts/vault-agent.py 3d-resource-skill procedural-terrain --output SKILL.md
-```
 
 A resource candidate is only a due-diligence lead. Verify its own current licence/terms, supported Blender/runtime versions, maintenance status, security implications, export compatibility, and the separate rights for any model/texture/HDRI/audio/scan/dataset used with it.
 
@@ -179,7 +210,7 @@ A resource candidate is only a due-diligence lead. Verify its own current licenc
 
 `3d-delivery-runtimes/runtime-catalog.json` is the layer between a prepared web asset and custom 3D engineering. It answers:
 
-> We already know 3D is justified and have a GLB/glTF. **Can a bounded standard runtime deliver the interaction, or do we need custom Three.js/R3F/Babylon?**
+> We already classified the interaction mode and have the required asset. **Can a bounded standard runtime deliver that mode, or do we need custom Three.js/R3F/Babylon?**
 
 The first deep adapter pins `google/model-viewer` and exposes five Vault-authored profiles:
 
@@ -189,9 +220,9 @@ The first deep adapter pins `google/model-viewer` and exposes five Vault-authore
 - `model-viewer-animated-product`
 - `model-viewer-ar-placement`
 
-Google `<model-viewer>` is designed to make interactive 3D and optional AR easier across browsers/devices. The Vault uses it as the preferred bounded delivery step before custom Three.js when its feature set is sufficient. The source policy records the Apache-2.0 software licence, reviewed package version and tested Three.js peer relationship; shared/demo assets require separate provenance review.
+The runtime selector is now **mode-gated**. It requires `--mode`, filters to compatible delivery profiles and will block when an approved GLB/glTF is missing rather than inventing a fake viewer. It escalates spatial/world modes to a custom runtime and de-escalates visual-only mode to a simpler medium.
 
-Escalate only for genuine requirements such as a navigable multi-object world, bespoke camera rail, custom physics, large spatial datasets or a deeply custom shader/render pipeline. De-escalate to still/video when interaction adds no material value.
+Google `<model-viewer>` is designed to make interactive 3D and optional AR easier across browsers/devices. The Vault uses it as the preferred bounded delivery step before custom Three.js when its feature set is sufficient. The source policy records the Apache-2.0 software licence, reviewed package version and tested Three.js peer relationship; shared/demo assets require separate provenance review.
 
 ## Interactive Effect Intelligence
 
@@ -217,9 +248,9 @@ Generate the human/agent browse index with:
 python scripts/vault-agent.py studio-index
 ```
 
-The Studio index now includes domain packs, section recipes, interactive effects, immersive templates, 3D production resources, **3D delivery-runtime profiles**, capability packs and reference patterns.
+The Studio index now includes domain packs, section recipes, interactive effects, immersive templates, **3D modes**, 3D production resources, 3D delivery-runtime profiles, capability packs and reference patterns.
 
-`scripts/vault-mcp.py` provides a local, read-only stdio MCP surface for effect, immersive-template, 3D-production-resource and 3D-delivery-runtime search/selection/skill retrieval. It does not replace business-source research, install third-party resources or mutate target projects.
+`scripts/vault-mcp.py` provides a local, read-only stdio MCP surface for effect, immersive-template, **3D-mode classification**, 3D-production-resource and 3D-delivery-runtime search/selection/skill retrieval. Delivery-runtime selection through MCP also requires the classified mode.
 
 ## What to read first
 
@@ -233,9 +264,11 @@ When a business source URL is supplied, also read `prompts/BUSINESS_SOURCE_INGES
 
 When an immersive experience is requested, read `immersive-templates/README.md` plus the template catalog and source policy, then generate the selected template's skill. Do not preload or copy the six source repositories.
 
-When a concrete 3D production need exists, read `3d-production-resources/README.md`, select one production category, generate its skill, and only then inspect the small number of external candidates needed for due diligence. Do not preload the full Awesome Blender list or treat its source-list licence as a licence for linked tools/assets.
+When 3D is justified, read `3d/mode-classification.json` / `3d/MODE_CLASSIFICATION.md` and classify the interaction mode before opening production resources or delivery-runtime implementations.
 
-When a prepared 3D asset needs browser delivery, read `3d-delivery-runtimes/README.md`, select a delivery profile, and generate its skill before opening model-viewer examples. Do not clone the entire upstream repository into the target project.
+When a concrete 3D production need exists after mode selection, read `3d-production-resources/README.md`, select one production category, generate its skill, and only then inspect the small number of external candidates needed for due diligence. Do not preload the full Awesome Blender list or treat its source-list licence as a licence for linked tools/assets.
+
+When a prepared 3D asset needs browser delivery, pass the selected mode to `3d-delivery-runtimes/` and generate the selected runtime skill before opening model-viewer examples. Do not clone the entire upstream repository into the target project.
 
 When an interactive effect is justified, read `interactive-effects/effects.json` and the generated skill for the selected effect. Read `references/threeui-community.json` only when that reference research is needed; do not preload external implementations.
 
@@ -253,9 +286,12 @@ Do **not** preload every style catalog, motion source, Component Gallery referen
 - Component semantics outrank appearance.
 - Immersive templates and interactive effects are optional; `none` is a valid selection at either layer.
 - Source-reference licences and reuse boundaries are hard gates. Do not copy reference-only implementations.
+- **Classify every justified 3D request into mode 0–6 before production/runtime selection.**
+- **A GLB/GLTF file never determines interaction mode and never automatically grants free rotation.**
+- If the selected mode requires user-manipulable geometry and the asset is missing, preserve the mode and produce/source the asset rather than faking the interaction.
 - A 3D production resource candidate is not approved until its own current licence/terms, maintenance, compatibility, security and asset provenance are verified.
 - The CC0 licence of the Awesome Blender list does not transfer to linked tools, assets, services or datasets.
-- A 3D delivery runtime does not justify 3D; it only implements an already-approved 3D task.
+- A 3D delivery runtime does not justify or change 3D mode; it implements the already-approved interaction contract.
 - Pin `@google/model-viewer` and its tested Three.js peer together unless compatibility is deliberately revalidated; do not use forced peer overrides as the default production strategy.
 - Apache-2.0 coverage of model-viewer software does not automatically clear shared/demo models, HDRIs or other third-party assets.
 - Effects must support a verified business/page purpose and may not imply fake telemetry, fake places or unsupported operational state.
@@ -279,7 +315,7 @@ Do **not** preload every style catalog, motion source, Component Gallery referen
 
 **Level 3 — Planning:** business profile, orchestrator output, selected prompt and selected pack.
 
-**Level 4 — Implementation:** only selected pack required reads, selected immersive template skill, section/component/effect/3D recipes, selected 3D production-resource skill, selected 3D delivery-runtime skill, relevant contracts and target-repo conventions.
+**Level 4 — Implementation:** only selected pack required reads, selected immersive template skill, section/component/effect/3D recipes, **selected 3D mode**, selected 3D production-resource skill, selected 3D delivery-runtime skill, relevant contracts and target-repo conventions.
 
 **Level 5 — Validation:** effect/3D/runtime performance QA when applicable, rendered QA, anti-generic gate, Design Critic and selected benchmark.
 
@@ -287,4 +323,4 @@ Do **not** preload every style catalog, motion source, Component Gallery referen
 
 ## Stop conditions
 
-Stop and request evidence instead of improvising when a real business's core offer, audience or primary conversion is unclear. A blocked URL is not inspected evidence. Stop admin/CMS generation when the requested module has no underlying evidenced or owner-defined data model. Stop immersive selection when no architecture clears the threshold. Stop effect selection when no semantic candidate clears the threshold. Stop 3D selection when the subject or interaction goal is unclear. Stop 3D production-resource selection when the required asset/output is still vague. Do not install/adopt an external production candidate until its own rights, compatibility and provenance checks are complete. Stop 3D delivery selection until a real delivery need and asset format are understood; escalate rather than forcing model-viewer when its bounded interaction model is insufficient. Stop handoff when measured/rendered evidence is missing or any applicable QA gate fails.
+Stop and request evidence instead of improvising when a real business's core offer, audience or primary conversion is unclear. A blocked URL is not inspected evidence. Stop admin/CMS generation when the requested module has no underlying evidenced or owner-defined data model. Stop immersive selection when no architecture clears the threshold. Stop effect selection when no semantic candidate clears the threshold. Stop 3D selection when the subject or interaction goal is unclear. **Stop before production/runtime selection when the 3D mode is not explicit.** Stop 3D production-resource selection when the required asset/output is still vague. Do not install/adopt an external production candidate until its own rights, compatibility and provenance checks are complete. Stop 3D delivery selection until the classified mode and actual web asset format are known; escalate rather than forcing model-viewer when the selected mode exceeds its bounded interaction model. Stop handoff when measured/rendered evidence is missing or any applicable QA gate fails.
