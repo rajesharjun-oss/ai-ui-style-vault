@@ -23,6 +23,7 @@ def main():
     args = p.parse_args()
     effects = load(Path("interactive-effects/effects.json"))
     immersive = load(Path("immersive-templates/template-catalog.json"))
+    production = load(Path("3d-production-resources/resource-catalog.json"))
     packs = load(Path("packs/pack-index.json"))
     sections = load(Path("system/section-recipes.json"))
     refs = load(Path("references/threeui-community.json"))
@@ -31,14 +32,18 @@ def main():
     recipes = sections["recipes"]
     data = {
         "name": "AI UI Style Vault Studio Index",
-        "version": "1.1.0",
-        "browseKinds": ["domain-pack", "section-recipe", "interactive-effect", "immersive-template", "capability-pack", "reference-pattern"],
+        "version": "1.2.0",
+        "browseKinds": [
+            "domain-pack", "section-recipe", "interactive-effect", "immersive-template",
+            "3d-production-resource", "capability-pack", "reference-pattern"
+        ],
         "counts": {
             "domainPacks": len(product),
             "capabilityPacks": len(capability),
             "sectionRecipes": len(recipes),
             "interactiveEffects": len(effects["effects"]),
             "immersiveTemplates": len(immersive["templates"]),
+            "productionResourceCategories": len(production["categories"]),
             "referencePatterns": len(refs["referencePatterns"])
         },
         "domainPacks": [{"id": x["id"], "name": x["name"], "triggers": x.get("triggers", [])[:8]} for x in product],
@@ -52,8 +57,16 @@ def main():
             {"id": x["id"], "label": x["label"], "level": x["level"], "domains": x["domains"], "goals": x["goals"], "blueprint": x["blueprint"], "runtimes": x["runtimes"], "performanceTier": x["performanceTier"], "reuseMode": x["reuseMode"]}
             for x in immersive["templates"]
         ],
+        "productionResources": [
+            {
+                "id": x["id"], "label": x["label"], "summary": x["summary"],
+                "domains": x["domains"], "needs": x["needs"], "outputs": x["outputs"],
+                "candidateCount": len(x["resourceCandidates"])
+            }
+            for x in production["categories"]
+        ],
         "referencePatterns": [{"id": x["id"], "family": x["family"], "runtime": x["runtime"], "reuse": x["reuse"]} for x in refs["referencePatterns"]],
-        "rule": "Studio browsing never bypasses business research, semantic effect/immersive selection or source/licence boundaries."
+        "rule": "Studio browsing never bypasses business research, semantic effect/immersive/3D selection or source/licence boundaries. External 3D production candidates require independent due diligence."
     }
     target = Path(args.output)
     if not target.is_absolute():
