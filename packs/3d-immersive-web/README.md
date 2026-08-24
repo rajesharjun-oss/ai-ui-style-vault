@@ -34,6 +34,19 @@ semantic DOM + CSS
 
 Escalate only when the preceding option cannot deliver the required interaction, accuracy or storytelling.
 
+## 3D production-resource layer
+
+Once the subject, interaction and scene direction are approved, use `3d-production-resources/` only for the **concrete production needs** that remain: terrain, vegetation, buildings, photogrammetry, LiDAR, materials, lighting, simulation, characters, mocap, GIS, glTF/web export, rendering, audio, data visualization or Blender automation.
+
+```text
+python scripts/vault-agent.py 3d-resource "<concrete production need>" --domain <domain-pack>
+python scripts/vault-agent.py 3d-resource-skill <category-id> --output SKILL.md
+```
+
+This layer does not justify 3D and does not auto-install tools. It turns a pinned Awesome Blender research source into a compact production taxonomy. The list itself is CC0, but each linked tool/add-on/asset/service/dataset retains its own independent licence/terms and must be verified before production use.
+
+Raw Blender production scenes are never treated as web deliverables. Retopology/decimation, texture baking/compression, animation reduction, export validation and browser-performance QA remain part of the delivery path.
+
 ## Required contracts
 
 - `THREE_D_RELEVANCE_CONTRACT.md`
@@ -70,6 +83,7 @@ Relevance thresholds:
 - A complete static/2D fallback is designed first.
 - Heavy assets load only after capability and intent checks.
 - Every model, texture, HDRI, animation, shader and code example has provenance and licence records.
+- External production-resource candidates require their own current licence/terms, compatibility and security checks; a curated-list licence never flows through to linked resources.
 - Reference sites are inspiration only.
 - Mobile receives an intentional lower tier.
 - Reduced motion, unsupported devices, low power, errors and context loss are complete states.
