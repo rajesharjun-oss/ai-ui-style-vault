@@ -1,0 +1,313 @@
+{
+  "name": "AI UI Style Vault 3D Production Resource Intelligence",
+  "version": "1.0.0",
+  "principle": "Choose production resources only after the 3D subject, business purpose and required deliverable are known. Resource discovery never justifies 3D by itself.",
+  "selectionPolicy": {
+    "minimumScore": 5,
+    "maxRecommendations": 4,
+    "noneIsValid": true,
+    "externalResourcesRequireDueDiligence": true
+  },
+  "categories": [
+    {
+      "id": "procedural-terrain",
+      "label": "Procedural Terrain & Landscape",
+      "summary": "Create terrain, landscape meshes, heightfields and environment bases for verified or clearly conceptual place-led experiences.",
+      "sourceId": "awesome-blender",
+      "domains": ["real-estate", "hospitality", "celebration-event-microsite"],
+      "needs": ["terrain", "landscape", "mountain", "island", "valley", "environment", "heightmap", "topography"],
+      "outputs": ["terrain-mesh", "heightmap", "landscape-texture", "environment-base"],
+      "workflow": ["Confirm whether the landscape is verified real-world or conceptual.", "Use authoritative height/GIS data when accuracy matters.", "Generate or sculpt terrain at production resolution.", "Decimate/retopologize and bake detail for web delivery.", "Export a bounded GLB/mesh plus a static fallback."],
+      "resourceCandidates": [
+        {"name": "Auto-Terrainer", "url": "https://unicornhunter.gumroad.com/l/AutoTerrainer", "role": "Blender terrain generation", "licenseStatus": "verify-upstream"},
+        {"name": "World Machine", "url": "https://www.world-machine.com/", "role": "terrain heightmaps and meshes", "licenseStatus": "verify-upstream"},
+        {"name": "Gaea", "url": "https://quadspinner.com/", "role": "terrain design", "licenseStatus": "verify-upstream"},
+        {"name": "Instant Terra", "url": "https://www.wysilab.com/", "role": "terrain generation", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["inventing a real property's terrain", "shipping raw production-density terrain to the browser"]
+    },
+    {
+      "id": "vegetation-nature",
+      "label": "Vegetation & Procedural Nature",
+      "summary": "Produce trees, bushes, moss, snow and other environmental detail for living-world or place-led scenes.",
+      "sourceId": "awesome-blender",
+      "domains": ["beauty-wellness", "hospitality", "real-estate", "celebration-event-microsite", "fashion-couture"],
+      "needs": ["vegetation", "tree", "forest", "moss", "bush", "garden", "plants", "flora", "snow", "nature"],
+      "outputs": ["procedural-vegetation", "instanced-meshes", "baked-foliage", "environment-detail"],
+      "workflow": ["Define whether vegetation is decorative, approximate or site-accurate.", "Generate reusable low/medium-poly assets or instancing systems.", "Bake materials and impostors where appropriate.", "Cap instance counts by capability tier.", "Provide a reduced-motion/static environment fallback."],
+      "resourceCandidates": [
+        {"name": "Modular Tree", "url": "https://github.com/MaximeHerpin/modular_tree/tree/blender_28", "role": "procedural trees", "licenseStatus": "verify-upstream"},
+        {"name": "tree-gen", "url": "https://github.com/friggog/tree-gen", "role": "procedural tree models", "licenseStatus": "verify-upstream"},
+        {"name": "Nino DefoQ Generators", "url": "https://ninodefoq.gumroad.com", "role": "moss/hair/snow geometry-node generators", "licenseStatus": "verify-upstream"},
+        {"name": "Pleebs Generators", "url": "https://pleebs.gumroad.com", "role": "procedural bush/wall/cobble assets", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["claiming procedural flora is an exact real-world survey", "unbounded instance counts"]
+    },
+    {
+      "id": "architectural-generation",
+      "label": "Architecture & Building Generation",
+      "summary": "Create or block out buildings, interiors, infrastructure and procedural architectural systems.",
+      "sourceId": "awesome-blender",
+      "domains": ["real-estate", "hospitality", "professional-services"],
+      "needs": ["building", "architecture", "interior", "room", "structure", "city", "infrastructure", "pipes", "catwalk"],
+      "outputs": ["building-mesh", "interior-blockout", "procedural-architecture", "infrastructure-assets"],
+      "workflow": ["Prefer owner CAD/BIM/floor plans when depicting a real development.", "Use procedural tools for blockout or clearly conceptual design.", "Separate collision/navigation geometry from visual detail.", "Bake/merge static detail for web performance.", "Export verified dimensions and scene scale."],
+      "resourceCandidates": [
+        {"name": "Buildify", "url": "https://paveloliva.gumroad.com/l/buildify", "role": "geometry-nodes building creation", "licenseStatus": "verify-upstream"},
+        {"name": "Geometry Nodes Demo", "url": "https://www.blender.org/download/demo-files/#geometry-nodes", "role": "procedural building examples", "licenseStatus": "verify-upstream"},
+        {"name": "Post USSR Builder", "url": "https://kypcaht.gumroad.com/l/PmCLJ", "role": "procedural building generation", "licenseStatus": "verify-upstream"},
+        {"name": "Industrial Geonodes", "url": "https://ko-fi.com/s/8d276833cf", "role": "pipes, vents and catwalk generation", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["using generic generated architecture as verified property geometry", "mixing incompatible scene scales"]
+    },
+    {
+      "id": "photogrammetry-reconstruction",
+      "label": "Photogrammetry & 3D Reconstruction",
+      "summary": "Reconstruct physical objects, places or surfaces from approved photographs or scans when real-world fidelity matters.",
+      "sourceId": "awesome-blender",
+      "domains": ["real-estate", "hospitality", "fashion-couture", "beauty-wellness"],
+      "needs": ["photogrammetry", "scan", "reconstruction", "photos to 3d", "real object", "real place", "digital twin", "capture"],
+      "outputs": ["reconstructed-mesh", "textured-scan", "camera-solution", "source-aligned-geometry"],
+      "workflow": ["Confirm ownership/permission for the source photographs and location/object capture.", "Reconstruct at high quality outside the web runtime.", "Clean topology, holes, scale and texture seams in Blender.", "Create a web-optimized derivative with baked maps.", "Preserve the original high-fidelity source separately from the delivery asset."],
+      "resourceCandidates": [
+        {"name": "Meshroom", "url": "https://alicevision.org/#meshroom", "role": "open-source photogrammetry", "licenseStatus": "verify-upstream"},
+        {"name": "COLMAP", "url": "https://colmap.github.io/", "role": "image-based 3D reconstruction", "licenseStatus": "verify-upstream"},
+        {"name": "MicMac", "url": "https://github.com/micmacIGN/micmac", "role": "photogrammetric reconstruction suite", "licenseStatus": "verify-upstream"},
+        {"name": "RealityScan", "url": "https://www.capturingreality.com/introducing-realityscan", "role": "mobile photo-to-3D capture", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["scanning people/locations without permission", "shipping raw scan meshes and 8K textures directly to web"]
+    },
+    {
+      "id": "point-cloud-lidar",
+      "label": "Point Cloud, LiDAR & Spatial Data",
+      "summary": "Work with measured point clouds, LiDAR and elevation data for accurate spatial context and digital-twin foundations.",
+      "sourceId": "awesome-blender",
+      "domains": ["real-estate", "hospitality", "professional-services"],
+      "needs": ["lidar", "point cloud", "survey", "elevation", "spatial data", "digital twin", "geospatial", "measured"],
+      "outputs": ["point-cloud", "survey-derived-mesh", "elevation-data", "spatial-reference"],
+      "workflow": ["Verify dataset provenance, coordinate reference system and usage terms.", "Crop to the business-relevant area.", "Convert or reconstruct only the geometry needed for the experience.", "Record scale/origin transformations.", "Create low-cost browser representations and an accessible non-3D equivalent."],
+      "resourceCandidates": [
+        {"name": "Point Cloud Visualizer", "url": "https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280", "role": "Blender point-cloud visualization and processing", "licenseStatus": "verify-upstream"},
+        {"name": "blender_kitti", "url": "https://github.com/risteon/blender_kitti", "role": "large point clouds and voxel grids", "licenseStatus": "verify-upstream"},
+        {"name": "OpenTopography", "url": "https://portal.opentopography.org/dataCatalog?formats=0", "role": "LiDAR/elevation dataset discovery", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["assuming public data is unrestricted", "losing coordinate/scale metadata during conversion"]
+    },
+    {
+      "id": "materials-texturing",
+      "label": "Materials, Textures & PBR Baking",
+      "summary": "Create, paint, derive and optimize PBR materials for products, environments and scanned assets.",
+      "sourceId": "awesome-blender",
+      "domains": ["fashion-couture", "beauty-wellness", "hospitality", "real-estate", "fast-casual-commerce", "saas-technology"],
+      "needs": ["texture", "material", "pbr", "normal map", "roughness", "uv", "surface", "bake", "cloth", "metal", "wood", "skin"],
+      "outputs": ["base-color", "normal-map", "roughness-map", "metallic-map", "ao-map", "texture-atlas"],
+      "workflow": ["Define material truth requirements and source rights.", "Author/paint at production resolution.", "Bake procedural/high-poly detail to web-ready maps.", "Atlas and compress textures by device tier.", "Check color space, UV seams and material consistency after GLB export."],
+      "resourceCandidates": [
+        {"name": "ArmorPaint", "url": "https://armorpaint.org/", "role": "PBR texture painting", "licenseStatus": "verify-upstream"},
+        {"name": "Material Maker", "url": "https://rodzilla.itch.io/material-maker", "role": "procedural material generation", "licenseStatus": "verify-upstream"},
+        {"name": "Materialize", "url": "http://boundingboxsoftware.com/materialize/", "role": "derive PBR maps from images", "licenseStatus": "verify-upstream"},
+        {"name": "AwesomeBump", "url": "https://github.com/kmkolasinski/AwesomeBump", "role": "normal/height/specular/AO map generation", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["using unlicensed texture packs", "uncompressed oversized texture sets"]
+    },
+    {
+      "id": "lighting-hdri",
+      "label": "Lighting, HDRI & Environment Lookdev",
+      "summary": "Create believable lighting, HDRI alignment and environment look-development before baking or exporting web-ready lighting.",
+      "sourceId": "awesome-blender",
+      "domains": ["fashion-couture", "beauty-wellness", "hospitality", "real-estate", "fast-casual-commerce", "saas-technology"],
+      "needs": ["lighting", "hdri", "studio light", "sun", "environment", "lookdev", "exposure", "shadow"],
+      "outputs": ["lighting-rig", "environment-map", "baked-lighting", "reflection-environment"],
+      "workflow": ["Match the lighting goal to the real product/place or approved art direction.", "Use licensed HDRIs/environment sources.", "Tune exposure/white balance/material response in Blender.", "Bake static lighting when possible for web.", "Provide lower-cost environment maps for mobile."],
+      "resourceCandidates": [
+        {"name": "Gaffer", "url": "https://github.com/gregzaal/Gaffer", "role": "lighting and HDRI management", "licenseStatus": "verify-upstream"},
+        {"name": "Extra Lights", "url": "https://github.com/jlampel/bl_extra_lights", "role": "photometric light presets", "licenseStatus": "verify-upstream"},
+        {"name": "HDRI Sun Aligner", "url": "https://github.com/akej74/hdri-sun-aligner", "role": "align scene sun to HDRI", "licenseStatus": "verify-upstream"},
+        {"name": "LeoMoon LightStudio", "url": "https://leomoon.com/downloads/plugins/leomoon-lightstudio/", "role": "lighting workflow", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["using HDRIs without verifying redistribution/embedding rights", "multiple expensive real-time lights where baked light works"]
+    },
+    {
+      "id": "simulation-physics",
+      "label": "Simulation & Physics",
+      "summary": "Create offline fluid, particle, collision and physical effects that can be baked into efficient web animation or media.",
+      "sourceId": "awesome-blender",
+      "domains": ["beauty-wellness", "fast-casual-commerce", "saas-technology", "fashion-couture"],
+      "needs": ["fluid", "liquid", "particle", "physics", "collision", "splash", "smoke", "simulation", "cloth"],
+      "outputs": ["baked-simulation", "mesh-cache", "sprite-sequence", "video", "animation-textures"],
+      "workflow": ["Decide whether the effect must be real-time or can be baked.", "Simulate offline at the quality needed for the shot/interaction.", "Reduce caches to the smallest sufficient delivery representation.", "Prefer image/video/mesh sequences over browser physics when interaction is not required.", "Provide reduced-motion and static fallbacks."],
+      "resourceCandidates": [
+        {"name": "FLIP Fluids", "url": "https://github.com/rlguy/Blender-FLIP-Fluids", "role": "liquid simulation", "licenseStatus": "verify-upstream"},
+        {"name": "Molecular Script", "url": "https://github.com/scorpion81/Blender-Molecular-Script", "role": "particle collision simulation", "licenseStatus": "verify-upstream"},
+        {"name": "Jet-Fluids", "url": "https://github.com/PavelBlend/blender_jet_fluids_addon", "role": "fluid simulation integration", "licenseStatus": "verify-upstream"},
+        {"name": "projectile", "url": "https://gumroad.com/l/projectile", "role": "artist-friendly rigid-body throwing effects", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["running production-grade Blender physics in the browser", "motion that ignores reduced-motion preferences"]
+    },
+    {
+      "id": "character-human",
+      "label": "Characters, Humans & Face/Body Generation",
+      "summary": "Produce human/character bases for approved fictional, avatar or demonstrative use while keeping identity and rights explicit.",
+      "sourceId": "awesome-blender",
+      "domains": ["fashion-couture", "hospitality", "saas-technology"],
+      "needs": ["character", "human", "avatar", "face", "body", "person", "mannequin", "digital human"],
+      "outputs": ["character-mesh", "avatar", "head-model", "riggable-human"],
+      "workflow": ["Establish whether the character is fictional, generic, user-owned or represents a real person.", "Verify tool/model output rights and likeness permissions.", "Generate/model at appropriate topology density.", "Rig/retarget only required motions.", "Create privacy-safe and performance-safe web derivatives."],
+      "resourceCandidates": [
+        {"name": "CharMorph", "url": "https://blenderartists.org/t/charmorph-character-creation-tool-mb-lab-based/1252543", "role": "open character creation workflow", "licenseStatus": "verify-upstream"},
+        {"name": "MPFB", "url": "http://static.makehumancommunity.org/mpfb.html", "role": "human generation in Blender", "licenseStatus": "verify-upstream"},
+        {"name": "FaceBuilder", "url": "https://www.keentools.io/download/facebuilder-for-blender", "role": "head/face reconstruction from photos", "licenseStatus": "verify-upstream"},
+        {"name": "Tiny Eye", "url": "https://tinynocky.gumroad.com/l/tinyeye", "role": "procedural stylized eye", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["creating a real person's likeness without permission", "using generator defaults as a business's real staff/customer imagery"]
+    },
+    {
+      "id": "animation-mocap",
+      "label": "Animation, Mocap & Camera Motion",
+      "summary": "Create or capture character/object/camera motion, then retarget and simplify it for the selected immersive experience.",
+      "sourceId": "awesome-blender",
+      "domains": ["fashion-couture", "saas-technology", "hospitality", "celebration-event-microsite"],
+      "needs": ["animation", "mocap", "motion capture", "camera", "walk", "gesture", "character motion", "camera shake", "shot"],
+      "outputs": ["skeletal-animation", "camera-animation", "retargeted-motion", "shot-timeline"],
+      "workflow": ["Define the exact state/interaction that needs motion.", "Capture or author only necessary clips.", "Clean loops, root motion and retargeting.", "Reduce keyframes/bones where possible for web.", "Test touch/keyboard states and reduced-motion alternatives."],
+      "resourceCandidates": [
+        {"name": "Rokoko Video", "url": "https://www.rokoko.com/products/video", "role": "video-based motion capture", "licenseStatus": "verify-upstream"},
+        {"name": "Camera Shakify", "url": "https://github.com/EatTheFuture/camera_shakify", "role": "camera motion", "licenseStatus": "verify-upstream"},
+        {"name": "Shot Manager by Ubisoft", "url": "https://github.com/ubisoft/shotmanager", "role": "shot organization", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["unnecessary perpetual character motion", "frame-dependent animations that cannot reach deterministic endpoints"]
+    },
+    {
+      "id": "geographic-maps",
+      "label": "Geographic, GIS & Map Production",
+      "summary": "Bring geographic and map data into Blender for verified spatial context, route stories and place-based experiences.",
+      "sourceId": "awesome-blender",
+      "domains": ["real-estate", "hospitality", "professional-services"],
+      "needs": ["map", "gis", "geographic", "openstreetmap", "route", "location", "city", "coordinates", "geospatial"],
+      "outputs": ["map-geometry", "route-network", "site-context", "georeferenced-scene"],
+      "workflow": ["Choose an authoritative/licensed map or GIS source.", "Record coordinate reference system and source date.", "Import only the relevant area/layers.", "Simplify buildings/roads/terrain for web.", "Keep an accessible 2D map/list alternative."],
+      "resourceCandidates": [
+        {"name": "BlenderGIS", "url": "https://github.com/domlysz/BlenderGIS", "role": "Blender/geographic-data bridge", "licenseStatus": "verify-upstream"},
+        {"name": "blender-osm", "url": "https://gumroad.com/l/blender-osm", "role": "OpenStreetMap/terrain import", "licenseStatus": "verify-upstream"},
+        {"name": "Maps Models Importer", "url": "https://github.com/eliemichel/MapsModelsImporter", "role": "map-model import workflow", "licenseStatus": "verify-upstream-platform-terms"}
+      ],
+      "avoid": ["bypassing map-platform terms", "presenting stale or approximate map geometry as current authoritative data"]
+    },
+    {
+      "id": "web-export-interactive",
+      "label": "Web Export, glTF & Interactive Delivery",
+      "summary": "Convert approved Blender assets into interoperable web formats or interactive pipelines while preserving scale, materials and animation.",
+      "sourceId": "awesome-blender",
+      "domains": ["saas-technology", "fashion-couture", "real-estate", "hospitality", "beauty-wellness", "fast-casual-commerce"],
+      "needs": ["web", "gltf", "glb", "export", "threejs", "webxr", "ar", "vr", "browser", "interactive 3d"],
+      "outputs": ["glb", "gltf", "webxr-scene", "optimized-web-asset"],
+      "workflow": ["Freeze approved scale/origin/naming conventions.", "Bake unsupported procedural materials and modifiers.", "Export to glTF/GLB when suitable.", "Run mesh, texture and animation optimization.", "Validate in the actual browser runtime and fallback path."],
+      "resourceCandidates": [
+        {"name": "glTF-Blender-IO", "url": "https://github.com/KhronosGroup/glTF-Blender-IO", "role": "glTF import/export", "licenseStatus": "verify-upstream"},
+        {"name": "A-Frame VR Exporter", "url": "https://github.com/silverslade/aframe_blender_exporter", "role": "A-Frame VR export", "licenseStatus": "verify-upstream"},
+        {"name": "Sketchfab Blender Addon", "url": "https://github.com/sketchfab/blender-plugin", "role": "model import/export workflow", "licenseStatus": "verify-upstream-and-platform-terms"},
+        {"name": "Verge3D", "url": "https://www.soft8soft.com/get-verge3d/", "role": "interactive 3D web authoring", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["assuming Blender shaders transfer perfectly to the browser", "exporting full production scenes without optimization"]
+    },
+    {
+      "id": "asset-library-management",
+      "label": "Asset Libraries & Production Management",
+      "summary": "Discover, organize and reuse assets/materials while keeping per-asset provenance and license records.",
+      "sourceId": "awesome-blender",
+      "domains": [],
+      "needs": ["asset library", "3d models", "materials library", "asset management", "reuse", "catalog", "sketchfab", "blenderkit"],
+      "outputs": ["asset-library", "material-library", "production-inventory"],
+      "workflow": ["Search by production need rather than visual novelty.", "Verify every asset's individual license and provenance.", "Store source URL, author, license, modifications and project usage.", "Create optimized derivatives without deleting source attribution records.", "Do not vendor restricted assets into the Vault."],
+      "resourceCandidates": [
+        {"name": "BlenderKit", "url": "https://www.blenderkit.com/", "role": "asset/material discovery inside Blender", "licenseStatus": "verify-per-asset-and-platform-terms"},
+        {"name": "Asset Wizard", "url": "https://blenderartists.org/t/asset-wizard-for-blender-2-8/1149311", "role": "asset management", "licenseStatus": "verify-upstream"},
+        {"name": "Blender Interplanety Storage", "url": "https://blenderartists.org/t/bis-online-material-storage/689728", "role": "material storage/library", "licenseStatus": "verify-upstream"},
+        {"name": "Sketchfab Blender Addon", "url": "https://github.com/sketchfab/blender-plugin", "role": "model discovery/import/export", "licenseStatus": "verify-per-asset-and-platform-terms"}
+      ],
+      "avoid": ["treating platform availability as a reuse license", "losing attribution/provenance when baking derivatives"]
+    },
+    {
+      "id": "render-optimization",
+      "label": "Rendering, Baking & Production Optimization",
+      "summary": "Manage renders, denoising and production performance when creating baked media, textures or offline sequences for immersive sites.",
+      "sourceId": "awesome-blender",
+      "domains": [],
+      "needs": ["render", "bake", "denoise", "render time", "sequence", "optimization", "offline render", "performance"],
+      "outputs": ["render-sequence", "baked-texture", "video", "optimized-production-settings"],
+      "workflow": ["Determine whether the website needs real-time 3D or pre-rendered media.", "Benchmark representative frames before committing to a long render.", "Use denoising and resolution appropriate to delivery size.", "Compress final media and test network cost.", "Keep web runtime budgets separate from Blender render budgets."],
+      "resourceCandidates": [
+        {"name": "Loom", "url": "https://github.com/p2or/blender-loom", "role": "render sequence workflow", "licenseStatus": "verify-upstream"},
+        {"name": "MDSANIMA RenderTime", "url": "https://github.com/mdsanima-dev/mdsanima-render-time", "role": "render-time estimation", "licenseStatus": "verify-upstream"},
+        {"name": "Super Fast Render", "url": "https://pidgeontools.gumroad.com/l/SuperFastRender", "role": "render setting optimization", "licenseStatus": "verify-upstream"},
+        {"name": "Super Image Denoiser", "url": "https://pidgeontools.gumroad.com/l/SuperImageDenoiser", "role": "render denoising", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["confusing offline render speed with browser FPS", "shipping unnecessarily high-bitrate sequences"]
+    },
+    {
+      "id": "data-visualization",
+      "label": "3D Data Visualization",
+      "summary": "Turn verified datasets into spatial or animated 3D representations without implying unsupported live telemetry.",
+      "sourceId": "awesome-blender",
+      "domains": ["saas-technology", "professional-services", "real-estate"],
+      "needs": ["data visualization", "csv", "analytics", "data", "chart", "network", "scientific", "telemetry", "dashboard"],
+      "outputs": ["data-driven-geometry", "baked-data-animation", "spatial-chart"],
+      "workflow": ["Validate the dataset and what it is allowed to claim.", "Choose 3D only when spatial depth materially improves comprehension.", "Generate geometry/animation deterministically from data.", "Keep accessible table/chart equivalents.", "Label demo/synthetic data explicitly."],
+      "resourceCandidates": [
+        {"name": "Blender Data Visualisation", "url": "https://github.com/Griperis/BlenderDataVis", "role": "data-driven Blender visualization", "licenseStatus": "verify-upstream"},
+        {"name": "Data-FX", "url": "https://github.com/LandonFerg/Data-FX", "role": "CSV-driven visualization", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["fake live telemetry", "decorative 3D charts that reduce comprehension"]
+    },
+    {
+      "id": "sound-audio",
+      "label": "Sound, Foley & Spatial Audio Preparation",
+      "summary": "Prepare restrained audio feedback, ambience and edited sound assets for interactive 3D experiences.",
+      "sourceId": "awesome-blender",
+      "domains": ["hospitality", "celebration-event-microsite", "fashion-couture", "saas-technology"],
+      "needs": ["sound", "audio", "foley", "music", "ambience", "interaction cue", "sound effect"],
+      "outputs": ["compressed-audio", "foley-cues", "ambient-loop", "interaction-sounds"],
+      "workflow": ["Confirm audio is justified and user-initiated where required.", "Use owned/licensed recordings or generated audio with clear rights.", "Trim, normalize and compress outside the browser.", "Cap simultaneous voices and provide persistent mute/volume controls.", "Pause or reduce audio when the page is hidden."],
+      "resourceCandidates": [
+        {"name": "Audacity", "url": "https://www.audacityteam.org/", "role": "audio editing", "licenseStatus": "verify-upstream"},
+        {"name": "AudioMass", "url": "https://audiomass.co/", "role": "web audio editing", "licenseStatus": "verify-upstream"},
+        {"name": "rFXGen", "url": "https://raylibtech.itch.io/rfxgen", "role": "sound-effect generation", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["autoplaying intrusive audio", "using sound/music without separate content rights"]
+    },
+    {
+      "id": "format-export-pipeline",
+      "label": "Format Conversion & Export Pipeline",
+      "summary": "Move geometry and animation between Blender, web and downstream tools while preserving units, axes, materials and metadata.",
+      "sourceId": "awesome-blender",
+      "domains": [],
+      "needs": ["convert", "format", "fbx", "gltf", "glb", "usdz", "unity", "export", "import", "pipeline"],
+      "outputs": ["glb", "gltf", "fbx", "usdz", "pipeline-conversion"],
+      "workflow": ["Define the canonical source format and delivery format.", "Freeze scale, axis and naming conventions.", "Test a representative asset through the full pipeline.", "Bake unsupported modifiers/materials before export.", "Verify animation, normals, tangents and texture paths in the target runtime."],
+      "resourceCandidates": [
+        {"name": "glTF-Blender-IO", "url": "https://github.com/KhronosGroup/glTF-Blender-IO", "role": "glTF import/export", "licenseStatus": "verify-upstream"},
+        {"name": "BlenderUSDZ", "url": "https://github.com/robmcrosby/BlenderUSDZ", "role": "USDZ export", "licenseStatus": "verify-upstream"},
+        {"name": "Batex", "url": "https://github.com/jayanam/batex", "role": "batch FBX export", "licenseStatus": "verify-upstream"},
+        {"name": "Fbx Format Converter", "url": "https://github.com/BobbyAnguelov/FbxFormatConverter", "role": "FBX conversion utility", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["assuming format conversion preserves every shader/constraint", "changing unit scale silently"]
+    },
+    {
+      "id": "blender-scripting-development",
+      "label": "Blender Scripting & Pipeline Development",
+      "summary": "Automate repetitive Blender production, validation, export and data-processing work with Python and supported APIs.",
+      "sourceId": "awesome-blender",
+      "domains": [],
+      "needs": ["python", "script", "automation", "addon", "pipeline", "batch", "validation", "developer", "blender api"],
+      "outputs": ["blender-addon", "automation-script", "batch-pipeline", "validator"],
+      "workflow": ["Automate only a stable, understood manual workflow.", "Use Blender's documented Python API and pin supported Blender versions.", "Keep destructive operations opt-in and reversible where possible.", "Validate outputs with deterministic checks.", "Do not embed credentials or account secrets in Blender files/scripts."],
+      "resourceCandidates": [
+        {"name": "Blender Python API", "url": "https://docs.blender.org/api/current/", "role": "official scripting API", "licenseStatus": "official-documentation"},
+        {"name": "Blender Developer Portal", "url": "https://developer.blender.org/", "role": "official development resources", "licenseStatus": "official-resource"},
+        {"name": "Search API Reference", "url": "https://github.com/tin2tin/Search-API-Reference", "role": "API/source reference search helper", "licenseStatus": "verify-upstream"},
+        {"name": "Python Stylechecker for Blender", "url": "https://github.com/tin2tin/Python_Stylechecker_for_Blender", "role": "PEP8 checking", "licenseStatus": "verify-upstream"}
+      ],
+      "avoid": ["automating an undefined artistic decision", "unreviewed scripts that download/execute arbitrary code"]
+    }
+  ]
+}
