@@ -74,11 +74,17 @@ class ThreeDModeClassificationTests(unittest.TestCase):
         self.assertEqual(data["mode"]["id"], "spatial-exploration")
         self.assertEqual(data["nextStage"], "custom-3d-runtime")
 
-    def test_ambiguous_3d_request_does_not_infer_rotation(self):
-        data = self.classify("make the hero 3D")
+    def test_generic_3d_request_does_not_infer_rotation(self):
+        data = self.classify("make it 3D")
         self.assertEqual(data["status"], "needs-clarification")
         self.assertIsNone(data["mode"])
         self.assertIn("Do not infer rotatable GLB/GLTF", data["reason"])
+
+    def test_3d_hero_defaults_visual_only_not_rotatable(self):
+        data = self.classify("make the hero 3D")
+        self.assertEqual(data["mode"]["id"], "visual-only")
+        self.assertEqual(data["userControl"], "none-or-passive-pointer-response")
+        self.assertNotIn("model-viewer", data["preferredDelivery"])
 
 
 if __name__ == "__main__":
