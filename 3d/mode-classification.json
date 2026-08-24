@@ -1,0 +1,125 @@
+{
+  "name": "AI UI Style Vault 3D Mode Classification",
+  "version": "1.0.0",
+  "purpose": "Classify an already-justified 3D request by interaction mode before choosing asset production or browser runtime. Asset format never determines the mode by itself.",
+  "hardRules": [
+    "Classify from the verified user goal and required interaction, not from visual novelty or file extension.",
+    "A GLB/GLTF asset never automatically implies user-controlled rotation.",
+    "If 3D does not materially improve comprehension, inspection, configuration, navigation or storytelling, return mode 0 (none).",
+    "Use the lowest-complexity mode that fully satisfies the user goal.",
+    "Modes 3-6 require real or clearly approved 3D geometry; CSS pseudo-3D and video are not substitutes for user-controlled geometry.",
+    "Modes 3-4 require stable bounded manipulation, reset/recenter and touch/keyboard-accessible alternatives.",
+    "Modes 5-6 require explicit navigation/camera bounds and stronger performance/fallback planning.",
+    "The selected mode does not bypass subject relevance, provenance, accessibility, performance or runtime validation gates."
+  ],
+  "modes": [
+    {
+      "level": 0,
+      "id": "none",
+      "label": "No 3D",
+      "summary": "Use normal DOM, imagery, illustration or video because real-time 3D adds no material user value.",
+      "signals": ["no 3d", "static", "simple", "image enough", "video enough", "decorative only"],
+      "userControl": "none",
+      "assetRequirement": "none",
+      "preferredDelivery": ["semantic-dom", "image", "video"],
+      "nextStage": "normal-build",
+      "examples": ["service website where a diagram explains the process better than 3D"],
+      "avoid": ["adding WebGL only to look premium"]
+    },
+    {
+      "level": 1,
+      "id": "visual-only",
+      "label": "3D Visual Only",
+      "summary": "Use depth, perspective or a rendered 3D subject as authored visual composition with no direct object manipulation.",
+      "signals": ["3d hero", "3d background", "floating object", "depth", "perspective", "ambient 3d", "decorative 3d", "visual"],
+      "userControl": "none-or-passive-pointer-response",
+      "assetRequirement": "optional-3d-source-or-rendered-media",
+      "preferredDelivery": ["css-perspective", "video", "image-sequence", "spline", "three-r3f"],
+      "nextStage": "visual-runtime-choice",
+      "examples": ["fashion hero with a floating shoe that follows an authored pose but cannot be freely rotated"],
+      "avoid": ["claiming a visual-only scene is a product inspector"]
+    },
+    {
+      "level": 2,
+      "id": "authored-animation",
+      "label": "Authored 3D Animation",
+      "summary": "Use a controlled timeline, camera path or model animation where the visitor observes or scroll-scrubs an authored sequence rather than freely manipulating the subject.",
+      "signals": ["animate", "animation", "cinematic", "scroll", "scrub", "camera path", "reveal", "assembly sequence", "timeline", "story"],
+      "userControl": "play-pause-scroll-or-chapter-control",
+      "assetRequirement": "3d-source-or-pre-rendered-sequence",
+      "preferredDelivery": ["video", "image-sequence", "model-viewer-animated-product", "three-r3f", "babylon"],
+      "nextStage": "animation-runtime-choice",
+      "examples": ["dress rotates automatically during a cinematic campaign section but users do not control the angle"],
+      "avoid": ["using autoplay motion when the actual goal is product inspection"]
+    },
+    {
+      "level": 3,
+      "id": "inspectable-object",
+      "label": "Inspectable 3D Object",
+      "summary": "Let the visitor directly inspect one bounded object using rotate/orbit, drag/swipe, zoom, presets or verified hotspots.",
+      "signals": ["inspect", "rotate", "360", "360 degree", "swipe", "drag", "orbit", "zoom", "front", "back", "side", "all angles", "turn around", "hotspot", "dimensions"],
+      "userControl": "bounded-orbit-drag-swipe-zoom",
+      "assetRequirement": "approved-glb-gltf-or-equivalent-real-geometry",
+      "preferredDelivery": ["model-viewer", "three-r3f"],
+      "nextStage": "3d-delivery-runtime",
+      "examples": ["3D mannequin wearing a dress that users can swipe or drag to inspect 360 degrees"],
+      "avoid": ["free-flight controls around a small product", "auto-rotation as the only inspection method"]
+    },
+    {
+      "level": 4,
+      "id": "configurable-object",
+      "label": "Configurable 3D Object",
+      "summary": "Let the visitor inspect an object and change verified variants, materials, components, states or options that materially affect the represented product.",
+      "signals": ["configure", "configurator", "variant", "colour", "color", "finish", "material", "swatch", "option", "customize", "change fabric", "change parts", "compare variants"],
+      "userControl": "bounded-inspection-plus-verified-configuration",
+      "assetRequirement": "approved-3d-geometry-with-real-variant-or-component-data",
+      "preferredDelivery": ["model-viewer-variant-configurator-lite", "three-r3f", "babylon"],
+      "nextStage": "3d-delivery-runtime",
+      "examples": ["mannequin dress viewer where customers rotate the look and switch only between actual available fabrics or colours"],
+      "avoid": ["inventing unavailable product options", "treating decorative colour changes as commerce truth"]
+    },
+    {
+      "level": 5,
+      "id": "spatial-exploration",
+      "label": "Spatial Exploration",
+      "summary": "Let the visitor navigate or move between meaningful places, rooms, stations, exhibits or spatial nodes where understanding location and relationship is part of the task.",
+      "signals": ["walkthrough", "walk through", "explore space", "room", "property tour", "showroom", "museum", "gallery", "navigate", "first person", "floor", "building", "world nodes", "spatial"],
+      "userControl": "guided-or-bounded-spatial-navigation",
+      "assetRequirement": "verified-or-clearly-conceptual-navigable-scene-geometry",
+      "preferredDelivery": ["three-r3f", "babylon", "webxr-when-justified"],
+      "nextStage": "custom-3d-runtime",
+      "examples": ["walk through a verified apartment or fashion showroom and move between rooms/stations"],
+      "avoid": ["using model-viewer for room-scale navigation", "unbounded fly mode when guided nodes are clearer"]
+    },
+    {
+      "level": 6,
+      "id": "interactive-world",
+      "label": "Interactive 3D World",
+      "summary": "Use a custom real-time scene with multiple independently interactive objects, game-like logic, physics, deep simulation or large spatial/data systems.",
+      "signals": ["interactive world", "game-like", "game", "physics", "multiple interactive objects", "multi-object", "character control", "simulation", "digital twin", "large spatial data", "custom shader", "gpgpu", "complex interaction"],
+      "userControl": "custom-world-interaction",
+      "assetRequirement": "production-ready-scene-assets-plus-custom-runtime-contract",
+      "preferredDelivery": ["three-r3f", "babylon", "custom-webgpu", "webxr-when-justified"],
+      "nextStage": "custom-3d-runtime",
+      "examples": ["interactive virtual fashion world with multiple mannequins, character navigation and object interactions"],
+      "avoid": ["using this mode for a single rotatable product", "adding physics without a user-task reason"]
+    }
+  ],
+  "tieBreakPriority": [
+    "interactive-world",
+    "spatial-exploration",
+    "configurable-object",
+    "inspectable-object",
+    "authored-animation",
+    "visual-only",
+    "none"
+  ],
+  "assetFormatPolicy": {
+    "rule": "Asset format confirms feasibility after mode selection; it must not upgrade the selected mode.",
+    "examples": [
+      "A GLB used only in a cinematic hero can remain authored-animation or visual-only.",
+      "A request for 360 drag/swipe inspection requires inspectable-object even when no GLB exists yet; missing geometry routes to production-resource intelligence.",
+      "A building GLB does not make a walkthrough a model-viewer task; spatial-exploration still requires a custom spatial runtime."
+    ]
+  }
+}
