@@ -46,7 +46,36 @@ assetRequirement: approved-glb-gltf-or-equivalent-real-geometry
 assetPlan.action: produce-or-source-approved-3d-asset
 ```
 
-After the model is produced and a web-ready GLB exists:
+## Asset-quality gate
+
+A GLB/GLTF that loads and rotates can still be an unacceptable product asset. A blocky mannequin, detached body parts, crude primitive-proxy garment, weak fabric response or materially invented unseen geometry must not pass simply because the file is technically valid.
+
+Before a real inspectable/configurable product proceeds to final delivery or publishing, grade `3D_ASSET_QA_OBSERVATIONS.json` against `3d/asset-quality-gate.json`:
+
+```bash
+python scripts/3d-asset-quality.py 3D_ASSET_QA_OBSERVATIONS.json
+```
+
+The quality gate evaluates:
+
+- silhouette accuracy;
+- garment/construction detail;
+- material response;
+- mannequin/anatomy proportions;
+- primitive-proxy artifacts;
+- detached or clipping geometry;
+- reference coverage for front/back/left/right when exact 360° product representation is claimed;
+- GLB load and normal integrity;
+- measured desktop/mobile behavior; and
+- non-3D fallback presence.
+
+Polygon/vertex counts are diagnostic only. They do **not** prove quality.
+
+If the asset fails, preserve the selected mode and route back to 3D production. Do not downgrade the user's requested 360° inspection just because the current GLB is poor.
+
+If back/side geometry is not verified by photographs, scan/CAD/pattern data or an owner-approved alternative source, the asset must remain clearly labelled as a concept/prototype rather than an exact commercial 360° representation.
+
+After the model exists **and clears the required quality target**:
 
 ```bash
 python scripts/vault-agent.py 3d-runtime \
@@ -61,4 +90,5 @@ The runtime selector is mode-gated: it cannot silently turn `visual-only` into a
 
 - If the request only says “make it 3D” and gives no interaction purpose, do not infer rotation/configuration/navigation.
 - If mode 3–6 is selected but approved geometry is missing, preserve the mode and route to 3D production-resource intelligence.
+- If a real inspectable/configurable product asset fails the required asset-quality target, block handoff and return to asset production.
 - If a runtime cannot satisfy the selected mode, change the runtime — **not the mode** — unless the user/product requirement itself changes.
