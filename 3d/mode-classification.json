@@ -1,6 +1,6 @@
 {
   "name": "AI UI Style Vault 3D Mode Classification",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "purpose": "Classify an already-justified 3D request by interaction mode before choosing asset production or browser runtime. Asset format never determines the mode by itself.",
   "hardRules": [
     "Classify from the verified user goal and required interaction, not from visual novelty or file extension.",
@@ -10,7 +10,9 @@
     "Modes 3-6 require real or clearly approved 3D geometry; CSS pseudo-3D and video are not substitutes for user-controlled geometry.",
     "Modes 3-4 require stable bounded manipulation, reset/recenter and touch/keyboard-accessible alternatives.",
     "Modes 5-6 require explicit navigation/camera bounds and stronger performance/fallback planning.",
-    "The selected mode does not bypass subject relevance, provenance, accessibility, performance or runtime validation gates."
+    "A technically valid or rotatable GLB/GLTF can still fail the 3D asset-quality gate; file validity and polygon count do not prove product-grade fidelity.",
+    "For exact commercial 360-degree representation, materially invented unseen back/side geometry is blocked unless verified by source imagery, scan/CAD/pattern data or an owner-approved alternative source.",
+    "The selected mode does not bypass subject relevance, provenance, asset quality, accessibility, performance or runtime validation gates."
   ],
   "modes": [
     {
@@ -61,9 +63,9 @@
       "userControl": "bounded-orbit-drag-swipe-zoom",
       "assetRequirement": "approved-glb-gltf-or-equivalent-real-geometry",
       "preferredDelivery": ["model-viewer", "three-r3f"],
-      "nextStage": "3d-delivery-runtime",
+      "nextStage": "3d-asset-quality-then-delivery-runtime",
       "examples": ["3D mannequin wearing a dress that users can swipe or drag to inspect 360 degrees"],
-      "avoid": ["free-flight controls around a small product", "auto-rotation as the only inspection method"]
+      "avoid": ["free-flight controls around a small product", "auto-rotation as the only inspection method", "blocky primitive-proxy garment presented as final product representation"]
     },
     {
       "level": 4,
@@ -74,9 +76,9 @@
       "userControl": "bounded-inspection-plus-verified-configuration",
       "assetRequirement": "approved-3d-geometry-with-real-variant-or-component-data",
       "preferredDelivery": ["model-viewer-variant-configurator-lite", "three-r3f", "babylon"],
-      "nextStage": "3d-delivery-runtime",
+      "nextStage": "3d-asset-quality-then-delivery-runtime",
       "examples": ["mannequin dress viewer where customers rotate the look and switch only between actual available fabrics or colours"],
-      "avoid": ["inventing unavailable product options", "treating decorative colour changes as commerce truth"]
+      "avoid": ["inventing unavailable product options", "treating decorative colour changes as commerce truth", "using placeholder geometry as a final configurator"]
     },
     {
       "level": 5,
@@ -87,7 +89,7 @@
       "userControl": "guided-or-bounded-spatial-navigation",
       "assetRequirement": "verified-or-clearly-conceptual-navigable-scene-geometry",
       "preferredDelivery": ["three-r3f", "babylon", "webxr-when-justified"],
-      "nextStage": "custom-3d-runtime",
+      "nextStage": "3d-asset-quality-then-custom-3d-runtime",
       "examples": ["walk through a verified apartment or fashion showroom and move between rooms/stations"],
       "avoid": ["using model-viewer for room-scale navigation", "unbounded fly mode when guided nodes are clearer"]
     },
@@ -100,7 +102,7 @@
       "userControl": "custom-world-interaction",
       "assetRequirement": "production-ready-scene-assets-plus-custom-runtime-contract",
       "preferredDelivery": ["three-r3f", "babylon", "custom-webgpu", "webxr-when-justified"],
-      "nextStage": "custom-3d-runtime",
+      "nextStage": "3d-asset-quality-then-custom-3d-runtime",
       "examples": ["interactive virtual fashion world with multiple mannequins, character navigation and object interactions"],
       "avoid": ["using this mode for a single rotatable product", "adding physics without a user-task reason"]
     }
@@ -121,5 +123,10 @@
       "A request for 360 drag/swipe inspection requires inspectable-object even when no GLB exists yet; missing geometry routes to production-resource intelligence.",
       "A building GLB does not make a walkthrough a model-viewer task; spatial-exploration still requires a custom spatial runtime."
     ]
+  },
+  "assetQualityGate": {
+    "policy": "3d/asset-quality-gate.json",
+    "command": "python scripts/vault-agent.py 3d-asset-qa 3D_ASSET_QA_OBSERVATIONS.json",
+    "rule": "For real inspectable/configurable products, runtime availability is not enough. Block final handoff when fidelity/reference/technical observations fail the required target and route back to asset production while preserving the selected 3D mode."
   }
 }
