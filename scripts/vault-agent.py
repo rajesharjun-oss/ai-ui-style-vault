@@ -72,6 +72,9 @@ def main():
     mode.add_argument("--asset-format", choices=["glb", "gltf", "other", "none"], default="none")
     mode.add_argument("--asset-readiness", choices=["strong", "adequate", "limited", "none"], default="none")
 
+    asset_qa = sub.add_parser("3d-asset-qa", help="Grade 3D asset fidelity/reference/technical observations before delivery or publish handoff.")
+    asset_qa.add_argument("observations")
+
     resource = sub.add_parser("3d-resource", help="Select a 3D production-resource category for a defined asset/production need.")
     resource.add_argument("need")
     resource.add_argument("--domain")
@@ -182,6 +185,9 @@ def main():
         if args.subject_class:
             forwarded += ["--subject-class", args.subject_class]
         return run("classify-3d-mode.py", forwarded)
+
+    if args.command == "3d-asset-qa":
+        return run("3d-asset-quality.py", [args.observations])
 
     if args.command == "3d-resource":
         forwarded = ["select", args.need]
