@@ -20,13 +20,15 @@ jobs:
         run: |
           python -m py_compile \
             scripts/classify-3d-mode.py \
+            scripts/3d-asset-quality.py \
             scripts/3d-delivery-runtimes.py \
             scripts/vault-agent.py \
             scripts/build-vault-studio-index.py \
             scripts/vault-mcp.py
-      - name: Validate mode catalog
+      - name: Validate mode and asset-quality catalogs
         run: |
           python -m json.tool 3d/mode-classification.json >/dev/null
+          python -m json.tool 3d/asset-quality-gate.json >/dev/null
           python scripts/classify-3d-mode.py validate
           python -m json.tool agent-runtime-index.json >/dev/null
       - name: Validate front-door routing
@@ -77,4 +79,5 @@ jobs:
       - name: Run tests
         run: |
           python -m unittest tests.test_3d_mode_classification -v
+          python -m unittest tests.test_3d_asset_quality -v
           python -m unittest tests.test_3d_delivery_runtimes -v
