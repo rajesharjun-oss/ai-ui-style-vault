@@ -72,7 +72,7 @@ class ThreeDModeClassificationTests(unittest.TestCase):
             "--asset-readiness", "strong"
         )
         self.assertEqual(data["mode"]["id"], "spatial-exploration")
-        self.assertEqual(data["nextStage"], "custom-3d-runtime")
+        self.assertEqual(data["nextStage"], "3d-asset-quality-then-custom-3d-runtime")
 
     def test_generic_3d_request_does_not_infer_rotation(self):
         data = self.classify("make it 3D")
