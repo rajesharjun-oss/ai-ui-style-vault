@@ -1,0 +1,54 @@
+{
+  "name": "AI UI Style Vault 3D Asset Quality Gate",
+  "version": "1.0.0",
+  "principle": "A technically valid GLB/GLTF is not automatically a production-quality 3D product asset. Geometry, visual fidelity, source coverage, material response, proportions, browser integrity and fallback behavior must all be evaluated before handoff.",
+  "qualityTargets": {
+    "prototype": {
+      "label": "Prototype / clearly labelled concept",
+      "minVisualScore": 2,
+      "exactProductRepresentationAllowed": false,
+      "requiresCompleteReferenceCoverage": false
+    },
+    "publish": {
+      "label": "Product-grade publishable asset",
+      "minVisualScore": 4,
+      "exactProductRepresentationAllowed": true,
+      "requiresCompleteReferenceCoverage": true
+    }
+  },
+  "modePolicy": {
+    "none": "not-applicable",
+    "visual-only": "prototype-or-publish-by-context",
+    "authored-animation": "prototype-or-publish-by-context",
+    "inspectable-object": "publish-required-for-exact-commercial-product",
+    "configurable-object": "publish-required-for-exact-commercial-product",
+    "spatial-exploration": "publish-required-for-verified-real-space",
+    "interactive-world": "publish-required-for-verified-real-assets; prototype allowed only when clearly conceptual"
+  },
+  "visualCriteria": [
+    "silhouetteAccuracy",
+    "garmentConstructionDetail",
+    "materialResponse",
+    "anatomyAndProportion"
+  ],
+  "hardFailures": [
+    "severePrimitiveProxy",
+    "detachedBodyOrGarmentParts",
+    "severeGarmentClipping",
+    "misleadingUnverifiedBackOrSideDetails",
+    "brokenNormalsOrGeometry",
+    "assetFailsToLoad",
+    "missingNon3DFallback"
+  ],
+  "referenceCoverage": {
+    "commercialInspectableProduct": ["front", "back", "left", "right"],
+    "alternative": "Owner-approved construction/CAD/scan/pattern source may substitute for missing photographic angles when recorded explicitly.",
+    "rule": "If unseen geometry is materially invented, the asset must remain labelled as a concept/prototype rather than an exact product representation."
+  },
+  "technicalGuidance": {
+    "polygonCountIsNotQuality": true,
+    "rule": "Triangle/vertex counts are diagnostics and performance inputs, not proof of visual quality. A dense primitive proxy can still fail; a well-authored efficient mesh can pass.",
+    "requiredChecks": ["loads", "normalsValid", "noSevereClipping", "fallbackPresent", "desktopMeasured", "mobileMeasured"]
+  },
+  "handoffRule": "For inspectable/configurable real products, block production handoff when the asset is merely a placeholder, blocky proxy or materially invented 360 view. Preserve the selected 3D mode, route back to asset production, and keep source photographs available until a publish-grade asset passes."
+}
