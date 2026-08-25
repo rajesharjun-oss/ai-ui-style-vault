@@ -10,12 +10,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EFFECTS = ROOT / "interactive-effects" / "effects.json"
 IMMERSIVE = ROOT / "immersive-templates" / "template-catalog.json"
+MODES = ROOT / "3d" / "mode-classification.json"
 PRODUCTION = ROOT / "3d-production-resources" / "resource-catalog.json"
 DELIVERY = ROOT / "3d-delivery-runtimes" / "runtime-catalog.json"
 EFFECT_ENGINE = ROOT / "scripts" / "interactive-effects.py"
 IMMERSIVE_ENGINE = ROOT / "scripts" / "immersive-templates.py"
+MODE_ENGINE = ROOT / "scripts" / "classify-3d-mode.py"
 PRODUCTION_ENGINE = ROOT / "scripts" / "3d-production-resources.py"
 DELIVERY_ENGINE = ROOT / "scripts" / "3d-delivery-runtimes.py"
+MODE_IDS = [
+    "none", "visual-only", "authored-animation", "inspectable-object",
+    "configurable-object", "spatial-exploration", "interactive-world"
+]
 
 
 def effect_catalog():
@@ -24,6 +30,10 @@ def effect_catalog():
 
 def immersive_catalog():
     return json.loads(IMMERSIVE.read_text(encoding="utf-8"))["templates"]
+
+
+def mode_catalog():
+    return json.loads(MODES.read_text(encoding="utf-8"))["modes"]
 
 
 def production_catalog():
@@ -47,6 +57,11 @@ def search(query):
         score = sum(term in hay for term in terms)
         if score:
             out.append({"kind": "immersive-template", "id": t["id"], "label": t["label"], "score": score, "level": t["level"], "blueprint": t["blueprint"], "performanceTier": t["performanceTier"]})
+    for m in mode_catalog():
+        hay = " ".join([m["id"], m["label"], m["summary"], m["userControl"], m["assetRequirement"], *m["signals"], *m["preferredDelivery"]]).lower()
+        score = sum(term in hay for term in terms)
+        if score:
+            out.append({"kind": "3d-mode", "id": m["id"], "label": m["label"], "score": score, "level": m["level"], "userControl": m["userControl"], "nextStage": m["nextStage"]})
     for r in production_catalog():
         resource_words = []
         for candidate in r["resourceCandidates"]:
@@ -60,7 +75,7 @@ def search(query):
         score = sum(term in hay for term in terms)
         if score:
             out.append({"kind": "3d-delivery-runtime", "id": d["id"], "label": d["label"], "score": score, "performanceTier": d["performanceTier"], "features": d["features"][:6]})
-    return sorted(out, key=lambda x: (-x["score"], x["kind"], x["id"]))[:18]
+    return sorted(out, key=lambda x: (-x["score"], x["kind"], x["id"]))[:20]
 
 
 def get_effect(effect_id):
@@ -75,6 +90,13 @@ def get_immersive(template_id):
         if t["id"] == template_id:
             return t
     raise KeyError(template_id)
+
+
+def get_mode(mode_id):
+    for m in mode_catalog():
+        if m["id"] == mode_id:
+            return m
+    raise KeyError(mode_id)
 
 
 def get_production(category_id):
@@ -105,18 +127,20 @@ def run_engine(engine, args, input_profile=None):
 
 
 TOOLS = [
-    {"name": "search_vault", "description": "Search interactive effects, immersive templates, 3D production resources and 3D delivery-runtime profiles by purpose or need.", "inputSchema": {"type": "object", "properties": {"query": {"type": "string"}}, "required": ["query"]}},
+    {"name": "search_vault", "description": "Search interactive effects, immersive templates, 3D modes, production resources and delivery-runtime profiles by purpose or need.", "inputSchema": {"type": "object", "properties": {"query": {"type": "string"}}, "required": ["query"]}},
     {"name": "get_effect_contract", "description": "Return one machine-readable interactive-effect contract.", "inputSchema": {"type": "object", "properties": {"effect_id": {"type": "string"}}, "required": ["effect_id"]}},
     {"name": "select_interactive_effect", "description": "Select an effect or deliberately return none from a validated business profile.", "inputSchema": {"type": "object", "properties": {"profile": {"type": "object"}, "section": {"type": "string", "default": "hero"}, "performance_priority": {"enum": ["normal", "high"], "default": "normal"}, "asset_readiness": {"enum": ["strong", "adequate", "limited", "none"], "default": "limited"}}, "required": ["profile"]}},
     {"name": "get_effect_skill", "description": "Generate implementation Skill.md for a selected effect.", "inputSchema": {"type": "object", "properties": {"effect_id": {"type": "string"}}, "required": ["effect_id"]}},
     {"name": "get_immersive_template", "description": "Return one machine-readable immersive website template contract.", "inputSchema": {"type": "object", "properties": {"template_id": {"type": "string"}}, "required": ["template_id"]}},
     {"name": "select_immersive_template", "description": "Select an immersive architecture or deliberately return none from a validated business profile and user goal.", "inputSchema": {"type": "object", "properties": {"profile": {"type": "object"}, "goal": {"type": "string"}, "level": {"type": "integer", "minimum": 1, "maximum": 4}, "performance_priority": {"enum": ["normal", "high"], "default": "normal"}, "asset_readiness": {"enum": ["strong", "adequate", "limited", "none"], "default": "limited"}}, "required": ["profile", "goal"]}},
     {"name": "get_immersive_skill", "description": "Generate implementation Skill.md for a selected immersive template.", "inputSchema": {"type": "object", "properties": {"template_id": {"type": "string"}}, "required": ["template_id"]}},
+    {"name": "get_3d_mode", "description": "Return one explicit 3D interaction-mode contract from level 0 through 6.", "inputSchema": {"type": "object", "properties": {"mode_id": {"enum": MODE_IDS}}, "required": ["mode_id"]}},
+    {"name": "classify_3d_mode", "description": "Classify an already-justified 3D request by interaction goal before asset production or runtime selection. File format never determines the mode.", "inputSchema": {"type": "object", "properties": {"need": {"type": "string"}, "subject_class": {"type": "string"}, "asset_format": {"enum": ["glb", "gltf", "other", "none"], "default": "none"}, "asset_readiness": {"enum": ["strong", "adequate", "limited", "none"], "default": "none"}}, "required": ["need"]}},
     {"name": "get_3d_production_resource", "description": "Return one machine-readable 3D production-resource category and its discovery candidates.", "inputSchema": {"type": "object", "properties": {"category_id": {"type": "string"}}, "required": ["category_id"]}},
     {"name": "select_3d_production_resource", "description": "Select a 3D production-resource category for a concrete asset/production need. This does not justify 3D or approve external resources.", "inputSchema": {"type": "object", "properties": {"need": {"type": "string"}, "domain": {"type": "string"}, "max": {"type": "integer", "minimum": 1, "maximum": 8}}, "required": ["need"]}},
     {"name": "get_3d_production_skill", "description": "Generate a production Skill.md for a selected 3D resource category with rights/provenance and web-delivery gates.", "inputSchema": {"type": "object", "properties": {"category_id": {"type": "string"}}, "required": ["category_id"]}},
     {"name": "get_3d_delivery_runtime", "description": "Return one machine-readable 3D delivery-runtime profile, currently backed by Google <model-viewer> profiles.", "inputSchema": {"type": "object", "properties": {"profile_id": {"type": "string"}}, "required": ["profile_id"]}},
-    {"name": "select_3d_delivery_runtime", "description": "Select the smallest sufficient 3D browser-delivery profile or escalate beyond <model-viewer> when the interaction is too complex.", "inputSchema": {"type": "object", "properties": {"need": {"type": "string"}, "format": {"enum": ["glb", "gltf", "other"]}, "ar": {"type": "boolean", "default": False}}, "required": ["need"]}},
+    {"name": "select_3d_delivery_runtime", "description": "Select the smallest sufficient 3D browser-delivery profile after mandatory 3D mode classification.", "inputSchema": {"type": "object", "properties": {"need": {"type": "string"}, "mode": {"enum": MODE_IDS}, "format": {"enum": ["glb", "gltf", "other"]}, "ar": {"type": "boolean", "default": False}}, "required": ["need", "mode"]}},
     {"name": "get_3d_delivery_skill", "description": "Generate implementation Skill.md for a selected 3D delivery-runtime profile.", "inputSchema": {"type": "object", "properties": {"profile_id": {"type": "string"}}, "required": ["profile_id"]}}
 ]
 
@@ -147,6 +171,18 @@ def call(name, args):
         if r.returncode:
             raise KeyError(args["template_id"])
         return r.stdout
+    if name == "get_3d_mode":
+        return get_mode(args["mode_id"])
+    if name == "classify_3d_mode":
+        forwarded = [
+            "classify", args["need"],
+            "--asset-format", args.get("asset_format", "none"),
+            "--asset-readiness", args.get("asset_readiness", "none")
+        ]
+        if args.get("subject_class"):
+            forwarded += ["--subject-class", args["subject_class"]]
+        r = run_engine(MODE_ENGINE, forwarded)
+        return json.loads(r.stdout)
     if name == "get_3d_production_resource":
         return get_production(args["category_id"])
     if name == "select_3d_production_resource":
@@ -165,7 +201,7 @@ def call(name, args):
     if name == "get_3d_delivery_runtime":
         return get_delivery(args["profile_id"])
     if name == "select_3d_delivery_runtime":
-        forwarded = ["select", args["need"]]
+        forwarded = ["select", args["need"], "--mode", args["mode"]]
         if args.get("format"):
             forwarded += ["--format", args["format"]]
         if args.get("ar"):
@@ -194,7 +230,7 @@ def handle(msg):
     i = msg.get("id")
     if method == "initialize":
         pv = msg.get("params", {}).get("protocolVersion") or "2025-06-18"
-        return response(i, {"protocolVersion": pv, "capabilities": {"tools": {"listChanged": False}}, "serverInfo": {"name": "ai-ui-style-vault", "version": "1.3.0"}})
+        return response(i, {"protocolVersion": pv, "capabilities": {"tools": {"listChanged": False}}, "serverInfo": {"name": "ai-ui-style-vault", "version": "1.4.0"}})
     if method == "notifications/initialized":
         return None
     if method == "ping":
