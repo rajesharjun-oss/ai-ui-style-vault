@@ -34,6 +34,7 @@ jobs:
       - name: Validate front-door routing
         run: |
           python scripts/vault-agent.py --help | grep -q "3d-mode"
+          python scripts/vault-agent.py --help | grep -q "3d-asset-qa"
           python scripts/vault-agent.py 3d-runtime --help | grep -q -- "--mode"
           python scripts/vault-agent.py 3d-mode \
             "users swipe or drag the mannequin 360 to inspect the dress" \
